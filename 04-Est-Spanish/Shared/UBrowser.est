@@ -103,15 +103,15 @@ WarningText="La utilidad de charla te conectará a la red "Internet Relay Chat" 
 WarningTitle="Advertencia"
 
 [UBrowserRightClickMenu]
-PlayName="&Jugar en este servidor"
+PlayName="Jugar en este servidor (&P)"
 RefreshName="Actualiza&r Todos Los Servidores"
-InfoName="Información de &Servidores y Jugadores"
+InfoName="Info. de &Servidores y Jugadores"
 FavoritesName="Agregar a &Favoritos"
 RefreshServerName="Consultar Este Serv&idor"
 PingAllName="Consult&ar Todos Los Servidores"
-OpenLocationName="A&brir Sitio"
+OpenLocationName="Abrir Sitio (&L)"
 CopyName="&Copiar Dirección de Servidor"
-;RemoveFavoritesName="&Eliminar de Favoritos"
+RemoveFavoritesName="&Eliminar de Favoritos"
 
 [UBrowserMainClientWindow]
 FavoritesName="Favoritos"
@@ -178,7 +178,7 @@ WindowTitle="Abrir Sitio"
 [UBrowserIRCSystemMenu]
 ConnectText="&Conectar"
 DisconnectText="&Desconectar"
-JoinText="&Unirse"
+JoinText="Unirse (&J)"
 
 [UBrowserFavoritesMenu]
 EditFavoriteName="&Editar favorito"
@@ -186,12 +186,12 @@ NewFavoriteName="&Nuevo favorito"
 FavoritesName="Quitar de &Favoritos"
 
 [UBrowserIRCChannelMenu]
-PartText="&Abandonar"
-JoinText="&Unirse"
+PartText="Abandonar (&L)"
+JoinText="Unirse (&J)"
 
 [UBrowserIRCPrivateMenu]
 CloseText="&Cerrar "
-JoinText="&Unirse"
+JoinText="Unirse (&J)"
 
 [UBrowserNewFavoriteWindow]
 OKText="Nuevo"

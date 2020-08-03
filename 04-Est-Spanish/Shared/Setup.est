@@ -41,22 +41,22 @@ NotEnoughSpaceTitle="Imposible Instalar Allí"
 NotEnoughSpace="No hay espacio suficiente en la unidad %s para instalar %s. Selecciona una unidad que disponga de más espacio libre, o libera espacio en ésta y prueba otra vez."
 Finish="&Finalizar"
 RebootButton="&Reiniciar"
-ExitButton="&Salir"
+ExitButton="Salir (&E)"
 
 [IDDIALOG_FilerPageAutoPlay]
 IDC_Options="Opciones de Unreal Tournament"
-IDC_Play="&Jugar"
+IDC_Play="Jugar (&P)"
 IDC_Reinstall="&Reinstalar"
-IDC_Uninstall="&Desinstalar"
+IDC_Uninstall="Desinstalar (&U)"
 IDC_ReleaseNotes="&Notas de Lanzamiento"
-IDC_Web="Sitio &Web de Unreal Tournament"
+IDC_Web="Sitio &Web de OldUnreal"
 IDC_Complete="¡La Instalación Ha Finalizado Exitosamente!"
 IDC_CompleteReboot="¡La instalación ha finalizado exitosamente!\nAntes de empezar a jugar, deberás reiniciar el ordenador."
 
 [IDDIALOG_FilerPageWelcome]
 IDC_WelcomePrompt="Estás a punto de instalar %s en tu ordenador.\n\nPulsa en 'Siguiente' para comenzar la instalación, o 'Cancelar' en cualquier momento para salir.\n\nLa información que hay en este recuadro contiene enlaces a Internet en los que puedes pulsar para obtener más información."
 IDC_WelcomePromptUpdate="Este programa actualizará %s a la versión %s.\n\nPulsa en 'Siguiente' para comenzar la instalación, o 'Cancelar' en cualquier momento para salir.\n\nLa información que hay en este recuadro contiene enlaces a Internet en los que puedes pulsar para obtener más información."
-IDC_LanguagePrompt="&Idioma"
+IDC_LanguagePrompt="&Lenguaje"
 
 [IDDIALOG_FilerPageLicense]
 IDC_LicenseText="Lee el siguiente acuerdo de licencia. La instalación de este programa requiere que aceptes estas condiciones de licencia."
@@ -81,7 +81,7 @@ IDC_FolderDescription="El instalador instalará %s en el siguiente directorio.\n
 IDC_FolderDescriptionPatch="El instalador actualizará la copia existente de %s en el siguiente directorio.\n\nPara seguir, pulsa en 'Siguiente'.\n\Si tienes instalado más de un ejemplar, teclea el nombre completo del directorio existente existente, incluyendo la letra de la unidad, por ejemplo: 'C:\\MiDirectorio'."
 IDC_FolderDescriptionMissing="El instalador actualizará la copia existente de %s.\n\nTeclea el nombre entero del directorio existente, incluyendo la letra de la unidad, por ejemplo: 'C:\\MiDirectorio'."
 IDC_FolderHolder="Directorio de Destino"
-IDC_Browse="&Examinar"
+IDC_Browse="&Buscar"
 IDC_Default="&Reajustar"
 IDC_SpaceAvailableMessage="Espacio Disponible en la Unidad:"
 IDC_FullSpaceRequiredMessage="Espacio Necesario para la Instalación por Defecto:"
@@ -104,7 +104,7 @@ IDC_RestartMessage="Tienes que reiniciar Windows para completar la instalación.
 IDC_RestartText="Antes de reiniciar, cierra todas las aplicaciones que tengas abiertas, y guarda todos los documentos en los que estés trabajando, retira tus unidades externas, y a continuación, pulsa el botón Reiniciar Windows."
 IDC_Complete="Después de reiniciar Windows, el Instalador se cerrará."
 IDC_Restart="&Reiniciar Windows"
-IDC_Exit="&Salir del Instalador"
+IDC_Exit="Salir del Instalador (&X)"
 
 [IDDIALOG_WizardDialog]
 IDC_WizardDialog="Instalación de Unreal Tournament"
