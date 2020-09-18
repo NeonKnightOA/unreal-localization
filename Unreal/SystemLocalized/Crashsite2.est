@@ -1,0 +1,50 @@
+﻿[LevelInfo1]
+Title="Dentro del UMS Prometeo"
+LevelEntryText="Dentro del UMS Prometeo"
+
+[LevelSummary]
+Title="Dentro del UMS Prometeo"
+LevelEntryText="Dentro del UMS Prometeo"
+
+[CompTablet0]
+PickupMessage="¡Has encontrado los registros de armas!"
+
+[TranslatorEvent3]
+Message="UMS Prometeo. Terminal de información: --- Red de Información desconectada ---"
+
+[TranslatorEvent2]
+Message="UMS Prometeo. Red de Navegación: Error: ¡No se ha encontrado este planeta en el mapa de la base de datos! | Permanezca a la espera para obtener los resultados del análisis principal....."
+
+[TranslatorEvent4]
+Message="UMS Prometeo. Terminal de Información: --- Red de Información desconectada ---"
+
+[TranslatorEvent12]
+Message="Diario de Michael T. Williams, oficial científico: Hemos completado la investigación hace unos días atrás, y todavía nos queda una semana para llegar a nuestro destino. Éste sería un momento ideal para relajarse - si no estuviéramos atrapados en esta maldita nave."
+
+[TranslatorEvent1]
+Message="UMS Prometeo. Red de Navegación: Advertencia: ¡Peligro de proximidad! ¡Contacto inminente con la superficie planetaria!"
+
+[TranslatorEvent0]
+Message="UMS Prometeo. Red de Navegación: Estado: Detectada entrada en atmósfera. | Advertencia: Velocidad de descenso ha sobrepasado el límite aceptable. | Peligro: ¡Brecha detectada en el casco de la Sección B3! | Peligro: ¡Brecha detectada en el casco de la Sección B2! | Advertencia: Integridad del casco descendió al 26% en la Sección A3. | Peligro: ¡Brecha detectada en el casco de la sección A2!"
+
+[TransitionGenderEvent0]
+OutDelays[1]=12.000000
+OutDelays[2]=3.000000
+OutDelays[3]=5.000000
+OutDelays[4]=1.500000
+OutDelays[5]=11.000000
+OutDelays[6]=3.000000
+OutDelays[7]=7.000000
+OutDelays[8]=9.000000
+OutDelays[9]=26.000000
+MaleText[0]="Milagrosamente, el sistema de comunicaciòn translumínica del Prometeo funciona todavía. Trasteando en el centro de comunicaciones, me topé con esta conversación capturada y registrada por los ordenadores:"
+FemaleText[0]="Milagrosamente, el sistema de comunicaciòn translumínica del Prometeo funciona todavía. Trasteando en el centro de comunicaciones, me topé con esta conversación capturada y registrada por los ordenadores:"
+CommonText[1]="Nave del espacio exterior UMS Bodega Bay..."
+CommonText[2]="...para asegurar el éxito de la operación "Talon Hunter"."
+CommonText[3]="Recibido."
+CommonText[4]="Y una cosa más, Bodega Bay. La Operación "Talon Hunter" se ha clasificado como Ultra-Secreta. Una vez concluida la misión, deben introducir las medidas necesarias para eliminar todo elemento de riesgo potencial."
+CommonText[5]="Starlight Base, solicitamos clarificación."
+CommonText[6]="Bodega Bay, asegúrense de que el prisionero 849 no vuelva. Acaben con el prisionero una vez concluida su tarea."
+CommonText[7]="Entendido Starlight Base. El prisionero 849 será eliminado cuando concluya la operación "Talon Hunter". Bodega Bay, cambio y fuera."
+MaleText[8]="¡Traicionado! Ni tan siquiera me sorprende. Debería haber sabido a qué atenerme con esos cerdos. Supongo que lo único que puedo hacer es seguirles el juego. Recuperar los núcleos de datos, activar el ELT del puente, y después intentar secuestrar la lanzadera cuando venga a buscarme. Lo veo difícil, pero no tengo más remedio. Si no lo logro y alguien recupera alguna vez este registro, quizás se llegue a conocer la verdad."
+FemaleText[8]="¡Traicionada! Ni tan siquiera me sorprende. Debería haber sabido a qué atenerme con esos cerdos. Supongo que lo único que puedo hacer es seguirles el juego. Recuperar los núcleos de datos, activar el ELT del puente, y después intentar secuestrar la lanzadera cuando venga a buscarme. Lo veo difícil, pero no tengo más remedio. Si no lo logro y alguien recupera alguna vez este registro, quizás se llegue a conocer la verdad."

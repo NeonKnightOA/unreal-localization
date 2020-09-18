@@ -1,0 +1,82 @@
+﻿[General]
+Run="¡Ejecutar!"
+FirstTime="Configuración Inicial de Unreal"
+SafeMode="Modo Seguro de Unreal"
+Video="Configuración de vídeo de Unreal"
+RecoveryMode="Modo de recuperación de Unreal"
+WebPage="http://www.oldunreal.com"
+Direct3DWebPage="http://www.microsoft.com/directx"
+Detecting="Detectando dispositivos de vídeo en 3D, espera..."
+SoundLow="Baja calidad de sonido"
+SoundHigh="Alta calidad de sonido"
+SkinsLow="Nivel medio de detalle de la textura de la piel de los jugadores"
+SkinsHigh="Nivel alto de detalle de la textura de la piel de los jugadores"
+WorldLow="Nivel medio de detalle de la textura del mundo"
+WorldHigh="Nivel alto de detalle de la textura del mundo"
+ResLow="Resolución de vídeo baja"
+ResHigh="Resolución de vídeo estándar"
+
+[Descriptions]
+OpenGLDrv.OpenGLRenderDevice="Utiliza el soporte avanzado de OpenGL para Unreal. Otorga el mejor rendimiento y soporta tarjetas gráficas de gama alta. Soporta texturas de alta resolución."
+SoftDrv.SoftwareRenderDevice="Procesador integrado de software de Unreal. Compatible con todas las tarjetas de vídeo."
+GlideDrv.GlideRenderDevice="Compatible con tarjetas 3dfx Glide; la elección idónea para los usuarios de 3dfx. Es imprescindible disponer de una tarjeta 3dfx."
+D3DDrv.D3DRenderDevice="Utiliza el procesador de hardware de Direct3D. Compatible con tarjetas gráficas más antiguas. No se recomienda usar con aceleradoras muy antiguas - utiliza la reproducción por software si posees una ATI Rage Pro, Riva 128, Intel i740 o Rendition V2200."
+D3D8Drv.D3D8RenderDevice="Utiliza el procesador de hardware de Direct3D 8. Compatible con la mayoría de las tarjetas gráficas. Soporta texturas de alta resolución."
+D3D9Drv.D3D9RenderDevice="Utiliza el procesador de hardware de Direct3D 9. Compatible con tarjetas gráficas más recientes. Soporta texturas de alta resolución."
+MetalDrv.MetalRenderDevice="Para usuarios de tarjetas de vídeo S3 Savage4."
+ALAudio.ALAudioSubsystem="Utiliza el soporte avanzado para OpenAL de Unreal. Otorga el mejor rendimiento y soporta tarjetas de audio de alto rendimiento. Asegúrate de tener los controladores más recientes para tu tarjeta de sonido. Soporta EAX/EFX. Funciona mejor con SoundBlaster."
+FMODAudioDrv.FMODAudioDevice="Sonido FMOD de Unreal. Soporta el modelo original de reverberaciòn, funciona mejor con tarjetas sonoras de rango medio y bajo y sonido integrado."
+Galaxy.GalaxyAudioSubsystem="Sonido de audio Galaxy. Obsoleto. Urilizar como último recurso."
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=" "
+IDC_DetailPrompt="De acuerdo a la velocidad, memoria y la tarjeta de vídeo de tu ordenador, Unreal ha seleccionado las siguientes opciones con el fin de mejorar el rendimiento del juego."
+IDC_DetailNote="Si quieres, puedes cambiar estas opciones desde el menú de "Preferencias" del juego."
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=" "
+IDC_Prompt="Unreal está iniciándose por primera vez. Si te encuentras con algún problema, consulta las notas de la versión de Unreal en la carpeta "Help" de tu instalación de Unreal."
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=" "
+IDC_RenderPrompt="Tu ordenador soporta los siguientes dispositivos de video en 3D. Elige el que más se adecúe a tu sistema."
+IDC_RenderNote=" "
+IDC_Compatible="Mostrar dispositivos compatibles y certificados"
+IDC_All="Mostrar todos los dispositivos"
+
+[IDDIALOG_ConfigPageSound]
+IDC_ConfigPageSound=" "
+IDC_SoundPrompt="Tu ordenador soporta los siguientes dispositivos de sonido. Elige el que más se adecúe a tu sistema."
+IDC_SoundNote=" "
+IDC_Compatible="Mostrar dispositivos compatibles y certificados"
+IDC_All="Mostrar todos los dispositivos"
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=" "
+IDC_SafeModePrompt="Unreal no fue cerrado correctamente durante su última ejecución. En caso que el apagado fuera causado por un error, puedes utilizar las opciones de abajo para recuperación."
+IDC_SafeModePrompt2="Opciones de modo seguro de Unreal: Si experimentas problemas, puedes usar las opciones de abajo para recuperación."
+IDC_Run="Ejecutar Unreal"
+IDC_Video="Cambiar el dispositivo de vídeo 3D"
+IDC_Audio="Cambiar el dispositivo de sonido"
+IDC_SafeMode="Ejecutar Unreal en modo seguro - para detectar problemas"
+IDC_Web="Visita nuestra página web para solucionar problemas"
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=" "
+IDC_SafeOptions="Opciones de modo seguro, para diagnosticar problemas"
+IDC_NoSound="Desactivar el sonido"
+IDC_No3DSound="Desactivar hardware de sonido 3D"
+IDC_No3DVideo="Desactivar hardware de vídeo 3D"
+IDC_Window="Ejecutar el juego en una ventana (en lugar de pantalla completa)"
+IDC_Res="Ejecutar en resolución estándar 640x480"
+IDC_ResetConfig="Restaurar todas las configuraciones a sus valores por defecto"
+IDC_NoProcessor="Desactivar las extensiones de procesador Pentium III/3DNow"
+IDC_NoJoy="Desactivar soporte de mando"
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=" "
+IDC_DriverText="Unreal ha detectado la siguiente tarjeta de vídeo compatible:"
+IDC_DriverInfo="Ya que has escogido OpenGL o Direct3D, Unreal intentará usar esta tarjeta de vídeo.\n\nAún así, algunas tarjetas necesitan controladores actualizados para que las características 3D de Unreal funcionen sin problemas. Te recomendamos visitar el enlace abajo para más información sobre la compatibilidad de tu tarjeta de vídeo, y para obtener los últimos controladores Direct3D.\n\nSi experimentas errores gráficos como colores incorrectos, polígonos centelleantes, bajo rendimiento, o congelamientos, utiliza el "Modo Seguro de Unreal" para cambiar tu dispositivo 3D."
+IDC_Web="Para obtener enlaces hacia los drivers más nuevos, visita nuestra página web:"
+IDC_WebButton="Información y Controladores Direct3D"
+IDC_Card="Desconocida"

@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+Title="Subsuelo Terraniux"
+LevelEntryText="Entrando al Subsuelo Terraniux"
+
+[LevelSummary]
+Title="Subsuelo Terraniux"
+LevelEntryText="Entrando al Subsuelo Terraniux"
+
+[SpecialEvent0]
+Message="ALERTA"
+
+[TranslatorEvent0]
+Message="Control de Flujo de Desechos Biotóxicos: el flujo es constante. Debe ser controlado para detectar fluctuaciones peligrosas en viscosidad o presión. Parece que la alarma aún tiene problemas, en caso de funcionamiento defectuoso activar los dos controles de anulación."
+AltMessage="Ascensor activado. Se recuerda a todo el personal que finalice sus tareas asignadas."
+
+[TranslatorEvent5]
+Message="Estado de Drenaje: el flujo de Desechos Biotóxicos está a niveles nominales. Todas las bombas en funcionamiento. Sección C vacía y disponible para cualquier desbordamiento del Desechador Biotóxico. Favor de asegurarse de que el canal regular de mantenimiento esté bajo operación."
+
+[TranslatorEvent4]
+Message="Estado de Seguridad: Intruso detectado en la entrada. Activando las pantallas de seguridad en el Laboratorio de Investigación Científica y en la Sección Hidropónica. Todos los elementos de seguridad alrededor de los puntos de acceso en las Secciones A, B y C deberán detener al intruso antes de que llegue al Ascensor 1."
+Hint="Busca las salas de Contención A, B y C y activa los botones para acceder al Ascensor 1."
+
+[TranslatorEvent3]
+Message="Estado de la Sala de Control: Presurizada y cerrada. Prohibido entrar excepto en caso de emergencia."
+
+[TranslatorEvent1]
+Message="Se ha activado la estación de bombeo, se espera que despues de la operación la capacidad de almacenamiento sea de un 32%"
+AltMessage="Sección D: alcanzado el 54% de la capacidad."
