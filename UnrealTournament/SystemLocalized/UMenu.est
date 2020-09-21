@@ -1,6 +1,6 @@
-﻿[public]
-Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Dorado")
-Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Azul")
+﻿[Public]
+Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Oro")
+Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Hielo")
 Object=(Name=UMenu.UMenuMetalLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Metal")
 
 [UMenuBotmatchClientWindow]
@@ -620,7 +620,7 @@ NetSpeedHelp="Selecciona la velocidad que más se acerque a tu conexión a inter
 NetSpeeds[0]="Lenta (Módem 28.8 - 56K)"
 NetSpeeds[1]="Rápida (ISDN)"
 NetSpeeds[2]="Más Rápida (Cable, xDSL)"
-NetSpeeds[3]="Red de área local (LAN)"
+NetSpeeds[3]="Red de Área Local (LAN)"
 
 [UMenuInputOptionsClientWindow]
 AutoAimText="Autoapuntar"
@@ -716,7 +716,7 @@ ConsoleHelp="Esta opción abre la consola de Unreal. Puedes utilizarla para intr
 TimeDemoName="Estadísticas de Demostración de T&iempo"
 TimeDemoHelp="Activa las estadísticas de demostración de tiempo para medir tu velocidad de visualización."
 LogName="Mostrar Registro (&L)"
-LogHelp="Muestra la ventana de registro de comandos de Unreal Tournament."
+LogHelp="Muestra la ventana de registro de Unreal Tournament."
 
 [UMenuSaveGameClientWindow]
 CantSave="Imposible Guardar: estás muerto."
