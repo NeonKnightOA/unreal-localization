@@ -103,9 +103,9 @@ OpenHelp="Introduce una URL estándar, o selecciona una del historial de URL. Pu
 WindowTitle="Explorador Web"
 
 [UBrowserLibPageWindow]
-DLLTitleStr="No se puede conectar: Librería de Vínculo Dinámico ''%s'' No Encontrada."
-DLLVerTitleStr="No se puede conectar: Versión Errónea de Librería de Vínculo Dinámico ''%s''."
-InfoText[0]="Para conectarse a este servidor se necesita la librería de C++ adicional ''%s''."
+DLLTitleStr="No se puede conectar: Librería de Vínculo Dinámico "%s" No Encontrada."
+DLLVerTitleStr="No se puede conectar: Versión Errónea de Librería de Vínculo Dinámico "%s"."
+InfoText[0]="Para conectarse a este servidor se necesita la librería de C++ adicional "%s"."
 InfoText[1]="Para mayor información ver la información externa a continuación (alojada por %s):"
 
 [UBrowserServerWebCW]

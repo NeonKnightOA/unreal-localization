@@ -1,5 +1,5 @@
 ﻿[Public]
-Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Armas Viejas,Sustituye los sonidos de las armas por los de la versión 200 de Unreal.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Armas Antiguas,Sustituye los sonidos de las armas por los de la versión 200 de Unreal.")
 Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
@@ -84,6 +84,7 @@ ItemName="Lanzacuchillas"
 
 [OldDefaultAmmo]
 PickupMessage="Has recogido algo de munción."
+ItemName="Munición"
 
 [OldASMDAmmo]
 PickupMessage="Has recogido un Núcleo de ASMD"
@@ -110,8 +111,8 @@ PickupMessage="Has recogido un Cartucho"
 ItemName="Cartucho"
 
 [OldRifleRound]
-PickupMessage="Tienes un Cartucho de Francotirador"
-ItemName="Cartucho de Francotirador"
+PickupMessage="Tienes un Cartucho para el Rifle"
+ItemName="Cartucho de Rifle"
 
 [OldFlakShellAmmo]
 PickupMessage="Tienes un Proyectil de Metralla"

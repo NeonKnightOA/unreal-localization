@@ -23,6 +23,9 @@ OKText="Aceptar"
 ShowColorsText="Mostrar mensajes de la consola en color"
 ShowChatText="Sólo archivar mensajes de chat"
 
+[UWindowSmallOKButton]
+OKText="OK"
+
 [AdminGUIPlayersGrid]
 PlayerID="ID#"
 PlayerName="Nom. Jugador"
@@ -91,7 +94,7 @@ PriorTrackHint="Pista anterior"
 NextTrackHint="Pista siguiente"
 
 [UWindowNetErrorWindow]
-WindowTitle="Error en Estado de la Red del Jugador"
+WindowTitle="Error de Estado de Red del Jugador"
 
 [AdminGUIMainWindow]
 WindowTitle="Menú de Administración"
@@ -100,7 +103,7 @@ WindowTitle="Menú de Administración"
 RemoveBanTxt="Elimina&r Veto"
 CloseMenuTxt="&Cerrar"
 RefreshTxt="Actualiza&r Lista de Vetos"
-ManualBanTxt="Insertar &Manualmente Entrada"
+ManualBanTxt="Insertar Veto &Manualmente"
 
 [MMMusListWindow]
 WindowTitle="Pistas múltiples encontradas:"
@@ -124,7 +127,7 @@ CloseMenuTxt="&Cerrar"
 RefreshTxt="Actualiza&r Lista de Jugadores"
 
 [AdminGUIManualBanWnd]
-WindowTitle="Insertar Veto Manual"
+WindowTitle="Ingresar Veto Manualmente"
 
 [AdminGUITBanLGrid]
 GettingBanListText="Obteniendo lista de vetos temporales del servidor, si no pasa nada quizás no hayas ingresado como administrador (o no hay vetos temporales en el servidor)."

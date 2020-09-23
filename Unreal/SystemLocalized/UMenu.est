@@ -1,9 +1,9 @@
 ﻿[public]
+Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Unreal")
 Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console)
 Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Oro")
 Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Hielo")
 Object=(Name=UMenu.UMenuMetalLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Metal")
-Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Unreal")
 
 [UMenuBotmatchClientWindow]
 StartMatchTab="Partida"
@@ -314,8 +314,8 @@ SpectatorText="Jugar como espectador"
 SpectatorHelp="Activa esta casilla para observar la acción del juego como espectador."
 
 [UMenuStartMatchClientWindow]
-GameText="Partida:"
-GameClassText="Clase de juego:"
+GameText="Tipo Partida:"
+GameClassText="Clase Partida:"
 GameHelp="Selecciona el tipo de partida que quieres jugar."
 MapText="Mapa:"
 MapHelp="Selecciona el mapa en el que quieres jugar."
@@ -696,11 +696,11 @@ DodgingHelp="Esquivarás al pulsar dos veces las teclas de desplazamiento (adela
 EditAreaWidth=130
 NetSpeedText="Conexión a Internet:"
 NetSpeedHelp="Selecciona la velocidad que más se acerque a tu conexión a internet. Si hay un gran retardo, prueba con una opción menor."
-NetSpeeds[0]="(Dial-Up Networking)"
-NetSpeeds[1]="(Dial-Up Networking)"
-NetSpeeds[2]="(Broadband)"
-NetSpeeds[3]="(Broadband)"
-NetSpeeds[4]="(LAN)"
+NetSpeeds[0]="(Conexión Dial-Up)"
+NetSpeeds[1]="(Conexión Dial-Up)"
+NetSpeeds[2]="(Banda Ancha)"
+NetSpeeds[3]="(Banda Ancha)"
+NetSpeeds[4]="(Red Área Local)"
 
 [UMenuInputOptionsClientWindow]
 AutoAimText="Autoapuntar"
@@ -871,7 +871,7 @@ DesktopHelp="Puedes ver el juego detrás de los menús o el logo en el escritori
 PlayerMenuName="&Configuración del jugador"
 PlayerMenuHelp="Configura tu jugador para jugar contra Bots o para multijugador."
 AdvancedOptionsName="&Opciones avanzadas"
-AdvancedOptionsHelp="Abre el menú de opciones avanzadas."
+AdvancedOptionsHelp="Abre el menú de opciones avanzadas, en donde se puede acceder a configuraciones avanzadas."
 
 [UMenuStatsMenu]
 ViewLocalName="Ver Estadísticas Locales"
@@ -882,9 +882,6 @@ AboutName="Ayuda sobre &ngStats"
 AboutHelp="Obtener información sobre el registro de las estadísticas locales."
 About2Name="Ayuda para &ngWorldStats"
 About2Help="Obtener información sobre el registro de las estadísticas globales."
-
-[UnrealConsole]
-ClassCaption="Consola de Buscador UMenu"
 
 [UMenuModMenu]
 CantUseTitle="Nota: Menú de mods"
@@ -912,10 +909,10 @@ StopDemoHelp="Detiene la reproducción de demo actual."
 PlayDemoText="Reproducir demo"
 
 [UMenuRecPlayWindow]
-WindowTitle="Reproducir grabación."
+WindowTitle="Reproducir grabación"
 
 [UMenuStartRecWindow]
-WindowTitle="Comenzar grabación"
+WindowTitle="Comenzar a grabar"
 
 [UMenuNewStandaloneGameWindow]
 WindowTitle="Nuevo Juego Aislado"

@@ -103,9 +103,9 @@ OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter 
 WindowTitle="Web Explorer"
 
 [UBrowserLibPageWindow]
-DLLTitleStr="Can't connect: Missing Dynamic Link Library '%s'."
-DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched '%s'."
-InfoText[0]="To connect this server you will need additional C++ library '%s'."
+DLLTitleStr="Can't connect: Missing Dynamic Link Library "%s"."
+DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%s"."
+InfoText[0]="To connect this server you will need additional C++ library "%s"."
 InfoText[1]="For more info view the external info from below (hosted by %s):"
 
 [UBrowserServerWebCW]

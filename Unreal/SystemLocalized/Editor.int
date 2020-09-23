@@ -35,6 +35,7 @@ Preferences=(Caption="MusicPackages Commandlet",Parent="Editor",Class=Editor.Mus
 
 [MasterCommandlet]
 HelpCmd=master
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Build master installer files"
 HelpUsage="master [-option...] [parm=value]..."
 HelpParm[0]="MasterPath"
@@ -46,6 +47,7 @@ HelpDesc[2]="Path for delta-compressed path reference."
 
 [MakeCommandlet]
 HelpCmd=make
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Rebuild UnrealScript packages."
 HelpUsage="make [-option...] [parm=value]..."
 HelpParm[0]="Silent"
@@ -57,6 +59,7 @@ HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 
 [ConformCommandlet]
 HelpCmd=conform
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Generate conforming binary files"
 HelpUsage="conform existing_file.ext old_file.ext"
 HelpParm[0]="existingfile.ext"
@@ -66,6 +69,7 @@ HelpDesc[1]="Old file to make source file binary compatible with."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Export objects in bulk."
 HelpUsage="batchexport package.ext classname export_ext [path]"
 HelpParm[0]="package.ext"
@@ -97,6 +101,7 @@ HelpDesc[12]="Path to export files to, like C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Set package flags in package files."
 HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
 HelpParm[0]="src.ext"
@@ -118,6 +123,7 @@ HelpDesc[7]="   Unsecure"
 
 [DataRipCommandlet]
 HelpCmd=datarip
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpParm[0]="srcpackage.ext"
@@ -127,6 +133,7 @@ HelpDesc[1]="Destination Package."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpUsage="updateumod UmodFile Command [Filename]"
 HelpParm[0]="UmodFile"
@@ -148,6 +155,7 @@ HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
 
 [ChecksumPackageCommandlet]
 HelpCmd=checksumpackage
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Display checksum for package file."
 HelpUsage="checksumpackage packagename"
 HelpParm[0]="packagename"
@@ -155,33 +163,33 @@ HelpDesc[0]="The name of the package to checksum."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Strip the script buffers from a package."
 HelpUsage="stripsource packagename"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to strip sources."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Dump the language text contents out of a file."
 HelpUsage="dumpint packagename"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to dump language text of."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpUsage="exportpackage packagename"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to export UC files of."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpUsage="compareint packageint miscint"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packageint"
 HelpDesc[0]="Main language file."
 HelpParm[1]="miscint"
@@ -189,55 +197,57 @@ HelpDesc[1]="Secondary language file (to edit)."
 
 [ListObjectsCommandlet]
 HelpCmd=listobjects
-HelpOneLiner="Lists Objects in package."
-HelpUsage="listobjects [-s1 -s2 ...] <pkg> [<baseclass>]"
 HelpWebLink="http://www.oldunreal.com"
-HelpParm[0]="-cp"
-HelpDesc[0]="Prints pathname instead of name for Class."
-HelpParm[1]="-op"
-HelpDesc[1]="Prints pathname instead of name for Object."
-HelpParm[2]="-na"
-HelpDesc[2]="Do not align output."
-HelpParm[3]="-ni"
-HelpDesc[3]="Do not indent object hierarchy."
-HelpParm[4]="-nc"
-HelpDesc[4]="Do not display class."
-HelpParm[5]="-co"
-HelpDesc[5]="Just display Object Classes instead of each Object."
-HelpParm[6]="pkg"
-HelpDesc[6]="Package file."
-HelpParm[7]="baseclass"
-HelpDesc[7]="Optional base class of listed objects."
+HelpOneLiner="Lists Objects in package."
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpParm[0]="-switch1, -switch2..."
+HelpDesc[0]="Option switches, can be one or more of the following:"
+HelpParm[1]="   -cp"
+HelpDesc[1]="   Prints pathname instead of name for Class."
+HelpParm[2]="   -op"
+HelpDesc[2]="   Prints pathname instead of name for Object."
+HelpParm[3]="   -na"
+HelpDesc[3]="   Do not align output."
+HelpParm[4]="   -ni"
+HelpDesc[4]="   Do not indent object hierarchy."
+HelpParm[5]="   -nc"
+HelpDesc[5]="   Do not display class."
+HelpParm[6]="   -co"
+HelpDesc[6]="   Just display Object Classes instead of each Object."
+HelpParm[7]="pkg"
+HelpDesc[7]="Package file."
+HelpParm[8]="baseclass"
+HelpDesc[8]="Optional base class of listed objects."
 
 [AudioPackageCommandlet]
 HelpCmd=audiopackage
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Create an audio package out of a directory."
 HelpUsage="audiopackage <input directory>"
-HelpWebLink="http://www.oldunreal.com"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Dumps information about textures."
 HelpUsage="dumptextureinfo <pkg>"
-HelpWebLink="http://www.oldunreal.com"
 
 [MusicPackagesCommandlet]
 HelpCmd=musicpackages
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Creates music packages out of a directory."
 HelpUsage="musicpackages <input directory>"
-HelpWebLink="http://www.oldunreal.com"
 
 [ReduceTexturesCommandlet]
 HelpCmd=reducetextures
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpUsage="reducetextures <inpkg> <outpkg>"
-HelpWebLink="http://www.oldunreal.com"
 
 [SaveEmbeddedCommandlet]
 HelpCmd=saveembedded
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Saves an embedded package to a separate file."
 HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="   "
 HelpDesc[0]="   "
 HelpParm[1]="   "
@@ -245,44 +255,44 @@ HelpDesc[1]="   "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Dumps information about meshes."
 HelpUsage="dumptextureinfo <pkg>"
-HelpWebLink="http://www.oldunreal.com"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Batch exports meshes."
 HelpUsage="batchmeshexport <pkg> <format> <outpath>"
-HelpWebLink="http://www.oldunreal.com"
 
 [RebuildImportsCommandlet]
 HelpCmd=rebuildimports
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Rebuilds import script for a package."
 HelpUsage="rebuildimports <pkg> [-upkg]"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="-upkg"
 HelpDesc[0]="Switches output to upkg format. Default is uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Batch exports all mip map levels."
 HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
-HelpWebLink="http://www.oldunreal.com"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Extract package with directory structure."
 HelpUsage="fullbatchexport <pkg> <outpath>"
-HelpWebLink="http://www.oldunreal.com"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Compares font pages."
 HelpUsage="fontpagediff <left font> <right font>"
-HelpWebLink="http://www.oldunreal.com"
 
 [FontExporter]
 HelpCmd=FontExporter
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Exports font pages."
 HelpUsage="FontExporter <pkg> <outpath>"
-HelpWebLink="http://www.oldunreal.com"

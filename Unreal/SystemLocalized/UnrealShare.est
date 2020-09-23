@@ -83,7 +83,7 @@ Preferences=(Caption="Configuración",Parent="Marcas",Class=UnrealShare.Scorch,I
 Preferences=(Caption="Cliente",Parent="Sangre",Class=UnrealShare.UnrealBlood,Immediate=True,Category=BloodClient)
 Preferences=(Caption="Mapas de Partida a Muerte",Parent="Listas de Mapas",Class=UnrealShare.DmMapList,Immediate=True)
 
-[DeathmatchGame]
+[DeathMatchGame]
 ClassCaption="Partida a Muerte"
 GlobalNameChange=" ha cambiado su nombre por "
 NoNameChange=" ya está en uso"
@@ -233,7 +233,7 @@ ShadowDetail[2]="Media Res."
 ShadowDetail[3]="Alta Res."
 ShadowDetail[4]="Ultra Res."
 HelpMessage[1]="Ajusta el brillo de la pantalla utilizando las teclas de flecha izquierda y derecha."
-HelpMessage[2]="Juega a Unreal en una ventana. Ten en cuenta que elegir un modo de reproducción a través de software puede eliminar actores de alto nivel de detalles que serían visibles con el hardware de aceleración de gráficos."
+HelpMessage[2]="Si se activa, ejecuta Unreal en una ventana. Ten en cuenta que elegir la reproducción por software puede eliminar actores de alto nivel de detalles que serían visibles con la aceleración por hardware."
 HelpMessage[3]="Utiliza las flechas izquierda y derecha para seleccionar una resolución, y pulsa INTRO para confirmar tu elección."
 HelpMessage[4]="Utiliza las flechas derecha e izquierda para ajustar el campo de visión (FOV) para pantallas anchas"
 HelpMessage[5]="Elige la opción de nivel bajo de detalles de texturas para mejorar el funcionamiento del juego. Los cambios realizados surtirán efecto en el próximo nivel."
@@ -268,7 +268,7 @@ MenuList[15]="Somb. Decoraciones"
 MenuList[16]="Sombras Realísticas"
 MenuList[17]="Precargar Contenido"
 MenuList[18]="Filtrado Trilinear"
-MenuTitle="SONIDO/VíDEO"
+MenuTitle="SONIDO/VÍDEO"
 
 [UnrealFavoritesMenu]
 EditList[0]="Nombre del Servidor:"
@@ -323,7 +323,7 @@ HelpMessage[5]="Para ingresar con una contraseña de administrador, ve al buscad
 HelpMessage[6]="Marcar para unirse como espectador y observar la partida en lugar de tomar parte en ella."
 HelpMessage[7]="Pulsa INTRO para empezar la partida."
 MenuList[4]="Clase:"
-MenuList[5]="Contraseña (Leer ayuda):"
+MenuList[5]="Las contraseñas ahora se ingresan desde el Buscador de Servidores Unreal."
 MenuList[6]="Observar:"
 MenuList[7]="Iniciar Partida"
 
@@ -342,11 +342,11 @@ MenuList[3]="Piel:"
 MenuTitle="Seleccionar Personaje"
 
 [UnrealJoinGameMenu]
-InternetOption="(Dial-Up)"
-FastInternetOption="(Dial-Up)"
+InternetOption="(Conexión Dial-Up)"
+FastInternetOption="(Conexión Dial-Up)"
 VeryFastInternetOption="(Banda Ancha)"
 HighSpeedInternetOption="(Banda Ancha)"
-LANOption="(LAN)"
+LANOption="(Red Área Local)"
 HelpMessage[1]="Busca servidores locales."
 HelpMessage[2]="Elige un servidor de la lista de favoritos."
 HelpMessage[3]="Pulsa INTRO para ingresar la dirección de un servidor. Vuelve a pulsar INTRO para acceder a dicho servidor."
@@ -360,12 +360,12 @@ MenuList[5]="Ir a lista serv. de Unreal"
 MenuTitle="UNIRSE A LA PARTIDA"
 
 [UnrealOptionsMenu]
-HideString="Oculto"
-InternetOption="(Dial-Up)"
-FastInternetOption="(Dial-Up)"
+HideString="Hidden"
+InternetOption="(Conexión Dial-Up)"
+FastInternetOption="(Conexión Dial-Up)"
 VeryFastInternetOption="(Banda Ancha)"
 HighSpeedInternetOption="(Banda Ancha)"
-LANOption="(LAN)"
+LANOption="(Red Área Local)"
 HelpMessage[1]="Si está activo, se activará la ayuda vertical para apuntar."
 HelpMessage[2]="Activa/desactiva el mando de joystick."
 HelpMessage[3]="Ajusta la sensibilidad del ratón, es decir, la distancia a la cual hay que moverlo para producir un movimiento en el juego."
@@ -404,7 +404,7 @@ MenuList[16]="Configuración de HUD"
 MenuList[17]="Oscilación de Vista"
 MenuList[18]="Velocidad de Red"
 MenuList[19]="Opciones Avanzadas"
-MenuTitle=MENÚ DE OPCIONES
+MenuTitle="MENÚ DE OPCIONES"
 
 [TeamGame]
 ClassCaption="Partida por Equipos"
@@ -436,7 +436,7 @@ MenuList[3]="Orden Aleatorio"
 MenuList[4]="Configuración Individual"
 MenuList[5]="Número de Bots"
 MenuList[6]="Bots en partidas multijugador"
-MenuTitle=BOTS
+MenuTitle="BOTS"
 
 [Eightball]
 DeathMessage="%o fue vapuleado varias veces por el %w de %k."
@@ -471,7 +471,7 @@ MenuList[22]="Tomar Decoración"
 MenuList[23]="Menú de Admin."
 MenuList[24]="Menú de Música"
 MenuList[25]="RESTAURAR PREDETERMINADOS"
-MenuTitle=CONTROLES
+MenuTitle="CONTROLES"
 
 [UnrealNewKeyboardMenu]
 MenuWidth=340
@@ -505,12 +505,12 @@ HelpMessage[7]="¡Llama gratis (sólo desde EE.UU.) al 1-877-4UNREAL para pedir 
 MenuList[1]="JUEGO"
 MenuList[2]="MULTIJUGADOR"
 MenuList[3]="OPCIONES"
-MenuList[4]="SONIDO/VíDEO"
+MenuList[4]="SONIDO/VÍDEO"
 MenuList[5]="SALIR"
 MenuList[7]="INFO. PEDIDOS"
 
 [UnrealLoadMenu]
-RestartString="Reiniciar"
+RestartString="Reiniciar "
 MenuTitle="CARGAR PARTIDA"
 
 [UnrealSlotMenu]
@@ -535,7 +535,7 @@ M_HintMessage="Nueva Pista (Presiona F3 para leer)."
 
 [NaliFruit]
 PickupMessage="Has recogido la Fruta Curativa Nali +"
-ItemName="Fruta Curativa Nali"
+ItemName="Fruta Curativa Nali "
 
 [Health]
 PickupMessage="Has recogido un Botiquín de Salud +"

@@ -1,5 +1,5 @@
 ﻿[Public]
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return To Na Pali")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Regreso a Na Pali")
 Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
@@ -54,8 +54,8 @@ MultWeapSlotMsg="Presiona el botón de seleccionar armas para cambiar armas."
 GameName="Paquete de Misiones de Unreal"
 
 [RocketLauncher]
-PickupMessage="Tienes el Lanzamisiles UMS."
-ItemName="Lanzamisiles UMS"
+PickupMessage="Tienes el Lanzacohetes UMS."
+ItemName="Lanzacohetes UMS"
 
 [UPakChooseGameMenu]
 MenuList[0]="Regreso a Na Pali"
@@ -70,9 +70,9 @@ ItemName="Rifle de Asalto de Combate"
 
 [UPakScubaGear]
 RechargedMessage="Equipo de Buceo de Marines totalmente recargado."
-LowOxygenMessage="Bajo nivel de reserva de oxígeno."
-PickupMessage="Tienes el Equipo de Buceo de Marines"
-ItemName="Equipo de Buceo de Marines"
+LowOxygenMessage="Bajo nivel de reserva de oxígeno"
+PickupMessage="Tienes el Equipo de Buceo para Marines"
+ItemName="Equipo de Buceo para Marines"
 M_Deactivated="desactivado... Recargando."
 
 [MarineMatch]

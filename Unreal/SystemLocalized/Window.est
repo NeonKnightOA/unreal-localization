@@ -1,6 +1,6 @@
 ﻿[Errors]
 Critical="Error Grave"
-FailedConfigLoad="%s (no se ha podido cargar)"
+FailedConfigLoad="%s (no se pudo cargar)"
 
 [IDDIALOG_Directory]
 IDC_Directory="Directorio de Instalación"
@@ -60,5 +60,5 @@ High="Alto"
 [FirstRun]
 Caption="Configuración Inicial"
 LowMemory="Unreal ha detectado que dispones de %i MB de memoria. Para mejorar el funcionamiento del juego, se han activado las opciones "Nivel bajo de detalles de texturas" y "Baja calidad de sonido". Puedes modificar estos ajustes en el menú de "Opciones de Rendimiento"."
-NonMMX="Unreal ha detectado que estás utilizando un PC que no tiene MMX. Por esta razón, el sonido ha sido ajustado para utilizar la mínima potencia posible de la CPU. Puedes modificar estas opciones en el menú "Opciones Avanzadas / Audio"."
+NonMMX="Unreal ha detectado que estás utilizando un PC que no tiene MMX. Por esta razón, el sonido ha sido ajustado para utilizar la mínima potencia posible de la CPU. Puedes modificar estas opciones en el menú "Opciones Avanzadas / Sonido"."
 Starting="Unreal está iniciándose por primera vez. Si tienes algún problema, consulta la sección de resolución de problemas en las notas de lanzamiento en la carpeta "Help"."
