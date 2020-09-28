@@ -23,9 +23,6 @@ OKText="OK"
 ShowColorsText="Show console messages in colours"
 ShowChatText="Log only chat messages"
 
-[UWindowSmallOKButton]
-OKText="OK"
-
 [AdminGUIPlayersGrid]
 PlayerID="ID#"
 PlayerName="Player Name"
@@ -33,25 +30,25 @@ PlayerIP="IP-Address"
 PlayerClientID="Client ID"
 MaxLengthExceeded="Maximum player list length exceeded "%i""
 IDMismatchedStr="Response ID mismatched: %i/%j"
-ClientReceivedStr="Received client "%s"."
+ClientReceivedStr="Received client "%ls"."
 GettingInfoStr="Getting player list from server, if nothing happens you may not be logged in as admin."
 
 [AdminGUIBanLGrid]
 LengthExceeded="Maximum player list length exceeded "%i""
 ResponseMismatch="Response ID mismatched: %i/%j"
-ReceiveBanText="Received ban "%s"."
+ReceiveBanText="Received ban "%ls"."
 GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
 
 [MMMusicListGrid]
 MusicNameStr="Music name"
 MusicPackStr="Music package"
-FailedToPlayStr="Failed to play: Music "%s" was not found or failed to load."
-StartedPlayStr="Started playing music "%s" with section %i."
+FailedToPlayStr="Failed to play: Music "%ls" was not found or failed to load."
+StartedPlayStr="Started playing music "%ls" with section %i."
 NullErrorStr="Failed to add: NULL is not a valid song."
-FailedLoadStr="Failed to add: Music "%s" file could not be found or loaded."
+FailedLoadStr="Failed to add: Music "%ls" file could not be found or loaded."
 ConfirmInsertDuplicateTitle="Adding an already listed track"
 ConfirmInsertDuplicateText="Such a track is already included in the playlist. Insert it anyway?"
-AddedStr="Added music "%s" (%i)."
+AddedStr="Added music "%ls" (%i)."
 RemoveSongStr="Removed song #%i."
 ClearListStr="Removed all tracks from the playlist."
 ConfirmClearListTitle="Confirm clearing the playlist"
@@ -74,7 +71,7 @@ WindowTitle="Music Menu"
 [UWindowNetErrorClientWindow]
 ReconnectText="Reconnect to server"
 KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\"
-BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\\\If you feel like you don't deserve this ban, contact the administrator at: "
+BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\If you feel like you don't deserve this ban, contact the administrator at: "
 TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\"
 
 [MMControlsClient]
@@ -106,7 +103,7 @@ RefreshTxt="&Refresh banlist"
 ManualBanTxt="&Manually insert ban entry"
 
 [MMMusListWindow]
-WindowTitle="Multiple musics found:"
+WindowTitle="Found music tracks:"
 
 [MMListPullDown]
 PlaySongStr="&Play"
@@ -143,7 +140,7 @@ LargeFontBold=UWindowFonts.TahomaB30
 [AdminGUIBanLGrid]
 LengthExceeded="Maximum player list length exceeded "%i""
 ResponseMismatch="Response ID mismatched: %i/%j"
-ReceiveBanText="Received ban "%s"."
+ReceiveBanText="Received ban "%ls"."
 GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
 
 [UWindowSmallRestartButton]

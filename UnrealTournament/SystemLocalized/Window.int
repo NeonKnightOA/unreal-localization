@@ -1,6 +1,6 @@
 ﻿[Errors]
 Critical="Critical Error"
-FailedConfigLoad="%s (failed load)"
+FailedConfigLoad="%ls (failed load)"
 
 [IDDIALOG_Directory]
 IDC_Directory="Installation Folder"
@@ -47,10 +47,10 @@ NoButton="&No"
 AgreeButton="I &Agree"
 LanguagePrompt="Language:"
 LanguageWindow="Language Selection"
-LogWindow="%s Log Window"
+LogWindow="%ls Log Window"
 PropNone="Nothing Selected"
-PropSingle="%s Properties"
-PropMulti="%s Properties (%i selected)"
+PropSingle="%ls Properties"
+PropMulti="%ls Properties (%i selected)"
 InsertCdText="Please insert the Unreal Tournament CD-Rom into your drive and press OK to continue, or Cancel to exit."
 InsertCdTitle="Cd Required At Startup"
 AdvancedOptionsTitle="Advanced Options"

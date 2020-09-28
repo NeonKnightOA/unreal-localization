@@ -3,8 +3,8 @@ Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDev
 Preferences=(Caption="Soporte para OpenGL",Parent="Reproducción",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
 [Errors]
-NoFindGL="No se ha podido encontrar el controlador OpenGL %s."
-MissingFunc="Falta la función OpenGL %s (%i)."
+NoFindGL="No se ha podido encontrar el controlador OpenGL %ls."
+MissingFunc="Falta la función OpenGL %ls (%i)."
 ResFailed="No se ha podido ajustar la resolución."
 
 [OpenGLRenderDevice]
