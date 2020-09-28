@@ -1,0 +1,48 @@
+﻿[Setup]
+LocalProduct="Unreal"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\ReadMe.htm"
+SetupWindowTitle="Instalación de Unreal"
+AutoplayWindowTitle="Opciones de Unreal"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+Developer="Epic Games, Inc. - 227 por Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+Logo="Help\SetupLogo.bmp"
+
+[General]
+PlayLevelCommand="Jugar a este nivel de Unreal (&P)"
+OpenLinkCommand="Abrir este enlace de Unreal (&O)"
+InstallModuleCommand="&Instalar este módulo de Unreal"
+EditLevelCommand="&Editar este nivel de Unreal"
+
+[ContentGroup]
+Caption="Contenido de Juego"
+Description="Contenido de juego de Unreal. Instalar para un mejor rendimiento. Si no lo seleccionas, el contenido del juego será cargado desde el CD durante el juego, ocupando menos espacio a costa de un menor rendimiento."
+
+[GameGroup]
+Caption="Juego de Unreal"
+Description="Juego de Unreal. Instalación necesaria."
+
+[DirectXGroup]
+Caption="DirectX"
+Description="Controladores opcionales DirectX 8 de Microsoft para gráficas, sonido y soporte de mando mejorados."
+
+[EditorGroup]
+Caption="Editor de Unreal"
+Description="Editor de niveles de Unreal, para crear tus propios niveles 3D de Unreal. Instalación opcional para usuarios avanzados."
+
+[PlayShortcut]
+Caption="Jugar a Unreal"
+
+[SafeModeShortcut]
+Caption="Modo Seguro de Unreal"
+
+[EditorShortcut]
+Caption="Editor de Unreal"
+
+[DocumentationShortcut]
+Caption="Documentación"
+
+[WebShortcut]
+Caption="Sitio Web de Unreal"

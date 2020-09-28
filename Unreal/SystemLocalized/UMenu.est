@@ -127,6 +127,7 @@ ServerText="Servidor"
 
 [UMenuOptionsWindow]
 WindowTitle="Preferencias"
+WindowWidth=300
 
 [UMenuWeaponPriorityListArea]
 AutoSwitchText="Autocambiar Armas"
@@ -248,7 +249,7 @@ ConfirmSettingsCancelText="Se ha restaurado la configuración previa del vídeo.
 ConfirmTextureDetailTitle="Confirmar detalle de texturas"
 ConfirmTextureDetailText="Si se aumenta el nivel de detalle por encima del valor por defecto, el rendimiento del juego se podría ver afectado en algunos sistemas."
 ConfirmDriverTitle="Cambiar el controlador de vídeo"
-ConfirmDriverText="¿Deseas reiniciar Unreal para cambiar tu controlador de vídeo?"
+ConfirmDriverText="¿Deseas reiniciar Unreal con el controlador de video seleccionado?"
 PawnShadowText="Sombras de Peones"
 PawnShadowHelp="Detalle de las sombras que los peones proyectarán en el suelo (los cambios se efectuarán después de un cambio de mapa)."
 PawnShadowList[0]="Ninguno"
@@ -261,7 +262,7 @@ ShowDecalsText="Mostrar Marcas"
 ShowDecalsHelp="Si la opción está marcada, se verán los detalles de los impactos y de la sangre en el juego."
 MinFramerateText="Vel. Mínima Imágenes"
 MinFramerateHelp="Si la velocidad de imágenes se sitúa por debajo de este valor, Unreal Tournament reducirá los efectos especiales con el fin de aumentarla."
-DynamicLightsText="Iluminación Dinámica"
+DynamicLightsText="Usar Iluminación Dinámica"
 DynamicLightsHelp="Si la opción está marcada, se utilizará iluminación dinámica en el juego."
 WeaponFlashText="Destello de Arma"
 WeaponFlashHelp="La pantalla emitirá un destello cada vez que dispares un arma."
@@ -296,7 +297,7 @@ NotAvailableText="No disponible"
 [UMenuPlayerSetupClient]
 EditAreaWidth=110
 NameText="Nombre:"
-NameHelp="Da un nombre a tu personaje."
+NameHelp="Nombre de tu personaje."
 TeamText="Equipo:"
 Teams[0]="Rojo"
 Teams[1]="Azul"
@@ -310,7 +311,7 @@ SkinText="Piel:"
 SkinHelp="Selecciona el tipo de piel para tu personaje."
 FaceText="Cara:"
 FaceHelp="Selecciona una cara para tu personaje."
-SpectatorText="Jugar como espectador"
+SpectatorText="Jugar como Espectador"
 SpectatorHelp="Activa esta casilla para observar la acción del juego como espectador."
 
 [UMenuStartMatchClientWindow]
@@ -323,6 +324,9 @@ MapListText="Lista de Mapas"
 MapListHelp="Haz clic en este botón para cambiar la lista de mapas para rotar."
 MutatorText="Mutadores"
 MutatorHelp="Los mutadores son miniprogramas que alteran la jugabilidad. Pulsa para elegir los que quieras utilizar."
+FilterInvalidGameClassesText="Filtrar Clases Inválidas"
+FilterInvalidGameClassesHelp="Si está activo, las clases inválidas no serán registradas (la validación puede ser lenta)."
+InvalidGameClass="<Clase de Juego Inválida>"
 
 [UMenuCustomizeClientWindow]
 EditAreaWidth=155
@@ -616,12 +620,12 @@ DefaultsHelp="Restablecer los valores originales de todos los controles."
 JoystickText="Mando"
 JoyXText="Eje X"
 JoyXHelp="Selecciona la respuesta del eje izquierda-derecha de tu mando."
-JoyXOptions(0]="Desplazarse a la izda./dcha."
-JoyXOptions(1]="Girar a la izda./dcha."
+JoyXOptions[0]="Desplazarse a la izda./dcha."
+JoyXOptions[1]="Girar a la izda./dcha."
 JoyYText="Eje Y"
 JoyYHelp="Selecciona la respuesta del eje adelante-atrás de tu mando."
-JoyYOptions(0]="Avanzar/Retroceder"
-JoyYOptions(1]="Mirar hacia arriba/abajo"
+JoyYOptions[0]="Avanzar/Retroceder"
+JoyYOptions[1]="Mirar hacia arriba/abajo"
 
 [UMenuGameRulesBase]
 bSingleColumn=False
@@ -666,9 +670,10 @@ FaceHelp="Selecciona una cara para este bot."
 
 [UMenuGameOptionsClientWindow]
 EditAreaWidth=120
-LanguageLabelText="¡El cambio de idioma requiere reiniciar!"
 LanguageText="Idioma"
 LanguageHelp="Este es el idioma actual del juego. Cámbialo y pulsa Reiniciar para aplicar los cambios."
+ConsoleText="Consola"
+ConsoleHelp="Esta opción determina como se ven los menús y la consola. Presiona el botón Reiniciar para aplicar los cambios."
 WeaponHandText="Mano de Arma"
 WeaponHandHelp="Selecciona en qué ubicación de la pantalla aparecerá tu arma."
 LeftName="Izquierda"
@@ -685,12 +690,6 @@ GoreLevels[1]="Reducido"
 GoreLevels[2]="Ultrabajo"
 LocalText="Registro de Actividad Local"
 LocalHelp="Si se activa, el juego registrará partidas locales de robots y torneos de un solo jugador para recoger estadísticas."
-ConsoleText="Consola"
-ConsoleHelp="Esta opción determina como se ven los menús y la consola. Presiona el botón Reiniciar para aplicar los cambios."
-WeaponFlashText="Destello de Arma"
-WeaponFlashHelp="La pantalla emitirá un flash cada vez que dispares un arma."
-DodgingText="Maniobra"
-DodgingHelp="Esquivarás al pulsar dos veces las teclas de desplazamiento (adelante, atrás, izquierda y derecha)."
 
 [UMenuNetworkClientWindow]
 EditAreaWidth=130
@@ -707,10 +706,12 @@ AutoAimText="Autoapuntar"
 AutoAimHelp="Activa/desactiva la ayuda vertical para apuntar."
 JoystickText="Joystick"
 JoystickHelp="Activa/desactiva el joystick."
-RawHIDInputText="Entrada de Ratón RawHID"
-RawHIDInputHelp="Activar la Entrada de Ratón RawHID en entornos Windows mejorará el suavizado de movimiento del ratón, el cual no se verá afectado por su aceleración. Para que esto surta efecto, el juego será reiniciado."
-ConfirmRawHIDRestartTitle="Confirmar reinicio para RawHID"
-ConfirmRawHIDText="Esto reiniciará Unreal para activar/desactivar la Entrada de Ratón RawHID"
+RawHIDInputText="Entrada de Ratón Raw HID"
+RawHIDInputHelp="Activar la Entrada de Ratón Raw HID en entornos Windows mejorará el suavizado de movimiento del ratón, el cual no se verá afectado por su aceleración. Para que esto surta efecto, el juego será reiniciado."
+ConfirmRawHIDRestartTitle="Confirmar reinicio para Raw HID"
+ConfirmRawHIDText="Para poder activar/desactivar la Entrada de Ratón Raw HID, Unreal debe reiniciarse."
+SensitivityText="Sensibil. Ratón"
+SensitivityHelp="Ajusta la sensibilidad del ratón (distancia que debes mover el ratón para producir un movimiento visible)."
 InvertMouseText="Invertir Ratón"
 InvertMouseHelp="Invierte el eje X del ratón. Mover el ratón hacia adelante te hará mirar hacia abajo y no hacia arriba."
 LookSpringText="Salto de Vista"
@@ -725,8 +726,6 @@ AutoSlopeText="Ver auto. arr/abajo"
 AutoSlopeHelp="Vista automática por encima y debajo de cuestas y escaleras. Sólo funciona si Vistas con el ratón no está activada."
 DodgingText="Maniobra"
 DodgingHelp="Esquivarás al pulsar dos veces las teclas de movimiento (adelante, atrás, izquierda y derecha)."
-SensitivityText="Sensibil. Ratón"
-SensitivityHelp="Ajusta la sensibilidad del ratón (distancia que debes mover el ratón para producir un movimiento visible)."
 DodgeClickTimeText="Tiempo de Maniobra"
 DodgeClickTimeHelp="Intervalo máximo en segundos para que el juego reconozca el comando doble tecleo de maniobra."
 
@@ -937,3 +936,6 @@ ArtText="Diseño gráfico y arte"
 MusicSoundText="Música y sonido"
 BizText="Empresariales"
 PatchText="Parche v227 OldUnreal"
+
+[UMenuWeaponPriorityCW]
+ListAreaWidth=150

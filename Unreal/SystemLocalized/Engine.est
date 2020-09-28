@@ -4,7 +4,7 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Avanzado",Parent="Opciones Avanzadas")
 Preferences=(Caption="Configuración del Motor de Juego",Parent="Avanzado",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Comandos para Asignaciones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Asignaciones Crudas de Botones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Asignaciones de Botones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=RawKeys)
 Preferences=(Caption="Controladores",Parent="Opciones Avanzadas",Class=Engine.Engine,Immediate=False,Category=Drivers)
 Preferences=(Caption="Información Pública de Servidor",Parent="Juego en Red",Class=Engine.GameReplicationInfo,Immediate=True)
 Preferences=(Caption="Configuración de Juego",Parent="Opciones Avanzadas",Class=Engine.GameInfo,Immediate=True)
@@ -14,6 +14,8 @@ Preferences=(Caption="Servidor",Parent="Sangre",Class=Engine.GameInfo,Category=B
 Preferences=(Caption="Sombra de Peón",Parent="Marcas",Class=Engine.PawnShadow,Immediate=True)
 Preferences=(Caption="Sombra de Decoración",Parent="Marcas",Class=Engine.DecoShadow,Immediate=True)
 Preferences=(Caption="Sombra de Proyectil",Parent="Marcas",Class=Engine.ProjectileShadow,Immediate=True)
+Preferences=(Caption="Canal de Descarga",Parent="Juego en Red",Class=Engine.ChannelDownload)
+Preferences=(Caption="Notificaciones de Conexión",Parent="Juego en Red",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
 Preferences=(Caption="Sonido",Parent="Advanced Options")
 Preferences=(Caption="Reproducción",Parent="Advanced Options")
 Preferences=(Caption="Juego en Red",Parent="Advanced Options")
@@ -69,30 +71,30 @@ AltNameFem="asesinada"
 
 [Progress]
 CancelledConnect="Intento de Conexión Cancelado"
-RunningNet="%s: %s (%i jugadores)"
-NetReceiving="Recibiendo "%s": %i/%i"
-NetReceiveOk="Se ha recibido exitosamente "%s""
-NetSend="Enviando "%s""
-NetSending="Enviando "%s": %i/%i"
+RunningNet="%ls: %ls (%i jugadores)"
+NetReceiving="Recibiendo "%ls": %i/%i"
+NetReceiveOk="Se ha recibido exitosamente "%ls""
+NetSend="Enviando "%ls""
+NetSending="Enviando "%ls": %i/%i"
 Connecting="Conectando..."
 Listening="Esperando clientes..."
 Loading="Cargando"
 Saving="Guardando"
-Paused="Pausado por %s"
-ReceiveFile="Recibiendo "%s" (F10 para pasar por alto)"
-ReceiveOptionalFile="Recibiendo archivo opcional "%s" (F10 para cancelar)"
+Paused="Pausado por %ls"
+ReceiveFile="Recibiendo "%ls" (F10 para pasar por alto)"
+ReceiveOptionalFile="Recibiendo archivo opcional "%ls" (F10 para cancelar)"
 ReceiveSize="Tamaño %iK, Completo %3.1f%% = %iK, Quedan %i paquetes"
 ConnectingText="Conectando (F10 para cancelar):"
-ConnectingURL="unreal://%s/%s"
+ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
-OtherSideURL=" "
+OtherSideURL=""
 
 [Pickup]
-ExpireMessage=" "
+ExpireMessage=""
 
 [SpecialEvent]
-DamageString=" "
+DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
@@ -147,27 +149,27 @@ FemaleGender="su"
 [Errors]
 NetOpen="Error al abrir el archivo"
 NetWrite="Error al escribir en archivo"
-NetRefused="El servidor rechazó el envío de "%s""
+NetRefused="El servidor rechazó el envío de "%ls""
 NetClose="Error al cerrar el archivo"
 NetSize="Tamaño de archivo erróneo"
 NetMove="Error al mover el archivo"
 NetInvalid="Se ha recibido una petición de archivo no válida"
-NoDownload="El paquete "%s" no es descargable"
-DownloadFailed="No se ha podido descargar el paquete "%s": %s"
+NoDownload="El paquete "%ls" no es descargable"
+DownloadFailed="No se ha podido descargar el paquete "%ls": %ls"
 RequestDenied="El servidor ha solicitado un archivo del nivel pendiente: Solicitud denegada"
 ConnectionFailed="Conexión fallida"
 ChAllocate="No se ha podido asignar un canal"
 NetAlready="Conexión de red ya realizada"
 NetListen="Comunicación fallida: No hay enlazador disponible."
-LoadEntry="No se puede cargar Entry: %s"
-InvalidUrl="Dirección URL no válida: %s"
-InvalidLink="Enlace no válido: %s"
-FailedBrowse="No se ha podido entrar en %s: %s"
-Listen="Comunicación fallida: %s"
+LoadEntry="No se puede cargar Entry: %ls"
+InvalidUrl="Dirección URL no válida: %ls"
+InvalidLink="Enlace no válido: %ls"
+FailedBrowse="No se ha podido entrar en %ls: %ls"
+Listen="Comunicación fallida: %ls"
 AbortToEntry="Error; regresando a Entry"
 ServerOpen="Los servidores no pueden abrir los URL de red"
-ServerListen="El servidor dedicado no puede esperar: %s"
-Pending="Conexión pendiente con "%s" ha fallado; %s"
+ServerListen="El servidor dedicado no puede esperar: %ls"
+Pending="Conexión pendiente con "%ls" ha fallado; %ls"
 LoadPlayerClass="Fallo al cargar la clase de jugador"
 ServerOutdated="Versión del servidor obsoleta"
 Banned="Tu entrada al servidor ha sido vetada"
@@ -175,9 +177,9 @@ TempBanned="Tu entrada al servidor ha sido vetada temporalmente"
 Kicked="Has sido expulsado del servidor"
 
 [AdminAccessManager]
-AdminLoginText="El administrador %s ha ingresado"
-AdminLogoutText="El administrador %s ha salido"
-CheatUsedStr="%s utilizó el comando trampa/administrativo %c"
+AdminLoginText="El administrador %ls ha ingresado"
+AdminLogoutText="El administrador %ls ha salido"
+CheatUsedStr="%ls utilizó el comando trampa/administrativo %c"
 
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
@@ -191,4 +193,3 @@ Upgrade="Para acceder a este servidor, necesitas la última actualización gratu
 UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
 UpgradeQuestion="¿Quieres abrir tu explorador de Internet e ir a la página de actualizaciones ahora?"
 Version="Versión %i"
-

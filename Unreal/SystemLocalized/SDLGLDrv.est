@@ -3,8 +3,8 @@ Object=(Name=SDLGLDrv.SDLGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevic
 Preferences=(Caption="Soporte para OpenGL SDL",Parent="Reproducción",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
 
 [Errors]
-NoFindGL="No se puede encontrar el controlador de OpenGL %s"
-MissingFunc="No se encuentra la función de OpenGL %s (%i)"
+NoFindGL="No se puede encontrar el controlador de OpenGL %ls"
+MissingFunc="No se encuentra la función de OpenGL %ls (%i)"
 ResFailed="No se ha podido establecer la resolución"
 
 [SDLGLRenderDevice]
