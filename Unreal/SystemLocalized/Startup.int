@@ -27,6 +27,7 @@ MetalDrv.MetalRenderDevice="For users with S3 Savage4 video cards."
 ALAudio.ALAudioSubsystem="Use Unreal's advanced OpenAL support. Provides best performance and support for high end soundcards. Be sure to have the latest drivers for your soundcard. EAX/EFX support. Works best with SoundBlaster."
 FMODAudioDrv.FMODAudioDevice="Unreal's FMod sound. Supports original reverb model, works best for midrange, low-end or onboard sound."
 Galaxy.GalaxyAudioSubsystem="Unreal's Galaxy sound. Deprecated. Use as fallback."
+SwFMOD.SwFMOD="Experimental version of FModEX for Unreal."
 
 [IDDIALOG_ConfigPageDetail]
 IDC_ConfigPageDetail=" "
