@@ -3,8 +3,8 @@ Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDev
 Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
 [Errors]
-NoFindGL="Can't find OpenGL driver %s"
-MissingFunc="Missing OpenGL function %s (%i)"
+NoFindGL="Can't find OpenGL driver %ls"
+MissingFunc="Missing OpenGL function %ls (%i)"
 ResFailed="Failed to set resolution"
 
 [OpenGLRenderDevice]
