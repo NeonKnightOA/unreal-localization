@@ -1,7 +1,7 @@
 ﻿[Public]
 Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client)
-Preferences=(Caption="Imagen",Parent="Opciones Avanzadas",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
-Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
+Preferences=(Caption="SDL2",Parent="Imagen",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+Preferences=(Caption="SDL2",Parent="Mando",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
 
 [Errors]
 Failed3D="No se ha podido inicializar el hardware 3D"
