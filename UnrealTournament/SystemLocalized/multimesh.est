@@ -1,13 +1,13 @@
 ﻿[Public]
 Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Híbrido Skaarj")
 Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
-Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Vaca de Guerra Nali")
+Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Vaca Guerrera Nali")
 Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Híbrido Skaarj")
 Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
 Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Vaca de Guerra Nali")
 Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Híbrido Skaarj")
 Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
-Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Vaca de Guerra Nali")
+Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Vaca Guerrera Nali")
 Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Forzar Modelos Predeterminados,Utiliza el modelo por defecto (Soldado Varón) en lugar de cualquier otro modelo de personaje.")
 Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas de Bonificación")
 Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Mapas de Bonificación")
@@ -19,10 +19,10 @@ MenuName="Jugador Personalizado"
 MenuName="Jugador Personalizado"
 
 [tcow]
-MenuName="Vaca Nali"
+MenuName="Vaca Guerrera Nali"
 
 [tcowbot]
-MenuName="Vaca Nali"
+MenuName="Vaca Guerrera Nali"
 
 [TSkaarj]
 MenuName="Híbrido Skaarj"

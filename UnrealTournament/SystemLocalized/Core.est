@@ -83,6 +83,7 @@ Exec="Comando desconocido"
 BadProperty=""%ls": Propiedad "%ls" incorrecta o no disponible."
 MisingIni="Archivo .ini no disponible: %ls."
 ExportFail="Error al exportar %ls."
+ExportNoData="Datos exportables no encontrados en el objeto %ls."
 
 [General]
 Product="Unreal Tournament"
