@@ -1,5 +1,5 @@
 ﻿[Public]
-Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client)
+Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client,Compat="Lin32,Lin64,LinARM")
 Preferences=(Caption="SDL2",Parent="Imagen",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
 Preferences=(Caption="SDL2",Parent="Mando",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
 
@@ -16,5 +16,5 @@ Color16="Color en &16 bits"
 Color32="Color en &32 bits"
 AdvancedOptions="Opciones Avanzadas"
 
-[SDLClient]
+[SDL2Client]
 ClassCaption="Administrador de SDL2 Linux Estándar"
