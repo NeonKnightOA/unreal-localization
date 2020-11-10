@@ -21,37 +21,34 @@ OKText="Aceptar"
 
 [UWindowConsoleClientWindow]
 ShowColorsText="Mostrar mensajes de la consola en color"
-ShowChatText="Sólo archivar mensajes de chat"
-
-[UWindowSmallOKButton]
-OKText="OK"
+ShowChatText="Sólo registrar mensajes de chat"
 
 [AdminGUIPlayersGrid]
 PlayerID="ID#"
 PlayerName="Nom. Jugador"
 PlayerIP="Dirección IP"
 PlayerClientID="ID de Cliente"
-MaxLengthExceeded="Longitud máxima de lista de jugador excedida "%i""
-IDMismatchedStr="ID de respuesta erróneo: %i/%j"
-ClientReceivedStr="Cliente recibido "%s"."
+MaxLengthExceeded="Longitud máxima de lista de jugador excedida "%i"."
+IDMismatchedStr="ID de respuesta erróneo: %i/%j."
+ClientReceivedStr="Cliente recibido "%ls"."
 GettingInfoStr="Obteniendo lista de jugadores del servidor, si no pasa nada quizás no hayas ingresado como administrador."
 
 [AdminGUIBanLGrid]
 LengthExceeded="Longitud máxima de lista de jugador excedida "%i""
 ResponseMismatch="ID de respuesta erróneo: %i/%j"
-ReceiveBanText="Veto recibido "%s"."
+ReceiveBanText="Veto recibido "%ls"."
 GettingBanListText="Obteniendo lista de vetos del servidor, si no pasa nada quizás no hayas ingresado como administrador (o no hay vetos en el servidor)."
 
 [MMMusicListGrid]
 MusicNameStr="Nom. Pieza"
 MusicPackStr="Paq. Música"
-FailedToPlayStr="Fallo al reproducir: La pista "%s" falló al cargar o no se encuentra."
-StartedPlayStr="Inicio de reproducción de "%s", sección %i."
+FailedToPlayStr="Fallo al reproducir: La pista "%ls" falló al cargar o no se encuentra."
+StartedPlayStr="Inicio de reproducción de "%ls", sección %i."
 NullErrorStr="Fallo al agregar: NULL no es una pista válida."
-FailedLoadStr="Fallo al agregar: El archivo de la pista "%s" no se pudo hallar o cargar."
+FailedLoadStr="Fallo al agregar: El archivo de la pista "%ls" no se pudo hallar o cargar."
 ConfirmInsertDuplicateTitle="Agregar Pista Duplicada"
 ConfirmInsertDuplicateText="Ya existe una pista idéntica a la que se va a agregar. ¿Agregarla de todos modos?"
-AddedStr="Pista agregada "%s" (%i)."
+AddedStr="Pista agregada "%ls" (%i)."
 RemoveSongStr="Pista eliminada #%i."
 ClearListStr="Todas las pistas han sido eliminadas."
 ConfirmClearListTitle="Vaciar Lista de Pistas"
@@ -74,7 +71,7 @@ WindowTitle="Menú de Música"
 [UWindowNetErrorClientWindow]
 ReconnectText="Reconectar al Servidor"
 KickNetworkText="¡EXPULSADO!|Has sido expulsado del servidor como amonestación.\"
-BanNetworkText="¡VETADO!|Has sido vetado del servidor por mal comportamiento.\\\\Si sientes que no te mereces el veto, contacta el administrador al mail: "
+BanNetworkText="¡VETADO!|Has sido vetado del servidor por mal comportamiento.\\Si sientes que no te mereces el veto, contacta el administrador al mail: "
 TempBanNetworkText="¡TEMPORALMENTE VETADO!|Has sido expulsado del servidor durante lo que queda del mapa.\"
 
 [MMControlsClient]
@@ -106,7 +103,7 @@ RefreshTxt="Actualiza&r Lista de Vetos"
 ManualBanTxt="Insertar Veto &Manualmente"
 
 [MMMusListWindow]
-WindowTitle="Pistas múltiples encontradas:"
+WindowTitle="Pistas musicales encontradas:"
 
 [MMListPullDown]
 PlaySongStr="Re&producir"
@@ -143,7 +140,7 @@ LargeFontBold=UWindowFonts.TahomaB30
 [AdminGUIBanLGrid]
 LengthExceeded="Longitud máxima de lista de jugador excedida "%i""
 ResponseMismatch="ID de respuesta erróneo: %i/%j"
-ReceiveBanText="Veto recibido "%s"."
+ReceiveBanText="Veto recibido "%ls"."
 GettingBanListText="Obteniendo lista de vetos del servidor, si no pasa nada quizás no hayas ingresado como administrador (o no hay vetos en el servidor)."
 
 [UWindowSmallRestartButton]

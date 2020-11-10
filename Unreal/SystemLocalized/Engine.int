@@ -14,11 +14,15 @@ Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=Bloo
 Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
 Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
 Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
+Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
 Preferences=(Caption="Audio",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
 Preferences=(Caption="Networking",Parent="Advanced Options")
 Preferences=(Caption="Game Types",Parent="Advanced Options")
 Preferences=(Caption="Map Lists",Parent="Networking")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Advanced Options")
 
 [PlayerPawn]
 QuickSaveString="Quick Saving"
@@ -69,21 +73,21 @@ AltNameFem="killed"
 
 [Progress]
 CancelledConnect="Cancelled Connect Attempt"
-RunningNet="%s: %s (%i players)"
-NetReceiving="Receiving "%s": %i/%i"
-NetReceiveOk="Successfully received "%s""
-NetSend="Sending "%s""
-NetSending="Sending "%s": %i/%i"
+RunningNet="%ls: %ls (%i players)"
+NetReceiving="Receiving "%ls": %i/%i"
+NetReceiveOk="Successfully received "%ls""
+NetSend="Sending "%ls""
+NetSending="Sending "%ls": %i/%i"
 Connecting="Connecting..."
 Listening="Listening for clients..."
 Loading="Loading"
 Saving="Saving"
-Paused="Paused by %s"
-ReceiveFile="Receiving "%s" (F10 Cancels)"
-ReceiveOptionalFile="Receiving optional file "%s" (Press F10 to Skip)"
+Paused="Paused by %ls"
+ReceiveFile="Receiving "%ls" (F10 Cancels)"
+ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
 ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ConnectingText="Connecting (F10 Cancels):"
-ConnectingURL="unreal://%s/%s"
+ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
 OtherSideURL=""
@@ -147,27 +151,27 @@ FemaleGender="her"
 [Errors]
 NetOpen="Error opening file"
 NetWrite="Error writing to file"
-NetRefused="Server refused to send "%s""
+NetRefused="Server refused to send "%ls""
 NetClose="Error closing file"
 NetSize="File size mismatch"
 NetMove="Error moving file"
 NetInvalid="Received invalid file request"
-NoDownload="Package "%s" is not downloadable"
-DownloadFailed="Downloading package "%s" failed: %s"
+NoDownload="Package "%ls" is not downloadable"
+DownloadFailed="Downloading package "%ls" failed: %ls"
 RequestDenied="Server requested file from pending level: Denied"
 ConnectionFailed="Connection failed"
 ChAllocate="Couldn't allocate channel"
 NetAlready="Already networking"
 NetListen="Listen failed: No linker context available"
-LoadEntry="Can't load Entry: %s"
-InvalidUrl="Invalid URL: %s"
-InvalidLink="Invalid Link: %s"
-FailedBrowse="Failed to enter %s: %s"
-Listen="Listen failed: %s"
+LoadEntry="Can't load Entry: %ls"
+InvalidUrl="Invalid URL: %ls"
+InvalidLink="Invalid Link: %ls"
+FailedBrowse="Failed to enter %ls: %ls"
+Listen="Listen failed: %ls"
 AbortToEntry="Failed; returning to Entry"
 ServerOpen="Servers can't open network URLs"
-ServerListen="Dedicated server can't listen: %s"
-Pending="Pending connect to "%s" failed; %s"
+ServerListen="Dedicated server can't listen: %ls"
+Pending="Pending connect to "%ls" failed; %ls"
 LoadPlayerClass="Failed to load player class"
 ServerOutdated="Server's version is outdated"
 Banned="You have been banned"
@@ -175,9 +179,9 @@ TempBanned="You have been temporarily banned"
 Kicked="You have been kicked"
 
 [AdminAccessManager]
-AdminLoginText="Administrator %s logged in"
-AdminLogoutText="Administrator %s logged out"
-CheatUsedStr="%s used admin/cheat command: %c"
+AdminLoginText="Administrator %ls logged in"
+AdminLogoutText="Administrator %ls logged out"
+CheatUsedStr="%ls used admin/cheat command: %c"
 
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont

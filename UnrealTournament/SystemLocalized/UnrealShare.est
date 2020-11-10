@@ -11,7 +11,7 @@ Object=(Name=UnrealShare.FemaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Des
 Object=(Name=UnrealShare.MaleThreeBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Varón 3")
 Object=(Name=UnrealShare.SinglePlayer,Class=Class,MetaClass=UnrealShare.SinglePlayer)
 
-[DeathmatchGame]
+[DeathMatchGame]
 ClassCaption="Partida a Muerte"
 GlobalNameChange=" ha cambiado su nombre por "
 NoNameChange=" ya está en uso"
@@ -63,6 +63,38 @@ DeathMessage[28]="flagelado"
 DeathMessage[29]="destrozado"
 DeathMessage[30]="hecho pedazos"
 DeathMessage[31]="zurrado"
+FemDeathMessage[0]="asesinada"
+FemDeathMessage[1]="rallada"
+FemDeathMessage[2]="fumada"
+FemDeathMessage[3]="sacrificada"
+FemDeathMessage[4]="aniquilada"
+FemDeathMessage[5]="suprimida"
+FemDeathMessage[6]="machacada"
+FemDeathMessage[7]="perforada"
+FemDeathMessage[8]="triturada"
+FemDeathMessage[9]="destruida"
+FemDeathMessage[10]="aporreada"
+FemDeathMessage[11]="enlatada"
+FemDeathMessage[12]="golpeada"
+FemDeathMessage[13]="aplastada"
+FemDeathMessage[14]="magullada"
+FemDeathMessage[15]="excluida"
+FemDeathMessage[16]="apaleada"
+FemDeathMessage[17]="vapuleada"
+FemDeathMessage[18]="despachurrada"
+FemDeathMessage[19]="cortada en rodajas"
+FemDeathMessage[20]="hecha cubitos"
+FemDeathMessage[21]="desgarrada"
+FemDeathMessage[22]="bombardeada"
+FemDeathMessage[23]="desmembrada"
+FemDeathMessage[24]="azotada"
+FemDeathMessage[25]="destripada"
+FemDeathMessage[26]="neutralizada"
+FemDeathMessage[27]="fustigada"
+FemDeathMessage[28]="flagelada"
+FemDeathMessage[29]="destrozada"
+FemDeathMessage[30]="hecha pedazos"
+FemDeathMessage[31]="zurrada"
 DeathModifier[0]="plenamente "
 DeathModifier[1]="completamente "
 DeathModifier[2]="absolutamente "
@@ -71,19 +103,29 @@ DeathModifier[4]="íntegramente "
 MajorDeathMessage[0]=" hecho trizas"
 MajorDeathMessage[1]=" herido de gravedad"
 MajorDeathMessage[2]=" sometido a un dolor indescriptible"
+FemMajorDeathMessage[0]=" hecha trizas"
+FemMajorDeathMessage[1]=" herida de gravedad"
+FemMajorDeathMessage[2]=" sometida a un dolor indescriptible"
 HeadLossMessage[0]="decapitado"
 HeadLossMessage[1]="descabezado"
+FemHeadLossMessage[0]="decapitada"
+FemHeadLossMessage[1]="descabezada"
 DeathVerb=" fue "
 DeathPrep=" por "
 DeathTerm="asesinado"
+FemDeathTerm="asesinada"
 ExplodeMessage=" ha explotado"
 SuicideMessage=" sufrió un repentino ataque al corazón."
 FallMessage=" dejó un pequeño cráter."
 DrownedMessage=" se olvidó de salir a respirar."
 BurnedMessage=" ha sido incinerado"
+FemBurnedMessage=" ha sido incinerada"
 CorrodedMessage=" ha sido enlodado"
+FemCorrodedMessage=" ha sido enlodada"
 HackedMessage=" ha sido acuchillado"
+FemHackedMessage=" ha sido acuchillada"
 BleededMessage=" sangró hasta morir."
+bGenderMessages=True
 
 [UnrealHUD]
 IdentifyName="Nombre"
@@ -149,6 +191,7 @@ MenuTitle="Configuración de la IA"
 
 [DispersionPistol]
 DeathMessage="A %o lo ha asesinado %k con su %w. ¡Pobre!"
+FemDeathMessage="A %o la ha asesinado %k con su %w. ¡Pobre!"
 PickupMessage="Tienes la Pistola de Dispersión"
 ItemName="Pistola de Dispersión"
 
@@ -161,7 +204,7 @@ ShadowDetail[2]="Media Res."
 ShadowDetail[3]="Alta Res."
 ShadowDetail[4]="Ultra Res."
 HelpMessage[1]="Ajusta el brillo de la pantalla utilizando las teclas de flecha izquierda y derecha."
-HelpMessage[2]="Juega a Unreal en una ventana. Ten en cuenta que elegir un modo de reproducción a través de software puede eliminar actores de alto nivel de detalles que serían visibles con el hardware de aceleración de gráficos."
+HelpMessage[2]="Si se activa, ejecuta Unreal en una ventana. Ten en cuenta que elegir la reproducción por software puede eliminar actores de alto nivel de detalles que serían visibles con la aceleración por hardware."
 HelpMessage[3]="Utiliza las flechas izquierda y derecha para seleccionar una resolución, y pulsa INTRO para confirmar tu elección."
 HelpMessage[4]="Utiliza las flechas derecha e izquierda para ajustar el campo de visión (FOV) para pantallas anchas"
 HelpMessage[5]="Elige la opción de nivel bajo de detalles de texturas para mejorar el funcionamiento del juego. Los cambios realizados surtirán efecto en el próximo nivel."
@@ -196,7 +239,7 @@ MenuList[15]="Somb. Decoraciones"
 MenuList[16]="Sombras Realísticas"
 MenuList[17]="Precargar Contenido"
 MenuList[18]="Filtrado Trilinear"
-MenuTitle="SONIDO/VíDEO"
+MenuTitle="SONIDO/VÍDEO"
 
 [UnrealFavoritesMenu]
 EditList[0]="Nombre del Servidor:"
@@ -251,7 +294,7 @@ HelpMessage[5]="Para ingresar con una contraseña de administrador, ve al buscad
 HelpMessage[6]="Marcar para unirse como espectador y observar la partida en lugar de tomar parte en ella."
 HelpMessage[7]="Pulsa INTRO para empezar la partida."
 MenuList[4]="Clase:"
-MenuList[5]="Contraseña (Leer ayuda):"
+MenuList[5]="Las contraseñas ahora se ingresan desde el Buscador de Servidores Unreal."
 MenuList[6]="Observar:"
 MenuList[7]="Iniciar Partida"
 
@@ -270,11 +313,11 @@ MenuList[3]="Piel:"
 MenuTitle="Seleccionar Personaje"
 
 [UnrealJoinGameMenu]
-InternetOption="(Dial-Up)"
-FastInternetOption="(Dial-Up)"
+InternetOption="(Conexión Dial-Up)"
+FastInternetOption="(Conexión Dial-Up)"
 VeryFastInternetOption="(Banda Ancha)"
 HighSpeedInternetOption="(Banda Ancha)"
-LANOption="(LAN)"
+LANOption="(Red Área Local)"
 HelpMessage[1]="Busca servidores locales."
 HelpMessage[2]="Elige un servidor de la lista de favoritos."
 HelpMessage[3]="Pulsa INTRO para ingresar la dirección de un servidor. Vuelve a pulsar INTRO para acceder a dicho servidor."
@@ -289,11 +332,11 @@ MenuTitle="UNIRSE A LA PARTIDA"
 
 [UnrealOptionsMenu]
 HideString="Oculto"
-InternetOption="(Dial-Up)"
-FastInternetOption="(Dial-Up)"
+InternetOption="(Conexión Dial-Up)"
+FastInternetOption="(Conexión Dial-Up)"
 VeryFastInternetOption="(Banda Ancha)"
 HighSpeedInternetOption="(Banda Ancha)"
-LANOption="(LAN)"
+LANOption="(Red Área Local)"
 HelpMessage[1]="Si está activo, se activará la ayuda vertical para apuntar."
 HelpMessage[2]="Activa/desactiva el mando de joystick."
 HelpMessage[3]="Ajusta la sensibilidad del ratón, es decir, la distancia a la cual hay que moverlo para producir un movimiento en el juego."
@@ -332,7 +375,7 @@ MenuList[16]="Configuración de HUD"
 MenuList[17]="Oscilación de Vista"
 MenuList[18]="Velocidad de Red"
 MenuList[19]="Opciones Avanzadas"
-MenuTitle=MENÚ DE OPCIONES
+MenuTitle="MENÚ DE OPCIONES"
 
 [TeamGame]
 ClassCaption="Partida por Equipos"
@@ -364,10 +407,11 @@ MenuList[3]="Orden Aleatorio"
 MenuList[4]="Configuración Individual"
 MenuList[5]="Número de Bots"
 MenuList[6]="Bots en partidas multijugador"
-MenuTitle=BOTS
+MenuTitle="BOTS"
 
 [Eightball]
 DeathMessage="%o fue vapuleado varias veces por el %w de %k."
+FemDeathMessage="%o fue vapuleada varias veces por el %w de %k."
 PickupMessage="Tienes el Lanzacohetes Eightball"
 ItemName="Lanzacohetes Eightball"
 
@@ -399,7 +443,7 @@ MenuList[22]="Tomar Decoración"
 MenuList[23]="Menú de Admin."
 MenuList[24]="Menú de Música"
 MenuList[25]="RESTAURAR PREDETERMINADOS"
-MenuTitle=CONTROLES
+MenuTitle="CONTROLES"
 
 [UnrealNewKeyboardMenu]
 MenuWidth=340
@@ -433,12 +477,12 @@ HelpMessage[7]="¡Llama gratis (sólo desde EE.UU.) al 1-877-4UNREAL para pedir 
 MenuList[1]="JUEGO"
 MenuList[2]="MULTIJUGADOR"
 MenuList[3]="OPCIONES"
-MenuList[4]="SONIDO/VíDEO"
+MenuList[4]="SONIDO/VÍDEO"
 MenuList[5]="SALIR"
 MenuList[7]="INFO. PEDIDOS"
 
 [UnrealLoadMenu]
-RestartString="Reiniciar"
+RestartString="Reiniciar "
 MenuTitle="CARGAR PARTIDA"
 
 [UnrealSlotMenu]
@@ -463,7 +507,7 @@ M_HintMessage="Nueva Pista (Presiona F3 para leer)."
 
 [NaliFruit]
 PickupMessage="Has recogido la Fruta Curativa Nali +"
-ItemName="Fruta Curativa Nali"
+ItemName="Fruta Curativa Nali "
 
 [Health]
 PickupMessage="Has recogido un Botiquín de Salud +"
@@ -516,6 +560,7 @@ MenuTitle="ESCOGER PARTIDA"
 
 [AutoMag]
 DeathMessage="%o ha sido acribillado por el %w de %k."
+FemDeathMessage="%o ha sido acribillada por el %w de %k."
 PickupMessage="Tienes la Autopistola"
 ItemName="Autopistola"
 
@@ -608,6 +653,7 @@ MenuTitle="GUARDAR PARTIDA"
 
 [Stinger]
 DeathMessage="%o ha sido perforado por el %w de %k."
+FemDeathMessage="%o ha sido perforada por el %w de %k."
 PickupMessage="Has recogido el Cañón Perforador"
 ItemName="Cañón Perforador"
 
@@ -636,7 +682,7 @@ PickupMessage="Has recogido un Núcleo ASMD"
 ItemName="Núcleo ASMD"
 
 [MaleThree]
-MenuName="Hombre 3"
+MenuName="Varón 3"
 
 [FemaleOne]
 MenuName="Mujer 1"
