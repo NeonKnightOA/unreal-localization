@@ -127,6 +127,10 @@ CrosshairScaleText="Crosshair Scale"
 CrosshairScaleHelp="Adjust the size of your crosshair."
 DefaultsText="Reset"
 DefaultsHelp="Reset HUD settings to default values."
+CrosshairSmoothText="Smooth Crosshair"
+CrosshairSmoothHelp="Enable to apply smoothing to your crosshair."
+CrosshairAlwaysCenterText="Always Center Crosshair"
+CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 
 [UTIndivBotSetupClient]
 SkillText="Skill Adjust"
