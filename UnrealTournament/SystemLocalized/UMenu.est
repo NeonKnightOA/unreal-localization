@@ -125,6 +125,7 @@ ServerText="Servidor"
 
 [UMenuOptionsWindow]
 WindowTitle="Preferencias"
+WindowWidth=300
 
 [UMenuWeaponPriorityListArea]
 AutoSwitchText="Autocambiar Armas"
@@ -248,6 +249,13 @@ InGameFontScalingText="Ignorar Escala Fuente"
 InGameFontScalingHelp="Si la opción está activada, puedes controlar la escala de las fuentes del juego usando el desplazador a continuación."
 InGameFontScalingSliderText="Factor Escala Fuente"
 InGameFontScalingSliderHelp="Ajusta la escala de las fuentes del juego."
+VSyncText="Sinc. Vertical"
+VSyncHelp="Sincroniza la tasa de cuadros del juego con la tasa de refresco de tu monitor. Puede reducir los errores de pantalla."
+VSyncStates[0]="Desactivado"
+VSyncStates[1]="Activado"
+VSyncStates[2]="Adaptivo"
+VSyncStates[3]="Por Controlador"
+VSyncStates[4]="No Soportado"
 
 [UMenuPlayerSetupClient]
 NameText="Nombre:"
@@ -560,12 +568,12 @@ DefaultsHelp="Restablecer los valores originales de todos los controles."
 JoystickText="Mando"
 JoyXText="Eje X"
 JoyXHelp="Selecciona la respuesta del eje izquierda-derecha de tu mando."
-JoyXOptions(0]="Desplazarse a la izda./dcha."
-JoyXOptions(1]="Girar a la izda./dcha."
+JoyXOptions[0]="Desplazarse a la izda./dcha."
+JoyXOptions[1]="Girar a la izda./dcha."
 JoyYText="Eje Y"
 JoyYHelp="Selecciona la respuesta del eje adelante-atrás de tu mando."
-JoyYOptions(0]="Avanzar/Retroceder"
-JoyYOptions(1]="Mirar hacia arriba/abajo"
+JoyYOptions[0]="Avanzar/Retroceder"
+JoyYOptions[1]="Mirar hacia arriba/abajo"
 
 [UMenuGameRulesBase]
 FragText="Bajas Enemigas"
@@ -673,9 +681,12 @@ VoiceMessagesText="Mensajes de Voz"
 VoiceMessagesHelp="Si se activa, oirás mensajes y órdenes de otros jugadores."
 MessageBeepText="Pitido de Mensaje"
 MessageBeepHelp="Si se activa, oirás un pitido cada vez que recibas un mensaje de charla."
+OutputDeviceText="Disp. de Salida"
+OutputDeviceHelp="Selecciona el dispositivo de salida para el sonido."
+OutputDeviceDefault="Por Def. Sistema"
 
 [UMenuNewGameClientWindow]
-SkillText="Nivel Dificultad:"
+SkillText="Dificultad:"
 Skills[0]="Fácil"
 Skills[1]="Medio"
 Skills[2]="Difícil"
