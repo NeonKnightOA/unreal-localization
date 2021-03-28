@@ -1,0 +1,51 @@
+﻿[LevelInfo0]
+; EN: Title="Rook"
+Title="Havran"
+IdealPlayerCount="6-10"
+; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
+LevelEnterText="Oblékni se, připrav se na bitvu"
+
+[LevelSummary]
+; EN: Title="Rook"
+Title="Havran"
+IdealPlayerCount="6-10"
+; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
+LevelEnterText="Oblékni se, připrav se na bitvu"
+
+[FortStandard1]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard0]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard2]
+; EN: FortName="The Main Doors"
+FortName="Hlavní dveře"
+; EN: DestroyedMessage="are now open!"
+DestroyedMessage="jsou nyní otevřené!"
+
+[FortStandard6]
+; EN: FortName="The Library"
+FortName="Knihovna"
+; EN: DestroyedMessage="is now Open!"
+DestroyedMessage="je nyní otevřeno!"
+
+[FortStandard3]
+FortName=" "
+DestroyedMessage=" "
+
+[SpecialEvent0]
+; EN: Message="The Gatehouse is now open!"
+Message="Brána je nyní otevřená!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Exit the castle and make a hard right where you will locate the switch which will allow access to the library."
+ObjDesc[0]="Vyjděte z hradu a zahněte doprava, kde najdete přepínač, který umožní přístup do knihovny."
+; EN: ObjDesc[1]="Proceed through the library where you will locate a winch that is held in place with two chains. Destroy the chains; this will allow access to the gatehouse in the courtyard."
+ObjDesc[1]="Projděte knihovnu, kde najdete naviják, který je držen na místě se dvěma řetězy. Zničte řetězy; to umožní přístup k vrátnici na nádvoří."
+; EN: ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."
+ObjDesc[2]="Vraťte se na nádvoří a otočením spínače v vrátnici otevřete přední dveře hradu."
+; EN: ObjDesc[3]="Escape the castle alive through the front doors!"
+ObjDesc[3]="Uteč z hradu zaživa předními dveřmi!"

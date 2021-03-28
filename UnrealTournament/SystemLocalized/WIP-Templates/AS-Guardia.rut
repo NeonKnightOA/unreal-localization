@@ -1,0 +1,63 @@
+﻿[LevelInfo0]
+; EN: Title="Guardia Fortress"
+Title="Крепость Guardia"
+IdealPlayerCount="6-12"
+
+[AssaultInfo2]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Выстрелите в предохранитель, чтобы зажечь его и взорвать TNT, который откроет доступ к подземной базе."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Пройдите через базу, разберитесь со всеми орудийными башнями и врагами, которых встретите по пути, пока вы не подниметесь на лифте на платформу, на которой есть переключатель активации гаража."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="Как только дверь откроется, уничтожьте прототип танка, выстрелив в башню."
+
+[FortStandard0]
+; EN: FortName="The Lava Bridge"
+FortName="Лавовый мост"
+; EN: DestroyedMessage="has been crossed!"
+DestroyedMessage="был пересечен!"
+
+[FortStandard4]
+; EN: FortName="The Cavern"
+FortName="Пещера"
+; EN: DestroyedMessage="has been breached!"
+DestroyedMessage="был нарушен!"
+
+[LevelSummary]
+; EN: Title="Guardia Fortress"
+Title="Крепость Guardia"
+IdealPlayerCount="6-12"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="Предохранитель"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="загорелся!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="Гаражная дверь"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="была нарушена!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="Танковая турель"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="был уничтожен!"
+
+[ZoneInfo0]
+; EN: ZoneName="Attackers' Cave"
+ZoneName="Пещера атакующих"
+
+[ZoneInfo1]
+; EN: ZoneName="Near the Fuse"
+ZoneName="Рядом с предохранителем"
+
+[ZoneInfo2]
+; EN: ZoneName="Base Corridors"
+ZoneName="Базовые коридоры"
+
+[WaterZone0]
+; EN: ZoneName="Underwater"
+ZoneName="Под водой"

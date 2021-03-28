@@ -1,0 +1,252 @@
+﻿[Public]
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
+; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mujer 2")
+; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
+Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Hombre 1")
+; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
+Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Hombre 2")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj")
+; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Mujer 2")
+; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
+Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Hombre 1")
+; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
+Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Hombre 2")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj")
+
+[IntroNullHud]
+; EN: ESCMessage="Press ESC to begin"
+ESCMessage="Presione ESC para comenzar"
+
+[EndgameHud]
+; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely.  Yet it's fuel has depleted and you drift aimlessly."
+Message1="La cápsula de escape Skaarj se ha liberado de la atracción gravitacional del planeta... apenas. Sin embargo, su combustible se ha agotado y usted va a la deriva sin rumbo fijo."
+; EN: Message2="From where many have died, you have escaped.  You laugh to yourself; so much has happened, but little has changed."
+Message2="De donde muchos han muerto, has escapado. Te ríes para ti mismo; Han pasado tantas cosas, pero poco ha cambiado."
+; EN: Message3="Before the crash landing, you were trapped in a cramped cell.  Now, once again you are confined in a prison."
+Message3="Antes del aterrizaje forzoso, estaba atrapado en una celda abarrotada. Ahora, una vez más estás encerrado en una prisión."
+; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
+Message4="Pero, confía en que alguien se encontrará con su pequeña embarcación... eventualmente."
+; EN: Message5="Until then, you drift and hope."
+Message5="Hasta entonces, estás a la deriva y tienes esperanza."
+; EN: Message6="Press fire to restart"
+Message6="Presione fuego para reiniciar"
+
+[KingOfTheHill]
+; EN: ClassCaption="King Of The Hill"
+ClassCaption="Rey de la colina"
+; EN: KingMessage=" is the new king of the hill!"
+KingMessage=" es el nuevo rey de la colina!"
+; EN: GameName="King of the Hill"
+GameName="Rey de la colina"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="fue corroído por una gota"
+
+[FlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="%o se rompió en pedazos por %k's %w."
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="Tienes el cañón antiaéreo"
+; EN: ItemName="Flak Cannon"
+ItemName="Cañón antiaéreo"
+
+[Rifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%k puso una bala en la cabeza de %o."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Tienes el rifle"
+; EN: ItemName="Sniper Rifle"
+ItemName="Rifle de francotirador"
+
+[Queen]
+; EN: NameArticle=" the "
+NameArticle=" la "
+
+[SkaarjPlayer]
+MenuName="Skaarj"
+
+[NaliPlayer]
+MenuName="Nali"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" la "
+
+[Minigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="%k's %w convirtió a %o en un trozo de carne con fugas."
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="Tienes la minigun"
+ItemName="Minigun"
+
+[GESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="%o bebió un vaso de la goteante carga verde de %k."
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="Tienes el BioRifle GES"
+; EN: ItemName="GES Bio Rifle"
+ItemName="Fusil biológico GES"
+
+[Squid]
+; EN: MenuName="Squid"
+MenuName="Calamar"
+
+[DarkMatch]
+ClassCaption="Darkmatch"
+GameName="Darkmatch"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="Las baterías de Search Light se han agotado."
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="Recogiste la luz de búsqueda"
+; EN: ItemName="Search Light"
+ItemName="Luz de búsqueda"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="Recogiste Razor Blades"
+; EN: ItemName="Razor Blades"
+ItemName="Hojas de afeitar"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Recogiste 10 proyectiles antiaéreos"
+; EN: ItemName="Flak Shells"
+ItemName="Proyectiles antiaéreos"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="Hombre 1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle rounds."
+PickupMessage="Tienes 8 rondas de rifle."
+; EN: ItemName="Rifle Rounds"
+ItemName="Rondas de rifle"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="Tienes las semillas de frutas Nali"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="Semillas de frutas Nali"
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained"
+ExpireMessage="Las botas de salto se han agotado"
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="Recogiste las Jump Boots"
+; EN: ItemName="Jump Boots"
+ItemName="Botas de salto"
+
+[ForceField]
+; EN: M_NoRoom="No room to activate Force Field."
+M_NoRoom="No hay espacio para activar Force Field."
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="Recogiste el campo de fuerza"
+; EN: ItemName="Force Field"
+ItemName="Campo de fuerza"
+
+[RazorJack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="%k sacó un trozo de sangre de %o con %w."
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="Tienes el RazorJack"
+ItemName="RazorJack"
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Mujer 2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Hombre 2"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Recogiste 25 Kilos de Tarydium Biosludge"
+ItemName="Tarydium Biosludge"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="La invisibilidad ha desaparecido."
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="Tienes invisibilidad"
+; EN: ItemName="Invisibility"
+ItemName="Invisibilidad"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Recogiste el traje de amianto"
+; EN: ItemName="Asbestos Suit"
+ItemName="Traje de amianto"
+
+[Fell]
+; EN: Name="fell"
+Name="cayó"
+; EN: AltName="fell"
+AltName="cayó"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell."
+PickupMessage="Tienes un Flak Shell."
+; EN: ItemName="Flak Shell"
+ItemName="Concha antiaérea"
+
+[Drowned]
+; EN: Name="drowned"
+Name="ahogue"
+; EN: AltName="drowned"
+AltName="ahogue"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="decapitado"
+; EN: AltName="decapitated"
+AltName="decapitado"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="Se ha agotado el amortiguador acústico."
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="Tienes el amortiguador acústico"
+; EN: ItemName="Acoustic Dampener"
+ItemName="Amortiguador acústico"
+
+[Corroded]
+; EN: Name="corroded"
+Name="corroído"
+AltName="slimed"
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="Recogiste el traje de toxina"
+; EN: ItemName="Toxin Suit"
+ItemName="Traje de toxina"
+
+[Burned]
+; EN: Name="burned"
+Name="quemado"
+; EN: AltName="flame-broiled"
+AltName="asado a las llamas"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="Tienes el escudo de poder"
+; EN: ItemName="Power Shield"
+ItemName="Escudo de poder"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Tienes una ronda de rifle"
+; EN: ItemName="Rifle Round"
+ItemName="Ronda de rifle"

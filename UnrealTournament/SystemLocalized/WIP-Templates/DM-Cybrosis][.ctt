@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Cibrosi Central] ["
+IdealPlayerCount="3-8"
+
+[ControlPoint0]
+; EN: PointName="Low Point"
+PointName="Punt baix"
+
+[ControlPoint1]
+; EN: PointName="Center Point"
+PointName="Punt central"
+
+[ControlPoint2]
+PointName="Far Point"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%k va cometre un error impactant"
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Cibrosi Central] ["
+IdealPlayerCount="3-8"
+
+[SpecialEvent3]
+; EN: DamageString="%K didn't manage to keep the Damage Amplifier"
+DamageString="%k no va aconseguir conservar l'amplificador de danys"

@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
+; EN: Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="Exibição",Class=XDrv.XClient,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="XDrv",Parent="Controle de video game",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D="A inicialização do hardware 3D falhou"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Mapa de perspectiva"
+; EN: ViewXY="Overhead map"
+ViewXY="Mapa aéreo"
+; EN: ViewXZ="XZ map"
+ViewXZ="Mapa XZ"
+; EN: ViewYZ="YZ map"
+ViewYZ="Mapa YZ"
+; EN: ViewOther="Viewport"
+ViewOther="Janela de exibição"
+; EN: Color16="&16-bit color"
+Color16="E cor de 16 bits"
+; EN: Color32="&32-bit color"
+Color32="E cor de 32 bits"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Opções avançadas"
+
+[XClient]
+; EN: ClassCaption="Standard XDrv Linux Manager"
+ClassCaption="Gerenciador padrão XDrv Linux"

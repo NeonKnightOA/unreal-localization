@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Fregata"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Fregata"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="Střely"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="byly spuštěny!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="Loď"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="bylo zadáno!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="Hydraulický kompresor"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="Dveře do velínu lodi jsou ovládány hydraulickým kompresorem, který je umístěn v zadní kabině lodi. Tento kompresor musí být zničen před přístupem do velínu."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="Musíte ukrást válečnou loď přes dok a najít cestu do velínu v nejvyšším patře lodi. Tam najdete červené tlačítko, které aktivuje děla lodi a umožní lodi opustit přístav."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Loď uprostřed chodby"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Koupání u jezera"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="Být koně"

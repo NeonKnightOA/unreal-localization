@@ -1,0 +1,63 @@
+﻿[LevelInfo0]
+; EN: Title="Guardia Fortress"
+Title="Pevnost Guardia"
+IdealPlayerCount="6-12"
+
+[AssaultInfo2]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Střílejte na pojistku, abyste ji zapálili, a vyhodit do povětří TNT, což umožní přístup k podzemní základně."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Projděte si základnu a vypořádejte se se všemi dělovými věžičkami a nepřáteli, které na této cestě najdete, až vyjedete výtahem na plošinu s přepínačem aktivace garáže."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="Jakmile jsou dveře otevřené, zničte prototyp tanku střelou do věže."
+
+[FortStandard0]
+; EN: FortName="The Lava Bridge"
+FortName="Lávový most"
+; EN: DestroyedMessage="has been crossed!"
+DestroyedMessage="byl překročen!"
+
+[FortStandard4]
+; EN: FortName="The Cavern"
+FortName="Jeskyně"
+; EN: DestroyedMessage="has been breached!"
+DestroyedMessage="bylo porušeno!"
+
+[LevelSummary]
+; EN: Title="Guardia Fortress"
+Title="Pevnost Guardia"
+IdealPlayerCount="6-12"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="Pojistka"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="byl zapálen!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="Garážová vrata"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="bylo porušeno!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="Věž tanku"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[ZoneInfo0]
+; EN: ZoneName="Attackers' Cave"
+ZoneName="Jeskyně útočníků"
+
+[ZoneInfo1]
+; EN: ZoneName="Near the Fuse"
+ZoneName="Blízko pojistky"
+
+[ZoneInfo2]
+; EN: ZoneName="Base Corridors"
+ZoneName="Základní chodby"
+
+[WaterZone0]
+; EN: ZoneName="Underwater"
+ZoneName="Pod vodou"

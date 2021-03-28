@@ -1,0 +1,51 @@
+﻿[LevelInfo0]
+; EN: Title="Rook"
+Title="Råka"
+IdealPlayerCount="6-10"
+; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
+LevelEnterText="Ta din rustning, förbered dig på strid"
+
+[LevelSummary]
+; EN: Title="Rook"
+Title="Råka"
+IdealPlayerCount="6-10"
+; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
+LevelEnterText="Ta din rustning, förbered dig på strid"
+
+[FortStandard1]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard0]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard2]
+; EN: FortName="The Main Doors"
+FortName="Huvuddörrarna"
+; EN: DestroyedMessage="are now open!"
+DestroyedMessage="är nu öppna!"
+
+[FortStandard6]
+; EN: FortName="The Library"
+FortName="Biblioteket"
+; EN: DestroyedMessage="is now Open!"
+DestroyedMessage="är nu öppen!"
+
+[FortStandard3]
+FortName=" "
+DestroyedMessage=" "
+
+[SpecialEvent0]
+; EN: Message="The Gatehouse is now open!"
+Message="Gatehouse är nu öppet!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Exit the castle and make a hard right where you will locate the switch which will allow access to the library."
+ObjDesc[0]="Gå ut ur slottet och gör en hård höger där du hittar omkopplaren som ger åtkomst till biblioteket."
+; EN: ObjDesc[1]="Proceed through the library where you will locate a winch that is held in place with two chains. Destroy the chains; this will allow access to the gatehouse in the courtyard."
+ObjDesc[1]="Fortsätt genom biblioteket där du hittar en vinsch som hålls på plats med två kedjor. Förstör kedjorna; detta möjliggör åtkomst till porthuset på gården."
+; EN: ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."
+ObjDesc[2]="Återvänd till gården och vrid reglaget i porthuset för att öppna slottets ytterdörrar."
+; EN: ObjDesc[3]="Escape the castle alive through the front doors!"
+ObjDesc[3]="Fly slottet levande genom ytterdörrarna!"

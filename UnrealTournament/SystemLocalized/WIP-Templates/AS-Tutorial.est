@@ -1,0 +1,35 @@
+﻿[LevelInfo0]
+; EN: Title="Assault Tutorial"
+Title="Tutorial de asalto"
+IdealPlayerCount="2-4"
+
+[LevelSummary]
+; EN: Title="Assault Tutorial"
+Title="Tutorial de asalto"
+IdealPlayerCount="2-4"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="El fusible"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="se ha encendido!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="La puerta del garaje"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="fue violado!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="La torreta del tanque"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="¡Ha sido destruido!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Dispara a la mecha para encenderla y hacer estallar el TNT, lo que permitirá el acceso a la base subterránea."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Ábrete camino a través de la base, lidiando con todas las torretas de armas y los enemigos que encuentres en el camino, hasta que subas en un ascensor hasta una plataforma que tiene el interruptor de activación del garaje."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="Una vez que se abre la puerta, destruye el tanque prototipo disparando a la torreta."

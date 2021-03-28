@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Mazon Fortress"
+Title="Mazon fästning"
+IdealPlayerCount="8-12"
+
+[FortStandard5]
+; EN: FortName="The Crystal"
+FortName="Kristallen"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har förstörts!"
+
+[FortStandard6]
+; EN: FortName="The Reactor Room Doors"
+FortName="Reaktorrumsdörrarna"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="öppnas!"
+
+[LevelSummary]
+; EN: Title="Mazon Fortress"
+Title="Mazon fästning"
+IdealPlayerCount="8-12"
+
+[FortStandard0]
+; EN: FortName="The Front Doors"
+FortName="Framdörrarna"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="öppnas!"
+
+[FortStandard1]
+; EN: FortName="The Chain 2"
+FortName="Kedjan 2"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har förstörts!"
+
+[FortStandard2]
+; EN: FortName="The Chain 1"
+FortName="Kedjan 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har förstörts!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Your enemy is using Tarydium, a powerful and volatile element, to power their War Machines. You must infiltrate the base by first destroying the two counterweights outside the west wing of the fort. This will open the doors to the fortress."
+ObjDesc[0]="Din fiende använder Tarydium, ett kraftfullt och flyktigt element, för att driva sina krigsmaskiner. Du måste infiltrera basen genom att först förstöra de två motvikterna utanför fortets västra flygel. Detta öppnar dörrarna till fästningen."
+; EN: ObjDesc[1]="Optionally, you may locate the main gate access control switch and open the castle's main gate, giving your teammates more direct access."
+ObjDesc[1]="Alternativt kan du hitta huvudportens åtkomstkontrollbrytare och öppna slottets huvudport, vilket ger dina lagkamrater mer direkt åtkomst."
+; EN: ObjDesc[2]="Find and activate the primary access control switch to gain entry to the Tarydium reactor room."
+ObjDesc[2]="Hitta och aktivera den primära brytaren för åtkomstkontroll för att komma in i Tarydium-reaktorrummet."
+; EN: ObjDesc[3]="Finally, destroy the Tarydium power crystal to shut down the operation."
+ObjDesc[3]="Slutligen förstör Tarydium-maktkristallen för att stänga av verksamheten."

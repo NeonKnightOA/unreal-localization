@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Mazon Fortress"
+Title="Pevnost Mazon"
+IdealPlayerCount="8-12"
+
+[FortStandard5]
+; EN: FortName="The Crystal"
+FortName="Krystal"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[FortStandard6]
+; EN: FortName="The Reactor Room Doors"
+FortName="Dveře místnosti reaktoru"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="jsou otevřeny!"
+
+[LevelSummary]
+; EN: Title="Mazon Fortress"
+Title="Pevnost Mazon"
+IdealPlayerCount="8-12"
+
+[FortStandard0]
+; EN: FortName="The Front Doors"
+FortName="Přední dveře"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="jsou otevřeny!"
+
+[FortStandard1]
+; EN: FortName="The Chain 2"
+FortName="Řetěz 2"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[FortStandard2]
+; EN: FortName="The Chain 1"
+FortName="Řetěz 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Your enemy is using Tarydium, a powerful and volatile element, to power their War Machines. You must infiltrate the base by first destroying the two counterweights outside the west wing of the fort. This will open the doors to the fortress."
+ObjDesc[0]="Váš nepřítel používá Tarydium, mocný a těkavý prvek, k pohonu svých válečných strojů. Musíte proniknout na základnu tak, že nejprve zničíte dvě protizávaží mimo západní křídlo pevnosti. Tím se otevřou dveře do pevnosti."
+; EN: ObjDesc[1]="Optionally, you may locate the main gate access control switch and open the castle's main gate, giving your teammates more direct access."
+ObjDesc[1]="Volitelně můžete vyhledat spínač ovládání přístupu k hlavní bráně a otevřít hlavní bránu hradu, což vašim spoluhráčům poskytne přímější přístup."
+; EN: ObjDesc[2]="Find and activate the primary access control switch to gain entry to the Tarydium reactor room."
+ObjDesc[2]="Najděte a aktivujte primární přepínač řízení přístupu a získejte vstup do místnosti reaktoru Tarydium."
+; EN: ObjDesc[3]="Finally, destroy the Tarydium power crystal to shut down the operation."
+ObjDesc[3]="Nakonec zničte energetický krystal Tarydium a ukončete operaci."

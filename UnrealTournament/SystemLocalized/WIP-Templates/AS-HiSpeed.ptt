@@ -1,0 +1,99 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="Alta velocidade"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Controle o trem !! NO MERCY !!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="3º Carro"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="1ª Carro"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="2ª Carro"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="Fora do primeiro carro"
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName="Tanque de ácido"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="%ls caiu entre os carros. Isso machuca..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="A cabine de controle"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="foi assumido !!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="O CAR 3"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="está prestes a ser violado !!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="O CAR 1"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="está prestes a ser violado !!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="%ls comeu uma lâmina de helicóptero..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="O interruptor de acesso à cabine de controle"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="Foi ativado!!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="Os invasores estão no telhado !!!"
+
+[locationid5]
+LocationName="Pillar Flatbed"
+
+[locationid6]
+LocationName="Tank Flatbed"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="Mesa vazia"
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName="Tanque de ácido"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="Trabalhe seu caminho até a frente do trem. No carro um, você encontrará um interruptor no nível superior que abre a porta para a cabine de controle abaixo. Ative esta opção."
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="Desça para a sala de controle. Lá você encontrará uma alavanca que cancelará os controles do trem."
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="Alta velocidade"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Controle o trem !! NO MERCY !!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="O TREM FOI CAPTURADO !!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="O CAR 2"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="está prestes a ser violado !!"

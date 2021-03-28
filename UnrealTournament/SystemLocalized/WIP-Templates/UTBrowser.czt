@@ -1,0 +1,19 @@
+﻿[UTBrowserServerGrid]
+; EN: ngStatsName="Stats Logging"
+ngStatsName="Statistiky protokolování"
+; EN: VersionName="Version"
+VersionName="Verze"
+; EN: EnabledText="Enabled"
+EnabledText="Povoleno"
+; EN: AskNgStatsTitle="Use ngWorldStats?"
+AskNgStatsTitle="Použít ngWorldStats?"
+; EN: AskNgStatsText="This server has stat accumulation enabled. Your ngWorldStats password has not been set. If you set a new ngWorldStats password, you can record all of your gameplay stats (Kills, Suicides, etc) online! If you do not set a password you will opt out of stat accumulation.\n\nDo you want to set an ngWorldStats password?"
+AskNgStatsText="Tento server má povolenou akumulaci statistik. Vaše heslo ngWorldStats nebylo nastaveno. Pokud nastavíte nové heslo ngWorldStats, můžete si online zaznamenat všechny své herní statistiky (zabití, sebevraždy atd.)! Pokud nenastavíte heslo, odhlásíte se z hromadění statistik.\n\nChcete nastavit heslo ngWorldStats?"
+; EN: ActiveText="Active"
+ActiveText="Aktivní"
+; EN: InactiveText="Inactive"
+InactiveText="Neaktivní"
+
+[UTBrowserMainWindow]
+; EN: WindowTitleString="Unreal Tournament Server Browser"
+WindowTitleString="Prohlížeč serveru Unreal Tournament"

@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Cybrosis Central] ["
+IdealPlayerCount="3-8"
+
+[ControlPoint0]
+; EN: PointName="Low Point"
+PointName="Nízký bod"
+
+[ControlPoint1]
+; EN: PointName="Center Point"
+PointName="Centrální bod"
+
+[ControlPoint2]
+PointName="Far Point"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%k udělal šokující chybu"
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Cybrosis Central] ["
+IdealPlayerCount="3-8"
+
+[SpecialEvent3]
+; EN: DamageString="%K didn't manage to keep the Damage Amplifier"
+DamageString="%k se nepodařilo udržet Zesilovač poškození"

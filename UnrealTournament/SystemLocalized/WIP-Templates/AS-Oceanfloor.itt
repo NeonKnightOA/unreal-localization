@@ -1,0 +1,89 @@
+﻿[LevelInfo0]
+Title="Ocean Floor 'Station 5'"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Controlla la base sottomarina!"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="Area centrale"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="Ampia area di attracco"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="Piccola area di attracco"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="Sottomarino"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="Centro di comando"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="Corridoio"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="Il Terminal 1 è stato disabilitato."
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="Il Terminal 3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="è stato distrutto !!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="Il Terminal 4 è stato disabilitato."
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="Il Terminal 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="è stato distrutto!"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="Il Terminal 2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="è stato distrutto !!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="Il Terminal 4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="è stato distrutto!"
+
+[LevelSummary]
+Title="Ocean Floor 'Station 5'"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Controlla la base sottomarina!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="Nuota verso la base sotto il sottomarino. All'interno della base sono presenti 4 terminali a cui sono attaccate delle tastiere che devono essere distrutte per rendere inutilizzabile la base. Distruggi il terminale 1. I terminali possono essere distrutti in qualsiasi ordine."
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="Distruggi il terminale 2. I terminali possono essere distrutti in qualsiasi ordine."
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="Distruggi il terminale 3. I terminali possono essere distrutti in qualsiasi ordine."
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="Distruggi il terminale 4. I terminali possono essere distrutti in qualsiasi ordine."
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="Condotto dell'ascensore"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="Il Terminal 3 è stato disabilitato."
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="Il Terminal 2 è stato disabilitato."

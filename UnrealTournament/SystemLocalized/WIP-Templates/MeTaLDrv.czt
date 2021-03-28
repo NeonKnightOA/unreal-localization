@@ -1,0 +1,12 @@
+﻿[Public]
+Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=S3_6.dll)
+; EN: Preferences=(Caption="S3 MeTaL Support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+Preferences=(Caption="Podpora S3 MeTaL",Parent="Vykreslování",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+
+[MeTaLRenderDevice]
+; EN: ClassCaption="S3 MeTaL Support"
+ClassCaption="Podpora S3 MeTaL"
+; EN: AskInstalled="Do you have a Savage 3D card installed?"
+AskInstalled="Máte nainstalovanou 3D kartu Savage?"
+; EN: AskUse="Do you want Unreal Tournament to use your Savage 3D card?"
+AskUse="Chcete, aby Unreal Tournament používal vaši 3D kartu Savage?"

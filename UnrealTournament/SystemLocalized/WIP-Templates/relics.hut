@@ -1,0 +1,49 @@
+﻿[Public]
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60%of all damage sustained by the user.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+
+[RelicInventory]
+; EN: PickupMessage="You picked up a null Relic."
+PickupMessage="Felvettél egy ereklyét."
+; EN: ItemName="Relic"
+ItemName="Ereklye"
+
+[RelicRedemptionInventory]
+; EN: PickupMessage="You picked up the Relic of Redemption!"
+PickupMessage="Felvetted a Megváltás ereklyéjét!"
+; EN: ItemName="Relic of Redemption"
+ItemName="A megváltás ereklyéje"
+
+[RelicStrengthInventory]
+; EN: PickupMessage="You picked up the Relic of Strength!"
+PickupMessage="Felkapta az Erő ereklyéjét!"
+; EN: ItemName="Relic of Strength"
+ItemName="Erő ereklyéje"
+
+[RelicDeathInventory]
+; EN: PickupMessage="You picked up the Relic of Vengeance!"
+PickupMessage="Felvetted a bosszú ereklyéjét!"
+; EN: ItemName="Relic of Vengeance"
+ItemName="A bosszú ereklyéje"
+
+[RelicDefenseInventory]
+; EN: PickupMessage="You picked up the Relic of Defense!"
+PickupMessage="Felkapta a védelem ereklyéjét!"
+; EN: ItemName="Relic of Defense"
+ItemName="A védelem ereklyéje"
+
+[RelicSpeedInventory]
+; EN: PickupMessage="You picked up the Relic of Speed!"
+PickupMessage="Felvetted a sebesség ereklyéjét!"
+; EN: ItemName="Relic of Speed"
+ItemName="A sebesség ereklyéje"
+
+[RelicRegenInventory]
+; EN: PickupMessage="You picked up the Relic of Regeneration!"
+PickupMessage="Felvette a regenerálás ereklyéjét!"
+; EN: ItemName="Relic of Regeneration"
+ItemName="A regeneráció ereklyéje"

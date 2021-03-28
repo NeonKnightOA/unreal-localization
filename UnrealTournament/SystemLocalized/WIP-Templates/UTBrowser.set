@@ -1,0 +1,18 @@
+﻿[UTBrowserServerGrid]
+; EN: ngStatsName="Stats Logging"
+ngStatsName="Statistik loggning"
+VersionName="Version"
+; EN: EnabledText="Enabled"
+EnabledText="Aktiverad"
+; EN: AskNgStatsTitle="Use ngWorldStats?"
+AskNgStatsTitle="Använd ngWorldStats?"
+; EN: AskNgStatsText="This server has stat accumulation enabled. Your ngWorldStats password has not been set. If you set a new ngWorldStats password, you can record all of your gameplay stats (Kills, Suicides, etc) online! If you do not set a password you will opt out of stat accumulation.\n\nDo you want to set an ngWorldStats password?"
+AskNgStatsText="Denna server har stat ackumulering aktiverat. Ditt lösenord för ngWorldStats har inte ställts in. Om du ställer in ett nytt ngWorldStats-lösenord kan du spela in all din spelstatistik (Kills, Suicides, etc) online! Om du inte anger ett lösenord kommer du att välja bort stat-ackumulering.\n\nVill du ställa in ett lösenord för ngWorldStats?"
+; EN: ActiveText="Active"
+ActiveText="Aktiva"
+; EN: InactiveText="Inactive"
+InactiveText="Inaktiv"
+
+[UTBrowserMainWindow]
+; EN: WindowTitleString="Unreal Tournament Server Browser"
+WindowTitleString="Webbläsaren Unreal Tournament"

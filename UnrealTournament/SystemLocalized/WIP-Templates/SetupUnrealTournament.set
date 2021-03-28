@@ -1,0 +1,27 @@
+﻿[Setup]
+LocalProduct="Unreal Tournament"
+DefaultFolder="C:\UnrealTournament"
+ReadMe="Help\469ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle="Inställning av Unreal Tournament"
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle="Alternativ för Unreal Tournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
+Developer="Epic Games, Inc. - 469 av Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+Logo="Help\Logo.bmp"
+
+[UnrealRequirement]
+LocalProduct="Unreal Tournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.epicgames.com/"
+Developer="Epic Games, Inc."
+DeveloperURL="http://www.epicgames.com/"
+
+[LinuxGroup]
+; EN: Caption="Linux native files"
+Caption="Inbyggda Linux-filer"
+; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
+Description="Kopierar alla filer som krävs för att köra och spela Unreal Tournament inbyggt i Linux. Det finns ingen meny för avancerade alternativ ännu, men alla inställningar noteras och kan redigeras i UnrealTournamentLinux.ini i systemmappen. Nivåredigeraren UnrealED 2.1 är inte tillgänglig i Linux än. Om du har problem med att starta spelet finns det mer information och en FAQ i ReleaseNotes i hjälpkatalogen. Om ditt system inte tillhandahåller alla bibliotek finns det ett paket som heter lin_convenience_libs.7z i hjälpmappen som ska innehålla alla nödvändiga filer."

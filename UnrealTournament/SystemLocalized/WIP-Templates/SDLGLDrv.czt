@@ -1,0 +1,18 @@
+﻿[Public]
+Object=(Name=SDLGLDrv.SDLGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libGL.so.1)
+; EN: Preferences=(Caption="SDL OpenGL Support",Parent="Rendering",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
+Preferences=(Caption="Podpora SDL OpenGL",Parent="Vykreslování",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Nelze najít ovladač OpenGl %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Chybějící funkce OpenGl %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Nastavení se nezdařilo"
+
+[SDLGLRenderDevice]
+; EN: ClassCaption="SDL OpenGL Support"
+ClassCaption="Podpora SDL OpenGL"
+; EN: AskUse="Do you want Unreal Tournament to use your SDL OpenGL rendering device?"
+AskUse="Chcete, aby Unreal Tournament používal vaše vykreslovací zařízení SDL OpenGL?"

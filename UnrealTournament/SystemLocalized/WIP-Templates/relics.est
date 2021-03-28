@@ -1,0 +1,49 @@
+﻿[Public]
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60%of all damage sustained by the user.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+
+[RelicInventory]
+; EN: PickupMessage="You picked up a null Relic."
+PickupMessage="Recogiste una reliquia nula."
+; EN: ItemName="Relic"
+ItemName="Reliquia"
+
+[RelicRedemptionInventory]
+; EN: PickupMessage="You picked up the Relic of Redemption!"
+PickupMessage="¡Recogiste la Reliquia de la Redención!"
+; EN: ItemName="Relic of Redemption"
+ItemName="Reliquia de redención"
+
+[RelicStrengthInventory]
+; EN: PickupMessage="You picked up the Relic of Strength!"
+PickupMessage="¡Recogiste la Reliquia de la Fuerza!"
+; EN: ItemName="Relic of Strength"
+ItemName="Reliquia de fuerza"
+
+[RelicDeathInventory]
+; EN: PickupMessage="You picked up the Relic of Vengeance!"
+PickupMessage="¡Recogiste la Reliquia de la Venganza!"
+; EN: ItemName="Relic of Vengeance"
+ItemName="Reliquia de venganza"
+
+[RelicDefenseInventory]
+; EN: PickupMessage="You picked up the Relic of Defense!"
+PickupMessage="¡Recogiste la Reliquia de Defensa!"
+; EN: ItemName="Relic of Defense"
+ItemName="Reliquia de defensa"
+
+[RelicSpeedInventory]
+; EN: PickupMessage="You picked up the Relic of Speed!"
+PickupMessage="¡Recogiste la Reliquia de la Velocidad!"
+; EN: ItemName="Relic of Speed"
+ItemName="Reliquia de la velocidad"
+
+[RelicRegenInventory]
+; EN: PickupMessage="You picked up the Relic of Regeneration!"
+PickupMessage="¡Recogiste la Reliquia de la Regeneración!"
+; EN: ItemName="Relic of Regeneration"
+ItemName="Reliquia de regeneración"
