@@ -5,7 +5,7 @@ Preferences=(Caption="OldOpenGL Support",Parent="Rendering",Class=OldOpenGLDrv.O
 [OpenGLRenderDevice]
 ClassCaption="OldOpenGL Support"
 AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
-AskUse="Do you want Unreal Tournament to use your OldOpenGL accelerator?"
+AskUse="Do you want Unreal to use your OldOpenGL accelerator?"
 
 [Errors]
 NoFindGL="Can't find OldOpenGL driver %ls"
