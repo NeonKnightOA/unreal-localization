@@ -45,9 +45,11 @@ Object=(Name=Botpack.ChainSaw,Class=Class,MetaClass=Botpack.TournamentWeapon,Des
 Object=(Name=Botpack.ImpactHammer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ударный молот")
 ; EN: Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Translocator")
 Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Транслокатор")
+; EN: Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Enforcer")
 Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Enforcer")
 ; EN: Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Double Enforcers")
 Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Двойные энфорсеры")
+; EN: Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="GES BioRifle")
 Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="GES BioRifle")
 ; EN: Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Shock Rifle")
 Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ударная винтовка")
@@ -68,21 +70,37 @@ Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,
 ; EN: Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redeemer")
 Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Искупитель")
 ; Mutators
+; EN: Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="FatBoy,Everyone fattens when they frag a lot and become thinner when they get fragged.")
 Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="FatBoy,Everyone fattens when they frag a lot and become thinner when they get fragged.")
+; EN: Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Stealth,Everyone is invisible.")
 Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Stealth,Everyone is invisible.")
+; EN: Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
 Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
+; EN: Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
 Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
+; EN: Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
 Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
+; EN: Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
 Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
+; EN: Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
 Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
+; EN: Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="No Redeemer,The Redeemer is removed from the game.")
 Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="No Redeemer,The Redeemer is removed from the game.")
+; EN: Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Flak Cannon Arena,All weapon and ammo pickups are replaced with Flak Cannons and Flak Ammo.")
 Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Flak Cannon Arena,All weapon and ammo pickups are replaced with Flak Cannons and Flak Ammo.")
+; EN: Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Impact Hammer Arena,Weapons and items are removed from the match, and players only carry an Impact Hammer.")
 Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Impact Hammer Arena,Weapons and items are removed from the match, and players only carry an Impact Hammer.")
+; EN: Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Melee,The Chainsaw replaces the Impact Hammer as the starting melee weapon.")
 Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Melee,The Chainsaw replaces the Impact Hammer as the starting melee weapon.")
+; EN: Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Sniper Rifle Arena,All weapon and ammo pickups are replaced with Sniper Rifles and Sniper Ammo.")
 Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Sniper Rifle Arena,All weapon and ammo pickups are replaced with Sniper Rifles and Sniper Ammo.")
+; EN: Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
 Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
+; EN: Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
 Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
+; EN: Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
 Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
+; EN: Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
 Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
 ; Map Lists
 ; EN: Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Default Maps")
@@ -150,68 +168,100 @@ GameName="Турнир DeathMatch"
 [TournamentGameInfo]
 ; EN: DeathMessage[0]="killed"
 DeathMessage[0]="убит"
+FemDeathMessage[0]="убит"
 ; EN: DeathMessage[1]="ruled"
 DeathMessage[1]="управлял"
+FemDeathMessage[1]="управлял"
 ; EN: DeathMessage[2]="smoked"
 DeathMessage[2]="копченый"
+FemDeathMessage[2]="копченый"
 ; EN: DeathMessage[3]="slaughtered"
 DeathMessage[3]="зарезанный"
+FemDeathMessage[3]="зарезанный"
 ; EN: DeathMessage[4]="annihilated"
 DeathMessage[4]="уничтожен"
+FemDeathMessage[4]="уничтожен"
 ; EN: DeathMessage[5]="put down"
 DeathMessage[5]="отложить"
+FemDeathMessage[5]="отложить"
 ; EN: DeathMessage[6]="splooged"
 DeathMessage[6]="залитый"
+FemDeathMessage[6]="залитый"
 ; EN: DeathMessage[7]="perforated"
 DeathMessage[7]="перфорированный"
+FemDeathMessage[7]="перфорированный"
 ; EN: DeathMessage[8]="shredded"
 DeathMessage[8]="измельченный"
+FemDeathMessage[8]="измельченный"
 ; EN: DeathMessage[9]="destroyed"
 DeathMessage[9]="уничтожен"
+FemDeathMessage[9]="уничтожен"
 ; EN: DeathMessage[10]="whacked"
 DeathMessage[10]="ударил"
+FemDeathMessage[10]="ударил"
 ; EN: DeathMessage[11]="canned"
 DeathMessage[11]="консервы"
+FemDeathMessage[11]="консервы"
 ; EN: DeathMessage[12]="busted"
 DeathMessage[12]="разоренный"
+FemDeathMessage[12]="разоренный"
 ; EN: DeathMessage[13]="creamed"
 DeathMessage[13]="взбитый"
+FemDeathMessage[13]="взбитый"
 ; EN: DeathMessage[14]="smeared"
 DeathMessage[14]="смазанный"
+FemDeathMessage[14]="смазанный"
 ; EN: DeathMessage[15]="shut out"
 DeathMessage[15]="закрыться"
+FemDeathMessage[15]="закрыться"
 ; EN: DeathMessage[16]="beaten down"
 DeathMessage[16]="сбит"
+FemDeathMessage[16]="сбит"
 ; EN: DeathMessage[17]="smacked down"
 DeathMessage[17]="ударил"
+FemDeathMessage[17]="ударил"
 ; EN: DeathMessage[18]="pureed"
 DeathMessage[18]="протертый"
+FemDeathMessage[18]="протертый"
 ; EN: DeathMessage[19]="sliced"
 DeathMessage[19]="нарезанный"
+FemDeathMessage[19]="нарезанный"
 ; EN: DeathMessage[20]="diced"
 DeathMessage[20]="нарезанный кубиками"
+FemDeathMessage[20]="нарезанный кубиками"
 ; EN: DeathMessage[21]="ripped"
 DeathMessage[21]="разорванный"
+FemDeathMessage[21]="разорванный"
 ; EN: DeathMessage[22]="blasted"
 DeathMessage[22]="взорван"
+FemDeathMessage[22]="взорван"
 ; EN: DeathMessage[23]="torn up"
 DeathMessage[23]="разорван"
+FemDeathMessage[23]="разорван"
 ; EN: DeathMessage[24]="spanked"
 DeathMessage[24]="отшлепанный"
+FemDeathMessage[24]="отшлепанный"
 ; EN: DeathMessage[25]="eviscerated"
 DeathMessage[25]="потрошен"
+FemDeathMessage[25]="потрошен"
 ; EN: DeathMessage[26]="neutered"
 DeathMessage[26]="стерилизованный"
+FemDeathMessage[26]="стерилизованный"
 ; EN: DeathMessage[27]="whipped"
 DeathMessage[27]="взбитый"
+FemDeathMessage[27]="взбитый"
 ; EN: DeathMessage[28]="shafted"
 DeathMessage[28]="шафран"
+FemDeathMessage[28]="шафран"
 ; EN: DeathMessage[29]="trashed"
 DeathMessage[29]="разгромлен"
+FemDeathMessage[29]="разгромлен"
 ; EN: DeathMessage[30]="smashed"
 DeathMessage[30]="разбит"
+FemDeathMessage[30]="разбит"
 ; EN: DeathMessage[31]="trounced"
 DeathMessage[31]="разбит"
+FemDeathMessage[31]="разбит"
 ; EN: DeathModifier[0]="thoroughly "
 DeathModifier[0]="тщательно "
 ; EN: DeathModifier[1]="completely "
@@ -224,14 +274,19 @@ DeathModifier[3]="полностью "
 DeathModifier[4]="совершенно "
 ; EN: MajorDeathMessage[0]="ripped a new one"
 MajorDeathMessage[0]="разорвал новый"
+FemMajorDeathMessage[0]="разорвал новый"
 ; EN: MajorDeathMessage[1]="messed up real bad"
 MajorDeathMessage[1]="испортил очень плохо"
+FemMajorDeathMessage[1]="испортил очень плохо"
 ; EN: MajorDeathMessage[2]="given a new definition of pain"
 MajorDeathMessage[2]="дано новое определение боли"
+FemMajorDeathMessage[2]="дано новое определение боли"
 ; EN: HeadLossMessage[0]="decapitated"
 HeadLossMessage[0]="обезглавлен"
+FemHeadLossMessage[0]="обезглавлен"
 ; EN: HeadLossMessage[1]="beheaded"
 HeadLossMessage[1]="обезглавлен"
+FemHeadLossMessage[1]="обезглавлен"
 ; EN: DeathVerb=" was "
 DeathVerb=" был "
 ; EN: DeathPrep=" by "
@@ -240,20 +295,28 @@ DeathPrep=" от "
 DeathTerm="убит"
 ; EN: ExplodeMessage=" was blown up."
 ExplodeMessage=" был взорван."
+FemExplodeMessage=" был взорван."
 ; EN: SuicideMessage=" had a sudden heart attack."
 SuicideMessage=" случился внезапный сердечный приступ."
+FemSuicideMessage=" случился внезапный сердечный приступ."
 ; EN: FallMessage=" left a small crater."
 FallMessage=" оставил небольшой кратер."
+FemFallMessage=" оставил небольшой кратер."
 ; EN: DrownedMessage=" forgot to come up for air."
 DrownedMessage=" забыл подойти подышать воздухом."
+FemDrownedMessage=" забыл подойти подышать воздухом."
 ; EN: BurnedMessage=" was incinerated."
 BurnedMessage=" был сожжен."
+FemBurnedMessage=" был сожжен."
 ; EN: CorrodedMessage=" was slimed."
 CorrodedMessage=" был покрыт слизью."
+FemCorrodedMessage=" был покрыт слизью."
 ; EN: HackedMessage=" was hacked."
 HackedMessage=" был взломан."
+FemHackedMessage=" был взломан."
 ; EN: MortarMessage=" was blown up by a mortar."
 MortarMessage=" был взорван минометом."
+FemMortarMessage=" был взорван минометом."
 ; EN: MaleSuicideMessage=" killed his own dumb self."
 MaleSuicideMessage=" убил собственное немое "я"."
 ; EN: FemaleSuicideMessage=" killed her own dumb self."
@@ -401,6 +464,30 @@ Skills[6]="Бесчеловечный"
 Skills[7]="Богоподобный"
 
 [TrainingDM]
+SoundLengths[0]=14
+SoundLengths[1]=13
+SoundLengths[2]=7
+SoundLengths[3]=10
+SoundLengths[4]=14
+SoundLengths[5]=12
+SoundLengths[6]=14
+SoundLengths[7]=3
+SoundLengths[8]=10
+SoundLengths[9]=7
+SoundLengths[10]=12
+SoundLengths[11]=8
+SoundLengths[12]=8
+SoundLengths[13]=8
+SoundLengths[14]=14
+SoundLengths[15]=15
+SoundLengths[16]=28
+SoundLengths[17]=13
+SoundLengths[18]=16
+SoundLengths[19]=8
+SoundLengths[20]=5
+SoundLengths[21]=7
+SoundLengths[22]=12
+SoundLengths[23]=8
 ; EN: TutMessage[0]="Welcome to Deathmatch combat training. Deathmatch is a sport in which you compete against other gun-wielding players in a fast paced free-for-all. The object is to destroy all of your enemies by any means necessary."
 TutMessage[0]="Добро пожаловать в боевую подготовку Deathmatch. Deathmatch - это вид спорта, в котором вы соревнуетесь с другими игроками с оружием в быстром темпе, в котором все могут играть бесплатно. Цель состоит в том, чтобы уничтожить всех ваших врагов любыми средствами."
 ; EN: TutMessage[1]="Every time you take an enemy out you get a point, called a "frag" in gaming lingo. You can see your frag count on the left side of the screen. At the end of the game the player with the most frags wins the match."
@@ -487,6 +574,33 @@ PickupMessage="Вы подобрали еще одного Enforcer!"
 ItemName="Enforcer"
 
 [TrainingCTF]
+SoundLengths[0]=15
+SoundLengths[1]=11
+SoundLengths[2]=9
+SoundLengths[3]=6
+SoundLengths[4]=11
+SoundLengths[5]=5
+SoundLengths[6]=6
+SoundLengths[7]=6
+SoundLengths[8]=6
+SoundLengths[9]=8
+SoundLengths[10]=13
+SoundLengths[11]=8
+SoundLengths[12]=8
+SoundLengths[13]=5
+SoundLengths[14]=25
+SoundLengths[15]=11
+SoundLengths[16]=9
+SoundLengths[17]=9
+SoundLengths[18]=11
+SoundLengths[19]=11
+SoundLengths[20]=8
+SoundLengths[21]=13
+SoundLengths[22]=9
+SoundLengths[23]=12
+SoundLengths[24]=10
+SoundLengths[25]=8
+SoundLengths[26]=9
 ; EN: TutMessage[0]="Welcome to Capture the Flag combat training. This tutorial will instruct you on the basic rules of CTF. Tutorials on DeathMatch, Domination, and Assault are also available."
 TutMessage[0]="Добро пожаловать на учебный курс «Захват флага». Это руководство расскажет вам об основных правилах CTF. Также доступны учебники по DeathMatch, Domination и Assault."
 ; EN: TutMessage[1]="Let's start by learning about the Heads Up Display (HUD). CTF adds a few new elements to the HUD you should be aware of."
@@ -546,6 +660,27 @@ SingleWaitingMessage=""
 GameName="Боевая подготовка: CTF"
 
 [TrainingDOM]
+SoundLengths[0]=13
+SoundLengths[1]=7
+SoundLengths[2]=8
+SoundLengths[3]=8
+SoundLengths[4]=7
+SoundLengths[5]=8
+SoundLengths[6]=10
+SoundLengths[7]=6
+SoundLengths[8]=6
+SoundLengths[9]=11
+SoundLengths[10]=10
+SoundLengths[11]=13
+SoundLengths[12]=5
+SoundLengths[13]=5
+SoundLengths[14]=11
+SoundLengths[15]=2
+SoundLengths[16]=10
+SoundLengths[17]=11
+SoundLengths[18]=10
+SoundLengths[19]=10
+SoundLengths[20]=9
 ; EN: TutMessage[0]="Welcome to Domination combat training. This tutorial will instruct you on the basic gameplay rules of Domination. Tutorials on Deathmatch, Capture the Flag, and Assault are also available."
 TutMessage[0]="Добро пожаловать на тренировку по борьбе с господством. Это руководство расскажет вам об основных правилах игры в Domination. Также доступны руководства по Deathmatch, Capture the Flag и Assault."
 ; EN: TutMessage[1]="Let's start by learning about the elements Domination adds to the Heads Up Display (HUD)."
@@ -672,6 +807,7 @@ FragGoal="Предел фрагмента:"
 TimeLimit="Лимит времени:"
 ; EN: PlayerString="Player"
 PlayerString="Игрок"
+; EN: FragsString="Frags"
 FragsString="Frags"
 ; EN: DeathsString="Deaths"
 DeathsString="Летальные исходы"
@@ -681,6 +817,7 @@ PingString="пинг"
 TimeString="Время"
 ; EN: LossString="Loss"
 LossString="Потеря"
+; EN: FPHString="FPH"
 FPHString="FPH"
 
 [TournamentPickup]

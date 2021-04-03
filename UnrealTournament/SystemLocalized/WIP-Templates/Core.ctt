@@ -151,6 +151,8 @@ BadProperty=""%ls": propietat "%ls" incorrecta o que falta."
 MisingIni="Falta el fitxer.ini:%ls."
 ; EN: ExportFail="Error exporting %ls."
 ExportFail="Error en exportar %ls."
+; EN: ExportNoData="Did not find exportable data in object %ls."
+ExportNoData="No s'han trobat dades exportables a l'objecte %ls." 
 
 [General]
 Product="Unreal Tournament"

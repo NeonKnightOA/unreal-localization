@@ -151,6 +151,8 @@ BadProperty=""%ls": Onjuiste of ontbrekende eigenschap "%ls"."
 MisingIni="Ontbrekend.ini-bestand:%ls."
 ; EN: ExportFail="Error exporting %ls."
 ExportFail="Fout bij exporteren van %ls."
+; EN: ExportNoData="Did not find exportable data in object %ls."
+ExportNoData="Geen exporteerbare gegevens gevonden in object %ls." 
 
 [General]
 Product="Unreal Tournament"

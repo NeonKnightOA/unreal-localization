@@ -151,6 +151,8 @@ BadProperty=""%ls": Dårlig eller manglende eiendom "%ls"."
 MisingIni="Manglende.ini-fil:%ls."
 ; EN: ExportFail="Error exporting %ls."
 ExportFail="Feil ved eksport av %ls."
+; EN: ExportNoData="Did not find exportable data in object %ls."
+ExportNoData="Fant ikke eksporterbare data i objektet %ls." 
 
 [General]
 Product="Unreal Tournament"

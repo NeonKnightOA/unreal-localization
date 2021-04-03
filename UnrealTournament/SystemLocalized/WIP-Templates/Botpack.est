@@ -9,33 +9,33 @@ Object=(Name=Botpack.LastManStanding,Class=Class,MetaClass=Botpack.TournamentGam
 Object=(Name=Botpack.TDarkMatch,Class=Class,MetaClass=Botpack.TournamentGameInfo)
 ; Characters
 ; EN: Object=(Name=BotPack.TMale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Male Commando")
-Object=(Name=BotPack.TMale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Comando masculino")
+Object=(Name=BotPack.TMale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Comando (varón)")
 ; EN: Object=(Name=BotPack.TMale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Male Commando")
-Object=(Name=BotPack.TMale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Comando masculino")
+Object=(Name=BotPack.TMale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Comando (varón)")
 ; EN: Object=(Name=BotPack.TMale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Male Soldier")
-Object=(Name=BotPack.TMale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Soldado masculino")
+Object=(Name=BotPack.TMale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Soldado (varón)")
 ; EN: Object=(Name=BotPack.TMale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Male Soldier")
-Object=(Name=BotPack.TMale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Soldado masculino")
+Object=(Name=BotPack.TMale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Soldado (varón)")
 ; EN: Object=(Name=BotPack.TFemale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Female Commando")
-Object=(Name=BotPack.TFemale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Comando femenino")
+Object=(Name=BotPack.TFemale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Comando (mujer)")
 ; EN: Object=(Name=BotPack.TFemale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Female Commando")
-Object=(Name=BotPack.TFemale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Comando femenino")
+Object=(Name=BotPack.TFemale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Comando (mujer)")
 ; EN: Object=(Name=BotPack.TFemale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Female Soldier")
-Object=(Name=BotPack.TFemale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Soldado femenino")
+Object=(Name=BotPack.TFemale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Soldado (mujer)")
 ; EN: Object=(Name=BotPack.TFemale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Female Soldier")
-Object=(Name=BotPack.TFemale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Soldado femenino")
+Object=(Name=BotPack.TFemale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Soldado (mujer)")
 ; EN: Object=(Name=BotPack.TBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Boss")
 Object=(Name=BotPack.TBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Jefe")
 ; EN: Object=(Name=BotPack.TBossBot,Class=Class,MetaClass=BotPack.Bot,Description="Boss")
 Object=(Name=BotPack.TBossBot,Class=Class,MetaClass=BotPack.Bot,Description="Jefe")
 ; EN: Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Male One")
-Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Hombre uno")
+Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Hombre 1")
 ; EN: Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Female One")
-Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Mujer Uno")
+Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Mujer 1")
 ; EN: Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Male Two")
-Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Hombre dos")
+Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Hombre 2")
 ; EN: Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Female Two")
-Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Mujer dos")
+Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Mujer 2")
 Object=(Name=BotPack.VoiceBoss,Class=Class,MetaClass=BotPack.VoiceBoss,Description="Robot")
 ; Weapons
 ; EN: Object=(Name=Botpack.ChainSaw,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Chainsaw")
@@ -43,176 +43,226 @@ Object=(Name=Botpack.ChainSaw,Class=Class,MetaClass=Botpack.TournamentWeapon,Des
 ; EN: Object=(Name=Botpack.ImpactHammer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Impact Hammer")
 Object=(Name=Botpack.ImpactHammer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Martillo de impacto")
 ; EN: Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Translocator")
-Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Translocador")
+Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Translocalizador")
 ; EN: Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Enforcer")
-Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ejecutor")
+Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Reforzador")
 ; EN: Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Double Enforcers")
-Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ejecutores dobles")
+Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Reforzadores Dobles")
 ; EN: Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="GES BioRifle")
-Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle biológico GES")
+Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle Biológico GES")
 ; EN: Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Shock Rifle")
-Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de choque")
+Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de Choque")
 ; EN: Object=(Name=Botpack.SuperShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Super Shock Rifle")
-Object=(Name=Botpack.SuperShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de súper choque")
+Object=(Name=Botpack.SuperShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de Choque Mejorado")
 ; EN: Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Pulse Gun")
-Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Pistola de pulsos")
+Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Pistola de Pulsos")
 ; EN: Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ripper")
 Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Destripador")
-Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Minigun")
+; EN: Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Minigun")
+Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ametralladora")
 ; EN: Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak Cannon")
-Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Cañón antiaéreo")
+Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Cañón de Metralla")
 ; EN: Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rocket Launcher")
 Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Lanzacohetes")
 ; EN: Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Sniper Rifle")
-Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de francotirador")
+Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de Francotirador")
 ; EN: Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redeemer")
 Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redentor")
 ; Mutators
-Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="FatBoy,Everyone fattens when they frag a lot and become thinner when they get fragged.")
-Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Stealth,Everyone is invisible.")
-Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
-Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
-Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
-Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
-Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
-Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="No Redeemer,The Redeemer is removed from the game.")
-Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Flak Cannon Arena,All weapon and ammo pickups are replaced with Flak Cannons and Flak Ammo.")
-Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Impact Hammer Arena,Weapons and items are removed from the match, and players only carry an Impact Hammer.")
-Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Melee,The Chainsaw replaces the Impact Hammer as the starting melee weapon.")
-Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Sniper Rifle Arena,All weapon and ammo pickups are replaced with Sniper Rifles and Sniper Ammo.")
-Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
-Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
-Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
-Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
+; EN: Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="FatBoy,Everyone fattens when they frag a lot and become thinner when they get fragged.")
+Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="Chico Gordo,Todos engordan al eliminar más enemigos y adelgazan al ser eliminados.")
+; EN: Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Stealth,Everyone is invisible.")
+Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Camuflaje,Todos son invisibles.")
+; EN: Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
+Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,Todas las armas e items son eliminados y todos tienen solamente un Rifle de Choque Mejorado con munición infinita.")
+; EN: Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
+Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="Sin Mejoradores,Los Cinturones de Protección, Amplificadores de Daños, Invisibilidad y Supermochilas de Salud son eliminados de la partida.")
+; EN: Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
+Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Cohetes Instantáneos,Los lanzacohetes no podrán disparar múltiples cohetes.")
+; EN: Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
+Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Baja Gravedad,Reduce la gravedad del nivel.")
+; EN: Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
+Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Partida de Saltos,Hace que los jugadores puedan saltar realmente alto.")
+; EN: Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="No Redeemer,The Redeemer is removed from the game.")
+Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="Sin Redentores,Los redentores son eliminados de la partida.")
+; EN: Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Flak Cannon Arena,All weapon and ammo pickups are replaced with Flak Cannons and Flak Ammo.")
+Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Cañones de Metralla,Sólo se permitirán cañones de metralla en la partida.")
+; EN: Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Impact Hammer Arena,Weapons and items are removed from the match, and players only carry an Impact Hammer.")
+Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Martillos de Impacto,Sólo se permitirán martillos de impacto en la partida.")
+; EN: Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Melee,The Chainsaw replaces the Impact Hammer as the starting melee weapon.")
+Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Arma Cuerpo-a-Cuerpo: Motosierra,La Motosierra reemplaza al Martillo de Impacto como arma inicial de cuerpo a cuerpo.")
+; EN: Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Sniper Rifle Arena,All weapon and ammo pickups are replaced with Sniper Rifles and Sniper Ammo.")
+Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Rifles de Francotirador,Sólo se permitirán rifles de francotirador en la partida.")
+; EN: Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
+Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Rifles de Choque,Sólo se permitirán martillos de impacto en la partida.")
+; EN: Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
+Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Lanzacohetes,Sólo se permitirán lanzacohetes en la partida.")
+; EN: Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
+Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Pistolas de Pulsos,Sólo se permitirán armas de pulsos en la partida.")
+; EN: Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
+Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Sólo Ametralladoras,Sólo se permitirán ametralladoras en la partida.")
 ; Map Lists
 ; EN: Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Default Maps")
-Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas predeterminados")
+Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Por Defecto")
 ; EN: Object=(Name=BotPack.TDMLargeMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Large Maps")
-Object=(Name=BotPack.TDMLargeMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas grandes")
+Object=(Name=BotPack.TDMLargeMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas Grandes")
 ; EN: Object=(Name=BotPack.TDMMediumMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Medium Maps")
-Object=(Name=BotPack.TDMMediumMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas medianos")
+Object=(Name=BotPack.TDMMediumMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas Medianos")
 ; EN: Object=(Name=BotPack.TDMSmallMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Small Maps")
-Object=(Name=BotPack.TDMSmallMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Pequeños mapas")
+Object=(Name=BotPack.TDMSmallMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas Pequeños")
 ; EN: Object=(Name=BotPack.ASDefaultMapList,Class=Class,MetaClass=Botpack.ASMapList,Description="Default Maps")
-Object=(Name=BotPack.ASDefaultMapList,Class=Class,MetaClass=Botpack.ASMapList,Description="Mapas predeterminados")
+Object=(Name=BotPack.ASDefaultMapList,Class=Class,MetaClass=Botpack.ASMapList,Description="Por Defecto")
 ; EN: Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,Description="Default Maps")
-Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,Description="Mapas predeterminados")
+Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,Description="Por Defecto")
 ; EN: Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Default Maps")
-Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Mapas predeterminados")
+Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Por Defecto")
 ; EN: Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Default Maps")
-Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Mapas predeterminados")
+Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Por Defecto")
 ; Preferences
 ; EN: Preferences=(Caption="Game Types",Parent="Advanced Options",Class=Botpack.TournamentGameInfo,Immediate=True)
-Preferences=(Caption="Tipos de juegos",Parent="Opciones avanzadas",Class=Botpack.TournamentGameInfo,Immediate=True)
+Preferences=(Caption="Tipos de Juego",Parent="Opciones Avanzadas",Class=Botpack.TournamentGameInfo,Immediate=True)
 ; EN: Preferences=(Caption="Tournament Deathmatch",Parent="Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
-Preferences=(Caption="Torneo Deathmatch",Parent="Tipos de juegos",Class=Botpack.DeathmatchPlus,Immediate=True)
+Preferences=(Caption="Partida a Muerte del Torneo",Parent="Tipos de Juego",Class=Botpack.DeathmatchPlus,Immediate=True)
 ; EN: Preferences=(Caption="Tournament Team Game",Parent="Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
-Preferences=(Caption="Juego de torneo por equipos",Parent="Tipos de juegos",Class=Botpack.TeamGamePlus,Immediate=True)
+Preferences=(Caption="Partida por Equipos del Torneo",Parent="Tipos de Juego",Class=Botpack.TeamGamePlus,Immediate=True)
 ; EN: Preferences=(Caption="Capture the Flag",Parent="Game Types",Class=Botpack.CTFGame,Immediate=True)
-Preferences=(Caption="Captura la bandera",Parent="Tipos de juegos",Class=Botpack.CTFGame,Immediate=True)
+Preferences=(Caption="Capturar la Bandera",Parent="Tipos de Juego",Class=Botpack.CTFGame,Immediate=True)
 ; EN: Preferences=(Caption="Assault",Parent="Game Types",Class=Botpack.Assault,Immediate=True)
-Preferences=(Caption="Asalto",Parent="Tipos de juegos",Class=Botpack.Assault,Immediate=True)
+Preferences=(Caption="Asalto",Parent="Tipos de Juego",Class=Botpack.Assault,Immediate=True)
 ; EN: Preferences=(Caption="Domination",Parent="Game Types",Class=Botpack.Domination,Immediate=True)
-Preferences=(Caption="Dominación",Parent="Tipos de juegos",Class=Botpack.Domination,Immediate=True)
+Preferences=(Caption="Dominación",Parent="Tipos de Juego",Class=Botpack.Domination,Immediate=True)
 ; EN: Preferences=(Caption="Last Man Standing",Parent="Game Types",Class=Botpack.LastManStanding,Immediate=True)
-Preferences=(Caption="Último hombre de pie",Parent="Tipos de juegos",Class=Botpack.LastManStanding,Immediate=True)
+Preferences=(Caption="Último Hombre en Pie",Parent="Tipos de Juego",Class=Botpack.LastManStanding,Immediate=True)
 ; EN: Preferences=(Caption="Tournament Darkmatch",Parent="Game Types",Class=Botpack.TDarkMatch,Immediate=True)
-Preferences=(Caption="Torneo Darkmatch",Parent="Tipos de juegos",Class=Botpack.TDarkMatch,Immediate=True)
+Preferences=(Caption="Partida a Oscuras del Torneo",Parent="Tipos de Juego",Class=Botpack.TDarkMatch,Immediate=True)
 
 [DeathMatchPlus]
 ; EN: TourneyMessage="Waiting for other players."
 TourneyMessage="Esperando a otros jugadores."
 ; EN: WaitingMessage1="Waiting for ready signals."
-WaitingMessage1="Esperando señales de listo."
+WaitingMessage1="Esperando la señal para comenzar."
 ; EN: WaitingMessage2="(Use your fire button to toggle ready!)"
-WaitingMessage2="(¡Usa tu botón de disparo para alternar listo!)"
+WaitingMessage2="(¡Usa el botón de disparo para marcarte como listo!)"
 ; EN: ReadyMessage="You are READY!"
-ReadyMessage="¡Estas listo!"
+ReadyMessage="¡Estás LISTO!"
 ; EN: NotReadyMessage="You are NOT READY!"
-NotReadyMessage="¡No estás listo!"
+NotReadyMessage="¡NO estás LISTO!"
 ; EN: CountDownMessage=" seconds until play starts!"
-CountDownMessage=" segundos hasta que comience el juego!"
+CountDownMessage=" segundos hasta que comience la partida..."
 ; EN: StartMessage="The match has begun!"
-StartMessage="¡El partido ha comenzado!"
+StartMessage="¡La partida ha comenzado!"
 ; EN: GameEndedMessage="wins the match!"
-GameEndedMessage="gana el partido!"
+GameEndedMessage="gana la partida."
 ; EN: SingleWaitingMessage="Press Fire to start."
-SingleWaitingMessage="Presione Fuego para comenzar."
+SingleWaitingMessage="Pulsa Disparo para comenzar."
 ; EN: gamegoal="frags wins the match."
-gamegoal="frags gana el partido."
+gamegoal="bajas enemigas gana la partida."
 ; EN: NoNameChange=" is already in use."
-NoNameChange=" Esta en uso."
+NoNameChange=" ya está en uso."
 ; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
-OvertimeMessage="Puntuación empatada al final del reglamento. Muerte súbita horas extras !!!"
+OvertimeMessage="Partida empatada. ¡Tiempo adicional con muerte súbita!"
 ; EN: GameName="Tournament DeathMatch"
-GameName="Torneo DeathMatch"
+GameName="Partida a Muerte del Torneo"
 
 [TournamentGameInfo]
 ; EN: DeathMessage[0]="killed"
-DeathMessage[0]="delicado"
+DeathMessage[0]="asesinado"
+FemDeathMessage[0]="asesinada"
 ; EN: DeathMessage[1]="ruled"
-DeathMessage[1]="gobernado"
+DeathMessage[1]="dominado"
+FemDeathMessage[1]="dominada"
 ; EN: DeathMessage[2]="smoked"
 DeathMessage[2]="ahumado"
+FemDeathMessage[2]="ahumada"
 ; EN: DeathMessage[3]="slaughtered"
-DeathMessage[3]="sacrificado"
+DeathMessage[3]="despedazado"
+FemDeathMessage[3]="despedazada"
 ; EN: DeathMessage[4]="annihilated"
 DeathMessage[4]="aniquilado"
+FemDeathMessage[4]="aniquilada"
 ; EN: DeathMessage[5]="put down"
-DeathMessage[5]="suelte"
-DeathMessage[6]="splooged"
+DeathMessage[5]="suprimido"
+FemDeathMessage[5]="suprimida"
+; EN: DeathMessage[6]="splooged"
+DeathMessage[6]="machacado"
+FemDeathMessage[6]="machacada"
 ; EN: DeathMessage[7]="perforated"
 DeathMessage[7]="perforado"
+FemDeathMessage[7]="perforada"
 ; EN: DeathMessage[8]="shredded"
-DeathMessage[8]="destrozado"
+DeathMessage[8]="triturado"
+FemDeathMessage[8]="triturada"
 ; EN: DeathMessage[9]="destroyed"
 DeathMessage[9]="destruido"
+FemDeathMessage[9]="destruida"
 ; EN: DeathMessage[10]="whacked"
-DeathMessage[10]="agotado"
+DeathMessage[10]="aporreado"
+FemDeathMessage[10]="aporreada"
 ; EN: DeathMessage[11]="canned"
-DeathMessage[11]="Enlatado"
+DeathMessage[11]="enlatado"
+FemDeathMessage[11]="enlatada"
 ; EN: DeathMessage[12]="busted"
-DeathMessage[12]="Arrestado"
+DeathMessage[12]="golpeado"
+FemDeathMessage[12]="golpeada"
 ; EN: DeathMessage[13]="creamed"
-DeathMessage[13]="crema"
+DeathMessage[13]="cremado"
+FemDeathMessage[13]="cremada"
 ; EN: DeathMessage[14]="smeared"
-DeathMessage[14]="manchado"
+DeathMessage[14]="magullado"
+FemDeathMessage[14]="magullada"
 ; EN: DeathMessage[15]="shut out"
-DeathMessage[15]="excluir"
+DeathMessage[15]="silenciado"
+FemDeathMessage[15]="silenciada"
 ; EN: DeathMessage[16]="beaten down"
-DeathMessage[16]="derrotado"
+DeathMessage[16]="apaleado"
+FemDeathMessage[16]="apaleada"
 ; EN: DeathMessage[17]="smacked down"
-DeathMessage[17]="golpeado"
+DeathMessage[17]="vapuleado"
+FemDeathMessage[17]="vapuleada"
 ; EN: DeathMessage[18]="pureed"
-DeathMessage[18]="puré"
+DeathMessage[18]="hecho puré"
+FemDeathMessage[18]="hecha puré"
 ; EN: DeathMessage[19]="sliced"
 DeathMessage[19]="rebanado"
+FemDeathMessage[19]="rebanada"
 ; EN: DeathMessage[20]="diced"
 DeathMessage[20]="cortado en cubitos"
+FemDeathMessage[20]="cortada en cubitos"
 ; EN: DeathMessage[21]="ripped"
-DeathMessage[21]="rasgado"
+DeathMessage[21]="desgarrado"
+FemDeathMessage[21]="desgarrada"
 ; EN: DeathMessage[22]="blasted"
-DeathMessage[22]="maldito"
+DeathMessage[22]="bombardeado"
+FemDeathMessage[22]="bombardeada"
 ; EN: DeathMessage[23]="torn up"
-DeathMessage[23]="roto"
+DeathMessage[23]="desmembrado"
+FemDeathMessage[23]="desmembrada"
 ; EN: DeathMessage[24]="spanked"
-DeathMessage[24]="azotado"
+DeathMessage[24]="fustigado"
+FemDeathMessage[24]="fustigada"
 ; EN: DeathMessage[25]="eviscerated"
-DeathMessage[25]="eviscerado"
+DeathMessage[25]="destripado"
+FemDeathMessage[25]="destripada"
 ; EN: DeathMessage[26]="neutered"
-DeathMessage[26]="castrado"
+DeathMessage[26]="neutralizado"
+FemDeathMessage[26]="neutralizada"
 ; EN: DeathMessage[27]="whipped"
 DeathMessage[27]="azotado"
+FemDeathMessage[27]="azotada"
 ; EN: DeathMessage[28]="shafted"
-DeathMessage[28]="con eje"
+DeathMessage[28]="flagelado"
+FemDeathMessage[28]="flagelada"
 ; EN: DeathMessage[29]="trashed"
 DeathMessage[29]="destrozado"
+FemDeathMessage[29]="destrozada"
 ; EN: DeathMessage[30]="smashed"
-DeathMessage[30]="colocado"
+DeathMessage[30]="derruido"
+FemDeathMessage[30]="derruida"
 ; EN: DeathMessage[31]="trounced"
-DeathMessage[31]="aplastado"
+DeathMessage[31]="zurrado"
+FemDeathMessage[31]="zurrada"
 ; EN: DeathModifier[0]="thoroughly "
-DeathModifier[0]="a fondo "
+DeathModifier[0]="plenamente "
 ; EN: DeathModifier[1]="completely "
 DeathModifier[1]="completamente "
 ; EN: DeathModifier[2]="absolutely "
@@ -220,59 +270,73 @@ DeathModifier[2]="absolutamente "
 ; EN: DeathModifier[3]="totally "
 DeathModifier[3]="totalmente "
 ; EN: DeathModifier[4]="utterly "
-DeathModifier[4]="absolutamente "
+DeathModifier[4]="íntegramente "
 ; EN: MajorDeathMessage[0]="ripped a new one"
-MajorDeathMessage[0]="arrancó uno nuevo"
+MajorDeathMessage[0]="hecho trizas"
+FemMajorDeathMessage[0]="hecha trizas"
 ; EN: MajorDeathMessage[1]="messed up real bad"
-MajorDeathMessage[1]="arruinado muy mal"
+MajorDeathMessage[1]="herido de gravedad"
+FemMajorDeathMessage[1]="herida de gravedad"
 ; EN: MajorDeathMessage[2]="given a new definition of pain"
-MajorDeathMessage[2]="dada una nueva definición de dolor"
+MajorDeathMessage[2]="sometido a un dolor indescriptible"
+FemMajorDeathMessage[2]="sometida a un dolor indescriptible"
 ; EN: HeadLossMessage[0]="decapitated"
 HeadLossMessage[0]="decapitado"
+FemHeadLossMessage[0]="decapitada"
 ; EN: HeadLossMessage[1]="beheaded"
-HeadLossMessage[1]="decapitado"
+HeadLossMessage[1]="descabezado"
+FemHeadLossMessage[1]="descabezado"
 ; EN: DeathVerb=" was "
-DeathVerb=" estaba "
+DeathVerb=" fue "
 ; EN: DeathPrep=" by "
 DeathPrep=" por "
 ; EN: DeathTerm="killed"
-DeathTerm="delicado"
+DeathTerm="asesinado"
+FemDeathTerm="asesinada"
 ; EN: ExplodeMessage=" was blown up."
-ExplodeMessage=" fue volado."
+ExplodeMessage=" explotó."
+FemExplodeMessage=" explotó."
 ; EN: SuicideMessage=" had a sudden heart attack."
 SuicideMessage=" tuvo un ataque cardíaco repentino."
+FemSuicideMessage=" tuvo un ataque cardíaco repentino."
 ; EN: FallMessage=" left a small crater."
 FallMessage=" dejó un pequeño cráter."
+FemFallMessage=" dejó un pequeño cráter."
 ; EN: DrownedMessage=" forgot to come up for air."
-DrownedMessage=" Olvidé subir a tomar aire."
+DrownedMessage=" olvidó salir a tomar aire."
+FemDrownedMessage=" olvidó salir a tomar aire."
 ; EN: BurnedMessage=" was incinerated."
 BurnedMessage=" fue incinerado."
+FemBurnedMessage=" fue incinerada."
 ; EN: CorrodedMessage=" was slimed."
-CorrodedMessage=" fue bañado."
+CorrodedMessage=" fue disuelto."
+FemCorrodedMessage=" fue disuelta."
 ; EN: HackedMessage=" was hacked."
-HackedMessage=" fue hackeado."
+HackedMessage=" fue acabado."
+FemHackedMessage=" fue acabado."
 ; EN: MortarMessage=" was blown up by a mortar."
-MortarMessage=" fue volado por un mortero."
+MortarMessage=" fue destruido por un mortero."
+FemMortarMessage=" fue destruida por un mortero."
 ; EN: MaleSuicideMessage=" killed his own dumb self."
-MaleSuicideMessage=" mató a su propio yo tonto."
+MaleSuicideMessage=" se mató a sí mismo, el muy idiota."
 ; EN: FemaleSuicideMessage=" killed her own dumb self."
-FemaleSuicideMessage=" mató a su propio yo tonto."
+FemaleSuicideMessage=" se mató a sí misma, la muy idiota."
 
 [TournamentPlayer]
 ; EN: SpreeNote[0]="is on a killing spree!"
-SpreeNote[0]="está en una ola de asesinatos!"
+SpreeNote[0]="está en medio de una racha mortal!"
 ; EN: SpreeNote[1]="is on a rampage!"
-SpreeNote[1]="está en un alboroto!"
+SpreeNote[1]="está en medio de una furia asesina!"
 ; EN: SpreeNote[2]="is dominating!"
 SpreeNote[2]="está dominando!"
 ; EN: SpreeNote[3]="is brutalizing the competition!"
-SpreeNote[3]="está brutalizando a la competencia!"
+SpreeNote[3]="está endureciendo la competición!"
 ; EN: SpreeNote[4]="is unstoppable!"
 SpreeNote[4]="es imparable!"
 ; EN: SpreeNote[5]="owns you!"
-SpreeNote[5]="te posee!"
+SpreeNote[5]="te tiene!"
 ; EN: SpreeNote[6]="needs to find some real competition!"
-SpreeNote[6]="necesita encontrar una competencia real!"
+SpreeNote[6]="necesita un oponente que esté a su altura!"
 ; EN: SpreeNote[7]="is a GOD!"
 SpreeNote[7]="es un DIOS!"
 
@@ -280,7 +344,7 @@ SpreeNote[7]="es un DIOS!"
 ; EN: VersionMessage="Version"
 VersionMessage="Versión"
 ; EN: PlayerCountString="Ideal Player Load:"
-PlayerCountString="Carga de jugador ideal:"
+PlayerCountString="Cantidad recomendada de jugadores:"
 ; EN: MapTitleString="in"
 MapTitleString="en"
 ; EN: AuthorString="by"
@@ -290,9 +354,9 @@ MapTitleString2="Mapa:"
 ; EN: AuthorString2="Author:"
 AuthorString2="Autor:"
 ; EN: RankString="Rank:"
-RankString="Rango:"
+RankString="Posición:"
 ; EN: SpreadString="Spread:"
-SpreadString="Propagar:"
+SpreadString="Extensión:"
 ; EN: IdentifyName="Name:"
 IdentifyName="Nombre:"
 ; EN: IdentifyHealth="Health:"
@@ -300,7 +364,7 @@ IdentifyHealth="Salud:"
 ; EN: IdentifyCallsign="Callsign:"
 IdentifyCallsign="Señal de llamada:"
 ; EN: LiveFeed="Live Feed from "
-LiveFeed="Transmisión en vivo de "
+LiveFeed="Ahora viendo a "
 
 [TournamentGameReplicationInfo]
 ; EN: HumanString="*Human*"
@@ -308,53 +372,53 @@ HumanString="*Humano*"
 ; EN: CommanderString="*Commander*"
 CommanderString="*Comandante*"
 ; EN: SupportString="supporting"
-SupportString="secundario"
+SupportString="apoyando"
 ; EN: DefendString="defending"
 DefendString="defendiendo"
 ; EN: AttackString="attacking"
-AttackString="agresor"
+AttackString="atacando"
 ; EN: HoldString="holding"
-HoldString="participación"
+HoldString="manteniendo posición"
 ; EN: FreelanceString="freelancing"
-FreelanceString="autónomo"
+FreelanceString="actuando por su cuenta"
 
 [CTFGame]
 StartUpMessage=""
 ; EN: gamegoal="captures wins the match!"
-gamegoal="captura gana el partido!"
+gamegoal="captura gana la partida!"
 ; EN: GameName="Capture the Flag"
-GameName="Captura la bandera"
+GameName="Capturar la Bandera"
 
 [TeamGamePlus]
 ; EN: StartUpTeamMessage="You are on"
-StartUpTeamMessage="Usted está en"
+StartUpTeamMessage="Estás en el equipo"
 ; EN: TeamChangeMessage="Use Options->Player Setup to change teams."
-TeamChangeMessage="Use Opciones-&gt; Configuración del jugador para cambiar de equipo."
+TeamChangeMessage="Ve a Opciones->Configuración de jugador para cambiar de equipo."
 ; EN: TeamColor[0]="Red"
-TeamColor[0]="rojo"
+TeamColor[0]="Rojo"
 ; EN: TeamColor[1]="Blue"
 TeamColor[1]="Azul"
 ; EN: TeamColor[2]="Green"
 TeamColor[2]="Verde"
 ; EN: TeamColor[3]="Gold"
-TeamColor[3]="Oro"
+TeamColor[3]="Dorado"
 StartupTeamTralier="."
 ; EN: StartUpMessage="Work with your teammates against the other teams."
-StartUpMessage="Trabaja con tus compañeros de equipo contra los otros equipos."
+StartUpMessage="Trabaja con tus compañeros para vencer a los demás equipos."
 ; EN: GameName="Tournament Team Game"
-GameName="Juego de torneo por equipos"
+GameName="Partida por Equipos del Torneo"
 
 [Assault]
 ; EN: AttackMessage="Take the enemy base!"
-AttackMessage="¡Toma la base enemiga!"
+AttackMessage="¡Conquista la base enemiga!"
 ; EN: DefendMessage="Defend your base against the enemy!"
 DefendMessage="¡Defiende tu base contra el enemigo!"
 ; EN: TieMessage="Tie!"
-TieMessage="¡Corbata!"
+TieMessage="¡Empate!"
 ; EN: WinMessage="and wins!"
-WinMessage="y gana!"
+WinMessage="y gana la partida!"
 ; EN: ObjectivesMessage="Press F3 for an objectives briefing."
-ObjectivesMessage="Presione F3 para obtener un resumen de objetivos."
+ObjectivesMessage="Presiona F3 para obtener un resumen de los objetivos."
 ; EN: DefenderSuccess="defended the base"
 DefenderSuccess="defendió la base"
 StartUpMessage=""
@@ -369,225 +433,297 @@ PointName="Posición"
 
 [FortStandard]
 ; EN: FortName="Assault Target"
-FortName="Objetivo de asalto"
+FortName="El Objetivo de Asalto"
 ; EN: DestroyedMessage="was destroyed!"
-DestroyedMessage="¡fue destruido!"
+DestroyedMessage="¡ha sido destruido!"
 
 [Domination]
 ; EN: StartUpMessage="Capture and hold control points to win."
-StartUpMessage="Capture y mantenga puntos de control para ganar."
+StartUpMessage="Captura y defiende los puntos de control para ganar."
 ; EN: gamegoal="points wins the match!"
-gamegoal="puntos gana el partido!"
+gamegoal="puntos gana la partida!"
 ; EN: GameName="Domination"
 GameName="Dominación"
 
 [ChallengeBotInfo]
 ; EN: Skills[0]="Novice"
-Skills[0]="Principiante"
+Skills[0]="Novato"
 ; EN: Skills[1]="Average"
 Skills[1]="Promedio"
 ; EN: Skills[2]="Experienced"
 Skills[2]="Experimentado"
 ; EN: Skills[3]="Skilled"
-Skills[3]="Experto"
+Skills[3]="Capaz"
 ; EN: Skills[4]="Adept"
 Skills[4]="Adepto"
 ; EN: Skills[5]="Masterful"
 Skills[5]="Maestro"
 ; EN: Skills[6]="Inhuman"
-Skills[6]="Inhumano"
+Skills[6]="Superhumano"
 ; EN: Skills[7]="Godlike"
-Skills[7]="Divino"
+Skills[7]="Supremo"
 
 [TrainingDM]
+SoundLengths[0]=14
+SoundLengths[1]=13
+SoundLengths[2]=7
+SoundLengths[3]=10
+SoundLengths[4]=14
+SoundLengths[5]=12
+SoundLengths[6]=14
+SoundLengths[7]=3
+SoundLengths[8]=10
+SoundLengths[9]=7
+SoundLengths[10]=12
+SoundLengths[11]=8
+SoundLengths[12]=8
+SoundLengths[13]=8
+SoundLengths[14]=14
+SoundLengths[15]=15
+SoundLengths[16]=28
+SoundLengths[17]=13
+SoundLengths[18]=16
+SoundLengths[19]=8
+SoundLengths[20]=5
+SoundLengths[21]=7
+SoundLengths[22]=12
+SoundLengths[23]=8
 ; EN: TutMessage[0]="Welcome to Deathmatch combat training. Deathmatch is a sport in which you compete against other gun-wielding players in a fast paced free-for-all. The object is to destroy all of your enemies by any means necessary."
-TutMessage[0]="Bienvenido al entrenamiento de combate Deathmatch. Deathmatch es un deporte en el que compites contra otros jugadores que empuñan armas en un ritmo rápido todos contra todos. El objetivo es destruir a todos tus enemigos por cualquier medio necesario."
+TutMessage[0]="Bienvenido a la sesión de entrenamiento de la modalidad de Combate Mortal. El Combate Mortal es un deporte en el que compites frente a otros jugadores armados hasta los dientes, en una lucha caótica y veloz, donde todo vale. Aquí el objetivo es eliminar a tus enemigos sea como sea."
 ; EN: TutMessage[1]="Every time you take an enemy out you get a point, called a "frag" in gaming lingo. You can see your frag count on the left side of the screen. At the end of the game the player with the most frags wins the match."
-TutMessage[1]="Cada vez que eliminas a un enemigo obtienes un punto, llamado "frag" en la jerga del juego. Puedes ver tu conteo de fragmentos en el lado izquierdo de la pantalla. Al final del juego, el jugador con más fragmentos gana el partido."
+TutMessage[1]="Cada vez que acabas con un enemigo, consigues anotarte un punto o 'baja enemiga', como también se le denomina. A la izquierda de la pantalla puedes ver el número de bajas enemigas conseguidas. Al final de la partida el jugador que posea más bajas enemigas se proclama vencedor."
 ; EN: TutMessage[2]="Remember, if you accidentally blow yourself up or fall into lava you will lose a frag!"
-TutMessage[2]="Recuerda, si accidentalmente te explotas o caes en lava, perderás un fragmento."
+TutMessage[2]="No lo olvides: si te haces estallar a ti mismo por accidente, o te caes en la lava, ¡se te descontará una baja enemiga!"
 ; EN: TutMessage[3]="Let's learn some basics about moving around. A good deathmatch player is always moving, because a moving target is harder to hit than a stationary one."
-TutMessage[3]="Aprendamos algunos conceptos básicos sobre cómo moverse. Un buen jugador de combate a muerte siempre está en movimiento, porque un objetivo en movimiento es más difícil de alcanzar que uno estacionario."
+TutMessage[3]="Vamos a aprender ahora algunas nociones básicas sobre el desplazamiento en esta modalidad. En el Combate Mortal, un buen jugador procurará estar siempre en movimiento, ya que un objetivo móvil siempre será más difícil de alcanzar que uno fijo."
 ; EN: TutMessage[4]="The forward key moves you forward while the backward key makes you backpedal. The left key causes you to strafe left, while the right key, you guessed it, strafes right."
-TutMessage[4]="La tecla de avance lo mueve hacia adelante mientras que la tecla de retroceso lo hace retroceder. La tecla izquierda hace que se mueva hacia la izquierda, mientras que la tecla derecha, lo adivinó, lo hace hacia la derecha."
+TutMessage[4]="La tecla de avance te sirve para poder avanzar, mientras que la tecla de retroceso, para retroceder. Con la tecla del cursor izquierda puedes desplazarte hacia la izquierda, mientras que con la derecha (¿cómo lo has sabido?), lo haces a la derecha."
 ; EN: TutMessage[5]="Strafing is extremely important in deathmatch because it allows you to move from side to side without turning and losing sight or aim of your foe. Let's try strafing left and right now."
-TutMessage[5]="El ametrallamiento es extremadamente importante en el combate a muerte porque te permite moverte de un lado a otro sin voltear y perder de vista o apuntar a tu enemigo. Intentemos disparar de izquierda a derecha ahora."
+TutMessage[5]="El desplazamiento lateral es sumamente importante en un Combate Mortal ya que te permite moverte de un lado a otro, sin tener que girar, perder de vista o dejar de enfocar a tu enemigo. Vamos a probar ahora a desplazarnos a la izquierda y la derecha."
 ; EN: TutMessage[6]="Another important element of moving around is jumping. Jumping allows you to reach areas of the map that are too high to walk to normally and to cross dangerous pits. Try pressing the jump button and jump around the map."
-TutMessage[6]="Otro elemento importante de moverse es saltar. Saltar te permite alcanzar áreas del mapa que son demasiado altas para caminar normalmente y cruzar pozos peligrosos. Intenta presionar el botón de salto y salta por el mapa."
+TutMessage[6]="Otro elemento importante en el desplazamiento es el salto, ya que gracias a él podrás llegar a zonas del mapa a las que no puedes llegar caminando debido a su gran altura; sirve también para cruzar fosos peligrosos. Pulsa el botón de saltos para ponerte a saltar por el mapa."
 ; EN: TutMessage[7]="Excellent."
-TutMessage[7]="Excelente."
+TutMessage[7]="Muy bien."
 ; EN: TutMessage[8]="Now we're going to learn about Mouselooking. Move your mouse around and notice how your view shifts. This is how you look around and turn, known as Mouselook."
-TutMessage[8]="Ahora vamos a aprender sobre Mouselooking. Mueva el mouse y observe cómo cambia su vista. Así es como miras a tu alrededor y giras, conocido como Mouselook."
+TutMessage[8]="A continuación vamos a ver en qué consiste la técnica de mirar con el ratón. Mueve el ratón, para ver cómo va cambiando el panorama. Con el ratón puedes echar un vistazo por los alrededores, o girarte, técnica que se conoce como "vistas con el ratón"."
 ; EN: TutMessage[9]="Try turning around several times by moving the mouse left to right to see the lovely battle arena."
-TutMessage[9]="Intente dar la vuelta varias veces moviendo el mouse de izquierda a derecha para ver la hermosa arena de batalla."
+TutMessage[9]="Trata de girar varias veces moviendo el ratón de izquierda a derecha, y verás el magnífico campo de batalla."
 ; EN: TutMessage[10]="Excellent. You can also look vertically to see what's occuring above and below you. In deathmatch your enemies will be attacking from above and below, so remember to always keep your eyes peeled."
-TutMessage[10]="Excelente. También puede mirar verticalmente para ver lo que ocurre arriba y debajo de usted. En el combate a muerte, tus enemigos te atacarán desde arriba y desde abajo, así que recuerda mantener los ojos bien abiertos."
+TutMessage[10]="Muy bien. También puedes mirar desde una perspectiva vertical para ver qué ocurre encima o debajo de donde te encuentres. En el Combate Mortal tus enemigos atacarán desde arriba o abajo, de modo que mantén siempre los ojos bien abiertos."
 ; EN: TutMessage[11]="If you feel like you are looking around too quickly you can easily adjust the sensitivity of the mouse in the OPTIONS menu."
-TutMessage[11]="Si siente que está mirando a su alrededor demasiado rápido, puede ajustar fácilmente la sensibilidad del mouse en el menú OPCIONES."
+TutMessage[11]="Si crees que el ratón y, por tanto, el acceso a las distintas vistas, va demasiado rápido, puedes ajustar la sensibilidad del ratón en el menú de OPCIONES."
 ; EN: TutMessage[12]="Let's learn about offense. Remember, the only way to win at deathmatch is to destroy your foes with weaponry that you collect."
-TutMessage[12]="Aprendamos sobre la ofensiva. Recuerda, la única forma de ganar en combate a muerte es destruir a tus enemigos con las armas que recolectas."
+TutMessage[12]="Pasemos ahora a la técnica de ataque. No lo olvides, la única forma de ganar en el Combate Mortal es eliminar a tus enemigos con el armamento que recojas."
 ; EN: TutMessage[13]="I'm going to open the weapons locker and allow access to some guns, let's pick them up and get ready for some target practice."
-TutMessage[13]="Voy a abrir el casillero de armas y permitir el acceso a algunas armas, vamos a recogerlas y prepararnos para la práctica de tiro."
+TutMessage[13]="Voy a abrir la cabina de las armas para que tengas acceso a algunas de ellas. Recoge algunas y prepárate para practicar el tiro al blanco."
 ; EN: TutMessage[14]="Great, now we're armed. The gun you're carrying is commonly called the "Shock Rifle". It, like all the weapons in the Tournament, has two firing modes. Let's try shooting the gun now. Press the fire button to emit a lethal electric beam."
-TutMessage[14]="Genial, ahora estamos armados. El arma que llevas se llama comúnmente "Rifle de choque". Como todas las armas del Torneo, tiene dos modos de disparo. Intentemos disparar el arma ahora. Presione el botón de disparo para emitir un rayo eléctrico letal."
+TutMessage[14]="¡Estupendo, ya estamos armados! El arma que llevas se conoce comúnmente por el nombre de Rifle de Choque, y cuenta con dos modalidades de disparos, al igual que las demás armas utilizadas en el Torneo. Prueba a disparar ahora con el Rifle. Pulsa el botón de disparar para lanzar un rayo eléctrico mortífero."
 ; EN: TutMessage[15]="Very good. The Shock Rifle's primary fire will instantly hit the person you shoot at. In Unreal Tournament, every weapon also has an alternate firing mode. Press the alt fire button to shoot a ball of plasma at your enemy."
-TutMessage[15]="Muy bien. El disparo principal del Shock Rifle golpeará instantáneamente a la persona a la que dispara. En Unreal Tournament, cada arma también tiene un modo de disparo alternativo. Pulsa el botón de disparo alternativo para disparar una bola de plasma a tu enemigo."
+TutMessage[15]="Buen trabajo. El disparo del Rifle de Asalto alcanzará a la persona a la que apuntes. En el Torneo de Unreal, cada arma dispone también de un botón de disparo alternativo. Pulsa el botón de disparo alternativo para lanzar una bola de plasma a tu enemigo."
 ; EN: TutMessage[16]="Great! The alt fire on the Shock Rifle is slower moving than the primary fire, but does more damage. Its up to you to decide which attack is right for the situation. Sometimes you might be carrying more than one weapon. I've just put an 'Enforcer' sidearm in your pack. Each weapon has an associated number, as you can see at the bottom of your screen. The Enforcer is weapon number 2. Press 2 and switch to the enforcer. You can switch back to the Shock Rifle by pressing its number."
-TutMessage[16]="¡Excelente! El disparo alternativo del rifle de choque se mueve más lento que el disparo principal, pero hace más daño. Depende de usted decidir qué ataque es el adecuado para la situación. A veces, puede que lleves más de un arma. Acabo de poner un arma de 'Enforcer' en tu mochila. Cada arma tiene un número asociado, como puedes ver en la parte inferior de tu pantalla. El Enforcer es el arma número 2. Pulsa 2 y cambia al Enforcer. Puede volver al rifle de choque presionando su número."
+TutMessage[16]="¡Magnífico! El botón de disparo alternativo del Rifle de Impacto no es tan rápido como el principal, pero causa más daños. Tú serás el que decida qué tipo de ataque utilizar, según la situación en la que te encuentres, ya que habrá veces, por ejemplo, en las que llevarás más de un arma. Acabo de colocar un Reforzador en el equipo que transportas. Cada arma tiene un número asociado a ella, tal y como se muestra en la parte inferior de la pantalla. El reforzador es el arma número 2. Pulsa el 2 para activar el Reforzador. Si decides cambiar esta arma por el Rifle de Choque, no tienes más que pulsar el número que le corresponda."
 ; EN: TutMessage[17]="Good, now you know how to switch weapons in battle. Every weapon in Unreal Tournament is a projectile weapon except one, the 'Impact Hammer'. Press 1 now to switch to the Impact Hammer."
-TutMessage[17]="Bien, ahora sabes cómo cambiar de arma en la batalla. Cada arma en Unreal Tournament es un arma de proyectil excepto una, el 'Impact Hammer'. Presione 1 ahora para cambiar al Impact Hammer."
+TutMessage[17]="¡Bien! Ahora ya sabes cómo cambiar las armas en el combate. Cada arma, en la modalidad de Torneo de Unreal es un arma de proyectiles, excepto el Martillo de Impacto. Pulsa el 1 ahora para activar el Martillo de Impacto."
 ; EN: TutMessage[18]="The Impact Hammer is a melee, or close combat, weapon. It requires you to be standing very close to the target to do damage. The tradeoff is that a hit will almost always kill your enemy. Press and hold the primary fire button now to charge up the impact hammer."
-TutMessage[18]="El Impact Hammer es un arma cuerpo a cuerpo o de combate cuerpo a cuerpo. Requiere que estés muy cerca del objetivo para hacer daño. La compensación es que un golpe casi siempre matará a tu enemigo. Presione y mantenga presionado el botón de disparo principal ahora para cargar el martillo de impacto."
+TutMessage[18]="El Martillo de Impacto es un arma especializada para el combate cuerpo a cuerpo. Para utilizarla es preciso que te coloques de pie, muy próximo al objetivo, para poder causar daños. El resultado es que con un solo disparo conseguirás acabar casi siempre con tu enemigo. Mantén pulsado el botón de disparo principal para cargar el Martillo de Impacto."
 ; EN: TutMessage[19]="Now, run up to the Nali I just spawned. When you get close enough, the Impact Hammer will release blowing him into pieces."
-TutMessage[19]="Ahora, corre hacia el Nali que acabo de generar. Cuando te acerques lo suficiente, el Impact Hammer se soltará y lo hará pedazos."
+TutMessage[19]="Ahora, corre hacia el Nali que acabo de engendrar. Cuando te hayas aproximado lo suficiente, el Martillo de Impacto se activará y lo hará estallar en pedazos."
 ; EN: TutMessage[20]="Look at those gibs fly!  Great job."
-TutMessage[20]="¡Mira esos gibs volar! Gran trabajo."
+TutMessage[20]="¡Mira cómo vuelan esos pedazos! Buen trabajo."
 ; EN: TutMessage[21]="Good job. Now we're going to take out some stationary targets. Shoot all three barrels to proceed."
-TutMessage[21]="Buen trabajo. Ahora vamos a eliminar algunos objetivos estacionarios. Dispara a los tres barriles para continuar."
+TutMessage[21]="Procedamos ahora con algunos objetivos fijos. Dispara a esos tres barriles."
 ; EN: TutMessage[22]="Nice shootin' Tex. It's about to get harder. I'm going to release a training human opponent for you to practice on. You'll have to frag him three times to complete the tutorial. Good luck!"
-TutMessage[22]="Buen tiro Tex. Está a punto de volverse más difícil. Voy a liberar a un oponente humano en entrenamiento para que practiques. Tendrás que fragmentarlo tres veces para completar el tutorial. ¡Buena suerte!"
+TutMessage[22]="Buen disparo. A partir de ahora será más difícil. Voy a enviarte un adversario humano para que puedas seguir practicando. Tendrás que acabar con él tres veces para poder completar tu sesión de aprendizaje. ¡Buena suerte!"
 ; EN: TutMessage[23]="Congratulations! You have proven yourself to be a worthy Deathmatch player. Now its time to enter the Deathmatch Tournament Ladder."
-TutMessage[23]="¡Felicidades! Has demostrado ser un digno jugador de Deathmatch. Ahora es el momento de entrar en la escala del torneo Deathmatch."
+TutMessage[23]="¡Muy bien! Has demostrado ser merecedor de participar en la modalidad de Combate Mortal. Es hora de que pases a formar parte de la escala del Torneo de Combate Mortal."
 ; EN: TutMessage4Parts[0]="The forward key"
 TutMessage4Parts[0]="La tecla de avance"
 ; EN: TutMessage4Parts[1]="moves you forward while the backward key"
-TutMessage4Parts[1]="te mueve hacia adelante mientras la tecla de retroceso"
+TutMessage4Parts[1]="te sirve para poder avanzar, mientras que la tecla de retroceso"
 ; EN: TutMessage4Parts[2]="makes you backpedal. The left key"
-TutMessage4Parts[2]="te hace dar marcha atrás. La tecla izquierda"
+TutMessage4Parts[2]="para retroceder. Con la tecla izquierda del cursor"
 ; EN: TutMessage4Parts[3]="causes you to strafe left, while the right key"
-TutMessage4Parts[3]="hace que te muevas a la izquierda, mientras que la tecla derecha"
+TutMessage4Parts[3]="puedes desplazarte hacia la izquierda, mientras que con la derecha"
 ; EN: TutMessage4Parts[4]=", you guessed it, strafes right."
-TutMessage4Parts[4]=", lo has adivinado, dispara bien."
+TutMessage4Parts[4]=", (¿cómo lo has sabido?), lo haces a la derecha."
 ; EN: TutMessage6Parts[0]="Another important element of moving around is jumping. Jumping allows you to reach areas of the map that are too high to walk to normally and to cross dangerous pits. Try pressing the jump button"
-TutMessage6Parts[0]="Otro elemento importante de moverse es saltar. Saltar te permite alcanzar áreas del mapa que son demasiado altas para caminar normalmente y cruzar pozos peligrosos. Intenta presionar el botón de salto"
+TutMessage6Parts[0]="Otro elemento importante en el desplazamiento es el salto, ya que gracias a él podrás llegar a zonas del mapa a las que no puedes llegar caminando debido a su gran altura; sirve también para cruzar fosos peligrosos. Pulsa el botón de saltos"
 ; EN: TutMessage6Parts[1]="and jump around the map."
-TutMessage6Parts[1]="y saltar por el mapa."
+TutMessage6Parts[1]="para ponerte a saltar por el mapa."
 ; EN: TutMessage14Parts[0]="Great, now we're armed. The gun you're carrying is commonly called the 'Shock Rifle'. It, like all the weapons in the Tournament, has two firing modes. Let's try shooting the gun now. Press the fire button"
-TutMessage14Parts[0]="Genial, ahora estamos armados. El arma que llevas se llama comúnmente 'Rifle de choque'. Como todas las armas del Torneo, tiene dos modos de disparo. Intentemos disparar el arma ahora. Presione el botón de fuego"
+TutMessage14Parts[0]="¡Estupendo, ya estamos armados! El arma que llevas se conoce comúnmente por el nombre de rifle de choque y cuenta con dos modalidades de disparos, al igual que las demás armas utilizadas en el Torneo. Prueba a disparar ahora con el rifle. Pulsa el botón de disparo"
 ; EN: TutMessage14Parts[1]="to emit a lethal electric beam."
-TutMessage14Parts[1]="para emitir un rayo eléctrico letal."
+TutMessage14Parts[1]="para lanzar un rayo eléctrico mortífero."
 ; EN: TutMessage15Parts[0]="Very good. The Shock Rifle's primary fire will instantly hit the person you shoot at. In Unreal Tournament, every weapon also has an alternate firing mode. Press the alt fire button"
-TutMessage15Parts[0]="Muy bien. El disparo principal del Shock Rifle golpeará instantáneamente a la persona a la que dispara. En Unreal Tournament, cada arma también tiene un modo de disparo alternativo. Presione el botón de disparo alternativo"
+TutMessage15Parts[0]="Buen trabajo. El disparo del rifle de asalto alcanzará a la persona a la que apuntes. En el Torneo de Unreal, cada arma dispone también de un botón de disparo alternativo. Pulsa el botón de disparo alternativo"
 ; EN: TutMessage15Parts[1]="to shoot a ball of plasma at your enemy."
-TutMessage15Parts[1]="para disparar una bola de plasma a tu enemigo."
+TutMessage15Parts[1]="para lanzar una bola de plasma a tu enemigo."
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: DM"
-GameName="Entrenamiento de combate: DM"
+GameName="Entrenamiento de combate: PaM"
 
 [enforcer]
 ; EN: DoubleName="Double Enforcers"
-DoubleName="Ejecutores dobles"
+DoubleName="Reforzadores Dobles"
 ; EN: WeaponDescription="Classification: Light Pistol\n\nPrimary Fire: Accurate but slow firing instant hit.\n\nSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice as fast and half as accurate as the primary fire.\n\nTechniques: Collect two for twice the damage."
-WeaponDescription="Clasificación: pistola ligera\n\n Disparo primario: disparo instantáneo preciso pero lento.\n\n Disparo secundario: modo de disparo lateral o 'Gangsta', dispara el doble de rápido y la mitad de preciso que el disparo principal.\n\nTécnicas: Recoge dos por el doble de daño."
+WeaponDescription="Clasificación: Pistola Ligera\n\n Disparo primario: Disparo instantáneo preciso, pero lento.\n\n Disparo Secundario: modo de disparo lateral, también conocido como 'Gangsta', dispara el doble de rápido y la mitad de preciso que el disparo principal.\n\nTécnicas: Recoge dos para duplicar el daño."
 ; EN: DeathMessage="%k riddled %o full of holes with the %w."
-DeathMessage="%k acribillado %o lleno de agujeros con el %w."
+DeathMessage="%k llenó de agujeros a %o con su %w."
 ; EN: PickupMessage="You picked up another Enforcer!"
-PickupMessage="¡Recogiste a otro Enforcer!"
+PickupMessage="¡Conseguiste otro Reforzador!"
 ; EN: ItemName="Enforcer"
-ItemName="Ejecutor"
+ItemName="Reforzador"
 
 [TrainingCTF]
+SoundLengths[0]=15
+SoundLengths[1]=11
+SoundLengths[2]=9
+SoundLengths[3]=6
+SoundLengths[4]=11
+SoundLengths[5]=5
+SoundLengths[6]=6
+SoundLengths[7]=6
+SoundLengths[8]=6
+SoundLengths[9]=8
+SoundLengths[10]=13
+SoundLengths[11]=8
+SoundLengths[12]=8
+SoundLengths[13]=5
+SoundLengths[14]=25
+SoundLengths[15]=11
+SoundLengths[16]=9
+SoundLengths[17]=9
+SoundLengths[18]=11
+SoundLengths[19]=11
+SoundLengths[20]=8
+SoundLengths[21]=13
+SoundLengths[22]=9
+SoundLengths[23]=12
+SoundLengths[24]=10
+SoundLengths[25]=8
+SoundLengths[26]=9
 ; EN: TutMessage[0]="Welcome to Capture the Flag combat training. This tutorial will instruct you on the basic rules of CTF. Tutorials on DeathMatch, Domination, and Assault are also available."
-TutMessage[0]="Bienvenido al entrenamiento de combate Capture the Flag. Este tutorial le enseñará las reglas básicas de CTF. También hay disponibles tutoriales sobre DeathMatch, Domination y Assault."
+TutMessage[0]="Bienvenido al Entrenamiento de combate, en la modalidad Capturar la Bandera. En esta sesión de aprendizaje, podrás familiarizarte con las reglas básicas de Capturar la Bandera. En las modalidades de Combate Mortal, Dominación y Asalto, también dispones de sesiones de aprendizaje."
 ; EN: TutMessage[1]="Let's start by learning about the Heads Up Display (HUD). CTF adds a few new elements to the HUD you should be aware of."
-TutMessage[1]="Comencemos por aprender sobre el Heads Up Display (HUD). CTF agrega algunos elementos nuevos al HUD que debe conocer."
+TutMessage[1]="Comencemos por el monitor frontal (o HUD). Ten en cuenta que en esta modalidad se incorporan nuevos elementos en el monitor frontal."
 ; EN: TutMessage[2]="Your HUD color indicates your team affiliation. Your HUD is red, indicating you are on the red team."
-TutMessage[2]="El color de su HUD indica la afiliación de su equipo. Su HUD es rojo, lo que indica que está en el equipo rojo."
+TutMessage[2]="El color del monitor frontal indicará a qué equipo perteneces. Por ejemplo, si tu monitor es rojo, eres un miembro del equipo rojo."
 ; EN: TutMessage[3]="A blue HUD would indicate that you were on the blue team."
-TutMessage[3]="Un HUD azul indicaría que estaba en el equipo azul."
+TutMessage[3]="Un monitor azul indicará que formas parte del equipo azul."
 ; EN: TutMessage[4]="The two flag icons indicate the status of the red and blue flags. This allows you to obtain a quick overview of battlefield conditions."
-TutMessage[4]="Los dos iconos de bandera indican el estado de las banderas roja y azul. Esto le permite obtener una descripción general rápida de las condiciones del campo de batalla."
+TutMessage[4]="Los dos iconos de banderas indican el estado de las banderas de color rojo y azul, lo que te da una rápida perspectiva general de las condiciones del campo de batalla."
 ; EN: TutMessage[5]="We'll discuss the meaning of each flag status icon in a bit."
-TutMessage[5]="Discutiremos el significado de cada ícono de estado de bandera en un momento."
+TutMessage[5]="Luego pasaremos a ver en qué consisten exactamente los iconos de estado de cada bandera."
 ; EN: TutMessage[6]="Just to the left of each flag status icon, is that team's score."
-TutMessage[6]="Justo a la izquierda de cada icono de estado de bandera, está la puntuación de ese equipo."
+TutMessage[6]="A la izquierda del icono de estado de bandera, aparecerá la puntuación del equipo correspondiente."
 ; EN: TutMessage[7]="Now lets look at the elements CTF adds to the scoreboard..."
-TutMessage[7]="Ahora veamos los elementos que CTF agrega al marcador..."
+TutMessage[7]="Veamos ahora los distintos elementos que se incluyen en el marcador, en la modalidad de Capturar la Bandera..."
 ; EN: TutMessage[8]="Capture the Flag uses the standard Unreal teamplay scoreboard configuration."
-TutMessage[8]="Capture the Flag utiliza la configuración estándar del marcador de juego en equipo de Unreal."
+TutMessage[8]="En esta modalidad se utiliza la configuración estándar del marcador del juego por equipos de Unreal."
 ; EN: TutMessage[9]="The left column lists the red team players and scores and the right column lists the blue team players and scores."
-TutMessage[9]="La columna de la izquierda enumera los jugadores del equipo rojo y las puntuaciones y la columna de la derecha enumera los jugadores y las puntuaciones del equipo azul."
+TutMessage[9]="En la columna de la izquierda aparecen los jugadores y las puntuaciones del equipo rojo, y en la de la derecha, los jugadores y las puntuaciones del equipo azul."
 ; EN: TutMessage[10]="Notice your name and current score of 0 listed to the left. Above your name is the name of your team. Your team's current score is listed to the right of the team's name."
-TutMessage[10]="Observe su nombre y la puntuación actual de 0 enumerados a la izquierda. Encima de tu nombre está el nombre de tu equipo. La puntuación actual de su equipo aparece a la derecha del nombre del equipo."
+TutMessage[10]="En la lista de la izquierda verás tu nombre y la puntuación actual, 0. Encima de tu nombre aparecerá el de tu equipo. La puntuación actual de tu equipo aparecerá a la derecha del nombre del equipo."
 ; EN: TutMessage[11]="When a player in a CTF game is carrying the flag, a small dot will appear next to their name in the scoreboard."
-TutMessage[11]="Cuando un jugador en un juego CTF lleva la bandera, aparecerá un pequeño punto junto a su nombre en el marcador."
+TutMessage[11]="Cuando un jugador lleva una bandera en una partida de la modalidad de Capturar la Bandera, aparecerá un pequeño punto en el marcador junto a su nombre."
 ; EN: TutMessage[12]="This can be used to quickly determine which teammate to protect or which enemy to hunt down."
-TutMessage[12]="Esto se puede utilizar para determinar rápidamente a qué compañero de equipo proteger o qué enemigo perseguir."
+TutMessage[12]="Esto te servirá para averiguar rápidamente a qué miembro de tu equipo proteger o a qué enemigo derribar."
 ; EN: TutMessage[13]="Now its time to learn the rules of Capture the Flag."
-TutMessage[13]="Ahora es el momento de aprender las reglas de Capture the Flag."
+TutMessage[13]="Es hora de aprender la reglas de la modalidad de Capturar la Bandera."
 ; EN: TutMessage[14]="In Capture the Flag you can use the translocator. It works the same way as in Domination, with one minor change. You are not allowed to translocate and carry the flag at the same time. If you translocate while holding the enemy flag, you will successfully translocate, but will drop the flag on the ground. This prevents you from translocating back to your base after having captured the enemy flag."
-TutMessage[14]="En Capture the Flag puedes usar el translocador. Funciona de la misma forma que en Domination, con un pequeño cambio. No se le permite trasladar y portar la bandera al mismo tiempo. Si se trasloca mientras sostiene la bandera enemiga, lo trasladará con éxito, pero dejará caer la bandera al suelo. Esto evita que se traslade a su base después de haber capturado la bandera enemiga."
+TutMessage[14]="En la modalidad de Capturar la Bandera puedes utilizar un Translocalizador. Funciona prácticamente igual que en la modalidad de Dominación, con una pequeña diferencia. Aquí no podrás teletransportarte y llevar la bandera al mismo tiempo. Si te teletransportas mientras llevas la bandera del enemigo, ésta se caerá al suelo, lo que te impedirá teletransportarte de vuelta a tu base una vez capturada la bandera enemiga."
 ; EN: TutMessage[15]="Each CTF map has a red and a blue base. This is red base. Blue base is just down the hallway. Each base contains a flag."
-TutMessage[15]="Cada mapa CTF tiene una base roja y una azul. Esta es la base roja. La base azul está al final del pasillo. Cada base contiene una bandera."
+TutMessage[15]="Cada mapa de la modalidad de Capturar la Bandera dispone de una base roja y azul. Ésta es la base roja. La base azul está situada al final del vestíbulo. Cada una de ellas contiene una bandera."
 ; EN: TutMessage[16]="In front of you is the red flag. The object of CTF is to capture the enemy team's flag while defending your own."
-TutMessage[16]="Frente a ti está la bandera roja. El objetivo de CTF es capturar la bandera del equipo enemigo mientras defiendes la tuya."
+TutMessage[16]="Delante de ti está la bandera roja. El objetivo en la modalidad de Capturar la Bandera es apoderarse de la bandera del equipo enemigo al tiempo que tratas de defender la bandera de tu propio equipo."
 ; EN: TutMessage[17]="Let's give it a try. Run to the blue base and touch their flag to pick it up. Grab any equipment you find along the way."
-TutMessage[17]="Hagamos un intento. Corre a la base azul y toca su bandera para recogerla. Coge cualquier equipo que encuentres por el camino."
+TutMessage[17]="Inténtalo. Corre hacia la base azul y toca la bandera para capturarla. Recoge también todo el material que encuentres en tu recorrido."
 ; EN: TutMessage[18]="Great! Now you have the enemy flag. The flashing yellow message is to remind you that once you have the flag, you need to return it to your base to score."
-TutMessage[18]="¡Excelente! Ahora tienes la bandera enemiga. El mensaje amarillo intermitente es para recordarle que una vez que tenga la bandera, debe devolverla a su base para anotar."
+TutMessage[18]="¡Muy bien! Has conseguido apoderarte de la bandera enemiga. El mensaje intermitente de color amarillo te servirá de indicativo para recordarte que, una vez que captures la bandera, debes volver a tu base si quieres anotarte puntos en el marcador."
 ; EN: TutMessage[19]="Notice the blue team flag status icon changed. Now it indicates that a red team player is in possession of the flag. Blue team is in trouble!"
-TutMessage[19]="Observe que el icono de estado de la bandera azul del equipo cambió. Ahora indica que un jugador del equipo rojo está en posesión de la bandera. ¡El equipo azul está en problemas!"
+TutMessage[19]="Observa cómo ha cambiado el icono del estado de la bandera del equipo azul. Ahora indica que un jugador del equipo rojo se encuentra en posesión de la bandera, ¡y que el equipo azul tiene problemas!"
 ; EN: TutMessage[20]="Take the flag back to your base and touch the red flag to capture the blue flag and score."
-TutMessage[20]="Lleva la bandera a tu base y toca la bandera roja para capturar la bandera azul y anotar."
+TutMessage[20]="Vuelve a colocar la bandera en tu base y toca la bandera roja para capturar la bandera azul y anotarte puntos en el marcador."
 ; EN: TutMessage[21]="Great job! You captured the enemy flag and scored a point for your team. Wasn't so hard, now, was it?"
-TutMessage[21]="¡Gran trabajo! Capturaste la bandera enemiga y anotaste un punto para tu equipo. No fue tan difícil, ¿verdad?"
+TutMessage[21]="¡Buen trabajo! Has capturado la bandera enemiga y te has anotado un punto para tu equipo. Bastante sencillo, ¿verdad?"
 ; EN: TutMessage[22]="Its about to get harder. In a few seconds, I'm going to spawn two blue team bots and a red teammate you can practice with."
-TutMessage[22]="Está a punto de volverse más difícil. En unos segundos, generaré dos bots del equipo azul y un compañero de equipo rojo con el que puedes practicar."
+TutMessage[22]="Ahora es cuando las cosas empiezan a complicarse. En unos pocos segundos, voy a engendrar dos robots del equipo azul y un aliado del equipo rojo, para que vayas practicando."
 ; EN: TutMessage[23]="There is one last status icon to tell you about. If a player drops the flag while carrying it, his team's flag status icon will change to a flag icon containing a downward arrow."
-TutMessage[23]="Hay un último icono de estado para informarle. Si un jugador deja caer la bandera mientras la lleva, el icono de estado de la bandera de su equipo cambiará a un icono de bandera que contiene una flecha hacia abajo."
+TutMessage[23]="Queda un último icono de estado con el que tienes que familiarizarte. Si a un jugador se le cae la bandera cuando la lleva de un sitio a otro, el icono de estado de la bandera del equipo cambiará a un icono con una flecha que señala hacia abajo."
 ; EN: TutMessage[24]="If you find your flag lying on the ground after you kill an enemy who was carrying it, touch it to automatically return it to your base."
-TutMessage[24]="Si encuentra su bandera en el suelo después de matar a un enemigo que la llevaba, tóquela para devolverla automáticamente a su base."
+TutMessage[24]="Si ves tu bandera en el suelo después de haber eliminado al enemigo que la transportaba, tócala para devolverla inmediatamente a tu base."
 ; EN: TutMessage[25]="This concludes the CTF tutorial. Let me spawn those practice bots for you. Good hunting!"
-TutMessage[25]="Con esto concluye el tutorial de CTF. Déjame generar esos bots de práctica para ti. ¡Buena caza!"
+TutMessage[25]="Aquí concluye esta sesión de aprendizaje de la modalidad de Capturar la Bandera. Voy a engendrar robots para que puedas practicar. ¡Buena caza!"
 ; EN: TutMessage[26]="Congratulations! You have proven yourself to be a worthy CTF player. Now its time to enter the Capture the Flag Tournament Ladder."
-TutMessage[26]="¡Felicidades! Ha demostrado ser un digno jugador de CTF. Ahora es el momento de entrar en la Escalera del Torneo Capture the Flag."
+TutMessage[26]="¡Muy bien! Has demostrado ser un jugador digno de participar en la modalidad de Capturar la Bandera. Ha llegado el momento de que pases a formar parte de la escala del Torneo de esta modalidad."
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: CTF"
-GameName="Entrenamiento de combate: CTF"
+GameName="Entrenamiento de combate: CLB"
 
 [TrainingDOM]
+SoundLengths[0]=13
+SoundLengths[1]=7
+SoundLengths[2]=8
+SoundLengths[3]=8
+SoundLengths[4]=7
+SoundLengths[5]=8
+SoundLengths[6]=10
+SoundLengths[7]=6
+SoundLengths[8]=6
+SoundLengths[9]=11
+SoundLengths[10]=10
+SoundLengths[11]=13
+SoundLengths[12]=5
+SoundLengths[13]=5
+SoundLengths[14]=11
+SoundLengths[15]=2
+SoundLengths[16]=10
+SoundLengths[17]=11
+SoundLengths[18]=10
+SoundLengths[19]=10
+SoundLengths[20]=9
 ; EN: TutMessage[0]="Welcome to Domination combat training. This tutorial will instruct you on the basic gameplay rules of Domination. Tutorials on Deathmatch, Capture the Flag, and Assault are also available."
-TutMessage[0]="Bienvenido al entrenamiento de combate de Dominación. Este tutorial te enseñará las reglas básicas de juego de Domination. También están disponibles tutoriales sobre Deathmatch, Capture the Flag y Assault."
+TutMessage[0]="Bienvenido al entrenamiento de combate de la modalidad de Dominación. En esta sesión de aprendizaje podrás familiarizarte con las reglas básicas de la modalidad de Dominación. Tendrás también a tu disposición sesiones de aprendizaje en las modalidades de Combate Mortal, Capturar la Bandera y Asalto."
 ; EN: TutMessage[1]="Let's start by learning about the elements Domination adds to the Heads Up Display (HUD)."
-TutMessage[1]="Comencemos por aprender sobre los elementos que Domination agrega al Heads Up Display (HUD)."
+TutMessage[1]="Comencemos por ver cuáles son los elementos nuevos de los que dispone el monitor frontal (HUD) en esta modalidad."
 ; EN: TutMessage[2]="Domination enhances the basic teamplay HUD by adding control point status indicators to the left side of your screen."
-TutMessage[2]="Domination mejora el HUD básico de juego en equipo al agregar indicadores de estado de puntos de control en el lado izquierdo de la pantalla."
+TutMessage[2]="En la modalidad de Dominación se incorporan indicadores de estado de puntos de control a la izquierda de la pantalla, lo que aumenta las posibilidades del monitor frontal en el juego por equipos."
 ; EN: TutMessage[3]="As you can see, there are two control points in this tutorial map. We'll discuss the function of control points shortly."
-TutMessage[3]="Como puede ver, hay dos puntos de control en este mapa tutorial. Discutiremos la función de los puntos de control en breve."
+TutMessage[3]="Como puedes ver, en este mapa de sesión de aprendizaje se incluyen dos puntos de control. Más adelante hablaremos de su utilidad."
 ; EN: TutMessage[4]="Each indicator shows the name of a control point and that control point's current status."
-TutMessage[4]="Cada indicador muestra el nombre de un punto de control y el estado actual de ese punto de control."
+TutMessage[4]="En cada indicador se muestra el nombre del punto de control y su estado actual."
 ; EN: TutMessage[5]="Every control point in a domination map has a unique name. These controls points are named Alpha and Gamma."
-TutMessage[5]="Cada punto de control en un mapa de dominación tiene un nombre único. Estos puntos de control se denominan Alfa y Gamma."
+TutMessage[5]="Cada punto de control incluido en el mapa de la modalidad de Dominación posee un nombre distinto. Éstos se denominan Alfa y Gamma."
 ; EN: TutMessage[6]="The icon next to the control point name displays the status of that location. Before I explain how these icons work, let's discuss the rules of Domination."
-TutMessage[6]="El icono junto al nombre del punto de control muestra el estado de esa ubicación. Antes de explicar cómo funcionan estos iconos, analicemos las reglas de Dominación."
+TutMessage[6]="El icono situado junto al nombre del punto de control muestra el estado del mismo. Antes de explicarte cómo funcionan estos iconos, veamos en qué consisten las reglas de la modalidad de Dominación."
 ; EN: TutMessage[7]="In Domination each team is trying to control and hold the level's control points."
-TutMessage[7]="En Domination, cada equipo intenta controlar y mantener los puntos de control del nivel."
+TutMessage[7]="En esta modalidad, cada equipo debe tratar de controlar y mantener los puntos de control del nivel."
 ; EN: TutMessage[8]="A team is given 1 point every 5 seconds for each location they control."
-TutMessage[8]="Un equipo recibe 1 punto cada 5 segundos por cada ubicación que controlan."
+TutMessage[8]="Los equipos recibirán 1 punto por cada 5 segundos que controlan un emplazamiento."
 ; EN: TutMessage[9]="This is a control point. The grey X symbol indicates that no team is in control of this location. To take control of a location, touch it. Do this now."
-TutMessage[9]="Este es un punto de control. El símbolo X gris indica que ningún equipo tiene el control de esta ubicación. Para tomar el control de una ubicación, tóquela. Hacerlo ahora."
+TutMessage[9]="Éste es un punto de control. El símbolo X gris indica que ningún equipo tiene todavía el control del mismo. Para conseguirlo, deberás tocarlo. Hazlo ahora."
 ; EN: TutMessage[10]="Good. Your team now controls this location. Notice that the shape and color of the control point has changed to reflect your team symbol and color."
-TutMessage[10]="Bueno. Su equipo ahora controla esta ubicación. Observe que la forma y el color del punto de control ha cambiado para reflejar el símbolo y el color de su equipo."
+TutMessage[10]="Bien. En este momento, tu equipo controla este emplazamiento. Observa cómo han cambiado la forma y el color del punto de control. Ahora muestra el color y el símbolo de tu equipo."
 ; EN: TutMessage[11]="Look at the control point status icon. Notice that the Gamma point icon has changed to indicate your team is in control. You can use these icons to quickly assess the state of a Domination game."
-TutMessage[11]="Mire el icono de estado del punto de control. Observe que el icono del punto Gamma ha cambiado para indicar que su equipo tiene el control. Puede utilizar estos iconos para evaluar rápidamente el estado de un juego de Dominación."
+TutMessage[11]="Mira el icono del estado del punto de control. Observarás que el icono del punto Gamma ha cambiado; ahora indica que tu equipo tiene el control. Puedes utilizar también estos iconos para comprobar rápidamente el estado de una partida de Dominación."
 ; EN: TutMessage[12]="Now find and control the Alpha point to secure your Domination of this map."
-TutMessage[12]="Ahora busque y controle el punto Alfa para asegurar su Dominación de este mapa."
+TutMessage[12]="Localiza y toma el control del punto Alfa para asegurar tu dominación en este mapa."
 ; EN: TutMessage[13]="Excellent, you control all of the points on this map."
-TutMessage[13]="Excelente, controlas todos los puntos de este mapa."
+TutMessage[13]="Muy bien. Tu equipo controla todos los puntos de este mapa."
 ; EN: TutMessage[14]="In summary, each team must locate and capture certain points in a Domination map. The more locations a team controls the faster their score increases."
-TutMessage[14]="En resumen, cada equipo debe localizar y capturar ciertos puntos en un mapa de Dominación. Cuantas más ubicaciones controle un equipo, más rápido aumentará su puntuación."
+TutMessage[14]="En resumen, cada equipo debe ubicar y controlar ciertos puntos en un mapa de Dominación. Cuantos más emplazamientos vaya controlando un equipo, más puntos conseguirá."
 ; EN: TutMessage[15]="This device is called a 'Translocator.' You use it to transport from one location to another instantly. Hit the fire button to launch the translocator destination module."
-TutMessage[15]="Este dispositivo se llama 'Translocador'. Lo usa para transportar de un lugar a otro al instante. Pulsa el botón de disparo para iniciar el módulo de destino del translocador."
+TutMessage[15]="Este dispositivo se denomina Translocalizador y puedes utilizarlo para trasladarte de un lugar a otro al instante. Pulsa el botón de disparo para lanzar el módulo de destino del translocalizador."
 ; EN: TutMessage[16]="The module is now on the floor. If you hit the alt-fire button you will be teleported to the module. Run away from the module and hit the alt-fire button."
-TutMessage[16]="El módulo está ahora en el suelo. Si presionas el botón de disparo alternativo, serás teletransportado al módulo. Huye del módulo y presiona el botón de disparo alternativo."
+TutMessage[16]="El módulo está ahora en el suelo. Si pulsas el botón de disparo alternativo, serás teletransportado al módulo. Aléjate de él y pulsa el botón de disparo alternativo."
 ; EN: TutMessage[17]="Good now you are back at the module. If you fire the module out, you can switch to a weapon and later switch back to the translocator to activate it anytime you want."
-TutMessage[17]="Bien, ahora estás de vuelta en el módulo. Si dispara el módulo, puede cambiar a un arma y luego volver al translocador para activarlo en cualquier momento que desee."
+TutMessage[17]="Bien. Has regresado al módulo. Si disparas el módulo hacia fuera, podrás cambiar a otra arma, y luego volver al Translocalizador y activarlo cuando quieras."
 ; EN: TutMessage[18]="If you see an enemy translocator module on the ground, you can shoot it to disrupt it. Translocating to a disrupted module causes instant death."
-TutMessage[18]="Si ves un módulo translocador enemigo en el suelo, puedes dispararle para interrumpirlo. El traslado a un módulo interrumpido provoca la muerte instantánea."
+TutMessage[18]="Si distingues un módulo de Translocalizador enemigo en el suelo, dispara hacia él para dañarlo. Si te teletransportas hacia un módulo deteriorado, morirás al instante."
 ; EN: TutMessage[19]="Its time for a test. I'm going to spawn two bots on the enemy team and one bot to assist you. The first team to gain 20 points wins. Good luck!"
-TutMessage[19]="Es hora de una prueba. Voy a generar dos bots en el equipo enemigo y un bot para ayudarte. El primer equipo en ganar 20 puntos gana. ¡Buena suerte!"
+TutMessage[19]="Ha llegado el momento de que te sometas a un examen. Voy a engendrar a dos robots enemigos y uno aliado. El primer equipo que consiga 20 puntos se proclamará vencedor. ¡Buena suerte!"
 ; EN: TutMessage[20]="Congratulations! You have proven yourself to be a worthy Domination player. Now its time to enter the Domination Tournament Ladder."
-TutMessage[20]="¡Felicidades! Has demostrado ser un digno jugador de Dominación. Ahora es el momento de entrar en la escala del torneo de dominación."
+TutMessage[20]="¡Muy bien! Has demostrado estar preparado para la modalidad de Dominación. Ha llegado el momento de que pases a formar parte de la escala del Torneo de la modalidad de Dominación."
 StartUpMessage=""
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: DOM"
@@ -595,60 +731,61 @@ GameName="Entrenamiento de combate: DOM"
 
 [ServerInfo]
 ; EN: ServerInfoText="Server Info"
-ServerInfoText="Información del servidor"
+ServerInfoText="Info. Servidor"
 ; EN: ContactInfoText="Contact Info"
-ContactInfoText="Datos de contacto"
+ContactInfoText="Info. Contacto"
 ; EN: NameText="Name:"
 NameText="Nombre:"
 ; EN: AdminText="Admin:"
-AdminText="Administración:"
+AdminText="Admin.:"
 ; EN: EMailText="E-mail:"
 EMailText="Email:"
 ; EN: UnknownText="Unknown"
 UnknownText="Desconocido"
 ; EN: MOTD="Message of the Day"
-MOTD="Mensaje del día"
+MOTD="Mensaje del Día"
 ; EN: ServerStatsText="Server Stats"
 ServerStatsText="Estadísticas del servidor"
 ; EN: FragsLoggedText="Frags Logged:"
-FragsLoggedText="Fragmentos registrados:"
+FragsLoggedText="Bajas Registradas:"
 ; EN: GamesHostedText="Games Hosted:"
-GamesHostedText="Juegos alojados:"
+GamesHostedText="Partidas Alojadas:"
 ; EN: VictimsText="Lives Claimed:"
-VictimsText="Vidas reclamadas:"
+VictimsText="Víctimas Contadas:"
 ; EN: GameStatsText="Game Stats"
-GameStatsText="Estadísticas del juego"
+GameStatsText="Estadísticas de la Partida"
 ; EN: GameTypeText="GameType:"
-GameTypeText="Tipo de juego:"
+GameTypeText="Tipo de Juego:"
 ; EN: PlayersText="Players:"
 PlayersText="Jugadores:"
 ; EN: FragsText="Total Frags:"
-FragsText="Fragmentos totales:"
+FragsText="Total de Bajas:"
 ; EN: TopPlayersText="Top Players [Frags per Hour]"
-TopPlayersText="Mejores jugadores [fragmentos por hora]"
+TopPlayersText="Mejores Jugadores [Bajas por Hora]"
 ; EN: BestNameText="Name"
 BestNameText="Nombre"
 ; EN: BestFPHText="Best FPH"
-BestFPHText="Mejor FPH"
+BestFPHText="Mejor BPH"
 ; EN: BestRecordSetText="Record Set"
-BestRecordSetText="Conjunto de registros"
+BestRecordSetText="Récord Establecido"
+; EN: BotText="Bots"
 BotText="Bots"
 
 [TeamScoreBoard]
 ; EN: TeamName[0]="Red Team"
-TeamName[0]="equipo rojo"
+TeamName[0]="Equipo Rojo"
 ; EN: TeamName[1]="Blue Team"
-TeamName[1]="Equipo azul"
+TeamName[1]="Equipo Azul"
 ; EN: TeamName[2]="Green Team"
-TeamName[2]="Equipo verde"
+TeamName[2]="Equipo Verde"
 ; EN: TeamName[3]="Gold Team"
-TeamName[3]="Equipo de oro"
+TeamName[3]="Equipo Dorado"
 ; EN: OrdersString="Orders:"
-OrdersString="Pedidos:"
+OrdersString="Órdenes:"
 ; EN: InString="Location:"
 InString="Ubicación:"
 ; EN: PlayersNotShown="Player[s] not shown."
-PlayersNotShown="Jugador [s] no mostrado."
+PlayersNotShown="Jugador(es) no mostrados."
 
 [TournamentScoreBoard]
 ; EN: MapTitle="in"
@@ -656,32 +793,33 @@ MapTitle="en"
 ; EN: Author="by"
 Author="por"
 ; EN: Restart="You are dead. Hit [Fire] to respawn!"
-Restart="Estás muerto. ¡Pulsa [Fuego] para reaparecer!"
+Restart="Estás muerto. ¡Pulsa [Disparo] para reaparecer!"
 ; EN: Continue=" Hit [Fire] to continue!"
-Continue=" ¡Pulsa [Fuego] para continuar!"
+Continue=" ¡Pulsa [Disparo] para continuar!"
 ; EN: Ended="The match has ended."
-Ended="El partido ha terminado."
+Ended="La partida ha terminado."
 ; EN: ElapsedTime="Elapsed Time: "
-ElapsedTime="Tiempo transcurrido: "
+ElapsedTime="Tiempo Transcurrido: "
 ; EN: RemainingTime="Remaining Time: "
-RemainingTime="Tiempo restante: "
+RemainingTime="Tiempo Restante: "
 ; EN: FragGoal="Frag Limit:"
-FragGoal="Límite de fragmentación:"
+FragGoal="Límite de Bajas:"
 ; EN: TimeLimit="Time Limit:"
-TimeLimit="Límite de tiempo:"
+TimeLimit="Límite de Tiempo:"
 ; EN: PlayerString="Player"
 PlayerString="Jugador"
 ; EN: FragsString="Frags"
-FragsString="Fragmentos"
+FragsString="Bajas"
 ; EN: DeathsString="Deaths"
-DeathsString="Fallecidos"
+DeathsString="Muertes"
 ; EN: PingString="Ping"
-PingString="Silbido"
+PingString="Ping"
 ; EN: TimeString="Time"
-TimeString="Hora"
+TimeString="Tiempo"
 ; EN: LossString="Loss"
-LossString="Pérdida"
-FPHString="FPH"
+LossString="Pérdidas"
+; EN: FPHString="BPH"
+FPHString="BPH"
 
 [TournamentPickup]
 M_Activated=""
@@ -690,32 +828,32 @@ M_Deactivated=""
 
 [ChallengeVoicePack]
 ; EN: LeaderSign[0]="Red Leader"
-LeaderSign[0]="Líder rojo"
+LeaderSign[0]="Líder Rojo"
 ; EN: LeaderSign[1]="Blue Leader"
-LeaderSign[1]="Líder azul"
+LeaderSign[1]="Líder Azul"
 ; EN: LeaderSign[2]="Green Leader"
-LeaderSign[2]="Líder verde"
+LeaderSign[2]="Líder Verde"
 ; EN: LeaderSign[3]="Gold Leader"
-LeaderSign[3]="Líder de oro"
+LeaderSign[3]="Líder Dorado"
 CommaText=", "
 
 [ServerInfoCTF]
 ; EN: FlagsCapturedText="Flags Captured:"
-FlagsCapturedText="Banderas capturadas:"
+FlagsCapturedText="Banderas Capturadas:"
 
 [Ladder]
 ; EN: Titles[0]="Untrained"
-Titles[0]="Inexperto"
+Titles[0]="Principiante"
 ; EN: Titles[1]="Contender"
 Titles[1]="Contendiente"
 ; EN: Titles[2]="Light Weight"
-Titles[2]="Peso ligero"
+Titles[2]="Peso Ligero"
 ; EN: Titles[3]="Heavy Weight"
-Titles[3]="Peso pesado"
+Titles[3]="Peso Pesado"
 ; EN: Titles[4]="Warlord"
-Titles[4]="Jefe militar"
+Titles[4]="Jefe Militar"
 ; EN: Titles[5]="Battle Master"
-Titles[5]="Batalla maestra"
+Titles[5]="Maestro de Batalla"
 ; EN: Titles[6]="Champion"
 Titles[6]="Campeón"
 

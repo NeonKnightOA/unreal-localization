@@ -151,6 +151,8 @@ BadProperty=""%ls": Špatná nebo chybějící vlastnost "%ls"."
 MisingIni="Chybějící soubor.ini:%ls."
 ; EN: ExportFail="Error exporting %ls."
 ExportFail="Chyba při exportu %ls."
+; EN: ExportNoData="Did not find exportable data in object %ls."
+ExportNoData="Nenašel jsem exportovatelná data v objektu %ls." 
 
 [General]
 Product="Unreal Tournament"

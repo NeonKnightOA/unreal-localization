@@ -150,6 +150,8 @@ BadProperty=""%ls": propriété incorrecte ou manquante "%ls"."
 MisingIni="Fichier.ini manquant:%ls."
 ; EN: ExportFail="Error exporting %ls."
 ExportFail="Erreur lors de l'exportation de %ls."
+; EN: ExportNoData="Did not find exportable data in object %ls."
+ExportNoData="Impossible de trouver les données exportables dans l'objet %ls." 
 
 [General]
 Product="Unreal Tournament"

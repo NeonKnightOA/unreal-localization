@@ -151,6 +151,8 @@ BadProperty=""%ls": Rossz vagy hiányzó "%ls" tulajdonság."
 MisingIni="Hiányzó.ini fájl:%ls."
 ; EN: ExportFail="Error exporting %ls."
 ExportFail="Hiba történt a (z)%ls exportálásakor."
+; EN: ExportNoData="Did not find exportable data in object %ls."
+ExportNoData="Nem található exportálható adat a %ls objektumban." 
 
 [General]
 Product="Unreal Tournament"
