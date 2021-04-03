@@ -1,0 +1,22 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="Поддержка XOpenGL",Parent="Рендеринг",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Параметры")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="Параметры отладки",Parent="Поддержка XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Не удается найти драйвер OpenGl %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Отсутствует функция OpenGl %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Не удалось установить разрешение"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption="Поддержка XOpenGL"
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled="У вас установлен 3D-ускоритель, совместимый с OpenGL?"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="Вы хотите, чтобы Unreal Tournament использовал ваш ускоритель OpenGL?"

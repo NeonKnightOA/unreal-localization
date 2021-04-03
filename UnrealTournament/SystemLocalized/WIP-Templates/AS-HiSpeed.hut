@@ -1,0 +1,101 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="Magassebesség"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Irányítsd a vonatot !! NINCS KEGYELEM!!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="3. Autó"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="1. Autó"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="2. Autó"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="Az első autó kívül"
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName="Savtartály"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="%ls esett be az autók közé. Ez fáj..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="A vezérlőfülke"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="átvették !!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="A CAR 3"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="hamarosan megsértik !!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="A CAR 1"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="hamarosan megsértik !!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="%ls evett egy helikopter pengét..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="A vezérlőfülke hozzáférési kapcsolója"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="aktiválva lett !!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="A támadók a tetőn vannak !!!"
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName="Oszlopos síkágy"
+
+[locationid6]
+; EN: LocationName="Tank Flatbed"
+LocationName="Tartály síkágyas"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="Üres síkágy"
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName="Savtartály"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="Haladjon a vonat elejéig. Az első autóban talál egy kapcsolót a felső szinten, amely megnyitja az ajtót az alul található vezérlőfülkéhez. Aktiválja ezt a kapcsolót."
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="Ugorj le a vezérlőbe. Ott talál egy kart, amely felülírja a vonat kezelőszerveit."
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="Magassebesség"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Irányítsd a vonatot !! NINCS KEGYELEM!!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="A vonatot elfogták !!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="A CAR 2"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="hamarosan megsértik !!"

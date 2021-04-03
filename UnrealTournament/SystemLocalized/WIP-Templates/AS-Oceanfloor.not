@@ -1,0 +1,89 @@
+﻿[LevelInfo0]
+Title="Ocean Floor "Station 5""
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Kontroller undervannsbasen!"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="Midtområdet"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="Stort dokkeområde"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="Lite dokkingområde"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="Undervannsbåt"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="Kommandosentral"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="Gang"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="Terminal 1 er deaktivert."
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="Terminal 3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="har blitt ødelagt !!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="Terminal 4 er deaktivert."
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="Terminal 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har blitt ødelagt!"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="Terminal 2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="har blitt ødelagt !!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="Terminal 4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har blitt ødelagt!"
+
+[LevelSummary]
+Title="Ocean Floor "Station 5""
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Kontroller undervannsbasen!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="Svøm ut mot basen under ubåten. Inne i basen er det 4 terminaler med tastatur festet til dem som må ødelegges for å gjøre basen ubrukelig. Ødelegg terminal 1. Terminalene kan ødelegges i hvilken som helst rekkefølge."
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="Ødelegg terminal 2. Terminalene kan ødelegges i hvilken som helst rekkefølge."
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="Ødelegg terminal 3. Terminalene kan ødelegges i hvilken som helst rekkefølge."
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="Ødelegg terminal 4. Terminalene kan ødelegges i hvilken som helst rekkefølge."
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="Heisaksel"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="Terminal 3 er deaktivert."
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="Terminal 2 er deaktivert."

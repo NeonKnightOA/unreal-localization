@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Fregatt"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Fregatt"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="Missilene"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="ble lansert!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="Skipet"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="er lagt inn!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="Den hydrauliske kompressoren"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har blitt ødelagt!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="Døren til skipets kontrollrom styres av en hydraulisk kompressor som er plassert i akterkabinen til båten. Denne kompressoren må ødelegges før kontrollrommet er tilgjengelig."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="Du må kapre krigsskipet via kaien og finne veien til kontrollrommet i øverste etasje av fartøyet. Der finner du en rød knapp som aktiverer båtens kanoner og lar båten forlate havnen."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Skip midt korridor"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Svømming ved sjøen"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="Å være hest"

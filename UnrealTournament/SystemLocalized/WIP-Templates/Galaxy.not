@@ -1,0 +1,7 @@
+﻿[Public]
+Object=(Name=Galaxy.GalaxyAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
+; EN: Preferences=(Caption="Galaxy 3D Audio Support",Parent="Audio",Class=Galaxy.GalaxyAudioSubsystem,Immediate=True)
+Preferences=(Caption="Galaxy 3D Audio Support",Parent="Lyd",Class=Galaxy.GalaxyAudioSubsystem,Immediate=True)
+
+[GalaxyAudioSubsystem]
+ClassCaption="Galaxy 3D Audio Support"

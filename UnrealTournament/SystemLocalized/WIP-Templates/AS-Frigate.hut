@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Fregatt"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Fregatt"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="A rakéták"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="elindultak!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="A hajó"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="be lett írva!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="A hidraulikus kompresszor"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="elpusztult!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="A hajó irányítótermének ajtaját hidraulikus kompresszor vezérli, amely a hajó hátsó fülkéjében található. Ezt a kompresszort meg kell semmisíteni, mielőtt a vezérlőterembe be lehetne jutni."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="El kell eltérítenie a hadihajót a kikötőn keresztül, és el kell jutnia a hajó legfelső emeletén lévő irányítószobába. Ott talál egy piros gombot, amely aktiválja a hajó ágyúit, és lehetővé teszi, hogy a hajó elhagyja a kikötőt."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Hajó közepén folyosó"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Úszás a tónál"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="Lónak lenni"

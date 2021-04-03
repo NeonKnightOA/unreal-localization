@@ -1,0 +1,63 @@
+﻿[LevelInfo0]
+; EN: Title="Guardia Fortress"
+Title="Guardia erőd"
+IdealPlayerCount="6-12"
+
+[AssaultInfo2]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Lődd le a biztosítékot, hogy meggyújtsa, és felrobbantja a TNT-t, amely lehetővé teszi a hozzáférést a földalatti bázishoz."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Haladjon át a bázison, és foglalkozzon az összes lövegtornyával és az ellenséggel, amelyet útközben talál, mindaddig, amíg felvonóval fel nem száll egy olyan platformra, amely rendelkezik a garázs aktiváló kapcsolójával."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="Miután kinyitották az ajtót, tönkretegye a prototípus tartályt a torony lövöldözésével."
+
+[FortStandard0]
+; EN: FortName="The Lava Bridge"
+FortName="A Láva híd"
+; EN: DestroyedMessage="has been crossed!"
+DestroyedMessage="átlépték!"
+
+[FortStandard4]
+; EN: FortName="The Cavern"
+FortName="A barlang"
+; EN: DestroyedMessage="has been breached!"
+DestroyedMessage="megsértették!"
+
+[LevelSummary]
+; EN: Title="Guardia Fortress"
+Title="Guardia erőd"
+IdealPlayerCount="6-12"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="A biztosíték"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="meggyulladt!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="A garázs ajtaja"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="megsértették!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="A tartálytorony"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="elpusztult!"
+
+[ZoneInfo0]
+; EN: ZoneName="Attackers' Cave"
+ZoneName="Támadók barlangja"
+
+[ZoneInfo1]
+; EN: ZoneName="Near the Fuse"
+ZoneName="A biztosíték közelében"
+
+[ZoneInfo2]
+; EN: ZoneName="Base Corridors"
+ZoneName="Alapfolyosók"
+
+[WaterZone0]
+; EN: ZoneName="Underwater"
+ZoneName="viz alatti"

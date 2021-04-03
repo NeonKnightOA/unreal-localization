@@ -1,0 +1,98 @@
+﻿[Public]
+; EN: Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Скаардж Гибрид")
+Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
+Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali WarCow")
+; EN: Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Скаардж Гибрид")
+Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
+Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali WarCow")
+; EN: Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Скаардж Гибрид")
+Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
+Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
+Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Force Default Models,Use the default (Male Soldier) model instead of any custom models.")
+; EN: Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Bonus Pack Maps")
+Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Бонусные карты")
+; EN: Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Bonus Pack Maps")
+Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Бонусные карты")
+
+[CustomBot]
+; EN: MenuName="Custom Player"
+MenuName="Пользовательский плеер"
+
+[customplayer]
+; EN: MenuName="Custom Player"
+MenuName="Пользовательский плеер"
+
+[tcow]
+; EN: MenuName="Nali Cow"
+MenuName="Нали Корова"
+
+[tcowbot]
+; EN: MenuName="Nali Cow"
+MenuName="Нали Корова"
+
+[TSkaarj]
+; EN: MenuName="Skaarj Hybrid"
+MenuName="Скаардж Гибрид"
+
+[tnali]
+MenuName="Nali"
+
+[tnalibot]
+MenuName="Nali"
+
+[TSkaarjbot]
+; EN: MenuName="Skaarj Hybrid"
+MenuName="Скаардж Гибрид"
+
+[multimeshmenu]
+; EN: MenuCaption="&Force Default Models"
+MenuCaption="&Принудительно установить модели по умолчанию"
+; EN: MenuHelp="Use the default (Male Soldier) model instead of any custom models"
+MenuHelp="Используйте модель по умолчанию (мужчина-солдат) вместо любых пользовательских моделей"
+
+[skaarjvoice]
+TauntString[0]="$#%#!"
+TauntString[1]="%&$##!"
+TauntString[2]="*@#&$!"
+
+[CowVoice]
+; EN: AckString[0]="Moo!"
+AckString[0]="Му!"
+; EN: AckString[1]="Moo!"
+AckString[1]="Му!"
+; EN: FFireString[0]="Moo!"
+FFireString[0]="Му!"
+; EN: FFireString[1]="Moo!"
+FFireString[1]="Му!"
+; EN: FFireAbbrev[1]="Moo!"
+FFireAbbrev[1]="Му!"
+; EN: TauntString[0]="Moo!"
+TauntString[0]="Му!"
+; EN: TauntString[1]="Moo!"
+TauntString[1]="Му!"
+
+[nalivoice]
+; EN: AckString[0]="Habouji!"
+AckString[0]="Хабодзи!"
+; EN: AckString[1]="Nouwandi!"
+AckString[1]="Нуванди!"
+; EN: AckString[2]="Qupada!"
+AckString[2]="Гупада!"
+AckTime[2]=0.850000
+; EN: FFireString[0]="Mouhaga!"
+FFireString[0]="Мухага!"
+FFireString[1]="Batai d'va!"
+FFireAbbrev[1]="Batai d'va!"
+TauntString[0]="Bywonda!"
+; EN: TauntString[1]="Habouji!"
+TauntString[1]="Хабодзи!"
+; EN: TauntString[2]="Nouwandi!"
+TauntString[2]="Нуванди!"
+; EN: TauntString[3]="Qupada!"
+TauntString[3]="Гупада!"
+; EN: TauntString[4]="Mouhaga!"
+TauntString[4]="Мухага!"
+TauntString[5]="Batai d'va!"

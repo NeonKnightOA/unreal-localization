@@ -1,0 +1,15 @@
+﻿[Public]
+Object=(Name=XMesaGLDrv.XMesaGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+; EN: Preferences=(Caption="Mesa 3D",Parent="Rendering",Class=XMesaGLDrv.XMesaGLRenderDevice,Immediate=True)
+Preferences=(Caption="Mesa 3D",Parent="Representación",Class=XMesaGLDrv.XMesaGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: ResFailed="Failed to set resolution"
+ResFailed="No se pudo establecer la resolución"
+
+[XMesaGLRenderDevice]
+ClassCaption="Mesa 3D"
+; EN: AskInstalled="Do you have an OpenGL compatible 3D accelerator installed?"
+AskInstalled="¿Tiene instalado un acelerador 3D compatible con OpenGL?"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="¿Quieres que Unreal Tournament use tu acelerador OpenGL?"

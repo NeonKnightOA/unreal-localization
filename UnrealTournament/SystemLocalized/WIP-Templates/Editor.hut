@@ -1,0 +1,396 @@
+﻿[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageDumpCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExportPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Szerkesztő",Parent="Haladó beállítások")
+; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Haladó (szerkesztő)",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Színek",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Rotációs rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+; EN: HelpCmd=master
+HelpCmd=fő-
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="Készítsen fő telepítőfájlokat"
+; EN: HelpUsage="master [-option...] [parm=value]..."
+HelpUsage="master [-option...] [parm = érték]..."
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from."
+HelpDesc[0]="Gyökérkönyvtár a forrásfájlok másolásához."
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to."
+HelpDesc[1]="Gyökérkönyvtár, ahová a forrás (kiadás) fájlokat másolhatja."
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference."
+HelpDesc[2]="Elérési út delta-tömörített útvonal referenciához."
+
+[MakeCommandlet]
+; EN: HelpCmd=make
+HelpCmd=készítsen
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Rebuild UnrealScript packages."
+HelpOneLiner="Újítsa fel az UnrealScript csomagokat."
+; EN: HelpUsage="make [-option...] [parm=value]..."
+HelpUsage="make [-option...] [parm = érték]..."
+; EN: HelpParm[0]="Silent"
+HelpParm[0]="Csendes"
+; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
+HelpDesc[0]="Nincs felszólítás; tegyük fel, hogy minden kérdésre igen."
+HelpParm[1]="NoBind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
+HelpDesc[1]="Ne erőltesse a natív függvények kötését a DLL-ekhez."
+; EN: HelpParm[2]="All"
+HelpParm[2]="Minden"
+; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
+HelpDesc[2]="Tiszta újjáépítés (különben az újjáépítés növekményes)."
+
+[ConformCommandlet]
+; EN: HelpCmd=conform
+HelpCmd=alkalmazkodik
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="Generáljon megfelelő bináris fájlokat"
+; EN: HelpUsage="conform existing_file.ext old_file.ext"
+HelpUsage="konform meglévő_fájl.ext régi_fájl.ext"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="meglévő fájl.ext"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
+HelpDesc[0]="Meglévő bináris fájl a betöltéshez, konformitáshoz és mentéshez."
+HelpParm[1]="oldfile.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with."
+HelpDesc[1]="Régi fájl, hogy a forrásfájl binárisan kompatibilis legyen."
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Export objects in bulk."
+HelpOneLiner="Objektumok tömeges exportálása."
+; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
+HelpUsage="batchexport package.ext osztálynév export_ext [elérési út]"
+; EN: HelpParm[0]="package.ext"
+HelpParm[0]="csomag.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export."
+HelpDesc[0]="Csomag, amelynek objektumait exportálni szeretné."
+; EN: HelpParm[1]="classname"
+HelpParm[1]="osztály név"
+; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
+HelpDesc[1]="Exportálandó objektum osztálya. Ez lehet az alábbiak egyike:"
+HelpParm[2]="   "
+; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
+HelpDesc[2]="   osztály, textúra, hang, zene, szint, modell, polys, textbuffer"
+HelpParm[3]="export_ext"
+; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
+HelpDesc[3]="Fájlkiterjesztés, amelybe exportálni lehet. Az elfogadott fájlkiterjesztések osztályonként a következők:"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   class: uc, h"
+HelpDesc[4]="   osztály: uc, h"
+HelpParm[5]="   "
+; EN: HelpDesc[5]="   texture: bmp, pcx"
+HelpDesc[5]="   textúra: bmp, pcx"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   sound: wav"
+HelpDesc[6]="   hang: wav"
+HelpParm[7]="   "
+; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
+HelpDesc[7]="   zene: s3m, xm, it vagy bármely más tracker formátum"
+HelpParm[8]="   "
+; EN: HelpDesc[8]="   level: t3d"
+HelpDesc[8]="   szint: t3d"
+HelpParm[9]="   "
+; EN: HelpDesc[9]="   model: t3d"
+HelpDesc[9]="   modell: t3d"
+HelpParm[10]="   "
+HelpDesc[10]="   polys: t3d"
+HelpParm[11]="   "
+HelpDesc[11]="   textbuffer: txt"
+; EN: HelpParm[12]="path"
+HelpParm[12]="pálya"
+; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
+HelpDesc[12]="A fájlok exportálásának útvonala, például C:\MyPath."
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Set package flags in package files."
+HelpOneLiner="Csomagfájlokban állítsa be a csomagjelzőket."
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag]...]"
+HelpUsage="packageflag src.ext [dest.ext &lt;+ | -&gt; flag [&lt;+ | -&gt; flag]...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load."
+HelpDesc[0]="Meglévő csomagfájl betöltendő."
+HelpParm[1]="dest.ext"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings."
+HelpDesc[1]="Új csomagfájl neve az új jelzőbeállításokkal."
+; EN: HelpParm[2]="flag"
+HelpParm[2]="zászló"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+ jelző beállításához, vagy - jelző eltávolításához, majd a következők valamelyikéhez:"
+HelpParm[3]="   "
+HelpDesc[3]="   AllowDownload"
+HelpParm[4]="   "
+HelpDesc[4]="   ClientOptional"
+HelpParm[5]="   "
+HelpDesc[5]="   ServerSideOnly"
+HelpParm[6]="   "
+HelpDesc[6]="   BrokenLinks"
+HelpParm[7]="   "
+; EN: HelpDesc[7]="   Unsecure"
+HelpDesc[7]="   Bizonytalan"
+
+[DataRipCommandlet]
+HelpCmd=datarip
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="Hozzon létre egy csomagot a kimásolt textúra, zene és hang adatokkal."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package."
+HelpDesc[0]="Forráscsomag."
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package."
+HelpDesc[1]="Rendeltetési csomag."
+
+[UpdateUModCommandlet]
+HelpCmd=updateumod
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
+HelpOneLiner="Fájlok hozzáadása, törlése, cseréje vagy kibontása egy umod fájlból."
+; EN: HelpUsage="updateumod UmodFile Command [Filename]"
+HelpUsage="updateumod UmodFile parancs [fájlnév]"
+HelpParm[0]="UmodFile"
+; EN: HelpDesc[0]="The umod file to change or view."
+HelpDesc[0]="A megváltoztatni vagy megtekinteni kívánt umod fájl."
+; EN: HelpParm[1]="Command"
+HelpParm[1]="Parancs"
+; EN: HelpDesc[1]="Can be one of the following:"
+HelpDesc[1]="A következők egyike lehet:"
+HelpParm[2]="   "
+; EN: HelpDesc[2]="   EXTRACT (file extraction)"
+HelpDesc[2]="   EXTRACT (fájl kibontása)"
+HelpParm[3]="   "
+; EN: HelpDesc[3]="   ADD (file addition)"
+HelpDesc[3]="   ADD (fájl hozzáadása)"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   DELETE (file deletion)"
+HelpDesc[4]="   DELETE (fájl törlése)"
+HelpParm[5]="   "
+; EN: HelpDesc[5]="   REPLACE (file replacement)"
+HelpDesc[5]="   KICSERÉLÉS (fájlcsere)"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   LIST (file listing)"
+HelpDesc[6]="   LIST (fájllista)"
+; EN: HelpParm[7]="Filename"
+HelpParm[7]="Fájl név"
+; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
+HelpDesc[7]="Az EXTRACT, ADD, DELETE vagy CSERÉLÉS fájl."
+
+[ChecksumPackageCommandlet]
+; EN: HelpCmd=checksumpackage
+HelpCmd=csomagok ellenőrzése
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Display checksum for package file."
+HelpOneLiner="A csomagfájl ellenőrző összegének megjelenítése."
+; EN: HelpUsage="checksumpackage packagename"
+HelpUsage="ellenőrzi a csomag csomagnevét"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="csomag név"
+; EN: HelpDesc[0]="The name of the package to checksum."
+HelpDesc[0]="Az ellenőrző összegű csomag neve."
+
+[StripSourceCommandlet]
+HelpCmd=StripSource
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Strip the script buffers from a package."
+HelpOneLiner="Csíkolja le a szkript puffereit egy csomagról."
+HelpUsage="stripsource packagename"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="csomag név"
+; EN: HelpDesc[0]="The name of the package to strip sources."
+HelpDesc[0]="A csomag neve a források levágására."
+
+[DumpIntCommandlet]
+HelpCmd=DumpInt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dump the language text contents out of a file."
+HelpOneLiner="Dobja ki a nyelvi szöveg tartalmát egy fájlból."
+HelpUsage="dumpint packagename"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="csomag név"
+; EN: HelpDesc[0]="The name of the package to dump language text of."
+HelpDesc[0]="A csomag neve, amelybe a nyelvi szöveget ki akarjuk dobni."
+
+[ExportPackageCommandlet]
+HelpCmd=ExportPackage
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
+HelpOneLiner="Egyszerűen exportálja a csomag tartalmát.uc fájlokba az előző könyvtárban."
+HelpUsage="exportpackage packagename"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="csomag név"
+; EN: HelpDesc[0]="The name of the package to export UC files of."
+HelpDesc[0]="Az UC fájlok exportálásához használt csomag neve."
+
+[CompareIntCommandlet]
+HelpCmd=CompareInt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
+HelpOneLiner="Hasonlítson össze két nyelvi fájlt, és törölje/távolítsa el azokat a nyelvi bejegyzéseket, amelyekkel összehasonlítja."
+; EN: HelpUsage="compareint packageint miscint"
+HelpUsage="Compareint packageint miscint"
+HelpParm[0]="packageint"
+; EN: HelpDesc[0]="Main language file."
+HelpDesc[0]="Fő nyelvi fájl."
+; EN: HelpParm[1]="miscint"
+HelpParm[1]="rosszakarat"
+; EN: HelpDesc[1]="Secondary language file (to edit)."
+HelpDesc[1]="Másodlagos nyelvi fájl (szerkesztésre)."
+
+[ListObjectsCommandlet]
+; EN: HelpCmd=listobjects
+HelpCmd=listobjektumok
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Lists Objects in package."
+HelpOneLiner="Felsorolja az objektumokat a csomagban."
+; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] &lt;csomag&gt; [&lt;alaposztály&gt;]"
+; EN: HelpParm[0]="-switch1, -switch2..."
+HelpParm[0]="-kapcsoló1, -kapcsoló2..."
+; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
+HelpDesc[0]="Opciós kapcsolók lehetnek a következők közül egy vagy több:"
+HelpParm[1]="   -cp"
+; EN: HelpDesc[1]="   Prints pathname instead of name for Class."
+HelpDesc[1]="   Osztálynév helyett útvonalnevet nyomtat."
+HelpParm[2]="   -op"
+; EN: HelpDesc[2]="   Prints pathname instead of name for Object."
+HelpDesc[2]="   Az Object név helyett útvonalnevet nyomtat."
+HelpParm[3]="   -na"
+; EN: HelpDesc[3]="   Do not align output."
+HelpDesc[3]="   Ne igazítsa a kimenetet."
+HelpParm[4]="   -ni"
+; EN: HelpDesc[4]="   Do not indent object hierarchy."
+HelpDesc[4]="   Ne vezesse be az objektumhierarchiát."
+HelpParm[5]="   -nc"
+; EN: HelpDesc[5]="   Do not display class."
+HelpDesc[5]="   Ne jelenítse meg az osztályt."
+HelpParm[6]="   -co"
+; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
+HelpDesc[6]="   Csak az Object Classokat jelenítse meg minden objektum helyett."
+HelpParm[7]="pkg"
+; EN: HelpDesc[7]="Package file."
+HelpDesc[7]="Csomag fájl."
+HelpParm[8]="baseclass"
+; EN: HelpDesc[8]="Optional base class of listed objects."
+HelpDesc[8]="A felsorolt ​​objektumok opcionális alaposztálya."
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Merge DXT textures with standard textures."
+HelpOneLiner="Egyesítse a DXT textúrákat standard textúrákkal."
+HelpUsage="mergedxt srcpath oldpath destpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files."
+HelpDesc[0]="Forrásfájlokat tartalmazó útvonal."
+HelpParm[1]="oldpath"
+; EN: HelpDesc[1]="Path containing old files."
+HelpDesc[1]="Régi fájlokat tartalmazó útvonal."
+HelpParm[2]="destpath"
+; EN: HelpDesc[2]="Path for destination files."
+HelpDesc[2]="A célfájlok elérési útja."
+
+[MD5Commandlet]
+HelpCmd=md5
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
+HelpOneLiner="Kezelje a Packages.md5 ellenőrzőösszegek listáját."
+; EN: HelpUsage="md5 [-option Filename|Wildcard]"
+HelpUsage="md5 [-option Fájlnév | Helyettesítő karakter]"
+; EN: HelpParm[0]="-a Wildcard"
+HelpParm[0]="-a helyettesítő karakter"
+; EN: HelpDesc[0]="Add all files matching the wildcard to the Packages.md5 list."
+HelpDesc[0]="Adja hozzá a helyettesítő karaktereknek megfelelő összes fájlt a Packages.md5 listához."
+; EN: HelpParm[1]="-l [Filename]"
+HelpParm[1]="-l [Fájlnév]"
+; EN: HelpDesc[1]="Prints the current contents of the specified Packages.md5 file. If no Filename is given, Packages.md5 will be used."
+HelpDesc[1]="Kinyomtatja a megadott Packages.md5 fájl aktuális tartalmát. Ha nincs megadva fájlnév, akkor a Packages.md5 lesz használva."
+; EN: HelpParm[2]="-m Filename"
+HelpParm[2]="-m fájlnév"
+; EN: HelpDesc[2]="Merges the contents of two Packages.md5 files. Filename should point to a valid Packages.md5 file."
+HelpDesc[2]="Két Packages.md5 fájl tartalmát egyesíti. A fájlnévnek egy érvényes Packages.md5 fájlra kell mutatnia."
+; EN: HelpParm[3]="-p Wildcard"
+HelpParm[3]="-p Helyettesítő karakter"
+; EN: HelpDesc[3]="Removes the checksum for the all files matching the wildcard from the Packages.md5 list."
+HelpDesc[3]="Eltávolítja a helyettesítő karakterekkel megegyező összes fájl ellenőrző összegét a Packages.md5 listából."
+
+[PackageDumpCommandlet]
+; EN: HelpCmd=packagedump
+HelpCmd=becsomagolva
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
+HelpOneLiner="Dobja fel az Unreal Package szerkezetét a stdout-ra."
+; EN: HelpUsage="packagedump [Filename]"
+HelpUsage="packagedump [fájlnév]"
+
+[DumpFontInfoCommandlet]
+HelpCmd=dumpfontinfo
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dumps information about fonts."
+HelpOneLiner="Információk a betűtípusokról."
+; EN: HelpUsage="dumpfontinfo <pkg>"
+HelpUsage="dumpfontinfo &lt;pkg&gt;"
+
+[ExecCommandlet]
+HelpCmd=exec
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
+HelpOneLiner="Minimális szerkesztőkörnyezetben végrehajt egy parancsfájlt."
+; EN: HelpUsage="exec filename"
+HelpUsage="exec fájlnév"
+
+[ScriptRaysCommandlet]
+; EN: HelpCmd=scriptrays
+HelpCmd=forgatókönyvek
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Rebuilds script source for a package or class"
+HelpOneLiner="Újraépíti a csomag vagy osztály szkriptforrását"
+; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"
+HelpUsage="parancsfájlok &lt;pkg&gt; [. &lt;cls&gt;] &lt;out_d&gt; [-disassemble | -mugshot]"
+; EN: HelpParm[0]="pkg[.cls]"
+HelpParm[0]="pkg [.cls]"
+; EN: HelpDesc[0]="Package or class to rebuild."
+HelpDesc[0]="Csomag vagy osztály újjáépíteni."
+HelpParm[1]="out_d"
+; EN: HelpDesc[1]="Output directory."
+HelpDesc[1]="Kimeneti könyvtár."
+; EN: HelpParm[2]="-disassemble"
+HelpParm[2]="szétszedni"
+; EN: HelpDesc[2]="Output disassembly instead of code."
+HelpDesc[2]="Kimenet szétszerelése kód helyett."
+; EN: HelpParm[3]="-mugshot"
+HelpParm[3]="- bögre"
+; EN: HelpDesc[3]="Output declarations instead of code."
+HelpDesc[3]="Kimeneti deklarációk a kód helyett."

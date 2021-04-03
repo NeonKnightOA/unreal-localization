@@ -1,0 +1,68 @@
+﻿[Public]
+Object=(Name=IpDrv.UpdateServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.MasterServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
+Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
+; EN: Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="Síťové přehrávání TCP/IP",Parent="Síťování",Class=IpDrv.TcpNetDriver)
+; EN: Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="Serverový maják",Parent="Síťování",Class=IpDrv.UdpBeacon,Immediate=True)
+
+[UpdateServerCommandlet]
+; EN: HelpCmd=updateserver
+HelpCmd=aktualizační server
+HelpWeblink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Service Unreal Engine auto update requests."
+HelpOneLiner="Požadavky na automatickou aktualizaci služby Unreal Engine."
+; EN: HelpUsage="updateserver [-option...] [parm=value]"
+HelpUsage="updateserver [-option...] [parm = value]"
+HelpParm[0]="ConfigFile"
+; EN: HelpDesc[0]="Configuration file to use. Default: UpdateServer.ini."
+HelpDesc[0]="Konfigurační soubor, který se má použít. Výchozí: UpdateServer.ini."
+
+[MasterServerCommandlet]
+; EN: HelpCmd=masterserver
+HelpCmd=mistr serveru
+HelpWeblink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Maintain master list of servers."
+HelpOneLiner="Udržujte hlavní seznam serverů."
+; EN: HelpUsage="masterserver [-option...] [parm=value]"
+HelpUsage="masterserver [-option...] [parm = hodnota]"
+HelpParm[0]="ConfigFile"
+; EN: HelpDesc[0]="Configuration file to use. Default: MasterServer.ini."
+HelpDesc[0]="Konfigurační soubor, který se má použít. Výchozí: MasterServer.ini."
+
+[CompressCommandlet]
+; EN: HelpCmd=compress
+HelpCmd=komprimovat
+HelpWeblink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension.uz will be created."
+HelpOneLiner="Komprimujte balíček Unreal pro automatické stahování. Bude vytvořen soubor s příponou.uz."
+; EN: HelpUsage="compress File1 [File2 [File3...]]"
+HelpUsage="komprimovat soubor1 [soubor2 [soubor3...]]"
+; EN: HelpParm[0]="Files"
+HelpParm[0]="Soubory"
+; EN: HelpDesc[0]="The wildcard or file names to compress."
+HelpDesc[0]="Zástupný znak nebo názvy souborů, které se mají komprimovat."
+
+[DecompressCommandlet]
+; EN: HelpCmd=decompress
+HelpCmd=dekomprimovat
+HelpWeblink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
+HelpOneLiner="Dekomprimujte soubor komprimovaný pomocí ucc compress."
+; EN: HelpUsage="decompress CompressedFile"
+HelpUsage="dekomprimovat komprimovaný soubor"
+HelpParm[0]="CompressedFile"
+; EN: HelpDesc[0]="The.uz file to decompress."
+HelpDesc[0]="Soubor.uz k dekompresi."
+
+[TcpNetDriver]
+; EN: ClassCaption="TCP/IP Network Play"
+ClassCaption="Síťové přehrávání TCP/IP"
+
+[UdpBeacon]
+; EN: ClassCaption="Server LAN Beacon"
+ClassCaption="Maják serveru LAN"

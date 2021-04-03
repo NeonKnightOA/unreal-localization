@@ -1,0 +1,22 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="XOpenGL támogatás",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Lehetőségek")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="Hibakeresési beállítások",Parent="XOpenGL támogatás",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Nem található az OpenGL illesztőprogram %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Hiányzik az OpenGL függvény %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Nem sikerült beállítani a felbontást"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption="XOpenGL támogatás"
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled="Van telepítve OpenGL-kompatibilis 3D-s gyorsító?"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="Szeretné, hogy az Unreal Tournament használja az OpenGL gyorsítót?"

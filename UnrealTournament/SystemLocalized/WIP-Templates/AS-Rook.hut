@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+Title="Rook"
+IdealPlayerCount="6-10"
+; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
+LevelEnterText="Don a páncélod, készülj a csatára"
+
+[LevelSummary]
+Title="Rook"
+IdealPlayerCount="6-10"
+; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
+LevelEnterText="Don a páncélod, készülj a csatára"
+
+[FortStandard1]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard0]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard2]
+; EN: FortName="The Main Doors"
+FortName="A fő ajtók"
+; EN: DestroyedMessage="are now open!"
+DestroyedMessage="most nyitva vannak!"
+
+[FortStandard6]
+; EN: FortName="The Library"
+FortName="A könyvtár"
+; EN: DestroyedMessage="is now Open!"
+DestroyedMessage="most nyitott!"
+
+[FortStandard3]
+FortName=" "
+DestroyedMessage=" "
+
+[SpecialEvent0]
+; EN: Message="The Gatehouse is now open!"
+Message="A Gatehouse már nyitva van!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Exit the castle and make a hard right where you will locate the switch which will allow access to the library."
+ObjDesc[0]="Lépjen ki a várból, és forduljon jobbra, ahol megtalálja azt a kapcsolót, amely lehetővé teszi a könyvtárhoz való hozzáférést."
+; EN: ObjDesc[1]="Proceed through the library where you will locate a winch that is held in place with two chains. Destroy the chains; this will allow access to the gatehouse in the courtyard."
+ObjDesc[1]="Haladjon tovább a könyvtárban, ahol megtalálja a két lánccal a helyén tartott csörlőt. Pusztítsd el a láncokat; így hozzáférhetünk az udvaron lévő kapuházhoz."
+; EN: ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."
+ObjDesc[2]="Térjen vissza az udvarra, és fordítsa meg a kapubeli kapcsolót, hogy kinyissa a kastély bejárati ajtaját."
+; EN: ObjDesc[3]="Escape the castle alive through the front doors!"
+ObjDesc[3]="Menekülj a kastélytól élve a bejárati ajtókon keresztül!"

@@ -1,0 +1,49 @@
+﻿[Public]
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60%of all damage sustained by the user.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+
+[RelicInventory]
+; EN: PickupMessage="You picked up a null Relic."
+PickupMessage="Du hentet en null relikvie."
+; EN: ItemName="Relic"
+ItemName="Relikvie"
+
+[RelicRedemptionInventory]
+; EN: PickupMessage="You picked up the Relic of Redemption!"
+PickupMessage="Du hentet Relic of Redemption!"
+; EN: ItemName="Relic of Redemption"
+ItemName="Relikvie av innløsning"
+
+[RelicStrengthInventory]
+; EN: PickupMessage="You picked up the Relic of Strength!"
+PickupMessage="Du plukket opp Relic of Strength!"
+; EN: ItemName="Relic of Strength"
+ItemName="Relikvitet av styrke"
+
+[RelicDeathInventory]
+; EN: PickupMessage="You picked up the Relic of Vengeance!"
+PickupMessage="Du hentet Hevnets relikvie!"
+; EN: ItemName="Relic of Vengeance"
+ItemName="Relikvie av hevn"
+
+[RelicDefenseInventory]
+; EN: PickupMessage="You picked up the Relic of Defense!"
+PickupMessage="Du plukket opp Forsvarets relikvie!"
+; EN: ItemName="Relic of Defense"
+ItemName="Relikvitet av forsvaret"
+
+[RelicSpeedInventory]
+; EN: PickupMessage="You picked up the Relic of Speed!"
+PickupMessage="Du hentet Relic of Speed!"
+; EN: ItemName="Relic of Speed"
+ItemName="Relikvie av hastighet"
+
+[RelicRegenInventory]
+; EN: PickupMessage="You picked up the Relic of Regeneration!"
+PickupMessage="Du hentet Relic of Regeneration!"
+; EN: ItemName="Relic of Regeneration"
+ItemName="Relikvie av regenerering"

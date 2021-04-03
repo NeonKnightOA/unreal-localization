@@ -1,0 +1,101 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="Высокоскоростной"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Управляйте поездом !! НЕТ МИЛОСЕРДИЯ !!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="3-й. Машина"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="1-й. Машина"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="2-й. Машина"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="За пределами 1-го вагона"
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName="Кислотный бак"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="%ls упал между машинами. Больно..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="Кабина управления"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="был захвачен !!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="МАШИНА 3"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="вот-вот будет нарушен !!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="МАШИНА 1"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="вот-вот нарушится !!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="%ls съел лезвие вертолета..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="Переключатель доступа в кабину управления"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="была активирована!!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="Злоумышленники на крыше !!!"
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName="Столб-платформа"
+
+[locationid6]
+; EN: LocationName="Tank Flatbed"
+LocationName="Танк-платформа"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="Пустой планшет"
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName="Кислотный бак"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="Пробирайтесь к передней части поезда. В Car One вы найдете переключатель на верхнем уровне, который открывает дверь в кабину управления внизу. Активируйте этот переключатель."
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="Спрыгните в диспетчерскую. Там вы найдете рычаг, который отменяет управление поездом."
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="Высокоскоростной"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Управляйте поездом !! НЕТ МИЛОСЕРДИЯ !!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="ПОЕЗД ЗАКЛЮЧЕН !!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="МАШИНА 2"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="вот-вот будет нарушен !!"

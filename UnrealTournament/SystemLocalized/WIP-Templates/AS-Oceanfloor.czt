@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Ocean Station „Stanice 5“"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Ovládejte podvodní základnu!"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="Střední oblast"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="Velká dokovací plocha"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="Malá dokovací oblast"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="Ponorka"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="Velící středisko"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="Chodba"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="Terminál 1 byl deaktivován."
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="Terminál 3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="byl zničen !!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="Terminál 4 byl deaktivován."
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="Terminál 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="Terminál 2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="byl zničen !!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="Terminál 4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="byl zničen!"
+
+[LevelSummary]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Ocean Station „Stanice 5“"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Ovládejte podvodní základnu!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="Vyplujte směrem k základně pod ponorkou. Uvnitř základny jsou 4 terminály s připojenými klávesnicemi, které je třeba zničit, aby byla základna nepoužitelná. Zničte terminál 1. Terminály lze zničit v libovolném pořadí."
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="Zničte terminál 2. Terminály lze zničit v libovolném pořadí."
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="Zničte terminál 3. Terminály lze zničit v libovolném pořadí."
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="Zničte terminál 4. Terminály lze zničit v libovolném pořadí."
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="Výtahová šachta"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="Terminál 3 byl deaktivován."
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="Terminál 2 byl deaktivován."

@@ -1,0 +1,71 @@
+﻿[LevelInfo0]
+; EN: Title="Operation Overlord"
+Title="Операция Оверлорд"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+LevelEnterText="Отключите дальнобойную пушку, уничтожив оборудование в Главном управлении пушкой"
+
+[ZoneInfo2]
+; EN: ZoneName="Barracks"
+ZoneName="Казармы"
+
+[ZoneInfo5]
+; EN: ZoneName="Ammo Room"
+ZoneName="Боеприпасы"
+
+[ZoneInfo3]
+; EN: ZoneName="Boiler Room"
+ZoneName="Бойлерная"
+
+[ZoneInfo6]
+ZoneName="Gun Cavern"
+
+[KillingField0]
+; EN: ZoneName="Beach"
+ZoneName="Пляж"
+
+[ZoneInfo1]
+; EN: ZoneName="Foxholes"
+ZoneName="Личинки"
+
+[ZoneInfo0]
+; EN: ZoneName="Entrance Ramp"
+ZoneName="Входная рампа"
+
+[ZoneInfo8]
+; EN: ZoneName="Last Passage"
+ZoneName="Последний проход"
+
+[WaterZone0]
+; EN: ZoneName="Water"
+ZoneName="вода"
+
+[FortStandard0]
+; EN: FortName="The Beachhead"
+FortName="Плацдарм"
+; EN: DestroyedMessage="has been breached by the attackers!"
+DestroyedMessage="был взломан злоумышленниками!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
+ObjDesc[0]="Чтобы отключить дальнобойную пушку, вы должны пройти через базу защитников к большой пушечной пещере глубоко в стене утеса. Там вы найдете комнату управления основным оружием. Уничтожьте оборудование в этой комнате."
+
+[FortStandard4]
+; EN: FortName="The Boiler Room"
+FortName="Котельная"
+; EN: DestroyedMessage="has been breached by the attackers!"
+DestroyedMessage="был взломан злоумышленниками!"
+
+[LevelSummary]
+; EN: Title="Operation Overlord"
+Title="Операция Оверлорд"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+LevelEnterText="Отключите дальнобойную пушку, уничтожив оборудование в Главном управлении пушкой"
+
+[LevelInfo2]
+; EN: Title="Operation Overlord"
+Title="Операция Оверлорд"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+LevelEnterText="Отключите дальнобойную пушку, уничтожив оборудование в Главном управлении пушкой"

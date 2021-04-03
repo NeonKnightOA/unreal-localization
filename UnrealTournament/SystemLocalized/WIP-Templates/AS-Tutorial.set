@@ -1,0 +1,33 @@
+﻿[LevelInfo0]
+Title="Assault Tutorial"
+IdealPlayerCount="2-4"
+
+[LevelSummary]
+Title="Assault Tutorial"
+IdealPlayerCount="2-4"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="Säkringen"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="har antändts!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="Garagedörren"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="bröts!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="Tank tornet"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="har förstörts!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Skjut på säkringen för att antända den och spräng TNT, som gör det möjligt att komma till tunnelbanan."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Ta dig igenom basen och hantera alla kanontorn och fiender du hittar längs vägen tills du kör en lift upp till en plattform som har omkopplaren för garageaktivering."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="När dörren har öppnats förstör du prototyptanken genom att skjuta på tornet."

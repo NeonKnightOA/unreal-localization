@@ -1,0 +1,98 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="Hög hastighet"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Kontrollera tåget !! INGEN NÅD!!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="3: e. Bil"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="1: a Bil"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="2: a. Bil"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="Utanför 1: a bilen"
+
+[SlimeZone0]
+ZoneName="Acid Tank"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="%ls föll in mellan bilarna. Det där gör ont..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="Kontrollhytten"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="har tagits över !!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="BILEN 3"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="är på väg att brytas !!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="BILEN 1"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="är på väg att bryta !!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="%ls åt ett helikopterblad..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="Kontrollhyttens åtkomstbrytare"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="har aktiverats!!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="Angriparna är på taket !!!"
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName="Pelarplatta"
+
+[locationid6]
+LocationName="Tank Flatbed"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="Tom flatbädd"
+
+[locationid4]
+LocationName="Acid Tank"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="Arbeta dig fram till tåget. I Car One hittar du en brytare på den övre nivån som öppnar dörren till kontrollhytten nedan. Aktivera den här omkopplaren."
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="Hoppa ner till kontrollrummet. Där hittar du en spak som kommer att åsidosätta tågets kontroller."
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="Hög hastighet"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Kontrollera tåget !! INGEN NÅD!!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="TÅGET HAR TILLGÅNGT !!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="BILEN 2"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="är på väg att brytas !!"

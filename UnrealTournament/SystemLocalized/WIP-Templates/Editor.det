@@ -1,0 +1,407 @@
+﻿[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageDumpCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExportPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Editor",Parent="Erweiterte Optionen")
+; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Erweitert (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Farben",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Gitter",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Rotationsgitter",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+; EN: HelpCmd=master
+HelpCmd=Meister
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="Erstellen Sie Master-Installationsdateien"
+; EN: HelpUsage="master [-option...] [parm=value]..."
+HelpUsage="master [-option...] [parm = value]..."
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from."
+HelpDesc[0]="Stammverzeichnis zum Kopieren von Quelldateien."
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to."
+HelpDesc[1]="Stammverzeichnis, in das Quelldateien (Release-Dateien) kopiert werden sollen."
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference."
+HelpDesc[2]="Pfad für die Delta-komprimierte Pfadreferenz."
+
+[MakeCommandlet]
+; EN: HelpCmd=make
+HelpCmd=machen
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Rebuild UnrealScript packages."
+HelpOneLiner="Erstellen Sie UnrealScript-Pakete neu."
+; EN: HelpUsage="make [-option...] [parm=value]..."
+HelpUsage="make [-option...] [parm = value]..."
+; EN: HelpParm[0]="Silent"
+HelpParm[0]="Leise"
+; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
+HelpDesc[0]="Keine Eingabeaufforderungen; Nehmen Sie für alle Fragen "Ja" an."
+HelpParm[1]="NoBind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
+HelpDesc[1]="Erzwingen Sie nicht, dass native Funktionen an DLLs gebunden werden."
+; EN: HelpParm[2]="All"
+HelpParm[2]="Alles"
+; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
+HelpDesc[2]="Sauberer Wiederaufbau (andernfalls erfolgt der Wiederaufbau inkrementell)."
+
+[ConformCommandlet]
+; EN: HelpCmd=conform
+HelpCmd=anpassen
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="Generieren Sie konforme Binärdateien"
+; EN: HelpUsage="conform existing_file.ext old_file.ext"
+HelpUsage="konform vorhandene_Datei.ext alte_Datei.ext"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="existierende Datei.ext"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
+HelpDesc[0]="Vorhandene Binärdatei zum Laden, Anpassen und Speichern."
+HelpParm[1]="oldfile.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with."
+HelpDesc[1]="Alte Datei, mit der die Quelldatei binär kompatibel ist."
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Export objects in bulk."
+HelpOneLiner="Objekte in großen Mengen exportieren."
+; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
+HelpUsage="batchexport package.ext Klassenname export_ext [Pfad]"
+HelpParm[0]="package.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export."
+HelpDesc[0]="Paket, dessen Objekte Sie exportieren möchten."
+; EN: HelpParm[1]="classname"
+HelpParm[1]="Klassenname"
+; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
+HelpDesc[1]="Klasse des zu exportierenden Objekts. Dies kann eine der folgenden sein:"
+HelpParm[2]="   "
+; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
+HelpDesc[2]="   Klasse, Textur, Sound, Musik, Level, Modell, Polys, Textpuffer"
+HelpParm[3]="export_ext"
+; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
+HelpDesc[3]="Dateierweiterung zum Exportieren. Die akzeptierten Dateierweiterungen pro Klasse lauten wie folgt:"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   class: uc, h"
+HelpDesc[4]="   Klasse: uc, h"
+HelpParm[5]="   "
+; EN: HelpDesc[5]="   texture: bmp, pcx"
+HelpDesc[5]="   Textur: BMP, PCX"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   sound: wav"
+HelpDesc[6]="   Ton: WAV"
+HelpParm[7]="   "
+; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
+HelpDesc[7]="   Musik: s3m, xm, it oder ein anderes Tracker-Format"
+HelpParm[8]="   "
+; EN: HelpDesc[8]="   level: t3d"
+HelpDesc[8]="   Level: t3d"
+HelpParm[9]="   "
+; EN: HelpDesc[9]="   model: t3d"
+HelpDesc[9]="   Modell: t3d"
+HelpParm[10]="   "
+HelpDesc[10]="   polys: t3d"
+HelpParm[11]="   "
+; EN: HelpDesc[11]="   textbuffer: txt"
+HelpDesc[11]="   Textpuffer: txt"
+; EN: HelpParm[12]="path"
+HelpParm[12]="Pfad"
+; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
+HelpDesc[12]="Pfad zum Exportieren von Dateien wie C:\MyPath."
+
+[PackageFlagCommandlet]
+; EN: HelpCmd=packageflag
+HelpCmd=Paketflagge
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Set package flags in package files."
+HelpOneLiner="Setzen Sie Paketflags in Paketdateien."
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag]...]"
+HelpUsage="packageflag src.ext [dest.ext &lt;+ | -&gt; flag [&lt;+ | -&gt; flag]...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load."
+HelpDesc[0]="Vorhandene Paketdatei zum Laden."
+HelpParm[1]="dest.ext"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings."
+HelpDesc[1]="Name der neuen Paketdatei mit den neuen Flag-Einstellungen."
+; EN: HelpParm[2]="flag"
+HelpParm[2]="Flagge"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+ um ein Flag zu setzen, oder - um ein Flag zu entfernen, gefolgt von einem der folgenden:"
+HelpParm[3]="   "
+; EN: HelpDesc[3]="   AllowDownload"
+HelpDesc[3]="   Download erlauben"
+HelpParm[4]="   "
+HelpDesc[4]="   ClientOptional"
+HelpParm[5]="   "
+HelpDesc[5]="   ServerSideOnly"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   BrokenLinks"
+HelpDesc[6]="   Kaputte Links"
+HelpParm[7]="   "
+; EN: HelpDesc[7]="   Unsecure"
+HelpDesc[7]="   Unsicher"
+
+[DataRipCommandlet]
+; EN: HelpCmd=datarip
+HelpCmd=Datenarip
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="Erstellen Sie ein Paket mit herausgerissenen Textur-, Musik- und Sounddaten."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package."
+HelpDesc[0]="Quellpaket."
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package."
+HelpDesc[1]="Zielpaket."
+
+[UpdateUModCommandlet]
+HelpCmd=updateumod
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
+HelpOneLiner="Hinzufügen, Löschen, Ersetzen oder Extrahieren von Dateien von einem Umod."
+; EN: HelpUsage="updateumod UmodFile Command [Filename]"
+HelpUsage="updateumod UmodFile Befehl [Dateiname]"
+HelpParm[0]="UmodFile"
+; EN: HelpDesc[0]="The umod file to change or view."
+HelpDesc[0]="Die umod-Datei, die geändert oder angezeigt werden soll."
+; EN: HelpParm[1]="Command"
+HelpParm[1]="Befehl"
+; EN: HelpDesc[1]="Can be one of the following:"
+HelpDesc[1]="Kann eine der folgenden sein:"
+HelpParm[2]="   "
+; EN: HelpDesc[2]="   EXTRACT (file extraction)"
+HelpDesc[2]="   EXTRACT (Dateiextraktion)"
+HelpParm[3]="   "
+; EN: HelpDesc[3]="   ADD (file addition)"
+HelpDesc[3]="   ADD (Dateizusatz)"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   DELETE (file deletion)"
+HelpDesc[4]="   LÖSCHEN (Löschen der Datei)"
+HelpParm[5]="   "
+; EN: HelpDesc[5]="   REPLACE (file replacement)"
+HelpDesc[5]="   REPLACE (Dateiersatz)"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   LIST (file listing)"
+HelpDesc[6]="   LIST (Dateiliste)"
+; EN: HelpParm[7]="Filename"
+HelpParm[7]="Dateiname"
+; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
+HelpDesc[7]="Die Datei zum EXTRAKTIEREN, HINZUFÜGEN, LÖSCHEN oder ERSETZEN."
+
+[ChecksumPackageCommandlet]
+; EN: HelpCmd=checksumpackage
+HelpCmd=Checksumpackage
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Display checksum for package file."
+HelpOneLiner="Prüfsumme für Paketdatei anzeigen."
+; EN: HelpUsage="checksumpackage packagename"
+HelpUsage="Checksumpackage Paketname"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="Paketnamen"
+; EN: HelpDesc[0]="The name of the package to checksum."
+HelpDesc[0]="Der Name des zu prüfenden Pakets."
+
+[StripSourceCommandlet]
+HelpCmd=StripSource
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Strip the script buffers from a package."
+HelpOneLiner="Entfernen Sie die Skriptpuffer aus einem Paket."
+; EN: HelpUsage="stripsource packagename"
+HelpUsage="Stripsource Packagename"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="Paketnamen"
+; EN: HelpDesc[0]="The name of the package to strip sources."
+HelpDesc[0]="Der Name des Pakets, um die Quellen zu entfernen."
+
+[DumpIntCommandlet]
+HelpCmd=DumpInt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dump the language text contents out of a file."
+HelpOneLiner="Speichern Sie den Inhalt des Sprachtextes aus einer Datei."
+; EN: HelpUsage="dumpint packagename"
+HelpUsage="Dumpint Packagename"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="Paketnamen"
+; EN: HelpDesc[0]="The name of the package to dump language text of."
+HelpDesc[0]="Der Name des Pakets, dessen Sprachtext ausgegeben werden soll."
+
+[ExportPackageCommandlet]
+HelpCmd=ExportPackage
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
+HelpOneLiner="Exportieren Sie einfach einen Paketinhalt in UC-Dateien im vorherigen Verzeichnis."
+; EN: HelpUsage="exportpackage packagename"
+HelpUsage="Exportpaket Paketname"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="Paketnamen"
+; EN: HelpDesc[0]="The name of the package to export UC files of."
+HelpDesc[0]="Der Name des Pakets, dessen UC-Dateien exportiert werden sollen."
+
+[CompareIntCommandlet]
+HelpCmd=CompareInt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
+HelpOneLiner="Vergleichen Sie 2 Sprachdateien und löschen/entfernen Sie Spracheinträge, mit denen Sie vergleichen."
+; EN: HelpUsage="compareint packageint miscint"
+HelpUsage="vergleiche packageint miscint"
+HelpParm[0]="packageint"
+; EN: HelpDesc[0]="Main language file."
+HelpDesc[0]="Hauptsprachendatei."
+HelpParm[1]="miscint"
+; EN: HelpDesc[1]="Secondary language file (to edit)."
+HelpDesc[1]="Sekundärsprachendatei (zum Bearbeiten)."
+
+[ListObjectsCommandlet]
+; EN: HelpCmd=listobjects
+HelpCmd=Listenobjekte
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Lists Objects in package."
+HelpOneLiner="Listet Objekte im Paket auf."
+; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] &lt;package&gt; [&lt;baseclass&gt;]"
+; EN: HelpParm[0]="-switch1, -switch2..."
+HelpParm[0]="-Schalter1, -Schalter2..."
+; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
+HelpDesc[0]="Optionsschalter können einer oder mehrere der folgenden sein:"
+HelpParm[1]="   -cp"
+; EN: HelpDesc[1]="   Prints pathname instead of name for Class."
+HelpDesc[1]="   Druckt den Pfadnamen anstelle des Namens für die Klasse."
+HelpParm[2]="   -op"
+; EN: HelpDesc[2]="   Prints pathname instead of name for Object."
+HelpDesc[2]="   Druckt den Pfadnamen anstelle des Namens für das Objekt."
+; EN: HelpParm[3]="   -na"
+HelpParm[3]="   -n/a"
+; EN: HelpDesc[3]="   Do not align output."
+HelpDesc[3]="   Ausgang nicht ausrichten."
+HelpParm[4]="   -ni"
+; EN: HelpDesc[4]="   Do not indent object hierarchy."
+HelpDesc[4]="   Objekthierarchie nicht einrücken."
+HelpParm[5]="   -nc"
+; EN: HelpDesc[5]="   Do not display class."
+HelpDesc[5]="   Klasse nicht anzeigen."
+HelpParm[6]="   -co"
+; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
+HelpDesc[6]="   Zeigen Sie einfach Objektklassen anstelle jedes Objekts an."
+HelpParm[7]="pkg"
+; EN: HelpDesc[7]="Package file."
+HelpDesc[7]="Paketdatei."
+; EN: HelpParm[8]="baseclass"
+HelpParm[8]="Grundklasse"
+; EN: HelpDesc[8]="Optional base class of listed objects."
+HelpDesc[8]="Optionale Basisklasse der aufgelisteten Objekte."
+
+[MergeDXTCommandlet]
+; EN: HelpCmd=mergedxt
+HelpCmd=Mergedxt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Merge DXT textures with standard textures."
+HelpOneLiner="Führen Sie DXT-Texturen mit Standardtexturen zusammen."
+; EN: HelpUsage="mergedxt srcpath oldpath destpath"
+HelpUsage="fusionedxt srcpath oldpath destpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files."
+HelpDesc[0]="Pfad mit Quelldateien."
+; EN: HelpParm[1]="oldpath"
+HelpParm[1]="alter Pfad"
+; EN: HelpDesc[1]="Path containing old files."
+HelpDesc[1]="Pfad mit alten Dateien."
+HelpParm[2]="destpath"
+; EN: HelpDesc[2]="Path for destination files."
+HelpDesc[2]="Pfad für Zieldateien."
+
+[MD5Commandlet]
+HelpCmd=md5
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
+HelpOneLiner="Verwalten Sie die Prüfsummenliste Packages.md5."
+; EN: HelpUsage="md5 [-option Filename|Wildcard]"
+HelpUsage="md5 [-option Dateiname | Platzhalter]"
+; EN: HelpParm[0]="-a Wildcard"
+HelpParm[0]="-eine Wildcard"
+; EN: HelpDesc[0]="Add all files matching the wildcard to the Packages.md5 list."
+HelpDesc[0]="Fügen Sie alle Dateien, die dem Platzhalter entsprechen, zur Liste Packages.md5 hinzu."
+; EN: HelpParm[1]="-l [Filename]"
+HelpParm[1]="-l [Dateiname]"
+; EN: HelpDesc[1]="Prints the current contents of the specified Packages.md5 file. If no Filename is given, Packages.md5 will be used."
+HelpDesc[1]="Druckt den aktuellen Inhalt der angegebenen Packages.md5-Datei. Wenn kein Dateiname angegeben wird, wird Packages.md5 verwendet."
+; EN: HelpParm[2]="-m Filename"
+HelpParm[2]="-m Dateiname"
+; EN: HelpDesc[2]="Merges the contents of two Packages.md5 files. Filename should point to a valid Packages.md5 file."
+HelpDesc[2]="Führt den Inhalt von zwei Packages.md5-Dateien zusammen. Der Dateiname sollte auf eine gültige Packages.md5-Datei verweisen."
+; EN: HelpParm[3]="-p Wildcard"
+HelpParm[3]="-p Platzhalter"
+; EN: HelpDesc[3]="Removes the checksum for the all files matching the wildcard from the Packages.md5 list."
+HelpDesc[3]="Entfernt die Prüfsumme für alle Dateien, die mit dem Platzhalter übereinstimmen, aus der Liste Packages.md5."
+
+[PackageDumpCommandlet]
+; EN: HelpCmd=packagedump
+HelpCmd=Packagedump
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
+HelpOneLiner="Speichern Sie die Struktur eines Unreal-Pakets auf stdout."
+; EN: HelpUsage="packagedump [Filename]"
+HelpUsage="Packagedump [Dateiname]"
+
+[DumpFontInfoCommandlet]
+HelpCmd=dumpfontinfo
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dumps information about fonts."
+HelpOneLiner="Gibt Informationen zu Schriftarten aus."
+; EN: HelpUsage="dumpfontinfo <pkg>"
+HelpUsage="dumpfontinfo &lt;pkg&gt;"
+
+[ExecCommandlet]
+HelpCmd=exec
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
+HelpOneLiner="Führt eine Befehlsdatei in einer minimalen Editorumgebung aus."
+; EN: HelpUsage="exec filename"
+HelpUsage="exec Dateiname"
+
+[ScriptRaysCommandlet]
+; EN: HelpCmd=scriptrays
+HelpCmd=Scriptrays
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Rebuilds script source for a package or class"
+HelpOneLiner="Erstellt die Skriptquelle für ein Paket oder eine Klasse neu"
+; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"
+HelpUsage="scriptrays &lt;pkg&gt; [. &lt;cls&gt;] &lt;out_d&gt; [-disassemble | -mugshot]"
+; EN: HelpParm[0]="pkg[.cls]"
+HelpParm[0]="pkg [.cls]"
+; EN: HelpDesc[0]="Package or class to rebuild."
+HelpDesc[0]="Paket oder Klasse neu zu erstellen."
+HelpParm[1]="out_d"
+; EN: HelpDesc[1]="Output directory."
+HelpDesc[1]="Ausgabe Verzeichnis."
+; EN: HelpParm[2]="-disassemble"
+HelpParm[2]="-zerlegen"
+; EN: HelpDesc[2]="Output disassembly instead of code."
+HelpDesc[2]="Demontage der Ausgabe anstelle von Code."
+; EN: HelpParm[3]="-mugshot"
+HelpParm[3]="-Polizeifoto"
+; EN: HelpDesc[3]="Output declarations instead of code."
+HelpDesc[3]="Ausgabedeklarationen anstelle von Code."

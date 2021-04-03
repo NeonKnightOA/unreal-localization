@@ -1,0 +1,30 @@
+﻿[Public]
+Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
+; EN: Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="Kijelző",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D="A 3D hardver inicializálása nem sikerült"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Perspektív térkép"
+; EN: ViewXY="Overhead map"
+ViewXY="Rezsi térkép"
+; EN: ViewXZ="XZ map"
+ViewXZ="XZ térkép"
+; EN: ViewYZ="YZ map"
+ViewYZ="YZ térkép"
+; EN: ViewOther="Viewport"
+ViewOther="Nézetablak"
+; EN: Color16="&16-bit color"
+Color16="&16 bites szín"
+; EN: Color32="&32-bit color"
+Color32="&32 bites szín"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Haladó beállítások"
+
+[XClient]
+ClassCaption="Standard XDrv Linux Manager"
