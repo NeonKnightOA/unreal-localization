@@ -282,6 +282,11 @@ HelpCmd=fullbatchexport
 HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Extract package with directory structure."
 HelpUsage="fullbatchexport <pkg> <outpath>"
+HelpDesc[0]="Optional, to define export format"
+HelpParm[0]="   -DefaultFontExtension"
+HelpParm[1]="   -DefaultMusicExtension"
+HelpParm[2]="   -DefaultSoundExtension"
+HelpParm[3]="   -DefaultTextureExtension"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
