@@ -20,24 +20,23 @@ Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Redaktør",Parent="Avanserte instillinger")
+Preferences=(Caption="Redaktør",Parent="Avanserte Instillinger")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Advanced (Editor)",Parent="Redaktør",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Avanserte (Redaktør)",Parent="Redaktør",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 ; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 Preferences=(Caption="Farger",Parent="Redaktør",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 ; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 Preferences=(Caption="Nett",Parent="Redaktør",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 ; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Rotasjonsgitter",Parent="Redaktør",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Rotasjonsnett",Parent="Redaktør",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=herre
+HelpCmd=master
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Bygg hovedinstallasjonsfiler"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="master [-alternativ...] [parm = verdi]..."
+HelpUsage="master [-alternativ...] [parm=verdi]..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Rotkatalog å kopiere kildefiler fra."
@@ -49,38 +48,35 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Sti for deltakomprimert stihenvisning."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=gjøre
+HelpCmd=make
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Gjenoppbygg UnrealScript-pakker."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
-HelpUsage="lag [-alternativ...] [parm = verdi]..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Stille"
+HelpUsage="make [-alternativ...] [parm = verdi]..."
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Ingen beskjeder; anta 'ja' til alle spørsmålene."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="Ikke tving innfødte funksjoner til å være bundet til DLL-filer."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Alle"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Ren ombygging (ellers er ombygging trinnvis)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=samsvare
+HelpCmd=conform
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generer samsvarende binære filer"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="samsvar eksisterende_fil.ext gammel_fil.ext"
+HelpUsage="conform eksisterende_fil.ext gammel_fil.ext"
 ; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="eksisterende fil.ekst"
+HelpParm[0]="eksisterende_fil.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Eksisterende binærfil for å laste, konformere og lagre."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="oldfile.ext"
+HelpParm[1]="gammel_fil.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Gammel fil for å gjøre kildefilen binær kompatibel med."
 

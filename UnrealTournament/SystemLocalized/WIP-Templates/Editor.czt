@@ -22,7 +22,7 @@ Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Editor",Parent="Pokročilé možnosti")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Pokročilý (editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Pokročilý (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 ; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 Preferences=(Caption="Barvy",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 ; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
@@ -31,13 +31,12 @@ Preferences=(Caption="Mřížka",Parent="Editor",Class=Editor.EditorEngine,Immed
 Preferences=(Caption="Rotační mřížka",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=mistr
+HelpCmd=master
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Vytvářejte hlavní instalační soubory"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="master [-option...] [parm = value]..."
+HelpUsage="master [-option...] [parm=value]..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Kořenový adresář ke kopírování zdrojových souborů z."
@@ -49,38 +48,35 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Cesta k odkazu na cestu komprimovanou delta."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=udělat
+HelpCmd=make
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Znovu sestavte balíčky UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
 HelpUsage="make [-option...] [parm = value]..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Tichý"
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Žádné výzvy; předpokládej „ano“ všem otázkám."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="Nenuťte nativní funkce, aby byly vázány na DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Všechno"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Čisté opětovné sestavení (jinak je opětovné sestavení přírůstkové)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=vyhovět
+HelpCmd=conform
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generujte vyhovující binární soubory"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="přizpůsobit existující_soubor.ext starý_soubor.ext"
+HelpUsage="conform existující_soubor.ext starý_soubor.ext"
 ; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="existujícísoubor.ext"
+HelpParm[0]="existující_soubor.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Existující binární soubor k načtení, přizpůsobení a uložení."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="oldfile.ext"
+HelpParm[1]="starý_soubor.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Starý soubor, aby byl zdrojový soubor binární kompatibilní s."
 
