@@ -20,23 +20,23 @@ Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Editor",Parent="Opcions avançades")
+Preferences=(Caption="Editor",Parent="Opcions Avançades")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Avançat (editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Avançat (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 ; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 Preferences=(Caption="Quadrícula",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 ; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Graella de rotació",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Quadrícula de rotació",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=mestre
+HelpCmd=master
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Construeix fitxers d'instal·lació mestra"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="mestre [-opció...] [parm = valor]..."
+HelpUsage="master [-opció...] [parm=valor]..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Directori arrel per copiar els fitxers font."
@@ -48,33 +48,29 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Camí de referència de camí de compressió delta."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=fer
+HelpCmd=make
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Reconstrueix els paquets UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
-HelpUsage="fer [-opció...] [parm = valor]..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Silenciós"
+HelpUsage="make [-opció...] [parm = valor]..."
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Sense sol·licituds; assumeix "sí" a totes les preguntes."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="No obligueu a que les funcions natives estiguin vinculades a les DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Tots"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Reconstrucció neta (en cas contrari, la reconstrucció és incremental)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=conformar
+HelpCmd=conform
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generar fitxers binaris conformes"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="conformar fitxer_existent.ext fitxer_exterior"
+HelpUsage="conform fitxer_existent.ext fitxer_exterior"
 ; EN: HelpParm[0]="existingfile.ext"
 HelpParm[0]="fitxerexistent.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."

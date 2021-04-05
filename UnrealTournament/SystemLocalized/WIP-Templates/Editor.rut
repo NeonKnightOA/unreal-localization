@@ -31,13 +31,12 @@ Preferences=(Caption="Сетка",Parent="редактор",Class=Editor.EditorE
 Preferences=(Caption="Сетка вращения",Parent="редактор",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=мастер
+HelpCmd=master
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Сборка основных файлов установщика"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="master [-option...] [parm = значение]..."
+HelpUsage="master [-option...] [parm=значение]..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Корневой каталог, из которого копируются исходные файлы."
@@ -49,38 +48,35 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Путь для ссылки на путь с дельта-сжатием."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=сделать
+HelpCmd=make
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Перестройте пакеты UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
 HelpUsage="make [-option...] [parm = value]..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Тихий"
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Никаких подсказок; ответьте «да» на все вопросы."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="Не заставляйте собственные функции привязываться к DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Все"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Чистая перестройка (в противном случае перестройка будет инкрементальной)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=соответствовать
+HelpCmd=conform
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Создавать соответствующие двоичные файлы"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="согласовать existing_file.ext old_file.ext"
+HelpUsage="conform existing_file.ext old_file.ext"
 ; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="существующий файл.ext"
+HelpParm[0]="existing_file.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Существующий двоичный файл для загрузки, согласования и сохранения."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="oldfile.ext"
+HelpParm[1]="old_file.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Старый файл для обеспечения совместимости с двоичным исходным файлом."
 

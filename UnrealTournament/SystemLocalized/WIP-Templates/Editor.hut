@@ -20,24 +20,23 @@ Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Szerkesztő",Parent="Haladó beállítások")
+Preferences=(Caption="Szerkesztő",Parent="Haladó Beállítások")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Haladó (szerkesztő)",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Haladó (Szerkesztő)",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 ; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 Preferences=(Caption="Színek",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 ; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 Preferences=(Caption="Rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 ; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Rotációs rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Rotációs Rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=fő-
+HelpCmd=master
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Készítsen fő telepítőfájlokat"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="master [-option...] [parm = érték]..."
+HelpUsage="master [-option...] [parm=érték]..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Gyökérkönyvtár a forrásfájlok másolásához."
@@ -49,38 +48,35 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Elérési út delta-tömörített útvonal referenciához."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=készítsen
+HelpCmd=make
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Újítsa fel az UnrealScript csomagokat."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
 HelpUsage="make [-option...] [parm = érték]..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Csendes"
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Nincs felszólítás; tegyük fel, hogy minden kérdésre igen."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="Ne erőltesse a natív függvények kötését a DLL-ekhez."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Minden"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Tiszta újjáépítés (különben az újjáépítés növekményes)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=alkalmazkodik
+HelpCmd=conform
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generáljon megfelelő bináris fájlokat"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="konform meglévő_fájl.ext régi_fájl.ext"
+HelpUsage="conform meglévő_fájl.ext régi_fájl.ext"
 ; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="meglévő fájl.ext"
+HelpParm[0]="meglévő_fájl.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Meglévő bináris fájl a betöltéshez, konformitáshoz és mentéshez."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="oldfile.ext"
+HelpParm[1]="régi_fájl.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Régi fájl, hogy a forrásfájl binárisan kompatibilis legyen."
 

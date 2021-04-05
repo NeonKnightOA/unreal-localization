@@ -20,24 +20,23 @@ Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Redaktor",Parent="Zaawansowane opcje")
+Preferences=(Caption="Edytor",Parent="Zaawansowane Opcje")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Zaawansowane (edytor)",Parent="Redaktor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Zaawansowane (Edytor)",Parent="Edytor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 ; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Zabarwienie",Parent="Redaktor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Zabarwienie",Parent="Edytor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 ; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Krata",Parent="Redaktor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Siatka",Parent="Edytor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 ; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Siatka rotacji",Parent="Redaktor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Siatka rotacji",Parent="Edytor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=mistrz
+HelpCmd=master
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Zbuduj główne pliki instalatora"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="master [-opcja...] [parametr = wartość]..."
+HelpUsage="master [-opcja...] [parametr=wartość]..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Katalog główny, z którego mają zostać skopiowane pliki źródłowe."
@@ -49,37 +48,35 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Ścieżka odniesienia do ścieżki skompresowanej delta."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=robić
+HelpCmd=make
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Przebuduj pakiety UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
-HelpUsage="zrobić [-opcja...] [parametr = wartość]..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Cichy"
+HelpUsage="make [-opcja...] [parametr = wartość]..."
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Brak podpowiedzi; załóż „tak” na wszystkie pytania."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="Nie wymuszaj powiązania funkcji natywnych z bibliotekami DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Wszystko"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Czysta przebudowa (w przeciwnym razie odbudowa jest przyrostowa)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=odpowiadać
+HelpCmd=conform
 HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generuj zgodne pliki binarne"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="zgodność istniejący_plik.ext stary_plik.ext"
-HelpParm[0]="existingfile.ext"
+HelpUsage="conform istniejący_plik.ext stary_plik.ext"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="istniejący_plik.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Istniejący plik binarny do załadowania, dostosowania i zapisania."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="oldfile.ext"
+HelpParm[1]="stary_plik.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Stary plik, z którym plik źródłowy będzie zgodny z."
 
