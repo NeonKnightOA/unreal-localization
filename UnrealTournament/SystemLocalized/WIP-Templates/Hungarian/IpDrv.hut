@@ -12,7 +12,7 @@ Preferences=(Caption="Kiszolgáló jeladó",Parent="Hálózatépítés",Class=Ip
 
 [UpdateServerCommandlet]
 HelpCmd=updateserver
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Szolgáltatás Unreal Engine automatikus frissítési kérelmek."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
@@ -23,7 +23,7 @@ HelpDesc[0]="Használandó konfigurációs fájl. Alapértelmezés: UpdateServer
 
 [MasterServerCommandlet]
 HelpCmd=masterserver
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="A szerverek fő listájának karbantartása."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
@@ -35,7 +35,7 @@ HelpDesc[0]="Használandó konfigurációs fájl. Alapértelmezés: MasterServer
 [CompressCommandlet]
 ; EN: HelpCmd=compress
 HelpCmd=borogatás
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension.uz will be created."
 HelpOneLiner="Töltsön le egy Unreal csomagot az automatikus letöltéshez. Létrejön egy.uz kiterjesztésű fájl."
 ; EN: HelpUsage="compress File1 [File2 [File3...]]"
@@ -48,7 +48,7 @@ HelpDesc[0]="Tömörítendő helyettesítő karakterek vagy fájlnevek"
 [DecompressCommandlet]
 ; EN: HelpCmd=decompress
 HelpCmd=kicsomagolni
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Tömörítse ki az ucc compress programmal tömörített fájlt."
 ; EN: HelpUsage="decompress CompressedFile"

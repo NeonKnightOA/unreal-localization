@@ -32,7 +32,7 @@ Preferences=(Caption="Сетка вращения",Parent="редактор",Cla
 
 [MasterCommandlet]
 HelpCmd=master
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Сборка основных файлов установщика"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -49,7 +49,7 @@ HelpDesc[2]="Путь для ссылки на путь с дельта-сжат
 
 [MakeCommandlet]
 HelpCmd=make
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Перестройте пакеты UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
@@ -66,7 +66,7 @@ HelpDesc[2]="Чистая перестройка (в противном случ
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Создавать соответствующие двоичные файлы"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
@@ -83,7 +83,7 @@ HelpDesc[1]="Старый файл для обеспечения совмест�
 [BatchExportCommandlet]
 ; EN: HelpCmd=batchexport
 HelpCmd=батчеэкспорт
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Массовый экспорт объектов."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
@@ -132,7 +132,7 @@ HelpDesc[12]="Путь для экспорта файлов, например C:
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Установите флаги пакета в файлах пакета."
 ; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag]...]"
@@ -163,7 +163,7 @@ HelpDesc[6]="   Не используется"
 [DataRipCommandlet]
 ; EN: HelpCmd=datarip
 HelpCmd=датарип
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Создайте пакет с извлеченными данными текстуры, музыки и звука."
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
@@ -176,7 +176,7 @@ HelpDesc[1]="Пакет назначения."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Добавить, удалить, заменить или извлечь файлы из umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
@@ -211,7 +211,7 @@ HelpDesc[7]="Файл для ИЗВЛЕЧЕНИЯ, ДОБАВЛЕНИЯ, УДА�
 [ChecksumPackageCommandlet]
 ; EN: HelpCmd=checksumpackage
 HelpCmd=чекпакет
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Показать контрольную сумму для файла пакета."
 ; EN: HelpUsage="checksumpackage packagename"
@@ -223,7 +223,7 @@ HelpDesc[0]="Имя пакета для контрольной суммы."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Удалите из пакета буферы сценария."
 ; EN: HelpUsage="stripsource packagename"
@@ -235,7 +235,7 @@ HelpDesc[0]="Имя пакета для удаления источников."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Выгрузить текстовое содержимое на языке из файла."
 HelpUsage="dumpint packagename"
@@ -246,7 +246,7 @@ HelpDesc[0]="Имя пакета, для которого требуется в�
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
 HelpOneLiner="Просто экспортируйте содержимое пакета в файлы.uc в предыдущем каталоге."
 ; EN: HelpUsage="exportpackage packagename"
@@ -258,7 +258,7 @@ HelpDesc[0]="Имя пакета для экспорта файлов UC."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Сравните 2 языковых файла и удалите/удалите языковые записи, с которыми вы сравниваете."
 HelpUsage="compareint packageint miscint"
@@ -273,7 +273,7 @@ HelpDesc[1]="Файл на дополнительном языке (для ре�
 [ListObjectsCommandlet]
 ; EN: HelpCmd=listobjects
 HelpCmd=листобъекты
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Перечисляет объекты в пакете."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
@@ -314,7 +314,7 @@ HelpDesc[8]="Необязательный базовый класс перечи
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Объединяйте текстуры DXT со стандартными текстурами."
 HelpUsage="mergedxt srcpath oldpath destpath"
@@ -332,7 +332,7 @@ HelpDesc[2]="Путь для файлов назначения."
 [MD5Commandlet]
 ; EN: HelpCmd=md5
 HelpCmd=мкр5
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
 HelpOneLiner="Управление списком контрольных сумм Packages.md5."
 ; EN: HelpUsage="md5 [-option Filename|Wildcard]"
@@ -357,7 +357,7 @@ HelpDesc[3]="Удаляет контрольную сумму для всех ф
 [PackageDumpCommandlet]
 ; EN: HelpCmd=packagedump
 HelpCmd=упакованный дамп
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Выгрузите структуру Unreal Package в стандартный вывод."
 ; EN: HelpUsage="packagedump [Filename]"
@@ -365,7 +365,7 @@ HelpUsage="packagedump [имя файла]"
 
 [DumpFontInfoCommandlet]
 HelpCmd=dumpfontinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about fonts."
 HelpOneLiner="Сбрасывает информацию о шрифтах."
 ; EN: HelpUsage="dumpfontinfo <pkg>"
@@ -373,7 +373,7 @@ HelpUsage="dumpfontinfo &lt;pkg&gt;"
 
 [ExecCommandlet]
 HelpCmd=exec
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Выполняет командный файл в минимальной среде редактора."
 ; EN: HelpUsage="exec filename"
@@ -382,7 +382,7 @@ HelpUsage="exec имя файла"
 [ScriptRaysCommandlet]
 ; EN: HelpCmd=scriptrays
 HelpCmd=сценарии
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Перестраивает исходный код скрипта для пакета или класса"
 ; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"

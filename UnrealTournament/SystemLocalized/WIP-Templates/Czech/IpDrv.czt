@@ -13,7 +13,7 @@ Preferences=(Caption="Serverový maják",Parent="Síťování",Class=IpDrv.UdpBe
 [UpdateServerCommandlet]
 ; EN: HelpCmd=updateserver
 HelpCmd=aktualizační server
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Požadavky na automatickou aktualizaci služby Unreal Engine."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
@@ -25,7 +25,7 @@ HelpDesc[0]="Konfigurační soubor, který se má použít. Výchozí: UpdateSer
 [MasterServerCommandlet]
 ; EN: HelpCmd=masterserver
 HelpCmd=mistr serveru
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="Udržujte hlavní seznam serverů."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
@@ -37,7 +37,7 @@ HelpDesc[0]="Konfigurační soubor, který se má použít. Výchozí: MasterSer
 [CompressCommandlet]
 ; EN: HelpCmd=compress
 HelpCmd=komprimovat
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension.uz will be created."
 HelpOneLiner="Komprimujte balíček Unreal pro automatické stahování. Bude vytvořen soubor s příponou.uz."
 ; EN: HelpUsage="compress File1 [File2 [File3...]]"
@@ -50,7 +50,7 @@ HelpDesc[0]="Zástupný znak nebo názvy souborů, které se mají komprimovat."
 [DecompressCommandlet]
 ; EN: HelpCmd=decompress
 HelpCmd=dekomprimovat
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Dekomprimujte soubor komprimovaný pomocí ucc compress."
 ; EN: HelpUsage="decompress CompressedFile"

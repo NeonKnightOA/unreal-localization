@@ -35,7 +35,7 @@ Preferences=(Caption="Aplicomando MusicPackages",Parent="Editor",Class=Editor.Mu
 
 [MasterCommandlet]
 HelpCmd=master
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Construye archivos maestros de instalación."
 HelpUsage="master [-opción...] [parámetro=valor]..."
 HelpParm[0]="MasterPath"
@@ -47,7 +47,7 @@ HelpDesc[2]="Ruta de referencia para la compresión de ruta delta."
 
 [MakeCommandlet]
 HelpCmd=make
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Reconstruye paquetes de UnrealScript."
 HelpUsage="make [-opción...] [parámetro=valor]..."
 HelpParm[0]="Silent"
@@ -59,7 +59,7 @@ HelpDesc[2]="Reconstrucción limpia. Por defecto, se reconstruye de forma increm
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Genera archivos binarios conformados."
 HelpUsage="conform archivo_existente.ext archivo_viejo.ext"
 HelpParm[0]="archivo_existente.ext"
@@ -69,7 +69,7 @@ HelpDesc[1]="Archivo viejo sobre el cual se va a compatibilizar el archivo fuent
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Exporta objetos por lotes."
 HelpUsage="batchexport paquete.ext nombre_clase extensión_exp ruta"
 HelpParm[0]="paquete.ext"
@@ -101,7 +101,7 @@ HelpDesc[12]="Ruta a la cual exportar los archivos, por ejemplo C:\MiRuta."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Configura los atributos de paquete en los archivos empaquetados."
 HelpUsage="packageflag fuente.ext [<+|->opción [<+|->opción] ...]"
 HelpParm[0]="fuente.ext"
@@ -121,7 +121,7 @@ HelpDesc[6]="   Sin usar"
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Crea un paquete con datos extraídos de texturas, música y sonido."
 HelpUsage="datarip paquete_fuente.ext paquete_destino.ext"
 HelpParm[0]="paquete_fuente.ext"
@@ -131,7 +131,7 @@ HelpDesc[1]="Paquete Destino."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Agrega, elimina, reemplaza o extrae archivos desde un .umod"
 HelpUsage="updateumod archivo.umod comando [nombre_archivo]"
 HelpParm[0]="archivo.umod"
@@ -153,7 +153,7 @@ HelpDesc[7]="El archivo sobre el cual se va a aplicar EXTRACT, ADD, DELETE o REP
 
 [ChecksumPackageCommandlet]
 HelpCmd=checksumpackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Muestra la suma de comprobación (checksum) para un archivo empaquetado."
 HelpUsage="checksumpackage nombre_paquete"
 HelpParm[0]="nombre_paquete"
@@ -161,7 +161,7 @@ HelpDesc[0]="Nombre del paquete del cual mostrar la suma de comprobación."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Extrae los búferes de texto de un paquete."
 HelpUsage="stripsource nombre_paquete"
 HelpParm[0]="nombre_paquete"
@@ -169,7 +169,7 @@ HelpDesc[0]="El nombre del paquete del cual extraer los búferes de texto."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Vuelca el contenido de internacionalización de un paquete de Unreal a un archivo .int."
 HelpUsage="dumpint nombre_paquete"
 HelpParm[0]="nombre_paquete"
@@ -177,7 +177,7 @@ HelpDesc[0]="Nombre del paquete del cual volcar la información."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Exporta el contenido de un paquete a archivos .uc en el directorio previo."
 HelpUsage="exportpackage nombre_paquete"
 HelpParm[0]="nombre_paquete"
@@ -185,7 +185,7 @@ HelpDesc[0]="Nombre del paquete del cual exportar los archivos .uc."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Compara dos archivos de lenguaje y elimina o mueve las entradas a comparar."
 HelpUsage="compareint principal.int secundario.int"
 HelpParm[0]="principal.int"
@@ -195,7 +195,7 @@ HelpDesc[1]="Archivo secundario de lenguaje (a editar)."
 
 [ListObjectsCommandlet]
 HelpCmd=listobjects
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Muestra los objetos de un paquete."
 HelpUsage="listobjects [-opción1 [-opción2 [...]]] <paquete> [<clase_base>]"
 HelpParm[0]="-opción1, -opción2..."
@@ -219,31 +219,31 @@ HelpDesc[8]="Clase base de los objetos listados. (Opcional)."
 
 [AudioPackageCommandlet]
 HelpCmd=audiopackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Crea un paquete de sonido a partir de un directorio."
 HelpUsage="audiopackage <directorio_origen>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Vuelca información sobre texturas."
 HelpUsage="dumptextureinfo <paquete>"
 
 [MusicPackagesCommandlet]
 HelpCmd=musicpackages
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Crea un paquete de música a partir de un directorio."
 HelpUsage="musicpackages <directorio_origen>"
 
 [ReduceTexturesCommandlet]
 HelpCmd=reducetextures
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Purga los mipmaps no compresos innecesarios."
 HelpUsage="reducetextures <paquete_fuente> <paquete_destino>"
 
 [SaveEmbeddedCommandlet]
 HelpCmd=saveembedded
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Guarda un paquete embebido en un archivo separado."
 HelpUsage="saveembedded <paquete> <paquete_embebido> <archivo_destino>"
 HelpParm[0]="  "
@@ -253,19 +253,19 @@ HelpDesc[1]="  "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Vuelca información sobre mallas."
 HelpUsage="dumptextureinfo <paquete>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Exporta mallas de modelos por lotes."
 HelpUsage="batchmeshexport <paquete> <formato> <ruta_destino>"
 
 [RebuildImportsCommandlet]
 HelpCmd=rebuildimports
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Reconstruye scripts de información para un paquete."
 HelpUsage="rebuildimports <paquete> [-upkg]"
 HelpParm[0]="-upkg"
@@ -273,13 +273,13 @@ HelpDesc[0]="Cambia el formato de salida a upkg. Por defecto es uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Exporta todos los niveles de mipmaps por lotes."
 HelpUsage="prodigiosuminparvo <paquete> <formato> <ruta_destino>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Extrae el paquete respetando la estructura de directorio."
 HelpUsage="fullbatchexport <paquete> <ruta_destino>"
 HelpDesc[0]="Opcional, para definir el formato de exportación"
@@ -290,12 +290,12 @@ HelpParm[3]="   -DefaultTextureExtension"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Compara páginas de fuentes."
 HelpUsage="fontpagediff <fuente_izquierda> <fuente_derecha>"
 
 [FontExporter]
 HelpCmd=FontExporter
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Exporta páginas de fuentes."
 HelpUsage="FontExporter <paquete> <ruta_destino>"

@@ -13,7 +13,7 @@ Preferences=(Caption="Balisa de servidor",Parent="Xarxes",Class=IpDrv.UdpBeacon,
 [UpdateServerCommandlet]
 ; EN: HelpCmd=updateserver
 HelpCmd=servidor d'actualitzacions
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Sol·licituds d’actualització automàtica del servei Unreal Engine."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
@@ -25,7 +25,7 @@ HelpDesc[0]="Fitxer de configuració a utilitzar. Per defecte: UpdateServer.ini.
 [MasterServerCommandlet]
 ; EN: HelpCmd=masterserver
 HelpCmd=Masterserver
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="Mantingueu la llista mestra de servidors."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
@@ -37,7 +37,7 @@ HelpDesc[0]="Fitxer de configuració a utilitzar. Per defecte: MasterServer.ini.
 [CompressCommandlet]
 ; EN: HelpCmd=compress
 HelpCmd=comprimir
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension.uz will be created."
 HelpOneLiner="Comprimiu un paquet Unreal per descarregar-lo automàticament. Es crearà un fitxer amb extensió.uz."
 ; EN: HelpUsage="compress File1 [File2 [File3...]]"
@@ -50,7 +50,7 @@ HelpDesc[0]="El comodí o els noms de fitxers a comprimir."
 [DecompressCommandlet]
 ; EN: HelpCmd=decompress
 HelpCmd=descomprimir
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Descomprimiu un fitxer comprimit amb ucc compress."
 ; EN: HelpUsage="decompress CompressedFile"

@@ -32,7 +32,7 @@ Preferences=(Caption="Rotációs Rács",Parent="Szerkesztő",Class=Editor.Editor
 
 [MasterCommandlet]
 HelpCmd=master
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Készítsen fő telepítőfájlokat"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -49,7 +49,7 @@ HelpDesc[2]="Elérési út delta-tömörített útvonal referenciához."
 
 [MakeCommandlet]
 HelpCmd=make
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Újítsa fel az UnrealScript csomagokat."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
@@ -66,7 +66,7 @@ HelpDesc[2]="Tiszta újjáépítés (különben az újjáépítés növekményes
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generáljon megfelelő bináris fájlokat"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
@@ -82,7 +82,7 @@ HelpDesc[1]="Régi fájl, hogy a forrásfájl binárisan kompatibilis legyen."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Objektumok tömeges exportálása."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
@@ -130,7 +130,7 @@ HelpDesc[12]="A fájlok exportálásának útvonala, például C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Csomagfájlokban állítsa be a csomagjelzőket."
 ; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag]...]"
@@ -160,7 +160,7 @@ HelpDesc[6]="   Felhasználatlan"
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Hozzon létre egy csomagot a kimásolt textúra, zene és hang adatokkal."
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
@@ -173,7 +173,7 @@ HelpDesc[1]="Rendeltetési csomag."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Fájlok hozzáadása, törlése, cseréje vagy kibontása egy umod fájlból."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
@@ -208,7 +208,7 @@ HelpDesc[7]="Az EXTRACT, ADD, DELETE vagy CSERÉLÉS fájl."
 [ChecksumPackageCommandlet]
 ; EN: HelpCmd=checksumpackage
 HelpCmd=csomagok ellenőrzése
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="A csomagfájl ellenőrző összegének megjelenítése."
 ; EN: HelpUsage="checksumpackage packagename"
@@ -220,7 +220,7 @@ HelpDesc[0]="Az ellenőrző összegű csomag neve."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Csíkolja le a szkript puffereit egy csomagról."
 HelpUsage="stripsource packagename"
@@ -231,7 +231,7 @@ HelpDesc[0]="A csomag neve a források levágására."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Dobja ki a nyelvi szöveg tartalmát egy fájlból."
 HelpUsage="dumpint packagename"
@@ -242,7 +242,7 @@ HelpDesc[0]="A csomag neve, amelybe a nyelvi szöveget ki akarjuk dobni."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
 HelpOneLiner="Egyszerűen exportálja a csomag tartalmát.uc fájlokba az előző könyvtárban."
 HelpUsage="exportpackage packagename"
@@ -253,7 +253,7 @@ HelpDesc[0]="Az UC fájlok exportálásához használt csomag neve."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Hasonlítson össze két nyelvi fájlt, és törölje/távolítsa el azokat a nyelvi bejegyzéseket, amelyekkel összehasonlítja."
 ; EN: HelpUsage="compareint packageint miscint"
@@ -269,7 +269,7 @@ HelpDesc[1]="Másodlagos nyelvi fájl (szerkesztésre)."
 [ListObjectsCommandlet]
 ; EN: HelpCmd=listobjects
 HelpCmd=listobjektumok
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Felsorolja az objektumokat a csomagban."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
@@ -305,7 +305,7 @@ HelpDesc[8]="A felsorolt ​​objektumok opcionális alaposztálya."
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Egyesítse a DXT textúrákat standard textúrákkal."
 HelpUsage="mergedxt srcpath oldpath destpath"
@@ -321,7 +321,7 @@ HelpDesc[2]="A célfájlok elérési útja."
 
 [MD5Commandlet]
 HelpCmd=md5
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
 HelpOneLiner="Kezelje a Packages.md5 ellenőrzőösszegek listáját."
 ; EN: HelpUsage="md5 [-option Filename|Wildcard]"
@@ -346,7 +346,7 @@ HelpDesc[3]="Eltávolítja a helyettesítő karakterekkel megegyező összes fá
 [PackageDumpCommandlet]
 ; EN: HelpCmd=packagedump
 HelpCmd=becsomagolva
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Dobja fel az Unreal Package szerkezetét a stdout-ra."
 ; EN: HelpUsage="packagedump [Filename]"
@@ -354,7 +354,7 @@ HelpUsage="packagedump [fájlnév]"
 
 [DumpFontInfoCommandlet]
 HelpCmd=dumpfontinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about fonts."
 HelpOneLiner="Információk a betűtípusokról."
 ; EN: HelpUsage="dumpfontinfo <pkg>"
@@ -362,7 +362,7 @@ HelpUsage="dumpfontinfo &lt;pkg&gt;"
 
 [ExecCommandlet]
 HelpCmd=exec
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Minimális szerkesztőkörnyezetben végrehajt egy parancsfájlt."
 ; EN: HelpUsage="exec filename"
@@ -371,7 +371,7 @@ HelpUsage="exec fájlnév"
 [ScriptRaysCommandlet]
 ; EN: HelpCmd=scriptrays
 HelpCmd=forgatókönyvek
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Újraépíti a csomag vagy osztály szkriptforrását"
 ; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"

@@ -32,7 +32,7 @@ Preferences=(Caption="Grille de rotation",Parent="Éditeur",Class=Editor.EditorE
 
 [MasterCommandlet]
 HelpCmd=master
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Créer des fichiers d'installation principaux"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -49,7 +49,7 @@ HelpDesc[2]="Chemin d'accès à la référence de chemin compressé en delta."
 
 [MakeCommandlet]
 HelpCmd=make
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Reconstruisez les packages UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
@@ -66,7 +66,7 @@ HelpDesc[2]="Reconstruction propre (sinon la reconstruction est incrémentielle)
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Générer des fichiers binaires conformes"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
@@ -82,7 +82,7 @@ HelpDesc[1]="Ancien fichier pour rendre le fichier source compatible avec."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Exportez des objets en masse."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
@@ -129,7 +129,7 @@ HelpDesc[12]="Chemin vers lequel exporter les fichiers, comme C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Définissez les indicateurs de package dans les fichiers de package."
 ; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag]...]"
@@ -159,7 +159,7 @@ HelpDesc[6]="   Inutilisé"
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Créez un package avec des données de texture, de musique et de son extraites."
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
@@ -172,7 +172,7 @@ HelpDesc[1]="Forfait de destination."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Ajoutez, supprimez, remplacez ou extrayez des fichiers d'un umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
@@ -207,7 +207,7 @@ HelpDesc[7]="Le fichier à EXTRACTER, AJOUTER, SUPPRIMER ou REMPLACER."
 [ChecksumPackageCommandlet]
 ; EN: HelpCmd=checksumpackage
 HelpCmd=chèque
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Afficher la somme de contrôle pour le fichier de package."
 ; EN: HelpUsage="checksumpackage packagename"
@@ -219,7 +219,7 @@ HelpDesc[0]="Le nom du package à contrôler."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Supprimez les tampons de script d'un package."
 ; EN: HelpUsage="stripsource packagename"
@@ -231,7 +231,7 @@ HelpDesc[0]="Le nom du package pour supprimer les sources."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Videz le contenu du texte de la langue d'un fichier."
 ; EN: HelpUsage="dumpint packagename"
@@ -243,7 +243,7 @@ HelpDesc[0]="Le nom du package dont le texte de langue doit être vidé."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
 HelpOneLiner="Exportez simplement le contenu d'un package vers des fichiers.uc dans le répertoire précédent."
 ; EN: HelpUsage="exportpackage packagename"
@@ -255,7 +255,7 @@ HelpDesc[0]="Le nom du package pour lequel exporter les fichiers UC."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Comparez 2 fichiers de langue et supprimez/supprimez les entrées de langue avec lesquelles vous comparez."
 HelpUsage="compareint packageint miscint"
@@ -269,7 +269,7 @@ HelpDesc[1]="Fichier de langue secondaire (à modifier)."
 
 [ListObjectsCommandlet]
 HelpCmd=listobjects
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Répertorie les objets dans le package."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
@@ -309,7 +309,7 @@ HelpDesc[8]="Classe de base facultative des objets répertoriés."
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Fusionnez les textures DXT avec les textures standard."
 HelpUsage="mergedxt srcpath oldpath destpath"
@@ -325,7 +325,7 @@ HelpDesc[2]="Chemin des fichiers de destination."
 
 [MD5Commandlet]
 HelpCmd=md5
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
 HelpOneLiner="Gérez la liste des sommes de contrôle Packages.md5."
 ; EN: HelpUsage="md5 [-option Filename|Wildcard]"
@@ -350,7 +350,7 @@ HelpDesc[3]="Supprime la somme de contrôle pour tous les fichiers correspondant
 [PackageDumpCommandlet]
 ; EN: HelpCmd=packagedump
 HelpCmd=pompe emballée
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Videz la structure d'un package Unreal vers stdout."
 ; EN: HelpUsage="packagedump [Filename]"
@@ -358,7 +358,7 @@ HelpUsage="packagedump [Nom de fichier]"
 
 [DumpFontInfoCommandlet]
 HelpCmd=dumpfontinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about fonts."
 HelpOneLiner="Vide les informations sur les polices."
 ; EN: HelpUsage="dumpfontinfo <pkg>"
@@ -366,7 +366,7 @@ HelpUsage="dumpfontinfo &lt;pkg&gt;"
 
 [ExecCommandlet]
 HelpCmd=exec
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Exécute un fichier de commandes dans un environnement d'éditeur minimal."
 ; EN: HelpUsage="exec filename"
@@ -374,7 +374,7 @@ HelpUsage="nom de fichier exec"
 
 [ScriptRaysCommandlet]
 HelpCmd=scriptrays
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Reconstruit la source de script pour un package ou une classe"
 ; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"

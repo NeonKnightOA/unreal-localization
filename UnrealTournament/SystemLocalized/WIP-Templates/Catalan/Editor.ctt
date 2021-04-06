@@ -32,7 +32,7 @@ Preferences=(Caption="Quadrícula de rotació",Parent="Editor",Class=Editor.Edit
 
 [MasterCommandlet]
 HelpCmd=master
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Construeix fitxers d'instal·lació mestra"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -49,7 +49,7 @@ HelpDesc[2]="Camí de referència de camí de compressió delta."
 
 [MakeCommandlet]
 HelpCmd=make
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Reconstrueix els paquets UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
@@ -66,7 +66,7 @@ HelpDesc[2]="Reconstrucció neta (en cas contrari, la reconstrucció és increme
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generar fitxers binaris conformes"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
@@ -82,7 +82,7 @@ HelpDesc[1]="Antic fitxer per fer compatible el fitxer font binari."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Exporta objectes de manera massiva."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
@@ -128,7 +128,7 @@ HelpDesc[12]="Camí per exportar fitxers, com ara C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Definiu els indicadors de paquets als fitxers de paquets."
 ; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag]...]"
@@ -158,7 +158,7 @@ HelpDesc[6]="   Sense utilitzar"
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Creeu un paquet amb dades de textura, música i so extretes."
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
@@ -171,7 +171,7 @@ HelpDesc[1]="Paquet de destinació."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Afegiu, suprimiu, substituïu o extracteu fitxers d’un umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
@@ -207,7 +207,7 @@ HelpDesc[7]="El fitxer que EXTRACTEU, AFEGEIX, SUPRIMEIX o REEMPLA."
 [ChecksumPackageCommandlet]
 ; EN: HelpCmd=checksumpackage
 HelpCmd=checkumpackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Mostra la suma de comprovació del fitxer de paquets."
 ; EN: HelpUsage="checksumpackage packagename"
@@ -219,7 +219,7 @@ HelpDesc[0]="El nom del paquet a suma de comprovació."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Retireu els buffers d'escriptura d'un paquet."
 ; EN: HelpUsage="stripsource packagename"
@@ -231,7 +231,7 @@ HelpDesc[0]="El nom del paquet per eliminar les fonts."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Voleu el contingut del text de l'idioma d'un fitxer."
 ; EN: HelpUsage="dumpint packagename"
@@ -244,7 +244,7 @@ HelpDesc[0]="El nom del paquet on voleu bolcar el text de l'idioma."
 [ExportPackageCommandlet]
 ; EN: HelpCmd=ExportPackage
 HelpCmd=Paquet d’exportació
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
 HelpOneLiner="Simplement exporteu el contingut d'un paquet a fitxers.uc del directori anterior."
 ; EN: HelpUsage="exportpackage packagename"
@@ -256,7 +256,7 @@ HelpDesc[0]="El nom del paquet per exportar fitxers UC de."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Compareu dos fitxers d'idioma i suprimiu/elimineu les entrades d'idioma amb què compareu."
 HelpUsage="compareint packageint miscint"
@@ -271,7 +271,7 @@ HelpDesc[1]="Fitxer d'idioma secundari (per editar)."
 [ListObjectsCommandlet]
 ; EN: HelpCmd=listobjects
 HelpCmd=llistaobjectes
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Llista els objectes del paquet."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
@@ -308,7 +308,7 @@ HelpDesc[8]="Classe base opcional d'objectes llistats."
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Combineu textures DXT amb textures estàndard."
 HelpUsage="mergedxt srcpath oldpath destpath"
@@ -324,7 +324,7 @@ HelpDesc[2]="Camí dels fitxers de destinació."
 
 [MD5Commandlet]
 HelpCmd=md5
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
 HelpOneLiner="Gestioneu la llista de sumes de comprovació Packages.md5."
 ; EN: HelpUsage="md5 [-option Filename|Wildcard]"
@@ -349,7 +349,7 @@ HelpDesc[3]="Elimina la suma de comprovació de tots els fitxers que coincideixe
 [PackageDumpCommandlet]
 ; EN: HelpCmd=packagedump
 HelpCmd=empaquetat
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Voleu l'estructura d'un paquet Unreal a un ordinador normal."
 ; EN: HelpUsage="packagedump [Filename]"
@@ -357,7 +357,7 @@ HelpUsage="packagedump [nom del fitxer]"
 
 [DumpFontInfoCommandlet]
 HelpCmd=dumpfontinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about fonts."
 HelpOneLiner="Aboca informació sobre tipus de lletra."
 ; EN: HelpUsage="dumpfontinfo <pkg>"
@@ -365,7 +365,7 @@ HelpUsage="dumpfontinfo &lt;pkg&gt;"
 
 [ExecCommandlet]
 HelpCmd=exec
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Executa un fitxer d'ordres en un entorn d'editor mínim."
 ; EN: HelpUsage="exec filename"
@@ -374,7 +374,7 @@ HelpUsage="nom de fitxer exec"
 [ScriptRaysCommandlet]
 ; EN: HelpCmd=scriptrays
 HelpCmd=scripts
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Reconstrueix el codi font d'un paquet o classe"
 ; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"
