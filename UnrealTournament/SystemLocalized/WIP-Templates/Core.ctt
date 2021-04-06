@@ -1,7 +1,6 @@
 ﻿[Public]
 ; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Sistema de fitxers",Parent="Avançades",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="Català"
@@ -29,20 +28,6 @@ Saving="S'està desant el fitxer "%ls"..."
 Loading="S'està carregant el fitxer "%ls"..."
 ; EN: Closing="Closing"
 Closing="Tancament"
-
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=HelloWorld
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Mostra"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (sense paràmetres)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Un paràmetre enter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Un paràmetre de cadena"
 
 [Errors]
 ; EN: Unknown="Unknown Error"
@@ -167,11 +152,3 @@ None="Cap"
 ; EN: Yes="Yes"
 Yes="Sí"
 No="No"
-
-[SimpleCommandlet]
-; EN: HelpCmd=Simple
-HelpCmd=Senzill
-; EN: HelpOneLiner="Simple"
-HelpOneLiner="Senzill"
-; EN: HelpUsage="Simple"
-HelpUsage="Senzill"

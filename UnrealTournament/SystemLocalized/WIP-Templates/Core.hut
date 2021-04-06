@@ -1,7 +1,6 @@
 ﻿[Public]
 ; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Fájlrendszer",Parent="Fejlett",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="Magyar"
@@ -29,20 +28,6 @@ Saving=""%ls" fájl mentése..."
 Loading=""%ls" fájl betöltése..."
 ; EN: Closing="Closing"
 Closing="Záró"
-
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Helló Világ
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Minta"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (nincs paraméter)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Egész paraméter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Karakterlánc-paraméter"
 
 [Errors]
 ; EN: Unknown="Unknown Error"
@@ -168,11 +153,3 @@ None="Egyik sem"
 Yes="Igen"
 ; EN: No="No"
 No="Nem"
-
-[SimpleCommandlet]
-; EN: HelpCmd=Simple
-HelpCmd=Egyszerű
-; EN: HelpOneLiner="Simple"
-HelpOneLiner="Egyszerű"
-; EN: HelpUsage="Simple"
-HelpUsage="Egyszerű"

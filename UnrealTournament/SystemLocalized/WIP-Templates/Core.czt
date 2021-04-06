@@ -1,7 +1,6 @@
 ﻿[Public]
 ; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Souborový systém",Parent="Pokročilý",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="Čeština"
@@ -29,20 +28,6 @@ Saving="Ukládání souboru „%ls“..."
 Loading="Načítání souboru "%ls"..."
 ; EN: Closing="Closing"
 Closing="Zavírání"
-
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Ahoj světe
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Vzorek"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (bez parametrů)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Celočíselný parametr"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Řetězcový parametr"
 
 [Errors]
 ; EN: Unknown="Unknown Error"
@@ -168,11 +153,3 @@ None="Žádný"
 Yes="Ano"
 ; EN: No="No"
 No="Ne"
-
-[SimpleCommandlet]
-; EN: HelpCmd=Simple
-HelpCmd=Jednoduchý
-; EN: HelpOneLiner="Simple"
-HelpOneLiner="Jednoduchý"
-; EN: HelpUsage="Simple"
-HelpUsage="Jednoduchý"
