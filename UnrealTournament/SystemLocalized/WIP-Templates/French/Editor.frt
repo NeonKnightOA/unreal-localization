@@ -22,6 +22,7 @@ Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Éditeur",Parent="Options Avancées")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
@@ -430,3 +431,11 @@ HelpUsage="resrays <paquet>"
 HelpDesc[0]="<paquet>"
 ; EN: HelpParm[0]="The package from where the #EXEC statementes must be rebuilt."
 HelpParm[0]="Le package à partir duquel les instructions #EXEC doivent être reconstruites."
+
+[DumpMeshInfoCommandlet]
+HelpCmd=dumpmeshinfo
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Dumps information about meshes."
+HelpOneLiner="Vide les informations sur les maillages."
+; EN: HelpUsage="dumptextureinfo <pkg>"
+HelpUsage="dumptextureinfo <emballer>"

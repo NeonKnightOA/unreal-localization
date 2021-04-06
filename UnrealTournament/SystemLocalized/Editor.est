@@ -22,6 +22,7 @@ Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Editor",Parent="Opciones Avanzadas")
 Preferences=(Caption="Avanzado (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Colores",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
@@ -293,3 +294,9 @@ HelpOneLiner="Reconstruye los comandos #EXEC de importación para un paquete dad
 HelpUsage="resrays <paquete>"
 HelpDesc[0]="<paquete>"
 HelpParm[0]="El paquete sobre el cual deben reconstruirse los comandos #EXEC."
+
+[DumpMeshInfoCommandlet]
+HelpCmd=dumpmeshinfo
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Vuelca información sobre mallas."
+HelpUsage="dumptextureinfo <paquete>"

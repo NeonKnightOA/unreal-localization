@@ -27,6 +27,7 @@ Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet
 Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 Preferences=(Caption="Editor",Parent="Opciones Avanzadas")
 Preferences=(Caption="Avanzado (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
