@@ -6,7 +6,7 @@ Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -19,6 +19,9 @@ Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet
 Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
@@ -266,3 +269,27 @@ HelpParm[2]="-disassemble"
 HelpDesc[2]="Output disassembly instead of code."
 HelpParm[3]="-mugshot"
 HelpDesc[3]="Output declarations instead of code."
+
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="checkunicode <filewildcard>"
+HelpUsage="Checks if contents of a text file contains Unicode characters."
+HelpDesc[0]="<filewildcard>"
+HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+
+[CheckSumCommandlet]
+HelpCmd=checksum
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="checksum packagename.u"
+HelpUsage="Calculates package checksum for stat logging."
+HelpDesc[0]="packagename.u"
+HelpParm[0]="Filename to calculate the checksum from."
+
+[ResRaysCommandlet]
+HelpCmd=resrays
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Rebuilds the import #EXEC statements for a given package."
+HelpUsage="resrays <package>"
+HelpDesc[0]="<package>"
+HelpParm[0]="The package from where the #EXEC statementes must be rebuilt."

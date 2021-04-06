@@ -24,6 +24,9 @@ Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandl
 Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
@@ -293,6 +296,34 @@ HelpCmd=fontpagediff
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Compares font pages."
 HelpUsage="fontpagediff <left font> <right font>"
+
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="checkunicode <files>"
+HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpDesc[0]="<files>"
+HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+
+[RipAndTearCommandlet]
+HelpCmd=ripandtear
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
+HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpDesc[0]="<inputmap>"
+HelpParm[0]="The map to read MyLevel resources from."
+HelpDesc[0]="<outputmap>"
+HelpParm[0]="The map to output the non-MyLevel'd map to."
+HelpDesc[0]="<outputresources>"
+HelpParm[0]="The class of output resources to take from the input map."
+
+[TextureMergerCommandlet]
+HelpCmd=texturemerger
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="texturemerger <packagename>"
+HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpDesc[0]="<packagename>"
+HelpParm[0]="The package where the textures will be saved to."
 
 [FontExporter]
 HelpCmd=FontExporter

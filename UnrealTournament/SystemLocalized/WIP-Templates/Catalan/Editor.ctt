@@ -6,7 +6,7 @@ Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -19,6 +19,9 @@ Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet
 Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Editor",Parent="Opcions Avançades")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
@@ -389,3 +392,39 @@ HelpDesc[2]="Desmuntatge de sortida en lloc de codi."
 HelpParm[3]="-mugshot"
 ; EN: HelpDesc[3]="Output declarations instead of code."
 HelpDesc[3]="Emet declaracions en lloc de codi."
+
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <fitxers>"
+; EN: HelpUsage="Checks if contents of a text file contains Unicode characters."
+HelpUsage="Comprova si el contingut d’un fitxer de text conté caràcters Unicode."
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<fitxers>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Els fitxers per comprovar si hi ha caràcters Unicode. Pot acceptar comodins com ara "*" i "?"."
+
+[CheckSumCommandlet]
+HelpCmd=checksum
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="checksum packagename.u"
+HelpOneLiner="checksum nompaquet.u"
+; EN: HelpUsage="Calculates package checksum for stat logging."
+HelpUsage="Calcula la suma de comprovació del paquet per al registre d'estadístiques."
+; EN: HelpDesc[0]="packagename.u"
+HelpDesc[0]="nompaquet.u"
+; EN: HelpParm[0]="Filename to calculate the checksum from."
+HelpParm[0]="Nom del fitxer des del qual es calcula la suma de comprovació."
+
+[ResRaysCommandlet]
+HelpCmd=resrays
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Rebuilds the import #EXEC statements for a given package."
+HelpOneLiner="Reconstrueix les declaracions d'importació #EXEC per a un paquet determinat."
+; EN: HelpUsage="resrays <package>"
+HelpUsage="resrays <nompaquet>"
+; EN: HelpDesc[0]="<package>"
+HelpDesc[0]="<nompaquet>"
+; EN: HelpParm[0]="The package from where the #EXEC statementes must be rebuilt."
+HelpParm[0]="El paquet des d'on s'han de reconstruir les declaracions #EXEC."
