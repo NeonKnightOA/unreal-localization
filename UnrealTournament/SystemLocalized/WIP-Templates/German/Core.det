@@ -1,7 +1,6 @@
 ﻿[Public]
 ; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Dateisystem",Parent="Fortgeschrittene",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="Deutsche"
@@ -28,20 +27,6 @@ Saving="Datei "%ls" speichern..."
 Loading="Datei "%ls" wird geladen..."
 ; EN: Closing="Closing"
 Closing="Schließen"
-
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hallo Welt
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Stichprobe"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (keine Parameter)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Ein ganzzahliger Parameter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Ein String-Parameter"
 
 [Errors]
 ; EN: Unknown="Unknown Error"
@@ -165,11 +150,3 @@ None="Keiner"
 Yes="Ja"
 ; EN: No="No"
 No="Nein"
-
-[SimpleCommandlet]
-; EN: HelpCmd=Simple
-HelpCmd=Einfach
-; EN: HelpOneLiner="Simple"
-HelpOneLiner="Einfach"
-; EN: HelpUsage="Simple"
-HelpUsage="Einfach"

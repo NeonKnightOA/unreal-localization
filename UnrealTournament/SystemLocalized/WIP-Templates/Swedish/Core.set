@@ -1,7 +1,6 @@
 ﻿[Public]
 ; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Filsystem",Parent="Avancerad",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="Svenska"
@@ -29,20 +28,6 @@ Saving="Sparar filen "%ls"..."
 Loading="Läser in filen "%ls"..."
 ; EN: Closing="Closing"
 Closing="Stängning"
-
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hej världen
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Prov"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (inga parametrar)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Ett heltalsparameter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="En strängparameter"
 
 [Errors]
 ; EN: Unknown="Unknown Error"
@@ -168,11 +153,3 @@ None="Ingen"
 Yes="Ja"
 ; EN: No="No"
 No="Nej"
-
-[SimpleCommandlet]
-; EN: HelpCmd=Simple
-HelpCmd=Enkel
-; EN: HelpOneLiner="Simple"
-HelpOneLiner="Enkel"
-; EN: HelpUsage="Simple"
-HelpUsage="Enkel"

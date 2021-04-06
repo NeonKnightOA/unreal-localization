@@ -19,15 +19,6 @@ Saving="Saving file "%ls"..."
 Loading="Loading file "%ls"..."
 Closing="Closing"
 
-[HelloWorldCommandlet]
-HelpCmd=HelloWorld
-HelpOneLiner="Sample"
-HelpUsage="HelloWorld (no parameters)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-HelpDesc[0]="An integer parameter"
-HelpDesc[1]="A string parameter"
-
 [Errors]
 Unknown="Unknown Error"
 Aborted="Aborted"

@@ -1,7 +1,6 @@
 ﻿[Public]
 ; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Файловая система",Parent="Продвинутый",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="Pусский"
@@ -29,20 +28,6 @@ Saving="Сохранение файла "%ls"..."
 Loading="Загрузка файла "%ls"..."
 ; EN: Closing="Closing"
 Closing="Закрытие"
-
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Привет мир
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Образец"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (без параметров)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Целочисленный параметр"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Строковый параметр"
 
 [Errors]
 ; EN: Unknown="Unknown Error"
@@ -168,11 +153,3 @@ None="Никто"
 Yes="да"
 ; EN: No="No"
 No="Нет"
-
-[SimpleCommandlet]
-; EN: HelpCmd=Simple
-HelpCmd=просто
-; EN: HelpOneLiner="Simple"
-HelpOneLiner="просто"
-; EN: HelpUsage="Simple"
-HelpUsage="просто"
