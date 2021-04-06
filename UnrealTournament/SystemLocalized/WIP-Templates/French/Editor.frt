@@ -205,8 +205,7 @@ HelpParm[7]="Nom de fichier"
 HelpDesc[7]="Le fichier à EXTRACTER, AJOUTER, SUPPRIMER ou REMPLACER."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=chèque
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Afficher la somme de contrôle pour le fichier de package."
@@ -348,8 +347,7 @@ HelpParm[3]="-p Joker"
 HelpDesc[3]="Supprime la somme de contrôle pour tous les fichiers correspondant au caractère générique de la liste Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=pompe emballée
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Videz la structure d'un package Unreal vers stdout."

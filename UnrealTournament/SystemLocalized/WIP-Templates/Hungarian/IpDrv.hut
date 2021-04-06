@@ -33,8 +33,7 @@ HelpParm[0]="ConfigFile"
 HelpDesc[0]="Használandó konfigurációs fájl. Alapértelmezés: MasterServer.ini."
 
 [CompressCommandlet]
-; EN: HelpCmd=compress
-HelpCmd=borogatás
+HelpCmd=compress
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension.uz will be created."
 HelpOneLiner="Töltsön le egy Unreal csomagot az automatikus letöltéshez. Létrejön egy.uz kiterjesztésű fájl."
@@ -46,8 +45,7 @@ HelpParm[0]="Fájlok"
 HelpDesc[0]="Tömörítendő helyettesítő karakterek vagy fájlnevek"
 
 [DecompressCommandlet]
-; EN: HelpCmd=decompress
-HelpCmd=kicsomagolni
+HelpCmd=decompress
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Tömörítse ki az ucc compress programmal tömörített fájlt."

@@ -159,8 +159,7 @@ HelpParm[6]="   Unsecure"
 HelpDesc[6]="   Ungebraucht"
 
 [DataRipCommandlet]
-; EN: HelpCmd=datarip
-HelpCmd=Datenarip
+HelpCmd=datarip
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Erstellen Sie ein Paket mit herausgerissenen Textur-, Musik- und Sounddaten."
@@ -207,8 +206,7 @@ HelpParm[7]="Dateiname"
 HelpDesc[7]="Die Datei zum EXTRAKTIEREN, HINZUFÜGEN, LÖSCHEN oder ERSETZEN."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=Checksumpackage
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Prüfsumme für Paketdatei anzeigen."
@@ -270,8 +268,7 @@ HelpParm[1]="miscint"
 HelpDesc[1]="Sekundärsprachendatei (zum Bearbeiten)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=Listenobjekte
+HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Listet Objekte im Paket auf."
@@ -309,8 +306,7 @@ HelpParm[8]="Grundklasse"
 HelpDesc[8]="Optionale Basisklasse der aufgelisteten Objekte."
 
 [MergeDXTCommandlet]
-; EN: HelpCmd=mergedxt
-HelpCmd=Mergedxt
+HelpCmd=mergedxt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Führen Sie DXT-Texturen mit Standardtexturen zusammen."
@@ -352,8 +348,7 @@ HelpParm[3]="-p Platzhalter"
 HelpDesc[3]="Entfernt die Prüfsumme für alle Dateien, die mit dem Platzhalter übereinstimmen, aus der Liste Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=Packagedump
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Speichern Sie die Struktur eines Unreal-Pakets auf stdout."
@@ -377,8 +372,7 @@ HelpOneLiner="Führt eine Befehlsdatei in einer minimalen Editorumgebung aus."
 HelpUsage="exec Dateiname"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=Scriptrays
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Erstellt die Skriptquelle für ein Paket oder eine Klasse neu"

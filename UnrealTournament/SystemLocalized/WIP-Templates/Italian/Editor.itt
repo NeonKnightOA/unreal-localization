@@ -205,8 +205,7 @@ HelpParm[7]="Nome del file"
 HelpDesc[7]="Il file da ESTRARRE, AGGIUNGERE, CANCELLARE o SOSTITUIRE."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=checkumpackage
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Visualizza checksum per il file del pacchetto."
@@ -252,8 +251,7 @@ HelpParm[0]="nome del pacchetto"
 HelpDesc[0]="Il nome del pacchetto di cui esportare i file UC."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=ConfrontaInt
+HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Confronta 2 file di lingua ed elimina/rimuovi le voci di lingua con cui hai confrontato."
@@ -371,8 +369,7 @@ HelpOneLiner="Esegue un file di comando in un ambiente di editor minimo."
 HelpUsage="nome file exec"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=sceneggiature
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Ricostruisce l'origine dello script per un pacchetto o una classe"

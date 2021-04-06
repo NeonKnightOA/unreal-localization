@@ -81,8 +81,7 @@ HelpParm[1]="archivo_viejo.ext"
 HelpDesc[1]="Archivo viejo sobre el cual se va a compatibilizar el archivo fuente."
 
 [BatchExportCommandlet]
-; EN: HelpCmd=batchexport
-HelpCmd=exportación por lotes
+HelpCmd=batchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Exporta objetos a granel."
@@ -208,8 +207,7 @@ HelpParm[7]="nombre_archivo"
 HelpDesc[7]="El archivo sobre el cual se va a aplicar EXTRACT, ADD, DELETE o REPLACE."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=suma de control
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Muestra la suma de comprobación del archivo del paquete."
@@ -353,8 +351,7 @@ HelpParm[3]="-p comodín"
 HelpDesc[3]="Elimina la suma de comprobación de todos los archivos que coinciden con el comodín de la lista Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=paquete
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Vierta la estructura de un paquete Unreal en stdout."
@@ -370,8 +367,7 @@ HelpOneLiner="Vuelca información sobre fuentes."
 HelpUsage="dumpfontinfo &lt;paquete&gt;"
 
 [ExecCommandlet]
-; EN: HelpCmd=exec
-HelpCmd=ejecutivo
+HelpCmd=exec
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Ejecuta un archivo de comando en un entorno de editor mínimo."

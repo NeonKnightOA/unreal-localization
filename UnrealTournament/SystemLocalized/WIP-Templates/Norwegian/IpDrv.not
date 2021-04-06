@@ -11,8 +11,7 @@ Preferences=(Caption="TCP/IP Network Play",Parent="Nettverk",Class=IpDrv.TcpNetD
 Preferences=(Caption="Server Beacon",Parent="Nettverk",Class=IpDrv.UdpBeacon,Immediate=True)
 
 [UpdateServerCommandlet]
-; EN: HelpCmd=updateserver
-HelpCmd=oppdateringsserver
+HelpCmd=updateserver
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Service Unreal Engine forespørsler om automatisk oppdatering."
@@ -34,8 +33,7 @@ HelpParm[0]="ConfigFile"
 HelpDesc[0]="Konfigurasjonsfil å bruke. Standard: MasterServer.ini."
 
 [CompressCommandlet]
-; EN: HelpCmd=compress
-HelpCmd=komprimere
+HelpCmd=compress
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension.uz will be created."
 HelpOneLiner="Komprimer en Unreal pakke for automatisk nedlasting. Det opprettes en fil med filtypen.uz."
@@ -47,8 +45,7 @@ HelpParm[0]="Filer"
 HelpDesc[0]="Jokertegnet eller filnavnene du skal komprimere."
 
 [DecompressCommandlet]
-; EN: HelpCmd=decompress
-HelpCmd=dekomprimere
+HelpCmd=decompress
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Komprimere en fil komprimert med ucc-komprimering."

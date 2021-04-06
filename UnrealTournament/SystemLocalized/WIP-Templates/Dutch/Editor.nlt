@@ -205,8 +205,7 @@ HelpParm[7]="Bestandsnaam"
 HelpDesc[7]="Het bestand naar EXTRACT, TOEVOEGEN, VERWIJDEREN of VERVANGEN."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=controlepakket
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Toon checksum voor pakketbestand."
@@ -350,8 +349,7 @@ HelpParm[3]="-p Jokerteken"
 HelpDesc[3]="Verwijdert de checksum voor alle bestanden die overeenkomen met het jokerteken uit de lijst Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=verpakte pomp
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Dump de structuur van een Unreal-pakket naar stdout."

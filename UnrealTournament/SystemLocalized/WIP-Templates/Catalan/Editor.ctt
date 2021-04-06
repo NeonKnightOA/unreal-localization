@@ -205,8 +205,7 @@ HelpParm[7]="Nom de l'arxiu"
 HelpDesc[7]="El fitxer que EXTRACTEU, AFEGEIX, SUPRIMEIX o REEMPLA."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=checkumpackage
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Mostra la suma de comprovació del fitxer de paquets."
@@ -242,8 +241,7 @@ HelpParm[0]="nom del paquet"
 HelpDesc[0]="El nom del paquet on voleu bolcar el text de l'idioma."
 
 [ExportPackageCommandlet]
-; EN: HelpCmd=ExportPackage
-HelpCmd=Paquet d’exportació
+HelpCmd=ExportPackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
 HelpOneLiner="Simplement exporteu el contingut d'un paquet a fitxers.uc del directori anterior."
@@ -269,8 +267,7 @@ HelpParm[1]="equivocació"
 HelpDesc[1]="Fitxer d'idioma secundari (per editar)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=llistaobjectes
+HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Llista els objectes del paquet."
@@ -347,8 +344,7 @@ HelpParm[3]="-p Comodí"
 HelpDesc[3]="Elimina la suma de comprovació de tots els fitxers que coincideixen amb el comodí de la llista Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=empaquetat
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Voleu l'estructura d'un paquet Unreal a un ordinador normal."
@@ -372,8 +368,7 @@ HelpOneLiner="Executa un fitxer d'ordres en un entorn d'editor mínim."
 HelpUsage="nom de fitxer exec"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=scripts
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Reconstrueix el codi font d'un paquet o classe"

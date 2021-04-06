@@ -206,8 +206,7 @@ HelpParm[7]="Fájl név"
 HelpDesc[7]="Az EXTRACT, ADD, DELETE vagy CSERÉLÉS fájl."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=csomagok ellenőrzése
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="A csomagfájl ellenőrző összegének megjelenítése."
@@ -267,8 +266,7 @@ HelpParm[1]="rosszakarat"
 HelpDesc[1]="Másodlagos nyelvi fájl (szerkesztésre)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=listobjektumok
+HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Felsorolja az objektumokat a csomagban."
@@ -344,8 +342,7 @@ HelpParm[3]="-p Helyettesítő karakter"
 HelpDesc[3]="Eltávolítja a helyettesítő karakterekkel megegyező összes fájl ellenőrző összegét a Packages.md5 listából."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=becsomagolva
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Dobja fel az Unreal Package szerkezetét a stdout-ra."
@@ -369,8 +366,7 @@ HelpOneLiner="Minimális szerkesztőkörnyezetben végrehajt egy parancsfájlt."
 HelpUsage="exec fájlnév"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=forgatókönyvek
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Újraépíti a csomag vagy osztály szkriptforrását"

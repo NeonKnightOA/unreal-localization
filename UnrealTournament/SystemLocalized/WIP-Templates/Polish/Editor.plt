@@ -204,8 +204,7 @@ HelpParm[7]="Nazwa pliku"
 HelpDesc[7]="Plik do WYCIĄGNIĘCIA, DODAJ, USUŃ lub WYMIENIĆ."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=pakiet kontrolny
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Wyświetl sumę kontrolną dla pliku pakietu."
@@ -253,8 +252,7 @@ HelpParm[0]="nazwa pakietu"
 HelpDesc[0]="Nazwa pakietu do wyeksportowania plików UC."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=PorównajInt
+HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Porównaj 2 pliki językowe i usuń/usuń wpisy językowe, z którymi porównujesz."
@@ -307,8 +305,7 @@ HelpParm[8]="klasa bazowa"
 HelpDesc[8]="Opcjonalna klasa bazowa wymienionych obiektów."
 
 [MergeDXTCommandlet]
-; EN: HelpCmd=mergedxt
-HelpCmd=scaledxt
+HelpCmd=mergedxt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Połącz tekstury DXT ze standardowymi teksturami."
@@ -373,8 +370,7 @@ HelpOneLiner="Wykonuje plik poleceń w minimalnym środowisku edytora."
 HelpUsage="exec nazwa pliku"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=skryptów
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Odbudowuje źródło skryptu dla pakietu lub klasy"

@@ -81,8 +81,7 @@ HelpParm[1]="old_file.ext"
 HelpDesc[1]="Старый файл для обеспечения совместимости с двоичным исходным файлом."
 
 [BatchExportCommandlet]
-; EN: HelpCmd=batchexport
-HelpCmd=батчеэкспорт
+HelpCmd=batchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Массовый экспорт объектов."
@@ -161,8 +160,7 @@ HelpParm[6]="   Unsecure"
 HelpDesc[6]="   Не используется"
 
 [DataRipCommandlet]
-; EN: HelpCmd=datarip
-HelpCmd=датарип
+HelpCmd=datarip
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Создайте пакет с извлеченными данными текстуры, музыки и звука."
@@ -209,8 +207,7 @@ HelpParm[7]="Имя файла"
 HelpDesc[7]="Файл для ИЗВЛЕЧЕНИЯ, ДОБАВЛЕНИЯ, УДАЛЕНИЯ или ЗАМЕНИТЬ."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=чекпакет
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Показать контрольную сумму для файла пакета."
@@ -271,8 +268,7 @@ HelpParm[1]="ошибка"
 HelpDesc[1]="Файл на дополнительном языке (для редактирования)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=листобъекты
+HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Перечисляет объекты в пакете."
@@ -330,8 +326,7 @@ HelpParm[2]="destpath"
 HelpDesc[2]="Путь для файлов назначения."
 
 [MD5Commandlet]
-; EN: HelpCmd=md5
-HelpCmd=мкр5
+HelpCmd=md5
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
 HelpOneLiner="Управление списком контрольных сумм Packages.md5."
@@ -355,8 +350,7 @@ HelpParm[3]="-p Подстановочный знак"
 HelpDesc[3]="Удаляет контрольную сумму для всех файлов, соответствующих подстановочному знаку, из списка Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=упакованный дамп
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Выгрузите структуру Unreal Package в стандартный вывод."
@@ -380,8 +374,7 @@ HelpOneLiner="Выполняет командный файл в минималь
 HelpUsage="exec имя файла"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=сценарии
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Перестраивает исходный код скрипта для пакета или класса"

@@ -81,8 +81,7 @@ HelpParm[1]="starý_soubor.ext"
 HelpDesc[1]="Starý soubor, aby byl zdrojový soubor binární kompatibilní s."
 
 [BatchExportCommandlet]
-; EN: HelpCmd=batchexport
-HelpCmd=dávkový export
+HelpCmd=batchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Exportujte objekty hromadně."
@@ -207,8 +206,7 @@ HelpParm[7]="Název souboru"
 HelpDesc[7]="Soubor pro VÝBĚR, PŘIDÁNÍ, ODSTRANĚNÍ nebo VÝMĚNU."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=kontrolní balíček
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Zobrazit kontrolní součet pro soubor balíčku."
@@ -242,8 +240,7 @@ HelpParm[0]="název balení"
 HelpDesc[0]="Název balíčku, ze kterého se má vypsat text jazyka."
 
 [ExportPackageCommandlet]
-; EN: HelpCmd=ExportPackage
-HelpCmd=Exportní balíček
+HelpCmd=ExportPackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to.uc files in prior directory."
 HelpOneLiner="Jednoduše exportujte obsah balíčku do souborů.uc v předchozím adresáři."
@@ -254,8 +251,7 @@ HelpParm[0]="název balení"
 HelpDesc[0]="Název balíčku, ze kterého se mají exportovat soubory UC."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=PorovnatInt
+HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Porovnejte 2 jazykové soubory a odstraňte/odeberte jazykové položky, se kterými se porovnáváte."
@@ -308,8 +304,7 @@ HelpParm[8]="základní třída"
 HelpDesc[8]="Volitelná základní třída uvedených objektů."
 
 [MergeDXTCommandlet]
-; EN: HelpCmd=mergedxt
-HelpCmd=sloučenýxt
+HelpCmd=mergedxt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Sloučení textur DXT se standardními texturami."
@@ -351,8 +346,7 @@ HelpParm[3]="-p Zástupný znak"
 HelpDesc[3]="Odebere kontrolní součet všech souborů odpovídajících zástupnému znaku ze seznamu Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=zabalený
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Vypsat strukturu Unreal Package na standardní výstup."
@@ -368,8 +362,7 @@ HelpOneLiner="Vypíše informace o písmech."
 HelpUsage="dumpfontinfo &lt;pkg&gt;"
 
 [ExecCommandlet]
-; EN: HelpCmd=exec
-HelpCmd=vykon
+HelpCmd=exec
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Spustí soubor příkazu v minimálním prostředí editoru."
@@ -377,8 +370,7 @@ HelpOneLiner="Spustí soubor příkazu v minimálním prostředí editoru."
 HelpUsage="exec název souboru"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=skriptové pole
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Znovu vytvoří zdroj skriptu pro balíček nebo třídu"

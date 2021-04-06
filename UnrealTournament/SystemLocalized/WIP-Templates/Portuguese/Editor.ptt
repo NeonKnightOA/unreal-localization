@@ -204,8 +204,7 @@ HelpParm[7]="Nome do arquivo"
 HelpDesc[7]="O arquivo para EXTRACT, ADD, DELETE ou REPLACE."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=pacote de cheques
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Exibir checksum para o arquivo do pacote."
@@ -304,8 +303,7 @@ HelpParm[8]="classe básica"
 HelpDesc[8]="Classe base opcional de objetos listados."
 
 [MergeDXTCommandlet]
-; EN: HelpCmd=mergedxt
-HelpCmd=mesclado
+HelpCmd=mergedxt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Merge DXT textures with standard textures."
 HelpOneLiner="Mesclar texturas DXT com texturas padrão."
@@ -344,8 +342,7 @@ HelpParm[3]="-p Wildcard"
 HelpDesc[3]="Remove a soma de verificação de todos os arquivos que correspondem ao curinga da lista Packages.md5."
 
 [PackageDumpCommandlet]
-; EN: HelpCmd=packagedump
-HelpCmd=empacotado
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpOneLiner="Despeja a estrutura de um pacote Unreal para stdout."

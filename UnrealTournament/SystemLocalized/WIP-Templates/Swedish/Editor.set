@@ -206,8 +206,7 @@ HelpParm[7]="Filnamn"
 HelpDesc[7]="Filen ska extraheras, lägg till, radera eller ersätta."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=kontrollpaket
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Visa kontrollsumma för paketfil."
@@ -231,8 +230,7 @@ HelpParm[0]="Paketnamn"
 HelpDesc[0]="Namnet på paketet för att ta bort källor."
 
 [DumpIntCommandlet]
-; EN: HelpCmd=DumpInt
-HelpCmd=Dumpa inte
+HelpCmd=DumpInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Dumpa språkinnehållet i en fil."
@@ -256,8 +254,7 @@ HelpParm[0]="Paketnamn"
 HelpDesc[0]="Namnet på paketet för att exportera UC-filer av."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=Jämför
+HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Jämför två språkfiler och ta bort/ta bort språkposter som du jämför med."
@@ -272,8 +269,7 @@ HelpParm[1]="miscint"
 HelpDesc[1]="Sekundär språkfil (för att redigera)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=listobjekt
+HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Listar objekt i paketet."
@@ -375,8 +371,7 @@ HelpOneLiner="Kör en kommandofil i en minimal redigeringsmiljö."
 HelpUsage="exec filnamn"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=manus
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Byter om skriptkälla för ett paket eller en klass"

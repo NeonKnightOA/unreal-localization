@@ -207,8 +207,7 @@ HelpParm[7]="Filnavn"
 HelpDesc[7]="Filen til UTTAK, LEGG TIL, SLETT eller ERSTAT."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=sjekkpakning
+HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Vis kontrollsum for pakkefilen."
@@ -256,8 +255,7 @@ HelpParm[0]="pakkenavn"
 HelpDesc[0]="Navnet på pakken som UC-filer skal eksporteres til."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=SammenlignInt
+HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Sammenlign to språkfiler og slett/fjern språkoppføringer du sammenligner med."
@@ -271,8 +269,7 @@ HelpParm[1]="miscint"
 HelpDesc[1]="Sekundær språkfil (for å redigere)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=listeobjekter
+HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Lister opp objekter i pakken."
@@ -364,8 +361,7 @@ HelpOneLiner="Dumper informasjon om skrifttyper."
 HelpUsage="dumpfontinfo &lt;pkg&gt;"
 
 [ExecCommandlet]
-; EN: HelpCmd=exec
-HelpCmd=utføre
+HelpCmd=exec
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpOneLiner="Utfører en kommandofil i et minimalt redigeringsmiljø."
@@ -373,8 +369,7 @@ HelpOneLiner="Utfører en kommandofil i et minimalt redigeringsmiljø."
 HelpUsage="exec filnavn"
 
 [ScriptRaysCommandlet]
-; EN: HelpCmd=scriptrays
-HelpCmd=manus
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds script source for a package or class"
 HelpOneLiner="Gjenoppbygger skriptkilde for en pakke eller klasse"
