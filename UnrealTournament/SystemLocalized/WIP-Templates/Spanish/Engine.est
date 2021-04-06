@@ -148,7 +148,7 @@ DamageString=""
 [ServerCommandlet]
 ; EN: HelpCmd=server
 HelpCmd=servidor
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Network game server."
 HelpOneLiner="Servidor de juegos en red."
 ; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
@@ -301,7 +301,7 @@ Version="Versión %i"
 [CheckSumCommandlet]
 ; EN: HelpCmd=checksum
 HelpCmd=suma de comprobación
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Calculate package checksum for stat logging"
 HelpOneLiner="Calcular la suma de comprobación del paquete para el registro de estadísticas"
 ; EN: HelpUsage="checksum packagename.u"

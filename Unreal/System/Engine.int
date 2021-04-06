@@ -1,6 +1,8 @@
 ﻿[Public]
 Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
@@ -105,7 +107,7 @@ DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Network game server."
 HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
 HelpParm[0]="Log"
@@ -200,3 +202,19 @@ Upgrade="To enter this server, you need the latest free update to Unreal availab
 UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
 UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
 Version="Version %i"
+
+[LinkerUpdateCommandlet]
+HelpCmd=linkerupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="linkerupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the checksum for posterior storage."
+
+[SHAUpdateCommandlet]
+HelpCmd=shaupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="shaupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."

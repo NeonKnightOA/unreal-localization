@@ -1,6 +1,8 @@
 ﻿[Public]
 Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Avanzado",Parent="Opciones Avanzadas")
 Preferences=(Caption="Configuración del Motor de Juego",Parent="Avanzado",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Comandos para Asignaciones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=Aliases)
@@ -100,7 +102,7 @@ DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Servidor en red de juego."
 HelpUsage="server map.unr[?game=tipoDeJuego] [-opción...] [parámetro=valor]..."
 HelpParm[0]="Log"
@@ -195,3 +197,19 @@ Upgrade="Para acceder a este servidor, necesitas la última actualización gratu
 UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
 UpgradeQuestion="¿Quieres abrir tu explorador de Internet e ir a la página de actualizaciones ahora?"
 Version="Versión %i"
+
+[LinkerUpdateCommandlet]
+HelpCmd=linkerupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Agrega todas las sumas de verificación (checksum) dentro del directorio automáticamente al archivo SHALinkerCache.ini. Usado por el sistema antitrampas UnrealIntegrity."
+HelpUsage="linkerupdate <archivo>"
+HelpParm[0]="<archivo>"
+HelpDesc[0]="El archivo sobre el cual se debe calcular la suma de verificación para su posterior almacenamiento."
+
+[SHAUpdateCommandlet]
+HelpCmd=shaupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Agrega todas las sumas de verificación (checksum) SHA256 dentro del directorio automáticamente al archivo SHALinkerCache.ini. Usado por el sistema antitrampas UnrealIntegrity."
+HelpUsage="shaupdate <archivo>"
+HelpParm[0]="<archivo>"
+HelpDesc[0]="El archivo sobre el cual se debe calcular la suma de verificación SHA256 para su posterior almacenamiento."
