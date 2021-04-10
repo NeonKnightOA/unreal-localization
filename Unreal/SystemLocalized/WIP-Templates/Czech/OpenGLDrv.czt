@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="Podpora OpenGL",Parent="Vykreslování",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Nelze najít ovladač OpenGL% ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Chybějící funkce OpenGL% ls (% i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Nastavení se nezdařilo"
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OpenGL Support"
+ClassCaption="Podpora OpenGL"
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled="Máte nainstalovaný 3D akcelerátor kompatibilní s OpenGL?"
+; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
+AskUse="Chcete, aby Unreal použil váš akcelerátor OpenGL?"

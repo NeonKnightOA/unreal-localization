@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="Onwerkelijk"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Onwerkelijk"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Help \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Onwerkelijke installatie"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Onwerkelijke opties"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 van Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Help \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&amp; Speel dit onwerkelijke level"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&amp; Open deze Unreal-link"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&amp; Installeer deze Unreal-module"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&amp; Bewerk dit Onwerkelijk niveau"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Game-inhoud"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Onwerkelijke game-inhoud. Installeer dit voor de beste prestaties. Als je het uitschakelt, wordt de game-inhoud tijdens het afspelen van de cd geladen, waardoor de prestaties afnemen, maar er minder ruimte op de harde schijf wordt gebruikt."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Onwerkelijk spel"
+; EN: Description="Unreal game. Installation is required."
+Description="Onwerkelijk spel. Installatie is vereist."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Optionele Microsoft DirectX 8-stuurprogramma's voor verbeterde grafische weergave, geluid en joystickondersteuning."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Onwerkelijke editor"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Unreal world-editor, voor het maken van uw eigen 3D Unreal-omgevingen. Voor gevorderde gebruikers; installatie is optioneel."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Speel Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Onwerkelijke veilige modus"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Onwerkelijke editor"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Documentatie"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Onwerkelijke webpagina"

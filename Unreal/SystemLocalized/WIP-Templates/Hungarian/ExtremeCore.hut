@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="MotherShip Core"
+Title="Anyahajó mag"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="Belépés az MotherShip Core-ba"
+
+[LevelSummary]
+; EN: Title="MotherShip Core"
+Title="Anyahajó mag"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="Belépés az MotherShip Core-ba"
+
+[TranslatorEvent10]
+; EN: AltMessage="Access to the Security Post granted."
+AltMessage="Megengedett a hozzáférés a biztonsági postához."
+; EN: Hint="Go to the Security Post to gain access to the Primary Power Supply Core Generator."
+Hint="Látogasson el a Security Post oldalra, hogy hozzáférjen az elsődleges tápegység maggenerátorához."
+
+[TranslatorEvent4]
+; EN: Message="WARNING: Armed intruder detected. Close all access to the Source and to the Primary Power Supply. Preventing intruders from accessing the Core Generator is critical."
+Message="FIGYELEM: Fegyveres betolakodót észleltek. Zárjon be minden hozzáférést a Forráshoz és az Elsődleges Tápegységhez. Kritikus fontosságú annak megakadályozása, hogy a behatolók hozzáférjenek a Core Generatorhoz."
+; EN: AltMessage="RED ALERT: Core Generator Security Compromised."
+AltMessage="VÖRÖS RIASZTÁS: A generátor biztonsága veszélybe került."
+
+[TranslatorEvent5]
+; EN: Message="SECURITY ALERT: All War Masters report to Core Generator positions to ensure its protection."
+Message="BIZTONSÁGI RIASZTÁS: Az összes War Masters beszámol a Core Generator pozícióinak a védelem biztosítása érdekében."
+; EN: AltMessage="Intruder detected near the Core Generator. Core Generator security must be maintained. Weakness shall be punished."
+AltMessage="Betolakodót észleltek a maggenerátor közelében. Az alapgenerátor biztonságát fenn kell tartani. A gyengeséget büntetni kell."
+
+[TranslatorEvent8]
+; EN: Message="Security Post, ACCESS DENIED."
+Message="Biztonsági posta, Hozzáférés megtagadva."
+
+[TranslatorEvent9]
+; EN: Message="Primary Power Supply, ACCESS DENIED."
+Message="Elsődleges tápellátás, hozzáférés megtagadva."
+; EN: Hint="Door can be unlocked from the control panel in the Security Post."
+Hint="Az ajtó a Biztonsági Pult kezelőpaneljéről zárható."
+
+[TranslatorEvent11]
+; EN: Message="ACCESS DENIED: The Intruder must be eliminated. All War Masters are being routed to this area upon arrival from the Source."
+Message="A HOZZÁFÉRÉS MEGTAGADÁSA: A behatolót meg kell szüntetni. Az összes háborús mestert erre a területre irányítják, amikor megérkeznek a Forrásból."
+; EN: Hint="Kill all the Skaarj to proceed to this area."
+Hint="Öld meg az összes Skaarj-t, hogy továbbmenj erre a területre."
+
+[TranslatorEvent12]
+; EN: AltMessage="Cryo Pods status: Temperature constant, Power at nominal levels, security systems active."
+AltMessage="Cryo Pods állapota: Hőmérséklet állandó, Teljesítmény névleges szinten, a biztonsági rendszerek aktívak."
+
+[TranslatorEvent6]
+; EN: Message="Core Generator security must be maintained. Access doors locked until security breach is contained."
+Message="Az alapgenerátor biztonságát fenn kell tartani. A bejárati ajtók addig vannak zárva, amíg a biztonsági rést nem észlelik."
+; EN: AltMessage="Core Access Door Open."
+AltMessage="Mag hozzáférési ajtó nyitva."
+
+[TranslatorEvent13]
+; EN: Message="Emergency Power Supply, ACCESS DENIED: Primary Power Supply fully functional."
+Message="Vészhelyzeti tápegység, ELÉRHETŐSÉGTELEN: Az elsődleges tápegység teljesen működőképes."
+; EN: Hint="Find the Core Generator and destroy it to gain access to this area."
+Hint="Keresse meg a maggenerátort, és tönkretegye, hogy hozzáférjen ehhez a területhez."

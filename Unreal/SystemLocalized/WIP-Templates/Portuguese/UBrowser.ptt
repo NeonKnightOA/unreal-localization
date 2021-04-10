@@ -1,0 +1,180 @@
+﻿[Public]
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console)
+Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+
+[UBrowserServerListWindow]
+; EN: InfoName="Info"
+InfoName="Informações"
+; EN: PlayerCountName="Players"
+PlayerCountName="Jogadoras"
+; EN: ServerCountName="Servers"
+ServerCountName="Servidores"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Consultando o servidor mestre (pressione F5 se nada acontecer)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="Falha no servidor mestre: "
+; EN: PingingText="Pinging Servers"
+PingingText="Servidores de ping"
+; EN: CompleteText="Complete"
+CompleteText="Completo"
+
+[UBrowserMainWindow]
+; EN: WindowTitleString="Server Browser"
+WindowTitleString="Navegador do servidor"
+
+[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="O servidor mestre não pôde ser resolvido: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Tempo limite de conversa com o servidor mestre"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="A conexão com o servidor mestre expirou: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="O servidor mestre não pôde ser resolvido: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Tempo limite de conversa com o servidor mestre"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="A conexão com o servidor mestre expirou: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Não foi possível encontrar a janela: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="A janela não está pronta: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Regra"
+; EN: ValueText="Value"
+ValueText="Valor"
+
+[UBrowserServerPing]
+AdminEmailText="Admin Email"
+; EN: AdminNameText="Admin Name"
+AdminNameText="Nome do Admin"
+; EN: ChangeLevelsText="Change Levels"
+ChangeLevelsText="Mudar os Níveis"
+; EN: MultiplayerBotsText="Bots in Multiplayer"
+MultiplayerBotsText="Bots no Multijogador"
+; EN: FragLimitText="Frag Limit"
+FragLimitText="Limite de fragmento"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="Limite de tempo"
+; EN: GameModeText="Game Mode"
+GameModeText="Modo de jogo"
+; EN: GameTypeText="Game Type"
+GameTypeText="Tipo de jogo"
+; EN: GameVersionText="Game Version"
+GameVersionText="Versão do jogo"
+WorldLogText="ngStats World Stat-Logging"
+; EN: TrueString="Enabled"
+TrueString="Habilitado"
+; EN: FalseString="Disabled"
+FalseString="Desabilitado"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="Subversão de jogo"
+; EN: MapFileString="Map Filename"
+MapFileString="Nome do arquivo do mapa"
+; EN: DLLString="C++ Library"
+DLLString="Biblioteca C ++"
+; EN: DLLVerString="%ls (ver %i)"
+DLLVerString="% ls (ver% i)"
+; EN: WebURLString="Website URL"
+WebURLString="URL do site"
+; EN: ServerOSString="Server OS"
+ServerOSString="Sistema operacional de servidor"
+; EN: GameClassString="Game Class"
+GameClassString="Aula de Jogo"
+
+[UBrowserMainClientWindow]
+; EN: FavoritesName="Favorites"
+FavoritesName="Favoritos"
+; EN: NewsName="Community News"
+NewsName="Notícias da comunidade"
+; EN: RecentName="Recent servers"
+RecentName="Servidores recentes"
+
+[UBrowserServerGrid]
+; EN: ServerName="Server"
+ServerName="Servidor"
+PingName="Ping"
+; EN: MapNameName="Map Name"
+MapNameName="Nome do mapa"
+; EN: PlayersName="Players"
+PlayersName="Jogadoras"
+; EN: VersionName="Version"
+VersionName="Versão"
+
+[UBrowserInfoMenu]
+; EN: RefreshName="&Refresh Info"
+RefreshName="&amp; Atualizar informações"
+; EN: AttachName="&Attach"
+AttachName="&amp;Anexar"
+; EN: CloseName="&Close"
+CloseName="&amp;Fechar"
+
+[UBrowserRightClickMenu]
+; EN: RefreshName="&Refresh All Servers"
+RefreshName="&amp; Atualizar todos os servidores"
+; EN: FavoritesName="Add to &Favorites"
+FavoritesName="Adicionar aos favoritos"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="Remover dos favoritos"
+; EN: RefreshServerName="&Ping This Server"
+RefreshServerName="&amp; Fazer ping neste servidor"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping &amp; todos os servidores"
+; EN: InfoName="&Server and Player Info"
+InfoName="&amp; Servidor e informações do jogador"
+; EN: JoinPasswordName="Join with &Password"
+JoinPasswordName="Junte-se com &amp; senha"
+; EN: JoinServerName="&Join server"
+JoinServerName="&amp;Conectar-se ao servidor"
+; EN: SpectateServerName="Join as &Spectator"
+SpectateServerName="Junte-se como &amp; Espectador"
+; EN: ServerWebsiteName="Show server &Website"
+ServerWebsiteName="Mostrar servidor e site"
+; EN: CopyAddressName="&Copy server address"
+CopyAddressName="&amp; Copiar o endereço do servidor"
+
+[UBrowserPlayerGrid]
+; EN: NameText="Name"
+NameText="Nome"
+FragsText="Frags"
+PingText="Ping"
+; EN: TeamText="Team"
+TeamText="Equipe"
+; EN: MeshText="Mesh"
+MeshText="Malha"
+; EN: SkinText="Skin"
+SkinText="Pele"
+; EN: IDText="ID"
+IDText="identificação"
+
+[UBrowserConsole]
+ClassCaption="Unreal Browser Console"
+
+[UBrowserOpenBar]
+; EN: OpenText="Open:"
+OpenText="Abrir:"
+; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
+OpenHelp="Insira um URL padrão ou selecione um no histórico de URLs. Pressione Enter para ativar."
+
+[UBrowserServerWebWin]
+WindowTitle="Web Explorer"
+
+[UBrowserLibPageWindow]
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+DLLTitleStr="Não é possível conectar: ​​Biblioteca de link dinâmico ausente "% ls"."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+DLLVerTitleStr="Não é possível conectar: ​​a versão da Dynamic Link Library não corresponde a "% ls"."
+; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
+InfoText[0]="Para conectar este servidor, você precisará da biblioteca C ++ adicional "% ls"."
+; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
+InfoText[1]="Para obter mais informações, veja as informações externas abaixo (hospedadas por% ls):"
+
+[UBrowserServerWebCW]
+; EN: RefreshString="Refresh page"
+RefreshString="Atualizar a página"

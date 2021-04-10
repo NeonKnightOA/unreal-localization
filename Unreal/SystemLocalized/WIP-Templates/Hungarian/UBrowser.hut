@@ -1,0 +1,181 @@
+﻿[Public]
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console)
+; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+Preferences=(Caption="UBrowser",Parent="Hálózatépítés",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+
+[UBrowserServerListWindow]
+InfoName="Info"
+; EN: PlayerCountName="Players"
+PlayerCountName="Játékosok"
+; EN: ServerCountName="Servers"
+ServerCountName="Szerverek"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="A Master Server lekérdezése (nyomja meg az F5 billentyűt, ha nem történik semmi)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="A fő szerver nem sikerült: "
+; EN: PingingText="Pinging Servers"
+PingingText="Pinging szerverek"
+; EN: CompleteText="Complete"
+CompleteText="teljes"
+
+[UBrowserMainWindow]
+; EN: WindowTitleString="Server Browser"
+WindowTitleString="Szerver böngésző"
+
+[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="A fő szervert nem sikerült feloldani: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Időtúllépés a fő szerverrel való beszélgetéshez"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="A fő szerverhez való csatlakozás időtúllépés: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="A fő szervert nem sikerült feloldani: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Időtúllépés a fő szerverrel való beszélgetéshez"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="A fő szerverhez való csatlakozás időtúllépés: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Nem található az ablak: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Az ablak nem áll készen: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Szabály"
+; EN: ValueText="Value"
+ValueText="Érték"
+
+[UBrowserServerPing]
+; EN: AdminEmailText="Admin Email"
+AdminEmailText="Rendszergazda e-mail"
+; EN: AdminNameText="Admin Name"
+AdminNameText="Rendszergazda neve"
+; EN: ChangeLevelsText="Change Levels"
+ChangeLevelsText="Szintek módosítása"
+; EN: MultiplayerBotsText="Bots in Multiplayer"
+MultiplayerBotsText="Botok a multiplayerben"
+FragLimitText="Frag Limit"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="Határidő"
+; EN: GameModeText="Game Mode"
+GameModeText="Játék mód"
+; EN: GameTypeText="Game Type"
+GameTypeText="Játék típus"
+; EN: GameVersionText="Game Version"
+GameVersionText="Játék verzió"
+WorldLogText="ngStats World Stat-Logging"
+; EN: TrueString="Enabled"
+TrueString="Engedélyezve"
+; EN: FalseString="Disabled"
+FalseString="Tiltva"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="Játék SubVersion"
+; EN: MapFileString="Map Filename"
+MapFileString="Térkép fájlnév"
+; EN: DLLString="C++ Library"
+DLLString="C ++ könyvtár"
+; EN: DLLVerString="%ls (ver %i)"
+DLLVerString="% ls (ver% i)"
+; EN: WebURLString="Website URL"
+WebURLString="Weboldal URL"
+; EN: ServerOSString="Server OS"
+ServerOSString="Szerver operációs rendszer"
+; EN: GameClassString="Game Class"
+GameClassString="Játék osztály"
+
+[UBrowserMainClientWindow]
+; EN: FavoritesName="Favorites"
+FavoritesName="Kedvencek"
+; EN: NewsName="Community News"
+NewsName="Közösségi hírek"
+; EN: RecentName="Recent servers"
+RecentName="Legutóbbi szerverek"
+
+[UBrowserServerGrid]
+; EN: ServerName="Server"
+ServerName="szerver"
+PingName="Ping"
+; EN: MapNameName="Map Name"
+MapNameName="Térkép neve"
+; EN: PlayersName="Players"
+PlayersName="Játékosok"
+; EN: VersionName="Version"
+VersionName="Változat"
+
+[UBrowserInfoMenu]
+; EN: RefreshName="&Refresh Info"
+RefreshName="&amp; Információ frissítése"
+; EN: AttachName="&Attach"
+AttachName="&amp;Csatolni"
+; EN: CloseName="&Close"
+CloseName="&amp;Bezárás"
+
+[UBrowserRightClickMenu]
+; EN: RefreshName="&Refresh All Servers"
+RefreshName="&amp; Minden szerver frissítése"
+; EN: FavoritesName="Add to &Favorites"
+FavoritesName="Add hozzá a kedvencekhez"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="Eltávolítás a kedvencekből"
+; EN: RefreshServerName="&Ping This Server"
+RefreshServerName="&amp; Ping ez a szerver"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping és minden szerver"
+; EN: InfoName="&Server and Player Info"
+InfoName="&amp; Szerver és lejátszó információ"
+; EN: JoinPasswordName="Join with &Password"
+JoinPasswordName="Csatlakozás a &amp; Jelszóval"
+; EN: JoinServerName="&Join server"
+JoinServerName="&amp; Csatlakozás szerverhez"
+; EN: SpectateServerName="Join as &Spectator"
+SpectateServerName="Csatlakozás mint néző"
+; EN: ServerWebsiteName="Show server &Website"
+ServerWebsiteName="Szerver és webhely megjelenítése"
+; EN: CopyAddressName="&Copy server address"
+CopyAddressName="&amp; Szerver címének másolása"
+
+[UBrowserPlayerGrid]
+; EN: NameText="Name"
+NameText="Név"
+; EN: FragsText="Frags"
+FragsText="Töredékek"
+PingText="Ping"
+; EN: TeamText="Team"
+TeamText="Csapat"
+; EN: MeshText="Mesh"
+MeshText="Háló"
+; EN: SkinText="Skin"
+SkinText="Bőr"
+IDText="ID"
+
+[UBrowserConsole]
+; EN: ClassCaption="Unreal Browser Console"
+ClassCaption="Irreális böngésző konzol"
+
+[UBrowserOpenBar]
+; EN: OpenText="Open:"
+OpenText="Nyisd ki:"
+; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
+OpenHelp="Írjon be egy szabványos URL-t, vagy válasszon egyet az URL-előzmények közül. Az aktiváláshoz nyomja meg az Enter billentyűt."
+
+[UBrowserServerWebWin]
+WindowTitle="Web Explorer"
+
+[UBrowserLibPageWindow]
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+DLLTitleStr="Nem lehet kapcsolódni: Hiányzik a (z) "% ls" dinamikus linktár."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+DLLVerTitleStr="Nem lehet csatlakozni: A Dynamic Link Library verziója nem egyezik a (z) "% ls" értékkel."
+; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
+InfoText[0]="A szerver csatlakoztatásához további "% ls" C ++ könyvtárra lesz szükség."
+; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
+InfoText[1]="További információért tekintse meg a külső információkat alulról (% ls üzemelteti):"
+
+[UBrowserServerWebCW]
+; EN: RefreshString="Refresh page"
+RefreshString="Frisssítsd az oldalt"

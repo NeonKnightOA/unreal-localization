@@ -1,0 +1,15 @@
+﻿[Public]
+; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Irreális integritás",Parent="Hálózatépítés",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Integrity Server",Parent="Irreális integritás",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+Preferences=(Caption="Engedélyezőlista",Parent="Irreális integritás",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+
+[General]
+; EN: ScanningInfo="Unreal Integrity is scanning your client for possible cheats..."
+ScanningInfo="Az Unreal Integrity az ügyfelét vizsgálja lehetséges csalások után ..."
+; EN: MidGameScan="You have died, performing mid-game cheat scan."
+MidGameScan="Meghaltál, a játék közbeni csalásvizsgálatot végeztél"
+; EN: EndGameScan="Game has ended, performing end-game cheat scan."
+EndGameScan="A játék befejeződött, és végső játék-csalást végez."

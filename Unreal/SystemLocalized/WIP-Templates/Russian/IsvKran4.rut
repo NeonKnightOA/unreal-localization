@@ -1,0 +1,61 @@
+﻿[LevelInfo2]
+; EN: Title="ISV-Kran Deck 4"
+Title="ISV-Kran Палуба 4"
+; EN: LevelEnterText="Entering ISV-Kran Deck 4"
+LevelEnterText="Выход на палубу 4 ISV-Kran"
+
+[LevelSummary]
+; EN: Title="ISV-Kran Deck 4"
+Title="ISV-Kran Палуба 4"
+; EN: LevelEnterText="Entering ISV-Kran Deck 4"
+LevelEnterText="Выход на палубу 4 ISV-Kran"
+
+[TranslatorEvent7]
+; EN: Message="Warehouse Safety Bars Override in Upper Warehouse Loft."
+Message="Переопределение планок безопасности склада на чердаке верхнего склада."
+
+[TranslatorEvent13]
+; EN: AltMessage="Warehouse Safety Bars Disengaged: Access to Dock Permitted."
+AltMessage="Защитные дуги склада отключены: доступ в док разрешен."
+
+[TranslatorEvent19]
+; EN: Message="ISV-KRAN DECK 4 STATUS: INTRUDER ALERT: SECURITY LOCKS ACTIVATED: INTRUDERS ON ALL DECKS AND ATTEMPTING TO REACTIVATE MAIN ENGINES - DECK 1 EMERGENCY TELEPORTER AT BRIDGE SECURE"
+Message="ISV-KRAN ПАЛУБА 4 СОСТОЯНИЕ: ПРЕДУПРЕЖДЕНИЕ О ВНУТРЕННИМ ДЕЛЕ: ЗАМКИ БЕЗОПАСНОСТИ АКТИВИРОВАНЫ: НА ВСЕХ ПАЛУБАХ И ПЫТАЮТСЯ РЕАКТИВИРОВАТЬ ГЛАВНЫЕ ДВИГАТЕЛИ - ПАЛУБА 1 АВАРИЙНЫЙ ТЕЛЕФОН НА БЕЗОПАСНОМ МОСТЕ"
+
+[TranslatorEvent1]
+; EN: Message="Ventilation Processing Mezzanine Ducts: Maintenance Personnel Only: WARNING - ENGINE COOLANT LEAK IN MEZZANINE"
+Message="Мезонинные воздуховоды системы вентиляции: Только обслуживающий персонал: ВНИМАНИЕ - УТЕЧКА ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ В МЕЗАНИНЕ"
+
+[TranslatorEvent15]
+; EN: Message="PANEL REWIRED TO TRIP ALARM - SYSTEM ACCESSED BY UNAUTHORIZED USERS"
+Message="ПАНЕЛЬ ПЕРЕОБРАБОТАНА ДЛЯ СИГНАЛИЗАЦИИ СИГНАЛИЗАЦИИ - СИСТЕМА ДОСТУПНА НЕАВТОРИЗОВАННЫМ ПОЛЬЗОВАТЕЛЯМ"
+
+[TranslatorEvent2]
+; EN: Message="Intruder Security Locks Activated - Bypass Required: Bypass panel located in Ventilation Processing Mezzanine."
+Message="Включены защитные замки вторжения - требуется байпас: панель байпаса расположена в мезонине вентиляции."
+; EN: AltMessage="Intruder Security Locks Disengaged"
+AltMessage="Замки безопасности отключены"
+
+[TranslatorEvent0]
+; EN: Message="AFT LOADING STATION: ISV-KRAN: We've been wedged into this mountain ridge for 2 months now. Each night these 4 story tall dinosaur type beasts come and beat on the rear hull of the ship. They appear to be relatively unintelligent and slow moving."
+Message="ЗАГРУЗОЧНАЯ СТАНЦИЯ AFT: ISV-KRAN: Мы уже 2 месяца вклинились в этот горный хребет. Каждую ночь эти четырехэтажные звери типа динозавров приходят и бьют по задней части корабля. Они кажутся относительно неразумными и медлительными."
+
+[TranslatorEvent33]
+; EN: Message="SECURITY BYPASS LOCK STATION: SECURITY LOCKS ENGAGED"
+Message="БЛОКИРОВКА БАЙПАСА: ЗАМКИ БЕЗОПАСНОСТИ ЗАКРЫТЫ"
+; EN: AltMessage="SECURITY LOCK BYPASS STATION: ALL LOCKS OPEN ACCESS PERMITTED TO WAREHOUSE"
+AltMessage="БАЙПАСНАЯ СТАНЦИЯ ЗАМКОВ: ВСЕ ЗАМКИ ОТКРЫТЫ, ДОСТУП РАЗРЕШЕН НА СКЛАД"
+; EN: Hint="Touch this panel to open the security lock door."
+Hint="Коснитесь этой панели, чтобы открыть дверцу защитного замка."
+
+[TranslatorEvent37]
+; EN: Message="Corporal Anders Kerig: They're coming! I can hear them in the ventilation ducts. I'm going to activate the security locks to the Warehouse and implant a Human DNA code so only another Terran can bypass the lock systems."
+Message="Капрал Андерс Кериг: Идут! Я слышу их в вентиляционных каналах. Я собираюсь активировать замки безопасности на складе и вживить код ДНК человека, чтобы только другой терран мог обойти системы замков."
+
+[TranslatorEvent38]
+; EN: Message="Corporal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "Skaarj". Your only hope is to destroy the Gold Containment Cores, re-activate the Engines and get to the Deck 1 transporters."
+Message="Капрал Пелли Онсов: Если вы читаете мою запись в журнале, я, вероятно, мертв, и наш корабль был захвачен инопланетянами по имени «Скаардж». Ваша единственная надежда - уничтожить Золотые Ядра сдерживания, повторно активировать Двигатели и добраться до транспортеров Палубы 1."
+
+[TranslatorEvent36]
+; EN: Message="Petty Officer: Yuri Andromov: The Alien War Party has blasted a hole through the hull and are accessing the ship through the ventilation shafts - Kerig, Onsov and myself are going to make a stand with Stingers here in the loading area."
+Message="Старшина: Юрий Андромов: Отряд Войны пришельцев проделал дыру в корпусе и попадает на корабль через вентиляционные шахты - Кериг, Онсов и я собираемся встать вместе со Стингерами здесь, в зоне погрузки."

@@ -1,0 +1,59 @@
+﻿[LevelInfo0]
+Title="MotherShip Core"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="Vstup do jádra MotherShip"
+
+[LevelSummary]
+Title="MotherShip Core"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="Vstup do jádra MotherShip"
+
+[TranslatorEvent10]
+; EN: AltMessage="Access to the Security Post granted."
+AltMessage="Přístup k bezpečnostnímu příspěvku byl udělen."
+; EN: Hint="Go to the Security Post to gain access to the Primary Power Supply Core Generator."
+Hint="Přejděte na Zabezpečovací příspěvek a získejte přístup k generátoru jádra primárního napájecího zdroje."
+
+[TranslatorEvent4]
+; EN: Message="WARNING: Armed intruder detected. Close all access to the Source and to the Primary Power Supply. Preventing intruders from accessing the Core Generator is critical."
+Message="VAROVÁNÍ: Byl zjištěn ozbrojený vetřelec. Zavřete veškerý přístup ke zdroji a primárnímu zdroji napájení. Zabránění vetřelcům v přístupu k Core Generátoru je zásadní."
+; EN: AltMessage="RED ALERT: Core Generator Security Compromised."
+AltMessage="RED ALERT: Zabezpečení generátoru jádra ohroženo."
+
+[TranslatorEvent5]
+; EN: Message="SECURITY ALERT: All War Masters report to Core Generator positions to ensure its protection."
+Message="BEZPEČNOSTNÍ UPOZORNĚNÍ: Všichni váleční mistři se hlásí na pozice generátoru jádra, aby zajistili jeho ochranu."
+; EN: AltMessage="Intruder detected near the Core Generator. Core Generator security must be maintained. Weakness shall be punished."
+AltMessage="V blízkosti generátoru jádra byl zjištěn vetřelec. Musí být zachováno zabezpečení generátoru jádra. Slabost bude potrestána."
+
+[TranslatorEvent8]
+; EN: Message="Security Post, ACCESS DENIED."
+Message="Bezpečnostní pošta, PŘÍSTUP ODMÍTNUT."
+
+[TranslatorEvent9]
+; EN: Message="Primary Power Supply, ACCESS DENIED."
+Message="Primární zdroj napájení, PŘÍSTUP ODMÍTÁN."
+; EN: Hint="Door can be unlocked from the control panel in the Security Post."
+Hint="Dveře lze odemknout z ovládacího panelu v Security Post."
+
+[TranslatorEvent11]
+; EN: Message="ACCESS DENIED: The Intruder must be eliminated. All War Masters are being routed to this area upon arrival from the Source."
+Message="ODMÍTNUTÝ PŘÍSTUP: Vetřelec musí být vyloučen. Všichni váleční mistři jsou směrováni do této oblasti po příjezdu ze zdroje."
+; EN: Hint="Kill all the Skaarj to proceed to this area."
+Hint="Zabijte všechny Skaarje a pokračujte do této oblasti."
+
+[TranslatorEvent12]
+; EN: AltMessage="Cryo Pods status: Temperature constant, Power at nominal levels, security systems active."
+AltMessage="Stav kryo podů: teplotní konstanta, výkon na nominálních úrovních, bezpečnostní systémy aktivní."
+
+[TranslatorEvent6]
+; EN: Message="Core Generator security must be maintained. Access doors locked until security breach is contained."
+Message="Musí být zachováno zabezpečení generátoru jádra. Přístup ke dveřím uzamčen, dokud nebude zajištěno narušení bezpečnosti."
+; EN: AltMessage="Core Access Door Open."
+AltMessage="Dveře pro přístup k jádru jsou otevřené."
+
+[TranslatorEvent13]
+; EN: Message="Emergency Power Supply, ACCESS DENIED: Primary Power Supply fully functional."
+Message="Nouzový napájecí zdroj, PŘÍSTUP ODMÍTNUT: Primární napájecí zdroj plně funkční."
+; EN: Hint="Find the Core Generator and destroy it to gain access to this area."
+Hint="Najděte Core Generator a zničte jej, abyste získali přístup do této oblasti."

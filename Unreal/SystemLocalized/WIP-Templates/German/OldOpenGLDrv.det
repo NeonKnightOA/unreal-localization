@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OldOpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OldOpenGL Support",Parent="Rendering",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OldOpenGL-Unterstützung",Parent="Rendern",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OldOpenGL Support"
+ClassCaption="OldOpenGL-Unterstützung"
+; EN: AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
+AskInstalled="Haben Sie einen OldOpenGL-kompatiblen 3D-Beschleuniger installiert?"
+; EN: AskUse="Do you want Unreal to use your OldOpenGL accelerator?"
+AskUse="Möchten Sie, dass Unreal Ihren OldOpenGL-Beschleuniger verwendet?"
+
+[Errors]
+; EN: NoFindGL="Can't find OldOpenGL driver %ls"
+NoFindGL="OldOpenGL-Treiber% ls kann nicht gefunden werden"
+; EN: MissingFunc="Missing OldOpenGL function %ls (%i)"
+MissingFunc="Fehlende OldOpenGL-Funktion% ls (% i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Fehler beim Einstellen der Auflösung"

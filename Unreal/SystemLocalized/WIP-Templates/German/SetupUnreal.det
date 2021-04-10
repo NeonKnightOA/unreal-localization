@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="Unwirklich"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Unwirklich"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Hilfe \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Unwirkliches Setup"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Unwirkliche Optionen"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 von Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Hilfe \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&amp; Spiele dieses unwirkliche Level"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&amp; Öffne diesen unwirklichen Link"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&amp; Installieren Sie dieses Unreal-Modul"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&amp; Bearbeiten Sie dieses unwirkliche Level"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Spielinhalt"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Unwirklicher Spielinhalt. Installieren Sie dies für beste Leistung. Wenn Sie die Auswahl aufheben, wird der Spielinhalt während des Spielens von der CD geladen, was die Leistung beeinträchtigt, jedoch weniger Festplattenspeicher benötigt."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Unwirkliches Spiel"
+; EN: Description="Unreal game. Installation is required."
+Description="Unwirkliches Spiel. Installation ist erforderlich."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Optionale Microsoft DirectX 8-Treiber für verbesserte Grafik-, Sound- und Joystick-Unterstützung."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Unwirklicher Editor"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Unreal World Editor zum Erstellen eigener 3D Unreal-Umgebungen. Für fortgeschrittene Benutzer; Die Installation ist optional."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Spielen Sie Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Unwirklicher abgesicherter Modus"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Unwirklicher Editor"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Dokumentation"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Unwirkliche Webseite"

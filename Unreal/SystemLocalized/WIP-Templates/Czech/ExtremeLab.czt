@@ -1,0 +1,99 @@
+﻿[LevelInfo0]
+; EN: Title="MotherShip Lab"
+Title="Laboratoř MotherShip"
+; EN: LevelEntryText="Entering the MotherShip Lab"
+LevelEntryText="Vstup do laboratoře MotherShip"
+
+[LevelSummary]
+; EN: Title="MotherShip Lab"
+Title="Laboratoř MotherShip"
+; EN: LevelEntryText="Entering the MotherShip Lab"
+LevelEntryText="Vstup do laboratoře MotherShip"
+
+[TranslatorEvent0]
+; EN: AltMessage="Primary Power Supply is operating at peak efficiency. Auxilliary Power Supply operational at 80% output. Activating the Alternate Power Supply for the Security Force Fields is imperative. Weakness shall be punished."
+AltMessage="Primární napájecí zdroj pracuje s maximální účinností. Pomocný napájecí zdroj je funkční při 80% výkonu. Aktivace alternativního zdroje napájení pro pole silových sil je bezpodmínečně nutná. Slabost bude potrestána."
+
+[TranslatorEvent3]
+; EN: Message="Intruder detected. Protect the Source at any cost. Intruder must be halted before penetrating the Source's defensive perimeter."
+Message="Byl zjištěn vetřelec. Chraňte Zdroj za každou cenu. Vetřelec musí být zastaven, než pronikne do obranného obvodu Zdroje."
+
+[TranslatorEvent2]
+; EN: Message="Security personnel report to deployment zones around the Detention Block until APS back online. All detainees must be contained."
+Message="Bezpečnostní pracovníci se hlásí do zón nasazení kolem bloku zadržení, dokud se APS nevrátí online. Všichni zadržení musí být zadrženi."
+
+[TranslatorEvent19]
+; EN: Message="Research Center"
+Message="Výzkumné centrum"
+
+[TranslatorEvent18]
+; EN: Message="Energy Department"
+Message="Energetické oddělení"
+
+[TranslatorEvent24]
+; EN: AltMessage="Cryo Pods Status: Temperature at 269 degrees Kelvin, Pressure at 748 millibars, subjects are prepared for experiment commencement."
+AltMessage="Stav kryosek: Teplota při 269 stupních Kelvina, tlak při 748 milibarech, subjekty jsou připraveny na zahájení experimentu."
+
+[TranslatorEvent26]
+; EN: Message="Power Reserve at 100%, Shielding effect at 0.0025%. EEG/EKG readings are normal, physiological state is cryogenised."
+Message="Power Reserve na 100%, efekt stínění na 0,0025%. Odečty EEG / EKG jsou normální, fyziologický stav je kryogenizován."
+; EN: AltMessage="Power Reserve at 80%, Shielding effect at 5.64%, EEG/EKG readings showing massive disturbances, physiological state is active and endorphin/adrenal systems are producing hormonal overloads."
+AltMessage="Výkonová rezerva na 80%, efekt stínění na 5,64%, hodnoty EEG / EKG ukazující masivní poruchy, fyziologický stav je aktivní a endorfinové / nadledvinové systémy produkují hormonální přetížení."
+
+[TranslatorEvent25]
+; EN: AltMessage="All the test subjects have been placed in the Detention Area. The force fields are keeping them confined and unshielded. All subjects continue to exhibit extremely aggressive behaviour when not in carefully tuned magnetic fields."
+AltMessage="Všechny testované osoby byly umístěny do zadržovací oblasti. Silová pole je udržují omezená a nestíněná. Všechny subjekty nadále vykazují extrémně agresivní chování, pokud nejsou v pečlivě vyladěných magnetických polích."
+
+[TranslatorEvent1]
+; EN: AltMessage="Energy supply for the Source is secured, Alternate Power Supply operational. Maintaining energy flow to the Source is highest priority. Weakness shall be punished."
+AltMessage="Napájení zdroje je zajištěno, alternativní zdroj napájení funkční. Udržování toku energie do Zdroje má nejvyšší prioritu. Slabost bude potrestána."
+
+[TranslatorEvent7]
+; EN: Message="ACCESS DENIED: Power Reserves at 100%"
+Message="ODMÍTNUTÝ PŘÍSTUP: Rezervy napájení na 100%"
+; EN: Hint="You need to go the the Research Lab to lower the Energy level."
+Hint="Chcete-li snížit úroveň energie, musíte jít do výzkumné laboratoře."
+
+[TranslatorEvent21]
+; EN: Message="Research Center"
+Message="Výzkumné centrum"
+
+[TranslatorEvent22]
+; EN: Message="Report 190: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji observing. We are ready for the next experiment. We expect an 18% drop in Power Reserves from 100% levels. The test subject is in place and the Tarydium is prepared for charging."
+Message="Zpráva 190: Shrk'Tajji, pozorování 2. Malého oka Ess'Tajji. Jsme připraveni na další experiment. Očekáváme pokles výkonových rezerv o 18% ze 100% úrovní. Testovaný subjekt je na místě a tarydium je připraveno k nabíjení."
+
+[TranslatorEvent20]
+; EN: Message="Genetic Department"
+Message="Genetické oddělení"
+
+[TranslatorEvent14]
+; EN: AltMessage="Security Orders: Intruder detected in MotherShip, all experiments are suspended on orders of Chakti'Nrrj 2nd Great Talon of Ssa'Nrrj until further notice. Power Reserves must be at 100% for optimal security system operation."
+AltMessage="Bezpečnostní příkazy: V mateřské lodi byl zjištěn vetřelec, všechny experimenty jsou pozastaveny na příkazy Chakti'Nrrj 2. Velkého Talonu ze Ssa'Nrrj až do dalšího upozornění. Rezervy chodu musí být na 100% pro optimální provoz bezpečnostního systému."
+
+[TranslatorEvent15]
+; EN: AltMessage="Report 187: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. Despite the failure in our previous tests on the shielding effect, the test subjects' cells are showing some residual effects. Very interesting..."
+AltMessage="Zpráva 187: Shrk'Tajji, hlášení druhého menšího z Ess'Tajji. Navzdory neúspěchu v našich předchozích testech na stínící účinek vykazují buňky testovaných osob určité zbytkové účinky. Velmi zajímavé..."
+
+[TranslatorEvent16]
+; EN: AltMessage="Report 189: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. After cross-analysis of the test results on all subects, we've reached the conclusion that the Core Generator's magnetic field is probably the cause of the failures."
+AltMessage="Zpráva 189: Shrk'Tajji, 2. Lesser Eye of Ess'Tajji. Po křížové analýze výsledků zkoušek u všech podskupin jsme dospěli k závěru, že magnetické pole generátoru jádra je pravděpodobně příčinou poruch."
+
+[TranslatorEvent17]
+; EN: AltMessage="Report 188: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. Studies on the test subjects' cells are showing persistent shielding, with minor fluctuations in reflectivity. Strangely these are all perfectly synchronized."
+AltMessage="Zpráva 188: Zprávy Shrk'Tajji 2. Malé oko Ess'Tajji. Studie na buňkách testovaných subjektů ukazují trvalé stínění s malými výkyvy odrazivosti. Kupodivu jsou všechny perfektně synchronizované."
+
+[TranslatorEvent23]
+; EN: AltMessage="If the experiment is successful we'll look into moving the Research Center to Site B where we'll be shielded from the magnetic field of the Core Generator. If we're successful we'll reach the green level or even blue."
+AltMessage="Pokud bude experiment úspěšný, podíváme se na přesunutí výzkumného centra na místo B, kde budeme chráněni před magnetickým polem generátoru jádra. Pokud budeme úspěšní, dosáhneme zelené nebo dokonce modré úrovně."
+
+[TranslatorEvent6]
+; EN: Message="ACCESS DENIED"
+Message="PŘÍSTUP ODEPŘEN"
+
+[TranslatorEvent5]
+; EN: Message="Experimentation Facility"
+Message="Experimentální zařízení"
+
+[TranslatorEvent4]
+; EN: AltMessage="Report 190: We're ready for the next experiment, the subject is positionned properly and the Primary Generator Power will be reduced to 80%. The subject should barely be affected, the expected energy level is characterised by an orange color."
+AltMessage="Zpráva 190: Jsme připraveni na další experiment, subjekt je správně umístěn a výkon primárního generátoru bude snížen na 80%. Subjekt by měl být stěží ovlivněn, očekávaná úroveň energie je charakterizována oranžovou barvou."

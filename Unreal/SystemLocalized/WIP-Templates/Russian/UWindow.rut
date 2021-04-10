@@ -1,0 +1,235 @@
+﻿[public]
+; EN: Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Win 95")
+Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Выиграть 95")
+
+[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText="да"
+; EN: NoText="No"
+NoText="Нет"
+; EN: OKText="OK"
+OKText="В ПОРЯДКЕ"
+; EN: CancelText="Cancel"
+CancelText="Отмена"
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle="Системная консоль"
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText="Закрывать"
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText="Отмена"
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText="В ПОРЯДКЕ"
+
+[UWindowConsoleClientWindow]
+; EN: ShowColorsText="Show console messages in colours"
+ShowColorsText="Отображать сообщения консоли в цветах"
+; EN: ShowChatText="Log only chat messages"
+ShowChatText="Записывать только сообщения чата"
+
+[AdminGUIPlayersGrid]
+; EN: PlayerID="ID#"
+PlayerID="Я БЫ#"
+; EN: PlayerName="Player Name"
+PlayerName="Имя игрока"
+; EN: PlayerIP="IP-Address"
+PlayerIP="Айпи адрес"
+; EN: PlayerClientID="Client ID"
+PlayerClientID="ID клиента"
+; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
+MaxLengthExceeded="Превышена максимальная длина списка игроков "% i""
+; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
+IDMismatchedStr="Несоответствующий идентификатор ответа:% i /% j"
+; EN: ClientReceivedStr="Received client "%ls"."
+ClientReceivedStr="Получен клиент "% ls"."
+; EN: GettingInfoStr="Getting player list from server, if nothing happens you may not be logged in as admin."
+GettingInfoStr="Получение списка игроков с сервера, если ничего не происходит, вы можете не войти в систему как администратор."
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded "%i""
+LengthExceeded="Превышена максимальная длина списка игроков "% i""
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch="Несоответствующий идентификатор ответа:% i /% j"
+; EN: ReceiveBanText="Received ban "%ls"."
+ReceiveBanText="Получен бан "% ls"."
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText="Получение банлистов с сервера, если ничего не происходит, возможно, вы не авторизуетесь как администратор (или на сервере нет банов)."
+
+[MMMusicListGrid]
+; EN: MusicNameStr="Music name"
+MusicNameStr="Название музыки"
+; EN: MusicPackStr="Music package"
+MusicPackStr="Музыкальный пакет"
+; EN: FailedToPlayStr="Failed to play: Music "%ls" was not found or failed to load."
+FailedToPlayStr="Не удалось воспроизвести: музыка "% ls" не найдена или не загружена."
+; EN: StartedPlayStr="Started playing music "%ls" with section %i."
+StartedPlayStr="Началось воспроизведение музыки "% ls" из раздела% i."
+; EN: NullErrorStr="Failed to add: NULL is not a valid song."
+NullErrorStr="Не удалось добавить: NULL не является допустимой песней."
+; EN: FailedLoadStr="Failed to add: Music "%ls" file could not be found or loaded."
+FailedLoadStr="Не удалось добавить: музыкальный файл "% ls" не может быть найден или загружен."
+; EN: ConfirmInsertDuplicateTitle="Adding an already listed track"
+ConfirmInsertDuplicateTitle="Добавление трека в список"
+; EN: ConfirmInsertDuplicateText="Such a track is already included in the playlist. Insert it anyway?"
+ConfirmInsertDuplicateText="Такой трек уже включен в плейлист. Все равно вставить?"
+; EN: AddedStr="Added music "%ls" (%i)."
+AddedStr="Добавлена ​​музыка "% ls" (% i)."
+; EN: RemoveSongStr="Removed song #%i."
+RemoveSongStr="Удалена песня №% i."
+; EN: ClearListStr="Removed all tracks from the playlist."
+ClearListStr="Удалены все треки из плейлиста."
+; EN: ConfirmClearListTitle="Confirm clearing the playlist"
+ConfirmClearListTitle="Подтвердите очистку списка воспроизведения"
+; EN: ConfirmClearListText="Do you want to clear the playlist?"
+ConfirmClearListText="Вы хотите очистить список воспроизведения?"
+; EN: BadIndexStr="Failed to remove: Bad remove index."
+BadIndexStr="Не удалось удалить: неверный индекс удаления."
+
+[AdminGUIClientWindow]
+; EN: PlayersListTxt="Clients List"
+PlayersListTxt="Список клиентов"
+; EN: BanListTxt="Banned Clients"
+BanListTxt="Забаненные клиенты"
+; EN: TempBanListTxt="Session Banned Clients"
+TempBanListTxt="Клиенты, заблокированные в сеансе"
+
+[AdminGUIManBanClientW]
+; EN: PlayerNameTxt="Client name (for banlisting purposes only):"
+PlayerNameTxt="Имя клиента (только для банлистов):"
+; EN: PlayerIpTxt="Client IP address (or IP range if desired):"
+PlayerIpTxt="IP-адрес клиента (или диапазон IP-адресов, если необходимо):"
+; EN: InsertBanTxt="Insert ban"
+InsertBanTxt="Вставить бан"
+
+[MMMainWindow]
+; EN: WindowTitle="Music Menu"
+WindowTitle="Музыкальное меню"
+
+[UWindowNetErrorClientWindow]
+; EN: ReconnectText="Reconnect to server"
+ReconnectText="Подключиться к серверу"
+; EN: KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\"
+KickNetworkText="УДАР! | Администратор выгнал вас с этого сервера до конца игры. \"
+; EN: BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\If you feel like you don't deserve this ban, contact the administrator at: "
+BanNetworkText="ЗАПРЕЩЕНО! | Администратор заблокировал вам доступ к этому серверу за плохое поведение. \\ Если вы чувствуете, что не заслуживаете этого запрета, обратитесь к администратору по адресу: "
+; EN: TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\"
+TempBanNetworkText="СЕССИЯ ЗАПРЕЩЕНА! | Вам временно запрещен доступ к этому серверу до конца карты. \"
+
+[MMControlsClient]
+; EN: MusicVolumeText="Music Volume"
+MusicVolumeText="Громкость музыки"
+; EN: BrowseText="Browse"
+BrowseText="Просматривать"
+; EN: BrowseHint="Browse music files"
+BrowseHint="Просматривайте музыкальные файлы"
+; EN: AddMusicText="Add Music"
+AddMusicText="Добавить музыку"
+; EN: AddMusicHint="Add music with the specified name"
+AddMusicHint="Добавить музыку с указанным именем"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="Лимит времени"
+; EN: TimeLimitHint="Select music playtime in minutes (0 = no time limit)"
+TimeLimitHint="Выберите время воспроизведения музыки в минутах (0 = без ограничения по времени)"
+; EN: SectionText="Song Section"
+SectionText="Секция песни"
+; EN: SectionHint="Set initial music section (0 - 254)"
+SectionHint="Установить начальную музыкальную секцию (0 - 254)"
+; EN: MusicStoppedText="Music player was stopped."
+MusicStoppedText="Музыкальный проигрыватель остановлен."
+; EN: PlayTrackHint="Play track"
+PlayTrackHint="Воспроизвести трек"
+; EN: StopTrackHint="Stop track"
+StopTrackHint="Остановить трек"
+; EN: PriorTrackHint="Prior track"
+PriorTrackHint="Предыдущий трек"
+; EN: NextTrackHint="Next track"
+NextTrackHint="Следующий трек"
+
+[UWindowNetErrorWindow]
+; EN: WindowTitle="Player Network error status"
+WindowTitle="Состояние ошибки сети игрока"
+
+[AdminGUIMainWindow]
+; EN: WindowTitle="Admin Menu"
+WindowTitle="Меню администратора"
+
+[AdminGUIBanLPullDown]
+; EN: RemoveBanTxt="&Remove ban"
+RemoveBanTxt="&amp; Снять бан"
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt="&amp; Закройте это меню"
+; EN: RefreshTxt="&Refresh banlist"
+RefreshTxt="&amp; Обновить список блокировки"
+; EN: ManualBanTxt="&Manually insert ban entry"
+ManualBanTxt="&amp; Вставить запись о запрете вручную"
+
+[MMMusListWindow]
+; EN: WindowTitle="Found music tracks:"
+WindowTitle="Найдены музыкальные треки:"
+
+[MMListPullDown]
+; EN: PlaySongStr="&Play"
+PlaySongStr="&amp;Играть в"
+; EN: RemoveSongStr="&Remove from playlist"
+RemoveSongStr="&amp; Удалить из плейлиста"
+; EN: InsertCurrentSongStr="&Insert currently playing track"
+InsertCurrentSongStr="&amp; Вставить воспроизводимую в данный момент дорожку"
+; EN: ClearPlaylistStr="&Clear playlist"
+ClearPlaylistStr="&amp; Очистить плейлист"
+
+[MMMusicFilesGrid]
+; EN: ErrorLoadPackage="Error: Failed to load music package."
+ErrorLoadPackage="Ошибка: не удалось загрузить музыкальный пакет."
+; EN: ErrorNoMusics="Error: Failed to find any musics in this package."
+ErrorNoMusics="Ошибка: не удалось найти музыку в этом пакете."
+
+[AdminGUIPLPullDown]
+; EN: GetAliasesTxt="&Get player aliases"
+GetAliasesTxt="&amp; Получить псевдонимы игроков"
+; EN: KickPlayerTxt="&Kick player"
+KickPlayerTxt="&amp; Ударить игрока"
+; EN: KickBanTempTxt="&Temporarily kick-ban player"
+KickBanTempTxt="&amp; Временно забанить игрока"
+; EN: KickBanTxt="Kick-&ban player"
+KickBanTxt="Кик- и бан игрока"
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt="&amp; Закройте это меню"
+; EN: RefreshTxt="&Refresh players list"
+RefreshTxt="&amp; Обновить список игроков"
+
+[AdminGUIManualBanWnd]
+; EN: WindowTitle="Insert manual ban"
+WindowTitle="Вставить блокировку вручную"
+
+[AdminGUITBanLGrid]
+; EN: GettingBanListText="Getting temp-banlist from server, if nothing happens you may not be logged in as admin (or there are no temp-bans on server)."
+GettingBanListText="Получение списка временных запретов с сервера, если ничего не происходит, вы можете не войти в систему как администратор (или на сервере нет временных запретов)."
+
+[FontStyle]
+SmallFont=UWindowFonts.Tahoma10
+SmallFontBold=UWindowFonts.TahomaB10
+MedFont=UWindowFonts.Tahoma20
+MedFontBold=UWindowFonts.TahomaB20
+LargeFont=UWindowFonts.Tahoma30
+LargeFontBold=UWindowFonts.TahomaB30
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded "%i""
+LengthExceeded="Превышена максимальная длина списка игроков "% i""
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch="Несоответствующий идентификатор ответа:% i /% j"
+; EN: ReceiveBanText="Received ban "%ls"."
+ReceiveBanText="Получен бан "% ls"."
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText="Получение банлистов с сервера, если ничего не происходит, возможно, вы не авторизуетесь как администратор (или на сервере нет банов)."
+
+[UWindowSmallRestartButton]
+; EN: RestartText="Restart"
+RestartText="Начать сначала"

@@ -1,0 +1,517 @@
+﻿[SVariableBase]
+; EN: MenuName="Variables"
+MenuName="Variabelen"
+
+[VAR_OBJECT_BASE]
+MenuName="Object ref"
+
+[VAR_OBJECTARRAY_BASE]
+; EN: MenuName="Object array"
+MenuName="Objectmatrix"
+
+[VAR_Vector]
+MenuName="Vector"
+; EN: Description="Vector variable."
+Description="Vector variabele."
+
+[VAR_STRUCT_BASE]
+; EN: MenuName="Struct members"
+MenuName="Struct-leden"
+
+[LOGICBASE]
+; EN: MenuName="Logic"
+MenuName="Logica"
+
+[ACTIONSBASE]
+; EN: MenuName="Actions"
+MenuName="Acties"
+
+[ACTORBASE]
+; EN: MenuName="Actor"
+MenuName="Acteur"
+
+[ACTOR_Overlay]
+; EN: MenuName="Mesh Overlay"
+MenuName="Mesh-overlay"
+; EN: Description="Adds a temporary mesh overlay to an actor."
+Description="Voegt een tijdelijke mesh-overlay toe aan een actor."
+
+[HUD_DrawIcon]
+; EN: MenuName="Draw Icon"
+MenuName="Teken Icoon"
+; EN: Description="Draws an icon on the HUD."
+Description="Tekent een pictogram op de HUD."
+
+[HUDElementBase]
+MenuName="HUD"
+
+[HUD_DrawText]
+; EN: MenuName="Draw Text"
+MenuName="Teken tekst"
+; EN: Description="Draws a message on HUD."
+Description="Tekent een bericht op HUD."
+
+[TEXT_ShowMessage]
+; EN: MenuName="Show Message"
+MenuName="Toon bericht"
+; EN: Description="Shows a client message on screen.|If no receiver is specified, everyone will receive the message."
+Description="Toont een klantbericht op het scherm. | Als er geen ontvanger is opgegeven, ontvangt iedereen het bericht."
+
+[TEXTBASE]
+; EN: MenuName="Text Op"
+MenuName="Tekst Op"
+
+[VAR_ActorList]
+MenuName="Actor List"
+; EN: Description="Dynamic ActorList reference variable."
+Description="Dynamische ActorList-referentievariabele."
+
+[VARIABLEBASE]
+; EN: MenuName="Variables"
+MenuName="Variabelen"
+
+[VAR_ObjectList]
+; EN: MenuName="Object List"
+MenuName="Objectlijst"
+; EN: Description="Object list reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
+Description="Referentievariabele voor objectenlijst. | WAARSCHUWING: gebruik dit niet om naar dynamische vernietigbare acteurs te verwijzen, anders kan het spel crashen!"
+
+[LEVELSBASE]
+; EN: MenuName="Level"
+MenuName="Niveau"
+
+[VAR_Actor]
+; EN: MenuName="Actor"
+MenuName="Acteur"
+; EN: Description="Dynamic actor reference variable."
+Description="Dynamische actor-referentievariabele."
+
+[VAR_Float]
+; EN: MenuName="Float"
+MenuName="Vlotter"
+; EN: Description="Floating point variable."
+Description="Variabele met drijvende komma."
+
+[VAR_Int]
+MenuName="Int"
+; EN: Description="32-bit integer variable."
+Description="32-bits integer-variabele."
+
+[LEVEL_Network]
+; EN: MenuName="Network data"
+MenuName="Netwerkgegevens"
+; EN: Description="Transmits data from server to client.|All inputs you set will also output on client side and fire output event client side every time you fire an input server-side.|If no receiver is specified, the networked event will be broadcast to all clients."
+Description="Verzendt gegevens van server naar client. | Alle ingangen die u instelt, worden ook uitgevoerd aan de clientzijde en de output-gebeurtenis aan de clientzijde telkens wanneer u een ingang aan de serverzijde activeert. | Als er geen ontvanger is gespecificeerd, wordt de netwerkgebeurtenis uitgezonden naar alle clients ."
+
+[LEVEL_RadialActors]
+; EN: MenuName="Radius Actors"
+MenuName="Radius-actoren"
+; EN: Description="Grabs all actors within a point in level.|Position input can be an actor or a vector."
+Description="Grijpt alle actoren binnen een punt in niveau. | Positie-invoer kan een acteur of een vector zijn."
+
+[MATH_Int]
+MenuName="Int op"
+; EN: Description="Does a math operation with integers."
+Description="Voert een wiskundige bewerking uit met gehele getallen."
+
+[MATHBASE]
+; EN: MenuName="Math"
+MenuName="Wiskunde"
+
+[EVENTBASE]
+; EN: MenuName="Events"
+MenuName="Evenementen"
+
+[VAR_String]
+; EN: MenuName="String"
+MenuName="Draad"
+; EN: Description="Text line variable."
+Description="Tekstregelvariabele."
+
+[MOVER_MoveToKey]
+; EN: MenuName="Move to key"
+MenuName="Verplaats naar sleutel"
+; EN: Description="Moves a mover to a keyframe."
+Description="Verplaatst een verhuizer naar een hoofdframe."
+
+[MOVERBASE]
+; EN: MenuName="Mover"
+MenuName="Verhuizer"
+
+[PAWN_SetHealth]
+; EN: MenuName="Give Health"
+MenuName="Geef gezondheid"
+; EN: Description="Gives or removes health from a pawn."
+Description="Geeft of verwijdert gezondheid van een pion."
+
+[PAWNBASE]
+; EN: MenuName="Pawn"
+MenuName="Pion"
+
+[EVENT_Triggered]
+; EN: MenuName="Triggered"
+MenuName="Veroorzaakt"
+; EN: Description="Triggered by a regular in level event.|Tag can be changed by firing Set Tag event and binding NewTag value."
+Description="Wordt getriggerd door een normale in-level-gebeurtenis. | Tag kan worden gewijzigd door de Set Tag-gebeurtenis te activeren en de NewTag-waarde te binden."
+
+[ACTOR_ChangeScale]
+; EN: MenuName="Change scale"
+MenuName="Verander de schaal"
+; EN: Description="Resizes an actor with optional blend time."
+Description="Past het formaat van een actor aan met optionele blendtijd."
+
+[VAR_Name]
+; EN: MenuName="Name"
+MenuName="Naam"
+; EN: Description="Name variable."
+Description="Naam variabele."
+
+[ACTOR_Destroy]
+; EN: MenuName="Destroy Actor"
+MenuName="Vernietig de acteur"
+; EN: Description="Instantly destroys an actor."
+Description="Vernietigt onmiddellijk een acteur."
+
+[MATH_Float]
+MenuName="Float op"
+; EN: Description="Does a math operation with floating point."
+Description="Voert een wiskundige bewerking uit met drijvende komma."
+
+[VAR_Bool]
+MenuName="Boolean"
+; EN: Description="Boolean variable."
+Description="Booleaanse variabele."
+
+[LATENT_MoveToActor]
+; EN: MenuName="AI Move to actor"
+MenuName="AI Verplaats naar acteur"
+; EN: Description="Makes a ScriptedPawn move to a goal actor.|Output is fired when a pawn has reached or not the goal actor, with Reached output set to just finished pawn."
+Description="Laat een ScriptedPawn naar een doelacteur gaan. | De uitvoer wordt afgevuurd wanneer een pion de doelacteur heeft bereikt of niet, waarbij de bereikte uitvoer is ingesteld op zojuist voltooide pion."
+
+[LATENTBASE]
+MenuName="Latent"
+
+[ACTOR_PlaySound]
+; EN: MenuName="Play Sound"
+MenuName="Geluid afspelen"
+; EN: Description="Plays a sound effect.|Sound source can be an actor or a vector. If actor array, it will play the sound on all actors in that array."
+Description="Speelt een geluidseffect af. | Geluidsbron kan een acteur of een vector zijn. Als actor-array, speelt het het geluid af op alle acteurs in die array."
+
+[VAR_Rotator]
+MenuName="Rotator"
+; EN: Description="Rotator variable."
+Description="Rotator variabel."
+
+[LEVEL_SpawnActor]
+; EN: MenuName="Spawn Actor"
+MenuName="Spawn acteur"
+; EN: Description="Spawns a new actor.|If you input Position as actor variable, it will use that actor rotation. Otherwise you can input vector and rotation."
+Description="Spawnt een nieuwe actor. | Als je Position invoert als actor-variabele, zal het die actor-rotatie gebruiken. Anders kunt u vector en rotatie invoeren."
+
+[LEVEL_AllPawns]
+; EN: MenuName="All Pawns"
+MenuName="Alle pionnen"
+; EN: Description="Grabs all pawns from level."
+Description="Grijpt alle pionnen van level."
+
+[PAWN_GiveItem]
+; EN: MenuName="Give Item"
+MenuName="Geef een item"
+; EN: Description="Gives an inventory item to a player."
+Description="Geeft een inventarisitem aan een speler."
+
+[LOGIC_ArrayAdd]
+; EN: MenuName="Array Add"
+MenuName="Array toevoegen"
+; EN: Description="Adds an unique item to array.|Fires event Found or Not Found depending on the result."
+Description="Voegt een uniek item toe aan de array. | Fires-gebeurtenis gevonden of niet gevonden, afhankelijk van het resultaat."
+
+[VAR_RandInt]
+; EN: MenuName="Random Int"
+MenuName="Willekeurige Int"
+; EN: Description="Random integer variable."
+Description="Random integer variabele."
+
+[TEXT_AddText]
+; EN: MenuName="Append Text"
+MenuName="Tekst toevoegen"
+; EN: Description="Adds text to the end of the current textline."
+Description="Voegt tekst toe aan het einde van de huidige tekstregel."
+
+[VAR_Object]
+; EN: MenuName="Object"
+MenuName="Voorwerp"
+; EN: Description="Object reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
+Description="Objectreferentievariabele. | WAARSCHUWING: gebruik dit niet om naar dynamische vernietigbare acteurs te verwijzen, anders kan het spel crashen!"
+
+[LEVEL_PlayMusic]
+; EN: MenuName="Play Music"
+MenuName="Speel muziek"
+; EN: Description="Changes currently played music.|If no player is specified, the event affects all actors."
+Description="Wijzigt momenteel afgespeelde muziek. | Als er geen speler is opgegeven, is de gebeurtenis van invloed op alle acteurs."
+
+[VAR_RandFloat]
+; EN: MenuName="Random Float"
+MenuName="Willekeurige vlotter"
+; EN: Description="Random floating point variable."
+Description="Willekeurige variabele met drijvende komma."
+
+[LATENT_Timer]
+MenuName="Timer"
+; EN: Description="Waits for specific time."
+Description="Wacht op een bepaalde tijd."
+
+[ACTOR_SetHidden]
+; EN: MenuName="Set Hidden"
+MenuName="Verborgen instellen"
+; EN: Description="Toggles the Hidden property for an actor."
+Description="Schakelt de verborgen eigenschap voor een acteur om."
+
+[VAR_LocalPlayer]
+; EN: MenuName="Local Player"
+MenuName="Lokale speler"
+; EN: Description="Local player variable function."
+Description="Variabele functie van de lokale speler."
+
+[EVENT_PawnDied]
+; EN: MenuName="Pawn Died"
+MenuName="Pion stierf"
+; EN: Description="Triggered when a pawn dies."
+Description="Wordt getriggerd wanneer een pion sterft."
+
+[EVENT_PawnHurt]
+; EN: MenuName="Pawn Hurt"
+MenuName="Pion gekwetst"
+; EN: Description="Triggered when a pawn takes damage."
+Description="Wordt getriggerd wanneer een pion schade oploopt."
+
+[EVENT_PawnPrevDeath]
+; EN: MenuName="Prevent Death"
+MenuName="Voorkom de dood"
+; EN: Description="Prevents a pawn from dying.|NOTE: Output link is fired, THEN it checks the Input flag. If true, it prevents the pawn from dying."
+Description="Voorkomt dat een pion doodgaat. OPMERKING: de outputlink wordt geactiveerd, DAN controleert hij de inputvlag. Als het waar is, wordt voorkomen dat de pion doodgaat."
+
+[OBJECTBASE]
+; EN: MenuName="Object"
+MenuName="Voorwerp"
+
+[EVENT_PlayerSpawn]
+; EN: MenuName="Player spawned"
+MenuName="Speler voortgebracht"
+; EN: Description="Triggered when a player spawns."
+Description="Wordt getriggerd wanneer een speler spawnt."
+
+[PAWN_Kill]
+; EN: MenuName="Kill Pawn"
+MenuName="Dood Pion"
+; EN: Description="Kills instantly a pawn."
+Description="Doodt onmiddellijk een pion."
+
+[LOGIC_ListIterator]
+MenuName="ObjList Iterator"
+; EN: Description="Iterates through an object list."
+Description="Itereert door een objectenlijst."
+
+[LEVEL_SendEvent]
+; EN: MenuName="Trigger Event"
+MenuName="Trigger-gebeurtenis"
+; EN: Description="Sends a regular event to all actors in level."
+Description="Stuurt een regelmatig evenement naar alle acteurs in niveau."
+
+[LOGIC_ArrayRemove]
+; EN: MenuName="Array Remove"
+MenuName="Array verwijderen"
+; EN: Description="Remove a single item from array and return its size.|An empty event is fired once final array entry has been removed."
+Description="Verwijder een enkel item uit de array en geef de grootte terug. | Een lege gebeurtenis wordt geactiveerd zodra de laatste array-invoer is verwijderd."
+
+[TEXT_Replace]
+; EN: MenuName="Replace Text"
+MenuName="Vervang tekst"
+; EN: Description="Replace a part of text with another text."
+Description="Vervang een deel van de tekst door een andere tekst."
+
+[LOGIC_Dispatch]
+; EN: MenuName="Dispatcher"
+MenuName="Verzender"
+; EN: Description="Split a call into multiple branches."
+Description="Splits een gesprek op in meerdere vestigingen."
+
+[ACTOR_TakeDamage]
+; EN: MenuName="Take Damage"
+MenuName="Schade oplopen"
+; EN: Description="Make an actor take damage."
+Description="Laat een acteur schade oplopen."
+
+[ACTOR_SetPhysics]
+; EN: MenuName="Set Physics"
+MenuName="Stel natuurkunde in"
+; EN: Description="Changes the actor's movement physics."
+Description="Verandert de bewegingsfysica van de acteur."
+
+[ACTOR_SetCollision]
+; EN: MenuName="Set Collision"
+MenuName="Stel botsing in"
+; EN: Description="Changes the actor's collision state."
+Description="Wijzigt de botsingsstatus van de actor."
+
+[ACTOR_PlayAnim]
+; EN: MenuName="Play Anim"
+MenuName="Speel Anim"
+; EN: Description="Play an animation on actors.|Note: Pawn code may override the animation!"
+Description="Speel een animatie over acteurs. | Opmerking: Pioncode kan de animatie overschrijven!"
+
+[LOGIC_CompareFloat]
+; EN: MenuName="Compare Float"
+MenuName="Vergelijk Float"
+; EN: Description="Compare 2 floating point values."
+Description="Vergelijk 2 drijvende-kommawaarden."
+
+[PAWN_DeleteItem]
+; EN: MenuName="Delete Item"
+MenuName="Verwijder item"
+; EN: Description="Find and delete an inventory item from a player."
+Description="Zoek en verwijder een inventarisitem van een speler."
+
+[LOGIC_CompareInt]
+; EN: MenuName="Compare Int"
+MenuName="Vergelijk Int"
+; EN: Description="Compare 2 integer values."
+Description="Vergelijk 2 gehele getallen."
+
+[VARIABLE_ToVector]
+; EN: MenuName="To Vector"
+MenuName="Naar Vector"
+; EN: Description="Constructs a vector from individual components."
+Description="Construeert een vector uit afzonderlijke componenten."
+
+[VARIABLE_ToRotator]
+; EN: MenuName="To Rotator"
+MenuName="Aan Rotator"
+; EN: Description="Constructs a rotator from individual components."
+Description="Construeert een rotator uit afzonderlijke componenten."
+
+[LOGIC_Gate]
+; EN: MenuName="Logic Gate"
+MenuName="Logische poort"
+; EN: Description="A logic gate."
+Description="Een logische poort."
+
+[VARIABLE_FromVector]
+; EN: MenuName="From Vector"
+MenuName="Van Vector"
+; EN: Description="Grab each vector component."
+Description="Grijp elke vectorcomponent."
+
+[PAWN_FindItem]
+; EN: MenuName="Find Item"
+MenuName="Item zoeken"
+; EN: Description="Find an inventory item from a player."
+Description="Zoek een inventarisitem van een speler."
+
+[VARIABLE_FromRotator]
+; EN: MenuName="From Rotator"
+MenuName="Van Rotator"
+; EN: Description="Grab each rotator component."
+Description="Grijp elk rotatoronderdeel."
+
+[LOGIC_CompareObject]
+; EN: MenuName="Compare Object"
+MenuName="Vergelijk Object"
+; EN: Description="Compare 2 objects."
+Description="Vergelijk 2 objecten."
+
+[LOGIC_CompareText]
+; EN: MenuName="Compare Text"
+MenuName="Vergelijk tekst"
+; EN: Description="Compare 2 string text lines."
+Description="Vergelijk 2 string tekstregels."
+
+[ACTOR_GetName]
+; EN: MenuName="Get Name"
+MenuName="Naam opvragen"
+; EN: Description="Grab the actor name."
+Description="Pak de naam van de acteur."
+
+[LOGIC_GetArraySize]
+; EN: MenuName="Get Array Size"
+MenuName="Verkrijg de matrixgrootte"
+; EN: Description="Check the size of an object array."
+Description="Controleer de grootte van een objectarray."
+
+[OBJECT_SetProperty]
+; EN: MenuName="Set Property"
+MenuName="Stel eigenschap in"
+; EN: Description="Change actor property value."
+Description="Verander de waarde van de actor-eigenschap."
+
+[OBJECT_ChangeState]
+; EN: MenuName="Change State"
+MenuName="Verander de staat"
+; EN: Description="Change actor script state."
+Description="Wijzig de scriptstatus van de actor."
+
+[LEVEL_AllActors]
+; EN: MenuName="All Actors"
+MenuName="Alle acteurs"
+; EN: Description="Grab all actors from level."
+Description="Grijp alle acteurs van level."
+
+[OBJECT_GetProperty]
+; EN: MenuName="Get Property"
+MenuName="Koop eigendom"
+; EN: Description="Grab actor property value."
+Description="Grijp de waarde van de actor-eigenschap."
+
+[VARIABLE_SetBool]
+; EN: MenuName="Set Bool"
+MenuName="Stel Bool in"
+; EN: Description="Set boolean value."
+Description="Stel een booleaanse waarde in."
+
+[LEVEL_ResetLevel]
+; EN: MenuName="Reset level"
+MenuName="Reset niveau"
+; EN: Description="Soft-resets the level."
+Description="Soft-reset het niveau."
+
+[VARIABLE_SetFloat]
+; EN: MenuName="Set Float"
+MenuName="Stel Float in"
+; EN: Description="Set float value."
+Description="Stel de float-waarde in."
+
+[LOGIC_ArrayEmpty]
+; EN: MenuName="Array Empty"
+MenuName="Matrix is ​​leeg"
+; EN: Description="Simply blank out an array."
+Description="Maak gewoon een array leeg."
+
+[VARIABLE_SetInt]
+; EN: MenuName="Set Int"
+MenuName="Stel Int"
+; EN: Description="Set integer value."
+Description="Stel een geheel getal in."
+
+[VARIABLE_SetString]
+; EN: MenuName="Set Text"
+MenuName="Tekst instellen"
+; EN: Description="Set string value."
+Description="Stel de tekenreekswaarde in."
+
+[EVENT_BeginPlay]
+; EN: MenuName="Begin Play"
+MenuName="Begin met spelen"
+; EN: Description="Fires an event on start of map.|Reset event is fired instead when level was soft-reset."
+Description="Vuurt een gebeurtenis af bij het begin van de kaart. | Resetgebeurtenis wordt geactiveerd in plaats daarvan wanneer het niveau zacht is gereset."
+
+[LOGIC_CompareBool]
+; EN: MenuName="Compare Bool"
+MenuName="Vergelijk Bool"
+; EN: Description="Compare a boolean value."
+Description="Vergelijk een booleaanse waarde."
+
+[LOGIC_ServerType]
+; EN: MenuName="Server Type"
+MenuName="server type"
+; EN: Description="Check in which environment this action is executed on."
+Description="Controleer in welke omgeving deze actie wordt uitgevoerd."

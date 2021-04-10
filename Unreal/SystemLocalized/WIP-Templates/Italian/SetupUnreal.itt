@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="Irreale"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Unreal"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Help \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Installazione irreale"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Opzioni irreali"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 di Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Help \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&amp; Gioca a questo livello irreale"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&amp; Apri questo collegamento irreale"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&amp; Installa questo modulo Unreal"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&amp; Modifica questo livello irreale"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Contenuto del gioco"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Contenuti di gioco irreali. Installalo per ottenere le migliori prestazioni. Se lo deselezioni, il contenuto del gioco verrà caricato dal CD durante la riproduzione, riducendo le prestazioni, ma utilizzando meno spazio sul disco rigido."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Gioco irreale"
+; EN: Description="Unreal game. Installation is required."
+Description="Gioco irreale. È richiesta l'installazione."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Driver Microsoft DirectX 8 opzionali per un supporto avanzato di grafica, audio e joystick."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Editor irreale"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Unreal world editor, per creare i tuoi ambienti 3D Unreal. Per utenti avanzati; l'installazione è opzionale."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Gioca a Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Modalità provvisoria irreale"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Editor irreale"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Documentazione"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Pagina Web irreale"

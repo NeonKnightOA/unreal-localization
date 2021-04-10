@@ -1,0 +1,161 @@
+﻿[Public]
+; EN: Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1; Rückkehr nach Na Pali")
+Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakCoopGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.DuskFallsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TestGameInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakIntro,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+
+[TransitionNullHUD]
+Statheader="Kill Statistics: "
+; EN: CARStat="Combat Assault Rifle"
+CARStat="Kampfgewehr"
+; EN: RLStat="UMS Rocket Launcher"
+RLStat="UMS Raketenwerfer"
+; EN: GLStat="UMS Grenade Launcher"
+GLStat="UMS Granatenwerfer"
+ASMDStat="ASMD"
+AutomagStat="Automag"
+; EN: DispersionStat="Dispersion Pistol"
+DispersionStat="Dispersionspistole"
+EightballStat="Eightball"
+; EN: FlakCannonStat="Flak Cannon"
+FlakCannonStat="Flak-Kanone"
+GESBioRifleStat="GES BioRifle"
+MinigunStat="Minigun"
+RazorjackStat="Razorjack"
+; EN: RifleStat="Rifle"
+RifleStat="Gewehr"
+StingerStat="Stinger"
+TotalStat="Total Kills"
+; EN: LogEntryMsg="LOG ENTRY:"
+LogEntryMsg="LOG EINTRAG:"
+
+[GrenadeLauncher]
+; EN: PickupMessage="You got the UMS Grenade Launcher."
+PickupMessage="Sie haben den UMS Grenade Launcher."
+; EN: ItemName="UMS Grenade Launcher"
+ItemName="UMS Granatenwerfer"
+
+[Cloak]
+; EN: ExpireMessage="disengaged."
+ExpireMessage="gelöst."
+; EN: PickupMessage="You got the Cloaking Device."
+PickupMessage="Du hast das Tarngerät."
+; EN: ItemName="Cloaking Device"
+ItemName="Tarnvorrichtung"
+; EN: M_Activated=" engaged"
+M_Activated=" beschäftigt, verlobt"
+; EN: M_Deactivated=" disengaged"
+M_Deactivated=" gelöst"
+
+[UPakHUD]
+; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
+MultWeapSlotMsg="Drücken Sie die Waffenauswahltaste, um die Waffen umzuschalten."
+
+[UPakSinglePlayer]
+; EN: GameName="Unreal Mission Pack"
+GameName="Unwirkliches Missionspaket"
+
+[RocketLauncher]
+; EN: PickupMessage="You got the UMS Rocket Launcher."
+PickupMessage="Sie haben den UMS Rocket Launcher."
+; EN: ItemName="UMS Rocket Launcher"
+ItemName="UMS Raketenwerfer"
+
+[UPakChooseGameMenu]
+; EN: MenuList[0]="Return to Na Pali"
+MenuList[0]="Kehre nach Na Pali zurück"
+; EN: MenuList[1]="Unreal"
+MenuList[1]="Unwirklich"
+
+[CloakMatch]
+; EN: GameName="Cloak Match"
+GameName="Umhang Match"
+
+[CARifle]
+; EN: PickupMessage="You got the Combat Assault Rifle"
+PickupMessage="Du hast das Combat Assault Rifle"
+; EN: ItemName="Combat Assault Rifle"
+ItemName="Kampfgewehr"
+
+[UPakScubaGear]
+; EN: RechargedMessage="ScubaGear fully recharged."
+RechargedMessage="ScubaGear voll aufgeladen."
+; EN: LowOxygenMessage="Oxygen supply critically low"
+LowOxygenMessage="Sauerstoffversorgung kritisch niedrig"
+; EN: PickupMessage="You picked up the Marine SCUBA Gear"
+PickupMessage="Sie haben die Marine SCUBA Gear abgeholt"
+ItemName="Marine SCUBA Gear"
+; EN: M_Deactivated="deactivated... Recharging."
+M_Deactivated="deaktiviert ... Aufladen."
+
+[MarineMatch]
+GameName="Marine Match"
+
+[GravityMatch]
+; EN: GameName="Gravity Match"
+GameName="Schwerkraft-Match"
+
+[UPakDebugger]
+ItemName="UPak Debugger"
+
+[UPakMaleOne]
+; EN: MenuName="Male 1"
+MenuName="Männlich 1"
+
+[UPakFemaleOne]
+; EN: MenuName="Female 1"
+MenuName="Weiblich 1"
+
+[GLAmmo]
+; EN: PickupMessage="You picked up 10 UMS Grenades."
+PickupMessage="Sie haben 10 UMS-Granaten aufgenommen."
+; EN: ItemName="UMS Grenades"
+ItemName="UMS-Granaten"
+
+[RLAmmo]
+; EN: PickupMessage="You got 10 UMS Rockets."
+PickupMessage="Du hast 10 UMS-Raketen."
+; EN: ItemName="UMS Rockets"
+ItemName="UMS-Raketen"
+
+[CARifleClip]
+; EN: PickupMessage="You got a 50 bullet CAR clip."
+PickupMessage="Du hast einen CAR-Clip mit 50 Kugeln."
+; EN: ItemName="CAR Clip"
+ItemName="AUTO Clip"
+
+[UPakFemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Weiblich 2"
+
+[UPakMaleThree]
+; EN: MenuName="Male 3"
+MenuName="Männlich 3"
+
+[UPakMaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Männlich 2"
+
+[TerranWeaponMatch]
+; EN: GameName="Terran Weapon Match"
+GameName="Terranisches Waffenspiel"
+
+[CompTablet]
+; EN: PickupMessage="You got the Computer Tablet."
+PickupMessage="Du hast das Computer Tablet."
+ItemName="Computer Tablet"

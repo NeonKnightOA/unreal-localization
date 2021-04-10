@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="Irreal"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Irreal"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Ajuda \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Configuració irreal"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Opcions irreals"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 per Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Ajuda \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&amp; Juga a aquest nivell irreal"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&amp; Obre aquest enllaç Unreal"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&amp; Instal·leu aquest mòdul Unreal"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&amp; Edita aquest nivell irreal"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Contingut del joc"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Contingut irreal del joc. Instal·leu-lo per obtenir el millor rendiment. Si la desseleccioneu, el contingut del joc es carregarà des del CD durant la reproducció, degradant el rendiment, però amb menys espai al disc dur."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Joc irreal"
+; EN: Description="Unreal game. Installation is required."
+Description="Joc irreal. Cal instal·lar-la."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Controladors Microsoft DirectX 8 opcionals per obtenir gràfics, so i compatibilitat amb el joystick millorats."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Editor irreal"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Editor del món irreal per crear els vostres propis entorns 3D irreals. Per a usuaris avançats; la instal·lació és opcional."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Juga a Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Mode segur irreal"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Editor irreal"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Documentació"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Pàgina web irreal"

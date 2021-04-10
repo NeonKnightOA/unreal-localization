@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OGLDrv Support",Parent="Rendering",Class=OGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="Supporto OGLDrv",Parent="Rendering",Class=OGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OGLDrv Support"
+ClassCaption="Supporto OGLDrv"
+; EN: AskInstalled="Do you have a OGLDrv compatible 3D accelerator installed?"
+AskInstalled="Hai installato un acceleratore 3D compatibile con OGLDrv?"
+; EN: AskUse="Do you want Unreal to use your OGLDrv accelerator?"
+AskUse="Vuoi che Unreal utilizzi il tuo acceleratore OGLDrv?"
+
+[Errors]
+; EN: NoFindGL="Can't find OGLDrv driver %ls"
+NoFindGL="Impossibile trovare il driver OGLDrv% ls"
+; EN: MissingFunc="Missing OGLDrv function %ls (%i)"
+MissingFunc="Funzione OGLDrv mancante% ls (% i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Impossibile impostare la risoluzione"

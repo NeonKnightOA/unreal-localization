@@ -1,0 +1,429 @@
+﻿[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExportPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AudioPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpTextureInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MusicPackagesCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ReduceTexturesCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SaveEmbeddedCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchMeshExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Editor",Parent="Geavanceerde opties")
+; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Geavanceerd (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Kleuren",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Raster",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Rotatierooster",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="AudioPackage Commandlet",Parent="Editor",Class=Editor.AudioPackageCommandlet,Immediate=True)
+Preferences=(Caption="MusicPackages Commandlet",Parent="Editor",Class=Editor.MusicPackagesCommandlet,Immediate=True)
+
+[MasterCommandlet]
+; EN: HelpCmd=master
+HelpCmd=meester
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="Bouw hoofdinstallatiebestanden"
+; EN: HelpUsage="master [-option...] [parm=value]..."
+HelpUsage="master [-optie ...] [parm = waarde] ..."
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from."
+HelpDesc[0]="Root-directory om bronbestanden van te kopiëren."
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to."
+HelpDesc[1]="Root-directory om bron- (release) bestanden naar te kopiëren."
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference."
+HelpDesc[2]="Pad voor delta-gecomprimeerde padverwijzing."
+
+[MakeCommandlet]
+; EN: HelpCmd=make
+HelpCmd=maken
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Rebuild UnrealScript packages."
+HelpOneLiner="Bouw UnrealScript-pakketten opnieuw op."
+; EN: HelpUsage="make [-option...] [parm=value]..."
+HelpUsage="maak [-optie ...] [parm = waarde] ..."
+; EN: HelpParm[0]="Silent"
+HelpParm[0]="Stil"
+; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
+HelpDesc[0]="Geen aanwijzingen; ga bij alle vragen uit van 'ja'."
+HelpParm[1]="NoBind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
+HelpDesc[1]="Forceer native-functies niet om te worden gebonden aan DLL's."
+; EN: HelpParm[2]="All"
+HelpParm[2]="Alle"
+; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
+HelpDesc[2]="Opnieuw opbouwen (anders is het opnieuw opbouwen incrementeel)."
+
+[ConformCommandlet]
+; EN: HelpCmd=conform
+HelpCmd=conform zijn
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="Genereer conforme binaire bestanden"
+; EN: HelpUsage="conform existing_file.ext old_file.ext"
+HelpUsage="conform bestaand_bestand.ext oud_bestand.ext"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="bestaand bestand.ext"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
+HelpDesc[0]="Bestaand binair bestand om te laden, te conformeren en op te slaan."
+; EN: HelpParm[1]="oldfile.ext"
+HelpParm[1]="oudbestand.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with."
+HelpDesc[1]="Oud bestand om het bronbestand binair compatibel mee te maken."
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Export objects in bulk."
+HelpOneLiner="Exporteer objecten in bulk."
+; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
+HelpUsage="batchexport package.ext klassenaam export_ext [pad]"
+; EN: HelpParm[0]="package.ext"
+HelpParm[0]="pakket.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export."
+HelpDesc[0]="Pakket waarvan u de objecten wilt exporteren."
+; EN: HelpParm[1]="classname"
+HelpParm[1]="naam van de klasse"
+; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
+HelpDesc[1]="Klasse van te exporteren object. Het kan een van de volgende zijn:"
+HelpParm[2]="   "
+; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
+HelpDesc[2]="   klasse, textuur, geluid, muziek, niveau, model, polys, tekstbuffer"
+HelpParm[3]="export_ext"
+; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
+HelpDesc[3]="Bestandsextensie om naar te exporteren. De geaccepteerde bestandsextensies per klasse zijn als volgt:"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   class: uc, h"
+HelpDesc[4]="   klas: uc, h"
+HelpParm[5]="   "
+; EN: HelpDesc[5]="   texture: bmp, pcx"
+HelpDesc[5]="   textuur: bmp, pcx"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   sound: wav"
+HelpDesc[6]="   geluid: wav"
+HelpParm[7]="   "
+; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
+HelpDesc[7]="   muziek: s3m, xm, it of een ander trackerformaat"
+HelpParm[8]="   "
+; EN: HelpDesc[8]="   level: t3d"
+HelpDesc[8]="   niveau: t3d"
+HelpParm[9]="   "
+HelpDesc[9]="   model: t3d"
+HelpParm[10]="   "
+HelpDesc[10]="   polys: t3d"
+HelpParm[11]="   "
+HelpDesc[11]="   textbuffer: txt"
+; EN: HelpParm[12]="path"
+HelpParm[12]="pad"
+; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
+HelpDesc[12]="Pad waarnaar bestanden moeten worden geëxporteerd, zoals C: \ MyPath."
+
+[PackageFlagCommandlet]
+; EN: HelpCmd=packageflag
+HelpCmd=pakketvlag
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Set package flags in package files."
+HelpOneLiner="Stel pakketvlaggen in pakketbestanden in."
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
+HelpUsage="pakketvlag src.ext [dest.ext &lt;+ | -&gt; vlag [&lt;+ | -&gt; vlag] ...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load."
+HelpDesc[0]="Bestaand pakketbestand om te laden."
+HelpParm[1]="dest.ext"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings."
+HelpDesc[1]="Naam van nieuw pakketbestand met de nieuwe vlaginstellingen."
+; EN: HelpParm[2]="flag"
+HelpParm[2]="vlag"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+ om een ​​vlag in te stellen, of - om een ​​vlag te verwijderen, gevolgd door een van:"
+HelpParm[3]="   "
+HelpDesc[3]="   AllowDownload"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   ClientOptional"
+HelpDesc[4]="   Client Optioneel"
+HelpParm[5]="   "
+HelpDesc[5]="   ServerSideOnly"
+HelpParm[6]="   "
+HelpDesc[6]="   BrokenLinks"
+HelpParm[7]="   "
+; EN: HelpDesc[7]="   Unsecure"
+HelpDesc[7]="   Onzeker"
+
+[DataRipCommandlet]
+HelpCmd=datarip
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="Maak een pakket met textuur-, muziek- en geluidsgegevens die eruit zijn gerukt."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package."
+HelpDesc[0]="Bronpakket."
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package."
+HelpDesc[1]="Bestemmingspakket."
+
+[UpdateUModCommandlet]
+HelpCmd=updateumod
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
+HelpOneLiner="Bestanden toevoegen, verwijderen, vervangen of extraheren uit een umod."
+; EN: HelpUsage="updateumod UmodFile Command [Filename]"
+HelpUsage="updateumod UmodFile Command [Bestandsnaam]"
+HelpParm[0]="UmodFile"
+; EN: HelpDesc[0]="The umod file to change or view."
+HelpDesc[0]="Het umod-bestand om te wijzigen of te bekijken."
+; EN: HelpParm[1]="Command"
+HelpParm[1]="Opdracht"
+; EN: HelpDesc[1]="Can be one of the following:"
+HelpDesc[1]="Kan een van de volgende zijn:"
+HelpParm[2]="   "
+; EN: HelpDesc[2]="   EXTRACT (file extraction)"
+HelpDesc[2]="   EXTRACT (bestandsextractie)"
+HelpParm[3]="   "
+; EN: HelpDesc[3]="   ADD (file addition)"
+HelpDesc[3]="   ADD (toevoeging van bestanden)"
+HelpParm[4]="   "
+; EN: HelpDesc[4]="   DELETE (file deletion)"
+HelpDesc[4]="   DELETE (verwijderen van bestanden)"
+HelpParm[5]="   "
+; EN: HelpDesc[5]="   REPLACE (file replacement)"
+HelpDesc[5]="   REPLACE (bestandsvervanging)"
+HelpParm[6]="   "
+; EN: HelpDesc[6]="   LIST (file listing)"
+HelpDesc[6]="   LIST (bestandslijst)"
+; EN: HelpParm[7]="Filename"
+HelpParm[7]="Bestandsnaam"
+; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
+HelpDesc[7]="Het bestand naar EXTRACT, TOEVOEGEN, VERWIJDEREN of VERVANGEN."
+
+[ChecksumPackageCommandlet]
+; EN: HelpCmd=checksumpackage
+HelpCmd=controlepakket
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Display checksum for package file."
+HelpOneLiner="Toon checksum voor pakketbestand."
+; EN: HelpUsage="checksumpackage packagename"
+HelpUsage="checksumpakket pakketnaam"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="verpakkingsnaam"
+; EN: HelpDesc[0]="The name of the package to checksum."
+HelpDesc[0]="De naam van het pakket naar checksum."
+
+[StripSourceCommandlet]
+HelpCmd=StripSource
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Strip the script buffers from a package."
+HelpOneLiner="Verwijder de scriptbuffers uit een pakket."
+; EN: HelpUsage="stripsource packagename"
+HelpUsage="stripsource pakketnaam"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="verpakkingsnaam"
+; EN: HelpDesc[0]="The name of the package to strip sources."
+HelpDesc[0]="De naam van het pakket om bronnen te strippen."
+
+[DumpIntCommandlet]
+HelpCmd=DumpInt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dump the language text contents out of a file."
+HelpOneLiner="Dump de taal van de tekstinhoud uit een bestand."
+; EN: HelpUsage="dumpint packagename"
+HelpUsage="dumpint pakketnaam"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="verpakkingsnaam"
+; EN: HelpDesc[0]="The name of the package to dump language text of."
+HelpDesc[0]="De naam van het pakket waarvan de taaltekst moet worden gedumpt."
+
+[ExportPackageCommandlet]
+; EN: HelpCmd=ExportPackage
+HelpCmd=Export Pakket
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Simply export a package contents to .uc files in prior directory."
+HelpOneLiner="Exporteer eenvoudig de inhoud van een pakket naar .uc-bestanden in een eerdere map."
+; EN: HelpUsage="exportpackage packagename"
+HelpUsage="exportpakket pakketnaam"
+; EN: HelpParm[0]="packagename"
+HelpParm[0]="verpakkingsnaam"
+; EN: HelpDesc[0]="The name of the package to export UC files of."
+HelpDesc[0]="De naam van het pakket waarvan u UC-bestanden wilt exporteren."
+
+[CompareIntCommandlet]
+HelpCmd=CompareInt
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
+HelpOneLiner="Vergelijk 2 taalbestanden en verwijder / verwijder taalvermeldingen waarmee u vergelijkt."
+; EN: HelpUsage="compareint packageint miscint"
+HelpUsage="vergelijkint pakketint miscint"
+; EN: HelpParm[0]="packageint"
+HelpParm[0]="pakketint"
+; EN: HelpDesc[0]="Main language file."
+HelpDesc[0]="Hoofdtaalbestand."
+; EN: HelpParm[1]="miscint"
+HelpParm[1]="misverstand"
+; EN: HelpDesc[1]="Secondary language file (to edit)."
+HelpDesc[1]="Secundair taalbestand (om te bewerken)."
+
+[ListObjectsCommandlet]
+HelpCmd=listobjects
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Lists Objects in package."
+HelpOneLiner="Geeft een lijst van objecten in pakket."
+; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] &lt;pakket&gt; [&lt;basisklasse&gt;]"
+; EN: HelpParm[0]="-switch1, -switch2..."
+HelpParm[0]="-schakelaar1, -schakelaar2 ..."
+; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
+HelpDesc[0]="Optieschakelaars kunnen een of meer van de volgende zijn:"
+HelpParm[1]="   -cp"
+; EN: HelpDesc[1]="   Prints pathname instead of name for Class."
+HelpDesc[1]="   Drukt padnaam af in plaats van naam voor Klasse."
+HelpParm[2]="   -op"
+; EN: HelpDesc[2]="   Prints pathname instead of name for Object."
+HelpDesc[2]="   Drukt de padnaam af in plaats van de naam voor Object."
+HelpParm[3]="   -na"
+; EN: HelpDesc[3]="   Do not align output."
+HelpDesc[3]="   Lijn de uitvoer niet uit."
+HelpParm[4]="   -ni"
+; EN: HelpDesc[4]="   Do not indent object hierarchy."
+HelpDesc[4]="   Laat de objecthiërarchie niet inspringen."
+HelpParm[5]="   -nc"
+; EN: HelpDesc[5]="   Do not display class."
+HelpDesc[5]="   Geen klasse weergeven."
+HelpParm[6]="   -co"
+; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
+HelpDesc[6]="   Geef gewoon objectklassen weer in plaats van elk object."
+HelpParm[7]="pkg"
+; EN: HelpDesc[7]="Package file."
+HelpDesc[7]="Pakketbestand."
+; EN: HelpParm[8]="baseclass"
+HelpParm[8]="basisklasse"
+; EN: HelpDesc[8]="Optional base class of listed objects."
+HelpDesc[8]="Optionele basisklasse van vermelde objecten."
+
+[AudioPackageCommandlet]
+; EN: HelpCmd=audiopackage
+HelpCmd=audiopakket
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Create an audio package out of a directory."
+HelpOneLiner="Maak een audiopakket uit een directory."
+; EN: HelpUsage="audiopackage <input directory>"
+HelpUsage="audiopakket &lt;invoermap&gt;"
+
+[DumpTextureInfoCommandlet]
+HelpCmd=dumptextureinfo
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dumps information about textures."
+HelpOneLiner="Dumpt informatie over texturen."
+; EN: HelpUsage="dumptextureinfo <pkg>"
+HelpUsage="dumptextureinfo &lt;pkg&gt;"
+
+[MusicPackagesCommandlet]
+; EN: HelpCmd=musicpackages
+HelpCmd=muziekpakketten
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Creates music packages out of a directory."
+HelpOneLiner="Maakt muziekpakketten uit een directory."
+; EN: HelpUsage="musicpackages <input directory>"
+HelpUsage="musicpackages &lt;invoermap&gt;"
+
+[ReduceTexturesCommandlet]
+; EN: HelpCmd=reducetextures
+HelpCmd=verkleinen
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
+HelpOneLiner="Verwijdert onnodige niet-gecomprimeerde mipmaps."
+; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
+HelpUsage="reducetextures &lt;inpkg&gt; &lt;outpkg&gt;"
+
+[SaveEmbeddedCommandlet]
+HelpCmd=saveembedded
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Saves an embedded package to a separate file."
+HelpOneLiner="Slaat een ingesloten pakket op in een apart bestand."
+; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
+HelpUsage="saveembedded &lt;pkg&gt; &lt;embpkg&gt; &lt;outfile&gt;"
+HelpParm[0]="   "
+HelpDesc[0]="   "
+HelpParm[1]="   "
+HelpDesc[1]="   "
+
+[DumpMeshInfoCommandlet]
+HelpCmd=dumpmeshinfo
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Dumps information about meshes."
+HelpOneLiner="Dumpt informatie over meshes."
+; EN: HelpUsage="dumptextureinfo <pkg>"
+HelpUsage="dumptextureinfo &lt;pkg&gt;"
+
+[BatchMeshExportCommandlet]
+HelpCmd=batchmeshexport
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Batch exports meshes."
+HelpOneLiner="Batch exporteert meshes."
+; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
+HelpUsage="batchmeshexport &lt;pkg&gt; &lt;format&gt; &lt;outpath&gt;"
+
+[RebuildImportsCommandlet]
+; EN: HelpCmd=rebuildimports
+HelpCmd=herbouwimports
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Rebuilds import script for a package."
+HelpOneLiner="Bouwt het importscript voor een pakket opnieuw op."
+; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
+HelpUsage="rebuildimports &lt;pkg&gt; [-upkg]"
+HelpParm[0]="-upkg"
+; EN: HelpDesc[0]="Switches output to upkg format. Default is uc."
+HelpDesc[0]="Schakelt output naar upkg-formaat. Standaard is uc."
+
+[ProdigiosumInParvoCommandlet]
+HelpCmd=prodigiosuminparvo
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Batch exports all mip map levels."
+HelpOneLiner="Batch exporteert alle MIP-kaartniveaus."
+; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
+HelpUsage="prodigiosuminparvo &lt;pkg&gt; &lt;format&gt; &lt;outpath&gt;"
+
+[FullBatchExportCommandlet]
+HelpCmd=fullbatchexport
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Extract package with directory structure."
+HelpOneLiner="Pak het pakket uit met de directorystructuur."
+; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
+HelpUsage="fullbatchexport &lt;pkg&gt; &lt;outpath&gt;"
+
+[FontPageDiffCommandlet]
+HelpCmd=fontpagediff
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Compares font pages."
+HelpOneLiner="Vergelijkt lettertypepagina's."
+; EN: HelpUsage="fontpagediff <left font> <right font>"
+HelpUsage="fontpagediff &lt;linker lettertype&gt; &lt;rechter lettertype&gt;"
+
+[FontExporter]
+HelpCmd=FontExporter
+HelpWebLink="http://www.oldunreal.com"
+; EN: HelpOneLiner="Exports font pages."
+HelpOneLiner="Exporteert lettertypepagina's."
+; EN: HelpUsage="FontExporter <pkg> <outpath>"
+HelpUsage="FontExporter &lt;pkg&gt; &lt;outpath&gt;"

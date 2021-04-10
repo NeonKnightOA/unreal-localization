@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client,Compat="Lin32,Lin64,LinARM")
+; EN: Preferences=(Caption="SDL2",Parent="Display",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+Preferences=(Caption="SDL2",Parent="Отображать",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="SDL2",Parent="Joystick",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
+Preferences=(Caption="SDL2",Parent="Джойстик",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D="Не удалось инициализировать оборудование 3D"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Карта перспективы"
+; EN: ViewXY="Overhead map"
+ViewXY="Верхняя карта"
+; EN: ViewXZ="XZ map"
+ViewXZ="Карта XZ"
+; EN: ViewYZ="YZ map"
+ViewYZ="Карта YZ"
+; EN: ViewOther="Viewport"
+ViewOther="Область просмотра"
+; EN: Color16="&16-bit color"
+Color16="&amp; 16-битный цвет"
+; EN: Color32="&32-bit color"
+Color32="&amp; 32-битный цвет"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Расширенные настройки"
+
+[SDL2Client]
+; EN: ClassCaption="Standard SDL2 Linux Manager"
+ClassCaption="Стандартный SDL2 Linux Manager"

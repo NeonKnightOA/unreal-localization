@@ -1,0 +1,44 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal Gold/Unreal Anthology"
+LocalProduct="Unreal Gold / Unreal Anthology"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Uvirkelig"
+; EN: ReadMe="Help\227ReleaseNotes.pdf"
+ReadMe="Hjelp \ 227ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Uvirkelig oppsett"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Uvirkelige alternativer"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 av Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\Logo.bmp"
+Logo="Hjelp \ Logo.bmp"
+
+[UnrealRequirement]
+; EN: LocalProduct="Unreal Gold/Unreal Anthology"
+LocalProduct="Unreal Gold / Unreal Anthology"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.epicgames.com/"
+Developer="Epic Games, Inc."
+DeveloperURL="http://www.epicgames.com/"
+
+[LinuxGroup]
+; EN: Caption="Linux native files"
+Caption="Innfødte Linux-filer"
+; EN: Description="Copies all files required to run and play Unreal natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
+Description="Kopierer alle filer som kreves for å kjøre og spille Unreal innfødt i Linux. Det er ingen meny for avanserte alternativer ennå, men alle innstillinger noteres og kan redigeres i UnrealLinux.ini i System-mappen. Niveauditoren UnrealED 2.1 er ikke tilgjengelig i Linux ennå. Hvis du har problemer med å starte spillet, er det mer informasjon og ofte stilte spørsmål inne i ReleaseNotes i hjelpekatalogen. Hvis systemet ikke tilbyr alle biblioteker, er det en pakke som heter lin_convenience_libs.7z i Hjelp-mappen som skal inneholde alle nødvendige filer."
+
+[OldWeaponsGroup]
+; EN: Caption="Old Weapons"
+Caption="Gamle våpen"
+; EN: Description="Copies the Old Weapons mutator files. These files allow you to play with the weapons of Unreal version 200. Details can be found in the OldWeaponsReadme.txt in the help folder."
+Description="Kopierer de gamle våpenmutatorfilene. Disse filene lar deg spille med våpnene i Unreal versjon 200. Detaljer finner du i OldWeaponsReadme.txt i hjelpemappen."
+
+[UPakFixGroup]
+; EN: Caption="Return to Na Pali Coop Fix"
+Caption="Gå tilbake til Na Pali Coop Fix"
+; EN: Description="Copies the UPakFix mutator files. These files allow you to play Unreal: Return to Na Pali in cooperative multiplayer mode without the usual errors."
+Description="Kopierer UPakFix-mutatorfilene. Disse filene lar deg spille Unreal: Return to Na Pali i samarbeidende flerspillermodus uten de vanlige feilene."

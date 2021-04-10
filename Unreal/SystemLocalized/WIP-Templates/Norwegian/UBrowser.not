@@ -1,0 +1,174 @@
+﻿[Public]
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console)
+; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+Preferences=(Caption="UBrowser",Parent="Nettverk",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+
+[UBrowserServerListWindow]
+InfoName="Info"
+; EN: PlayerCountName="Players"
+PlayerCountName="Spillere"
+; EN: ServerCountName="Servers"
+ServerCountName="Servere"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Spørring om Master Server (trykk F5 hvis ingenting skjer)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="Masterserver mislyktes: "
+; EN: PingingText="Pinging Servers"
+PingingText="Pinging-servere"
+; EN: CompleteText="Complete"
+CompleteText="Fullstendig"
+
+[UBrowserMainWindow]
+; EN: WindowTitleString="Server Browser"
+WindowTitleString="Serverleser"
+
+[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Hovedserveren kunne ikke løses: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Timeout for å snakke med hovedserveren"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Tidsavbrudd for tilkobling til hovedserveren: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Hovedserveren kunne ikke løses: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Timeout for å snakke med hovedserveren"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Tidsavbrudd for tilkobling til hovedserveren: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Fant ikke vinduet: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Vinduet er ikke klart: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Regel"
+; EN: ValueText="Value"
+ValueText="Verdi"
+
+[UBrowserServerPing]
+; EN: AdminEmailText="Admin Email"
+AdminEmailText="Administrator-e-post"
+; EN: AdminNameText="Admin Name"
+AdminNameText="Administratornavn"
+; EN: ChangeLevelsText="Change Levels"
+ChangeLevelsText="Endre nivåer"
+; EN: MultiplayerBotsText="Bots in Multiplayer"
+MultiplayerBotsText="Bots i flerspiller"
+FragLimitText="Frag Limit"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="Tidsbegrensning"
+; EN: GameModeText="Game Mode"
+GameModeText="Spillemodus"
+; EN: GameTypeText="Game Type"
+GameTypeText="Spilltype"
+; EN: GameVersionText="Game Version"
+GameVersionText="Spillversjon"
+WorldLogText="ngStats World Stat-Logging"
+; EN: TrueString="Enabled"
+TrueString="Aktivert"
+; EN: FalseString="Disabled"
+FalseString="Funksjonshemmet"
+GameSubVersionText="Game SubVersion"
+; EN: MapFileString="Map Filename"
+MapFileString="Kart Filnavn"
+; EN: DLLString="C++ Library"
+DLLString="C ++ bibliotek"
+; EN: DLLVerString="%ls (ver %i)"
+DLLVerString="% ls (ver% i)"
+; EN: WebURLString="Website URL"
+WebURLString="nettsideadresse"
+ServerOSString="Server OS"
+; EN: GameClassString="Game Class"
+GameClassString="Spillklasse"
+
+[UBrowserMainClientWindow]
+; EN: FavoritesName="Favorites"
+FavoritesName="Favoritter"
+NewsName="Community News"
+; EN: RecentName="Recent servers"
+RecentName="Nyere servere"
+
+[UBrowserServerGrid]
+ServerName="Server"
+PingName="Ping"
+; EN: MapNameName="Map Name"
+MapNameName="Kartnavn"
+; EN: PlayersName="Players"
+PlayersName="Spillere"
+; EN: VersionName="Version"
+VersionName="Versjon"
+
+[UBrowserInfoMenu]
+; EN: RefreshName="&Refresh Info"
+RefreshName="&amp; Oppdater info"
+; EN: AttachName="&Attach"
+AttachName="&amp;Feste"
+; EN: CloseName="&Close"
+CloseName="&amp;Lukk"
+
+[UBrowserRightClickMenu]
+; EN: RefreshName="&Refresh All Servers"
+RefreshName="&amp; Oppdater alle servere"
+; EN: FavoritesName="Add to &Favorites"
+FavoritesName="Legg til i favoritter"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="Fjern fra favoritter"
+; EN: RefreshServerName="&Ping This Server"
+RefreshServerName="&amp; Ping denne serveren"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping og alle servere"
+; EN: InfoName="&Server and Player Info"
+InfoName="&amp; Server- og spillerinfo"
+; EN: JoinPasswordName="Join with &Password"
+JoinPasswordName="Bli med &amp; Passord"
+; EN: JoinServerName="&Join server"
+JoinServerName="&amp; Bli server"
+; EN: SpectateServerName="Join as &Spectator"
+SpectateServerName="Bli med som &amp; tilskuer"
+; EN: ServerWebsiteName="Show server &Website"
+ServerWebsiteName="Vis server og nettsted"
+; EN: CopyAddressName="&Copy server address"
+CopyAddressName="&amp; Kopier serveradresse"
+
+[UBrowserPlayerGrid]
+; EN: NameText="Name"
+NameText="Navn"
+FragsText="Frags"
+PingText="Ping"
+TeamText="Team"
+MeshText="Mesh"
+; EN: SkinText="Skin"
+SkinText="Hud"
+IDText="ID"
+
+[UBrowserConsole]
+; EN: ClassCaption="Unreal Browser Console"
+ClassCaption="Uvirkelig nettleserkonsoll"
+
+[UBrowserOpenBar]
+; EN: OpenText="Open:"
+OpenText="Åpen:"
+; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
+OpenHelp="Skriv inn en standard URL, eller velg en fra URL-historikken. Trykk Enter for å aktivere."
+
+[UBrowserServerWebWin]
+WindowTitle="Web Explorer"
+
+[UBrowserLibPageWindow]
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+DLLTitleStr="Kan ikke koble til: Mangler Dynamic Link Library "% ls"."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+DLLVerTitleStr="Kan ikke koble til: Dynamic Link Library-versjonen samsvarer ikke med "% ls"."
+; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
+InfoText[0]="For å koble til denne serveren, trenger du ekstra C ++ - bibliotek "% ls"."
+; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
+InfoText[1]="For mer info, se ekstern info nedenfra (hostet av% ls):"
+
+[UBrowserServerWebCW]
+; EN: RefreshString="Refresh page"
+RefreshString="Oppdater side"

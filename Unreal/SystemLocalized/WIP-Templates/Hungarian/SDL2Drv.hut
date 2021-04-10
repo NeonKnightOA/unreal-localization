@@ -1,0 +1,30 @@
+﻿[Public]
+Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client,Compat="Lin32,Lin64,LinARM")
+; EN: Preferences=(Caption="SDL2",Parent="Display",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+Preferences=(Caption="SDL2",Parent="Kijelző",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+Preferences=(Caption="SDL2",Parent="Joystick",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D="A 3D hardver inicializálása nem sikerült"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Perspektív térkép"
+; EN: ViewXY="Overhead map"
+ViewXY="Rezsi térkép"
+; EN: ViewXZ="XZ map"
+ViewXZ="XZ térkép"
+; EN: ViewYZ="YZ map"
+ViewYZ="YZ térkép"
+; EN: ViewOther="Viewport"
+ViewOther="Nézetablak"
+; EN: Color16="&16-bit color"
+Color16="&amp; 16 bites szín"
+; EN: Color32="&32-bit color"
+Color32="&amp; 32 bites szín"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Haladó beállítások"
+
+[SDL2Client]
+ClassCaption="Standard SDL2 Linux Manager"

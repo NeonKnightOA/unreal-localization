@@ -1,0 +1,160 @@
+﻿[Public]
+; EN: Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1; Návrat do Na Pali")
+Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakCoopGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.DuskFallsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TestGameInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakIntro,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+
+[TransitionNullHUD]
+; EN: Statheader="Kill Statistics: "
+Statheader="Statistiky zabití: "
+; EN: CARStat="Combat Assault Rifle"
+CARStat="Bojová útočná puška"
+RLStat="UMS Rocket Launcher"
+; EN: GLStat="UMS Grenade Launcher"
+GLStat="UMS granátomet"
+ASMDStat="ASMD"
+AutomagStat="Automag"
+; EN: DispersionStat="Dispersion Pistol"
+DispersionStat="Rozptylová pistole"
+EightballStat="Eightball"
+FlakCannonStat="Flak Cannon"
+GESBioRifleStat="GES BioRifle"
+MinigunStat="Minigun"
+; EN: RazorjackStat="Razorjack"
+RazorjackStat="Žiletka"
+; EN: RifleStat="Rifle"
+RifleStat="Puška"
+StingerStat="Stinger"
+; EN: TotalStat="Total Kills"
+TotalStat="Celkem zabití"
+; EN: LogEntryMsg="LOG ENTRY:"
+LogEntryMsg="VSTUP DO ZÁZNAMU:"
+
+[GrenadeLauncher]
+; EN: PickupMessage="You got the UMS Grenade Launcher."
+PickupMessage="Máte UMS granátomet."
+; EN: ItemName="UMS Grenade Launcher"
+ItemName="UMS granátomet"
+
+[Cloak]
+; EN: ExpireMessage="disengaged."
+ExpireMessage="odpojen."
+; EN: PickupMessage="You got the Cloaking Device."
+PickupMessage="Máš maskovací zařízení."
+; EN: ItemName="Cloaking Device"
+ItemName="Maskovací zařízení"
+; EN: M_Activated=" engaged"
+M_Activated=" zasnoubený"
+; EN: M_Deactivated=" disengaged"
+M_Deactivated=" odpojen"
+
+[UPakHUD]
+; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
+MultWeapSlotMsg="Stisknutím tlačítka pro výběr zbraní přepínáte zbraně."
+
+[UPakSinglePlayer]
+; EN: GameName="Unreal Mission Pack"
+GameName="Neskutečný balíček misí"
+
+[RocketLauncher]
+; EN: PickupMessage="You got the UMS Rocket Launcher."
+PickupMessage="Máte raketomet UMS."
+ItemName="UMS Rocket Launcher"
+
+[UPakChooseGameMenu]
+; EN: MenuList[0]="Return to Na Pali"
+MenuList[0]="Zpět na Na Pali"
+; EN: MenuList[1]="Unreal"
+MenuList[1]="Neskutečný"
+
+[CloakMatch]
+GameName="Cloak Match"
+
+[CARifle]
+; EN: PickupMessage="You got the Combat Assault Rifle"
+PickupMessage="Máš Combat Assault Rifle"
+; EN: ItemName="Combat Assault Rifle"
+ItemName="Bojová útočná puška"
+
+[UPakScubaGear]
+; EN: RechargedMessage="ScubaGear fully recharged."
+RechargedMessage="ScubaGear plně nabitý."
+; EN: LowOxygenMessage="Oxygen supply critically low"
+LowOxygenMessage="Dodávka kyslíku je kriticky nízká"
+; EN: PickupMessage="You picked up the Marine SCUBA Gear"
+PickupMessage="Zvedl jste Marine SCUBA Gear"
+ItemName="Marine SCUBA Gear"
+; EN: M_Deactivated="deactivated... Recharging."
+M_Deactivated="deaktivováno ... Dobíjení."
+
+[MarineMatch]
+GameName="Marine Match"
+
+[GravityMatch]
+; EN: GameName="Gravity Match"
+GameName="Gravitační zápas"
+
+[UPakDebugger]
+; EN: ItemName="UPak Debugger"
+ItemName="Debugger UPak"
+
+[UPakMaleOne]
+; EN: MenuName="Male 1"
+MenuName="Muž 1"
+
+[UPakFemaleOne]
+; EN: MenuName="Female 1"
+MenuName="Žena 1"
+
+[GLAmmo]
+; EN: PickupMessage="You picked up 10 UMS Grenades."
+PickupMessage="Získali jste 10 granátů UMS."
+; EN: ItemName="UMS Grenades"
+ItemName="UMS granáty"
+
+[RLAmmo]
+; EN: PickupMessage="You got 10 UMS Rockets."
+PickupMessage="Máte 10 raket UMS."
+; EN: ItemName="UMS Rockets"
+ItemName="UMS rakety"
+
+[CARifleClip]
+; EN: PickupMessage="You got a 50 bullet CAR clip."
+PickupMessage="Máš klip CAR s 50 kulkami."
+ItemName="CAR Clip"
+
+[UPakFemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Žena 2"
+
+[UPakMaleThree]
+; EN: MenuName="Male 3"
+MenuName="Muž 3"
+
+[UPakMaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Muž 2"
+
+[TerranWeaponMatch]
+GameName="Terran Weapon Match"
+
+[CompTablet]
+; EN: PickupMessage="You got the Computer Tablet."
+PickupMessage="Máte počítačový tablet."
+; EN: ItemName="Computer Tablet"
+ItemName="Počítačový tablet"

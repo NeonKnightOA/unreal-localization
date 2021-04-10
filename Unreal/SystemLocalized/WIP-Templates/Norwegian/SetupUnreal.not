@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="Uvirkelig"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Uvirkelig"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Hjelp \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Uvirkelig oppsett"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Uvirkelige alternativer"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 av Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Hjelp \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&amp; Spill dette uvirkelige nivået"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&amp; Åpne denne uvirkelige lenken"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&amp; Installer denne uvirkelige modulen"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&amp; Rediger dette uvirkelige nivået"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Spillinnhold"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Uvirkelig spillinnhold. Installer dette for best ytelse. Hvis du ikke merker av det, lastes spillinnholdet fra CDen under avspilling, fornedrende ytelse, men bruker mindre harddiskplass."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Uvirkelig spill"
+; EN: Description="Unreal game. Installation is required."
+Description="Uvirkelig spill. Installasjon er nødvendig."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Valgfri Microsoft DirectX 8-drivere for forbedret grafikk-, lyd- og joystick-støtte."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Uvirkelig redaktør"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Uvirkelig verdensredaktør, for å lage dine egne 3D uvirkelige miljøer. For avanserte brukere; installasjon er valgfritt."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Spill Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Uvirkelig sikker modus"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Uvirkelig redaktør"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Dokumentasjon"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Uvirkelig webside"

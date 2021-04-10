@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+Title="Terraniux"
+
+[LevelSummary]
+Title="Terraniux"
+
+[TranslatorEvent3]
+; EN: Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+Message="Stav velínu: Pod tlakem a uzamčen. Nepřistupujte kromě případů nouze."
+
+[TranslatorEvent4]
+; EN: Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Message="Stav zabezpečení: Při vstupu byl zjištěn vetřelec. Aktivace bezpečnostních obrazovek v sekci Scientific Research Lab a Hydroponics. Všechny prvky zabezpečení se nasazují kolem přístupových bodů v sekcích A, B a C, aby odepřely přístup vetřelce k výtahu 1."
+; EN: Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+Hint="Najděte zadržovací místnosti A, B a C a aktivujte tlačítka pro přístup k výtahu 1."
+
+[TranslatorEvent5]
+; EN: Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+Message="Stav odtoku: Tok biologického odpadu je na nominální úrovni. Všechna čerpadla v provozu. Sekce C je prázdná a je k dispozici pro jakékoli přetečení Biowaster. Ujistěte se, že je zajištěna pravidelná údržba potrubí."
+
+[TranslatorEvent0]
+; EN: Message="Section B: Status 48% full."
+Message="Sekce B: Stav 48% plný."
+
+[TranslatorEvent10]
+; EN: Message="Greenhouse B: Please verify that the Biowaste is being pumped through the Control Room filters and that no foreign objects are blocking the flow."
+Message="Skleník B: Ověřte prosím, že bioodpad je čerpán přes filtry velínu a že tok neblokují žádné cizí předměty."
+
+[Trigger32]
+; EN: Message="Lift to Noork's Elbow activated"
+Message="Aktivován výtah do Noorkova lokte"
+
+[TranslatorEvent1]
+; EN: Message="Section A: Status full. Biowaste redirect to Section B active."
+Message="Sekce A: Stav plný. Přesměrování biologického odpadu do sekce B aktivní."
+
+[TranslatorEvent8]
+; EN: Message="Access Denied. Control Room authorization must be granted to access Noork's Elbow."
+Message="Přístup odepřen. Pro přístup k Noork's Elbow musí být uděleno oprávnění velínu."
+; EN: AltMessage="Access granted."
+AltMessage="Přístup umožněn."
+; EN: Hint="If you swim down in the BioWaste you can access the Control Room."
+Hint="Pokud budete plavat dolů v BioWaste, můžete vstoupit do kontrolní místnosti."
+
+[TranslatorEvent2]
+; EN: Message="Section C: Status Empty, this Containment Room is damaged, please avoid sending BioWaste here until we can fix it."
+Message="Sekce C: Stav prázdný, tato zadržovací místnost je poškozená, prosím, vyhněte se odesílání BioWaste sem, dokud to nebudeme moci opravit."
+
+[TranslatorEvent6]
+; EN: Message="Lift 1: Security Lock, Access denied. Containment room pumps must be active for entrance to hydroponic greenhouses."
+Message="Výtah 1: Bezpečnostní zámek, přístup odepřen. Pro vstup do hydroponických skleníků musí být aktivní čerpadla zadržovací místnosti."
+; EN: AltMessage="Lift 1: Status working. Access to hydroponic gardens permitted."
+AltMessage="Výtah 1: Stav funguje. Přístup do hydroponických zahrad povolen."
+
+[TranslatorEvent7]
+; EN: Message="Lift 2 Status: A broken pipe was reported."
+Message="Stav výtahu 2: Bylo nahlášeno prasklé potrubí."
+; EN: Hint="This Lift is broken, but verify the pipes, something interesting could be hidden."
+Hint="Tento výtah je nefunkční, ale ověřte potrubí, mohlo by se skrýt něco zajímavého."
+
+[TranslatorEvent9]
+; EN: Message="Greenhouse A: Section A is full. Biowaste flow must be redirected from the Control Room. Section B of the waste facility has free capacity. Please be sure to monitor the water supply for impurities."
+Message="Skleník A: Sekce A je plná. Tok biologického odpadu musí být přesměrován z dispečinku. Oddíl B zařízení pro nakládání s odpady má volnou kapacitu. Nezapomeňte sledovat přívod vody, zda neobsahuje nečistoty."
+; EN: Hint="The Biowaste is filtered in the Control Room."
+Hint="Bioodpad je filtrován v kontrolní místnosti."
+
+[TranslatorEvent11]
+; EN: Message="Greenhouse B: The Karkilys Zegnus need more fertilizer. Please dispatch a group of guards to inspect the Nali homes in the Noork's Elbow. Disembarkment authorization must be granted in the Control Room."
+Message="Skleník B: Karkilys Zegnus potřebuje více hnojiv. Zašlete prosím skupinu strážných, aby prozkoumali domovy Nali v Noorkově lokti. V kontrolní místnosti musí být uděleno oprávnění k vylodění."
+
+[TranslatorEvent12]
+; EN: Message="Greenhouse C: The night is coming soon, please maintain careful control of the hygrometric level and air temperature. Constant monitoring is necessary to keep them within appropriate levels."
+Message="Skleník C: Brzy se blíží noc, prosím, pečlivě kontrolujte vlhkoměrnou hladinu a teplotu vzduchu. Je nutné neustále sledovat, aby byly udržovány na příslušných úrovních."
+
+[TranslatorEvent13]
+; EN: Message="Control Room, ACCESS DENIED."
+Message="Velín, PŘÍSTUP ODMÍTNUT."
+; EN: Hint="You must find another way to go in this room."
+Hint="V této místnosti musíte najít jiný způsob, jak jít."
+
+[TranslatorEvent14]
+; EN: Message="Access Denied. Control Room authorization must be granted to access Noork Elbow."
+Message="Přístup odepřen. Pro přístup k Noork Elbow je třeba udělit oprávnění velínu."
+
+[Trigger46]
+; EN: Message="Access Room security locks disengaged."
+Message="Bezpečnostní zámky přístupové místnosti nejsou aktivní."
+
+[TranslatorEvent15]
+; EN: Message="Pump activated, Biowaste transferred in section B."
+Message="Čerpadlo aktivováno, biologický odpad přenesen v sekci B."

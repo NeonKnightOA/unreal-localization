@@ -1,0 +1,163 @@
+﻿[Public]
+; EN: Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1; Terug naar Na Pali")
+Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakCoopGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.DuskFallsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TestGameInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakIntro,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+
+[TransitionNullHUD]
+; EN: Statheader="Kill Statistics: "
+Statheader="Dood statistieken: "
+; EN: CARStat="Combat Assault Rifle"
+CARStat="Bestrijd aanvalsgeweer"
+RLStat="UMS Rocket Launcher"
+; EN: GLStat="UMS Grenade Launcher"
+GLStat="UMS-granaatwerper"
+ASMDStat="ASMD"
+AutomagStat="Automag"
+; EN: DispersionStat="Dispersion Pistol"
+DispersionStat="Dispersiepistool"
+; EN: EightballStat="Eightball"
+EightballStat="Acht bal"
+; EN: FlakCannonStat="Flak Cannon"
+FlakCannonStat="Luchtafweerkanon"
+GESBioRifleStat="GES BioRifle"
+MinigunStat="Minigun"
+RazorjackStat="Razorjack"
+; EN: RifleStat="Rifle"
+RifleStat="Geweer"
+StingerStat="Stinger"
+; EN: TotalStat="Total Kills"
+TotalStat="Totaal aantal moorden"
+; EN: LogEntryMsg="LOG ENTRY:"
+LogEntryMsg="LOGINVOER:"
+
+[GrenadeLauncher]
+; EN: PickupMessage="You got the UMS Grenade Launcher."
+PickupMessage="Je hebt de UMS Grenade Launcher."
+; EN: ItemName="UMS Grenade Launcher"
+ItemName="UMS-granaatwerper"
+
+[Cloak]
+; EN: ExpireMessage="disengaged."
+ExpireMessage="ontkoppeld."
+; EN: PickupMessage="You got the Cloaking Device."
+PickupMessage="Je hebt het verhul apparaat."
+; EN: ItemName="Cloaking Device"
+ItemName="Cloaking-apparaat"
+; EN: M_Activated=" engaged"
+M_Activated=" verloofd"
+; EN: M_Deactivated=" disengaged"
+M_Deactivated=" ontkoppeld"
+
+[UPakHUD]
+; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
+MultWeapSlotMsg="Druk op de wapenselectieknop om tussen wapens te schakelen."
+
+[UPakSinglePlayer]
+GameName="Unreal Mission Pack"
+
+[RocketLauncher]
+; EN: PickupMessage="You got the UMS Rocket Launcher."
+PickupMessage="Je hebt de UMS Rocket Launcher."
+ItemName="UMS Rocket Launcher"
+
+[UPakChooseGameMenu]
+; EN: MenuList[0]="Return to Na Pali"
+MenuList[0]="Keer terug naar Na Pali"
+; EN: MenuList[1]="Unreal"
+MenuList[1]="Onwerkelijk"
+
+[CloakMatch]
+; EN: GameName="Cloak Match"
+GameName="Mantelwedstrijd"
+
+[CARifle]
+; EN: PickupMessage="You got the Combat Assault Rifle"
+PickupMessage="Je hebt het Combat Assault Rifle"
+; EN: ItemName="Combat Assault Rifle"
+ItemName="Bestrijd aanvalsgeweer"
+
+[UPakScubaGear]
+; EN: RechargedMessage="ScubaGear fully recharged."
+RechargedMessage="ScubaGear volledig opgeladen."
+; EN: LowOxygenMessage="Oxygen supply critically low"
+LowOxygenMessage="Zuurstoftoevoer kritiek laag"
+; EN: PickupMessage="You picked up the Marine SCUBA Gear"
+PickupMessage="Je hebt de Marine SCUBA-uitrusting opgehaald"
+; EN: ItemName="Marine SCUBA Gear"
+ItemName="Marine SCUBA-uitrusting"
+; EN: M_Deactivated="deactivated... Recharging."
+M_Deactivated="gedeactiveerd ... Bezig met opladen."
+
+[MarineMatch]
+; EN: GameName="Marine Match"
+GameName="Mariene wedstrijd"
+
+[GravityMatch]
+; EN: GameName="Gravity Match"
+GameName="Zwaartekracht Match"
+
+[UPakDebugger]
+ItemName="UPak Debugger"
+
+[UPakMaleOne]
+; EN: MenuName="Male 1"
+MenuName="Man 1"
+
+[UPakFemaleOne]
+; EN: MenuName="Female 1"
+MenuName="Vrouw 1"
+
+[GLAmmo]
+; EN: PickupMessage="You picked up 10 UMS Grenades."
+PickupMessage="Je hebt 10 UMS-granaten opgepakt."
+; EN: ItemName="UMS Grenades"
+ItemName="UMS-granaten"
+
+[RLAmmo]
+; EN: PickupMessage="You got 10 UMS Rockets."
+PickupMessage="Je hebt 10 UMS Rockets."
+; EN: ItemName="UMS Rockets"
+ItemName="UMS-raketten"
+
+[CARifleClip]
+; EN: PickupMessage="You got a 50 bullet CAR clip."
+PickupMessage="Je hebt een CAR-clip met 50 kogels."
+ItemName="CAR Clip"
+
+[UPakFemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Vrouw 2"
+
+[UPakMaleThree]
+; EN: MenuName="Male 3"
+MenuName="Mannetje 3"
+
+[UPakMaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Mannetje 2"
+
+[TerranWeaponMatch]
+; EN: GameName="Terran Weapon Match"
+GameName="Terran wapenwedstrijd"
+
+[CompTablet]
+; EN: PickupMessage="You got the Computer Tablet."
+PickupMessage="Je hebt de computertablet."
+; EN: ItemName="Computer Tablet"
+ItemName="Computertablet"

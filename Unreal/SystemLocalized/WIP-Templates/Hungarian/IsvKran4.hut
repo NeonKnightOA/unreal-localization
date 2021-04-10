@@ -1,0 +1,61 @@
+﻿[LevelInfo2]
+; EN: Title="ISV-Kran Deck 4"
+Title="ISV-Kran 4. fedélzet"
+; EN: LevelEnterText="Entering ISV-Kran Deck 4"
+LevelEnterText="Belépés az ISV-Kran 4. fedélzetre"
+
+[LevelSummary]
+; EN: Title="ISV-Kran Deck 4"
+Title="ISV-Kran 4. fedélzet"
+; EN: LevelEnterText="Entering ISV-Kran Deck 4"
+LevelEnterText="Belépés az ISV-Kran 4. fedélzetre"
+
+[TranslatorEvent7]
+; EN: Message="Warehouse Safety Bars Override in Upper Warehouse Loft."
+Message="A raktári biztonsági sávok felülírják a felső raktár tetőterét."
+
+[TranslatorEvent13]
+; EN: AltMessage="Warehouse Safety Bars Disengaged: Access to Dock Permitted."
+AltMessage="A raktár biztonsági rúdjai ki vannak kapcsolva: Hozzáférés a dokkolóhoz engedélyezett."
+
+[TranslatorEvent19]
+; EN: Message="ISV-KRAN DECK 4 STATUS: INTRUDER ALERT: SECURITY LOCKS ACTIVATED: INTRUDERS ON ALL DECKS AND ATTEMPTING TO REACTIVATE MAIN ENGINES - DECK 1 EMERGENCY TELEPORTER AT BRIDGE SECURE"
+Message="ISV-KRAN 4. DECK: BEMUTATÓI RIASZTÁS: BEKAPCSOLOTT BIZTONSÁGI ZÁRK: BETÖLTÖK MINDEN TERÜLETEN, FELKÉSZÍTÉS A FŐMOTOROK REAKTIVÁLÁSÁHOZ - 1. VÉSZHELYZETI TELEPORTER HÍDBIZTOS"
+
+[TranslatorEvent1]
+; EN: Message="Ventilation Processing Mezzanine Ducts: Maintenance Personnel Only: WARNING - ENGINE COOLANT LEAK IN MEZZANINE"
+Message="Szellőzés-feldolgozó mezzanin csatornák: Csak a karbantartó személyzet számára: FIGYELEM - MOTOR HŰTŐFOLYADÉK SZIVÁRGÁSA MEZZANINBAN"
+
+[TranslatorEvent15]
+; EN: Message="PANEL REWIRED TO TRIP ALARM - SYSTEM ACCESSED BY UNAUTHORIZED USERS"
+Message="UTASÍTOTT PANEL UTAZÁSI RIASZTÁSHOZ - RENDSZER MEGHATÁROZÁSÁRA JOGOSULATLAN FELHASZNÁLÓK SZÁMÁRA"
+
+[TranslatorEvent2]
+; EN: Message="Intruder Security Locks Activated - Bypass Required: Bypass panel located in Ventilation Processing Mezzanine."
+Message="A behatoló biztonsági zárai aktiválva - bypass szükséges: Bypass panel található a szellőztető feldolgozó mezzanban."
+; EN: AltMessage="Intruder Security Locks Disengaged"
+AltMessage="A behatoló biztonsági zárai ki vannak kapcsolva"
+
+[TranslatorEvent0]
+; EN: Message="AFT LOADING STATION: ISV-KRAN: We've been wedged into this mountain ridge for 2 months now. Each night these 4 story tall dinosaur type beasts come and beat on the rear hull of the ship. They appear to be relatively unintelligent and slow moving."
+Message="UTÁNI TERHELÉS: ISV-KRAN: 2 hónapja ékelődünk ebbe a hegygerincbe. Minden este ez a 4 emelet magas dinoszaurusz típusú vadállat jön és ver a hajó hátsó testén. Úgy tűnik, hogy viszonylag intelligensek és lassan mozognak."
+
+[TranslatorEvent33]
+; EN: Message="SECURITY BYPASS LOCK STATION: SECURITY LOCKS ENGAGED"
+Message="BIZTONSÁGI TÍPUSZÁRZÁLÓ: A BIZTONSÁGI ZÁROK BEKAPCSOLVA"
+; EN: AltMessage="SECURITY LOCK BYPASS STATION: ALL LOCKS OPEN ACCESS PERMITTED TO WAREHOUSE"
+AltMessage="BIZTONSÁGI ZÁR TÍPUSÚ ÁLLOMÁS: A RAKTÁROKRA MEGHATÁROZOTT MINDEN ZÁR NYITOTT HOZZÁFÉRÉS"
+; EN: Hint="Touch this panel to open the security lock door."
+Hint="Érintse meg ezt a panelt a biztonsági zár ajtajának kinyitásához."
+
+[TranslatorEvent37]
+; EN: Message="Corporal Anders Kerig: They're coming! I can hear them in the ventilation ducts. I'm going to activate the security locks to the Warehouse and implant a Human DNA code so only another Terran can bypass the lock systems."
+Message="Anders Kerig tizedes: Jönnek! Hallom őket a szellőzőcsatornákban. Aktiválom a raktár biztonsági zárjait, és beültetek egy emberi DNS-kódot, hogy csak egy másik Terran tudja megkerülni a zárrendszereket."
+
+[TranslatorEvent38]
+; EN: Message="Corporal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "Skaarj". Your only hope is to destroy the Gold Containment Cores, re-activate the Engines and get to the Deck 1 transporters."
+Message="Pelli Onsov tizedes: Ha a naplóbejegyzésemet olvassa, valószínűleg meghaltam, és a hajónkat "Skaarj" nevű idegenek túllendítették. Az egyetlen remény az, hogy elpusztítja az aranykorító magokat, újra bekapcsolja a motorokat és eljut a Deck 1 szállítószalagokhoz."
+
+[TranslatorEvent36]
+; EN: Message="Petty Officer: Yuri Andromov: The Alien War Party has blasted a hole through the hull and are accessing the ship through the ventilation shafts - Kerig, Onsov and myself are going to make a stand with Stingers here in the loading area."
+Message="Altiszt: Jurij Andromov: Az Idegen Háborús Párt lyukat robbantott a hajótesten, és a szellőzőaknákon keresztül jutnak el a hajóhoz - Kerig, Onsov és jómagam itt fogunk állni a Stingersszel a rakodási területen."

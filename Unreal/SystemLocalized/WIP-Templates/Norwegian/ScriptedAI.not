@@ -1,0 +1,515 @@
+﻿[SVariableBase]
+; EN: MenuName="Variables"
+MenuName="Variabler"
+
+[VAR_OBJECT_BASE]
+; EN: MenuName="Object ref"
+MenuName="Objekt ref"
+
+[VAR_OBJECTARRAY_BASE]
+; EN: MenuName="Object array"
+MenuName="Objektmatrise"
+
+[VAR_Vector]
+MenuName="Vector"
+; EN: Description="Vector variable."
+Description="Vector variabel."
+
+[VAR_STRUCT_BASE]
+; EN: MenuName="Struct members"
+MenuName="Struct medlemmer"
+
+[LOGICBASE]
+; EN: MenuName="Logic"
+MenuName="Logikk"
+
+[ACTIONSBASE]
+; EN: MenuName="Actions"
+MenuName="Handlinger"
+
+[ACTORBASE]
+; EN: MenuName="Actor"
+MenuName="Skuespiller"
+
+[ACTOR_Overlay]
+MenuName="Mesh Overlay"
+; EN: Description="Adds a temporary mesh overlay to an actor."
+Description="Legger til et midlertidig maskeoverlegg til en skuespiller."
+
+[HUD_DrawIcon]
+; EN: MenuName="Draw Icon"
+MenuName="Tegn ikon"
+; EN: Description="Draws an icon on the HUD."
+Description="Tegner et ikon på HUD."
+
+[HUDElementBase]
+MenuName="HUD"
+
+[HUD_DrawText]
+; EN: MenuName="Draw Text"
+MenuName="Tegn tekst"
+; EN: Description="Draws a message on HUD."
+Description="Tegner en melding på HUD."
+
+[TEXT_ShowMessage]
+; EN: MenuName="Show Message"
+MenuName="Vis melding"
+; EN: Description="Shows a client message on screen.|If no receiver is specified, everyone will receive the message."
+Description="Viser en klientmelding på skjermen. | Hvis ingen mottaker er spesifisert, vil alle motta meldingen."
+
+[TEXTBASE]
+; EN: MenuName="Text Op"
+MenuName="Tekst Op"
+
+[VAR_ActorList]
+; EN: MenuName="Actor List"
+MenuName="Skuespillerliste"
+; EN: Description="Dynamic ActorList reference variable."
+Description="Dynamic ActorList referansevariabel."
+
+[VARIABLEBASE]
+; EN: MenuName="Variables"
+MenuName="Variabler"
+
+[VAR_ObjectList]
+; EN: MenuName="Object List"
+MenuName="Objektliste"
+; EN: Description="Object list reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
+Description="Objektliste referansevariabel. | ADVARSEL: Ikke bruk denne til å referere til dynamiske ødeleggende skuespillere, ellers kan spillet krasje!"
+
+[LEVELSBASE]
+; EN: MenuName="Level"
+MenuName="Nivå"
+
+[VAR_Actor]
+; EN: MenuName="Actor"
+MenuName="Skuespiller"
+; EN: Description="Dynamic actor reference variable."
+Description="Dynamisk aktørreferansevariabel."
+
+[VAR_Float]
+; EN: MenuName="Float"
+MenuName="Flyte"
+; EN: Description="Floating point variable."
+Description="Flytende punkt variabel."
+
+[VAR_Int]
+MenuName="Int"
+; EN: Description="32-bit integer variable."
+Description="32-biters heltallvariabel."
+
+[LEVEL_Network]
+; EN: MenuName="Network data"
+MenuName="Nettverksdata"
+; EN: Description="Transmits data from server to client.|All inputs you set will also output on client side and fire output event client side every time you fire an input server-side.|If no receiver is specified, the networked event will be broadcast to all clients."
+Description="Overfører data fra server til klient. | Alle innganger du angir vil også sende ut på klientsiden og brannutgangshendelsens klientside hver gang du avfyrer en inngangsserverside. | Hvis ingen mottaker er spesifisert, vil den nettverkshendelsen sendes til alle klienter ."
+
+[LEVEL_RadialActors]
+MenuName="Radius Actors"
+; EN: Description="Grabs all actors within a point in level.|Position input can be an actor or a vector."
+Description="Tar tak i alle aktører innenfor et punkt i nivå. | Posisjonsinngang kan være en skuespiller eller en vektor."
+
+[MATH_Int]
+MenuName="Int op"
+; EN: Description="Does a math operation with integers."
+Description="Gjør en matteoperasjon med heltall."
+
+[MATHBASE]
+; EN: MenuName="Math"
+MenuName="Matte"
+
+[EVENTBASE]
+; EN: MenuName="Events"
+MenuName="arrangementer"
+
+[VAR_String]
+MenuName="String"
+; EN: Description="Text line variable."
+Description="Tekstlinjevariabel."
+
+[MOVER_MoveToKey]
+; EN: MenuName="Move to key"
+MenuName="Gå til tasten"
+; EN: Description="Moves a mover to a keyframe."
+Description="Flytter en flytter til en nøkkelramme."
+
+[MOVERBASE]
+; EN: MenuName="Mover"
+MenuName="Flytter"
+
+[PAWN_SetHealth]
+; EN: MenuName="Give Health"
+MenuName="Gi helse"
+; EN: Description="Gives or removes health from a pawn."
+Description="Gir eller fjerner helse fra en bonde."
+
+[PAWNBASE]
+; EN: MenuName="Pawn"
+MenuName="Pant"
+
+[EVENT_Triggered]
+; EN: MenuName="Triggered"
+MenuName="Utløst"
+; EN: Description="Triggered by a regular in level event.|Tag can be changed by firing Set Tag event and binding NewTag value."
+Description="Utløses av en vanlig hendelse på nivå. | Tag kan endres ved å utløse Set Tag-hendelse og binde NewTag-verdi."
+
+[ACTOR_ChangeScale]
+; EN: MenuName="Change scale"
+MenuName="Endre skala"
+; EN: Description="Resizes an actor with optional blend time."
+Description="Endrer størrelse på en skuespiller med valgfri blandingstid."
+
+[VAR_Name]
+; EN: MenuName="Name"
+MenuName="Navn"
+; EN: Description="Name variable."
+Description="Navnvariabel."
+
+[ACTOR_Destroy]
+; EN: MenuName="Destroy Actor"
+MenuName="Ødeleg skuespilleren"
+; EN: Description="Instantly destroys an actor."
+Description="Ødelegger øyeblikkelig en skuespiller."
+
+[MATH_Float]
+MenuName="Float op"
+; EN: Description="Does a math operation with floating point."
+Description="Gjør en matteoperasjon med flytende punkt."
+
+[VAR_Bool]
+; EN: MenuName="Boolean"
+MenuName="Boolsk"
+; EN: Description="Boolean variable."
+Description="Boolsk variabel."
+
+[LATENT_MoveToActor]
+; EN: MenuName="AI Move to actor"
+MenuName="AI Gå til skuespiller"
+; EN: Description="Makes a ScriptedPawn move to a goal actor.|Output is fired when a pawn has reached or not the goal actor, with Reached output set to just finished pawn."
+Description="Gjør et ScriptedPawn-trekk til en målskuespiller. | Outputen avfyres når en bonde har nådd målskuespilleren eller ikke, med Reached output satt til nettopp ferdig bonde."
+
+[LATENTBASE]
+MenuName="Latent"
+
+[ACTOR_PlaySound]
+; EN: MenuName="Play Sound"
+MenuName="Spill lyd"
+; EN: Description="Plays a sound effect.|Sound source can be an actor or a vector. If actor array, it will play the sound on all actors in that array."
+Description="Spiller en lydeffekt. | Lydkilde kan være en skuespiller eller en vektor. Hvis skuespillersammensetning, vil den spille lyden på alle skuespillere i den matrisen."
+
+[VAR_Rotator]
+MenuName="Rotator"
+; EN: Description="Rotator variable."
+Description="Rotatorvariabel."
+
+[LEVEL_SpawnActor]
+; EN: MenuName="Spawn Actor"
+MenuName="Gyte skuespiller"
+; EN: Description="Spawns a new actor.|If you input Position as actor variable, it will use that actor rotation. Otherwise you can input vector and rotation."
+Description="Gyter en ny skuespiller. | Hvis du skriver inn posisjon som skuespillervariabel, vil den bruke skuespillerrotasjonen. Ellers kan du legge inn vektor og rotasjon."
+
+[LEVEL_AllPawns]
+; EN: MenuName="All Pawns"
+MenuName="Alle bønder"
+; EN: Description="Grabs all pawns from level."
+Description="Tar tak i alle bønder fra nivå."
+
+[PAWN_GiveItem]
+; EN: MenuName="Give Item"
+MenuName="Gi varen"
+; EN: Description="Gives an inventory item to a player."
+Description="Gir en varelager til en spiller."
+
+[LOGIC_ArrayAdd]
+; EN: MenuName="Array Add"
+MenuName="Array Legg til"
+; EN: Description="Adds an unique item to array.|Fires event Found or Not Found depending on the result."
+Description="Legger til et unikt element å matche. | Brannhendelse funnet eller ikke funnet, avhengig av resultatet."
+
+[VAR_RandInt]
+; EN: MenuName="Random Int"
+MenuName="Tilfeldig Int"
+; EN: Description="Random integer variable."
+Description="Tilfeldig heltallvariabel."
+
+[TEXT_AddText]
+; EN: MenuName="Append Text"
+MenuName="Legg til tekst"
+; EN: Description="Adds text to the end of the current textline."
+Description="Legger til tekst på slutten av gjeldende tekstlinje."
+
+[VAR_Object]
+; EN: MenuName="Object"
+MenuName="Gjenstand"
+; EN: Description="Object reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
+Description="Objektreferansevariabel. | ADVARSEL: Ikke bruk dette til å referere til dynamiske ødeleggende skuespillere, ellers kan spillet krasje!"
+
+[LEVEL_PlayMusic]
+; EN: MenuName="Play Music"
+MenuName="Spille musikk"
+; EN: Description="Changes currently played music.|If no player is specified, the event affects all actors."
+Description="Endringer som for øyeblikket spilles av musikk. | Hvis ingen spillere er spesifisert, påvirker arrangementet alle skuespillere."
+
+[VAR_RandFloat]
+; EN: MenuName="Random Float"
+MenuName="Tilfeldig flyt"
+; EN: Description="Random floating point variable."
+Description="Tilfeldig variabel med flytende punkt."
+
+[LATENT_Timer]
+MenuName="Timer"
+; EN: Description="Waits for specific time."
+Description="Venter på spesifikk tid."
+
+[ACTOR_SetHidden]
+; EN: MenuName="Set Hidden"
+MenuName="Sett skjult"
+; EN: Description="Toggles the Hidden property for an actor."
+Description="Bytter skjult eiendom for en skuespiller."
+
+[VAR_LocalPlayer]
+; EN: MenuName="Local Player"
+MenuName="Lokal spiller"
+; EN: Description="Local player variable function."
+Description="Lokal spillervariabelfunksjon."
+
+[EVENT_PawnDied]
+; EN: MenuName="Pawn Died"
+MenuName="Bonde døde"
+; EN: Description="Triggered when a pawn dies."
+Description="Utløses når en bonde dør."
+
+[EVENT_PawnHurt]
+MenuName="Pawn Hurt"
+; EN: Description="Triggered when a pawn takes damage."
+Description="Utløses når en bonde tar skade."
+
+[EVENT_PawnPrevDeath]
+; EN: MenuName="Prevent Death"
+MenuName="Forhindre døden"
+; EN: Description="Prevents a pawn from dying.|NOTE: Output link is fired, THEN it checks the Input flag. If true, it prevents the pawn from dying."
+Description="Forhindrer at en bonde dør. | MERKNAD: Utgangskoblingen er avfyrt, SÅ sjekker den inngangsflagget. Hvis det er sant, forhindrer det at bonden dør."
+
+[OBJECTBASE]
+; EN: MenuName="Object"
+MenuName="Gjenstand"
+
+[EVENT_PlayerSpawn]
+; EN: MenuName="Player spawned"
+MenuName="Spiller gytt"
+; EN: Description="Triggered when a player spawns."
+Description="Utløses når en spiller gyter."
+
+[PAWN_Kill]
+; EN: MenuName="Kill Pawn"
+MenuName="Drep bonde"
+; EN: Description="Kills instantly a pawn."
+Description="Dreper umiddelbart en bonde."
+
+[LOGIC_ListIterator]
+MenuName="ObjList Iterator"
+; EN: Description="Iterates through an object list."
+Description="Itererer gjennom en objektliste."
+
+[LEVEL_SendEvent]
+; EN: MenuName="Trigger Event"
+MenuName="Utløserhendelse"
+; EN: Description="Sends a regular event to all actors in level."
+Description="Sender et vanlig arrangement til alle aktører på nivå."
+
+[LOGIC_ArrayRemove]
+; EN: MenuName="Array Remove"
+MenuName="Array Fjern"
+; EN: Description="Remove a single item from array and return its size.|An empty event is fired once final array entry has been removed."
+Description="Fjern et enkelt element fra matrisen og returner størrelsen. | En tom hendelse utløses når den endelige matriseposten er fjernet."
+
+[TEXT_Replace]
+; EN: MenuName="Replace Text"
+MenuName="Erstatt tekst"
+; EN: Description="Replace a part of text with another text."
+Description="Bytt ut en del av teksten med en annen tekst."
+
+[LOGIC_Dispatch]
+; EN: MenuName="Dispatcher"
+MenuName="Avsender"
+; EN: Description="Split a call into multiple branches."
+Description="Del en samtale i flere grener."
+
+[ACTOR_TakeDamage]
+; EN: MenuName="Take Damage"
+MenuName="Ta skade"
+; EN: Description="Make an actor take damage."
+Description="Få en skuespiller til å ta skade."
+
+[ACTOR_SetPhysics]
+; EN: MenuName="Set Physics"
+MenuName="Sett fysikk"
+; EN: Description="Changes the actor's movement physics."
+Description="Endrer skuespillerens bevegelsesfysikk."
+
+[ACTOR_SetCollision]
+; EN: MenuName="Set Collision"
+MenuName="Sett kollisjon"
+; EN: Description="Changes the actor's collision state."
+Description="Endrer skuespillerens kollisjonstilstand."
+
+[ACTOR_PlayAnim]
+; EN: MenuName="Play Anim"
+MenuName="Spill Anim"
+; EN: Description="Play an animation on actors.|Note: Pawn code may override the animation!"
+Description="Spill en animasjon på skuespillere. | Merk: Pantekode kan overstyre animasjonen!"
+
+[LOGIC_CompareFloat]
+; EN: MenuName="Compare Float"
+MenuName="Sammenlign Float"
+; EN: Description="Compare 2 floating point values."
+Description="Sammenlign to flytende verdier."
+
+[PAWN_DeleteItem]
+; EN: MenuName="Delete Item"
+MenuName="Slett element"
+; EN: Description="Find and delete an inventory item from a player."
+Description="Finn og slett et varelager fra en spiller."
+
+[LOGIC_CompareInt]
+; EN: MenuName="Compare Int"
+MenuName="Sammenlign Int"
+; EN: Description="Compare 2 integer values."
+Description="Sammenlign to heltallverdier."
+
+[VARIABLE_ToVector]
+; EN: MenuName="To Vector"
+MenuName="Til Vector"
+; EN: Description="Constructs a vector from individual components."
+Description="Konstruerer en vektor fra individuelle komponenter."
+
+[VARIABLE_ToRotator]
+; EN: MenuName="To Rotator"
+MenuName="Til Rotator"
+; EN: Description="Constructs a rotator from individual components."
+Description="Konstruerer en rotator fra individuelle komponenter."
+
+[LOGIC_Gate]
+MenuName="Logic Gate"
+; EN: Description="A logic gate."
+Description="En logisk gate."
+
+[VARIABLE_FromVector]
+; EN: MenuName="From Vector"
+MenuName="Fra Vector"
+; EN: Description="Grab each vector component."
+Description="Ta tak i hver vektorkomponent."
+
+[PAWN_FindItem]
+; EN: MenuName="Find Item"
+MenuName="Finn element"
+; EN: Description="Find an inventory item from a player."
+Description="Finn et varelager fra en spiller."
+
+[VARIABLE_FromRotator]
+; EN: MenuName="From Rotator"
+MenuName="Fra Rotator"
+; EN: Description="Grab each rotator component."
+Description="Ta tak i hver rotatorkomponent."
+
+[LOGIC_CompareObject]
+; EN: MenuName="Compare Object"
+MenuName="Sammenlign objekt"
+; EN: Description="Compare 2 objects."
+Description="Sammenlign 2 objekter."
+
+[LOGIC_CompareText]
+; EN: MenuName="Compare Text"
+MenuName="Sammenlign tekst"
+; EN: Description="Compare 2 string text lines."
+Description="Sammenlign 2 streng tekstlinjer."
+
+[ACTOR_GetName]
+; EN: MenuName="Get Name"
+MenuName="Få navn"
+; EN: Description="Grab the actor name."
+Description="Ta tak i skuespillernavnet."
+
+[LOGIC_GetArraySize]
+; EN: MenuName="Get Array Size"
+MenuName="Få matrisestørrelse"
+; EN: Description="Check the size of an object array."
+Description="Sjekk størrelsen på en objektmatrise."
+
+[OBJECT_SetProperty]
+; EN: MenuName="Set Property"
+MenuName="Angi eiendom"
+; EN: Description="Change actor property value."
+Description="Endre aktørens eiendomsverdi."
+
+[OBJECT_ChangeState]
+; EN: MenuName="Change State"
+MenuName="Endre stat"
+; EN: Description="Change actor script state."
+Description="Endre skuespillerstatusstatus."
+
+[LEVEL_AllActors]
+; EN: MenuName="All Actors"
+MenuName="Alle skuespillere"
+; EN: Description="Grab all actors from level."
+Description="Ta tak i alle skuespillere fra nivå."
+
+[OBJECT_GetProperty]
+; EN: MenuName="Get Property"
+MenuName="Få eiendom"
+; EN: Description="Grab actor property value."
+Description="Grab skuespiller eiendomsverdi."
+
+[VARIABLE_SetBool]
+; EN: MenuName="Set Bool"
+MenuName="Sett Bool"
+; EN: Description="Set boolean value."
+Description="Still inn boolsk verdi."
+
+[LEVEL_ResetLevel]
+; EN: MenuName="Reset level"
+MenuName="Tilbakestill nivå"
+; EN: Description="Soft-resets the level."
+Description="Soft-tilbakestiller nivået."
+
+[VARIABLE_SetFloat]
+; EN: MenuName="Set Float"
+MenuName="Sett flyt"
+; EN: Description="Set float value."
+Description="Angi flyteverdi."
+
+[LOGIC_ArrayEmpty]
+; EN: MenuName="Array Empty"
+MenuName="Array Tom"
+; EN: Description="Simply blank out an array."
+Description="Bare tøm en matrise."
+
+[VARIABLE_SetInt]
+; EN: MenuName="Set Int"
+MenuName="Sett Int"
+; EN: Description="Set integer value."
+Description="Sett helverdien."
+
+[VARIABLE_SetString]
+; EN: MenuName="Set Text"
+MenuName="Sett tekst"
+; EN: Description="Set string value."
+Description="Sett strengverdi."
+
+[EVENT_BeginPlay]
+; EN: MenuName="Begin Play"
+MenuName="Begynn å spille"
+; EN: Description="Fires an event on start of map.|Reset event is fired instead when level was soft-reset."
+Description="Avfyrer en hendelse ved kartets start. | Tilbakestill hendelsen utløses i stedet når nivået ble tilbakestilt."
+
+[LOGIC_CompareBool]
+; EN: MenuName="Compare Bool"
+MenuName="Sammenlign Bool"
+; EN: Description="Compare a boolean value."
+Description="Sammenlign en boolsk verdi."
+
+[LOGIC_ServerType]
+; EN: MenuName="Server Type"
+MenuName="Servertype"
+; EN: Description="Check in which environment this action is executed on."
+Description="Sjekk i hvilket miljø denne handlingen utføres."

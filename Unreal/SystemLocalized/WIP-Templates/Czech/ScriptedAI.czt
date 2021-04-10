@@ -1,0 +1,522 @@
+﻿[SVariableBase]
+; EN: MenuName="Variables"
+MenuName="Proměnné"
+
+[VAR_OBJECT_BASE]
+; EN: MenuName="Object ref"
+MenuName="Ref. Objektu"
+
+[VAR_OBJECTARRAY_BASE]
+; EN: MenuName="Object array"
+MenuName="Pole objektů"
+
+[VAR_Vector]
+; EN: MenuName="Vector"
+MenuName="Vektor"
+; EN: Description="Vector variable."
+Description="Vektorová proměnná."
+
+[VAR_STRUCT_BASE]
+; EN: MenuName="Struct members"
+MenuName="Členové struktury"
+
+[LOGICBASE]
+; EN: MenuName="Logic"
+MenuName="Logika"
+
+[ACTIONSBASE]
+; EN: MenuName="Actions"
+MenuName="Akce"
+
+[ACTORBASE]
+; EN: MenuName="Actor"
+MenuName="Herec"
+
+[ACTOR_Overlay]
+; EN: MenuName="Mesh Overlay"
+MenuName="Překrytí sítě"
+; EN: Description="Adds a temporary mesh overlay to an actor."
+Description="Přidá herci dočasné překrytí sítě."
+
+[HUD_DrawIcon]
+; EN: MenuName="Draw Icon"
+MenuName="Nakreslete ikonu"
+; EN: Description="Draws an icon on the HUD."
+Description="Nakreslí ikonu na HUD."
+
+[HUDElementBase]
+MenuName="HUD"
+
+[HUD_DrawText]
+; EN: MenuName="Draw Text"
+MenuName="Nakreslete text"
+; EN: Description="Draws a message on HUD."
+Description="Nakreslí zprávu na HUD."
+
+[TEXT_ShowMessage]
+; EN: MenuName="Show Message"
+MenuName="Zobrazit zprávu"
+; EN: Description="Shows a client message on screen.|If no receiver is specified, everyone will receive the message."
+Description="Zobrazí zprávu klienta na obrazovce. | Pokud není zadán žádný příjemce, zprávu obdrží všichni."
+
+[TEXTBASE]
+; EN: MenuName="Text Op"
+MenuName="Text op"
+
+[VAR_ActorList]
+; EN: MenuName="Actor List"
+MenuName="Seznam herců"
+; EN: Description="Dynamic ActorList reference variable."
+Description="Dynamická referenční proměnná ActorList."
+
+[VARIABLEBASE]
+; EN: MenuName="Variables"
+MenuName="Proměnné"
+
+[VAR_ObjectList]
+; EN: MenuName="Object List"
+MenuName="Seznam objektů"
+; EN: Description="Object list reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
+Description="Referenční proměnná seznamu objektů. | UPOZORNĚNÍ: Nepoužívejte ji k odkazování na dynamické zničitelné herce, jinak může hra selhat!"
+
+[LEVELSBASE]
+; EN: MenuName="Level"
+MenuName="Úroveň"
+
+[VAR_Actor]
+; EN: MenuName="Actor"
+MenuName="Herec"
+; EN: Description="Dynamic actor reference variable."
+Description="Referenční proměnná dynamického herce."
+
+[VAR_Float]
+; EN: MenuName="Float"
+MenuName="Plovák"
+; EN: Description="Floating point variable."
+Description="Proměnná s plovoucí desetinnou čárkou."
+
+[VAR_Int]
+MenuName="Int"
+; EN: Description="32-bit integer variable."
+Description="32bitová celočíselná proměnná."
+
+[LEVEL_Network]
+; EN: MenuName="Network data"
+MenuName="Síťová data"
+; EN: Description="Transmits data from server to client.|All inputs you set will also output on client side and fire output event client side every time you fire an input server-side.|If no receiver is specified, the networked event will be broadcast to all clients."
+Description="Přenáší data ze serveru na klienta. | Všechny vstupy, které nastavíte, se také vygenerují na straně klienta a na straně klienta události výstupu ohně při každém spuštění na straně serveru. | Pokud není zadán žádný přijímač, bude síťová událost vysílána všem klientům ."
+
+[LEVEL_RadialActors]
+; EN: MenuName="Radius Actors"
+MenuName="Herci poloměru"
+; EN: Description="Grabs all actors within a point in level.|Position input can be an actor or a vector."
+Description="Chytí všechny aktéry v bodě v úrovni. | Vstupem polohy může být herec nebo vektor."
+
+[MATH_Int]
+MenuName="Int op"
+; EN: Description="Does a math operation with integers."
+Description="Provede matematickou operaci s celými čísly."
+
+[MATHBASE]
+; EN: MenuName="Math"
+MenuName="Matematika"
+
+[EVENTBASE]
+; EN: MenuName="Events"
+MenuName="Události"
+
+[VAR_String]
+; EN: MenuName="String"
+MenuName="Tětiva"
+; EN: Description="Text line variable."
+Description="Proměnná textového řádku."
+
+[MOVER_MoveToKey]
+; EN: MenuName="Move to key"
+MenuName="Přesunout na klíč"
+; EN: Description="Moves a mover to a keyframe."
+Description="Přesune stěhovač na klíčový snímek."
+
+[MOVERBASE]
+MenuName="Mover"
+
+[PAWN_SetHealth]
+; EN: MenuName="Give Health"
+MenuName="Dejte zdraví"
+; EN: Description="Gives or removes health from a pawn."
+Description="Poskytuje nebo odstraňuje zdraví z pěšce."
+
+[PAWNBASE]
+; EN: MenuName="Pawn"
+MenuName="Pěšák"
+
+[EVENT_Triggered]
+; EN: MenuName="Triggered"
+MenuName="Spuštěno"
+; EN: Description="Triggered by a regular in level event.|Tag can be changed by firing Set Tag event and binding NewTag value."
+Description="Spuštěno pravidelnou událostí na úrovni. | Značku lze změnit spuštěním události Set Tag a vazbou hodnoty NewTag."
+
+[ACTOR_ChangeScale]
+; EN: MenuName="Change scale"
+MenuName="Změnit měřítko"
+; EN: Description="Resizes an actor with optional blend time."
+Description="Změní velikost herce s volitelnou dobou míchání."
+
+[VAR_Name]
+; EN: MenuName="Name"
+MenuName="název"
+; EN: Description="Name variable."
+Description="Proměnná názvu."
+
+[ACTOR_Destroy]
+; EN: MenuName="Destroy Actor"
+MenuName="Zničte herce"
+; EN: Description="Instantly destroys an actor."
+Description="Okamžitě zničí herce."
+
+[MATH_Float]
+MenuName="Float op"
+; EN: Description="Does a math operation with floating point."
+Description="Provádí matematickou operaci s plovoucí desetinnou čárkou."
+
+[VAR_Bool]
+; EN: MenuName="Boolean"
+MenuName="Booleovský"
+; EN: Description="Boolean variable."
+Description="Booleovská proměnná."
+
+[LATENT_MoveToActor]
+; EN: MenuName="AI Move to actor"
+MenuName="AI Přejít na herce"
+; EN: Description="Makes a ScriptedPawn move to a goal actor.|Output is fired when a pawn has reached or not the goal actor, with Reached output set to just finished pawn."
+Description="Zajistí, aby se skript Pawn přesunul k cílovému herci. | Výstup se aktivuje, když pěšec dosáhl nebo nedosáhl cílového herce, s dosaženým výstupem nastaveným na právě dokončeného pěšce."
+
+[LATENTBASE]
+; EN: MenuName="Latent"
+MenuName="Latentní"
+
+[ACTOR_PlaySound]
+; EN: MenuName="Play Sound"
+MenuName="Přehrát zvuk"
+; EN: Description="Plays a sound effect.|Sound source can be an actor or a vector. If actor array, it will play the sound on all actors in that array."
+Description="Přehraje zvukový efekt. | Zdrojem zvuku může být herec nebo vektor. Pokud je pole herců, bude přehrávat zvuk na všech hercích v tomto poli."
+
+[VAR_Rotator]
+; EN: MenuName="Rotator"
+MenuName="Rotátor"
+; EN: Description="Rotator variable."
+Description="Proměnná rotátoru."
+
+[LEVEL_SpawnActor]
+; EN: MenuName="Spawn Actor"
+MenuName="Umístit herec"
+; EN: Description="Spawns a new actor.|If you input Position as actor variable, it will use that actor rotation. Otherwise you can input vector and rotation."
+Description="Umístí nového herce. | Pokud zadáte proměnnou Pozice jako aktéra, použije se tato rotace aktéra. Jinak můžete zadat vektor a rotaci."
+
+[LEVEL_AllPawns]
+; EN: MenuName="All Pawns"
+MenuName="Všichni pěšci"
+; EN: Description="Grabs all pawns from level."
+Description="Chytá všechny pěšce z úrovně."
+
+[PAWN_GiveItem]
+; EN: MenuName="Give Item"
+MenuName="Dát položku"
+; EN: Description="Gives an inventory item to a player."
+Description="Dává hráči inventář."
+
+[LOGIC_ArrayAdd]
+; EN: MenuName="Array Add"
+MenuName="Přidat pole"
+; EN: Description="Adds an unique item to array.|Fires event Found or Not Found depending on the result."
+Description="Přidá jedinečnou položku do pole. | Vyvolá událost Nalezeno nebo Nenalezeno v závislosti na výsledku."
+
+[VAR_RandInt]
+MenuName="Random Int"
+; EN: Description="Random integer variable."
+Description="Náhodná celočíselná proměnná."
+
+[TEXT_AddText]
+; EN: MenuName="Append Text"
+MenuName="Připojit text"
+; EN: Description="Adds text to the end of the current textline."
+Description="Přidá text na konec aktuálního textového řádku."
+
+[VAR_Object]
+; EN: MenuName="Object"
+MenuName="Objekt"
+; EN: Description="Object reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
+Description="Proměnná odkazu na objekt. | UPOZORNĚNÍ: Nepoužívejte jej k odkazování na dynamické zničitelné herce, jinak může hra selhat!"
+
+[LEVEL_PlayMusic]
+; EN: MenuName="Play Music"
+MenuName="Přehrávat hudbu"
+; EN: Description="Changes currently played music.|If no player is specified, the event affects all actors."
+Description="Změní aktuálně přehrávanou hudbu. | Pokud není zadán žádný přehrávač, událost ovlivní všechny herce."
+
+[VAR_RandFloat]
+; EN: MenuName="Random Float"
+MenuName="Náhodný float"
+; EN: Description="Random floating point variable."
+Description="Náhodná proměnná s plovoucí desetinnou čárkou."
+
+[LATENT_Timer]
+; EN: MenuName="Timer"
+MenuName="Časovač"
+; EN: Description="Waits for specific time."
+Description="Čeká na konkrétní čas."
+
+[ACTOR_SetHidden]
+; EN: MenuName="Set Hidden"
+MenuName="Sada skrytá"
+; EN: Description="Toggles the Hidden property for an actor."
+Description="Přepne skrytou vlastnost pro herce."
+
+[VAR_LocalPlayer]
+; EN: MenuName="Local Player"
+MenuName="Místní hráč"
+; EN: Description="Local player variable function."
+Description="Funkce proměnné místního hráče."
+
+[EVENT_PawnDied]
+; EN: MenuName="Pawn Died"
+MenuName="Pěšec zemřel"
+; EN: Description="Triggered when a pawn dies."
+Description="Spustí se, když pěšec zemře."
+
+[EVENT_PawnHurt]
+; EN: MenuName="Pawn Hurt"
+MenuName="Pěšec bolí"
+; EN: Description="Triggered when a pawn takes damage."
+Description="Spustí se, když pěšec utrpí poškození."
+
+[EVENT_PawnPrevDeath]
+; EN: MenuName="Prevent Death"
+MenuName="Zabraňte smrti"
+; EN: Description="Prevents a pawn from dying.|NOTE: Output link is fired, THEN it checks the Input flag. If true, it prevents the pawn from dying."
+Description="Zabraňuje umírání pěšce. | POZNÁMKA: Výstupní odkaz je aktivován, POTOM zkontroluje příznak vstupu. Pokud je to pravda, brání tomu, aby pěšec zemřel."
+
+[OBJECTBASE]
+; EN: MenuName="Object"
+MenuName="Objekt"
+
+[EVENT_PlayerSpawn]
+; EN: MenuName="Player spawned"
+MenuName="Hráč se objevil"
+; EN: Description="Triggered when a player spawns."
+Description="Spustí se, když se hráč objeví."
+
+[PAWN_Kill]
+; EN: MenuName="Kill Pawn"
+MenuName="Zabij pěšce"
+; EN: Description="Kills instantly a pawn."
+Description="Zabije okamžitě pěšce."
+
+[LOGIC_ListIterator]
+; EN: MenuName="ObjList Iterator"
+MenuName="Iterátor ObjList"
+; EN: Description="Iterates through an object list."
+Description="Iteruje seznamem objektů."
+
+[LEVEL_SendEvent]
+; EN: MenuName="Trigger Event"
+MenuName="Spouštěcí událost"
+; EN: Description="Sends a regular event to all actors in level."
+Description="Odešle pravidelnou událost všem aktérům na stejné úrovni."
+
+[LOGIC_ArrayRemove]
+; EN: MenuName="Array Remove"
+MenuName="Pole Odebrat"
+; EN: Description="Remove a single item from array and return its size.|An empty event is fired once final array entry has been removed."
+Description="Odeberte jednu položku z pole a vraťte její velikost. | Prázdná událost se aktivuje, jakmile bude odstraněna konečná položka pole."
+
+[TEXT_Replace]
+; EN: MenuName="Replace Text"
+MenuName="Nahradit text"
+; EN: Description="Replace a part of text with another text."
+Description="Nahraďte část textu jiným textem."
+
+[LOGIC_Dispatch]
+; EN: MenuName="Dispatcher"
+MenuName="Odesílatel"
+; EN: Description="Split a call into multiple branches."
+Description="Rozdělte hovor na více poboček."
+
+[ACTOR_TakeDamage]
+; EN: MenuName="Take Damage"
+MenuName="Vezměte škodu"
+; EN: Description="Make an actor take damage."
+Description="Nechat herce ublížit."
+
+[ACTOR_SetPhysics]
+; EN: MenuName="Set Physics"
+MenuName="Nastavit fyziku"
+; EN: Description="Changes the actor's movement physics."
+Description="Změní fyziku pohybu herce."
+
+[ACTOR_SetCollision]
+; EN: MenuName="Set Collision"
+MenuName="Nastavit kolizi"
+; EN: Description="Changes the actor's collision state."
+Description="Změní kolizní stav herce."
+
+[ACTOR_PlayAnim]
+; EN: MenuName="Play Anim"
+MenuName="Přehrát Anim"
+; EN: Description="Play an animation on actors.|Note: Pawn code may override the animation!"
+Description="Přehrajte animaci na hercích. | Poznámka: Zastavovací kód může přepsat animaci!"
+
+[LOGIC_CompareFloat]
+; EN: MenuName="Compare Float"
+MenuName="Porovnejte Float"
+; EN: Description="Compare 2 floating point values."
+Description="Porovnejte 2 hodnoty s plovoucí desetinnou čárkou."
+
+[PAWN_DeleteItem]
+; EN: MenuName="Delete Item"
+MenuName="Odstranit položku"
+; EN: Description="Find and delete an inventory item from a player."
+Description="Najděte a odstraňte položku inventáře z přehrávače."
+
+[LOGIC_CompareInt]
+; EN: MenuName="Compare Int"
+MenuName="Porovnat Int"
+; EN: Description="Compare 2 integer values."
+Description="Porovnejte 2 celočíselné hodnoty."
+
+[VARIABLE_ToVector]
+; EN: MenuName="To Vector"
+MenuName="Do vektoru"
+; EN: Description="Constructs a vector from individual components."
+Description="Vytvoří vektor z jednotlivých komponent."
+
+[VARIABLE_ToRotator]
+; EN: MenuName="To Rotator"
+MenuName="Do rotátoru"
+; EN: Description="Constructs a rotator from individual components."
+Description="Zkonstruuje rotátor z jednotlivých komponent."
+
+[LOGIC_Gate]
+; EN: MenuName="Logic Gate"
+MenuName="Logická brána"
+; EN: Description="A logic gate."
+Description="Logická brána."
+
+[VARIABLE_FromVector]
+; EN: MenuName="From Vector"
+MenuName="Od Vector"
+; EN: Description="Grab each vector component."
+Description="Popadněte každou vektorovou komponentu."
+
+[PAWN_FindItem]
+; EN: MenuName="Find Item"
+MenuName="Najít položku"
+; EN: Description="Find an inventory item from a player."
+Description="Najděte položku inventáře od hráče."
+
+[VARIABLE_FromRotator]
+; EN: MenuName="From Rotator"
+MenuName="Z rotátoru"
+; EN: Description="Grab each rotator component."
+Description="Uchopte každou součást rotátoru."
+
+[LOGIC_CompareObject]
+; EN: MenuName="Compare Object"
+MenuName="Porovnat objekt"
+; EN: Description="Compare 2 objects."
+Description="Porovnejte 2 objekty."
+
+[LOGIC_CompareText]
+; EN: MenuName="Compare Text"
+MenuName="Porovnat text"
+; EN: Description="Compare 2 string text lines."
+Description="Porovnejte 2 textové řádky řetězce."
+
+[ACTOR_GetName]
+; EN: MenuName="Get Name"
+MenuName="Získejte jméno"
+; EN: Description="Grab the actor name."
+Description="Popadněte jméno herce."
+
+[LOGIC_GetArraySize]
+; EN: MenuName="Get Array Size"
+MenuName="Získejte velikost pole"
+; EN: Description="Check the size of an object array."
+Description="Zkontrolujte velikost pole objektu."
+
+[OBJECT_SetProperty]
+; EN: MenuName="Set Property"
+MenuName="Nastavit vlastnost"
+; EN: Description="Change actor property value."
+Description="Změnit hodnotu vlastnosti aktéra."
+
+[OBJECT_ChangeState]
+; EN: MenuName="Change State"
+MenuName="Změnit stav"
+; EN: Description="Change actor script state."
+Description="Změnit stav skriptu herce."
+
+[LEVEL_AllActors]
+; EN: MenuName="All Actors"
+MenuName="Všichni herci"
+; EN: Description="Grab all actors from level."
+Description="Popadněte všechny herce z úrovně."
+
+[OBJECT_GetProperty]
+; EN: MenuName="Get Property"
+MenuName="Získejte majetek"
+; EN: Description="Grab actor property value."
+Description="Uchopte hodnotu vlastnosti herce."
+
+[VARIABLE_SetBool]
+; EN: MenuName="Set Bool"
+MenuName="Nastavit Bool"
+; EN: Description="Set boolean value."
+Description="Nastavit logickou hodnotu."
+
+[LEVEL_ResetLevel]
+; EN: MenuName="Reset level"
+MenuName="Resetovat úroveň"
+; EN: Description="Soft-resets the level."
+Description="Soft-resetuje úroveň."
+
+[VARIABLE_SetFloat]
+; EN: MenuName="Set Float"
+MenuName="Nastavit plovák"
+; EN: Description="Set float value."
+Description="Nastavte float hodnotu."
+
+[LOGIC_ArrayEmpty]
+; EN: MenuName="Array Empty"
+MenuName="Pole prázdné"
+; EN: Description="Simply blank out an array."
+Description="Jednoduše vyplňte pole."
+
+[VARIABLE_SetInt]
+MenuName="Set Int"
+; EN: Description="Set integer value."
+Description="Nastavit celočíselnou hodnotu."
+
+[VARIABLE_SetString]
+; EN: MenuName="Set Text"
+MenuName="Nastavit text"
+; EN: Description="Set string value."
+Description="Nastavte hodnotu řetězce."
+
+[EVENT_BeginPlay]
+; EN: MenuName="Begin Play"
+MenuName="Začněte hrát"
+; EN: Description="Fires an event on start of map.|Reset event is fired instead when level was soft-reset."
+Description="Vyvolá událost na začátku mapy. | Resetovací událost se místo toho aktivuje, když byla úroveň resetována."
+
+[LOGIC_CompareBool]
+; EN: MenuName="Compare Bool"
+MenuName="Porovnat Bool"
+; EN: Description="Compare a boolean value."
+Description="Porovnejte logickou hodnotu."
+
+[LOGIC_ServerType]
+; EN: MenuName="Server Type"
+MenuName="Typ serveru"
+; EN: Description="Check in which environment this action is executed on."
+Description="Zkontrolujte, ve kterém prostředí se tato akce provádí."

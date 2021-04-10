@@ -1,0 +1,10 @@
+﻿[LevelSummary]
+; EN: Title="Intermission 13"
+Title="Entracte 13"
+
+[TransitionGenderEvent7]
+OutDelays[1]=25.000000
+; EN: MaleText[0]="The ice caves and that nasty snow-covered ridge were leading me in the wrong direction, away from the shuttle, but I had no choice. When I fought my way into the fort and saw the teleporter, I didn't know what to think. Where would it take me? Closer to my goal or to some other part of the planet? My experience with these teleporters led me to believe it wouldn't take me too far, and I had no choice but to step on and find out..."
+MaleText[0]="Les grottes de glace et cette crête enneigée désagréable m'entraînaient dans la mauvaise direction, loin de la navette, mais je n'avais pas le choix. Quand je me suis frayé un chemin dans le fort et que j'ai vu le téléporteur, je ne savais pas quoi penser. Où cela me mènerait-il? Plus près de mon objectif ou d'une autre partie de la planète? Mon expérience avec ces téléporteurs m'a amené à croire que cela ne me mènerait pas trop loin, et je n'avais d'autre choix que de marcher et de découvrir ..."
+; EN: FemaleText[0]="The ice caves and that nasty snow-covered ridge were leading me in the wrong direction, away from the shuttle, but I had no choice. When I fought my way into the fort and saw the teleporter, I didn't know what to think. Where would it take me? Closer to my goal or to some other part of the planet? My experience with these teleporters led me to believe it wouldn't take me too far, and I had no choice but to step on and find out..."
+FemaleText[0]="Les grottes de glace et cette crête enneigée désagréable m'entraînaient dans la mauvaise direction, loin de la navette, mais je n'avais pas le choix. Quand je me suis frayé un chemin dans le fort et que j'ai vu le téléporteur, je ne savais pas quoi penser. Où cela me mènerait-il? Plus près de mon objectif ou d'une autre partie de la planète? Mon expérience avec ces téléporteurs m'a amené à croire que cela ne me mènerait pas trop loin, et je n'avais d'autre choix que de marcher et de découvrir ..."

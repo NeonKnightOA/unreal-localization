@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OldOpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OldOpenGL Support",Parent="Rendering",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OldOpenGL támogatás",Parent="Rendering",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OldOpenGL Support"
+ClassCaption="OldOpenGL támogatás"
+; EN: AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
+AskInstalled="Van telepítve OldOpenGL kompatibilis 3D gyorsító?"
+; EN: AskUse="Do you want Unreal to use your OldOpenGL accelerator?"
+AskUse="Szeretné, hogy az Unreal használja az OldOpenGL gyorsítót?"
+
+[Errors]
+; EN: NoFindGL="Can't find OldOpenGL driver %ls"
+NoFindGL="Nem található az OldOpenGL illesztőprogram% ls"
+; EN: MissingFunc="Missing OldOpenGL function %ls (%i)"
+MissingFunc="Hiányzik az OldOpenGL függvény% ls (% i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Nem sikerült beállítani a felbontást"

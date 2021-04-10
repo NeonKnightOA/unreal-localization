@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="Neskutečný"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C: \ Neskutečné"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Nápověda \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Neskutečné nastavení"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Neskutečné možnosti"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 od Oldunrealu"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Nápověda \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&amp; Zahrajte si tuto neskutečnou úroveň"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&amp; Otevřít tento neskutečný odkaz"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&amp; Nainstalujte tento modul Unreal"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&amp; Upravit tuto neskutečnou úroveň"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Obsah hry"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Neskutečný herní obsah. Nainstalujte si toto pro nejlepší výkon. Pokud jej zrušíte, obsah hry se načte během přehrávání z disku CD, což sníží výkon, ale za použití méně místa na pevném disku."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Neskutečná hra"
+; EN: Description="Unreal game. Installation is required."
+Description="Neskutečná hra. Instalace je nutná."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Volitelné ovladače Microsoft DirectX 8 pro vylepšenou podporu grafiky, zvuku a joysticku."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Neskutečný editor"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Editor neskutečného světa pro vytváření vlastních 3D neskutečných prostředí. Pro pokročilé uživatele; instalace je volitelná."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Hrajte Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Neskutečný bezpečný režim"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Neskutečný editor"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Dokumentace"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Neskutečná webová stránka"

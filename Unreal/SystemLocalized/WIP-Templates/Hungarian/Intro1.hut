@@ -1,0 +1,30 @@
+﻿[LevelInfo0]
+; EN: Title="Intro 1"
+Title="Bevezetés 1"
+
+[LevelSummary]
+; EN: Title="Intro 1"
+Title="Bevezetés 1"
+
+[TransitionGenderEvent0]
+OutDelays[1]=7.000000
+OutDelays[2]=3.500000
+OutDelays[3]=17.000000
+OutDelays[4]=2.000000
+OutDelays[5]=14.000000
+OutDelays[6]=15.500000
+OutDelays[7]=6.000000
+; EN: CommonText[0]="Deep space warship UMS Bodega Bay requesting a priority trans-light communication with UMS Sector Control."
+CommonText[0]="Mély űrhadihajó, az UMS Bodega Bay kiemelt transz-fény kommunikációt kér az UMS szektorvezérléssel."
+; EN: CommonText[1]="Bodega Bay, this is Starlight Base. Go ahead."
+CommonText[1]="Bodega-öböl, ez a Starlight Base. Menj tovább."
+; EN: CommonText[2]="Starlight Base, we picked up a life-pad of alien origin as we came into orbit. There was one human survivor aboard and claims to have escaped from the planet. Survivor will not disclose identity, even under interrogation. DNA scans are being uploaded for identification. Please advise."
+CommonText[2]="Csillagfény bázis, egy idegen eredetű mentőfüzetet vettünk fel, amikor pályára léptünk. A fedélzeten egy ember volt túlélő, és azt állítja, hogy elmenekült a bolygóról. A túlélő még kihallgatás alatt sem fedi fel személyazonosságát. DNS-vizsgálatokat töltenek fel azonosítás céljából. Kérlek adj tanácsot."
+; EN: CommonText[3]="Standby, Bodega Bay..."
+CommonText[3]="Készenléti állapotban, Bodega-öböl ..."
+; EN: CommonText[4]="Bodega Bay, your survivor is UMS prisoner 849, last assigned to prison transport vessel Vortex Rikers; Vortex Rikers recently disappeared in your sector. Prisoner 849 is classified as missing and presumed dead."
+CommonText[4]="Bodega Bay, túlélője az UMS 849-es rabja, utoljára a Vortex Rikers börtönszállító hajóhoz rendelték; A Vortex Rikers nemrég eltűnt az ön szektorában. A 849-es fogoly eltűntnek és feltételezett halottnak minősül."
+; EN: CommonText[5]="Starlight Base, permission to use the rescued prisoner for Operation 'Talon Hunter'. The prisoner has extensive knowledge of the planetary surface and hazards. Prisoner 849 is the natural choice to search for the wreck of the Prometheus and recover the Talon data cores."
+CommonText[5]="Starlight Base, engedély a megmentett fogoly felhasználására a „Talon Hunter” művelethez. A fogoly széleskörű ismeretekkel rendelkezik a bolygó felszínéről és veszélyeiről. A 849-es fogoly természetes választás a Prometheus roncsainak felkutatására és a Talon adatmagok helyreállítására."
+; EN: CommonText[6]="Bodega Bay, you are clear to take whatever steps are necessary to ensure the success of Operation 'Talon Hunter'."
+CommonText[6]="Bodega-öböl, Ön minden szükséges lépést megtehet a „Talon Hunter” művelet sikerének biztosításához."

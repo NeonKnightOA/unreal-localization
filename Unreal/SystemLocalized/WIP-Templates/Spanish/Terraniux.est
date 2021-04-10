@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+Title="Terraniux"
+
+[LevelSummary]
+Title="Terraniux"
+
+[TranslatorEvent3]
+; EN: Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+Message="Estado de la sala de control: presurizado y bloqueado. No acceda excepto en caso de situación de emergencia."
+
+[TranslatorEvent4]
+; EN: Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Message="Estado de seguridad: intruso detectado en la entrada. Activación de pantallas de seguridad en el Laboratorio de Investigación Científica y la Sección de Hidroponía. Todos los elementos de seguridad se despliegan alrededor de los puntos de acceso en las Secciones A, B y C para denegar el acceso de intrusos al Ascensor 1."
+; EN: Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+Hint="Busque las salas de contención A, B y C y active los botones para acceder al ascensor 1."
+
+[TranslatorEvent5]
+; EN: Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+Message="Estado de drenaje: El flujo de residuos biológicos se encuentra en niveles nominales. Todas las bombas en funcionamiento. Sección C vacía y disponible para cualquier desbordamiento de Biowaster. Asegúrese de realizar el mantenimiento regular de la tubería."
+
+[TranslatorEvent0]
+; EN: Message="Section B: Status 48% full."
+Message="Sección B: Estado 48% lleno."
+
+[TranslatorEvent10]
+; EN: Message="Greenhouse B: Please verify that the Biowaste is being pumped through the Control Room filters and that no foreign objects are blocking the flow."
+Message="Invernadero B: Verifique que los desechos biológicos se bombeen a través de los filtros de la sala de control y que no haya objetos extraños que bloqueen el flujo."
+
+[Trigger32]
+; EN: Message="Lift to Noork's Elbow activated"
+Message="Levantar hasta el codo de Noork activado"
+
+[TranslatorEvent1]
+; EN: Message="Section A: Status full. Biowaste redirect to Section B active."
+Message="Sección A: Estado completo. Redirección de residuos biológicos a la Sección B activa."
+
+[TranslatorEvent8]
+; EN: Message="Access Denied. Control Room authorization must be granted to access Noork's Elbow."
+Message="Acceso denegado. Se debe otorgar la autorización de la Sala de Control para acceder al Codo de Noork."
+; EN: AltMessage="Access granted."
+AltMessage="Acceso permitido."
+; EN: Hint="If you swim down in the BioWaste you can access the Control Room."
+Hint="Si nada en BioWaste, puede acceder a la Sala de control."
+
+[TranslatorEvent2]
+; EN: Message="Section C: Status Empty, this Containment Room is damaged, please avoid sending BioWaste here until we can fix it."
+Message="Sección C: Estado vacío, esta sala de contención está dañada, evite enviar BioWaste aquí hasta que podamos arreglarlo."
+
+[TranslatorEvent6]
+; EN: Message="Lift 1: Security Lock, Access denied. Containment room pumps must be active for entrance to hydroponic greenhouses."
+Message="Ascensor 1: cerradura de seguridad, acceso denegado. Las bombas de la sala de contención deben estar activas para la entrada a los invernaderos hidropónicos."
+; EN: AltMessage="Lift 1: Status working. Access to hydroponic gardens permitted."
+AltMessage="Ascensor 1: Estado de funcionamiento. Se permite el acceso a jardines hidropónicos."
+
+[TranslatorEvent7]
+; EN: Message="Lift 2 Status: A broken pipe was reported."
+Message="Estado del elevador 2: se informó una tubería rota."
+; EN: Hint="This Lift is broken, but verify the pipes, something interesting could be hidden."
+Hint="Este ascensor está roto, pero verifique las tuberías, algo interesante podría estar oculto."
+
+[TranslatorEvent9]
+; EN: Message="Greenhouse A: Section A is full. Biowaste flow must be redirected from the Control Room. Section B of the waste facility has free capacity. Please be sure to monitor the water supply for impurities."
+Message="Invernadero A: la sección A está llena. El flujo de residuos biológicos debe ser redirigido desde la Sala de Control. La sección B de la instalación de residuos tiene capacidad libre. Asegúrese de controlar el suministro de agua en busca de impurezas."
+; EN: Hint="The Biowaste is filtered in the Control Room."
+Hint="Los residuos biológicos se filtran en la sala de control."
+
+[TranslatorEvent11]
+; EN: Message="Greenhouse B: The Karkilys Zegnus need more fertilizer. Please dispatch a group of guards to inspect the Nali homes in the Noork's Elbow. Disembarkment authorization must be granted in the Control Room."
+Message="Invernadero B: Los Karkilys Zegnus necesitan más fertilizante. Envíe un grupo de guardias para inspeccionar las casas de Nali en Noork's Elbow. La autorización de desembarque debe otorgarse en la Sala de Control."
+
+[TranslatorEvent12]
+; EN: Message="Greenhouse C: The night is coming soon, please maintain careful control of the hygrometric level and air temperature. Constant monitoring is necessary to keep them within appropriate levels."
+Message="Invernadero C: La noche llegará pronto, por favor mantenga un control cuidadoso del nivel higrométrico y la temperatura del aire. Es necesario un seguimiento constante para mantenerlos dentro de los niveles adecuados."
+
+[TranslatorEvent13]
+; EN: Message="Control Room, ACCESS DENIED."
+Message="Sala de control, ACCESO DENEGADO."
+; EN: Hint="You must find another way to go in this room."
+Hint="Debes encontrar otra forma de entrar en esta habitación."
+
+[TranslatorEvent14]
+; EN: Message="Access Denied. Control Room authorization must be granted to access Noork Elbow."
+Message="Acceso denegado. Se debe otorgar autorización de la Sala de Control para acceder a Noork Elbow."
+
+[Trigger46]
+; EN: Message="Access Room security locks disengaged."
+Message="Cerraduras de seguridad de la sala de acceso desactivadas."
+
+[TranslatorEvent15]
+; EN: Message="Pump activated, Biowaste transferred in section B."
+Message="Bomba activada, Residuos biológicos transferidos en la sección B."

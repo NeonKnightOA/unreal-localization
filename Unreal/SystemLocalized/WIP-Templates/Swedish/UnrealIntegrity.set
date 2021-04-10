@@ -1,0 +1,15 @@
+﻿[Public]
+; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Overklig integritet",Parent="Nätverk",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Integritetsserver",Parent="Overklig integritet",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+Preferences=(Caption="Vitlista",Parent="Overklig integritet",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+
+[General]
+; EN: ScanningInfo="Unreal Integrity is scanning your client for possible cheats..."
+ScanningInfo="Unreal Integrity skannar din klient efter möjliga fusk ..."
+; EN: MidGameScan="You have died, performing mid-game cheat scan."
+MidGameScan="Du har dött och utför cheat-scan i mitten av spelet."
+; EN: EndGameScan="Game has ended, performing end-game cheat scan."
+EndGameScan="Spelet har avslutats och utför fuskscanning i slutet av spelet."
