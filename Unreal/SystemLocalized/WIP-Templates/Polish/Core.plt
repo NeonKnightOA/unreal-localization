@@ -3,10 +3,9 @@
 Preferences=(Caption="System plików",Parent="zaawansowane",Class=Core.System,Immediate=True)
 
 [Language]
-; EN: Language="English (International)"
-Language="Angielski (międzynarodowy)"
-LangId=9
-SubLangId=1
+Language="Polski"
+LangId=21
+SubLangId=0
 
 [Query]
 ; EN: OldVersion="The file "%ls" was saved by a previous version which is not backwards compatible with this one. Reading it will likely fail, and may cause a crash. Do you want to try anyway?"
