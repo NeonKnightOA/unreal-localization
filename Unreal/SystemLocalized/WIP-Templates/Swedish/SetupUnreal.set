@@ -1,43 +1,39 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal"
-LocalProduct="Overklig"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C: \ Oreal"
-; EN: ReadMe="Help\ReadMe.htm"
-ReadMe="Hjälp \ ReadMe.htm"
+LocalProduct="Unreal"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\ReadMe.htm"
 ; EN: SetupWindowTitle="Unreal Setup"
-SetupWindowTitle="Oreal verklig inställning"
+SetupWindowTitle="Unreal verklig inställning"
 ; EN: AutoplayWindowTitle="Unreal Options"
-AutoplayWindowTitle="Oreala alternativ"
+AutoplayWindowTitle="Unreal alternativ"
 ProductURL="http://www.unreal.com/"
 VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 av Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\SetupLogo.bmp"
-Logo="Hjälp \ SetupLogo.bmp"
+Logo="Help\SetupLogo.bmp"
 
 [General]
 ; EN: PlayLevelCommand="&Play this Unreal level"
-PlayLevelCommand="&amp; Spela denna overkliga nivå"
+PlayLevelCommand="&Spela denna Unreal nivå"
 ; EN: OpenLinkCommand="&Open this Unreal link"
-OpenLinkCommand="&amp; Öppna den här oreala länken"
+OpenLinkCommand="&Öppna den här oreala länken"
 ; EN: InstallModuleCommand="&Install this Unreal module"
-InstallModuleCommand="&amp; Installera den här Unreal-modulen"
+InstallModuleCommand="&Installera den här Unreal-modulen"
 ; EN: EditLevelCommand="&Edit this Unreal level"
-EditLevelCommand="&amp; Redigera denna overkliga nivå"
+EditLevelCommand="&Redigera denna Unreal nivå"
 
 [ContentGroup]
 ; EN: Caption="Game Content"
 Caption="Spelinnehåll"
 ; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
-Description="Overkligt spelinnehåll. Installera detta för bästa prestanda. Om du avmarkerar det laddas spelinnehållet från CD under uppspelning, förnedrande prestanda men med mindre hårddiskutrymme."
+Description="Unreal spelinnehåll. Installera detta för bästa prestanda. Om du avmarkerar det laddas spelinnehållet från CD under uppspelning, förnedrande prestanda men med mindre hårddiskutrymme."
 
 [GameGroup]
 ; EN: Caption="Unreal Game"
-Caption="Overkligt spel"
+Caption="Unreal spel"
 ; EN: Description="Unreal game. Installation is required."
-Description="Overkligt spel. Installation krävs."
+Description="Unreal spel. Installation krävs."
 
 [DirectXGroup]
 Caption="DirectX"
@@ -46,7 +42,7 @@ Description="Valfria Microsoft DirectX 8-drivrutiner för förbättrad grafik-, 
 
 [EditorGroup]
 ; EN: Caption="Unreal Editor"
-Caption="Overklig redaktör"
+Caption="Unreal redaktör"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
 Description="Unreal world editor, för att skapa dina egna 3D Unreal-miljöer. För avancerade användare; installationen är valfri."
 
@@ -56,11 +52,11 @@ Caption="Spela Unreal"
 
 [SafeModeShortcut]
 ; EN: Caption="Unreal Safe Mode"
-Caption="Overkligt säkert läge"
+Caption="Unreal säkert läge"
 
 [EditorShortcut]
 ; EN: Caption="Unreal Editor"
-Caption="Overklig redaktör"
+Caption="Unreal redaktör"
 
 [DocumentationShortcut]
 ; EN: Caption="Documentation"
@@ -68,4 +64,4 @@ Caption="Dokumentation"
 
 [WebShortcut]
 ; EN: Caption="Unreal Web Page"
-Caption="Oreal webbsida"
+Caption="Unreal webbsida"

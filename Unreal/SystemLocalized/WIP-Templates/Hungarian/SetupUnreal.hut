@@ -1,43 +1,39 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal"
-LocalProduct="Irreális"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C: \ Irreális"
-; EN: ReadMe="Help\ReadMe.htm"
-ReadMe="Segítség \ ReadMe.htm"
+LocalProduct="Unreal"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\ReadMe.htm"
 ; EN: SetupWindowTitle="Unreal Setup"
-SetupWindowTitle="Irreális beállítás"
+SetupWindowTitle="Unreal beállítás"
 ; EN: AutoplayWindowTitle="Unreal Options"
-AutoplayWindowTitle="Irreális opciók"
+AutoplayWindowTitle="Unreal opciók"
 ProductURL="http://www.unreal.com/"
 VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - Oldunreal 227"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\SetupLogo.bmp"
-Logo="Súgó \ SetupLogo.bmp"
+Logo="Help\SetupLogo.bmp"
 
 [General]
 ; EN: PlayLevelCommand="&Play this Unreal level"
-PlayLevelCommand="&amp; Játszd ezt az irreális szintet"
+PlayLevelCommand="&Játszd ezt az Unreal szintet"
 ; EN: OpenLinkCommand="&Open this Unreal link"
-OpenLinkCommand="&amp; Nyissa meg ezt az Unreal linket"
+OpenLinkCommand="&Nyissa meg ezt az Unreal linket"
 ; EN: InstallModuleCommand="&Install this Unreal module"
-InstallModuleCommand="&amp; Telepítse ezt az Unreal modult"
+InstallModuleCommand="&Telepítse ezt az Unreal modult"
 ; EN: EditLevelCommand="&Edit this Unreal level"
-EditLevelCommand="&amp; Szerkessze ezt az irreális szintet"
+EditLevelCommand="&Szerkessze ezt az Unreal szintet"
 
 [ContentGroup]
 ; EN: Caption="Game Content"
 Caption="Játék tartalma"
 ; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
-Description="Irreális játéktartalom. Telepítse ezt a legjobb teljesítmény érdekében. Ha megszünteti a kijelölést, akkor a játék tartalma lejátszás közben betöltődik a CD-ről, ami rontja a teljesítményt, de kevesebb merevlemez-területet igényel."
+Description="Unreal játéktartalom. Telepítse ezt a legjobb teljesítmény érdekében. Ha megszünteti a kijelölést, akkor a játék tartalma lejátszás közben betöltődik a CD-ről, ami rontja a teljesítményt, de kevesebb merevlemez-területet igényel."
 
 [GameGroup]
 ; EN: Caption="Unreal Game"
-Caption="Irreális játék"
+Caption="Unreal játék"
 ; EN: Description="Unreal game. Installation is required."
-Description="Irreális játék. Telepítésre van szükség."
+Description="Unreal játék. Telepítésre van szükség."
 
 [DirectXGroup]
 Caption="DirectX"
@@ -46,7 +42,7 @@ Description="Opcionális Microsoft DirectX 8 illesztőprogramok a továbbfejlesz
 
 [EditorGroup]
 ; EN: Caption="Unreal Editor"
-Caption="Irreális szerkesztő"
+Caption="Unreal szerkesztő"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
 Description="Unreal world editor, saját 3D Unreal környezetek létrehozásához. Haladó felhasználók számára; a telepítés opcionális."
 
@@ -56,11 +52,11 @@ Caption="Játsszon Unreal"
 
 [SafeModeShortcut]
 ; EN: Caption="Unreal Safe Mode"
-Caption="Irreális csökkentett mód"
+Caption="Unreal csökkentett mód"
 
 [EditorShortcut]
 ; EN: Caption="Unreal Editor"
-Caption="Irreális szerkesztő"
+Caption="Unreal szerkesztő"
 
 [DocumentationShortcut]
 ; EN: Caption="Documentation"
@@ -68,4 +64,4 @@ Caption="Dokumentáció"
 
 [WebShortcut]
 ; EN: Caption="Unreal Web Page"
-Caption="Irreális weboldal"
+Caption="Unreal weboldal"

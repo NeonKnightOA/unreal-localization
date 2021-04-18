@@ -1,10 +1,7 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal Gold/Unreal Anthology"
-LocalProduct="Or irréel / Anthologie irréelle"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C: \ Unreal"
-; EN: ReadMe="Help\227ReleaseNotes.pdf"
-ReadMe="Aide \ 227ReleaseNotes.pdf"
+LocalProduct="Unreal Gold/Unreal Anthology"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\227ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Setup"
 SetupWindowTitle="Configuration irréelle"
 ; EN: AutoplayWindowTitle="Unreal Options"
@@ -14,12 +11,10 @@ VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 par Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\Logo.bmp"
-Logo="Aide \ Logo.bmp"
+Logo="Help\Logo.bmp"
 
 [UnrealRequirement]
-; EN: LocalProduct="Unreal Gold/Unreal Anthology"
-LocalProduct="Or irréel / Anthologie irréelle"
+LocalProduct="Unreal Gold/Unreal Anthology"
 ProductURL="http://www.unreal.com/"
 VersionURL="http://www.epicgames.com/"
 Developer="Epic Games, Inc."
@@ -39,6 +34,6 @@ Description="Copie les fichiers du mutateur Old Weapons. Ces fichiers vous perme
 
 [UPakFixGroup]
 ; EN: Caption="Return to Na Pali Coop Fix"
-Caption="Retourner à Na Pali Coop Fix"
+Caption="Correction du mode coop dans Return to Na Pali"
 ; EN: Description="Copies the UPakFix mutator files. These files allow you to play Unreal: Return to Na Pali in cooperative multiplayer mode without the usual errors."
 Description="Copie les fichiers du mutateur UPakFix. Ces fichiers vous permettent de jouer à Unreal: Return to Na Pali en mode multijoueur coopératif sans les erreurs habituelles."

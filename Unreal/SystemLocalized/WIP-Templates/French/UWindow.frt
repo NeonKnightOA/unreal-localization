@@ -162,13 +162,13 @@ WindowTitle="Menu Admin"
 
 [AdminGUIBanLPullDown]
 ; EN: RemoveBanTxt="&Remove ban"
-RemoveBanTxt="&amp; Supprimer l'interdiction"
+RemoveBanTxt="&Supprimer l'interdiction"
 ; EN: CloseMenuTxt="&Close this menu"
-CloseMenuTxt="&amp; Fermer ce menu"
+CloseMenuTxt="&Fermer ce menu"
 ; EN: RefreshTxt="&Refresh banlist"
-RefreshTxt="&amp; Actualiser la liste de bannissement"
+RefreshTxt="&Actualiser la liste de bannissement"
 ; EN: ManualBanTxt="&Manually insert ban entry"
-ManualBanTxt="&amp; Insérer manuellement une entrée d'interdiction"
+ManualBanTxt="&Insérer manuellement une entrée d'interdiction"
 
 [MMMusListWindow]
 ; EN: WindowTitle="Found music tracks:"
@@ -176,13 +176,13 @@ WindowTitle="Pistes de musique trouvées:"
 
 [MMListPullDown]
 ; EN: PlaySongStr="&Play"
-PlaySongStr="&amp;Jouer"
+PlaySongStr="&Jouer"
 ; EN: RemoveSongStr="&Remove from playlist"
-RemoveSongStr="&amp; Supprimer de la playlist"
+RemoveSongStr="&Supprimer de la playlist"
 ; EN: InsertCurrentSongStr="&Insert currently playing track"
-InsertCurrentSongStr="&amp; Insérer la piste en cours de lecture"
+InsertCurrentSongStr="&Insérer la piste en cours de lecture"
 ; EN: ClearPlaylistStr="&Clear playlist"
-ClearPlaylistStr="&amp; Effacer la playlist"
+ClearPlaylistStr="&Effacer la playlist"
 
 [MMMusicFilesGrid]
 ; EN: ErrorLoadPackage="Error: Failed to load music package."
@@ -192,17 +192,17 @@ ErrorNoMusics="Erreur: impossible de trouver des musiques dans ce package."
 
 [AdminGUIPLPullDown]
 ; EN: GetAliasesTxt="&Get player aliases"
-GetAliasesTxt="&amp; Obtenir les alias des joueurs"
+GetAliasesTxt="&Obtenir les alias des joueurs"
 ; EN: KickPlayerTxt="&Kick player"
-KickPlayerTxt="&amp; Joueur de coup de pied"
+KickPlayerTxt="&Joueur de coup de pied"
 ; EN: KickBanTempTxt="&Temporarily kick-ban player"
-KickBanTempTxt="&amp; Joueur temporairement banni"
+KickBanTempTxt="&Joueur temporairement banni"
 ; EN: KickBanTxt="Kick-&ban player"
-KickBanTxt="Joueur Kick- &amp; Ban"
+KickBanTxt="Joueur Kick- &Ban"
 ; EN: CloseMenuTxt="&Close this menu"
-CloseMenuTxt="&amp; Fermer ce menu"
+CloseMenuTxt="&Fermer ce menu"
 ; EN: RefreshTxt="&Refresh players list"
-RefreshTxt="&amp; Actualiser la liste des joueurs"
+RefreshTxt="&Actualiser la liste des joueurs"
 
 [AdminGUIManualBanWnd]
 ; EN: WindowTitle="Insert manual ban"

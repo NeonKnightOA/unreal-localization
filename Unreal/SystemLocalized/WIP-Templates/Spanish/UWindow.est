@@ -159,13 +159,13 @@ WindowTitle="Menú de administración"
 
 [AdminGUIBanLPullDown]
 ; EN: RemoveBanTxt="&Remove ban"
-RemoveBanTxt="&amp; Eliminar prohibición"
+RemoveBanTxt="&Eliminar prohibición"
 ; EN: CloseMenuTxt="&Close this menu"
-CloseMenuTxt="&amp; Cerrar este menú"
+CloseMenuTxt="&Cerrar este menú"
 ; EN: RefreshTxt="&Refresh banlist"
-RefreshTxt="&amp; Actualizar lista prohibida"
+RefreshTxt="&Actualizar lista prohibida"
 ; EN: ManualBanTxt="&Manually insert ban entry"
-ManualBanTxt="&amp; Insertar manualmente la entrada de prohibición"
+ManualBanTxt="&Insertar manualmente la entrada de prohibición"
 
 [MMMusListWindow]
 ; EN: WindowTitle="Found music tracks:"
@@ -173,13 +173,13 @@ WindowTitle="Pistas de música encontradas:"
 
 [MMListPullDown]
 ; EN: PlaySongStr="&Play"
-PlaySongStr="&amp;Tocar"
+PlaySongStr="&Tocar"
 ; EN: RemoveSongStr="&Remove from playlist"
-RemoveSongStr="&amp; Eliminar de la lista de reproducción"
+RemoveSongStr="&Eliminar de la lista de reproducción"
 ; EN: InsertCurrentSongStr="&Insert currently playing track"
-InsertCurrentSongStr="&amp; Insertar la pista que se está reproduciendo actualmente"
+InsertCurrentSongStr="&Insertar la pista que se está reproduciendo actualmente"
 ; EN: ClearPlaylistStr="&Clear playlist"
-ClearPlaylistStr="&amp; Borrar lista de reproducción"
+ClearPlaylistStr="&Borrar lista de reproducción"
 
 [MMMusicFilesGrid]
 ; EN: ErrorLoadPackage="Error: Failed to load music package."
@@ -189,17 +189,17 @@ ErrorNoMusics="Error: no se pudo encontrar ninguna música en este paquete."
 
 [AdminGUIPLPullDown]
 ; EN: GetAliasesTxt="&Get player aliases"
-GetAliasesTxt="&amp; Obtener alias de jugador"
+GetAliasesTxt="&Obtener alias de jugador"
 ; EN: KickPlayerTxt="&Kick player"
-KickPlayerTxt="&amp; Jugador de patadas"
+KickPlayerTxt="&Jugador de patadas"
 ; EN: KickBanTempTxt="&Temporarily kick-ban player"
-KickBanTempTxt="&amp; Expulsar temporalmente al jugador"
+KickBanTempTxt="&Expulsar temporalmente al jugador"
 ; EN: KickBanTxt="Kick-&ban player"
 KickBanTxt="Jugador de expulsión y prohibición"
 ; EN: CloseMenuTxt="&Close this menu"
-CloseMenuTxt="&amp; Cerrar este menú"
+CloseMenuTxt="&Cerrar este menú"
 ; EN: RefreshTxt="&Refresh players list"
-RefreshTxt="&amp; Actualizar lista de jugadores"
+RefreshTxt="&Actualizar lista de jugadores"
 
 [AdminGUIManualBanWnd]
 ; EN: WindowTitle="Insert manual ban"

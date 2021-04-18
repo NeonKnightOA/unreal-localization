@@ -1,10 +1,7 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal Gold/Unreal Anthology"
-LocalProduct="Neskutečné zlato / Neskutečná antologie"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C:\neskutečné"
-; EN: ReadMe="Help\227ReleaseNotes.pdf"
-ReadMe="Nápověda \ 227ReleaseNotes.pdf"
+LocalProduct="Unreal Gold/Unreal Anthology"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\227ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Setup"
 SetupWindowTitle="Neskutečné nastavení"
 ; EN: AutoplayWindowTitle="Unreal Options"
@@ -14,12 +11,10 @@ VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 od Oldunrealu"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\Logo.bmp"
-Logo="Nápověda \ Logo.bmp"
+Logo="Help\Logo.bmp"
 
 [UnrealRequirement]
-; EN: LocalProduct="Unreal Gold/Unreal Anthology"
-LocalProduct="Neskutečné zlato / Neskutečná antologie"
+LocalProduct="Unreal Gold/Unreal Anthology"
 ProductURL="http://www.unreal.com/"
 VersionURL="http://www.epicgames.com/"
 Developer="Epic Games, Inc."
@@ -39,6 +34,6 @@ Description="Zkopíruje soubory mutátoru Old Weapons. Tyto soubory vám umožň
 
 [UPakFixGroup]
 ; EN: Caption="Return to Na Pali Coop Fix"
-Caption="Zpět na Na Pali Coop Fix"
+Caption="Oprava režimu coop v Return to Na Pali"
 ; EN: Description="Copies the UPakFix mutator files. These files allow you to play Unreal: Return to Na Pali in cooperative multiplayer mode without the usual errors."
 Description="Zkopíruje soubory mutátoru UPakFix. Tyto soubory vám umožní hrát Unreal: Return to Na Pali v kooperativním režimu pro více hráčů bez obvyklých chyb."

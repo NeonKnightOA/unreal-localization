@@ -1,43 +1,39 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal"
-LocalProduct="Neskutečný"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C:\neskutečné"
-; EN: ReadMe="Help\ReadMe.htm"
-ReadMe="Nápověda \ ReadMe.htm"
+LocalProduct="Unreal"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\ReadMe.htm"
 ; EN: SetupWindowTitle="Unreal Setup"
-SetupWindowTitle="Neskutečné nastavení"
+SetupWindowTitle="Unreal nastavení"
 ; EN: AutoplayWindowTitle="Unreal Options"
-AutoplayWindowTitle="Neskutečné možnosti"
+AutoplayWindowTitle="Unreal možnosti"
 ProductURL="http://www.unreal.com/"
 VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 od Oldunrealu"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\SetupLogo.bmp"
-Logo="Nápověda \ SetupLogo.bmp"
+Logo="Help\SetupLogo.bmp"
 
 [General]
 ; EN: PlayLevelCommand="&Play this Unreal level"
-PlayLevelCommand="&amp; Zahrajte si tuto neskutečnou úroveň"
+PlayLevelCommand="&Zahrajte si tuto Unreal úroveň"
 ; EN: OpenLinkCommand="&Open this Unreal link"
-OpenLinkCommand="&amp; Otevřít tento neskutečný odkaz"
+OpenLinkCommand="&Otevřít tento Unreal odkaz"
 ; EN: InstallModuleCommand="&Install this Unreal module"
-InstallModuleCommand="&amp; Nainstalujte tento modul Unreal"
+InstallModuleCommand="&Nainstalujte tento modul Unreal"
 ; EN: EditLevelCommand="&Edit this Unreal level"
-EditLevelCommand="&amp; Upravit tuto neskutečnou úroveň"
+EditLevelCommand="&Upravit tuto Unreal úroveň"
 
 [ContentGroup]
 ; EN: Caption="Game Content"
 Caption="Obsah hry"
 ; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
-Description="Neskutečný herní obsah. Nainstalujte si toto pro nejlepší výkon. Pokud jej zrušíte, obsah hry se načte během přehrávání z disku CD, což sníží výkon, ale za použití méně místa na pevném disku."
+Description="Unreal herní obsah. Nainstalujte si toto pro nejlepší výkon. Pokud jej zrušíte, obsah hry se načte během přehrávání z disku CD, což sníží výkon, ale za použití méně místa na pevném disku."
 
 [GameGroup]
 ; EN: Caption="Unreal Game"
-Caption="Neskutečná hra"
+Caption="Unreal hra"
 ; EN: Description="Unreal game. Installation is required."
-Description="Neskutečná hra. Instalace je nutná."
+Description="Unreal hra. Instalace je nutná."
 
 [DirectXGroup]
 Caption="DirectX"
@@ -46,9 +42,9 @@ Description="Volitelné ovladače Microsoft DirectX 8 pro vylepšenou podporu gr
 
 [EditorGroup]
 ; EN: Caption="Unreal Editor"
-Caption="Neskutečný editor"
+Caption="Unreal editor"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description="Editor neskutečného světa pro vytváření vlastních 3D neskutečných prostředí. Pro pokročilé uživatele; instalace je volitelná."
+Description="Editor Unreal světa pro vytváření vlastních 3D Unreal prostředí. Pro pokročilé uživatele; instalace je volitelná."
 
 [PlayShortcut]
 ; EN: Caption="Play Unreal"
@@ -56,11 +52,11 @@ Caption="Hrajte Unreal"
 
 [SafeModeShortcut]
 ; EN: Caption="Unreal Safe Mode"
-Caption="Neskutečný bezpečný režim"
+Caption="Unreal bezpečný režim"
 
 [EditorShortcut]
 ; EN: Caption="Unreal Editor"
-Caption="Neskutečný editor"
+Caption="Unreal editor"
 
 [DocumentationShortcut]
 ; EN: Caption="Documentation"
@@ -68,4 +64,4 @@ Caption="Dokumentace"
 
 [WebShortcut]
 ; EN: Caption="Unreal Web Page"
-Caption="Neskutečná webová stránka"
+Caption="Unreal webová stránka"

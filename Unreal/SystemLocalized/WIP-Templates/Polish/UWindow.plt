@@ -161,13 +161,13 @@ WindowTitle="Menu administratora"
 
 [AdminGUIBanLPullDown]
 ; EN: RemoveBanTxt="&Remove ban"
-RemoveBanTxt="&amp; Usuń blokadę"
+RemoveBanTxt="&Usuń blokadę"
 ; EN: CloseMenuTxt="&Close this menu"
-CloseMenuTxt="&amp; Zamknij to menu"
+CloseMenuTxt="&Zamknij to menu"
 ; EN: RefreshTxt="&Refresh banlist"
-RefreshTxt="&amp; Odśwież listę banów"
+RefreshTxt="&Odśwież listę banów"
 ; EN: ManualBanTxt="&Manually insert ban entry"
-ManualBanTxt="&amp; Ręcznie wstaw blokadę"
+ManualBanTxt="&Ręcznie wstaw blokadę"
 
 [MMMusListWindow]
 ; EN: WindowTitle="Found music tracks:"
@@ -175,13 +175,13 @@ WindowTitle="Znalezione utwory muzyczne:"
 
 [MMListPullDown]
 ; EN: PlaySongStr="&Play"
-PlaySongStr="&amp;Grać"
+PlaySongStr="&Grać"
 ; EN: RemoveSongStr="&Remove from playlist"
-RemoveSongStr="&amp; Usuń z listy odtwarzania"
+RemoveSongStr="&Usuń z listy odtwarzania"
 ; EN: InsertCurrentSongStr="&Insert currently playing track"
-InsertCurrentSongStr="&amp; Wstaw aktualnie odtwarzany utwór"
+InsertCurrentSongStr="&Wstaw aktualnie odtwarzany utwór"
 ; EN: ClearPlaylistStr="&Clear playlist"
-ClearPlaylistStr="&amp; Wyczyść listę odtwarzania"
+ClearPlaylistStr="&Wyczyść listę odtwarzania"
 
 [MMMusicFilesGrid]
 ; EN: ErrorLoadPackage="Error: Failed to load music package."
@@ -191,17 +191,17 @@ ErrorNoMusics="Błąd: nie udało się znaleźć żadnych plików muzycznych w t
 
 [AdminGUIPLPullDown]
 ; EN: GetAliasesTxt="&Get player aliases"
-GetAliasesTxt="&amp; Uzyskaj aliasy graczy"
+GetAliasesTxt="&Uzyskaj aliasy graczy"
 ; EN: KickPlayerTxt="&Kick player"
-KickPlayerTxt="&amp; Wykop gracza"
+KickPlayerTxt="&Wykop gracza"
 ; EN: KickBanTempTxt="&Temporarily kick-ban player"
-KickBanTempTxt="&amp; Tymczasowo wyrzuć gracza z banu"
+KickBanTempTxt="&Tymczasowo wyrzuć gracza z banu"
 ; EN: KickBanTxt="Kick-&ban player"
 KickBanTxt="Wyrzuć i zbanuj gracza"
 ; EN: CloseMenuTxt="&Close this menu"
-CloseMenuTxt="&amp; Zamknij to menu"
+CloseMenuTxt="&Zamknij to menu"
 ; EN: RefreshTxt="&Refresh players list"
-RefreshTxt="&amp; Odśwież listę graczy"
+RefreshTxt="&Odśwież listę graczy"
 
 [AdminGUIManualBanWnd]
 ; EN: WindowTitle="Insert manual ban"

@@ -131,7 +131,7 @@ PlayersName="Joueurs"
 ; EN: RefreshName="&Refresh Info"
 RefreshName="&Actualiser les informations"
 ; EN: CloseName="&Close"
-CloseName="&amp;Proche"
+CloseName="&Proche"
 
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
@@ -298,11 +298,11 @@ WindowTitle="Emplacement ouvert"
 
 [UBrowserIRCSystemMenu]
 ; EN: ConnectText="&Connect"
-ConnectText="&amp;Relier"
+ConnectText="&Relier"
 ; EN: DisconnectText="&Disconnect"
 DisconnectText="&Déconnecter"
 ; EN: JoinText="&Join"
-JoinText="&amp;Joindre"
+JoinText="&Joindre"
 
 [UBrowserFavoritesMenu]
 ; EN: EditFavoriteName="&Edit Favorite"
@@ -314,15 +314,15 @@ FavoritesName="Retirer des favoris"
 
 [UBrowserIRCChannelMenu]
 ; EN: PartText="&Leave"
-PartText="&amp;Laisser"
+PartText="&Laisser"
 ; EN: JoinText="&Join"
-JoinText="&amp;Joindre"
+JoinText="&Joindre"
 
 [UBrowserIRCPrivateMenu]
 ; EN: CloseText="&Close "
-CloseText="&amp;Proche "
+CloseText="&Proche "
 ; EN: JoinText="&Join"
-JoinText="&amp;Joindre"
+JoinText="&Joindre"
 
 [UBrowserNewFavoriteWindow]
 ; EN: OKText="New"

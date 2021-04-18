@@ -1,10 +1,7 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal"
-LocalProduct="Irreal"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C: \ Irreal"
-; EN: ReadMe="Help\ReadMe.htm"
-ReadMe="Ayuda \ ReadMe.htm"
+LocalProduct="Unreal"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\ReadMe.htm"
 ; EN: SetupWindowTitle="Unreal Setup"
 SetupWindowTitle="Configuración irreal"
 ; EN: AutoplayWindowTitle="Unreal Options"
@@ -14,30 +11,29 @@ VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 de Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\SetupLogo.bmp"
-Logo="Ayuda \ SetupLogo.bmp"
+Logo="Help\SetupLogo.bmp"
 
 [General]
 ; EN: PlayLevelCommand="&Play this Unreal level"
-PlayLevelCommand="&amp; Juega a este nivel Unreal"
+PlayLevelCommand="&Juega a este nivel Unreal"
 ; EN: OpenLinkCommand="&Open this Unreal link"
-OpenLinkCommand="&amp; Abra este enlace Unreal"
+OpenLinkCommand="&Abra este enlace Unreal"
 ; EN: InstallModuleCommand="&Install this Unreal module"
-InstallModuleCommand="&amp; Instale este módulo Unreal"
+InstallModuleCommand="&Instale este módulo Unreal"
 ; EN: EditLevelCommand="&Edit this Unreal level"
-EditLevelCommand="&amp; Edita este nivel Unreal"
+EditLevelCommand="&Edita este nivel Unreal"
 
 [ContentGroup]
 ; EN: Caption="Game Content"
 Caption="Contenido del juego"
 ; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
-Description="Contenido de juego irreal. Instale esto para obtener el mejor rendimiento. Si anula la selección, el contenido del juego se cargará desde el CD durante el juego, lo que degradará el rendimiento, pero utilizará menos espacio en el disco duro."
+Description="Contenido de juego de Unreal. Instale esto para obtener el mejor rendimiento. Si anula la selección, el contenido del juego se cargará desde el CD durante el juego, lo que degradará el rendimiento, pero utilizará menos espacio en el disco duro."
 
 [GameGroup]
 ; EN: Caption="Unreal Game"
-Caption="Juego irreal"
+Caption="Juego Unreal"
 ; EN: Description="Unreal game. Installation is required."
-Description="Juego irreal. Se requiere instalación."
+Description="Juego Unreal. Se requiere instalación."
 
 [DirectXGroup]
 Caption="DirectX"
@@ -46,21 +42,21 @@ Description="Controladores opcionales de Microsoft DirectX 8 para gráficos mejo
 
 [EditorGroup]
 ; EN: Caption="Unreal Editor"
-Caption="Editor irreal"
+Caption="Editor Unreal"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description="Editor del mundo irreal, para crear sus propios entornos 3D Unreal. Para usuarios avanzados; la instalación es opcional."
+Description="Editor del mundo Unreal, para crear sus propios entornos 3D Unreal. Para usuarios avanzados; la instalación es opcional."
 
 [PlayShortcut]
 ; EN: Caption="Play Unreal"
-Caption="Jugar irreal"
+Caption="Jugar Unreal"
 
 [SafeModeShortcut]
 ; EN: Caption="Unreal Safe Mode"
-Caption="Modo seguro irreal"
+Caption="Modo seguro de Unreal"
 
 [EditorShortcut]
 ; EN: Caption="Unreal Editor"
-Caption="Editor irreal"
+Caption="Editor Unreal"
 
 [DocumentationShortcut]
 ; EN: Caption="Documentation"
@@ -68,4 +64,4 @@ Caption="Documentación"
 
 [WebShortcut]
 ; EN: Caption="Unreal Web Page"
-Caption="Página web irreal"
+Caption="Página web Unreal"

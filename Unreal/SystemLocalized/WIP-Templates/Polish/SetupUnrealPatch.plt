@@ -1,10 +1,7 @@
 ﻿[Setup]
-; EN: LocalProduct="Unreal Gold/Unreal Anthology"
-LocalProduct="Unreal Gold / Unreal Anthology"
-; EN: DefaultFolder="C:\Unreal"
-DefaultFolder="C: \ Unreal"
-; EN: ReadMe="Help\227ReleaseNotes.pdf"
-ReadMe="Help \ 227ReleaseNotes.pdf"
+LocalProduct="Unreal Gold/Unreal Anthology"
+DefaultFolder="C:\Unreal"
+ReadMe="Help\227ReleaseNotes.pdf"
 SetupWindowTitle="Unreal Setup"
 ; EN: AutoplayWindowTitle="Unreal Options"
 AutoplayWindowTitle="Nierealne opcje"
@@ -13,12 +10,10 @@ VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 autorstwa Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
-; EN: Logo="Help\Logo.bmp"
-Logo="Pomoc \ Logo.bmp"
+Logo="Help\Logo.bmp"
 
 [UnrealRequirement]
-; EN: LocalProduct="Unreal Gold/Unreal Anthology"
-LocalProduct="Unreal Gold / Unreal Anthology"
+LocalProduct="Unreal Gold/Unreal Anthology"
 ProductURL="http://www.unreal.com/"
 VersionURL="http://www.epicgames.com/"
 Developer="Epic Games, Inc."
@@ -38,6 +33,6 @@ Description="Kopiuje pliki mutatora Starej Broni. Pliki te pozwalają na zabawę
 
 [UPakFixGroup]
 ; EN: Caption="Return to Na Pali Coop Fix"
-Caption="Wróć do Na Pali Coop Fix"
+Caption="Naprawiono tryb współpracy w Return to Na Pali"
 ; EN: Description="Copies the UPakFix mutator files. These files allow you to play Unreal: Return to Na Pali in cooperative multiplayer mode without the usual errors."
 Description="Kopiuje pliki mutatora UPakFix. Pliki te pozwalają na grę w Unreal: Return to Na Pali w kooperacyjnym trybie dla wielu graczy bez typowych błędów."
