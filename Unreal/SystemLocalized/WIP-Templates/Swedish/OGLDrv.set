@@ -13,8 +13,8 @@ AskUse="Vill du att Unreal ska använda din OGLDrv-accelerator?"
 
 [Errors]
 ; EN: NoFindGL="Can't find OGLDrv driver %ls"
-NoFindGL="Det går inte att hitta OGLDrv-drivrutinen% ls"
+NoFindGL="Det går inte att hitta OGLDrv-drivrutinen %ls"
 ; EN: MissingFunc="Missing OGLDrv function %ls (%i)"
-MissingFunc="OGLDrv-funktion% ls (% i) saknas"
+MissingFunc="OGLDrv-funktion %ls (%i) saknas"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Det gick inte att ställa in upplösning"

@@ -13,8 +13,8 @@ AskUse="Szeretné, hogy az Unreal használja az OGLDrv gyorsítót?"
 
 [Errors]
 ; EN: NoFindGL="Can't find OGLDrv driver %ls"
-NoFindGL="Nem található a (z)% ls OGLDrv illesztőprogram"
+NoFindGL="Nem található a (z) %ls OGLDrv illesztőprogram"
 ; EN: MissingFunc="Missing OGLDrv function %ls (%i)"
-MissingFunc="Hiányzik az OGLDrv függvény% ls (% i)"
+MissingFunc="Hiányzik az OGLDrv függvény %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Nem sikerült beállítani a felbontást"

@@ -41,16 +41,16 @@ NoDigitalMusicCommand="A digitális zene támogatása konfiguráció szerint le 
 ; EN: NoCDMusicCommand="CD music support is disabled by configuration."
 NoCDMusicCommand="A CD zene támogatása konfiguráció szerint le van tiltva."
 ; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
-; EN: MonoSoundExpected="%s has %i channels."
+; EN: MonoSoundExpected="%ls has %i channels."
 MonoSoundExpected="%ls rendelkezik %i csatornával."
 
 [Errors]
 ; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
-; EN: SystemCreate="Failed to create FMOD system object: %s."
-SystemCreate="Nem sikerült létrehozni az FMOD rendszerobjektumot:%ls."
+; EN: SystemCreate="Failed to create FMOD system object: %ls."
+SystemCreate="Nem sikerült létrehozni az FMOD rendszerobjektumot: %ls."
 ; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
-; EN: Version="Cluster expects a minimum FMOD library version %s, but version was %s found."
-Version="A fürt a (z)%ls minimális FMOD könyvtár verzióra számít, de a verzió%ls volt."
+; EN: Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
+Version="A fürt a (z) %ls minimális FMOD könyvtár verzióra számít, de a verzió %ls volt."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
-; EN: SystemInit="Failed to initialize FMOD system object: %s."
-SystemInit="Nem sikerült inicializálni az FMOD rendszerobjektumot:%ls."
+; EN: SystemInit="Failed to initialize FMOD system object: %ls."
+SystemInit="Nem sikerült inicializálni az FMOD rendszerobjektumot: %ls."

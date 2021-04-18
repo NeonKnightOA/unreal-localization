@@ -62,7 +62,7 @@ BlobKillMessage="egy folt korrodálta"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="A% o% w-ot aprította darabokra."
+DeathMessage="A %o %w-ot aprította darabokra."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Megvan a Flak ágyú"
 ; EN: ItemName="Flak Cannon"
@@ -70,7 +70,7 @@ ItemName="Flak ágyú"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k golyót adott át% o fején."
+DeathMessage="%k golyót adott át %o fején."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Megvan a puska"
 ; EN: ItemName="Sniper Rifle"
@@ -92,14 +92,14 @@ NameArticle=" az "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k%% -a% o-t szivárgó húsdarabbá változtatta."
+DeathMessage="%k %%-a %o-t szivárgó húsdarabbá változtatta."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Megvan a Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o megitta egy pohár% k csöpögő zöld terhelését."
+DeathMessage="%o megitta egy pohár %k csöpögő zöld terhelését."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Megvan a GES BioRifle"
 ; EN: ItemName="GES Bio Rifle"
@@ -166,7 +166,7 @@ ItemName="Erőtér"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k véres darabot vett ki% o-ból a% w-val."
+DeathMessage="%k véres darabot vett ki %o-ból a %w-val."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Megvan a RazorJack"
 ItemName="RazorJack"
@@ -259,7 +259,7 @@ ItemName="Puskás kör"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o-t bitekre robbantotta% k% w."
+DeathMessage="%o-t bitekre robbantotta %k %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Megvan a Négycsöves Sörétes"
 ; EN: ItemName="Quad-Barreled Shotgun"

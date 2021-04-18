@@ -49,7 +49,7 @@ ZoneName="Alejki"
 
 [ScrollingMessageTexture0]
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="DZIŚ 22:00 EST...%p PROWADZI SWÓJ NIEPONOWANY ZESPÓŁ%h NA SKAŻONĄ ARENĘ"
+ScrollingMessage="DZIŚ 22:00 EST... %p PROWADZI SWÓJ NIEPONOWANY ZESPÓŁ %h NA SKAŻONĄ ARENĘ"
 
 [locationid0]
 ; EN: LocationName="Garage"

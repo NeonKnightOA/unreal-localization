@@ -7,9 +7,9 @@ Preferences=(Caption="Možnosti ladění",Parent="Podpora XOpenGL",Class=XOpenGL
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Nelze najít ovladač OpenGL% ls"
+NoFindGL="Nelze najít ovladač OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Chybějící funkce OpenGL% ls (% i)"
+MissingFunc="Chybějící funkce OpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Nastavení se nezdařilo"
 

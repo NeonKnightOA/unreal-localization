@@ -13,7 +13,7 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
-DeathMessage="% o-t% k% w ölte meg. Micsoda vesztes!"
+DeathMessage="%o-t %k %w ölte meg. Micsoda vesztes!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Megvan a diszperziós pisztoly"
 ; EN: ItemName="Dispersion Pistol"
@@ -21,14 +21,14 @@ ItemName="Diszperziós pisztoly"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k halandó kárt okozott% o-val a% w-val."
+DeathMessage="%k halandó kárt okozott %o-val a %w-val."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Megvan az ASMD"
 ItemName="ASMD"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o-t többször megcsapta% k% w."
+DeathMessage="%o-t többször megcsapta %k %w."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Megvan a nyolcgolyós fegyver"
 ; EN: ItemName="Eightball"
@@ -36,7 +36,7 @@ ItemName="Nyolcgolyó"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k golyót adott át% o fején."
+DeathMessage="%k golyót adott át %o fején."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Megvan a puska"
 ; EN: ItemName="Sniper Rifle"
@@ -44,7 +44,7 @@ ItemName="Mesterlövész puska"
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="A% o% w-ot aprította darabokra."
+DeathMessage="A %o %w-ot aprította darabokra."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Megvan a Flak ágyú"
 ; EN: ItemName="Flak Cannon"
@@ -52,21 +52,21 @@ ItemName="Flak ágyú"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o kapta% k által% w."
+DeathMessage="%o kapta %k által %w."
 ; EN: PickupMessage="You got the AutoMag"
 PickupMessage="Megvan az AutoMag"
 ItemName="AutoMag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k%% -a% o-t szivárgó húsdarabbá változtatta."
+DeathMessage="%k %%-a %o-t szivárgó húsdarabbá változtatta."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Megvan a Minigun"
 ItemName="Minigun"
 
 [OldGESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o megitta egy pohár% k csöpögő zöld terhelését."
+DeathMessage="%o megitta egy pohár %k csöpögő zöld terhelését."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Megvan a GES BioRifle"
 ; EN: ItemName="GES Bio Rifle"
@@ -82,7 +82,7 @@ ItemName="Erősítő"
 
 [OldStinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o perforált% k% w-val."
+DeathMessage="%o perforált %k %w-val."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Felkapta a Stingert"
 ; EN: ItemName="Stinger"
@@ -113,7 +113,7 @@ ItemName="Pelyhes kagyló"
 
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k véres darabot vett ki% o-ból a% w-val."
+DeathMessage="%k véres darabot vett ki %o-ból a %w-val."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Megvan a RazorJack"
 ItemName="RazorJack"

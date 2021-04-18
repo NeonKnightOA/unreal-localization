@@ -49,8 +49,8 @@ AltMessage="Tous les sujets de test ont été placés dans la zone de détention
 AltMessage="L'approvisionnement en énergie de la source est sécurisé, l'alimentation électrique alternative est opérationnelle. Le maintien du flux d'énergie vers la source est la plus haute priorité. La faiblesse sera punie."
 
 [TranslatorEvent7]
-; EN: Message="ACCESS DENIED: Power Reserves at 100%"
-Message="ACCÈS REFUSÉ: réserves de puissance à 100%"
+; EN: Message="ACCESS DENIED: Power Reserves at 100%."
+Message="ACCÈS REFUSÉ: réserves de puissance à 100%."
 ; EN: Hint="You need to go the the Research Lab to lower the Energy level."
 Hint="Vous devez vous rendre au laboratoire de recherche pour abaisser le niveau d'énergie."
 

@@ -8,7 +8,7 @@ Title="Limites de la fonderie"
 
 [Counter0]
 ; EN: CountMessage="%i more to go..."
-CountMessage="% i de plus pour y aller ..."
+CountMessage="%i de plus pour y aller ..."
 ; EN: CompleteMessage="Pumps destroyed! Emergency doors open."
 CompleteMessage="Pompes détruites! Portes d'urgence ouvertes."
 

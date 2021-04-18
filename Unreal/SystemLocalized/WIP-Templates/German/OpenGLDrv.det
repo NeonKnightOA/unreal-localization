@@ -5,9 +5,9 @@ Preferences=(Caption="OpenGL-Unterstützung",Parent="Rendern",Class=OpenGLDrv.Op
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="OpenGL-Treiber% ls kann nicht gefunden werden"
+NoFindGL="OpenGL-Treiber %ls kann nicht gefunden werden"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Fehlende OpenGL-Funktion% ls (% i)"
+MissingFunc="Fehlende OpenGL-Funktion %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Fehler beim Einstellen der Auflösung"
 

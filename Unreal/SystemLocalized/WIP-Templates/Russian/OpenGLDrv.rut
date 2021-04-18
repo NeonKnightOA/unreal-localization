@@ -5,9 +5,9 @@ Preferences=(Caption="Поддержка OpenGL",Parent="Рендеринг",Cla
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Не удается найти драйвер OpenGL% ls"
+NoFindGL="Не удается найти драйвер OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Отсутствует функция OpenGL% ls (% i)"
+MissingFunc="Отсутствует функция OpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Не удалось установить разрешение"
 

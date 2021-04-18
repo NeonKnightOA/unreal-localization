@@ -47,7 +47,7 @@ AltMessage="Wszyscy badani zostali umieszczeni w Areszcie Śledczym. Pola siłow
 AltMessage="Zasilanie energią dla źródła jest zabezpieczone, alternatywne źródło zasilania działa. Utrzymanie przepływu energii do Źródła jest najwyższym priorytetem. Słabość będzie ukarana."
 
 [TranslatorEvent7]
-; EN: Message="ACCESS DENIED: Power Reserves at 100%"
+; EN: Message="ACCESS DENIED: Power Reserves at 100%."
 Message="BRAK DOSTĘPU: 100% rezerw mocy"
 ; EN: Hint="You need to go the the Research Lab to lower the Energy level."
 Hint="Musisz udać się do laboratorium badawczego, aby obniżyć poziom energii."

@@ -53,8 +53,8 @@ AdviseBadMedia="Das Quellmedium ist möglicherweise fehlerhaft. Wenn Sie von ein
 AdviseBadDownload="Die heruntergeladenen Update-Dateien sind möglicherweise beschädigt."
 ; EN: AdviseBadDest="The destination drive might be full, or it might have bad sectors."
 AdviseBadDest="Das Ziellaufwerk ist möglicherweise voll oder weist fehlerhafte Sektoren auf."
-; EN: PatchCorrupt="The patch file %ls is corrupt.\n\n %ls"
-PatchCorrupt="Die Patch-Datei %ls ist beschädigt.\n\n %ls"
+; EN: PatchCorrupt="The patch file %ls is corrupt.\n\n%ls"
+PatchCorrupt="Die Patch-Datei %ls ist beschädigt.\n\n%ls"
 ; EN: CdFileMismatch="The file %ls from the CD-ROM is not the expected version. Therefore, %ls can't be patched."
 CdFileMismatch="Die Datei %ls von der CD-ROM ist nicht die erwartete Version. Daher kann %ls nicht gepatcht werden."
 
@@ -62,7 +62,7 @@ CdFileMismatch="Die Datei %ls von der CD-ROM ist nicht die erwartete Version. Da
 ; EN: Space="%i Megabytes"
 Space="%i Megabyte"
 ; EN: Ready="Setup is ready to install %ls.\nThe destination folder is: %ls\n\nClick "Install" to begin installation.\nClick "Cancel" to exit without installing %ls."
-Ready="Das Setup ist bereit,%ls zu installieren.\nDer Zielordner lautet:%ls\n\nKlicken Sie auf "Installieren", um die Installation zu starten.\nKlicken Sie auf "Abbrechen", um die Installation ohne Installation von %ls zu beenden."
+Ready="Das Setup ist bereit, %ls zu installieren.\nDer Zielordner lautet: %ls\n\nKlicken Sie auf "Installieren", um die Installation zu starten.\nKlicken Sie auf "Abbrechen", um die Installation ohne Installation von %ls zu beenden."
 ; EN: InstallCancel="Cancel Installation"
 InstallCancel="Installation abbrechen"
 ; EN: CancelPrompt="Warning! Cancelling the installation now will prevent %ls from functioning properly. Are you sure you want to cancel it?"
@@ -86,7 +86,7 @@ ExitButton="&amp;Ausgang"
 
 [IDDIALOG_FilerPageWelcome]
 ; EN: IDC_WelcomePrompt="You are about to install %ls on your computer.\n\nClick "Next" to begin Setup, or click "Cancel" at any time to exit.\n\nThe information in the box below contains Web links you can click on to obtain more information."
-IDC_WelcomePrompt="Sie sind dabei,%ls auf Ihrem Computer zu installieren.\n\nKlicken Sie auf "Weiter", um das Setup zu starten, oder klicken Sie zum Beenden jederzeit auf "Abbrechen".\n\nDie Informationen im Feld unten enthalten Weblinks, auf die Sie klicken können Weitere Informationen erhalten."
+IDC_WelcomePrompt="Sie sind dabei, %ls auf Ihrem Computer zu installieren.\n\nKlicken Sie auf "Weiter", um das Setup zu starten, oder klicken Sie zum Beenden jederzeit auf "Abbrechen".\n\nDie Informationen im Feld unten enthalten Weblinks, auf die Sie klicken können Weitere Informationen erhalten."
 ; EN: IDC_WelcomePromptUpdate="This program will update your copy of %ls to version %ls.\n\nClick "Next" to begin Setup, or click "Cancel" at any time to exit.\n\nThe information in the box below contains Web links you can click on to obtain more information."
 IDC_WelcomePromptUpdate="Dieses Programm aktualisiert Ihre Kopie von %ls auf Version %ls.\n\nKlicken Sie auf "Weiter", um das Setup zu starten, oder klicken Sie zum Beenden jederzeit auf "Abbrechen".\n\nDie Informationen im Feld unten enthalten Weblinks, die Sie verwenden können Klicken Sie auf, um weitere Informationen zu erhalten."
 ; EN: IDC_LanguagePrompt="&Language"
@@ -120,7 +120,7 @@ IDC_ComponentsPrompt="&Komponenten:"
 ; EN: IDC_DependenciesFrame="Dependencies"
 IDC_DependenciesFrame="Abhängigkeiten"
 ; EN: IDC_DependenciesText="Proceeding will uninstall the following components: %ls"
-IDC_DependenciesText="Wenn Sie fortfahren, werden die folgenden Komponenten deinstalliert:%ls"
+IDC_DependenciesText="Wenn Sie fortfahren, werden die folgenden Komponenten deinstalliert: %ls"
 
 [IDDIALOG_FilerPageFolder]
 ; EN: IDC_FolderDescription="Setup will install %ls in the following folder.\n\nTo install in this folder, click "Next".\n\nTo install in a different folder, type the complete name of the new folder including the drive letter, for example: "C:\NewFolder"."

@@ -53,7 +53,7 @@ BlobKillMessage="был разъеден каплей"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o был разорван в клочья%w из%k."
+DeathMessage="%o был разорван в клочья %w из %k."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="У вас есть зенитная пушка"
 ; EN: ItemName="Flak Cannon"
@@ -61,7 +61,7 @@ ItemName="Зенитная пушка"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k пустил пулю в голову%o."
+DeathMessage="%k пустил пулю в голову %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="У тебя есть винтовка"
 ; EN: ItemName="Sniper Rifle"
@@ -83,7 +83,7 @@ NameArticle=" то "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k's %w превратил%o в протекающий кусок мяса."
+DeathMessage="%k's %w превратил %o в протекающий кусок мяса."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="У тебя есть миниган"
 ; EN: ItemName="Minigun"
@@ -91,7 +91,7 @@ ItemName="Миниган"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o выпил стакан с капающей зеленой загрузкой%k."
+DeathMessage="%o выпил стакан с капающей зеленой загрузкой %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="У вас есть GES BioRifle"
 ; EN: ItemName="GES Bio Rifle"
@@ -159,7 +159,7 @@ ItemName="Силовое поле"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k вытащил кровавый кусок из%o с помощью%w."
+DeathMessage="%k вытащил кровавый кусок из %o с помощью %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="У тебя есть RazorJack"
 ItemName="RazorJack"

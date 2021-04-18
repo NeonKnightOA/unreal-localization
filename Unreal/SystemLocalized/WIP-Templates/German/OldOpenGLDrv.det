@@ -13,8 +13,8 @@ AskUse="Möchten Sie, dass Unreal Ihren OldOpenGL-Beschleuniger verwendet?"
 
 [Errors]
 ; EN: NoFindGL="Can't find OldOpenGL driver %ls"
-NoFindGL="OldOpenGL-Treiber% ls kann nicht gefunden werden"
+NoFindGL="OldOpenGL-Treiber %ls kann nicht gefunden werden"
 ; EN: MissingFunc="Missing OldOpenGL function %ls (%i)"
-MissingFunc="Fehlende OldOpenGL-Funktion% ls (% i)"
+MissingFunc="Fehlende OldOpenGL-Funktion %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Fehler beim Einstellen der Auflösung"

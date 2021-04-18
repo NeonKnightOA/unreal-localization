@@ -64,7 +64,7 @@ BlobKillMessage="fue corroído por una gota"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o fue hecho trizas por% k's% w."
+DeathMessage="%o fue hecho trizas por %k's %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Tienes el cañón antiaéreo"
 ; EN: ItemName="Flak Cannon"
@@ -72,7 +72,7 @@ ItemName="Cañón antiaéreo"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k le atravesó la cabeza a% o con una bala."
+DeathMessage="%k le atravesó la cabeza a %o con una bala."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Tienes el rifle"
 ; EN: ItemName="Sniper Rifle"
@@ -95,14 +95,14 @@ NameArticle=" la "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k's% w convirtió a% o en un trozo de carne con fugas."
+DeathMessage="%k's %w convirtió a %o en un trozo de carne con fugas."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Tienes la minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o bebió un vaso de la goteante carga verde de% k."
+DeathMessage="%o bebió un vaso de la goteante carga verde de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Tienes el BioRifle GES"
 ; EN: ItemName="GES Bio Rifle"
@@ -170,7 +170,7 @@ ItemName="Campo de fuerza"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k sacó un trozo de sangre de% o con% w."
+DeathMessage="%k sacó un trozo de sangre de %o con %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Tienes el RazorJack"
 ItemName="RazorJack"
@@ -266,7 +266,7 @@ ItemName="Ronda de rifle"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o fue reducido a pedazos por% k's% w."
+DeathMessage="%o fue reducido a pedazos por %k's %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Tienes la escopeta de cuatro cañones"
 ; EN: ItemName="Quad-Barreled Shotgun"

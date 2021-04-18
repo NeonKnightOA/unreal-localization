@@ -13,8 +13,8 @@ AskUse="Möchten Sie, dass Unreal Ihren OGLDrv-Beschleuniger verwendet?"
 
 [Errors]
 ; EN: NoFindGL="Can't find OGLDrv driver %ls"
-NoFindGL="OGLDrv-Treiber% ls kann nicht gefunden werden"
+NoFindGL="OGLDrv-Treiber %ls kann nicht gefunden werden"
 ; EN: MissingFunc="Missing OGLDrv function %ls (%i)"
-MissingFunc="Fehlende OGLDrv-Funktion% ls (% i)"
+MissingFunc="Fehlende OGLDrv-Funktion %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Fehler beim Einstellen der Auflösung"

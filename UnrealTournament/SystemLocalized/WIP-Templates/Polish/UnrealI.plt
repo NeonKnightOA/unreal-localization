@@ -60,7 +60,7 @@ ItemName="Flak Cannon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k wbił kulę w głowę%o."
+DeathMessage="%k wbił kulę w głowę %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Masz karabin"
 ; EN: ItemName="Sniper Rifle"
@@ -154,7 +154,7 @@ ItemName="Pole siłowe"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k pobrał cholerny kawałek z %o za pomocą%w."
+DeathMessage="%k pobrał cholerny kawałek z %o za pomocą %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Masz RazorJack"
 ItemName="RazorJack"

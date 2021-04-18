@@ -35,7 +35,7 @@ Hint="Trouvez les salles de confinement A, B et C et activez les boutons pour ac
 Message="État de la salle de contrôle: pressurisé et verrouillé. Ne pas accéder sauf en cas de situation d'urgence."
 
 [TranslatorEvent1]
-; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%"
-Message="La station de pompage a été activée, capacité de stockage attendue après fonctionnement: 32%"
+; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%."
+Message="La station de pompage a été activée, capacité de stockage attendue après fonctionnement: 32%."
 ; EN: AltMessage="Section D: 54% of full capacity reached."
 AltMessage="Section D: 54% de la pleine capacité atteinte."

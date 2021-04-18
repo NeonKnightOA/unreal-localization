@@ -62,14 +62,14 @@ BlobKillMessage="został skorodowany przez Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o zostało rozerwane na strzępy przez% k% w."
+DeathMessage="%o zostało rozerwane na strzępy przez %k %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Masz Flak Cannon"
 ItemName="Flak Cannon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k wbił kulę w głowę% o."
+DeathMessage="%k wbił kulę w głowę %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Masz karabin"
 ; EN: ItemName="Sniper Rifle"
@@ -89,14 +89,14 @@ NameArticle=" the "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k's% w zmieniło% o w nieszczelny kawałek mięsa."
+DeathMessage="%k's %w zmieniło %o w nieszczelny kawałek mięsa."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Masz Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o wypił szklankę kapiącego zielonego ładunku% k."
+DeathMessage="%o wypił szklankę kapiącego zielonego ładunku %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Masz karabin GES BioRifle"
 ; EN: ItemName="GES Bio Rifle"
@@ -163,7 +163,7 @@ ItemName="Pole siłowe"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k pobrał cholerny kawałek z% o za pomocą% w."
+DeathMessage="%k pobrał cholerny kawałek z %o za pomocą %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Masz RazorJack"
 ItemName="RazorJack"
@@ -258,7 +258,7 @@ ItemName="Karabin Round"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o został rozerwany na bity przez% k% w."
+DeathMessage="%o został rozerwany na bity przez %k %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Masz czterolufową strzelbę"
 ; EN: ItemName="Quad-Barreled Shotgun"

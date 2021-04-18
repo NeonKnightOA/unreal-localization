@@ -5,9 +5,9 @@ Preferences=(Caption="OpenGL támogatás",Parent="Rendering",Class=OpenGLDrv.Ope
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Nem található az OpenGL illesztőprogram% ls"
+NoFindGL="Nem található az OpenGL illesztőprogram %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Hiányzik az OpenGL függvény% ls (% i)"
+MissingFunc="Hiányzik az OpenGL függvény %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Nem sikerült beállítani a felbontást"
 

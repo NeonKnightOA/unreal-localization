@@ -35,7 +35,7 @@ Hint="Znajdź pomieszczenia przechowawcze A, B i C i aktywuj przyciski dostępu 
 Message="Stan pokoju kontrolnego: pod ciśnieniem i zamknięty. Nie wchodzić z wyjątkiem sytuacji awaryjnych."
 
 [TranslatorEvent1]
-; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%"
-Message="Przepompownia została uruchomiona, przewidywana pojemność magazynu po eksploatacji: 32%"
+; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%."
+Message="Przepompownia została uruchomiona, przewidywana pojemność magazynu po eksploatacji: 32%."
 ; EN: AltMessage="Section D: 54% of full capacity reached."
 AltMessage="Sekcja D: osiągnięto 54% pełnej wydajności."

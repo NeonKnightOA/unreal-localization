@@ -272,7 +272,7 @@ MenuTitle="Конфигурация искусственного интелле�
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o был убит%w %k. Что за неудачник!"
+DeathMessage="%o был убит %w %k. Что за неудачник!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="У вас есть дисперсионный пистолет"
 ; EN: ItemName="Dispersion Pistol"
@@ -634,7 +634,7 @@ GameName="Командная игра"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k нанес смертельный урон%o с помощью%w."
+DeathMessage="%k нанес смертельный урон %o с помощью %w."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="У вас есть винтовка ASMD"
 ; EN: ItemName="ASMD Rifle"
@@ -674,7 +674,7 @@ MenuTitle="БОТЫ"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o был несколько раз сбит%w %k."
+DeathMessage="%o был несколько раз сбит %w %k."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="У тебя есть пистолет Eightball"
 ; EN: ItemName="Eightball"
@@ -928,7 +928,7 @@ MenuTitle="ВЫБРАТЬ ИГРУ"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o получил доступ к%w из%k."
+DeathMessage="%o получил доступ к %w из %k."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="У вас есть Автомаг"
 ; EN: ItemName="Automag"
@@ -1076,7 +1076,7 @@ MenuList[7]="УЛЬТРА-НЕРЕАЛЬНЫЙ"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
-ComboKillMessage="%o не смог избежать ударной волны от%w %k"
+ComboKillMessage="%o не смог избежать ударной волны от %w %k"
 
 [SinglePlayer]
 ; EN: GameName="Unreal"
@@ -1090,7 +1090,7 @@ MenuTitle="СОХРАНИТЬ ИГРУ"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o был перфорирован%k's %w."
+DeathMessage="%o был перфорирован %k's %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Ты взял Стингер"
 ; EN: ItemName="Stinger"

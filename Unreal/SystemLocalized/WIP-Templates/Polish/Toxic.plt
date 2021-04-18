@@ -8,7 +8,7 @@ Title="Granice odlewni"
 
 [Counter0]
 ; EN: CountMessage="%i more to go..."
-CountMessage="Jeszcze% i do zrobienia ..."
+CountMessage="Jeszcze %i do zrobienia ..."
 ; EN: CompleteMessage="Pumps destroyed! Emergency doors open."
 CompleteMessage="Pompy zniszczone! Drzwi awaryjne otwierają się."
 

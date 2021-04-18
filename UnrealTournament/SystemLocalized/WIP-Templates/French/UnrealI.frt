@@ -83,7 +83,7 @@ NameArticle=" le "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k de %w a transformé%o en un morceau de viande qui fuit."
+DeathMessage="%k de %w a transformé %o en un morceau de viande qui fuit."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Vous avez le Minigun"
 ItemName="Minigun"

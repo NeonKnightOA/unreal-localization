@@ -5,9 +5,9 @@ Preferences=(Caption="Prise en charge d'OpenGL",Parent="Le rendu",Class=OpenGLDr
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Impossible de trouver le pilote OpenGL% ls"
+NoFindGL="Impossible de trouver le pilote OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Fonction OpenGL manquante% ls (% i)"
+MissingFunc="Fonction OpenGL manquante %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Échec de la définition de la résolution"
 

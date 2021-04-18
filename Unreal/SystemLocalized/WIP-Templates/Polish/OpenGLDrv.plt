@@ -5,9 +5,9 @@ Preferences=(Caption="Obsługa OpenGL",Parent="Wykonanie",Class=OpenGLDrv.OpenGL
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Nie można znaleźć sterownika OpenGL% ls"
+NoFindGL="Nie można znaleźć sterownika OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Brak funkcji OpenGL% ls (% i)"
+MissingFunc="Brak funkcji OpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Nie udało się ustawić rozdzielczości"
 

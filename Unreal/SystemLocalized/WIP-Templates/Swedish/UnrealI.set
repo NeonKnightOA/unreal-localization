@@ -62,7 +62,7 @@ BlobKillMessage="korroderades av en Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o slet sönder med% k's% w."
+DeathMessage="%o slet sönder med %k's %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Du har Flak Cannon"
 ; EN: ItemName="Flak Cannon"
@@ -70,7 +70,7 @@ ItemName="Flakkanon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k lade en kula genom% o: s huvud."
+DeathMessage="%k lade en kula genom %o: s huvud."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Du har geväret"
 ; EN: ItemName="Sniper Rifle"
@@ -92,14 +92,14 @@ NameArticle=" de "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k% w förvandlade% o till en läckande köttbit."
+DeathMessage="%k %w förvandlade %o till en läckande köttbit."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Du har minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o drack ett glas% k: s droppande gröna belastning."
+DeathMessage="%o drack ett glas %k: s droppande gröna belastning."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Du har GES BioRifle"
 ItemName="GES Bio Rifle"
@@ -165,7 +165,7 @@ ItemName="Kraftfält"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k tog en blodig bit av% o med% w."
+DeathMessage="%k tog en blodig bit av %o med %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Du har RazorJack"
 ItemName="RazorJack"
@@ -260,7 +260,7 @@ ItemName="Gevär Runda"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o sprängdes till bitar av% k's% w."
+DeathMessage="%o sprängdes till bitar av %k's %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Du har ett fyrgevärigt hagelgevär"
 ; EN: ItemName="Quad-Barreled Shotgun"

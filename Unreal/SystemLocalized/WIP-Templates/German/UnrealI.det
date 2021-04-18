@@ -62,7 +62,7 @@ BlobKillMessage="wurde von einem Blob korrodiert"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o wurde von% k% w in Stücke gerissen."
+DeathMessage="%o wurde von %k %w in Stücke gerissen."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Du hast die Flak-Kanone"
 ; EN: ItemName="Flak Cannon"
@@ -70,7 +70,7 @@ ItemName="Flak-Kanone"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k hat% o eine Kugel durch den Kopf geschossen."
+DeathMessage="%k hat %o eine Kugel durch den Kopf geschossen."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Du hast das Gewehr"
 ; EN: ItemName="Sniper Rifle"
@@ -92,14 +92,14 @@ NameArticle=" das "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% ks% w verwandelte% o in ein undichtes Stück Fleisch."
+DeathMessage="%ks %w verwandelte %o in ein undichtes Stück Fleisch."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Du hast die Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o trank ein Glas% ks tropfende grüne Ladung."
+DeathMessage="%o trank ein Glas %ks tropfende grüne Ladung."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Du hast das GES BioRifle"
 ; EN: ItemName="GES Bio Rifle"
@@ -167,7 +167,7 @@ ItemName="Kraftfeld"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k hat mit dem% w einen blutigen Teil von% o genommen."
+DeathMessage="%k hat mit dem %w einen blutigen Teil von %o genommen."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Du hast den RazorJack"
 ItemName="RazorJack"
@@ -262,7 +262,7 @@ ItemName="Gewehr Runde"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o wurde von% k% w in Stücke gesprengt."
+DeathMessage="%o wurde von %k %w in Stücke gesprengt."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Du hast die Quad-Barreled Shotgun"
 ; EN: ItemName="Quad-Barreled Shotgun"

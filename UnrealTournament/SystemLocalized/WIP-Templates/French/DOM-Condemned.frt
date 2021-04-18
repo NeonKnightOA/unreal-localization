@@ -49,7 +49,7 @@ ZoneName="Ruelles"
 
 [ScrollingMessageTexture0]
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="CE SOIR 22 H HNE...%p MÈNE SON ÉQUIPE INDEFAITe %h DANS L'ARÈNE CONDAMNÉE"
+ScrollingMessage="CE SOIR 22 H HNE... %p MÈNE SON ÉQUIPE INDEFAITe %h DANS L'ARÈNE CONDAMNÉE"
 
 [locationid0]
 LocationName="Garage"

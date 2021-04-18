@@ -378,7 +378,7 @@ MenuTitle="Konfigurasjon av kunstig intelligens"
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="% o ble drept av% k's% w. For en taper!"
+DeathMessage="%o ble drept av %k's %w. For en taper!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Du har Dispersionspistolen"
 ; EN: ItemName="Dispersion Pistol"
@@ -731,7 +731,7 @@ GameName="Lagspill"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k påførte dødelig skade på% o med% w."
+DeathMessage="%k påførte dødelig skade på %o med %w."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="Du har ASMD Rifle"
 ; EN: ItemName="ASMD Rifle"
@@ -770,7 +770,7 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o ble slått ned flere ganger av% k's% w."
+DeathMessage="%o ble slått ned flere ganger av %k's %w."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Du har Eightball-pistolen"
 ; EN: ItemName="Eightball"
@@ -1023,7 +1023,7 @@ MenuTitle="VELG SPILL"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o fikk gatt av% k's% w."
+DeathMessage="%o fikk gatt av %k's %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Du har Automag"
 ItemName="Automag"
@@ -1165,7 +1165,7 @@ MenuList[7]="ULTRA-UNREAL"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
-ComboKillMessage="% o kunne ikke unngå sjokkeksplosjonen fra% k's% w"
+ComboKillMessage="%o kunne ikke unngå sjokkeksplosjonen fra %k's %w"
 
 [SinglePlayer]
 ; EN: GameName="Unreal"
@@ -1179,7 +1179,7 @@ MenuTitle="LAGRE SPILLET"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o ble perforert av% k's% w."
+DeathMessage="%o ble perforert av %k's %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Du hentet Stinger"
 ItemName="Stinger"
@@ -1323,7 +1323,7 @@ FailtureMessage="Du trenger en nøkkel for å åpne døren."
 
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
-DeathMessage="% o ble telefragged av% ​​k."
+DeathMessage="%o ble telefragged av %​​k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Du har Translocator Source Module"
 ; EN: ItemName="Translocator"

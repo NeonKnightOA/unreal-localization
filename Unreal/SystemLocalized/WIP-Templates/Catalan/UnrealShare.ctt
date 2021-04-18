@@ -388,7 +388,7 @@ MenuTitle="Configuració d'Intel·ligència Artificial"
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="% o va ser assassinat per% w's% w. Quin perdedor!"
+DeathMessage="%o va ser assassinat per %w's %w. Quin perdedor!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Tens la pistola de dispersió"
 ; EN: ItemName="Dispersion Pistol"
@@ -748,7 +748,7 @@ GameName="Joc d'equip"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k va causar danys mortals a% o amb el% w."
+DeathMessage="%k va causar danys mortals a %o amb el %w."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="Tens el rifle ASMD"
 ; EN: ItemName="ASMD Rifle"
@@ -787,7 +787,7 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o ha estat copejat diverses vegades per% w's% w."
+DeathMessage="%o ha estat copejat diverses vegades per %w's %w."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Tens l’arma Eightball"
 ; EN: ItemName="Eightball"
@@ -1039,7 +1039,7 @@ MenuTitle="TRIA EL JOC"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o ha estat bloquejat per% w's% w."
+DeathMessage="%o ha estat bloquejat per %w's %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Tens l’Automag"
 ItemName="Automag"
@@ -1183,7 +1183,7 @@ MenuList[7]="ULTRA-IRREAL"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
-ComboKillMessage="% o no ha pogut evitar el xoc de% k% w"
+ComboKillMessage="%o no ha pogut evitar el xoc de %k %w"
 
 [SinglePlayer]
 ; EN: GameName="Unreal"
@@ -1197,7 +1197,7 @@ MenuTitle="GUARDAR LA PARTIDA"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o s'ha perforat amb% w% k."
+DeathMessage="%o s'ha perforat amb %w %k."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Heu recollit el Stinger"
 ItemName="Stinger"
@@ -1344,7 +1344,7 @@ FailtureMessage="Necessiteu una clau per obrir aquesta porta."
 
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
-DeathMessage="% k ha estat telefragat per% k."
+DeathMessage="%k ha estat telefragat per %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Teniu el mòdul font del translocador"
 ; EN: ItemName="Translocator"

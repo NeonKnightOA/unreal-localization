@@ -387,7 +387,7 @@ MenuTitle="Mesterséges intelligencia konfigurálása"
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="% o-t% k% w ölte meg. Micsoda vesztes!"
+DeathMessage="%o-t %k %w ölte meg. Micsoda vesztes!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Megvan a diszperziós pisztoly"
 ; EN: ItemName="Dispersion Pistol"
@@ -744,7 +744,7 @@ GameName="Csapatjáték"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k halandó kárt okozott% o-val a% w-val."
+DeathMessage="%k halandó kárt okozott %o-val a %w-val."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="Megvan az ASMD puska"
 ; EN: ItemName="ASMD Rifle"
@@ -784,7 +784,7 @@ MenuTitle="BOTOK"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o-t többször megcsapta% k% w."
+DeathMessage="%o-t többször megcsapta %k %w."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Megvan a nyolcgolyós fegyver"
 ; EN: ItemName="Eightball"
@@ -1040,7 +1040,7 @@ MenuTitle="VÁLASSZ JÁTÉKOT"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o kapta% k által% w."
+DeathMessage="%o kapta %k által %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Megvan az Automag"
 ItemName="Automag"
@@ -1183,7 +1183,7 @@ MenuList[7]="ULTRA-UNREAL"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
-ComboKillMessage="% o nem tudta elkerülni a sokk robbanását% k% w-jából"
+ComboKillMessage="%o nem tudta elkerülni a sokk robbanását %k %w-jából"
 
 [SinglePlayer]
 ; EN: GameName="Unreal"
@@ -1197,7 +1197,7 @@ MenuTitle="JÁTÉK MENTÉSE"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o perforált% k% w-val."
+DeathMessage="%o perforált %k %w-val."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Felkapta a Stingert"
 ; EN: ItemName="Stinger"
@@ -1346,7 +1346,7 @@ FailtureMessage="Kulcsra van szüksége az ajtó kinyitásához."
 
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
-DeathMessage="% o-t% k telefaxolta."
+DeathMessage="%o-t %k telefaxolta."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Megkapta a Translocator Source Modult"
 ; EN: ItemName="Translocator"

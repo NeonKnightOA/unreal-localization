@@ -41,16 +41,16 @@ NoDigitalMusicCommand="Podpora digitální hudby je konfigurací deaktivována."
 ; EN: NoCDMusicCommand="CD music support is disabled by configuration."
 NoCDMusicCommand="Podpora hudby CD je konfigurací zakázána."
 ; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
-; EN: MonoSoundExpected="%s has %i channels."
-MonoSoundExpected="%ls má%i kanály."
+; EN: MonoSoundExpected="%ls has %i channels."
+MonoSoundExpected="%ls má %i kanály."
 
 [Errors]
 ; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
-; EN: SystemCreate="Failed to create FMOD system object: %s."
-SystemCreate="Nepodařilo se vytvořit objekt systému FMOD:%ls."
+; EN: SystemCreate="Failed to create FMOD system object: %ls."
+SystemCreate="Nepodařilo se vytvořit objekt systému FMOD: %ls."
 ; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
-; EN: Version="Cluster expects a minimum FMOD library version %s, but version was %s found."
+; EN: Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
 Version="Cluster očekává minimální verzi FMOD knihovny %ls, ale byla nalezena verze %ls."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
-; EN: SystemInit="Failed to initialize FMOD system object: %s."
-SystemInit="Inicializace objektu systému FMOD se nezdařila:%ls."
+; EN: SystemInit="Failed to initialize FMOD system object: %ls."
+SystemInit="Inicializace objektu systému FMOD se nezdařila: %ls."

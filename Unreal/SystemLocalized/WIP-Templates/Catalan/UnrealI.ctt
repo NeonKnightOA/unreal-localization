@@ -62,14 +62,14 @@ BlobKillMessage="va ser corroït per un Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o ha estat trencat a trossos per% w% w."
+DeathMessage="%o ha estat trencat a trossos per %w %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Tens el canó Flak"
 ItemName="Flak Cannon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k posa una bala al cap de% o."
+DeathMessage="%k posa una bala al cap de %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Tens el fusell"
 ; EN: ItemName="Sniper Rifle"
@@ -91,14 +91,14 @@ NameArticle=" el "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k% w va convertir% o en un tros de carn amb fuites."
+DeathMessage="%k %w va convertir %o en un tros de carn amb fuites."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Tens el Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o va beure un got de% k de càrrega verda degotejant."
+DeathMessage="%o va beure un got de %k de càrrega verda degotejant."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Tens el GES BioRifle"
 ; EN: ItemName="GES Bio Rifle"
@@ -165,7 +165,7 @@ ItemName="Camp de força"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k va treure un tros cruent de% o amb el% w."
+DeathMessage="%k va treure un tros cruent de %o amb el %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Tens el RazorJack"
 ItemName="RazorJack"
@@ -258,7 +258,7 @@ ItemName="Rifle Round"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o va ser destruït a bits per% w's% w."
+DeathMessage="%o va ser destruït a bits per %w's %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Tens l’escopeta Quad-Barreled"
 ; EN: ItemName="Quad-Barreled Shotgun"

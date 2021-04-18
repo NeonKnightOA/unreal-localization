@@ -53,8 +53,8 @@ AdviseBadMedia="Källmediet kan vara dåligt. Om du installerar från en CD, fö
 AdviseBadDownload="Uppdateringsfilerna som du laddade ner kan vara skadade."
 ; EN: AdviseBadDest="The destination drive might be full, or it might have bad sectors."
 AdviseBadDest="Målenheten kan vara full eller så kan den ha dåliga sektorer."
-; EN: PatchCorrupt="The patch file %ls is corrupt.\n\n %ls"
-PatchCorrupt="Korrigeringsfilen %ls är skadad.\n\n %ls"
+; EN: PatchCorrupt="The patch file %ls is corrupt.\n\n%ls"
+PatchCorrupt="Korrigeringsfilen %ls är skadad.\n\n%ls"
 ; EN: CdFileMismatch="The file %ls from the CD-ROM is not the expected version. Therefore, %ls can't be patched."
 CdFileMismatch="Filen %ls från CD-ROM-skivan är inte den förväntade versionen. Därför kan %ls inte lappas."
 
@@ -62,7 +62,7 @@ CdFileMismatch="Filen %ls från CD-ROM-skivan är inte den förväntade versione
 ; EN: Space="%i Megabytes"
 Space="%i megabyte"
 ; EN: Ready="Setup is ready to install %ls.\nThe destination folder is: %ls\n\nClick "Install" to begin installation.\nClick "Cancel" to exit without installing %ls."
-Ready="Installationen är redo att installera %ls.\nDestermappen är:%ls\n\nKlicka på "Installera" för att starta installationen.\nKlicka på "Avbryt" för att avsluta utan att installera %ls."
+Ready="Installationen är redo att installera %ls.\nDestermappen är: %ls\n\nKlicka på "Installera" för att starta installationen.\nKlicka på "Avbryt" för att avsluta utan att installera %ls."
 ; EN: InstallCancel="Cancel Installation"
 InstallCancel="Avbryt installationen"
 ; EN: CancelPrompt="Warning! Cancelling the installation now will prevent %ls from functioning properly. Are you sure you want to cancel it?"
@@ -120,7 +120,7 @@ IDC_ComponentsPrompt="&amp;Komponenter:"
 ; EN: IDC_DependenciesFrame="Dependencies"
 IDC_DependenciesFrame="Beroenden"
 ; EN: IDC_DependenciesText="Proceeding will uninstall the following components: %ls"
-IDC_DependenciesText="Fortsättningen avinstallerar följande komponenter:%ls"
+IDC_DependenciesText="Fortsättningen avinstallerar följande komponenter: %ls"
 
 [IDDIALOG_FilerPageFolder]
 ; EN: IDC_FolderDescription="Setup will install %ls in the following folder.\n\nTo install in this folder, click "Next".\n\nTo install in a different folder, type the complete name of the new folder including the drive letter, for example: "C:\NewFolder"."

@@ -53,8 +53,8 @@ AdviseBadMedia="De bronmedia is mogelijk slecht. Als u installeert vanaf een cd,
 AdviseBadDownload="De updatebestanden die u heeft gedownload, zijn mogelijk beschadigd."
 ; EN: AdviseBadDest="The destination drive might be full, or it might have bad sectors."
 AdviseBadDest="De doelschijf is mogelijk vol of heeft slechte sectoren."
-; EN: PatchCorrupt="The patch file %ls is corrupt.\n\n %ls"
-PatchCorrupt="Het patchbestand %ls is beschadigd.\n\n %ls"
+; EN: PatchCorrupt="The patch file %ls is corrupt.\n\n%ls"
+PatchCorrupt="Het patchbestand %ls is beschadigd.\n\n%ls"
 ; EN: CdFileMismatch="The file %ls from the CD-ROM is not the expected version. Therefore, %ls can't be patched."
 CdFileMismatch="Het bestand %ls van de cd-rom is niet de verwachte versie. Daarom kan %ls niet worden gepatcht."
 
@@ -62,7 +62,7 @@ CdFileMismatch="Het bestand %ls van de cd-rom is niet de verwachte versie. Daaro
 ; EN: Space="%i Megabytes"
 Space="%i megabytes"
 ; EN: Ready="Setup is ready to install %ls.\nThe destination folder is: %ls\n\nClick "Install" to begin installation.\nClick "Cancel" to exit without installing %ls."
-Ready="Setup is klaar om %ls te installeren.\nDe doelmap is:%ls\n\nKlik op "Installeren" om de installatie te starten.\nKlik op "Annuleren" om af te sluiten zonder %ls te installeren."
+Ready="Setup is klaar om %ls te installeren.\nDe doelmap is: %ls\n\nKlik op "Installeren" om de installatie te starten.\nKlik op "Annuleren" om af te sluiten zonder %ls te installeren."
 ; EN: InstallCancel="Cancel Installation"
 InstallCancel="Annuleer de installatie"
 ; EN: CancelPrompt="Warning! Cancelling the installation now will prevent %ls from functioning properly. Are you sure you want to cancel it?"
@@ -120,7 +120,7 @@ IDC_ComponentsPrompt="&Componenten:"
 ; EN: IDC_DependenciesFrame="Dependencies"
 IDC_DependenciesFrame="Afhankelijkheden"
 ; EN: IDC_DependenciesText="Proceeding will uninstall the following components: %ls"
-IDC_DependenciesText="Als u doorgaat, worden de volgende componenten verwijderd:%ls"
+IDC_DependenciesText="Als u doorgaat, worden de volgende componenten verwijderd: %ls"
 
 [IDDIALOG_FilerPageFolder]
 ; EN: IDC_FolderDescription="Setup will install %ls in the following folder.\n\nTo install in this folder, click "Next".\n\nTo install in a different folder, type the complete name of the new folder including the drive letter, for example: "C:\NewFolder"."

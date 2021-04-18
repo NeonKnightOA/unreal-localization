@@ -5,9 +5,9 @@ Preferences=(Caption="OpenGL Support",Parent="Tolkning",Class=OpenGLDrv.OpenGLRe
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Det går inte att hitta OpenGL-drivrutinen% ls"
+NoFindGL="Det går inte att hitta OpenGL-drivrutinen %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Saknar OpenGL-funktion% ls (% i)"
+MissingFunc="Saknar OpenGL-funktion %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Det gick inte att ställa in upplösning"
 

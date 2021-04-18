@@ -62,14 +62,14 @@ BlobKillMessage="foi corroído por um Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o foi rasgado em pedaços por% k's% w."
+DeathMessage="%o foi rasgado em pedaços por %k's %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Você tem o Canhão Flak"
 ItemName="Flak Cannon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k enfiou uma bala na cabeça de% o."
+DeathMessage="%k enfiou uma bala na cabeça de %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Você tem o rifle"
 ; EN: ItemName="Sniper Rifle"
@@ -91,14 +91,14 @@ NameArticle=" a "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k's% w transformou% o em um pedaço de carne com vazamento."
+DeathMessage="%k's %w transformou %o em um pedaço de carne com vazamento."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Você tem a Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o bebeu um copo da carga verde gotejante de% k."
+DeathMessage="%o bebeu um copo da carga verde gotejante de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Você tem o GES BioRifle"
 ItemName="GES Bio Rifle"
@@ -165,7 +165,7 @@ ItemName="Campo de força"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k tirou um pedaço sangrento de% o com% w."
+DeathMessage="%k tirou um pedaço sangrento de %o com %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Você tem o RazorJack"
 ItemName="RazorJack"
@@ -258,7 +258,7 @@ ItemName="Rodada de rifle"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="% o foi explodido em pedaços por% k's% w."
+DeathMessage="%o foi explodido em pedaços por %k's %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Você tem a espingarda de cano quádruplo"
 ; EN: ItemName="Quad-Barreled Shotgun"

@@ -387,7 +387,7 @@ MenuTitle="Configuration de l'intelligence artificielle"
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="% o a été tué par% w de% k. Quel perdant!"
+DeathMessage="%o a été tué par %w de %k. Quel perdant!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Vous avez le pistolet de dispersion"
 ; EN: ItemName="Dispersion Pistol"
@@ -751,7 +751,7 @@ GameName="Jeu d'équipe"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k inflige des dégâts mortels à% o avec le% w."
+DeathMessage="%k inflige des dégâts mortels à %o avec le %w."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="Vous avez le fusil ASMD"
 ; EN: ItemName="ASMD Rifle"
@@ -790,7 +790,7 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o a été claqué plusieurs fois par% w de% k."
+DeathMessage="%o a été claqué plusieurs fois par %w de %k."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Vous avez le pistolet Eightball"
 ItemName="Eightball"
@@ -1044,7 +1044,7 @@ MenuTitle="CHOISISSEZ LE JEU"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o a été gatté par% w de% k."
+DeathMessage="%o a été gatté par %w de %k."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Vous avez l'Automag"
 ItemName="Automag"
@@ -1188,7 +1188,7 @@ MenuList[7]="ULTRA-UNREAL"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
-ComboKillMessage="% o n'a pas pu éviter le souffle de choc de% k de% w"
+ComboKillMessage="%o n'a pas pu éviter le souffle de choc de %k de %w"
 
 [SinglePlayer]
 ; EN: GameName="Unreal"
@@ -1202,7 +1202,7 @@ MenuTitle="SAUVEGARDER LA PARTIE"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o a été perforé par% k de% w."
+DeathMessage="%o a été perforé par %k de %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Vous avez ramassé le Stinger"
 ItemName="Stinger"
@@ -1355,7 +1355,7 @@ FailtureMessage="Vous avez besoin d'une clé pour ouvrir cette porte."
 
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
-DeathMessage="% o a été téléfragué par% k."
+DeathMessage="%o a été téléfragué par %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Vous avez le module source du translocateur"
 ; EN: ItemName="Translocator"

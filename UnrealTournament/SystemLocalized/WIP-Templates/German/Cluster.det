@@ -41,16 +41,16 @@ NoDigitalMusicCommand="Die Unterstützung für digitale Musik ist durch die Konf
 ; EN: NoCDMusicCommand="CD music support is disabled by configuration."
 NoCDMusicCommand="Die Unterstützung von CD-Musik ist durch die Konfiguration deaktiviert."
 ; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
-; EN: MonoSoundExpected="%s has %i channels."
+; EN: MonoSoundExpected="%ls has %i channels."
 MonoSoundExpected="%ls hat %i Kanäle."
 
 [Errors]
 ; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
-; EN: SystemCreate="Failed to create FMOD system object: %s."
-SystemCreate="Fehler beim Erstellen des FMOD-Systemobjekts:%ls."
+; EN: SystemCreate="Failed to create FMOD system object: %ls."
+SystemCreate="Fehler beim Erstellen des FMOD-Systemobjekts: %ls."
 ; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
-; EN: Version="Cluster expects a minimum FMOD library version %s, but version was %s found."
+; EN: Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
 Version="Cluster erwartet eine minimale FMOD-Bibliotheksversion %ls, aber Version wurde %ls gefunden."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
-; EN: SystemInit="Failed to initialize FMOD system object: %s."
-SystemInit="FMOD-Systemobjekt konnte nicht initialisiert werden:%ls."
+; EN: SystemInit="Failed to initialize FMOD system object: %ls."
+SystemInit="FMOD-Systemobjekt konnte nicht initialisiert werden: %ls."

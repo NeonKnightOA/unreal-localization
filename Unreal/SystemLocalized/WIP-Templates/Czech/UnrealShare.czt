@@ -388,7 +388,7 @@ MenuTitle="Konfigurace umělé inteligence"
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="% o bylo zabito% k% w. Jaký poražený!"
+DeathMessage="%o bylo zabito %k %w. Jaký poražený!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Máš disperzní pistoli"
 ; EN: ItemName="Dispersion Pistol"
@@ -746,7 +746,7 @@ GameName="Týmová hra"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k způsobil smrtelné poškození% o s% w."
+DeathMessage="%k způsobil smrtelné poškození %o s %w."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="Máte pušku ASMD"
 ItemName="ASMD Rifle"
@@ -785,7 +785,7 @@ MenuTitle="BOTY"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o bylo vícekrát zasaženo o% k% w."
+DeathMessage="%o bylo vícekrát zasaženo o %k %w."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Máš zbraň Eightball"
 ItemName="Eightball"
@@ -1038,7 +1038,7 @@ MenuTitle="VYBERTE SI HRU"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o dostal gatted o% k% w."
+DeathMessage="%o dostal gatted o %k %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Máte Automag"
 ItemName="Automag"
@@ -1182,7 +1182,7 @@ MenuList[7]="ULTRA-NEREZENÉ"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
-ComboKillMessage="% o se nemohlo vyhnout nárazovému výbuchu z% w% k"
+ComboKillMessage="%o se nemohlo vyhnout nárazovému výbuchu z %w %k"
 
 [SinglePlayer]
 ; EN: GameName="Unreal"
@@ -1196,7 +1196,7 @@ MenuTitle="ULOŽIT HRU"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o bylo perforováno% k's% w."
+DeathMessage="%o bylo perforováno %k's %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Zvedl jsi Stinger"
 ItemName="Stinger"
@@ -1346,7 +1346,7 @@ FailtureMessage="K otevření těchto dveří potřebujete klíč."
 
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
-DeathMessage="% o bylo telefonováno o% k."
+DeathMessage="%o bylo telefonováno o %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Máte zdrojový modul translokátoru"
 ; EN: ItemName="Translocator"

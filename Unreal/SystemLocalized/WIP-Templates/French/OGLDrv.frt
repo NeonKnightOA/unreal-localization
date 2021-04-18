@@ -13,8 +13,8 @@ AskUse="Voulez-vous qu'Unreal utilise votre accélérateur OGLDrv?"
 
 [Errors]
 ; EN: NoFindGL="Can't find OGLDrv driver %ls"
-NoFindGL="Impossible de trouver le pilote OGLDrv% ls"
+NoFindGL="Impossible de trouver le pilote OGLDrv %ls"
 ; EN: MissingFunc="Missing OGLDrv function %ls (%i)"
-MissingFunc="Fonction OGLDrv manquante% ls (% i)"
+MissingFunc="Fonction OGLDrv manquante %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Échec de la définition de la résolution"

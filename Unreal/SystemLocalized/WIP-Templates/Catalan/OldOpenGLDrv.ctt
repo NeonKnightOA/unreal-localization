@@ -13,8 +13,8 @@ AskUse="Voleu que Unreal faci servir l’accelerador OldOpenGL?"
 
 [Errors]
 ; EN: NoFindGL="Can't find OldOpenGL driver %ls"
-NoFindGL="No es pot trobar el controlador OldOpenGL% ls"
+NoFindGL="No es pot trobar el controlador OldOpenGL %ls"
 ; EN: MissingFunc="Missing OldOpenGL function %ls (%i)"
-MissingFunc="Falta la funció OldOpenGL% ls (% i)"
+MissingFunc="Falta la funció OldOpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="No s'ha pogut definir la resolució"

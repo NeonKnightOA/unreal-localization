@@ -13,7 +13,7 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
-DeathMessage="% o foi morto por% k's% w. Que perdedor!"
+DeathMessage="%o foi morto por %k's %w. Que perdedor!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Você tem a pistola de dispersão"
 ; EN: ItemName="Dispersion Pistol"
@@ -21,14 +21,14 @@ ItemName="Pistola de Dispersão"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="% k infligiu dano mortal em% o com% w."
+DeathMessage="%k infligiu dano mortal em %o com %w."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Você tem o ASMD"
 ItemName="ASMD"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="% o foi derrubado várias vezes por% k's% w."
+DeathMessage="%o foi derrubado várias vezes por %k's %w."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Você tem a arma Eightball"
 ; EN: ItemName="Eightball"
@@ -36,7 +36,7 @@ ItemName="Bola oito"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="% k enfiou uma bala na cabeça de% o."
+DeathMessage="%k enfiou uma bala na cabeça de %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Você tem o rifle"
 ; EN: ItemName="Sniper Rifle"
@@ -44,28 +44,28 @@ ItemName="Rifle de atirador"
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="% o foi rasgado em pedaços por% k's% w."
+DeathMessage="%o foi rasgado em pedaços por %k's %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Você tem o Canhão Flak"
 ItemName="Flak Cannon"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="% o foi disparado por% k's% w."
+DeathMessage="%o foi disparado por %k's %w."
 ; EN: PickupMessage="You got the AutoMag"
 PickupMessage="Você tem o AutoMag"
 ItemName="AutoMag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="% k's% w transformou% o em um pedaço de carne com vazamento."
+DeathMessage="%k's %w transformou %o em um pedaço de carne com vazamento."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Você tem a Minigun"
 ItemName="Minigun"
 
 [OldGESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="% o bebeu um copo da carga verde gotejante de% k."
+DeathMessage="%o bebeu um copo da carga verde gotejante de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Você tem o GES BioRifle"
 ItemName="GES Bio Rifle"
@@ -80,7 +80,7 @@ ItemName="Amplificador"
 
 [OldStinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="% o foi perfurado por% k's% w."
+DeathMessage="%o foi perfurado por %k's %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Você pegou o Stinger"
 ItemName="Stinger"
@@ -110,7 +110,7 @@ ItemName="Cascas Flak"
 
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="% k tirou um pedaço sangrento de% o com% w."
+DeathMessage="%k tirou um pedaço sangrento de %o com %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Você tem o RazorJack"
 ItemName="RazorJack"

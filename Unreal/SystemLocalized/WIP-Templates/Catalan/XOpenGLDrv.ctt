@@ -7,9 +7,9 @@ Preferences=(Caption="Opcions de depuració",Parent="Suport de XOpenGL",Class=XO
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="No es pot trobar el controlador OpenGL% ls"
+NoFindGL="No es pot trobar el controlador OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Falta la funció OpenGL% ls (% i)"
+MissingFunc="Falta la funció OpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="No s'ha pogut definir la resolució"
 

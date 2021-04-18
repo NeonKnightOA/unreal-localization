@@ -619,7 +619,7 @@ GameName="Gra zespołowa"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k zadał śmiertelne obrażenia %o za pomocą%w."
+DeathMessage="%k zadał śmiertelne obrażenia %o za pomocą %w."
 ; EN: PickupMessage="You got the ASMD Rifle"
 PickupMessage="Masz karabin ASMD"
 ; EN: ItemName="ASMD Rifle"
