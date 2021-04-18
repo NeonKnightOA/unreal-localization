@@ -148,7 +148,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Csomagfájlokban állítsa be a csomagjelzőket."
 ; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext &lt;+ | -&gt; flag [&lt;+ | -&gt; flag] ...]"
+HelpUsage="packageflag src.ext [dest.ext <+ | -> flag [<+ | -> flag] ...]"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="A betöltendő meglévő csomagfájl."
@@ -286,7 +286,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Felsorolja az objektumokat a csomagban."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
-HelpUsage="listobjects [-switch1 [-switch2 [...]]] &lt;csomag&gt; [&lt;alaposztály&gt;]"
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] <csomag> [<alaposztály>]"
 ; EN: HelpParm[0]="-switch1, -switch2..."
 HelpParm[0]="-kapcsoló1, -kapcsoló2 ..."
 ; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
@@ -322,7 +322,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Hozzon létre egy hangcsomagot egy könyvtárból."
 ; EN: HelpUsage="audiopackage <input directory>"
-HelpUsage="audiopackage &lt;beviteli könyvtár&gt;"
+HelpUsage="audiopackage <beviteli könyvtár>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
@@ -330,7 +330,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Információk a textúrákról."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo &lt;pkg&gt;"
+HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
 ; EN: HelpCmd=musicpackages
@@ -339,7 +339,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Zenei csomagokat hoz létre egy könyvtárból."
 ; EN: HelpUsage="musicpackages <input directory>"
-HelpUsage="zenecsomagok &lt;beviteli könyvtár&gt;"
+HelpUsage="zenecsomagok <beviteli könyvtár>"
 
 [ReduceTexturesCommandlet]
 ; EN: HelpCmd=reducetextures
@@ -348,7 +348,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Tisztítatlan tömörítetlen miptérképeket tisztít."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
-HelpUsage="redukciós szövegek &lt;inpkg&gt; &lt;outpkg&gt;"
+HelpUsage="redukciós szövegek <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
 ; EN: HelpCmd=saveembedded
@@ -357,7 +357,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="A beágyazott csomagot külön fájlba menti."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
-HelpUsage="saveembedded &lt;pkg&gt; &lt;embpkg&gt; &lt;outfile&gt;"
+HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
 HelpParm[0]="   "
 HelpDesc[0]="   "
 HelpParm[1]="   "
@@ -369,7 +369,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="A szemekről információkat gyűjt."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo &lt;pkg&gt;"
+HelpUsage="dumptextureinfo <pkg>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
@@ -377,7 +377,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="A köteg hálót exportál."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
-HelpUsage="batchmeshexport &lt;pkg&gt; &lt;formátum&gt; &lt;útvonal&gt;"
+HelpUsage="batchmeshexport <pkg> <formátum> <útvonal>"
 
 [RebuildImportsCommandlet]
 ; EN: HelpCmd=rebuildimports
@@ -386,7 +386,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Újraépíti egy csomag importálási parancsfájlját."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
-HelpUsage="újjáépítésimport &lt;pkg&gt; [-upkg]"
+HelpUsage="újjáépítésimport <pkg> [-upkg]"
 HelpParm[0]="-upkg"
 ; EN: HelpDesc[0]="Switches output to upkg format. Default is uc."
 HelpDesc[0]="A kimenetet upkg formátumra kapcsolja. Alapértelmezés szerint uc."
@@ -397,7 +397,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="A Batch az összes MIP térképszintet exportálja."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
-HelpUsage="prodigiosuminparvo &lt;pkg&gt; &lt;formátum&gt; &lt;útvonal&gt;"
+HelpUsage="prodigiosuminparvo <pkg> <formátum> <útvonal>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
@@ -405,7 +405,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Csomagolás könyvtárstruktúrával."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
-HelpUsage="fullbatchexport &lt;pkg&gt; &lt;útvonal&gt;"
+HelpUsage="fullbatchexport <pkg> <útvonal>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
@@ -413,7 +413,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Összehasonlítja a betűtípusokat."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
-HelpUsage="fontpagediff &lt;left font&gt; &lt;right font&gt;"
+HelpUsage="fontpagediff <left font> <right font>"
 
 [FontExporter]
 HelpCmd=FontExporter
@@ -421,4 +421,4 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Exportálja a betűtípusokat."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"
-HelpUsage="FontExporter &lt;pkg&gt; &lt;outpath&gt;"
+HelpUsage="FontExporter <pkg> <outpath>"

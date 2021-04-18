@@ -16,7 +16,7 @@ Message="DZIENNIK: M. Poesch: Zlokalizowałem obiekt górniczy, ale frontowe bra
 
 [TranslatorEvent10]
 ; EN: Message="LOG: A. Leiby: Been running from a Skaarj for the past 2 hours. Think I lost him behind a crate. If I can just make it down below I can slip back into the temple. It's darker so it's easier to hide. Wait... I hear someth >>>ERROR<<<"
-Message="LOG: A. Leiby: Uciekam przed Skaarj przez ostatnie 2 godziny. Myślę, że zgubiłem go za skrzynią. Jeśli uda mi się zejść na dół, wślizgnę się z powrotem do świątyni. Jest ciemniej, więc łatwiej się schować. Czekaj ... słyszę coś &gt;&gt;&gt; BŁĄD &lt;&lt;&lt;"
+Message="LOG: A. Leiby: Uciekam przed Skaarj przez ostatnie 2 godziny. Myślę, że zgubiłem go za skrzynią. Jeśli uda mi się zejść na dół, wślizgnę się z powrotem do świątyni. Jest ciemniej, więc łatwiej się schować. Czekaj ... słyszę coś >>> BŁĄD <<<"
 
 [TranslatorEvent9]
 ; EN: Message="Entering Land of Nagomi"

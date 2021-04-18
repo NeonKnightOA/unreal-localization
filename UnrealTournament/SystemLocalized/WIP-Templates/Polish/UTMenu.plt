@@ -446,7 +446,7 @@ OrdersString="Zamówienia:"
 ; EN: LocationString="Location:"
 LocationString="Lokalizacja:"
 ; EN: HumanString="None <Human>"
-HumanString="Brak &lt;Human&gt;"
+HumanString="Brak <Human>"
 
 [TargetChildWindow]
 ; EN: AllString="All"

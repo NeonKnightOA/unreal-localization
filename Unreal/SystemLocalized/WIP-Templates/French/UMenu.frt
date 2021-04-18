@@ -569,7 +569,7 @@ FilterInvalidGameClassesText="Filtrer les classes de jeu non valides"
 ; EN: FilterInvalidGameClassesHelp="When checked, invalid classes are not listed (validation may be slow)."
 FilterInvalidGameClassesHelp="Lorsqu'elle est cochée, les classes non valides ne sont pas répertoriées (la validation peut être lente)."
 ; EN: InvalidGameClass="<Invalid Game Class>"
-InvalidGameClass="&lt;Classe de jeu invalide&gt;"
+InvalidGameClass="<Classe de jeu invalide>"
 
 [UMenuCustomizeClientWindow]
 EditAreaWidth=155

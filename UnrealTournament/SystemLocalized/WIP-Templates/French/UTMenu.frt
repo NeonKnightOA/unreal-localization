@@ -443,7 +443,7 @@ OrdersString="Ordres:"
 ; EN: LocationString="Location:"
 LocationString="Emplacement:"
 ; EN: HumanString="None <Human>"
-HumanString="Aucun &lt;Humain&gt;"
+HumanString="Aucun <Humain>"
 
 [TargetChildWindow]
 ; EN: AllString="All"

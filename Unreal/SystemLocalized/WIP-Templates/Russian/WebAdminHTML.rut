@@ -24,9 +24,9 @@
 [Index]
 WebContentLen=6
 ; EN: Web0=<!-- Server WebAdministration code /WebVer written by .:..: (2008) -->
-Web0=&lt;! - Код веб-администрирования сервера / WebVer написал.: ..: (2008) -&gt;
+Web0=<! - Код веб-администрирования сервера / WebVer написал.: ..: (2008) ->
 ; EN: Web1=<HTML><HEAD><TITLE>WebAdmin server administration</TITLE></HEAD>
-Web1=&lt;HTML&gt;&lt;HEAD&gt; &lt;TITLE&gt; Администрирование сервера WebAdmin &lt;/TITLE&gt; &lt;/HEAD&gt;
+Web1=<HTML><HEAD> <TITLE> Администрирование сервера WebAdmin </TITLE> </HEAD>
 ; EN: Web2=<frameset rows="80,*,50" cols="*" frameborder="No" framespacing="0" border="0">
 Web2=<frameset rows="80, *, 50 "cols =" * "frameborder =" Нет "framespacing =" 0 "border =" 0">
 ; EN: Web3=<frame src="/MainLinksPage" name="menu" noresize frameborder="0" marginheight="0" scrolling="no" framespacing="0">
@@ -41,48 +41,48 @@ Web6=</frameset>/n<noframes><body bgcolor="#FFFFFF">If you get that message your
 [MainLinksPage]
 WebContentLen=3
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<center><A href="/MapRestartPage" target="_parent">Restart map</A>, <A href="/MapSwitch" target="menumain">Switch map</A>, <A href="/IndexX" target="menumain">Current</A>, <A href="/BanListPage" target="menumain">Banlist</A>, <A href="/ServerConsole" target="menumain">Server console</A>, <A href="/Logout" target="menumain">Logout user</A><BR>
-Web1=<center><A href="/ MapRestartPage "target =" _ parent "&gt; Перезапустить карту &lt;/A&gt;, &lt;A href="/MapSwitch" target="menumain"&gt; Сменить карту &lt;/A&gt;, &lt;A href =" / IndexX "target =" menumain " &gt; Текущий &lt;/A&gt;, &lt;A href="/BanListPage" target="menumain"&gt; Banlist &lt;/A&gt;, &lt;A href="/ServerConsole" target="menumain"&gt; Серверная консоль &lt;/A&gt;, &lt;A href = "/ Logout" target = "menumain"">Logout user</A><BR>
+Web1=<center><A href="/ MapRestartPage "target =" _ parent "> Перезапустить карту </A>, <A href="/MapSwitch" target="menumain"> Сменить карту </A>, <A href =" / IndexX "target =" menumain " > Текущий </A>, <A href="/BanListPage" target="menumain"> Banlist </A>, <A href="/ServerConsole" target="menumain"> Серверная консоль </A>, <A href = "/ Logout" target = "menumain"">Logout user</A><BR>
 ; EN: Web2=Config links: <A href="/GameDefaults" target="menumain">Main GameConfig</A>, <A href="/Mod_UWebAdmin.RepPageConfig" target="menumain">ServerInfo Config</A>, <A href="/MapLinksPage" target="menumain">Maplists</A>, <A href="/ModLinksPage" target="menumain">Mod Configures</A></center><BR>/n
-Web2=Config links: <A href="/ GameDefaults "target =" menumain "&gt; Основной GameConfig &lt;/A&gt;, &lt;A href="/Mod_UWebAdmin.RepPageConfig" target="menumain"&gt; ServerInfo Config &lt;/A&gt;, &lt;A href =" / MapLinksPage "target =" menumain "&gt; Списки карт &lt;/A&gt;, &lt;A href =" / ModLinksPage "target =" menumain">Mod Configures</A></center><BR>/n
+Web2=Config links: <A href="/ GameDefaults "target =" menumain "> Основной GameConfig </A>, <A href="/Mod_UWebAdmin.RepPageConfig" target="menumain"> ServerInfo Config </A>, <A href =" / MapLinksPage "target =" menumain "> Списки карт </A>, <A href =" / ModLinksPage "target =" menumain">Mod Configures</A></center><BR>/n
 ; EN: Web3=%frd:PageEnding%
-Web3=% frd: PageEnding%
+Web3=%frd:PageEnding%
 
 [IndexX]
 WebContentLen=5
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=Welcome %Content:UWebAdmin.GetClientUser% to server webadmin site<BR>Current players in this server:<BR>
-Web1=Добро пожаловать% Content: UWebAdmin.GetClientUser% на сайт веб-администратора сервера &lt;BR&gt; Текущие игроки на этом сервере: &lt;BR&gt;
+Web1=Добро пожаловать% Content: UWebAdmin.GetClientUser% на сайт веб-администратора сервера <BR> Текущие игроки на этом сервере: <BR>
 ; EN: Web2=<form method="post" action="Index?UWebAdmin.PlayersListDebug">
 Web2=<form method="post "action =" Индекс? UWebAdmin.PlayersListDebug">
 ; EN: Web3=%Content:UWebAdmin.PlayersListDebug%</form>/n
-Web3=% Content: UWebAdmin.PlayersListDebug% &lt;/form&gt; / n
+Web3=% Content: UWebAdmin.PlayersListDebug% </form> / n
 ; EN: Web4=<BR>Your IP: %Content:UWebAdmin.GetClientIP% has been logged on server.
-Web4=&lt;BR&gt; Ваш IP:% Content: UWebAdmin.GetClientIP% был зарегистрирован на сервере.
+Web4=<BR> Ваш IP:% Content: UWebAdmin.GetClientIP% был зарегистрирован на сервере.
 ; EN: Web5=%frd:PageEnding%
-Web5=% frd: PageEnding%
+Web5=%frd:PageEnding%
 
 // Server console page
 [ServerConsole]
 WebContentLen=5
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 Web1=<CENTER><TABLE BORDER=1 WIDTH="75%"><TR><TH>Message window (Playing on /MapF: /MapT):</TH></TR><TR><TD>/n
 ; EN: Web2=%Content:UWebAdmin.WebChatWindow%/n</TD></TR></table></CENTER>
-Web2=% Content: UWebAdmin.WebChatWindow% / n &lt;/TD&gt; &lt;/TR&gt; &lt;/table&gt; &lt;/CENTER&gt;
+Web2=% Content: UWebAdmin.WebChatWindow% / n </TD> </TR> </table> </CENTER>
 ; EN: Web3=<script>/nvar parselimit=4;/nfunction beginrefresh(){/nif(!document.images) return/nif (parselimit==1) window.location.replace("/ServerConsole")
 Web3=<script>/nvar parselimit=4;/nfunction beginrefresh(){/nif(!document.images) return/nif (parselimit==1) window.location.replace("/ ServerConsole")
 ; EN: Web4=else{/nparselimit-=1/nsetTimeout("beginrefresh()",1000)/n}/n}/nwindow.onload=beginrefresh/n</script>
 Web4=else{/nparselimit-=1/nsetTimeout("beginrefresh ()",1000)/n}/n}/nwindow.onload=beginrefresh/n</script>
 ; EN: Web5=%frd:PageEnding%
-Web5=% frd: PageEnding%
+Web5=%frd:PageEnding%
 
 [ServerConsoleLine]
 WebContentLen=4
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<form method="post" action="ServerConsoleLine?UWebAdmin.WebChatWindow">/n
 Web1=<form method="post "action =" ServerConsoleLine? UWebAdmin.WebChatWindow">/n
 ; EN: Web2=<TABLE BORDER=0><TR><TH>Console Command: <input class="textbox" type="text" name="Cmd" size="56" value="Say " maxlength="80"></TH>
@@ -90,14 +90,14 @@ Web2=<TABLE BORDER=0><TR><TH>Console Command: <input class="textbox "type =" tex
 ; EN: Web3=<TH><input class="button" type="submit" name="edit" value="Enter"></TH></TABLE>/n</form>
 Web3=<TH><input class="button "type =" submit "name =" edit "value =" Введите"></TH></TABLE>/n</form>
 ; EN: Web4=%frd:PageEnding%
-Web4=% frd: PageEnding%
+Web4=%frd:PageEnding%
 // <- End of server console.
 
 // Restart map
 [MapRestartPage]
 WebContentLen=1
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=Restarting map, please wait.%Content:UWebAdmin.RestartMapCode%/n Please click <A href="/Index" target="_parent">here</A> once its done.</BODY></HTML>
 Web1=Restarting map, please wait.%Content:UWebAdmin.RestartMapCode%/n Please click <A href="/ Index "target =" _ parent">here</A> once its done.</BODY></HTML>
 
@@ -105,7 +105,7 @@ Web1=Restarting map, please wait.%Content:UWebAdmin.RestartMapCode%/n Please cli
 [MapSwitchingPage]
 WebContentLen=1
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=Server is now switching map, please wait. Please click <A href="/Index" target="_parent">here</A> once its done.</BODY></HTML>
 Web1=Server is now switching map, please wait. Please click <A href="/ Index "target =" _ parent">here</A> once its done.</BODY></HTML>
 
@@ -113,85 +113,85 @@ Web1=Server is now switching map, please wait. Please click <A href="/ Index "ta
 [BanListPage]
 WebContentLen=2
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<form method="post" action="BanListPage?UWebAdmin.BanListGen">/n   Banlist page, here you can unban banned players./n%Content:UWebAdmin.BanListGen%</form>/n
 Web1=<form method="post "action =" BanListPage? UWebAdmin.BanListGen">/n   Banlist page, here you can unban banned players./n%Content:UWebAdmin.BanListGen%</form>/n
 ; EN: Web2=%frd:PageEnding%
-Web2=% frd: PageEnding%
+Web2=%frd:PageEnding%
 
 // User logging out
 [Logout]
 WebContentLen=2
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<BR>You have successfully logged out from webadministration page.%Content:UWebAdmin.UserLogout%
-Web1=&lt;BR&gt; Вы успешно вышли из системы со страницы веб-администрирования.% Content: UWebAdmin.UserLogout%
+Web1=<BR> Вы успешно вышли из системы со страницы веб-администрирования.% Content: UWebAdmin.UserLogout%
 ; EN: Web2=%frd:PageEnding%
-Web2=% frd: PageEnding%
+Web2=%frd:PageEnding%
 
 // Basic game configures (server packages/server actors/admin/game passwords).
 [GameDefaults]
 WebContentLen=3
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<form method="post" action="GameDefaults?UWebAdmin.GameConfigPage">/n%Content:UWebAdmin.GameConfigPage%</form><BR>/n
 Web1=<form method="post "action =" GameDefaults? UWebAdmin.GameConfigPage">/n%Content:UWebAdmin.GameConfigPage%</form><BR>/n
 ; EN: Web2=<form method="post" action="GameDefaults?UWebAdmin.NetConfigPage">/n%Content:UWebAdmin.NetConfigPage%</form>/n
 Web2=<form method="post "action =" GameDefaults? UWebAdmin.NetConfigPage">/n%Content:UWebAdmin.NetConfigPage%</form>/n
 ; EN: Web3=%frd:PageEnding%
-Web3=% frd: PageEnding%
+Web3=%frd:PageEnding%
 
 // Maplist Links page
 [MapLinksPage]
 WebContentLen=3
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<form method="post" action="MapLinksPage?UWebAdmin.MapListLinkPage">
 Web1=<form method="post "action =" MapLinksPage? UWebAdmin.MapListLinkPage">
 ; EN: Web2=<h2>Custom maplist configures:</h2>%Content:UWebAdmin.MapListLinkPage%<BR></form>
-Web2=&lt;h2&gt; Настраиваемый список карт: &lt;/h2&gt;% Content: UWebAdmin.MapListLinkPage% &lt;BR&gt; &lt;/form&gt;
+Web2=<h2> Настраиваемый список карт: </h2>% Content: UWebAdmin.MapListLinkPage% <BR> </form>
 ; EN: Web3=%frd:PageEnding%
-Web3=% frd: PageEnding%
+Web3=%frd:PageEnding%
 
 // Mod Link page
 [ModLinksPage]
 WebContentLen=2
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<h2>Custom mod configures:</h2>%Content:UWebAdmin.ModLinkPage%<BR>
-Web1=&lt;h2&gt; Пользовательский мод настраивает: &lt;/h2&gt;% Content: UWebAdmin.ModLinkPage% &lt;BR&gt;
+Web1=<h2> Пользовательский мод настраивает: </h2>% Content: UWebAdmin.ModLinkPage% <BR>
 ; EN: Web2=%frd:PageEnding%
-Web2=% frd: PageEnding%
+Web2=%frd:PageEnding%
 
 // Mod based game configures (works using special hacks).
 [ModConfigPage]
 WebContentLen=2
 ; EN: Web0=%frd:PageHeader%<BR>
-Web0=% frd: Заголовок страницы% &lt;BR&gt;
+Web0=%frd:Заголовок страницы% <BR>
 ; EN: Web1=%MODBASED%<BR>
-Web1=% MODBASED% &lt;BR&gt;
+Web1=% MODBASED% <BR>
 ; EN: Web2=%frd:PageEnding%
-Web2=% frd: PageEnding%
+Web2=%frd:PageEnding%
 
 // Maplist game configures (also works using special hacks).
 [MapLConfigPage]
 WebContentLen=2
 ; EN: Web0=%frd:PageHeader%<BR>
-Web0=% frd: Заголовок страницы% &lt;BR&gt;
+Web0=%frd:Заголовок страницы% <BR>
 ; EN: Web1=%Content:UWebAdmin.MapListPage%<BR>
-Web1=% Content: UWebAdmin.MapListPage% &lt;BR&gt;
+Web1=% Content: UWebAdmin.MapListPage% <BR>
 ; EN: Web2=%frd:PageEnding%
-Web2=% frd: PageEnding%
+Web2=%frd:PageEnding%
 
 // Map switch page.
 [MapSwitch]
 WebContentLen=2
 ; EN: Web0=%frd:PageHeader%
-Web0=% frd: Заголовок страницы%
+Web0=%frd:Заголовок страницы%
 ; EN: Web1=<form method="post" action="MapSwitchingPage?UWebAdmin.MapSwitchPage">/n%Content:UWebAdmin.MapSwitchPage%</form><BR>/n
 Web1=<form method="post "action =" MapSwitchingPage? UWebAdmin.MapSwitchPage">/n%Content:UWebAdmin.MapSwitchPage%</form><BR>/n
 ; EN: Web2=%frd:PageEnding%
-Web2=% frd: PageEnding%
+Web2=%frd:PageEnding%
 
 // Global stuff
 [PageHeader]
@@ -203,4 +203,4 @@ Web0=<HTML><HEAD></HEAD><BODY bgcolor="# 33CCCC">
 [PageEnding]
 WebContentLen=0
 ; EN: Web0=</BODY></HTML>
-Web0=&lt;/BODY&gt; &lt;/HTML&gt;
+Web0=</BODY> </HTML>

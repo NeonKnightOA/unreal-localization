@@ -147,7 +147,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Imposta i flag del pacchetto nei file del pacchetto."
 ; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext &lt;+ | -&gt; flag [&lt;+ | -&gt; flag] ...]"
+HelpUsage="packageflag src.ext [dest.ext <+ | -> flag [<+ | -> flag] ...]"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="File del pacchetto esistente da caricare."
@@ -285,7 +285,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Elenca gli oggetti nel pacchetto."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
-HelpUsage="listobjects [-switch1 [-switch2 [...]]] &lt;package&gt; [&lt;baseclass&gt;]"
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
 ; EN: HelpParm[0]="-switch1, -switch2..."
 HelpParm[0]="-switch1, -switch2 ..."
 ; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
@@ -325,7 +325,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Crea un pacchetto audio da una directory."
 ; EN: HelpUsage="audiopackage <input directory>"
-HelpUsage="audiopackage &lt;directory di input&gt;"
+HelpUsage="audiopackage <directory di input>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
@@ -333,7 +333,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Scarica le informazioni sulle trame."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo &lt;pkg&gt;"
+HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
 ; EN: HelpCmd=musicpackages
@@ -342,7 +342,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Crea pacchetti musicali da una directory."
 ; EN: HelpUsage="musicpackages <input directory>"
-HelpUsage="musicpackages &lt;directory di input&gt;"
+HelpUsage="musicpackages <directory di input>"
 
 [ReduceTexturesCommandlet]
 ; EN: HelpCmd=reducetextures
@@ -351,7 +351,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Elimina le mipmap non compresse non necessarie."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
-HelpUsage="reduceetextures &lt;inpkg&gt; &lt;outpkg&gt;"
+HelpUsage="reduceetextures <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
 HelpCmd=saveembedded
@@ -359,7 +359,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="Salva un pacchetto incorporato in un file separato."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
-HelpUsage="saveembedded &lt;pkg&gt; &lt;embpkg&gt; &lt;outfile&gt;"
+HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
 HelpParm[0]="   "
 HelpDesc[0]="   "
 HelpParm[1]="   "
@@ -371,7 +371,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="Scarica le informazioni sulle mesh."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo &lt;pkg&gt;"
+HelpUsage="dumptextureinfo <pkg>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
@@ -379,7 +379,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="Il batch esporta le mesh."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
-HelpUsage="batchmeshexport &lt;pkg&gt; &lt;format&gt; &lt;outpath&gt;"
+HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 
 [RebuildImportsCommandlet]
 HelpCmd=rebuildimports
@@ -387,7 +387,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Ricostruisce lo script di importazione per un pacchetto."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
-HelpUsage="rebuildimports &lt;pkg&gt; [-upkg]"
+HelpUsage="rebuildimports <pkg> [-upkg]"
 HelpParm[0]="-upkg"
 ; EN: HelpDesc[0]="Switches output to upkg format. Default is uc."
 HelpDesc[0]="Cambia l'output nel formato upkg. L'impostazione predefinita è uc."
@@ -398,7 +398,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="Batch esporta tutti i livelli della mappa mip."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
-HelpUsage="prodigiosuminparvo &lt;pkg&gt; &lt;format&gt; &lt;outpath&gt;"
+HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
@@ -406,7 +406,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Estrai pacchetto con struttura di directory."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
-HelpUsage="fullbatchexport &lt;pkg&gt; &lt;outpath&gt;"
+HelpUsage="fullbatchexport <pkg> <outpath>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
@@ -414,7 +414,7 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Confronta le pagine dei caratteri."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
-HelpUsage="fontpagediff &lt;carattere sinistro&gt; &lt;carattere destro&gt;"
+HelpUsage="fontpagediff <carattere sinistro> <carattere destro>"
 
 [FontExporter]
 HelpCmd=FontExporter
@@ -422,4 +422,4 @@ HelpWebLink="http://www.oldunreal.com"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Esporta le pagine dei caratteri."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"
-HelpUsage="FontExporter &lt;pkg&gt; &lt;outpath&gt;"
+HelpUsage="FontExporter <pkg> <outpath>"
