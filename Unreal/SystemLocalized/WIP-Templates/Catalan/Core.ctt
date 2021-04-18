@@ -29,20 +29,6 @@ Loading="S'està carregant el fitxer "%ls" ..."
 ; EN: Closing="Closing"
 Closing="Tancament"
 
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hola món
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Mostra"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (sense paràmetres)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Un paràmetre enter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Un paràmetre de cadena"
-
 [Errors]
 ; EN: Unknown="Unknown Error"
 Unknown="Error desconegut"
@@ -152,8 +138,7 @@ MissingIni="Falta el fitxer .ini: %ls."
 NoTXTFile="No es pot executar el tipus de fitxer que no sigui de text (.txt) "%ls"."
 
 [General]
-; EN: Product="Unreal"
-Product="Irreal"
+Product="Unreal"
 Engine="Unreal Engine"
 Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"

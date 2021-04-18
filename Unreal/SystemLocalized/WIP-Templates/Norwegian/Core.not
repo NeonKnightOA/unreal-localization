@@ -29,20 +29,6 @@ Loading="Laster inn fil "%ls" ..."
 ; EN: Closing="Closing"
 Closing="Lukking"
 
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hei Verden
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Prøve"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (ingen parametere)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Et heltallsparameter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="En strengparameter"
-
 [Errors]
 ; EN: Unknown="Unknown Error"
 Unknown="Ukjent feil"
@@ -152,10 +138,8 @@ MissingIni="Manglende .ini-fil: %ls."
 NoTXTFile="Kan ikke utføre filtypen "%ls" som ikke er tekst (.txt)."
 
 [General]
-; EN: Product="Unreal"
-Product="Uvirkelig"
-; EN: Engine="Unreal Engine"
-Engine="Uvirkelig motor"
+Product="Unreal"
+Engine="Unreal Engine"
 Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"
 True="ekte"

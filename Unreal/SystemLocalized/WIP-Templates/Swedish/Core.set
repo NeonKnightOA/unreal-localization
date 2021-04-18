@@ -29,20 +29,6 @@ Loading="Läser in filen "%ls" ..."
 ; EN: Closing="Closing"
 Closing="Stängning"
 
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hej världen
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Prov"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (inga parametrar)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Ett heltalsparameter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="En strängparameter"
-
 [Errors]
 ; EN: Unknown="Unknown Error"
 Unknown="Okänt fel"
@@ -152,12 +138,9 @@ MissingIni="Saknas .ini-fil: %ls."
 NoTXTFile="Kan inte köra filtypen "%ls" som inte är text (.txt)."
 
 [General]
-; EN: Product="Unreal"
-Product="Overklig"
-; EN: Engine="Unreal Engine"
-Engine="Oreal motor"
-; EN: Copyright="Copyright 1999 Epic Games, Inc."
-Copyright="Upphovsrätt 1999 Epic Games, Inc."
+Product="Unreal"
+Engine="Unreal Engine"
+Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"
 True="Sann"
 ; EN: False="False"

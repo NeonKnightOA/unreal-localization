@@ -28,20 +28,6 @@ Loading="Datei "%ls" wird geladen ..."
 ; EN: Closing="Closing"
 Closing="Schließen"
 
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hallo Welt
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Stichprobe"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (keine Parameter)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Ein ganzzahliger Parameter"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Ein String-Parameter"
-
 [Errors]
 ; EN: Unknown="Unknown Error"
 Unknown="Unbekannter Fehler"
@@ -151,10 +137,8 @@ MissingIni="Fehlende INI-Datei: %ls."
 NoTXTFile="Nicht-Text-Dateityp (.txt) "%ls" kann nicht ausgeführt werden."
 
 [General]
-; EN: Product="Unreal"
-Product="Unwirklich"
-; EN: Engine="Unreal Engine"
-Engine="Unwirkliche Engine"
+Product="Unreal"
+Engine="Unreal Engine"
 Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"
 True="Wahr"

@@ -29,20 +29,6 @@ Loading="Laden van bestand "%ls" ..."
 ; EN: Closing="Closing"
 Closing="Sluitend"
 
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Hallo Wereld
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Monster"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (geen parameters)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Een parameter met een geheel getal"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Een tekenreeksparameter"
-
 [Errors]
 ; EN: Unknown="Unknown Error"
 Unknown="Onbekende fout"
@@ -152,12 +138,9 @@ MissingIni="Ontbrekend .ini-bestand: %ls."
 NoTXTFile="Kan niet-tekstbestand (.txt) bestandstype "%ls" niet uitvoeren."
 
 [General]
-; EN: Product="Unreal"
-Product="Onwerkelijk"
-; EN: Engine="Unreal Engine"
-Engine="Onwerkelijke motor"
-; EN: Copyright="Copyright 1999 Epic Games, Inc."
-Copyright="Auteursrecht 1999 Epic Games, Inc."
+Product="Unreal"
+Engine="Unreal Engine"
+Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"
 True="Klopt"
 ; EN: False="False"

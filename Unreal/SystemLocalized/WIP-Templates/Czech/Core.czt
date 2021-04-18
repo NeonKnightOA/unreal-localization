@@ -29,20 +29,6 @@ Loading="Načítání souboru "%ls" ..."
 ; EN: Closing="Closing"
 Closing="Zavírání"
 
-[HelloWorldCommandlet]
-; EN: HelpCmd=HelloWorld
-HelpCmd=Ahoj světe
-; EN: HelpOneLiner="Sample"
-HelpOneLiner="Vzorek"
-; EN: HelpUsage="HelloWorld (no parameters)"
-HelpUsage="HelloWorld (bez parametrů)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-; EN: HelpDesc[0]="An integer parameter"
-HelpDesc[0]="Celočíselný parametr"
-; EN: HelpDesc[1]="A string parameter"
-HelpDesc[1]="Řetězcový parametr"
-
 [Errors]
 ; EN: Unknown="Unknown Error"
 Unknown="Neznámá chyba"
@@ -152,10 +138,8 @@ MissingIni="Chybějící soubor .ini: %ls."
 NoTXTFile="Nelze spustit netextový soubor (.txt) typu "%ls"."
 
 [General]
-; EN: Product="Unreal"
-Product="Neskutečný"
-; EN: Engine="Unreal Engine"
-Engine="Neskutečný motor"
+Product="Unreal"
+Engine="Unreal Engine"
 Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"
 True="Skutečný"
