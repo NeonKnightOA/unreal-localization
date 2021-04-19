@@ -9,3 +9,4 @@ ClassCaption="Obsługa Direct3D 9"
 ; EN: AskInstalled="Do you want to use Direct3D?"
 AskInstalled="Chcesz korzystać z Direct3D?"
 AskUse=""
+NoEditor=True

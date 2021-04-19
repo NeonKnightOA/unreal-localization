@@ -9,3 +9,4 @@ ClassCaption="Prise en charge de Direct3D 8"
 ; EN: AskInstalled="Do you want to use Direct3D?"
 AskInstalled="Voulez-vous utiliser Direct3D?"
 AskUse=""
+NoEditor=True
