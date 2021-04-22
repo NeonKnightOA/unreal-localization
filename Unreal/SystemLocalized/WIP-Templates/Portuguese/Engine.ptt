@@ -1,6 +1,8 @@
 ﻿[Public]
 Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
 ; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Avançado",Parent="Opções avançadas")
@@ -170,9 +172,8 @@ ExpireMessage=""
 DamageString=""
 
 [ServerCommandlet]
-; EN: HelpCmd=server
-HelpCmd=servidor
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpCmd=server
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Network game server."
 HelpOneLiner="Servidor de jogos em rede."
 ; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
@@ -337,3 +338,27 @@ UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
 UpgradeQuestion="Deseja iniciar seu navegador da web e ir para a página de atualização agora?"
 ; EN: Version="Version %i"
 Version="Versão %i"
+
+[LinkerUpdateCommandlet]
+HelpCmd=linkerupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpOneLiner="Adiciona todas as somas de verificação dos arquivos dentro do diretório automaticamente ao arquivo SHALinkerCache.ini. Usado pelo anticheat UnrealIntegrity."
+; EN: HelpUsage="linkerupdate <filename>"
+HelpUsage="linkerupdate <NomeDoArquivo>"
+; EN: HelpParm[0]="<filename>"
+HelpParm[0]="<NomeDoArquivo>"
+; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
+HelpDesc[0]="O arquivo para calcular a soma de verificação para armazenamento posterior."
+
+[SHAUpdateCommandlet]
+HelpCmd=shaupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpOneLiner=Adiciona todas as somas de verificação SHA256 dos arquivos no diretório automaticamente ao arquivo SHALinkerCache.ini. Usado pelo anticheat UnrealIntegrity."
+; EN: HelpUsage="shaupdate <filename>"
+HelpUsage="shaupdate <NomeDoArquivo>"
+; EN: HelpParm[0]="<filename>"
+HelpParm[0]="<NomeDoArquivo>"
+; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
+HelpDesc[0]="O arquivo para calcular a soma de verificação SHA256 para armazenamento posterior."

@@ -1,6 +1,8 @@
 ﻿[Public]
 Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
 ; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Avancée",Parent="Options avancées")
@@ -170,9 +172,8 @@ ExpireMessage=""
 DamageString=""
 
 [ServerCommandlet]
-; EN: HelpCmd=server
-HelpCmd=serveur
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpCmd=server
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Network game server."
 HelpOneLiner="Serveur de jeu en réseau."
 ; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
@@ -325,12 +326,10 @@ CheatUsedStr="%ls a utilisé la commande admin / triche: %c"
 
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
-; EN: MedFont=Engine.MedFont
-MedFont=Moteur.MedFont
+MedFont=Engine.MedFont
 LargeFont=Engine.LargeFont
 BigFont=Engine.BigFont
-; EN: SmallFont=Engine.SmallFont
-SmallFont=Moteur.SmallFont
+SmallFont=Engine.SmallFont
 
 [General]
 ; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
@@ -340,3 +339,27 @@ UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
 UpgradeQuestion="Voulez-vous lancer votre navigateur Web et accéder à la page de mise à niveau maintenant?"
 ; EN: Version="Version %i"
 Version="Version %i"
+
+[LinkerUpdateCommandlet]
+HelpCmd=linkerupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpOneLiner="Ajoute automatiquement toutes les sommes de contrôle des fichiers du répertoire au fichier SHALinkerCache.ini. Utilisé par l'anticheat UnrealIntegrity."
+; EN: HelpUsage="linkerupdate <filename>"
+HelpUsage="linkerupdate <NomDeFichier>"
+; EN: HelpParm[0]="<filename>"
+HelpParm[0]="<NomDeFichier>"
+; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
+HelpDesc[0]="Le fichier pour calculer la somme de contrôle pour le stockage postérieur."
+
+[SHAUpdateCommandlet]
+HelpCmd=shaupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpOneLiner="Ajoute automatiquement toutes les sommes de contrôle SHA256 des fichiers du répertoire au fichier SHALinkerCache.ini. Utilisé par l'anticheat UnrealIntegrity."
+; EN: HelpUsage="shaupdate <filename>"
+HelpUsage="shaupdate <NomDeFichier>"
+; EN: HelpParm[0]="<filename>"
+HelpParm[0]="<NomDeFichier>"
+; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
+HelpDesc[0]="Le fichier pour calculer la somme de contrôle SHA256 pour le stockage postérieur."

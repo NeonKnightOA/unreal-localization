@@ -2,12 +2,12 @@
 Object=(Name=OldOpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
 Preferences=(Caption="OldOpenGL Support",Parent="Rendering",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
-[OpenGLRenderDevice]
-ClassCaption="OldOpenGL Support"
-AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
-AskUse="Do you want Unreal to use your OldOpenGL accelerator?"
-
 [Errors]
 NoFindGL="Can't find OldOpenGL driver %ls"
 MissingFunc="Missing OldOpenGL function %ls (%i)"
 ResFailed="Failed to set resolution"
+
+[OpenGLRenderDevice]
+ClassCaption="OldOpenGL Support"
+AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
+AskUse="Do you want Unreal Tournament to use your OldOpenGL accelerator?"
