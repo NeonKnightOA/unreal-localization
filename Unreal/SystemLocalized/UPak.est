@@ -85,12 +85,12 @@ MultWeapSlotMsg="Pulsa el botón de selección de arma para cambiar armas."
 
 [UPakSinglePlayer]
 ; EN: GameName="Unreal Mission Pack"
-GameName="Paquete de Misiones de Unreal"
+GameName="Paquete de Misiones para Unreal"
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's %w turned %o's body into chunks."
 DeathMessage="%k ha convertido en añicos el cuerpo de %o con su %w."
-; EN: PickupMessage="You got the UMS Rocket Launcher."
+; EN: PickupMessage="You got the UMS Rocket Launcher"
 PickupMessage="Tienes el lanzacohetes UMS"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="Lanzador de cohetes UMS"
@@ -156,7 +156,7 @@ PickupMessage="Has recogido 10 cohetes UMS"
 ItemName="Cohetes UMS"
 
 [CARifleClip]
-; EN: PickupMessage="You got a 50 bullet CAR clip."
+; EN: PickupMessage="You got a 50 bullet CAR clip"
 PickupMessage="Has recogido un Cargador de 50 Balas de Asalto"
 ; EN: ItemName="CAR Clip"
 ItemName="Cargador RAC"
@@ -178,7 +178,7 @@ MenuName="Varón 2"
 GameName="Partida de Armas Terrícolas"
 
 [CompTablet]
-; EN: PickupMessage="You got the Computer Tablet."
+; EN: PickupMessage="You got the Computer Tablet"
 PickupMessage="Has recogido la Tableta Computarizada"
 ; EN: ItemName="Computer Tablet"
 ItemName="Tableta Computarizada"

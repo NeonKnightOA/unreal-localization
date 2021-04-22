@@ -1,6 +1,5 @@
 ﻿[Public]
-; EN: Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1; Вернуться к На Пали")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
 Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
@@ -18,6 +17,14 @@ Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+; EN: Preferences=(Caption="Cloak Match",Parent="Game Types",Class=UPak.CloakMatch,Immediate=True)
+Preferences=(Caption="Плащ спички",Parent="Типы игр",Class=UPak.CloakMatch,Immediate=True)
+; EN: Preferences=(Caption="Gravity Match",Parent="Game Types",Class=UPak.GravityMatch,Immediate=True)
+Preferences=(Caption="Гравитационный матч",Parent="Типы игр",Class=UPak.GravityMatch,Immediate=True)
+; EN: Preferences=(Caption="Marine Match",Parent="Game Types",Class=UPak.MarineMatch,Immediate=True)
+Preferences=(Caption="Морской матч",Parent="Типы игр",Class=UPak.MarineMatch,Immediate=True)
+; EN: Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.TerranWeaponMatch,Immediate=True)
+Preferences=(Caption="Оружие терранов",Parent="Типы игр",Class=UPak.TerranWeaponMatch,Immediate=True)
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
@@ -28,6 +35,7 @@ CARStat="Боевая штурмовая винтовка"
 RLStat="Ракетная установка УМС"
 ; EN: GLStat="UMS Grenade Launcher"
 GLStat="Гранатомет УМС"
+; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
 ; EN: AutomagStat="Automag"
 AutomagStat="Автомаг"
@@ -37,9 +45,11 @@ DispersionStat="Дисперсионный пистолет"
 EightballStat="Восьмой мяч"
 ; EN: FlakCannonStat="Flak Cannon"
 FlakCannonStat="Зенитная пушка"
+; EN: GESBioRifleStat="GES BioRifle"
 GESBioRifleStat="GES BioRifle"
 ; EN: MinigunStat="Minigun"
 MinigunStat="Миниган"
+; EN: RazorjackStat="Razorjack"
 RazorjackStat="Razorjack"
 ; EN: RifleStat="Rifle"
 RifleStat="Винтовка"
@@ -51,16 +61,18 @@ TotalStat="Всего убийств"
 LogEntryMsg="ВХОД В ЖУРНАЛ:"
 
 [GrenadeLauncher]
-; EN: PickupMessage="You got the UMS Grenade Launcher."
-PickupMessage="У вас есть гранатомет UMS."
+; EN: DeathMessage="%k's %w blew up %o."
+DeathMessage="%w %k взорвала %o."
+; EN: PickupMessage="You got the UMS Grenade Launcher"
+PickupMessage="У вас есть гранатомет UMS"
 ; EN: ItemName="UMS Grenade Launcher"
 ItemName="Гранатомет УМС"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
 ExpireMessage="отключен."
-; EN: PickupMessage="You got the Cloaking Device."
-PickupMessage="У вас есть маскировочное устройство."
+; EN: PickupMessage="You got the Cloaking Device"
+PickupMessage="У вас есть маскировочное устройство"
 ; EN: ItemName="Cloaking Device"
 ItemName="Устройство маскировки"
 ; EN: M_Activated=" engaged"
@@ -74,25 +86,27 @@ MultWeapSlotMsg="Нажмите кнопку выбора оружия, чтоб
 
 [UPakSinglePlayer]
 ; EN: GameName="Unreal Mission Pack"
-GameName="Пакет Unreal Mission"
+GameName="Пакет миссий для Unreal"
 
 [RocketLauncher]
-; EN: PickupMessage="You got the UMS Rocket Launcher."
-PickupMessage="У вас есть ракетная установка UMS."
+; EN: DeathMessage="%k's %w turned %o's body into chunks."
+DeathMessage="%w %k превратила тело %oа в куски."
+; EN: PickupMessage="You got the UMS Rocket Launcher"
+PickupMessage="У вас есть ракетная установка UMS"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="Ракетная установка УМС"
 
 [UPakChooseGameMenu]
-; EN: MenuList[0]="Return to Na Pali"
-MenuList[0]="Вернуться к На Пали"
-; EN: MenuList[1]="Unreal"
-MenuList[1]="Нереальный"
+MenuList[0]="Return to Na Pali"
+MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
-GameName="Плащ Матч"
+GameName="Плащ спички"
 
 [CARifle]
+; EN: DeathMessage="%k's %w turned %o into swiss cheese."
+DeathMessage="%w %k превратил %o в швейцарский сыр."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
 PickupMessage="У вас есть боевая штурмовая винтовка"
 ; EN: ItemName="Combat Assault Rifle"
@@ -131,19 +145,20 @@ MenuName="Кобель 1"
 MenuName="Женский 1"
 
 [GLAmmo]
-; EN: PickupMessage="You picked up 10 UMS Grenades."
-PickupMessage="Вы подобрали 10 гранат UMS."
+; EN: PickupMessage="You picked up 10 UMS Grenades"
+PickupMessage="Вы подобрали 10 гранат UMS"
 ; EN: ItemName="UMS Grenades"
 ItemName="Гранаты УМС"
 
 [RLAmmo]
-; EN: PickupMessage="You got 10 UMS Rockets."
-PickupMessage="У вас есть 10 ракет UMS."
+; EN: PickupMessage="You got 10 UMS Rockets"
+PickupMessage="У вас есть 10 ракет UMS"
+; EN: ItemName="UMS Rockets"
 ItemName="UMS Rockets"
 
 [CARifleClip]
-; EN: PickupMessage="You got a 50 bullet CAR clip."
-PickupMessage="У вас есть обойма для АВТОМОБИЛЯ на 50 патронов."
+; EN: PickupMessage="You got a 50 bullet CAR clip"
+PickupMessage="У вас есть обойма для АВТОМОБИЛЯ на 50 патронов"
 ; EN: ItemName="CAR Clip"
 ItemName="Автомобильный зажим"
 
@@ -164,7 +179,7 @@ MenuName="Кобель 2"
 GameName="Оружие терранов"
 
 [CompTablet]
-; EN: PickupMessage="You got the Computer Tablet."
-PickupMessage="У вас есть компьютерный планшет."
+; EN: PickupMessage="You got the Computer Tablet"
+PickupMessage="У вас есть компьютерный планшет"
 ; EN: ItemName="Computer Tablet"
 ItemName="Компьютерный планшет"

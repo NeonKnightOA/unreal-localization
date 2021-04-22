@@ -1,6 +1,5 @@
 ﻿[Public]
-; EN: Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1; Terug naar Na Pali")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;Return to Na Pali")
 Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
@@ -18,16 +17,27 @@ Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+; EN: Preferences=(Caption="Cloak Match",Parent="Game Types",Class=UPak.CloakMatch,Immediate=True)
+Preferences=(Caption="Mantelwedstrijd",Parent="Speltypen",Class=UPak.CloakMatch,Immediate=True)
+; EN: Preferences=(Caption="Gravity Match",Parent="Game Types",Class=UPak.GravityMatch,Immediate=True)
+Preferences=(Caption="Zwaartekracht match",Parent="Speltypen",Class=UPak.GravityMatch,Immediate=True)
+; EN: Preferences=(Caption="Marine Match",Parent="Game Types",Class=UPak.MarineMatch,Immediate=True)
+Preferences=(Caption="Mariene wedstrijd",Parent="Speltypen",Class=UPak.MarineMatch,Immediate=True)
+; EN: Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.TerranWeaponMatch,Immediate=True)
+Preferences=(Caption="Terran wapenwedstrijd",Parent="Speltypen",Class=UPak.TerranWeaponMatch,Immediate=True)
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
 Statheader="Dood statistieken: "
 ; EN: CARStat="Combat Assault Rifle"
 CARStat="Bestrijd aanvalsgeweer"
+; EN: RLStat="UMS Rocket Launcher"
 RLStat="UMS Rocket Launcher"
 ; EN: GLStat="UMS Grenade Launcher"
 GLStat="UMS-granaatwerper"
+; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
+; EN: AutomagStat="Automag"
 AutomagStat="Automag"
 ; EN: DispersionStat="Dispersion Pistol"
 DispersionStat="Dispersiepistool"
@@ -35,11 +45,15 @@ DispersionStat="Dispersiepistool"
 EightballStat="Acht bal"
 ; EN: FlakCannonStat="Flak Cannon"
 FlakCannonStat="Luchtafweerkanon"
+; EN: GESBioRifleStat="GES BioRifle"
 GESBioRifleStat="GES BioRifle"
+; EN: MinigunStat="Minigun"
 MinigunStat="Minigun"
+; EN: RazorjackStat="Razorjack"
 RazorjackStat="Razorjack"
 ; EN: RifleStat="Rifle"
 RifleStat="Geweer"
+; EN: StingerStat="Stinger"
 StingerStat="Stinger"
 ; EN: TotalStat="Total Kills"
 TotalStat="Totaal aantal moorden"
@@ -47,16 +61,18 @@ TotalStat="Totaal aantal moorden"
 LogEntryMsg="LOGINVOER:"
 
 [GrenadeLauncher]
-; EN: PickupMessage="You got the UMS Grenade Launcher."
-PickupMessage="Je hebt de UMS Grenade Launcher."
+; EN: DeathMessage="%k's %w blew up %o."
+DeathMessage="De %w van %k blies %o op."
+; EN: PickupMessage="You got the UMS Grenade Launcher"
+PickupMessage="Je hebt de UMS Grenade Launcher"
 ; EN: ItemName="UMS Grenade Launcher"
 ItemName="UMS-granaatwerper"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
 ExpireMessage="ontkoppeld."
-; EN: PickupMessage="You got the Cloaking Device."
-PickupMessage="Je hebt het verhul apparaat."
+; EN: PickupMessage="You got the Cloaking Device"
+PickupMessage="Je hebt het verhul apparaat"
 ; EN: ItemName="Cloaking Device"
 ItemName="Cloaking-apparaat"
 ; EN: M_Activated=" engaged"
@@ -69,24 +85,28 @@ M_Deactivated=" ontkoppeld"
 MultWeapSlotMsg="Druk op de wapenselectieknop om tussen wapens te schakelen."
 
 [UPakSinglePlayer]
-GameName="Unreal Mission Pack"
+; EN: GameName="Unreal Mission Pack"
+GameName="Missiepakket voor Unreal"
 
 [RocketLauncher]
-; EN: PickupMessage="You got the UMS Rocket Launcher."
-PickupMessage="Je hebt de UMS Rocket Launcher."
+; EN: DeathMessage="%k's %w turned %o's body into chunks."
+DeathMessage="De %w van %k veranderde het lichaam van %o in brokken."
+; EN: PickupMessage="You got the UMS Rocket Launcher"
+PickupMessage="Je hebt de UMS Rocket Launcher"
+; EN: ItemName="UMS Rocket Launcher"
 ItemName="UMS Rocket Launcher"
 
 [UPakChooseGameMenu]
-; EN: MenuList[0]="Return to Na Pali"
-MenuList[0]="Keer terug naar Na Pali"
-; EN: MenuList[1]="Unreal"
-MenuList[1]="Onwerkelijk"
+MenuList[0]="Return to Na Pali"
+MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
 GameName="Mantelwedstrijd"
 
 [CARifle]
+; EN: DeathMessage="%k's %w turned %o into swiss cheese."
+DeathMessage="De %w van %k veranderde %o in Zwitserse kaas."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
 PickupMessage="Je hebt het Combat Assault Rifle"
 ; EN: ItemName="Combat Assault Rifle"
@@ -110,9 +130,10 @@ GameName="Mariene wedstrijd"
 
 [GravityMatch]
 ; EN: GameName="Gravity Match"
-GameName="Zwaartekracht Match"
+GameName="Zwaartekracht match"
 
 [UPakDebugger]
+; EN: ItemName="UPak Debugger"
 ItemName="UPak Debugger"
 
 [UPakMaleOne]
@@ -124,20 +145,21 @@ MenuName="Man 1"
 MenuName="Vrouw 1"
 
 [GLAmmo]
-; EN: PickupMessage="You picked up 10 UMS Grenades."
-PickupMessage="Je hebt 10 UMS-granaten opgepakt."
+; EN: PickupMessage="You picked up 10 UMS Grenades"
+PickupMessage="Je hebt 10 UMS-granaten opgepakt"
 ; EN: ItemName="UMS Grenades"
 ItemName="UMS-granaten"
 
 [RLAmmo]
-; EN: PickupMessage="You got 10 UMS Rockets."
-PickupMessage="Je hebt 10 UMS Rockets."
+; EN: PickupMessage="You got 10 UMS Rockets"
+PickupMessage="Je hebt 10 UMS Rockets"
 ; EN: ItemName="UMS Rockets"
 ItemName="UMS-raketten"
 
 [CARifleClip]
-; EN: PickupMessage="You got a 50 bullet CAR clip."
-PickupMessage="Je hebt een CAR-clip met 50 kogels."
+; EN: PickupMessage="You got a 50 bullet CAR clip"
+PickupMessage="Je hebt een CAR-clip met 50 kogels"
+; EN: ItemName="CAR Clip"
 ItemName="CAR Clip"
 
 [UPakFemaleTwo]
@@ -157,7 +179,7 @@ MenuName="Mannetje 2"
 GameName="Terran wapenwedstrijd"
 
 [CompTablet]
-; EN: PickupMessage="You got the Computer Tablet."
-PickupMessage="Je hebt de computertablet."
+; EN: PickupMessage="You got the Computer Tablet"
+PickupMessage="Je hebt de computertablet"
 ; EN: ItemName="Computer Tablet"
 ItemName="Computertablet"
