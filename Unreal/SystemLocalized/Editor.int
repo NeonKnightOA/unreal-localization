@@ -113,15 +113,15 @@ HelpDesc[0]="Existing package file to load."
 HelpParm[1]="flag"
 HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
 HelpParm[2]="   AllowDownload"
-HelpDesc[2]="   Clients are allowed to download package from server"
+HelpDesc[2]="   Clients are allowed to download package from server."
 HelpParm[3]="   ClientOptional"
-HelpDesc[3]="   Clients can chose to skip this package download from server"
+HelpDesc[3]="   Clients can chose to skip this package download from server."
 HelpParm[4]="   ServerSideOnly"
-HelpDesc[4]="   Package has no network relevancy on a server"
+HelpDesc[4]="   Package has no network relevancy on a server."
 HelpParm[5]="   BrokenLinks"
-HelpDesc[5]="   Package was loaded with missing links"
+HelpDesc[5]="   Package was loaded with missing links."
 HelpParm[6]="   Unsecure"
-HelpDesc[6]="   Unused"
+HelpDesc[6]="   Unused."
 
 [DataRipCommandlet]
 HelpCmd=datarip
@@ -286,7 +286,7 @@ HelpCmd=fullbatchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Extract package with directory structure."
 HelpUsage="fullbatchexport <pkg> <outpath>"
-HelpDesc[0]="Optional, to define export format"
+HelpDesc[0]="Optional, to define export format:"
 HelpParm[0]="   -DefaultFontExtension"
 HelpParm[1]="   -DefaultMusicExtension"
 HelpParm[2]="   -DefaultSoundExtension"
@@ -301,28 +301,28 @@ HelpUsage="fontpagediff <left font> <right font>"
 [CheckUnicodeCommandlet]
 HelpCmd=checkunicode
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="checkunicode <filewildcard>"
 HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpOneLiner="checkunicode <filewildcard>"
 HelpDesc[0]="<filewildcard>"
 HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
 
 [RipAndTearCommandlet]
 HelpCmd=ripandtear
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
 HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
 HelpDesc[0]="<inputmap>"
 HelpParm[0]="The map to read MyLevel resources from."
-HelpDesc[0]="<outputmap>"
-HelpParm[0]="The map to output the non-MyLevel'd map to."
-HelpDesc[0]="<outputresources>"
-HelpParm[0]="The class of output resources to take from the input map."
+HelpDesc[1]="<outputmap>"
+HelpParm[1]="The map to output the non-MyLevel'd map to."
+HelpDesc[2]="<outputresources>"
+HelpParm[2]="The class of output resources to take from the input map."
 
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="texturemerger <packagename>"
 HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpOneLiner="texturemerger <packagename>"
 HelpDesc[0]="<packagename>"
 HelpParm[0]="The package where the textures will be saved to."
 
