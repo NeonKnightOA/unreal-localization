@@ -68,15 +68,16 @@ FemBlobKillMessage="ha sido corroída por una gota ácida."
 DeathMessage="%o ha sido despedazado por el %w de %k."
 FemDeathMessage="%o ha sido despedazada por el %w de %k."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Tienes el Cañón de Metralla"
+PickupMessage="Has recogido el Cañón de Metralla"
 ; EN: ItemName="Flak Cannon"
 ItemName="Cañón de Metralla"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k ha atravesado la cabeza de %o con una bala."
+FemDeathMessage="%k ha atravesado la cabeza de %o con una bala."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Tienes el Rifle de Francotirador"
+PickupMessage="Has recogido el Rifle de Francotirador"
 ; EN: ItemName="Sniper Rifle"
 ItemName="Rifle de Francotirador"
 
@@ -98,16 +99,18 @@ NameArticle=" el "
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="La %w de %k ha convertido a %o en un trozo de carne sangrante."
+FemDeathMessage="La %w de %k ha convertido a %o en un trozo de carne sangrante."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Tienes la Ametralladora"
+PickupMessage="Has recogido la Ametralladora"
 ; EN: ItemName="Minigun"
 ItemName="Ametralladora"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o bebió un vaso de la sustancia verde que le goteaba a %k."
+FemDeathMessage="%o bebió un vaso de la sustancia verde que le goteaba a %k."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Tienes el Rifle Biológico GES"
+PickupMessage="Has recogido el Rifle Biológico GES"
 ; EN: ItemName="GES Bio Rifle"
 ItemName="Rifle Biológico GES"
 
@@ -153,7 +156,7 @@ ItemName="Cartuchos de Rifle de Francotirador"
 
 [Seeds]
 ; EN: PickupMessage="You got the Nali Fruit Seeds"
-PickupMessage="Tienes las Semillas de Fruta Curativa Nali"
+PickupMessage="Has recogido las Semillas de Fruta Curativa Nali"
 ; EN: ItemName="Nali Fruit Seeds"
 ItemName="Semillas de Fruta Curativa Nali"
 
@@ -176,8 +179,9 @@ ItemName="Campo de Fuerza"
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k le pegó un buen tajo a %o con el %w."
+FemDeathMessage="%k le pegó un buen tajo a %o con el %w."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Tienes el Lanzacuchillas"
+PickupMessage="Has recogido el Lanzacuchillas"
 ; EN: ItemName="RazorJack"
 ItemName="Lanzacuchillas"
 
@@ -269,13 +273,13 @@ FemAltName="cocinada"
 
 [PowerShield]
 ; EN: PickupMessage="You got the Power Shield"
-PickupMessage="Tienes el Escudo de Protección"
+PickupMessage="Has recogido el Escudo de Protección"
 ; EN: ItemName="Power Shield"
 ItemName="Escudo de Protección"
 
 [RifleRound]
 ; EN: PickupMessage="You got a Rifle round"
-PickupMessage="Tienes un Cartucho para el Rifle"
+PickupMessage="Has recogido un Cartucho para el Rifle"
 ; EN: ItemName="Rifle Round"
 ItemName="Cartucho de Rifle"
 
@@ -290,12 +294,12 @@ ItemName="Escopeta Cuádruple"
 
 [PeaceMaker]
 ; EN: PickupMessage="You got the Peacemaker"
-PickupMessage="Tienes el Pacificador"
+PickupMessage="Has recogido el Pacificador"
 ; EN: ItemName="Peacemaker"
 ItemName="Pacificador"
 
 [WoodruffSeeds]
 ; EN: PickupMessage="You got the Woodruff Seeds"
-PickupMessage="Tienes las Semillas de Minibosque"
+PickupMessage="Has recogido las Semillas de Minibosque"
 ; EN: ItemName="Woodruff Seeds"
 ItemName="Semillas de Minibosque"
