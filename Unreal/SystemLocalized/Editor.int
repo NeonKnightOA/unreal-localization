@@ -66,9 +66,9 @@ HelpCmd=conform
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Generate conforming binary files"
 HelpUsage="conform existing_file.ext old_file.ext"
-HelpParm[0]="existingfile.ext"
+HelpParm[0]="existing_file.ext"
 HelpDesc[0]="Existing binary file to load, conform, and save."
-HelpParm[1]="oldfile.ext"
+HelpParm[1]="old_file.ext"
 HelpDesc[1]="Old file to make source file binary compatible with."
 
 [BatchExportCommandlet]

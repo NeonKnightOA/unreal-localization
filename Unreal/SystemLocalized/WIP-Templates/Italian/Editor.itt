@@ -24,6 +24,10 @@ Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandl
 Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Editor",Parent="Opzioni avanzate")
@@ -41,9 +45,8 @@ Preferences=(Caption="Commandlet AudioPackage",Parent="Editor",Class=Editor.Audi
 Preferences=(Caption="Comando di MusicPackages",Parent="Editor",Class=Editor.MusicPackagesCommandlet,Immediate=True)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=maestro
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=master
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Crea i file del programma di installazione principale"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -59,87 +62,80 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Percorso per riferimento di percorso con compressione delta."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=rendere
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=make
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Ricostruisci i pacchetti UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
 HelpUsage="make [-option ...] [parm = value] ..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Silenzioso"
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Nessun prompt; assumere "sì" a tutte le domande."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
-HelpDesc[1]="Non forzare l'associazione di funzioni native alle DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Tutti"
+HelpDesc[1]="Non forzare l'associazione di funzioni native alle DLL
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Ricostruzione pulita (altrimenti la ricostruzione è incrementale)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=conformarsi
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=conform
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Genera file binari conformi"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
 HelpUsage="conforme file_esistente.ext vecchio_file.ext"
-; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="esistentefile.ext"
+; EN: HelpParm[0]="existing_file.ext"
+HelpParm[0]="file_esistente.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="File binario esistente da caricare, conformare e salvare."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="old_file.ext"
+HelpParm[1]="vecchio_file.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Vecchio file per rendere compatibile il file binario di origine."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Esporta oggetti in blocco."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
-HelpUsage="batchexport package.ext classname export_ext [percorso]"
+HelpUsage="batchexport package.ext nomeDellaClasse export_ext [percorso]"
+; EN: HelpParm[0]="package.ext"
 HelpParm[0]="package.ext"
 ; EN: HelpDesc[0]="Package whose objects you wish to export."
 HelpDesc[0]="Pacchetto di cui desideri esportare gli oggetti."
 ; EN: HelpParm[1]="classname"
-HelpParm[1]="nome della classe"
+HelpParm[1]="nomeDellaClasse"
 ; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
 HelpDesc[1]="Classe di oggetto da esportare. Può essere uno dei seguenti:"
 HelpParm[2]="   "
-; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
-HelpDesc[2]="   classe, struttura, suono, musica, livello, modello, polys, buffer di testo"
+HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
+; EN: HelpParm[3]="export_ext"
 HelpParm[3]="export_ext"
 ; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
 HelpDesc[3]="Estensione del file in cui esportare. Le estensioni di file accettate per classe sono le seguenti:"
 HelpParm[4]="   "
-; EN: HelpDesc[4]="   class: uc, h"
-HelpDesc[4]="   classe: uc, h"
+HelpDesc[4]="   class: uc, h"
 HelpParm[5]="   "
-; EN: HelpDesc[5]="   texture: bmp, pcx"
-HelpDesc[5]="   trama: bmp, pcx"
+HelpDesc[5]="   texture: bmp, pcx"
 HelpParm[6]="   "
-; EN: HelpDesc[6]="   sound: wav"
-HelpDesc[6]="   suono: wav"
+HelpDesc[6]="   sound: wav"
 HelpParm[7]="   "
 ; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
-HelpDesc[7]="   musica: s3m, xm, it o qualsiasi altro formato di tracker"
+HelpDesc[7]="   music: s3m, xm, it o qualsiasi altro formato di tracker"
 HelpParm[8]="   "
-; EN: HelpDesc[8]="   level: t3d"
-HelpDesc[8]="   livello: t3d"
+HelpDesc[8]="   level: t3d"
 HelpParm[9]="   "
-; EN: HelpDesc[9]="   model: t3d"
-HelpDesc[9]="   modello: t3d"
+HelpDesc[9]="   model: t3d"
 HelpParm[10]="   "
 HelpDesc[10]="   polys: t3d"
 HelpParm[11]="   "
 HelpDesc[11]="   textbuffer: txt"
 ; EN: HelpParm[12]="path"
-HelpParm[12]="sentiero"
+HelpParm[12]="percorso"
 ; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
-HelpDesc[12]="Percorso in cui esportare i file, come C: \ MyPath."
+HelpDesc[12]="Percorso in cui esportare i file, come C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag

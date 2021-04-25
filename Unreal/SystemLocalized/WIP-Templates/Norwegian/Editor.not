@@ -24,6 +24,10 @@ Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandl
 Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Redaktør",Parent="Avanserte instillinger")
@@ -41,9 +45,8 @@ Preferences=(Caption="AudioPackage-kommandot",Parent="Redaktør",Class=Editor.Au
 Preferences=(Caption="MusicPackages-kommandot",Parent="Redaktør",Class=Editor.MusicPackagesCommandlet,Immediate=True)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=herre
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=master
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Bygg hovedinstallasjonsfiler"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -59,48 +62,45 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Sti for deltakomprimert stihenvisning."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=gjøre
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=make
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Gjenoppbygg UnrealScript-pakker."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
-HelpUsage="lag [-alternativ ...] [parm = verdi] ..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Stille"
+HelpUsage="make [-alternativ ...] [parm = verdi] ..."
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Ingen beskjeder; anta 'ja' til alle spørsmålene."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="Ikke tving innfødte funksjoner til å være bundet til DLLer."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Alle"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Ren ombygging (ellers er ombygging trinnvis)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=samsvare
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=conform
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generer samsvarende binære filer"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="samsvar eksisterende_fil.ext gammel_fil.ext"
-; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="eksisterende fil.ekst"
+HelpUsage="conform eksisterende_fil.ext gammel_fil.ext"
+; EN: HelpParm[0]="existing_file.ext"
+HelpParm[0]="eksisterende_fil.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Eksisterende binærfil for å laste, konformere og lagre."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="old_file.ext"
+HelpParm[1]="gammel_fil.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Gammel fil for å gjøre kildefilen binær kompatibel med."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Eksporter objekter i bulk."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
-HelpUsage="batchexport-pakke.ekst klassenavn eksport_ekst [sti]"
+HelpUsage="batchexport pakke.ekst klassenavn eksport_ekst [sti]"
 ; EN: HelpParm[0]="package.ext"
 HelpParm[0]="pakke.ekst"
 ; EN: HelpDesc[0]="Package whose objects you wish to export."
@@ -110,30 +110,24 @@ HelpParm[1]="klassenavn"
 ; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
 HelpDesc[1]="Klasse av objekt som skal eksporteres. Det kan være ett av følgende:"
 HelpParm[2]="   "
-; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
-HelpDesc[2]="   klasse, tekstur, lyd, musikk, nivå, modell, polys, tekstbuffer"
+HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
 ; EN: HelpParm[3]="export_ext"
 HelpParm[3]="eksport_ekst"
 ; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
 HelpDesc[3]="Filutvidelse å eksportere til. De aksepterte filtypene per klasse er som følger:"
 HelpParm[4]="   "
-; EN: HelpDesc[4]="   class: uc, h"
-HelpDesc[4]="   klasse: uc, h"
+HelpDesc[4]="   class: uc, h"
 HelpParm[5]="   "
-; EN: HelpDesc[5]="   texture: bmp, pcx"
-HelpDesc[5]="   tekstur: bmp, pcx"
+HelpDesc[5]="   texture: bmp, pcx"
 HelpParm[6]="   "
-; EN: HelpDesc[6]="   sound: wav"
-HelpDesc[6]="   lyd: wav"
+HelpDesc[6]="   sound: wav"
 HelpParm[7]="   "
 ; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
-HelpDesc[7]="   musikk: s3m, xm, it eller et annet sporingsformat"
+HelpDesc[7]="   music: s3m, xm, it eller et annet sporingsformat"
 HelpParm[8]="   "
-; EN: HelpDesc[8]="   level: t3d"
-HelpDesc[8]="   nivå: t3d"
+HelpDesc[8]="   level: t3d"
 HelpParm[9]="   "
-; EN: HelpDesc[9]="   model: t3d"
-HelpDesc[9]="   modell: t3d"
+HelpDesc[9]="   model: t3d"
 HelpParm[10]="   "
 HelpDesc[10]="   polys: t3d"
 HelpParm[11]="   "
@@ -141,7 +135,7 @@ HelpDesc[11]="   textbuffer: txt"
 ; EN: HelpParm[12]="path"
 HelpParm[12]="sti"
 ; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
-HelpDesc[12]="Sti for å eksportere filer til, som C: \ MyPath."
+HelpDesc[12]="Sti for å eksportere filer til, som C:\MyPath."
 
 [PackageFlagCommandlet]
 ; EN: HelpCmd=packageflag

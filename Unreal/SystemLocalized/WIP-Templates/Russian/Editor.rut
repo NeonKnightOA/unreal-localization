@@ -24,6 +24,10 @@ Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandl
 Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="редактор",Parent="Расширенные настройки")
@@ -41,9 +45,8 @@ Preferences=(Caption="Командлет AudioPackage",Parent="редактор"
 Preferences=(Caption="Командлет MusicPackages",Parent="редактор",Class=Editor.MusicPackagesCommandlet,Immediate=True)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=мастер
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=master
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Сборка основных файлов установщика"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
@@ -59,90 +62,80 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Путь для ссылки на путь с дельта-сжатием."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=делать
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=make
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Перестройте пакеты UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
 HelpUsage="make [-option ...] [parm = value] ..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Тихий"
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Никаких подсказок; ответьте «да» на все вопросы."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
-HelpDesc[1]="Не заставляйте собственные функции привязываться к DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Все"
+HelpDesc[1]="Не заставляйте собственные функции привязываться к DLL
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Чистая перестройка (в противном случае перестройка будет инкрементальной)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=соответствовать
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=conform
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Создавать соответствующие двоичные файлы"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="согласовать existing_file.ext old_file.ext"
-; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="существующий файл.ext"
+HelpUsage="conform existing_file.ext old_file.ext"
+; EN: HelpParm[0]="existing_file.ext"
+HelpParm[0]="existing_file.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Существующий двоичный файл для загрузки, согласования и сохранения."
-HelpParm[1]="oldfile.ext"
+; EN: HelpParm[1]="old_file.ext"
+HelpParm[1]="old_file.ext"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Старый файл для обеспечения совместимости с двоичным исходным файлом."
 
 [BatchExportCommandlet]
-; EN: HelpCmd=batchexport
-HelpCmd=Батчеэкспорт
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=batchexport
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Массовый экспорт объектов."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
-HelpUsage="batchexport package.ext имя класса export_ext [путь]"
+HelpUsage="batchexport package.ext имякласса export_ext [путь]"
+; EN: HelpParm[0]="package.ext"
 HelpParm[0]="package.ext"
 ; EN: HelpDesc[0]="Package whose objects you wish to export."
 HelpDesc[0]="Пакет, объекты которого вы хотите экспортировать."
 ; EN: HelpParm[1]="classname"
-HelpParm[1]="имя класса"
+HelpParm[1]="имякласса"
 ; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
 HelpDesc[1]="Класс объекта для экспорта. Это может быть одно из следующих значений:"
 HelpParm[2]="   "
-; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
-HelpDesc[2]="   класс, текстура, звук, музыка, уровень, модель, полигоны, текстовый буфер"
+HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
+; EN: HelpParm[3]="export_ext"
 HelpParm[3]="export_ext"
 ; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
 HelpDesc[3]="Расширение файла для экспорта. Допустимые расширения файлов для каждого класса следующие:"
 HelpParm[4]="   "
-; EN: HelpDesc[4]="   class: uc, h"
-HelpDesc[4]="   класс: uc, h"
+HelpDesc[4]="   class: uc, h"
 HelpParm[5]="   "
-; EN: HelpDesc[5]="   texture: bmp, pcx"
-HelpDesc[5]="   текстуры: BMP, pcx"
+HelpDesc[5]="   texture: bmp, pcx"
 HelpParm[6]="   "
-; EN: HelpDesc[6]="   sound: wav"
-HelpDesc[6]="   звук: wav"
+HelpDesc[6]="   sound: wav"
 HelpParm[7]="   "
 ; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
-HelpDesc[7]="   музыка: s3m, xm, it или любой другой формат трекера"
+HelpDesc[7]="   music: s3m, xm, it или любой другой формат трекера
 HelpParm[8]="   "
-; EN: HelpDesc[8]="   level: t3d"
-HelpDesc[8]="   уровень: t3d"
+HelpDesc[8]="   level: t3d"
 HelpParm[9]="   "
-; EN: HelpDesc[9]="   model: t3d"
-HelpDesc[9]="   модель: t3d"
+HelpDesc[9]="   model: t3d"
 HelpParm[10]="   "
-; EN: HelpDesc[10]="   polys: t3d"
-HelpDesc[10]="   полигоны: t3d"
+HelpDesc[10]="   polys: t3d"
 HelpParm[11]="   "
-; EN: HelpDesc[11]="   textbuffer: txt"
-HelpDesc[11]="   текстовый буфер: txt"
+HelpDesc[11]="   textbuffer: txt"
 ; EN: HelpParm[12]="path"
 HelpParm[12]="путь"
 ; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
-HelpDesc[12]="Путь для экспорта файлов, например C: \ MyPath."
+HelpDesc[12]="Путь для экспорта файлов, например C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag

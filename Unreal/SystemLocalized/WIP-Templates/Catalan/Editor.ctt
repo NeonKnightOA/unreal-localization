@@ -24,11 +24,16 @@ Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandl
 Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Editor",Parent="Opcions avançades")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Avançat (editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 ; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 Preferences=(Caption="Quadrícula",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
@@ -40,13 +45,12 @@ Preferences=(Caption="Comandet AudioPackage",Parent="Editor",Class=Editor.AudioP
 Preferences=(Caption="Comandet MusicPackages",Parent="Editor",Class=Editor.MusicPackagesCommandlet,Immediate=True)
 
 [MasterCommandlet]
-; EN: HelpCmd=master
-HelpCmd=mestre
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=master
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Construeix fitxers d'instal·lació mestra"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="mestre [-opció ...] [parm = valor] ..."
+HelpUsage="master [-opció ...] [parm = valor] ..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Directori arrel per copiar els fitxers font."
@@ -58,77 +62,69 @@ HelpParm[2]="RefPath"
 HelpDesc[2]="Camí de referència de camí de compressió delta."
 
 [MakeCommandlet]
-; EN: HelpCmd=make
-HelpCmd=fer
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=make
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Reconstrueix els paquets UnrealScript."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
-HelpUsage="fer [-opció ...] [parm = valor] ..."
-; EN: HelpParm[0]="Silent"
-HelpParm[0]="Silenciós"
+HelpUsage="make [-opció ...] [parm = valor] ..."
+HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Sense sol·licituds; assumir "sí" a totes les preguntes."
 HelpParm[1]="NoBind"
 ; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpDesc[1]="No obligueu a que les funcions natives estiguin vinculades a les DLL."
-; EN: HelpParm[2]="All"
-HelpParm[2]="Tots"
+HelpParm[2]="All"
 ; EN: HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 HelpDesc[2]="Reconstrucció neta (en cas contrari, la reconstrucció és incremental)."
 
 [ConformCommandlet]
-; EN: HelpCmd=conform
-HelpCmd=conformar
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=conform
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Generate conforming binary files"
 HelpOneLiner="Generar fitxers binaris conformes"
 ; EN: HelpUsage="conform existing_file.ext old_file.ext"
-HelpUsage="conformar fitxer_existent.ext fitxer_exterior"
-; EN: HelpParm[0]="existingfile.ext"
-HelpParm[0]="fitxerexistent.ext"
+HelpUsage="conform fitxer_existent.ext fitxer_exterior.est"
+; EN: HelpParm[0]="existing_file.ext"
+HelpParm[0]="fitxer_existent.ext"
 ; EN: HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpDesc[0]="Fitxer binari existent per carregar, conformar i desar."
-; EN: HelpParm[1]="oldfile.ext"
-HelpParm[1]="fitxervell.ext"
+; EN: HelpParm[1]="old_file.ext"
+HelpParm[1]="fitxer_exterior.est"
 ; EN: HelpDesc[1]="Old file to make source file binary compatible with."
 HelpDesc[1]="Fitxer antic per fer compatible el fitxer font binari."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Export objects in bulk."
 HelpOneLiner="Exporta objectes de manera massiva."
 ; EN: HelpUsage="batchexport package.ext classname export_ext [path]"
-HelpUsage="batchexport package.ext nom de classe export_ext [camí]"
+HelpUsage="batchexport package.ext nomDeClasse export_ext [camí]"
+; EN: HelpParm[0]="package.ext"
 HelpParm[0]="package.ext"
 ; EN: HelpDesc[0]="Package whose objects you wish to export."
 HelpDesc[0]="Paquet l'objecte del qual voleu exportar."
 ; EN: HelpParm[1]="classname"
-HelpParm[1]="nom de classe"
+HelpParm[1]="nomDeClasse"
 ; EN: HelpDesc[1]="Class of object to export. It can be one of the following:"
 HelpDesc[1]="Classe d'objecte a exportar. Pot ser un dels següents:"
 HelpParm[2]="   "
-; EN: HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
-HelpDesc[2]="   classe, textura, so, música, nivell, model, polys, textbuffer"
+HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
 HelpParm[3]="export_ext"
 ; EN: HelpDesc[3]="File extension to export to. The accepted file extensions per class are as follows:"
 HelpDesc[3]="Extensió de fitxer a l'exportació. Les extensions de fitxer acceptades per classe són les següents:"
 HelpParm[4]="   "
-; EN: HelpDesc[4]="   class: uc, h"
-HelpDesc[4]="   classe: uc, h"
+HelpDesc[4]="   class: uc, h"
 HelpParm[5]="   "
-; EN: HelpDesc[5]="   texture: bmp, pcx"
-HelpDesc[5]="   textura: bmp, pcx"
+HelpDesc[5]="   texture: bmp, pcx"
 HelpParm[6]="   "
-; EN: HelpDesc[6]="   sound: wav"
-HelpDesc[6]="   so: wav"
+HelpDesc[6]="   sound: wav"
 HelpParm[7]="   "
 ; EN: HelpDesc[7]="   music: s3m, xm, it or any other tracker format"
-HelpDesc[7]="   música: s3m, xm, it o qualsevol altre format de seguiment"
+HelpDesc[7]="   music: s3m, xm, it o qualsevol altre format de seguiment"
 HelpParm[8]="   "
-; EN: HelpDesc[8]="   level: t3d"
-HelpDesc[8]="   nivell: t3d"
+HelpDesc[8]="   level: t3d"
 HelpParm[9]="   "
 HelpDesc[9]="   model: t3d"
 HelpParm[10]="   "
@@ -136,9 +132,9 @@ HelpDesc[10]="   polys: t3d"
 HelpParm[11]="   "
 HelpDesc[11]="   textbuffer: txt"
 ; EN: HelpParm[12]="path"
-HelpParm[12]="Camí"
+HelpParm[12]="camí"
 ; EN: HelpDesc[12]="Path to export files to, like C:\MyPath."
-HelpDesc[12]="Camí per exportar fitxers, com ara C: \ MyPath."
+HelpDesc[12]="Camí per exportar fitxers, com ara C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
