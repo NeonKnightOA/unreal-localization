@@ -11,9 +11,8 @@ Preferences=(Caption="Сетевое воспроизведение TCP / IP",Pa
 Preferences=(Caption="Серверный маяк",Parent="Сети",Class=IpDrv.UdpBeacon,Immediate=True)
 
 [UpdateServerCommandlet]
-; EN: HelpCmd=updateserver
-HelpCmd=сервер обновлений
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=updateserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Служба запросов на автоматическое обновление Unreal Engine."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
@@ -23,9 +22,8 @@ HelpParm[0]="ConfigFile"
 HelpDesc[0]="Файл конфигурации для использования. По умолчанию: UpdateServer.ini."
 
 [MasterServerCommandlet]
-; EN: HelpCmd=masterserver
-HelpCmd=главный сервер
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=masterserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="Вести главный список серверов."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
@@ -35,28 +33,26 @@ HelpParm[0]="ConfigFile"
 HelpDesc[0]="Файл конфигурации для использования. По умолчанию: MasterServer.ini."
 
 [CompressCommandlet]
-; EN: HelpCmd=compress
-HelpCmd=компресс
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=compress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension .uz will be created."
 HelpOneLiner="Сожмите пакет Unreal для автоматической загрузки. Будет создан файл с расширением .uz."
 ; EN: HelpUsage="compress File1 [File2 [File3 ...]]"
-HelpUsage="сжатие File1 [File2 [File3 ...]]"
+HelpUsage="compress Файлы1 [Файлы2 [Файлы3 ...]]"
 ; EN: HelpParm[0]="Files"
 HelpParm[0]="Файлы"
 ; EN: HelpDesc[0]="The wildcard or file names to compress."
 HelpDesc[0]="Подстановочный знак или имена файлов для сжатия."
 
 [DecompressCommandlet]
-; EN: HelpCmd=decompress
-HelpCmd=декомпрессировать
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=decompress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Распакуйте файл, сжатый с помощью ucc compress."
 ; EN: HelpUsage="decompress CompressedFile"
-HelpUsage="распаковать CompressedFile"
+HelpUsage="decompress Сжатыйфайл"
 ; EN: HelpParm[0]="CompressedFile"
-HelpParm[0]="Сжатый файл"
+HelpParm[0]="Сжатыйфайл"
 ; EN: HelpDesc[0]="The .uz file to decompress."
 HelpDesc[0]="Файл .uz, который нужно распаковать."
 

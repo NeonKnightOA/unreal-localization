@@ -11,49 +11,47 @@ Preferences=(Caption="TCP / IP-nätverksspel",Parent="Nätverk",Class=IpDrv.TcpN
 Preferences=(Caption="Serverfyr",Parent="Nätverk",Class=IpDrv.UdpBeacon,Immediate=True)
 
 [UpdateServerCommandlet]
-; EN: HelpCmd=updateserver
-HelpCmd=uppdateringsserver
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=updateserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Service Unreal Engine auto-uppdateringsförfrågningar."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
-HelpUsage="uppdateringsserver [-alternativ ...] [parm = värde]"
+HelpUsage="updateserver [-alternativ...] [parm=värde]"
 HelpParm[0]="ConfigFile"
 ; EN: HelpDesc[0]="Configuration file to use. Default: UpdateServer.ini."
 HelpDesc[0]="Konfigurationsfil att använda. Standard: UpdateServer.ini."
 
 [MasterServerCommandlet]
 HelpCmd=masterserver
-HelpWeblink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="Underhåll huvudlistan över servrar."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
-HelpUsage="masterserver [-alternativ ...] [parm = värde]"
+HelpUsage="masterserver [-alternativ...] [parm=värde]"
 HelpParm[0]="ConfigFile"
 ; EN: HelpDesc[0]="Configuration file to use. Default: MasterServer.ini."
 HelpDesc[0]="Konfigurationsfil att använda. Standard: MasterServer.ini."
 
 [CompressCommandlet]
-; EN: HelpCmd=compress
-HelpCmd=komprimera
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=compress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension .uz will be created."
 HelpOneLiner="Komprimera ett Unreal-paket för automatisk nedladdning. En fil med filändelsen .uz skapas."
 ; EN: HelpUsage="compress File1 [File2 [File3 ...]]"
-HelpUsage="komprimera File1 [File2 [File3 ...]]"
+HelpUsage="compress File1 [File2 [File3 ...]]"
 ; EN: HelpParm[0]="Files"
 HelpParm[0]="Filer"
 ; EN: HelpDesc[0]="The wildcard or file names to compress."
 HelpDesc[0]="Jokertecken eller filnamn för att komprimera."
 
 [DecompressCommandlet]
-; EN: HelpCmd=decompress
-HelpCmd=dekomprimera
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=decompress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Komprimera en fil komprimerad med ucc-komprimering."
 ; EN: HelpUsage="decompress CompressedFile"
-HelpUsage="dekomprimera CompressedFile"
+HelpUsage="decompress CompressedFile"
+; EN: HelpParm[0]="CompressedFile"
 HelpParm[0]="CompressedFile"
 ; EN: HelpDesc[0]="The .uz file to decompress."
 HelpDesc[0]=".Uz-filen för att dekomprimera."

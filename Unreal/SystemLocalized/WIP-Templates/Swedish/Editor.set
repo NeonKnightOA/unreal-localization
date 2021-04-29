@@ -138,56 +138,60 @@ HelpParm[12]="sökväg"
 HelpDesc[12]="Sökväg för att exportera filer till, som C:\MyPath."
 
 [PackageFlagCommandlet]
-; EN: HelpCmd=packageflag
-HelpCmd=förpackningsflagga
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=packageflag
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Ställ in paketflaggor i paketfiler."
-; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext <+ | -> flagga [<+ | -> flagga] ...]"
+; EN: HelpUsage="packageflag src.ext [<+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [<+|->flagga [<+|->flagga] ...]"
+; EN: HelpParm[0]="src.ext"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="Befintlig paketfil som ska laddas."
-HelpParm[1]="dest.ext"
-; EN: HelpDesc[1]="Name of new package file with the new flag settings."
-HelpDesc[1]="Namnet på den nya paketfilen med de nya flagginställningarna."
-; EN: HelpParm[2]="flag"
-HelpParm[2]="flagga"
-; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
-HelpDesc[2]="+ för att ställa in en flagga, eller - för att ta bort en flagga, följt av en av:"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   AllowDownload"
-HelpDesc[3]="   Tillåt nedladdning"
-HelpParm[4]="   "
-HelpDesc[4]="   ClientOptional"
-HelpParm[5]="   "
-HelpDesc[5]="   ServerSideOnly"
-HelpParm[6]="   "
-HelpDesc[6]="   BrokenLinks"
-HelpParm[7]="   "
-; EN: HelpDesc[7]="   Unsecure"
-HelpDesc[7]="   Osäker"
+; EN: HelpParm[1]="flag"
+HelpParm[1]="flagga"
+; EN: HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[1]="+ för att ställa in en flagga, eller - för att ta bort en flagga, följt av en av:"
+HelpParm[2]="   AllowDownload"
+; EN: HelpDesc[2]="   Clients are allowed to download this package from the server."
+HelpDesc[2]="   Kunder får ladda ner detta paket från servern."
+HelpParm[3]="   ClientOptional"
+; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
+HelpDesc[3]="   Kunder kan välja att hoppa över nedladdningen av detta paket från servern."
+HelpDesc[4]="   ServerSideOnly"
+; EN: HelpDesc[4]="   The package has no network relevancy on a server."
+HelpDesc[4]="   Paketet har ingen nätverksrelevans på en server."
+HelpParm[5]="   BrokenLinks"
+; EN: HelpDesc[5]="   The package can be loaded with missing links."
+HelpDesc[5]="   Paketet kan laddas med saknade länkar."
+HelpParm[6]="   Unsecure"
+; EN: HelpDesc[6]="   Unused."
+HelpDesc[6]="   Oanvänd."
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Skapa ett paket med textur-, musik- och ljuddata rippat ut."
+; EN: HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
+; EN: HelpParm[0]="srcpackage.ext"
 HelpParm[0]="srcpackage.ext"
 ; EN: HelpDesc[0]="Source Package."
 HelpDesc[0]="Källkodspaket."
+; EN: HelpParm[1]="dstpackage.ext"
 HelpParm[1]="dstpackage.ext"
 ; EN: HelpDesc[1]="Destination Package."
 HelpDesc[1]="Destinationspaket."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Lägg till, ta bort, ersätt eller extrahera filer från en umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
 HelpUsage="updateumod UmodFile Command [Filnamn]"
+; EN: HelpParm[0]="UmodFile"
 HelpParm[0]="UmodFile"
 ; EN: HelpDesc[0]="The umod file to change or view."
 HelpDesc[0]="Umod-filen som ska ändras eller visas."
@@ -195,34 +199,33 @@ HelpDesc[0]="Umod-filen som ska ändras eller visas."
 HelpParm[1]="Kommando"
 ; EN: HelpDesc[1]="Can be one of the following:"
 HelpDesc[1]="Kan vara något av följande:"
-HelpParm[2]="   "
-; EN: HelpDesc[2]="   EXTRACT (file extraction)"
-HelpDesc[2]="   EXTRAKT (filutvinning)"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   ADD (file addition)"
-HelpDesc[3]="   LÄGG TILL (filtillägg)"
-HelpParm[4]="   "
-; EN: HelpDesc[4]="   DELETE (file deletion)"
-HelpDesc[4]="   RADERA (radering av fil)"
-HelpParm[5]="   "
-; EN: HelpDesc[5]="   REPLACE (file replacement)"
-HelpDesc[5]="   ERSÄTT (filbyte)"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   LIST (file listing)"
-HelpDesc[6]="   LIST (fillista)"
+HelpParm[2]="   EXTRACT"
+; EN: HelpDesc[2]="   File extraction"
+HelpDesc[2]="   Extraherar en fil."
+HelpParm[3]="   ADD"
+; EN: HelpDesc[3]="   File addition"
+HelpDesc[3]="   Lägger till en fil."
+HelpParm[4]="   DELETE"
+; EN: HelpDesc[4]="   File deletion"
+HelpDesc[4]="   Raderar en fil."
+HelpParm[5]="   REPLACE"
+; EN: HelpDesc[5]="   File replacement"
+HelpDesc[5]="   Ersätter en fil."
+HelpParm[6]="   LIST"
+; EN: HelpDesc[6]="   File listing"
+HelpDesc[6]="   Listar alla filer."
 ; EN: HelpParm[7]="Filename"
 HelpParm[7]="Filnamn"
 ; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
-HelpDesc[7]="Filen ska extraheras, lägg till, radera eller ersätta."
+HelpDesc[7]="Filen som EXTRACT, ADD, DELETE eller REPLACE ska utföras över."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=kontrollpaket
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=checksumpackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Visa kontrollsumma för paketfil."
 ; EN: HelpUsage="checksumpackage packagename"
-HelpUsage="kontrollpaket förpackningsnamn"
+HelpUsage="checksumpackage Paketnamn"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamn"
 ; EN: HelpDesc[0]="The name of the package to checksum."
@@ -230,20 +233,19 @@ HelpDesc[0]="Namnet på paketet till kontrollsumman."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Ta bort skriptbuffertarna från ett paket."
 ; EN: HelpUsage="stripsource packagename"
-HelpUsage="stripsource förpackningsnamn"
+HelpUsage="stripsource Paketnamn"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamn"
 ; EN: HelpDesc[0]="The name of the package to strip sources."
 HelpDesc[0]="Namnet på paketet för att ta bort källor."
 
 [DumpIntCommandlet]
-; EN: HelpCmd=DumpInt
-HelpCmd=Dumpa inte
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=DumpInt
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Dumpa språkinnehållet i en fil."
 ; EN: HelpUsage="dumpint packagename"
@@ -255,36 +257,35 @@ HelpDesc[0]="Namnet på paketet för att dumpa språktexten för."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpOneLiner="Exportera helt enkelt ett paketinnehåll till .uc-filer i tidigare katalog."
 ; EN: HelpUsage="exportpackage packagename"
-HelpUsage="exportpaket förpackningsnamn"
+HelpUsage="exportpackage Paketnamn"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamn"
 ; EN: HelpDesc[0]="The name of the package to export UC files of."
 HelpDesc[0]="Namnet på paketet för att exportera UC-filer av."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=Jämför
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=CompareInt
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Jämför två språkfiler och ta bort / ta bort språkposter som du jämför med."
 ; EN: HelpUsage="compareint packageint miscint"
-HelpUsage="jämför inte paketet miscint"
+HelpUsage="compareint paketInt miscInt"
 ; EN: HelpParm[0]="packageint"
-HelpParm[0]="paket"
+HelpParm[0]="paketInt"
 ; EN: HelpDesc[0]="Main language file."
 HelpDesc[0]="Huvudspråkfil."
-HelpParm[1]="miscint"
+; EN: HelpParm[1]="miscint"
+HelpParm[1]="miscInt"
 ; EN: HelpDesc[1]="Secondary language file (to edit)."
 HelpDesc[1]="Sekundär språkfil (för att redigera)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=listobjekt
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=listobjects
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Listar objekt i paketet."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
@@ -311,7 +312,8 @@ HelpDesc[5]="   Visa inte klass."
 HelpParm[6]="   -co"
 ; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
 HelpDesc[6]="   Visa bara objektklasser istället för varje objekt."
-HelpParm[7]="pkg"
+; EN: HelpParm[7]="pkg"
+HelpParm[7]="paket"
 ; EN: HelpDesc[7]="Package file."
 HelpDesc[7]="Paketfil."
 ; EN: HelpParm[8]="baseclass"
@@ -320,48 +322,44 @@ HelpParm[8]="basklass"
 HelpDesc[8]="Valfri basklass för listade objekt."
 
 [AudioPackageCommandlet]
-; EN: HelpCmd=audiopackage
-HelpCmd=ljudpaket
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=audiopackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Skapa ett ljudpaket ur en katalog."
 ; EN: HelpUsage="audiopackage <input directory>"
-HelpUsage="ljudpaket <inmatningskatalog>"
+HelpUsage="audiopackage <inmatningskatalog>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Dumps information om texturer."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
 HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
-; EN: HelpCmd=musicpackages
-HelpCmd=musikpaket
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=musicpackages
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Skapar musikpaket ur en katalog."
 ; EN: HelpUsage="musicpackages <input directory>"
-HelpUsage="musikpaket <inmatningskatalog>"
+HelpUsage="musicpackages <inmatningskatalog>"
 
 [ReduceTexturesCommandlet]
-; EN: HelpCmd=reducetextures
-HelpCmd=reduceraxturer
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=reducetextures
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Rensar onödiga okomprimerade kartor."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
-HelpUsage="reduceraxturer <inpkg> <outpkg>"
+HelpUsage="reducetextures <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
-; EN: HelpCmd=saveembedded
-HelpCmd=spara inbäddad
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=saveembedded
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="Sparar ett inbäddat paket i en separat fil."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
-HelpUsage="spara inbäddad <pkg> <embpkg> <outfile>"
+HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
 HelpParm[0]="   "
 HelpDesc[0]="   "
 HelpParm[1]="   "
@@ -369,24 +367,23 @@ HelpDesc[1]="   "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="Dumps information om maskor."
-; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo <pkg>"
+; EN: HelpUsage="dumpmeshinfo <pkg>"
+HelpUsage="dumpmeshinfo <pkg>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="Batch exporterar maskor."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 
 [RebuildImportsCommandlet]
-; EN: HelpCmd=rebuildimports
-HelpCmd=bygga om import
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=rebuildimports
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Byter om importskript för ett paket."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
@@ -397,7 +394,7 @@ HelpDesc[0]="Växlar utdata till upkg-format. Standard är uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="Batch exporterar alla nivåer för mippkartor."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
@@ -405,7 +402,7 @@ HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Extrahera paket med katalogstruktur."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
@@ -413,15 +410,59 @@ HelpUsage="fullbatchexport <pkg> <outpath>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Jämför teckensnittssidor."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
 HelpUsage="fontpagediff <vänster font> <höger font>"
 
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpUsage="Kontrollerar om innehållet i en textfil innehåller Unicode-tecken."
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <Arkivera jokertecken>"
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<Arkivera jokertecken>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Filerna för att söka efter Unicode-tecken. Kan acceptera jokertecken som "*" och "?"."
+
+[RipAndTearCommandlet]
+HelpCmd=ripandtear
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpUsage="Delar MyLevel-resurser från en karta och sparar kartan och dess resurser som separata paket."
+; EN: HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
+HelpOneLiner="ripandtear <Inmatningskarta> <Utmatningskarta> <Outputresurser>"
+; EN: HelpDesc[0]="<inputmap>"
+HelpDesc[0]="<Inmatningskarta>"
+; EN: HelpParm[0]="The map to read MyLevel resources from."
+HelpParm[0]="Kartan för att läsa MyLevel-resurser från."
+; EN: HelpDesc[1]="<outputmap>"
+HelpDesc[1]="<Utmatningskarta>"
+; EN: HelpParm[1]="The map to output the non-MyLevel'd map to."
+HelpParm[1]="Kartan som den icke-MyLevel'd-kartan ska skickas till."
+; EN: HelpDesc[2]="<outputresources>"
+HelpDesc[2]="<Outputresurser>"
+; EN: HelpParm[2]="The class of output resources to take from the input map."
+HelpParm[2]="Klassen av utgångsresurser att ta från inmatningskartan."
+
+[TextureMergerCommandlet]
+HelpCmd=texturemerger
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpUsage="Sammanfogar i strukturer från mappen ../TextureMerge/<Paketnamn>.utx till målpaketet."
+; EN: HelpOneLiner="texturemerger <packagename>"
+HelpOneLiner="texturemerger <Paketnamn>"
+; EN: HelpDesc[0]="<packagename>"
+HelpDesc[0]="<Paketnamn>"
+; EN: HelpParm[0]="The package where the textures will be saved to."
+HelpParm[0]="Paketet där texturerna kommer att sparas i."
+
 [FontExporter]
 HelpCmd=FontExporter
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Exporterar teckensnittssidor."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"

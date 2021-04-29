@@ -138,58 +138,60 @@ HelpParm[12]="Pfad"
 HelpDesc[12]="Pfad zum Exportieren von Dateien wie C:\MyPath."
 
 [PackageFlagCommandlet]
-; EN: HelpCmd=packageflag
-HelpCmd=Paketflagge
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=packageflag
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Setzen Sie Paketflags in Paketdateien."
-; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext <+ | -> flag [<+ | -> flag] ...]"
+; EN: HelpUsage="packageflag src.ext [<+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [<+|->Flagge [<+|->Flagge] ...]"
+; EN: HelpParm[0]="src.ext"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="Vorhandene Paketdatei zum Laden."
-HelpParm[1]="dest.ext"
-; EN: HelpDesc[1]="Name of new package file with the new flag settings."
-HelpDesc[1]="Name der neuen Paketdatei mit den neuen Flag-Einstellungen."
-; EN: HelpParm[2]="flag"
-HelpParm[2]="Flagge"
-; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
-HelpDesc[2]="+ um ein Flag zu setzen, oder - um ein Flag zu entfernen, gefolgt von einem der folgenden Punkte:"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   AllowDownload"
-HelpDesc[3]="   Download erlauben"
-HelpParm[4]="   "
-HelpDesc[4]="   ClientOptional"
-HelpParm[5]="   "
-HelpDesc[5]="   ServerSideOnly"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   BrokenLinks"
-HelpDesc[6]="   Kaputte Links"
-HelpParm[7]="   "
-; EN: HelpDesc[7]="   Unsecure"
-HelpDesc[7]="   Unsicher"
+; EN: HelpParm[1]="flag"
+HelpParm[1]="Flagge"
+; EN: HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[1]="+ um ein Flag zu setzen, oder - um ein Flag zu entfernen, gefolgt von einem der folgenden Punkte:"
+HelpParm[2]="   AllowDownload"
+; EN: HelpDesc[2]="   Clients are allowed to download this package from the server."
+HelpDesc[2]="   Clients dürfen dieses Paket vom Server herunterladen."
+HelpParm[3]="   ClientOptional"
+; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
+HelpDesc[3]="   Clients können das Herunterladen dieses Pakets vom Server überspringen."
+HelpDesc[4]="   ServerSideOnly"
+; EN: HelpDesc[4]="   The package has no network relevancy on a server."
+HelpDesc[4]="   Das Paket hat keine Netzwerkrelevanz auf einem Server."
+HelpParm[5]="   BrokenLinks"
+; EN: HelpDesc[5]="   The package can be loaded with missing links."
+HelpDesc[5]="   Das Paket kann mit fehlenden Links geladen werden."
+HelpParm[6]="   Unsecure"
+; EN: HelpDesc[6]="   Unused."
+HelpDesc[6]="   Ungebraucht."
 
 [DataRipCommandlet]
 ; EN: HelpCmd=datarip
-HelpCmd=Datenarip
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=DatenaripHelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Erstellen Sie ein Paket mit herausgerissenen Textur-, Musik- und Sounddaten."
+; EN: HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
+; EN: HelpParm[0]="srcpackage.ext"
 HelpParm[0]="srcpackage.ext"
 ; EN: HelpDesc[0]="Source Package."
 HelpDesc[0]="Quellpaket."
+; EN: HelpParm[1]="dstpackage.ext"
 HelpParm[1]="dstpackage.ext"
 ; EN: HelpDesc[1]="Destination Package."
 HelpDesc[1]="Zielpaket."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Hinzufügen, Löschen, Ersetzen oder Extrahieren von Dateien von einem Umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
 HelpUsage="updateumod UmodFile Befehl [Dateiname]"
+; EN: HelpParm[0]="UmodFile"
 HelpParm[0]="UmodFile"
 ; EN: HelpDesc[0]="The umod file to change or view."
 HelpDesc[0]="Die umod-Datei, die geändert oder angezeigt werden soll."
@@ -197,34 +199,33 @@ HelpDesc[0]="Die umod-Datei, die geändert oder angezeigt werden soll."
 HelpParm[1]="Befehl"
 ; EN: HelpDesc[1]="Can be one of the following:"
 HelpDesc[1]="Kann eine der folgenden sein:"
-HelpParm[2]="   "
-; EN: HelpDesc[2]="   EXTRACT (file extraction)"
-HelpDesc[2]="   EXTRACT (Dateiextraktion)"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   ADD (file addition)"
-HelpDesc[3]="   HINZUFÜGEN (Dateizusatz)"
-HelpParm[4]="   "
-; EN: HelpDesc[4]="   DELETE (file deletion)"
-HelpDesc[4]="   LÖSCHEN (Löschen der Datei)"
-HelpParm[5]="   "
-; EN: HelpDesc[5]="   REPLACE (file replacement)"
-HelpDesc[5]="   REPLACE (Dateiersatz)"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   LIST (file listing)"
-HelpDesc[6]="   LIST (Dateiliste)"
+HelpParm[2]="   EXTRACT"
+; EN: HelpDesc[2]="   File extraction"
+HelpDesc[2]="   Zur Dateiextraktion."
+HelpParm[3]="   ADD"
+; EN: HelpDesc[3]="   File addition"
+HelpDesc[3]="   Zum Hinzufügen von Dateien."
+HelpParm[4]="   DELETE"
+; EN: HelpDesc[4]="   File deletion"
+HelpDesc[4]="   Zum Löschen von Dateien."
+HelpParm[5]="   REPLACE"
+; EN: HelpDesc[5]="   File replacement"
+HelpDesc[5]="   Zum Ersetzen von Dateien."
+HelpParm[6]="   LIST"
+; EN: HelpDesc[6]="   File listing"
+HelpDesc[6]="   Zur Dateiliste."
 ; EN: HelpParm[7]="Filename"
 HelpParm[7]="Dateiname"
 ; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
-HelpDesc[7]="Die Datei zum EXTRAKTIEREN, HINZUFÜGEN, LÖSCHEN oder ERSETZEN."
+HelpDesc[7]="Die Datei, über die EXTRACT, ADD, DELETE oder REPLACE ausgeführt werden soll."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=Checksumpackage
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=checksumpackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Prüfsumme für Paketdatei anzeigen."
 ; EN: HelpUsage="checksumpackage packagename"
-HelpUsage="Checksumpackage Packagename"
+HelpUsage="checksumpackage Paketnamen"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamen"
 ; EN: HelpDesc[0]="The name of the package to checksum."
@@ -232,11 +233,11 @@ HelpDesc[0]="Der Name des zu prüfenden Pakets."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Entfernen Sie die Skriptpuffer aus einem Paket."
 ; EN: HelpUsage="stripsource packagename"
-HelpUsage="Stripsource Packagename"
+HelpUsage="stripsource Paketnamen"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamen"
 ; EN: HelpDesc[0]="The name of the package to strip sources."
@@ -244,11 +245,11 @@ HelpDesc[0]="Der Name des Pakets, um die Quellen zu entfernen."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Speichern Sie den Inhalt des Sprachtextes aus einer Datei."
 ; EN: HelpUsage="dumpint packagename"
-HelpUsage="Dumpint Packagename"
+HelpUsage="dumpint Paketnamen"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamen"
 ; EN: HelpDesc[0]="The name of the package to dump language text of."
@@ -256,11 +257,11 @@ HelpDesc[0]="Der Name des Pakets, dessen Sprachtext ausgegeben werden soll."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpOneLiner="Exportieren Sie einfach einen Paketinhalt in UC-Dateien im vorherigen Verzeichnis."
 ; EN: HelpUsage="exportpackage packagename"
-HelpUsage="Exportpaket Paketname"
+HelpUsage="exportpackage Paketnamen"
 ; EN: HelpParm[0]="packagename"
 HelpParm[0]="Paketnamen"
 ; EN: HelpDesc[0]="The name of the package to export UC files of."
@@ -268,26 +269,27 @@ HelpDesc[0]="Der Name des Pakets, dessen UC-Dateien exportiert werden sollen."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Vergleichen Sie 2 Sprachdateien und löschen / entfernen Sie Spracheinträge, mit denen Sie vergleichen."
 ; EN: HelpUsage="compareint packageint miscint"
-HelpUsage="vergleiche packageint miscint"
+HelpUsage="compareint packageint miscint"
+; EN: HelpParm[0]="packageint"
 HelpParm[0]="packageint"
 ; EN: HelpDesc[0]="Main language file."
 HelpDesc[0]="Hauptsprachendatei."
+; EN: HelpParm[1]="miscint"
 HelpParm[1]="miscint"
 ; EN: HelpDesc[1]="Secondary language file (to edit)."
 HelpDesc[1]="Sekundärsprachendatei (zum Bearbeiten)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=Listenobjekte
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=listobjects
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Listet Objekte im Paket auf."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
-HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpUsage="listobjects [-Schalter1 [-Schalter2 [...]]] <package> [<Grundklasse>]"
 ; EN: HelpParm[0]="-switch1, -switch2..."
 HelpParm[0]="-Schalter1, -Schalter2 ..."
 ; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
@@ -298,8 +300,7 @@ HelpDesc[1]="   Druckt den Pfadnamen anstelle des Namens für die Klasse."
 HelpParm[2]="   -op"
 ; EN: HelpDesc[2]="   Prints pathname instead of name for Object."
 HelpDesc[2]="   Druckt den Pfadnamen anstelle des Namens für das Objekt."
-; EN: HelpParm[3]="   -na"
-HelpParm[3]="   -n / A"
+HelpParm[3]="   -na"
 ; EN: HelpDesc[3]="   Do not align output."
 HelpDesc[3]="   Ausgang nicht ausrichten."
 HelpParm[4]="   -ni"
@@ -311,7 +312,7 @@ HelpDesc[5]="   Klasse nicht anzeigen."
 HelpParm[6]="   -co"
 ; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
 HelpDesc[6]="   Zeigen Sie einfach Objektklassen anstelle jedes Objekts an."
-HelpParm[7]="pkg"
+HelpParm[7]="package"
 ; EN: HelpDesc[7]="Package file."
 HelpDesc[7]="Paketdatei."
 ; EN: HelpParm[8]="baseclass"
@@ -320,9 +321,8 @@ HelpParm[8]="Grundklasse"
 HelpDesc[8]="Optionale Basisklasse der aufgelisteten Objekte."
 
 [AudioPackageCommandlet]
-; EN: HelpCmd=audiopackage
-HelpCmd=Audiopaket
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=audiopackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Erstellen Sie ein Audiopaket aus einem Verzeichnis."
 ; EN: HelpUsage="audiopackage <input directory>"
@@ -330,16 +330,15 @@ HelpUsage="Audiopaket <Eingabeverzeichnis>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Gibt Informationen zu Texturen aus."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
 HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
-; EN: HelpCmd=musicpackages
-HelpCmd=Musikpakete
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=musicpackages
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Erstellt Musikpakete aus einem Verzeichnis."
 ; EN: HelpUsage="musicpackages <input directory>"
@@ -347,7 +346,7 @@ HelpUsage="Musikpakete <Eingabeverzeichnis>"
 
 [ReduceTexturesCommandlet]
 HelpCmd=reducetextures
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Löscht nicht benötigte unkomprimierte Mipmaps."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
@@ -355,7 +354,7 @@ HelpUsage="reducetextures <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
 HelpCmd=saveembedded
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="Speichert ein eingebettetes Paket in einer separaten Datei."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
@@ -367,25 +366,23 @@ HelpDesc[1]="   "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="Gibt Informationen zu Netzen aus."
-; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo <pkg>"
+; EN: HelpUsage="dumpmeshinfo <pkg>"
+HelpUsage="dumpmeshinfo <pkg>"
 
 [BatchMeshExportCommandlet]
-; EN: HelpCmd=batchmeshexport
-HelpCmd=Batchmeshexport
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=batchmeshexport
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="Batch exportiert Maschen."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 
 [RebuildImportsCommandlet]
-; EN: HelpCmd=rebuildimports
-HelpCmd=Wiederaufbauimporte
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=rebuildimports
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Erstellt das Importskript für ein Paket neu."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
@@ -396,7 +393,7 @@ HelpDesc[0]="Schaltet die Ausgabe in das Upkg-Format um. Standard ist uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="Batch exportiert alle Mip-Map-Ebenen."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
@@ -404,7 +401,7 @@ HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Paket mit Verzeichnisstruktur extrahieren."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
@@ -412,15 +409,59 @@ HelpUsage="fullbatchexport <pkg> <outpath>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Vergleicht Schriftseiten."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
 HelpUsage="fontpagediff <linke Schriftart> <rechte Schriftart>"
 
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpUsage="Überprüft, ob der Inhalt einer Textdatei Unicode-Zeichen enthält."
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <Datei-Platzhalter>"
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<Datei-Platzhalter>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Die Dateien, die nach Unicode-Zeichen durchsucht werden sollen. Kann Platzhalter wie "*" und "?" Akzeptieren."
+
+[RipAndTearCommandlet]
+HelpCmd=ripandtear
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpUsage="Teilt MyLevel-Ressourcen von einer Karte und speichert die Karte und ihre Ressourcen als separate Pakete."
+; EN: HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
+HelpOneLiner="ripandtear <Eingabekarte> <Ausgabekarte> <Ressourcen ausgeben>"
+; EN: HelpDesc[0]="<inputmap>"
+HelpDesc[0]="<Eingabekarte>"
+; EN: HelpParm[0]="The map to read MyLevel resources from."
+HelpParm[0]="Die Karte, aus der MyLevel-Ressourcen gelesen werden können."
+; EN: HelpDesc[1]="<outputmap>"
+HelpDesc[1]="<Ausgabekarte>"
+; EN: HelpParm[1]="The map to output the non-MyLevel'd map to."
+HelpParm[1]="Die Karte, an die die Nicht-MyLevel-Karte ausgegeben werden soll."
+; EN: HelpDesc[2]="<outputresources>"
+HelpDesc[2]="<Ressourcen ausgeben>"
+; EN: HelpParm[2]="The class of output resources to take from the input map."
+HelpParm[2]="Die Klasse der Ausgaberessourcen, die aus der Eingabekarte entnommen werden sollen."
+
+[TextureMergerCommandlet]
+HelpCmd=texturemerger
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpUsage="Fügt Texturen aus dem Ordner ../TextureMerge/<Paketname>.utx in das Zielpaket ein."
+; EN: HelpOneLiner="texturemerger <packagename>"
+HelpOneLiner="texturemerger <Paketnamen>"
+; EN: HelpDesc[0]="<packagename>"
+HelpDesc[0]="<Paketnamen>"
+; EN: HelpParm[0]="The package where the textures will be saved to."
+HelpParm[0]="Das Paket, in dem die Texturen gespeichert werden."
+
 [FontExporter]
 HelpCmd=FontExporter
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Exportiert Schriftseiten."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"

@@ -138,55 +138,60 @@ HelpParm[12]="cesta"
 HelpDesc[12]="Cesta k exportu souborů, například C:\MyPath."
 
 [PackageFlagCommandlet]
-; EN: HelpCmd=packageflag
-HelpCmd=příznak balíčku
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=packageflag
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Nastavit příznaky balíku v souborech balíčku."
-; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext <+ | -> příznak [<+ | -> příznak] ...]"
+; EN: HelpUsage="packageflag src.ext [<+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [<+|->příznak [<+|->příznak] ...]"
+; EN: HelpParm[0]="src.ext"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="Stávající soubor balíčku k načtení."
-HelpParm[1]="dest.ext"
-; EN: HelpDesc[1]="Name of new package file with the new flag settings."
-HelpDesc[1]="Název nového souboru balíčku s novým nastavením příznaku."
-; EN: HelpParm[2]="flag"
-HelpParm[2]="vlajka"
-; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
-HelpDesc[2]="+ pro nastavení příznaku, nebo - pro odstranění příznaku, následovaný jedním z:"
-HelpParm[3]="   "
-HelpDesc[3]="   AllowDownload"
-HelpParm[4]="   "
-HelpDesc[4]="   ClientOptional"
-HelpParm[5]="   "
-HelpDesc[5]="   ServerSideOnly"
-HelpParm[6]="   "
-HelpDesc[6]="   BrokenLinks"
-HelpParm[7]="   "
-; EN: HelpDesc[7]="   Unsecure"
-HelpDesc[7]="   Nejistá"
+; EN: HelpParm[1]="flag"
+HelpParm[1]="příznak"
+; EN: HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[1]="+ pro nastavení příznaku, nebo - pro odstranění příznaku, následovaný jedním z:"
+HelpParm[2]="   AllowDownload"
+; EN: HelpDesc[2]="   Clients are allowed to download this package from the server."
+HelpDesc[2]="   Klienti si mohou stáhnout tento balíček ze serveru."
+HelpParm[3]="   ClientOptional"
+; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
+HelpDesc[3]="   Klienti se mohou rozhodnout přeskočit stahování tohoto balíčku ze serveru."
+HelpDesc[4]="   ServerSideOnly"
+; EN: HelpDesc[4]="   The package has no network relevancy on a server."
+HelpDesc[4]="   Balíček nemá na serveru žádnou síťovou relevanci."
+HelpParm[5]="   BrokenLinks"
+; EN: HelpDesc[5]="   The package can be loaded with missing links."
+HelpDesc[5]="   Balíček lze načíst chybějícími odkazy."
+HelpParm[6]="   Unsecure"
+; EN: HelpDesc[6]="   Unused."
+HelpDesc[6]="   Nepoužitý."
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Vytvořte balíček s vytrženými daty Textura, Hudba a Zvuk."
+; EN: HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
+; EN: HelpParm[0]="srcpackage.ext"
 HelpParm[0]="srcpackage.ext"
 ; EN: HelpDesc[0]="Source Package."
 HelpDesc[0]="Zdrojový balíček."
+; EN: HelpParm[1]="dstpackage.ext"
 HelpParm[1]="dstpackage.ext"
 ; EN: HelpDesc[1]="Destination Package."
 HelpDesc[1]="Cílový balíček."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Přidat, odstranit, nahradit nebo extrahovat soubory z umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
-HelpUsage="updateumod UmodFile Příkaz [Název souboru]"
+HelpUsage="updateumod UmodFile Příkaz [NázevSouboru]"
+; EN: HelpParm[0]="UmodFile"
 HelpParm[0]="UmodFile"
 ; EN: HelpDesc[0]="The umod file to change or view."
 HelpDesc[0]="Soubor umod, který chcete změnit nebo zobrazit."
@@ -194,30 +199,29 @@ HelpDesc[0]="Soubor umod, který chcete změnit nebo zobrazit."
 HelpParm[1]="Příkaz"
 ; EN: HelpDesc[1]="Can be one of the following:"
 HelpDesc[1]="Může být jeden z následujících:"
-HelpParm[2]="   "
-; EN: HelpDesc[2]="   EXTRACT (file extraction)"
-HelpDesc[2]="   VÝBĚR (extrakce souboru)"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   ADD (file addition)"
-HelpDesc[3]="   PŘIDAT (přidání souboru)"
-HelpParm[4]="   "
-; EN: HelpDesc[4]="   DELETE (file deletion)"
-HelpDesc[4]="   ODSTRANIT (odstranění souboru)"
-HelpParm[5]="   "
-; EN: HelpDesc[5]="   REPLACE (file replacement)"
-HelpDesc[5]="   REPLACE (výměna souboru)"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   LIST (file listing)"
-HelpDesc[6]="   LIST (seznam souborů)"
+HelpParm[2]="   EXTRACT"
+; EN: HelpDesc[2]="   File extraction"
+HelpDesc[2]="   Extrahuje soubor."
+HelpParm[3]="   ADD"
+; EN: HelpDesc[3]="   File addition"
+HelpDesc[3]="   Přidá soubor."
+HelpParm[4]="   DELETE"
+; EN: HelpDesc[4]="   File deletion"
+HelpDesc[4]="   Odstraní soubor."
+HelpParm[5]="   REPLACE"
+; EN: HelpDesc[5]="   File replacement"
+HelpDesc[5]="   Nahradí soubor."
+HelpParm[6]="   LIST"
+; EN: HelpDesc[6]="   File listing"
+HelpDesc[6]="   Vypíše všechny soubory."
 ; EN: HelpParm[7]="Filename"
-HelpParm[7]="Název souboru"
+HelpParm[7]="NázevSouboru"
 ; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
-HelpDesc[7]="Soubor pro VÝBĚR, PŘIDÁNÍ, ODSTRANĚNÍ nebo VÝMĚNU."
+HelpDesc[7]="Soubor, ve kterém se má provádět EXTRACT, ADD, DELETE nebo REPLACE."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=kontrolní balíček
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=checksumpackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Zobrazit kontrolní součet pro soubor balíčku."
 HelpUsage="checksumpackage packagename"
@@ -228,62 +232,63 @@ HelpDesc[0]="Název balíčku ke kontrolnímu součtu."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Vyjměte vyrovnávací paměti skriptů z balíčku."
 ; EN: HelpUsage="stripsource packagename"
-HelpUsage="stripource packagename"
+HelpUsage="stripsource názevBalení"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="název balení"
+HelpParm[0]="názevBalení"
 ; EN: HelpDesc[0]="The name of the package to strip sources."
 HelpDesc[0]="Název balíčku pro odstranění zdrojů."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Vypíše obsah textového jazyka ze souboru."
-HelpUsage="dumpint packagename"
+; EN: HelpUsage="dumpint packagename"
+HelpUsage="dumpint názevBalení"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="název balení"
+HelpParm[0]="názevBalení"
 ; EN: HelpDesc[0]="The name of the package to dump language text of."
 HelpDesc[0]="Název balíčku, ze kterého se má vypsat text jazyka."
 
 [ExportPackageCommandlet]
-; EN: HelpCmd=ExportPackage
-HelpCmd=Exportní balíček
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=ExportPackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpOneLiner="Jednoduše exportujte obsah balíčku do souborů .uc v předchozím adresáři."
-HelpUsage="exportpackage packagename"
+; EN: HelpUsage="exportpackage packagename"
+HelpUsage="exportpackage názevBalení"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="název balení"
+HelpParm[0]="názevBalení"
 ; EN: HelpDesc[0]="The name of the package to export UC files of."
 HelpDesc[0]="Název balíčku, ze kterého se mají exportovat soubory UC."
 
 [CompareIntCommandlet]
-; EN: HelpCmd=CompareInt
-HelpCmd=PorovnatInt
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=CompareInt
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Porovnejte 2 jazykové soubory a odstraňte / odeberte jazykové položky, se kterými se porovnáváte."
 ; EN: HelpUsage="compareint packageint miscint"
-HelpUsage="porovnat balíčekintestovat špatně"
+HelpUsage="compareint balíčekint miscint"
 ; EN: HelpParm[0]="packageint"
 HelpParm[0]="balíčekint"
 ; EN: HelpDesc[0]="Main language file."
 HelpDesc[0]="Hlavní jazykový soubor."
+; EN: HelpParm[1]="miscint"
 HelpParm[1]="miscint"
 ; EN: HelpDesc[1]="Secondary language file (to edit)."
 HelpDesc[1]="Soubor sekundárního jazyka (k úpravě)."
 
 [ListObjectsCommandlet]
 HelpCmd=listobjects
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Vypíše objekty v balíčku."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
-HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpUsage="listobjects [-spínač1 [-spínač2 [...]]] <bal> [<základníTřída>]"
 ; EN: HelpParm[0]="-switch1, -switch2..."
 HelpParm[0]="-spínač1, -spínač2 ..."
 ; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
@@ -306,19 +311,18 @@ HelpDesc[5]="   Nezobrazovat třídu."
 HelpParm[6]="   -co"
 ; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
 HelpDesc[6]="   Prostě zobrazte třídy objektů namísto každého objektu."
-; EN: HelpParm[7]="pkg"
+; EN: HelpParm[7]="package"
 HelpParm[7]="bal"
 ; EN: HelpDesc[7]="Package file."
 HelpDesc[7]="Soubor balíčku."
 ; EN: HelpParm[8]="baseclass"
-HelpParm[8]="základní třída"
+HelpParm[8]="základníTřída"
 ; EN: HelpDesc[8]="Optional base class of listed objects."
 HelpDesc[8]="Volitelná základní třída uvedených objektů."
 
 [AudioPackageCommandlet]
-; EN: HelpCmd=audiopackage
-HelpCmd=audiobalíček
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=audiopackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Vytvořte zvukový balíček z adresáře."
 ; EN: HelpUsage="audiopackage <input directory>"
@@ -326,34 +330,31 @@ HelpUsage="audiopackage <vstupní adresář>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Vypíše informace o texturách."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
 HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
-; EN: HelpCmd=musicpackages
-HelpCmd=hudební balíčky
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=musicpackages
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Vytvoří hudební balíčky z adresáře."
 ; EN: HelpUsage="musicpackages <input directory>"
 HelpUsage="musicpackages <vstupní adresář>"
 
 [ReduceTexturesCommandlet]
-; EN: HelpCmd=reducetextures
-HelpCmd=redukční směsi
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=reducetextures
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Čistí nepotřebné nekomprimované mipmapy."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
 HelpUsage="reducetextures <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
-; EN: HelpCmd=saveembedded
-HelpCmd=uložit vložený
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=saveembedded
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="Uloží vložený balíček do samostatného souboru."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
@@ -365,24 +366,23 @@ HelpDesc[1]="   "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="Vypíše informace o sítích."
-; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo <pkg>"
+; EN: HelpUsage="dumpmeshinfo <pkg>"
+HelpUsage="dumpmeshinfo <pkg>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="Dávkové exporty sítí."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 
 [RebuildImportsCommandlet]
-; EN: HelpCmd=rebuildimports
-HelpCmd=znovu importovat
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=rebuildimports
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Znovu vytvoří skript importu pro balíček."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
@@ -393,7 +393,7 @@ HelpDesc[0]="Přepne výstup na formát upkg. Výchozí hodnota je uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="Dávka exportuje všechny úrovně mapy MIP."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
@@ -401,7 +401,7 @@ HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Extrahujte balíček s adresářovou strukturou."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
@@ -409,15 +409,59 @@ HelpUsage="fullbatchexport <pkg> <outpath>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Porovnává stránky písem."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
 HelpUsage="fontpagediff <levé písmo> <pravé písmo>"
 
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpUsage="Zkontroluje, zda obsah textového souboru obsahuje znaky Unicode."
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <zástupnýZnakSouboru>"
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<zástupnýZnakSouboru>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Soubory ke kontrole znaků Unicode. Může přijímat zástupné znaky, například „*“ a „?“."
+
+[RipAndTearCommandlet]
+HelpCmd=ripandtear
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpUsage="Rozdělí zdroje MyLevel z mapy a uloží mapu a její zdroje jako samostatné balíčky."
+; EN: HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
+HelpOneLiner="ripandtear <vstupníMapa> <výstupníMapa> <>"
+; EN: HelpDesc[0]="<inputmap>"
+HelpDesc[0]="<vstupníMapa>"
+; EN: HelpParm[0]="The map to read MyLevel resources from."
+HelpParm[0]="Mapa, ze které se mají číst prostředky MyLevel."
+; EN: HelpDesc[1]="<outputmap>"
+HelpDesc[1]="<výstupníMapa>"
+; EN: HelpParm[1]="The map to output the non-MyLevel'd map to."
+HelpParm[1]="Mapa pro výstup mapy, která není MyLevel."
+; EN: HelpDesc[2]="<outputresources>"
+HelpDesc[2]="<výstupníZdroje>"
+; EN: HelpParm[2]="The class of output resources to take from the input map."
+HelpParm[2]="Třída výstupních zdrojů, která se má převzít ze vstupní mapy."
+
+[TextureMergerCommandlet]
+HelpCmd=texturemerger
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpUsage="Sloučí v texturách ze složky ../TextureMerge/<packagename>.utx do cílového balíčku."
+; EN: HelpOneLiner="texturemerger <packagename>"
+HelpOneLiner="texturemerger <názevBalíčku>"
+; EN: HelpDesc[0]="<packagename>"
+HelpDesc[0]="<názevBalíčku>"
+; EN: HelpParm[0]="The package where the textures will be saved to."
+HelpParm[0]="Balíček, do kterého budou uloženy textury."
+
 [FontExporter]
 HelpCmd=FontExporter
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Exportuje stránky písem."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"

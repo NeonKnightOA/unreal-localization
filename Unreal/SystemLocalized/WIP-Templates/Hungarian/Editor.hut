@@ -139,53 +139,59 @@ HelpDesc[12]="A fájlok exportálásának útvonala, például C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Csomagfájlokban állítsa be a csomagjelzőket."
-; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext <+ | -> flag [<+ | -> flag] ...]"
+; EN: HelpUsage="packageflag src.ext [<+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [<+|->zászló [<+|->zászló] ...]"
+; EN: HelpParm[0]="src.ext"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="A betöltendő meglévő csomagfájl."
-HelpParm[1]="dest.ext"
-; EN: HelpDesc[1]="Name of new package file with the new flag settings."
-HelpDesc[1]="Új csomagfájl neve az új jelzőbeállításokkal."
-; EN: HelpParm[2]="flag"
-HelpParm[2]="zászló"
-; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
-HelpDesc[2]="+ jelző beállításához, vagy - jelző eltávolításához, majd a következők valamelyikéhez:"
-HelpParm[3]="   "
-HelpDesc[3]="   AllowDownload"
-HelpParm[4]="   "
-HelpDesc[4]="   ClientOptional"
-HelpParm[5]="   "
-HelpDesc[5]="   ServerSideOnly"
-HelpParm[6]="   "
-HelpDesc[6]="   BrokenLinks"
-HelpParm[7]="   "
-; EN: HelpDesc[7]="   Unsecure"
-HelpDesc[7]="   Bizonytalan"
+; EN: HelpParm[1]="flag"
+HelpParm[1]="zászló"
+; EN: HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[1]="+ jelző beállításához, vagy - jelző eltávolításához, majd a következők valamelyikéhez:"
+HelpParm[2]="   AllowDownload"
+; EN: HelpDesc[2]="   Clients are allowed to download this package from the server."
+HelpDesc[2]="   Az ügyfelek letölthetik ezt a csomagot a szerverről."
+HelpParm[3]="   ClientOptional"
+; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
+HelpDesc[3]="   Az ügyfelek dönthetnek úgy, hogy kihagyják a csomag letöltését a szerverről."
+HelpDesc[4]="   ServerSideOnly"
+; EN: HelpDesc[4]="   The package has no network relevancy on a server."
+HelpDesc[4]="   A csomagnak nincs hálózati relevanciája a szerveren."
+HelpParm[5]="   BrokenLinks"
+; EN: HelpDesc[5]="   The package can be loaded with missing links."
+HelpDesc[5]="   A csomag hiányzó linkekkel tölthető be."
+HelpParm[6]="   Unsecure"
+; EN: HelpDesc[6]="   Unused."
+HelpDesc[6]="   Felhasználatlan."
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Hozzon létre egy csomagot a kimásolt textúra, zene és hang adatokkal."
+; EN: HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
+; EN: HelpParm[0]="srcpackage.ext"
 HelpParm[0]="srcpackage.ext"
 ; EN: HelpDesc[0]="Source Package."
 HelpDesc[0]="Forráscsomag."
+; EN: HelpParm[1]="dstpackage.ext"
 HelpParm[1]="dstpackage.ext"
 ; EN: HelpDesc[1]="Destination Package."
 HelpDesc[1]="Rendeltetési csomag."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Fájlok hozzáadása, törlése, cseréje vagy kibontása egy umod fájlból"
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
 HelpUsage="updateumod UmodFile parancs [fájlnév]"
+; EN: HelpParm[0]="UmodFile"
 HelpParm[0]="UmodFile"
 ; EN: HelpDesc[0]="The umod file to change or view."
 HelpDesc[0]="A megváltoztatni vagy megtekinteni kívánt umod fájl."
@@ -193,95 +199,97 @@ HelpDesc[0]="A megváltoztatni vagy megtekinteni kívánt umod fájl."
 HelpParm[1]="Parancs"
 ; EN: HelpDesc[1]="Can be one of the following:"
 HelpDesc[1]="A következők egyike lehet:"
-HelpParm[2]="   "
-; EN: HelpDesc[2]="   EXTRACT (file extraction)"
-HelpDesc[2]="   EXTRACT (fájl kibontása)"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   ADD (file addition)"
-HelpDesc[3]="   ADD (fájl hozzáadása)"
-HelpParm[4]="   "
-; EN: HelpDesc[4]="   DELETE (file deletion)"
-HelpDesc[4]="   DELETE (fájl törlése)"
-HelpParm[5]="   "
-; EN: HelpDesc[5]="   REPLACE (file replacement)"
-HelpDesc[5]="   KICSERÉLÉS (fájlcsere)"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   LIST (file listing)"
-HelpDesc[6]="   LIST (fájllista)"
+HelpParm[2]="   EXTRACT"
+; EN: HelpDesc[2]="   File extraction"
+HelpDesc[2]="   Kivonat egy fájlt."
+HelpParm[3]="   ADD"
+; EN: HelpDesc[3]="   File addition"
+HelpDesc[3]="   Fájl hozzáadása."
+HelpParm[4]="   DELETE"
+; EN: HelpDesc[4]="   File deletion"
+HelpDesc[4]="   Fájl törlése."
+HelpParm[5]="   REPLACE"
+; EN: HelpDesc[5]="   File replacement"
+HelpDesc[5]="   Fájl helyettesítése."
+HelpParm[6]="   LIST"
+; EN: HelpDesc[6]="   File listing"
+HelpDesc[6]="   Felsorolja az összes fájlt."
 ; EN: HelpParm[7]="Filename"
 HelpParm[7]="Fájl név"
 ; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
-HelpDesc[7]="Az EXTRACT, ADD, DELETE vagy CSERÉLÉS fájl."
+HelpDesc[7]="A fájl, amelyen végrehajtani kell az EXTRACT, ADD, DELETE vagy REPLACE műveleteket."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=csomagok ellenőrzése
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=checksumpackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="A csomagfájl ellenőrző összegének megjelenítése."
 ; EN: HelpUsage="checksumpackage packagename"
-HelpUsage="ellenőrzi a csomag csomagnevét"
+HelpUsage="checksumpackage csomagNév"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="csomag név"
+HelpParm[0]="csomagNév"
 ; EN: HelpDesc[0]="The name of the package to checksum."
 HelpDesc[0]="Az ellenőrző összegű csomag neve."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Csíkolja le a szkript puffereit egy csomagról."
-HelpUsage="stripsource packagename"
+; EN: HelpUsage="stripsource packagename"
+HelpUsage="stripsource csomagNév"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="csomag név"
+HelpParm[0]="csomagNév"
 ; EN: HelpDesc[0]="The name of the package to strip sources."
 HelpDesc[0]="A csomag neve a források levágására."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Dobja ki a nyelvi szöveg tartalmát egy fájlból."
-HelpUsage="dumpint packagename"
+; EN: HelpUsage="dumpint packagename"
+HelpUsage="dumpint csomagNév"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="csomag név"
+HelpParm[0]="csomagNév"
 ; EN: HelpDesc[0]="The name of the package to dump language text of."
 HelpDesc[0]="A csomag neve, amellyel a nyelvi szöveget ki akarjuk dobni."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpOneLiner="Egyszerűen exportálja a csomag tartalmát .uc fájlokba az előző könyvtárban."
-HelpUsage="exportpackage packagename"
+; EN: HelpUsage="exportpackage packagename"
+HelpUsage="exportpackage csomagNév"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="csomag név"
+HelpParm[0]="csomagNév"
 ; EN: HelpDesc[0]="The name of the package to export UC files of."
 HelpDesc[0]="Az UC fájlok exportálásához használt csomag neve."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Hasonlítson össze két nyelvi fájlt, és törölje / távolítsa el azokat a nyelvbejegyzéseket, amelyekkel összehasonlítja."
 ; EN: HelpUsage="compareint packageint miscint"
-HelpUsage="Compareint packageint miscint"
-HelpParm[0]="packageint"
+HelpUsage="Compareint csomagInt miscint"
+; EN: HelpParm[0]="packageint"
+HelpParm[0]="csomagInt"
 ; EN: HelpDesc[0]="Main language file."
 HelpDesc[0]="Fő nyelvi fájl."
 ; EN: HelpParm[1]="miscint"
-HelpParm[1]="rosszakarat"
+HelpParm[1]="miscInt"
 ; EN: HelpDesc[1]="Secondary language file (to edit)."
 HelpDesc[1]="Másodlagos nyelvi fájl (szerkesztésre)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=listobjektumok
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=listobjects
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Felsorolja az objektumokat a csomagban."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
-HelpUsage="listobjects [-switch1 [-switch2 [...]]] <csomag> [<alaposztály>]"
+HelpUsage="listobjects [-kapcsoló1 [-kapcsoló1 [...]]] <csomag> [<alaposztály>]"
 ; EN: HelpParm[0]="-switch1, -switch2..."
 HelpParm[0]="-kapcsoló1, -kapcsoló2 ..."
 ; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
@@ -304,16 +312,18 @@ HelpDesc[5]="   Ne jelenítse meg az osztályt."
 HelpParm[6]="   -co"
 ; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
 HelpDesc[6]="   Csak az Object Classokat jelenítse meg minden objektum helyett."
-HelpParm[7]="pkg"
+; EN: HelpParm[7]="pkg"
+HelpParm[7]="csomag"
 ; EN: HelpDesc[7]="Package file."
 HelpDesc[7]="Csomagfájl."
-HelpParm[8]="baseclass"
+; EN: HelpParm[8]="baseclass"
+HelpParm[8]="alaposztály"
 ; EN: HelpDesc[8]="Optional base class of listed objects."
 HelpDesc[8]="A felsorolt ​​objektumok opcionális alaposztálya."
 
 [AudioPackageCommandlet]
 HelpCmd=audiopackage
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Hozzon létre egy hangcsomagot egy könyvtárból."
 ; EN: HelpUsage="audiopackage <input directory>"
@@ -321,34 +331,31 @@ HelpUsage="audiopackage <beviteli könyvtár>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Információk a textúrákról."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
 HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
-; EN: HelpCmd=musicpackages
-HelpCmd=zenecsomagok
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=musicpackages
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Zenei csomagokat hoz létre egy könyvtárból."
 ; EN: HelpUsage="musicpackages <input directory>"
-HelpUsage="zenecsomagok <beviteli könyvtár>"
+HelpUsage="musicpackages <beviteli könyvtár>"
 
 [ReduceTexturesCommandlet]
-; EN: HelpCmd=reducetextures
-HelpCmd=redukciós szekciók
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=reducetextures
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Tisztítatlan tömörítetlen miptérképeket tisztít."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
-HelpUsage="redukciós szövegek <inpkg> <outpkg>"
+HelpUsage="reducetextures <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
-; EN: HelpCmd=saveembedded
-HelpCmd=beültetett
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=saveembedded
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="A beágyazott csomagot külön fájlba menti."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
@@ -360,35 +367,34 @@ HelpDesc[1]="   "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="A szemekről információkat gyűjt."
-; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo <pkg>"
+; EN: HelpUsage="dumpmeshinfo <pkg>"
+HelpUsage="dumpmeshinfo <pkg>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="A köteg hálót exportál."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 HelpUsage="batchmeshexport <pkg> <formátum> <útvonal>"
 
 [RebuildImportsCommandlet]
-; EN: HelpCmd=rebuildimports
-HelpCmd=újjáépített behozatal
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=rebuildimports
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Újraépíti egy csomag importálási parancsfájlját."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
-HelpUsage="újjáépítésimport <pkg> [-upkg]"
+HelpUsage="rebuildimports <pkg> [-upkg]"
 HelpParm[0]="-upkg"
 ; EN: HelpDesc[0]="Switches output to upkg format. Default is uc."
 HelpDesc[0]="A kimenetet upkg formátumra kapcsolja. Alapértelmezés szerint uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="A Batch az összes MIP térképszintet exportálja."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
@@ -396,7 +402,7 @@ HelpUsage="prodigiosuminparvo <pkg> <formátum> <útvonal>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Csomagolás könyvtárstruktúrával."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
@@ -404,15 +410,59 @@ HelpUsage="fullbatchexport <pkg> <útvonal>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Összehasonlítja a betűtípusokat."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
 HelpUsage="fontpagediff <left font> <right font>"
 
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpUsage="Ellenőrzi, hogy egy szöveges fájl tartalma tartalmaz-e Unicode karaktereket."
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <Fájl helyettesítő karakter>"
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<Fájl helyettesítő karakter>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Az Unicode karakterek ellenőrzésére szolgáló fájlok. Elfogadhatja a helyettesítő karaktereket, például a "*" és a "?"."
+
+[RipAndTearCommandlet]
+HelpCmd=ripandtear
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpUsage="Felosztja a MyLevel erőforrásokat egy térképről, és külön csomagként menti a térképet és erőforrásait."
+; EN: HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
+HelpOneLiner="ripandtear <Bemeneti térkép> <Kimeneti térkép> <Kimeneti források>"
+; EN: HelpDesc[0]="<inputmap>"
+HelpDesc[0]="<Bemeneti térkép>"
+; EN: HelpParm[0]="The map to read MyLevel resources from."
+HelpParm[0]="A térkép, ahonnan a MyLevel erőforrásokat olvashatja."
+; EN: HelpDesc[1]="<outputmap>"
+HelpDesc[1]="<Kimeneti térkép>"
+; EN: HelpParm[1]="The map to output the non-MyLevel'd map to."
+HelpParm[1]="A nem MyLevel'd térkép kimeneti térképe."
+; EN: HelpDesc[2]="<outputresources>"
+HelpDesc[2]="<Kimeneti források>"
+; EN: HelpParm[2]="The class of output resources to take from the input map."
+HelpParm[2]="A kimeneti erőforrások osztálya, amelyet a bemeneti térképből kell venni."
+
+[TextureMergerCommandlet]
+HelpCmd=texturemerger
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpUsage="Egyesül a textúrákban a ../TextureMerge/<csomagnév>.utx mappából a célcsomagba."
+; EN: HelpOneLiner="texturemerger <packagename>"
+HelpOneLiner="texturemerger <csomagnév>"
+; EN: HelpDesc[0]="<packagename>"
+HelpDesc[0]="<csomagnév>"
+; EN: HelpParm[0]="The package where the textures will be saved to."
+HelpParm[0]="Az a csomag, ahová a textúrák mentésre kerülnek."
+
 [FontExporter]
 HelpCmd=FontExporter
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Exportálja a betűtípusokat."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"

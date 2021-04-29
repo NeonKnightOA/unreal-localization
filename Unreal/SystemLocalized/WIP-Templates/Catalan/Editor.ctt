@@ -138,154 +138,157 @@ HelpDesc[12]="Camí per exportar fitxers, com ara C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Set package flags in package files."
 HelpOneLiner="Estableix els indicadors de paquets als fitxers de paquets."
-; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
-HelpUsage="packageflag src.ext [dest.ext <+ | -> flag [<+ | -> flag] ...]"
+; EN: HelpUsage="packageflag src.ext [<+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [<+|->bandera [<+|->bandera] ...]"
+; EN: HelpParm[0]="src.ext"
 HelpParm[0]="src.ext"
 ; EN: HelpDesc[0]="Existing package file to load."
 HelpDesc[0]="Fitxer de paquet existent per carregar."
-HelpParm[1]="dest.ext"
-; EN: HelpDesc[1]="Name of new package file with the new flag settings."
-HelpDesc[1]="Nom del fitxer de paquet nou amb la nova configuració del senyalador."
-; EN: HelpParm[2]="flag"
-HelpParm[2]="bandera"
-; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
-HelpDesc[2]="+ per establir una bandera o - per eliminar una bandera, seguit d'un de:"
-HelpParm[3]="   "
-HelpDesc[3]="   AllowDownload"
-HelpParm[4]="   "
-HelpDesc[4]="   ClientOptional"
-HelpParm[5]="   "
-HelpDesc[5]="   ServerSideOnly"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   BrokenLinks"
-HelpDesc[6]="   Enllaços trencats"
-HelpParm[7]="   "
-; EN: HelpDesc[7]="   Unsecure"
-HelpDesc[7]="   Insegur"
+; EN: HelpParm[1]="flag"
+HelpParm[1]="bandera"
+; EN: HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[1]="+ per establir una bandera o - per eliminar una bandera, seguit d'un de:"
+HelpParm[2]="   AllowDownload"
+; EN: HelpDesc[2]="   Clients are allowed to download this package from the server."
+HelpDesc[2]="   Els clients poden descarregar aquest paquet des del servidor."
+HelpParm[3]="   ClientOptional"
+; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
+HelpDesc[3]="   Els clients poden triar ometre la descàrrega d’aquest paquet des del servidor."
+HelpDesc[4]="   ServerSideOnly"
+; EN: HelpDesc[4]="   The package has no network relevancy on a server."
+HelpDesc[4]="   El paquet no té rellevància en la xarxa en un servidor."
+HelpParm[5]="   BrokenLinks"
+; EN: HelpDesc[5]="   The package can be loaded with missing links."
+HelpDesc[5]="   El paquet es pot carregar amb els enllaços que falten."
+HelpParm[6]="   Unsecure"
+; EN: HelpDesc[6]="   Unused."
+HelpDesc[6]="   Sense utilitzar."
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpOneLiner="Creeu un paquet amb dades de textura, música i so extretes."
+; EN: HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
+; EN: HelpParm[0]="srcpackage.ext"
 HelpParm[0]="srcpackage.ext"
 ; EN: HelpDesc[0]="Source Package."
 HelpDesc[0]="Paquet font."
+; EN: HelpParm[1]="dstpackage.ext"
 HelpParm[1]="dstpackage.ext"
 ; EN: HelpDesc[1]="Destination Package."
 HelpDesc[1]="Paquet de destinació."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpOneLiner="Afegiu, suprimiu, substituïu o extracteu fitxers d’un umod."
 ; EN: HelpUsage="updateumod UmodFile Command [Filename]"
-HelpUsage="updateumod Ordre UmodFile [Nom del fitxer]"
+HelpUsage="updateumod FitxerUmod Comandament [NomDelFitxer]"
 ; EN: HelpParm[0]="UmodFile"
-HelpParm[0]="Fitxer Umod"
+HelpParm[0]="FitxerUmod"
 ; EN: HelpDesc[0]="The umod file to change or view."
 HelpDesc[0]="El fitxer umod per canviar o visualitzar."
 ; EN: HelpParm[1]="Command"
 HelpParm[1]="Comandament"
 ; EN: HelpDesc[1]="Can be one of the following:"
 HelpDesc[1]="Pot ser un dels següents:"
-HelpParm[2]="   "
-; EN: HelpDesc[2]="   EXTRACT (file extraction)"
-HelpDesc[2]="   EXTRACT (extracció de fitxers)"
-HelpParm[3]="   "
-; EN: HelpDesc[3]="   ADD (file addition)"
-HelpDesc[3]="   ADD (addició de fitxer)"
-HelpParm[4]="   "
-; EN: HelpDesc[4]="   DELETE (file deletion)"
-HelpDesc[4]="   ELIMINA (supressió de fitxers)"
-HelpParm[5]="   "
-; EN: HelpDesc[5]="   REPLACE (file replacement)"
-HelpDesc[5]="   REPLACE (substitució de fitxer)"
-HelpParm[6]="   "
-; EN: HelpDesc[6]="   LIST (file listing)"
-HelpDesc[6]="   LLISTA (llistat de fitxers)"
+HelpParm[2]="   EXTRACT"
+; EN: HelpDesc[2]="   File extraction"
+HelpDesc[2]="   Extreu un fitxer."
+HelpParm[3]="   ADD"
+; EN: HelpDesc[3]="   File addition"
+HelpDesc[3]="   Afegeix un fitxer."
+HelpParm[4]="   DELETE"
+; EN: HelpDesc[4]="   File deletion"
+HelpDesc[4]="   Suprimeix un fitxer."
+HelpParm[5]="   REPLACE"
+; EN: HelpDesc[5]="   File replacement"
+HelpDesc[5]="   Substitueix un fitxer."
+HelpParm[6]="   LIST"
+; EN: HelpDesc[6]="   File listing"
+HelpDesc[6]="   Llista tots els fitxers."
 ; EN: HelpParm[7]="Filename"
-HelpParm[7]="Nom de l'arxiu"
+HelpParm[7]="NomDelFitxer"
 ; EN: HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
-HelpDesc[7]="El fitxer que EXTRACTEU, AFEGEIX, SUPRIMEIX o REEMPLA."
+HelpDesc[7]="El fitxer sobre el qual s'ha d'executar EXTRACT, ADD, DELETE o REPLACE."
 
 [ChecksumPackageCommandlet]
-; EN: HelpCmd=checksumpackage
-HelpCmd=checkumpackage
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=checksumpackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Display checksum for package file."
 HelpOneLiner="Mostra la suma de comprovació del fitxer de paquets."
 ; EN: HelpUsage="checksumpackage packagename"
-HelpUsage="nom del paquet checksumpackage"
+HelpUsage="checksumpackage nomDelPaquet"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="nom del paquet"
+HelpParm[0]="nomDelPaquet"
 ; EN: HelpDesc[0]="The name of the package to checksum."
 HelpDesc[0]="El nom del paquet a suma de comprovació."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Strip the script buffers from a package."
 HelpOneLiner="Retireu els buffers d'escriptura d'un paquet."
 ; EN: HelpUsage="stripsource packagename"
-HelpUsage="nom del paquet stripsource"
+HelpUsage="stripsource nomDelPaquet"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="nom del paquet"
+HelpParm[0]="nomDelPaquet"
 ; EN: HelpDesc[0]="The name of the package to strip sources."
 HelpDesc[0]="El nom del paquet per eliminar les fonts."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dump the language text contents out of a file."
 HelpOneLiner="Voleu el contingut del text de l'idioma d'un fitxer."
 ; EN: HelpUsage="dumpint packagename"
-HelpUsage="dumpint nom del paquet"
+HelpUsage="dumpint nomDelPaquet"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="nom del paquet"
+HelpParm[0]="nomDelPaquet"
 ; EN: HelpDesc[0]="The name of the package to dump language text of."
 HelpDesc[0]="El nom del paquet on voleu bolcar el text de l'idioma."
 
 [ExportPackageCommandlet]
-; EN: HelpCmd=ExportPackage
-HelpCmd=Paquet d’exportació
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=ExportPackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpOneLiner="Simplement exporteu el contingut d'un paquet a fitxers .uc del directori anterior."
 ; EN: HelpUsage="exportpackage packagename"
-HelpUsage="paquet d'exportació nom del paquet"
+HelpUsage="exportpackage nomDelPaquet"
 ; EN: HelpParm[0]="packagename"
-HelpParm[0]="nom del paquet"
+HelpParm[0]="nomDelPaquet"
 ; EN: HelpDesc[0]="The name of the package to export UC files of."
 HelpDesc[0]="El nom del paquet per exportar fitxers UC de."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpOneLiner="Compareu dos fitxers d'idioma i suprimiu / elimineu les entrades d'idioma amb què compareu."
+; EN: HelpUsage="compareint packageint miscint"
 HelpUsage="compareint packageint miscint"
+; EN: HelpParm[0]="packageint"
 HelpParm[0]="packageint"
 ; EN: HelpDesc[0]="Main language file."
 HelpDesc[0]="Fitxer d'idioma principal."
 ; EN: HelpParm[1]="miscint"
-HelpParm[1]="equivocació"
+HelpParm[1]="miscint"
 ; EN: HelpDesc[1]="Secondary language file (to edit)."
 HelpDesc[1]="Fitxer d'idioma secundari (per editar)."
 
 [ListObjectsCommandlet]
-; EN: HelpCmd=listobjects
-HelpCmd=llistaobjectes
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=listobjects
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Lists Objects in package."
 HelpOneLiner="Llista els objectes del paquet."
 ; EN: HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
-HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpUsage="listobjects [-interruptor1 [-interruptor2 [...]]] <paquet> [<baseclass>]"
 ; EN: HelpParm[0]="-switch1, -switch2..."
 HelpParm[0]="-interruptor1, -interruptor2 ..."
 ; EN: HelpDesc[0]="Option switches, can be one or more of the following:"
@@ -308,7 +311,7 @@ HelpDesc[5]="   No mostreu classe."
 HelpParm[6]="   -co"
 ; EN: HelpDesc[6]="   Just display Object Classes instead of each Object."
 HelpDesc[6]="   Només cal que visualitzeu les classes d'objectes en lloc de cada objecte."
-; EN: HelpParm[7]="pkg"
+; EN: HelpParm[7]="package"
 HelpParm[7]="paquet"
 ; EN: HelpDesc[7]="Package file."
 HelpDesc[7]="Fitxer del paquet."
@@ -317,9 +320,8 @@ HelpParm[8]="baseclass"
 HelpDesc[8]="Classe base opcional d'objectes llistats."
 
 [AudioPackageCommandlet]
-; EN: HelpCmd=audiopackage
-HelpCmd=audiopaquetatge
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=audiopackage
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Create an audio package out of a directory."
 HelpOneLiner="Creeu un paquet d'àudio a partir d'un directori."
 ; EN: HelpUsage="audiopackage <input directory>"
@@ -327,16 +329,15 @@ HelpUsage="audiopackage <directori d'entrada>"
 
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about textures."
 HelpOneLiner="Aboca informació sobre textures."
 ; EN: HelpUsage="dumptextureinfo <pkg>"
 HelpUsage="dumptextureinfo <pkg>"
 
 [MusicPackagesCommandlet]
-; EN: HelpCmd=musicpackages
-HelpCmd=paquets musicals
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=musicpackages
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Creates music packages out of a directory."
 HelpOneLiner="Crea paquets de música a partir d’un directori."
 ; EN: HelpUsage="musicpackages <input directory>"
@@ -344,16 +345,15 @@ HelpUsage="musicpackages <directori d'entrada>"
 
 [ReduceTexturesCommandlet]
 HelpCmd=reducetextures
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpOneLiner="Purga els mipmaps no comprimits innecessaris."
 ; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
 HelpUsage="reducetextures <inpkg> <outpkg>"
 
 [SaveEmbeddedCommandlet]
-; EN: HelpCmd=saveembedded
-HelpCmd=guardar incorporat
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=saveembedded
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Saves an embedded package to a separate file."
 HelpOneLiner="Desa un paquet incrustat en un fitxer separat."
 ; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
@@ -365,36 +365,34 @@ HelpDesc[1]="   "
 
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Dumps information about meshes."
 HelpOneLiner="Aboca informació sobre malles."
-; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo <pkg>"
+; EN: HelpUsage="dumpmeshinfo <pkg>"
+HelpUsage="dumpmeshinfo <pkg>"
 
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports meshes."
 HelpOneLiner="Malla d’exportacions per lots."
 ; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 
 [RebuildImportsCommandlet]
-; EN: HelpCmd=rebuildimports
-HelpCmd=reconstruir importacions
-HelpWebLink="http://www.oldunreal.com"
+HelpCmd=rebuildimports
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuilds import script for a package."
 HelpOneLiner="Reconstrueix la seqüència d’importació d’un paquet."
 ; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
 HelpUsage="rebuildimports <pkg> [-upkg]"
-; EN: HelpParm[0]="-upkg"
-HelpParm[0]="-pkg"
+HelpParm[0]="-upkg"
 ; EN: HelpDesc[0]="Switches output to upkg format. Default is uc."
 HelpDesc[0]="Canvia la sortida al format upkg. El valor per defecte és uc."
 
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Batch exports all mip map levels."
 HelpOneLiner="Exporta per lots tots els nivells de mapes mip."
 ; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
@@ -402,7 +400,7 @@ HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
 
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Extract package with directory structure."
 HelpOneLiner="Extreure el paquet amb estructura de directoris."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
@@ -410,15 +408,59 @@ HelpUsage="fullbatchexport <pkg> <outpath>"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compares font pages."
 HelpOneLiner="Compara les pàgines de tipus de lletra."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
 HelpUsage="fontpagediff <font esquerre> <font dret>"
 
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpUsage="Comprova si el contingut d’un fitxer de text conté caràcters Unicode."
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <ArxiuComodí>"
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<ArxiuComodí>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Els fitxers per comprovar si hi ha caràcters Unicode. Pot acceptar comodins com ara "*" i "?"."
+
+[RipAndTearCommandlet]
+HelpCmd=ripandtear
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
+HelpUsage="Divideix els recursos MyLevel d'un mapa i desa el mapa i els seus recursos com a paquets separats."
+; EN: HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
+HelpOneLiner="ripandtear <mapaD’entrada> <mapaD’sortida> <recursosD’sortida>"
+; EN: HelpDesc[0]="<inputmap>"
+HelpDesc[0]="<mapaD’entrada>"
+; EN: HelpParm[0]="The map to read MyLevel resources from."
+HelpParm[0]="El mapa per llegir els recursos de MyLevel."
+; EN: HelpDesc[1]="<outputmap>"
+HelpDesc[1]="<mapaD’sortida>"
+; EN: HelpParm[1]="The map to output the non-MyLevel'd map to."
+HelpParm[1]="El mapa al qual es mostrarà el mapa que no sigui MyLevel."
+; EN: HelpDesc[2]="<outputresources>"
+HelpDesc[2]="<recursosD’sortida>"
+; EN: HelpParm[2]="The class of output resources to take from the input map."
+HelpParm[2]="La classe de recursos de sortida que cal treure del mapa d’entrada."
+
+[TextureMergerCommandlet]
+HelpCmd=texturemerger
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
+HelpUsage="Combina textures de la carpeta ../TextureMerge/<nom_paquet>.utx al paquet de destinació."
+; EN: HelpOneLiner="texturemerger <packagename>"
+HelpOneLiner="texturemerger <nomDelPaquet>"
+; EN: HelpDesc[0]="<packagename>"
+HelpDesc[0]="<nomDelPaquet>"
+; EN: HelpParm[0]="The package where the textures will be saved to."
+HelpParm[0]="El paquet on es guardaran les textures."
+
 [FontExporter]
 HelpCmd=FontExporter
-HelpWebLink="http://www.oldunreal.com"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Exports font pages."
 HelpOneLiner="Exporta pàgines de tipus de lletra."
 ; EN: HelpUsage="FontExporter <pkg> <outpath>"

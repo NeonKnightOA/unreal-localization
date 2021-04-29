@@ -11,50 +11,47 @@ Preferences=(Caption="Reproducció de xarxa TCP / IP",Parent="Xarxes",Class=IpDr
 Preferences=(Caption="Balisa de servidor",Parent="Xarxes",Class=IpDrv.UdpBeacon,Immediate=True)
 
 [UpdateServerCommandlet]
-; EN: HelpCmd=updateserver
-HelpCmd=servidor d'actualitzacions
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=updateserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Sol·licituds d’actualització automàtica del servei Unreal Engine."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
-HelpUsage="servidor d'actualitzacions [-opció ...] [parm = valor]"
+HelpUsage="updateserver [-opció...] [parm=valor]"
 HelpParm[0]="ConfigFile"
 ; EN: HelpDesc[0]="Configuration file to use. Default: UpdateServer.ini."
 HelpDesc[0]="Fitxer de configuració a utilitzar. Per defecte: UpdateServer.ini."
 
 [MasterServerCommandlet]
-; EN: HelpCmd=masterserver
-HelpCmd=Masterserver
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=masterserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="Mantingueu la llista mestra de servidors."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
-HelpUsage="masterserver [-opció ...] [parm = valor]"
+HelpUsage="masterserver [-opció...] [parm=valor]"
 HelpParm[0]="ConfigFile"
 ; EN: HelpDesc[0]="Configuration file to use. Default: MasterServer.ini."
 HelpDesc[0]="Fitxer de configuració a utilitzar. Per defecte: MasterServer.ini."
 
 [CompressCommandlet]
-; EN: HelpCmd=compress
-HelpCmd=comprimir
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=compress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension .uz will be created."
 HelpOneLiner="Comprimiu un paquet Unreal per descarregar-lo automàticament. Es crearà un fitxer amb extensió .uz."
 ; EN: HelpUsage="compress File1 [File2 [File3 ...]]"
-HelpUsage="comprimeix File1 [File2 [File3 ...]]"
+HelpUsage="compress Fitxer1 [Fitxer2 [Fitxer3 ...]]"
 ; EN: HelpParm[0]="Files"
 HelpParm[0]="Fitxers"
 ; EN: HelpDesc[0]="The wildcard or file names to compress."
 HelpDesc[0]="Els noms de fitxers o comodins a comprimir."
 
 [DecompressCommandlet]
-; EN: HelpCmd=decompress
-HelpCmd=descomprimir
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=decompress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Descomprimiu un fitxer comprimit amb ucc compress."
 ; EN: HelpUsage="decompress CompressedFile"
-HelpUsage="descomprimiu CompressedFile"
+HelpUsage="decompress CompressedFile"
+; EN: HelpParm[0]="CompressedFile"
 HelpParm[0]="CompressedFile"
 ; EN: HelpDesc[0]="The .uz file to decompress."
 HelpDesc[0]="El fitxer .uz per descomprimir-lo."

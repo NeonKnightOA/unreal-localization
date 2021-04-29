@@ -11,54 +11,48 @@ Preferences=(Caption="TCP / IP-Netzwerkwiedergabe",Parent="Vernetzung",Class=IpD
 Preferences=(Caption="Server Beacon",Parent="Vernetzung",Class=IpDrv.UdpBeacon,Immediate=True)
 
 [UpdateServerCommandlet]
-; EN: HelpCmd=updateserver
-HelpCmd=Updateserver
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=updateserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Service Unreal Engine auto update requests."
 HelpOneLiner="Automatische Aktualisierungsanforderungen für Service Unreal Engine."
 ; EN: HelpUsage="updateserver [-option...] [parm=value]"
-HelpUsage="Updateserver [-Option ...] [Parameter = Wert]"
-; EN: HelpParm[0]="ConfigFile"
-HelpParm[0]="Konfigurationsdatei"
+HelpUsage="updateserver [-Option...] [Parameter=Wert]"
+HelpParm[0]="ConfigFile"
 ; EN: HelpDesc[0]="Configuration file to use. Default: UpdateServer.ini."
 HelpDesc[0]="Zu verwendende Konfigurationsdatei. Standard: UpdateServer.ini."
 
 [MasterServerCommandlet]
-; EN: HelpCmd=masterserver
-HelpCmd=Masterserver
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=masterserver
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Maintain master list of servers."
 HelpOneLiner="Pflegen Sie die Hauptliste der Server."
 ; EN: HelpUsage="masterserver [-option...] [parm=value]"
-HelpUsage="Masterserver [-Option ...] [Parameter = Wert]"
-; EN: HelpParm[0]="ConfigFile"
-HelpParm[0]="Konfigurationsdatei"
+HelpUsage="masterserver [-Option...] [Parameter=Wert]"
+HelpParm[0]="ConfigFile"
 ; EN: HelpDesc[0]="Configuration file to use. Default: MasterServer.ini."
 HelpDesc[0]="Zu verwendende Konfigurationsdatei. Standard: MasterServer.ini."
 
 [CompressCommandlet]
-; EN: HelpCmd=compress
-HelpCmd=Kompresse
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=compress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension .uz will be created."
 HelpOneLiner="Komprimieren Sie ein Unreal-Paket zum automatischen Herunterladen. Eine Datei mit der Erweiterung .uz wird erstellt."
 ; EN: HelpUsage="compress File1 [File2 [File3 ...]]"
-HelpUsage="Datei1 komprimieren [Datei2 [Datei3 ...]]"
+HelpUsage="compress Datei1 [Datei2 [Datei3 ...]]"
 ; EN: HelpParm[0]="Files"
 HelpParm[0]="Dateien"
 ; EN: HelpDesc[0]="The wildcard or file names to compress."
 HelpDesc[0]="Die zu komprimierenden Platzhalter- oder Dateinamen."
 
 [DecompressCommandlet]
-; EN: HelpCmd=decompress
-HelpCmd=dekomprimieren
-HelpWeblink="http://www.oldunreal.com"
+HelpCmd=decompress
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpOneLiner="Dekomprimieren Sie eine mit ucc compress komprimierte Datei."
 ; EN: HelpUsage="decompress CompressedFile"
-HelpUsage="Dekomprimieren Sie CompressedFile"
+HelpUsage="decompress KomprimierteDatei"
 ; EN: HelpParm[0]="CompressedFile"
-HelpParm[0]="Komprimierte Datei"
+HelpParm[0]="KomprimierteDatei"
 ; EN: HelpDesc[0]="The .uz file to decompress."
 HelpDesc[0]="Die zu dekomprimierende .uz-Datei."
 
