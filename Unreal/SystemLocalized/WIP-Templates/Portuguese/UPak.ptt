@@ -61,12 +61,12 @@ TotalStat="Total de mortes"
 LogEntryMsg="DIÁRIO DE BORDO:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="A %w de %k explodiu %o."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="A granada de %k feita %o explodiu."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Você tem o lançador de granadas UMS"
+PickupMessage="Você tem o Lançador de Granadas UMS"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="Lançador de granadas UMS"
+ItemName="Lançador de Granadas UMS"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
@@ -89,12 +89,12 @@ MultWeapSlotMsg="Pressione o botão de seleção de arma para alternar entre arm
 GameName="Pacote de missão para Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="O %w de %k transformou o corpo de %o em pedaços."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="O foguete de %k transformou o corpo de %o em pedaços."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Você tem o UMS Rocket Launcher"
+PickupMessage="Você tem o Lançador de Foguetes UMS"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS Rocket Launcher"
+ItemName="Lançador de Foguetes UMS"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"

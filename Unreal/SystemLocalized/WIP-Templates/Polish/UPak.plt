@@ -61,12 +61,12 @@ TotalStat="Total Kills"
 LogEntryMsg="WPISYWANIE DO DZIENNIKA:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="%w %k wysadził %oa."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="Granat z %k, który wykonał %o wybuchł."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Masz granatnik UMS"
+PickupMessage="Masz Wyrzutnia Granatów UMS"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="Granatnik UMS"
+ItemName="Wyrzutnia Granatów UMS"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
@@ -89,12 +89,12 @@ MultWeapSlotMsg="Naciśnij przycisk wyboru broni, aby przełączyć broń."
 GameName="Pakiet misji do Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="%w %k zamieniła ciało %oa na kawałki."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Rakieta %k zamieniła ciało %o na kawałki."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Masz wyrzutnię rakiet UMS"
+PickupMessage="Masz Wyrzutnia Rakiet UMS"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="Wyrzutnia rakiet UMS"
+ItemName="Wyrzutnia Rakiet UMS"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -108,9 +108,9 @@ GameName="Dopasowanie peleryny"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="%w %k zamienił %o w szwajcarski ser."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Masz karabin bojowy"
+PickupMessage="Masz Karabin Bojowy"
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Karabin bojowy"
+ItemName="Karabin Bojowy"
 
 [UPakScubaGear]
 ; EN: RechargedMessage="ScubaGear fully recharged."

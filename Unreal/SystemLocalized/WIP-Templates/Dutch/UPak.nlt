@@ -61,12 +61,12 @@ TotalStat="Totaal aantal moorden"
 LogEntryMsg="LOGINVOER:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="De %w van %k blies %o op."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="De granaat van %k gemaakt %o is opgeblazen."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Je hebt de UMS Grenade Launcher"
+PickupMessage="Je hebt de UMS Granaatwerper"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="UMS-granaatwerper"
+ItemName="UMS Granaatwerper"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
@@ -89,12 +89,12 @@ MultWeapSlotMsg="Druk op de wapenselectieknop om tussen wapens te schakelen."
 GameName="Missiepakket voor Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="De %w van %k veranderde het lichaam van %o in brokken."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="De raket van %k veranderde het lichaam van %o in brokken."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Je hebt de UMS Rocket Launcher"
+PickupMessage="Je hebt de UMS Raketwerper"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS Rocket Launcher"
+ItemName="UMS Raketwerper"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -108,9 +108,9 @@ GameName="Mantelwedstrijd"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="De %w van %k veranderde %o in Zwitserse kaas."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Je hebt het Combat Assault Rifle"
+PickupMessage="Je hebt het Gevechtsgeweer"
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Bestrijd aanvalsgeweer"
+ItemName="Gevechtsgeweer"
 
 [UPakScubaGear]
 ; EN: RechargedMessage="ScubaGear fully recharged."

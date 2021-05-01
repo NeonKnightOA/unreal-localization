@@ -61,12 +61,12 @@ TotalStat="Összesen öl"
 LogEntryMsg="BEJEGYZÉS:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="A %k %w felrobbantotta %ot."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="%k gránátja %o-t robbant fel."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Megvan az UMS gránátvető"
+PickupMessage="Megvan az UMS Gránátvető"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="UMS gránátvető"
+ItemName="UMS Gránátvető"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
@@ -89,12 +89,12 @@ MultWeapSlotMsg="Nyomja meg a fegyver választó gombot a fegyverek váltásáho
 GameName="Missziós csomag az Unreal számára"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="A %ki %w darabokká változtatta %o testét."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="A %k rakéta darabokká változtatta a %o testét."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
 PickupMessage="Megvan az UMS Rakétaindító"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS rakétaindító"
+ItemName="UMS Rakétaindító"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -108,7 +108,7 @@ GameName="Köpenymérkőzés"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="A %ki %w svájci sajttá változtatta a %ot. "
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Megvan a Harci rohamosztó puska"
+PickupMessage="Megvan a Harcos puska"
 ; EN: ItemName="Combat Assault Rifle"
 ItemName="Harcos puska"
 

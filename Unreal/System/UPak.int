@@ -41,7 +41,7 @@ TotalStat="Total Kills"
 LogEntryMsg="LOG ENTRY:"
 
 [GrenadeLauncher]
-DeathMessage="%k's %w blew up %o."
+DeathMessage="%k's grenade made %o blew up."
 PickupMessage="You got the UMS Grenade Launcher"
 ItemName="UMS Grenade Launcher"
 
@@ -59,7 +59,7 @@ MultWeapSlotMsg="Press the weapon select button to toggle weapons."
 GameName="Unreal Mission Pack"
 
 [RocketLauncher]
-DeathMessage="%k's %w turned %o's body into chunks."
+DeathMessage="%k's rocket turned %o's body into chunks."
 PickupMessage="You got the UMS Rocket Launcher"
 ItemName="UMS Rocket Launcher"
 

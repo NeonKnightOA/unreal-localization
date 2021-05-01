@@ -61,12 +61,12 @@ TotalStat="Celkem zabití"
 LogEntryMsg="VSTUP DO ZÁZNAMU:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="%kva %w vyhodila %oa do vzduchu."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="Granát %k způsobil, že %o vybuchl."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Máte UMS granátomet"
+PickupMessage="Máte UMS Granátomet"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="UMS granátomet"
+ItemName="UMS Granátomet"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
@@ -89,12 +89,12 @@ MultWeapSlotMsg="Stisknutím tlačítka pro výběr zbraní přepínáte zbraně
 GameName="Balíček misí pro Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="%kva %w proměnila %oovo tělo v kousky."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Raketa %k proměnila tělo %o na kousky."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Máte raketomet UMS"
+PickupMessage="Máte UMS Raketomet"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS Rocket Launcher"
+ItemName="UMS Raketomet"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -108,7 +108,7 @@ GameName="Plášťový zápas"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="%kvo %w proměnilo %o ve švýcarský sýr."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Máš Combat Assault Rifle"
+PickupMessage="Máš Bojová útočná puška"
 ; EN: ItemName="Combat Assault Rifle"
 ItemName="Bojová útočná puška"
 

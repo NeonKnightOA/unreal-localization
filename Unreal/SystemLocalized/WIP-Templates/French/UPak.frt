@@ -61,10 +61,10 @@ TotalStat="Nombre total de victimes"
 LogEntryMsg="ENTRÉE DE JOURNAL:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="La %w de %k a fait exploser %o."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="La grenade de %k a fait exploser %o."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Vous avez le lance-grenades UMS"
+PickupMessage="Vous avez le Lance-grenades UMS"
 ; EN: ItemName="UMS Grenade Launcher"
 ItemName="Lance-grenades UMS"
 
@@ -89,10 +89,10 @@ MultWeapSlotMsg="Appuyez sur le bouton de sélection d'arme pour basculer les ar
 GameName="Pack de missions pour Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="La %w de %k a transformé le corps de %o en morceaux."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="La fusée de %k a transformé le corps de %o en morceaux."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Vous avez le lance-roquettes UMS"
+PickupMessage="Vous avez le Lance-roquettes UMS"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="Lanceur de roquettes UMS"
 
@@ -106,9 +106,9 @@ GameName="Match de cape"
 
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
-DeathMessage="La %w de %k a transformé %o en fromage suisse. "
+DeathMessage="La %w de %k a transformé %o en fromage suisse."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Vous avez le fusil d'assaut de combat"
+PickupMessage="Vous avez le Fusil d'assaut de combat"
 ; EN: ItemName="Combat Assault Rifle"
 ItemName="Fusil d'assaut de combat"
 

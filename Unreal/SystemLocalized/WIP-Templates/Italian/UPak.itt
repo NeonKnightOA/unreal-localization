@@ -61,8 +61,8 @@ TotalStat="Uccisioni totali"
 LogEntryMsg="ENTRATA NEL LOG:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="La %w di %k ha fatto saltare in aria %o."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="La granata di %k ha fatto esplodere %o."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
 PickupMessage="Hai il lanciagranate UMS"
 ; EN: ItemName="UMS Grenade Launcher"
@@ -89,10 +89,10 @@ MultWeapSlotMsg="Premi il pulsante di selezione dell'arma per attivare / disatti
 GameName="Pacchetto missioni per Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="Il %w di %k ha trasformato il corpo di %o in pezzi."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Il razzo di %k ha trasformato il corpo di %o in pezzi."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Hai il lanciarazzi UMS"
+PickupMessage="Hai il Lanciarazzi UMS"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="Lanciarazzi UMS"
 

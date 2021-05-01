@@ -61,12 +61,12 @@ TotalStat="Totale drap"
 LogEntryMsg="LOGGINNGANG:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="%w i %k sprengte %o."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="Granaten på %k fikk %o til å blåse opp."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Du har UMS Grenade Launcher"
+PickupMessage="Du har UMS Granatkaster"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="UMS Grenade Launcher"
+ItemName="UMS Granatkaster"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
@@ -89,12 +89,12 @@ MultWeapSlotMsg="Trykk på våpenvalgknappen for å veksle mellom våpen."
 GameName="Oppdragspakke for Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="%w av %k gjorde %os kropp til biter."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Raketten på %k gjorde kroppen til %o til biter."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Du har UMS Rocket Launcher"
+PickupMessage="Du har UMS Rakettstarter"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS Rocket Launcher"
+ItemName="UMS Rakettstarter"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -108,9 +108,9 @@ GameName="Kappekamp"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="%w fra %k gjorde %o til sveitsisk ost."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Du har Combat Assault Rifle"
+PickupMessage="Du har Kampgevær"
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Combat Assault Rifle"
+ItemName="Kampgevær"
 
 [UPakScubaGear]
 ; EN: RechargedMessage="ScubaGear fully recharged."

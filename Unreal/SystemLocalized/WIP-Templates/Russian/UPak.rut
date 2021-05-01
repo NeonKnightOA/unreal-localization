@@ -61,10 +61,10 @@ TotalStat="Всего убийств"
 LogEntryMsg="ВХОД В ЖУРНАЛ:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="%w %k взорвала %o."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="Граната %k взорвалась %o."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="У вас есть гранатомет UMS"
+PickupMessage="У вас есть Гранатомет UMS"
 ; EN: ItemName="UMS Grenade Launcher"
 ItemName="Гранатомет УМС"
 
@@ -89,10 +89,10 @@ MultWeapSlotMsg="Нажмите кнопку выбора оружия, чтоб
 GameName="Пакет миссий для Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="%w %k превратила тело %oа в куски."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Ракета %k превратила тело %o в куски."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="У вас есть ракетная установка UMS"
+PickupMessage="У вас есть Ракетная установка UMS"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="Ракетная установка УМС"
 
@@ -108,7 +108,7 @@ GameName="Плащ спички"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="%w %k превратил %o в швейцарский сыр."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="У вас есть боевая штурмовая винтовка"
+PickupMessage="У вас есть Боевая штурмовая винтовка"
 ; EN: ItemName="Combat Assault Rifle"
 ItemName="Боевая штурмовая винтовка"
 

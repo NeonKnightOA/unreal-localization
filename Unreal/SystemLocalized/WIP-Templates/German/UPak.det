@@ -60,11 +60,11 @@ TotalStat="Total Kills"
 LogEntryMsg="LOG EINTRAG:"
 
 [GrenadeLauncher]
-; EN: DeathMessage="%k's %w blew up %o."
-DeathMessage="Die %w von %k hat %o in die Luft gesprengt."
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="Die Granate von %k ließ %o explodieren."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
 PickupMessage="Sie haben den UMS Grenade Launcher"
-; EN: ItemName="UMS Grenade Launcher"
+; EN: ItemName="UMS Granatenwerfer"
 ItemName="UMS Granatenwerfer"
 
 [Cloak]
@@ -88,10 +88,10 @@ MultWeapSlotMsg="Drücken Sie die Waffenauswahltaste, um die Waffen umzuschalten
 GameName="Missionspaket für Unreal"
 
 [RocketLauncher]
-; EN: DeathMessage="%k's %w turned %o's body into chunks."
-DeathMessage="Die %w von %k verwandelte %os Körper in Stücke."
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Die Rakete von %k verwandelte den Körper von %o in Stücke."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Sie haben den UMS Rocket Launcher"
+PickupMessage="Sie haben den UMS Raketenwerfer"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="UMS Raketenwerfer"
 
@@ -107,7 +107,7 @@ GameName="Umhang Match"
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="Das %w von %k verwandelte %o in Schweizer Käse."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Du hast das Combat Assault Rifle"
+PickupMessage="Du hast das Kampfgewehr"
 ; EN: ItemName="Combat Assault Rifle"
 ItemName="Kampfgewehr"
 
