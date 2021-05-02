@@ -72,8 +72,8 @@ CantChangeNameMsg="Vous ne pouvez pas changer votre nom pendant un jeu global co
 NameArticle=" une "
 
 [Inventory]
-; EN: PickupMessage="Snagged an item."
-PickupMessage="Accroché un objet."
+; EN: PickupMessage="Snagged an item"
+PickupMessage="Accroché un objet"
 ; EN: ItemArticle="a"
 ItemArticle="une"
 ; EN: M_Activated=" activated."
@@ -106,8 +106,10 @@ DeathMessage[2]="%o a été tué par %w de %k."
 DeathMessage[3]="%o a été tué par %w de %k."
 
 [Ammo]
-; EN: PickupMessage="You picked up some ammo."
-PickupMessage="Vous avez ramassé des munitions."
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="Vous avez ramassé des munitions"
+; EN: ItemName="Ammo"
+ItemName="Munitions"
 
 [Counter]
 ; EN: CountMessage="Only %i more to go..."
@@ -124,10 +126,6 @@ MenuName="Spectateur"
 Name="tué"
 ; EN: AltName="killed"
 AltName="tué"
-; EN: NameFem="killed"
-NameFem="tué"
-; EN: AltNameFem="killed"
-AltNameFem="tué"
 
 [Progress]
 ; EN: CancelledConnect="Cancelled Connect Attempt"
@@ -225,7 +223,7 @@ NoString="Non"
 ; EN: OnString="On"
 OnString="Sur"
 ; EN: OffString="Off"
-OffString="Désactivé"
+OffString="Dés"
 
 [GameInfo]
 ; EN: SwitchLevelMessage="Switching Levels"

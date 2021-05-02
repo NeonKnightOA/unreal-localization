@@ -43,7 +43,7 @@ CantChangeNameMsg="You can't change your name during a global logged game."
 NameArticle=" a "
 
 [Inventory]
-PickupMessage="Snagged an item."
+PickupMessage="Snagged an item"
 ItemArticle="a"
 M_Activated=" activated."
 M_Selected=" selected."
@@ -63,7 +63,8 @@ DeathMessage[2]="%o was killed by %k's %w."
 DeathMessage[3]="%o was killed by %k's %w."
 
 [Ammo]
-PickupMessage="You picked up some ammo."
+PickupMessage="You picked up some ammo"
+ItemName="Ammo"
 
 [Counter]
 CountMessage="Only %i more to go..."
@@ -75,8 +76,6 @@ MenuName="Spectator"
 [DamageType]
 Name="killed"
 AltName="killed"
-NameFem="killed"
-AltNameFem="killed"
 
 [Progress]
 CancelledConnect="Cancelled Connect Attempt"
