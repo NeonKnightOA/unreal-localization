@@ -1,28 +1,31 @@
 ﻿[Public]
+; Shared commandlets
 Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
-;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.PackageDumpCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExportPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; UT-exclusive commandlets
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageDumpCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; "Editor" tree
 Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
@@ -58,9 +61,9 @@ HelpCmd=conform
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Generate conforming binary files"
 HelpUsage="conform existing_file.ext old_file.ext"
-HelpParm[0]="existingfile.ext"
+HelpParm[0]="existing_file.ext"
 HelpDesc[0]="Existing binary file to load, conform, and save."
-HelpParm[1]="oldfile.ext"
+HelpParm[1]="old_file.ext"
 HelpDesc[1]="Old file to make source file binary compatible with."
 
 [BatchExportCommandlet]
@@ -105,15 +108,15 @@ HelpDesc[0]="Existing package file to load."
 HelpParm[1]="flag"
 HelpDesc[1]="+ to set a flag, or - to remove a flag, followed by one of:"
 HelpParm[2]="   AllowDownload"
-HelpDesc[2]="   Clients are allowed to download package from server"
+HelpDesc[2]="   Clients are allowed to download this package from the server."
 HelpParm[3]="   ClientOptional"
-HelpDesc[3]="   Clients can chose to skip this package download from server"
+HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
 HelpParm[4]="   ServerSideOnly"
-HelpDesc[4]="   Package has no network relevancy on a server"
+HelpDesc[4]="   The package has no network relevancy on a server."
 HelpParm[5]="   BrokenLinks"
-HelpDesc[5]="   Package was loaded with missing links"
+HelpDesc[5]="   The package can be loaded with missing links."
 HelpParm[6]="   Unsecure"
-HelpDesc[6]="   Unused"
+HelpDesc[6]="   Unused."
 
 [DataRipCommandlet]
 HelpCmd=datarip
@@ -208,10 +211,24 @@ HelpParm[5]="   -nc"
 HelpDesc[5]="   Do not display class."
 HelpParm[6]="   -co"
 HelpDesc[6]="   Just display Object Classes instead of each Object."
-HelpParm[7]="pkg"
+HelpParm[7]="package"
 HelpDesc[7]="Package file."
 HelpParm[8]="baseclass"
 HelpDesc[8]="Optional base class of listed objects."
+
+[DumpMeshInfoCommandlet]
+HelpCmd=dumpmeshinfo
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Dumps information about meshes."
+HelpUsage="dumpmeshinfo <pkg>"
+
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpOneLiner="checkunicode <filewildcard>"
+HelpDesc[0]="<filewildcard>"
+HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
@@ -271,14 +288,6 @@ HelpDesc[2]="Output disassembly instead of code."
 HelpParm[3]="-mugshot"
 HelpDesc[3]="Output declarations instead of code."
 
-[CheckUnicodeCommandlet]
-HelpCmd=checkunicode
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="checkunicode <filewildcard>"
-HelpUsage="Checks if contents of a text file contains Unicode characters."
-HelpDesc[0]="<filewildcard>"
-HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
-
 [CheckSumCommandlet]
 HelpCmd=checksum
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -294,9 +303,3 @@ HelpOneLiner="Rebuilds the import #EXEC statements for a given package."
 HelpUsage="resrays <package>"
 HelpDesc[0]="<package>"
 HelpParm[0]="The package from where the #EXEC statementes must be rebuilt."
-
-[DumpMeshInfoCommandlet]
-HelpCmd=dumpmeshinfo
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="Dumps information about meshes."
-HelpUsage="dumptextureinfo <pkg>"

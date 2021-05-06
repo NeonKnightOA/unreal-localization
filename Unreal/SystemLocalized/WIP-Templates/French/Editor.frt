@@ -1,34 +1,36 @@
 ﻿[Public]
+; Shared commandlets
 Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExportPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Unreal-exclusive commandlets
+Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.AudioPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpTextureInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MusicPackagesCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ReduceTexturesCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.SaveEmbeddedCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.BatchMeshExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
+; "Editor" tree
 ; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Éditeur",Parent="Options avancées")
 ; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
@@ -39,6 +41,7 @@ Preferences=(Caption="Couleurs",Parent="Éditeur",Class=Editor.EditorEngine,Imme
 Preferences=(Caption="Grille",Parent="Éditeur",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 ; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 Preferences=(Caption="Grille de rotation",Parent="Éditeur",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+; "Commandlets and Exporters" subtree
 ; EN: Preferences=(Caption="Commandlets and Exporters",Parent="Editor")
 Preferences=(Caption="Applicommandes et Exportateurs",Parent="Éditeur")
 ; EN: Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Class=Editor.AudioPackageCommandlet,Immediate=True)
@@ -333,6 +336,26 @@ HelpParm[8]="classe de base"
 ; EN: HelpDesc[8]="Optional base class of listed objects."
 HelpDesc[8]="Classe de base facultative des objets répertoriés."
 
+[DumpMeshInfoCommandlet]
+HelpCmd=dumpmeshinfo
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Dumps information about meshes."
+HelpOneLiner="Vide les informations sur les maillages."
+; EN: HelpUsage="dumpmeshinfo <pkg>"
+HelpUsage="dumpmeshinfo <pkg>"
+
+[CheckUnicodeCommandlet]
+HelpCmd=checkunicode
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
+HelpUsage="Vérifie si le contenu d'un fichier texte contient des caractères Unicode."
+; EN: HelpOneLiner="checkunicode <filewildcard>"
+HelpOneLiner="checkunicode <FichierWildcard>"
+; EN: HelpDesc[0]="<filewildcard>"
+HelpDesc[0]="<FichierWildcard>"
+; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
+HelpParm[0]="Les fichiers pour vérifier les caractères Unicode. Peut accepter des caractères génériques tels que "*" et "?"."
+
 [AudioPackageCommandlet]
 HelpCmd=audiopackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -377,14 +400,6 @@ HelpDesc[0]="   "
 HelpParm[1]="   "
 HelpDesc[1]="   "
 
-[DumpMeshInfoCommandlet]
-HelpCmd=dumpmeshinfo
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Dumps information about meshes."
-HelpOneLiner="Vide les informations sur les maillages."
-; EN: HelpUsage="dumpmeshinfo <pkg>"
-HelpUsage="dumpmeshinfo <pkg>"
-
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -427,18 +442,6 @@ HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Compare les pages de polices."
 ; EN: HelpUsage="fontpagediff <left font> <right font>"
 HelpUsage="fontpagediff <police de gauche> <police de droite>"
-
-[CheckUnicodeCommandlet]
-HelpCmd=checkunicode
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Checks if the contents of a text file contains Unicode characters."
-HelpUsage="Vérifie si le contenu d'un fichier texte contient des caractères Unicode."
-; EN: HelpOneLiner="checkunicode <filewildcard>"
-HelpOneLiner="checkunicode <FichierWildcard>"
-; EN: HelpDesc[0]="<filewildcard>"
-HelpDesc[0]="<FichierWildcard>"
-; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
-HelpParm[0]="Les fichiers pour vérifier les caractères Unicode. Peut accepter des caractères génériques tels que "*" et "?"."
 
 [RipAndTearCommandlet]
 HelpCmd=ripandtear
