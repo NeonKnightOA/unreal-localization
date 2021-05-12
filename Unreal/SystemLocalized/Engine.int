@@ -115,12 +115,12 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Give all players admin privileges."
 
 [Console]
+ClassCaption="Standard Unreal Console"
 LoadingMessage="LOADING"
 SavingMessage="SAVING"
 ConnectingMessage="CONNECTING"
 PausedMessage="PAUSED"
 PrecachingMessage="PRECACHING"
-ClassCaption="Standard Unreal Console"
 ChatChannel="(CHAT) "
 TeamChannel="(TEAM) "
 
@@ -184,6 +184,12 @@ Banned="You have been banned"
 TempBanned="You have been temporarily banned"
 Kicked="You have been kicked"
 
+[General]
+Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
+UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+Version="Version %i"
+
 [AdminAccessManager]
 AdminLoginText="Administrator %ls logged in"
 AdminLogoutText="Administrator %ls logged out"
@@ -195,12 +201,6 @@ MedFont=Engine.MedFont
 LargeFont=Engine.LargeFont
 BigFont=Engine.BigFont
 SmallFont=Engine.SmallFont
-
-[General]
-Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
-UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
-UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
-Version="Version %i"
 
 [LinkerUpdateCommandlet]
 HelpCmd=linkerupdate
