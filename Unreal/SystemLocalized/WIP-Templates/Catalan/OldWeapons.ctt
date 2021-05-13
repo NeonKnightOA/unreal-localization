@@ -1,5 +1,6 @@
 ﻿[Public]
-Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+; EN: Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Armes Antigues,Substituïu els sons més nous de les armes de Unreal per les de la versió 200.")
 Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
@@ -43,7 +44,7 @@ ItemName="Bola de vuit"
 DeathMessage="%k posa una bala al cap de %o."
 FemDeathMessage="%k posa una bala al cap de %o."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Tens el fusell"
+PickupMessage="Tens el Fusell"
 ; EN: ItemName="Rifle"
 ItemName="Fusell"
 
@@ -52,9 +53,9 @@ ItemName="Fusell"
 DeathMessage="%o va ser destrossat pel %w de %k."
 FemDeathMessage="%o va ser destrossada pel %w de %k."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Tens el canó Flak"
+PickupMessage="Tens el Canó de Metralla"
 ; EN: ItemName="Flak Cannon"
-ItemName="Canó Flak"
+ItemName="Canó de Metralla"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
@@ -108,9 +109,9 @@ ItemName="Bullet Box"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle rounds"
-PickupMessage="Tens 8 rondes de rifle"
+PickupMessage="Has recollit 8 cartutxos de Fusell"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Rodes de rifle"
+ItemName="Cartutxos de Fusell"
 
 [OldWeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
@@ -120,16 +121,17 @@ ItemName="Enfocament de la pistola de dispersió"
 
 [OldFlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Heu recollit 10 petxines Flak"
+PickupMessage="Has recollit 10 projectils de Metralla"
 ; EN: ItemName="Flak Shells"
-ItemName="Flak Shells"
+ItemName="Projectils de Metralla"
 
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k va treure un tros cruent de %o amb el %w."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Tens el RazorJack"
-ItemName="RazorJack"
+PickupMessage="Tens el Llançador de Fulles"
+; EN: ItemName="RazorJack"
+ItemName="Llançador de Fulles"
 
 [OldDefaultAmmo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -156,10 +158,10 @@ PickupMessage="Has agafat algunes fulles d’afaitar."
 ItemName="Navalla Blades"
 
 [OldSludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium sludge."
-PickupMessage="Heu recollit 25 quilos de fang de Tarydium."
-; EN: ItemName="Tarydium Sludge"
-ItemName="Fangs de Tarydium"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Has recollit 25 quilos de Residus de Taridio"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Residus de Taridio"
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
@@ -175,12 +177,12 @@ ItemName="Clip"
 
 [OldRifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Tens una Ronda de Rifle"
+PickupMessage="Tens un Cartutxo de Fusell"
 ; EN: ItemName="Rifle Round"
-ItemName="Rifle Round"
+ItemName="Cartutxo de Fusell"
 
 [OldFlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Tens un Flak Shell"
+PickupMessage="Tens un Projectil de Metralla"
 ; EN: ItemName="Flak Shell"
-ItemName="Flak Shell"
+ItemName="Projectil de Metralla"
