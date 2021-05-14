@@ -139,7 +139,7 @@ ReceiveFile="Recibiendo "%ls" (F10 para cancelar)"
 ReceiveOptionalFile="Recibiendo archivo opcional "%ls" (F10 para pasar por alto)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Tamaño %iK, Completo %3.1f%% = %iK, Quedan %i paquetes"
-; EN: ConnectingText="Connecting (F10 Cancels):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
 ConnectingText="Conectando (F10 para cancelar):"
 ConnectingURL="unreal://%ls/%ls"
 
@@ -167,7 +167,7 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Da privilegios de administrador a todos los jugadores."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
+; EN: ClassCaption="Standard Unreal Tournament Console"
 ClassCaption="Consola estándar de Unreal Tournament"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="CARGANDO"

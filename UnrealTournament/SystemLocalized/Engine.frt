@@ -134,7 +134,7 @@ ReceiveFile="Reception de "%ls" (F10 pour annuler)"
 ReceiveOptionalFile="Réception du fichier optionnel "%ls" (F10 pour passer)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Taille: %iK, terminé %3.1f%% = %iK, %i Packages restants"
-; EN: ConnectingText="Connecting (F10 Cancels):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
 ConnectingText="Connexion (F10 pour annuler):"
 ConnectingURL="unreal://%ls/%ls"
 

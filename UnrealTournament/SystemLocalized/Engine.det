@@ -134,8 +134,8 @@ ReceiveFile="Empfange "%ls" (F10 für Abbruch)"
 ReceiveOptionalFile="Empfange zusätzliche Datei "%ls" (F10 für Abbruch)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Größe %iK, Erledigt %3.1f%% = %iK, %i Dateien übrig"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Verbinde (F10 für Abbruch):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Verbinde (F10 zum Abbrechen):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]

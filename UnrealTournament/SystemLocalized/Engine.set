@@ -133,8 +133,8 @@ ReceiveFile="Får "%ls" (F10 avbryts)"
 ReceiveOptionalFile="Ta emot valfri fil "%ls" (Tryck på F10 för att hoppa över)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Storlek %iK, Komplett %3.1f%% = %iK, %i Paket kvar"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Ansluter (F10 avbryts):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Ansluter (F10 för att avbryta):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]

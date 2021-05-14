@@ -134,8 +134,8 @@ ReceiveFile="Принимаем "%ls" (F10 для отмены)"
 ReceiveOptionalFile="Принимаем опциональный файл "%ls" (Нажмите F10 чтобы пропустить)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Размер %iK, Принято %3.1f%% = %iK, ещё %i пакетов"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Присоединение (F10 для отмены):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Присоединение (F10 чтобы отменить):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
@@ -162,7 +162,7 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Дать всем игрокам админские права."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
+; EN: ClassCaption="Standard Unreal Tournament Console"
 ClassCaption="Стандартная консоль Unreal Tournament"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="ЗАГРУЗКА"

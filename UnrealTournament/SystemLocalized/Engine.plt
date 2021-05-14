@@ -134,8 +134,8 @@ ReceiveFile="Trwa pobieranie pliku „%ls” (użyj klawisza F10, aby anulować)
 ReceiveOptionalFile="Trwa pobieranie opcjonalnego pliku „%ls” (użyj klawisza F10, aby pominąć plik)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Rozmiar %iK, Ukończono %3.1f%% = %iK, pozostało plików: %i"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Łączenie w toku (użyj klawisza F10, aby anulować):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Łączenie w toku (F10 aby anulować):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]

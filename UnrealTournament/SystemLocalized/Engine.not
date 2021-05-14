@@ -134,8 +134,8 @@ ReceiveFile="Mottar "%ls" (F10 kansellerer)"
 ReceiveOptionalFile="Motta valgfri fil "%ls" (Trykk F10 for å hoppe over)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Størrelse %iK, komplett %3.1f%% = %iK, %i gjenværende pakker"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Tilkobling (F10 avbryter):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Tilkobling (F10 for å avbryte):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
@@ -162,7 +162,7 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Gi alle spillerne administratorrettigheter."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
+; EN: ClassCaption="Standard Unreal Tournament Console"
 ClassCaption="Standard Unreal Tournament Konsoll"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="LASTER INN"

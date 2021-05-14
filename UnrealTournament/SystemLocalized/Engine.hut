@@ -133,8 +133,8 @@ ReceiveFile="Vétel "%ls" (F10 Mégsem)"
 ReceiveOptionalFile="Opcionális "%ls" fájl fogadása (az F10 lenyomásával ugorhat)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Méret %iK, Teljesítve %3.1f%% = %iK, %i hátralévő csomagok"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Csatlakozás (F10 Mégsem):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Csatlakozás (F10 a törléshez):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
@@ -161,7 +161,7 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Minden játékos kap adminisztrátori privilégiumokat."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
+; EN: ClassCaption="Standard Unreal Tournament Console"
 ClassCaption="Szabványos Unreal Tournament Konzol"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="BETO:LTE'S"

@@ -134,8 +134,8 @@ ReceiveFile="Recebendo "%ls" (F10 Cancela)"
 ReceiveOptionalFile="Recebendo arquivo opcional "%ls" (Pressione F10 para pular)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Tamanho %iK, Completado %3.1f%% = %iK, %i Pacotes faltando"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="Connectando (F10 Cancela):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Connectando (F10 para cancelar):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]

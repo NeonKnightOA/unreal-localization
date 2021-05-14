@@ -134,7 +134,7 @@ ReceiveFile="Prijimam „%ls” (F10 pro zruseni)"
 ReceiveOptionalFile="Příjem volitelného souboru "%ls" (stisknutím klávesy F10 přeskočíte)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Velikost %iK, kompletní %3,1f%% = %iK, zbývající balíčky %i"
-; EN: ConnectingText="Connecting (F10 Cancels):"
+; EN: ConnectingText="Connecting (F10 to cancel):"
 ConnectingText="Pripojuji (F10 pro zruseni):"
 ConnectingURL="unreal://%ls/%ls"
 
@@ -162,7 +162,7 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Prideli vsem hracum prava administratora."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
+; EN: ClassCaption="Standard Unreal Tournament Console"
 ClassCaption="Standardni konzole Unreal Tournamentu"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="NACITAM"
