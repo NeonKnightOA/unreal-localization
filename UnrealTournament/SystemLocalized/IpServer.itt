@@ -1,12 +1,12 @@
 ﻿[Public]
 Object=(Name=IpServer.UdpServerUplink,Class=Class,MetaClass=Engine.Actor)
 ; EN: Preferences=(Caption="Master Server Uplink",Parent="Networking",Class=IpServer.UdpServerUplink,Immediate=True)
-Preferences=(Caption="Uplink server master",Parent="Networking",Class=IpServer.UdpServerUplink,Immediate=True)
+Preferences=(Caption="Connessione Server principale",Parent="Networking",Class=IpServer.UdpServerUplink,Immediate=True)
 
 [ServerUplink]
 ; EN: ClassCaption="Master Server Uplink"
-ClassCaption="Uplink server master"
+ClassCaption="Connessione Server principale"
 
 [ServerQuery]
 ; EN: ClassCaption="Game Server Query"
-ClassCaption="Query del server di gioco"
+ClassCaption="Query al Server del gioco"
