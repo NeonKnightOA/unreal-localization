@@ -14,24 +14,24 @@ DeveloperURL="http://www.oldunreal.com/"
 Logo="Help\Logo.bmp"
 
 [General]
-; EN: PlayLevelCommand="&Play this Unreal level"
-PlayLevelCommand="&Gioca questo livello di Unreal"
-; EN: OpenLinkCommand="&Open this Unreal link"
-OpenLinkCommand="&Apri questo collegamento a Unreal"
-; EN: InstallModuleCommand="&Install this Unreal module"
-InstallModuleCommand="&Installa questo modulo di Unreal"
-; EN: EditLevelCommand="&Edit this Unreal level"
-EditLevelCommand="&Modifica questo livello di Unreal"
+; EN: PlayLevelCommand="&Play this Unreal Tournament level"
+PlayLevelCommand="&Gioca questo livello di Unreal Tournament"
+; EN: OpenLinkCommand="&Open this Unreal Tournament link"
+OpenLinkCommand="&Apri questo collegamento a Unreal Tournament"
+; EN: InstallModuleCommand="&Install this Unreal Tournament module"
+InstallModuleCommand="&Installa questo modulo di Unreal Tournament"
+; EN: EditLevelCommand="&Edit this Unreal Tournament level"
+EditLevelCommand="&Modifica questo livello di Unreal Tournament"
 
 [UnrealTournamentContentGroup]
 ; EN: Caption="Game Content"
-Caption="Contenuto del gioco"
+Caption="Contenuto del Gioco"
 ; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
 Description="Usa questa installazione per delle prestazioni ottimali. Se la deselezioni, il contenuto del gioco verrà caricato da CD durante l'azione, diminuendone le prestazioni, ma sfruttando meno spazio su disco."
 
 [GameGroup]
 ; EN: Caption="Unreal Tournament Game"
-Caption="Unreal Tournament"
+Caption="Gioco Unreal Tournament"
 ; EN: Description="Installation is required."
 Description="È necessaria l'installazione."
 
@@ -86,13 +86,16 @@ Caption="Visualizza le mie statistiche locali di UT. [ngStats]"
 Caption="Visualizza le mie statistiche generali di UT. [ngWorldStats]"
 
 [MPlayerShortcut]
-; EN: Caption="Play Unreal Tournament on mplayer.com"
-Caption="Play Unreal Tournament on mplayer.com"
+; FKA="Play Unreal Tournament on mplayer.com"
+; EN: Caption="-"
+Caption="-"
 
 [HeatShortcut]
-; EN: Caption="Play Unreal Tournament on HEAT"
-Caption="Play Unreal Tournament on HEAT"
+; FKA="Play Unreal Tournament on HEAT"
+; EN: Caption="-"
+Caption="-"
 
 [UninstallShortcut]
-; EN: Caption="Uninstall Unreal Tournament Demo"
-Caption="Uninstall Unreal Tournament Demo"
+; FKA="Uninstall Unreal Tournament Demo"
+; EN: Caption="-"
+Caption="-"

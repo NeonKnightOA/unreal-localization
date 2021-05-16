@@ -29,7 +29,7 @@ OKText="OK"
 
 [UWindowConsoleClientWindow]
 ; EN: ShowColorsText="Show console messages in colours"
-ShowColorsText="Mostra i messaggi della console a colori"
+ShowColorsText="Mostra messaggi nella console a colori"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="Registra solo i messaggi di chat"
 
@@ -41,7 +41,7 @@ PlayerName="Nome Giocatore"
 ; EN: PlayerIP="IP-Address"
 PlayerIP="Indirizzo IP"
 ; EN: PlayerClientID="Client ID"
-PlayerClientID="ID Cliente"
+PlayerClientID="ID Client"
 ; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
 MaxLengthExceeded="Superata lunghezza massima lista giocatori "%i""
 ; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
@@ -103,7 +103,7 @@ TempBanListTxt="Client bannati per la sessione"
 ; EN: PlayerNameTxt="Client name (for banlisting purposes only):"
 PlayerNameTxt="Nome client (for banlisting purposes only):"
 ; EN: PlayerIpTxt="Client IP address (or IP range if desired):"
-PlayerIpTxt="Indirizzo IP del client( o intervallo IP se richiesto):"
+PlayerIpTxt="Indirizzo IP del client (o intervallo IP se richiesto):"
 ; EN: InsertBanTxt="Insert ban"
 InsertBanTxt="Inserimento ban"
 
@@ -221,13 +221,13 @@ LargeFontBold=UWindowFonts.TahomaB30
 
 [AdminGUIBanLGrid]
 ; EN: LengthExceeded="Maximum player list length exceeded "%i""
-LengthExceeded="La lunghezza massima dell'elenco dei giocatori è stata superata "%i""
+LengthExceeded="Superata la lunghezza massima della lista giocatori "%i""
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
-ResponseMismatch="ID risposta non corrispondente: %i/%j"
+ResponseMismatch="Non combacia ID di risposta: %i/%j"
 ; EN: ReceiveBanText="Received ban "%ls"."
-ReceiveBanText="Ricevuto divieto "%ls"."
+ReceiveBanText="Ricevuto ban "%ls"."
 ; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
-GettingBanListText="Ottenendo banlist dal server, se non succede nulla potresti non essere loggato come amministratore (o non ci sono ban sul server)."
+GettingBanListText="Prelevamento banlist dal server, se non avviena nulla potresti non essere connesso come ammistratore (oppure non ci sono ban sul server)."
 
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
