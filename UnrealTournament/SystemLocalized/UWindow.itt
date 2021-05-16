@@ -1,9 +1,10 @@
 ﻿[UWindowMessageBoxCW]
 ; EN: YesText="Yes"
-YesText="sì"
+YesText="Sì"
+; EN: NoText="No"
 NoText="No"
 ; EN: OKText="OK"
-OKText="ok"
+OKText="OK"
 ; EN: CancelText="Cancel"
 CancelText="Annulla"
 
@@ -13,7 +14,7 @@ WindowTitle="Console di sistema"
 
 [UWindowSmallCloseButton]
 ; EN: CloseText="Close"
-CloseText="Vicino"
+CloseText="Chiudi"
 
 [UWindowSmallCancelButton]
 ; EN: CancelText="Cancel"
@@ -21,4 +22,4 @@ CancelText="Annulla"
 
 [UWindowSmallOKButton]
 ; EN: OKText="OK"
-OKText="ok"
+OKText="OK"
