@@ -444,42 +444,77 @@ SoundLengths[20]=5
 SoundLengths[21]=7
 SoundLengths[22]=12
 SoundLengths[23]=8
+; EN: 
 TutMessage[0]="Benvenuto all'addestramento per il Deathmatch. Si tratta di uno sport nel quale devi affrontare altri giocatori armati in un concitato scontro tutti contro tutti. L'obiettivo è annientare tutti i tuoi nemici con qualsiasi mezzo."
+; EN: 
 TutMessage[1]="Ogni volta che elimini un nemico ottieni un punto, che nel linguaggio dei giochi viene detto 'uccisione'. Puoi vedere il totale delle tue uccisioni sul lato sinistro dello schermo. Al termine della partita, risulterà vincitore il giocatore col maggior numero di uccisioni."
+; EN: 
 TutMessage[2]="Ricorda, se accidentalmente ti fai saltare in aria o cadi nella lava, perderai un'uccisione!"
+; EN: 
 TutMessage[3]="Impariamo qualche regola di base sugli spostamenti. Un buon giocatore di Deathmatch è sempre in movimento, perché un bersaglio mobile risulta più difficile da colpire che non uno stazionario."
+; EN: 
 TutMessage[4]="Con i tasti cursore potrai muoverti avanti e indietro ed effettuare gli spostamenti laterali."
+; EN: 
 TutMessage[5]="Gli spostamenti laterali sono molto importanti in un Deathmatch, perché ti consentono di muoverti lateralmente senza girarti e senza perdere di vista il tuo nemico. Adesso proviamo a spostarci verso sinistra e verso destra."
+; EN: 
 TutMessage[6]="Un altro elemento importante negli spostamenti è il salto. Questo ti consente di raggiungere le aree rialzate della mappa e di superare fosse insidiose. Prova a saltare premendo il relativo tasto."
+; EN: 
 TutMessage[7]="Perfetto."
 ; N_K: Check this one!
+; EN: 
 TutMessage[8]="Adesso parleremo dello sguardo col mouse. Muovi il mouse e nota come, così facendo, tu possa modificare la tua visuale. È così che puoi guardarti intorno e girarti."
 ; N_K: Check this one!
+; EN: 
 TutMessage[9]="Prova a girarti intorno più volte muovendo il mouse da sinistra a destra, per dare uno sguardo all'arena da combattimento."
+; EN: 
 TutMessage[10]="Eccellente. Puoi anche spostare lo sguardo verticalmente, al fine di vedere cosa stia succedendo sopra e sotto di te. In un Deathmatch i tuoi nemici potranno attaccarti anche dall'alto e dal basso: ricordati quindi di tenere sempre gli occhi ben aperti."
+; EN: 
 TutMessage[11]="Se ritieni di guardarti intorno troppo rapidamente, puoi facilmente regolare la sensibilità del mouse nel menu Opzioni."
+; EN: 
 TutMessage[12]="Impariamo ad attaccare. Ricorda, il solo modo per vincere un Deathmatch è annientare i tuoi nemici con le armi che riesci a raccogliere."
+; EN: 
 TutMessage[13]="Aprirò l'armadietto degli armamenti e ti lascerò prendere qualche giocattolo; preparati a fare un po' di tiro al bersaglio."
+; EN: 
 TutMessage[14]="Perfetto, adesso siamo armati. Il gingillo che hai con te è comunemente chiamato Fucile Shock. Come tutte le armi del Torneo, ha due modalità di fuoco. Adesso proviamo a sparare. Premi il tasto del fuoco, in modo da scatenare un raggio elettrico letale."
+; EN: 
 TutMessage[15]="Molto bene. Il fuoco primario del Fucile Shock colpirà istantaneamente la persona contro la quale spari. In Unreal Tournament, ogni arma è dotata anche di una modalità di fuoco alternativo. Premi il tasto del fuoco alternativo per scagliare contro l'obiettivo una sfera di plasma."
+; EN: 
 TutMessage[16]="Grandioso! Il fuoco alternativo del Fucile Shock è più lento di quello primario, ma infligge danni maggiori. Sta a te decidere quale attacco sia migliore in rapporto alla situazione. A volte può capitare che tu abbia con te più di un'arma. Ho appena collocato un Enforcer nel tuo zaino. A ogni arma è associato un numero, come puoi vedere alla base dello schermo. L'Enforcer è l'arma numero 2. Premi 2 e passa all'Enforcer. Puoi tornare al Fucile Shock premendo il numero relativo."
+; EN: 
 TutMessage[17]="Bene, adesso sai come cambiare arma durante la battaglia. Tutte le armi presenti in Unreal Tournament sono efficaci sulla lunga distanza, tranne il Maglio a Impatto. Adesso premi 1 per passare al Maglio a Impatto."
+; EN: 
 TutMessage[18]="Il Maglio a Impatto è un'arma utile negli scontri corpo a corpo. Richiede che tu sia molto vicino al bersaglio ma, se il colpo va a segno, il tuo nemico morirà quasi sempre sul colpo. Adesso premi e tieni premuto il tasto del fuoco primario per caricare il Maglio a Impatto."
+; EN: 
 TutMessage[19]="Ora avventati contro il Nali che ho appena generato. Quando sarai abbastanza vicino, il Maglio a Impatto verrà rilasciato, facendolo saltare in mille pezzi."
+; EN: 
 TutMessage[20]="Guarda quei brandelli che volano! Ottimo lavoro."
+; EN: 
 TutMessage[21]="Ora ci occuperemo di qualche obiettivo stazionario. Per procedere, spara a tutti e tre i barili."
+; EN: 
 TutMessage[22]="Ottima mira, Tex. È ora di fare sul serio. Libererò un avversario umano, col quale potrai fare pratica. Dovrai farlo fuori tre volte, per completare il tutorial. Buona fortuna!"
+; EN: 
 TutMessage[23]="Congratulazioni! Ti sei dimostrato all'altezza di un Deathmatch. Adesso è giunto il momento di far sul serio col torneo Deathmatch."
+; EN: 
 TutMessage4Parts[0]="Con i tasti cursore"
+; EN: 
 TutMessage4Parts[1]="potrai muoverti avanti"
+; EN: 
 TutMessage4Parts[2]="e indietro"
+; EN: 
 TutMessage4Parts[3]="ed effettuare gli"
+; EN: 
 TutMessage4Parts[4]="spostamenti laterali."
+; EN: 
 TutMessage6Parts[0]="Un altro elemento importante negli spostamenti è il salto. Questo ti consente di raggiungere le aree rialzate della mappa e di superare fosse insidiose. Prova a saltare"
+; EN: 
 TutMessage6Parts[1]="premendo il relativo tasto."
-TutMessage14Parts[0]="Perfetto, adesso siamo armati. Il gingillo che hai con te è comunemente chiamato 'fucile shock'. Come tutte le armi del Torneo, ha due modalità di fuoco. Adesso proviamo a sparare. Premi il tasto del fuoco,"
+; EN: 
+TutMessage14Parts[0]="Perfetto, adesso siamo armati. Il gingillo che hai con te è comunemente chiamato Fucile Shock. Come tutte le armi del Torneo, ha due modalità di fuoco. Adesso proviamo a sparare. Premi il tasto del fuoco,"
+; EN: 
 TutMessage14Parts[1]="in modo da scatenare un raggio elettrico letale."
+; EN: 
 TutMessage15Parts[0]="Molto bene. Il fuoco primario del fucile shock colpirà istantaneamente la persona contro la quale spari. In Unreal Tournament, ogni arma è dotata anche di una modalità di fuoco alternativo. Premi il tasto del fuoco alternativo"
+; EN: 
 TutMessage15Parts[1]="per scagliare contro l'obiettivo una sfera di plasma."
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: DM"
@@ -526,32 +561,58 @@ SoundLengths[23]=12
 SoundLengths[24]=10
 SoundLengths[25]=8
 SoundLengths[26]=9
+; EN: 
 TutMessage[0]="Benvenuto all'addestramento per il combattimento Cattura la bandiera. Questo tutorial ti insegnerà le regole di base di questo tipo di partita. Sono disponibili anche i tutorial per Deathmatch, Dominio e Assalto."
+; EN: 
 TutMessage[1]="Iniziamo parlando dell'HUD. Controlla la bandiera aggiunge all'HUD dei nuovi elementi di cui è bene che tu sia al corrente."
+; EN: 
 TutMessage[2]="Il colore dell'HUD rappresenta la squadra alla quale appartieni. Il tuo HUD è rosso, a indicare che fai parte della squadra rossa."
+; EN: 
 TutMessage[3]="Un HUD blu vorrebbe dire che appartieni alla squadra blu."
+; EN: 
 TutMessage[4]="Le due icone a forma di bandiera indicano lo stato della bandiera rossa e di quella blu. Questo ti consente di avere una rapida panoramica delle condizioni del campo di battaglia."
+; EN: 
 TutMessage[5]="Discuteremo del significato dell'icona di stato di ogni bandiera fra breve."
+; EN: 
 TutMessage[6]="Appena a sinistra delle icone di stato di ogni bandiera si trova il punteggio della relativa squadra."
+; EN: 
 TutMessage[7]="Diamo adesso un'occhiata agli elementi che la partita Cattura la bandiera aggiunge al tabellone..."
+; EN: 
 TutMessage[8]="Il tabellone di Cattura la bandiera utilizza la classica configurazione di Unreal."
+; EN: 
 TutMessage[9]="La colonna di sinistra riporta i giocatori e i punteggi della squadra rossa, quella di destra svolge la stessa funzione, ma per la squadra blu."
+; EN: 
 TutMessage[10]="Sulla sinistra puoi notare il tuo nome e l'attuale punteggio, pari a 0. Sopra al tuo nome si trova quello della squadra di cui fai parte. L'attuale punteggio della tua squadra è visualizzato a destra del suo nome."
+; EN: 
 TutMessage[11]="Quando un giocatore, in una partita Cattura la bandiera, sta portando il vessillo, sul tabellone, accanto al suo nome, apparirà un piccolo puntino."
+; EN: 
 TutMessage[12]="Questo ti consente di stabilire rapidamente quale compagno proteggere o quale nemico abbattere."
 TutMessage[13]="Adesso è ora di imparare le regole di una partita Cattura la Bandiera."
+; EN: 
 TutMessage[14]="In Cattura la bandiera puoi utilizzare il Traslocatore. Funziona come nel Dominio, con una leggera differenza. Non puoi teletrasportarti e portare con te la bandiera allo stesso tempo. Se ti teletrasporti mentre sei in possesso del vessillo nemico, tu riuscirai nell'intento, ma la bandiera sarà abbandonata a terra. Questo serve a impedire che tu possa usare il Traslocatore per tornare alla tua base dopo aver catturato la bandiera avversaria."
+; EN: 
 TutMessage[15]="Ogni mappa ha una base rossa e una blu. Questa è la base rossa. Quella blu si trova in fondo al corridoio. Ogni base contiene una bandiera."
+; EN: 
 TutMessage[16]="Di fronte a te c'è la bandiera rossa. Lo scopo della partita è catturare il vessillo della squadra nemica, difendendo al tempo stesso la tua."
+; EN: 
 TutMessage[17]="Facciamo una prova. Corri fino alla base blu e tocca la bandiera, in modo da prenderla. Raccogli qualsiasi tipo di equipaggiamento che trovi lungo il percorso."
+; EN: 
 TutMessage[18]="Perfetto! Adesso hai la bandiera nemica. Il messaggio giallo lampeggiante serve a ricordarti che, una volta presa la bandiera, per segnare il punto devi portarla fino alla tua base."
+; EN: 
 TutMessage[19]="Guarda: l'icona di stato della bandiera della squadra blu è cambiata. Adesso indica che un giocatore della squadra rossa è in possesso del vessillo. La squadra blu è in pericolo!"
+; EN: 
 TutMessage[20]="Riporta la bandiera blu alla tua base e tocca quella rossa per catturare definitivamente il vessillo blu e segnare il punto."
+; EN: 
 TutMessage[21]="Ottimo lavoro! Hai catturato la bandiera nemica e segnato un punto per la tua squadra. Non è stata poi così dura, vero?"
+; EN: 
 TutMessage[22]="Il difficile arriva adesso. Fra qualche istante, genererò due bot per la squadra blu e un compagno rosso con i quali potrai fare pratica."
+; EN: 
 TutMessage[23]="C'è un'ultima icona di stato che devi conoscere. Se un giocatore abbandona la bandiera mentre la sta portando con sé, all'interno dell'icona di stato della bandiera della sua squadra comparirà una freccia rivolta verso il basso."
+; EN: 
 TutMessage[24]="Se trovi la tua bandiera per terra dopo avere ucciso un nemico che se n'era impadronito, ti basta toccarla affinché essa torni automaticamente alla tua base."
+; EN: 
 TutMessage[25]="Così si conclude il tutorial per le partite Cattura la bandiera. Adesso genererò per te quei bot da addestramento. Buona caccia!"
+; EN: 
 TutMessage[26]="Congratulazioni! Ti sei dimostrato all'altezza delle partite Cattura la bandiera. Adesso è giunto il momento di far sul serio col torneo "Cattura la bandiera"."
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: CTF"
@@ -580,26 +641,47 @@ SoundLengths[17]=11
 SoundLengths[18]=10
 SoundLengths[19]=10
 SoundLengths[20]=9
+; EN: 
 TutMessage[0]="Benvenuto all'addestramento per il Dominio. Questo tutorial ti insegnerà le regole di base per questo tipo di combattimento. Sono disponibili anche i tutorial per Deathmatch, Cattura la Bandiera e Assalto."
+; EN: 
 TutMessage[1]="Iniziamo parlando degli elementi che il Dominio aggiunge all'HUD."
+; EN: 
 TutMessage[2]="Il Dominio espande l'HUD di base aggiungendo degli indicatori di stato dei punti di controllo sul lato sinistro dello schermo."
+; EN: 
 TutMessage[3]="Come puoi vedere, in questa mappa tutorial ci sono due punti di controllo. Tra breve parleremo della loro funzione."
+; EN: 
 TutMessage[4]="Ogni indicatore riporta il nome di un punto di controllo e il suo stato attuale."
+; EN: 
 TutMessage[5]="Ogni punto di controllo in una mappa di Dominio ha un nome distintivo. Questi si chiamano Alpha e Gamma."
+; EN: 
 TutMessage[6]="L'icona accanto al nome del punto di controllo visualizza lo stato di quella posizione. Prima di spiegare come funzionano queste icone, vediamo le regole del Dominio."
+; EN: 
 TutMessage[7]="Nel Dominio, ogni squadra cerca di impadronirsi dei punti di controllo del livello e di mantenerli."
+; EN: 
 TutMessage[8]="Una squadra riceve 1 punto ogni 5 secondi per ciascuna delle posizioni da essa controllate."
+; EN: 
 TutMessage[9]="Questo è un punto di controllo. Il simbolo X in grigio indica che nessuno sta attualmente controllando questa posizione. Per ottenere il controllo di una posizione, toccalo. Fallo adesso."
+; EN: 
 TutMessage[10]="Bene. Adesso la tua squadra controlla questa posizione. Nota come la forma e il colore del punto di controllo siano cambiati, in modo da riflettere quelli del simbolo della tua squadra."
+; EN: 
 TutMessage[11]="Guarda l'icona di stato del punto di controllo. L'icona del punto Gamma è cambiata, a indicare che la tua squadra ne ha ottenuto il controllo. Puoi utilizzare queste icone per valutare rapidamente la situazione di una partita di Dominio."
+; EN: 
 TutMessage[12]="Adesso trova il punto Alpha e prendine controllo, così da ottenere il Dominio di questa mappa."
+; EN: 
 TutMessage[13]="Eccellente, tutti i punti di questa mappa sono sotto il tuo controllo."
+; EN: 
 TutMessage[14]="Riassumendo, ogni squadra deve individuare e conquistare determinati punti in una mappa di Dominio. Più posizioni una squadra controlla, più velocemente aumenterà il suo punteggio."
+; EN: 
 TutMessage[15]="Questo congegno è chiamato 'traslocatore': puoi utilizzarlo per farti trasportare istantaneamente da una posizione all'altra. Premi il tasto del fuoco per lanciare il modulo di destinazione del traslocatore."
+; EN: 
 TutMessage[16]="Adesso il modulo si trova per terra. Se premi il tasto del fuoco alternativo, verrai teletrasportato fino a esso. Allontanati dal modulo e prova a premere il tasto del fuoco alternativo."
+; EN: 
 TutMessage[17]="Bene, adesso sei tornato al modulo. Se lo disattivi, puoi passare a un'arma e, in seguito, tornare al traslocatore e attivarlo in qualsiasi momento."
+; EN: 
 TutMessage[18]="Se vedi il modulo di un traslocatore nemico per terra, puoi sparargli e distruggerlo. Il teletrasporto verso un modulo distrutto causa la morte istantanea."
+; EN: 
 TutMessage[19]="È ora di fare una prova. Genererò due bot per la squadra avversaria e uno da mettere al tuo fianco. Vincerà la prima squadra che raggiungerà i 20 punti. Buona fortuna!"
+; EN: 
 TutMessage[20]="Congratulazioni! Hai dato prova di essere all'altezza del Dominio. Adesso è giunto il momento di far sul serio col torneo "Dominio"."
 StartUpMessage=""
 SingleWaitingMessage=""
@@ -816,18 +898,31 @@ SoundLengths[7]=11
 SoundLengths[8]=13
 SoundLengths[9]=13
 SoundLengths[10]=13
+; EN: 
 TutMessage[0]="Benvenuto all'addestramento sull'Assalto. Questo tutorial ti insegnerà le regole di base di questo combattimento. Sono disponibili anche i tutorial per Deathmatch, Dominio e Cattura la Bandiera."
+; EN: 
 TutMessage[1]="La prima cosa che noterai entrando in una partita di Assalto è il grosso orologio digitale collocato alla sinistra del tuo HUD. Questo timer segna il passare dei secondi fino al termine della partita. In una partita di Assalto, il tempo è un fattore critico."
+; EN: 
 TutMessage[2]="La partita si gioca fra due squadre, ognuna con un obiettivo diverso. Tu fai parte del gruppo che attacca. Il tuo compito è penetrare nella base nemica e distruggere alcuni punti chiave. Se non riesci a occupare la base avversaria prima dello scadere del tempo, hai perso."
+; EN: 
 TutMessage[3]="L'altra squadra dovrà difendersi. Il suo compito sarà proteggere la propria base e i suoi punti chiave dal gruppo d'assalto."
+; EN: 
 TutMessage[4]="Se riesci, nel ruolo di chi attacca, a conquistare la base nemica, dovrai poi giocare nel ruolo di chi si difende per lo stesso ammontare di tempo."
+; EN: 
 TutMessage[5]="Per esempio, se hai a disposizione 20 minuti per occupare la base avversaria e riesci a portare a termine l'operazione in 10, dovrai a tua volta difendere la tua postazione per 10 minuti. Più tempo impiegherai a conquistare la base nemica, più tempo dovrai passare a difendere la tua."
+; EN: 
 TutMessage[6]="Ogni mappa d'Assalto presenta un disegno unico. L'apprendimento delle sue caratteristiche e lo sviluppo di strategie difensive e offensive potrebbe richiedere un po' di tempo."
+; EN: 
 TutMessage[7]="All'inizio di ogni partita, ti trovi in modalità spettatore. Prima che lo scontro abbia inizio, puoi quindi andare in giro ed esplorare la mappa, in modo da familiarizzare con l'ambiente."
+; EN: 
 TutMessage[8]="Quando affronti una partita di Assalto con i bot, puoi utilizzare il menu Ordini per stabilire il comportamento di questi ultimi. Premendo il tasto "V" potrai accedere direttamente al menu Ordini e disporre i bot a tuo piacimento."
+; EN: 
 TutMessage[9]="Lo scopo di questa mappa tutorial è penetrare nella base e distruggere il prototipo di un carro armato al plasma. Io genererò due bot nemici per cercare di fermarti, ma tu potrai contare sull'aiuto di un compagno."
+; EN: 
 TutMessage[10]="Nella parete vicina alla base nemica è stato collocato dell'esplosivo. Utilizza la tua arma per accendere la miccia e torna indietro! Sfrutta la breccia creata dall'esplosivo per penetrare nella base nemica e distruggere il carro armato!"
+; EN: 
 TutMessage[11]="Stai attento ai bot nemici che proteggono la base e le torrette al plasma. Buona fortuna!"
+; EN: 
 TutMessage[12]="Congratulazioni! Sei riuscito a distruggere il carro armato al plasma. Adesso è giunto il momento di far sul serio col torneo d'Assalto."
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: AS"
@@ -2120,8 +2215,8 @@ MapTitle[1]="Fregata"
 MapTitle[2]="Alta Velocità"
 ; EN: MapTitle[3]="Rook"
 MapTitle[3]="Torre"
-; EN: MapTitle[4]="Mazon"
-MapTitle[4]="Mazon"
+; EN: MapTitle[4]="Mazon Fortress"
+MapTitle[4]="Fortezza Mazon"
 ; EN: MapTitle[5]="Ocean Floor"
 MapTitle[5]="Livello Oceano"
 ; EN: MapTitle[6]="Overlord"
@@ -2155,11 +2250,11 @@ OutMessage="è FUORI!"
 
 [LadderChal]
 ; EN: MapTitle[0]="Phobos Moon"
-MapTitle[0]="Phobos"
+MapTitle[0]="Luna Phobos"
 ; EN: MapTitle[1]="Morpheus"
 MapTitle[1]="Morfeo"
 ; EN: MapTitle[2]="Zeto Station"
-MapTitle[2]="Stazione Zeto"
+MapTitle[2]="Staz. Ghiaccio Zeto"
 ; EN: MapTitle[3]="HyperBlast"
 MapTitle[3]="Iperscoppio"
 ; EN: MapDescription[0]="This Martian space station is caught between Mars and it's satellite Phobos, resulting in a chaotic rotation. Fortunately, the gravity generators are working well enough to lend a fast paced rhythm to deathmatch."
@@ -2185,13 +2280,13 @@ MapTitle[4]="Struttura Coret"
 ; EN: MapTitle[5]="Iron Gauntlet"
 MapTitle[5]="Guanto di Ferro"
 ; EN: MapTitle[6]="Dreary Outpost"
-MapTitle[6]="Postazione Dreary"
+MapTitle[6]="Avamposto Dreary"
 ; EN: MapTitle[7]="The Last Command"
 MapTitle[7]="L'Ultimo Comando"
 ; EN: MapTitle[8]="Lava Giant"
 MapTitle[8]="Gigante di Lava"
 ; EN: MapTitle[9]="November Sub Pen"
-MapTitle[9]="Base Sottomarina"
+MapTitle[9]="Base Sot. November"
 ; EN: MapDescription[0]="Learn the basic rules and systems of Capture the Flag in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
 MapDescription[0]="Impara le regole e i sistemi di base di Cattura la Bandiera in questo speciale ambiente d'addestramento. Metti alla prova le tue abilità contro una squadra di nemici non allenata, prima di entrare nel Torneo vero e proprio."
 ; EN: MapDescription[1]="An experimental orbital nuclear reactor, abandoned after funding for the project dried up. High radiation levels and waste leakage offer an environmental challenge for Tournament combatants."
@@ -2215,9 +2310,9 @@ MapDescription[9]="Qui si combatte intorno a un sottomarino nucleare classe Nove
 
 [LadderCTFGOTY]
 ; EN: MapTitle[10]="Hydro Bases"
-MapTitle[10]="Basi Hydro"
+MapTitle[10]="Basi d'Acqua"
 ; EN: MapTitle[11]="Orbital Station"
-MapTitle[11]="Stazione orbitale"
+MapTitle[11]="Staz. Orbitale #12"
 ; EN: MapDescription[10]="This enormous hydroelectric plant used to power the colonies on Vesuvius 9 until a mysterious virus killed everyone off.  Now that a few years have passed, Liandri official have declared the plant safe for combat (safe is relative to Liandri officials)."
 MapDescription[10]="Questa enorme centrale idroelettrica alimentava le colonie sul Vesuvio 9 fino a quando un misterioso virus non uccise tutti. Ormai che sono passati alcuni anni, i funzionari Liandri hanno dichiarato l'impianto sicuro per il combattimento (la sicurezza è relativa agli ufficiali Liandri)."
 ; EN: MapDescription[11]="The interior of this dual-sided space station may appear complete, but much functionality was never completed when funding ran out due to corrupt contractors and irresponsible administrators.  As usual, the savvy Liandri location scouts caught wind of this and picked the station up at a discount for inclusion in the tourney."
@@ -2234,11 +2329,11 @@ MapTitle[3]="Reattore Frattale"
 ; EN: MapTitle[4]="Turbine"
 MapTitle[4]="Turbina"
 ; EN: MapTitle[5]="Codex of Wisdom"
-MapTitle[5]="Codex della Saggezza"
+MapTitle[5]="Codice Saggezza"
 ; EN: MapTitle[6]="Pressure"
-MapTitle[6]="Pressurizzata"
+MapTitle[6]="Pressione"
 ; EN: MapTitle[7]="Grinder"
-MapTitle[7]="Macinatore"
+MapTitle[7]="Macinatore MP"
 ; EN: MapTitle[8]="Koos Galleon"
 MapTitle[8]="Galeone Koos"
 ; EN: MapTitle[9]="Tempest"
@@ -2246,7 +2341,7 @@ MapTitle[9]="Tempesta"
 ; EN: MapTitle[10]="Orion's Barricade"
 MapTitle[10]="Barriera di Orione"
 ; EN: MapTitle[11]="Liandri Core"
-MapTitle[11]="Liandri Core"
+MapTitle[11]="Nucluo Liandri"
 ; EN: MapTitle[12]="Conveyor"
 MapTitle[12]="Trasportatore"
 ; EN: MapTitle[13]="Peak Monastery"
@@ -2294,7 +2389,7 @@ MapTitle[11]="Tempesta"
 ; EN: MapTitle[12]="Shrapnel"
 MapTitle[12]="Scheggia"
 ; EN: MapTitle[13]="Liandri Core"
-MapTitle[13]="Liandri Core"
+MapTitle[13]="Nucluo Liandri"
 ; EN: MapTitle[14]="Conveyor"
 MapTitle[14]="Trasportatore"
 ; EN: MapTitle[15]="Peak Monastery"
