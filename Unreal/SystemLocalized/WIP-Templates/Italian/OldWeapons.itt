@@ -1,5 +1,6 @@
 ﻿[Public]
-Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+; EN: Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Vecchie Armi,Rimpiazza i suoni originali delle armi con quelli della versione 200.")
 Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
@@ -12,158 +13,167 @@ Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
-DeathMessage="%o è stato ucciso da %k's %w. Che perdente!"
+; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
+DeathMessage="%o è stato ucciso da %w di %k. Che frana!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Hai la pistola a dispersione"
+PickupMessage="Hai preso la Pistola Dissolvente"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistola a dispersione"
+ItemName="Pistola Dissolvente"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k ha inflitto danni mortali a %o con %w."
-; EN: PickupMessage="You got the ASMD"
-PickupMessage="Hai l'ASMD"
-ItemName="ASMD"
+; EN: PickupMessage="You got the ASMD Rifle"
+PickupMessage="Hai preso l'Fucile ASMD"
+; EN: ItemName="ASMD Rifle"
+ItemName="Fucile ASMD"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o è stato abbattuto più volte da %k's %w."
+DeathMessage="%o è stato picchiato un sacco di volte da %w di %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Hai la pistola Eightball"
-ItemName="Eightball"
+PickupMessage="Hai preso il Lancia 8-ball"
+; EN: ItemName="Eightball"
+ItemName="Lancia 8-ball"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k ha sparato un proiettile nella testa di %o."
+DeathMessage="%k ha fatto passare un proiettile attraverso la testa di %o."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Hai il fucile"
-; EN: ItemName="Sniper Rifle"
-ItemName="Fucile di precisione"
+PickupMessage="Hai preso il Fucile"
+; EN: ItemName="Rifle"
+ItemName="Fucile"
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o è stato ridotto a brandelli da %k's %w."
+DeathMessage="%o è stato squartato da %w di %k."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Hai il cannone antiproiettile"
+PickupMessage="Hai preso il Cannone Contraereo"
 ; EN: ItemName="Flak Cannon"
-ItemName="Cannone antiproiettile"
+ItemName="Cannone Contraereo"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o è stato gattato da %k's %w."
-; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Hai l'AutoMag"
-ItemName="AutoMag"
+DeathMessage="%o è stato fatto fuori da %w di %k."
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Hai preso l'Automag"
+; EN: ItemName="Automag"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k's %w ha trasformato %o in un pezzo di carne che perde."
+DeathMessage="%w di %k ha fatto %o a polpette."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Hai il Minigun"
-ItemName="Minigun"
+PickupMessage="Hai preso il Mini-Cannone"
+; EN: ItemName="Minigun"
+ItemName="Mini-Cannone"
 
 [OldGESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o ha bevuto un bicchiere del carico verde gocciolante di %k."
+DeathMessage="%o ha bevuto un bicchiere della sostanza verde sgocciolante di %k."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Hai il GES BioRifle"
+PickupMessage="Hai preso il Bio Fucile GES"
 ; EN: ItemName="GES Bio Rifle"
-ItemName="Fucile GES Bio"
+ItemName="Bio Fucile GES"
 
 [OldAmplifier]
-; EN: ExpireMessage="Amplifier is out of power."
-ExpireMessage="L'amplificatore è spento."
+; EN: ExpireMessage="Energy Amplifier is out of power."
+ExpireMessage="L'Amplificatore è senza energia."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Hai l'amplificatore di energia"
-; EN: ItemName="Amplifier"
-ItemName="Amplificatore"
+PickupMessage="Hai raccolto l'Amplificatore di Energia"
+; EN: ItemName="Energy Amplifier"
+ItemName="Amplificatore di Energia"
 
 [OldStinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o è stato perforato da %k's %w."
+DeathMessage="%o è stato perforato da %w di %k."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Hai preso lo Stinger"
+; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [OldShellBox]
-; EN: PickupMessage="You picked up 50 bullets."
-PickupMessage="Hai raccolto 50 proiettili."
-; EN: ItemName="Shell Box"
-ItemName="Scatola Shell"
+; EN: PickupMessage="You picked up 50 bullets"
+PickupMessage="Hai raccolto 50 Proiettili"
+; EN: ItemName="Bullet Box"
+ItemName="Proiettili"
 
 [OldRifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds."
-PickupMessage="Hai 8 colpi di fucile."
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Hai raccolto 8 Cartucce del Fucile"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Colpi di fucile"
+ItemName="Cartucce del Fucile"
 
 [OldWeaponPowerUp]
-; EN: PickupMessage="You got the Dispersion Pistol Powerup."
-PickupMessage="Hai il potenziamento della pistola a dispersione."
+; EN: PickupMessage="You got the Dispersion Pistol Powerup"
+PickupMessage="Hai preso un aggiornamento per la Pistola Dissolvente"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Potenziamento pistola a dispersione"
+ItemName="Aggiornamento per Pistola Dissolvente"
 
 [OldFlakBox]
-; EN: PickupMessage="You picked up 10 Flak shells."
-PickupMessage="Hai raccolto 10 proiettili antiproiettile."
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Hai raccolto 10 Pallottole Contraeree"
 ; EN: ItemName="Flak Shells"
-ItemName="Conchiglie antiproiettile"
+ItemName="Pallottole Contraeree"
 
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k ha preso un bel pezzo di %o con %w."
+DeathMessage="%k ha preso un pezzo sanguinante di %o con %w."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Hai il RazorJack"
+PickupMessage="Hai preso il RazorJack"
+; EN: ItemName="RazorJack"
 ItemName="RazorJack"
 
 [OldDefaultAmmo]
-; EN: PickupMessage="You picked up some ammo."
-PickupMessage="Hai raccolto delle munizioni."
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="Hai raccolto alcune munizioni"
 ; EN: ItemName="Ammo"
 ItemName="Munizioni"
 
 [OldASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD core."
-PickupMessage="Hai preso un nucleo ASMD."
-ItemName="ASMD Core"
+; EN: PickupMessage="You picked up an ASMD Core"
+PickupMessage="Hai raccolto un Nucleo ASMD"
+; EN: ItemName="ASMD Core"
+ItemName="Nucleo ASMD"
 
 [OldStingerAmmo]
-; EN: PickupMessage="You picked up 40 Tarydium shards."
-PickupMessage="Hai raccolto 40 frammenti di Tarydium."
+; EN: PickupMessage="You picked up 40 Tarydium Shards"
+PickupMessage="Hai raccolto 40 schegge di Tarydium"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Frammenti di Tarydium"
+ItemName="Schegge di Tarydium"
 
 [OldRazorAmmo]
-; EN: PickupMessage="You picked up some Razor blades."
-PickupMessage="Hai raccolto delle lamette da barba."
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="Hai raccolto le Lame di Rasoio"
 ; EN: ItemName="Razor Blades"
-ItemName="Lame di rasoio"
+ItemName="Lame di Rasoio"
 
 [OldSludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium sludge."
-PickupMessage="Hai raccolto 25 chili di fango di Tarydium."
-; EN: ItemName="Tarydium Sludge"
-ItemName="Tarydium fanghi"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Hai raccolto 25 Chili di Fanghiglia di Tarydium"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Fanghiglia di Tarydium"
 
 [OldRocketCan]
-; EN: PickupMessage="You picked up 12 Eightballs."
-PickupMessage="Hai raccolto 12 otto palle."
+; EN: PickupMessage="You picked up 12 Eightballs"
+PickupMessage="Hai raccolto 12 8-ball"
 ; EN: ItemName="Eightballs"
-ItemName="Otto palle"
+ItemName="8-ball"
 
 [OldClip]
-; EN: PickupMessage="You picked up a clip."
-PickupMessage="Hai preso una clip."
-ItemName="Clip"
+; EN: PickupMessage="You picked up a Clip"
+PickupMessage="Hai raccolto un Ricaricatore"
+; EN: ItemName="Clip"
+ItemName="Ricaricatore"
 
 [OldRifleRound]
-; EN: PickupMessage="You got a Rifle round."
-PickupMessage="Hai un colpo di fucile."
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Hai preso una Cartuccia di Fucile"
 ; EN: ItemName="Rifle Round"
-ItemName="Round di fucile"
+ItemName="Cartuccia di Fucile"
 
 [OldFlakShellAmmo]
-; EN: PickupMessage="You got a Flak shell."
-PickupMessage="Hai un guscio antiproiettile."
-ItemName="Flak Shell"
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Hai preso una Ricarica per il Flak"
+; EN: ItemName="Flak Shell"
+ItemName="Ricarica per il Flak"

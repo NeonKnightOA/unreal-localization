@@ -298,6 +298,10 @@ WindowTitle="Salva Partita"
 ; EN: WindowTitle="Configure Individual Bots"
 WindowTitle="Configura Bot Individuali"
 
+[UnrealConsole]
+; EN: ClassCaption="UMenu Browser Console"
+ClassCaption="Console del Browser UMenu"
+
 [UMenuMenuBar]
 ; EN: GameName="&Game"
 GameName="&Partita"
@@ -1274,16 +1278,16 @@ CrosshairHelp="Scegli il mirino che comparirà al centro dello schermo."
 [UMenuToolsMenu]
 ; EN: ConsoleName="System &Console"
 ConsoleName="&Console di Sistema"
-; EN: ConsoleHelp="This option brings up the Unreal Console. You can use the console to enter advanced commands and cheats."
-ConsoleHelp="Questa opzione mostra la console di Unreal. Puoi usare la console per utilizzare i comandi avanzati e i trucchi."
+; EN: ConsoleHelp="This option brings up the Unreal Tournament Console. You can use the console to enter advanced commands and cheats."
+ConsoleHelp="Questa opzione mostra la console di Unreal Tournament. Puoi usare la console per utilizzare i comandi avanzati e i trucchi."
 ; EN: TimeDemoName="T&imeDemo Statistics"
 TimeDemoName="Statistiche T&imeDemo"
 ; EN: TimeDemoHelp="Enable the TimeDemo statistic to measure your frame rate."
 TimeDemoHelp="Consente alla statistica TimeDemo di misurare il tuo frame rate."
 ; EN: LogName="Show &Log"
 LogName="Mostra &Eventi"
-; EN: LogHelp="Show the Unreal log window."
-LogHelp="Mostra la finestra degli eventi di Unreal."
+; EN: LogHelp="Show the Unreal Tournament log window."
+LogHelp="Mostra la finestra degli eventi di Unreal Tournament."
 
 [UMenuSaveGameClientWindow]
 ; EN: CantSave="Cannot Save: You are dead."
