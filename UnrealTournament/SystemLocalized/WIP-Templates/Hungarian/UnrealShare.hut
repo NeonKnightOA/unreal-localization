@@ -627,10 +627,10 @@ GameName="Csapatjáték"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k halandó kárt okozott %o-n %w-val."
-; EN: PickupMessage="You got the ASMD Rifle"
-PickupMessage="Megvan az ASMD puska"
-; EN: ItemName="ASMD Rifle"
-ItemName="ASMD puska"
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="Megvan az ASMD"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"

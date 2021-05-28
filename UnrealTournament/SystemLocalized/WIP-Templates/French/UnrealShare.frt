@@ -624,10 +624,10 @@ GameName="Jeu d'équipe"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k inflige des dégâts mortels à %o avec le %w."
-; EN: PickupMessage="You got the ASMD Rifle"
-PickupMessage="Vous avez le fusil ASMD"
-; EN: ItemName="ASMD Rifle"
-ItemName="Fusil ASMD"
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="Vous avez le ASMD"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"

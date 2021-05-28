@@ -756,10 +756,10 @@ GameName="Командная игра"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k нанес смертельный урон %o с помощью %w."
-; EN: PickupMessage="You got the ASMD Rifle"
-PickupMessage="У вас есть винтовка ASMD"
-; EN: ItemName="ASMD Rifle"
-ItemName="Винтовка АСМД"
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="Вы подобрали ASMD"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"
