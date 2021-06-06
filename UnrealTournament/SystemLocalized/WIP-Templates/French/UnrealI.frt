@@ -93,7 +93,7 @@ ItemName="Minigun"
 DeathMessage="%o a bu un verre de la charge verte dégoulinante de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Vous avez le GES BioRifle"
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="Carabine GES Bio"
 
 [Squid]

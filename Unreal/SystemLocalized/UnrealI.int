@@ -48,7 +48,7 @@ ItemName="Flak Cannon"
 [Rifle]
 DeathMessage="%k put a bullet through %o's head."
 PickupMessage="You got the Rifle"
-ItemName="Sniper Rifle"
+ItemName="Rifle"
 
 [Queen]
 NameArticle=" the "
@@ -70,7 +70,7 @@ ItemName="Minigun"
 [GESBioRifle]
 DeathMessage="%o drank a glass of %k's dripping green load."
 PickupMessage="You got the GES BioRifle"
-ItemName="GES Bio Rifle"
+ItemName="GES BioRifle"
 
 [Squid]
 MenuName="Squid"
@@ -85,7 +85,7 @@ PickupMessage="You picked up the Search Light"
 ItemName="Search Light"
 
 [RazorAmmo]
-PickupMessage="You picked up Razor Blades"
+PickupMessage="You picked up some Razor Blades"
 ItemName="Razor Blades"
 
 [FlakBox]
@@ -96,7 +96,7 @@ ItemName="Flak Shells"
 MenuName="Male 1"
 
 [RifleAmmo]
-PickupMessage="You got 8 Rifle rounds."
+PickupMessage="You got 8 Rifle rounds"
 ItemName="Rifle Rounds"
 
 [Seeds]
@@ -125,8 +125,8 @@ MenuName="Female 2"
 MenuName="Male 2"
 
 [Sludge]
-PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-ItemName="Tarydium Biosludge"
+PickupMessage="You picked up 25 Kilos of Tarydium Sludge"
+ItemName="Tarydium Sludge"
 
 [Invisibility]
 ExpireMessage="Invisibility has worn off."
@@ -142,7 +142,7 @@ Name="fell"
 AltName="fell"
 
 [FlakShellAmmo]
-PickupMessage="You got a Flak Shell."
+PickupMessage="You got a Flak Shell"
 ItemName="Flak Shell"
 
 [Drowned]

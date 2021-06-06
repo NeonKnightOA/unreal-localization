@@ -112,7 +112,7 @@ DeathMessage="%o va beure un got de %k de càrrega verda degotejant."
 FemDeathMessage="%o va beure un got de %k de càrrega verda degotejant."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Tens el Rifle Bio GES"
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="Rifle Bio GES"
 
 [Squid]
@@ -134,14 +134,14 @@ PickupMessage="Has recollit la Llanterna de recerca"
 ItemName="Llanterna de recerca"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Has recollit unes Fulles Filoses"
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Has recollit algunes Fulles Filoses"
 ; EN: ItemName="Razor Blades"
 ItemName="Fulles Filoses"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Has recollit 10 projectils de Metralla"
+PickupMessage="Has recollit 10 Projectils de Metralla"
 ; EN: ItemName="Flak Shells"
 ItemName="Projectils de Metralla"
 
@@ -151,7 +151,7 @@ MenuName="Home 1"
 
 [RifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle rounds"
-PickupMessage="Has recollit 8 cartutxos de Fusell"
+PickupMessage="Has recollit 8 Cartutxos de Fusell"
 ; EN: ItemName="Rifle Rounds"
 ItemName="Cartutxos de Fusell"
 
@@ -180,6 +180,7 @@ ItemName="Camp de Força Portàtil"
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k va treure un tros cruent de %o amb el %w."
+FemDeathMessage="%k va treure un tros cruent de %o amb el %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Tens el Llançador de Fulles"
 ; EN: ItemName="RazorJack"

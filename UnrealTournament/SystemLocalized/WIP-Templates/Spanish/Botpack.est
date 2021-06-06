@@ -1112,13 +1112,13 @@ ESCMessage="Presione ESC para comenzar."
 ESCMessage="Presione ESC para continuar..."
 
 [ut_biorifle]
-; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
 WeaponDescription="Clasificación: rifle tóxico\n\nFuego primario: el subproducto de tacos de Tarydium se lanza a una velocidad de disparo media.\n\nFuego secundario: cuando se mantiene presionado el gatillo, el rifle biológico creará un montón de subproducto mucho más grande. Cuando se lanza este taco, estallará en tacos más pequeños que se adherirán a cualquier superficie. Si el proyectil golpea a otro jugador, o si el usuario es golpeado, puede matarlo instantáneamente.\n\nTécnicas: Los subproductos se adherirán a las paredes, pisos o techos. Pueden producirse reacciones en cadena al cubrir las entradas con este residuo verde letal."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o bebió un vaso de la goteante carga verde de %k."
-; EN: PickupMessage="You got the GES Bio Rifle."
+; EN: PickupMessage="You got the GES BioRifle."
 PickupMessage="Tienes el rifle biológico GES."
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="Fusil biológico GES"
 
 [minigun2]

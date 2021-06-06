@@ -1105,13 +1105,13 @@ ESCMessage="Pressione ESC para começar."
 ESCMessage="Pressione ESC para continuar..."
 
 [ut_biorifle]
-; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
-WeaponDescription="Classificação: Rifle Tóxico\n\nFogo Primário: maços de subproduto de Tarydium são lançados a uma cadência de fogo média.\n\nFogo Secundário: Quando o gatilho é pressionado, o Bio Rifle criará um maço muito maior de subproduto. Quando este maço é lançado, ele se transforma em maços menores que aderem a qualquer superfície. Se o projétil atingir outro jogador, ou o usuário for atingido, ele pode matá-los instantaneamente.\n\nTécnicas: os subprodutos irão aderir às paredes, pisos ou tetos. As reações em cadeia podem ser causadas cobrindo as entradas com este lixo verde letal."
+; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+WeaponDescription="Classificação: Rifle Tóxico\n\nFogo Primário: maços de subproduto de Tarydium são lançados a uma cadência de fogo média.\n\nFogo Secundário: Quando o gatilho é pressionado, o BioRifle criará um maço muito maior de subproduto. Quando este maço é lançado, ele se transforma em maços menores que aderem a qualquer superfície. Se o projétil atingir outro jogador, ou o usuário for atingido, ele pode matá-los instantaneamente.\n\nTécnicas: os subprodutos irão aderir às paredes, pisos ou tetos. As reações em cadeia podem ser causadas cobrindo as entradas com este lixo verde letal."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o bebeu um copo da carga verde gotejante de %k."
-; EN: PickupMessage="You got the GES Bio Rifle."
+; EN: PickupMessage="You got the GES BioRifle."
 PickupMessage="Você tem o Rifle Bio GES."
-ItemName="GES Bio Rifle"
+ItemName="GES BioRifle"
 
 [minigun2]
 ; EN: WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."

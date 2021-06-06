@@ -20,7 +20,7 @@ ZoneName="Podnieś 1"
 ZoneName="Korytarz schodowy"
 
 [ZoneInfo9]
-; EN: ZoneName="Bio Rifle Corridor"
+; EN: ZoneName="BioRifle Corridor"
 ZoneName="Korytarz karabinu biologicznego"
 
 [LevelSummary]

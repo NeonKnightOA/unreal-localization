@@ -1104,13 +1104,13 @@ ESCMessage="A kezdéshez nyomja meg az ESC gombot."
 ESCMessage="Nyomja meg az ESC gombot a folytatáshoz..."
 
 [ut_biorifle]
-; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
 WeaponDescription="Osztályozás: Mérgező puska\n\n Elsődleges tűz: A Tarydium melléktermékeinek közepes tűzsebességgel lobbannak.\n\nMásodik tűz: Ha a ravaszt lenyomva tartják, a Bio puska sokkal nagyobb mellékterméket hoz létre. Amikor ezt a vattát elindítják, kisebb gubacsokká fog törni, amelyek minden felületre tapadnak. Ha a lövedék megüt egy másik játékost, vagy ha a felhasználót eltalálják, az azonnal megölheti őket.\n\nTechnika: A melléktermékek tapadnak a falakhoz, a padlóhoz vagy a mennyezethez. Láncreakciókat okozhat az, ha a bejáratokat lefedik ezzel a halálos zöld hulladékkal."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o megitta egy pohár %k csöpögő zöld terhelését."
-; EN: PickupMessage="You got the GES Bio Rifle."
+; EN: PickupMessage="You got the GES BioRifle."
 PickupMessage="Megvan a GES Bio puska."
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="GES Bio puska"
 
 [minigun2]

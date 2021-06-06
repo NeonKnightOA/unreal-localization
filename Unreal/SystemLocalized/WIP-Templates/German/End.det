@@ -7,16 +7,19 @@ Title="Ende"
 Title="Ende"
 
 [TransitionGenderEvent0]
+; Note: Make the text coincide with the respective audio entry in Sounds/det/EndSnd.det.
 OutDelays[1]=3.000000
 ; EN: CommonText[0]="Bodega Bay to shuttle craft. Please authenticate."
 CommonText[0]="Bodega Bay zum Shuttle. Bitte authentifizieren Sie sich."
 
 [TransitionGenderEvent2]
+; Note: Make the text coincide with the respective audio entry in Sounds/det/EndSnd.det.
 OutDelays[1]=3.000000
 ; EN: CommonText[0]="Authenticate immediately or we will open fire."
 CommonText[0]="Authentifizieren Sie sich sofort oder wir eröffnen das Feuer."
 
 [TransitionGenderEvent1]
+; Note: Make the text coincide with the respective audio entry in Sounds/det/EndSnd.det.
 OutDelays[1]=3.000000
 ; EN: CommonText[0]="You were warned. We are opening fire."
 CommonText[0]="Sie wurden gewarnt. Wir eröffnen das Feuer."

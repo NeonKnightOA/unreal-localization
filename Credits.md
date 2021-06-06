@@ -9,6 +9,7 @@
 * **Rackover/Louvenarde:** French, fixes and maintenance.
 * **rarsonic:** Spanish, additional contributions.
 * **UBerserker:** Italian, additional contributions.
+* **TaglesMalsto:** Italian, additional contributions.
 * **u.HighPriest:** Russian, localization author.
 * **Skaarj ZR:** Russian, additional contributions.
 * **Delacroix:** Polish, additional contributions.

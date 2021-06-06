@@ -62,18 +62,21 @@ BlobKillMessage="został skorodowany przez Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o zostało rozerwane na strzępy przez %k %w."
+DeathMessage="%o - %k rozrywa cię na strzępy Garłaczem."
+FemDeathMessage="%o - %k rozrywa cię na strzępy Garłaczem."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Masz Flak Cannon"
-ItemName="Flak Cannon"
+PickupMessage="Podnosisz Garłacza"
+; EN: ItemName="Flak Cannon"
+ItemName="Garłacza"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k wbił kulę w głowę %o."
+DeathMessage="%o - %k posłał ci kulkę w sam łeb."
+FemDeathMessage="%o - %k posłał ci kulkę w sam łeb."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Masz karabin"
-; EN: ItemName="Sniper Rifle"
-ItemName="Karabin snajperski"
+PickupMessage="Podnosisz Karabin"
+; EN: ItemName="Rifle"
+ItemName="Karabin"
 
 [Queen]
 NameArticle=" the "
@@ -89,18 +92,21 @@ NameArticle=" the "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k's %w zmieniło %o w nieszczelny kawałek mięsa."
+DeathMessage="%o - %k zamienia cię w krwawy durszlak mięsny serią z miniguna."
+FemDeathMessage="%o - %k zamienia cię w krwawy durszlak mięsny serią z miniguna."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Masz Minigun"
+PickupMessage="Podnosisz Minigun"
+; EN: ItemName="Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o wypił szklankę kapiącego zielonego ładunku %k."
+DeathMessage="%o - %k właśnie spuścił ci do gardła cały ładunek ścieków."
+FemDeathMessage="%o - %k właśnie spuścił ci do gardła cały ładunek ścieków."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Masz karabin GES BioRifle"
-; EN: ItemName="GES Bio Rifle"
-ItemName="Karabin biologiczny GES"
+PickupMessage="Podnosisz Karabin Odpadowy GES"
+; EN: ItemName="GES BioRifle"
+ItemName="Karabin Odpadowy GES"
 
 [Squid]
 ; EN: MenuName="Squid"
@@ -119,25 +125,26 @@ PickupMessage="Podniosłeś Szperacz"
 ItemName="Szukaj światła"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Podniosłeś Razor Blades"
+; EN: PickupMessage="You picked up some Razor Blades"
+PickupMessage="Podnosisz Paczkę Ostrzy"
 ; EN: ItemName="Razor Blades"
-ItemName="Żyletki"
+ItemName="Paczkę Ostrzy"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Zdobyłeś 10 pocisków przeciwlotniczych"
-ItemName="Flak Shells"
+PickupMessage="Podnosisz 10 ładunków do Garłacza"
+; EN: ItemName="Flak Shells"
+ItemName="ładunków do Garłacza"
 
 [MaleOne]
 ; EN: MenuName="Male 1"
 MenuName="Mężczyzna 1"
 
 [RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds."
-PickupMessage="Masz 8 nabojów karabinu."
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Podnosisz 8 Nabojów do Karabinu"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Karabiny"
+ItemName="Nabojów do Karabinu"
 
 [Seeds]
 ; EN: PickupMessage="You got the Nali Fruit Seeds"
@@ -163,10 +170,12 @@ ItemName="Pole siłowe"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k pobrał cholerny kawałek z %o za pomocą %w."
+DeathMessage="%o daje ciała %k za sprawą Rozpruwacza."
+FemDeathMessage="%o daje ciała %k za sprawą Rozpruwacza."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Masz RazorJack"
-ItemName="RazorJack"
+PickupMessage="Podnosisz Rozpruwacza"
+; EN: ItemName="RazorJack"
+ItemName="Rozpruwacz"
 
 [FemaleTwo]
 ; EN: MenuName="Female 2"
@@ -177,10 +186,10 @@ MenuName="Kobieta 2"
 MenuName="Mężczyzna 2"
 
 [Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Zebrałeś 25 kilogramów osadu biologicznego Tarydium"
-; EN: ItemName="Tarydium Biosludge"
-ItemName="Biosludge Tarydium"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Sludge"
+PickupMessage="Podnosisz 25kg Odpadów Tarydowych"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Odpadów Tarydowych"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -203,9 +212,10 @@ Name="spadł"
 AltName="spadł"
 
 [FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell."
-PickupMessage="Masz pocisk przeciwlotniczy."
-ItemName="Flak Shell"
+; EN: PickupMessage="You got a Flak shell"
+PickupMessage="Podnosisz ładunek do Garłacza"
+; EN: ItemName="Flak Shell"
+ItemName="ładunek do Garłacza"
 
 [Drowned]
 ; EN: Name="drowned"
@@ -252,17 +262,18 @@ ItemName="Tarcza mocy"
 
 [RifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Masz nabój karabinu"
+PickupMessage="Podnosisz Nabój do Karabinu"
 ; EN: ItemName="Rifle Round"
-ItemName="Karabin Round"
+ItemName="Nabój do Karabinu"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o został rozerwany na bity przez %k %w."
+FemDeathMessage="%o został rozerwany na bity przez %k %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
-PickupMessage="Masz czterolufową strzelbę"
+PickupMessage="Masz Czterolufową Strzelbę"
 ; EN: ItemName="Quad-Barreled Shotgun"
-ItemName="Czterolufowa strzelba"
+ItemName="Czterolufową Strzelbę"
 
 [PeaceMaker]
 ; EN: PickupMessage="You got the Peacemaker"

@@ -692,10 +692,10 @@ ESCMessage="Pulsa ESC para comenzar."
 ESCMessage="Pulsa ESC para continuar..."
 
 [ut_biorifle]
-WeaponDescription="Clasificación: Rifle Tóxico\n\nDisparo Principal: Dispara proyectiles de un derivado de Taridio a una distancia media.\n\Disparo Secundario: Si mantienes pulsado el disparador, el Bio Rifle creará un proyectil de dicho derivado de tamaño superior. Cuando se lanza el proyectil, éste se multiplicará en varios de menor tamaño que se pegarán a cualquier superficie. De no impactar contra una pared, este proyectil puede destruir a su usuario u otro jugador al instante.\n\Técnicas: Estos proyectiles derivados se adherirán a muros, suelos o techos. Al taponarse las entradas con este desecho letal verde, podrán producirse reacciones en cadena."
+WeaponDescription="Clasificación: Rifle Tóxico\n\nDisparo Principal: Dispara proyectiles de un derivado de Taridio a una distancia media.\n\Disparo Secundario: Si mantienes pulsado el disparador, el BioRifle creará un proyectil de dicho derivado de tamaño superior. Cuando se lanza el proyectil, éste se multiplicará en varios de menor tamaño que se pegarán a cualquier superficie. De no impactar contra una pared, este proyectil puede destruir a su usuario u otro jugador al instante.\n\Técnicas: Estos proyectiles derivados se adherirán a muros, suelos o techos. Al taponarse las entradas con este desecho letal verde, podrán producirse reacciones en cadena."
 DeathMessage="%o bebió un vaso de la sustancia verde y espesa de %k."
-PickupMessage="Has conseguido el Bio Rifle GES."
-ItemName="Bio Rifle GES"
+PickupMessage="Has conseguido el BioRifle GES."
+ItemName="BioRifle GES"
 
 [minigun2]
 WeaponDescription="Clasificación: Metralleta\n\nDisparo Principal: Dispara balas con una frecuencia media/rápida y una gran precisión.\n\nDisparo Secundario: Dispara el doble de rápido pero con mucha menos precisión.\n\nTécnicas: El disparo secundario es mucho más útil en distancias cortas, pero puede consumir toneladas de munición."

@@ -19,7 +19,7 @@ ZoneName="Ascenseur 1"
 ZoneName="Couloir des escaliers"
 
 [ZoneInfo9]
-; EN: ZoneName="Bio Rifle Corridor"
+; EN: ZoneName="BioRifle Corridor"
 ZoneName="Couloir de fusil bio"
 
 [LevelSummary]

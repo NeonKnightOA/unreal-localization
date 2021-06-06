@@ -1101,13 +1101,13 @@ ESCMessage="Trykk på ESC for å begynne."
 ESCMessage="Trykk ESC for å fortsette..."
 
 [ut_biorifle]
-; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
-WeaponDescription="Klassifisering: Giftig rifle\n\nPrimær brann: Wads of Tarydium biprodukt er lobbet med middels brannhastighet.\n\nSekundær brann: Når avtrekkeren holdes nede, vil Bio Rifle skape et mye større stykke biprodukt. Når denne waden lanseres, vil den sprekke i mindre wads som vil feste seg til overflater. Hvis prosjektilet treffer en annen spiller, eller brukeren blir truffet i stedet, kan det drepe dem umiddelbart.\n\nTeknikker: Biprodukter vil feste seg til vegger, gulv eller tak. Kjedereaksjoner kan være forårsaket av å dekke innkjørsler med dette dødelige grønne avfallet."
+; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+WeaponDescription="Klassifisering: Giftig rifle\n\nPrimær brann: Wads of Tarydium biprodukt er lobbet med middels brannhastighet.\n\nSekundær brann: Når avtrekkeren holdes nede, vil BioRifle skape et mye større stykke biprodukt. Når denne waden lanseres, vil den sprekke i mindre wads som vil feste seg til overflater. Hvis prosjektilet treffer en annen spiller, eller brukeren blir truffet i stedet, kan det drepe dem umiddelbart.\n\nTeknikker: Biprodukter vil feste seg til vegger, gulv eller tak. Kjedereaksjoner kan være forårsaket av å dekke innkjørsler med dette dødelige grønne avfallet."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o drakk et glass %ks dryppende grønne last."
-; EN: PickupMessage="You got the GES Bio Rifle."
-PickupMessage="Du har GES Bio Rifle."
-ItemName="GES Bio Rifle"
+; EN: PickupMessage="You got the GES BioRifle."
+PickupMessage="Du har GES BioRifle."
+ItemName="GES BioRifle"
 
 [minigun2]
 ; EN: WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."

@@ -62,7 +62,8 @@ BlobKillMessage="wurde von einem Blob korrodiert"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o wurde von %k %w in Stücke gerissen."
+DeathMessage="%o wurde von %ks %w zerfetzt."
+FemDeathMessage="%o wurde von %ks %w zerfetzt."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Du hast die Flak-Kanone"
 ; EN: ItemName="Flak Cannon"
@@ -70,11 +71,12 @@ ItemName="Flak-Kanone"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k hat %o eine Kugel durch den Kopf geschossen."
+DeathMessage="%k versetzte %os einen Kopfschuß."
+FemDeathMessage="%k versetzte %os einen Kopfschuß."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Du hast das Gewehr"
-; EN: ItemName="Sniper Rifle"
-ItemName="Scharfschützengewehr"
+; EN: ItemName="Rifle"
+ItemName="Gewehr"
 
 [Queen]
 ; EN: NameArticle=" the "
@@ -92,18 +94,21 @@ NameArticle=" das "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%ks %w verwandelte %o in ein undichtes Stück Fleisch."
+DeathMessage="%ks %w machte %o zu Hackfleisch."
+FemDeathMessage="%ks %w machte %o zu Hackfleisch."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Du hast die Minigun"
+; EN: ItemName="Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o trank ein Glas %ks tropfende grüne Ladung."
+DeathMessage="%o hat %ks grünen Schleim geschluckt."
+FemDeathMessage="%o hat %ks grünen Schleim geschluckt."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Du hast das GES BioRifle"
-; EN: ItemName="GES Bio Rifle"
-ItemName="GES Bio-Gewehr"
+PickupMessage="Du hast das GES BioGewehr"
+; EN: ItemName="GES BioRifle"
+ItemName="GES BioGewehr"
 
 [Squid]
 ; EN: MenuName="Squid"
@@ -122,24 +127,24 @@ PickupMessage="Du hast das Suchlicht aufgenommen"
 ItemName="Suchlicht"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Du hast Rasierklingen aufgehoben"
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Du hast Razor-Klingen aufgenommen"
 ; EN: ItemName="Razor Blades"
-ItemName="Rasierklingen"
+ItemName="Razor-Klingen"
 
 [FlakBox]
-; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Du hast 10 Flak Shells aufgenommen"
+; EN: PickupMessage="You picked up 10 Flak shells"
+PickupMessage="Du hast 10 Flak-Geschosse aufgenommen"
 ; EN: ItemName="Flak Shells"
-ItemName="Flak Muscheln"
+ItemName="Flak-Geschosse"
 
 [MaleOne]
 ; EN: MenuName="Male 1"
 MenuName="Männlich 1"
 
 [RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds."
-PickupMessage="Du hast 8 Gewehrpatronen."
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Du hast 8 Gewehrpatronen"
 ; EN: ItemName="Rifle Rounds"
 ItemName="Gewehrgeschosse"
 
@@ -167,9 +172,11 @@ ItemName="Kraftfeld"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k hat mit dem %w einen blutigen Teil von %o genommen."
+DeathMessage="%k riß mit %w blutige Stücke aus %o."
+FemDeathMessage="%k riß mit %w blutige Stücke aus %o."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Du hast den RazorJack"
+; EN: ItemName="RazorJack"
 ItemName="RazorJack"
 
 [FemaleTwo]
@@ -181,10 +188,10 @@ MenuName="Weiblich 2"
 MenuName="Männlich 2"
 
 [Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Sie haben 25 Kilo Tarydium-Biosludge aufgenommen"
-; EN: ItemName="Tarydium Biosludge"
-ItemName="Tarydium-Biosludge"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium sludge"
+PickupMessage="Sie haben 25 Einheiten Tarydium-Schlamm aufgenommen"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Tarydium-Schlamm"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -207,9 +214,10 @@ Name="fiel"
 AltName="fiel"
 
 [FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell."
-PickupMessage="Du hast eine Flak Shell."
-ItemName="Flak Shell"
+; EN: PickupMessage="You got a Flak shell"
+PickupMessage="Du hast eine Flak-Geschoß"
+; EN: ItemName="Flak Shell"
+ItemName="Flak-Geschoß"
 
 [Drowned]
 ; EN: Name="drowned"
@@ -255,14 +263,15 @@ PickupMessage="Du hast den Power Shield"
 ItemName="Power Shield"
 
 [RifleRound]
-; EN: PickupMessage="You got a Rifle Round"
+; EN: PickupMessage="You got a Rifle round"
 PickupMessage="Du hast eine Gewehrrunde"
 ; EN: ItemName="Rifle Round"
-ItemName="Gewehr Runde"
+ItemName="Gewehrrunde"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o wurde von %k %w in Stücke gesprengt."
+FemDeathMessage="%o wurde von %k %w in Stücke gesprengt."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Du hast die Quad-Barreled Shotgun"
 ; EN: ItemName="Quad-Barreled Shotgun"

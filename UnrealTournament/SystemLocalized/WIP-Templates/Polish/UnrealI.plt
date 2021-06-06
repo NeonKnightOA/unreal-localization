@@ -90,7 +90,7 @@ ItemName="Minigun"
 DeathMessage="%o wypił szklankę kapiącego zielonego ładunku %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Masz karabin GES BioRifle"
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="Karabin biologiczny GES"
 
 [Squid]

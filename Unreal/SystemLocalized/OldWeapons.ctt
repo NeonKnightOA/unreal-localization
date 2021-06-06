@@ -17,27 +17,27 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 DeathMessage="%o va ser assassinat per %w de %k. Quin perdedor!"
 FemDeathMessage="%o va ser assassinada per %w de %k. Quin perdedor!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Tens la pistola de dispersió"
+PickupMessage="Tens la pistola de Dispersió"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistola de dispersió"
+ItemName="Pistola de Dispersió"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k va causar danys mortals a %o amb el %w."
 FemDeathMessage="%k va causar danys mortals a %o amb el %w."
-; EN: PickupMessage="You got the ASMD Rifle"
-PickupMessage="Tens el rifle ASMD"
-; EN: ItemName="ASMD Rifle"
-ItemName="Rifle ASMD"
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="Tens el ASMD"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o va ser colpejat diverses vegades pel %w de %k."
 FemDeathMessage="%o va ser colpejada diverses vegades pel %w de %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Tens l’arma Bola de vuit"
+PickupMessage="Tens l’arma Bola de Vuit"
 ; EN: ItemName="Eightball"
-ItemName="Bola de vuit"
+ItemName="Bola de Vuit"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -62,7 +62,7 @@ ItemName="Canó de Metralla"
 DeathMessage="%o va ser executat pel %w de %k."
 FemDeathMessage="%o va ser executada pel %w de %k."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Tens l’Automag"
+PickupMessage="Tens l'Automag"
 ; EN: ItemName="Automag"
 ItemName="Automag"
 
@@ -81,16 +81,16 @@ DeathMessage="%o va beure un got de %k de càrrega verda degotejant."
 FemDeathMessage="%o va beure un got de %k de càrrega verda degotejant."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Tens el Rifle Bio GES"
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="Rifle Bio GES"
 
 [OldAmplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="L’amplificador d’energia està fora de corrent."
+ExpireMessage="L'Amplificador d'Energia està fora de corrent."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Tens l’amplificador d’energia"
+PickupMessage="Tens l'Amplificador d'Energia"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Amplificador d'energia"
+ItemName="Amplificador d'Energia"
 
 [OldStinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
@@ -109,25 +109,26 @@ ItemName="Bullet Box"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle rounds"
-PickupMessage="Has recollit 8 cartutxos de Fusell"
+PickupMessage="Has recollit 8 Cartutxos de Fusell"
 ; EN: ItemName="Rifle Rounds"
 ItemName="Cartutxos de Fusell"
 
 [OldWeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Tens l’enfocament de la pistola de dispersió"
+PickupMessage="Tens l’Enfocament de la Pistola de Dispersió"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Enfocament de la pistola de dispersió"
+ItemName="Enfocament de la Pistola de Dispersió"
 
 [OldFlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Has recollit 10 projectils de Metralla"
+PickupMessage="Has recollit 10 Projectils de Metralla"
 ; EN: ItemName="Flak Shells"
 ItemName="Projectils de Metralla"
 
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k va treure un tros cruent de %o amb el %w."
+FemDeathMessage="%k va treure un tros cruent de %o amb el %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Tens el Llançador de Fulles"
 ; EN: ItemName="RazorJack"
@@ -141,21 +142,21 @@ ItemName="Munició"
 
 [OldASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Heu recollit un nucli ASMD"
+PickupMessage="Heu recollit un Nucli ASMD"
 ; EN: ItemName="ASMD Core"
 ItemName="Nucli ASMD"
 
 [OldStingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Heu recollit 40 fragments de tarydium"
+PickupMessage="Heu recollit 40 Fragments de Tarydium"
 ; EN: ItemName="Tarydium Shards"
 ItemName="Fragments de Tarydium"
 
 [OldRazorAmmo]
-; EN: PickupMessage="You picked up some Razor blades."
-PickupMessage="Has agafat algunes fulles d’afaitar."
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Has recollit algunes Fulles Filoses"
 ; EN: ItemName="Razor Blades"
-ItemName="Navalla Blades"
+ItemName="Fulles Filoses"
 
 [OldSludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
@@ -165,9 +166,9 @@ ItemName="Residus de Taridio"
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Has recollit 12 vuit pilotes"
+PickupMessage="Has recollit 12 Vuit Pilotes"
 ; EN: ItemName="Eightballs"
-ItemName="Vuit pilotes"
+ItemName="Vuit Pilotes"
 
 [OldClip]
 ; EN: PickupMessage="You picked up a Clip"

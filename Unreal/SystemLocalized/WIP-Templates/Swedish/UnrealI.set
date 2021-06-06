@@ -63,18 +63,20 @@ BlobKillMessage="korroderades av en Blob"
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o slet sönder med %k's %w."
+FemDeathMessage="%o slet sönder med %k's %w."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Du har Flak Cannon"
+PickupMessage="Du har Flakkanon"
 ; EN: ItemName="Flak Cannon"
 ItemName="Flakkanon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k lade en kula genom %o: s huvud."
+FemDeathMessage="%k lade en kula genom %o: s huvud."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Du har geväret"
-; EN: ItemName="Sniper Rifle"
-ItemName="Prickskyttegevär"
+PickupMessage="Du har Geväret"
+; EN: ItemName="Rifle"
+ItemName="Geväret"
 
 [Queen]
 ; EN: NameArticle=" the "
@@ -93,16 +95,20 @@ NameArticle=" de "
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%k %w förvandlade %o till en läckande köttbit."
+FemDeathMessage="%k %w förvandlade %o till en läckande köttbit."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Du har minigun"
+PickupMessage="Du har Minigun"
+; EN: ItemName="Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o drack ett glas %k: s droppande gröna belastning."
+FemDeathMessage="%o drack ett glas %k: s droppande gröna belastning."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Du har GES BioRifle"
-ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
+ItemName="GES BioRifle"
 
 [Squid]
 ; EN: MenuName="Squid"
@@ -121,14 +127,14 @@ PickupMessage="Du tog upp sökljuset"
 ItemName="Sök Light"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Du plockade upp rakblad"
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Du plockade upp några Rakblad"
 ; EN: ItemName="Razor Blades"
 ItemName="Rakblad"
 
 [FlakBox]
-; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Du plockade upp 10 flakskal"
+; EN: PickupMessage="You picked up 10 Flak shells"
+PickupMessage="Du plockade upp 10 Flakskal"
 ; EN: ItemName="Flak Shells"
 ItemName="Flakskal"
 
@@ -137,8 +143,8 @@ ItemName="Flakskal"
 MenuName="Hane 1"
 
 [RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds."
-PickupMessage="Du har åtta gevärsrundor."
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Du har åtta gevärsrundor"
 ; EN: ItemName="Rifle Rounds"
 ItemName="Gevärrundor"
 
@@ -166,8 +172,10 @@ ItemName="Kraftfält"
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k tog en blodig bit av %o med %w."
+FemDeathMessage="%k tog en blodig bit av %o med %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Du har RazorJack"
+; EN: ItemName="RazorJack"
 ItemName="RazorJack"
 
 [FemaleTwo]
@@ -179,9 +187,10 @@ MenuName="Kvinna 2"
 MenuName="Hane 2"
 
 [Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Du plockade upp 25 kilo Tarydium Biosludge"
-ItemName="Tarydium Biosludge"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium sludge"
+PickupMessage="Du tog upp 25 kilo Tarydium-slam"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Tarydium-slam"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -204,8 +213,8 @@ Name="föll"
 AltName="föll"
 
 [FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell."
-PickupMessage="Du har ett flakskal."
+; EN: PickupMessage="You got a Flak shell"
+PickupMessage="Du har ett Flakskal"
 ; EN: ItemName="Flak Shell"
 ItemName="Flakskal"
 
@@ -253,14 +262,15 @@ PickupMessage="Du har Power Shield"
 ItemName="Power Shield"
 
 [RifleRound]
-; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Du har en gevärsrunda"
+; EN: PickupMessage="You got a Rifle round"
+PickupMessage="Du har en Gevärsrunda"
 ; EN: ItemName="Rifle Round"
-ItemName="Gevär Runda"
+ItemName="Gevärsrunda"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o sprängdes till bitar av %k's %w."
+FemDeathMessage="%o sprängdes till bitar av %k's %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Du har ett fyrgevärigt hagelgevär"
 ; EN: ItemName="Quad-Barreled Shotgun"

@@ -1108,13 +1108,13 @@ ESCMessage="Нажмите ESC, чтобы начать."
 ESCMessage="Нажмите ESC, чтобы продолжить..."
 
 [ut_biorifle]
-; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
 WeaponDescription="Классификация: Ядовитая винтовка\n\nОсновной огонь: пачки побочного продукта таридиума стреляют со средней скоростью.\n\nВторичный огонь: когда спусковой крючок удерживается нажатым, био-винтовка создает намного больший комок побочного продукта. Когда этот комок запускается, он разрывается на более мелкие комки, которые прилипают к любым поверхностям. Если снаряд попадает в другого игрока или вместо него попадает пользователь, он может убить его мгновенно.\n\nТехники: побочные продукты прилипают к стенам, полам или потолкам. Цепные реакции могут быть вызваны прикрытием входов этими смертоносными зелеными отходами."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o выпил стакан с капающей зеленой загрузкой %k."
-; EN: PickupMessage="You got the GES Bio Rifle."
+; EN: PickupMessage="You got the GES BioRifle."
 PickupMessage="У вас есть винтовка GES Bio."
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="GES Bio Винтовка"
 
 [minigun2]

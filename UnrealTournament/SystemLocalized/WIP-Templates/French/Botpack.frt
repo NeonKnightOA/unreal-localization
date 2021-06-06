@@ -1098,13 +1098,13 @@ ESCMessage="Appuyez sur ESC pour commencer."
 ESCMessage="Appuyez sur ESC pour continuer..."
 
 [ut_biorifle]
-; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
 WeaponDescription="Classification: Fusil toxique\n\nFeu primaire: des liasses de sous-produit de Tarydium sont lobées à une cadence de tir moyenne.\n\nTir secondaire: lorsque la gâchette est maintenue enfoncée, le fusil biologique crée une liasse de sous-produit beaucoup plus grande. Lorsque cette liasse est lancée, elle éclatera en petites liasses qui adhéreront à toutes les surfaces. Si le projectile touche un autre joueur ou si l'utilisateur est touché à la place, il peut le tuer instantanément.\n\nTechniques: les sous-produits adhéreront aux murs, aux planchers ou aux plafonds. Des réactions en chaîne peuvent être causées en recouvrant les entrées avec ces déchets verts mortels."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o a bu un verre de la charge verte dégoulinante de %k."
-; EN: PickupMessage="You got the GES Bio Rifle."
+; EN: PickupMessage="You got the GES BioRifle."
 PickupMessage="Vous avez le fusil GES Bio."
-; EN: ItemName="GES Bio Rifle"
+; EN: ItemName="GES BioRifle"
 ItemName="Carabine GES Bio"
 
 [minigun2]

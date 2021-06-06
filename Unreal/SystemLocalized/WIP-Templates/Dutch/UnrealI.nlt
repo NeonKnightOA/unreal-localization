@@ -62,19 +62,21 @@ BlobKillMessage="werd aangetast door een Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o werd in stukken gescheurd met %k's %w."
+DeathMessage="%o werd in stukken gescheurd met de %w van %k."
+FemDeathMessage="%o werd in stukken gescheurd met de %w van %k."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Je hebt het luchtafweerkanon"
+PickupMessage="Je hebt het Luchtafweerkanon"
 ; EN: ItemName="Flak Cannon"
 ItemName="Luchtafweerkanon"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k schoot een kogel door %o's hoofd."
+FemDeathMessage="%k schoot een kogel door %o's hoofd."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Je hebt het geweer"
-; EN: ItemName="Sniper Rifle"
-ItemName="Scherpschuttersgeweer"
+PickupMessage="Je hebt het Geweer"
+; EN: ItemName="Rifle"
+ItemName="Geweer"
 
 [Queen]
 ; EN: NameArticle=" the "
@@ -92,17 +94,21 @@ NameArticle=" de "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k's %w veranderde %o in een lek stuk vlees."
+DeathMessage="De %w van %k veranderde %o in een lek stuk vlees."
+FemDeathMessage="De %w van %k veranderde %o in een lek stuk vlees."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Je hebt de Minigun"
+; EN: ItemName="Minigun"
 ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o dronk een glas druipende groene lading van %k."
+FemDeathMessage="%o dronk een glas druipende groene lading van %k."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Je hebt de GES BioRifle"
-ItemName="GES Bio Rifle"
+PickupMessage="Je hebt de BioGeweer GES"
+; EN: ItemName="GES BioRifle"
+ItemName="BioGeweer GES"
 
 [Squid]
 ; EN: MenuName="Squid"
@@ -121,14 +127,14 @@ PickupMessage="Je pakte het zoeklicht op"
 ItemName="Zoeklicht"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Je hebt scheermesjes opgehaald"
+; EN: PickupMessage="You picked up some Razor Blades"
+PickupMessage="Je hebt wat Scheermesjes opgepakt"
 ; EN: ItemName="Razor Blades"
 ItemName="Scheermesjes"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Je hebt 10 luchtafweergeschut opgehaald"
+PickupMessage="Je hebt 10 Luchtafweergeschut"
 ; EN: ItemName="Flak Shells"
 ItemName="Luchtafweergeschut"
 
@@ -137,8 +143,8 @@ ItemName="Luchtafweergeschut"
 MenuName="Man 1"
 
 [RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds."
-PickupMessage="Je hebt 8 geweerrondes."
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Je hebt 8 Geweerrondes"
 ; EN: ItemName="Rifle Rounds"
 ItemName="Geweerrondes"
 
@@ -165,8 +171,10 @@ ItemName="Krachtveld"
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k nam een ​​verdomd stuk uit %o met de %w."
+FemDeathMessage="%k nam een ​​verdomd stuk uit %o met de %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Je hebt de RazorJack"
+; EN: ItemName="RazorJack"
 ItemName="RazorJack"
 
 [FemaleTwo]
@@ -178,9 +186,10 @@ MenuName="Vrouw 2"
 MenuName="Mannetje 2"
 
 [Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Je hebt 25 kilo Tarydium Biosludge opgehaald"
-ItemName="Tarydium Biosludge"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Sludge"
+PickupMessage="Je hebt 25 kilo Tarydium-Slib opgehaald"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Tarydium-Slib"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -203,9 +212,10 @@ Name="viel"
 AltName="viel"
 
 [FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell."
-PickupMessage="Je hebt een Flak Shell."
-ItemName="Flak Shell"
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Je hebt een Luchtafweergeschut"
+; EN: ItemName="Flak Shell"
+ItemName=Luchtafweergeschut"
 
 [Drowned]
 ; EN: Name="drowned"
@@ -253,13 +263,14 @@ ItemName="Machtsschild"
 
 [RifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Je hebt een geweerronde"
+PickupMessage="Je hebt een Geweer-Ronde"
 ; EN: ItemName="Rifle Round"
-ItemName="Geweer ronde"
+ItemName="Geweer-Ronde"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o werd in stukken geschoten met %k's %w."
+FemDeathMessage="%o werd in stukken geschoten met %k's %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Je hebt de Quad-Barreled Shotgun"
 ; EN: ItemName="Quad-Barreled Shotgun"

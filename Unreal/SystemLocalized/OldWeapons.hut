@@ -1,0 +1,189 @@
+﻿[Public]
+; EN: Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Régi Fegyverek,Kicseréli az eredeti Unreal fegyverarzenált az Unreal 200-as verziójában található fegyverekre.")
+Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldFlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldMinigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRazorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldGESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldStinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
+
+[OldDispersionPistol]
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
+FemDeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
+; EN: PickupMessage="You got the Dispersion Pistol"
+PickupMessage="Felvetted a Szórópisztolyt"
+; EN: ItemName="Dispersion Pistol"
+ItemName="Szórópisztoly"
+
+[OldASMD]
+; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
+DeathMessage="%k halálos sérülést mért %o-ra a %w-je."
+FemDeathMessage="%k halálos sérülést mért %o-ra a %w-je."
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="Felvetted az ASMD-t"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
+
+[OldEightball]
+; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
+DeathMessage="="%o-t többször is lecsapta %k %wje."
+FemDeathMessage="="%o-t többször is lecsapta %k %wje."
+; EN: PickupMessage="You got the Eightball gun"
+PickupMessage="Felvetted a Nyolcgömböt"
+; EN: ItemName="Eightball"
+ItemName="Nyolcgömb"
+
+[OldRifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%k golyót repített %o fejébe."
+FemDeathMessage="%k golyót repített %o fejébe."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Megszerezted a Puskát"
+; EN: ItemName="Rifle"
+ItemName="Puska"
+
+[OldFlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="%o darabokra szaggatta %k %wja."
+FemDeathMessage="%o darabokra szaggatta %k %wja."
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="Megszerezted a Szilánkvetőt"
+; EN: ItemName="Flak Cannon"
+ItemName="Szilánkvető"
+
+[OldAutoMag]
+; EN: DeathMessage="%o got gatted by %k's %w."
+DeathMessage="%o-t kibelezte %k %wja."
+FemDeathMessage="%o-t kibelezte %k %wja."
+; EN: PickupMessage="You got the AutoMag"
+PickupMessage="Felvetted az AutoMag pisztolyt"
+; EN: ItemName="AutoMag"
+ItemName="AutoMag"
+
+[OldMinigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="%k %we véres húscafattá változtatta %o-t."
+FemDeathMessage="%k %we véres húscafattá változtatta %o-t."
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="Megszerezted a Gépfegyvert"
+; EN: ItemName="Minigun"
+ItemName="Gépfegyver"
+
+[OldGESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
+FemDeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="Felvetted a GES Biológiai Fegyvert"
+; EN: ItemName="GES BioRifle"
+ItemName="GES Biológiai Fegyver"
+
+[OldAmplifier]
+; EN: ExpireMessage="Amplifier is out of power."
+ExpireMessage="Az EnergiaErősítő lemerült."
+; EN: PickupMessage="You got the Energy Amplifier"
+PickupMessage="Felvetted az EnergiaErősítőt"
+; EN: ItemName="Energy Amplifier"
+ItemName="EnergiaErősítő"
+
+[OldStinger]
+; EN: DeathMessage="%o was perforated by %k's %w."
+DeathMessage="%o-t kilyuggatta %k %we."
+FemDeathMessage="%o-t kilyuggatta %k %we."
+; EN: PickupMessage="You picked up the Stinger"
+PickupMessage="Felvetted a Stingert"
+; EN: ItemName="Stinger"
+ItemName="Stinger"
+
+[OldShellBox]
+; EN: PickupMessage="You picked up 50 bullets"
+PickupMessage="Felvettél 50 Töltényt"
+; EN: ItemName="Shell Box"
+ItemName="Töltény"
+
+[OldRifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Felvettél 8 puskagolyót"
+; EN: ItemName="Rifle Rounds"
+ItemName="Puskagolyót"
+
+[OldWeaponPowerUp]
+; EN: PickupMessage="You got the Dispersion Pistol Powerup"
+PickupMessage="Találtál egy Szórópisztoly Erősítőt"
+; EN: ItemName="Dispersion Pistol Powerup"
+ItemName="Szórópisztoly Erősítőt"
+
+[OldFlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Felvettél 10 Szilánk Lövedéket"
+; EN: ItemName="Flak Shells"
+ItemName="Szilánk Lövedéket"
+
+[OldRazorjack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="%k kiszakított egy véres darabot %o-ból a %wvel."
+FemDeathMessage="%k kiszakított egy véres darabot %o-ból a %wvel."
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="Felvetted a Borotvalövőt"
+; EN: ItemName="RazorJack"
+ItemName="Borotvalövő"
+
+[OldDefaultAmmo]
+; EN: PickupMessage="You picked up some Ammo"
+PickupMessage="Felvettél némi Lőszert"
+; EN: ItemName="Ammo"
+ItemName="Lőszer"
+
+[OldASMDAmmo]
+; EN: PickupMessage="You picked up an ASMD Core"
+PickupMessage="Felvettél egy ASMD Magot"
+; EN: ItemName="ASMD Core"
+ItemName="ASMD Magot"
+
+[OldStingerAmmo]
+; EN: PickupMessage="You picked up 40 Tarydium Shards"
+PickupMessage="Felvettél 40 Tarydium Szilánkot"
+; EN: ItemName="Tarydium Shards"
+ItemName="Tarydium Szilánkot"
+
+[OldRazorAmmo]
+; EN: PickupMessage="You picked up some Razor Blades"
+PickupMessage="Felvettél Néhány Borotvapengét"
+; EN: ItemName="Razor Blades"
+ItemName="Borotvapengét"
+
+[OldSludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Sludge"
+PickupMessage="Felvettél 25 Kiló Tarydium Üledéket"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Tarydium Üledéket"
+
+[OldRocketCan]
+; EN: PickupMessage="You picked up 12 Eightballs"
+PickupMessage="Felvettél 12 Nyolcgömböt"
+; EN: ItemName="Eightballs"
+ItemName="Nyolcgömböt"
+
+[OldClip]
+; EN: PickupMessage="You picked up a Clip"
+PickupMessage="Felvettél egy Tárat"
+; EN: ItemName="Clip"
+ItemName="Tárat"
+
+[OldRifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Felvettél egy Puske Töltényt"
+; EN: ItemName="Rifle Round"
+ItemName="Puske Töltényt"
+
+[OldFlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Szereztél egy Szilánklőszert"
+; EN: ItemName="Flak Shell"
+ItemName="Szilánklőszert"

@@ -62,19 +62,21 @@ BlobKillMessage="egy folt korrodálta"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="A %o %w-ot aprította darabokra."
+DeathMessage="%o darabokra szaggatta %k %wja."
+FemDeathMessage="%o darabokra szaggatta %k %wja."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Megvan a Flak ágyú"
+PickupMessage="Megszerezted a Szilánkvetőt"
 ; EN: ItemName="Flak Cannon"
-ItemName="Flak ágyú"
+ItemName="Szilánkvető"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k golyót adott át %o fején."
+DeathMessage="%k golyót repített %o fejébe."
+FemDeathMessage="%k golyót repített %o fejébe."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Megvan a puska"
-; EN: ItemName="Sniper Rifle"
-ItemName="Mesterlövész puska"
+PickupMessage="Megszerezted a Puskát"
+; EN: ItemName="Rifle"
+ItemName="Puska"
 
 [Queen]
 ; EN: NameArticle=" the "
@@ -92,18 +94,21 @@ NameArticle=" az "
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k %%-a %o-t szivárgó húsdarabbá változtatta."
+DeathMessage="%k %we véres húscafattá változtatta %o-t."
+FemDeathMessage="%k %we véres húscafattá változtatta %o-t."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Megvan a Minigun"
-ItemName="Minigun"
+PickupMessage="Megszerezted a Gépfegyvert"
+; EN: ItemName="Minigun"
+ItemName="Gépfegyver"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o megitta egy pohár %k csöpögő zöld terhelését."
+DeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
+FemDeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Megvan a GES BioRifle"
-; EN: ItemName="GES Bio Rifle"
-ItemName="GES Bio puska"
+PickupMessage="Felvetted a GES Biológiai Fegyvert"
+; EN: ItemName="GES BioRifle"
+ItemName="GES Biológiai Fegyver"
 
 [Squid]
 ; EN: MenuName="Squid"
@@ -122,26 +127,26 @@ PickupMessage="Felkapta a Keresőfényt"
 ItemName="Keresési fény"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Felkapta a Borotvapengét"
+; EN: PickupMessage="You picked up some Razor Blades"
+PickupMessage="Felvettél Néhány Borotvapengét"
 ; EN: ItemName="Razor Blades"
-ItemName="Borotvapengék"
+ItemName="Borotvapengét"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Felvettél 10 Flak Shell-et"
+PickupMessage="Felvettél 10 Szilánk Lövedéket"
 ; EN: ItemName="Flak Shells"
-ItemName="Pelyhes kagyló"
+ItemName="Szilánk Lövedéket"
 
 [MaleOne]
 ; EN: MenuName="Male 1"
 MenuName="1. férfi"
 
 [RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds."
-PickupMessage="8 Puskás lövedéked van."
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Felvettél 8 puskagolyót"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Lövész lövedékek"
+ItemName="Puskagolyót"
 
 [Seeds]
 ; EN: PickupMessage="You got the Nali Fruit Seeds"
@@ -166,10 +171,12 @@ ItemName="Erőtér"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k véres darabot vett ki %o-ból a %w-val."
+DeathMessage="%k kiszakított egy véres darabot %o-ból a %wvel."
+FemDeathMessage="%k kiszakított egy véres darabot %o-ból a %wvel."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Megvan a RazorJack"
-ItemName="RazorJack"
+PickupMessage="Felvetted a Borotvalövőt"
+; EN: ItemName="RazorJack"
+ItemName="Borotvalövő"
 
 [FemaleTwo]
 ; EN: MenuName="Female 2"
@@ -180,9 +187,10 @@ MenuName="2. nő"
 MenuName="2. férfi"
 
 [Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Felszedett 25 kiló Tarydium Biosludge-ot"
-ItemName="Tarydium Biosludge"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Sludge"
+PickupMessage="Felvettél 25 Kiló Tarydium Üledéket"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Tarydium Üledéket"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -205,9 +213,10 @@ Name="elesett"
 AltName="elesett"
 
 [FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell."
-PickupMessage="Van egy Flak Shell."
-ItemName="Flak Shell"
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Szereztél egy Szilánklőszert"
+; EN: ItemName="Flak Shell"
+ItemName="Szilánklőszert"
 
 [Drowned]
 ; EN: Name="drowned"
@@ -253,13 +262,14 @@ ItemName="Power Shield"
 
 [RifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Van egy puska kör"
+PickupMessage="Felvettél egy Puske Töltényt"
 ; EN: ItemName="Rifle Round"
-ItemName="Puskás kör"
+ItemName="Puske Töltényt"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o-t bitekre robbantotta %k %w."
+FemDeathMessage="%o-t bitekre robbantotta %k %w."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Megvan a Négycsöves Sörétes"
 ; EN: ItemName="Quad-Barreled Shotgun"
