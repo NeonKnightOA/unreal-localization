@@ -387,12 +387,13 @@ MenuList[6]="tým"
 MenuTitle="Konfigurace umělé inteligence"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o bylo zabito %k %w. Jaký poražený!"
+FemDeathMessage="%o bylo zabito %k %w. Jaký poražený!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Máš disperzní pistoli"
+PickupMessage="Máš Disperzní Pistoli"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Rozptylová pistole"
+ItemName="Disperzní Pistoli"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -747,8 +748,9 @@ GameName="Týmová hra"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k způsobil smrtelné poškození %o s %w."
+FemDeathMessage="%k způsobil smrtelné poškození %o s %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Máte ASMD"
+PickupMessage="Máš ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -787,8 +789,10 @@ MenuTitle="BOTY"
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o bylo vícekrát zasaženo o %k %w."
-; EN: PickupMessage="You got the Eightball gun"
+FemDeathMessage="%o bylo vícekrát zasaženo o %k %w."
+; EN: PickupMessage="You got the Eightball"
 PickupMessage="Máš zbraň Eightball"
+; EN: ItemName="Eightball"
 ItemName="Eightball"
 
 [UnrealKeyboardMenu]
@@ -1040,8 +1044,10 @@ MenuTitle="VYBERTE SI HRU"
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o dostal gatted o %k %w."
+FemDeathMessage="%o dostal gatted o %k %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Máte Automag"
+; EN: ItemName="Automag"
 ItemName="Automag"
 
 [UnrealHelpMenu]
@@ -1145,11 +1151,11 @@ ItemName="Potápěčská výbava"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Zesilovač energie není napájen."
+ExpireMessage="Energetický Zesilovač je vybitý."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Máte energetický zesilovač"
+PickupMessage="Máte Energetický Zesilovač"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Zesilovač energie"
+ItemName="Energetický Zesilovač"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1198,15 +1204,17 @@ MenuTitle="ULOŽIT HRU"
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
 DeathMessage="%o bylo perforováno %k's %w."
+FemDeathMessage="%o bylo perforováno %k's %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Zvedl jsi Stinger"
+; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Zvedl jsi 12 osmičkových koulí"
+PickupMessage="Zvedl jsi 12 Osm Koule"
 ; EN: ItemName="Eightballs"
-ItemName="Osm koule"
+ItemName="Osm Koule"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1216,9 +1224,9 @@ ItemName="Hlasová schránka"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Zapnuli jste disperzní pistoli"
+PickupMessage="Zapnuli jste Vylepšovač Disperzní Pistole"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Rozptyl pistole Powerup"
+ItemName="Vylepšovač Disperzní Pistole"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1227,14 +1235,15 @@ PickupMessage="Máš světlici"
 ItemName="Světlice"
 
 [ShellBox]
-; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Vyzvedli jste 50 střel"
+; EN: PickupMessage="You picked up 50 bullets."
+PickupMessage="Vyzvedli jste 50 střel."
 ; EN: ItemName="Bullet Box"
 ItemName="Kulka"
 
 [ASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Zvedli jste jádro ASMD"
+; EN: PickupMessage="You picked up an ASMD core"
+PickupMessage="Zachytili jste jádro ASMD"
+; EN: ItemName="ASMD Core"
 ItemName="ASMD Core"
 
 [MaleThree]
@@ -1288,13 +1297,13 @@ MenuList[1]="K hraní na tomto serveru potřebujete novější verzi hry Unreal.
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Zachytil jsi 40 Tarydiových střepů"
+PickupMessage="Zachytil jsi 40 Tarydiové Střepy"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Tarydiové střepy"
+ItemName="Tarydiové Střepy"
 
 [Shells]
-; EN: PickupMessage="You picked up 12 shells"
-PickupMessage="Zachytili jste 12 granátů"
+; EN: PickupMessage="You picked up 12 Shells"
+PickupMessage="Zachytili jste 12 Granátů"
 ; EN: ItemName="Shells"
 ItemName="Mušle"
 
@@ -1306,7 +1315,7 @@ ItemName="Kevlarový oblek"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Zvedl jsi klip"
+PickupMessage="Zvedl jsi Klip"
 ; EN: ItemName="Clip"
 ItemName="Klip"
 
@@ -1348,6 +1357,7 @@ FailtureMessage="K otevření těchto dveří potřebujete klíč."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o bylo telefonováno o %k."
+FemDeathMessage="%o bylo telefonováno o %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Máte zdrojový modul translokátoru"
 ; EN: ItemName="Translocator"

@@ -386,12 +386,13 @@ MenuList[6]="Équipe"
 MenuTitle="Configuration de l'intelligence artificielle"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o a été tué par %w de %k. Quel perdant!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o a été tué par le %w de %k. Quelle merde!"
+FemDeathMessage="%o a été tuée par le %w de %k. Quelle merde!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Vous avez le pistolet de dispersion"
+PickupMessage="Vous avez récupéré le Pistolet à Dispersion"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistolet à dispersion"
+ItemName="Pistolet à Dispersion"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -751,9 +752,10 @@ GameName="Jeu d'équipe"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k inflige des dégâts mortels à %o avec le %w."
+DeathMessage="%k a blessé %o à mort avec son %w."
+FemDeathMessage="%k a blessé %o à mort avec son %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Vous avez le ASMD"
+PickupMessage="Vous avez récupéré l'ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -790,10 +792,12 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o a été claqué plusieurs fois par %w de %k."
-; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Vous avez le pistolet Eightball"
-ItemName="Eightball"
+DeathMessage="%o a été multiplement frappé par le %w de %k."
+FemDeathMessage="%o a été multiplement frappée par le %w de %k."
+; EN: PickupMessage="You got the Eightball"
+PickupMessage="Vous avez récupéré le Lance-roquettes"
+; EN: ItemName="Eightball"
+ItemName="Lance-roquettes"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1044,9 +1048,11 @@ MenuTitle="CHOISISSEZ LE JEU"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o a été gatté par %w de %k."
+DeathMessage="%o a été percé par le %w de %k."
+FemDeathMessage="%o a été percée par le %w de %k."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Vous avez l'Automag"
+PickupMessage="Vous avez récupéré l'Automag"
+; EN: ItemName="Automag"
 ItemName="Automag"
 
 [UnrealHelpMenu]
@@ -1151,11 +1157,11 @@ ItemName="Équipement de plongée"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="L'amplificateur d'énergie est hors tension."
+ExpireMessage="L'Amplificateur d'Énergie n'a plus d'énergie."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Vous avez l'amplificateur d'énergie"
+PickupMessage="Vous avez l'Amplificateur d'Énergie"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Amplificateur d'énergie"
+ItemName="Amplificateur d'Énergie"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1202,16 +1208,18 @@ MenuTitle="SAUVEGARDER LA PARTIE"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o a été perforé par %k de %w."
+DeathMessage="%o a été perforé par le %w de %k."
+FemDeathMessage="%o a été perforée par le %w de %k."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Vous avez ramassé le Stinger"
+PickupMessage="Vous avez récupéré le Stinger"
+; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Vous avez ramassé 12 huit boules"
+PickupMessage="Vous avez récupéré 12 Roquettes"
 ; EN: ItemName="Eightballs"
-ItemName="Huit boules"
+ItemName="Roquettes"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1221,9 +1229,9 @@ ItemName="Boîte vocale"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Vous avez le Powerup du pistolet à dispersion"
+PickupMessage="Vous avez récupéré une Amélioration pour votre Pistolet à Dispersion"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Mise sous tension du pistolet à dispersion"
+ItemName="Amélioration du Pistolet à Dispersion"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1233,13 +1241,13 @@ ItemName="Éclater"
 
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Vous avez ramassé 50 balles"
+PickupMessage="Vous avez récupéré 50 balles"
 ; EN: ItemName="Bullet Box"
-ItemName="Boîte à balles"
+ItemName="Boîte de Balles"
 
 [ASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Vous avez choisi un noyau ASMD"
+; EN: PickupMessage="You picked up an ASMD core"
+PickupMessage="Vous avez récupéré un Noyau ASMD"
 ; EN: ItemName="ASMD Core"
 ItemName="Noyau ASMD"
 
@@ -1294,16 +1302,16 @@ ItemName="Pack Super Santé"
 MenuList[1]="Vous avez besoin d'une version plus récente d'Unreal pour jouer sur ce serveur. Souhaitez-vous accéder au site Web d'Unreal pour une version plus récente?"
 
 [StingerAmmo]
-; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Vous avez ramassé 40 éclats de Tarydium"
+; EN: PickupMessage="You picked up 40 Tarydium shards"
+PickupMessage="Vous avez récupéré 40 éclats de Tarydium"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Éclats de tarydium"
+ItemName="Eclats de Tarydium"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
 PickupMessage="Vous avez ramassé 12 obus"
 ; EN: ItemName="Shells"
-ItemName="Coquilles"
+ItemName="Obus"
 
 [KevlarSuit]
 ; EN: PickupMessage="You picked up the Kevlar Suit"
@@ -1313,9 +1321,9 @@ ItemName="Combinaison Kevlar"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Vous avez ramassé un clip"
+PickupMessage="Vous avez récupéré un Chargeur"
 ; EN: ItemName="Clip"
-ItemName="Agrafe"
+ItemName="Chargeur"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
@@ -1356,6 +1364,7 @@ FailtureMessage="Vous avez besoin d'une clé pour ouvrir cette porte."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o a été téléfragué par %k."
+FemDeathMessage="%o a été téléfragué par %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Vous avez le module source du translocateur"
 ; EN: ItemName="Translocator"

@@ -61,9 +61,9 @@ ItemName="Garłacza"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o - %k dziurawi cię Automagiem."
 FemDeathMessage="%o - %k dziurawi cię Automagiem."
-; EN: PickupMessage="You got the AutoMag"
+; EN: PickupMessage="You got the Automag"
 PickupMessage="Podnosisz Automaga"
-; EN: ItemName="AutoMag"
+; EN: ItemName="Automag"
 ItemName="Automaga"
 
 [OldMinigun]
@@ -104,8 +104,8 @@ ItemName="Żądło"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Podnosisz magazynek 50 nabojów"
-; EN: ItemName="Shell Box"
-ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
+ItemName="Bullet Box"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle rounds"

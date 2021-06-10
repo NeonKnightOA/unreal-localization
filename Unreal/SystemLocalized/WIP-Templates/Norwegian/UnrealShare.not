@@ -377,8 +377,9 @@ MenuList[6]="Team"
 MenuTitle="Konfigurasjon av kunstig intelligens"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o ble drept av %k's %w. For en taper!"
+FemDeathMessage="%o ble drept av %k's %w. For en taper!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Du har Dispersionspistolen"
 ; EN: ItemName="Dispersion Pistol"
@@ -732,6 +733,7 @@ GameName="Lagspill"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k påførte dødelig skade på %o med %w."
+FemDeathMessage="%k påførte dødelig skade på %o med %w."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Du har ASMD"
 ; EN: ItemName="ASMD"
@@ -771,8 +773,9 @@ MenuTitle="BOTS"
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o ble slått ned flere ganger av %k's %w."
+FemDeathMessage="%o ble slått ned flere ganger av %k's %w."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Du har Eightball-pistolen"
+PickupMessage="Du har Åtteball"
 ; EN: ItemName="Eightball"
 ItemName="Åtteball"
 
@@ -1024,8 +1027,10 @@ MenuTitle="VELG SPILL"
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o fikk gatt av %k's %w."
+FemDeathMessage="%o fikk gatt av %k's %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Du har Automag"
+; EN: ItemName="Automag"
 ItemName="Automag"
 
 [UnrealHelpMenu]
@@ -1130,9 +1135,9 @@ ItemName="Dykkeutstyr"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Energiforsterkeren er tom for strøm."
+ExpireMessage="Energiforsterker er tom for strøm."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Du har energiforsterkeren"
+PickupMessage="Du har Energiforsterkeren"
 ; EN: ItemName="Energy Amplifier"
 ItemName="Energiforsterker"
 
@@ -1182,13 +1187,14 @@ MenuTitle="LAGRE SPILLET"
 DeathMessage="%o ble perforert av %k's %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Du hentet Stinger"
+; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Du hentet 12 Eightballs"
+PickupMessage="Du plukket opp 12 Åtte Baller"
 ; EN: ItemName="Eightballs"
-ItemName="Åtte baller"
+ItemName="Åtte Baller"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1198,8 +1204,9 @@ ItemName="Stemme boks"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Du har Dispersion Pistol Powerup"
-ItemName="Dispersion Pistol Powerup"
+PickupMessage="Du har Dispersjonspistol Oppstart"
+; EN: ItemName="Dispersion Pistol Powerup"
+ItemName="Dispersjonspistol Oppstart"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1215,9 +1222,9 @@ ItemName="Kuleboks"
 
 [ASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Du hentet en ASMD Core"
+PickupMessage="Du plukket opp en ASMD-Kjerne"
 ; EN: ItemName="ASMD Core"
-ItemName="ASMD-kjerne"
+ItemName="ASMD-Kjerne"
 
 [MaleThree]
 ; EN: MenuName="Male 3"
@@ -1267,12 +1274,13 @@ MenuList[1]="Du trenger en nyere versjon av Unreal for å kunne spille på denne
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Du hentet 40 Tarydium Shards"
-ItemName="Tarydium Shards"
+PickupMessage="Du plukket opp 40 Tarydium-Skjær"
+; EN: ItemName="Tarydium Shards"
+ItemName="Tarydium-Skjær"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
-PickupMessage="Du plukket opp 12 skjell"
+PickupMessage="Du plukket opp 12 Skjell"
 ; EN: ItemName="Shells"
 ItemName="Skjell"
 
@@ -1284,9 +1292,9 @@ ItemName="Kevlar-drakt"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Du hentet et klipp"
+PickupMessage="Du tok opp et Klipp"
 ; EN: ItemName="Clip"
-ItemName="Klips"
+ItemName="Klipp"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
@@ -1306,6 +1314,7 @@ MenuName="Hauk"
 [MiniGunSentry]
 ; EN: PickupMessage="You got an Automatic Sentry Gun"
 PickupMessage="Du har en automatisk våpenpistol"
+; EN: ItemName="Minigun Sentry"
 ItemName="Minigun Sentry"
 ; EN: M_Activated=" deployed."
 M_Activated=" distribuert."
@@ -1313,6 +1322,7 @@ M_Activated=" distribuert."
 [Woodruff]
 ; EN: PickupMessage="You got some Master of the Woods +"
 PickupMessage="Du har noen Master of the Woods +"
+; EN: ItemName="Master of the Woods"
 ItemName="Master of the Woods"
 
 [UIKeyTrigger]
@@ -1324,6 +1334,7 @@ FailtureMessage="Du trenger en nøkkel for å åpne døren."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o ble telefragged av %​​k."
+FemDeathMessage="%o ble telefragged av %​​k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Du har Translocator Source Module"
 ; EN: ItemName="Translocator"

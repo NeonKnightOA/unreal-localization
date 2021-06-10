@@ -14,30 +14,30 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o è stato ucciso dalla %w di %k. Che frana!"
-FemDeathMessage="%o è stato ucciso dalla %w di %k. Che frana!"
+DeathMessage="%o è stato ucciso da %w di %k. Che frana!"
+FemDeathMessage="%o è stato ucciso da %w di %k. Che frana!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Hai raccolto la Pistola Dissolvente"
+PickupMessage="Hai preso la Pistola Dissolvente"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Pistola Dissolvente"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k ha inflitto danni mortali a %o con l'%w."
-FemDeathMessage="%k ha inflitto danni mortali a %o con l'%w."
+DeathMessage="%k ha inflitto danni mortali a %o con %w."
+FemDeathMessage="%k ha inflitto danni mortali a %o con %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Hai raccolto l'ASMD"
+PickupMessage="Hai preso l'ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o è stato picchiato un sacco di volte dall' %w di %k."
-FemDeathMessage="%o è stato picchiato un sacco di volte dall' %w di %k."
+DeathMessage="%o è stato picchiato un sacco di volte da %w di %k."
+FemDeathMessage="%o è stato picchiato un sacco di volte da %w di %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Hai raccolto il Lancia 8-Ball"
+PickupMessage="Hai preso il Lancia 8-ball"
 ; EN: ItemName="Eightball"
-ItemName="Lancia 8-Ball"
+ItemName="Lancia 8-ball"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -59,10 +59,10 @@ ItemName="Cannone Contraereo"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o è stato fatto fuori dall' %w di %k."
-FemDeathMessage="%o è stato fatto fuori dall' %w di %k."
+DeathMessage="%o è stato fatto fuori da %w di %k."
+FemDeathMessage="%o è stato fatto fuori da %w di %k."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Hai raccolto l'Automag"
+PickupMessage="Hai preso l'Automag"
 ; EN: ItemName="Automag"
 ItemName="Automag"
 
@@ -97,7 +97,7 @@ ItemName="Amplificatore di Energia"
 DeathMessage="%o è stato perforato da %w di %k."
 FemDeathMessage="%o è stato perforato da %w di %k."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Hai raccolto lo Stinger"
+PickupMessage="Hai preso lo Stinger"
 ; EN: ItemName="Stinger"
 ItemName="Stinger"
 
@@ -115,7 +115,7 @@ ItemName="Cartucce del Fucile"
 
 [OldWeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Hai raccolto un Aggiornamento per la Pistola Dissolvente"
+PickupMessage="Hai preso un Aggiornamento per la Pistola Dissolvente"
 ; EN: ItemName="Dispersion Pistol Powerup"
 ItemName="Aggiornamento per Pistola Dissolvente"
 
@@ -148,7 +148,7 @@ ItemName="Nucleo ASMD"
 
 [OldStingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Hai raccolto 40 Schegge di Tarydium"
+PickupMessage="Hai raccolto 40 schegge di Tarydium"
 ; EN: ItemName="Tarydium Shards"
 ItemName="Schegge di Tarydium"
 

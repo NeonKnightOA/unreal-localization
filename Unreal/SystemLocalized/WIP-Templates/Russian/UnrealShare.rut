@@ -392,10 +392,11 @@ MenuList[6]="Команда"
 MenuTitle="Конфигурация искусственного интеллекта"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o был убит %w %k. Что за неудачник!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%k пристрелил(а) %o из дисперсионного пистолета. Вот неудачник(ца)!"
+FemDeathMessage="%k пристрелил(а) %o из дисперсионного пистолета. Вот неудачник(ца)!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="У вас есть дисперсионный пистолет"
+PickupMessage="Вы получили дисперсионный пистолет"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Дисперсионный пистолет"
 
@@ -755,9 +756,10 @@ GameName="Командная игра"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k нанес смертельный урон %o с помощью %w."
+DeathMessage="%k нанёс(есла) смертельный ущерб %o из %w."
+FemDeathMessage="%k нанёс(есла) смертельный ущерб %o из %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Вы подобрали ASMD"
+PickupMessage="У вас есть ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -795,9 +797,10 @@ MenuTitle="БОТЫ"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o был несколько раз сбит %w %k."
+DeathMessage="%k разорвал(а) %o на куски из %w'а."
+FemDeathMessage="%k разорвал(а) %o на куски из %w'а."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="У тебя есть пистолет Eightball"
+PickupMessage="Вы получили Eightball"
 ; EN: ItemName="Eightball"
 ItemName="Восьмой мяч"
 
@@ -1050,11 +1053,12 @@ MenuTitle="ВЫБРАТЬ ИГРУ"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o получил доступ к %w из %k."
+DeathMessage="%k расстрелял(а) %o из %wа."
+FemDeathMessage="%k расстрелял(а) %o из %wа."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="У вас есть Автомаг"
+PickupMessage="Вы получили пистолет"
 ; EN: ItemName="Automag"
-ItemName="Автомаг"
+ItemName="Пистолет"
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1160,11 +1164,11 @@ ItemName="Акваланг"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Усилитель энергии отключен."
+ExpireMessage="Энергия старого усилителя кончилась."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="У вас есть усилитель энергии"
+PickupMessage="Вы получили усилитель энергии"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Усилитель энергии"
+ItemName="Усилитель"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1212,15 +1216,16 @@ MenuTitle="СОХРАНИТЬ ИГРУ"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o был перфорирован %k's %w."
+DeathMessage="%o был(а) перфорирован %wом %k."
+FemDeathMessage="%o был(а) перфорирован %wом %k."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Вы взяли Стингер"
+PickupMessage="Вы подобрали Стингер"
 ; EN: ItemName="Stinger"
-ItemName="Жало"
+ItemName="Стингер"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Вы взяли 12 Eightballs"
+PickupMessage="Вы подобрали 12 ракет"
 ; EN: ItemName="Eightballs"
 ItemName="Восемь шаров"
 
@@ -1232,7 +1237,7 @@ ItemName="Голос окно"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="У вас есть усиление для дисперсионного пистолета."
+PickupMessage="Вы получили улучшитель дисперсионного пистолета"
 ; EN: ItemName="Dispersion Pistol Powerup"
 ItemName="Дисперсионный пистолет"
 
@@ -1244,13 +1249,13 @@ ItemName="Вспышка"
 
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Вы подобрали 50 патронов"
+PickupMessage="Вы подобрали 50 пуль"
 ; EN: ItemName="Bullet Box"
-ItemName="Пуля"
+ItemName="Коробка Shell"
 
 [ASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Вы выбрали ядро ​​ASMD"
+; EN: PickupMessage="You picked up an ASMD core"
+PickupMessage="Вы подобрали ядро ASMD"
 ; EN: ItemName="ASMD Core"
 ItemName="Ядро ASMD"
 
@@ -1306,7 +1311,7 @@ MenuList[1]="Для игры на этом сервере вам потребу�
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Вы собрали 40 осколков таридиума."
+PickupMessage="Вы подобрали 40 кристаллов таридия"
 ; EN: ItemName="Tarydium Shards"
 ItemName="Осколки таридиума"
 
@@ -1324,7 +1329,7 @@ ItemName="Кевларовый костюм"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Вы выбрали клип"
+PickupMessage="Вы подобрали обойму"
 ; EN: ItemName="Clip"
 ItemName="Клип"
 
@@ -1367,6 +1372,7 @@ FailtureMessage="Вам нужен ключ, чтобы открыть эту д
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o был удален по телефону %k."
+FemDeathMessage="%o был удален по телефону %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="У вас есть модуль источника транслокатора"
 ; EN: ItemName="Translocator"

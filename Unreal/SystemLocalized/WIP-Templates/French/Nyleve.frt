@@ -23,8 +23,8 @@ Hint="Lorsque vous combattez les brutes, assurez-vous d'avoir beaucoup d'espace 
 [TranslatorEvent3]
 ; EN: Message="Log: Guard R. Bijl. The situation is critical, last night large, extremely powerful alien forces penetrated our camp. Fired small missiles from hand launchers. We lost 5 men."
 Message="Journal: Garde R. Bijl. La situation est critique, la nuit dernière, de grandes forces extraterrestres extrêmement puissantes ont pénétré dans notre camp. Tir de petits missiles à partir de lanceurs manuels. Nous avons perdu 5 hommes."
-; EN: Hint="Make sure you pick up the automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
-Hint="Assurez-vous de prendre l'automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
+; EN: Hint="Make sure you pick up the Automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
+Hint="Assurez-vous de prendre l'Automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
 
 [TranslatorEvent20]
 ; EN: Message="Log: I have no damn luck. First I'm locked up for two years for a murder I did not commit, then on my way to yet another prison colony we crash on this god forsaken ball of rock. This sucks!"
@@ -35,8 +35,8 @@ Hint="Lorsque vous combattez les brutes, assurez-vous d'avoir beaucoup d'espace 
 [TranslatorEvent10]
 ; EN: Message="Log: N. Vos: Contact with members of ISV Kran! (Presumed lost in this area 3 months ago) They have seen a Skaarj vessel in operation. We may need to gain control of it to escape this system."
 Message="Log: N. Vos: Contact avec les membres de l'ISV Kran! (Présumé perdu dans cette zone il y a 3 mois) Ils ont vu un navire Skaarj en opération. Nous devrons peut-être en prendre le contrôle pour échapper à ce système."
-; EN: Hint="Make sure you pick up the automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
-Hint="Assurez-vous de prendre l'automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
+; EN: Hint="Make sure you pick up the Automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
+Hint="Assurez-vous de prendre l'Automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
 
 [TranslatorEvent14]
 ; EN: Message="Log: Guard M. v. Wely: I should have stayed with the others, I think my leg is broken in several places. My brother went looking for help 8 hours ago."
@@ -51,13 +51,13 @@ Hint="Lorsque vous combattez les brutes, assurez-vous d'avoir beaucoup d'espace 
 [TranslatorEvent9]
 ; EN: Message="Log: Cook J. Strang: No reply to distress signal. Vortex Rikers' hull is too unstable to use as shelter. We found an abandoned house to use as our base camp. Maybe the native population can help us."
 Message="Journal: Cook J. Strang: Pas de réponse au signal de détresse. La coque des Vortex Rikers est trop instable pour être utilisée comme abri. Nous avons trouvé une maison abandonnée à utiliser comme camp de base. Peut-être que la population autochtone peut nous aider."
-; EN: Hint="Make sure you pick up the automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
-Hint="Assurez-vous de prendre l'automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
+; EN: Hint="Make sure you pick up the Automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
+Hint="Assurez-vous de prendre l'Automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
 
 [TranslatorEvent21]
 ; EN: Hint="When fighting the brutes, make sure you have lots of room to strafe left or right to dodge the missiles they fire at you."
 Hint="Lorsque vous combattez les brutes, assurez-vous d'avoir beaucoup d'espace pour mitrailler à gauche ou à droite pour esquiver les missiles qu'ils tirent sur vous."
 
 [TranslatorEvent22]
-; EN: Hint="Make sure you pick up the automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
-Hint="Assurez-vous de prendre l'automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
+; EN: Hint="Make sure you pick up the Automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
+Hint="Assurez-vous de prendre l'Automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"

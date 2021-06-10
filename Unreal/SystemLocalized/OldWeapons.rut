@@ -61,9 +61,9 @@ ItemName="Флак"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%k расстрелял(а) %o из %wа."
 FemDeathMessage="%k расстрелял(а) %o из %wа."
-; EN: PickupMessage="You got the AutoMag"
+; EN: PickupMessage="You got the Automag"
 PickupMessage="Вы получили пистолет"
-; EN: ItemName="AutoMag"
+; EN: ItemName="Automag"
 ItemName="Пистолет"
 
 [OldMinigun]
@@ -104,7 +104,7 @@ ItemName="Стингер"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Вы подобрали 50 пуль"
-; EN: ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
 ItemName="Коробка Shell"
 
 [OldRifleAmmo]

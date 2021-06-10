@@ -38,8 +38,8 @@ ItemName="Flak Cannon"
 
 [OldAutoMag]
 DeathMessage="%o got gatted by %k's %w."
-PickupMessage="You got the AutoMag"
-ItemName="AutoMag"
+PickupMessage="You got the Automag"
+ItemName="Automag"
 
 [OldMinigun]
 DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -63,7 +63,7 @@ ItemName="Stinger"
 
 [OldShellBox]
 PickupMessage="You picked up 50 bullets"
-ItemName="Shell Box"
+ItemName="Bullet Box"
 
 [OldRifleAmmo]
 PickupMessage="You got 8 Rifle rounds"

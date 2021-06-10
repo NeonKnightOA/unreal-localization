@@ -35,9 +35,9 @@ ItemName="ASMD"
 DeathMessage="%o va ser colpejat diverses vegades pel %w de %k."
 FemDeathMessage="%o va ser colpejada diverses vegades pel %w de %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Tens l’arma Bola de Vuit"
+PickupMessage="Has recollit el Llançacoets Eightball"
 ; EN: ItemName="Eightball"
-ItemName="Bola de Vuit"
+ItemName="Llançacoets Eightball"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -62,9 +62,9 @@ ItemName="Canó de Metralla"
 DeathMessage="%o va ser executat pel %w de %k."
 FemDeathMessage="%o va ser executada pel %w de %k."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Tens l'Automag"
+PickupMessage="Has recollit l'Autopistola"
 ; EN: ItemName="Automag"
-ItemName="Automag"
+ItemName="Autopistola"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -86,9 +86,9 @@ ItemName="Rifle Bio GES"
 
 [OldAmplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="L'Amplificador d'Energia està fora de corrent."
+ExpireMessage="L'Amplificador d'Energia s'ha esgotat."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Tens l'Amplificador d'Energia"
+PickupMessage="Has aconseguit l'Amplificador d'Energia"
 ; EN: ItemName="Energy Amplifier"
 ItemName="Amplificador d'Energia"
 
@@ -97,15 +97,15 @@ ItemName="Amplificador d'Energia"
 DeathMessage="%o va ser perforat pel %w de %k."
 FemDeathMessage="%o va ser perforada pel %w de %k."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Heu recollit el Stinger"
+PickupMessage="Heu recollit el Canó Perforador"
 ; EN: ItemName="Stinger"
-ItemName="Stinger"
+ItemName="Canó Perforador"
 
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Vas agafar 50 bales"
 ; EN: ItemName="Bullet Box"
-ItemName="Bullet Box"
+ItemName="Caixa de Bales"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle rounds"
@@ -115,9 +115,9 @@ ItemName="Cartutxos de Fusell"
 
 [OldWeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Tens l’Enfocament de la Pistola de Dispersió"
+PickupMessage="Has recollit una Millora de Pistola de Dispersió"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Enfocament de la Pistola de Dispersió"
+ItemName="Millora de Pistola de Dispersió"
 
 [OldFlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
@@ -166,13 +166,13 @@ ItemName="Residus de Taridio"
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Has recollit 12 Vuit Pilotes"
+PickupMessage="Has recollit 12 projectils Eightball"
 ; EN: ItemName="Eightballs"
-ItemName="Vuit Pilotes"
+ItemName="Projectils Eightball"
 
 [OldClip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Heu recollit un clip"
+PickupMessage="Heu recollit un Clip"
 ; EN: ItemName="Clip"
 ItemName="Clip"
 

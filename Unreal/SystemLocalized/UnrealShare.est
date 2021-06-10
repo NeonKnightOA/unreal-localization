@@ -860,9 +860,9 @@ MenuTitle="BOTS"
 DeathMessage="%o fue vapuleado varias veces por el %w de %k."
 FemDeathMessage="%o fue vapuleada varias veces por el %w de %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Has recogido el Lanzacohetes Eightball"
+PickupMessage="Has recogido el Lanzador Eightball"
 ; EN: ItemName="Eightball"
-ItemName="Lanzacohetes Eightball"
+ItemName="Lanzador Eightball"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1117,9 +1117,9 @@ MenuTitle="ESCOGER PARTIDA"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o ha sido acribillado por el %w de %k."
 FemDeathMessage="%o ha sido acribillada por el %w de %k."
-; EN: PickupMessage="You got the AutoMag"
+; EN: PickupMessage="You got the Automag"
 PickupMessage="Has recogido la Autopistola"
-; EN: ItemName="AutoMag"
+; EN: ItemName="Automag"
 ItemName="Autopistola"
 
 [UnrealHelpMenu]
@@ -1286,9 +1286,9 @@ ItemName="Cañón Perforador"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Has recogido 12 Cohetes"
+PickupMessage="Has recogido 12 Proyectiles Eightball"
 ; EN: ItemName="Eightballs"
-ItemName="Cohetes"
+ItemName="Proyectiles Eightball"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1389,9 +1389,9 @@ ItemName="Traje de Kevlar"
 
 [Clip]
 ; EN: PickupMessage="You picked up a clip"
-PickupMessage="Has recogido un Cartucho de Balas"
+PickupMessage="Has recogido un Cartucho"
 ; EN: ItemName="Clip"
-ItemName="Cartucho de Balas"
+ItemName="Cartucho"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"

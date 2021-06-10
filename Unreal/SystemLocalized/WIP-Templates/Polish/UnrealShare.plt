@@ -382,12 +382,13 @@ MenuList[6]="Zespół"
 MenuTitle="Konfiguracja sztucznej inteligencji"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o został zabity przez %k %w. Co za przegrany!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o - %k zabija cię pistoletem rozpryskowym. Ty niezdaro!"
+FemDeathMessage="%o - %k zabija cię pistoletem rozpryskowym. Ty niezdaro!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Masz pistolet dyspersyjny"
+PickupMessage="Podnosisz Pistolet Rozpryskowy"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistolet dyspersyjny"
+ItemName="Pistolet Rozpryskowy"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -509,11 +510,13 @@ HelpMessage[12]="Naciśnij Enter, aby przejść do tego serwera. Naciśnij klawi
 MenuTitle="ULUBIONE"
 
 [Translator]
+; EN: NewMessage="Universal Translator"
 NewMessage="Universal Translator"
 ; EN: HintString="Hint:"
 HintString="Wskazówka:"
 ; EN: PickupMessage="Press F2 to activate the Translator"
 PickupMessage="Naciśnij klawisz F2, aby aktywować translator"
+; EN: ItemName="Universal Translator"
 ItemName="Universal Translator"
 
 [UnrealTeamScoreBoard]
@@ -740,9 +743,10 @@ GameName="Gra zespołowa"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k zadał śmiertelne obrażenia %o z %w."
+DeathMessage="%o - %k zadaje ci śmiertelne obrażenia %w."
+FemDeathMessage="%o - %k zadaje ci śmiertelne obrażenia %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Masz ASMD"
+PickupMessage="Podnosisz ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -780,11 +784,12 @@ MenuTitle="BOTY"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o został wielokrotnie uderzony przez %k %w."
+DeathMessage="%o - %k wielokrotnie wymierza ci klapsa Ósemką."
+FemDeathMessage="%o - %k wielokrotnie wymierza ci klapsa Ósemką."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Masz pistolet Eightball"
+PickupMessage="Podnosisz Ósemkę"
 ; EN: ItemName="Eightball"
-ItemName="Ósma Bila"
+ItemName="Ósemka"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1034,10 +1039,12 @@ MenuTitle="WYBIERZ GRĘ"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o zostało usunięte przez %k %w."
+DeathMessage="%o - %k dziurawi cię Automagiem."
+FemDeathMessage="%o - %k dziurawi cię Automagiem."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Masz Automag"
-ItemName="Automag"
+PickupMessage="Podnosisz Automaga"
+; EN: ItemName="Automag"
+ItemName="Automaga"
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1141,11 +1148,11 @@ ItemName="Sprzęt do nurkowania"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Wzmacniacz energii nie działa."
+ExpireMessage="Katalizator Energii wyczerpany."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Masz wzmacniacz energii"
+PickupMessage="Podnosisz Katalizator Energii"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Wzmacniacz energii"
+ItemName="Katalizator Energii"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1192,16 +1199,18 @@ MenuTitle="ZAPISZ GRĘ"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o zostało przedziurawione przez %k's %w."
+DeathMessage="%o - %k robi z ciebie sito przy pomocy Żądła."
+FemDeathMessage="%o - %k robi z ciebie sito przy pomocy Żądła."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Podniosłeś Stingera"
-ItemName="Stinger"
+PickupMessage="Podnosisz Żądło"
+; EN: ItemName="Stinger"
+ItemName="Żądło"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Zdobyłeś 12 ósemek"
+PickupMessage="Podnosisz 12 Rakiet do Ósemki"
 ; EN: ItemName="Eightballs"
-ItemName="Ósemki"
+ItemName="Rakiet do Ósemki"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1211,9 +1220,9 @@ ItemName="Poczta głosowa"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Masz ulepszenie pistoletu dyspersyjnego"
+PickupMessage="Podnosisz zestaw Ulepszeń do Pistoletu Rozpryskowego"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Wzmocnienie pistoletu dyspersyjnego"
+ItemName="Ulepszeń do Pistoletu Rozpryskowego"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1223,13 +1232,15 @@ ItemName="Migotać"
 
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Podniosłeś 50 kul"
+PickupMessage="Podnosisz magazynek 50 nabojów"
+; EN: ItemName="Bullet Box"
 ItemName="Bullet Box"
 
 [ASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Kupiłeś rdzeń ASMD"
-ItemName="ASMD Core"
+; EN: PickupMessage="You picked up an ASMD core"
+PickupMessage="Podnosisz rdzeń Energii do ASMD"
+; EN: ItemName="ASMD Core"
+ItemName="Energii do ASMD"
 
 [MaleThree]
 ; EN: MenuName="Male 3"
@@ -1273,6 +1284,7 @@ MenuList[7]="Natychmiastowe odradzanie się przedmiotów"
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
 PickupMessage="Kupiłeś Super Health Pack"
+; EN: ItemName="Super Health Pack"
 ItemName="Super Health Pack"
 
 [UpgradeMenu]
@@ -1281,15 +1293,15 @@ MenuList[1]="Aby grać na tym serwerze, potrzebujesz nowszej wersji Unreal. Czy 
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Zdobyłeś 40 odłamków Tarydium"
+PickupMessage="Podnosisz 40 Odłamków Tarydu"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Odłamki Tarydium"
+ItemName="Odłamków Tarydu"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
 PickupMessage="Podniosłeś 12 nabojów"
 ; EN: ItemName="Shells"
-ItemName="Muszle"
+ItemName="Nabojów"
 
 [KevlarSuit]
 ; EN: PickupMessage="You picked up the Kevlar Suit"
@@ -1299,9 +1311,9 @@ ItemName="Garnitur z Kevlaru"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Podniosłeś klip"
+PickupMessage="Podnosisz Magazynek"
 ; EN: ItemName="Clip"
-ItemName="Spinacz"
+ItemName="Magazynek"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
@@ -1341,10 +1353,12 @@ FailtureMessage="Potrzebujesz klucza, aby otworzyć te drzwi."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o został telefragmentowany przez %k."
+FemDeathMessage="%o został telefragmentowany przez %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Masz moduł źródłowy translokatora"
 ; EN: ItemName="Translocator"
 ItemName="Translokator"
+; EN: ItemArticle="the"
 ItemArticle="the"
 
 [WoodruffSchool]

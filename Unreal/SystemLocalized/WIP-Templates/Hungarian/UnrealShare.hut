@@ -386,12 +386,13 @@ MenuList[6]="Csapat"
 MenuTitle="Mesterséges intelligencia konfigurálása"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o-t %k %w ölte meg. Micsoda vesztes!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
+FemDeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Megvan a diszperziós pisztoly"
+PickupMessage="Felvetted a Szórópisztolyt"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Diszperziós pisztoly"
+ItemName="Szórópisztoly"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -744,9 +745,10 @@ GameName="Csapatjáték"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k halandó kárt okozott %o-val a %w-val."
+DeathMessage="%k halálos sérülést mért %o-ra a %w-je."
+FemDeathMessage="%k halálos sérülést mért %o-ra a %w-je."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Megvan az ASMD"
+PickupMessage="Felvetted az ASMD-t"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -784,11 +786,12 @@ MenuTitle="BOTOK"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o-t többször megcsapta %k %w."
+DeathMessage="="%o-t többször is lecsapta %k %wje."
+FemDeathMessage="="%o-t többször is lecsapta %k %wje."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Megvan a nyolcgolyós fegyver"
+PickupMessage="Felvetted a Nyolcgömböt"
 ; EN: ItemName="Eightball"
-ItemName="Nyolcgolyó"
+ItemName="Nyolcgömb"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1040,9 +1043,11 @@ MenuTitle="VÁLASSZ JÁTÉKOT"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o kapta %k által %w."
+DeathMessage="%o-t kibelezte %k %wja."
+FemDeathMessage="%o-t kibelezte %k %wja."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Megvan az Automag"
+PickupMessage="Felvetted az Automag pisztolyt"
+; EN: ItemName="Automag"
 ItemName="Automag"
 
 [UnrealHelpMenu]
@@ -1146,11 +1151,11 @@ ItemName="Búvár felszerelés"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Az energiaerősítő nem működik."
+ExpireMessage="Az EnergiaErősítő lemerült."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Megvan az Energia Erősítő"
+PickupMessage="Felvetted az EnergiaErősítőt"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Energiaerősítő"
+ItemName="EnergiaErősítő"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1197,17 +1202,18 @@ MenuTitle="JÁTÉK MENTÉSE"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o perforált %k %w-val."
+DeathMessage="%o-t kilyuggatta %k %we."
+FemDeathMessage="%o-t kilyuggatta %k %we."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Felkapta a Stingert"
+PickupMessage="Felvetted a Stingert"
 ; EN: ItemName="Stinger"
-ItemName="Fájdalmas ütés"
+ItemName="Stinger"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Felszedett 12 Nyolcgolyót"
+PickupMessage="Felvettél 12 Nyolcgömböt"
 ; EN: ItemName="Eightballs"
-ItemName="Nyolcgolyó"
+ItemName="Nyolcgömböt"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1217,9 +1223,9 @@ ItemName="Hangdoboz"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Megvan a diszperziós pisztoly bekapcsolása"
+PickupMessage="Találtál egy Szórópisztoly Erősítőt"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Disperziós pisztoly bekapcsolása"
+ItemName="Szórópisztoly Erősítőt"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1229,13 +1235,15 @@ ItemName="Fellobbanás"
 
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="50 golyót vettél fel"
-ItemName="Bullet Box"
+PickupMessage="Felvettél 50 Töltényt"
+; EN: ItemName="Bullet Box"
+ItemName="Töltény"
 
 [ASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Felvettél egy ASMD magot"
-ItemName="ASMD Core"
+PickupMessage="Felvettél egy ASMD Magot"
+; EN: ItemName="ASMD Core"
+ItemName="ASMD Magot"
 
 [MaleThree]
 ; EN: MenuName="Male 3"
@@ -1288,9 +1296,9 @@ MenuList[1]="A szerveren való lejátszáshoz az Unreal újabb verziójára van 
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Felkapott 40 Tarydium-szilánkot"
+PickupMessage="Felvettél 40 Tarydium Szilánkot"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Tarydium szilánkok"
+ItemName="Tarydium Szilánkot"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
@@ -1305,9 +1313,9 @@ ItemName="Kevlar Suit"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Felvettél egy klipet"
+PickupMessage="Felvettél egy Tárat"
 ; EN: ItemName="Clip"
-ItemName="Csipesz"
+ItemName="Tárat"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
@@ -1347,6 +1355,7 @@ FailtureMessage="Kulcsra van szüksége az ajtó kinyitásához."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o-t %k telefaxolta."
+FemDeathMessage="%o-t %k telefaxolta."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Megkapta a Translocator Source Modult"
 ; EN: ItemName="Translocator"

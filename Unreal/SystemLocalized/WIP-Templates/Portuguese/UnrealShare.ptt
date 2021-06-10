@@ -382,10 +382,11 @@ MenuList[6]="Equipe"
 MenuTitle="Configuração de Inteligência Artificial"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o foi morto por %k's %w. Que perdedor!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o foi morto pela %w de %k. Que perdedor!"
+FemDeathMessage="%o foi morta pela %w de %k. Que perdedor!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Você tem a pistola de dispersão"
+PickupMessage="Você pegou uma Pistola de Dispersão"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Pistola de Dispersão"
 
@@ -740,9 +741,10 @@ GameName="Jogo de Equipe"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k infligiu dano mortal em %o com %w."
+DeathMessage="%k inflingiu dano mortal sobre %o com a %w."
+FemDeathMessage="%k inflingiu dano mortal sobre %o com a %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Você tem o ASMD"
+PickupMessage="Você pegou o ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -779,11 +781,12 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o foi derrubado várias vezes por %k's %w."
+DeathMessage="%o foi massacrado múltiplas vezes por %w de %k."
+FemDeathMessage="%o foi massacrada múltiplas vezes por %w de %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Você tem a arma Eightball"
+PickupMessage="Você pegou a arma Bola Oito"
 ; EN: ItemName="Eightball"
-ItemName="Bola oito"
+ItemName="Bola Oito"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1029,10 +1032,12 @@ MenuTitle="ESCOLHER O JOGO"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o foi disparado por %k's %w."
+DeathMessage="%o foi encurralado pela %w de %k."
+FemDeathMessage="%o foi encurralada pela %w de %k."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Você tem o Automag"
-ItemName="Automag"
+PickupMessage="Você pegou a Magnum Automática"
+; EN: ItemName="Automag"
+ItemName="Magnum Automática"
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1136,11 +1141,11 @@ ItemName="Equipamento de mergulho"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="O amplificador de energia está sem energia."
+ExpireMessage="O Amplificador de Energia esta sem energia."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Você tem o amplificador de energia"
+PickupMessage="Você pegou o Amplificador de Energia"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Amplificador de energia"
+ItemName="Amplificador de Energia"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1186,16 +1191,18 @@ MenuTitle="SALVAR JOGO"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o foi perfurado por %k's %w."
+DeathMessage="%o foi perfurado pela %w de %k."
+FemDeathMessage="%o foi perfurada pela %w de %k."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Você pegou o Stinger"
-ItemName="Stinger"
+PickupMessage="Você pegou a Perfuradora"
+; EN: ItemName="Stinger"
+ItemName="Perfuradora"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Você pegou 12 Eightballs"
+PickupMessage="Você pegou 12 Projéteis Bola Oito"
 ; EN: ItemName="Eightballs"
-ItemName="Oito bolas"
+ItemName="Projéteis Bola Oito"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1205,24 +1212,27 @@ ItemName="Caixa de voz"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Você tem o Powerup da Dispersão da Pistola"
+PickupMessage="Você pegou o Energizador da Pistola de Dispersão"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Powerup da pistola de dispersão"
+ItemName="Energizador da Pistola de Dispersão"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
 PickupMessage="Você tem um sinalizador"
-ItemName="Flare"
+; EN: ItemName="Flare"
+ItemName="Sinalizador"
 
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Você pegou 50 balas"
-ItemName="Bullet Box"
+PickupMessage="Você pegou 50 munições"
+; EN: ItemName="Bullet Box"
+ItemName="Caja de Munições"
 
 [ASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Você pegou um núcleo ASMD"
-ItemName="ASMD Core"
+PickupMessage="Você pegou um Núcleo de ASMD"
+; EN: ItemName="ASMD Core"
+ItemName="Núcleo de ASMD"
 
 [MaleThree]
 ; EN: MenuName="Male 3"
@@ -1275,26 +1285,27 @@ MenuList[1]="Você precisa de uma versão mais recente do Unreal para jogar nest
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Você pegou 40 Fragmentos de Tarydium"
+PickupMessage="Você pegou 40 Fragmentos de Tarídio"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Fragmentos de Tarydium"
+ItemName="Fragmentos de Tarídio"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
-PickupMessage="Você pegou 12 conchas"
+PickupMessage="Você pegou 12 Cartuchos"
 ; EN: ItemName="Shells"
 ItemName="Cartuchos"
 
 [KevlarSuit]
 ; EN: PickupMessage="You picked up the Kevlar Suit"
-PickupMessage="Você pegou o terno Kevlar"
-ItemName="Kevlar Suit"
+PickupMessage="Você pegou o Terno Kevlar"
+; EN: ItemName="Kevlar Suit"
+ItemName="Terno Kevlar"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Você pegou um clipe"
+PickupMessage="Você pegou um Pente de Munições"
 ; EN: ItemName="Clip"
-ItemName="Grampo"
+ItemName="Pente de Munições"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
@@ -1335,8 +1346,10 @@ FailtureMessage="Você precisa de uma chave para abrir esta porta."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o foi telefragged por %k."
+FemDeathMessage="%o foi telefragged por %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Você tem o Módulo de Origem do Translocator"
+; EN: ItemName="Translocator"
 ItemName="Translocator"
 ; EN: ItemArticle="the"
 ItemArticle="a"

@@ -61,9 +61,9 @@ ItemName="Cañón de Metralla"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o ha sido acribillado por el %w de %k."
 FemDeathMessage="%o ha sido acribillada por el %w de %k."
-; EN: PickupMessage="You got the AutoMag"
+; EN: PickupMessage="You got the Automag"
 PickupMessage="Has recogido la Autopistola"
-; EN: ItemName="AutoMag"
+; EN: ItemName="Automag"
 ItemName="Autopistola"
 
 [OldMinigun]
@@ -104,7 +104,7 @@ ItemName="Cañón Perforador"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Has recogido una caja de 50 Balas"
-; EN: ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
 ItemName="Caja de Balas"
 
 [OldRifleAmmo]
@@ -141,10 +141,10 @@ PickupMessage="Has recogido algo de munción"
 ItemName="Munición"
 
 [OldASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD core"
-PickupMessage="Has recogido un Núcleo de ASMD"
+; EN: PickupMessage="You picked up an ASMD Core"
+PickupMessage="Has recogido un Núcleo ASMD"
 ; EN: ItemName="ASMD Core"
-ItemName="Núcleo de ASMD"
+ItemName="Núcleo ASMD"
 
 [OldStingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium shards"
@@ -166,15 +166,15 @@ ItemName="Residuos de Taridio"
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Has recogido 12 Cohetes Eightball"
+PickupMessage="Has recogido 12 Proyectiles Eightball"
 ; EN: ItemName="Eightballs"
-ItemName="Cohetes Eightball"
+ItemName="Proyectiles Eightball"
 
 [OldClip]
 ; EN: PickupMessage="You picked up a clip"
-PickupMessage="Has recogido un Cartucho de Balas"
+PickupMessage="Has recogido un Cartucho"
 ; EN: ItemName="Clip"
-ItemName="Cartucho de Balas"
+ItemName="Cartucho"
 
 [OldRifleRound]
 ; EN: PickupMessage="You got a Rifle round"

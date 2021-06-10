@@ -384,8 +384,9 @@ MenuList[6]="Mannschaft"
 MenuTitle="Konfiguration der künstlichen Intelligenz"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o wurde von %ks %w getötet. Was für ein Verlierer!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o wurde von %ks %w getötet. So ein Versager!"
+FemDeathMessage="%o wurde von %ks %w getötet. So ein Versager!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Du hast die Dispersionspistole"
 ; EN: ItemName="Dispersion Pistol"
@@ -742,9 +743,10 @@ GameName="Teamspiel"
 
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k fügte %o mit %w tödlichen Schaden zu."
+DeathMessage="%k fügte %o mit %w vernichtenden Schaden zu."
+FemDeathMessage="%k fügte %o mit %w vernichtenden Schaden zu."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Du hast das ASMD"
+PickupMessage="Du hast die ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -781,10 +783,12 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o wurde mehrmals von %ks %w geschlagen."
+DeathMessage="%o wurde von %ks %w mehrfach zurückgeschlagen."
+FemDeathMessage="%o wurde von %ks %w mehrfach zurückgeschlagen."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Du hast die Eightball-Waffe"
-ItemName="Eightball"
+PickupMessage="Du hast das Achtkugelgeschütz"
+; EN: ItemName="Eightball"
+ItemName="Achtkugel"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1032,9 +1036,11 @@ MenuTitle="WÄHLEN SIE DAS SPIEL"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o wurde von %ks %w gatted."
+DeathMessage="%o wurde von %ks %w erledigt."
+FemDeathMessage="%o wurde von %ks %w erledigt."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Du hast den Automag"
+PickupMessage="Du hast das Automag"
+; EN: ItemName="Automag"
 ItemName="Automag"
 
 [UnrealHelpMenu]
@@ -1139,11 +1145,11 @@ ItemName="Tauchausrüstung"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Der Energieverstärker hat keinen Strom mehr."
+ExpireMessage="Energie-Verstärker ist leer."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Du hast den Energieverstärker"
+PickupMessage="Du hast den Energie-Verstärker"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Energieverstärker"
+ItemName="Energie-Verstärker"
 
 [UnrealNewGameMenu]
 ; EN: HelpMessage[1]="Tourist mode."
@@ -1190,16 +1196,18 @@ MenuTitle="SPIEL SPEICHERN"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o wurde durch %k %w perforiert."
+DeathMessage="%o wurde von %ks %w durchsiebt."
+FemDeathMessage="%o wurde von %ks %w durchsiebt."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Du hast den Stinger aufgehoben"
+PickupMessage="Du hast die Stinger eingesammelt"
+; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Du hast 12 Eightballs aufgenommen"
+PickupMessage="Du hast 12 Achtkugeln aufgenommen"
 ; EN: ItemName="Eightballs"
-ItemName="Acht Bälle"
+ItemName="Achtkugeln"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1209,9 +1217,9 @@ ItemName="Anrufbeantworter"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Du hast das Dispersionspistolen-Powerup"
+PickupMessage="Du hast das Powerup für Dispersionspistole aufgenommen"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Dispersionspistole Powerup"
+ItemName="Powerup für Dispersionspistole"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1222,12 +1230,14 @@ ItemName="Fackel"
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Sie haben 50 Kugeln aufgenommen"
+; EN: ItemName="Bullet Box"
 ItemName="Bullet Box"
 
 [ASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD Core"
+; EN: PickupMessage="You picked up an ASMD core"
 PickupMessage="Sie haben einen ASMD-Kern aufgenommen"
-ItemName="ASMD Core"
+; EN: ItemName="ASMD Core"
+ItemName="ASMD-Kern"
 
 [MaleThree]
 ; EN: MenuName="Male 3"
@@ -1279,10 +1289,10 @@ ItemName="Super Gesundheitspaket"
 MenuList[1]="Sie benötigen eine neuere Version von Unreal, um auf diesem Server spielen zu können. Möchten Sie auf der Unreal-Website eine neuere Version finden?"
 
 [StingerAmmo]
-; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Du hast 40 Tarydiumscherben aufgenommen"
+; EN: PickupMessage="You picked up 40 Tarydium shards"
+PickupMessage="Sie haben 40 Tarydium-Scherben aufgenommen"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Tarydiumscherben"
+ItemName="Tarydium-Scherben"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
@@ -1299,6 +1309,7 @@ ItemName="Kevlar Anzug"
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
 PickupMessage="Du hast einen Clip aufgenommen"
+; EN: ItemName="Clip"
 ItemName="Clip"
 
 [Bandages]
@@ -1340,6 +1351,7 @@ FailtureMessage="Sie benötigen einen Schlüssel, um diese Tür zu öffnen."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o wurde von %k telefragmentiert."
+FemDeathMessage="%o wurde von %k telefragmentiert."
 ; EN: PickupMessage="You got the Translocator Source Module"
 PickupMessage="Sie haben das Translocator-Quellmodul"
 ; EN: ItemName="Translocator"

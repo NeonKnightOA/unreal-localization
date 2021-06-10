@@ -61,10 +61,10 @@ ItemName="Canon Flak"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o a été percé par le %w de %k."
 FemDeathMessage="%o a été percée par le %w de %k."
-; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Vous avez récupéré l'AutoMag"
-; EN: ItemName="AutoMag"
-ItemName="AutoMag"
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Vous avez récupéré l'Automag"
+; EN: ItemName="Automag"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -104,7 +104,7 @@ ItemName="Stinger"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Vous avez récupéré 50 balles"
-; EN: ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
 ItemName="Boîte de Balles"
 
 [OldRifleAmmo]

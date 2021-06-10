@@ -61,10 +61,10 @@ ItemName="Szilánkvető"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o-t kibelezte %k %wja."
 FemDeathMessage="%o-t kibelezte %k %wja."
-; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Felvetted az AutoMag pisztolyt"
-; EN: ItemName="AutoMag"
-ItemName="AutoMag"
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Felvetted az Automag pisztolyt"
+; EN: ItemName="Automag"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -85,7 +85,7 @@ PickupMessage="Felvetted a GES Biológiai Fegyvert"
 ItemName="GES Biológiai Fegyver"
 
 [OldAmplifier]
-; EN: ExpireMessage="Amplifier is out of power."
+; EN: ExpireMessage="Energy Amplifier is out of power."
 ExpireMessage="Az EnergiaErősítő lemerült."
 ; EN: PickupMessage="You got the Energy Amplifier"
 PickupMessage="Felvetted az EnergiaErősítőt"
@@ -104,7 +104,7 @@ ItemName="Stinger"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Felvettél 50 Töltényt"
-; EN: ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
 ItemName="Töltény"
 
 [OldRifleAmmo]

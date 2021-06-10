@@ -382,8 +382,9 @@ MenuList[6]="Team"
 MenuTitle="Artificial Intelligence-configuratie"
 
 [DispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="%o werd gedood door %k's %w. Wat een loser!"
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o werd gedood door de %w van %k. Wat een loser!"
+FemDeathMessage="%o werd gedood door de %w van %k. Wat een loser!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Je hebt het Dispersion Pistol"
 ; EN: ItemName="Dispersion Pistol"
@@ -738,8 +739,9 @@ GameName="Team spel"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k heeft dodelijke schade toegebracht aan %o met de %w."
+FemDeathMessage="%k heeft dodelijke schade toegebracht aan %o met de %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Je hebt het ASMD"
+PickupMessage="Je hebt de ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -776,11 +778,12 @@ MenuTitle="BOTS"
 
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o werd meerdere keren neergeslagen door %k's %w."
+DeathMessage="%o werd meerdere keren neergeslagen door de %w van %k."
+FemDeathMessage="%o werd meerdere keren neergeslagen door de %w van %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Je hebt het Eightball-pistool"
+PickupMessage="Je hebt het Eightball"
 ; EN: ItemName="Eightball"
-ItemName="Acht bal"
+ItemName="Eightball"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1028,9 +1031,11 @@ MenuTitle="KIES HET SPEL"
 
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o is geslagen door %k's %w."
+DeathMessage="%o is geslagen door de %w van %k."
+FemDeathMessage="%o is geslagen door de %w van %k."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Je hebt de Automag"
+; EN: ItemName="Automag"
 ItemName="Automag"
 
 [UnrealHelpMenu]
@@ -1136,7 +1141,7 @@ ItemName="Duikuitrusting"
 ; EN: ExpireMessage="Energy Amplifier is out of power."
 ExpireMessage="Energieversterker is leeg."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Je hebt de energieversterker"
+PickupMessage="Je hebt de Energieversterker"
 ; EN: ItemName="Energy Amplifier"
 ItemName="Energieversterker"
 
@@ -1185,16 +1190,18 @@ MenuTitle="SPEL OPSLAAN"
 
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o was geperforeerd door %k's %w."
+DeathMessage="%o was geperforeerd door de %w van %k."
+FemDeathMessage="%o was geperforeerd door de %w van %k."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Je hebt de Stinger opgepakt"
+; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
 PickupMessage="Je hebt 12 Eightballs opgepakt"
 ; EN: ItemName="Eightballs"
-ItemName="Acht ballen"
+ItemName="Eightballs"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
@@ -1203,9 +1210,9 @@ ItemName="Voice Box"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Je hebt de Dispersion Pistol Power-up"
+PickupMessage="Je hebt de Dispersiepistool Power-up"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Dispersion Pistol Power-up"
+ItemName="Dispersiepistool Power-up"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1216,13 +1223,14 @@ ItemName="Gloed"
 [ShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Je hebt 50 kogels opgepikt"
+; EN: ItemName="Bullet Box"
 ItemName="Bullet Box"
 
 [ASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Je hebt een ASMD-kern opgepikt"
+PickupMessage="Je hebt een ASMD-Kern opgepikt"
 ; EN: ItemName="ASMD Core"
-ItemName="ASMD-kern"
+ItemName="ASMD-Kern"
 
 [MaleThree]
 ; EN: MenuName="Male 3"
@@ -1275,15 +1283,15 @@ MenuList[1]="Je hebt een nieuwere versie van Unreal nodig om op deze server te s
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Je hebt 40 Tarydium-scherven opgepikt"
+PickupMessage="Je hebt 40 Tarydium-Scherven opgepikt"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Tarydium-scherven"
+ItemName="Tarydium-Scherven"
 
 [Shells]
 ; EN: PickupMessage="You picked up 12 shells"
-PickupMessage="Je hebt 12 granaten opgepakt"
+PickupMessage="Je hebt 12 Granaten opgepakt"
 ; EN: ItemName="Shells"
-ItemName="Schelpen"
+ItemName="Granaten"
 
 [KevlarSuit]
 ; EN: PickupMessage="You picked up the Kevlar Suit"
@@ -1293,9 +1301,9 @@ ItemName="Kevlar-pak"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Je hebt een clip opgepakt"
+PickupMessage="Je hebt een Clip opgepakt"
 ; EN: ItemName="Clip"
-ItemName="Klem"
+ItemName="Clip"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
@@ -1315,8 +1323,9 @@ MenuName="Havik"
 
 [MiniGunSentry]
 ; EN: PickupMessage="You got an Automatic Sentry Gun"
-PickupMessage="Je hebt een automatisch schildwachtpistool"
-ItemName="Minigun Sentry"
+PickupMessage="Je hebt een Automatisch Schildwachtpistool"
+; EN: ItemName="Minigun Sentry"
+ItemName="Minigun Schildwacht"
 ; EN: M_Activated=" deployed."
 M_Activated=" ingezet."
 
@@ -1335,8 +1344,10 @@ FailtureMessage="Je hebt een sleutel nodig om deze deur te openen."
 [UTranslocator]
 ; EN: DeathMessage="%o was telefragged by %k."
 DeathMessage="%o is telefragged door %k."
+FemDeathMessage="%o is telefragged door %k."
 ; EN: PickupMessage="You got the Translocator Source Module"
-PickupMessage="Je hebt de Translocator Source Module"
+PickupMessage="Je hebt de Translocator-Bronmodule"
+; EN: ItemName="Translocator"
 ItemName="Translocator"
 ; EN: ItemArticle="the"
 ItemArticle="de"

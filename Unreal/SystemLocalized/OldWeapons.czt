@@ -61,10 +61,10 @@ ItemName="šrapnelové Dělo"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o dostal gatted o %k %w."
 FemDeathMessage="%o dostal gatted o %k %w."
-; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Máte AutoMag"
-; EN: ItemName="AutoMag"
-ItemName="AutoMag"
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Máte Automag"
+; EN: ItemName="Automag"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -104,7 +104,7 @@ ItemName="Stinger"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets."
 PickupMessage="Vyzvedli jste 50 střel."
-; EN: ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
 ItemName="Kulka"
 
 [OldRifleAmmo]

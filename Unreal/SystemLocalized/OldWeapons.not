@@ -61,9 +61,10 @@ ItemName="Flak Kanon"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o fikk gatt av %k's %w."
 FemDeathMessage="%o fikk gatt av %k's %w."
-; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Du har AutoMag"
-ItemName="AutoMag"
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Du har Automag"
+; EN: ItemName="Automag"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -102,8 +103,8 @@ ItemName="Stinger"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Du tok opp 50 kuler"
-; EN: ItemName="Shell Box"
-ItemName="Shell Box"
+; EN: ItemName="Bullet Box"
+ItemName="Kuleboks"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle Rounds"

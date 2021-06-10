@@ -61,10 +61,10 @@ ItemName="Luchtafweerkanon"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o is geslagen door de %w van %k."
 FemDeathMessage="%o is geslagen door de %w van %k."
-; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Je hebt de AutoMag"
-; EN: ItemName="AutoMag"
-ItemName="AutoMag"
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Je hebt de Automag"
+; EN: ItemName="Automag"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -104,8 +104,8 @@ ItemName="Stinger"
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="Je hebt 50 kogels opgepikt"
-; EN: ItemName="Shell Box"
-ItemName="Shell Doos"
+; EN: ItemName="Bullet Box"
+ItemName="Bullet Box"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle Rounds"

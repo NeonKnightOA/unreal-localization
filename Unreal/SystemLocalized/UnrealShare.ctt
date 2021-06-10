@@ -450,9 +450,9 @@ MenuTitle="Configuració d'Intel·ligència Artificial"
 DeathMessage="%o va ser assassinat per %w de %k. Quin perdedor!"
 FemDeathMessage="%o va ser assassinada per %w de %k. Quin perdedor!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Tens la pistola de dispersió"
+PickupMessage="Tens la pistola de Dispersió"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistola de dispersió"
+ItemName="Pistola de Dispersió"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -1292,9 +1292,9 @@ ItemName="Caixa de Veus"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Has recollit una millora de pistola de dispersió"
+PickupMessage="Has recollit una Millora de Pistola de Dispersió"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Millora de pistola de dispersió"
+ItemName="Millora de Pistola de Dispersió"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
@@ -1310,7 +1310,7 @@ ItemName="Caixa de Bales"
 
 [ASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Heu recollit un nucli ASMD"
+PickupMessage="Heu recollit un Nucli ASMD"
 ; EN: ItemName="ASMD Core"
 ItemName="Nucli ASMD"
 
@@ -1366,13 +1366,13 @@ MenuList[1]="Necessiteu una versió més nova d’Unreal per reproduir-la en aqu
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Heu recollit 40 fragments de tarydium"
+PickupMessage="Heu recollit 40 Fragments de Tarydium"
 ; EN: ItemName="Tarydium Shards"
 ItemName="Fragments de Tarydium"
 
 [Shells]
-; EN: PickupMessage="You picked up 12 shells"
-PickupMessage="Has agafat 12 petxines"
+; EN: PickupMessage="You picked up 12 Shells"
+PickupMessage="Has agafat 12 Petxines"
 ; EN: ItemName="Shells"
 ItemName="Petxines"
 
@@ -1384,7 +1384,7 @@ ItemName="Armilla de Kevlar"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Heu recollit un clip"
+PickupMessage="Heu recollit un Clip"
 ; EN: ItemName="Clip"
 ItemName="Clip"
 
@@ -1406,7 +1406,7 @@ MenuName="Falcó"
 
 [MiniGunSentry]
 ; EN: PickupMessage="You got an Automatic Sentry Gun"
-PickupMessage="Tens una Torreta Sentinella Automàtica"
+PickupMessage="Heu recollit una Torreta Sentinella Automàtica"
 ; EN: ItemName="Minigun Sentry"
 ItemName="Torreta Sentinella"
 ; EN: M_Activated=" deployed."
