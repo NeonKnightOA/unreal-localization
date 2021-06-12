@@ -1,30 +1,30 @@
 ﻿[LevelInfo2]
 ; EN: Title="Bounds of Foundry"
-Title="Limiti della fonderia"
+Title="Ai Margini della Fonderia"
 
 [LevelSummary]
 ; EN: Title="Bounds of Foundry"
-Title="Limiti della fonderia"
+Title="Ai Margini della Fonderia"
 
 [Counter0]
 ; EN: CountMessage="%i more to go..."
-CountMessage="Ancora per andare ..."
+CountMessage="%i ancora..."
 ; EN: CompleteMessage="Pumps destroyed! Emergency doors open."
 CompleteMessage="Pompe distrutte! Porte di emergenza aperte."
 
 [TranslatorEvent2]
 ; EN: Message="Crane controls must be activated in lower control room."
-Message="I comandi della gru devono essere attivati ​​nella sala di controllo inferiore."
+Message="I controlli della gru devono essere attivati dalla sala comandi inferiore."
 
 [TranslatorEvent6]
 ; EN: Message="Warning: Simultaneous activation of both pumps might result in explosion due to pressure level!"
-Message="Avvertenza: l'attivazione simultanea di entrambe le pompe potrebbe provocare un'esplosione a causa del livello di pressione!"
+Message="Attenzione: l'attivazione simultanea delle pompe potrebbe provocare un'esplosione a causa dell'elevata pressione!"
 
 [TranslatorEvent3]
 ; EN: Message="WARNING: Toxic fume buildup exceeds regulation limits. Exercise caution with weaponry near Tarydium byproducts."
-Message="AVVERTENZA: l'accumulo di fumi tossici supera i limiti di legge. Fare attenzione con le armi vicino ai sottoprodotti di Tarydium."
+Message="ATTENZIONE: esalazioni tossiche oltre il limite di guardia. Le armi vanno utilizzate con attenzione nei pressi dei sottoprodotti del Tarydium."
 
 [TranslatorEvent5]
 ; EN: Message="WARNING: Remain clear of Tarydium Byproducts unless properly outfitted with Toxin Suit."
-Message="AVVERTENZA: rimanere lontano dai sottoprodotti del Tarydium a meno che non sia stato adeguatamente equipaggiato con la tuta anti tossina."
+Message="ATTENZIONE: restare lontani dai sottoprodotti del Tarydium se non si indossa una tuta protettiva."
 AltMessage="Test!"
