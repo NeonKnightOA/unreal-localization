@@ -3123,8 +3123,8 @@ Bio[2]="Również z Necris Kragoth jest znanym członkiem tajnego stowarzyszenia
 BotNames[0]="Luthienne"
 ; EN: BotClassifications[0]="Civilian"
 BotClassifications[0]="Cywil"
-; EN: Bio[0]="Having survived the Wreck of the ISV-Kran, Luthienne was forced to watch all her friends and crewmates die at the hands of the Skaarj until she and 3 others were rescued two years later. Irreparably scarred by her experience, she has entered the Tournament to confront her inner demons and ultimately to silence them through her own death."
-Bio[0]="Po przeżyciu wraku ISV-Krana, Luthienne była zmuszona patrzeć, jak wszyscy jej przyjaciele i członkowie załogi giną z rąk Skaarj, dopóki ona i 3 innych nie zostali uratowani dwa lata później. Nieodwracalnie przerażona swoim doświadczeniem, weszła do Turnieju, aby zmierzyć się ze swoimi wewnętrznymi demonami i ostatecznie uciszyć je własną śmiercią."
+; EN: Bio[0]="Having survived the Wreck of the ISV-KRAN, Luthienne was forced to watch all her friends and crewmates die at the hands of the Skaarj until she and 3 others were rescued two years later. Irreparably scarred by her experience, she has entered the Tournament to confront her inner demons and ultimately to silence them through her own death."
+Bio[0]="Po przeżyciu wraku ISV-KRANa, Luthienne była zmuszona patrzeć, jak wszyscy jej przyjaciele i członkowie załogi giną z rąk Skaarj, dopóki ona i 3 innych nie zostali uratowani dwa lata później. Nieodwracalnie przerażona swoim doświadczeniem, weszła do Turnieju, aby zmierzyć się ze swoimi wewnętrznymi demonami i ostatecznie uciszyć je własną śmiercią."
 
 [RatedMatchDM3]
 BotNames[0]="Slain"

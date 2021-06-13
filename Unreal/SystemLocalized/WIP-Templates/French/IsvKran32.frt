@@ -1,12 +1,12 @@
 ﻿[LevelInfo2]
-; EN: Title="ISV-Kran Decks 3 and 2"
-Title="Platines ISV-Kran 3 et 2"
-; EN: LevelEnterText="Entering ISV-Kran Deck 3"
-LevelEnterText="Accéder à ISV-Kran Deck 3"
+; EN: Title="ISV-KRAN Decks 3 and 2"
+Title="Platines ISV-KRAN 3 et 2"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 3"
+LevelEnterText="Accéder à ISV-KRAN Deck 3"
 
 [LevelSummary]
-; EN: Title="ISV-Kran Decks 3 and 2"
-Title="Platines ISV-Kran 3 et 2"
+; EN: Title="ISV-KRAN Decks 3 and 2"
+Title="Platines ISV-KRAN 3 et 2"
 ; EN: LevelEnterText="Entering ISV-Kean Deck 3"
 LevelEnterText="Accéder à ISV-Kean Deck 3"
 

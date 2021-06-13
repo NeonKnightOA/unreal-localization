@@ -21,8 +21,8 @@ Message="Uciekłem z celi, ale nie mogę znaleźć siły, by iść dalej. Zapami
 Message="Żałuję, że nie umarłem, gdy rozbił się Vortex Rikers. Nie wiem, co się ze mną stanie. Boję się."
 
 [TranslatorEvent4]
-; EN: Message="I'm so hungry. I hope that the others in the scouting party from the ISV Kran will find me. This is the only hope that keeps me going from day to day. Without that to cling to I'd be insane by now. I can't stand the screams of pain much longer."
-Message="Jestem taki głodny. Mam nadzieję, że reszta drużyny zwiadowczej z ISV Kran mnie odnajdzie. To jedyna nadzieja, która pozwala mi żyć z dnia na dzień. Bez tego, żeby się do tego przylgnąć, byłbym już szalony. Nie mogę dłużej znieść krzyków bólu."
+; EN: Message="I'm so hungry. I hope that the others in the scouting party from the ISV-KRAN will find me. This is the only hope that keeps me going from day to day. Without that to cling to I'd be insane by now. I can't stand the screams of pain much longer."
+Message="Jestem taki głodny. Mam nadzieję, że reszta drużyny zwiadowczej z ISV-KRAN mnie odnajdzie. To jedyna nadzieja, która pozwala mi żyć z dnia na dzień. Bez tego, żeby się do tego przylgnąć, byłbym już szalony. Nie mogę dłużej znieść krzyków bólu."
 
 [TranslatorEvent5]
 ; EN: Message="If I am to die here in this place, it pleases my mind that some of my former captors are here with me. Tomorrow I will find my own peace in death knowing that they have all suffered before me."

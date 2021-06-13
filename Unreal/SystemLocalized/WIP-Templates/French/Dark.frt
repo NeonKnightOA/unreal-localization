@@ -23,8 +23,8 @@ Message="Je me suis échappé de ma cellule mais je ne trouve pas la force de co
 Message="J'aurais aimé mourir quand les Vortex Rikers se sont écrasés. Je ne sais pas ce que je deviendrai. J'ai peur."
 
 [TranslatorEvent4]
-; EN: Message="I'm so hungry. I hope that the others in the scouting party from the ISV Kran will find me. This is the only hope that keeps me going from day to day. Without that to cling to I'd be insane by now. I can't stand the screams of pain much longer."
-Message="J'ai tellement faim. J'espère que les autres membres du groupe de reconnaissance de l'ISV Kran me trouveront. C'est le seul espoir qui me permet de continuer au jour le jour. Sans cela, je serais fou maintenant. Je ne supporte plus les cris de douleur."
+; EN: Message="I'm so hungry. I hope that the others in the scouting party from the ISV-KRAN will find me. This is the only hope that keeps me going from day to day. Without that to cling to I'd be insane by now. I can't stand the screams of pain much longer."
+Message="J'ai tellement faim. J'espère que les autres membres du groupe de reconnaissance de l'ISV-KRAN me trouveront. C'est le seul espoir qui me permet de continuer au jour le jour. Sans cela, je serais fou maintenant. Je ne supporte plus les cris de douleur."
 
 [TranslatorEvent5]
 ; EN: Message="If I am to die here in this place, it pleases my mind that some of my former captors are here with me. Tomorrow I will find my own peace in death knowing that they have all suffered before me."

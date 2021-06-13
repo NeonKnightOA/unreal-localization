@@ -33,8 +33,8 @@ Message="Journal: Je n'ai pas de chance. D'abord je suis enfermé pendant deux a
 Hint="Lorsque vous combattez les brutes, assurez-vous d'avoir beaucoup d'espace pour mitrailler à gauche ou à droite pour esquiver les missiles qu'ils tirent sur vous."
 
 [TranslatorEvent10]
-; EN: Message="Log: N. Vos: Contact with members of ISV Kran! (Presumed lost in this area 3 months ago) They have seen a Skaarj vessel in operation. We may need to gain control of it to escape this system."
-Message="Log: N. Vos: Contact avec les membres de l'ISV Kran! (Présumé perdu dans cette zone il y a 3 mois) Ils ont vu un navire Skaarj en opération. Nous devrons peut-être en prendre le contrôle pour échapper à ce système."
+; EN: Message="Log: N. Vos: Contact with members of ISV-KRAN! (Presumed lost in this area 3 months ago) They have seen a Skaarj vessel in operation. We may need to gain control of it to escape this system."
+Message="Log: N. Vos: Contact avec les membres de l'ISV-KRAN! (Présumé perdu dans cette zone il y a 3 mois) Ils ont vu un navire Skaarj en opération. Nous devrons peut-être en prendre le contrôle pour échapper à ce système."
 ; EN: Hint="Make sure you pick up the Automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
 Hint="Assurez-vous de prendre l'Automag près de la maison juste à l'extérieur de Vortex Rikers. Faites une baignade rafraîchissante pendant que vous y êtes!"
 

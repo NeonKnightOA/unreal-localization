@@ -33,8 +33,8 @@ Message="Log: Cholera, nie mam szczęścia. Najpierw jestem zamknięty na dwa la
 Hint="Walcząc z bestiami, upewnij się, że masz dużo miejsca na ostrzeliwanie w lewo lub w prawo, aby uniknąć pocisków, które w ciebie strzelają."
 
 [TranslatorEvent10]
-; EN: Message="Log: N. Vos: Contact with members of ISV Kran! (Presumed lost in this area 3 months ago) They have seen a Skaarj vessel in operation. We may need to gain control of it to escape this system."
-Message="Log: N. Vos: Kontakt z członkami ISV Kran! (Prawdopodobnie zaginął w tym obszarze 3 miesiące temu) Widzieli działający statek Skaarj. Być może będziemy musieli przejąć nad nim kontrolę, aby uciec z tego systemu."
+; EN: Message="Log: N. Vos: Contact with members of ISV-KRAN! (Presumed lost in this area 3 months ago) They have seen a Skaarj vessel in operation. We may need to gain control of it to escape this system."
+Message="Log: N. Vos: Kontakt z członkami ISV-KRAN! (Prawdopodobnie zaginął w tym obszarze 3 miesiące temu) Widzieli działający statek Skaarj. Być może będziemy musieli przejąć nad nim kontrolę, aby uciec z tego systemu."
 ; EN: Hint="Make sure you pick up the Automag from near the house just outside Vortex Rikers. Take a refreshing swim while you're at it!"
 Hint="Upewnij się, że odbierasz Automag w pobliżu domu na obrzeżach Vortex Rikers. Weź orzeźwiającą kąpiel, gdy jesteś na tym!"
 
