@@ -5,23 +5,23 @@ IdealPlayerCount="6-12"
 
 [AssaultInfo2]
 ; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
-ObjDesc[0]="Выстрелите в предохранитель, чтобы зажечь его и взорвать TNT, который откроет доступ к подземной базе."
+ObjDesc[0]="Выстрелите по запалу, чтобы зажечь его и взорвать взрывчатку, которая откроет доступ к подземной базе."
 ; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
-ObjDesc[1]="Пройдите через базу, разберитесь со всеми орудийными башнями и врагами, которых встретите по пути, пока вы не подниметесь на лифте на платформу, на которой есть переключатель активации гаража."
+ObjDesc[1]="Пройдите через базу, разбираясь со всеми пушками и врагами, которых встретите на пути, доберитесь до лифта и поднимитесь на платформу, на которой используя пульт управления откройте ворота ангара."
 ; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
-ObjDesc[2]="Как только дверь откроется, уничтожьте прототип танка, выстрелив в башню."
+ObjDesc[2]="Как только ворота откроются, уничтожьте прототип танка, стреляя в башню."
 
 [FortStandard0]
 ; EN: FortName="The Lava Bridge"
-FortName="Лавовый мост"
+FortName="Мост через лаву"
 ; EN: DestroyedMessage="has been crossed!"
-DestroyedMessage="был пересечен!"
+DestroyedMessage="преодолён!"
 
 [FortStandard4]
 ; EN: FortName="The Cavern"
-FortName="Пещера"
+FortName="Стена"
 ; EN: DestroyedMessage="has been breached!"
-DestroyedMessage="был нарушен!"
+DestroyedMessage="взорвана!"
 
 [LevelSummary]
 ; EN: Title="Guardia Fortress"
@@ -30,21 +30,21 @@ IdealPlayerCount="6-12"
 
 [FortStandard1]
 ; EN: FortName="The Fuse"
-FortName="Предохранитель"
+FortName="Шнур"
 ; EN: DestroyedMessage="has been ignited!"
-DestroyedMessage="загорелся!"
+DestroyedMessage="подожжён!"
 
 [FortStandard2]
 ; EN: FortName="The Garage Door"
-FortName="Гаражная дверь"
+FortName="Ворота ангара"
 ; EN: DestroyedMessage="was breached!"
-DestroyedMessage="была нарушена!"
+DestroyedMessage="открыты!"
 
 [FortStandard3]
 ; EN: FortName="The Tank Turret"
-FortName="Танковая турель"
+FortName="Башня танка"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="был уничтожен!"
+DestroyedMessage="уничтожена!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Attackers' Cave"
@@ -52,11 +52,11 @@ ZoneName="Пещера атакующих"
 
 [ZoneInfo1]
 ; EN: ZoneName="Near the Fuse"
-ZoneName="Рядом с предохранителем"
+ZoneName="Возле запала"
 
 [ZoneInfo2]
 ; EN: ZoneName="Base Corridors"
-ZoneName="Базовые коридоры"
+ZoneName="Коридоры базы"
 
 [WaterZone0]
 ; EN: ZoneName="Underwater"
