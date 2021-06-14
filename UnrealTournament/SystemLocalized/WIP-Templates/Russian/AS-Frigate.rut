@@ -12,19 +12,19 @@ IdealPlayerCount="4-8"
 ; EN: FortName="The Missiles"
 FortName="Ракеты"
 ; EN: DestroyedMessage="were launched!"
-DestroyedMessage="были запущены!"
+DestroyedMessage="запущены!"
 
 [FortStandard1]
 ; EN: FortName="The Ship"
-FortName="Корабль"
+FortName="В корабль"
 ; EN: DestroyedMessage="has been entered!"
-DestroyedMessage="введен!"
+DestroyedMessage="проникли!"
 
 [FortStandard2]
 ; EN: FortName="The Hydraulic Compressor"
-FortName="Гидравлический компрессор"
+FortName="Гидрокомпрессор"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="был уничтожен!"
+DestroyedMessage="уничтожен!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
