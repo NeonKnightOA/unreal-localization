@@ -3,7 +3,7 @@
 Title="Дно океана "Станция 5""
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
-LevelEnterText="Управляйте подводной базой!"
+LevelEnterText="Захват подводной базы!"
 
 [ZoneInfo5]
 ; EN: ZoneName="Middle Area"
@@ -11,11 +11,11 @@ ZoneName="Средняя зона"
 
 [ZoneInfo3]
 ; EN: ZoneName="Large Docking Area"
-ZoneName="Большая стыковочная зона"
+ZoneName="Большая зона стыковки"
 
 [ZoneInfo4]
 ; EN: ZoneName="Small Docking Area"
-ZoneName="Небольшая стыковочная зона"
+ZoneName="Малая зона стыковки"
 
 [ZoneInfo1]
 ; EN: ZoneName="Submarine"
@@ -37,7 +37,7 @@ Message="Терминал 1 отключен."
 ; EN: FortName="The Terminal 3"
 FortName="Терминал 3"
 ; EN: DestroyedMessage="has been destroyed!!"
-DestroyedMessage="был уничтожен !!"
+DestroyedMessage="уничтожен!!"
 
 [SpecialEvent10]
 ; EN: Message="Terminal 4 has been disabled."
@@ -47,36 +47,36 @@ Message="Терминал 4 отключен."
 ; EN: FortName="The Terminal 1"
 FortName="Терминал 1"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="был уничтожен!"
+DestroyedMessage="уничтожен!"
 
 [FortStandard2]
 ; EN: FortName="The Terminal 2"
 FortName="Терминал 2"
 ; EN: DestroyedMessage="has been destroyed!!"
-DestroyedMessage="был уничтожен !!"
+DestroyedMessage="уничтожен!!"
 
 [FortStandard3]
 ; EN: FortName="The Terminal 4"
 FortName="Терминал 4"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="был уничтожен!"
+DestroyedMessage="уничтожен!"
 
 [LevelSummary]
 ; EN: Title="Ocean Floor 'Station 5'"
 Title="Дно океана "Станция 5""
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
-LevelEnterText="Управляйте подводной базой!"
+LevelEnterText="Захват подводной базы!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
-ObjDesc[0]="Плывите к базе под подводной лодкой. Внутри базы есть 4 терминала с прикрепленными к ним клавиатурами, которые необходимо уничтожить, чтобы сделать базу бесполезной. Уничтожить терминал 1. Терминалы можно уничтожать в любом порядке."
+ObjDesc[0]="Плывите к базе, расположенной под подводной лодкой. Внутри базы есть 4 терминала с подключенными к ним клавиатурами, которые необходимо уничтожить, чтобы сделать базу бесполезной. Уничтожте терминал 1. Терминалы можно уничтожать в любом порядке."
 ; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
-ObjDesc[1]="Уничтожить терминал 2. Терминалы можно уничтожать в любом порядке."
+ObjDesc[1]="Уничтожте терминал 2. Терминалы можно уничтожать в любом порядке."
 ; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
-ObjDesc[2]="Уничтожить терминал 3. Терминалы можно уничтожать в любом порядке."
+ObjDesc[2]="Уничтожте терминал 3. Терминалы можно уничтожать в любом порядке."
 ; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
-ObjDesc[3]="Уничтожить терминал 4. Терминалы можно уничтожать в любом порядке."
+ObjDesc[3]="Уничтожте терминал 4. Терминалы можно уничтожать в любом порядке."
 
 [ZoneInfo6]
 ; EN: ZoneName="Elevator Shaft"
