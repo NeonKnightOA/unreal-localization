@@ -50,7 +50,7 @@ Objective_Info_Defender="Defend Power Station"
 [HoldObjective4]
 ObjectiveName="Bridge Controls"
 DestructionMessage="Bridge Raised"
-ObjectiveDescription="Use the conrol box to raise the bridge"
+ObjectiveDescription="Use the control box to raise the bridge"
 Objective_Info_Attacker="Activate the Ion Core"
 Objective_Info_Defender="Defend the Ion Core"
 
@@ -71,14 +71,14 @@ Description="In one of the most daring acts of the mostly covert Corporation War
 [ProximityObjective0]
 ObjectiveName="Infiltrate Base"
 DestructionMessage="Base Infiltrated"
-ObjectiveDescription="Pass through the base doors to infilrate the base "
+ObjectiveDescription="Pass through the base doors to infiltrate the base "
 Objective_Info_Attacker="Infiltrate the Base"
 Objective_Info_Defender="Defend the Base"
 
 [ProximityObjective1]
 ObjectiveName="Infiltrate Base"
 DestructionMessage="Base Infiltrated"
-ObjectiveDescription="Pass through the base doors to infilrate the base "
+ObjectiveDescription="Pass through the base doors to infiltrate the base "
 Objective_Info_Attacker="Infiltrate the Base"
 Objective_Info_Defender="Defend the Base"
 
@@ -90,7 +90,7 @@ Objective_Info_Attacker="Escape the Base"
 Objective_Info_Defender="Stop the Tank From Escaping"
 
 [SceneSubtitles0]
-SubTitles=("In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed","by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.","This scenarion re-creates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.","You must infiltrate the facility, steal the Ion Plasma Tank, and destroy the entire facility.","To infiltrate the base you must first cross the fozen lake. Note that the controls to the base access bridge are located within close proximity to the base entrance.","Raising the bridge will considerably shorten the distance for your teammates to enter the base.","Once inside the base you set the ion core to overload, by operating these two switches. ","This will trigger the base's first emergency protocols, opening all exits and allowing you to steal the Ion Tank.","Once you have obtained the tank, continue up the access tunnel toward the power station. The power station feeds power directly from the two hydroelectric dams to the ion core.","To gain access to the dams the security gate must be opened. The controls for the security gate are located within the power station.","The flood valves in the two hydroelectric dams must be opened.","This will cause a power surge big enough to generate a chain reaction within the ion core.","Once the floodgates are open the second emergency protocol will initialize opening all base exits.","With the floodgates open, one objective remains. The only way to escape the base is through the outer wall.","The outer wall has blast doors which are hardened to repel any attack. However they are not entirely invulnerable.","Because of unprecedented power of the ion tank's cannon, several direct shots should be enough to destroy them. When the doors are destroyed drive the tank out to freedom.")
+SubTitles=("In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed","by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.","This scenario re-creates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.","You must infiltrate the facility, steal the Ion Plasma Tank, and destroy the entire facility.","To infiltrate the base you must first cross the frozen lake. Note that the controls to the base access bridge are located within close proximity to the base entrance.","Raising the bridge will considerably shorten the distance for your teammates to enter the base.","Once inside the base you set the ion core to overload, by operating these two switches. ","This will trigger the base's first emergency protocols, opening all exits and allowing you to steal the Ion Tank.","Once you have obtained the tank, continue up the access tunnel toward the power station. The power station feeds power directly from the two hydroelectric dams to the ion core.","To gain access to the dams the security gate must be opened. The controls for the security gate are located within the power station.","The flood valves in the two hydroelectric dams must be opened.","This will cause a power surge big enough to generate a chain reaction within the ion core.","Once the floodgates are open the second emergency protocol will initialize opening all base exits.","With the floodgates open, one objective remains. The only way to escape the base is through the outer wall.","The outer wall has blast doors which are hardened to repel any attack. However they are not entirely invulnerable.","Because of unprecedented power of the ion tank's cannon, several direct shots should be enough to destroy them. When the doors are destroyed drive the tank out to freedom.")
 
 [TriggeredObjective2]
 ObjectiveName="Ion Tank"
@@ -105,7 +105,7 @@ LocationName="tank hanger exit"
 LocationName="left base area"
 
 [Volume10]
-LocationName="rightbase area"
+LocationName="right base area"
 
 [Volume11]
 LocationName="ion core"
@@ -159,7 +159,7 @@ LocationName="left tower entrance"
 LocationName="left tower corridor"
 
 [ZoneInfo12]
-LocationName="Tank Hanger "
+LocationName="Tank Hangar"
 
 [ZoneInfo13]
 LocationName="base entrance tunnel"
@@ -192,10 +192,10 @@ LocationName="lower power station "
 LocationName="depot"
 
 [ZoneInfo22]
-LocationName="secondary dam conrol room"
+LocationName="secondary dam control room"
 
 [ZoneInfo23]
-LocationName="primary dam conrol room"
+LocationName="primary dam control room"
 
 [ZoneInfo24]
 LocationName="primary dam observation room"
