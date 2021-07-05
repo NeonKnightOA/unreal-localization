@@ -75,7 +75,7 @@ DeathMessage="%o - %k posłał ci kulkę w sam łeb."
 FemDeathMessage="%o - %k posłał ci kulkę w sam łeb."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Podnosisz Karabin"
-; EN: ItemName="Rifle"
+; EN: ItemName="Sniper Rifle"
 ItemName="Karabin"
 
 [Queen]

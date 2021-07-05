@@ -62,7 +62,7 @@ Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapo
 ; EN: Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rocket Launcher")
 Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Llançacoets")
 ; EN: Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Sniper Rifle")
-Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rifle de franctirador")
+Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Fusell de Franctirador")
 ; EN: Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redeemer")
 Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redemptor")
 ; Mutators
@@ -1067,7 +1067,7 @@ DeathMessage="%k posa una bala al cap de %o."
 ; EN: PickupMessage="You got a Sniper Rifle."
 PickupMessage="Tens un fusell de franctirador."
 ; EN: ItemName="Sniper Rifle"
-ItemName="Rifle de franctirador"
+ItemName="Fusell de Franctirador"
 
 [UDamage]
 ; EN: PickupMessage="You got the Damage Amplifier!"
