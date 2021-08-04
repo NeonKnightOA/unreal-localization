@@ -1,16 +1,16 @@
 ﻿[LevelInfo0]
 ; EN: Title="Rook"
-Title="Ладья"
+Title="Rook"
 IdealPlayerCount="6-10"
 ; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
-LevelEnterText="Надень свою броню, приготовься к битве"
+LevelEnterText="Наденьте доспехи, приготовьтесь к битве"
 
 [LevelSummary]
 ; EN: Title="Rook"
-Title="Ладья"
+Title="Rook"
 IdealPlayerCount="6-10"
 ; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
-LevelEnterText="Надень свою броню, приготовься к битве"
+LevelEnterText="Наденьте доспехи, приготовьтесь к битве"
 
 [FortStandard1]
 FortName=" "
@@ -22,15 +22,15 @@ DestroyedMessage=" "
 
 [FortStandard2]
 ; EN: FortName="The Main Doors"
-FortName="Главные двери"
+FortName="Основные ворота"
 ; EN: DestroyedMessage="are now open!"
-DestroyedMessage="теперь открыты!"
+DestroyedMessage="открыты!"
 
 [FortStandard6]
 ; EN: FortName="The Library"
 FortName="Библиотека"
 ; EN: DestroyedMessage="is now Open!"
-DestroyedMessage="теперь открыто!"
+DestroyedMessage="открыта!"
 
 [FortStandard3]
 FortName=" "
@@ -42,10 +42,10 @@ Message="Сторожка открыта!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Exit the castle and make a hard right where you will locate the switch which will allow access to the library."
-ObjDesc[0]="Выйдите из замка и поверните направо, где вы найдете переключатель, который откроет доступ к библиотеке."
+ObjDesc[0]="Выйдите из замка и сверните направо, где найдете переключатель, который откроет доступ к библиотеке."
 ; EN: ObjDesc[1]="Proceed through the library where you will locate a winch that is held in place with two chains. Destroy the chains; this will allow access to the gatehouse in the courtyard."
-ObjDesc[1]="Пройдите через библиотеку, где вы найдете лебедку, которая удерживается на месте двумя цепями. Разрушьте цепи; это позволит получить доступ к сторожке во дворе."
+ObjDesc[1]="Пройдите через библиотеку и вы найдете лебедку, которая удерживается на месте двумя цепями. Разрушьте цепи, это позволит получить доступ к сторожке во внутреннем дворе."
 ; EN: ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."
-ObjDesc[2]="Вернитесь во двор и нажмите выключатель в сторожке, чтобы открыть входные двери замка."
+ObjDesc[2]="Вернитесь во двор и используйте рычаг в сторожке, чтобы открыть входные ворота замка."
 ; EN: ObjDesc[3]="Escape the castle alive through the front doors!"
-ObjDesc[3]="Выберись живым из замка через парадные двери!"
+ObjDesc[3]="Выберись живым из замка через парадные ворота!"
