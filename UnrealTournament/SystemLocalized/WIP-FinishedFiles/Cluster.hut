@@ -1,0 +1,64 @@
+﻿;
+; Language:  Hungarian
+; Author(s): OldUnreal Team
+; Date:      20210629
+;
+[Public]
+Object=(Name=Cluster.ClusterAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
+; EN: Preferences=(Caption="Cluster 3D Audio Support",Parent="Audio",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
+Preferences=(Caption="Az Cluster 3D hang támogatása",Parent="Hang",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
+
+[ClusterAudioSubsystem]
+; User facing name (used in startup wizard list, preferences, etc.).
+; EN: ClassCaption="Cluster 3D Audio Support"
+ClassCaption="Az Cluster 3D hang támogatása"
+; User facing desciption (intended to be used in startup wizard for a detailed description instead of Startup.int:Descriptions.<Package>.<Object>).
+; EN: ClassDescription="Cluster is designed as a similiar sounding substituate to the aging Galaxy 3D Audio."
+ClassDescription="Cluster az öregedő Galaxy 3D Audio hasonló hangzású helyettesítőjeként tervezték."
+
+[General]
+; Serialized to log on init.
+; EN: Init="Cluster initialized."
+Init="Cluster inicializálva van."
+; Serialized to log on exit.
+; EN: Exit="Cluster shut down."
+Exit="Cluster leállt."
+; Serialized to log on exit after error.
+; EN: ExitAfterError="Cluster shut down after error."
+ExitAfterError="Cluster hiba után leállt."
+; Serialized to log on init in case -No3dSound switch was used on the commandline which forces Use3dHardware option to be ignored.
+; EN: No3dSoundSwitch="-No3dSound switch found. Use3dHardware option will be ignored by Cluster."
+No3dSoundSwitch="-No3dSound kapcsoló nem található. Cluster figyelmen kívül hagyja a Use3dHardware beállítást."
+; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
+; EN: ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
+ClusterFuck="Cluster bináris javításokat adott a meghibásodott audio funkcionalitás érdekében a Engine csomagba. A letiltásához használhatja a -NoClusterFuck alkalmazást."
+; EN: SelectedDriver="Cluster selected output driver: %ls."
+SelectedDriver="A Cluster által kiválasztott kimeneti illesztőprogram: %ls."
+
+[Warnings]
+; Serialized to output device for each digital music command in case UseDigitalMusic is disabled.
+; EN: NoDigitalMusicCommand="Digital music support is disabled by configuration."
+NoDigitalMusicCommand="A digitális zene támogatása konfiguráció szerint le van tiltva."
+; Serialized to output device for each CD music command in case UseCDMusic is disabled.
+; EN: NoCDMusicCommand="CD music support is disabled by configuration."
+NoCDMusicCommand="A CD zene támogatása konfiguráció szerint le van tiltva."
+; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
+; EN: MonoSoundExpected="%ls has %i channels."
+MonoSoundExpected="%ls rendelkezik %i csatornával."
+
+[Errors]
+; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
+; EN: SystemCreate="Failed to create FMOD system object: %ls."
+SystemCreate="Nem sikerült létrehozni az FMOD rendszerobjektumot: %ls."
+; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
+; EN: Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
+Version="Cluster a (z) %ls minimális FMOD könyvtár verzióra számít, de a verzió %ls volt."
+; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
+; EN: SystemInit="Failed to initialize FMOD system object: %ls."
+SystemInit="Nem sikerült inicializálni az FMOD rendszerobjektumot: %ls."
+; EN: SystemGetNumDrivers="Failed to get number of FMOD output drivers: %ls."
+SystemGetNumDrivers="Nem sikerült megszerezni az FMOD kimeneti illesztőprogramok számát: %ls."
+; EN: SystemGetDriver="Failed to get current FMOD output driver: %ls."
+SystemGetDriver="Nem sikerült letölteni a jelenlegi FMOD kimeneti illesztőprogramot: %ls."
+; EN: SystemSetDriver="Failed to set FMOD output driver: %ls."
+SystemSetDriver="Nem sikerült beállítani az FMOD kimeneti illesztőprogramot: %ls."
