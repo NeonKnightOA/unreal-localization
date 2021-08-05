@@ -1,3 +1,7 @@
+[Public]
+Object="(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
+Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
+
 [Errors]
 Unknown="Unknown Error"
 Aborted="Aborted"
@@ -71,11 +75,6 @@ SubLangId=1
 Saving="Saving file %s..."
 Loading="Loading file %s..."
 Closing="Closing"
-
-[Public]
-Object="(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Preferences="(Caption="Advanced",Parent="Advanced Options")"
-Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
 
 [Query]
 OldVersion="The file %s was saved by a previous version which is not backwards compatible with this one.  Reading it will likely fail, and may cause a crash. Do you want to try anyway?"
