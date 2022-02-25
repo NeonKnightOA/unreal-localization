@@ -270,7 +270,7 @@ GameName="Combat Training: DM"
 
 [enforcer]
 DoubleName="Double Enforcers"
-WeaponDescription="Classification: Light Pistol\n\nPrimary Fire: Accurate but slow firing instant hit.\n\nSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice as fast and half as accurate as the primary fire.\n\nTechniques: Collect two for twice the damage."
+WeaponDescription="Classification: Light Pistol\n\nPrimary Fire: Accurate but slow firing instant hit.\n\nSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice as fast and half as accurate as the primary fire.\n\nTechniques: Collect two for twice the damage.\n\nThis lightweight yet high-powered handgun is an accurate and potent killer at close or medium range. So easy to handle you can wield one in each hand, the Enforcer’s already-quick action can be increased by utilizing the slightly less accurate (but equally deadly) sideways-carriage firing technique."
 DeathMessage="%k riddled %o full of holes with the %w."
 PickupMessage="You picked up another Enforcer!"
 ItemName="Enforcer"
@@ -416,7 +416,7 @@ DamageString="%o was depressurized"
 MenuName="Boss"
 
 [UT_Eightball]
-WeaponDescription="Classification: Heavy Ballistic\n\nPrimary Fire: Slow moving but deadly rockets are fired at opponents. Trigger can be held down to load up to six rockets at a time, which can be fired at once.\n\nSecondary Fire: Grenades are lobbed from the barrel. Secondary trigger can be held as well to load up to six grenades.\n\nTechniques: Keeping this weapon pointed at an opponent will cause it to lock on, and while the gun is locked the next rocket fired will be a homing rocket.  Because the Rocket Launcher can load up multiple rockets, it fires when you release the fire button.  If you prefer, it can be configured to fire a rocket as soon as you press fire button down, at the expense of the multiple rocket load-up feature.  This is set in the Input Options menu."
+WeaponDescription="Classification: Heavy Ballistic\n\nPrimary Fire: Slow moving but deadly rockets are fired at opponents. Trigger can be held down to load up to six rockets at a time, which can be fired at once.\n\nSecondary Fire: Grenades are lobbed from the barrel. Secondary trigger can be held as well to load up to six grenades.\n\nTechniques: Keeping this weapon pointed at an opponent will cause it to lock on, and while the gun is locked the next rocket fired will be a homing rocket.  Because the Rocket Launcher can load up multiple rockets, it fires when you release the fire button.  If you prefer, it can be configured to fire a rocket as soon as you press fire button down, at the expense of the multiple rocket load-up feature.  This is set in the Input Options menu.\n\nArguably the most popular devastation tool in the Tournament, the rocket launcher is an extremely versatile medium- to long-range weapon. Hold and release the primary fire to launch one to six rocket-propelled grenades in a spread formation; the grenades will explode on impact. Press and hold the primary fire, then hit the secondary fire to launch a tight circular formation. Use the secondary fire alone to kick out one to six unpropelled grenades that will detonate a few seconds after deployment. Skilled users can take advantage of the Rocket Launcher’s heat seeking feature. To use it, keep your crosshair on your opponent until it changes into a red X, then unleash your missiles and watch them home in on their prey. Note that your ammo supply is clearly marked on the top of the weapon."
 DeathMessage="%o was smacked down by %k's %w."
 PickupMessage="You got the Rocket Launcher."
 ItemName="Rocket Launcher"
@@ -485,7 +485,7 @@ MenuName="automatic cannon!"
 NameArticle="an "
 
 [ShockRifle]
-WeaponDescription="Classification: Energy Rifle\n\nPrimary Fire: Instant hit laser beam.\n\nSecondary Fire: Large, slow moving plasma balls.\n\nTechniques: Hitting the secondary fire plasma balls with the regular fire's laser beam will cause an immensely powerful explosion."
+WeaponDescription="Classification: Energy Rifle\n\nPrimary Fire: Instant hit laser beam.\n\nSecondary Fire: Large, slow moving plasma balls.\n\nTechniques: Hitting the secondary fire plasma balls with the regular fire's laser beam will cause an immensely powerful explosion.\n\nEmitting searing bursts of pure energy, the devastating Shockrifle is an ideal weapon for medium or long range attacks. The primary fire delivers an instant concussion with pinpoint precision; the secondary fire launches a slower energy projectile."
 DeathMessage="%k inflicted mortal damage upon %o with the %w."
 PickupMessage="You got the ASMD Shock Rifle."
 ItemName="Shock Rifle"
@@ -502,14 +502,14 @@ FragsString="Lives"
 DamageString="%o was depressurized by %k."
 
 [PulseGun]
-WeaponDescription="Classification: Plasma Rifle\n\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\n\nSecondary Fire: A bolt of green lightning is expelled for 100 meters, which will shock all opponents.\n\nTechniques: Firing and keeping the secondary fire's lightning on an opponent will melt them in seconds."
+WeaponDescription="Classification: Plasma Rifle\n\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\n\nSecondary Fire: A bolt of green lightning is expelled for 100 meters, which will shock all opponents.\n\nTechniques: Firing and keeping the secondary fire's lightning on an opponent will melt them in seconds.\n\nPowerful rounds of burning plasma, a high rate of fire and a vicious secondary attack make the Pulse Gun a very popular mid-range weapon. The primary fire riddles targets with glowing bursts of plasma; the secondary fire emits a steady stream of the incandescent yellow substance. The Pulse Gun uses clips containing 50 rounds, which must be replaced after they are emptied. The number of rounds remaining in the current clip is displayed on the weapon."
 MessageNoAmmo=" has no Plasma."
 DeathMessage="%o ate %k's burning plasma death."
 PickupMessage="You got a Pulse Gun"
 ItemName="Pulse Gun"
 
 [ImpactHammer]
-WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high."
+WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high.\n\nOriginally used as a miner’s tunneling tool, the Impact Hammer is a pneumatic crushing device that now pulverizes opponents as effectively as it once shattered rock. Use it to demolish your enemies in one of two ways: hit them with quick repeated strikes, or charge it up and let loose with a single, more powerful attack."
 DeathMessage="%o got smeared by %k's piston."
 PickupMessage="You got the Impact Hammer."
 ItemName="Impact Hammer"
@@ -527,13 +527,13 @@ HasBlue="has the blue flag!"
 HasRed="has the red flag!"
 
 [WarheadLauncher]
-WeaponDescription="Classification: Thermonuclear Device\n\nPrimary Fire: Launches a huge yet slow moving missile that, upon striking a solid surface, will explode and send out a gigantic shock wave, instantly pulverizing anyone or anything within its colossal radius, including yourself.\n\nSecondary Fire: Take control of the missile and fly it anywhere.  You can press the primary fire button to explode the missile early.\n\nTechniques: Remember that while this rocket is being piloted you are a sitting duck.  If an opponent manages to hit your incoming Redeemer missile while it's in the air, the missile will explode harmlessly."
+WeaponDescription="Classification: Thermonuclear Device\n\nPrimary Fire: Launches a huge yet slow moving missile that, upon striking a solid surface, will explode and send out a gigantic shock wave, instantly pulverizing anyone or anything within its colossal radius, including yourself.\n\nSecondary Fire: Take control of the missile and fly it anywhere.  You can press the primary fire button to explode the missile early.\n\nTechniques: Remember that while this rocket is being piloted you are a sitting duck.  If an opponent manages to hit your incoming Redeemer missile while it's in the air, the missile will explode harmlessly.\n\nThe first time you witness this miniature nuclear device in action, you’ll agree it is the most powerful weapon in the Tournament. Launch a slow-moving but utterly devastating missile with the primary fire; but make sure you’re out of the Redeemer’s impressive blast radius before it impacts. The secondary fire allows you to guide the nuke yourself with a rocket’s-eye view. Keep in mind, however, that you are vulnerable to attack when steering the Redeemer’s projectile. Due to the extreme bulkiness of its ammo, the Redeemer is exhausted after a single shot."
 DeathMessage="%o was vaporized by %k's %w!!"
 PickupMessage="You got the Redeemer."
 ItemName="Redeemer"
 
 [SniperRifle]
-WeaponDescription="Classification: Long Range Ballistic\n\nRegular Fire: Fires a high powered bullet. Can kill instantly when applied to the cranium of opposing forces. \n\nSecondary Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme precision from hundreds of yards away.\n\nTechniques: Great for long distance headshots!"
+WeaponDescription="Classification: Long Range Ballistic\n\nRegular Fire: Fires a high powered bullet. Can kill instantly when applied to the cranium of opposing forces. \n\nSecondary Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme precision from hundreds of yards away.\n\nTechniques: Great for long distance headshots!\n\nThe fact that its basic design has remained virtually unchanged for decades testifies to the Sniper Rifle’s timeless and universal functionality. The primary fire deals out an extremely robust rifle round capable of abruptly ending a competitor’s quest for the title of Grand Champion. The secondary fire zooms in on your target, allowing you to save time, effort and ammunition by terminating them with a single shot to the head. Press and hold the secondary fire to zoom; press secondary fire again to return to normal view."
 DeathMessage="%k put a bullet through %o's head."
 PickupMessage="You got a Sniper Rifle."
 ItemName="Sniper Rifle"
@@ -543,7 +543,7 @@ PickupMessage="You got the Damage Amplifier!"
 ItemName="Damage Amplifier"
 
 [UT_FlakCannon]
-WeaponDescription="Classification: Heavy Shrapnel\n\nPrimary Fire: White hot chunks of scrap metal are sprayed forth, shotgun style.\n\nSecondary Fire: A grenade full of shrapnel is lobbed at the enemy. The grenade can hurt you if you're in its splash range.\n\nTechniques: The Flak Cannon is far more useful in close range combat situations."
+WeaponDescription="Classification: Heavy Shrapnel\n\nPrimary Fire: White hot chunks of scrap metal are sprayed forth, shotgun style.\n\nSecondary Fire: A grenade full of shrapnel is lobbed at the enemy. The grenade can hurt you if you're in its splash range.\n\nTechniques: The Flak Cannon is far more useful in close range combat situations.\n\nThis portable enemy blender can deliver instant death at any range. While the rate of fire is slow, the Flak Cannon’s destructive power is formidable. The primary fire discharges a concentrated explosion containing several pounds of jagged metal shrapnel. At point-blank range, the result is usually lethal. The secondary fire launches a shrapnel grenade that explodes on impact. Few opponents survive a direct hit from a Flak Cannon grenade."
 DeathMessage="%o was ripped to shreds by %k's %w."
 PickupMessage="You got the Flak Cannon."
 ItemName="Flak Cannon"
@@ -562,19 +562,19 @@ ESCMessage="Press ESC to begin."
 ESCMessage="Press ESC to continue..."
 
 [ut_biorifle]
-WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste.\n\nThis unconventional close- to medium-range weapon is more deadly than it appears at first glance. The primary fire spews clumps of toxic sludge that glom onto solid surfaces, and float in water. They explode after a few seconds (or when touched by another object or passerby), causing considerable damage. Some competitors cover the floors, walls and ceilings of narrow hallways with the stuff while running backward to trap unwary pursuers. Press and hold the secondary fire to load up and fire an enormous blob that will literally splash apart when it hits a surface, spreading smaller hunks of the dangerous substance across a wide radius."
 DeathMessage="%o drank a glass of %k's dripping green load."
 PickupMessage="You got the GES BioRifle."
 ItemName="GES BioRifle"
 
 [minigun2]
-WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
+WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition.\n\nAs simple as it is dangerous, the Minigun features a rotating barrel assembly and an unmatched rate of fire. If the primary fire isn’t fast enough for you, try the much faster (and less accurate) secondary fire. Good aim is the key to mastering the Minigun. With a little practice you’ll be reducing your opponents to helpless bullet catchers at every opportunity. The ammo supply is displayed on the top of the weapon."
 DeathMessage="%k's %w turned %o into a leaky piece of meat."
 PickupMessage="You got the Minigun."
 ItemName="Minigun"
 
 [ChainSaw]
-WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
+WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues.\n\nBased on an antique wood-cutting tool, the chainsaw is a devastating melee weapon capable of instantly inflicting massive damage. The primary fire employs a thrust maneuver, while the secondary fire sweeps the blade from side to side (an ideal move for decapitations)."
 DeathMessage="%k ripped into %o with a blood soaked %w."
 PickupMessage="It's been five years since I've seen one of these."
 ItemName="Chainsaw"
@@ -1221,7 +1221,7 @@ OtherAbbrev[15]="Got your back."
 OtherAbbrev[16]=""
 
 [ripper]
-WeaponDescription="Classification: Ballistic Blade Launcher\n\nPrimary Fire: Razor sharp titanium disks are launched at a medium rate of speed. Shots will ricochet off of any surfaces.\n\nSecondary Fire: Explosive disks are launched at a slow rate of fire.\n\nTechniques: Aim for the necks of your opponents. Secondary fire can launch opponents in the air."
+WeaponDescription="Classification: Ballistic Blade Launcher\n\nPrimary Fire: Razor sharp titanium disks are launched at a medium rate of speed. Shots will ricochet off of any surfaces.\n\nSecondary Fire: Explosive disks are launched at a slow rate of fire.\n\nTechniques: Aim for the necks of your opponents. Secondary fire can launch opponents in the air.\n\nA descendant of the Razorjack, the Ripper features larger blades than its predecessor. The laser-sharp blades ricochet off solid surfaces, making around-the-corner kills not only possible, but easy. The secondary fire causes the blades to explode upon impact, generating a considerable splash radius of damage."
 DeathMessage="%k ripped a chunk of meat out of %o with the %w."
 PickupMessage="You got the Ripper."
 ItemName="Ripper"
@@ -2048,7 +2048,7 @@ ItemName="Clip"
 ItemName="Double Enforcers"
 
 [Translocator]
-WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
+WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated.\n\nThe Translocator is a portable teleporter. It functions as a weapon, a defensive device and a mode of movement. It consists of two parts, a source module and a destination module. Throw the destination module with the primary fire button; then press the secondary fire button to instantly teleport to the spot where the destination module landed. If you throw the destination module close enough to an enemy and then teleport there, you can "telefrag" your opponent, killing him and getting his weapon. This requires some skill to accomplish, but is extremely gratifying to pull off and results in an instant kill. In Capture the Flag games, translocating while holding the flag will cause you to drop the flag."
 DeathMessage="%k telefragged %o!"
 PickupMessage="You got the Translocator Source Module."
 ItemName="Translocator"
