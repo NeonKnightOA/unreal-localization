@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+; EN: Title="Ocean Floor "Station 5""
+Title="海底「ステーション5」"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="水中基地をコントロール！"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="ミドルエリア"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="広いドッキングエリア"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="小さなドッキングエリア"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="潜水艦"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="指令センター"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="廊下"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="ターミナル1が無効になっています。"
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="ターミナル3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="破壊されました!!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="ターミナル4が無効になっています。"
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="ターミナル1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="破壊されました！"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="ターミナル2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="破壊されました!!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="ターミナル4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="破壊されました！"
+
+[LevelSummary]
+; EN: Title="Ocean Floor "Station 5""
+Title="海底「ステーション5」"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="水中基地をコントロール！"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="潜水艦の下の基地に向かって泳ぎます。ベースの内部には、キーボードが接続された4つの端子があり、ベースを使用できなくするために破棄する必要があります。ターミナル1を破壊します。ターミナルは任意の順序で破壊できます。"
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="ターミナル2を破壊します。ターミナルは任意の順序で破壊できます。"
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="ターミナル3を破壊します。ターミナルは任意の順序で破壊できます。"
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="ターミナル4を破壊します。ターミナルは任意の順序で破壊できます。"
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="エレベーターシャフト"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="ターミナル3が無効になっています。"
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="ターミナル2が無効になっています。"

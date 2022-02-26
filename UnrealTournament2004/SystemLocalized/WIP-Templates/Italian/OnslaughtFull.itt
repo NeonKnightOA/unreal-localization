@@ -1,52 +1,79 @@
 [DamTypeIonTankBlast]
-DeathString="%o was OBLITERATED by %k"
-FemaleSuicide="%o was OBLITERATED"
-MaleSuicide="%o was OBLITERATED"
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="%o è stato OBLITERATO da %k"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o è stato ANNULLATO"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o è stato ANNULLATO"
 
 [DamTypeMASCannon]
-DeathString="%o was VAPORIZED by %k!"
-FemaleSuicide="%o was VAPORIZED!"
-MaleSuicide="%o was VAPORIZED!"
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="%o è stato VAPORIZZATO da %k!"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="%o è stato VAPORIZZATO!"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="%o è stato VAPORIZZATO!"
 
 [DamTypeMASPlasma]
-DeathString="%k's Leviathan turret plasmanated %o."
-FemaleSuicide="%o wasted herself."
-MaleSuicide="%o wasted himself."
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="La torretta del Leviatano di %k ha plasmato %o."
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="%o si è sprecata."
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="%o si è sprecato."
 
 [MutVehicleArena]
-ArenaDisplayText="Arena Vehicle"
-ArenaDescText="Determines which vehicle type will be used in the match."
-FriendlyName="Vehicle Arena"
-Description="Replace all vehicles in map with a particular type."
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="Veicolo dell'arena"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="Determina quale tipo di veicolo verrà utilizzato nella partita."
+; EN: FriendlyName="Vehicle Arena"
+FriendlyName="Veicolo Arena"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="Sostituisci tutti i veicoli sulla mappa con un tipo particolare."
 
 [ONSBomber]
-VehiclePositionString="in a DragonFly"
-VehicleNameString="DragonFly"
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="in una libellula"
+; EN: VehicleNameString="DragonFly"
+VehicleNameString="Libellula"
 
 [ONSGenericSD]
-VehiclePositionString="indisposed"
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="indisposto"
 VehicleNameString="TC-1200"
 
 [ONSHoverTank_IonPlasma]
-VehiclePositionString="in an Ion Plasma Tank"
-VehicleNameString="Ion Plasma Tank"
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="in un serbatoio di plasma ionico"
+; EN: VehicleNameString="Ion Plasma Tank"
+VehicleNameString="Serbatoio di plasma ionico"
 
 [ONSMASSideGunPawn]
-VehiclePositionString="in a Leviathan turret"
-VehicleNameString="Leviathan Turret"
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="in una torretta del Leviatano"
+; EN: VehicleNameString="Leviathan Turret"
+VehicleNameString="Torretta Leviatano"
 
 [ONSMobileAssaultStation]
-VehiclePositionString="in a Leviathan"
-VehicleNameString="Leviathan"
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="in un Leviatano"
+; EN: VehicleNameString="Leviathan"
+VehicleNameString="Leviatano"
 
 [ONSPainter]
-Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
-ItemName="Target Painter"
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="Il Target Painter, simile allo Ion Painter, spara un innocuo laser a bassa potenza con il suo fuoco primario. A differenza dello Ion Painter, tuttavia, quest'arma richiama un bombardiere che lancia una serie di bombe nella direzione in cui è rivolto l'utilizzatore, centrata sul bersaglio dipinto. Le bombe inceneriranno facilmente il bersaglio e tutti gli sfortunati che si trovano nelle vicinanze."
+; EN: ItemName="Target Painter"
+ItemName="Pittore di bersagli"
 
 [ONSPainterPickup]
-PickupMessage="You got the Target Painter."
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="Hai il pittore di bersagli."
 
 [ONSTankSecondaryTurretPawn_IonPlasma]
-VehiclePositionString="in an Ion Tank turret"
-VehicleNameString="Ion Tank Minigun Turret"
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="in una torretta del serbatoio ionico"
+; EN: VehicleNameString="Ion Tank Minigun Turret"
+VehicleNameString="Torretta minigun serbatoio ionico"
 

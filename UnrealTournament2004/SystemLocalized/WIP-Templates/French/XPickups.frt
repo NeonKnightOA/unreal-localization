@@ -1,21 +1,28 @@
 [AdrenalinePickup]
-PickupMessage="Adrenaline "
+; EN: PickupMessage="Adrenaline "
+PickupMessage="Adrénaline "
 
 [MiniHealthPack]
-PickupMessage="You picked up a Health Vial +"
+; EN: PickupMessage="You picked up a Health Vial +"
+PickupMessage="Vous avez récupéré une Fiole de Santé +"
 
 [ShieldPickup]
-PickupMessage="You picked up a Shield Pack +"
+; EN: PickupMessage="You picked up a Shield Pack +"
+PickupMessage="Vous avez récupéré un pack de bouclier +"
 
 [SuperHealthPack]
-PickupMessage="You picked up a Big Keg O' Health +"
+; EN: PickupMessage="You picked up a Big Keg O' Health +"
+PickupMessage="Vous avez ramassé un Big Keg O' Health +"
 
 [SuperShieldPack]
-PickupMessage="You picked up a Super Shield Pack +"
+; EN: PickupMessage="You picked up a Super Shield Pack +"
+PickupMessage="Vous avez récupéré un Super Shield Pack +"
 
 [TournamentHealth]
-PickupMessage="You picked up a Health Pack +"
+; EN: PickupMessage="You picked up a Health Pack +"
+PickupMessage="Vous avez récupéré un Pack Santé +"
 
 [UDamagePack]
-PickupMessage="DOUBLE DAMAGE!"
+; EN: PickupMessage="DOUBLE DAMAGE!"
+PickupMessage="DOUBLES DOMMAGES!"
 

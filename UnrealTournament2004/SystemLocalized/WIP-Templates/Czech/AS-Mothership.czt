@@ -1,0 +1,488 @@
+[Action_DISPLAYMESSAGE5]
+Message="5..."
+
+[Action_DISPLAYMESSAGE6]
+Message="4..."
+
+[Action_DISPLAYMESSAGE7]
+Message="3..."
+
+[Action_DISPLAYMESSAGE8]
+Message="2..."
+
+[Action_DISPLAYMESSAGE9]
+Message="1..."
+
+[Counter0]
+; EN: CompleteMessage="Core Vents opened!"
+CompleteMessage="Core Vents otevřeny!"
+
+[Counter2]
+; EN: CompleteMessage="Energy Shield deactivated!!!"
+CompleteMessage="Energetický štít deaktivován!!!"
+
+[Counter3]
+; EN: CompleteMessage="Doors and lower force field deactivated"
+CompleteMessage="Dveře a spodní silové pole jsou deaktivovány"
+
+[Counter4]
+; EN: CompleteMessage="Core conductors destroyed!!!"
+CompleteMessage="Zničeny žilové vodiče!!!"
+
+[Counter5]
+; EN: CompleteMessage="Loading bay force field deactivated!"
+CompleteMessage="Silové pole nakládací rampy deaktivováno!"
+
+[Counter6]
+; EN: CompleteMessage="Top force fields deactivated!"
+CompleteMessage="Horní silová pole deaktivována!"
+
+[DestroyVehicleObjective0]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Strážní věže"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel zničen!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Zničte strážní věže"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Zničte hlídku"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Bránit strážce"
+
+[DestroyVehicleObjective1]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Strážní věže"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel zničen!"
+; EN: LocationPrefix="lowerhull"
+LocationPrefix="spodní trup"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Zničte strážní věže"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Zničte hlídku"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Bránit strážce"
+
+[DestroyVehicleObjective2]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Strážní věže"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel zničen!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Zničte strážní věže"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Zničte hlídku"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Bránit strážce"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Energetický bypass"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Zničený energetický bypass..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Zničte bypass laserového pole"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Zničte energetický bypass"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Obrana energetického bypassu"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Generátor horního štítu"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Generátor štítu zničen"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Zničte generátory štítů"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Zničte generátor horního štítu "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Braňte generátor horního štítu "
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Generátor horního štítu"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Generátor štítu zničen"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Zničte generátory štítů"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Zničte generátor horního štítu "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Braňte generátor horního štítu "
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower shield generator"
+ObjectiveName="Spodní generátor štítu"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Generátor štítu zničen"
+; EN: ObjectiveDescription="Destroy lower shield generator"
+ObjectiveDescription="Zničte generátor spodního štítu"
+; EN: Objective_Info_Attacker="Destroy lower shield generator"
+Objective_Info_Attacker="Zničte generátor spodního štítu"
+; EN: Objective_Info_Defender="Defend lower shield generator "
+Objective_Info_Defender="Braňte spodní generátor štítu "
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Jádrové vodiče..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Dirigent zničen!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Zničte jádrový vodič"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Zničte vodič"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Braňte dirigenta"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Energetický bypass"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Zničený energetický bypass..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Zničte bypass laserového pole"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Zničte energetický bypass"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Obrana energetického bypassu"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Jádrové vodiče..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Dirigent zničen!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Zničte jádrový vodič"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Zničte vodič"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Braňte dirigenta"
+
+[HoldObjective0]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Základní panely."
+; EN: DestructionMessage="Hatch lock #1 released!"
+DestructionMessage="Zámek poklopu #1 uvolněn!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Základní panely"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Pomocí panelu odemkněte poklop jádra"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Přestaňte používat jádrové panely"
+
+[HoldObjective1]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Základní panely."
+; EN: DestructionMessage="Hatch lock #2 released!"
+DestructionMessage="Zámek poklopu #2 uvolněn!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Základní panely"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Pomocí panelu odemkněte poklop jádra"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Přestaňte používat jádrové panely"
+
+[InfoPod2]
+; EN: POD_Message="Lower Inner Turrets"
+POD_Message="Dolní vnitřní věžičky"
+
+[InfoPod3]
+POD_Message="Link Cannon"
+
+[InfoPod4]
+; EN: POD_Message="Landing Bay Turrets"
+POD_Message="Věže přistávacího zálivu"
+
+[InfoPod5]
+; EN: POD_Message="Top Inner Turrets"
+POD_Message="Horní vnitřní věže"
+
+[InfoPod6]
+; EN: POD_Message="Top Outer Turrets"
+POD_Message="Horní vnější věže"
+
+[InfoPod7]
+; EN: POD_Message="Lower Outer Turrets"
+POD_Message="Spodní vnější věže"
+
+[InfoPod8]
+POD_Message="Link Cannon"
+
+[LevelInfo0]
+; EN: Title="Mothership Assault"
+Title="Útok na mateřskou loď"
+
+[LevelSummary]
+; EN: Title="Mothership Assault"
+Title="Útok na mateřskou loď"
+; EN: Description="First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali. Within a year the Skaarj had pushed humanity back to the brink of destruction. This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat. A Skaarj Mothership orbited the Earth, and rained death upon the planet in preparation for the final landing. In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the Mothership defenses their analysis had revealed."
+Description="První kontakt se Skaarjem přišel během obnovy vězeňského transportéru Vortex Rikers na Na Pali. Během jednoho roku Skaarj zatlačil lidstvo zpět na pokraj zkázy. Tento scénář kopíruje poslední bitvu o Zemi a ohromující vítězství lidí tváří v tvář téměř jisté porážce. Mateřská loď Skaarj obíhala kolem Země a v rámci přípravy na konečné přistání na planetu zasypala smrt. Při odvážné sebevražedné misi zaútočili lidé na mateřskou loď Skaarj v malých stíhačkách pro jednoho muže v naději, že využijí chybu v obraně mateřské lodi, kterou jejich analýza odhalila."
+
+[MessageTrigger15]
+; EN: Message="Prepare to attack!!!"
+Message="Připravte se na útok!!!"
+
+[MessageTrigger17]
+; EN: Message="Prepare the defense!!!"
+Message="Připravte obranu!!!"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing bay"
+ObjectiveName="Přistávací prostor"
+; EN: DestructionMessage="Attackers have entered the MotherShip!"
+DestructionMessage="Útočníci vstoupili na mateřskou loď!"
+; EN: ObjectiveDescription="Enter Skaarj ship via landing bay"
+ObjectiveDescription="Vstupte na loď Skaarj přes přistávací základnu"
+; EN: Objective_Info_Attacker="Proceed to landing bay"
+Objective_Info_Attacker="Pokračujte do přistávacího prostoru"
+; EN: Objective_Info_Defender="Stop the humans from landing "
+Objective_Info_Defender="Zastavte lidi v přistání "
+
+[SceneSubtitles0]
+SubTitles=("First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali.        ","Within a year the Skaarj had pushed humanity back to the brink of destruction.","This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat.","A Skaarj mother ship orbited the Earth, and rained death upon the planet in preparation for the final landing.","In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the mother ship defenses their analysis had revealed.","Take down the generator within the lower section of the Skaarj mother ship to deactivate the top force fields.","Once completed head upwards into the main body of the Skaarj mother ship. ","Destroy the top generators to deactivate the shield for the landing bay.","Proceed and land in the mother ship landing bay.","Once on foot, proceed to the next section","Two energy bypass mechanisms will need to be destroyed to proceed to the cargo hull.","Past the bridge, the core awaits.","Once in the cargo hull three sentinels await.","The destruction of the sentinels is the only way to proceed forward.","The force fields deactivate once the three sentinels have been destroyed.","Passed the bridge and the core awaits.","Trigger the panels to open the hatch locks.","Once the panels have been triggered shoot the two energy core conductors in order to destabilize the core.")
+
+[Trigger_ASMessageTrigger14]
+; EN: Message="Force field down..."
+Message="Silové pole dolů..."
+
+[Trigger_ASMessageTrigger15]
+; EN: Message="Unlock the Core!"
+Message="Odemkněte jádro!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Core hatches have been released..."
+Message="Základní poklopy byly uvolněny..."
+
+[Trigger_ASMessageTrigger4]
+; EN: Message="Top force fields down..."
+Message="Horní silová pole dolů..."
+
+[Trigger_ASMessageTrigger5]
+; EN: Message="Attackers have landed!!!"
+Message="Útočníci přistáli!!!"
+
+[Trigger_ASMessageTrigger7]
+; EN: Message="Attackers have entered the core!!!"
+Message="Útočníci vstoupili do jádra!!!"
+
+[Trigger_ASMessageTrigger8]
+; EN: Message="Core has been destabilized!"
+Message="Jádro bylo destabilizováno!"
+
+[Trigger_ASMessageTrigger9]
+; EN: Message="Landing bay force field down"
+Message="Silové pole přistávacího prostoru dole"
+
+[ZoneInfo1]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitační chodba motoru vpravo"
+
+[ZoneInfo10]
+; EN: LocationName="Energy generator #2"
+LocationName="Generátor energie #2"
+
+[ZoneInfo12]
+; EN: LocationName="The core"
+LocationName="Jádro"
+
+[ZoneInfo13]
+; EN: LocationName="Right shaft"
+LocationName="Pravá hřídel"
+
+[ZoneInfo14]
+; EN: LocationName="Main middle shaft"
+LocationName="Hlavní střední hřídel"
+
+[ZoneInfo16]
+; EN: LocationName="Core exterior"
+LocationName="Exteriér jádra"
+
+[ZoneInfo17]
+; EN: LocationName="Core exterior"
+LocationName="Exteriér jádra"
+
+[ZoneInfo18]
+; EN: LocationName="Inner top shaft"
+LocationName="Vnitřní horní hřídel"
+
+[ZoneInfo19]
+; EN: LocationName="Core exterior"
+LocationName="Exteriér jádra"
+
+[ZoneInfo2]
+; EN: LocationName="In space"
+LocationName="Ve vesmíru"
+
+[ZoneInfo20]
+; EN: LocationName="Lower cross path"
+LocationName="Dolní křížová cesta"
+
+[ZoneInfo21]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Spawn bypassu obránce"
+
+[ZoneInfo22]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Spawn bypassu obránce"
+
+[ZoneInfo23]
+; EN: LocationName="Cargo hull"
+LocationName="Nákladní trup"
+
+[ZoneInfo24]
+; EN: LocationName="Cargo hull"
+LocationName="Nákladní trup"
+
+[ZoneInfo25]
+; EN: LocationName="Cargo hull"
+LocationName="Nákladní trup"
+
+[ZoneInfo26]
+; EN: LocationName="Cargo hull"
+LocationName="Nákladní trup"
+
+[ZoneInfo27]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Spawn bypassu obránce"
+
+[ZoneInfo28]
+; EN: LocationName="Space craft bay."
+LocationName="Zátoka vesmírných lodí."
+
+[ZoneInfo29]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Chodba nákladního trupu"
+
+[ZoneInfo3]
+; EN: LocationName="Lower section generator shaft"
+LocationName="Hřídel generátoru spodní části"
+
+[ZoneInfo30]
+; EN: LocationName="Elevator shaft"
+LocationName="Výtahová šachta"
+
+[ZoneInfo31]
+; EN: LocationName="Elevator passage "
+LocationName="Průjezd výtahem "
+
+[ZoneInfo32]
+; EN: LocationName="Cargo upper bridge left"
+LocationName="Nákladní horní most vlevo"
+
+[ZoneInfo33]
+; EN: LocationName="Cargo upper bridge right"
+LocationName="Nákladní horní most vpravo"
+
+[ZoneInfo34]
+; EN: LocationName="Elevator passage "
+LocationName="Průjezd výtahem "
+
+[ZoneInfo35]
+; EN: LocationName="Energy bypass room"
+LocationName="Místnost energetického bypassu"
+
+[ZoneInfo36]
+; EN: LocationName="Left hallway"
+LocationName="Levá chodba"
+
+[ZoneInfo37]
+; EN: LocationName="Attackers landing bay"
+LocationName="Přistávací plocha útočníků"
+
+[ZoneInfo38]
+; EN: LocationName="Right hallway"
+LocationName="Pravá chodba"
+
+[ZoneInfo39]
+; EN: LocationName="Top energy bypass entrance"
+LocationName="Horní vjezd energetického bypassu"
+
+[ZoneInfo4]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Přistávací prostor obránce"
+
+[ZoneInfo40]
+; EN: LocationName="Core entrance"
+LocationName="Vstup do jádra"
+
+[ZoneInfo41]
+; EN: LocationName="Core exterior"
+LocationName="Exteriér jádra"
+
+[ZoneInfo42]
+; EN: LocationName="Core bridge passage left"
+LocationName="Průchod jádrového mostu vlevo"
+
+[ZoneInfo43]
+; EN: LocationName="Gravity engine room #1"
+LocationName="Gravitační strojovna #1"
+
+[ZoneInfo44]
+; EN: LocationName="Gravity engine hallway left"
+LocationName="Chodba gravitačního motoru vlevo"
+
+[ZoneInfo45]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitační chodba motoru vpravo"
+
+[ZoneInfo46]
+; EN: LocationName="Gravity engine room #2"
+LocationName="Gravitační strojovna #2"
+
+[ZoneInfo47]
+; EN: LocationName="Core bridge passage right"
+LocationName="Průchod jádrového mostu vpravo"
+
+[ZoneInfo48]
+; EN: LocationName="Core bridge passage right"
+LocationName="Průchod jádrového mostu vpravo"
+
+[ZoneInfo49]
+; EN: LocationName="Cargo hull"
+LocationName="Nákladní trup"
+
+[ZoneInfo5]
+; EN: LocationName="Energy generator #1"
+LocationName="Generátor energie #1"
+
+[ZoneInfo50]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Chodba nákladního trupu"
+
+[ZoneInfo51]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitační chodba motoru vpravo"
+
+[ZoneInfo52]
+; EN: LocationName="Core bridge passage left"
+LocationName="Průchod jádrového mostu vlevo"
+
+[ZoneInfo53]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitační chodba motoru vpravo"
+
+[ZoneInfo54]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitační chodba motoru vpravo"
+
+[ZoneInfo55]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Chodba nákladního trupu"
+
+[ZoneInfo6]
+; EN: LocationName="Landing bay"
+LocationName="Přistávací prostor"
+
+[ZoneInfo7]
+; EN: LocationName="landing bay"
+LocationName="přistávací rampa"
+
+[ZoneInfo8]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Přistávací prostor obránce"
+
+[ZoneInfo9]
+; EN: LocationName="Left shaft"
+LocationName="Levá hřídel"
+

@@ -1,0 +1,504 @@
+﻿[Public]
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.PeaceMaker,Class=Class,MetaClass=Engine.Weapon)
+; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="女性2")
+; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
+Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="男性1")
+; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
+Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="男性2")
+; EN: Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="スカージトルーパー")
+; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="女性2")
+; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
+Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="男性1")
+; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
+Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="男性2")
+; EN: Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="スカージトルーパー")
+; EN: Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
+Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="ナリ")
+; EN: Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
+Preferences=(Caption="ダークマッチ",Parent="ゲームの種類",Class=UnrealI.DarkMatch,Immediate=True)
+; EN: Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="キングオブザヒル",Parent="ゲームの種類",Class=UnrealI.KingOfTheHill,Immediate=True)
+; EN: Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
+Preferences=(Caption="ダークマッチマップ",Parent="マップリスト",Class=UnrealI.DkMapList,Immediate=True)
+
+[IntroNullHud]
+; EN: ESCMessage="Press ESC to begin"
+ESCMessage="ESCを押して開始します"
+
+[Queen]
+; EN: NameArticle=" the "
+NameArticle=" NS "
+; EN: MenuName="Queen"
+MenuName="女王"
+
+[Behemoth]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Behemoth"
+MenuName="ベヒーモス"
+
+[Blob]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Blob"
+MenuName="ブロブ"
+
+[Bloblet]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Bloblet"
+MenuName="ブロブレット"
+
+[Chameleon]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Chameleon"
+MenuName="カメレオン"
+
+[Cow]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Nali Cow"
+MenuName="ナリ牛"
+
+[Gasbag]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Gasbag"
+MenuName="ガスバッグ"
+
+[GiantGasbag]
+; EN: NameArticle=" the "
+NameArticle=" NS "
+; EN: MenuName="Giant Gasbag"
+MenuName="ジャイアントガスバッグ"
+
+[GiantManta]
+; EN: NameArticle=" the "
+NameArticle=" NS "
+; EN: MenuName="Giant Manta"
+MenuName="オニイトマキエイ"
+
+[IceSkaarj]
+; EN: NameArticle=" an "
+NameArticle=" NS "
+MenuName="Ice Skaarj"
+
+[Krall]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Krall"
+MenuName="クラール"
+
+[KrallElite]
+; EN: NameArticle=" an "
+NameArticle=" NS "
+; EN: MenuName="Elite Krall"
+MenuName="エリートクラル"
+
+[Mercenary]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Mercenary"
+MenuName="傭兵"
+
+[MercenaryElite]
+; EN: NameArticle=" an "
+NameArticle=" NS "
+; EN: MenuName="Elite Mercenary"
+MenuName="エリート傭兵"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Nali"
+MenuName="ナリ"
+
+[Pupae]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Pupae"
+MenuName="さなぎ"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+MenuName="Skaarj"
+
+[SkaarjAssassin]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Skaarj Assassin"
+MenuName="Skaarj暗殺者"
+
+[SkaarjBerserker]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+MenuName="Skaarj Berserker"
+
+[SkaarjGunner]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+MenuName="Skaarj Gunner"
+
+[SkaarjInfantry]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Skaarj Infantry"
+MenuName="スカージ歩兵"
+
+[SkaarjLord]
+; EN: NameArticle=" the "
+NameArticle=" NS "
+; EN: MenuName="Skaarj Lord"
+MenuName="Skaarj主"
+
+[SkaarjOfficer]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Skaarj Officer"
+MenuName="Skaarjオフィサー"
+
+[SkaarjSniper]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Skaarj Sniper"
+MenuName="Skaarjスナイパー"
+
+[SkaarjTrooper]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Skaarj Trooper"
+MenuName="スカージトルーパー"
+
+[Titan]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Titan"
+MenuName="巨人"
+
+[StoneTitan]
+; EN: NameArticle=" the "
+NameArticle=" NS "
+; EN: MenuName="Stone Titan"
+MenuName="ストーンタイタン"
+
+[SkaarjPlayer]
+; EN: MenuName="Skaarj Trooper"
+MenuName="スカージトルーパー"
+
+[SkaarjPlayerBot]
+; EN: MenuName="Skaarj Trooper"
+MenuName="スカージトルーパー"
+
+[NaliPlayer]
+; EN: MenuName="Nali"
+MenuName="ナリ"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" NS "
+; EN: MenuName="WarLord"
+MenuName="ウォーロード"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="サーチライトの電池が切れました。"
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="サーチライトを手に取った"
+; EN: ItemName="Search Light"
+ItemName="サーチライト"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="あなたはかみそりの刃を手に入れました"
+; EN: ItemName="Razor Blades"
+ItemName="剃刀の刃"
+
+[DarkMatch]
+ClassCaption="DarkMatch"
+GameName="DarkMatch"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="あなたは10個の高射砲弾を手に入れました"
+; EN: ItemName="Flak Shells"
+ItemName="対空砲弾"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="男性1"
+
+[MaleOneBot]
+; EN: MenuName="Male 1"
+MenuName="男性1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="あなたは8ライフル弾を手に入れました"
+; EN: ItemName="Rifle Rounds"
+ItemName="ライフル弾"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="あなたはナリフルーツシードを手に入れました"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="ナリフルーツシード"
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained."
+ExpireMessage="ジャンプブーツが空になりました。"
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="あなたはジャンプブーツを手に入れました"
+; EN: ItemName="Jump Boots"
+ItemName="ジャンプブーツ"
+
+[ForceField]
+; EN: M_NoRoom="No room to activate the Force Field."
+M_NoRoom="フォースフィールドをアクティブにする余地はありません。"
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="フォースフィールドを拾いました"
+; EN: ItemName="Force Field"
+ItemName="フォースフィールド"
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="女性2"
+
+[FemaleTwoBot]
+; EN: MenuName="Female 2"
+MenuName="女性2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="男性2"
+
+[MaleTwoBot]
+; EN: MenuName="Male 2"
+MenuName="男性2"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="あなたは25キロのタリジウムバイオスラッジを拾いました"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="タリジウムバイオスラッジ"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="不可視性がすり減っています。"
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="あなたは不可視性を持っています"
+; EN: ItemName="Invisibility"
+ItemName="不可視"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="あなたはアスベストスーツを手に入れました"
+; EN: ItemName="Asbestos Suit"
+ItemName="アスベストスーツ"
+
+[fell]
+; EN: Name="fell"
+Name="落ちた"
+; EN: AltName="fell"
+AltName="落ちた"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="あなたは高射砲弾を手に入れました"
+; EN: ItemName="Flak Shell"
+ItemName="フラックシェル"
+
+[drowned]
+; EN: Name="drowned"
+Name="溺死"
+; EN: AltName="drowned"
+AltName="溺死"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="頭を下げた"
+; EN: AltName="decapitated"
+AltName="斬首"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="音響ダンパーがなくなりました。"
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="あなたは音響ダンパーを手に入れました"
+; EN: ItemName="Acoustic Dampener"
+ItemName="吸音ダンパー"
+
+[Corroded]
+; EN: Name="corroded"
+Name="腐食した"
+; EN: AltName="slimed"
+AltName="痩せた"
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="毒素スーツを手に入れました"
+; EN: ItemName="Toxin Suit"
+ItemName="トキシンスーツ"
+
+[Burned]
+; EN: Name="burned"
+Name="やけど"
+; EN: AltName="flame-broiled"
+AltName="炎で焼いた"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="あなたはパワーシールドを手に入れました"
+; EN: ItemName="Power Shield"
+ItemName="パワーシールド"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="あなたはライフル弾を手に入れました"
+; EN: ItemName="Rifle Round"
+ItemName="ライフル弾"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="ブロブによって腐食された"
+; EN: FemBlobKillMessage="was corroded by a Blob"
+FemBlobKillMessage="ブロブによって腐食された"
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Blob"
+MenuName="ブロブ"
+
+[EndgameHud]
+; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
+Message1="Skaarj脱出ポッドは惑星の引力から解放されました...かろうじて。それでも、それは燃料の蓄えが使い果たされており、あなたはぶらぶらと漂流しています。"
+; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
+Message2="多くの人が亡くなったところから、あなたは逃げ出しました。あなたは自分自身に笑います。多くのことが起こりましたが、ほとんど変わっていません。"
+; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
+Message3="愛の不時着の前に、あなたは窮屈な独房に閉じ込められました。今、もう一度あなたは刑務所に閉じ込められています。"
+; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
+Message4="しかし、あなたは誰かがあなたの小さな船にやってくると確信しています...最終的には。"
+; EN: Message5="Until then, you drift and hope."
+Message5="それまで、あなたは漂流して希望します。"
+; EN: Message6="To Be Continued..."
+Message6="つづく..."
+; EN: Message7="Press fire to restart"
+Message7="火を押して再起動します"
+
+[KingOfTheHill]
+; EN: ClassCaption="King of the Hill"
+ClassCaption="キングオブザヒル"
+; EN: KingMessage=" is the new king of the hill!"
+KingMessage=" 丘の新しい王です！"
+; EN: NewKingMessage="%k is the new king of the hill!"
+NewKingMessage="％kは丘の新しい王です！"
+; EN: NewQueenMessage="%k is the new queen of the hill!"
+NewQueenMessage="％kは丘の新しい女王です！"
+; EN: GameName="King of the Hill"
+GameName="キングオブザヒル"
+
+[FlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="％oは％kの％wによって細断処理されました。"
+; EN: FemDeathMessage="%o was ripped to shreds by %k's %w."
+FemDeathMessage="％oは％kの％wによって細断処理されました。"
+; EN: FemKillMessage="%o was ripped to shreds by %k's %w."
+FemKillMessage="％oは％kの％wによって細断処理されました。"
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="あなたは高射砲を手に入れました"
+; EN: ItemName="Flak Cannon"
+ItemName="フラックキャノン"
+
+[Rifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="％kは％oの頭に弾丸を入れました。"
+; EN: FemDeathMessage="%k put a bullet through %o's head."
+FemDeathMessage="％kは％oの頭に弾丸を入れました。"
+; EN: FemKillMessage="%k put a bullet through %o's head."
+FemKillMessage="％kは％oの頭に弾丸を入れました。"
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="あなたはライフルを手に入れました"
+; EN: ItemName="Sniper Rifle"
+ItemName="スナイパーライフル"
+
+[Minigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="％kの％wは％oを漏れのある肉片に変えました。"
+; EN: FemDeathMessage="%k's %w turned %o into a leaky piece of meat."
+FemDeathMessage="％kの％wは％oを漏れのある肉片に変えました。"
+; EN: FemKillMessage="%k's %w turned %o into a leaky piece of meat."
+FemKillMessage="％kの％wは％oを漏れのある肉片に変えました。"
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="あなたはミニガンを手に入れました"
+; EN: ItemName="Minigun"
+ItemName="ミニガン"
+
+[GESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+; EN: FemDeathMessage="%o drank a glass of %k's dripping green load."
+FemDeathMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+; EN: FemKillMessage="%o drank a glass of %k's dripping green load."
+FemKillMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="あなたはGESBioRifleを手に入れました"
+; EN: ItemName="GES Bio Rifle"
+ItemName="GESバイオライフル"
+
+[Squid]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Squid"
+MenuName="イカ"
+
+[RazorJack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="％kは％wで％oから血まみれのチャンクを取り出しました。"
+; EN: FemDeathMessage="%k took a bloody chunk out of %o with the %w."
+FemDeathMessage="％kは％wで％oから血まみれのチャンクを取り出しました。"
+; EN: FemKillMessage="%k took a bloody chunk out of %o with the %w."
+FemKillMessage="％kは％wで％oから血まみれのチャンクを取り出しました。"
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="あなたはRazorJackを手に入れました"
+; EN: ItemName="Razorjack"
+ItemName="レイザージャック"
+
+[QuadShot]
+; EN: DeathMessage="%o was blasted to bits by %k's %w."
+DeathMessage="％oは％kの％wによってビットにブラストされました。"
+; EN: FemDeathMessage="%o was blasted to bits by %k's %w."
+FemDeathMessage="％oは％kの％wによってビットにブラストされました。"
+; EN: FemKillMessage="%o was blasted to bits by %k's %w."
+FemKillMessage="％oは％kの％wによってビットにブラストされました。"
+; EN: PickupMessage="You got the Quad-Barreled Shotgun"
+PickupMessage="クワッドバレルショットガンを手に入れました"
+; EN: ItemName="Quad-Barreled Shotgun"
+ItemName="クワッドバレルショットガン"
+
+[PeaceMaker]
+; EN: DeathMessage="One of %k's %w missiles blew up %o."
+DeathMessage="％kの％wミサイルの1つが％oを爆破しました。"
+; EN: FemDeathMessage="One of %k's %w missiles blew up %o."
+FemDeathMessage="％kの％wミサイルの1つが％oを爆破しました。"
+; EN: FemKillMessage="One of %k's %w missiles blew up %o."
+FemKillMessage="％kの％wミサイルの1つが％oを爆破しました。"
+; EN: PickupMessage="You got the Peacemaker"
+PickupMessage="あなたはピースメーカーを手に入れました"
+; EN: ItemName="Peacemaker"
+ItemName="ピースメイカー"
+
+[WoodruffSeeds]
+; EN: PickupMessage="You got the Woodruff seeds"
+PickupMessage="ウッドラフの種を手に入れました"

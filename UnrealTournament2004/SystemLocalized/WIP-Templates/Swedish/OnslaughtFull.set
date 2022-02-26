@@ -1,0 +1,75 @@
+[DamTypeIonTankBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="%o utplånades med %k"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o utplånades"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o utplånades"
+
+[DamTypeMASCannon]
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="%o förångades av %k!"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="%o förångades!"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="%o förångades!"
+
+[DamTypeMASPlasma]
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="%k:s Leviathan-torn plasmanerade %o."
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="%o slösade bort sig själv."
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="%o slösade bort sig själv."
+
+[MutVehicleArena]
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="Arena fordon"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="Bestämmer vilken fordonstyp som kommer att användas i matchen."
+; EN: FriendlyName="Vehicle Arena"
+FriendlyName="Fordon Arena"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="Ersätt alla fordon på kartan med en viss typ."
+
+[ONSBomber]
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="i en DragonFly"
+; EN: VehicleNameString="DragonFly"
+VehicleNameString="Trollslända"
+
+[ONSGenericSD]
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="indisponerad"
+VehicleNameString="TC-1200"
+
+[ONSHoverTank_IonPlasma]
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="i en jonplasmatank"
+VehicleNameString="Ion Plasma Tank"
+
+[ONSMASSideGunPawn]
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="i ett Leviathan-torn"
+VehicleNameString="Leviathan Turret"
+
+[ONSMobileAssaultStation]
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="i en Leviathan"
+VehicleNameString="Leviathan"
+
+[ONSPainter]
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="Target Painter, som liknar Ion Painter, avfyrar en ofarlig lågeffektlaser med sin primära eld. Till skillnad från Ion Painter anropar dock detta vapen en bombplan som avfyrar en sträng av bomber i den riktning användaren är vänd mot, centrerad på det målade målet. Bomberna kommer lätt att förbränna målet och alla olyckor som råkar vara i närheten."
+; EN: ItemName="Target Painter"
+ItemName="Målare"
+
+[ONSPainterPickup]
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="Du har målmålaren."
+
+[ONSTankSecondaryTurretPawn_IonPlasma]
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="i ett jontanktorn"
+VehicleNameString="Ion Tank Minigun Turret"
+

@@ -1,47 +1,71 @@
 [DamTypeArtilleryShell]
-DeathString="%k rained on %o's parade."
-FemaleSuicide="%o managed to kill herself with her own Artillery."
-MaleSuicide="%o managed to kill himself with his own Artillery."
+; EN: DeathString="%k rained on %o's parade."
+DeathString="% k llovió en el desfile de% o."
+; EN: FemaleSuicide="%o managed to kill herself with her own Artillery."
+FemaleSuicide="% o logró suicidarse con su propia artillería."
+; EN: MaleSuicide="%o managed to kill himself with his own Artillery."
+MaleSuicide="% o logró suicidarse con su propia artillería."
 
 [DamTypeONSCicadaLaser]
-DeathString="%k's blaster stung %o."
-FemaleSuicide="%o used her blaster on herself."
-MaleSuicide="%o used his blaster on himself."
+; EN: DeathString="%k's blaster stung %o."
+DeathString="El desintegrador de% k picó a% o."
+; EN: FemaleSuicide="%o used her blaster on herself."
+FemaleSuicide="% o usó su desintegrador en sí misma."
+; EN: MaleSuicide="%o used his blaster on himself."
+MaleSuicide="% o usó su desintegrador consigo mismo."
 
 [DamTypeONSCicadaRocket]
-DeathString="%k's blew %o to bits."
-FemaleSuicide="%o blew herself up good."
-MaleSuicide="%o blew himself up good."
+; EN: DeathString="%k's blew %o to bits."
+DeathString="% k's voló% o en pedazos."
+; EN: FemaleSuicide="%o blew herself up good."
+FemaleSuicide="% o se voló bien."
+; EN: MaleSuicide="%o blew himself up good."
+MaleSuicide="% o se inmoló bien."
 
 [DamTypeShockTankProximityExplosion]
-DeathString="%o got too close to %k's Paladin."
+; EN: DeathString="%o got too close to %k's Paladin."
+DeathString="% o se acercó demasiado al Paladín de% k."
 
 [DamTypeShockTankShockBall]
-DeathString="%o couldn't avoid the blast from %k's Paladin."
+; EN: DeathString="%o couldn't avoid the blast from %k's Paladin."
+DeathString="% o no pudo evitar la explosión del Paladín de% k."
 
 [MutVehiclePickups]
-FriendlyName="Vehicle Pickups"
-Description="Vehicles will pickup items and give them to the driver"
+; EN: FriendlyName="Vehicle Pickups"
+FriendlyName="Camionetas de vehículos"
+; EN: Description="Vehicles will pickup items and give them to the driver"
+Description="Los vehículos recogerán los artículos y se los darán al conductor."
 
 [ONSArtillery]
-VehiclePositionString="in a SPMA"
+; EN: VehiclePositionString="in a SPMA"
+VehiclePositionString="en una SPMA"
 VehicleNameString="SPMA"
 
 [ONSArtillerySideGunPawn]
-VehiclePositionString="in a SPMA side turret"
-VehicleNameString="SPMA Side Turret"
+; EN: VehiclePositionString="in a SPMA side turret"
+VehiclePositionString="en una torreta lateral SPMA"
+; EN: VehicleNameString="SPMA Side Turret"
+VehicleNameString="Torreta lateral SPMA"
 
 [ONSDualACGatlingGunPawn]
-LockedMsg=" INCOMING "
-VehiclePositionString="in a Cicada turret"
-VehicleNameString="Cicada Laser Turret"
+; EN: LockedMsg=" INCOMING "
+LockedMsg=" ENTRANTE "
+; EN: VehiclePositionString="in a Cicada turret"
+VehiclePositionString="en una torreta de cigarra"
+; EN: VehicleNameString="Cicada Laser Turret"
+VehicleNameString="Torreta láser de cigarra"
 
 [ONSDualAttackCraft]
-LockedMsg=" Locked "
-VehiclePositionString="in a Cicada"
-VehicleNameString="Cicada"
+; EN: LockedMsg=" Locked "
+LockedMsg=" Bloqueado "
+; EN: VehiclePositionString="in a Cicada"
+VehiclePositionString="en una cigarra"
+; EN: VehicleNameString="Cicada"
+VehicleNameString="Cigarra"
 
 [ONSShockTank]
-VehiclePositionString="in a Paladin"
-VehicleNameString="Paladin"
+; EN: VehiclePositionString="in a Paladin"
+VehiclePositionString="en un paladín"
+; EN: VehicleNameString="Paladin"
+VehicleNameString="Paladín"
 

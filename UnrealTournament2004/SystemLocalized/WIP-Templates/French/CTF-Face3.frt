@@ -1,81 +1,108 @@
 [LevelInfo0]
-Title="Facing Worlds 3"
+; EN: Title="Facing Worlds 3"
+Title="Face aux mondes 3"
 
 [LevelSummary]
-Title="Facing Worlds 3"
+; EN: Title="Facing Worlds 3"
+Title="Face aux mondes 3"
 
 [Volume0]
-LocationName="Red Level 3"
+; EN: LocationName="Red Level 3"
+LocationName="Rouge Niveau 3"
 
 [Volume1]
-LocationName="Blue Level 3"
+; EN: LocationName="Blue Level 3"
+LocationName="Bleu niveau 3"
 
 [Volume10]
-LocationName="Red Shield"
+; EN: LocationName="Red Shield"
+LocationName="Bouclier rouge"
 
 [Volume11]
-LocationName="Blue Shield"
+; EN: LocationName="Blue Shield"
+LocationName="Bouclier bleu"
 
 [Volume12]
-LocationName="Red Backdoor"
+; EN: LocationName="Red Backdoor"
+LocationName="Porte dérobée rouge"
 
 [Volume13]
-LocationName="Blue Backdoor"
+; EN: LocationName="Blue Backdoor"
+LocationName="Porte dérobée bleue"
 
 [Volume2]
-LocationName="Blue Level 2"
+; EN: LocationName="Blue Level 2"
+LocationName="Bleu niveau 2"
 
 [Volume3]
-LocationName="Red Level2"
+; EN: LocationName="Red Level2"
+LocationName="Rouge Niveau2"
 
 [Volume4]
-LocationName="Blue Flak"
+; EN: LocationName="Blue Flak"
+LocationName="Flak bleu"
 
 [Volume5]
-LocationName="Red Flak"
+; EN: LocationName="Red Flak"
+LocationName="Flak rouge"
 
 [Volume6]
-LocationName="Blue Flak"
+; EN: LocationName="Blue Flak"
+LocationName="Flak bleu"
 
 [Volume7]
-LocationName="Blue Flak"
+; EN: LocationName="Blue Flak"
+LocationName="Flak bleu"
 
 [Volume8]
-LocationName="Red Flak"
+; EN: LocationName="Red Flak"
+LocationName="Flak rouge"
 
 [Volume9]
-LocationName="Red Flak"
+; EN: LocationName="Red Flak"
+LocationName="Flak rouge"
 
 [ZoneInfo1]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base bleue"
 
 [ZoneInfo10]
-LocationName="Red Minigun"
+; EN: LocationName="Red Minigun"
+LocationName="Minigun rouge"
 
 [ZoneInfo11]
-LocationName="Red Pillars"
+; EN: LocationName="Red Pillars"
+LocationName="Piliers rouges"
 
 [ZoneInfo2]
-LocationName="Blue Minigun"
+; EN: LocationName="Blue Minigun"
+LocationName="Minigun bleu"
 
 [ZoneInfo3]
-LocationName="Blue Minigun"
+; EN: LocationName="Blue Minigun"
+LocationName="Minigun bleu"
 
 [ZoneInfo4]
-LocationName="Blue Pillars"
+; EN: LocationName="Blue Pillars"
+LocationName="Piliers bleus"
 
 [ZoneInfo5]
-LocationName="Blue Minigun"
+; EN: LocationName="Blue Minigun"
+LocationName="Minigun bleu"
 
 [ZoneInfo6]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 
 [ZoneInfo7]
-LocationName="Red Base"
+; EN: LocationName="Red Base"
+LocationName="Base rouge"
 
 [ZoneInfo8]
-LocationName="Red Minigun"
+; EN: LocationName="Red Minigun"
+LocationName="Minigun rouge"
 
 [ZoneInfo9]
-LocationName="Red Minigun"
+; EN: LocationName="Red Minigun"
+LocationName="Minigun rouge"
 

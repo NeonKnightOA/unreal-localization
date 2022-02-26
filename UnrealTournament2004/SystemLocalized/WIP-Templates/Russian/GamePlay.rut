@@ -1,0 +1,441 @@
+[ACTION_DamageActor]
+; EN: ActionString="Damage actor"
+ActionString="Повреждение актера"
+
+[ACTION_DestroyActor]
+; EN: ActionString="Destroy actor"
+ActionString="Уничтожить актера"
+
+[ACTION_FinishRotation]
+; EN: ActionString="Finish rotation"
+ActionString="Завершить вращение"
+
+[ACTION_FireWeapon]
+; EN: ActionString="fire weapon"
+ActionString="огнестрельное оружие"
+
+[ACTION_FireWeaponAt]
+; EN: ActionString="fire weapon"
+ActionString="огнестрельное оружие"
+
+[ACTION_Freeze]
+; EN: ActionString="Freeze"
+ActionString="Заморозить"
+
+[ACTION_HealActor]
+; EN: ActionString="Heal actor"
+ActionString="Исцелить актера"
+
+[ACTION_Jump]
+; EN: ActionString="Jump"
+ActionString="Прыжок"
+
+[ACTION_LocalizedMessage]
+; EN: ActionString="Localized Message"
+ActionString="Локализованное сообщение"
+
+[ACTION_PlayLIPSinc]
+; EN: ActionString="Play LIPSinc"
+ActionString="Играть в LIPSinc"
+
+[ACTION_SetPhysics]
+; EN: ActionString="change physics to "
+ActionString="изменить физику на "
+
+[ACTION_ShootTarget]
+; EN: ActionString="shoot target"
+ActionString="стрелять в цель"
+
+[ACTION_SpawnActor]
+; EN: ActionString="Spawn actor"
+ActionString="Спаун актера"
+
+[ACTION_SubTitles]
+; EN: ActionString="SubTitles"
+ActionString="Субтитры"
+
+[ACTION_ThrowWeapon]
+; EN: ActionString="throw weapon"
+ActionString="метать оружие"
+
+[ACTION_WaitForLIPSincAnimEnd]
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="Подождите, пока LIPSincAnimEnd"
+
+[ActionMessage_BR]
+; EN: Messages[0]="Bombing Run"
+Messages[0]="Бомбардировка"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="Мяч в центре"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="Коснитесь мяча, чтобы поднять его"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="Игрок с мячом не может атаковать"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="Первичный огонь стреляет мячом"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="Альтернативные огневые цели товарищи по команде"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="Передайте мяч товарищам по команде"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="У каждой команды есть круглая цель"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="Бросок мяча = 3 очка"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="Проведение = 7 баллов"
+; EN: Messages[10]="Good luck!"
+Messages[10]="Удачи!"
+
+[ActionMessage_CTF]
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="Захват флага"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="Две базы: красная и синяя"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="Коснитесь вражеского флага, чтобы взять его"
+; EN: Messages[3]="Return to your base"
+Messages[3]="Вернуться на свою базу"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="Коснитесь своего флага, чтобы забить"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="При перемещении флаг сбросится"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="Предел захвата по умолчанию - 3"
+; EN: Messages[7]="Good luck!"
+Messages[7]="Удачи!"
+
+[ActionMessage_DM]
+Messages[0]="Deathmatch"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="Нажмите огонь, чтобы спавниться"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="Оружие имеет два режима стрельбы."
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="Обычный и попеременный огонь"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="Штурмовая винтовка"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="Стреляет пулями и гранатами"
+; EN: Messages[6]="Shield Gun"
+Messages[6]="Щитовой пистолет"
+; EN: Messages[7]="Melee attack"
+Messages[7]="Атака ближнего боя"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="Защитный щит"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="Исследуйте, чтобы найти другое оружие"
+; EN: Messages[10]="Flak Cannon"
+Messages[10]="Зенитная пушка"
+; EN: Messages[11]="Bio-Rifle"
+Messages[11]="Био-винтовка"
+; EN: Messages[12]="Minigun"
+Messages[12]="Миниган"
+; EN: Messages[13]="Movement"
+Messages[13]="Движение"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD = Клавиши движения по умолчанию"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="Дважды нажмите клавишу, чтобы увернуться"
+; EN: Messages[16]="Jumping"
+Messages[16]="Прыжки"
+; EN: Messages[17]="Double jump"
+Messages[17]="Двойной прыжок"
+; EN: Messages[18]="Powerups"
+Messages[18]="Бонусы"
+; EN: Messages[19]="Health vials"
+Messages[19]="Флаконы для здоровья"
+; EN: Messages[20]="Health pack"
+Messages[20]="Пакет здоровья"
+; EN: Messages[21]="Big Keg O' Health"
+Messages[21]="Большой бочонок здоровья"
+; EN: Messages[22]="Armor"
+Messages[22]="Броня"
+; EN: Messages[23]="Shield Pack"
+Messages[23]="Набор щитов"
+; EN: Messages[24]="Super Shield Pack"
+Messages[24]="Супер щит"
+; EN: Messages[25]="Adrenaline"
+Messages[25]="Адреналин"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="Адреналин можно использовать для комбо"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="Усилитель повреждений"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="Сначала достигните лимита фрагов!"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="Самоубийства в счет вас"
+; EN: Messages[30]="Good luck!"
+Messages[30]="Удачи!"
+
+[ActionMessage_DOM]
+; EN: Messages[0]="Double Domination"
+Messages[0]="Двойное доминирование"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="Контрольные точки: A и B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="Удерживайте точки в течение 10 секунд"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="Коснитесь точки, чтобы взять под контроль"
+; EN: Messages[4]="Good luck!"
+Messages[4]="Удачи!"
+
+[ActionMessage_SubTitle]
+Delays[0]=4.000000
+Delays[1]=4.000000
+Delays[2]=8.000000
+Delays[3]=8.000000
+Delays[4]=8.000000
+Delays[5]=8.000000
+Delays[6]=8.000000
+Delays[7]=8.000000
+Delays[8]=8.000000
+Delays[9]=8.000000
+Delays[10]=8.000000
+Delays[11]=8.000000
+Delays[12]=8.000000
+Delays[13]=8.000000
+Delays[14]=8.000000
+Delays[15]=8.000000
+Delays[16]=8.000000
+Delays[17]=8.000000
+Delays[18]=8.000000
+Delays[19]=8.000000
+Delays[20]=8.000000
+Delays[21]=8.000000
+Delays[22]=0.000000
+Delays[23]=0.000000
+Delays[24]=0.000000
+Delays[25]=0.000000
+Delays[26]=0.000000
+Delays[27]=0.000000
+Delays[28]=0.000000
+Delays[29]=0.000000
+Delays[30]=0.000000
+Delays[31]=0.000000
+; EN: Messages[0]="How do I look?"
+Messages[0]="Как я выгляжу?"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="Не так хорошо, как я, детка ..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="Что ж, фанаты, вот и мы за еще одно издание самого кровавого вида спорта в Галактике. Турнир, в котором победители становятся богами, а проигравшие платят самую высокую цену!"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="ТАМ ОНИ! Когда-то они были соперниками, но теперь они одна из самых жестоких команд."
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="Верно. Ничто не сравнится с опытом, и каждый из этих трех приносит много опыта."
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="Посмотри на Малькольма! Теперь есть парень, который действительно может сохранять хладнокровие в перестрелке."
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="Этот Брок. Он так же опасен для девушек за рингом, как и для своих врагов внутри!"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="Я люблю смотреть Лорен. Она такая маленькая .... сгусток энергии."
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="Да, верно ... тебе нравится наблюдать за Лорен из-за ее энергии."
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="На этот раз он МОЙ !!"
+Messages[10]="AAGGGHHHHRRRR"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="You d'man Gorge! Ты жжешь! Да, детка, давай, ты, чувак, чувак!"
+Messages[12]="MAAAALLLCOOOOOMMM!"
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="О, чувак, ты это видел?"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="Я говорю тебе, Джим, этот Гордж, он просто не уважает своих поклонников."
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="Что ж, я думаю, он все еще злится из-за этого нового шрама на лице, любезного Малкольма в их последнем матче."
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="Да, я думаю, он хочет получить небольшую отдачу."
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="Да, сегодня он должен быть хорошим."
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="Поскольку команда Малькольма - действующие чемпионы, они могут выбрать сегодняшнюю арену."
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="Похоже, это будет ... Ледяные поля Календры."
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="Awww Да, я люблю эту арену, Малькольм здесь действительно хорошо."
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="Сегодняшний матч должен стать настоящей кровавой баней."
+
+[Action_CHANGELEVEL]
+; EN: ActionString="Change level"
+ActionString="Изменить уровень"
+
+[Action_CHANGESCRIPT]
+; EN: ActionString="Change script"
+ActionString="Изменить сценарий"
+
+[Action_CHANGETEAM]
+; EN: ActionString="Change Team"
+ActionString="Сменить команду"
+
+[Action_CROUCH]
+; EN: ActionString="crouch"
+ActionString="приседать"
+
+[Action_ConsoleCommand]
+; EN: ActionString="console command"
+ActionString="консольная команда"
+
+[Action_DAMAGEINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Подстрекатель ущерба"
+
+[Action_DESTROYPAWN]
+; EN: ActionString="destroy pawn"
+ActionString="уничтожить пешку"
+
+[Action_DISPLAYMESSAGE]
+; EN: ActionString="display message"
+ActionString="отображать сообщение"
+
+[Action_DrawHUDMaterial]
+; EN: ActionString="draw HUD texture"
+ActionString="рисовать текстуру HUD"
+
+[Action_ENDSECTION]
+; EN: ActionString="end section"
+ActionString="конец раздела"
+
+[Action_FADEVIEW]
+; EN: ActionString="fade view"
+ActionString="исчезающий вид"
+
+[Action_GOTOACTION]
+; EN: ActionString="go to action"
+ActionString="перейти к действию"
+
+[Action_IFCONDITION]
+; EN: ActionString="If condition"
+ActionString="Если условие"
+
+[Action_KILLINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Подстрекатель ущерба"
+
+[Action_LEAVESEQUENCE]
+; EN: ActionString="leave sequence"
+ActionString="оставить последовательность"
+
+[Action_MOVETOPLAYER]
+; EN: ActionString="Move to player"
+ActionString="Перейти к игроку"
+
+[Action_MOVETOPOINT]
+; EN: ActionString="Move to point"
+ActionString="Перейти к точке"
+
+[Action_PLAYAMBIENTSOUND]
+; EN: ActionString="play ambient sound"
+ActionString="играть окружающий звук"
+
+[Action_PLAYANIM]
+; EN: ActionString="play animation"
+ActionString="воспроизвести анимацию"
+
+[Action_PLAYANNOUNCEMENT]
+; EN: ActionString="play announcement"
+ActionString="играть объявление"
+
+[Action_PLAYLOCALSOUND]
+; EN: ActionString="play sound"
+ActionString="играть звук"
+
+[Action_PLAYMUSIC]
+; EN: ActionString="play song"
+ActionString="Играть песню"
+
+[Action_PLAYSOUND]
+; EN: ActionString="play sound"
+ActionString="играть звук"
+
+[Action_RUN]
+; EN: ActionString="Run"
+ActionString="Запустить"
+
+[Action_SETALERTNESS]
+; EN: ActionString="set alertness"
+ActionString="установить бдительность"
+
+[Action_SETVIEWTARGET]
+; EN: ActionString="set viewtarget"
+ActionString="установить цель просмотра"
+
+[Action_STOPANIMATION]
+; EN: ActionString="stop animation"
+ActionString="остановить анимацию"
+
+[Action_TRIGGEREVENT]
+; EN: ActionString="trigger event"
+ActionString="триггерное событие"
+
+[Action_TURNTOWARDPLAYER]
+; EN: ActionString="Turn toward player"
+ActionString="Повернитесь к игроку"
+
+[Action_WAITFORANIMEND]
+; EN: ActionString="Wait for animend"
+ActionString="Подождите пока анимеенд"
+
+[Action_WAITFOREVENT]
+; EN: ActionString="Wait for external event"
+ActionString="Ждать внешнего события"
+
+[Action_WAITFORPLAYER]
+; EN: ActionString="Wait for player"
+ActionString="Ждите игрока"
+
+[Action_WAITFORTIMER]
+; EN: ActionString="Wait for timer"
+ActionString="Подождите, пока таймер"
+
+[Action_WALK]
+; EN: ActionString="walk"
+ActionString="ходить"
+
+[Burned]
+; EN: DeathString="%o was sauteed."
+DeathString="% o был обжарен."
+
+[Corroded]
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="% o был растворен% k."
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="% o растворено в слизи."
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="% o растворено в слизи."
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Осталось только% i ..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Завершенный!"
+
+[Depressurized]
+; EN: DeathString="%o was depressurized by %k."
+DeathString="% o был сброшен% k."
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="% o было сброшено давление."
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="% o было сброшено давление."
+
+[Drowned]
+; EN: DeathString="%o forgot to come up for air."
+DeathString="% o забыл подойти подышать воздухом."
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="% o забыл подойти подышать воздухом."
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="% o забыл подойти подышать воздухом."
+
+[MessageTextureClient]
+; EN: HisMessage="his"
+HisMessage="его"
+; EN: HerMessage="her"
+HerMessage="ее"
+
+[ScriptedAction]
+; EN: ActionString="unspecified action"
+ActionString="неуказанное действие"
+
+[WaterVolume]
+; EN: LocationName="under water"
+LocationName="под водой"
+

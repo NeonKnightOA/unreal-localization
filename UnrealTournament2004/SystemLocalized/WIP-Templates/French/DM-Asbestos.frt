@@ -1,20 +1,26 @@
 [LevelInfo0]
-Title="Asbestos"
+; EN: Title="Asbestos"
+Title="Amiante"
 
 [LevelSummary]
-Title="Asbestos"
+; EN: Title="Asbestos"
+Title="Amiante"
 
 [Trigger0]
-Message="0wnage"
+; EN: Message="0wnage"
+Message="0wage"
 
 [Trigger1]
-Message="0wnage"
+; EN: Message="0wnage"
+Message="0wage"
 
 [ZoneInfo0]
-LocationName="LightningGun"
+; EN: LocationName="LightningGun"
+LocationName="FoudrePistolet"
 
 [ZoneInfo10]
-LocationName="SmallPool"
+; EN: LocationName="SmallPool"
+LocationName="Petite Piscine"
 
 [ZoneInfo13]
 LocationName="LinkGun"
@@ -23,31 +29,39 @@ LocationName="LinkGun"
 LocationName="Flak"
 
 [ZoneInfo15]
-LocationName="ShockRifle"
+; EN: LocationName="ShockRifle"
+LocationName="ChocFusil"
 
 [ZoneInfo16]
 LocationName="FlakLift"
 
 [ZoneInfo17]
-LocationName="LightningGun"
+; EN: LocationName="LightningGun"
+LocationName="FoudrePistolet"
 
 [ZoneInfo18]
-LocationName="Biorifle"
+; EN: LocationName="Biorifle"
+LocationName="Biofusil"
 
 [ZoneInfo19]
-LocationName="DoubleDamage"
+; EN: LocationName="DoubleDamage"
+LocationName="Doubles dommages"
 
 [ZoneInfo2]
-LocationName="DoubleDamage"
+; EN: LocationName="DoubleDamage"
+LocationName="Doubles dommages"
 
 [ZoneInfo3]
-LocationName="LightningGun"
+; EN: LocationName="LightningGun"
+LocationName="FoudrePistolet"
 
 [ZoneInfo4]
-LocationName="ShockRifle"
+; EN: LocationName="ShockRifle"
+LocationName="ChocFusil"
 
 [ZoneInfo5]
-LocationName="DoubleDamage"
+; EN: LocationName="DoubleDamage"
+LocationName="Doubles dommages"
 
 [ZoneInfo6]
 LocationName="Flak"
@@ -56,5 +70,6 @@ LocationName="Flak"
 LocationName="DoubleDamageLift"
 
 [ZoneInfo8]
-LocationName="ShockRifle"
+; EN: LocationName="ShockRifle"
+LocationName="ChocFusil"
 

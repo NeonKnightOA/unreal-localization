@@ -1,0 +1,72 @@
+﻿[LevelInfo0]
+; EN: Title="Operation Overlord"
+Title="オーヴァーロード作戦"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+LevelEnterText="メインガンコントロールの装備を破壊して、長距離砲を無効にします"
+
+[ZoneInfo2]
+; EN: ZoneName="Barracks"
+ZoneName="兵舎"
+
+[ZoneInfo5]
+; EN: ZoneName="Ammo Room"
+ZoneName="弾薬室"
+
+[ZoneInfo3]
+; EN: ZoneName="Boiler Room"
+ZoneName="ボイラー室"
+
+[ZoneInfo6]
+; EN: ZoneName="Gun Cavern"
+ZoneName="ガン洞窟"
+
+[KillingField0]
+; EN: ZoneName="Beach"
+ZoneName="ビーチ"
+
+[ZoneInfo1]
+; EN: ZoneName="Foxholes"
+ZoneName="フォックスホール"
+
+[ZoneInfo0]
+; EN: ZoneName="Entrance Ramp"
+ZoneName="エントランスランプ"
+
+[ZoneInfo8]
+; EN: ZoneName="Last Passage"
+ZoneName="最後の通過"
+
+[WaterZone0]
+; EN: ZoneName="Water"
+ZoneName="水"
+
+[FortStandard0]
+; EN: FortName="The Beachhead"
+FortName="海岸堡"
+; EN: DestroyedMessage="has been breached by the attackers!"
+DestroyedMessage="攻撃者によって侵害されました！"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
+ObjDesc[0]="長距離大砲を無効にするには、防御側の基地を通り抜けて、崖の壁の奥深くにある大きな銃の洞窟に行く必要があります。そこには「主砲規制」室があります。その部屋の機器を破壊します。"
+
+[FortStandard4]
+; EN: FortName="The Boiler Room"
+FortName="ボイラー室"
+; EN: DestroyedMessage="has been breached by the attackers!"
+DestroyedMessage="攻撃者によって侵害されました！"
+
+[LevelSummary]
+; EN: Title="Operation Overlord"
+Title="オーヴァーロード作戦"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+LevelEnterText="メインガンコントロールの装備を破壊して、長距離砲を無効にします"
+
+[LevelInfo2]
+; EN: Title="Operation Overlord"
+Title="オーヴァーロード作戦"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+LevelEnterText="メインガンコントロールの装備を破壊して、長距離砲を無効にします"

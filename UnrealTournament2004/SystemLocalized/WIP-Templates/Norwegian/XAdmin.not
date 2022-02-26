@@ -1,0 +1,76 @@
+[AdminIni]
+; EN: Msg_FinishGameEditFirst="You must finish your Game Edit before restarting the map"
+Msg_FinishGameEditFirst="Du må fullføre Game Edit før du starter kartet på nytt"
+; EN: Msg_FinishGameRestart="You must finish your Game Edit before changing or restarting the map"
+Msg_FinishGameRestart="Du må fullføre Game Edit før du endrer eller starter kartet på nytt"
+; EN: Msg_MutNeedGameEdit="You must use 'Game Edit' command before 'Mutators' commands"
+Msg_MutNeedGameEdit="Du må bruke 'Game Edit'-kommandoen før 'Mutators'-kommandoer"
+; EN: Msg_NoMutatorInUse="No Mutators in use"
+Msg_NoMutatorInUse="Ingen mutatorer i bruk"
+; EN: Msg_NoUnusedMuts="Found no unused mutators"
+Msg_NoUnusedMuts="Fant ingen ubrukte mutatorer"
+; EN: Msg_AddedMutator="Added '%Mutator%' to used mutator list."
+Msg_AddedMutator="Lagt til '%Mutator%' i listen over brukte mutatorer."
+; EN: Msg_ErrAddingMutator="Error Adding '%Mutator%'To Used Mutator List"
+Msg_ErrAddingMutator="Feil ved å legge til '%Mutator%' til listen over brukte mutatorer"
+; EN: Msg_RemovedMutator="Removed '%Mutator%' From Used Mutator List"
+Msg_RemovedMutator="Fjernet '%Mutator%' fra listen over brukte mutatorer"
+; EN: Msg_ErrRemovingMutator="Error Removing '%Mutator%' from used mutator List"
+Msg_ErrRemovingMutator="Feil ved fjerning av '%Mutator%' fra listen over brukte mutatorer"
+; EN: Msg_MapListNeedGameEdit="You must use 'Game Edit' command before 'MapList' command"
+Msg_MapListNeedGameEdit="Du må bruke 'Game Edit'-kommandoen før 'MapList'-kommandoen"
+; EN: Msg_MustEndGameEdit="You must end your Game Edit first"
+Msg_MustEndGameEdit="Du må avslutte spillredigeringen først"
+; EN: Msg_EditingClass="Editing %Class%"
+Msg_EditingClass="Redigerer %Class%"
+; EN: Msg_EditFailed="Failed Starting To Edit"
+Msg_EditFailed="Kunne ikke begynne å redigere"
+; EN: Msg_AlreadyEdited="Game Already being edited by Someone Else"
+Msg_AlreadyEdited="Spillet blir allerede redigert av noen andre"
+; EN: Msg_NotEditing="You are not editing Game Settings, use 'Game Edit' first"
+Msg_NotEditing="Du redigerer ikke spillinnstillinger, bruk 'Spillredigering' først"
+; EN: Msg_EditingCompleted="Editing Completed"
+Msg_EditingCompleted="Redigering fullført"
+; EN: Msg_EditingCancelled="Editing Cancelled"
+Msg_EditingCancelled="Redigering avbrutt"
+; EN: Msg_NoBotGameFull="Cannot add a bot, game is full."
+Msg_NoBotGameFull="Kan ikke legge til en bot, spillet er fullt."
+; EN: Msg_NoAddNamedBot="Can only add named bots once the match has started"
+Msg_NoAddNamedBot="Kan bare legge til navngitte roboter når kampen har startet"
+; EN: Msg_NoBotsPlaying="No bots are currently playing"
+Msg_NoBotsPlaying="Ingen bots spiller for øyeblikket"
+; EN: Msg_GameNoSupportBots="The current Game Type does not support Bots"
+Msg_GameNoSupportBots="Gjeldende spilltype støtter ikke bots"
+; EN: Msg_StatsNoBots="Cannot control bots when Worlds Stats are enabled"
+Msg_StatsNoBots="Kan ikke kontrollere bots når Worlds Stats er aktivert"
+; EN: Msg_SetBotNeedVal="This command requires a numeric value between 0 and 32"
+Msg_SetBotNeedVal="Denne kommandoen krever en numerisk verdi mellom 0 og 32"
+
+[xExtraPrivs]
+; EN: LoadMsg="Extra Privileges Loaded"
+LoadMsg="Ekstra privilegier lastet"
+MainPrivs="X"
+SubPrivs="Xb|Xc|Xp|Xs|Xi|Xv|Xm"
+Tags=("Miscellaneous","Set Bot Skill","Use Console","Player List","Change Webadmin Skin","Manage Access Policies","Voice Chat Management","Match Setup")
+
+[xGamePrivs]
+; EN: LoadMsg="Maps & Game Privileges Loaded"
+LoadMsg="Kart og spillrettigheter er lastet"
+MainPrivs="M"
+SubPrivs="Mr|Mt|Mm|Ml|Ms|Mu|Mb|Ma"
+Tags=("Maps/Game Settings","Restart Map","Change Game Type","Change Map","Manages Map Rotation","Game Settings","Select Mutators","Add/Remove Bots","Game Status")
+
+[xKickPrivs]
+; EN: LoadMsg="Kick and Ban Privileges Loaded"
+LoadMsg="Kick and Ban-privilegier lastet"
+MainPrivs="K"
+SubPrivs="Kp|Kb|Ko"
+Tags=("Kick/Ban","Kick Players","Ban Players","Kick Bots")
+
+[xUserGroupPrivs]
+; EN: LoadMsg="Admins & Groups Management Loaded"
+LoadMsg="Administratorer og gruppeadministrasjon lastet"
+MainPrivs="A|G"
+SubPrivs="Al|Aa|Ae|Ag|Am|Gl|Ga|Ge"
+Tags=("Users","List Admins","Add/Remove Admins","Edit Admins","Assign Groups","Make Managers","Groups","List Groups","Add/Remove Groups","Edit Groups")
+

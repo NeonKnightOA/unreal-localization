@@ -1,0 +1,289 @@
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Coolant Valve Control"
+LocationName="Hűtőfolyadék szelep vezérlés"
+
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Teleporter Console"
+LocationName="Teleporter konzol"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Jump Engine A Control"
+LocationName="Jump Engine A vezérlő"
+
+[ASCriticalObjectiveVolume4]
+LocationName="Jump Engine B Control"
+
+[ASCriticalObjectiveVolume5]
+; EN: LocationName="Central Computer Console"
+LocationName="Központi számítógépes konzol"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Coolant Valve Control Destroyed!"
+DestructionMessage="A hűtőfolyadék szelep vezérlése megsemmisült!"
+; EN: ObjectiveDescription="Destroy Thermal Control Regulator to cool Jumpship engines."
+ObjectiveDescription="Pusztítsd el a Thermal Control Regulatort a Jumpship motorok hűtéséhez."
+; EN: Objective_Info_Attacker="Destroy Thermal Control Regulator"
+Objective_Info_Attacker="Semmisítse meg a hőszabályozó szabályozót"
+; EN: Objective_Info_Defender="Protect Thermal Control Regulator"
+Objective_Info_Defender="Védje a hőszabályozó szabályozót"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Nyomásszelep"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Nyomásszelep megsemmisült!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Az ugróhajó kioldásához semmisítse meg a hidraulikus nyomásszelepeket"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Semmisítse meg a hidraulikus szelepeket"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Védje a hidraulikus szelepeket"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Nyomásszelep"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Nyomásszelep megsemmisült!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Az ugróhajó kioldásához semmisítse meg a hidraulikus nyomásszelepeket"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Semmisítse meg a hidraulikus szelepeket"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Védje a hidraulikus szelepeket"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Nyomásszelep"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Nyomásszelep megsemmisült!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Az ugróhajó kioldásához semmisítse meg a hidraulikus nyomásszelepeket"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Semmisítse meg a hidraulikus szelepeket"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Védje a hidraulikus szelepeket"
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Nyomásszelep"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Nyomásszelep megsemmisült!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Az ugróhajó kioldásához semmisítse meg a hidraulikus nyomásszelepeket"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Semmisítse meg a hidraulikus szelepeket"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Védje a hidraulikus szelepeket"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Computer Lock"
+ObjectiveName="Számítógép zár"
+; EN: DestructionMessage="Computer Lock Destroyed!"
+DestructionMessage="A számítógép zárja megsemmisült!"
+; EN: ObjectiveDescription="Destroy the computer Routers to gain navigation control of the Jumpship."
+ObjectiveDescription="Pusztítsd el a számítógépes útválasztókat, hogy megszerezd a Jumpship navigációs vezérlését."
+; EN: Objective_Info_Attacker="Destroy Computer Routers"
+Objective_Info_Attacker="Pusztítsd el a számítógépes útválasztókat"
+; EN: Objective_Info_Defender="Defend Computer Routers"
+Objective_Info_Defender="Védje meg a számítógépes útválasztókat"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Computer Lock"
+ObjectiveName="Számítógép zár"
+; EN: DestructionMessage="Computer Lock Destroyed!"
+DestructionMessage="A számítógép zárja megsemmisült!"
+; EN: ObjectiveDescription="Destroy the computer Routers to gain navigation control of the Jumpship."
+ObjectiveDescription="Pusztítsd el a számítógépes útválasztókat, hogy megszerezd a Jumpship navigációs vezérlését."
+; EN: Objective_Info_Attacker="Destroy Computer Routers"
+Objective_Info_Attacker="Pusztítsd el a számítógépes útválasztókat"
+; EN: Objective_Info_Defender="Defend Computer Routers"
+Objective_Info_Defender="Védje meg a számítógépes útválasztókat"
+
+[HoldObjective0]
+; EN: DestructionMessage="Engine Activated!"
+DestructionMessage="Motor aktiválva!"
+; EN: ObjectiveDescription="Hold  the switch to activate the Jump Engine."
+ObjectiveDescription="Tartsa lenyomva a kapcsolót a Jump Engine aktiválásához."
+; EN: Objective_Info_Attacker="Activate Jump Engines"
+Objective_Info_Attacker="Aktiválja az ugrómotorokat"
+; EN: Objective_Info_Defender="Defend Jump Engines"
+Objective_Info_Defender="Védd meg az ugrómotorokat"
+
+[HoldObjective1]
+; EN: DestructionMessage="Engine Activated!"
+DestructionMessage="Motor aktiválva!"
+; EN: ObjectiveDescription="Hold  the switch to activate the Jump Engine."
+ObjectiveDescription="Tartsa lenyomva a kapcsolót a Jump Engine aktiválásához."
+; EN: Objective_Info_Attacker="Activate Jump Engines"
+Objective_Info_Attacker="Aktiválja az ugrómotorokat"
+; EN: Objective_Info_Defender="Defend Jump Engines"
+Objective_Info_Defender="Védd meg az ugrómotorokat"
+
+[HoldObjective2]
+; EN: ObjectiveName="Central Computer Terminal"
+ObjectiveName="Központi számítógépes terminál"
+; EN: DestructionMessage="Computer Programmed!"
+DestructionMessage="Számítógépen programozott!"
+; EN: ObjectiveDescription="Touch and hold computer console to program jump coordinates."
+ObjectiveDescription="Érintse meg és tartsa lenyomva a számítógép konzolját az ugrás koordinátáinak programozásához."
+; EN: Objective_Info_Attacker="Program Jump Coordinates"
+Objective_Info_Attacker="Program Ugrás Koordináták"
+; EN: Objective_Info_Defender="Prevent attackers from programming jump coordinates."
+Objective_Info_Defender="Akadályozza meg, hogy a támadók beprogramozzák az ugráskoordinátákat."
+
+[LevelInfo0]
+Title="Jumpship BP2"
+
+[LevelSummary]
+Title="Jumpship BP2"
+; EN: Description="During the height of the Corporation Wars, Liandri scientists created a prototype Warship capable of making its own jumps without the need for a jumpgate.  Shortly before its maiden voyage, Izanagi spies learned of the prototype Jumpship and launched an operation to steal it.  This scenario recreates the historic battle in which Izanagi forces infiltrated the prototype Liandri Jumpship, activated its engines, and made a successful jump to Izanagi space."
+Description="A Corporation Wars csúcspontja alatt a Liandri tudósok létrehoztak egy hadihajó prototípusát, amely képes saját ugrásokat végrehajtani anélkül, hogy ugrókapura lenne szükség. Nem sokkal az első útja előtt az izanagi kémek tudomást szereztek a Jumpship prototípusáról, és hadműveletet indítottak el, hogy ellopják. Ez a forgatókönyv újrateremti azt a történelmi csatát, amelyben az izanagi erők beszivárogtak a Liandri Jumpship prototípusába, aktiválták annak hajtóműveit, és sikeresen ugrottak az Izanagi űrbe."
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing Bay"
+ObjectiveName="Leszállási öböl"
+; EN: DestructionMessage="Attackers have entered the jumpship!"
+DestructionMessage="Támadók léptek be az ugróhajóba!"
+; EN: ObjectiveDescription="Fly into front bay to enter Jumpship."
+ObjectiveDescription="Repüljön az első öbölbe, hogy belépjen a Jumpshipbe."
+; EN: Objective_Info_Attacker="Enter Jumpship"
+Objective_Info_Attacker="Lépjen be a Jumpshipbe"
+; EN: Objective_Info_Defender="Prevent Attackers From Entering Jumpship"
+Objective_Info_Defender="Akadályozza meg, hogy a támadók belépjenek az ugróhajóba"
+
+[SceneSubtitles0]
+SubTitles=("During the height of the Corporation Wars, Liandri scientists created a prototype warship capable of making its own jumps without the need for a jumpgate.","Shortly before its maiden voyage, Izanagi spies learned of the prototype jumpship and launched an operation to steal it.  Success would give the Izanagi Corporation a significant advantage during the Wars.","This scenario recreates the historic battle in which Izanagi forces infiltrated the prototype Liandri jumpship, activated its engines, and made a successful jump to Izanagi space.","The jumpship is receiving power from the construction dock.  It is moored to the dock via four docking arms. ","Destroy the hydraulic valves controlling each arm to place the jumpship under internal power and release it from the dock.","After the four valves are destroyed, enter the jumpship through the docking bay.",,"Destroy the Thermal Control Regulator to cool the jump engines.  This will allow them to be powered safely.",,"Use this console to activate the ship's internal navigation systems.",,"Use the levers to inject the engine coolant and disable the safety lock on both of the jump engines.",,"The ship's bridge is too heavily defended for a direct attack, so your team will need to access the central computer deep within the ship's core.","Once you have reached the computer, use this console to reroute power from the bridge and enter the new jump coordinates.","Finally, destroy both computer routers.  This will disable all remaining safety protocols, activate the Jumpship, and end the match.")
+
+[TriggeredObjective0]
+; EN: ObjectiveName="Teleporter Room Controls"
+ObjectiveName="Teleporter szobavezérlők"
+; EN: DestructionMessage="Teleporters Activated!"
+DestructionMessage="Teleporterek aktiválva!"
+; EN: ObjectiveDescription="Activate the ship's internal navigation systems."
+ObjectiveDescription="Aktiválja a hajó belső navigációs rendszereit."
+; EN: Objective_Info_Attacker="Activate the Navigation Computer"
+Objective_Info_Attacker="Aktiválja a Navigációs számítógépet"
+; EN: Objective_Info_Defender="Defend the Navigation Computer"
+Objective_Info_Defender="Védje meg a navigációs számítógépet"
+
+[ZoneInfo0]
+; EN: LocationName="In Space"
+LocationName="Űrben"
+
+[ZoneInfo1]
+; EN: LocationName="Landing Bay 1 Hall"
+LocationName="Landing Bay 1. csarnok"
+
+[ZoneInfo10]
+LocationName="Jump Engine A Hall"
+
+[ZoneInfo11]
+; EN: LocationName="Ship Bridge"
+LocationName="Hajóhíd"
+
+[ZoneInfo12]
+; EN: LocationName="Landing Bay 1 Hall"
+LocationName="Landing Bay 1. csarnok"
+
+[ZoneInfo13]
+; EN: LocationName="Landing Bay 2 Hall"
+LocationName="Landing Bay 2 csarnok"
+
+[ZoneInfo14]
+; EN: LocationName="Landing Bay 2 Hall"
+LocationName="Landing Bay 2 csarnok"
+
+[ZoneInfo15]
+; EN: LocationName="Coolant Control"
+LocationName="Hűtőfolyadék szabályozás"
+
+[ZoneInfo16]
+; EN: LocationName="Teleporter Room"
+LocationName="Teleporter szoba"
+
+[ZoneInfo17]
+; EN: LocationName="Teleporter Room"
+LocationName="Teleporter szoba"
+
+[ZoneInfo18]
+LocationName="Jump Engine A Hall"
+
+[ZoneInfo19]
+LocationName="Jump Engine B Hall"
+
+[ZoneInfo2]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+
+[ZoneInfo20]
+; EN: LocationName="In Space"
+LocationName="Űrben"
+
+[ZoneInfo22]
+LocationName="Jump Engine B Hall"
+
+[ZoneInfo24]
+LocationName="Jump Engine A"
+
+[ZoneInfo25]
+LocationName="Jump Engine B"
+
+[ZoneInfo27]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+
+[ZoneInfo28]
+; EN: LocationName="Central Computer Hall"
+LocationName="Központi Számítógépes Csarnok"
+
+[ZoneInfo29]
+; EN: LocationName="Central Computer Core"
+LocationName="Központi számítógép mag"
+
+[ZoneInfo3]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+
+[ZoneInfo30]
+; EN: LocationName="Central Computer Core"
+LocationName="Központi számítógép mag"
+
+[ZoneInfo31]
+; EN: LocationName="Central Computer Core"
+LocationName="Központi számítógép mag"
+
+[ZoneInfo35]
+; EN: LocationName="Coolant Control"
+LocationName="Hűtőfolyadék szabályozás"
+
+[ZoneInfo36]
+; EN: LocationName="Central Computer Core"
+LocationName="Központi számítógép mag"
+
+[ZoneInfo37]
+; EN: LocationName="Coolant Control"
+LocationName="Hűtőfolyadék szabályozás"
+
+[ZoneInfo4]
+; EN: LocationName="Landing Bay 1"
+LocationName="Leszállási öböl 1"
+
+[ZoneInfo5]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+
+[ZoneInfo6]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+
+[ZoneInfo7]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+
+[ZoneInfo8]
+LocationName="Landing Bay 2"
+
+[ZoneInfo9]
+; EN: LocationName="Hangar"
+LocationName="Hangár"
+

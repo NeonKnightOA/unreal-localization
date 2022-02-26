@@ -1,76 +1,102 @@
 [LevelInfo0]
-Title="Metallurgy"
+; EN: Title="Metallurgy"
+Title="Métallurgie"
 
 [LevelSummary]
-Title="Metallurgy"
-Description="Separating the fast from the slow, the strong from the weak, the skilled from the incompetent - Metallurgy will test your mettle."
+; EN: Title="Metallurgy"
+Title="Métallurgie"
+; EN: Description="Separating the fast from the slow, the strong from the weak, the skilled from the incompetent - Metallurgy will test your mettle."
+Description="Séparer le rapide du lent, le fort du faible, l'habile de l'incompétent - La métallurgie mettra votre courage à l'épreuve."
 
 [Volume0]
-LocationName="Near the fuel tanker"
+; EN: LocationName="Near the fuel tanker"
+LocationName="Près du camion-citerne"
 
 [Volume1]
-LocationName="Outside the molten metal cascade"
+; EN: LocationName="Outside the molten metal cascade"
+LocationName="En dehors de la cascade de métal en fusion"
 
 [Volume10]
-LocationName="Beneath the ducts of molten metal"
+; EN: LocationName="Beneath the ducts of molten metal"
+LocationName="Sous les conduits de métal en fusion"
 
 [Volume11]
-LocationName="Between the pillars"
+; EN: LocationName="Between the pillars"
+LocationName="Entre les piliers"
 
 [Volume12]
-LocationName="Between the pillars"
+; EN: LocationName="Between the pillars"
+LocationName="Entre les piliers"
 
 [Volume13]
-LocationName="Second floor deck"
+; EN: LocationName="Second floor deck"
+LocationName="Pont au deuxième étage"
 
 [Volume14]
-LocationName="Second floor deck"
+; EN: LocationName="Second floor deck"
+LocationName="Pont au deuxième étage"
 
 [Volume15]
-LocationName="Second floor deck"
+; EN: LocationName="Second floor deck"
+LocationName="Pont au deuxième étage"
 
 [Volume16]
-LocationName="First floor deck"
+; EN: LocationName="First floor deck"
+LocationName="Pont du premier étage"
 
 [Volume17]
-LocationName="First floor deck"
+; EN: LocationName="First floor deck"
+LocationName="Pont du premier étage"
 
 [Volume18]
-LocationName="First floor deck"
+; EN: LocationName="First floor deck"
+LocationName="Pont du premier étage"
 
 [Volume19]
-LocationName="On the roof"
+; EN: LocationName="On the roof"
+LocationName="Sur le toit"
 
 [Volume2]
-LocationName="Southern exterior"
+; EN: LocationName="Southern exterior"
+LocationName="Extérieur sud"
 
 [Volume3]
-LocationName="Western exterior"
+; EN: LocationName="Western exterior"
+LocationName="Extérieur occidental"
 
 [Volume4]
-LocationName="Northern exterior"
+; EN: LocationName="Northern exterior"
+LocationName="Extérieur nord"
 
 [Volume5]
-LocationName="Northern exterior"
+; EN: LocationName="Northern exterior"
+LocationName="Extérieur nord"
 
 [Volume6]
-LocationName="Northern exterior"
+; EN: LocationName="Northern exterior"
+LocationName="Extérieur nord"
 
 [Volume7]
-LocationName="Northern exterior"
+; EN: LocationName="Northern exterior"
+LocationName="Extérieur nord"
 
 [Volume8]
-LocationName="Communication tower"
+; EN: LocationName="Communication tower"
+LocationName="Tour de communication"
 
 [Volume9]
-LocationName="Above the ducts of molten metal"
+; EN: LocationName="Above the ducts of molten metal"
+LocationName="Au-dessus des conduits de métal en fusion"
 
 [ZoneInfo2]
-LocationName="Molten metal cascade"
+; EN: LocationName="Molten metal cascade"
+LocationName="Cascade de métal en fusion"
 
 [ZoneInfo3]
-LocationName="Interior atrium"
+; EN: LocationName="Interior atrium"
+LocationName="Atrium intérieur"
 
 [ZoneInfo4]
-LocationName="Interior ground floor"
+; EN: LocationName="Interior ground floor"
+LocationName="Rez-de-chaussée intérieur"
 

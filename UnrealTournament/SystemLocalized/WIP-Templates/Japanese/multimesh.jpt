@@ -1,0 +1,110 @@
+﻿[Public]
+; EN: Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Skaarjハイブリッド")
+; EN: Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
+Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="ナリ")
+; EN: Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali WarCow")
+Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="ナリウォーカウ")
+; EN: Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Skaarjハイブリッド")
+; EN: Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
+Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="ナリ")
+; EN: Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali WarCow")
+Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="ナリウォーカウ")
+; EN: Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Skaarjハイブリッド")
+; EN: Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
+Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="ナリ")
+; EN: Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
+Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="ナリウォーカウ")
+Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Force Default Models,Use the default (Male Soldier) model instead of any custom models.")
+; EN: Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Bonus Pack Maps")
+Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="ボーナスパックマップ")
+; EN: Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Bonus Pack Maps")
+Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="ボーナスパックマップ")
+
+[CustomBot]
+; EN: MenuName="Custom Player"
+MenuName="カスタムプレーヤー"
+
+[customplayer]
+; EN: MenuName="Custom Player"
+MenuName="カスタムプレーヤー"
+
+[tcow]
+; EN: MenuName="Nali Cow"
+MenuName="ナリ牛"
+
+[tcowbot]
+; EN: MenuName="Nali Cow"
+MenuName="ナリ牛"
+
+[TSkaarj]
+; EN: MenuName="Skaarj Hybrid"
+MenuName="Skaarjハイブリッド"
+
+[tnali]
+; EN: MenuName="Nali"
+MenuName="ナリ"
+
+[tnalibot]
+; EN: MenuName="Nali"
+MenuName="ナリ"
+
+[TSkaarjbot]
+; EN: MenuName="Skaarj Hybrid"
+MenuName="Skaarjハイブリッド"
+
+[multimeshmenu]
+; EN: MenuCaption="&Force Default Models"
+MenuCaption="＆Forceデフォルトモデル"
+; EN: MenuHelp="Use the default (Male Soldier) model instead of any custom models"
+MenuHelp="カスタムモデルの代わりにデフォルトの（男性兵士）モデルを使用する"
+
+[skaarjvoice]
+TauntString[0]="$#%#!"
+TauntString[1]="%&$##!"
+TauntString[2]="*@#&$!"
+
+[CowVoice]
+; EN: AckString[0]="Moo!"
+AckString[0]="ムー！"
+; EN: AckString[1]="Moo!"
+AckString[1]="ムー！"
+; EN: FFireString[0]="Moo!"
+FFireString[0]="ムー！"
+; EN: FFireString[1]="Moo!"
+FFireString[1]="ムー！"
+; EN: FFireAbbrev[1]="Moo!"
+FFireAbbrev[1]="ムー！"
+; EN: TauntString[0]="Moo!"
+TauntString[0]="ムー！"
+; EN: TauntString[1]="Moo!"
+TauntString[1]="ムー！"
+
+[nalivoice]
+; EN: AckString[0]="Habouji!"
+AckString[0]="はぼうじ！"
+; EN: AckString[1]="Nouwandi!"
+AckString[1]="ヌワンディ！"
+; EN: AckString[2]="Qupada!"
+AckString[2]="クパダ！"
+AckTime[2]=0.850000
+; EN: FFireString[0]="Mouhaga!"
+FFireString[0]="もうはが！"
+; EN: FFireString[1]="Batai d'va!"
+FFireString[1]="バタイディーバ！"
+; EN: FFireAbbrev[1]="Batai d'va!"
+FFireAbbrev[1]="バタイディーバ！"
+; EN: TauntString[0]="Bywonda!"
+TauntString[0]="バイワンダー！"
+; EN: TauntString[1]="Habouji!"
+TauntString[1]="はぼうじ！"
+; EN: TauntString[2]="Nouwandi!"
+TauntString[2]="ヌワンディ！"
+; EN: TauntString[3]="Qupada!"
+TauntString[3]="クパダ！"
+; EN: TauntString[4]="Mouhaga!"
+TauntString[4]="もうはが！"
+; EN: TauntString[5]="Batai d'va!"
+TauntString[5]="バタイディーバ！"

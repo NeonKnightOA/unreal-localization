@@ -1,0 +1,81 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Klassieke wapens in UT-stijl en configureerbare bewegingsmogelijkheden (zoals het ontwijken van muren).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Vervang Lightning Guns door het klassieke Sniper Rifle.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Vervang Sniper Rifles door Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="Sniperkogels"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Je pakte sluipschuttermunitie."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Dit sluipschuttersgeweer met hoge snuitsnelheid en een 10X-kijker is een dodelijk wapen op elk bereik, vooral als je een hoofdschot kunt maken."
+; EN: ItemName="Sniper Rifle"
+ItemName="Scherpschuttersgeweer"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Je hebt het sluipschuttersgeweer."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k heeft een kogel in %o's schedel geschoten."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o schoot zichzelf door het hoofd."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o schoot zichzelf door het hoofd."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="%k zet een gat in %o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o schoot zichzelf in de voet."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o schoot zichzelf in de voet."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Dubbel springen toestaan"
+; EN: WDString="Allow Wall Dodging"
+WDString="Muur ontwijken toestaan"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Dubbel springen toestaan"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Indien ingeschakeld, kunnen spelers dubbel springen op het hoogtepunt van de sprongen."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Indien ingeschakeld, kunnen spelers van muren ontwijken."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Indien ingeschakeld, kunnen spelers dubbel springen op het hoogtepunt van ontwijkingssprongen."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Wapenschade aanpassen"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Indien ingeschakeld, richten wapens meer schade aan."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Wijzig Translocator"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Indien ingeschakeld, laadt de translocator sneller op."
+; EN: FriendlyName="UT Classic"
+FriendlyName="UT Klassiek"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Klassieke wapens en bewegingsopties in UT-stijl."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Bliksemkanonnen"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Vervang alle sluipschuttersgeweren door bliksempistolen."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Scherpschuttersgeweren"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Vervang alle bliksempistolen door sluipschuttersgeweren."
+

@@ -1,120 +1,160 @@
 [LevelInfo0]
-Title="Temple Of Anubis"
+; EN: Title="Temple Of Anubis"
+Title="Temple d'Anubis"
 
 [LevelInfo6]
-Title="Temple Of Anubis"
+; EN: Title="Temple Of Anubis"
+Title="Temple d'Anubis"
 
 [LevelSummary]
-Title="Temple Of Anubis"
+; EN: Title="Temple Of Anubis"
+Title="Temple d'Anubis"
 
 [ZoneInfo0]
-LocationName="Redeemer"
+; EN: LocationName="Redeemer"
+LocationName="Rédempteur"
 
 [ZoneInfo1]
-LocationName="Super shield sand dune"
+; EN: LocationName="Super shield sand dune"
+LocationName="Dune de sable super bouclier"
 
 [ZoneInfo10]
-LocationName="Blue Respawn"
+; EN: LocationName="Blue Respawn"
+LocationName="Réapparition bleue"
 
 [ZoneInfo12]
-LocationName="Blue Respawn"
+; EN: LocationName="Blue Respawn"
+LocationName="Réapparition bleue"
 
 [ZoneInfo13]
-LocationName="Blue Respawn"
+; EN: LocationName="Blue Respawn"
+LocationName="Réapparition bleue"
 
 [ZoneInfo14]
-LocationName="Blue Top Entrance"
+; EN: LocationName="Blue Top Entrance"
+LocationName="Entrée du haut bleu"
 
 [ZoneInfo15]
-LocationName="Red Base"
+; EN: LocationName="Red Base"
+LocationName="Base rouge"
 
 [ZoneInfo16]
-LocationName="Red Base"
+; EN: LocationName="Red Base"
+LocationName="Base rouge"
 
 [ZoneInfo17]
-LocationName="Red Respawn"
+; EN: LocationName="Red Respawn"
+LocationName="Réapparition rouge"
 
 [ZoneInfo18]
-LocationName="Blue Respawn"
+; EN: LocationName="Blue Respawn"
+LocationName="Réapparition bleue"
 
 [ZoneInfo19]
-LocationName="Red Respawn"
+; EN: LocationName="Red Respawn"
+LocationName="Réapparition rouge"
 
 [ZoneInfo2]
-LocationName="Flak Cannon"
+; EN: LocationName="Flak Cannon"
+LocationName="Canon anti-aérien"
 
 [ZoneInfo20]
-LocationName="Red Respawn"
+; EN: LocationName="Red Respawn"
+LocationName="Réapparition rouge"
 
 [ZoneInfo21]
-LocationName="Red Respawn"
+; EN: LocationName="Red Respawn"
+LocationName="Réapparition rouge"
 
 [ZoneInfo22]
-LocationName="Red Respawn"
+; EN: LocationName="Red Respawn"
+LocationName="Réapparition rouge"
 
 [ZoneInfo23]
-LocationName="Blue Respawn"
+; EN: LocationName="Blue Respawn"
+LocationName="Réapparition bleue"
 
 [ZoneInfo24]
-LocationName="Blue Respawn"
+; EN: LocationName="Blue Respawn"
+LocationName="Réapparition bleue"
 
 [ZoneInfo25]
-LocationName="Center"
+; EN: LocationName="Center"
+LocationName="Centre"
 
 [ZoneInfo26]
-LocationName="Rocket launcher room"
+; EN: LocationName="Rocket launcher room"
+LocationName="Salle des lance-roquettes"
 
 [ZoneInfo27]
-LocationName="Rocket Launcher"
+; EN: LocationName="Rocket Launcher"
+LocationName="Lance-roquettes"
 
 [ZoneInfo28]
-LocationName="Flak Cannon"
+; EN: LocationName="Flak Cannon"
+LocationName="Canon anti-aérien"
 
 [ZoneInfo29]
-LocationName="Center"
+; EN: LocationName="Center"
+LocationName="Centre"
 
 [ZoneInfo3]
-LocationName="Red Respawn"
+; EN: LocationName="Red Respawn"
+LocationName="Réapparition rouge"
 
 [ZoneInfo30]
-LocationName="Red court yard"
+; EN: LocationName="Red court yard"
+LocationName="Cour rouge"
 
 [ZoneInfo31]
-LocationName="Center"
+; EN: LocationName="Center"
+LocationName="Centre"
 
 [ZoneInfo32]
-LocationName="Red Courtyard"
+; EN: LocationName="Red Courtyard"
+LocationName="Cour Rouge"
 
 [ZoneInfo33]
-LocationName="Blue Top Entrance"
+; EN: LocationName="Blue Top Entrance"
+LocationName="Entrée du haut bleu"
 
 [ZoneInfo34]
-LocationName="Blue Top Entrance"
+; EN: LocationName="Blue Top Entrance"
+LocationName="Entrée du haut bleu"
 
 [ZoneInfo35]
-LocationName="Red Top Entrance"
+; EN: LocationName="Red Top Entrance"
+LocationName="Entrée du haut rouge"
 
 [ZoneInfo36]
-LocationName="Blue Top Entrance"
+; EN: LocationName="Blue Top Entrance"
+LocationName="Entrée du haut bleu"
 
 [ZoneInfo37]
-LocationName="Red Top Entrance"
+; EN: LocationName="Red Top Entrance"
+LocationName="Entrée du haut rouge"
 
 [ZoneInfo38]
-LocationName="Red Top Entrance"
+; EN: LocationName="Red Top Entrance"
+LocationName="Entrée du haut rouge"
 
 [ZoneInfo39]
-LocationName="Red Top Entrance"
+; EN: LocationName="Red Top Entrance"
+LocationName="Entrée du haut rouge"
 
 [ZoneInfo4]
-LocationName="Blue Courtyard"
+; EN: LocationName="Blue Courtyard"
+LocationName="Cour Bleue"
 
 [ZoneInfo5]
-LocationName="Blue Courtyard"
+; EN: LocationName="Blue Courtyard"
+LocationName="Cour Bleue"
 
 [ZoneInfo8]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base bleue"
 
 [ZoneInfo9]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base bleue"
 

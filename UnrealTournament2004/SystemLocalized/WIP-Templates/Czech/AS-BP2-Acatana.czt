@@ -1,0 +1,258 @@
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Facility Entrance"
+LocationName="Vchod do zařízení"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Weapons Lab Control Room"
+LocationName="Kontrolní místnost zbrojní laboratoře"
+
+[ASOBJ_EnergyCore_Delivery1]
+; EN: ObjectiveName="Escape Point"
+ObjectiveName="Bod úniku"
+; EN: DestructionMessage="Blueprints stolen!"
+DestructionMessage="Ukradeny plány!"
+; EN: ObjectiveDescription="Escape to the waiting ships with the Blueprints."
+ObjectiveDescription="Unikněte na čekající lodě s Plány."
+; EN: Objective_Info_Attacker="Escape with the Blueprints."
+Objective_Info_Attacker="Útěk s plány."
+; EN: Objective_Info_Defender="Defend with the Blueprints."
+Objective_Info_Defender="Braňte se s Plány."
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Blueprints!"
+PlayerDroppedMessage=" zahodili plány!"
+; EN: DroppedMessage="Blueprints dropped!"
+DroppedMessage="Plány padly!"
+; EN: EnergyCorePickedUp="Blueprints picked up!"
+EnergyCorePickedUp="Plány vyzvednuty!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Blueprints!"
+PlayerPickedUpEnergyCore=" sebral plány!"
+; EN: PlayerCoreReset="Blueprints reset!!"
+PlayerCoreReset="Plány resetovány!!"
+; EN: ObjectiveName="Weapons Data"
+ObjectiveName="Údaje o zbraních"
+; EN: DestructionMessage="Data Stolen!"
+DestructionMessage="Data ukradena!"
+; EN: ObjectiveDescription="Steal the Weapon Blueprints and escape to the ships."
+ObjectiveDescription="Ukradněte Weapon Blueprints a utečte na lodě."
+; EN: Objective_Info_Attacker="Steal the Weapon Blueprints."
+Objective_Info_Attacker="Ukradněte plány zbraní."
+Objective_Info_Defender="Defend the Weapon Blueprints."
+
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Ship Disabled!"
+Message="Loď zakázána!"
+
+[Action_DISPLAYMESSAGE2]
+; EN: Message="Ship Disabled!"
+Message="Loď zakázána!"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper Reactor"
+ObjectiveName="Horní reaktor"
+; EN: DestructionMessage="Upper Reactor Destroyed!"
+DestructionMessage="Horní reaktor zničen!"
+; EN: ObjectiveDescription="Shoot out the Upper Reactor Core."
+ObjectiveDescription="Sestřelte jádro Upper Reactor Core."
+; EN: Objective_Info_Attacker="Destroy the Reactor Core."
+Objective_Info_Attacker="Zničte jádro reaktoru."
+; EN: Objective_Info_Defender="Defend the Reactor Core."
+Objective_Info_Defender="Braňte jádro reaktoru."
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="Lodní motor"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="Motor zničen!"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="Deaktivujte bitevní křižníky zničením jejich motorů."
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="Zničte lodní motory."
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="Braňte lodní motory."
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower Reactor"
+ObjectiveName="Dolní reaktor"
+; EN: DestructionMessage="Lower Reactor Destroyed!"
+DestructionMessage="Dolní reaktor zničen!"
+; EN: ObjectiveDescription="Shoot out the Lower Reactor Core."
+ObjectiveDescription="Sestřelte spodní jádro reaktoru."
+; EN: Objective_Info_Attacker="Destroy the Reactor Core."
+Objective_Info_Attacker="Zničte jádro reaktoru."
+; EN: Objective_Info_Defender="Defend the Reactor Core."
+Objective_Info_Defender="Braňte jádro reaktoru."
+
+[DestroyableObjective_SM7]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="Lodní motor"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="Motor zničen!"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="Deaktivujte bitevní křižníky zničením jejich motorů."
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="Zničte lodní motory."
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="Braňte lodní motory."
+
+[DestroyableObjective_SM8]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="Lodní motor"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="Motor zničen!"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="Deaktivujte bitevní křižníky zničením jejich motorů."
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="Zničte lodní motory."
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="Braňte lodní motory."
+
+[DestroyableObjective_SM9]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="Lodní motor"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="Motor zničen!"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="Deaktivujte bitevní křižníky zničením jejich motorů."
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="Zničte lodní motory."
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="Braňte lodní motory."
+
+[HoldObjective1]
+; EN: ObjectiveName="Bunker Doors"
+ObjectiveName="Dveře bunkrů"
+; EN: DestructionMessage="Bunker Doors Blown!"
+DestructionMessage="Dveře bunkru proraženy!"
+; EN: ObjectiveDescription="Place Explosives to blow open the main doors."
+ObjectiveDescription="Umístěte výbušniny a otevřete hlavní dveře."
+; EN: Objective_Info_Attacker="Blow up the Main Doors."
+Objective_Info_Attacker="Vyhodit do povětří hlavní dveře."
+; EN: Objective_Info_Defender="Defend the Main Doors."
+Objective_Info_Defender="Braňte hlavní dveře."
+
+[HoldObjective2]
+; EN: ObjectiveName="Main Gates"
+ObjectiveName="Hlavní brány"
+; EN: DestructionMessage="Main Gates Opening!"
+DestructionMessage="Hlavní brány se otevírají!"
+; EN: ObjectiveDescription="Use the switch to open the Security Gate."
+ObjectiveDescription="Pomocí spínače otevřete bezpečnostní bránu."
+; EN: Objective_Info_Attacker="Open the Security Gate."
+Objective_Info_Attacker="Otevřete Bezpečnostní bránu."
+; EN: Objective_Info_Defender="Defend the Security Gate."
+Objective_Info_Defender="Braňte bezpečnostní bránu."
+
+[InfoPod0]
+; EN: POD_Message="Cruiser 2 Left Wing"
+POD_Message="Křižník 2 levé křídlo"
+
+[InfoPod1]
+; EN: POD_Message="Cruiser 2 Upper"
+POD_Message="Cruiser 2 Horní"
+
+[InfoPod2]
+; EN: POD_Message="Cruiser 2 Right Wing"
+POD_Message="Cruiser 2 pravé křídlo"
+
+[InfoPod3]
+; EN: POD_Message="Cruiser 1 Left Wing"
+POD_Message="Křižník 1 levé křídlo"
+
+[InfoPod4]
+; EN: POD_Message="Cruiser 1 Upper"
+POD_Message="Cruiser 1 Horní"
+
+[InfoPod5]
+; EN: POD_Message="Cruiser 1 Right Wing"
+POD_Message="Křižník 1 pravé křídlo"
+
+[LevelInfo0]
+; EN: Title="Invasion of Acatana"
+Title="Invaze do Acatany"
+
+[LevelSummary]
+; EN: Title="Invasion of Acatana"
+Title="Invaze do Acatany"
+; EN: Description="Due to the treacherous asteroid field and the advanced defense systems surrounding the Acatana research facility, no intruders had been near the planet for years.  When the Skaarj Marauders heard rumors of a highly lucrative technology hidden there, they decided to make it their own.  This scenario recreates the Skaarj attack on the Acatana research facility, and the battle to penetrate the planet's asteroid field."
+Description="Kvůli zrádnému poli asteroidů a pokročilým obranným systémům obklopujícím výzkumné zařízení Acatana nebyli žádní vetřelci blízko planety léta. Když Skaarj Marauders slyšeli zvěsti o vysoce lukrativní technologii, která se tam ukrývá, rozhodli se, že si ji přivlastní. Tento scénář obnovuje útok Skaarj na výzkumné zařízení Acatana a bitvu o průnik do pole planetek."
+
+[MultiSkyZoneInfo0]
+; EN: LocationName="Base Entrance"
+LocationName="Základní vchod"
+
+[MultiSkyZoneInfo1]
+; EN: LocationName="Space"
+LocationName="Prostor"
+
+[MultiSkyZoneInfo18]
+; EN: LocationName="Space"
+LocationName="Prostor"
+
+[MultiSkyZoneInfo19]
+; EN: LocationName="Planet Surface"
+LocationName="Povrch planety"
+
+[MultiSkyZoneInfo2]
+; EN: LocationName="Hangar 2"
+LocationName="Hangár 2"
+
+[MultiSkyZoneInfo20]
+; EN: LocationName="Weapons Lab Spawn Room"
+LocationName="Laboratoř zbraní Spawn Room"
+
+[MultiSkyZoneInfo21]
+; EN: LocationName="Hangar 1"
+LocationName="Hangár 1"
+
+[MultiSkyZoneInfo22]
+LocationName="Defender Spawn Exit"
+
+[MultiSkyZoneInfo23]
+LocationName="Defender Inside Spawn"
+
+[MultiSkyZoneInfo24]
+LocationName="Defender Spawn Exit"
+
+[MultiSkyZoneInfo25]
+LocationName="Defender Spawn Exit"
+
+[MultiSkyZoneInfo27]
+; EN: LocationName="Reactor Core Entrance"
+LocationName="Vstup do jádra reaktoru"
+
+[MultiSkyZoneInfo28]
+; EN: LocationName="Reactor Core"
+LocationName="Jádro reaktoru"
+
+[MultiSkyZoneInfo29]
+; EN: LocationName="Base Entrance"
+LocationName="Základní vchod"
+
+[MultiSkyZoneInfo30]
+; EN: LocationName="Weapons Lab Entrance"
+LocationName="Vchod do zbrojní laboratoře"
+
+[MultiSkyZoneInfo31]
+; EN: LocationName="Weapons Lab Control Room"
+LocationName="Kontrolní místnost zbrojní laboratoře"
+
+[MultiSkyZoneInfo32]
+; EN: LocationName="Weapons Lab Control Room"
+LocationName="Kontrolní místnost zbrojní laboratoře"
+
+[MultiSkyZoneInfo33]
+; EN: LocationName="Weapons Lab Spawn Room"
+LocationName="Laboratoř zbraní Spawn Room"
+
+[PhysicsVolume26]
+; EN: LocationName="In Lava"
+LocationName="V Lavě"
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the Skaarj attack on the Acatana asteroid belt.","Acatana had long been a forgotten planet, uninhabitable to most species, and known only to a secret scientific division of the NEG.","Hidden away on an asteroid orbiting the barren planet was a secret facility, created with the sole purpose of researching advanced weapons technology.","Due to the treacherous asteroid field and the advanced planetary defense systems, no other race had been near the planet for years.","In fact, the barrier had never even been challenged until the Skaarj Marauders heard rumors of the highly lucrative technology ripe for the taking.","First, you must navigate the asteroid field and attack the Battle Cruiser Blockade.  Disable the Cruisers by destroying their engines, allowing the Skaarj ships to land the asteroid's surface.","After successful deployment to the surface, make your way to the facility's entrance and use this switch to open the security gate.","Once inside the gate, place explosives to blow open the main facility doors.","Infiltrate the complex and destroy both sections of the facility's main reactor core. This will activate the evacuation protocol and release the locks on the doors to the weapons lab.","Next, make your way into the weapons lab and steal the weapon blueprints from the central computer station.","Finally, your team must transport the blueprints back to the main entrance where a squad of fighters will cover your escape.")
+
+[Volume0]
+; EN: LocationName="Weapons Lab Access Tunnel"
+LocationName="Přístupový tunel do laboratoře zbraní"
+

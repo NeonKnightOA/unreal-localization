@@ -1,0 +1,119 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Guidance Rocket Switch"
+LocationName="Interruptor de coets de guia"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Pressure Tanks"
+LocationName="Tancs de pressió"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE5]
+Message="1..."
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="Pressure tanks destroyed!"
+Message="Tancs a pressió destruïts!"
+
+[DestroyableObjective_SM0]
+ObjectiveName="SAM Launcher 2"
+; EN: DestructionMessage="SAM Launcher 1 Destroyed!"
+DestructionMessage="SAM Launcher 1 destruït!"
+; EN: ObjectiveDescription="Destroy the SAM launcher to allow the dropship to land."
+ObjectiveDescription="Destrueix el llançador SAM per permetre que el dropship aterri."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 1"
+Objective_Info_Attacker="Destrueix el SAM Launcher 1"
+; EN: Objective_Info_Defender="Protect SAM Launcher 1"
+Objective_Info_Defender="Protegeix SAM Launcher 1"
+
+[DestroyableObjective_SM1]
+ObjectiveName="SAM Launcher 2"
+; EN: DestructionMessage="SAM Launcher 2 Destroyed!"
+DestructionMessage="SAM Launcher 2 destruït!"
+; EN: ObjectiveDescription="Destroy SAM Launcher to allow the dropship to land."
+ObjectiveDescription="Destrueix el SAM Launcher per permetre que el dropship aterri."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 2"
+Objective_Info_Attacker="Destrueix SAM Launcher 2"
+; EN: Objective_Info_Defender="Protect SAM Launcher 2"
+Objective_Info_Defender="Protegeix SAM Launcher 2"
+
+[HoldObjective0]
+; EN: ObjectiveName="Main Rocket Launch Switch"
+ObjectiveName="Interruptor principal de llançament de coets"
+; EN: DestructionMessage="Rocket Launched!"
+DestructionMessage="Coet llançat!"
+; EN: ObjectiveDescription="Launch the Main Rocket."
+ObjectiveDescription="Llançar el coet principal."
+; EN: Objective_Info_Attacker="Launch the Main Rocket"
+Objective_Info_Attacker="Llançar el coet principal"
+; EN: Objective_Info_Defender="Defend the Main Rocket Switch"
+Objective_Info_Defender="Defensa l'interruptor principal del coet"
+
+[HoldObjective1]
+; EN: ObjectiveName="Guidance Rocket"
+ObjectiveName="Coet de guia"
+; EN: DestructionMessage="Guidance Rocket Launched!"
+DestructionMessage="S'ha llançat el coet de guia!"
+; EN: ObjectiveDescription="Launch the Guidance Rocket, it is required for a successful launch of the main rocket."
+ObjectiveDescription="Llançar el coet de guia, és necessari per a un llançament exitós del coet principal."
+; EN: Objective_Info_Attacker="Launch the Guidance Rocket"
+Objective_Info_Attacker="Llançar el coet de guia"
+; EN: Objective_Info_Defender="Defend the Guidance Rocket"
+Objective_Info_Defender="Defensa el coet de guia"
+
+[HoldObjective5]
+ObjectiveName="DockObjective"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Els explosius estan al seu lloc!"
+; EN: ObjectiveDescription="Place explosives on the pressure tanks to reduce hydraulic pressure and open the security door."
+ObjectiveDescription="Col·loqueu explosius als dipòsits a pressió per reduir la pressió hidràulica i obrir la porta de seguretat."
+; EN: Objective_Info_Attacker="Place explosives on the pressure tanks"
+Objective_Info_Attacker="Col·loqueu explosius als dipòsits a pressió"
+; EN: Objective_Info_Defender="Defend the pressure tanks"
+Objective_Info_Defender="Defensa els tancs a pressió"
+
+[LevelInfo0]
+; EN: Title="Thrust"
+Title="Empenta"
+; EN: LocationName="Outside"
+LocationName="Fora"
+
+[LevelSummary]
+; EN: Title="Thrust"
+Title="Empenta"
+; EN: Description="A recreation of the infamous destruction of the Saturn IX PCNR rocket where a crack team of anti-NEG rebels stormed the launch facility and scuttled the rocket by launching it unguided and half-fueled."
+Description="Una recreació de la infame destrucció del coet Saturn IX PCNR on un equip crack de rebels anti-NEG va assaltar la instal·lació de llançament i va enfonsar el coet llançant-lo sense guia i mig alimentat."
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the premature launching of the half-fueled Saturn IX rocket by anti-NEG rebels.","First, your team must toggle the switch on the roof of this small building to launch the Guidance Rocket, which serves as a necessary navigational beacon for the Main Rocket.","If you wish, you may choose to secure the auxiliary landing pad by destroying two these SAM launchers. If the SAM site is destroyed, your team then may spawn at the landing pad, and an airstrike will drastically weaken the enemy defenses at your next objective.","Place and detonate explosives on the hydraulic pressure tanks. This will open all base doors, and allow access to the facility's main control room.","Finally, you will need to activate the launch switch inside Mission Control before final fueling is complete.  This will scuttle the Main Rocket into an improper launch orbit.")
+
+[Volume0]
+; EN: LocationName="SAM Platform"
+LocationName="Plataforma SAM"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Fora"
+
+[ZoneInfo1]
+; EN: LocationName="Guidance Rocket Building"
+LocationName="Edifici de coets de guia"
+
+[ZoneInfo2]
+; EN: LocationName="Defender Spawn in Rocker Building"
+LocationName="Defensor Spawn a Rocker Building"
+
+[ZoneInfo3]
+; EN: LocationName="Rocket Control Room"
+LocationName="Sala de control de coets"
+

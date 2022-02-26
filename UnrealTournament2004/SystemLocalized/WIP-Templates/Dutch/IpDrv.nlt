@@ -1,0 +1,58 @@
+[Public]
+Object=(Name=IpDrv.UpdateServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.MasterServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
+Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
+; EN: Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="TCP/IP-netwerk afspelen",Parent="Netwerken",Class=IpDrv.TcpNetDriver)
+; EN: Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="Serverbaken",Parent="Netwerken",Class=IpDrv.UdpBeacon,Immediate=True)
+
+[TcpNetDriver]
+; EN: ClassCaption=TCP/IP Network Play
+ClassCaption=TCP/IP-netwerk afspelen
+
+[UdpBeacon]
+; EN: ClassCaption=Server LAN Beacon
+ClassCaption=Server LAN-baken
+
+[DecompressCommandlet]
+; EN: HelpCmd=decompress
+HelpCmd=decomprimeren
+; EN: HelpOneLiner=Decompress a file compressed with ucc compress.
+HelpOneLiner=Decomprimeer een bestand dat is gecomprimeerd met ucc compress.
+; EN: HelpUsage=decompress CompressedFile
+HelpUsage=decomprimeer CompressedFile
+; EN: HelpParm[0]=CompressedFile
+HelpParm[0]=Gecomprimeerd Bestand
+; EN: HelpDesc[0]=The .uz file to decompress.
+HelpDesc[0]=Het te decomprimeren .uz-bestand.
+
+[CompressCommandlet]
+; EN: HelpCmd=compress
+HelpCmd=samenpersen
+; EN: HelpOneLiner=Compress an Unreal package for auto-downloading.  A file with extension .uz will be created.
+HelpOneLiner=Comprimeer een Unreal-pakket voor automatisch downloaden. Er wordt een bestand met de extensie .uz aangemaakt.
+; EN: HelpUsage=compress File1 [File2 [File3 ...]]
+HelpUsage=comprimeer Bestand1 [Bestand2 [Bestand3 ...]]
+; EN: HelpParm[0]=Files
+HelpParm[0]=Bestanden
+; EN: HelpDesc[0]=The wildcard or file names to compress.
+HelpDesc[0]=De jokertekens of bestandsnamen die moeten worden gecomprimeerd.
+
+[MasterServerUplink]
+; EN: MSUPropText[0]="Advertise Server"
+MSUPropText[0]="Adverteer Server"
+; EN: MSUPropText[1]="Process Stats"
+MSUPropText[1]="Processtatistieken"
+; EN: MSUPropText[2]="Ignore UTAN Bans"
+MSUPropText[2]="Negeer UTAN-verboden"
+; EN: MSUPropDesc[0]="if true, your server is advertised on the internet server browser."
+MSUPropDesc[0]="indien waar, wordt uw server geadverteerd in de internetserverbrowser."
+; EN: MSUPropDesc[1]="Publishes player stats from your server on the UT2004 stats website."
+MSUPropDesc[1]="Publiceert spelerstatistieken van uw server op de UT2004-statistiekenwebsite."
+; EN: MSUPropDesc[2]="If true, your server will ignore UTAN based bans coming from the master server."
+MSUPropDesc[2]="Als dit waar is, negeert uw server op UTAN gebaseerde bans die afkomstig zijn van de hoofdserver."
+

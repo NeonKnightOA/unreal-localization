@@ -1,49 +1,65 @@
 [LevelInfo0]
-Title="Hot Iron Injector"
+; EN: Title="Hot Iron Injector"
+Title="Injecteur de fer chaud"
 
 [LevelSummary]
-Title="Hot Iron Injector"
-Description="A recent and complex addition to the tournament, Injector is a twisting maze of imposing architecture, duct work, and generators. Watch yourself in the tighter corridors and make sure you keep your eyes peeled when going for the super shield!"
+; EN: Title="Hot Iron Injector"
+Title="Injecteur de fer chaud"
+; EN: Description="A recent and complex addition to the tournament, Injector is a twisting maze of imposing architecture, duct work, and generators. Watch yourself in the tighter corridors and make sure you keep your eyes peeled when going for the super shield!"
+Description="Un ajout récent et complexe au tournoi, Injector est un labyrinthe sinueux d'architecture imposante, de conduits et de générateurs. Observez-vous dans les couloirs les plus étroits et assurez-vous de garder les yeux ouverts lorsque vous optez pour le super bouclier !"
 
 [ZoneInfo0]
-LocationName="Supershield"
+; EN: LocationName="Supershield"
+LocationName="Superbouclier"
 
 [ZoneInfo10]
-LocationName="Double Damage"
+; EN: LocationName="Double Damage"
+LocationName="Doubles dommages"
 
 [ZoneInfo11]
-LocationName="Hall O Death"
+; EN: LocationName="Hall O Death"
+LocationName="Salle O Mort"
 
 [ZoneInfo12]
-LocationName="Elbow"
+; EN: LocationName="Elbow"
+LocationName="Coude"
 
 [ZoneInfo13]
-LocationName="Small of Elbow"
+; EN: LocationName="Small of Elbow"
+LocationName="Petit de Coude"
 
 [ZoneInfo14]
-LocationName="Link Ammo"
+; EN: LocationName="Link Ammo"
+LocationName="Lien Munitions"
 
 [ZoneInfo15]
-LocationName="Toilet"
+; EN: LocationName="Toilet"
+LocationName="Toilette"
 
 [ZoneInfo2]
-LocationName="Lightning Gun"
+; EN: LocationName="Lightning Gun"
+LocationName="Pistolet éclair"
 
 [ZoneInfo3]
-LocationName="Electric Hall"
+; EN: LocationName="Electric Hall"
+LocationName="Salle électrique"
 
 [ZoneInfo4]
-LocationName="Shock and BioRifle"
+; EN: LocationName="Shock and BioRifle"
+LocationName="Choc et BioRifle"
 
 [ZoneInfo5]
-LocationName="RL and Link"
+; EN: LocationName="RL and Link"
+LocationName="RL et lien"
 
 [ZoneInfo6]
-LocationName="Closet"
+; EN: LocationName="Closet"
+LocationName="Toilettes"
 
 [ZoneInfo8]
 LocationName="Hangar"
 
 [ZoneInfo9]
-LocationName="Double Damage"
+; EN: LocationName="Double Damage"
+LocationName="Doubles dommages"
 

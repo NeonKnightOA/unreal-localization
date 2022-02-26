@@ -1,67 +1,90 @@
 [LevelInfo0]
-Title="Ironic"
+; EN: Title="Ironic"
+Title="Ironique"
 
 [LevelSummary]
-Title="Ironic"
-Description="In the solitude of the abandoned coastal platforms of New Argentina, the quiet hum of bird and animal life yields to the roar of rocket fire, and the blast of shock rifles. Looks like R&R has been put on hold for today, so grab some ammo and get out there. It's time for a little old fashioned deathmatch."
+; EN: Title="Ironic"
+Title="Ironique"
+; EN: Description="In the solitude of the abandoned coastal platforms of New Argentina, the quiet hum of bird and animal life yields to the roar of rocket fire, and the blast of shock rifles. Looks like R&R has been put on hold for today, so grab some ammo and get out there. It's time for a little old fashioned deathmatch."
+Description="Dans la solitude des plates-formes côtières abandonnées de la Nouvelle Argentine, le bourdonnement silencieux de la vie des oiseaux et des animaux cède la place au rugissement des tirs de roquettes et au souffle des fusils à choc. On dirait que R&amp;R a été mis en attente pour aujourd'hui, alors prenez des munitions et sortez. C'est l'heure d'un petit match à mort à l'ancienne."
 
 [ZoneInfo0]
-LocationName="Shock Rifle"
+; EN: LocationName="Shock Rifle"
+LocationName="Fusil de choc"
 
 [ZoneInfo1]
-LocationName="Bio Rifle"
+; EN: LocationName="Bio Rifle"
+LocationName="Fusil Bio"
 
 [ZoneInfo10]
-LocationName="Top Hallway"
+; EN: LocationName="Top Hallway"
+LocationName="Haut du couloir"
 
 [ZoneInfo11]
-LocationName="Top Hallway"
+; EN: LocationName="Top Hallway"
+LocationName="Haut du couloir"
 
 [ZoneInfo12]
-LocationName="Flak Cannon"
+; EN: LocationName="Flak Cannon"
+LocationName="Canon anti-aérien"
 
 [ZoneInfo13]
-LocationName="Flak Cannon"
+; EN: LocationName="Flak Cannon"
+LocationName="Canon anti-aérien"
 
 [ZoneInfo14]
-LocationName="Pulse Gun"
+; EN: LocationName="Pulse Gun"
+LocationName="Pistolet à impulsion"
 
 [ZoneInfo15]
-LocationName="Amplifier"
+; EN: LocationName="Amplifier"
+LocationName="Amplificateur"
 
 [ZoneInfo16]
-LocationName="Rocket Launcher"
+; EN: LocationName="Rocket Launcher"
+LocationName="Lance-roquettes"
 
 [ZoneInfo17]
-LocationName="Shock Rifle"
+; EN: LocationName="Shock Rifle"
+LocationName="Fusil de choc"
 
 [ZoneInfo18]
-LocationName="Rocket Launcher"
+; EN: LocationName="Rocket Launcher"
+LocationName="Lance-roquettes"
 
 [ZoneInfo19]
-LocationName="Shock Rifle"
+; EN: LocationName="Shock Rifle"
+LocationName="Fusil de choc"
 
 [ZoneInfo2]
-LocationName="Rocket Launcher"
+; EN: LocationName="Rocket Launcher"
+LocationName="Lance-roquettes"
 
 [ZoneInfo3]
-LocationName="Elevator"
+; EN: LocationName="Elevator"
+LocationName="Ascenseur"
 
 [ZoneInfo4]
-LocationName="Elevator"
+; EN: LocationName="Elevator"
+LocationName="Ascenseur"
 
 [ZoneInfo5]
-LocationName="Shield Room"
+; EN: LocationName="Shield Room"
+LocationName="Salle du Bouclier"
 
 [ZoneInfo6]
-LocationName="Shield Room"
+; EN: LocationName="Shield Room"
+LocationName="Salle du Bouclier"
 
 [ZoneInfo7]
-LocationName="Top Hallway"
+; EN: LocationName="Top Hallway"
+LocationName="Haut du couloir"
 
 [ZoneInfo8]
-LocationName="Top Hallway"
+; EN: LocationName="Top Hallway"
+LocationName="Haut du couloir"
 
 [ZoneInfo9]
-LocationName="Elevator"
+; EN: LocationName="Elevator"
+LocationName="Ascenseur"
 

@@ -1,0 +1,436 @@
+[ACTION_DamageActor]
+; EN: ActionString="Damage actor"
+ActionString="Skadespelare"
+
+[ACTION_DestroyActor]
+; EN: ActionString="Destroy actor"
+ActionString="Förstör skådespelare"
+
+[ACTION_FinishRotation]
+; EN: ActionString="Finish rotation"
+ActionString="Avsluta rotationen"
+
+[ACTION_FireWeapon]
+; EN: ActionString="fire weapon"
+ActionString="eldvapen"
+
+[ACTION_FireWeaponAt]
+; EN: ActionString="fire weapon"
+ActionString="eldvapen"
+
+[ACTION_Freeze]
+; EN: ActionString="Freeze"
+ActionString="Frysa"
+
+[ACTION_HealActor]
+; EN: ActionString="Heal actor"
+ActionString="Läka skådespelare"
+
+[ACTION_Jump]
+; EN: ActionString="Jump"
+ActionString="Hoppa"
+
+[ACTION_LocalizedMessage]
+; EN: ActionString="Localized Message"
+ActionString="Lokaliserat meddelande"
+
+[ACTION_PlayLIPSinc]
+; EN: ActionString="Play LIPSinc"
+ActionString="Spela LIPSinc"
+
+[ACTION_SetPhysics]
+; EN: ActionString="change physics to "
+ActionString="ändra fysik till "
+
+[ACTION_ShootTarget]
+; EN: ActionString="shoot target"
+ActionString="skjuta mål"
+
+[ACTION_SpawnActor]
+; EN: ActionString="Spawn actor"
+ActionString="Spawn skådespelare"
+
+[ACTION_SubTitles]
+; EN: ActionString="SubTitles"
+ActionString="Undertexter"
+
+[ACTION_ThrowWeapon]
+; EN: ActionString="throw weapon"
+ActionString="kasta vapen"
+
+[ACTION_WaitForLIPSincAnimEnd]
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="Vänta på LIPSincAnimEnd"
+
+[ActionMessage_BR]
+; EN: Messages[0]="Bombing Run"
+Messages[0]="Bombning Run"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="Bollen är i mitten"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="Rör bollen för att plocka upp den"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="Bolthållaren kan inte attackera"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="Primär eld skjuter boll"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="Alternativa eldmål på lagkamrater"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="Passa bollen till lagkamrater"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="Varje lag har ett omgångsmål"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="Att kasta bollen = 3 poäng"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="Att bära den = 7 poäng"
+; EN: Messages[10]="Good luck!"
+Messages[10]="Lycka till!"
+
+[ActionMessage_CTF]
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="Fånga flaggan"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="Två baser: röd och blå"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="Tryck på fiendens flagga för att ta den"
+; EN: Messages[3]="Return to your base"
+Messages[3]="Gå tillbaka till din bas"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="Tryck på din flagga för att göra mål"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="Translokering kommer att tappa flaggan"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="Standardinfångningsgränsen är 3"
+; EN: Messages[7]="Good luck!"
+Messages[7]="Lycka till!"
+
+[ActionMessage_DM]
+; EN: Messages[0]="Deathmatch"
+Messages[0]="Döds match"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="Tryck på eld för att spawna"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="Vapen har två skjutlägen"
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="Regelbunden och omväxlande eld"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="Automatkarbin"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="Avfyrar kulor och granater"
+Messages[6]="Shield Gun"
+; EN: Messages[7]="Melee attack"
+Messages[7]="Närstridsattack"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="Skyddssköld"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="Utforska för att hitta andra vapen"
+; EN: Messages[10]="Flak Cannon"
+Messages[10]="Flakkanon"
+; EN: Messages[11]="Bio-Rifle"
+Messages[11]="Bio-gevär"
+Messages[12]="Minigun"
+; EN: Messages[13]="Movement"
+Messages[13]="Rörelse"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD = Standard rörelsetangenter"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="Dubbeltryck på en tangent för att undvika"
+; EN: Messages[16]="Jumping"
+Messages[16]="Hoppar"
+; EN: Messages[17]="Double jump"
+Messages[17]="Dubbelhopp"
+Messages[18]="Powerups"
+; EN: Messages[19]="Health vials"
+Messages[19]="Hälsoflaskor"
+; EN: Messages[20]="Health pack"
+Messages[20]="Hälsopaket"
+Messages[21]="Big Keg O' Health"
+; EN: Messages[22]="Armor"
+Messages[22]="Rustning"
+Messages[23]="Shield Pack"
+Messages[24]="Super Shield Pack"
+; EN: Messages[25]="Adrenaline"
+Messages[25]="Adrenalin"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="Adrenalin kan användas för kombinationer"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="Skada förstärkare"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="Nå frag-gränsen först!"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="Självmord räknas mot dig"
+; EN: Messages[30]="Good luck!"
+Messages[30]="Lycka till!"
+
+[ActionMessage_DOM]
+; EN: Messages[0]="Double Domination"
+Messages[0]="Dubbel dominans"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="Kontrollpunkter: A &amp; B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="Håll poäng i 10 sekunder"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="Peka på punkten för att ta kontroll"
+; EN: Messages[4]="Good luck!"
+Messages[4]="Lycka till!"
+
+[ActionMessage_SubTitle]
+Delays[0]=4.000000
+Delays[1]=4.000000
+Delays[2]=8.000000
+Delays[3]=8.000000
+Delays[4]=8.000000
+Delays[5]=8.000000
+Delays[6]=8.000000
+Delays[7]=8.000000
+Delays[8]=8.000000
+Delays[9]=8.000000
+Delays[10]=8.000000
+Delays[11]=8.000000
+Delays[12]=8.000000
+Delays[13]=8.000000
+Delays[14]=8.000000
+Delays[15]=8.000000
+Delays[16]=8.000000
+Delays[17]=8.000000
+Delays[18]=8.000000
+Delays[19]=8.000000
+Delays[20]=8.000000
+Delays[21]=8.000000
+Delays[22]=0.000000
+Delays[23]=0.000000
+Delays[24]=0.000000
+Delays[25]=0.000000
+Delays[26]=0.000000
+Delays[27]=0.000000
+Delays[28]=0.000000
+Delays[29]=0.000000
+Delays[30]=0.000000
+Delays[31]=0.000000
+; EN: Messages[0]="How do I look?"
+Messages[0]="Hur ser jag ut?"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="Inte lika bra som jag älskling..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="Tja, fans här är vi för ännu en upplaga av den blodigaste sporten i Galaxy. En turnering där vinnarna blir gudar och förlorarna betalar det ultimata priset!"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="DÄR ÄR DEM! En gång var de rivaler, men nu är de ett av de hårdaste lagen som finns."
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="Det är rätt. Ingenting slår erfarenhet och var och en av dessa tre ger massor av det till bordet."
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="Titta på Malcolm! Nu finns det en kille som verkligen kan hålla sig kall i en eldstrid."
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="Den där Brocken. Han är lika farlig för damerna OUT-side ringen som han är för sina fiender IN-side!"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="Jag älskar att titta på Lauren. Hon är en sån liten....bunt energi."
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="Ja precis.....du gillar att titta på Lauren för hennes energi."
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="Den här gången är han MIN!!"
+Messages[10]="AAGGGHHHHRRRR"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="Du d'man Gorge! Du äger! Ja älskling, kom igen, nu din jävel!"
+Messages[12]="MAAAALLLCOOOOOMMM!"
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="Åh, man, såg du det?"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="Jag säger dig Jim, den Gorge, han har helt enkelt ingen respekt för sina fans."
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="Tja, jag tror att han fortfarande är förbannad över det där nya ärret i ansiktet, med tillstånd av Malcolm i deras senaste match."
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="Ja, jag tror att han letar efter lite PAYBACK."
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="Japp, det borde bli bra ikväll."
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="Eftersom Malcolms lag är regerande mästare får de välja kvällens arena."
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="Ser ut som det kommer att bli... Kalendra Icefields."
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="Awww Ja, jag älskar den här arenan, Malcolm gör det riktigt bra här."
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="Kvällens match borde bli ett riktigt blodbad."
+
+[Action_CHANGELEVEL]
+; EN: ActionString="Change level"
+ActionString="Ändra nivå"
+
+[Action_CHANGESCRIPT]
+; EN: ActionString="Change script"
+ActionString="Byt skript"
+
+[Action_CHANGETEAM]
+; EN: ActionString="Change Team"
+ActionString="Byt team"
+
+[Action_CROUCH]
+; EN: ActionString="crouch"
+ActionString="huka"
+
+[Action_ConsoleCommand]
+; EN: ActionString="console command"
+ActionString="konsolkommandot"
+
+[Action_DAMAGEINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Skadeanstiftare"
+
+[Action_DESTROYPAWN]
+; EN: ActionString="destroy pawn"
+ActionString="förstöra bonde"
+
+[Action_DISPLAYMESSAGE]
+; EN: ActionString="display message"
+ActionString="visa meddelande"
+
+[Action_DrawHUDMaterial]
+; EN: ActionString="draw HUD texture"
+ActionString="rita HUD-struktur"
+
+[Action_ENDSECTION]
+; EN: ActionString="end section"
+ActionString="ändsektion"
+
+[Action_FADEVIEW]
+; EN: ActionString="fade view"
+ActionString="blekna vy"
+
+[Action_GOTOACTION]
+; EN: ActionString="go to action"
+ActionString="gå till handling"
+
+[Action_IFCONDITION]
+; EN: ActionString="If condition"
+ActionString="Om tillstånd"
+
+[Action_KILLINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Skadeanstiftare"
+
+[Action_LEAVESEQUENCE]
+; EN: ActionString="leave sequence"
+ActionString="lämna sekvens"
+
+[Action_MOVETOPLAYER]
+; EN: ActionString="Move to player"
+ActionString="Flytta till spelare"
+
+[Action_MOVETOPOINT]
+; EN: ActionString="Move to point"
+ActionString="Flytta till punkt"
+
+[Action_PLAYAMBIENTSOUND]
+; EN: ActionString="play ambient sound"
+ActionString="spela upp omgivande ljud"
+
+[Action_PLAYANIM]
+; EN: ActionString="play animation"
+ActionString="spela animation"
+
+[Action_PLAYANNOUNCEMENT]
+; EN: ActionString="play announcement"
+ActionString="spelmeddelande"
+
+[Action_PLAYLOCALSOUND]
+; EN: ActionString="play sound"
+ActionString="Spelljud"
+
+[Action_PLAYMUSIC]
+; EN: ActionString="play song"
+ActionString="spela sång"
+
+[Action_PLAYSOUND]
+; EN: ActionString="play sound"
+ActionString="Spelljud"
+
+[Action_RUN]
+; EN: ActionString="Run"
+ActionString="Springa"
+
+[Action_SETALERTNESS]
+; EN: ActionString="set alertness"
+ActionString="ställ in vakenhet"
+
+[Action_SETVIEWTARGET]
+; EN: ActionString="set viewtarget"
+ActionString="ange visningsmål"
+
+[Action_STOPANIMATION]
+; EN: ActionString="stop animation"
+ActionString="stoppa animering"
+
+[Action_TRIGGEREVENT]
+; EN: ActionString="trigger event"
+ActionString="utlösande händelse"
+
+[Action_TURNTOWARDPLAYER]
+; EN: ActionString="Turn toward player"
+ActionString="Vänd dig mot spelaren"
+
+[Action_WAITFORANIMEND]
+; EN: ActionString="Wait for animend"
+ActionString="Vänta på animend"
+
+[Action_WAITFOREVENT]
+; EN: ActionString="Wait for external event"
+ActionString="Vänta på extern händelse"
+
+[Action_WAITFORPLAYER]
+; EN: ActionString="Wait for player"
+ActionString="Vänta på spelaren"
+
+[Action_WAITFORTIMER]
+; EN: ActionString="Wait for timer"
+ActionString="Vänta på timern"
+
+[Action_WALK]
+; EN: ActionString="walk"
+ActionString="promenad"
+
+[Burned]
+; EN: DeathString="%o was sauteed."
+DeathString="%o stektes."
+
+[Corroded]
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="%o upplöstes av %k's."
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="%o upplöst i slem."
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="%o upplöst i slem."
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Bara %i mer kvar..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Avslutad!"
+
+[Depressurized]
+; EN: DeathString="%o was depressurized by %k."
+DeathString="%o trycksänktes med %k."
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="%o sänktes trycket."
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="%o sänktes trycket."
+
+[Drowned]
+; EN: DeathString="%o forgot to come up for air."
+DeathString="%o glömde att komma upp för luft."
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="%o glömde att komma upp för luft."
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="%o glömde att komma upp för luft."
+
+[MessageTextureClient]
+; EN: HisMessage="his"
+HisMessage="hans"
+; EN: HerMessage="her"
+HerMessage="henne"
+
+[ScriptedAction]
+; EN: ActionString="unspecified action"
+ActionString="ospecificerad åtgärd"
+
+[WaterVolume]
+; EN: LocationName="under water"
+LocationName="under vatten"
+

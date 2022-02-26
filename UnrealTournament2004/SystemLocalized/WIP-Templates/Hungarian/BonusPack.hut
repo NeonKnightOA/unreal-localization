@@ -1,0 +1,149 @@
+[Public]
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Last Man Standing|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Adds the Camouflage combo (RRRR).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Hozzáadja a Camouflage kombót (RRRR).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Adds the Pint-sized combo (LLLL).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Hozzáadja a Pint-sized kombót (LLLL).")
+
+[ComboCrate]
+; EN: ExecMessage="Camouflaged!"
+ExecMessage="Álcázva!"
+
+[ComboMiniMe]
+; EN: ExecMessage="Pint-sized!"
+ExecMessage="Pint méretű!"
+
+[DamTypeMutant]
+; EN: DeathString="%o suffered a fatal mutation!"
+DeathString="%o végzetes mutációt szenvedett!"
+; EN: FemaleSuicide="%o suffered a fatal mutation!"
+FemaleSuicide="%o végzetes mutációt szenvedett!"
+; EN: MaleSuicide="%o suffered a fatal mutation!"
+MaleSuicide="%o végzetes mutációt szenvedett!"
+
+[HudLMS]
+; EN: LivesRemainingString="Lives Remaining"
+LivesRemainingString="Maradt életek"
+; EN: PlayersRemainString="Players Remain -- "
+PlayersRemainString="A játékosok maradnak -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+; EN: BottomFeederText="BOTTOM FEEDER"
+BottomFeederText="ALSÓ ADAGOLÓ"
+
+[LMSMessage]
+; EN: YouAreCamperMessage="You Are Camping!"
+YouAreCamperMessage="Kempingeztél!"
+SomeoneIsCamperMessage=" "
+; EN: SomeoneIsCamperMessageTrailer="Is Camping!"
+SomeoneIsCamperMessageTrailer="Kemping!"
+
+[MutCrateCombo]
+CamoDisplayText="Camouflage Combo"
+; EN: MiniDisplayText="Pint-sized Combo"
+MiniDisplayText="Pint méretű Combo"
+; EN: CamoDescText="When enabled, this adrenaline combo covers you with a holographic projection of a rock or a part of a building"
+CamoDescText="Ha engedélyezve van, ez az adrenalin kombó egy szikla vagy egy épületrész holografikus vetületével takar."
+; EN: MiniDescText="When enabled, this adrenaline combo makes you smaller"
+MiniDescText="Ha engedélyezve van, ez az adrenalin kombináció kisebbé teszi"
+; EN: FriendlyName="Bonus Combos"
+FriendlyName="Bónusz kombók"
+; EN: Description="Adds the Pint-sized combo (LLLL) and the Camouflage Combo (RRRR)."
+Description="Hozzáadja a Pint-sized kombót (LLLL) és a Camouflage Combo-t (RRRR)."
+
+[MutantMessage]
+; EN: YouAreMutantMessage="You Have Mutated!"
+YouAreMutantMessage="Mutáltál!"
+SomeoneIsMutantMessage=" "
+; EN: SomeoneIsMutantMessageTrailer="Has Mutated!"
+SomeoneIsMutantMessageTrailer="Mutálódott!"
+; EN: FFAMessage="First Blood Mutates!"
+FFAMessage="Első vér mutáció!"
+; EN: BottomFeederMessage="You Are The Bottom Feeder!"
+BottomFeederMessage="Te vagy az alsó adagoló!"
+; EN: NotBottomFeederMessage="No Longer Bottom Feeder!"
+NotBottomFeederMessage="Nincs többé alsó adagoló!"
+
+[MutantNameMessage]
+; EN: BottomFeederMesg="(BOTTOM FEEDER)"
+BottomFeederMesg="(ALSÓ ADAGOLÓ)"
+
+[ScoreBoardLMS]
+; EN: LivesText="LIVES"
+LivesText="ÉL"
+
+[Tab_IALastManStanding]
+; EN: IARulesExtraLives.Caption="Killing Gives Health"
+IARulesExtraLives.Caption="Az ölés egészséget ad"
+; EN: IARulesExtraLives.Hint="When selected, a portion of the player's health is restored with each kill."
+IARulesExtraLives.Hint="Kiválasztáskor a játékos egészségének egy része minden egyes öléssel helyreáll."
+; EN: IARulesLMSAllowAdrenaline.Caption="Allow Adrenaline"
+IARulesLMSAllowAdrenaline.Caption="Adrenalin engedélyezése"
+; EN: IARulesLMSAllowAdrenaline.Hint="When selected, players can use Adrenaline."
+IARulesLMSAllowAdrenaline.Hint="Ha kiválasztják, a játékosok használhatják az Adrenalint."
+; EN: IARulesLMSAllowPickups.Caption="Allow Pickups"
+IARulesLMSAllowPickups.Caption="Felvétel engedélyezése"
+; EN: IARulesLMSAllowPickups.Hint="When selected, allow normal pickups."
+IARulesLMSAllowPickups.Hint="Ha kiválasztja, engedélyezze a normál felvételeket."
+; EN: IARulesSuperWeaps.Caption="Allow Super Weapons"
+IARulesSuperWeaps.Caption="Super Weapons engedélyezése"
+; EN: IARulesSuperWeaps.Hint="When selected, allow super weapon pickups."
+IARulesSuperWeaps.Hint="Ha kiválasztja, engedélyezze a szuperfegyverek felvételét."
+
+[Tab_IAMutant]
+; EN: TargetScoreString="Score Limit"
+TargetScoreString="Pontszámhatár"
+; EN: IARulesBottomFeeders.Caption="Bottom Feeder"
+IARulesBottomFeeders.Caption="Alsó adagoló"
+; EN: IARulesBottomFeeders.Hint="When selected, bottom ranked player(s) can kill anyone."
+IARulesBottomFeeders.Hint="Ha kiválasztják, az alsó rangú játékos(ok) bárkit megölhetnek."
+
+[xLastManStandingGame]
+LMSPropsDisplayText[0]="Camping Threshold"
+; EN: LMSPropsDisplayText[1]="Camper Warning Interval"
+LMSPropsDisplayText[1]="Lakókocsi figyelmeztetési időköz"
+; EN: LMSPropsDisplayText[2]="Gain Health For Kills"
+LMSPropsDisplayText[2]="Szerezzen egészséget az ölésért"
+; EN: LMSPropsDisplayText[3]="Allow SuperWeapons"
+LMSPropsDisplayText[3]="SuperWeapons engedélyezése"
+; EN: LMSPropsDisplayText[4]="Camper Alarm"
+LMSPropsDisplayText[4]="Lakókocsi riasztó"
+; EN: LMSPropsDisplayText[5]="Allow Pickups"
+LMSPropsDisplayText[5]="Felvétel engedélyezése"
+; EN: LMSPropsDisplayText[6]="Allow Adrenaline"
+LMSPropsDisplayText[6]="Adrenalin engedélyezése"
+; EN: LMSPropsDisplayText[7]="Full Ammo"
+LMSPropsDisplayText[7]="Teljes lőszer"
+; EN: LMSPropDescText[0]="Determines how long a player can stand in one spot before triggering a camper warning."
+LMSPropDescText[0]="Meghatározza, mennyi ideig állhat egy játékos egy helyben, mielőtt kiváltja a táborozó figyelmeztetést."
+; EN: LMSPropDescText[1]="Specifies how often the camper warning is played"
+LMSPropDescText[1]="Meghatározza, hogy milyen gyakran játsszák le a lakókocsi-figyelmeztetést"
+; EN: LMSPropDescText[2]="If this option is enabled, a player gains health after killing another player."
+LMSPropDescText[2]="Ha ez az opció be van kapcsolva, akkor egy játékos egészséget kap, miután megöl egy másik játékost."
+; EN: LMSPropDescText[3]="If checked, super weapons are included in the player load out."
+LMSPropDescText[3]="Ha be van jelölve, a szuperfegyverek benne vannak a játékos kitöltésében."
+; EN: LMSPropDescText[4]="Enable this option to cause an alarm to be played if a player stands in one spot too long."
+LMSPropDescText[4]="Engedélyezze ezt az opciót, hogy riasztást indítson el, ha egy játékos túl sokáig áll egy helyen."
+; EN: LMSPropDescText[5]="If checked, pickups will be available in the map."
+LMSPropDescText[5]="Ha be van jelölve, az átvétel elérhető lesz a térképen."
+; EN: LMSPropDescText[6]="If checked, adrenaline combos will be enabled."
+LMSPropDescText[6]="Ha be van jelölve, az adrenalin kombinációk engedélyezve lesznek."
+; EN: LMSPropDescText[7]="If checked, players start with max ammo for all weapons."
+LMSPropDescText[7]="Ha be van jelölve, a játékosok maximális lőszerrel kezdenek minden fegyverhez."
+; EN: GameName="Last Man Standing"
+GameName="Az utolsó emberig"
+; EN: Description="Each player starts with a limited number of lives.  The goal is to be the last player left when the smoke clears."
+Description="Minden játékos korlátozott számú élettel kezd. A cél az, hogy az utolsó játékos maradjon, amikor a füst eloszlik."
+
+[xMutantGame]
+; EN: MutPropText="Enable BottomFeeder"
+MutPropText="A BottomFeeder engedélyezése"
+; EN: MutDescText="If enabled, the player with the lowest score is the BottomFeeder, and can kill other players."
+MutDescText="Ha engedélyezve van, a legalacsonyabb pontszámmal rendelkező játékos a BottomFeeder, és megölhet más játékosokat."
+; EN: GameName="Mutant"
+GameName="Mutáns"
+; EN: Description="The first player to score a frag becomes the Mutant.  Everyone else hunts the Mutant, as by killing the mutant, a player becomes the mutant, with superhuman powers.  The player with the lowest score is the Bottom Feeder.  He can also kill other players."
+Description="Az első játékos, aki töredéket szerez, a Mutáns lesz. Mindenki más a mutánsra vadászik, hiszen a mutáns megölésével egy játékos válik mutánssá, emberfeletti erőkkel. A legalacsonyabb pontszámmal rendelkező játékos az alsó adagoló. Más játékosokat is meg tud ölni."
+

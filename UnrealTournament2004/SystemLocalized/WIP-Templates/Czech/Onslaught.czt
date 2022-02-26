@@ -1,0 +1,512 @@
+[ActionMessage_ONS]
+; EN: Messages[0]="Welcome to Onslaught Training."
+Messages[0]="Vítejte v Onslaught Training."
+; EN: Messages[1]="There are many types of vehicles."
+Messages[1]="Existuje mnoho typů vozidel."
+; EN: Messages[2]="The 'USE' key gets in or out of vehicles."
+Messages[2]="Klíč 'USE' se dostane do vozidla nebo z něj."
+; EN: Messages[3]="Some vehicles can hold passengers."
+Messages[3]="Některá vozidla mohou pojmout cestující."
+; EN: Messages[4]="Each team in Onslaught has a PowerCore."
+Messages[4]="Každý tým v Onslaught má PowerCore."
+; EN: Messages[5]="PowerCores are connected to each other through PowerNodes."
+Messages[5]="PowerCores jsou vzájemně propojeny prostřednictvím PowerNodes."
+; EN: Messages[6]="You can see the network of PowerNodes in the overhead map."
+Messages[6]="Síť PowerNodes můžete vidět na režijní mapě."
+; EN: Messages[7]="The objective is to destroy the other team's PowerCore."
+Messages[7]="Cílem je zničit PowerCore druhého týmu."
+; EN: Messages[8]="You may only attack Nodes and Cores which are linked to a Node or Core you already control."
+Messages[8]="Můžete útočit pouze na uzly a jádra, které jsou propojeny s uzlem nebo jádrem, které již ovládáte."
+; EN: Messages[9]="To take a PowerNode, destroy it if it is controlled by the enemy."
+Messages[9]="Chcete-li získat PowerNode, zničte jej, pokud je ovládán nepřítelem."
+; EN: Messages[10]="Touch a neutral PowerAccessPoint to create a friendly PowerNode."
+Messages[10]="Dotkněte se neutrálního bodu PowerAccessPoint a vytvořte přátelský PowerNode."
+; EN: Messages[11]="Vehicles appear near friendly Nodes and your Core."
+Messages[11]="Vozidla se objevují poblíž přátelských uzlů a vašeho jádra."
+; EN: Messages[12]="Until moved, vehicles are locked against the enemy team."
+Messages[12]="Dokud se vozidla nepohybují, jsou uzamčena proti nepřátelskému týmu."
+; EN: Messages[13]="The Link Gun can heal vehicles and Nodes."
+Messages[13]="Link Gun může léčit vozidla a uzly."
+; EN: Messages[14]="Damaged PowerCores can NOT be healed."
+Messages[14]="Poškozená PowerCores NELZE vyléčit."
+; EN: Messages[15]="Build a network of Nodes to gain access to the enemy Core,"
+Messages[15]="Vybudujte síť uzlů, abyste získali přístup k nepřátelskému Jádru,"
+; EN: Messages[16]="then destroy it."
+Messages[16]="pak to zničit."
+; EN: Messages[17]="This concludes the Onslaught Tutorial. Good luck."
+Messages[17]="Toto končí Onslaught Tutorial. Hodně štěstí."
+
+[DamTypeAttackCraftMissle]
+; EN: DeathString="%o couldn't avoid %k's air-to-air missile."
+DeathString="%o se nemohl vyhnout střele vzduch-vzduch %k."
+; EN: FemaleSuicide="%o blasted herself out of the sky."
+FemaleSuicide="%o se vystřelila z nebe."
+; EN: MaleSuicide="%o blasted himself out of the sky."
+MaleSuicide="%o se vystřelil z nebe."
+
+[DamTypeAttackCraftPlasma]
+; EN: DeathString="%k's Raptor filled %o with plasma."
+DeathString="Raptor %k naplnil %o plazmou."
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="%o se smažila vlastním výbuchem plazmy."
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="%o se usmažil svým vlastním plazmovým výbuchem."
+
+[DamTypeChargingBeam]
+; EN: DeathString="%o was incinerated by %k's twin beams."
+DeathString="%o bylo spáleno dvojitými paprsky %k."
+; EN: FemaleSuicide="%o somehow managed to shoot herself with a turret."
+FemaleSuicide="%o se nějak podařilo zastřelit se věží."
+; EN: MaleSuicide="%o somehow managed to shoot himself with a turret."
+MaleSuicide="%o se nějak podařilo zastřelit se věží."
+
+[DamTypeDestroyedVehicleRoadKill]
+; EN: DeathString="A vehicle %k destroyed crushed %o"
+DeathString="Vozidlo %k zničeno rozdrceno %o"
+; EN: FemaleSuicide="%o couldn't avoid the vehicle she destroyed."
+FemaleSuicide="%o se nemohla vyhnout vozidlu, které zničila."
+; EN: MaleSuicide="%o couldn't avoid the vehicle he destroyed."
+MaleSuicide="%o se nemohl vyhnout vozidlu, které zničil."
+
+[DamTypeHoverBikeHeadshot]
+; EN: DeathString="%k clipped off %o's head"
+DeathString="%k uřízl %o hlavu"
+
+[DamTypeHoverBikePlasma]
+; EN: DeathString="%k's Manta filled %o with plasma."
+DeathString="Manta %k naplnila %o plazmou."
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="%o se smažila vlastním výbuchem plazmy."
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="%o se usmažil svým vlastním plazmovým výbuchem."
+
+[DamTypeONSAVRiLRocket]
+; EN: DeathString="%k blew %o away with an AVRiL."
+DeathString="%k odpálil %o s AVRiL."
+; EN: FemaleSuicide="%o pointed her gun the wrong way."
+FemaleSuicide="%o namířila svou zbraň špatným směrem."
+; EN: MaleSuicide="%o pointed his gun the wrong way."
+MaleSuicide="%o namířil svou zbraň špatným směrem."
+
+[DamTypeONSChainGun]
+; EN: DeathString="%o was punctured by %k's minigun."
+DeathString="%o byl proražen minigunem %k."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="%o obrátila minigun na sebe."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="%o obrátil minigun na sebe."
+
+[DamTypeONSGrenade]
+; EN: DeathString="%o played with %k's happy fun ball..."
+DeathString="%o hrál s %k's happy fun ball..."
+; EN: FemaleSuicide="Silly %o, grenades are for enemies..."
+FemaleSuicide="Hloupé %o, granáty jsou pro nepřátele..."
+; EN: MaleSuicide="Silly %o, grenades are for enemies..."
+MaleSuicide="Hloupé %o, granáty jsou pro nepřátele..."
+
+[DamTypeONSMine]
+; EN: DeathString="%o trespassed on %k's property"
+DeathString="%o vstoupil na pozemek %k"
+; EN: FemaleSuicide="%o tried out one of her own mines... it worked!"
+FemaleSuicide="%o vyzkoušel jeden z jejích vlastních dolů... fungovalo to!"
+; EN: MaleSuicide="%o tried out one of his own mines... it worked!"
+MaleSuicide="%o vyzkoušel jeden z jeho vlastních dolů... fungovalo to!"
+
+[DamTypeONSRVBlade]
+; EN: DeathString="%o was cut down."
+DeathString="%o bylo pokáceno."
+; EN: FemaleSuicide="%o was cut down."
+FemaleSuicide="%o bylo pokáceno."
+; EN: MaleSuicide="%o was cut down."
+MaleSuicide="%o bylo pokáceno."
+
+[DamTypeONSVehicle]
+; EN: DeathString="%o had an accident."
+DeathString="%o měl nehodu."
+; EN: FemaleSuicide="%o had an accident."
+FemaleSuicide="%o měl nehodu."
+; EN: MaleSuicide="%o had an accident."
+MaleSuicide="%o měl nehodu."
+
+[DamTypeONSVehicleExplosion]
+; EN: DeathString="%k took out %o with a vehicle explosion."
+DeathString="%k vyřadil %o výbuchem vozidla."
+; EN: FemaleSuicide="%o was a little too close to the vehicle she blew up."
+FemaleSuicide="%o byl příliš blízko k vozidlu, které vyhodila do povětří."
+; EN: MaleSuicide="%o was a little too close to the vehicle he blew up."
+MaleSuicide="%o byl příliš blízko k vozidlu, které vyhodil do vzduchu."
+
+[DamTypeONSWeb]
+; EN: DeathString="%o was tied up by %k."
+DeathString="%o byl svázán %k."
+; EN: FemaleSuicide="%o came to a sticky end."
+FemaleSuicide="%o došlo k lepkavému konci."
+; EN: MaleSuicide="%o came to a sticky end."
+MaleSuicide="%o došlo k lepkavému konci."
+
+[DamTypePRVCombo]
+; EN: DeathString="%o couldn't escape the awesome power of %k's skymine combo."
+DeathString="%o nemohl uniknout úžasné síle skymine comba %k."
+; EN: FemaleSuicide="%o was a little hasty detonation her skymines."
+FemaleSuicide="%o byla trochu uspěchaná detonace jejích skymines."
+; EN: MaleSuicide="%o was a little hasty detonating his skymines."
+MaleSuicide="%o byl trochu uspěchaný odpálit své těžařské míny."
+
+[DamTypePRVLaser]
+; EN: DeathString="%k's laser shocked %o."
+DeathString="Laser %k zasáhl %o."
+; EN: FemaleSuicide="%o used her laser on herself."
+FemaleSuicide="%o použila na sebe laser."
+; EN: MaleSuicide="%o used his laser on himself."
+MaleSuicide="%o použil svůj laser na sebe."
+
+[DamTypePancake]
+; EN: DeathString="%o was crushed by %k"
+DeathString="%o bylo rozdrceno %k"
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="%o byl rozdrcen."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="%o byl rozdrcen."
+
+[DamTypeRoadkill]
+; EN: DeathString="%k ran over %o"
+DeathString="%k překonal %o"
+; EN: FemaleSuicide="%o ran over herself."
+FemaleSuicide="%o přejela sama sebe."
+; EN: MaleSuicide="%o ran over himself."
+MaleSuicide="%o přejel sám sebe."
+
+[DamTypeSkyMine]
+; EN: DeathString="%o ran into %k's skymine."
+DeathString="%o narazil do %k's skymine."
+; EN: FemaleSuicide="%o ran into her own skymine."
+FemaleSuicide="%o narazil na vlastní těžbu."
+; EN: MaleSuicide="%o ran into his own skymine."
+MaleSuicide="%o narazil na svůj vlastní těžební důl."
+
+[DamTypeTankShell]
+; EN: DeathString="%k's tank shell blew %o into flaming bits."
+DeathString="Skořápka tanku %k rozstřílela %o na hořící kousky."
+; EN: FemaleSuicide="%o fired her rocket prematurely."
+FemaleSuicide="%o předčasně vypálila raketu."
+; EN: MaleSuicide="%o fired his rocket prematurely."
+MaleSuicide="%o předčasně vypálil svou raketu."
+
+[DamTypeTurretBeam]
+; EN: DeathString="%k's turret electrified %o."
+DeathString="%k věž elektrifikována %o."
+; EN: FemaleSuicide="%o somehow managed to shoot herself with a turret."
+FemaleSuicide="%o se nějak podařilo zastřelit se věží."
+; EN: MaleSuicide="%o somehow managed to shoot himself with a turret."
+MaleSuicide="%o se nějak podařilo zastřelit se věží."
+
+[MutBigWheels]
+FriendlyName="BigWheels"
+; EN: Description="Vehicle wheel size depends on how well you are doing."
+Description="Velikost kol vozidla závisí na tom, jak dobře si vedete."
+
+[MutLightweightVehicles]
+; EN: DisplayText="Momentum Multiplier"
+DisplayText="Násobitel hybnosti"
+; EN: DescText="Vehicles get this many times as much momentum from damage"
+DescText="Vozidla získají mnohonásobně větší hybnost poškozením"
+; EN: FriendlyName="Lightweight Vehicles"
+FriendlyName="Lehká vozidla"
+; EN: Description="Vehicles fly farther when you hit them."
+Description="Vozidla létají dále, když je zasáhnete."
+
+[MutOnslaughtWeapons]
+; EN: ONSWeaponDisplayText[0]="Include AVRiL"
+ONSWeaponDisplayText[0]="Zahrnout AVRiL"
+; EN: ONSWeaponDisplayText[1]="Replace this with AVRiL"
+ONSWeaponDisplayText[1]="Nahraďte jej AVRiL"
+; EN: ONSWeaponDisplayText[2]="Include Mine Layer"
+ONSWeaponDisplayText[2]="Zahrnout Minovou vrstvu"
+; EN: ONSWeaponDisplayText[3]="Replace this with Mine Layer"
+ONSWeaponDisplayText[3]="Nahraďte to Mine Layer"
+; EN: ONSWeaponDisplayText[4]="Include Grenade Launcher"
+ONSWeaponDisplayText[4]="Včetně granátometu"
+; EN: ONSWeaponDisplayText[5]="Replace this with Grenade Launcher"
+ONSWeaponDisplayText[5]="Nahraďte to granátometem"
+; EN: ONSWeaponDescText[0]="Choose if the AVRiL will be added to the game"
+ONSWeaponDescText[0]="Vyberte, zda bude AVRiL přidán do hry"
+; EN: ONSWeaponDescText[1]="Replace this weapon with the AVRiL"
+ONSWeaponDescText[1]="Vyměňte tuto zbraň za AVRiL"
+; EN: ONSWeaponDescText[2]="Choose if the Mine Layer will be added to the game"
+ONSWeaponDescText[2]="Vyberte, zda bude do hry přidána Minová vrstva"
+; EN: ONSWeaponDescText[3]="Replace this weapon with the Mine Layer"
+ONSWeaponDescText[3]="Vyměňte tuto zbraň za minovou vrstvu"
+; EN: ONSWeaponDescText[4]="Choose if the Grenade Launcher will be added to the game"
+ONSWeaponDescText[4]="Vyberte, zda bude do hry přidán granátomet"
+; EN: ONSWeaponDescText[5]="Replace this weapon with the Grenade Launcher"
+ONSWeaponDescText[5]="Vyměňte tuto zbraň za granátomet"
+; EN: FriendlyName="Onslaught Weapons"
+FriendlyName="Útočné zbraně"
+; EN: Description="Add the Onslaught weapons to other gametypes."
+Description="Přidejte zbraně Onslaught k dalším typům her."
+
+[MutWheeledVehicleStunts]
+; EN: FriendlyName="Stunt Vehicles"
+FriendlyName="Kaskadérská vozidla"
+; EN: Description="Players can make the wheeled vehicles jump. Hold down the crouch key to charge up and then release to jump. They can also control wheeled vehicles in mid-air."
+Description="Hráči mohou nechat kolová vozidla skákat. Podržením tlačítka přikrčení se nabijete a poté uvolněním pro skok. Mohou také ovládat kolová vozidla ve vzduchu."
+
+[ONSAVRiL]
+; EN: Description="The AVRiL, or Anti-Vehicle Rocket Launcher, shoots homing missiles that pack quite a punch."
+Description="AVRiL, neboli Anti-Vehicle Rocket Launcher, střílí samonaváděcí střely, které mají pořádnou sílu."
+ItemName="AVRiL"
+
+[ONSAVRiLAmmo]
+; EN: ItemName="Anti-vehicle Rockets"
+ItemName="Protivozidlové rakety"
+
+[ONSAVRiLAmmoPickup]
+; EN: PickupMessage="You picked up some anti-vehicle rockets"
+PickupMessage="Sebral jsi nějaké protivozidlové rakety"
+
+[ONSAVRiLPickup]
+; EN: PickupMessage="You got the AVRiL."
+PickupMessage="Máte AVRiL."
+
+[ONSAttackCraft]
+; EN: VehiclePositionString="in a Raptor"
+VehiclePositionString="v Raptoru"
+VehicleNameString="Raptor"
+
+[ONSCrosshairs]
+; EN: Crosshair=((FriendlyName="Circle (3)"),(FriendlyName="Circle (4)"),(FriendlyName="Circle (5)"))
+Crosshair=((FriendlyName="Kruh (3)"),(FriendlyName="Kruh (4)"),(FriendlyName="Kruh (5)"))
+
+[ONSDaredevilMessage]
+; EN: StuntInfoString1="Daredevil!  Level "
+StuntInfoString1="Opovážlivec! Úroveň "
+StuntInfoString2=", "
+StuntInfoString3="m"
+; EN: StuntInfoString4="Spin: "
+StuntInfoString4="Roztočit: "
+; EN: StuntInfoString5="Flip: "
+StuntInfoString5="Převrátit: "
+; EN: StuntInfoString6="Roll: "
+StuntInfoString6="Válec: "
+StuntInfoString7=", "
+; EN: StuntInfoString8=" secs"
+StuntInfoString8=" sekund"
+StuntDegrees="�"
+
+[ONSGrenadeAmmo]
+; EN: ItemName="Grenades"
+ItemName="Granáty"
+
+[ONSGrenadeAmmoPickup]
+; EN: PickupMessage="You picked up some grenades"
+PickupMessage="Sebral jsi nějaké granáty"
+
+[ONSGrenadeLauncher]
+; EN: Description="The MGG Grenade Launcher fires magnetic sticky grenades, which will attach to enemy players and vehicles."
+Description="MGG Grenade Launcher střílí magnetické lepkavé granáty, které se přichytí k nepřátelským hráčům a vozidlům."
+; EN: ItemName="Grenade Launcher"
+ItemName="Granátomet"
+
+[ONSGrenadePickup]
+; EN: PickupMessage="You got the Grenade Launcher."
+PickupMessage="Máte granátomet."
+
+[ONSHoverBike]
+; EN: VehiclePositionString="in a Manta"
+VehiclePositionString="v mantě"
+VehicleNameString="Manta"
+
+[ONSHoverTank]
+; EN: VehiclePositionString="in a Goliath"
+VehiclePositionString="v Goliášovi"
+; EN: VehicleNameString="Goliath"
+VehicleNameString="Goliáš"
+
+[ONSLinkDesignMessage]
+; EN: SaveSetupString="Successfully saved Link Setup."
+SaveSetupString="Nastavení propojení bylo úspěšně uloženo."
+; EN: LoadSetupString="Successfully loaded Link Setup."
+LoadSetupString="Nastavení propojení bylo úspěšně načteno."
+; EN: SaveFailedString="You can't overwrite official Link Setups!"
+SaveFailedString="Nemůžete přepsat oficiální nastavení odkazů!"
+; EN: LoadFailedString="Failed to load Link Setup because no setup of that name exists."
+LoadFailedString="Načtení nastavení propojení se nezdařilo, protože neexistuje žádné nastavení s tímto názvem."
+; EN: DeleteSetupString="Successfully deleted Link Setup."
+DeleteSetupString="Nastavení propojení bylo úspěšně smazáno."
+; EN: DeleteOfficialFailedString="You can't delete official Link Setups!"
+DeleteOfficialFailedString="Nemůžete smazat oficiální nastavení odkazů!"
+; EN: DeleteNothingString="Failed to delete Link Setup because no setup of that name exists."
+DeleteNothingString="Nastavení propojení se nepodařilo odstranit, protože neexistuje žádné nastavení s tímto názvem."
+; EN: NoPathToPowerCoreString="Cannot save Link Setup: There must be a complete path between the PowerCores."
+NoPathToPowerCoreString="Nelze uložit nastavení propojení: Mezi PowerCores musí být úplná cesta."
+; EN: LoadFailedNoPathToCoreString="Failed to load Link Setup because it does not have a complete path between the PowerCores."
+LoadFailedNoPathToCoreString="Nepodařilo se načíst nastavení propojení, protože nemá úplnou cestu mezi PowerCores."
+
+[ONSMineAmmo]
+; EN: ItemName="Parasite Mines"
+ItemName="Parazitní doly"
+
+[ONSMineAmmoPickup]
+; EN: PickupMessage="You picked up some parasite mines"
+PickupMessage="Sebral jsi nějaké miny proti parazitům"
+
+[ONSMineLayer]
+; EN: Description="The Spider Mine Layer is used for deploying spider mines, autonomous mobile mines that are highly effective against both foot soldiers and vehicles."
+Description="Vrstva pavoučích min se používá k nasazování pavoučích min, autonomních mobilních min, které jsou vysoce účinné proti pěšákům i vozidlům."
+; EN: ItemName="Mine Layer"
+ItemName="Minová vrstva"
+
+[ONSMineLayerPickup]
+; EN: PickupMessage="You got the Mine Layer."
+PickupMessage="Máte Minovou vrstvu."
+
+[ONSOnslaughtGame]
+; EN: ONSPropsDisplayText[0]="Core Drain in Overtime"
+ONSPropsDisplayText[0]="Core Drain v prodloužení"
+; EN: ONSPropsDisplayText[1]="Random Link Setup After Reset"
+ONSPropsDisplayText[1]="Náhodné nastavení spojení po resetu"
+; EN: ONSPropsDisplayText[2]="Teams Swap Sides After Reset"
+ONSPropsDisplayText[2]="Týmy si po resetu vymění strany"
+; EN: ONSPropDescText[0]="In overtime, PowerCores lose a maximum of this much health every second."
+ONSPropDescText[0]="V přesčas ztratí PowerCores maximálně tolik zdraví každou sekundu."
+; EN: ONSPropDescText[1]="After a reset, a new link setup will be chosen at random."
+ONSPropDescText[1]="Po resetování bude náhodně vybráno nové nastavení propojení."
+; EN: ONSPropDescText[2]="After a reset, teams will switch sides so they are defending the PowerCore they were previously attacking."
+ONSPropDescText[2]="Po resetu si týmy vymění strany, aby bránily PowerCore, na které předtím útočily."
+ONSHints=("If you receive a missile lock warning, try to get out of sight quickly!","The Raptor's missiles will automatically lock onto Mantas and other Raptors.","In the Raptor press %JUMP% to fly higher and %DUCK% to fly lower.","The Manta can rapidly descend to smash your enemies by pressing %DUCK% or %ALTFIRE%.","Press %JUMP% to perform a 180 spin out in the Hellbender or Scorpion.","The Manta is the only vehicle that has the ability to jump.","When deployed, the Leviathan is highly vulnerable to air attacks.","You can heal a friendly vehicle with the link gun alt-fire.","You can heal a friendly PowerNode with the link gun alt-fire.","It is impossible to heal the final PowerCore, so defend it at all costs!","Press %TOGGLERADARMAP% to toggle the radar map on and off.","You can be hurt or killed by vehicles exploding near you.","Enemy Spider Mines can be destroyed, but some weapons are better against them than others.","Pressing %USE% on a PowerNode allows you to teleport to any PowerNode your team controls.","You won't be able to spawn at a PowerNode that is under attack, even if your team controls it.","If you die, any Spider Mines or Grenades you fired will explode.","Press %VOICETALK% to voice chat with your team.","%BASEPATH 0% will show the way to the nearest PowerNode or PowerCore the Red Team can attack, while %BASEPATH 1% will do the same for the Blue Team.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person mode in vehicles.","AVRiL rockets will home into an occupied enemy vehicle as long as you keep your crosshair on it.","When you find a target with the AVRiL, press alt-fire to zoom and lock your view to that target.","The green light on top of the weaponlockers indicates that additional ammo is available at that locker.","Attack PowerNodes that have the enemy team color sky beams above them.","You cannot attack the PowerCore or PowerNodes if there is an energy shield present. Remove the shield by controlling a node that is linked to it.","The Grenade Launcher shoots sticky grenades that attach themselves to vehicles and players. You must detonate them yourself with the alternate fire (press %ALTFIRE%)","The bomber that the Target Painter calls in can be shot down by enemy fire.","In Onslaught, your team earns 2 points for winning before overtime and 1 point for a win during overtime.")
+; EN: GameName="Onslaught"
+GameName="Útok"
+; EN: Description="Your team must take control over PowerNodes in a 'connect the dots' fashion to establish a direct line to the enemy PowerCore. Once you establish a link to the next PowerNode, you can destroy it if controlled by the enemy. Control the PowerNode for your team by touching it to start the build process (Use the linkgun alt-fire to speed things up). Once your team has a link to the enemy PowerCore, attack and destroy it."
+Description="Váš tým musí převzít kontrolu nad PowerNody způsobem „propojte tečky“, aby vytvořil přímou linku k nepřátelskému PowerCore. Jakmile vytvoříte spojení s dalším PowerNode, můžete jej zničit, pokud je ovládán nepřítelem. Ovládejte PowerNode pro svůj tým tak, že se ho dotknete a spustíte proces sestavování (pro urychlení použijte linkgun alt-fire). Jakmile bude mít váš tým spojení s nepřátelským PowerCore, zaútočte na něj a zničte ho."
+
+[ONSOnslaughtMessage]
+; EN: RedTeamDominatesString="Red Team Achieves Victory!"
+RedTeamDominatesString="Červený tým dosáhl vítězství!"
+; EN: BlueTeamDominatesString="Blue Team Achieves Victory!"
+BlueTeamDominatesString="Modrý tým dosáhl vítězství!"
+; EN: RedTeamPowerCoreString="Red Team PowerNode Constructed!"
+RedTeamPowerCoreString="Red Team PowerNode postaven!"
+; EN: BlueTeamPowerCoreString="Blue Team PowerNode Constructed!"
+BlueTeamPowerCoreString="Blue Team PowerNode postaven!"
+; EN: VehicleLockedString="Vehicle is Locked!"
+VehicleLockedString="Vozidlo je uzamčeno!"
+; EN: InvincibleCoreString="You Are Unable To Damage Unlinked PowerNodes!"
+InvincibleCoreString="Nejste schopni poškodit nepropojené PowerNodes!"
+; EN: UnattainableNodeString="You Are Unable To Obtain Unlinked PowerNodes!"
+UnattainableNodeString="Nemůžete získat nepropojené PowerNodes!"
+; EN: RedPowerCoreAttackedString="Red Team PowerCore is under Attack!"
+RedPowerCoreAttackedString="Red Team PowerCore je pod útokem!"
+; EN: BluePowerCoreAttackedString="Blue Team PowerCore is under Attack!"
+BluePowerCoreAttackedString="Blue Team PowerCore je pod útokem!"
+; EN: RedPowerNodeAttackedString="Red Team PowerNode is under Attack!"
+RedPowerNodeAttackedString="Red Team PowerNode je pod útokem!"
+; EN: BluePowerNodeAttackedString="Blue Team PowerNode is under Attack!"
+BluePowerNodeAttackedString="Blue Team PowerNode je pod útokem!"
+; EN: InWayOfVehicleSpawnString="You are in the way of a vehicle spawning!"
+InWayOfVehicleSpawnString="Stojíte v cestě rozmnožování vozidla!"
+; EN: MissileLockOnString="Missile Lock-On!"
+MissileLockOnString="Zajištění rakety!"
+; EN: UnpoweredString="Turret is Unpowered!"
+UnpoweredString="Věž je bez pohonu!"
+; EN: RedPowerCoreDestroyedString="Red PowerCore Destroyed"
+RedPowerCoreDestroyedString="Červené PowerCore Zničeno"
+; EN: BluePowerCoreDestroyedString="Blue PowerCore Destroyed"
+BluePowerCoreDestroyedString="Modré PowerCore Zničeno"
+; EN: RedPowerNodeDestroyedString="Red PowerNode Destroyed"
+RedPowerNodeDestroyedString="Červený PowerNode Zničen"
+; EN: BluePowerNodeDestroyedString="Blue PowerNode Destroyed"
+BluePowerNodeDestroyedString="Modrý PowerNode Zničen"
+; EN: RedPowerCoreCriticalString="Red PowerCore is Critical!"
+RedPowerCoreCriticalString="Červené PowerCore je kritické!"
+; EN: BluePowerCoreCriticalString="Blue PowerCore is Critical!"
+BluePowerCoreCriticalString="Blue PowerCore je kritický!"
+; EN: PressUseToTeleportString="Press Use to teleport to another node"
+PressUseToTeleportString="Stisknutím tlačítka Použít se teleportujete do jiného uzlu"
+; EN: RedPowerCoreVulnerableString="Red PowerCore is Vulnerable!"
+RedPowerCoreVulnerableString="Red PowerCore je zranitelný!"
+; EN: BluePowerCoreVulnerableString="Blue PowerCore is Vulnerable!"
+BluePowerCoreVulnerableString="Blue PowerCore je zranitelný!"
+; EN: RedPowerNodeUnderConstructionString="Red PowerNode under Construction!"
+RedPowerNodeUnderConstructionString="Červený PowerNode ve výstavbě!"
+; EN: BluePowerNodeUnderConstructionString="Blue PowerNode under Construction!"
+BluePowerNodeUnderConstructionString="Modrý PowerNode ve výstavbě!"
+; EN: RedPowerCoreDamagedString="Red PowerCore is at 50%!"
+RedPowerCoreDamagedString="Red PowerCore je na 50 %!"
+; EN: BluePowerCoreDamagedString="Blue PowerCore is at 50%!"
+BluePowerCoreDamagedString="Blue PowerCore je na 50 %!"
+; EN: RedPowerNodeSeveredString="Red PowerNode Isolated!"
+RedPowerNodeSeveredString="Červený PowerNode izolovaný!"
+; EN: BluePowerNodeSeveredString="Blue PowerNode Isolated!"
+BluePowerNodeSeveredString="Modrý PowerNode izolovaný!"
+; EN: PowerCoresAreDrainingString="PowerCores are draining!"
+PowerCoresAreDrainingString="PowerCores se vyčerpávají!"
+; EN: UnhealablePowerCoreString="You can't heal your PowerCore!"
+UnhealablePowerCoreString="Nemůžete vyléčit své PowerCore!"
+; EN: AvrilLockOnString="Incoming Heat-Seeking Missile!"
+AvrilLockOnString="Příchozí střela hledající teplo!"
+; EN: CameraDeploy="Press Alt-Fire to deploy camera!"
+CameraDeploy="Stiskněte Alt-Fire pro nasazení kamery!"
+; EN: MoveReticle="Use Forward and Strafe to Aim Reticle"
+MoveReticle="Použijte Forward a Strafe k zamíření záměrného kříže"
+; EN: SPMAAcquiredString="SPMA Acquired"
+SPMAAcquiredString="Získáno SPMA"
+
+[ONSPRV]
+; EN: VehiclePositionString="in a HellBender"
+VehiclePositionString="v HellBenderu"
+VehicleNameString="HellBender"
+
+[ONSPRVRearGunPawn]
+; EN: VehiclePositionString="in a HellBender's rear turret"
+VehiclePositionString="v zadní věži HellBendera"
+; EN: VehicleNameString="HellBender Rear Turret"
+VehicleNameString="Zadní věž HellBender"
+
+[ONSPRVSideGunPawn]
+; EN: VehiclePositionString="in a HellBender's side turret"
+VehiclePositionString="v postranní věži HellBendera"
+; EN: VehicleNameString="HellBender Side Turret"
+VehicleNameString="Postranní věž HellBender"
+
+[ONSPowerCore]
+ObjectiveStringSuffix=" PowerCore"
+
+[ONSPowerNode]
+; EN: NeutralString="Neutral PowerNode"
+NeutralString="Neutrální PowerNode"
+; EN: ConstructingString=" Constructing PowerNode"
+ConstructingString=" Konstrukce PowerNode"
+ObjectiveStringSuffix=" PowerNode"
+
+[ONSRV]
+; EN: VehiclePositionString="in a Scorpion"
+VehiclePositionString="ve Štíru"
+; EN: VehicleNameString="Scorpion"
+VehicleNameString="Štír"
+
+[ONSStationaryWeaponPawn]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="obsazení věže"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Energetická věžička"
+
+[ONSTankSecondaryTurretPawn]
+; EN: VehiclePositionString="in a Goliath turret"
+VehiclePositionString="ve věži Goliáše"
+; EN: VehicleNameString="Goliath Minigun Turret"
+VehicleNameString="Věž minigunu Goliath"
+
+[ONSVehicleKillMessage]
+KillString[0]="Road Kill!"
+; EN: KillString[1]="Hit and Run!"
+KillString[1]="Udeř a uteč!"
+KillString[2]="Road Rage!"
+; EN: KillString[3]="Vehicular Manslaughter!"
+KillString[3]="Zabití vozidla!"
+; EN: KillString[4]="Pancake!"
+KillString[4]="Lívanec!"
+; EN: KillString[5]="Eagle Eye!"
+KillString[5]="Ostříží zrak!"
+KillString[6]="Top Gun!"
+KillString[7]="Fender Bender!"
+

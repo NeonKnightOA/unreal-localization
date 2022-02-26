@@ -1,0 +1,261 @@
+[ACTION_ASOpenSentinel]
+; EN: ActionString="Awake sentinel"
+ActionString="Wakkere schildwacht"
+
+[ACTION_ASSetPlayerSpawnArea]
+ActionString="ACTION_ASSetPlayerSpawnArea"
+
+[ACTION_ASTeleportToSpawnArea]
+; EN: ActionString="teleport to spawn area"
+ActionString="teleporteren naar spawngebied"
+
+[ACTION_PlayExplosionSound]
+; EN: ActionString="Play explosion sound"
+ActionString="Explosiegeluid afspelen"
+
+[ACTION_PlayerViewShake]
+; EN: ActionString="PlayerViewShake"
+ActionString="SpelerBekijkShake"
+
+[ASGameInfo]
+; EN: ASPropsDisplayText[0]="Pair of Rounds"
+ASPropsDisplayText[0]="Paar ronden"
+; EN: ASPropsDisplayText[1]="Round Time Limit"
+ASPropsDisplayText[1]="Ronde Tijdslimiet"
+; EN: ASPropsDisplayText[2]="Reset Countdown"
+ASPropsDisplayText[2]="Aftellen resetten"
+; EN: ASPropsDisplayText[3]="Reinforcements Time"
+ASPropsDisplayText[3]="Versterkingen Tijd"
+; EN: ASPropsDisplayText[4]="Practice Time"
+ASPropsDisplayText[4]="Oefen tijd"
+; EN: ASPropDescText[0]="Number of pair of rounds (Attack and defense) for this match."
+ASPropDescText[0]="Aantal paar ronden (aanval en verdediging) voor deze wedstrijd."
+; EN: ASPropDescText[1]="Specifies how long each round lasts."
+ASPropDescText[1]="Specificeert hoe lang elke ronde duurt."
+; EN: ASPropDescText[2]="Specifies how much time there is between each round."
+ASPropDescText[2]="Geeft aan hoeveel tijd er tussen elke ronde zit."
+; EN: ASPropDescText[3]="Specifies time between reinforcements spawning."
+ASPropDescText[3]="Specificeert de tijd tussen het spawnen van versterkingen."
+; EN: ASPropDescText[4]="Specifies how much time lasts the online practice round. (In seconds)"
+ASPropDescText[4]="Geeft aan hoe lang de online oefenronde duurt. (In seconden)"
+ASHints=("A waypoint on the HUD indicates the location of an objective.","Be on the look out for HUD warnings and alarm sounds when an objective is in danger.","When a new spawn area has been enabled, Press %SWITCHWEAPON 10% to teleport to it instantly.","Press %BASEPATH 0% or %BASEPATH 1% to highlight the current objective, show a path to it, and slide out the objective list.","Monitor the respawn countdown to know when to expect backups.","Some weapons are better at destroying enemy Spider Mines than others.","You can be hurt or killed by vehicles exploding near you.","You can heal a friendly vehicle with the Link Gun alt-fire.","If you die, any Spider Mines or Grenades you fired will explode.","The green light on top of the weapon lockers indicates that additional ammo is available at that locker.","All turrets can zoom in by pressing %MOVEFORWARD% and zoom out by pressing %MOVEBACKWARD%.","Link turrets have the same properties as the Link Gun.","The Ion Cannon and Ion Plasma Tank, while charging up, indicate their target with a laser beam.","You can switch between remote controlled turrets by pressing %NEXTWEAPON% and %PREVWEAPON%.","In a SpaceFighter, you can cycle through targets by pressing %NEXTWEAPON% and %PREVWEAPON%.","Various trophies can be obtained by destroying a key vehicle (or turret), completing an objective, or successfully attacking.","A trophy is given to the player completing an objective, but the points reward is shared between all contributors.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person view in vehicles.")
+; EN: GameName="Assault"
+GameName="Overval"
+; EN: Description="In each round, one team takes the role of the attacker, while the other team defends, in recreations of famous (or infamous) scenarios. After a pair of rounds, the most successful attacking team scores a point."
+Description="In elke ronde neemt het ene team de rol van aanvaller op zich, terwijl het andere team verdedigt, in het nabootsen van beroemde (of beruchte) scenario's. Na een paar rondes scoort het meest succesvolle aanvallende team een ​​punt."
+
+[ASGameReplicationInfo]
+; EN: ERW_PracticeRoundEndedStr="Practice round over. Get ready!"
+ERW_PracticeRoundEndedStr="Oefen om en om. Maak je klaar!"
+; EN: ERW_RedAttackedStr="Red team successfully attacked!"
+ERW_RedAttackedStr="Rode team succesvol aangevallen!"
+; EN: ERW_BlueAttackedStr="Blue team successfully attacked!"
+ERW_BlueAttackedStr="Blauw team succesvol aangevallen!"
+; EN: ERW_RedDefendedStr="Red team successfully defended!"
+ERW_RedDefendedStr="Rode team succesvol verdedigd!"
+; EN: ERW_BlueDefendedStr="Blue team successfully defended!"
+ERW_BlueDefendedStr="Blauw team succesvol verdedigd!"
+; EN: ERW_RedMoreObjectivesStr="Red team scored (more objectives)."
+ERW_RedMoreObjectivesStr="Rode team scoorde (meer doelstellingen)."
+; EN: ERW_BlueMoreObjectivesStr="Blue team scored (more objectives)."
+ERW_BlueMoreObjectivesStr="Blauw team scoorde (meer doelstellingen)."
+; EN: ERW_RedMoreProgressStr="Red team scored (closer to completion)."
+ERW_RedMoreProgressStr="Rode team scoorde (dichter bij voltooiing)."
+; EN: ERW_BlueMoreProgressStr="Blue team scored (closer to completion)."
+ERW_BlueMoreProgressStr="Blauw team scoorde (dichter bij voltooiing)."
+; EN: ERW_RedGotSameOBJFasterStr="Red team scored (fastest)."
+ERW_RedGotSameOBJFasterStr="Rode team scoorde (snelst)."
+; EN: ERW_BlueGotSameOBJFasterStr="Blue team scored (fastest)."
+ERW_BlueGotSameOBJFasterStr="Blauw team scoorde (snelst)."
+; EN: ERW_DrawStr="Draw game."
+ERW_DrawStr="Tekenspel."
+
+[ASOBJ_EnergyCore_Delivery]
+; EN: ObjectiveName="Energy Core Delivery"
+ObjectiveName="Energiekernlevering"
+
+[ASOBJ_EnergyCore_Spawn]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" liet de Power Core vallen!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Power Core is gevallen!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Powercore opgehaald!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" pakte de Power Core!"
+; EN: PlayerCoreReset="Power Core reset!"
+PlayerCoreReset="Power Core-reset!"
+; EN: ObjectiveName="Energy Core Spawn"
+ObjectiveName="Energiekern spawn"
+
+[ASTurret]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="een torentje bemannen"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Energie torentje"
+
+[ASTurret_Minigun]
+; EN: VehiclePositionString="manning a Minigun Turret"
+VehiclePositionString="een Minigun-torentje bemannen"
+; EN: VehicleNameString="Minigun Turret"
+VehicleNameString="Minigun torentje"
+
+[ASVehicle_Sentinel]
+VehicleNameString="Sentinel"
+
+[ASVehicle_Sentinel_Ceiling]
+; EN: VehicleNameString="Ceiling Sentinel"
+VehicleNameString="Plafond Sentinel"
+
+[ASVehicle_Sentinel_Floor]
+; EN: VehicleNameString="Floor Sentinel"
+VehicleNameString="Verdieping Sentinel"
+
+[ASVehicle_SpaceFighter]
+; EN: Text_Speed="Speed:"
+Text_Speed="Snelheid:"
+
+[Ammo_Dummy]
+ItemName="Dummy"
+
+[DamTypeExploBarrel]
+; EN: DeathString="%k took out %o with a barrel explosion."
+DeathString="%k schakelde %o uit met een vatexplosie."
+; EN: FemaleSuicide="%o was a little too close to the barrel she blew up."
+FemaleSuicide="%o was iets te dicht bij het vat dat ze opblies."
+; EN: MaleSuicide="%o was a little too close to the barrel he blew up."
+MaleSuicide="%o was iets te dicht bij de loop die hij opblies."
+
+[DamTypeMinigunTurretBullet]
+; EN: DeathString="%o was mowed down by %k's minigun turret."
+DeathString="%o werd neergemaaid door %k's minigun-geschutskoepel."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="%o richtte de minigun op zichzelf."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="%o richtte de minigun op zichzelf."
+
+[DamTypeSentinelLaser]
+; EN: DeathString="%o was served an extra helping of %k's lasers."
+DeathString="%o kreeg een extra portie van %k's lasers."
+; EN: FemaleSuicide="%o fried herself with her own laser blast."
+FemaleSuicide="%o heeft zichzelf gebakken met haar eigen laserstraal."
+; EN: MaleSuicide="%o fried himself with his own laser blast."
+MaleSuicide="%o heeft zichzelf gebakken met zijn eigen laserstraal."
+
+[DestroyVehicleObjective]
+; EN: ObjectiveName="Destroy Vehicle Objective"
+ObjectiveName="Doelstelling voertuig vernietigen"
+; EN: ObjectiveDescription="Destroy Objective to disable it."
+ObjectiveDescription="Vernietig Objectief om het uit te schakelen."
+; EN: Objective_Info_Attacker="Destroy Vehicle Objective"
+Objective_Info_Attacker="Doelstelling voertuig vernietigen"
+; EN: Objective_Info_Defender="Protect Vehicle Objective"
+Objective_Info_Defender="Doel van het voertuig beschermen"
+
+[GameObject_EnergyCore]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" liet de Power Core vallen!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Power Core is gevallen!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Powercore opgehaald!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" pakte de Power Core!"
+; EN: PlayerCoreReset="Power Core reset!"
+PlayerCoreReset="Power Core-reset!"
+
+[HUD_Assault]
+IP_Bracket_Open="["
+IP_Bracket_Close="]"
+Cardinal_North="N"
+Cardinal_East="E"
+Cardinal_South="S"
+Cardinal_West="W"
+; EN: NoGameReplicationInfoString="Receiving Server State..."
+NoGameReplicationInfoString="Ontvangende serverstatus..."
+MetersString="m"
+; EN: TargetString="Target:"
+TargetString="Doelwit:"
+; EN: NoTargetString="No Target"
+NoTargetString="Geen doel"
+; EN: PracticeRoundString="Practice Round"
+PracticeRoundString="Oefenronde"
+
+[InfoPod]
+; EN: POD_Message="-= info pod =-"
+POD_Message="-= info-pod =-"
+
+[Message_ASKillMessages]
+; EN: KillString[0]="Top Gun!"
+KillString[0]="Topkanon!"
+; EN: KillString[1]="Wrecker!"
+KillString[1]="sloper!"
+; EN: KillString[2]="Vehicle spawn blocking! 5 secs warning"
+KillString[2]="Voertuig spawn blokkeren! 5 seconden waarschuwing"
+; EN: KillString[3]="Vehicle spawn blocking! 4 secs warning"
+KillString[3]="Voertuig spawn blokkeren! 4 seconden waarschuwing"
+; EN: KillString[4]="Vehicle spawn blocking! 3 secs warning"
+KillString[4]="Voertuig spawn blokkeren! 3 seconden waarschuwing"
+; EN: KillString[5]="Vehicle spawn blocking! 2 secs warning"
+KillString[5]="Voertuig spawn blokkeren! 2 seconden waarschuwing"
+; EN: KillString[6]="Vehicle spawn blocking! 1 sec warning"
+KillString[6]="Voertuig spawn blokkeren! 1 sec waarschuwing"
+; EN: KillString[7]="Leaving battle field!"
+KillString[7]="Het slagveld verlaten!"
+
+[Message_AssaultTeamRole]
+; EN: Message_PostLogin_Attacker="You are Attacking!!"
+Message_PostLogin_Attacker="Je valt aan!!"
+; EN: Message_PostLogin_Defender="You are Defending!!"
+Message_PostLogin_Defender="Je verdedigt!!"
+
+[Message_Awards]
+; EN: Msg[0]="You have completed the Objective!"
+Msg[0]="Je hebt de doelstelling behaald!"
+; EN: Msg[1]="completed the Objective!"
+Msg[1]="de doelstelling behaald!"
+
+[ObjectiveProgressDisplay]
+; EN: HeaderText="Objectives"
+HeaderText="Doelen"
+OptionalObjectivePrefix="*"
+ObjTimesString="x"
+TextCutSuffix="..."
+SpaceSeparator=" "
+PrimaryObjectivePrefix="-"
+
+[ScoreBoard_Assault]
+; EN: RemainingRoundTime="Remaining round time:"
+RemainingRoundTime="Resterende rondetijd:"
+; EN: CurrentRound="Round:"
+CurrentRound="Ronde:"
+RoundSeparator="/"
+; EN: Defender="( Defender )"
+Defender="( verdediger )"
+; EN: Attacker="( Attacker )"
+Attacker="(Aanvaller)"
+; EN: WaitForReinforcements="   You were killed. Reinforcements in"
+WaitForReinforcements="   Je bent vermoord. Versterkingen in"
+; EN: WaitingToSpawnReinforcements="Waiting for reinforcements..."
+WaitingToSpawnReinforcements="Wachten op versterking..."
+; EN: AutoRespawn="Automatically respawning in..."
+AutoRespawn="Automatisch respawnen in..."
+; EN: YouWonRound="You've won the round!"
+YouWonRound="Je hebt de ronde gewonnen!"
+; EN: YouLostRound="You've lost the round."
+YouLostRound="Je hebt de ronde verloren."
+; EN: PracticeRoundOver="Practice round over."
+PracticeRoundOver="Oefen om en om."
+
+[Trigger_ASMessageTrigger]
+; EN: Message="My Message"
+Message="Mijn bericht"
+
+[Weapon_Sentinel]
+; EN: ItemName="Sentinel weapon"
+ItemName="schildwacht wapen"
+
+[Weapon_Turret_Minigun]
+; EN: ItemName="Turret weapon"
+ItemName="torentje wapen"
+

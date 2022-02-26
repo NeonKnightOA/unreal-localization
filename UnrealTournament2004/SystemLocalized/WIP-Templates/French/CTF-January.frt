@@ -1,94 +1,126 @@
 [LevelInfo0]
-Title="January"
+; EN: Title="January"
+Title="janvier"
 
 [LevelSummary]
-Title="January"
-Description="After a somewhat failed renovation attempt, the Liandri Corporation authorized the restructuring and repair of facility 32356.  Nearly 2 years later, the gates are open.  Welcome to facility 32356-a code-named January!"
+; EN: Title="January"
+Title="janvier"
+; EN: Description="After a somewhat failed renovation attempt, the Liandri Corporation authorized the restructuring and repair of facility 32356.  Nearly 2 years later, the gates are open.  Welcome to facility 32356-a code-named January!"
+Description="Après une tentative de rénovation quelque peu ratée, la société Liandri a autorisé la restructuration et la réparation de l'installation 32356. Près de 2 ans plus tard, les portes sont ouvertes. Bienvenue à l'installation 32356-a dont le nom de code est Janvier !"
 
 [ZoneInfo0]
-LocationName="Blue Entrance Hall"
+; EN: LocationName="Blue Entrance Hall"
+LocationName="Hall d'entrée bleu"
 
 [ZoneInfo10]
-LocationName="Blue Pipe Exit"
+; EN: LocationName="Blue Pipe Exit"
+LocationName="Sortie du tuyau bleu"
 
 [ZoneInfo11]
-LocationName="Blue Flag Access"
+; EN: LocationName="Blue Flag Access"
+LocationName="Accès Pavillon Bleu"
 
 [ZoneInfo12]
-LocationName="Red Entrance Hall"
+; EN: LocationName="Red Entrance Hall"
+LocationName="Hall d'entrée rouge"
 
 [ZoneInfo14]
-LocationName="Red Entrance Stairs"
+; EN: LocationName="Red Entrance Stairs"
+LocationName="Escalier d'entrée rouge"
 
 [ZoneInfo15]
-LocationName="Red Foyer"
+; EN: LocationName="Red Foyer"
+LocationName="Foyer Rouge"
 
 [ZoneInfo16]
-LocationName="Blue Flag Base"
+; EN: LocationName="Blue Flag Base"
+LocationName="Base Pavillon Bleu"
 
 [ZoneInfo17]
-LocationName="Blue Upper Flag Base"
+; EN: LocationName="Blue Upper Flag Base"
+LocationName="Base supérieure du drapeau bleu"
 
 [ZoneInfo18]
-LocationName="Red Platform"
+; EN: LocationName="Red Platform"
+LocationName="Plate-forme rouge"
 
 [ZoneInfo19]
-LocationName="Red Doors (Left)"
+; EN: LocationName="Red Doors (Left)"
+LocationName="Portes rouges (gauche)"
 
 [ZoneInfo2]
-LocationName="Blue Platform"
+; EN: LocationName="Blue Platform"
+LocationName="Plateforme Bleue"
 
 [ZoneInfo20]
-LocationName="Red Access Hall"
+; EN: LocationName="Red Access Hall"
+LocationName="Hall d'accès rouge"
 
 [ZoneInfo21]
-LocationName="Red Pipe Exit"
+; EN: LocationName="Red Pipe Exit"
+LocationName="Sortie du tuyau rouge"
 
 [ZoneInfo22]
-LocationName="Red Flag Access"
+; EN: LocationName="Red Flag Access"
+LocationName="Accès Drapeau Rouge"
 
 [ZoneInfo23]
-LocationName="Red Bunker"
+; EN: LocationName="Red Bunker"
+LocationName="Bunker rouge"
 
 [ZoneInfo24]
-LocationName="Red Flag Base"
+; EN: LocationName="Red Flag Base"
+LocationName="Base de drapeau rouge"
 
 [ZoneInfo25]
-LocationName="Red Upper Flag Base"
+; EN: LocationName="Red Upper Flag Base"
+LocationName="Base de drapeau supérieure rouge"
 
 [ZoneInfo26]
-LocationName="Red Junction"
+; EN: LocationName="Red Junction"
+LocationName="Jonction rouge"
 
 [ZoneInfo27]
-LocationName="Blue Entrance Hall"
+; EN: LocationName="Blue Entrance Hall"
+LocationName="Hall d'entrée bleu"
 
 [ZoneInfo29]
-LocationName="Red Upper Flag Base"
+; EN: LocationName="Red Upper Flag Base"
+LocationName="Base de drapeau supérieure rouge"
 
 [ZoneInfo3]
-LocationName="Blue Entrance Stairs"
+; EN: LocationName="Blue Entrance Stairs"
+LocationName="Escalier d'entrée bleu"
 
 [ZoneInfo30]
-LocationName="Red Entrance Hall"
+; EN: LocationName="Red Entrance Hall"
+LocationName="Hall d'entrée rouge"
 
 [ZoneInfo31]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo4]
-LocationName="Blue Foyer"
+; EN: LocationName="Blue Foyer"
+LocationName="Foyer bleu"
 
 [ZoneInfo46]
-LocationName="Blue Bunker"
+; EN: LocationName="Blue Bunker"
+LocationName="Bunker bleu"
 
 [ZoneInfo6]
-LocationName="Blue Junction"
+; EN: LocationName="Blue Junction"
+LocationName="Jonction bleue"
 
 [ZoneInfo7]
-LocationName="Blue Doors (Left)"
+; EN: LocationName="Blue Doors (Left)"
+LocationName="Portes bleues (gauche)"
 
 [ZoneInfo8]
-LocationName="Blue Access Hall"
+; EN: LocationName="Blue Access Hall"
+LocationName="Hall d'accès bleu"
 
 [ZoneInfo9]
-LocationName="Blue Upper Flag Base"
+; EN: LocationName="Blue Upper Flag Base"
+LocationName="Base supérieure du drapeau bleu"
 

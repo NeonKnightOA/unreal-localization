@@ -1,57 +1,76 @@
 [LevelInfo0]
-Title="Inferno"
+; EN: Title="Inferno"
+Title="Enfer"
 
 [LevelSummary]
-Title="Inferno"
+; EN: Title="Inferno"
+Title="Enfer"
 
 [ZoneInfo0]
-LocationName="minigun tower"
+; EN: LocationName="minigun tower"
+LocationName="tour de minigun"
 
 [ZoneInfo1]
-LocationName="burning in hell"
+; EN: LocationName="burning in hell"
+LocationName="brûlant en enfer"
 
 [ZoneInfo10]
-LocationName="shock tower"
+; EN: LocationName="shock tower"
+LocationName="tour de choc"
 
 [ZoneInfo11]
-LocationName="middle tower"
+; EN: LocationName="middle tower"
+LocationName="tour du milieu"
 
 [ZoneInfo12]
-LocationName="shock tower"
+; EN: LocationName="shock tower"
+LocationName="tour de choc"
 
 [ZoneInfo13]
-LocationName="shock tower"
+; EN: LocationName="shock tower"
+LocationName="tour de choc"
 
 [ZoneInfo14]
-LocationName="burning in hell"
+; EN: LocationName="burning in hell"
+LocationName="brûlant en enfer"
 
 [ZoneInfo15]
-LocationName="burning in hell"
+; EN: LocationName="burning in hell"
+LocationName="brûlant en enfer"
 
 [ZoneInfo16]
-LocationName="burning in hell"
+; EN: LocationName="burning in hell"
+LocationName="brûlant en enfer"
 
 [ZoneInfo2]
-LocationName="flak tower"
+; EN: LocationName="flak tower"
+LocationName="tour anti-aérien"
 
 [ZoneInfo3]
-LocationName="middle tower"
+; EN: LocationName="middle tower"
+LocationName="tour du milieu"
 
 [ZoneInfo4]
-LocationName="minigun tower"
+; EN: LocationName="minigun tower"
+LocationName="tour de minigun"
 
 [ZoneInfo5]
-LocationName="minigun tower"
+; EN: LocationName="minigun tower"
+LocationName="tour de minigun"
 
 [ZoneInfo6]
-LocationName="flak tower"
+; EN: LocationName="flak tower"
+LocationName="tour anti-aérien"
 
 [ZoneInfo7]
-LocationName="flak tower"
+; EN: LocationName="flak tower"
+LocationName="tour anti-aérien"
 
 [ZoneInfo8]
-LocationName="middle tower"
+; EN: LocationName="middle tower"
+LocationName="tour du milieu"
 
 [ZoneInfo9]
-LocationName="middle tower"
+; EN: LocationName="middle tower"
+LocationName="tour du milieu"
 

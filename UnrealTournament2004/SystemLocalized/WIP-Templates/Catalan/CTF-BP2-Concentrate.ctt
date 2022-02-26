@@ -1,0 +1,121 @@
+[LevelInfo0]
+; EN: Title="Concentrate"
+Title="Concentrar-se"
+
+[LevelSummary]
+; EN: Title="Concentrate"
+Title="Concentrar-se"
+; EN: Description="On this derelict outpost set deep in the Elorean Seas, there is no escape for the struggling... except through victory.  The only way out is through."
+Description="En aquest lloc avançat abandonat situat a les profunditats del mar d'Elorean, no hi ha escapatòria per als que lluiten... excepte a través de la victòria. L'única sortida és a través."
+
+[PhysicsVolume0]
+; EN: LocationName="Red Spike Pit"
+LocationName="Fossa d'espiga vermella"
+
+[PhysicsVolume1]
+; EN: LocationName="Red Spike Pit"
+LocationName="Fossa d'espiga vermella"
+
+[PhysicsVolume2]
+LocationName="Blue Spike Pit"
+
+[PhysicsVolume3]
+; EN: LocationName="Red Spike Pit"
+LocationName="Fossa d'espiga vermella"
+
+[PhysicsVolume4]
+; EN: LocationName="Red Spike Pit"
+LocationName="Fossa d'espiga vermella"
+
+[PhysicsVolume5]
+; EN: LocationName="Red Spike Pit"
+LocationName="Fossa d'espiga vermella"
+
+[Volume1]
+; EN: LocationName="Blue Flag Pit"
+LocationName="Fossa Bandera Blava"
+
+[Volume10]
+; EN: LocationName="Red Upper Area"
+LocationName="Zona Alta Roja"
+
+[Volume11]
+; EN: LocationName="Red Flag Room"
+LocationName="Sala Bandera Roja"
+
+[Volume12]
+; EN: LocationName="Red Spawn Area"
+LocationName="Zona d'engendrada vermella"
+
+[Volume3]
+; EN: LocationName="Central Area"
+LocationName="Zona Central"
+
+[Volume4]
+; EN: LocationName="Blue Upper Area"
+LocationName="Zona Alta Blava"
+
+[Volume5]
+; EN: LocationName="Blue Upper Area"
+LocationName="Zona Alta Blava"
+
+[Volume6]
+; EN: LocationName="Red Flag Room"
+LocationName="Sala Bandera Roja"
+
+[Volume7]
+; EN: LocationName="Red Flag Pit"
+LocationName="Fossa de Bandera Roja"
+
+[Volume8]
+; EN: LocationName="Red Spawn Area"
+LocationName="Zona d'engendrada vermella"
+
+[Volume9]
+; EN: LocationName="Red Upper Area"
+LocationName="Zona Alta Roja"
+
+[ZoneInfo0]
+; EN: LocationName="Somewhere Else"
+LocationName="Algun altre lloc"
+
+[ZoneInfo1]
+; EN: LocationName="Red Upper Corridor"
+LocationName="Corredor superior vermell"
+
+[ZoneInfo2]
+; EN: LocationName="Red Lower Corridor"
+LocationName="Corredor inferior vermell"
+
+[ZoneInfo3]
+; EN: LocationName="Blue Lower Corridor"
+LocationName="Corredor inferior blau"
+
+[ZoneInfo4]
+; EN: LocationName="Blue Upper Corridor"
+LocationName="Corredor Blau Superior"
+
+[ZoneInfo5]
+; EN: LocationName="Blue Base"
+LocationName="Base blava"
+
+[ZoneInfo6]
+; EN: LocationName="Red Base"
+LocationName="Base vermella"
+
+[fell_nogibs]
+; EN: DeathString="%o was spiked."
+DeathString="%o s'ha incrementat."
+; EN: FemaleSuicide="%o was spiked."
+FemaleSuicide="%o s'ha incrementat."
+; EN: MaleSuicide="%o was spiked."
+MaleSuicide="%o s'ha incrementat."
+
+[fell_nogibs2]
+; EN: DeathString="%o fell off."
+DeathString="%o va caure."
+; EN: FemaleSuicide="%o fell off."
+FemaleSuicide="%o va caure."
+; EN: MaleSuicide="%o fell off."
+MaleSuicide="%o va caure."
+

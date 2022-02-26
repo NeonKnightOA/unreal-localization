@@ -1,0 +1,890 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Avansert",Parent="Avanserte instillinger")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Lyd",Parent="Avanserte instillinger")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Vise",Parent="Avanserte instillinger")
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Redaktør",Parent="Avanserte instillinger")
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Spillinnstillinger",Parent="Avanserte instillinger",Class=Engine.GameInfo,Immediate=True)
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Avanserte instillinger")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Nettverk",Parent="Avanserte instillinger")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Gjengivelse",Parent="Avanserte instillinger")
+; "Advanced" root
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Spillmotorinnstillinger",Parent="Avansert",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Nøkkelaliaser",Parent="Avansert",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Rå nøkkelbindinger",Parent="Avansert",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Drivere",Parent="Avanserte instillinger",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; "Networking" root
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Offentlig serverinformasjon",Parent="Nettverk",Class=Engine.GameReplicationInfo,Immediate=True)
+
+[Errors]
+; EN: NetOpen=Error opening file
+NetOpen=Feil ved åpning av fil
+; EN: NetWrite=Error writing to file
+NetWrite=Feil ved skriving til fil
+; EN: NetRefused=Server refused to send '%s'
+NetRefused=Server nektet å sende «%s»
+; EN: NetClose=Error closing file
+NetClose=Feil ved lukking av fil
+; EN: NetSize=File size mismatch
+NetSize=Filstørrelse samsvarer ikke
+; EN: NetMove=Error moving file
+NetMove=Feil ved flytting av fil
+; EN: NetInvalid=Received invalid file request
+NetInvalid=Mottok ugyldig filforespørsel
+; EN: NoDownload=Package '%s' is not downloadable
+NoDownload=Pakken '%s' kan ikke lastes ned
+; EN: DownloadFailed=Downloading package '%s' failed: %s
+DownloadFailed=Nedlasting av pakken '%s' mislyktes: %s
+; EN: RequestDenied=Server requested file from pending level: Denied
+RequestDenied=Server forespurt fil fra ventende nivå: Avslått
+; EN: ConnectionFailed=Connection failed
+ConnectionFailed=Tilkoblingen mislyktes
+; EN: ChAllocate=Couldn't allocate channel
+ChAllocate=Kunne ikke tildele kanalen
+; EN: NetAlready=Already networking
+NetAlready=Nettverk allerede
+; EN: NetListen=Listen failed: No linker context available
+NetListen=Lytting mislyktes: Ingen linkerkontekst tilgjengelig
+; EN: LoadEntry=Can't load Entry: %s
+LoadEntry=Kan ikke laste inn oppføring: %s
+; EN: InvalidUrl=Invalid URL: %s
+InvalidUrl=Ugyldig URL: %s
+; EN: InvalidLink=Invalid Link: %s
+InvalidLink=Ugyldig kobling: %s
+; EN: FailedBrowse=Failed to enter %s: %s
+FailedBrowse=Kunne ikke legge inn %s: %s
+; EN: Listen=Listen failed: %s
+Listen=Lytting mislyktes: %s
+; EN: AbortToEntry=Failed; returning to Entry
+AbortToEntry=Mislyktes; tilbake til Entry
+; EN: ServerOpen=Servers can't open network URLs
+ServerOpen=Servere kan ikke åpne nettadresser
+; EN: ServerListen=Dedicated server can't listen: %s
+ServerListen=Dedikert server kan ikke lytte: %s
+; EN: Pending=Pending connect to '%s' failed; %s
+Pending=Ventende tilkobling til '%s' mislyktes; %s
+; EN: LoadPlayerClass=Failed to load player class
+LoadPlayerClass=Kunne ikke laste inn spillerklassen
+; EN: ServerOutdated=Server's version is outdated
+ServerOutdated=Serverens versjon er utdatert
+; EN: ClientOutdated=You need to apply the latest patches
+ClientOutdated=Du må bruke de nyeste oppdateringene
+; EN: InvalidCDKey=Your CD key appears to be invalid.  You will need to reinstall the game and enter your CD key to fix this problem.
+InvalidCDKey=CD-nøkkelen ser ut til å være ugyldig. Du må installere spillet på nytt og skrive inn CD-nøkkelen for å fikse dette problemet.
+; EN: ConnectLost=Connection Lost
+ConnectLost=Forbindelse mistet
+; EN: DemoFileMissing=Missing package '%s' for demo playback
+DemoFileMissing=Mangler pakken '%s' for demoavspilling
+; EN: DownloadNotAllowed=Downloading '%s' not allowed
+DownloadNotAllowed=Nedlasting av '%s' er ikke tillatt
+
+[General]
+; EN: Upgrade=To enter this server, you need the latest free update to Unreal available from Epic's Web site:
+Upgrade=For å gå inn på denne serveren trenger du den siste gratis oppdateringen til Unreal tilgjengelig fra Epics nettsted:
+UpgradeURL=http://www.unreal.com/upgrade
+; EN: UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
+UpgradeQuestion=Vil du starte nettleseren og gå til oppgraderingssiden nå?
+; EN: Version=Version %i
+Version=Versjon %i
+
+[KeyNames]
+; EN: Up=UP
+Up=OPP
+; EN: Right=RIGHT
+Right=IKKE SANT
+; EN: Left=LEFT
+Left=VENSTRE
+; EN: Down=DOWN
+Down=NED
+; EN: LeftMouse=LEFT MOUSE
+LeftMouse=VENSTRE MUS
+; EN: RightMouse=RIGHT MOUSE
+RightMouse=HØYRE MUS
+; EN: MiddleMouse=MIDDLE MOUSE
+MiddleMouse=MELLOMUS
+; EN: MouseX=MOUSE X
+MouseX=MUS X
+; EN: MouseY=MOUSE Y
+MouseY=MUS Y
+; EN: MouseZ=MOUSE Z
+MouseZ=MUS Z
+; EN: MouseW=MOUSE W
+MouseW=MUS W
+; EN: JoyX=JOY X
+JoyX=GLEDE X
+; EN: JoyY=JOY Y
+JoyY=GLEDE Y
+; EN: JoyZ=JOY Z
+JoyZ=GLEDE Z
+; EN: JoyU=JOY U
+JoyU=GLEDE U
+; EN: JoyV=JOY V
+JoyV=GLEDE V
+JoySlider1=JOYSLIDER 1
+JoySlider2=JOYSLIDER 2
+; EN: MouseWheelUp=MOUSEWHEEL UP
+MouseWheelUp=MUSHJUL OPP
+; EN: MouseWheelDown=MOUSEWHEEL DOWN
+MouseWheelDown=MUSHJUL NED
+; EN: Joy1=JOY 1
+Joy1=GLEDE 1
+; EN: Joy2=JOY 2
+Joy2=GLEDE 2
+; EN: Joy3=JOY 3
+Joy3=GLEDE 3
+; EN: Joy4=JOY 4
+Joy4=GLEDE 4
+; EN: Joy5=JOY 5
+Joy5=GLEDE 5
+; EN: Joy6=JOY 6
+Joy6=GLEDE 6
+; EN: Joy7=JOY 7
+Joy7=GLEDE 7
+; EN: Joy8=JOY 8
+Joy8=GLEDE 8
+; EN: Joy9=JOY 9
+Joy9=GLEDE 9
+; EN: Joy10=JOY 10
+Joy10=GLEDE 10
+; EN: Joy11=JOY 11
+Joy11=GLEDE 11
+; EN: Joy12=JOY 12
+Joy12=GLEDE 12
+; EN: Joy13=JOY 13
+Joy13=GLEDE 13
+; EN: Joy14=JOY 14
+Joy14=GLEDE 14
+; EN: Joy15=JOY 15
+Joy15=GLEDE 15
+; EN: Joy16=JOY 16
+Joy16=GLEDE 16
+; EN: Space=SPACE
+Space=ROM
+; EN: PageUp=PAGE UP
+PageUp=SIDE OPP
+; EN: PageDown=PAGE DOWN
+PageDown=BLA NED
+; EN: End=END
+End=SLUTT
+; EN: Home=HOME
+Home=HJEM
+; EN: Select=SELECT
+Select=PLUKKE UT
+; EN: Print=PRINT
+Print=SKRIVE UT
+; EN: Execute=EXECUTE
+Execute=HENRETTE
+PrintScrn=PRINTSCRN
+; EN: Insert=INSERT
+Insert=SETT INN
+; EN: Delete=DELETE
+Delete=SLETT
+; EN: Help=HELP
+Help=HJELP
+NumPad0=NUM 0
+NumPad1=NUM 1
+NumPad2=NUM 2
+NumPad3=NUM 3
+NumPad4=NUM 4
+; EN: NumPad5=NUM 5
+NumPad5=NUMMER 5
+NumPad6=NUM 6
+NumPad7=NUM 7
+NumPad8=NUM 8
+NumPad9=NUM 9
+; EN: GreyStar=GREY STAR
+GreyStar=GRÅ STJERNE
+; EN: GreyPlus=GREY PLUS
+GreyPlus=GRÅ PLUSS
+; EN: Separator=SEPARATOR
+Separator=SEPARATØR
+; EN: GreyMinus=GREY MINUS
+GreyMinus=GRÅ MINUS
+NumPadPeriod=NUM .
+; EN: GreySlash=GREY SLASH
+GreySlash=GRÅ SKRIVER
+Pause=PAUSE
+CapsLock=CAPSLOCK
+Tab=TAB
+; EN: Enter=ENTER
+Enter=TAST INN
+; EN: Shift=SHIFT
+Shift=SKIFTE
+NumLock=NUMLOCK
+; EN: Escape=ESCAPE
+Escape=FLUKT
+
+[Progress]
+; EN: CancelledConnect=Cancelled Connect Attempt
+CancelledConnect=Avbrutt tilkoblingsforsøk
+; EN: RunningNet=%s: %s (%i players)
+RunningNet=%s: %s (%i spillere)
+; EN: NetReceiving=Receiving '%s': %i/%i
+NetReceiving=Mottar '%s': %i/%i
+; EN: NetReceiveOk=Successfully received '%s'
+NetReceiveOk=Mottok '%s'
+; EN: NetSend=Sending '%s'
+NetSend=Sender «%s»
+; EN: NetSending=Sending '%s': %i/%i
+NetSending=Sender '%s': %i/%i
+; EN: Connecting=Connecting (F10 to Abort)...
+Connecting=Kobler til (F10 for å avbryte)...
+; EN: Listening=Listening for clients...
+Listening=Lytter etter kunder...
+; EN: Loading=Loading
+Loading=Laster
+; EN: Saving=Saving
+Saving=Lagrer
+; EN: Paused=Paused by %s
+Paused=Pauset av %s
+; EN: ReceiveFile=Receiving '%s' (F10 Cancels)
+ReceiveFile=Mottar '%s' (F10 kansellerer)
+; EN: ReceiveOptionalFile=Receiving optional file '%s' (Press F10 to Skip)
+ReceiveOptionalFile=Mottar valgfri fil '%s' (trykk på F10 for å hoppe over)
+; EN: ReceiveSize=Size %iK, Complete %3.1f%%
+ReceiveSize=Størrelse %iK, fullført %3.1f%%
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="Kobler til (F10 avbryter):"
+ConnectingURL=%s://%s/%s
+; EN: CorruptConnect=Incompatible Game Files!
+CorruptConnect=Inkompatible spillfiler!
+
+[UpgradeDrivers]
+; EN: OutdatedDrivers=You are running old graphics card drivers that might not work in conjunction with the game.
+OutdatedDrivers=Du kjører gamle grafikkortdrivere som kanskje ikke fungerer sammen med spillet.
+; EN: OursOrWeb=Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage
+OursOrWeb=Velg JA for å installere oppdaterte drivere fra vår CD og NEI for å besøke produsentens hjemmeside
+; EN: InsertCD=Please insert your Unreal Tournament CD 3
+InsertCD=Vennligst sett inn din Unreal Tournament CD 3
+NvidiaURL=http://www.nvidia.com/content/drivers/drivers.asp
+AtiURL=http://www.ati.com/support/driver.html
+; EN: CDButton=Upgrade from CD
+CDButton=Oppgrader fra CD
+; EN: WebButton=Upgrade from Web
+WebButton=Oppgrader fra Internett
+; EN: cancelButton=Don't Upgrade
+cancelButton=Ikke oppgrader
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5
+; EN: HelpOneLiner=Manipulate the Master MD5 database
+HelpOneLiner=Manipuler Master MD5-databasen
+; EN: HelpUsage=mastermd5 [-option..] <params>
+HelpUsage=mastermd5 [-alternativ..] &lt;params&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-c
+; EN: HelpDesc[0]=Creates a new MD5 database
+HelpDesc[0]=Oppretter en ny MD5-database
+; EN: HelpParm[1]=-a
+HelpParm[1]=-en
+; EN: HelpDesc[1]=Adds new packages to the database
+HelpDesc[1]=Legger til nye pakker til databasen
+HelpParm[2]=-s
+; EN: HelpDesc[2]=Show the current database.
+HelpDesc[2]=Vis gjeldende database.
+HelpParm[3]=-r
+; EN: HelpDesc[3]=Force the revision of all entries to <param>
+HelpDesc[3]=Tving revisjon av alle oppføringer til &lt;param&gt;
+
+[UModUnpackCommandlet]
+HelpCmd=umodunpack
+; EN: HelpOneLiner=Unpack UMOD files
+HelpOneLiner=Pakk ut UMOD-filer
+; EN: HelpUsage=umodunpack [-option] <filename>
+HelpUsage=umodunpack [-alternativ] &lt;filnavn&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-x
+; EN: HelpDesc[0]=Extract files from <filename>
+HelpDesc[0]=Pakk ut filer fra &lt;filnavn&gt;
+HelpParm[1]=-l
+; EN: HelpDesc[1]=List files in <filename> without extracting.
+HelpDesc[1]=List filer i &lt;filnavn&gt; uten å pakke ut.
+
+[ServerCommandlet]
+HelpCmd=server
+; EN: HelpOneLiner=Network game server
+HelpOneLiner=Nettverksspillserver
+; EN: HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpUsage=server map.unr[?game=gametype] [-alternativ...] [parm=verdi]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=Log
+HelpParm[0]=Logg
+; EN: HelpDesc[0]=Specify the log file to generate
+HelpDesc[0]=Spesifiser loggfilen som skal genereres
+HelpParm[1]=AllAdmin
+; EN: HelpDesc[1]=Give all players admin priveleges
+HelpDesc[1]=Gi alle spillere admin-privilegier
+
+[ExportCacheCommandlet]
+; EN: HelpCmd=exportcache
+HelpCmd=eksportcache
+; EN: HelpOneLIner=Generates cache record entries for the specified packages.
+HelpOneLIner=Genererer cache-postoppføringer for de angitte pakkene.
+; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
+HelpUsage=eksportcache [-a] [-y] [-v] &lt;pakke.ekst&gt; [pakke.ekst...] [destfilnavn.ucl]
+HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
+; EN: HelpParm[0]=-a
+HelpParm[0]=-en
+HelpParm[1]=-y
+HelpParm[2]=-v
+HelpParm[3]=package.ext
+HelpParm[4]=destfilename.ucl
+; EN: HelpDesc[0]=Update matching entries in destfilename.ucl.  Append any new entries.
+HelpDesc[0]=Oppdater samsvarende oppføringer i destfilename.ucl. Legg til eventuelle nye oppføringer.
+; EN: HelpDesc[1]=Automatically answer 'Yes' to any prompts during the operation.
+HelpDesc[1]=Svar "Ja" automatisk på alle spørsmål under operasjonen.
+; EN: HelpDesc[2]=Verbose output (to ucc.log)
+HelpDesc[2]=Utførlig utgang (til ucc.log)
+; EN: HelpDesc[3]=Space delimited list of packages (including extension) that should be exported.  Wildcards are supported.  Paths are not required.
+HelpDesc[3]=Mellomromsdelt liste over pakker (inkludert utvidelse) som bør eksporteres. Jokertegn støttes. Baner er ikke påkrevd.
+; EN: HelpDesc[4]=Destination file for exported entries.  Default filename is the name of the package being exported.  To export multiple packages to a single .ucl file, you must specify a destination filename.
+HelpDesc[4]=Destinasjonsfil for eksporterte oppføringer. Standard filnavn er navnet på pakken som eksporteres. For å eksportere flere pakker til én enkelt .ucl-fil, må du spesifisere et målfilnavn.
+
+[AccessControl]
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="Din IP-adresse har blitt utestengt på denne serveren."
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="Passordet du skrev inn er feil."
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="Du må skrive inn et passord for å bli med i dette spillet."
+; EN: SessionBanned="Your IP address has been banned from the current game session."
+SessionBanned="IP-adressen din har blitt utestengt fra den gjeldende spilløkten."
+; EN: KickedMsg="You have been forcibly removed from the game."
+KickedMsg="Du har blitt fjernet med tvang fra spillet."
+; EN: DefaultKickReason="None specified"
+DefaultKickReason="Ingen spesifisert"
+; EN: IdleKickReason="Kicked for idling."
+IdleKickReason="Sparket for tomgang."
+; EN: ACDisplayText[0]="Game Password"
+ACDisplayText[0]="Spillpassord"
+; EN: ACDisplayText[1]="Access Policies"
+ACDisplayText[1]="Retningslinjer for tilgang"
+; EN: ACDisplayText[2]="Admin Password"
+ACDisplayText[2]="Admin Passord"
+; EN: ACDisplayText[3]="Login Delay"
+ACDisplayText[3]="Påloggingsforsinkelse"
+; EN: ACDescText[0]="If this password is set, players will have to enter it to join this server."
+ACDescText[0]="Hvis dette passordet er angitt, må spillere angi det for å bli med på denne serveren."
+; EN: ACDescText[1]="Specifies IP addresses or address ranges which have been banned."
+ACDescText[1]="Spesifiserer IP-adresser eller adresseområder som har blitt utestengt."
+; EN: ACDescText[2]="Password required to login with administrator privileges on this server."
+ACDescText[2]="Passord kreves for å logge på med administratorrettigheter på denne serveren."
+; EN: ACDescText[3]="Number of seconds user must wait after an unsuccessful login attempt before able to login again."
+ACDescText[3]="Antall sekunder brukeren må vente etter et mislykket påloggingsforsøk før han kan logge på igjen."
+
+[AdminBase]
+; EN: Msg_PlayerList="Player List:"
+Msg_PlayerList="Spillerliste:"
+; EN: Msg_AllGameMaps="Maps that are valid (can be added) to"
+Msg_AllGameMaps="Kart som er gyldige (kan legges til) til"
+; EN: Msg_AllMapLists="Available maplists for %gametype%."
+Msg_AllMapLists="Tilgjengelige kartlister for %gametype%."
+; EN: Msg_MapRotationList="Active maps for maplist %maplist%."
+Msg_MapRotationList="Aktive kart for kartliste %maplist%."
+; EN: Msg_NoMapsAdded="No maps added to the maplist %maplist%."
+Msg_NoMapsAdded="Ingen kart lagt til kartlisten %maplist%."
+; EN: Msg_AddedMapToList="Maps successfully added to maplist"
+Msg_AddedMapToList="Kart ble lagt til kartliste"
+; EN: Msg_NoMapsRemoved="No maps were removed from the maplist %maplist%."
+Msg_NoMapsRemoved="Ingen kart ble fjernet fra kartlisten %maplist%."
+; EN: Msg_RemovedFromList="Maps successfully removed from maplist"
+Msg_RemovedFromList="Kart ble fjernet fra kartlisten"
+; EN: Msg_PlayerBanned="%Player% has been banned from this server"
+Msg_PlayerBanned="%Player% har blitt utestengt fra denne serveren"
+; EN: Msg_SessionBanned="%Player% has been banned for this match"
+Msg_SessionBanned="%Player% har blitt utestengt for denne kampen"
+; EN: Msg_PlayerKicked="%Player% has been kicked"
+Msg_PlayerKicked="%Player% har blitt sparket"
+; EN: Msg_NextMapNotFound="Next map not found; Restarting same map"
+Msg_NextMapNotFound="Neste kart ikke funnet; Starter samme kart på nytt"
+; EN: Msg_ChangingMapTo="Changing Map to %NextMap%"
+Msg_ChangingMapTo="Endre kart til %NextMap%"
+; EN: Msg_NoMapInRotation="No maps configured for %maplist%."
+Msg_NoMapInRotation="Ingen kart konfigurert for %maplist%."
+; EN: Msg_NoMapsFound="No matching maps in maplist %maplist% were found."
+Msg_NoMapsFound="Ingen samsvarende kart i kartlisten %maplist% ble funnet."
+; EN: Msg_MapIsInRotation="Matching %maplist% maps"
+Msg_MapIsInRotation="Matchende %maplist% kart"
+; EN: Msg_MapNotInRotation="Matching maps which are not members of %maplist%."
+Msg_MapNotInRotation="Matchende kart som ikke er medlemmer av %maplist%."
+; EN: Msg_UnknownParam="Unknown Parameter : %Value%"
+Msg_UnknownParam="Ukjent parameter: %Value%"
+; EN: Msg_NoParamsFound="No Parameters found!"
+Msg_NoParamsFound="Ingen parametere funnet!"
+; EN: Msg_ParamModified="Modification Successful"
+Msg_ParamModified="Endring vellykket"
+; EN: Msg_ParamNotModified="Could not Modify Parameter"
+Msg_ParamNotModified="Kunne ikke endre parameter"
+; EN: Msg_MapListAdded="Maplist %listname% successfully added for gametype"
+Msg_MapListAdded="Kartliste %listname% ble lagt til for spilltype"
+; EN: Msg_MapListRemoved="Maplist %listname% successfully removed from gametype"
+Msg_MapListRemoved="Kartlisten %listname% ble fjernet fra spilltypen"
+; EN: Msg_EditingMapList="Now editing maplist"
+Msg_EditingMapList="Redigerer nå kartliste"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo."
+PickupMessage="Du hentet ammunisjon."
+
+[BroadcastHandler]
+; EN: BHDisplayText[0]="Mute Spectators"
+BHDisplayText[0]="Dempe tilskuere"
+; EN: BHDisplayText[1]="Partition Spectators"
+BHDisplayText[1]="Partisjon tilskuere"
+; EN: BHDescText[0]="Check this option to prevent spectators from chatting during the game."
+BHDescText[0]="Kryss av for dette alternativet for å hindre tilskuere i å chatte under kampen."
+; EN: BHDescText[1]="Check this option to separate spectator chat from player chat."
+BHDescText[1]="Merk av for dette alternativet for å skille tilskuerchatten fra spillerchatten."
+
+[Canvas]
+TinyFontName="UT2003Fonts.FontMono"
+SmallFontName="UT2003Fonts.FontMono"
+MedFontName="UT2003Fonts.FontMono800x600"
+
+[ChatRoomMessage]
+; EN: AnonText="Someone"
+AnonText="Noen"
+; EN: ChatRoomString[0]="Invalid channel or channel couldn't be found: '%title%'"
+ChatRoomString[0]="Ugyldig kanal eller kanal ble ikke funnet: '%title%'"
+; EN: ChatRoomString[1]="Already a member of channel '%title%'"
+ChatRoomString[1]="Allerede medlem av kanalen '%title%'"
+; EN: ChatRoomString[2]="Channel '%title%' requires a password!"
+ChatRoomString[2]="Kanal '%title%' krever et passord!"
+; EN: ChatRoomString[3]="Incorrect password specified for channel '%title%'"
+ChatRoomString[3]="Feil passord angitt for kanalen '%title%'"
+; EN: ChatRoomString[4]="You have been banned from channel '%title%'"
+ChatRoomString[4]="Du har blitt utestengt fra kanalen '%title%'"
+; EN: ChatRoomString[5]="Couldn't join channel '%title%'.  Channel full!"
+ChatRoomString[5]="Kunne ikke bli med i kanalen '%title%'. Kanalen er full!"
+; EN: ChatRoomString[6]="You are not allowed to join channel '%title%'"
+ChatRoomString[6]="Du har ikke lov til å bli med i kanalen '%title%'"
+; EN: ChatRoomString[7]="Successfully joined channel '%title%'"
+ChatRoomString[7]="Ble med på kanalen '%title%'"
+; EN: ChatRoomString[8]="You left channel '%title%'"
+ChatRoomString[8]="Du forlot kanalen «%title%»"
+; EN: ChatRoomString[9]="Now speaking on channel '%title%'"
+ChatRoomString[9]="Snakker nå på kanalen '%title%'"
+; EN: ChatRoomString[10]="No longer speaking on channel '%title%'"
+ChatRoomString[10]="Snakker ikke lenger på kanalen '%title%'"
+; EN: ChatRoomString[11]="'%pri%' joined channel '%title%'"
+ChatRoomString[11]="'%pri%' ble med i kanalen '%title%'"
+; EN: ChatRoomString[12]="'%pri%' left channel '%title%'"
+ChatRoomString[12]="'%pri%' venstre kanal '%title%'"
+; EN: ChatRoomString[13]="Successfully banned '%pri%' from your personal chat channel"
+ChatRoomString[13]="Vellykket utestengt «%pri%» fra din personlige chattekanal"
+; EN: ChatRoomString[14]="Voice-chat ban action not successful.  No player with the specified ID was found"
+ChatRoomString[14]="Utelukkelse av talechat mislyktes. Ingen spiller med spesifisert ID ble funnet"
+; EN: ChatRoomString[15]="Voice chat is not enabled on this server"
+ChatRoomString[15]="Talechat er ikke aktivert på denne serveren"
+
+[Crushed]
+; EN: DeathString="%o was crushed by %k."
+DeathString="%o ble knust av %k."
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="%o ble knust."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="%o ble knust."
+
+[DamRanOver]
+; EN: DeathString="%k ran over %o"
+DeathString="%k løp over %o"
+; EN: FemaleSuicide="%o ran over herself"
+FemaleSuicide="%o kjørte over seg selv"
+; EN: MaleSuicide="%o ran over himself"
+MaleSuicide="%o kjørte over seg selv"
+
+[DamTypeTelefragged]
+; EN: DeathString="%o was telefragged by %k"
+DeathString="%o ble telefragget av %k"
+; EN: FemaleSuicide="%o was telefragged by %k"
+FemaleSuicide="%o ble telefragget av %k"
+; EN: MaleSuicide="%o was telefragged by %k"
+MaleSuicide="%o ble telefragget av %k"
+
+[DamageType]
+; EN: DeathString="%o was killed by %k."
+DeathString="%o ble drept av %k."
+; EN: FemaleSuicide="%o killed herself."
+FemaleSuicide="%o tok livet av seg."
+; EN: MaleSuicide="%o killed himself."
+MaleSuicide="%o tok livet av seg."
+
+[FailedConnect]
+; EN: FailMessage[0]="FAILED TO JOIN GAME.  NEED PASSWORD."
+FailMessage[0]="KUNNE IKKE BLI MED I SPILLET. TRENGER PASSORD."
+; EN: FailMessage[1]="FAILED TO JOIN GAME.  WRONG PASSWORD."
+FailMessage[1]="KUNNE IKKE BLI MED I SPILLET. FEIL PASSORD."
+; EN: FailMessage[2]="FAILED TO JOIN GAME.  GAME HAS STARTED."
+FailMessage[2]="KUNNE IKKE BLI MED I SPILLET. SPILLET HAR STARTET."
+; EN: FailMessage[3]="FAILED TO JOIN GAME."
+FailMessage[3]="KUNNE IKKE BLI MED I SPILLET."
+
+[FellLava]
+; EN: DeathString="%k made %o take a deadly swim."
+DeathString="%k fikk %o til å ta en dødelig svømmetur."
+; EN: FemaleSuicide="%o crashed and burned"
+FemaleSuicide="%o krasjet og brant"
+; EN: MaleSuicide="%o crashed and burned"
+MaleSuicide="%o krasjet og brant"
+
+[GameInfo]
+; EN: bAlternateMode=False
+bAlternateMode=Falsk
+; EN: GoreLevelText[0]="No Gore"
+GoreLevelText[0]="Nei Gore"
+; EN: GoreLevelText[1]="Reduced Gore"
+GoreLevelText[1]="Redusert Gore"
+GoreLevelText[2]="Full Gore"
+; EN: DefaultPlayerName="Player"
+DefaultPlayerName="Spiller"
+; EN: GameName="Game"
+GameName="Spill"
+; EN: GIPropsDisplayText[0]="Bot Skill"
+GIPropsDisplayText[0]="Botferdighet"
+; EN: GIPropsDisplayText[1]="Weapons Stay"
+GIPropsDisplayText[1]="Våpenopphold"
+; EN: GIPropsDisplayText[2]="Reduce Gore Level"
+GIPropsDisplayText[2]="Reduser Gore Level"
+; EN: GIPropsDisplayText[3]="Game Speed"
+GIPropsDisplayText[3]="Spillhastighet"
+; EN: GIPropsDisplayText[4]="Max Spectators"
+GIPropsDisplayText[4]="Max tilskuere"
+; EN: GIPropsDisplayText[5]="Max Players"
+GIPropsDisplayText[5]="Maks spillere"
+; EN: GIPropsDisplayText[6]="Goal Score"
+GIPropsDisplayText[6]="Målscore"
+; EN: GIPropsDisplayText[7]="Max Lives"
+GIPropsDisplayText[7]="Max lever"
+; EN: GIPropsDisplayText[8]="Time Limit"
+GIPropsDisplayText[8]="Tidsbegrensning"
+; EN: GIPropsDisplayText[9]="World Stats Logging"
+GIPropsDisplayText[9]="Logging av verdensstatistikk"
+; EN: GIPropsDisplayText[10]="Allow Weapon Throwing"
+GIPropsDisplayText[10]="Tillat våpenkasting"
+; EN: GIPropsDisplayText[11]="Allow Behind View"
+GIPropsDisplayText[11]="Tillat bak visning"
+; EN: GIPropsDisplayText[12]="Allow Admin Pausing"
+GIPropsDisplayText[12]="Tillat administrator pause"
+GIPropsDisplayText[13]="Kick Idlers Time"
+; EN: GIPropsDisplayText[14]="Weapons shake view"
+GIPropsDisplayText[14]="Våpen rister utsikten"
+; EN: GIPropDescText[0]="Set the skill of your bot opponents."
+GIPropDescText[0]="Angi ferdighetene til botmotstanderne dine."
+; EN: GIPropDescText[1]="When enabled, weapons will always be available for pickup."
+GIPropDescText[1]="Når aktivert, vil våpen alltid være tilgjengelig for henting."
+; EN: GIPropDescText[2]="Enable this option to reduce the amount of blood and guts you see."
+GIPropDescText[2]="Aktiver dette alternativet for å redusere mengden blod og tarm du ser."
+; EN: GIPropDescText[3]="Controls how fast time passes in the game."
+GIPropDescText[3]="Styrer hvor fort tiden går i spillet."
+; EN: GIPropDescText[4]="Sets the maximum number of spectators that can watch the game."
+GIPropDescText[4]="Angir maksimalt antall tilskuere som kan se kampen."
+; EN: GIPropDescText[5]="Sets the maximum number of players that can join this server."
+GIPropDescText[5]="Angir maksimalt antall spillere som kan bli med på denne serveren."
+; EN: GIPropDescText[6]="The game ends when someone reaches this score."
+GIPropDescText[6]="Spillet avsluttes når noen når denne poengsummen."
+; EN: GIPropDescText[7]="Limits how many times players can respawn after dying."
+GIPropDescText[7]="Begrenser hvor mange ganger spillere kan gjenopplive etter å ha dø."
+; EN: GIPropDescText[8]="The game ends after this many minutes of play."
+GIPropDescText[8]="Spillet avsluttes etter så mange minutters spill."
+; EN: GIPropDescText[9]="Enable this option to send game statistics to the UT2004 global stats server"
+GIPropDescText[9]="Aktiver dette alternativet for å sende spillstatistikk til UT2004 globale statistikkserver"
+; EN: GIPropDescText[10]="When enabled, players can throw their current weapon out."
+GIPropDescText[10]="Når den er aktivert, kan spillere kaste ut sitt nåværende våpen."
+; EN: GIPropDescText[11]="Controls whether players can switch to a third person view."
+GIPropDescText[11]="Kontrollerer om spillere kan bytte til en tredjepersonsvisning."
+; EN: GIPropDescText[12]="Controls whether administrators can pause the game."
+GIPropDescText[12]="Kontrollerer om administratorer kan sette spillet på pause."
+; EN: GIPropDescText[13]="Specifies how long to wait before kicking idle player from server."
+GIPropDescText[13]="Spesifiserer hvor lenge det skal ventes før inaktiv spiller sparkes fra serveren."
+; EN: GIPropDescText[14]="When enabled, some weapons cause view shaking while firing."
+GIPropDescText[14]="Når de er aktivert, forårsaker noen våpen visningsristing mens de skyter."
+; EN: GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
+GIPropsExtras[0]="0,000000;Novice;1,000000;Gjennomsnitt;2.000000;Erfaren;3.000000;Faglært;4.000000;Adept;5.000000;Mestrelig;6.000000;Umenneskelig;00.000000"
+; EN: NoBindString="[None]"
+NoBindString="[Ingen]"
+
+[GameMessage]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="Bytte nivåer"
+; EN: LeftMessage=" left the game."
+LeftMessage=" forlot spillet."
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="Kunne ikke finne lag for spiller"
+; EN: FailedPlaceMessage="Could not find a starting spot"
+FailedPlaceMessage="Fant ikke et startsted"
+; EN: FailedSpawnMessage="Could not spawn player"
+FailedSpawnMessage="Kunne ikke spawn spilleren"
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" kom inn i spillet."
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="Serveren har allerede kapasitet."
+; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
+OvertimeMessage="Poengsummen uavgjort på slutten av reguleringen. Sudden Death Overtid!!!"
+; EN: GlobalNameChange="changed name to"
+GlobalNameChange="endret navn til"
+; EN: NewTeamMessage="is now on"
+NewTeamMessage="er nå på"
+; EN: NoNameChange="Name is already in use."
+NoNameChange="Navnet er allerede i bruk."
+; EN: VoteStarted="started a vote."
+VoteStarted="startet en avstemning."
+; EN: VotePassed="Vote passed."
+VotePassed="Stemme vedtatt."
+; EN: MustHaveStats="Must have stats enabled to join this server."
+MustHaveStats="Må ha statistikk aktivert for å bli med på denne serveren."
+; EN: CantBeSpectator="Sorry, you cannot become a spectator at this time."
+CantBeSpectator="Beklager, du kan ikke bli tilskuer akkurat nå."
+; EN: CantBePlayer="Sorry, you cannot become an active player at this time."
+CantBePlayer="Beklager, du kan ikke bli en aktiv spiller for øyeblikket."
+; EN: BecameSpectator="became a spectator."
+BecameSpectator="ble tilskuer."
+; EN: NewPlayerMessage="A new player entered the game."
+NewPlayerMessage="En ny spiller kom inn i spillet."
+; EN: KickWarning="You are about to be kicked for idling!"
+KickWarning="Du er i ferd med å bli sparket for tomgangskjøring!"
+; EN: NewSpecMessage="A spectator entered the game/"
+NewSpecMessage="En tilskuer kom inn i kampen/"
+; EN: SpecEnteredMessage=" joined as a spectator."
+SpecEnteredMessage=" ble med som tilskuer."
+
+[GameProfile]
+; EN: PositionName[0]="AUTO-ASSIGN"
+PositionName[0]="AUTO-TILDELING"
+; EN: PositionName[1]="DEFENSE"
+PositionName[1]="FORSVAR"
+; EN: PositionName[2]="OFFENSE"
+PositionName[2]="FORNÆRMELSE"
+; EN: PositionName[3]="ROAM"
+PositionName[3]="STREIFE"
+; EN: PositionName[4]="SUPPORT"
+PositionName[4]="BRUKERSTØTTE"
+
+[GameReplicationInfo]
+; EN: GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[0]="Server navn"
+; EN: GRIPropsDisplayText[1]="Admin Name"
+GRIPropsDisplayText[1]="Administratornavn"
+; EN: GRIPropsDisplayText[2]="Admin E-Mail"
+GRIPropsDisplayText[2]="Admin e-post"
+GRIPropsDisplayText[3]="MOTD"
+; EN: GRIPropDescText[0]="Server name shown on server browser."
+GRIPropDescText[0]="Servernavnet vises på servernettleseren."
+; EN: GRIPropDescText[1]="Server administrator's name"
+GRIPropDescText[1]="Serveradministratorens navn"
+; EN: GRIPropDescText[2]="Server administrator's email address."
+GRIPropDescText[2]="Serveradministrators e-postadresse."
+; EN: GRIPropDescText[3]="Message of the Day"
+GRIPropDescText[3]="Dagens budskap"
+
+[Gibbed]
+; EN: DeathString="%o exploded in a shower of body parts"
+DeathString="%o eksploderte i en dusj av kroppsdeler"
+; EN: FemaleSuicide="%o exploded in a shower of body parts"
+FemaleSuicide="%o eksploderte i en dusj av kroppsdeler"
+; EN: MaleSuicide="%o exploded in a shower of body parts"
+MaleSuicide="%o eksploderte i en dusj av kroppsdeler"
+
+[HUD]
+ProgressFontName="UT2003Fonts.FontEurostile12"
+FontArrayNames[0]="Engine.DefaultFont"
+FontArrayNames[1]="Engine.DefaultFont"
+FontArrayNames[2]="Engine.DefaultFont"
+FontArrayNames[3]="Engine.DefaultFont"
+FontArrayNames[4]="Engine.DefaultFont"
+FontArrayNames[5]="Engine.DefaultFont"
+FontArrayNames[6]="Engine.DefaultFont"
+FontArrayNames[7]="Engine.DefaultFont"
+FontArrayNames[8]="Engine.DefaultFont"
+
+[Info]
+; EN: RulesGroup="Rules"
+RulesGroup="Regler"
+; EN: GameGroup="Game"
+GameGroup="Spill"
+ServerGroup="Server"
+ChatGroup="Chat"
+BotsGroup="Bots"
+; EN: MapVoteGroup="Map Voting"
+MapVoteGroup="Kartavstemning"
+; EN: KickVoteGroup="Kick Voting"
+KickVoteGroup="Kick-avstemning"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Uten navn"
+
+[MaplistManager]
+; EN: DefaultListName="Default"
+DefaultListName="Misligholde"
+; EN: InvalidGameType="could not be loaded.  Normally, this means an .u file has been deleted, but the .int file has not."
+InvalidGameType="kunne ikke lastes. Normalt betyr dette at en .u-fil er slettet, men at .int-filen ikke har blitt slettet."
+; EN: ReallyInvalidGameType="The requested gametype '%gametype%' could not be loaded."
+ReallyInvalidGameType="Den forespurte spilltypen '%gametype%' kunne ikke lastes."
+; EN: DefaultListExists="Gametype already has a default list!"
+DefaultListExists="Gametype har allerede en standardliste!"
+
+[MatSubAction]
+Desc="N/A"
+
+[Pickup]
+; EN: PickupMessage="Snagged an item."
+PickupMessage="Fanget en gjenstand."
+
+[PlayerController]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Rask lagring"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Spillet kan ikke settes på pause"
+; EN: ViewingFrom="Now viewing from"
+ViewingFrom="Ser nå fra"
+; EN: OwnCamera="Now viewing from own camera"
+OwnCamera="Ser nå fra eget kamera"
+
+[PlayerReplicationInfo]
+; EN: StringDead="Dead"
+StringDead="Død"
+; EN: StringSpectating="Spectating"
+StringSpectating="Tilskuer"
+; EN: StringUnknown="Unknown"
+StringUnknown="Ukjent"
+
+[StreamPlaylistManager]
+; EN: DefaultPlaylistName="New Playlist"
+DefaultPlaylistName="Ny spilleliste"
+
+[SubActionCameraEffect]
+; EN: Desc="Camera effect"
+Desc="Kameraeffekt"
+
+[SubActionCameraShake]
+; EN: Desc="Shake"
+Desc="Riste"
+
+[SubActionFOV]
+Desc="FOV"
+
+[SubActionFade]
+; EN: Desc="Fade"
+Desc="Falme"
+
+[SubActionGameSpeed]
+; EN: Desc="Game Speed"
+Desc="Spillhastighet"
+
+[SubActionOrientation]
+; EN: Desc="Orientation"
+Desc="Orientering"
+
+[SubActionSceneSpeed]
+; EN: Desc="Scene Speed"
+Desc="Scenehastighet"
+
+[SubActionSubTitle]
+; EN: Desc="SubTitle"
+Desc="Undertittel"
+
+[SubActionTrigger]
+; EN: Desc="Trigger"
+Desc="Avtrekker"
+
+[Suicided]
+; EN: DeathString="%o had an aneurysm."
+DeathString="%o hadde en aneurisme."
+; EN: FemaleSuicide="%o had an aneurysm."
+FemaleSuicide="%o hadde en aneurisme."
+; EN: MaleSuicide="%o had an aneurysm."
+MaleSuicide="%o hadde en aneurisme."
+
+[TeamInfo]
+TeamName="Team"
+; EN: ColorNames[0]="Red"
+ColorNames[0]="rød"
+; EN: ColorNames[1]="Blue"
+ColorNames[1]="Blå"
+; EN: ColorNames[2]="Green"
+ColorNames[2]="Grønn"
+; EN: ColorNames[3]="Gold"
+ColorNames[3]="Gull"
+
+[Vehicle]
+; EN: VehiclePositionString="in a vehicle"
+VehiclePositionString="i et kjøretøy"
+; EN: VehicleNameString="Vehicle"
+VehicleNameString="Kjøretøy"
+
+[VoiceChatReplicationInfo]
+PublicChannelNames=("Public","Local")
+; EN: VCDisplayText[0]="Enable Voice Chat"
+VCDisplayText[0]="Aktiver talechat"
+; EN: VCDisplayText[1]="Enable local Channel"
+VCDisplayText[1]="Aktiver lokal kanal"
+; EN: VCDisplayText[2]="Local Chat Range"
+VCDisplayText[2]="Lokalt chatteområde"
+; EN: VCDisplayText[3]="Local Chat Radius"
+VCDisplayText[3]="Lokal chatradius"
+; EN: VCDisplayText[4]="Allowed VoIP Codecs"
+VCDisplayText[4]="Tillatt VoIP-kodeker"
+; EN: VCDisplayText[5]="Allowed VoIP LAN Codecs"
+VCDisplayText[5]="Tillatt VoIP LAN-kodeker"
+; EN: VCDescText[0]="Enable voice chat on the server."
+VCDescText[0]="Aktiver talechat på serveren."
+; EN: VCDescText[1]="Determines whether the "local" voice chat channel is created, which allows players to broadcast voice transmissions to all players in the immediate vicinity."
+VCDescText[1]="Bestemmer om den "lokale" talechatkanalen opprettes, som lar spillere kringkaste taleoverføringer til alle spillere i umiddelbar nærhet."
+; EN: VCDescText[2]="Maximum distance at which a broadcast on the local channel may be heard"
+VCDescText[2]="Maksimal avstand som en sending på den lokale kanalen kan høres på"
+; EN: VCDescText[3]="Distance at which local broadcasts begin to fade"
+VCDescText[3]="Avstand der lokale sendinger begynner å falme"
+; EN: VCDescText[4]="Configure which codecs exist on the server and should be used in Internet games."
+VCDescText[4]="Konfigurer hvilke kodeker som finnes på serveren og som skal brukes i Internett-spill."
+; EN: VCDescText[5]="Configure which codecs exist on the server and should be used in LAN games."
+VCDescText[5]="Konfigurer hvilke kodeker som finnes på serveren og som skal brukes i LAN-spill."
+; EN: InstalledCodec=((CodecName="Less Bandwidth",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Better Quality",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+InstalledCodec=((CodecName="Mindre båndbredde",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Bedre kvalitet",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+
+[Volume]
+; EN: LocationName="unspecified"
+LocationName="uspesifisert"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo"
+MessageNoAmmo=" har ikke ammunisjon"
+
+[WeaponPickup]
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Du har et våpen"
+
+[XBoxPlayerInput]
+; EN: LookPresets[0].PresetName="Linear"
+LookPresets[0].PresetName="Lineær"
+; EN: LookPresets[1].PresetName="Exponential"
+LookPresets[1].PresetName="Eksponentiell"
+LookPresets[2].PresetName="Hybrid"
+; EN: LookPresets[3].PresetName="Custom"
+LookPresets[3].PresetName="Tilpasset"
+
+[fell]
+; EN: DeathString="%k pushed %o over the edge."
+DeathString="%k dyttet %o over kanten."
+; EN: FemaleSuicide="%o left a small crater"
+FemaleSuicide="%o forlot et lite krater"
+; EN: MaleSuicide="%o left a small crater"
+MaleSuicide="%o forlot et lite krater"
+

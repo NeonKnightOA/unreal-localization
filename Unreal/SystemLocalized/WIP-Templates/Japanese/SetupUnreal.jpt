@@ -1,0 +1,71 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal"
+LocalProduct="非現実的"
+; EN: DefaultFolder="C:\Unreal"
+DefaultFolder="C：\ Unreal"
+; EN: ReadMe="Help\ReadMe.htm"
+ReadMe="Help \ ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="非現実的なセットアップ"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="非現実的なオプション"
+ProductURL="http://www.unreal.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games、Inc.-227 by Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\SetupLogo.bmp"
+Logo="Help \ SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="＆この非現実的なレベルを再生する"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="＆この非現実的なリンクを開く"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="＆このUnrealモジュールをインストールします"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="＆この非現実的なレベルを編集する"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="ゲームコンテンツ"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="非現実的なゲームコンテンツ。最高のパフォーマンスを得るには、これをインストールしてください。選択を解除すると、ゲームコンテンツは再生中にCDから読み込まれ、パフォーマンスが低下しますが、使用するハードディスク容量は少なくなります。"
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="UnrealGame"
+; EN: Description="Unreal game. Installation is required."
+Description="非現実的なゲーム。インストールが必要です。"
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="グラフィック、サウンド、およびジョイスティックのサポートを強化するためのオプションのMicrosoft DirectX8ドライバー。"
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="非現実的な編集者"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="独自の3D非現実環境を作成するための非現実世界エディタ。上級ユーザー向け。インストールはオプションです。"
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Unrealを再生する"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="非現実的なセーフモード"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="非現実的な編集者"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="ドキュメンテーション"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="非現実的なWebページ"

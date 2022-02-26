@@ -1,67 +1,89 @@
 [LevelInfo0]
-Title="Corrugation"
+; EN: Title="Corrugation"
+Title="Ondulation"
 
 [LevelSummary]
-Title="Corrugation"
-Description="After many years of Tournament battles, this arena is slowly being eaten away by successive rocket and shock rifle blasts. Add your contribution to its destruction."
+; EN: Title="Corrugation"
+Title="Ondulation"
+; EN: Description="After many years of Tournament battles, this arena is slowly being eaten away by successive rocket and shock rifle blasts. Add your contribution to its destruction."
+Description="Après de nombreuses années de batailles de tournoi, cette arène est lentement rongée par les explosions successives de roquettes et de fusils à choc. Ajoutez votre contribution à sa destruction."
 
 [ZoneInfo1]
-LocationName="Furnace Area"
+; EN: LocationName="Furnace Area"
+LocationName="Zone du four"
 
 [ZoneInfo10]
-LocationName="West Area"
+; EN: LocationName="West Area"
+LocationName="Zone Ouest"
 
 [ZoneInfo11]
-LocationName="Sewer Entrance"
+; EN: LocationName="Sewer Entrance"
+LocationName="Entrée d'égout"
 
 [ZoneInfo12]
-LocationName="East Sewer Area"
+; EN: LocationName="East Sewer Area"
+LocationName="Zone d'égout est"
 
 [ZoneInfo13]
-LocationName="South Area"
+; EN: LocationName="South Area"
+LocationName="Zone Sud"
 
 [ZoneInfo14]
-LocationName="East Sewer Area"
+; EN: LocationName="East Sewer Area"
+LocationName="Zone d'égout est"
 
 [ZoneInfo15]
 LocationName="Atrium"
 
 [ZoneInfo16]
-LocationName="Furnace Area"
+; EN: LocationName="Furnace Area"
+LocationName="Zone du four"
 
 [ZoneInfo17]
-LocationName="North Stairway"
+; EN: LocationName="North Stairway"
+LocationName="Escalier Nord"
 
 [ZoneInfo18]
-LocationName="East Corridor"
+; EN: LocationName="East Corridor"
+LocationName="Couloir Est"
 
 [ZoneInfo19]
-LocationName="East Area"
+; EN: LocationName="East Area"
+LocationName="Zone Est"
 
 [ZoneInfo2]
-LocationName="Central Sewer"
+; EN: LocationName="Central Sewer"
+LocationName="Égout central"
 
 [ZoneInfo20]
-LocationName="South Sewer Area"
+; EN: LocationName="South Sewer Area"
+LocationName="Zone d'égout sud"
 
 [ZoneInfo3]
-LocationName="West Elevator Shaft"
+; EN: LocationName="West Elevator Shaft"
+LocationName="Cage d'ascenseur ouest"
 
 [ZoneInfo4]
-LocationName="South East Sewer"
+; EN: LocationName="South East Sewer"
+LocationName="Égout sud-est"
 
 [ZoneInfo5]
-LocationName="East Curved Corridor"
+; EN: LocationName="East Curved Corridor"
+LocationName="Couloir courbe est"
 
 [ZoneInfo6]
-LocationName="East Area"
+; EN: LocationName="East Area"
+LocationName="Zone Est"
 
 [ZoneInfo7]
-LocationName="Central Area"
+; EN: LocationName="Central Area"
+LocationName="Zone centrale"
 
 [ZoneInfo8]
-LocationName="East Curved Corridor"
+; EN: LocationName="East Curved Corridor"
+LocationName="Couloir courbe est"
 
 [ZoneInfo9]
-LocationName="Pump Area"
+; EN: LocationName="Pump Area"
+LocationName="Zone de la pompe"
 

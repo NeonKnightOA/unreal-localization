@@ -5,38 +5,50 @@ Title="Antalus"
 Title="Antalus"
 
 [Volume0]
-LocationName="Shock Rifle Area"
+; EN: LocationName="Shock Rifle Area"
+LocationName="Zone de fusil de choc"
 
 [Volume1]
-LocationName="Pond Area"
+; EN: LocationName="Pond Area"
+LocationName="Zone de l'étang"
 
 [Volume2]
-LocationName="Flak Area"
+; EN: LocationName="Flak Area"
+LocationName="Zone de flak"
 
 [Volume3]
-LocationName="Rocket Link Area"
+; EN: LocationName="Rocket Link Area"
+LocationName="Zone de liaison de fusée"
 
 [Volume4]
-LocationName="Shield Link Mini Area"
+; EN: LocationName="Shield Link Mini Area"
+LocationName="Mini zone de lien de bouclier"
 
 [Volume5]
-LocationName="Sniper Ridge"
+; EN: LocationName="Sniper Ridge"
+LocationName="Crête de tireur d'élite"
 
 [Volume6]
-LocationName="Adrenaline Alley"
+; EN: LocationName="Adrenaline Alley"
+LocationName="Allée d'adrénaline"
 
 [ZoneInfo0]
-LocationName="Super Shield Cave"
+; EN: LocationName="Super Shield Cave"
+LocationName="Grotte du Super Bouclier"
 
 [ZoneInfo1]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 
 [ZoneInfo2]
-LocationName="Super Shield Cave"
+; EN: LocationName="Super Shield Cave"
+LocationName="Grotte du Super Bouclier"
 
 [ZoneInfo3]
-LocationName="Super Shield Cave"
+; EN: LocationName="Super Shield Cave"
+LocationName="Grotte du Super Bouclier"
 
 [ZoneInfo4]
-LocationName="Super Shield Cave"
+; EN: LocationName="Super Shield Cave"
+LocationName="Grotte du Super Bouclier"
 

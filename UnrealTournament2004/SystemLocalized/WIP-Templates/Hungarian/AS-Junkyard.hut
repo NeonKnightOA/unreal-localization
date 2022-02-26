@@ -1,0 +1,141 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: DestructionMessage="Vehicle has been repaired!"
+DestructionMessage="A jármű javítva lett!"
+; EN: ObjectiveDescription="Deliver the Power Core to repair the vehicle."
+ObjectiveDescription="Adja át a Power Core-t a jármű javításához."
+; EN: Objective_Info_Attacker="Return the Core to the vehicle"
+Objective_Info_Attacker="Helyezze vissza a magot a járműbe"
+; EN: Objective_Info_Defender="Prevent the Attackers from returning the Core"
+Objective_Info_Defender="Akadályozza meg, hogy a támadók visszaadják a magot"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: ObjectiveDescription="You need to pick up the Energy Core and return it to your vehicle in order to repair it."
+ObjectiveDescription="Fel kell vennie az Energy Core-t, és vissza kell vinnie a járműbe, hogy megjavíthassa."
+; EN: Objective_Info_Attacker="Find the Energy Core"
+Objective_Info_Attacker="Keresse meg az Energiamagot"
+; EN: Objective_Info_Defender="Protect the Energy Core"
+Objective_Info_Defender="Védje az energiamagot"
+
+[HoldObjective0]
+; EN: DestructionMessage="Checkpoint gate opened!"
+DestructionMessage="Az ellenőrzőpont kapuja megnyílt!"
+; EN: ObjectiveDescription="Stand at the switch to open the gate."
+ObjectiveDescription="A kapu kinyitásához álljon a kapcsolóhoz."
+; EN: Objective_Info_Attacker="Open the checkpoint gate"
+Objective_Info_Attacker="Nyissa ki az ellenőrzőpont kapuját"
+; EN: Objective_Info_Defender="Protect the checkpoint switch."
+Objective_Info_Defender="Védje az ellenőrzőpont kapcsolót."
+
+[HoldObjective1]
+; EN: DestructionMessage="Drawbridge is down!"
+DestructionMessage="A felvonóhíd leállt!"
+; EN: ObjectiveDescription="Stand at the switch to lower the bridge."
+ObjectiveDescription="A híd leengedéséhez álljon a kapcsolóhoz."
+; EN: Objective_Info_Attacker="Lower the bridge"
+Objective_Info_Attacker="Engedje le a hidat"
+; EN: Objective_Info_Defender="Defend the bridge switch"
+Objective_Info_Defender="Védd meg a hídkapcsolót"
+
+[LevelInfo0]
+Title="Junkyard Escape"
+
+[LevelSummary]
+Title="Junkyard Escape"
+; EN: Description="This scenario is based on an infamous episode of a popular Holovision program. In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard. The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape. Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born."
+Description="Ez a forgatókönyv egy népszerű Holovision program hírhedt epizódján alapul. Az eredeti epizódban két szerelőcsapat versenyzett, hogy működőképessé tegyék járművüket, és kiszabaduljanak a roncstelepről. A váratlan fordulat akkor következett be, amikor a vesztes csapat elővett néhány rögtönzött fegyvert, és feledésbe merült a másik csapattal, mielőtt meg tudtak volna menekülni. Mivel a versenyben nem volt kifejezetten tiltó szabály, ők lettek a győztesek, és megszületett a Tournament új klasszikusa."
+
+[ProximityObjective0]
+; EN: DestructionMessage="Attackers escaped from the Junkyard!"
+DestructionMessage="A támadók megszöktek a roncstelepről!"
+; EN: ObjectiveDescription="Escape from the Junkyard."
+ObjectiveDescription="Menekülés a roncstelepről."
+; EN: Objective_Info_Attacker="Proceed to the main gates"
+Objective_Info_Attacker="Menjen tovább a főkapuk felé"
+; EN: Objective_Info_Defender="Protect the main gates"
+Objective_Info_Defender="Védje a főkapukat"
+
+[ProximityObjective2]
+; EN: DestructionMessage="Bridge has been crossed!"
+DestructionMessage="A hídon átkeltek!"
+; EN: ObjectiveDescription="Cross the bridge to progress."
+ObjectiveDescription="Haladjon át a hídon."
+; EN: Objective_Info_Attacker="Cross the bridge"
+Objective_Info_Attacker="Átkelni a hídon"
+; EN: Objective_Info_Defender="Defend the bridge"
+Objective_Info_Defender="Védd meg a hidat"
+
+[ProximityObjective3]
+; EN: DestructionMessage="Checkpoint secured!"
+DestructionMessage="Ellenőrzőpont biztosított!"
+; EN: ObjectiveDescription="Secure the checkpoint to progress."
+ObjectiveDescription="Biztosítsa az ellenőrzőpontot a haladáshoz."
+; EN: Objective_Info_Attacker="Secure the checkpoint"
+Objective_Info_Attacker="Biztosítsa az ellenőrzőpontot"
+; EN: Objective_Info_Defender="Protect the checkpoint"
+Objective_Info_Defender="Védje az ellenőrző pontot"
+
+[SceneSubtitles0]
+SubTitles=("This scenario is based on an infamous episode of a popular Holovision program.","In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard.","The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape.","Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born.","You must find and return the vehicle energy core which is in the interior of the junkyard, and return it to your vehicle.","Once your vehicle is operational, you must drive it through the junkyard and out through the main gate.","To cross the drawbridge, you must lower it by pressing this lever.","Once the bridge is crossed, you must now reach the check point.","You can do so, by following this path and opening the gates to the checkpoint.","It is also possible to use this magnet. While being a much shorter path, it is more risky and exposed.","Once the checkpoint is reached, make your way to the main gate in order to escape.")
+
+[Volume10]
+; EN: LocationName="Magnet hill"
+LocationName="Mágnesdomb"
+
+[Volume11]
+; EN: LocationName="Magnet shortcut"
+LocationName="Mágnes parancsikon"
+
+[Volume12]
+; EN: LocationName="Pipe stack"
+LocationName="Csőverem"
+
+[Volume13]
+; EN: LocationName="Junk tunnel"
+LocationName="Szemét alagút"
+
+[Volume14]
+; EN: LocationName="Car crusher"
+LocationName="Autódaráló"
+
+[Volume15]
+LocationName="Drive-In"
+
+[Volume16]
+; EN: LocationName="Checkpoint"
+LocationName="Ellenőrző pont"
+
+[Volume17]
+; EN: LocationName="Bathing"
+LocationName="Fürdés"
+
+[Volume18]
+; EN: LocationName="Communication tower"
+LocationName="Kommunikációs torony"
+
+[Volume19]
+; EN: LocationName="Main gate"
+LocationName="Főkapu"
+
+[Volume4]
+; EN: LocationName="Core tower"
+LocationName="Magtorony"
+
+[Volume5]
+; EN: LocationName="Defense hill"
+LocationName="Védelmi domb"
+
+[Volume7]
+; EN: LocationName="Bridge"
+LocationName="Híd"
+
+[Volume8]
+; EN: LocationName="Garage"
+LocationName="Garázs"
+
+[Volume9]
+; EN: LocationName="Fire pit"
+LocationName="Tűz kemence"
+
+[ZoneInfo1]
+LocationName="Junkyard"
+

@@ -1,30 +1,40 @@
 [LevelInfo0]
-Title="Ice Fields"
+; EN: Title="Ice Fields"
+Title="Champs de glace"
 
 [LevelSummary]
-Title="Ice Fields"
+; EN: Title="Ice Fields"
+Title="Champs de glace"
 
 [Volume0]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base bleue"
 
 [Volume1]
-LocationName="Red Base"
+; EN: LocationName="Red Base"
+LocationName="Base rouge"
 
 [Volume2]
-LocationName="Red Base Entrance"
+; EN: LocationName="Red Base Entrance"
+LocationName="Entrée de la base rouge"
 
 [Volume5]
-LocationName="Blue Base Entrance"
+; EN: LocationName="Blue Base Entrance"
+LocationName="Entrée de la base bleue"
 
 [Volume6]
-LocationName="Middle Area"
+; EN: LocationName="Middle Area"
+LocationName="Zone médiane"
 
 [Volume9]
-LocationName="SuperShield Area"
+; EN: LocationName="SuperShield Area"
+LocationName="Zone SuperShield"
 
 [xBombDelivery0]
-ObjectiveName="RedDelivery"
+; EN: ObjectiveName="RedDelivery"
+ObjectiveName="RougeLivraison"
 
 [xBombDelivery1]
-ObjectiveName="BlueDelivery"
+; EN: ObjectiveName="BlueDelivery"
+ObjectiveName="BleuLivraison"
 

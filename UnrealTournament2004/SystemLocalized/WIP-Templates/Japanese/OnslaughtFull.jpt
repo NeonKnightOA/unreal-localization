@@ -1,0 +1,78 @@
+[DamTypeIonTankBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="％oは％kによってOBLITERATEDされました"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="％oはOBLITERATEDでした"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="％oはOBLITERATEDでした"
+
+[DamTypeMASCannon]
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="％oは％kによって気化されました！"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="％oは気化した！"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="％oは気化した！"
+
+[DamTypeMASPlasma]
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="％kのリバイアサン砲塔は％oをプラズマ化しました。"
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="％oは自分自身を無駄にしました。"
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="％oは自分自身を無駄にしました。"
+
+[MutVehicleArena]
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="アリーナ車両"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="試合で使用される車両タイプを決定します。"
+; EN: FriendlyName="Vehicle Arena"
+FriendlyName="ビークルアリーナ"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="マップ内のすべての車両を特定のタイプに置き換えます。"
+
+[ONSBomber]
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="DragonFlyで"
+VehicleNameString="DragonFly"
+
+[ONSGenericSD]
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="気が狂った"
+VehicleNameString="TC-1200"
+
+[ONSHoverTank_IonPlasma]
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="イオンプラズマタンク内"
+; EN: VehicleNameString="Ion Plasma Tank"
+VehicleNameString="イオンプラズマタンク"
+
+[ONSMASSideGunPawn]
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="リヴァイアサン砲塔で"
+; EN: VehicleNameString="Leviathan Turret"
+VehicleNameString="リヴァイアサンタレット"
+
+[ONSMobileAssaultStation]
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="リヴァイアサンで"
+; EN: VehicleNameString="Leviathan"
+VehicleNameString="リヴァイアサン"
+
+[ONSPainter]
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="ターゲットペインターは、イオンペインターと同様に、一次発射で無害な低出力レーザーを発射します。ただし、Ion Painterとは異なり、この武器は、ペイントされたターゲットを中心に、ユーザーが向いている方向に一連の爆弾を発射する爆撃機を呼び出します。爆弾はターゲットと近くにある不幸なものを簡単に焼却します。"
+; EN: ItemName="Target Painter"
+ItemName="ターゲットペインター"
+
+[ONSPainterPickup]
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="あなたはターゲットペインターを手に入れました。"
+
+[ONSTankSecondaryTurretPawn_IonPlasma]
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="イオンタンク砲塔で"
+; EN: VehicleNameString="Ion Tank Minigun Turret"
+VehicleNameString="イオンタンクミニガンタレット"
+

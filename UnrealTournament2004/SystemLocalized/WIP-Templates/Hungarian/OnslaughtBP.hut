@@ -1,0 +1,71 @@
+[DamTypeArtilleryShell]
+; EN: DeathString="%k rained on %o's parade."
+DeathString="%k eső esett %o felvonulásán."
+; EN: FemaleSuicide="%o managed to kill herself with her own Artillery."
+FemaleSuicide="%o sikerült megölnie magát a saját tüzérségével."
+; EN: MaleSuicide="%o managed to kill himself with his own Artillery."
+MaleSuicide="%o sikerült megölnie magát a saját tüzérségével."
+
+[DamTypeONSCicadaLaser]
+; EN: DeathString="%k's blaster stung %o."
+DeathString="%k robbantója megszúrta %o."
+; EN: FemaleSuicide="%o used her blaster on herself."
+FemaleSuicide="%o magán használta a blastert."
+; EN: MaleSuicide="%o used his blaster on himself."
+MaleSuicide="%o magán használta a robbanóját."
+
+[DamTypeONSCicadaRocket]
+; EN: DeathString="%k's blew %o to bits."
+DeathString="%k bitekre fújta a %o-t."
+; EN: FemaleSuicide="%o blew herself up good."
+FemaleSuicide="%o jól felrobbantotta magát."
+; EN: MaleSuicide="%o blew himself up good."
+MaleSuicide="%o jól felrobbantotta magát."
+
+[DamTypeShockTankProximityExplosion]
+; EN: DeathString="%o got too close to %k's Paladin."
+DeathString="%o túl közel került %k Paladinjához."
+
+[DamTypeShockTankShockBall]
+; EN: DeathString="%o couldn't avoid the blast from %k's Paladin."
+DeathString="%o nem tudta elkerülni %k Paladinjának robbanását."
+
+[MutVehiclePickups]
+; EN: FriendlyName="Vehicle Pickups"
+FriendlyName="Járműszállítók"
+; EN: Description="Vehicles will pickup items and give them to the driver"
+Description="A járművek felveszik a tárgyakat és átadják a sofőrnek"
+
+[ONSArtillery]
+; EN: VehiclePositionString="in a SPMA"
+VehiclePositionString="egy SPMA-ban"
+VehicleNameString="SPMA"
+
+[ONSArtillerySideGunPawn]
+; EN: VehiclePositionString="in a SPMA side turret"
+VehiclePositionString="SPMA oldalsó toronyban"
+; EN: VehicleNameString="SPMA Side Turret"
+VehicleNameString="SPMA oldalsó torony"
+
+[ONSDualACGatlingGunPawn]
+; EN: LockedMsg=" INCOMING "
+LockedMsg=" BEÉRKEZŐ "
+; EN: VehiclePositionString="in a Cicada turret"
+VehiclePositionString="egy kabóca toronyban"
+; EN: VehicleNameString="Cicada Laser Turret"
+VehicleNameString="Cicada lézertorony"
+
+[ONSDualAttackCraft]
+; EN: LockedMsg=" Locked "
+LockedMsg=" Zárt "
+; EN: VehiclePositionString="in a Cicada"
+VehiclePositionString="egy kabócában"
+; EN: VehicleNameString="Cicada"
+VehicleNameString="Kabóca"
+
+[ONSShockTank]
+; EN: VehiclePositionString="in a Paladin"
+VehiclePositionString="egy Paladinban"
+; EN: VehicleNameString="Paladin"
+VehicleNameString="Levente"
+

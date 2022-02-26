@@ -1,0 +1,235 @@
+﻿[public]
+; EN: Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Win 95")
+Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="95に勝つ")
+
+[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText="はい"
+; EN: NoText="No"
+NoText="番号"
+; EN: OKText="OK"
+OKText="わかった"
+; EN: CancelText="Cancel"
+CancelText="キャンセル"
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle="システムコンソール"
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText="選ぶ"
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText="キャンセル"
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText="わかった"
+
+[UWindowConsoleClientWindow]
+; EN: ShowColorsText="Show console messages in colours"
+ShowColorsText="コンソールメッセージを色で表示する"
+; EN: ShowChatText="Log only chat messages"
+ShowChatText="チャットメッセージのみをログに記録する"
+
+[AdminGUIPlayersGrid]
+; EN: PlayerID="ID#"
+PlayerID="ID＃"
+; EN: PlayerName="Player Name"
+PlayerName="プレーヤの名前"
+; EN: PlayerIP="IP-Address"
+PlayerIP="IPアドレス"
+; EN: PlayerClientID="Client ID"
+PlayerClientID="クライアントID"
+; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
+MaxLengthExceeded="プレーヤーリストの最大長が「％i」を超えました"
+; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
+IDMismatchedStr="応答IDが一致しません：％i /％j"
+; EN: ClientReceivedStr="Received client "%ls"."
+ClientReceivedStr="クライアント "％ls"を受信しました。"
+; EN: GettingInfoStr="Getting player list from server, if nothing happens you may not be logged in as admin."
+GettingInfoStr="サーバーからプレーヤーリストを取得しています。何も起こらない場合は、管理者としてログインしていない可能性があります。"
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded "%i""
+LengthExceeded="プレーヤーリストの最大長が「％i」を超えました"
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch="応答IDが一致しません：％i /％j"
+; EN: ReceiveBanText="Received ban "%ls"."
+ReceiveBanText="禁止「％ls」を受け取りました。"
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText="サーバーから禁止リストを取得します。何も起こらない場合は、管理者としてログインしていない可能性があります（またはサーバーに禁止がありません）。"
+
+[MMMusicListGrid]
+; EN: MusicNameStr="Music name"
+MusicNameStr="音楽名"
+; EN: MusicPackStr="Music package"
+MusicPackStr="音楽パッケージ"
+; EN: FailedToPlayStr="Failed to play: Music "%ls" was not found or failed to load."
+FailedToPlayStr="再生に失敗しました：音楽 "％ls"が見つからないか、読み込めませんでした。"
+; EN: StartedPlayStr="Started playing music "%ls" with section %i."
+StartedPlayStr="セクション％iで音楽「％ls」の再生を開始しました。"
+; EN: NullErrorStr="Failed to add: NULL is not a valid song."
+NullErrorStr="追加に失敗しました：NULLは有効な曲ではありません。"
+; EN: FailedLoadStr="Failed to add: Music "%ls" file could not be found or loaded."
+FailedLoadStr="追加に失敗しました：音楽 "％ls"ファイルが見つからないかロードできませんでした。"
+; EN: ConfirmInsertDuplicateTitle="Adding an already listed track"
+ConfirmInsertDuplicateTitle="すでにリストされているトラックを追加する"
+; EN: ConfirmInsertDuplicateText="Such a track is already included in the playlist. Insert it anyway?"
+ConfirmInsertDuplicateText="そのようなトラックはすでにプレイリストに含まれています。とにかく挿入しますか？"
+; EN: AddedStr="Added music "%ls" (%i)."
+AddedStr="音楽「％ls」（％i）を追加しました。"
+; EN: RemoveSongStr="Removed song #%i."
+RemoveSongStr="曲＃％iを削除しました。"
+; EN: ClearListStr="Removed all tracks from the playlist."
+ClearListStr="プレイリストからすべてのトラックを削除しました。"
+; EN: ConfirmClearListTitle="Confirm clearing the playlist"
+ConfirmClearListTitle="プレイリストのクリアを確認する"
+; EN: ConfirmClearListText="Do you want to clear the playlist?"
+ConfirmClearListText="プレイリストをクリアしますか？"
+; EN: BadIndexStr="Failed to remove: Bad remove index."
+BadIndexStr="削除に失敗しました：インデックスの削除が正しくありません。"
+
+[AdminGUIClientWindow]
+; EN: PlayersListTxt="Clients List"
+PlayersListTxt="クライアントリスト"
+; EN: BanListTxt="Banned Clients"
+BanListTxt="禁止されたクライアント"
+; EN: TempBanListTxt="Session Banned Clients"
+TempBanListTxt="セッション禁止クライアント"
+
+[AdminGUIManBanClientW]
+; EN: PlayerNameTxt="Client name (for banlisting purposes only):"
+PlayerNameTxt="クライアント名（禁止リストの目的のみ）："
+; EN: PlayerIpTxt="Client IP address (or IP range if desired):"
+PlayerIpTxt="クライアントIPアドレス（または必要に応じてIP範囲）："
+; EN: InsertBanTxt="Insert ban"
+InsertBanTxt="挿入禁止"
+
+[MMMainWindow]
+; EN: WindowTitle="Music Menu"
+WindowTitle="音楽メニュー"
+
+[UWindowNetErrorClientWindow]
+; EN: ReconnectText="Reconnect to server"
+ReconnectText="サーバーに再接続します"
+; EN: KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\"
+KickNetworkText="キックされました！|ゲームの残りの期間、管理者によってこのサーバーからキックされました。\"
+; EN: BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\If you feel like you don't deserve this ban, contact the administrator at: "
+BanNetworkText="禁止されました！|あなたは悪い行動のために管理者によってこのサーバーから禁止されました。\\この禁止に値しないと思われる場合は、次の場所で管理者に連絡してください。 "
+; EN: TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\"
+TempBanNetworkText="セッションが禁止されました！|マップの残りの部分で、このサーバーから一時的に禁止されました。\"
+
+[MMControlsClient]
+; EN: MusicVolumeText="Music Volume"
+MusicVolumeText="ミュージックボリューム"
+; EN: BrowseText="Browse"
+BrowseText="ブラウズ"
+; EN: BrowseHint="Browse music files"
+BrowseHint="音楽ファイルを閲覧する"
+; EN: AddMusicText="Add Music"
+AddMusicText="音楽を追加"
+; EN: AddMusicHint="Add music with the specified name"
+AddMusicHint="指定した名前の音楽を追加します"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="制限時間"
+; EN: TimeLimitHint="Select music playtime in minutes (0 = no time limit)"
+TimeLimitHint="音楽の再生時間を分単位で選択します（0 =時間制限なし）"
+; EN: SectionText="Song Section"
+SectionText="歌セクション"
+; EN: SectionHint="Set initial music section (0 - 254)"
+SectionHint="初期音楽セクションを設定する（0〜254）"
+; EN: MusicStoppedText="Music player was stopped."
+MusicStoppedText="音楽プレーヤーが停止しました。"
+; EN: PlayTrackHint="Play track"
+PlayTrackHint="トラックを再生"
+; EN: StopTrackHint="Stop track"
+StopTrackHint="トラックを停止"
+; EN: PriorTrackHint="Prior track"
+PriorTrackHint="前のトラック"
+; EN: NextTrackHint="Next track"
+NextTrackHint="次のトラック"
+
+[UWindowNetErrorWindow]
+; EN: WindowTitle="Player Network error status"
+WindowTitle="プレーヤーネットワークのエラーステータス"
+
+[AdminGUIMainWindow]
+; EN: WindowTitle="Admin Menu"
+WindowTitle="管理メニュー"
+
+[AdminGUIBanLPullDown]
+; EN: RemoveBanTxt="&Remove ban"
+RemoveBanTxt="＆禁止を解除"
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt="＆このメニューを閉じる"
+; EN: RefreshTxt="&Refresh banlist"
+RefreshTxt="＆Refresh banlist"
+; EN: ManualBanTxt="&Manually insert ban entry"
+ManualBanTxt="＆手動で禁止エントリを挿入"
+
+[MMMusListWindow]
+; EN: WindowTitle="Found music tracks:"
+WindowTitle="見つかった音楽トラック："
+
+[MMListPullDown]
+; EN: PlaySongStr="&Play"
+PlaySongStr="＆演奏する"
+; EN: RemoveSongStr="&Remove from playlist"
+RemoveSongStr="＆プレイリストから削除"
+; EN: InsertCurrentSongStr="&Insert currently playing track"
+InsertCurrentSongStr="＆現在再生中のトラックを挿入"
+; EN: ClearPlaylistStr="&Clear playlist"
+ClearPlaylistStr="＆Clearプレイリスト"
+
+[MMMusicFilesGrid]
+; EN: ErrorLoadPackage="Error: Failed to load music package."
+ErrorLoadPackage="エラー：音楽パッケージを読み込めませんでした。"
+; EN: ErrorNoMusics="Error: Failed to find any musics in this package."
+ErrorNoMusics="エラー：このパッケージで音楽が見つかりませんでした。"
+
+[AdminGUIPLPullDown]
+; EN: GetAliasesTxt="&Get player aliases"
+GetAliasesTxt="＆プレイヤーエイリアスを取得"
+; EN: KickPlayerTxt="&Kick player"
+KickPlayerTxt="＆キックプレーヤー"
+; EN: KickBanTempTxt="&Temporarily kick-ban player"
+KickBanTempTxt="＆一時的にキックバンプレーヤー"
+; EN: KickBanTxt="Kick-&ban player"
+KickBanTxt="キック＆バンプレーヤー"
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt="＆このメニューを閉じる"
+; EN: RefreshTxt="&Refresh players list"
+RefreshTxt="＆Refreshプレイヤーリスト"
+
+[AdminGUIManualBanWnd]
+; EN: WindowTitle="Insert manual ban"
+WindowTitle="手動禁止を挿入"
+
+[AdminGUITBanLGrid]
+; EN: GettingBanListText="Getting temp-banlist from server, if nothing happens you may not be logged in as admin (or there are no temp-bans on server)."
+GettingBanListText="サーバーから一時禁止リストを取得します。何も起こらない場合は、管理者としてログインしていない可能性があります（またはサーバーに一時禁止がありません）。"
+
+[FontStyle]
+SmallFont=UWindowFonts.Tahoma10
+SmallFontBold=UWindowFonts.TahomaB10
+MedFont=UWindowFonts.Tahoma20
+MedFontBold=UWindowFonts.TahomaB20
+LargeFont=UWindowFonts.Tahoma30
+LargeFontBold=UWindowFonts.TahomaB30
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded "%i""
+LengthExceeded="プレーヤーリストの最大長が「％i」を超えました"
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch="応答IDが一致しません：％i /％j"
+; EN: ReceiveBanText="Received ban "%ls"."
+ReceiveBanText="禁止「％ls」を受け取りました。"
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText="サーバーから禁止リストを取得します。何も起こらない場合は、管理者としてログインしていない可能性があります（またはサーバーに禁止がありません）。"
+
+[UWindowSmallRestartButton]
+; EN: RestartText="Restart"
+RestartText="再起動"

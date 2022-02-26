@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OldOpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OldOpenGL Support",Parent="Rendering",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OldOpenGLサポート",Parent="レンダリング",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: NoFindGL="Can't find OldOpenGL driver %ls"
+NoFindGL="OldOpenGLドライバー％lsが見つかりません"
+; EN: MissingFunc="Missing OldOpenGL function %ls (%i)"
+MissingFunc="OldOpenGL関数がありません％ls（％i）"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="解像度の設定に失敗しました"
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OldOpenGL Support"
+ClassCaption="OldOpenGLサポート"
+; EN: AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
+AskInstalled="OldOpenGL互換の3Dアクセラレータがインストールされていますか？"
+; EN: AskUse="Do you want Unreal Tournament to use your OldOpenGL accelerator?"
+AskUse="Unreal TournamentでOldOpenGLアクセラレータを使用しますか？"

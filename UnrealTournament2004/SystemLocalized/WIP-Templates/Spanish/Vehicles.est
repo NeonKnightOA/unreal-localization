@@ -1,6 +1,10 @@
 [BulldogMessage]
-GetInMessage="Press [Use] To Enter Vehicle."
-GetOutMessage="Press [Use] To Exit Vehicle."
-TooManyCarsMessage="Too Many Cars Already!"
-FlipCarMessage="Press [Use] To Flip Vehicle."
+; EN: GetInMessage="Press [Use] To Enter Vehicle."
+GetInMessage="Presione [Usar] para ingresar al vehículo."
+; EN: GetOutMessage="Press [Use] To Exit Vehicle."
+GetOutMessage="Presione [Usar] para salir del vehículo."
+; EN: TooManyCarsMessage="Too Many Cars Already!"
+TooManyCarsMessage="¡Ya hay demasiados autos!"
+; EN: FlipCarMessage="Press [Use] To Flip Vehicle."
+FlipCarMessage="Presione [Usar] para voltear el vehículo."
 

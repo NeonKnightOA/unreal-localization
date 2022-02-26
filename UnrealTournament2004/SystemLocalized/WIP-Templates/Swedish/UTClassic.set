@@ -1,0 +1,80 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Klassiska vapen i UT-stil och konfigurerbara rörelseförmågor (som att undvika väggar).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Byt ut Lightning Guns med klassisk sniper Rifle.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Byt ut prickskyttegevär mot blixtgevär.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="Sniper Kulor"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Du tog prickskyttammunition."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Detta prickskyttegevär med hög mynningshastighet med ett 10X kikarsikte är ett dödligt vapen på alla avstånd, speciellt om du kan landa ett huvudskott."
+; EN: ItemName="Sniper Rifle"
+ItemName="Prickskyttegevär"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Du har prickskyttegeväret."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k satte en kula i %os skalle."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o sköt sig själv i huvudet."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o sköt sig själv i huvudet."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="%k satte ett hål i %o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o sköt sig själv i foten."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o sköt sig själv i foten."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Tillåt dubbelhoppning"
+; EN: WDString="Allow Wall Dodging"
+WDString="Tillåt Wall Dodging"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Tillåt Dodge Double Jumping"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Om det är aktiverat kan spelare dubbelhoppa vid toppen av hopp."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Om det är aktiverat kan spelare undvika väggar."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Om det är aktiverat kan spelare dubbelhoppa vid toppen av dodge-hopp."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Ändra vapenskador"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Om det är aktiverat gör vapen mer skada."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Ändra Translocator"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Om den är aktiverad laddas translokatorn snabbare."
+FriendlyName="UT Classic"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Vapen och rörelsealternativ i klassisk UT-stil."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Blixtvapen"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Byt ut alla prickskyttegevär med blixtgevär."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Prickskyttegevär"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Byt ut alla blixtvapen mot prickskyttegevär."
+

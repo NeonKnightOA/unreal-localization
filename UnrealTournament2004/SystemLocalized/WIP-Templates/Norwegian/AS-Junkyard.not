@@ -1,0 +1,142 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: DestructionMessage="Vehicle has been repaired!"
+DestructionMessage="Kjøretøyet er reparert!"
+; EN: ObjectiveDescription="Deliver the Power Core to repair the vehicle."
+ObjectiveDescription="Lever Power Core for å reparere kjøretøyet."
+; EN: Objective_Info_Attacker="Return the Core to the vehicle"
+Objective_Info_Attacker="Returner kjernen til kjøretøyet"
+; EN: Objective_Info_Defender="Prevent the Attackers from returning the Core"
+Objective_Info_Defender="Hindre angriperne fra å returnere kjernen"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: ObjectiveDescription="You need to pick up the Energy Core and return it to your vehicle in order to repair it."
+ObjectiveDescription="Du må hente Energy Core og returnere den til kjøretøyet for å reparere den."
+; EN: Objective_Info_Attacker="Find the Energy Core"
+Objective_Info_Attacker="Finn energikjernen"
+; EN: Objective_Info_Defender="Protect the Energy Core"
+Objective_Info_Defender="Beskytt energikjernen"
+
+[HoldObjective0]
+; EN: DestructionMessage="Checkpoint gate opened!"
+DestructionMessage="Sjekkpunktporten åpnet!"
+; EN: ObjectiveDescription="Stand at the switch to open the gate."
+ObjectiveDescription="Stå ved bryteren for å åpne porten."
+; EN: Objective_Info_Attacker="Open the checkpoint gate"
+Objective_Info_Attacker="Åpne sjekkpunktporten"
+; EN: Objective_Info_Defender="Protect the checkpoint switch."
+Objective_Info_Defender="Beskytt sjekkpunktbryteren."
+
+[HoldObjective1]
+; EN: DestructionMessage="Drawbridge is down!"
+DestructionMessage="Vindebroen er nede!"
+; EN: ObjectiveDescription="Stand at the switch to lower the bridge."
+ObjectiveDescription="Stå ved bryteren for å senke broen."
+; EN: Objective_Info_Attacker="Lower the bridge"
+Objective_Info_Attacker="Senk broen"
+; EN: Objective_Info_Defender="Defend the bridge switch"
+Objective_Info_Defender="Forsvar brobryteren"
+
+[LevelInfo0]
+Title="Junkyard Escape"
+
+[LevelSummary]
+Title="Junkyard Escape"
+; EN: Description="This scenario is based on an infamous episode of a popular Holovision program. In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard. The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape. Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born."
+Description="Dette scenariet er basert på en beryktet episode av et populært Holovision-program. I den originale episoden konkurrerte to team med mekanikere om å gjøre kjøretøyet sitt operativt og unnslippe søppelplassen. Den uventede vrien skjedde da det tapende laget trakk frem noen provisoriske våpen og banket det andre laget i glemmeboken før de kunne rømme. Siden det ikke var noen eksplisitt regel som forbød vold i konkurransen, ble de erklært som vinnere, og en ny turneringsklassiker ble født."
+
+[ProximityObjective0]
+; EN: DestructionMessage="Attackers escaped from the Junkyard!"
+DestructionMessage="Angripere rømte fra Junkyard!"
+; EN: ObjectiveDescription="Escape from the Junkyard."
+ObjectiveDescription="Røm fra søppelplassen."
+; EN: Objective_Info_Attacker="Proceed to the main gates"
+Objective_Info_Attacker="Fortsett til hovedportene"
+; EN: Objective_Info_Defender="Protect the main gates"
+Objective_Info_Defender="Beskytt hovedportene"
+
+[ProximityObjective2]
+; EN: DestructionMessage="Bridge has been crossed!"
+DestructionMessage="Broen er krysset!"
+; EN: ObjectiveDescription="Cross the bridge to progress."
+ObjectiveDescription="Kryss broen for å komme videre."
+; EN: Objective_Info_Attacker="Cross the bridge"
+Objective_Info_Attacker="Krysse broen"
+; EN: Objective_Info_Defender="Defend the bridge"
+Objective_Info_Defender="Forsvar broen"
+
+[ProximityObjective3]
+; EN: DestructionMessage="Checkpoint secured!"
+DestructionMessage="Sjekkpunkt sikret!"
+; EN: ObjectiveDescription="Secure the checkpoint to progress."
+ObjectiveDescription="Sikre sjekkpunktet for å komme videre."
+; EN: Objective_Info_Attacker="Secure the checkpoint"
+Objective_Info_Attacker="Sikre sjekkpunktet"
+; EN: Objective_Info_Defender="Protect the checkpoint"
+Objective_Info_Defender="Beskytt sjekkpunktet"
+
+[SceneSubtitles0]
+SubTitles=("This scenario is based on an infamous episode of a popular Holovision program.","In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard.","The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape.","Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born.","You must find and return the vehicle energy core which is in the interior of the junkyard, and return it to your vehicle.","Once your vehicle is operational, you must drive it through the junkyard and out through the main gate.","To cross the drawbridge, you must lower it by pressing this lever.","Once the bridge is crossed, you must now reach the check point.","You can do so, by following this path and opening the gates to the checkpoint.","It is also possible to use this magnet. While being a much shorter path, it is more risky and exposed.","Once the checkpoint is reached, make your way to the main gate in order to escape.")
+
+[Volume10]
+; EN: LocationName="Magnet hill"
+LocationName="Magnetbakke"
+
+[Volume11]
+; EN: LocationName="Magnet shortcut"
+LocationName="Magnetsnarvei"
+
+[Volume12]
+; EN: LocationName="Pipe stack"
+LocationName="Rørstabel"
+
+[Volume13]
+; EN: LocationName="Junk tunnel"
+LocationName="Søppeltunnel"
+
+[Volume14]
+; EN: LocationName="Car crusher"
+LocationName="Bilknuser"
+
+[Volume15]
+LocationName="Drive-In"
+
+[Volume16]
+; EN: LocationName="Checkpoint"
+LocationName="Kontrollpunkt"
+
+[Volume17]
+; EN: LocationName="Bathing"
+LocationName="Bading"
+
+[Volume18]
+; EN: LocationName="Communication tower"
+LocationName="Kommunikasjonstårn"
+
+[Volume19]
+; EN: LocationName="Main gate"
+LocationName="Hovedinngang"
+
+[Volume4]
+; EN: LocationName="Core tower"
+LocationName="Kjernetårn"
+
+[Volume5]
+; EN: LocationName="Defense hill"
+LocationName="Forsvarsbakke"
+
+[Volume7]
+; EN: LocationName="Bridge"
+LocationName="Bro"
+
+[Volume8]
+; EN: LocationName="Garage"
+LocationName="Garasje"
+
+[Volume9]
+; EN: LocationName="Fire pit"
+LocationName="Ildsted"
+
+[ZoneInfo1]
+; EN: LocationName="Junkyard"
+LocationName="Søppelplass"
+

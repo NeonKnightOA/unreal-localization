@@ -1,0 +1,101 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="高速"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="電車をコントロール!!慈悲はありません!!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="3位。車両"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="1日車両"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="2位。車両"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="1号車外"
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName="酸タンク"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="％lsは車の間に落ちました。それは痛い..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="コントロールキャビン"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="乗っ取られました!!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="CAR 3"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="破られそうです!!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="CAR 1"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="破られそうです!!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="％lsはヘリコプターのブレードを食べました..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="コントロールキャビンアクセススイッチ"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="アクティベートされました!!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="攻撃者は屋根の上にいます!!!"
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName="ピラーフラットベッド"
+
+[locationid6]
+; EN: LocationName="Tank Flatbed"
+LocationName="タンクフラットベッド"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="空のフラットベッド"
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName="酸タンク"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="電車の前に向かってください。カーワンでは、上階にスイッチがあり、下のコントロールキャビンへの扉が開きます。このスイッチをアクティブにします。"
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="制御室にジャンプします。そこには、列車の制御を無効にするレバーがあります。"
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="高速"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="電車をコントロール!!慈悲はありません!!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="電車が占領されました!!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="CAR 2"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="破られそうです!!"

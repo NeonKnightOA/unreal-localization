@@ -1,0 +1,187 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Central Office"
+LocationName="Центральный офис"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Right Lock"
+LocationName="Правый замок"
+
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Left Lock"
+LocationName="Левый замок"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Left Lock"
+LocationName="Левый замок"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Right Lock"
+LocationName="Правый замок"
+
+[ASCriticalObjectiveVolume5]
+; EN: LocationName="Inside Vault"
+LocationName="Внутри Убежища"
+
+[ASCriticalObjectiveVolume6]
+; EN: LocationName="Radio Terminal"
+LocationName="Радио Терминал"
+
+[ASOBJ_EnergyCore_Delivery0]
+; EN: Objective_Info_Attacker="Upload Data Stick At The Computer Terminal"
+Objective_Info_Attacker="Загрузите карту данных на компьютерный терминал"
+; EN: Objective_Info_Defender="Protect The Computer Terminal."
+Objective_Info_Defender="Защитите компьютерный терминал."
+
+[ASOBJ_EnergyCore_Delivery1]
+; EN: DestructionMessage="Antenna Realigned!"
+DestructionMessage="Антенна перестроена!"
+; EN: Objective_Info_Attacker="Realign The Antenna."
+Objective_Info_Attacker="Отрегулируйте антенну."
+; EN: Objective_Info_Defender="Protect The Antenna."
+Objective_Info_Defender="Защитите антенну."
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" уронил Data Stick!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="Data Stick упал!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="Data Stick подобрана!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" взял Data Stick!"
+; EN: PlayerCoreReset="Data Stick reset!"
+PlayerCoreReset="Сброс Data Stick!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="Демо"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="Флешка украдена!"
+; EN: ObjectiveDescription="Data Stick"
+ObjectiveDescription="Накопитель данных"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="Получите Data Stick!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="Защитите Data Stick!"
+
+[ASOBJ_EnergyCore_Spawn1]
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" уронил Data Stick!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="Data Stick упал!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="Data Stick подобрана!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" взял Data Stick!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="Демо"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="Флешка украдена!"
+; EN: ObjectiveDescription="Data Stick"
+ObjectiveDescription="Накопитель данных"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="Получите Data Stick!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="Защитите Data Stick!"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="Дверной замок разрушен!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls."
+Objective_Info_Attacker="Уничтожьте управление входной дверью."
+; EN: Objective_Info_Defender="Protect The Front Door Controls."
+Objective_Info_Defender="Защитите элементы управления входной дверью."
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Data Shield"
+ObjectiveName="Защита данных"
+; EN: DestructionMessage="Data Shield Destroyed!"
+DestructionMessage="Щит данных уничтожен!"
+; EN: ObjectiveDescription="Destroy the data shield."
+ObjectiveDescription="Уничтожьте информационный щит."
+; EN: Objective_Info_Attacker="Destroy the data shield."
+Objective_Info_Attacker="Уничтожьте информационный щит."
+; EN: Objective_Info_Defender="Defend the data shield."
+Objective_Info_Defender="Защитите щит данных."
+
+[DestroyableObjective_SM2]
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="Дверной замок разрушен!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls."
+Objective_Info_Attacker="Уничтожьте управление входной дверью."
+; EN: Objective_Info_Defender="Protect The Front Door Controls."
+Objective_Info_Defender="Защитите элементы управления входной дверью."
+
+[DestroyableObjective_SM4]
+; EN: DestructionMessage="Front Gate Destroyed!"
+DestructionMessage="Передние ворота разрушены!"
+; EN: Objective_Info_Attacker="Destroy The Main Gate."
+Objective_Info_Attacker="Разрушьте главные ворота."
+; EN: Objective_Info_Defender="Protect The Main Gate."
+Objective_Info_Defender="Защитите главные ворота."
+
+[HoldObjective1]
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="Замок хранилища открыт!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault."
+Objective_Info_Attacker="Используйте ключи, чтобы открыть хранилище."
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault."
+Objective_Info_Defender="Охраняют вход в подвал."
+
+[HoldObjective2]
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="Замок хранилища открыт!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault."
+Objective_Info_Attacker="Используйте ключи, чтобы открыть хранилище."
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault."
+Objective_Info_Defender="Охраняют вход в подвал."
+
+[HoldObjective3]
+; EN: DestructionMessage="The Keys Have Been Stolen!"
+DestructionMessage="Ключи украли!"
+; EN: Objective_Info_Attacker="Get the keys from the Central Office."
+Objective_Info_Attacker="Получите ключи в центральном офисе."
+; EN: Objective_Info_Defender="Protect the Central Office."
+Objective_Info_Defender="Защитите центральный офис."
+
+[LevelInfo0]
+Title="Sub Rosa"
+
+[LevelSummary]
+Title="Sub Rosa"
+; EN: Description="Every rose has thorns, and even the most pristine worlds can hide sinister intentions."
+Description="У каждой розы есть шипы, и даже самые первозданные миры могут скрывать зловещие намерения."
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the invasion of the Central Liandri Information compound by NEG forces.","The New Earth Government discovered that the Liandri were transferring experimental weapons data through the facility, and sent an elite squad in to retrieve the research.","The attackers must first make their way to the compound and destroy the main gate to get into the courtyard.",,"Then you must destroy the front door controls to gain access to the main building.",,"Once inside, you must make your way to the central office to get the keys to the vault.",,"Next, use the keys to open the vault doors.",,"Once inside the vault, you must destroy the protective shield around the data stick.","Then, you must deliver the data stick to the access station in order to realign the antenna.",,"Finally, you must move the updated data from the antenna to the terminal, and transmit the weapon data to the NEG.",)
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Вне"
+
+[ZoneInfo1]
+; EN: LocationName="Main Hall"
+LocationName="Основной зал"
+
+[ZoneInfo2]
+; EN: LocationName="Office"
+LocationName="Офис"
+
+[ZoneInfo3]
+; EN: LocationName="Vault Locks"
+LocationName="Замки Хранилища"
+
+[ZoneInfo4]
+; EN: LocationName="Vault Locks"
+LocationName="Замки Хранилища"
+
+[ZoneInfo5]
+; EN: LocationName="Vault Locks"
+LocationName="Замки Хранилища"
+
+[ZoneInfo6]
+; EN: LocationName="Inside Vault"
+LocationName="Внутри Убежища"
+
+[ZoneInfo7]
+; EN: LocationName="Radio Terminal"
+LocationName="Радио Терминал"
+

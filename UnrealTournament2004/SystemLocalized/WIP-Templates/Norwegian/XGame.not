@@ -1,0 +1,955 @@
+[Public]
+Object=(Name=XGame.AlienFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.AlienMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.RobotVoice,Class=Class,MetaClass=XGame.xVoicePack)
+
+[AlienFemaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="Sug meg"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="Bobil!"
+TauntString[23]="Douche bag!"
+TauntString[24]="Spammer!"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="Sukker"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="Snakk til hånden"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="Pikk du!"
+; EN: VoicePackName="Female Alien"
+VoicePackName="Kvinne Alien"
+
+[AlienMaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="Sug meg"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="Bobil!"
+TauntString[23]="Douche bag!"
+TauntString[24]="Spammer!"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="Sukker"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="Snakk til hånden"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="Pikk du!"
+; EN: VoicePackName="Male Alien"
+VoicePackName="Mannlig romvesen"
+
+[BloodRites]
+; EN: ChallengeName="Bloodrites"
+ChallengeName="Blodritt"
+; EN: ChallengeDescription="Challenge an enemy team for one for their team mates."
+ChallengeDescription="Utfordre et fiendelag for en for lagkameratene deres."
+
+[BossDM]
+; EN: GameName="Championship Match"
+GameName="Mesterskapskamp"
+
+[CLOnslaught]
+EntryLabels=("Hit & Run","Roadkill","Drive-by shooting","Road warrior","Core meltdown","Vehicle slaughter")
+
+[ChallengeGame]
+; EN: msgGotChallenged="We got challenged"
+msgGotChallenged="Vi ble utfordret"
+; EN: msgWeChallenged="We challenged"
+msgWeChallenged="Vi utfordret"
+; EN: msgFor="for"
+msgFor="til"
+
+[ChampRosterFinal]
+; EN: TeamName="Championship Match"
+TeamName="Mesterskapskamp"
+
+[ChampRosterSemiFinal]
+; EN: TeamName="Championship Match"
+TeamName="Mesterskapskamp"
+
+[ComboBerserk]
+ExecMessage="Berserk!"
+
+[ComboDefensive]
+ExecMessage="Booster!"
+
+[ComboInvis]
+; EN: ExecMessage="Invisible!"
+ExecMessage="Usynlig!"
+
+[ComboSpeed]
+; EN: ExecMessage="Speed!"
+ExecMessage="Hastighet!"
+
+[DMRosterBeatTeam]
+TeamName="Death Match"
+
+[DMRosterGael]
+TeamName="Death Match"
+
+[DMRosterLeviathan]
+TeamName="Death Match"
+
+[DMRosterOceanic]
+TeamName="Death Match"
+
+[DMRosterTrainingDay]
+TeamName="Death Match"
+
+[DamTypeIonVolume]
+; EN: DeathString="%o was OBLITERATED by %k!"
+DeathString="%o ble utslettet av %k!"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o ble utslettet"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o ble utslettet"
+
+[InstagibCTF]
+; EN: ZoomDisplayText="Allow Zoom"
+ZoomDisplayText="Tillat zoom"
+; EN: ZoomDescText="Instagib rifles have sniper scopes."
+ZoomDescText="Instagib-rifler har snikskyttersikte."
+GameName="Instagib CTF"
+
+[IonCannonKillWarning]
+CountDownTrailer="..."
+; EN: WarningString="You have been targeted by an orbital Ion Satellite!"
+WarningString="Du har blitt målrettet av en orbital ionsatellitt!"
+
+[JuggFemaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="Livet er smerte, kom over det"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="Rett mellom øynene"
+; EN: TauntString[23]="Tag 'Em And Bag 'Em"
+TauntString[23]="Merk 'Em And Bag 'Em"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="Det var ekkelt"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="Du blør bedre enn du skyter"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="Du suger"
+; EN: TauntString[27]="Lick me"
+TauntString[27]="Slikk meg"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="Jeg kan ikke føle beina mine"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="Bra skudd"
+; EN: VoicePackName="Female Juggernaut"
+VoicePackName="Kvinnelig juggernaut"
+
+[JuggMaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="Livet er smerte, kom over det"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="Rett mellom øynene"
+; EN: TauntString[23]="Tag 'Em And Bag 'Em"
+TauntString[23]="Merk 'Em And Bag 'Em"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="Det var ekkelt"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="Du blør bedre enn du skyter"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="Du suger"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="Jeg kan ikke føle beina mine"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="Bra skudd"
+; EN: VoicePackName="Male Juggernaut"
+VoicePackName="Mannlig juggernaut"
+
+[LavaVolume]
+; EN: LocationName="in lava"
+LocationName="i lava"
+
+[ManoEMano]
+ChallengeName="Head to Head"
+; EN: ChallengeDescription="A 1 vs 1 match against another team leader."
+ChallengeDescription="En 1 mot 1 kamp mot en annen lagleder."
+
+[MercFemaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="Duck raskere neste gang"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="Hold stille for helvete"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="Hellige shit"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="Bare hold stille, så skal jeg gjøre det raskt"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="Drep dem alle"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="Naglet ham"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="Ikke engang i nærheten"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="Tre til side"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="Sug på dette"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="Prøv å slå av sikkerheten"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="Bare hold stille"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="Ikke verst"
+; EN: VoicePackName="Female Mercenary"
+VoicePackName="Kvinnelig leiesoldat"
+
+[MercMaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="Duck raskere neste gang"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="Hold stille for helvete"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="Hellige shit"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="Bare hold stille, så skal jeg gjøre det raskt"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="Drep dem alle"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="Naglet ham"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="Ikke engang i nærheten"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="Tre til side"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="Sug på dette"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="Prøv å slå av sikkerheten"
+; EN: TauntString[31]="You Die Too Easily"
+TauntString[31]="Du dør for lett"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="Bare hold stille"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="Ikke verst"
+; EN: VoicePackName="Male Mercenary"
+VoicePackName="Mannlig leiesoldat"
+
+[MultiKillMessage]
+KillString[0]="Double Kill!"
+KillString[1]="Multi Kill!"
+KillString[2]="Mega Kill!!"
+; EN: KillString[3]="ULTRA KILL!!"
+KillString[3]="ULTRA DRAP!!"
+; EN: KillString[4]="M O N S T E R  K I L L !!!"
+KillString[4]="MONSTER DREP !!!"
+; EN: KillString[5]="L U D I C R O U S !!!"
+KillString[5]="LATTERLIG !!!"
+; EN: KillString[6]="H O L Y  S H I T !"
+KillString[6]="H O L Y S H I T !"
+
+[MutFastWeapSwitch]
+; EN: FriendlyName="UT2003 Style"
+FriendlyName="UT2003 stil"
+; EN: Description="UT2003 style fast weapon switching and boost dodging."
+Description="UT2003-stil raskt våpenbytte og boost unnvike."
+
+[MutInstaGib]
+; EN: TranslocDisplayText="Allow Translocator"
+TranslocDisplayText="Tillat Translocator"
+; EN: BoostDisplayText="Allow Teammate boosting"
+BoostDisplayText="Tillat teammate-boosting"
+; EN: TranslocDescText="Players get a Translocator in their inventory."
+TranslocDescText="Spillere får en Translocator i inventaret sitt."
+; EN: BoostDescText="Teammates get a big boost when shot by the instagib rifle."
+BoostDescText="Lagkamerater får et stort løft når de blir skutt av den instagib-riflen."
+FriendlyName="InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles."
+Description="Instant-kill kamp med modifiserte Shock Rifles."
+
+[MutNoAdrenaline]
+; EN: FriendlyName="No Adrenaline"
+FriendlyName="Ingen adrenalin"
+; EN: Description="Adrenaline pickups are removed from the map."
+Description="Adrenalin pickups fjernes fra kartet."
+
+[MutQuadJump]
+FriendlyName="QuadJump"
+; EN: Description="When double jump just isn't enough."
+Description="Når dobbelthopp bare ikke er nok."
+
+[MutRegen]
+; EN: FriendlyName="Regeneration"
+FriendlyName="Regenerering"
+; EN: Description="All players regenerate health."
+Description="Alle spillere regenererer helse."
+
+[MutSlomoDeath]
+; EN: FriendlyName="Slow Motion Corpses"
+FriendlyName="Slow Motion lik"
+; EN: Description="Death should not be rushed."
+Description="Døden bør ikke forhastes."
+
+[MutSpeciesStats]
+; EN: FriendlyName="Species Statistics"
+FriendlyName="Artsstatistikk"
+; EN: Description="Each race has unique combat statistics."
+Description="Hvert løp har unik kampstatistikk."
+
+[MutUDamageReward]
+; EN: FriendlyName="UDamage Reward"
+FriendlyName="UDamage-belønning"
+; EN: Description="Any remaining UDamage powerup is thrown from players when they are fragged."
+Description="Eventuell gjenværende UDamage powerup blir kastet fra spillere når de er fragged."
+
+[MutVampire]
+; EN: FriendlyName="Vampire"
+FriendlyName="Vampyr"
+; EN: Description="Damaging your opponents will heal you."
+Description="Å skade motstanderne vil helbrede deg."
+
+[MutZoomInstagib]
+FriendlyName="Zoom InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles with sniper zooms."
+Description="Instant-kill-kamp med modifiserte Shock Rifles med snikskytterzoomer."
+
+[NightFemaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="Ferskt kjøtt"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="Jeg må knekke deg"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="Jeg vil svelge din sjel"
+TauntString[24]="Lost Is Your Soul"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="Møt bøddelen din"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="Mitt navn er døden"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="Ingen tårer takk.."
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="Smerte vil rense deg"
+; EN: VoicePackName="Female Night"
+VoicePackName="Kvinnenatt"
+
+[NightMaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="Ferskt kjøtt"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="Jeg må knekke deg"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="Jeg vil svelge din sjel"
+TauntString[24]="Lost Is Your Soul"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="Møt bøddelen din"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="Mitt navn er døden"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="Ingen tårer takk.."
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="Smerte vil rense deg"
+; EN: VoicePackName="Male Night"
+VoicePackName="Mannlig natt"
+
+[PhantomBloodReavers]
+; EN: TeamDescription="An organization of mercenaries and ex-military specialists, the Blood Reavers are interested in fame and fortune. They seek to win the Tournament for the prize that victory offers: nearly limitless wealth and power."
+TeamDescription="En organisasjon av leiesoldater og eks-militære spesialister, Blood Reavers er interessert i berømmelse og formue. De prøver å vinne turneringen for premien som seieren gir: nesten ubegrenset rikdom og makt."
+TeamName="Blood Reavers"
+
+[PhantomDarkPhalanx]
+; EN: TeamDescription="The Dark Phalanx are an honorable collection of military specialists. All have proven themselves in the Human/Skaarj war and now seek glory in the ranks of the Tournament."
+TeamDescription="The Dark Phalanx er en hederlig samling av militære spesialister. Alle har bevist seg i Human/Skaarj-krigen og søker nå ære i turneringens rekker."
+; EN: TeamName="Dark Phalanx"
+TeamName="Mørk falanks"
+
+[PhantomEpic]
+; EN: TeamDescription="Founded in 1991, Epic has long been a pioneer of cool PC games, new business models, and boundary-defining game technologies. Epic was founded by Tim Sweeney (Jill of the Jungle, Unreal), and joined shortly after by Mark Rein (VP of Marketing), James Schmalz (Epic Pinball, Extreme Pinball, Unreal), and Cliff Bleszinski (Jazz Jackrabbit, Unreal)."
+TeamDescription="Epic ble grunnlagt i 1991 og har lenge vært en pioner innen kule PC-spill, nye forretningsmodeller og grensedefinerende spillteknologier. Epic ble grunnlagt av Tim Sweeney (Jill of the Jungle, Unreal), og ble kort tid etter sammen med Mark Rein (VP of Marketing), James Schmalz (Epic Pinball, Extreme Pinball, Unreal) og Cliff Bleszinski (Jazz Jackrabbit, Unreal)."
+TeamName="Epic Games, Inc."
+
+[PhantomNecrisBlackLegion]
+; EN: TeamDescription="This powerful team of Necris Phayder assassins seeks to dominate the Tournament."
+TeamDescription="Dette mektige teamet av Necris Phayder-snikmordere prøver å dominere turneringen."
+TeamName="Necris Black Legion"
+
+[PhantomRawSteel]
+; EN: TeamDescription="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
+TeamDescription="Bare menn er tillatt i kampstyrken kjent som 'Raw Steel.' En blanding av menneskelige muskel- og polyskummetaller, 'Raw Steel' opprettholder styrke og kraft over alle andre dyder."
+; EN: TeamName="Raw Steel"
+TeamName="Rå stål"
+
+[RobotVoice]
+; EN: TauntString[21]="Die Human"
+TauntString[21]="Dø menneske"
+; EN: TauntString[22]="Faster Stronger Better"
+TauntString[22]="Raskere Sterkere Bedre"
+; EN: TauntString[23]="Fear Me"
+TauntString[23]="Frykt meg"
+; EN: TauntString[24]="Flesh Is A Design Flaw"
+TauntString[24]="Kjøtt er en designfeil"
+; EN: TauntString[25]="My Victory Your Death"
+TauntString[25]="Min seier din død"
+; EN: TauntString[26]="Not Unacceptable"
+TauntString[26]="Ikke uakseptabelt"
+; EN: TauntString[27]="Rogue Process Terminated"
+TauntString[27]="Rogue prosess avsluttet"
+; EN: TauntString[28]="Witness My Perfection"
+TauntString[28]="Vitne til min perfeksjon"
+; EN: TauntString[29]="You Die Too Easily"
+TauntString[29]="Du dør for lett"
+; EN: TauntString[30]="You Make Easy Prey"
+TauntString[30]="Du gjør et enkelt bytte"
+; EN: TauntString[31]="Your Programming Is Inferior"
+TauntString[31]="Din programmering er dårlig"
+; EN: OtherString[32]="Rerouting Critical Systems"
+OtherString[32]="Omdirigere kritiske systemer"
+; EN: OtherString[33]="You Adapt Well"
+OtherString[33]="Du tilpasser deg godt"
+VoicePackName="Robot"
+
+[SPECIES_Alien]
+; EN: SpeciesName="Alien"
+SpeciesName="Romvesen"
+; EN: TauntAnimNames[8]="Tail wag"
+TauntAnimNames[8]="Hale logre"
+; EN: TauntAnimNames[9]="Gun check"
+TauntAnimNames[9]="Våpensjekk"
+; EN: TauntAnimNames[10]="Dismissal"
+TauntAnimNames[10]="Avskjedigelse"
+TauntAnimNames[11]="360"
+
+[SPECIES_Bot]
+SpeciesName="Robot"
+; EN: TauntAnimNames[8]="Want some?"
+TauntAnimNames[8]="Vil du ha?"
+
+[SPECIES_Egypt]
+; EN: SpeciesName="Egyptian"
+SpeciesName="egyptisk"
+
+[SPECIES_Jugg]
+SpeciesName="Juggernaut"
+TauntAnimNames[7]="Flex"
+TauntAnimNames[8]="Stomp"
+; EN: TauntAnimNames[9]="Back scratch"
+TauntAnimNames[9]="Ryggskrap"
+; EN: TauntAnimNames[10]="Show butt"
+TauntAnimNames[10]="Vis rumpe"
+; EN: TauntAnimNames[11]="Head scratch"
+TauntAnimNames[11]="Hodet klø"
+
+[SPECIES_Merc]
+; EN: SpeciesName="Mercenary"
+SpeciesName="Leiesoldat"
+
+[SPECIES_Night]
+; EN: SpeciesName="Night"
+SpeciesName="Natt"
+
+[SpecialKillMessage]
+; EN: DecapitationString="Head Shot!!"
+DecapitationString="Hodeskudd!!"
+
+[SpeciesSkaarj]
+SpeciesName="Skaarj"
+; EN: TauntAnimNames[4]="Hair flip"
+TauntAnimNames[4]="Hårflipp"
+; EN: TauntAnimNames[5]="Slash"
+TauntAnimNames[5]="Skråstrek"
+; EN: TauntAnimNames[6]="Scan"
+TauntAnimNames[6]="Skann"
+TauntAnimNames[7]="Finger"
+; EN: TauntAnimNames[8]="Idle"
+TauntAnimNames[8]="Tomgang"
+
+[SpeciesType]
+; EN: SpeciesName="Human"
+SpeciesName="Menneskelig"
+; EN: TauntAnimNames[0]="Point"
+TauntAnimNames[0]="Punkt"
+TauntAnimNames[1]="Beckon"
+; EN: TauntAnimNames[2]="Halt"
+TauntAnimNames[2]="Stopp"
+; EN: TauntAnimNames[3]="Cheer"
+TauntAnimNames[3]="Oppmuntre"
+; EN: TauntAnimNames[4]="Pelvic Thrust"
+TauntAnimNames[4]="Bekkenstøt"
+TauntAnimNames[5]="Ass Smack"
+; EN: TauntAnimNames[6]="Throat Cut"
+TauntAnimNames[6]="Kutt i halsen"
+; EN: TauntAnimNames[7]="Unique"
+TauntAnimNames[7]="Unik"
+; EN: TauntAnimNames[8]="Team Taunt"
+TauntAnimNames[8]="Team hån"
+; EN: TauntAnimNames[9]="Team Idle"
+TauntAnimNames[9]="Team inaktiv"
+
+[TeamApocalypse]
+; EN: TeamName="Apocalypse"
+TeamName="verdens undergang"
+
+[TeamBlackLegion]
+TeamName="BlackLegion"
+
+[TeamBloodFists]
+; EN: TeamName="BloodFists"
+TeamName="Blodnever"
+
+[TeamBoneCrushers]
+TeamName="BoneCrushers"
+
+[TeamColdSteel]
+; EN: TeamName="ColdSteel"
+TeamName="Kaldt stål"
+
+[TeamCorrupt]
+; EN: TeamDescription="Xan Kriegor was long regarded as invincible, until Malcolm defeated him in the fourth officially recognized Tournament finals.  After a long hiatus, he has returned to lead the Liandri team, The Corrupt, back to the championship.  Xan is sitting out the early rounds, which he perceives as beneath his attention."
+TeamDescription="Xan Kriegor ble lenge sett på som uovervinnelig, helt til Malcolm beseiret ham i den fjerde offisielt anerkjente turneringsfinalen. Etter en lang pause har han returnert for å lede Liandri-laget, The Corrupt, tilbake til mesterskapet. Xan sitter ute de tidlige rundene, som han oppfatter som under oppmerksomheten hans."
+; EN: TeamName="The Corrupt"
+TeamName="Den korrupte"
+
+[TeamCrusaders]
+; EN: TeamName="Crusaders"
+TeamName="Korsfarere"
+
+[TeamDragonBreath]
+; EN: TeamName="DragonBreath"
+TeamName="Drage Pust"
+
+[TeamFirestorm]
+; EN: TeamName="Firestorm"
+TeamName="Brannstorm"
+
+[TeamGoliath]
+; EN: TeamDescription="With the success of Gorge's Juggernauts in last year's tournament, Axon Research Corporation is now sponsoring Goliath in hopes of producing an all Juggernaut finals."
+TeamDescription="Med suksessen til Gorge's Juggernauts i fjorårets turnering, sponser Axon Research Corporation nå Goliath i håp om å produsere en Juggernaut-finale."
+; EN: TeamName="Goliath"
+TeamName="Goliat"
+
+[TeamHellions]
+; EN: TeamDescription="Once feared and reviled throughout human space as pirates and renegades, the Hellions seek to gain respectability as a mercenary outfit.  They've entered the tournament to demonstrate their capabilities to potential customers."
+TeamDescription="En gang fryktet og utskjelt i det menneskelige rom som pirater og overløpere, søker Hellions å oppnå respekt som leiesoldatantrekk. De har deltatt i turneringen for å demonstrere sine evner til potensielle kunder."
+TeamName="Hellions"
+
+[TeamIronGuard]
+TeamName="IronGuard"
+
+[TeamIronSkull]
+; EN: TeamDescription="This year, the Skaarj Empire is represented by the Iron Skull clan, who seek to regain honor after long being held responsible for the loss of the Skaarj Mothership during the Human/Skaarj wars."
+TeamDescription="I år er Skaarj Empire representert av Iron Skull-klanen, som søker å gjenvinne æren etter lenge å ha blitt holdt ansvarlig for tapet av Skaarj Mothership under Human/Skaarj-krigene."
+; EN: TeamName="Iron Skull Skaarj"
+TeamName="Jernskalle Skaarj"
+
+[TeamJuggernauts]
+; EN: TeamDescription="Gorge is determined to prove that his one year reign as Tournament Champion is no fluke, and he has re-assembled the Juggernaut team he led to the championship.  Axon Research Corporation has made armor and bio-genetic upgrades to the Juggernauts design for this year's tournament."
+TeamDescription="Gorge er fast bestemt på å bevise at hans ettårige regjeringstid som turneringsmester ikke er noen tilfeldighet, og han har satt sammen Juggernaut-laget han ledet til mesterskapet på nytt. Axon Research Corporation har gjort rustninger og biogenetiske oppgraderinger til Juggernauts-designet for årets turnering."
+TeamName="Juggernauts"
+
+[TeamNewBlacklegion]
+; EN: TeamDescription="The Black Legion is made up of the hideously deformed subjects of weaponized genetic mutation tests.  This year, they have a new leader, Abaddon, the current pinnacle of achievement of this line of experiments."
+TeamDescription="The Black Legion består av de fryktelig deformerte forsøkspersonene fra bevæpnede genetiske mutasjonstester. I år har de en ny leder, Abaddon, den nåværende toppen av oppnåelse av denne linjen av eksperimenter."
+TeamName="Black Legion"
+
+[TeamNewBloodfist]
+; EN: TeamDescription="The only team in the Tournament acknowledged to be entirely cybernetic, Blood Fist warriors have their programming upgraded each year, and have become more and more lethal."
+TeamDescription="Det eneste laget i turneringen som er anerkjent for å være fullstendig kybernetisk, Blood Fist-krigere får programmeringen oppgradert hvert år, og har blitt mer og mer dødelige."
+; EN: TeamName="Blood Fist"
+TeamName="Blod Knyttneve"
+
+[TeamNewFirestorm]
+; EN: TeamDescription="The Mokara are respected and feared as warriors. The Mokara's elite fighting unit, Fire Storm, sends a team of their best soldiers to the Tournament each year."
+TeamDescription="Mokaraene er respektert og fryktet som krigere. Mokaras elitekampenhet, Fire Storm, sender et team av sine beste soldater til turneringen hvert år."
+; EN: TeamName="Firestorm"
+TeamName="Brannstorm"
+
+[TeamNewIronGuard]
+; EN: TeamDescription="Brock and Lauren joined forces with Malcolm during his reign as tournament champion. Infighting and recrimination over their stunning defeat in last year's Tournament led to the dissolution of that team. Now, Brock and Lauren have returned leading their old team, the Iron Guard."
+TeamDescription="Brock og Lauren slo seg sammen med Malcolm under hans regjeringstid som turneringsmestere. Innbyrdes kamp og beskyldninger om deres fantastiske nederlag i fjorårets turnering førte til oppløsningen av det laget. Nå har Brock og Lauren kommet tilbake og ledet sitt gamle lag, Iron Guard."
+; EN: TeamName="Iron Guard"
+TeamName="Jernvakt"
+
+[TeamNewSunblade]
+; EN: TeamDescription="Sun Blade is comprised of former Temple Guardians and veterans of the Desert Legion. They see victory in the Tournament as their only hope for burial and eternal life in the Valley of Kings on Luxor IV."
+TeamDescription="Sun Blade består av tidligere tempelvoktere og veteraner fra Desert Legion. De ser på seier i turneringen som deres eneste håp for begravelse og evig liv i Kongenes dal på Luxor IV."
+; EN: TeamName="Sun Blade"
+TeamName="Solblad"
+
+[TeamNewSuperNova]
+; EN: TeamDescription="Super Nova, a team of mercenaries from the Seventh Mercenary Fleet, has entered the Tournament to pay off their debts to the Izanagi Corporation."
+TeamDescription="Super Nova, et team av leiesoldater fra den syvende leiesoldatflåten, har deltatt i turneringen for å betale ned gjelden deres til Izanagi Corporation."
+TeamName="Super Nova"
+
+[TeamNightstalkers]
+TeamName="Nightstalkers"
+
+[TeamPainMachine]
+; EN: TeamName="PainMachine"
+TeamName="Smertemaskin"
+
+[TeamSunBlades]
+TeamName="SunBlades"
+
+[TeamSupernova]
+TeamName="Supernova"
+
+[TeamThundercrash]
+; EN: TeamDescription="Following his well publicized break-up with long-time teammates Brock and Lauren, Malcolm has returned to lead his old team, Thunder Crash.  Malcolm is currently rehabilitating an injury sustained in last year's championship match, but he is expected to be healthy in time for the Tournament Finals."
+TeamDescription="Etter hans godt publiserte brudd med mangeårige lagkamerater Brock og Lauren, har Malcolm returnert for å lede sitt gamle lag, Thunder Crash. Malcolm rehabiliterer for tiden en skade påført i fjorårets mesterskapskamp, ​​men han forventes å være frisk i tide til turneringsfinalen."
+TeamName="Thunder Crash"
+
+[TeamVenom]
+; EN: TeamName="Venom"
+TeamName="Gift"
+
+[TeamWarCry]
+; EN: TeamName="WarCry"
+TeamName="Krigsrop"
+
+[UT2003LadderInfo]
+; EN: CHAMP1.MenuName="Tournament Semi-Final"
+CHAMP1.MenuName="Turnerings semifinale"
+; EN: CHAMP2.MenuName="Tournament Final"
+CHAMP2.MenuName="Turneringsfinale"
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="Deathmatch veiledning"
+
+[UT2K4DMRoster]
+TeamName="Death Match"
+
+[UT2K4GameProfile]
+msgSpecialAward[0]="Flak Monkey"
+; EN: msgSpecialAward[1]="Combo Whore"
+msgSpecialAward[1]="Combo Hore"
+; EN: msgSpecialAward[2]="Head Hunter"
+msgSpecialAward[2]="Hodejeger"
+msgSpecialAward[3]="Road Rampage"
+; EN: msgSpecialAward[4]="Hat Trick"
+msgSpecialAward[4]="Hatte triks"
+; EN: msgSpecialAward[5]="Untouchable"
+msgSpecialAward[5]="Urørlig"
+; EN: msgCheater="CHEATER!!!"
+msgCheater="JUKSEMAKER!!!"
+; EN: msgCredits="credits"
+msgCredits="studiepoeng"
+; EN: msgCredit="credit"
+msgCredit="kreditt"
+; EN: msgChallengeGame="Challenge game"
+msgChallengeGame="Utfordringsspill"
+; EN: msgAdditionalLadder="Additional ladder game"
+msgAdditionalLadder="Ekstra stigespill"
+; EN: msgMatch="match"
+msgMatch="kamp"
+; EN: msgLadderGame="Ladder game"
+msgLadderGame="Stigespill"
+; EN: msgChampionship="Championship"
+msgChampionship="Mesterskap"
+
+[UT2K4LadderInfo]
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="Deathmatch veiledning"
+
+[xBlueFlagBase]
+; EN: ObjectiveName="Blue Flag"
+ObjectiveName="Blått flagg"
+
+[xBombDelivery]
+; EN: ObjectiveStringSuffix=" Goal"
+ObjectiveStringSuffix=" Mål"
+
+[xBombHUDMessage]
+; EN: YouHaveFlagString="You have the ball, deliver it to enemy base!"
+YouHaveFlagString="Du har ballen, lever den til fiendens base!"
+; EN: EnemyHasFlagString="The enemy has the ball, recover it!"
+EnemyHasFlagString="Fienden har ballen, gjenvinn den!"
+
+[xBombMessage]
+; EN: ReturnBlue="returns the ball!"
+ReturnBlue="returnerer ballen!"
+; EN: ReturnRed="returns the ball!"
+ReturnRed="returnerer ballen!"
+; EN: ReturnedBlue="The ball was returned!"
+ReturnedBlue="Ballen ble returnert!"
+; EN: ReturnedRed="The ball was returned!"
+ReturnedRed="Ballen ble returnert!"
+; EN: CaptureBlue="scored the goal!"
+CaptureBlue="scoret målet!"
+; EN: CaptureRed="scored the goal!"
+CaptureRed="scoret målet!"
+; EN: DroppedBlue="dropped the ball!"
+DroppedBlue="slapp ballen!"
+; EN: DroppedRed="dropped the ball!"
+DroppedRed="slapp ballen!"
+; EN: HasBlue="has the ball!"
+HasBlue="har ballen!"
+; EN: HasRed="has the ball!"
+HasRed="har ballen!"
+
+[xBombSpawn]
+ObjectiveName="Bomb Spawn"
+
+[xBombingRun]
+; EN: BRPropText="Delay ball contact"
+BRPropText="Forsinke ballkontakt"
+; EN: BRPropText2="BallLauncher drains Translocator"
+BRPropText2="BallLauncher tapper Translocator"
+; EN: BRDescText="If checked, a player must wait a few seconds after throwing the ball before picking it up again."
+BRDescText="Hvis det er merket av, må en spiller vente noen sekunder etter å ha kastet ballen før han plukker den opp igjen."
+; EN: BRDescText2="If checked, a player must wait a few seconds after throwing the ball before being able to translocate (or until someone else catches or picks up the ball)."
+BRDescText2="Hvis det er merket av, må en spiller vente noen sekunder etter å ha kastet ballen før han kan forflytte seg (eller til noen andre fanger eller plukker opp ballen)."
+BRHints=("You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base.","Firing the translocator sends out your translocator beacon.  Pressing %FIRE% again returns the beacon, while pressing %A:TFIRE% teleports you instantly to the beacon's location (if you fit).","While carrying the ball, you can target teammates by pressing %ALTFIRE%.  Pressing %FIRE% will pass the ball to the targeted teammate.","Pressing %SWITCHWEAPON 10% after tossing the Translocator allows you to view from its internal camera.","Pressing %FIRE% while your %ALTFIRE% is still held down after teleporting with the translocator will switch you back to your previous weapon.")
+GameName="Bombing Run"
+; EN: Description="Each level has a ball that starts in the middle of the playing field.  Your team scores by getting the ball through the enemy team's hoop.  You score 7 points for jumping through the hoop while holding the ball, and 3 points for tossing the ball through the hoop.  The ball can be passed to teammates, and is dropped if the player carrying it is killed."
+Description="Hvert nivå har en ball som starter midt på spillefeltet. Laget ditt scorer ved å få ballen gjennom fiendens lags bøyle. Du får 7 poeng for å hoppe gjennom bøylen mens du holder ballen, og 3 poeng for å kaste ballen gjennom bøylen. Ballen kan sendes til lagkameratene, og slippes hvis spilleren som bærer den blir drept."
+
+[xCTFGame]
+; EN: GameName="Capture the Flag"
+GameName="Ta flagget"
+; EN: Description="Your team must score flag captures by taking the enemy flag from the enemy base and returning it to their own flag.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
+Description="Laget ditt må score flaggfangster ved å ta fiendeflagget fra fiendens base og returnere det til sitt eget flagg. Hvis flaggbæreren blir drept, faller flagget til bakken for alle å plukke opp. Hvis lagets flagg blir tatt, må det returneres (ved å berøre det etter at det er sluppet) før laget ditt kan score et flaggfangst."
+
+[xDeathMatch]
+GameName="DeathMatch"
+; EN: Description="Free-for-all kill or be killed.  The player with the most frags wins."
+Description="Gratis for alle drep eller bli drept. Spilleren med flest frags vinner."
+
+[xDeathMessage]
+; EN: KilledString="was killed by"
+KilledString="ble drept av"
+; EN: SomeoneString="someone"
+SomeoneString="noen"
+
+[xDomMessage]
+; EN: YouControlBothPointsString="Your team controls both points!"
+YouControlBothPointsString="Laget ditt kontrollerer begge punktene!"
+; EN: EnemyControlsBothPointsString="The enemy controls both points!"
+EnemyControlsBothPointsString="Fienden kontrollerer begge punktene!"
+
+[xDomPointA]
+; EN: PointName="A"
+PointName="EN"
+; EN: ObjectiveName="Point A"
+ObjectiveName="Punkt A"
+
+[xDomPointB]
+PointName="B"
+; EN: ObjectiveName="Point B"
+ObjectiveName="Punkt B"
+
+[xDoubleDom]
+; EN: DDomPropsDisplayText[0]="Time To Score"
+DDomPropsDisplayText[0]="På tide å score"
+; EN: DDomPropsDisplayText[1]="Time Disabled"
+DDomPropsDisplayText[1]="Tid deaktivert"
+; EN: DDomPropDescText[0]="Specifies how long domination points must be held to score a point."
+DDomPropDescText[0]="Spesifiserer hvor lenge dominanspoeng må holdes for å få et poeng."
+; EN: DDomPropDescText[1]="Specifies how long domination points are disabled after a point is scored."
+DDomPropDescText[1]="Angir hvor lenge dominanspoeng er deaktivert etter at et poeng er scoret."
+; EN: GameName="Double Domination"
+GameName="Dobbel dominans"
+; EN: Description="Your team scores by capturing and holding both Control Points for ten seconds.  Control Points are captured by touching them.  After scoring, the Control Points reset to neutral."
+Description="Laget ditt scorer ved å fange og holde begge kontrollpunktene i ti sekunder. Kontrollpunkter fanges ved å berøre dem. Etter scoring tilbakestilles kontrollpunktene til nøytral."
+
+[xFallingVolume]
+; EN: LocationName="in air"
+LocationName="i luften"
+
+[xKillerMessagePlus]
+; EN: YouKilled="You killed"
+YouKilled="Du drepte"
+
+[xRedFlagBase]
+; EN: ObjectiveName="Red Flag"
+ObjectiveName="Rødt flagg"
+
+[xTeamGame]
+GameName="Team DeathMatch"
+; EN: Description="Two teams duke it out in a quest for battlefield supremacy.  The team with the most total frags wins."
+Description="To lag hersker det ut i en søken etter overlegenhet på slagmarken. Laget med flest totale frags vinner."
+
+[xUtil]
+; EN: NoPreference="No Weapon Preference"
+NoPreference="Ingen våpenpreferanse"
+; EN: FavoriteWeapon="Favorite Weapon:"
+FavoriteWeapon="Favoritt våpen:"
+; EN: AgilityString="Agility:"
+AgilityString="Smidighet:"
+; EN: TacticsString="Team Tactics:"
+TacticsString="Team taktikk:"
+; EN: AccuracyString="Accuracy:"
+AccuracyString="Nøyaktighet:"
+; EN: AggressivenessString="Aggression:"
+AggressivenessString="Aggresjon:"
+
+[xVehicleCTFGame]
+VCTFHints=("You can't carry the flag in a Manta or a Raptor.")
+; EN: GameName="Vehicle CTF"
+GameName="Kjøretøy CTF"
+; EN: Description="Like traditional Capture The Flag, only adding vehicles into the mix! Only ground-based vehicles can carry the flag."
+Description="Som tradisjonelle Capture The Flag, legger du bare til kjøretøy i blandingen! Bare bakkebaserte kjøretøy kan bære flagget."
+
+[xVictimMessage]
+; EN: YouWereKilledBy="You were killed by"
+YouWereKilledBy="Du ble drept av"
+KilledByTrailer="!"
+
+[xVoicePack]
+; EN: AckString[0]="Affirmative"
+AckString[0]="Bekreftende"
+; EN: AckString[1]="Got It"
+AckString[1]="Har det"
+; EN: AckString[2]="I'm On It"
+AckString[2]="Jeg er på den"
+AckString[3]="Roger"
+; EN: FFireString[0]="I'm On Your Team!"
+FFireString[0]="Jeg er på laget ditt!"
+; EN: FFireString[1]="I'm On Your Team, Idiot!"
+FFireString[1]="Jeg er på laget ditt, idiot!"
+; EN: FFireString[2]="Same Team!"
+FFireString[2]="Samme lag!"
+; EN: FFireAbbrev[1]="Your Team, Idiot!"
+FFireAbbrev[1]="Teamet ditt, idiot!"
+; EN: TauntString[0]="And Stay Down"
+TauntString[0]="Og hold deg nede"
+; EN: TauntString[1]="Anyone Else Want Some?"
+TauntString[1]="Noen andre som vil ha noen?"
+; EN: TauntString[2]="Boom!"
+TauntString[2]="Bom!"
+; EN: TauntString[3]="BURN Baby"
+TauntString[3]="BRENN baby"
+; EN: TauntString[4]="Die Bitch"
+TauntString[4]="Dø tispe"
+; EN: TauntString[5]="Eat THAT"
+TauntString[5]="Spis DET"
+; EN: TauntString[6]="You Fight Like Nali"
+TauntString[6]="Du kjemper som Nali"
+; EN: TauntString[7]="Is That Your Best?"
+TauntString[7]="Er det ditt beste?"
+; EN: TauntString[8]="Kiss My Ass"
+TauntString[8]="Kyss meg bak"
+; EN: TauntString[9]="Loser"
+TauntString[9]="Taper"
+; EN: TauntString[10]="MY House"
+TauntString[10]="Mitt hus"
+; EN: TauntString[11]="Next!"
+TauntString[11]="Neste!"
+; EN: TauntString[12]="Oh YEAH!"
+TauntString[12]="Å JA!"
+TauntString[13]="Ownage"
+TauntString[14]="Seeya"
+; EN: TauntString[15]="That HAD To Hurt"
+TauntString[15]="Det MÅTTE gjøre vondt"
+; EN: TauntString[16]="Useless"
+TauntString[16]="Ubrukelig"
+; EN: TauntString[17]="You Play Like A Girl"
+TauntString[17]="Du spiller som en jente"
+TauntString[18]="You Be Dead"
+; EN: TauntString[19]="You Like That?"
+TauntString[19]="Du liker det?"
+; EN: TauntString[20]="You Whore"
+TauntString[20]="Du hore"
+; EN: OrderString[0]="Defend the base"
+OrderString[0]="Forsvar basen"
+; EN: OrderString[1]="Hold this position"
+OrderString[1]="Hold denne posisjonen"
+; EN: OrderString[2]="Assault the base"
+OrderString[2]="Angrip basen"
+; EN: OrderString[3]="Cover me"
+OrderString[3]="Dekk meg"
+; EN: OrderString[4]="Search and destroy"
+OrderString[4]="Søk og ødelegg"
+; EN: OrderString[10]="Take their flag"
+OrderString[10]="Ta flagget deres"
+; EN: OrderString[11]="Defend the flag"
+OrderString[11]="Forsvar flagget"
+; EN: OrderString[12]="Attack Alpha"
+OrderString[12]="Angrip Alpha"
+; EN: OrderString[13]="Attack Bravo"
+OrderString[13]="Angrip Bravo"
+; EN: OrderString[14]="Get the ball"
+OrderString[14]="Få ballen"
+; EN: OrderAbbrev[0]="Defend"
+OrderAbbrev[0]="Forsvare"
+; EN: OrderAbbrev[2]="Attack"
+OrderAbbrev[2]="Angrep"
+; EN: OtherString[0]="Base is undefended!"
+OtherString[0]="Basen er ubeskyttet!"
+; EN: OtherString[1]="Somebody get our flag back!"
+OtherString[1]="Noen få flagget vårt tilbake!"
+; EN: OtherString[2]="I've got the flag"
+OtherString[2]="Jeg har flagget"
+; EN: OtherString[3]="I've got your back"
+OtherString[3]="Jeg har din rygg"
+; EN: OtherString[4]="I'm hit!"
+OtherString[4]="Jeg er truffet!"
+; EN: OtherString[5]="Man down!"
+OtherString[5]="Mann ned!"
+; EN: OtherString[6]="I'm all alone here %l"
+OtherString[6]="Jeg er helt alene her %l"
+; EN: OtherString[7]="Negative!"
+OtherString[7]="Negativ!"
+; EN: OtherString[8]="I've got our flag"
+OtherString[8]="Jeg har flagget vårt"
+; EN: OtherString[9]="I'm in position %l"
+OtherString[9]="Jeg er i posisjon %l"
+; EN: OtherString[10]="I'm going in!"
+OtherString[10]="Jeg går inn!"
+; EN: OtherString[11]="Area is secure"
+OtherString[11]="Området er sikkert"
+; EN: OtherString[12]="Enemy flag carrier is %l"
+OtherString[12]="Fiendens flaggbærer er %l"
+; EN: OtherString[13]="I need some backup %l"
+OtherString[13]="Jeg trenger en sikkerhetskopi %l"
+; EN: OtherString[14]="Incoming!"
+OtherString[14]="Innkommende!"
+; EN: OtherString[15]="Enemy ball carrier is %l"
+OtherString[15]="Fiendens ballbærer er %l"
+; EN: OtherString[16]="Alpha secure!"
+OtherString[16]="Alpha sikker!"
+; EN: OtherString[17]="Bravo secure!"
+OtherString[17]="Bravo trygt!"
+; EN: OtherString[18]="Attack Alpha"
+OtherString[18]="Angrip Alpha"
+; EN: OtherString[19]="Attack Bravo"
+OtherString[19]="Angrip Bravo"
+; EN: OtherString[20]="The base is under attack %l"
+OtherString[20]="Basen er under angrep %l"
+; EN: OtherString[21]="We're being overrun %l!"
+OtherString[21]="Vi blir overkjørt %l!"
+; EN: OtherString[22]="Under heavy attack %l"
+OtherString[22]="Under kraftig angrep %l"
+; EN: OtherString[23]="Defend point Alpha"
+OtherString[23]="Forsvarspunkt Alpha"
+; EN: OtherString[24]="Defend point Bravo"
+OtherString[24]="Forsvar punkt Bravo"
+; EN: OtherString[25]="Get The Ball"
+OtherString[25]="Få ballen"
+; EN: OtherString[26]="I'm on defense"
+OtherString[26]="Jeg er i forsvar"
+; EN: OtherString[27]="I'm on offense"
+OtherString[27]="Jeg er fornærmet"
+; EN: OtherString[28]="Take point Alpha"
+OtherString[28]="Ta punktet Alpha"
+; EN: OtherString[29]="Take point Bravo"
+OtherString[29]="Ta punkt Bravo"
+; EN: OtherString[30]="Medic"
+OtherString[30]="Medisin"
+; EN: OtherString[31]="Nice"
+OtherString[31]="Hyggelig"
+; EN: OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[1]="Få flagget vårt!"
+; EN: OtherAbbrev[2]="Got the flag"
+OtherAbbrev[2]="Fikk flagget"
+; EN: OtherAbbrev[3]="Got your back"
+OtherAbbrev[3]="Støtter deg"
+; EN: OtherAbbrev[6]="All alone!"
+OtherAbbrev[6]="Helt alene!"
+; EN: OtherAbbrev[8]="Got our flag"
+OtherAbbrev[8]="Fikk flagget vårt"
+; EN: OtherAbbrev[9]="In position"
+OtherAbbrev[9]="I posisjon"
+; EN: OtherAbbrev[12]="Enemy flag carrier"
+OtherAbbrev[12]="Fiendtlig flaggbærer"
+; EN: OtherAbbrev[13]="Need backup"
+OtherAbbrev[13]="Trenger forsterkninger"
+; EN: OtherAbbrev[15]="Enemy ball carrier"
+OtherAbbrev[15]="Fiendtlig ballbærer"
+; EN: OtherAbbrev[20]="Base under attack"
+OtherAbbrev[20]="Base under angrep"
+; EN: OtherAbbrev[21]="Being overrun"
+OtherAbbrev[21]="Blir overkjørt"
+; EN: OtherAbbrev[22]="Under heavy attack"
+OtherAbbrev[22]="Under kraftig angrep"
+

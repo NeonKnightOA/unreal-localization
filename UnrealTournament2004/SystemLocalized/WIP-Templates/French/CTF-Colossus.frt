@@ -1,30 +1,40 @@
 [LevelInfo0]
-Title="Colossus"
+; EN: Title="Colossus"
+Title="Colosse"
 
 [LevelSummary]
-Title="Colossus"
-Description="By taking advantage of the fast moving high ground and the relative cover of the low, tactically proficient players can make their way to the flag practically unscathed.  Returning with the flag, on the other hand, is another matter altogether."
+; EN: Title="Colossus"
+Title="Colosse"
+; EN: Description="By taking advantage of the fast moving high ground and the relative cover of the low, tactically proficient players can make their way to the flag practically unscathed.  Returning with the flag, on the other hand, is another matter altogether."
+Description="En profitant des hauteurs en mouvement rapide et de la couverture relative des basses, les joueurs tactiquement compétents peuvent se frayer un chemin jusqu'au drapeau pratiquement indemnes. En revanche, revenir avec le drapeau est une tout autre affaire."
 
 [Volume0]
-LocationName="Blue Rear Base"
+; EN: LocationName="Blue Rear Base"
+LocationName="Base arrière bleue"
 
 [Volume1]
-LocationName="Blue Forward Base"
+; EN: LocationName="Blue Forward Base"
+LocationName="Base avancée bleue"
 
 [Volume2]
-LocationName="Neutral Zone"
+; EN: LocationName="Neutral Zone"
+LocationName="Zone neutre"
 
 [Volume3]
-LocationName="Red Forward Base"
+; EN: LocationName="Red Forward Base"
+LocationName="Base avancée rouge"
 
 [Volume4]
-LocationName="Red Rear Base"
+; EN: LocationName="Red Rear Base"
+LocationName="Base arrière rouge"
 
 [ZoneInfo1]
-LocationName="Red Bunker"
+; EN: LocationName="Red Bunker"
+LocationName="Bunker rouge"
 
 [ZoneInfo2]
-LocationName="Blue Bunker"
+; EN: LocationName="Blue Bunker"
+LocationName="Bunker bleu"
 
 [xBlueFlagBase0]
 ObjectiveName="BlueFlagBase"

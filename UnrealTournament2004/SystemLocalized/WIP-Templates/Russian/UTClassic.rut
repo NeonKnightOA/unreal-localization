@@ -1,0 +1,80 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Классическое оружие в стиле UT и настраиваемые способности передвижения (например, уклонение от стен).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Замените Lightning Guns классической снайперской винтовкой.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Замените снайперские винтовки на молниеотводы.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="Снайперские пули"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Вы подобрали снайперские патроны."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Эта снайперская винтовка с высокой начальной скоростью пули и 10-кратным оптическим прицелом является смертельным оружием на любой дистанции, особенно если вы можете выстрелить в голову."
+; EN: ItemName="Sniper Rifle"
+ItemName="Снайперская винтовка"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="У тебя есть снайперская винтовка."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="% k всадил пулю в череп% o."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="% o выстрелил себе в голову."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="% o выстрелил себе в голову."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="% k проделал дыру в% o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="% o выстрелил себе в ногу."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="% o выстрелил себе в ногу."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Разрешить двойные прыжки"
+; EN: WDString="Allow Wall Dodging"
+WDString="Разрешить уклонение от стен"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Разрешить уклонение от двойных прыжков"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Если этот параметр включен, игроки могут дважды прыгать на пике прыжков."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Если включено, игроки могут уворачиваться от стен."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Если этот параметр включен, игроки могут совершать двойной прыжок на пике уклонения от прыжков."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Изменить урон оружия"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Если включено, оружие наносит больше урона."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Изменить транслокатор"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Если включено, транслокатор заряжается быстрее."
+FriendlyName="UT Classic"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Оружие в классическом стиле UT и возможности передвижения."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Молниеотводы"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Замените все снайперские винтовки на молниеотводы."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Снайперские Винтовки"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Замените все молниеотводы на снайперские винтовки."
+

@@ -1,0 +1,71 @@
+[DamTypeArtilleryShell]
+; EN: DeathString="%k rained on %o's parade."
+DeathString="% k обрушился на парад% o."
+; EN: FemaleSuicide="%o managed to kill herself with her own Artillery."
+FemaleSuicide="% o удалось убить себя собственной артиллерией."
+; EN: MaleSuicide="%o managed to kill himself with his own Artillery."
+MaleSuicide="% o удалось убить себя собственной артиллерией."
+
+[DamTypeONSCicadaLaser]
+; EN: DeathString="%k's blaster stung %o."
+DeathString="Бластер% k ужалил% o."
+; EN: FemaleSuicide="%o used her blaster on herself."
+FemaleSuicide="% o использовала свой бластер на себе."
+; EN: MaleSuicide="%o used his blaster on himself."
+MaleSuicide="% o использовал свой бластер на себе."
+
+[DamTypeONSCicadaRocket]
+; EN: DeathString="%k's blew %o to bits."
+DeathString="% k разнесло% o вдребезги."
+; EN: FemaleSuicide="%o blew herself up good."
+FemaleSuicide="% o хорошо взорвалась."
+; EN: MaleSuicide="%o blew himself up good."
+MaleSuicide="% o хорошенько взорвал себя."
+
+[DamTypeShockTankProximityExplosion]
+; EN: DeathString="%o got too close to %k's Paladin."
+DeathString="% o слишком близко подошел к Паладину% k."
+
+[DamTypeShockTankShockBall]
+; EN: DeathString="%o couldn't avoid the blast from %k's Paladin."
+DeathString="% o не смог избежать взрыва паладина% k."
+
+[MutVehiclePickups]
+; EN: FriendlyName="Vehicle Pickups"
+FriendlyName="Пикапы для автомобилей"
+; EN: Description="Vehicles will pickup items and give them to the driver"
+Description="Транспортные средства заберут предметы и передадут их водителю."
+
+[ONSArtillery]
+; EN: VehiclePositionString="in a SPMA"
+VehiclePositionString="в SPMA"
+VehicleNameString="SPMA"
+
+[ONSArtillerySideGunPawn]
+; EN: VehiclePositionString="in a SPMA side turret"
+VehiclePositionString="в боковой башне СПМА"
+; EN: VehicleNameString="SPMA Side Turret"
+VehicleNameString="Боковая турель SPMA"
+
+[ONSDualACGatlingGunPawn]
+; EN: LockedMsg=" INCOMING "
+LockedMsg=" ВХОДЯЩИЙ "
+; EN: VehiclePositionString="in a Cicada turret"
+VehiclePositionString="в башне цикады"
+; EN: VehicleNameString="Cicada Laser Turret"
+VehicleNameString="Лазерная турель Цикада"
+
+[ONSDualAttackCraft]
+; EN: LockedMsg=" Locked "
+LockedMsg=" Заблокировано "
+; EN: VehiclePositionString="in a Cicada"
+VehiclePositionString="в цикаде"
+; EN: VehicleNameString="Cicada"
+VehicleNameString="Цикада"
+
+[ONSShockTank]
+; EN: VehiclePositionString="in a Paladin"
+VehiclePositionString="в паладине"
+; EN: VehicleNameString="Paladin"
+VehicleNameString="Паладин"
+

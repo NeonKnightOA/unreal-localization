@@ -1,0 +1,205 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; EN: Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="（Caption = "Advanced"、Parent = "Editor"、Class = Editor.EditorEngine、Immediate = True、Category = Advanced）"
+; EN: Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+Preferences="（Caption = "Colors"、Parent = "Editor"、Class = Editor.EditorEngine、Immediate = True、Category = Colors）"
+; EN: Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="（Caption = "Grid"、Parent = "Editor"、Class = Editor.EditorEngine、Immediate = True、Category = Grid）"
+; EN: Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
+Preferences="（Caption = "Rotation Grid"、Parent = "Editor"、Class = Editor.EditorEngine、Immediate = True、Category = RotationGrid）"
+
+[PkgCommandlet]
+HelpCmd="pkg"
+; EN: HelpOneLiner="Imports/Exports data to/from packages using directory structures."
+HelpOneLiner="ディレクトリ構造を使用して、パッケージとの間でデータをインポート/エクスポートします。"
+; EN: HelpUsage="pkg [import/export] [texture/sound] [packagename] [directory]"
+HelpUsage="pkg [import / export] [texture / sound] [packagename] [directory]"
+; EN: HelpParm[0]="import/export"
+HelpParm[0]="インポート・エクスポート"
+; EN: HelpDesc[0]="What you are attempting to do with the data"
+HelpDesc[0]="データで何をしようとしているのか"
+; EN: HelpParm[1]="texture/sound"
+HelpParm[1]="テクスチャ/サウンド"
+; EN: HelpDesc[1]="The type of package you are working with"
+HelpDesc[1]="使用しているパッケージのタイプ"
+; EN: HelpParm[2]="packagename"
+HelpParm[2]="パッケージ名"
+; EN: HelpDesc[2]="The package you are creating/exporting from"
+HelpDesc[2]="作成/エクスポート元のパッケージ"
+; EN: HelpParm[3]="directory"
+HelpParm[3]="ディレクトリ"
+; EN: HelpDesc[3]="The directory to read from/write to"
+HelpDesc[3]="読み取り/書き込み先のディレクトリ"
+
+[MasterCommandlet]
+; EN: HelpCmd="master"
+HelpCmd="主人"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="マスターインストーラーファイルを作成する"
+; EN: HelpUsage="master [-option...] [parm=value]..."
+HelpUsage="マスター[-オプション...] [parm = value]..。"
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from"
+HelpDesc[0]="ソースファイルをコピーするルートディレクトリ"
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to"
+HelpDesc[1]="ソース（リリース）ファイルをコピーするルートディレクトリ"
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference"
+HelpDesc[2]="デルタ圧縮パス参照のパス"
+
+[MapConvertCommandlet]
+HelpCmd="mapconvert"
+; EN: HelpOneLiner="Converts Maps from old format to new (no brush transforms)"
+HelpOneLiner="マップを古い形式から新しい形式に変換します（ブラシ変換なし）"
+HelpUsage="mapconvert SrcFilename DstFilename"
+HelpParm[0]="SrcFilename"
+; EN: HelpDesc[0]="The map filename to read from"
+HelpDesc[0]="読み取るマップファイル名"
+HelpParm[1]="DstFilename"
+; EN: HelpDesc[1]="The map filename to write to"
+HelpDesc[1]="書き込むマップファイル名"
+
+[MakeCommandlet]
+; EN: HelpCmd="make"
+HelpCmd="作る"
+; EN: HelpOneLiner="Rebuild UnrealScript packages"
+HelpOneLiner="UnrealScriptパッケージを再構築する"
+; EN: HelpUsage="make [-option...] [parm=value]..."
+HelpUsage="make [-option ...] [parm = value]..。"
+; EN: HelpParm[0]="auto"
+HelpParm[0]="自動"
+; EN: HelpDesc[0]="No prompts; assume "yes" to all questions"
+HelpDesc[0]="プロンプトはありません。すべての質問に「はい」と想定します"
+HelpParm[1]="nobind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs"
+HelpDesc[1]="ネイティブ関数を強制的にDLLにバインドしないでください"
+; EN: HelpParm[2]="silentbuild"
+HelpParm[2]="サイレントビルド"
+; EN: HelpDesc[2]="Do not display 'Analyzing' & 'Compiling' messages for every class"
+HelpDesc[2]="すべてのクラスの「分析」および「コンパイル」メッセージを表示しないでください"
+HelpParm[3]="exportcache"
+; EN: HelpDesc[3]="Create cache record files for the compiled package"
+HelpDesc[3]="コンパイルされたパッケージのキャッシュレコードファイルを作成します"
+
+[DXTConvertCommandlet]
+HelpCmd="dxtconvert"
+; EN: HelpOneLiner="Convert DXT3/5 textures to DXT1/ RGBA"
+HelpOneLiner="DXT3 / 5テクスチャをDXT1 / RGBAに変換します"
+HelpUsage="dxtconvert srcpath destpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files"
+HelpDesc[0]="ソースファイルを含むパス"
+HelpParm[1]="destpath"
+; EN: HelpDesc[1]="Path for destination files"
+HelpDesc[1]="宛先ファイルのパス"
+
+[DataRipCommandlet]
+HelpCmd="datarip"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="テクスチャ、音楽、サウンドのデータを取り除いたパッケージを作成します。"
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package"
+HelpDesc[0]="ソースパッケージ"
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package"
+HelpDesc[1]="デスティネーションパッケージ"
+
+[PackageFlagCommandlet]
+HelpCmd="packageflag"
+; EN: HelpOneLiner="Set package flags in package files"
+HelpOneLiner="パッケージファイルにパッケージフラグを設定する"
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [dest.ext &lt;+ |-&gt;フラグ[&lt;+ |-&gt;フラグ] ...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load"
+HelpDesc[0]="ロードする既存のパッケージファイル"
+HelpParm[1]="dest.exe"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings"
+HelpDesc[1]="新しいフラグ設定を持つ新しいパッケージファイルの名前"
+; EN: HelpParm[2]="flag"
+HelpParm[2]="国旗"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+はフラグを設定するか、-はフラグを削除し、その後に次のいずれかを続けます。"
+HelpParm[3]=" "
+HelpDesc[3]="  AllowDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClientOptional"
+HelpParm[5]=" "
+HelpDesc[5]="  ServerSideOnly"
+HelpParm[6]=" "
+; EN: HelpDesc[6]="  BrokenLinks"
+HelpDesc[6]="  壊れたリンク"
+HelpParm[7]=" "
+; EN: HelpDesc[7]="  Unsecure"
+HelpDesc[7]="  安全でない"
+
+[ConformCommandlet]
+; EN: HelpCmd="conform"
+HelpCmd="適合"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="準拠するバイナリファイルを生成する"
+; EN: HelpUsage="conform existing_file.ext old_file.ext"
+HelpUsage="準拠existing_file.extold_file.ext"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="既存のファイル.ext"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save"
+HelpDesc[0]="ロード、適合、保存する既存のバイナリファイル"
+HelpParm[1]="oldfile.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with"
+HelpDesc[1]="ソースファイルをバイナリと互換性のある古いファイル"
+
+[BatchExportCommandlet]
+HelpCmd="batchexport"
+; EN: HelpOneLiner="Export objects in bulk"
+HelpOneLiner="オブジェクトをまとめてエクスポートする"
+HelpUsage="batchexport package.ext classname export_ext"
+HelpParm[0]="package.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export"
+HelpDesc[0]="オブジェクトをエクスポートするパッケージ"
+; EN: HelpParm[1]="classname"
+HelpParm[1]="クラス名"
+; EN: HelpDesc[1]="Class of object to export"
+HelpDesc[1]="エクスポートするオブジェクトのクラス"
+HelpParm[2]="export_ext"
+; EN: HelpDesc[2]="File extension to export to"
+HelpDesc[2]="エクスポート先のファイル拡張子"
+; EN: HelpParm[3]="path"
+HelpParm[3]="道"
+; EN: HelpDesc[3]="Path to export files to, like c:\MyPath"
+HelpDesc[3]="c：\ MyPathのように、ファイルをエクスポートするパス"
+
+[AnalyzeContentCommandlet]
+; EN: HelpCmd="analyzecontent"
+HelpCmd="分析コンテンツ"
+; EN: HelpOneLiner="Analyzes map"
+HelpOneLiner="マップを分析します"
+; EN: HelpUsage="analyzecontent mapname"
+HelpUsage="分析コンテンツマップ名"
+; EN: HelpParm[0]="mapname"
+HelpParm[0]="マップ名"
+; EN: HelpDesc[0]="Path to a map file"
+HelpDesc[0]="マップファイルへのパス"

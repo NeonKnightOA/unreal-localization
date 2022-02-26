@@ -1,0 +1,898 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Pokročilý",Parent="Pokročilé možnosti")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Zvuk",Parent="Pokročilé možnosti")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Zobrazit",Parent="Pokročilé možnosti")
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Editor",Parent="Pokročilé možnosti")
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Nastavení hry",Parent="Pokročilé možnosti",Class=Engine.GameInfo,Immediate=True)
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Pokročilé možnosti")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="vytváření sítí",Parent="Pokročilé možnosti")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Vykreslování",Parent="Pokročilé možnosti")
+; "Advanced" root
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Nastavení herního enginu",Parent="Pokročilý",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Klíčové aliasy",Parent="Pokročilý",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Raw Key Bindings",Parent="Pokročilý",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Řidiči",Parent="Pokročilé možnosti",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; "Networking" root
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Informace o veřejném serveru",Parent="vytváření sítí",Class=Engine.GameReplicationInfo,Immediate=True)
+
+[Errors]
+; EN: NetOpen=Error opening file
+NetOpen=Chyba při otevírání souboru
+; EN: NetWrite=Error writing to file
+NetWrite=Chyba při zápisu do souboru
+; EN: NetRefused=Server refused to send '%s'
+NetRefused=Server odmítl odeslat '%s'
+; EN: NetClose=Error closing file
+NetClose=Chyba při zavírání souboru
+; EN: NetSize=File size mismatch
+NetSize=Nesoulad velikosti souboru
+; EN: NetMove=Error moving file
+NetMove=Při přesunu souboru došlo k chybě
+; EN: NetInvalid=Received invalid file request
+NetInvalid=Přijat neplatný požadavek na soubor
+; EN: NoDownload=Package '%s' is not downloadable
+NoDownload=Balíček '%s' nelze stáhnout
+; EN: DownloadFailed=Downloading package '%s' failed: %s
+DownloadFailed=Stahování balíčku '%s' se nezdařilo: %s
+; EN: RequestDenied=Server requested file from pending level: Denied
+RequestDenied=Server požadovaný soubor z nevyřízené úrovně: Odepřen
+; EN: ConnectionFailed=Connection failed
+ConnectionFailed=Připojení se nezdařilo
+; EN: ChAllocate=Couldn't allocate channel
+ChAllocate=Kanál se nepodařilo přidělit
+; EN: NetAlready=Already networking
+NetAlready=Již v síti
+; EN: NetListen=Listen failed: No linker context available
+NetListen=Naslouchání se nezdařilo: K dispozici není žádný kontext linkeru
+; EN: LoadEntry=Can't load Entry: %s
+LoadEntry=Nelze načíst položku: %s
+; EN: InvalidUrl=Invalid URL: %s
+InvalidUrl=Neplatná adresa URL: %s
+; EN: InvalidLink=Invalid Link: %s
+InvalidLink=Neplatný odkaz: %s
+; EN: FailedBrowse=Failed to enter %s: %s
+FailedBrowse=Nepodařilo se zadat %s: %s
+; EN: Listen=Listen failed: %s
+Listen=Poslech se nezdařil: %s
+; EN: AbortToEntry=Failed; returning to Entry
+AbortToEntry=Selhal; návratem do Entry
+; EN: ServerOpen=Servers can't open network URLs
+ServerOpen=Servery nemohou otevřít síťové adresy URL
+; EN: ServerListen=Dedicated server can't listen: %s
+ServerListen=Dedikovaný server nemůže naslouchat: %s
+; EN: Pending=Pending connect to '%s' failed; %s
+Pending=Čekající připojení k '%s' se nezdařilo; %s
+; EN: LoadPlayerClass=Failed to load player class
+LoadPlayerClass=Třídu hráče se nepodařilo načíst
+; EN: ServerOutdated=Server's version is outdated
+ServerOutdated=Verze serveru je zastaralá
+; EN: ClientOutdated=You need to apply the latest patches
+ClientOutdated=Musíte použít nejnovější záplaty
+; EN: InvalidCDKey=Your CD key appears to be invalid.  You will need to reinstall the game and enter your CD key to fix this problem.
+InvalidCDKey=Váš CD klíč se zdá být neplatný. Chcete-li tento problém vyřešit, budete muset hru přeinstalovat a zadat klíč CD.
+; EN: ConnectLost=Connection Lost
+ConnectLost=Spojení ztraceno
+; EN: DemoFileMissing=Missing package '%s' for demo playback
+DemoFileMissing=Chybí balíček '%s' pro přehrávání ukázky
+; EN: DownloadNotAllowed=Downloading '%s' not allowed
+DownloadNotAllowed=Stahování '%s' není povoleno
+
+[General]
+; EN: Upgrade=To enter this server, you need the latest free update to Unreal available from Epic's Web site:
+Upgrade=Chcete-li vstoupit na tento server, potřebujete nejnovější bezplatnou aktualizaci Unreal dostupnou na webu společnosti Epic:
+UpgradeURL=http://www.unreal.com/upgrade
+; EN: UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
+UpgradeQuestion=Chcete nyní spustit webový prohlížeč a přejít na stránku upgradu?
+; EN: Version=Version %i
+Version=Verze %i
+
+[KeyNames]
+; EN: Up=UP
+Up=NAHORU
+; EN: Right=RIGHT
+Right=ŽE JO
+; EN: Left=LEFT
+Left=VLEVO, ODJET
+; EN: Down=DOWN
+Down=DOLŮ
+; EN: LeftMouse=LEFT MOUSE
+LeftMouse=LEVÁ MYŠ
+; EN: RightMouse=RIGHT MOUSE
+RightMouse=PRAVÁ MYŠ
+; EN: MiddleMouse=MIDDLE MOUSE
+MiddleMouse=STŘEDNÍ MYŠ
+; EN: MouseX=MOUSE X
+MouseX=MYŠ X
+; EN: MouseY=MOUSE Y
+MouseY=MYŠ Y
+; EN: MouseZ=MOUSE Z
+MouseZ=MYŠ Z
+; EN: MouseW=MOUSE W
+MouseW=MYŠ W
+; EN: JoyX=JOY X
+JoyX=RADOST X
+; EN: JoyY=JOY Y
+JoyY=RADOST Y
+; EN: JoyZ=JOY Z
+JoyZ=RADOST Z
+JoyU=JOY U
+; EN: JoyV=JOY V
+JoyV=RADOST V
+JoySlider1=JOYSLIDER 1
+JoySlider2=JOYSLIDER 2
+; EN: MouseWheelUp=MOUSEWHEEL UP
+MouseWheelUp=KOLEČKO MYŠI NAHORU
+; EN: MouseWheelDown=MOUSEWHEEL DOWN
+MouseWheelDown=KOLEČKO MYŠI DOLŮ
+; EN: Joy1=JOY 1
+Joy1=RADOST 1
+; EN: Joy2=JOY 2
+Joy2=RADOST 2
+; EN: Joy3=JOY 3
+Joy3=RADOST 3
+; EN: Joy4=JOY 4
+Joy4=RADOST 4
+; EN: Joy5=JOY 5
+Joy5=RADOST 5
+; EN: Joy6=JOY 6
+Joy6=RADOST 6
+; EN: Joy7=JOY 7
+Joy7=RADOST 7
+; EN: Joy8=JOY 8
+Joy8=RADOST 8
+; EN: Joy9=JOY 9
+Joy9=RADOST 9
+; EN: Joy10=JOY 10
+Joy10=RADOST 10
+; EN: Joy11=JOY 11
+Joy11=RADOST 11
+; EN: Joy12=JOY 12
+Joy12=RADOST 12
+; EN: Joy13=JOY 13
+Joy13=RADOST 13
+; EN: Joy14=JOY 14
+Joy14=RADOST 14
+; EN: Joy15=JOY 15
+Joy15=RADOST 15
+; EN: Joy16=JOY 16
+Joy16=RADOST 16
+; EN: Space=SPACE
+Space=PROSTOR
+; EN: PageUp=PAGE UP
+PageUp=STRÁNKA NAHORU
+; EN: PageDown=PAGE DOWN
+PageDown=STRÁNKA DOLŮ
+; EN: End=END
+End=KONEC
+; EN: Home=HOME
+Home=DOMOV
+; EN: Select=SELECT
+Select=VYBRAT
+; EN: Print=PRINT
+Print=TISK
+; EN: Execute=EXECUTE
+Execute=VYKONAT
+PrintScrn=PRINTSCRN
+; EN: Insert=INSERT
+Insert=VLOŽIT
+; EN: Delete=DELETE
+Delete=VYMAZAT
+; EN: Help=HELP
+Help=POMOC
+NumPad0=NUM 0
+NumPad1=NUM 1
+NumPad2=NUM 2
+NumPad3=NUM 3
+NumPad4=NUM 4
+NumPad5=NUM 5
+NumPad6=NUM 6
+NumPad7=NUM 7
+; EN: NumPad8=NUM 8
+NumPad8=ČÍSLO 8
+NumPad9=NUM 9
+; EN: GreyStar=GREY STAR
+GreyStar=ŠEDÁ HVĚZDA
+; EN: GreyPlus=GREY PLUS
+GreyPlus=ŠEDÁ PLUS
+; EN: Separator=SEPARATOR
+Separator=ODDĚLOVAČ
+; EN: GreyMinus=GREY MINUS
+GreyMinus=ŠEDÝ MÍNUS
+; EN: NumPadPeriod=NUM .
+NumPadPeriod=NUM
+; EN: GreySlash=GREY SLASH
+GreySlash=ŠEDÉ LOMENÍ
+; EN: Pause=PAUSE
+Pause=PAUZA
+CapsLock=CAPSLOCK
+Tab=TAB
+Enter=ENTER
+; EN: Shift=SHIFT
+Shift=POSUN
+NumLock=NUMLOCK
+; EN: Escape=ESCAPE
+Escape=UNIKNOUT
+
+[Progress]
+; EN: CancelledConnect=Cancelled Connect Attempt
+CancelledConnect=Zrušen pokus o připojení
+; EN: RunningNet=%s: %s (%i players)
+RunningNet=%s: %s (%i hráčů)
+; EN: NetReceiving=Receiving '%s': %i/%i
+NetReceiving=Příjem '%s': %i/%i
+; EN: NetReceiveOk=Successfully received '%s'
+NetReceiveOk=Úspěšně přijato '%s'
+; EN: NetSend=Sending '%s'
+NetSend=Odesílání '%s'
+; EN: NetSending=Sending '%s': %i/%i
+NetSending=Odesílání '%s': %i/%i
+; EN: Connecting=Connecting (F10 to Abort)...
+Connecting=Připojování (F10 pro přerušení)...
+; EN: Listening=Listening for clients...
+Listening=Naslouchání klientům...
+; EN: Loading=Loading
+Loading=načítání
+; EN: Saving=Saving
+Saving=Ukládání
+; EN: Paused=Paused by %s
+Paused=Pozastaveno uživatelem %s
+; EN: ReceiveFile=Receiving '%s' (F10 Cancels)
+ReceiveFile=Příjem '%s' (F10 Zruší)
+; EN: ReceiveOptionalFile=Receiving optional file '%s' (Press F10 to Skip)
+ReceiveOptionalFile=Příjem volitelného souboru '%s' (Stiskněte F10 pro přeskočení)
+; EN: ReceiveSize=Size %iK, Complete %3.1f%%
+ReceiveSize=Velikost %iK, kompletní %3.1f%%
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="Připojování (F10 ruší):"
+ConnectingURL=%s://%s/%s
+; EN: CorruptConnect=Incompatible Game Files!
+CorruptConnect=Nekompatibilní herní soubory!
+
+[UpgradeDrivers]
+; EN: OutdatedDrivers=You are running old graphics card drivers that might not work in conjunction with the game.
+OutdatedDrivers=Používáte staré ovladače grafické karty, které nemusí ve spojení s hrou fungovat.
+; EN: OursOrWeb=Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage
+OursOrWeb=Zvolte ANO pro instalaci aktualizovaných ovladačů z našeho CD a NE pro návštěvu domovské stránky výrobce
+; EN: InsertCD=Please insert your Unreal Tournament CD 3
+InsertCD=Vložte prosím své CD Unreal Tournament 3
+NvidiaURL=http://www.nvidia.com/content/drivers/drivers.asp
+AtiURL=http://www.ati.com/support/driver.html
+; EN: CDButton=Upgrade from CD
+CDButton=Upgrade z CD
+; EN: WebButton=Upgrade from Web
+WebButton=Upgrade z webu
+; EN: cancelButton=Don't Upgrade
+cancelButton=Neupgradujte
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5
+; EN: HelpOneLiner=Manipulate the Master MD5 database
+HelpOneLiner=Manipulujte s hlavní databází MD5
+; EN: HelpUsage=mastermd5 [-option..] <params>
+HelpUsage=mastermd5 [-option..] &lt;params&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=-c
+HelpParm[0]=-C
+; EN: HelpDesc[0]=Creates a new MD5 database
+HelpDesc[0]=Vytvoří novou databázi MD5
+; EN: HelpParm[1]=-a
+HelpParm[1]=-A
+; EN: HelpDesc[1]=Adds new packages to the database
+HelpDesc[1]=Přidá nové balíčky do databáze
+HelpParm[2]=-s
+; EN: HelpDesc[2]=Show the current database.
+HelpDesc[2]=Zobrazit aktuální databázi.
+HelpParm[3]=-r
+; EN: HelpDesc[3]=Force the revision of all entries to <param>
+HelpDesc[3]=Vynutit revizi všech položek na &lt;param&gt;
+
+[UModUnpackCommandlet]
+HelpCmd=umodunpack
+; EN: HelpOneLiner=Unpack UMOD files
+HelpOneLiner=Rozbalte soubory UMOD
+; EN: HelpUsage=umodunpack [-option] <filename>
+HelpUsage=umodunpack [-option] &lt;název souboru&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=-x
+HelpParm[0]=-X
+; EN: HelpDesc[0]=Extract files from <filename>
+HelpDesc[0]=Extrahujte soubory z &lt;název_souboru&gt;
+HelpParm[1]=-l
+; EN: HelpDesc[1]=List files in <filename> without extracting.
+HelpDesc[1]=Seznam souborů v &lt;název_souboru&gt; bez rozbalování.
+
+[ServerCommandlet]
+HelpCmd=server
+; EN: HelpOneLiner=Network game server
+HelpOneLiner=Síťový herní server
+; EN: HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpUsage=server map.unr[?hra=typ hry] [-option...] [parm=value]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=Log
+; EN: HelpDesc[0]=Specify the log file to generate
+HelpDesc[0]=Zadejte soubor protokolu, který se má vygenerovat
+HelpParm[1]=AllAdmin
+; EN: HelpDesc[1]=Give all players admin priveleges
+HelpDesc[1]=Dejte všem hráčům oprávnění správce
+
+[ExportCacheCommandlet]
+; EN: HelpCmd=exportcache
+HelpCmd=exportní cache
+; EN: HelpOneLIner=Generates cache record entries for the specified packages.
+HelpOneLIner=Generuje záznamy mezipaměti pro zadané balíčky.
+; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
+; EN: HelpParm[0]=-a
+HelpParm[0]=-A
+HelpParm[1]=-y
+; EN: HelpParm[2]=-v
+HelpParm[2]=-proti
+; EN: HelpParm[3]=package.ext
+HelpParm[3]=balíček.ext
+HelpParm[4]=destfilename.ucl
+; EN: HelpDesc[0]=Update matching entries in destfilename.ucl.  Append any new entries.
+HelpDesc[0]=Aktualizujte odpovídající položky v souboru destfilename.ucl. Připojte všechny nové položky.
+; EN: HelpDesc[1]=Automatically answer 'Yes' to any prompts during the operation.
+HelpDesc[1]=Automaticky odpovězte „Ano“ na všechny výzvy během operace.
+; EN: HelpDesc[2]=Verbose output (to ucc.log)
+HelpDesc[2]=Podrobný výstup (do ucc.log)
+; EN: HelpDesc[3]=Space delimited list of packages (including extension) that should be exported.  Wildcards are supported.  Paths are not required.
+HelpDesc[3]=Mezerou oddělený seznam balíčků (včetně rozšíření), které by měly být exportovány. Zástupné znaky jsou podporovány. Cesty nejsou povinné.
+; EN: HelpDesc[4]=Destination file for exported entries.  Default filename is the name of the package being exported.  To export multiple packages to a single .ucl file, you must specify a destination filename.
+HelpDesc[4]=Cílový soubor pro exportované položky. Výchozí název souboru je název exportovaného balíčku. Chcete-li exportovat více balíčků do jednoho souboru .ucl, musíte zadat cílový název souboru.
+
+[AccessControl]
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="Vaše IP adresa byla na tomto serveru zakázána."
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="Zadané heslo je nesprávné."
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="Chcete-li se připojit k této hře, musíte zadat heslo."
+; EN: SessionBanned="Your IP address has been banned from the current game session."
+SessionBanned="Vaše IP adresa byla zakázána v aktuální herní relaci."
+; EN: KickedMsg="You have been forcibly removed from the game."
+KickedMsg="Byli jste násilně odstraněni ze hry."
+; EN: DefaultKickReason="None specified"
+DefaultKickReason="Není specifikováno"
+; EN: IdleKickReason="Kicked for idling."
+IdleKickReason="Nakopnutý na volnoběh."
+; EN: ACDisplayText[0]="Game Password"
+ACDisplayText[0]="Heslo hry"
+; EN: ACDisplayText[1]="Access Policies"
+ACDisplayText[1]="Zásady přístupu"
+; EN: ACDisplayText[2]="Admin Password"
+ACDisplayText[2]="Heslo správce"
+; EN: ACDisplayText[3]="Login Delay"
+ACDisplayText[3]="Zpoždění přihlášení"
+; EN: ACDescText[0]="If this password is set, players will have to enter it to join this server."
+ACDescText[0]="Pokud je toto heslo nastaveno, hráči jej budou muset zadat, aby se mohli připojit k tomuto serveru."
+; EN: ACDescText[1]="Specifies IP addresses or address ranges which have been banned."
+ACDescText[1]="Určuje IP adresy nebo rozsahy adres, které byly zakázány."
+; EN: ACDescText[2]="Password required to login with administrator privileges on this server."
+ACDescText[2]="Pro přihlášení s administrátorskými právy na tomto serveru je vyžadováno heslo."
+; EN: ACDescText[3]="Number of seconds user must wait after an unsuccessful login attempt before able to login again."
+ACDescText[3]="Počet sekund, které musí uživatel čekat po neúspěšném pokusu o přihlášení, než se bude moci znovu přihlásit."
+
+[AdminBase]
+; EN: Msg_PlayerList="Player List:"
+Msg_PlayerList="Seznam hráčů:"
+; EN: Msg_AllGameMaps="Maps that are valid (can be added) to"
+Msg_AllGameMaps="Mapy, které jsou platné (lze je přidat)."
+; EN: Msg_AllMapLists="Available maplists for %gametype%."
+Msg_AllMapLists="Dostupné seznamy map pro %gametype%."
+; EN: Msg_MapRotationList="Active maps for maplist %maplist%."
+Msg_MapRotationList="Aktivní mapy pro maplist %maplist%."
+; EN: Msg_NoMapsAdded="No maps added to the maplist %maplist%."
+Msg_NoMapsAdded="Do maplistu %maplist% nebyly přidány žádné mapy."
+; EN: Msg_AddedMapToList="Maps successfully added to maplist"
+Msg_AddedMapToList="Mapy byly úspěšně přidány do seznamu map"
+; EN: Msg_NoMapsRemoved="No maps were removed from the maplist %maplist%."
+Msg_NoMapsRemoved="Z maplistu %maplist% nebyly odstraněny žádné mapy."
+; EN: Msg_RemovedFromList="Maps successfully removed from maplist"
+Msg_RemovedFromList="Mapy byly úspěšně odstraněny ze seznamu map"
+; EN: Msg_PlayerBanned="%Player% has been banned from this server"
+Msg_PlayerBanned="%Player% byl vyloučen z tohoto serveru"
+; EN: Msg_SessionBanned="%Player% has been banned for this match"
+Msg_SessionBanned="%Player% byl pro tento zápas zakázán"
+; EN: Msg_PlayerKicked="%Player% has been kicked"
+Msg_PlayerKicked="%Player% byl vyhozen"
+; EN: Msg_NextMapNotFound="Next map not found; Restarting same map"
+Msg_NextMapNotFound="Další mapa nenalezena; Restartování stejné mapy"
+; EN: Msg_ChangingMapTo="Changing Map to %NextMap%"
+Msg_ChangingMapTo="Změna mapy na %NextMap%"
+; EN: Msg_NoMapInRotation="No maps configured for %maplist%."
+Msg_NoMapInRotation="Pro %maplist% nejsou nakonfigurovány žádné mapy."
+; EN: Msg_NoMapsFound="No matching maps in maplist %maplist% were found."
+Msg_NoMapsFound="V maplistu %maplist% nebyly nalezeny žádné odpovídající mapy."
+; EN: Msg_MapIsInRotation="Matching %maplist% maps"
+Msg_MapIsInRotation="Odpovídající mapám %maplist%."
+; EN: Msg_MapNotInRotation="Matching maps which are not members of %maplist%."
+Msg_MapNotInRotation="Odpovídající mapy, které nejsou členy %maplist%."
+; EN: Msg_UnknownParam="Unknown Parameter : %Value%"
+Msg_UnknownParam="Neznámý parametr: %Value%"
+; EN: Msg_NoParamsFound="No Parameters found!"
+Msg_NoParamsFound="Nebyly nalezeny žádné parametry!"
+; EN: Msg_ParamModified="Modification Successful"
+Msg_ParamModified="Úprava proběhla úspěšně"
+; EN: Msg_ParamNotModified="Could not Modify Parameter"
+Msg_ParamNotModified="Parametr nelze upravit"
+; EN: Msg_MapListAdded="Maplist %listname% successfully added for gametype"
+Msg_MapListAdded="Maplist %listname% úspěšně přidán pro typ hry"
+; EN: Msg_MapListRemoved="Maplist %listname% successfully removed from gametype"
+Msg_MapListRemoved="Maplist %listname% byl úspěšně odstraněn z gametype"
+; EN: Msg_EditingMapList="Now editing maplist"
+Msg_EditingMapList="Nyní upravujete maplist"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo."
+PickupMessage="Sebral si nějakou munici."
+
+[BroadcastHandler]
+; EN: BHDisplayText[0]="Mute Spectators"
+BHDisplayText[0]="Ztlumení diváků"
+; EN: BHDisplayText[1]="Partition Spectators"
+BHDisplayText[1]="Diváci oddílu"
+; EN: BHDescText[0]="Check this option to prevent spectators from chatting during the game."
+BHDescText[0]="Zaškrtnutím této možnosti zabráníte divákům v chatování během hry."
+; EN: BHDescText[1]="Check this option to separate spectator chat from player chat."
+BHDescText[1]="Zaškrtnutím této možnosti oddělíte divácký chat od chatu hráče."
+
+[Canvas]
+TinyFontName="UT2003Fonts.FontMono"
+SmallFontName="UT2003Fonts.FontMono"
+MedFontName="UT2003Fonts.FontMono800x600"
+
+[ChatRoomMessage]
+; EN: AnonText="Someone"
+AnonText="Někdo"
+; EN: ChatRoomString[0]="Invalid channel or channel couldn't be found: '%title%'"
+ChatRoomString[0]="Neplatný kanál nebo kanál nebyl nalezen: '%title%'"
+; EN: ChatRoomString[1]="Already a member of channel '%title%'"
+ChatRoomString[1]="Již jste členem kanálu '%title%'"
+; EN: ChatRoomString[2]="Channel '%title%' requires a password!"
+ChatRoomString[2]="Kanál '%title%' vyžaduje heslo!"
+; EN: ChatRoomString[3]="Incorrect password specified for channel '%title%'"
+ChatRoomString[3]="Pro kanál '%title%' bylo zadáno nesprávné heslo"
+; EN: ChatRoomString[4]="You have been banned from channel '%title%'"
+ChatRoomString[4]="Byl vám zakázán přístup ke kanálu '%title%'"
+; EN: ChatRoomString[5]="Couldn't join channel '%title%'.  Channel full!"
+ChatRoomString[5]="Nelze se připojit ke kanálu '%title%'. Kanál je plný!"
+; EN: ChatRoomString[6]="You are not allowed to join channel '%title%'"
+ChatRoomString[6]="Nemáte povolení připojit se ke kanálu '%title%'"
+; EN: ChatRoomString[7]="Successfully joined channel '%title%'"
+ChatRoomString[7]="Úspěšně se připojil ke kanálu '%title%'"
+; EN: ChatRoomString[8]="You left channel '%title%'"
+ChatRoomString[8]="Opustili jste kanál '%title%'"
+; EN: ChatRoomString[9]="Now speaking on channel '%title%'"
+ChatRoomString[9]="Nyní mluvím na kanálu '%title%'"
+; EN: ChatRoomString[10]="No longer speaking on channel '%title%'"
+ChatRoomString[10]="Již nemluvím na kanálu '%title%'"
+; EN: ChatRoomString[11]="'%pri%' joined channel '%title%'"
+ChatRoomString[11]="'%pri%' se připojil ke kanálu '%title%'"
+; EN: ChatRoomString[12]="'%pri%' left channel '%title%'"
+ChatRoomString[12]="'%pri%' levý kanál '%title%'"
+; EN: ChatRoomString[13]="Successfully banned '%pri%' from your personal chat channel"
+ChatRoomString[13]="Úspěšně zablokován '%pri%' z vašeho osobního chatovacího kanálu"
+; EN: ChatRoomString[14]="Voice-chat ban action not successful.  No player with the specified ID was found"
+ChatRoomString[14]="Akce zákazu hlasového chatu nebyla úspěšná. Nebyl nalezen žádný hráč se zadaným ID"
+; EN: ChatRoomString[15]="Voice chat is not enabled on this server"
+ChatRoomString[15]="Hlasový chat není na tomto serveru povolen"
+
+[Crushed]
+; EN: DeathString="%o was crushed by %k."
+DeathString="%o bylo rozdrceno %k."
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="%o byl rozdrcen."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="%o byl rozdrcen."
+
+[DamRanOver]
+; EN: DeathString="%k ran over %o"
+DeathString="%k překonal %o"
+; EN: FemaleSuicide="%o ran over herself"
+FemaleSuicide="%o přejela sama sebe"
+; EN: MaleSuicide="%o ran over himself"
+MaleSuicide="%o přejel sám sebe"
+
+[DamTypeTelefragged]
+; EN: DeathString="%o was telefragged by %k"
+DeathString="%o bylo telefragováno uživatelem %k"
+; EN: FemaleSuicide="%o was telefragged by %k"
+FemaleSuicide="%o bylo telefragováno uživatelem %k"
+; EN: MaleSuicide="%o was telefragged by %k"
+MaleSuicide="%o bylo telefragováno uživatelem %k"
+
+[DamageType]
+; EN: DeathString="%o was killed by %k."
+DeathString="%o byl zabit %k."
+; EN: FemaleSuicide="%o killed herself."
+FemaleSuicide="%o se zabila."
+; EN: MaleSuicide="%o killed himself."
+MaleSuicide="%o se zabil."
+
+[FailedConnect]
+; EN: FailMessage[0]="FAILED TO JOIN GAME.  NEED PASSWORD."
+FailMessage[0]="NESPĚL SE PŘIPOJENÍ DO HRY. POTŘEBUJETE HESLO."
+; EN: FailMessage[1]="FAILED TO JOIN GAME.  WRONG PASSWORD."
+FailMessage[1]="NESPĚL SE PŘIPOJENÍ DO HRY. ŠPATNÉ HESLO."
+; EN: FailMessage[2]="FAILED TO JOIN GAME.  GAME HAS STARTED."
+FailMessage[2]="NESPĚL SE PŘIPOJENÍ DO HRY. HRA ZAČALA."
+; EN: FailMessage[3]="FAILED TO JOIN GAME."
+FailMessage[3]="NESPĚL SE PŘIPOJENÍ DO HRY."
+
+[FellLava]
+; EN: DeathString="%k made %o take a deadly swim."
+DeathString="%k přiměl %o, aby si zaplaval."
+; EN: FemaleSuicide="%o crashed and burned"
+FemaleSuicide="%o havaroval a shořel"
+; EN: MaleSuicide="%o crashed and burned"
+MaleSuicide="%o havaroval a shořel"
+
+[GameInfo]
+; EN: bAlternateMode=False
+bAlternateMode=Nepravdivé
+; EN: GoreLevelText[0]="No Gore"
+GoreLevelText[0]="Žádný Gore"
+; EN: GoreLevelText[1]="Reduced Gore"
+GoreLevelText[1]="Snížená Gore"
+GoreLevelText[2]="Full Gore"
+; EN: DefaultPlayerName="Player"
+DefaultPlayerName="Hráč"
+; EN: GameName="Game"
+GameName="Hra"
+GIPropsDisplayText[0]="Bot Skill"
+; EN: GIPropsDisplayText[1]="Weapons Stay"
+GIPropsDisplayText[1]="Zbraně zůstat"
+; EN: GIPropsDisplayText[2]="Reduce Gore Level"
+GIPropsDisplayText[2]="Snižte úroveň Gore"
+; EN: GIPropsDisplayText[3]="Game Speed"
+GIPropsDisplayText[3]="Rychlost hry"
+; EN: GIPropsDisplayText[4]="Max Spectators"
+GIPropsDisplayText[4]="Maximální počet diváků"
+; EN: GIPropsDisplayText[5]="Max Players"
+GIPropsDisplayText[5]="Maximálně hráčů"
+; EN: GIPropsDisplayText[6]="Goal Score"
+GIPropsDisplayText[6]="Skóre gólu"
+; EN: GIPropsDisplayText[7]="Max Lives"
+GIPropsDisplayText[7]="Max žije"
+; EN: GIPropsDisplayText[8]="Time Limit"
+GIPropsDisplayText[8]="Lhůta"
+; EN: GIPropsDisplayText[9]="World Stats Logging"
+GIPropsDisplayText[9]="Logování světových statistik"
+; EN: GIPropsDisplayText[10]="Allow Weapon Throwing"
+GIPropsDisplayText[10]="Povolit házení zbraní"
+; EN: GIPropsDisplayText[11]="Allow Behind View"
+GIPropsDisplayText[11]="Povolit pohled zezadu"
+; EN: GIPropsDisplayText[12]="Allow Admin Pausing"
+GIPropsDisplayText[12]="Povolit pozastavení správce"
+GIPropsDisplayText[13]="Kick Idlers Time"
+; EN: GIPropsDisplayText[14]="Weapons shake view"
+GIPropsDisplayText[14]="Pohled na zbraně chvění"
+; EN: GIPropDescText[0]="Set the skill of your bot opponents."
+GIPropDescText[0]="Nastavte dovednosti vašich botových protivníků."
+; EN: GIPropDescText[1]="When enabled, weapons will always be available for pickup."
+GIPropDescText[1]="Když je povoleno, zbraně budou vždy k dispozici pro vyzvednutí."
+; EN: GIPropDescText[2]="Enable this option to reduce the amount of blood and guts you see."
+GIPropDescText[2]="Povolením této možnosti snížíte množství krve a vnitřností, které vidíte."
+; EN: GIPropDescText[3]="Controls how fast time passes in the game."
+GIPropDescText[3]="Ovládá, jak rychle ve hře plyne čas."
+; EN: GIPropDescText[4]="Sets the maximum number of spectators that can watch the game."
+GIPropDescText[4]="Nastavuje maximální počet diváků, kteří mohou hru sledovat."
+; EN: GIPropDescText[5]="Sets the maximum number of players that can join this server."
+GIPropDescText[5]="Nastavuje maximální počet hráčů, kteří se mohou připojit k tomuto serveru."
+; EN: GIPropDescText[6]="The game ends when someone reaches this score."
+GIPropDescText[6]="Hra končí, když někdo dosáhne tohoto skóre."
+; EN: GIPropDescText[7]="Limits how many times players can respawn after dying."
+GIPropDescText[7]="Omezuje, kolikrát se mohou hráči po smrti znovu objevit."
+; EN: GIPropDescText[8]="The game ends after this many minutes of play."
+GIPropDescText[8]="Hra končí po tolika minutách hry."
+; EN: GIPropDescText[9]="Enable this option to send game statistics to the UT2004 global stats server"
+GIPropDescText[9]="Povolte tuto možnost, chcete-li odesílat statistiky hry na server globálních statistik UT2004"
+; EN: GIPropDescText[10]="When enabled, players can throw their current weapon out."
+GIPropDescText[10]="Je-li povoleno, hráči mohou vyhodit svou aktuální zbraň."
+; EN: GIPropDescText[11]="Controls whether players can switch to a third person view."
+GIPropDescText[11]="Ovládá, zda se hráči mohou přepnout do pohledu třetí osoby."
+; EN: GIPropDescText[12]="Controls whether administrators can pause the game."
+GIPropDescText[12]="Určuje, zda mohou správci hru pozastavit."
+; EN: GIPropDescText[13]="Specifies how long to wait before kicking idle player from server."
+GIPropDescText[13]="Určuje, jak dlouho se má čekat před vyhozením nečinného hráče ze serveru."
+; EN: GIPropDescText[14]="When enabled, some weapons cause view shaking while firing."
+GIPropDescText[14]="Je-li povoleno, některé zbraně způsobují chvění pohledu při střelbě."
+; EN: GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
+GIPropsExtras[0]="0,000000;Nováček;1,000000;Průměr;2,000000;Zkušený;3000000;Kvalifikovaný;4,000000;Adept;5,000000;Mistrovský;6000000;Nelidský;70;0000"
+; EN: NoBindString="[None]"
+NoBindString="[Žádný]"
+
+[GameMessage]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="Přepínání úrovní"
+; EN: LeftMessage=" left the game."
+LeftMessage=" opustil hru."
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="Nepodařilo se najít tým pro hráče"
+; EN: FailedPlaceMessage="Could not find a starting spot"
+FailedPlaceMessage="Nepodařilo se najít výchozí místo"
+; EN: FailedSpawnMessage="Could not spawn player"
+FailedSpawnMessage="Hráč se nepodařilo spustit"
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" vstoupil do hry."
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="Kapacita serveru je již naplněna."
+; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
+OvertimeMessage="Skóre na konci pravidla vyrovnané. Náhlá smrt Přesčas!!!"
+; EN: GlobalNameChange="changed name to"
+GlobalNameChange="změnil název na"
+; EN: NewTeamMessage="is now on"
+NewTeamMessage="je nyní zapnuto"
+; EN: NoNameChange="Name is already in use."
+NoNameChange="Název se již používá."
+; EN: VoteStarted="started a vote."
+VoteStarted="zahájil hlasování."
+; EN: VotePassed="Vote passed."
+VotePassed="Hlasování prošlo."
+; EN: MustHaveStats="Must have stats enabled to join this server."
+MustHaveStats="Chcete-li se připojit k tomuto serveru, musíte mít povoleny statistiky."
+; EN: CantBeSpectator="Sorry, you cannot become a spectator at this time."
+CantBeSpectator="Je nám líto, ale v tuto chvíli se nemůžete stát divákem."
+; EN: CantBePlayer="Sorry, you cannot become an active player at this time."
+CantBePlayer="Litujeme, v tuto chvíli se nemůžete stát aktivním hráčem."
+; EN: BecameSpectator="became a spectator."
+BecameSpectator="se stal divákem."
+; EN: NewPlayerMessage="A new player entered the game."
+NewPlayerMessage="Do hry vstoupil nový hráč."
+; EN: KickWarning="You are about to be kicked for idling!"
+KickWarning="Chystáte se kopnout za volnoběh!"
+; EN: NewSpecMessage="A spectator entered the game/"
+NewSpecMessage="Do hry vstoupil divák/"
+; EN: SpecEnteredMessage=" joined as a spectator."
+SpecEnteredMessage=" se přidal jako divák."
+
+[GameProfile]
+; EN: PositionName[0]="AUTO-ASSIGN"
+PositionName[0]="AUTOMATICKÉ PŘIŘAZENÍ"
+; EN: PositionName[1]="DEFENSE"
+PositionName[1]="OBRANA"
+; EN: PositionName[2]="OFFENSE"
+PositionName[2]="ÚTOK"
+; EN: PositionName[3]="ROAM"
+PositionName[3]="TOULAT SE"
+; EN: PositionName[4]="SUPPORT"
+PositionName[4]="PODPĚRA, PODPORA"
+
+[GameReplicationInfo]
+; EN: GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[0]="Název serveru"
+; EN: GRIPropsDisplayText[1]="Admin Name"
+GRIPropsDisplayText[1]="Jméno správce"
+; EN: GRIPropsDisplayText[2]="Admin E-Mail"
+GRIPropsDisplayText[2]="E-mail správce"
+GRIPropsDisplayText[3]="MOTD"
+; EN: GRIPropDescText[0]="Server name shown on server browser."
+GRIPropDescText[0]="Název serveru zobrazený v prohlížeči serveru."
+; EN: GRIPropDescText[1]="Server administrator's name"
+GRIPropDescText[1]="Jméno správce serveru"
+; EN: GRIPropDescText[2]="Server administrator's email address."
+GRIPropDescText[2]="E-mailová adresa správce serveru."
+; EN: GRIPropDescText[3]="Message of the Day"
+GRIPropDescText[3]="Zpráva dne"
+
+[Gibbed]
+; EN: DeathString="%o exploded in a shower of body parts"
+DeathString="%o explodoval ve sprše částí těla"
+; EN: FemaleSuicide="%o exploded in a shower of body parts"
+FemaleSuicide="%o explodoval ve sprše částí těla"
+; EN: MaleSuicide="%o exploded in a shower of body parts"
+MaleSuicide="%o explodoval ve sprše částí těla"
+
+[HUD]
+; EN: ProgressFontName="UT2003Fonts.FontEurostile12"
+ProgressFontName="UT2003Písma.FontEurostil12"
+FontArrayNames[0]="Engine.DefaultFont"
+FontArrayNames[1]="Engine.DefaultFont"
+FontArrayNames[2]="Engine.DefaultFont"
+FontArrayNames[3]="Engine.DefaultFont"
+FontArrayNames[4]="Engine.DefaultFont"
+FontArrayNames[5]="Engine.DefaultFont"
+FontArrayNames[6]="Engine.DefaultFont"
+FontArrayNames[7]="Engine.DefaultFont"
+FontArrayNames[8]="Engine.DefaultFont"
+
+[Info]
+; EN: RulesGroup="Rules"
+RulesGroup="Pravidla"
+; EN: GameGroup="Game"
+GameGroup="Hra"
+; EN: ServerGroup="Server"
+ServerGroup="server"
+; EN: ChatGroup="Chat"
+ChatGroup="Povídat si"
+; EN: BotsGroup="Bots"
+BotsGroup="roboti"
+; EN: MapVoteGroup="Map Voting"
+MapVoteGroup="Mapové hlasování"
+; EN: KickVoteGroup="Kick Voting"
+KickVoteGroup="Kick Hlasování"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Nepojmenovaná"
+
+[MaplistManager]
+; EN: DefaultListName="Default"
+DefaultListName="Výchozí"
+; EN: InvalidGameType="could not be loaded.  Normally, this means an .u file has been deleted, but the .int file has not."
+InvalidGameType="nelze načíst. Normálně to znamená, že soubor .u byl odstraněn, ale soubor .int nikoli."
+; EN: ReallyInvalidGameType="The requested gametype '%gametype%' could not be loaded."
+ReallyInvalidGameType="Požadovaný typ hry '%gametype%' nelze načíst."
+; EN: DefaultListExists="Gametype already has a default list!"
+DefaultListExists="Gametype již má výchozí seznam!"
+
+[MatSubAction]
+Desc="N/A"
+
+[Pickup]
+; EN: PickupMessage="Snagged an item."
+PickupMessage="Chytil položku."
+
+[PlayerController]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Rychlé ukládání"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Hru nelze pozastavit"
+; EN: ViewingFrom="Now viewing from"
+ViewingFrom="Nyní se díváte z"
+; EN: OwnCamera="Now viewing from own camera"
+OwnCamera="Nyní sledování z vlastní kamery"
+
+[PlayerReplicationInfo]
+; EN: StringDead="Dead"
+StringDead="Mrtví"
+; EN: StringSpectating="Spectating"
+StringSpectating="Diváci"
+; EN: StringUnknown="Unknown"
+StringUnknown="Neznámý"
+
+[StreamPlaylistManager]
+; EN: DefaultPlaylistName="New Playlist"
+DefaultPlaylistName="Nový seznam skladeb"
+
+[SubActionCameraEffect]
+; EN: Desc="Camera effect"
+Desc="Efekt fotoaparátu"
+
+[SubActionCameraShake]
+; EN: Desc="Shake"
+Desc="Otřást"
+
+[SubActionFOV]
+Desc="FOV"
+
+[SubActionFade]
+; EN: Desc="Fade"
+Desc="Slábnout"
+
+[SubActionGameSpeed]
+; EN: Desc="Game Speed"
+Desc="Rychlost hry"
+
+[SubActionOrientation]
+; EN: Desc="Orientation"
+Desc="Orientace"
+
+[SubActionSceneSpeed]
+; EN: Desc="Scene Speed"
+Desc="Rychlost scény"
+
+[SubActionSubTitle]
+; EN: Desc="SubTitle"
+Desc="Podtitul"
+
+[SubActionTrigger]
+; EN: Desc="Trigger"
+Desc="Spoušť"
+
+[Suicided]
+; EN: DeathString="%o had an aneurysm."
+DeathString="%o měl aneuryzma."
+; EN: FemaleSuicide="%o had an aneurysm."
+FemaleSuicide="%o měl aneuryzma."
+; EN: MaleSuicide="%o had an aneurysm."
+MaleSuicide="%o měl aneuryzma."
+
+[TeamInfo]
+; EN: TeamName="Team"
+TeamName="tým"
+; EN: ColorNames[0]="Red"
+ColorNames[0]="Červené"
+; EN: ColorNames[1]="Blue"
+ColorNames[1]="Modrý"
+; EN: ColorNames[2]="Green"
+ColorNames[2]="Zelená"
+; EN: ColorNames[3]="Gold"
+ColorNames[3]="Zlato"
+
+[Vehicle]
+; EN: VehiclePositionString="in a vehicle"
+VehiclePositionString="ve vozidle"
+; EN: VehicleNameString="Vehicle"
+VehicleNameString="Vozidlo"
+
+[VoiceChatReplicationInfo]
+PublicChannelNames=("Public","Local")
+; EN: VCDisplayText[0]="Enable Voice Chat"
+VCDisplayText[0]="Povolit hlasový chat"
+; EN: VCDisplayText[1]="Enable local Channel"
+VCDisplayText[1]="Povolit místní kanál"
+; EN: VCDisplayText[2]="Local Chat Range"
+VCDisplayText[2]="Místní chatovací oblast"
+; EN: VCDisplayText[3]="Local Chat Radius"
+VCDisplayText[3]="Místní poloměr chatu"
+; EN: VCDisplayText[4]="Allowed VoIP Codecs"
+VCDisplayText[4]="Povolené kodeky VoIP"
+; EN: VCDisplayText[5]="Allowed VoIP LAN Codecs"
+VCDisplayText[5]="Povolené kodeky VoIP LAN"
+; EN: VCDescText[0]="Enable voice chat on the server."
+VCDescText[0]="Povolit hlasový chat na serveru."
+; EN: VCDescText[1]="Determines whether the "local" voice chat channel is created, which allows players to broadcast voice transmissions to all players in the immediate vicinity."
+VCDescText[1]="Určuje, zda je vytvořen „místní“ kanál hlasového chatu, který hráčům umožňuje vysílat hlasové přenosy všem hráčům v bezprostřední blízkosti."
+; EN: VCDescText[2]="Maximum distance at which a broadcast on the local channel may be heard"
+VCDescText[2]="Maximální vzdálenost, na kterou lze slyšet vysílání na místním kanálu"
+; EN: VCDescText[3]="Distance at which local broadcasts begin to fade"
+VCDescText[3]="Vzdálenost, ve které místní vysílání začne slábnout"
+; EN: VCDescText[4]="Configure which codecs exist on the server and should be used in Internet games."
+VCDescText[4]="Nakonfigurujte, které kodeky existují na serveru a měly by být používány v internetových hrách."
+; EN: VCDescText[5]="Configure which codecs exist on the server and should be used in LAN games."
+VCDescText[5]="Nakonfigurujte, které kodeky existují na serveru a měly by být používány ve hrách LAN."
+; EN: InstalledCodec=((CodecName="Less Bandwidth",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Better Quality",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+InstalledCodec=((CodecName="Menší šířka pásma",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Lepší kvalita",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+
+[Volume]
+; EN: LocationName="unspecified"
+LocationName="nespecifikováno"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo"
+MessageNoAmmo=" nemá munici"
+
+[WeaponPickup]
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Máš zbraň"
+
+[XBoxPlayerInput]
+; EN: LookPresets[0].PresetName="Linear"
+LookPresets[0].PresetName="Lineární"
+; EN: LookPresets[1].PresetName="Exponential"
+LookPresets[1].PresetName="Exponenciální"
+; EN: LookPresets[2].PresetName="Hybrid"
+LookPresets[2].PresetName="Hybridní"
+; EN: LookPresets[3].PresetName="Custom"
+LookPresets[3].PresetName="Zvyk"
+
+[fell]
+; EN: DeathString="%k pushed %o over the edge."
+DeathString="%k posunul %o přes okraj."
+; EN: FemaleSuicide="%o left a small crater"
+FemaleSuicide="%o zanechal malý kráter"
+; EN: MaleSuicide="%o left a small crater"
+MaleSuicide="%o zanechal malý kráter"
+

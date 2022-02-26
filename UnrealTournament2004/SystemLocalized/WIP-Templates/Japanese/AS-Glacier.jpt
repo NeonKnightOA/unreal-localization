@@ -1,0 +1,331 @@
+[DestroyableObjective1]
+; EN: ObjectiveName="Secondary Dam Controls"
+ObjectiveName="二次ダム制御"
+; EN: DestructionMessage="Secondary Dam Shutdown"
+DestructionMessage="二次ダムのシャットダウン"
+; EN: ObjectiveDescription="Destroy the dam controls"
+ObjectiveDescription="ダムコントロールを破壊する"
+; EN: Objective_Info_Attacker="Shutdown Secondary Dam"
+Objective_Info_Attacker="二次ダムのシャットダウン"
+; EN: Objective_Info_Defender="Defend Secondary Dam"
+Objective_Info_Defender="二次ダムを守る"
+
+[DestroyableObjective5]
+; EN: ObjectiveName="Primary Dam Controls"
+ObjectiveName="一次ダム制御"
+; EN: DestructionMessage="Primary Dam Shutdown"
+DestructionMessage="一次ダムのシャットダウン"
+; EN: ObjectiveDescription="Destroy the dam controls"
+ObjectiveDescription="ダムコントロールを破壊する"
+; EN: Objective_Info_Attacker="Shutdown Primary Dam"
+Objective_Info_Attacker="一次ダムをシャットダウンする"
+; EN: Objective_Info_Defender="Defend Primary Dam"
+Objective_Info_Defender="一次ダムを守る"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Depot Door"
+ObjectiveName="デポドア"
+; EN: DestructionMessage="Depot Door Destroyed"
+DestructionMessage="デポドアが破壊されました"
+; EN: ObjectiveDescription="Destroy the depot doors blocking your path  "
+ObjectiveDescription="あなたの道を塞いでいるデポのドアを破壊する  "
+; EN: Objective_Info_Attacker="Destroy the Depot Door"
+Objective_Info_Attacker="デポドアを破壊する"
+; EN: Objective_Info_Defender="Defend the Depot Door"
+Objective_Info_Defender="デポドアを守る"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Blast Door"
+ObjectiveName="ブラストドア"
+; EN: DestructionMessage="Blast Door Breached!"
+DestructionMessage="ブラストドアが破られました！"
+; EN: ObjectiveDescription="Destroy blast door blocking the base exit"
+ObjectiveDescription="ベース出口を塞いでいるブラストドアを破壊する"
+; EN: Objective_Info_Attacker="Destroy the Blast Door"
+Objective_Info_Attacker="ブラストドアを破壊する"
+; EN: Objective_Info_Defender="Defend the Blast Door"
+Objective_Info_Defender="ブラストドアを守る"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Access Tunnel Doors"
+ObjectiveName="トンネルドアへのアクセス"
+; EN: DestructionMessage="Access Tunnel Doors Destroyed"
+DestructionMessage="アクセストンネルのドアが破壊されました"
+; EN: ObjectiveDescription="Use the ion tank to destroy the power station access doors"
+ObjectiveDescription="イオンタンクを使用して、発電所のアクセスドアを破壊します"
+; EN: Objective_Info_Attacker="Destroy Access Doors"
+Objective_Info_Attacker="アクセスドアを破壊する"
+; EN: Objective_Info_Defender="Protect Access Doors"
+Objective_Info_Defender="アクセスドアを保護する"
+
+[HoldObjective0]
+; EN: ObjectiveName="Ion Core Switch"
+ObjectiveName="イオンコアスイッチ"
+; EN: DestructionMessage="Ion Core Switch Activated"
+DestructionMessage="イオンコアスイッチがアクティブになりました"
+; EN: ObjectiveDescription="Pull the core levers to activate the ion core"
+ObjectiveDescription="コアレバーを引いてイオンコアをアクティブにします"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="イオンコアをアクティブにします"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="イオンコアを守る"
+
+[HoldObjective2]
+; EN: ObjectiveName="Security Gate Controls"
+ObjectiveName="セキュリティゲートコントロール"
+; EN: DestructionMessage="Security Gate Open"
+DestructionMessage="セキュリティゲートオープン"
+; EN: ObjectiveDescription="Pull the power lever to open the security gate"
+ObjectiveDescription="電源レバーを引いてセキュリティゲートを開きます"
+; EN: Objective_Info_Attacker="Open Security Gate"
+Objective_Info_Attacker="セキュリティゲートを開く"
+; EN: Objective_Info_Defender="Defend Power Station"
+Objective_Info_Defender="発電所を守る"
+
+[HoldObjective4]
+; EN: ObjectiveName="Bridge Controls"
+ObjectiveName="ブリッジコントロール"
+; EN: DestructionMessage="Bridge Raised"
+DestructionMessage="上げられた橋"
+; EN: ObjectiveDescription="Use the control box to raise the bridge"
+ObjectiveDescription="コントロールボックスを使用して橋を上げる"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="イオンコアをアクティブにします"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="イオンコアを守る"
+
+[HoldObjective5]
+; EN: ObjectiveName="Ion Core Switch"
+ObjectiveName="イオンコアスイッチ"
+; EN: DestructionMessage="Ion Core Switch Activated"
+DestructionMessage="イオンコアスイッチがアクティブになりました"
+; EN: ObjectiveDescription="Pull the core levers to activate the ion core"
+ObjectiveDescription="コアレバーを引いてイオンコアをアクティブにします"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="イオンコアをアクティブにします"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="イオンコアを守る"
+
+[LevelInfo0]
+; EN: Title="Glacier"
+Title="氷河"
+
+[LevelSummary]
+; EN: Title="Glacier"
+Title="氷河"
+; EN: Description="In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.  This scenario recreates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.  You must infiltrate the facility, steal the plasma ion tank, and destroy the entire facility."
+Description="ほとんど秘密のコーポレーションウォーズの最も大胆な行為の1つで、ラムドン3に関するイザナギコーポレーションの研究施設は、エリートNEGサンダークラッシュフォースによって保護されたにもかかわらず、アクソンリサーチコーポレーションからのストライキによって襲撃され破壊されました。このシナリオは、その使命を再現します。 Axonは施設を破壊するだけでなく、そこで開発中の高度なプラズマイオンタンクを回収することもできました。施設に潜入し、プラズマイオンタンクを盗み、施設全体を破壊する必要があります。"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Infiltrate Base"
+ObjectiveName="潜入基地"
+; EN: DestructionMessage="Base Infiltrated"
+DestructionMessage="ベース浸透"
+; EN: ObjectiveDescription="Pass through the base doors to infiltrate the base "
+ObjectiveDescription="ベースドアを通過してベースに浸透します "
+; EN: Objective_Info_Attacker="Infiltrate the Base"
+Objective_Info_Attacker="基地に潜入する"
+; EN: Objective_Info_Defender="Defend the Base"
+Objective_Info_Defender="基地を守る"
+
+[ProximityObjective1]
+; EN: ObjectiveName="Infiltrate Base"
+ObjectiveName="潜入基地"
+; EN: DestructionMessage="Base Infiltrated"
+DestructionMessage="ベース浸透"
+; EN: ObjectiveDescription="Pass through the base doors to infiltrate the base "
+ObjectiveDescription="ベースドアを通過してベースに浸透します "
+; EN: Objective_Info_Attacker="Infiltrate the Base"
+Objective_Info_Attacker="基地に潜入する"
+; EN: Objective_Info_Defender="Defend the Base"
+Objective_Info_Defender="基地を守る"
+
+[ProximityObjective9]
+; EN: ObjectiveName="Base Exit"
+ObjectiveName="ベース出口"
+; EN: DestructionMessage="The Tank has Escaped"
+DestructionMessage="戦車が脱出した"
+; EN: ObjectiveDescription="Drive the tank out of the base"
+ObjectiveDescription="戦車を基地から追い出します"
+; EN: Objective_Info_Attacker="Escape the Base"
+Objective_Info_Attacker="基地を脱出"
+; EN: Objective_Info_Defender="Stop the Tank From Escaping"
+Objective_Info_Defender="タンクが逃げるのを止めてください"
+
+[SceneSubtitles0]
+SubTitles=("In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed","by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.","This scenario re-creates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.","You must infiltrate the facility, steal the Ion Plasma Tank, and destroy the entire facility.","To infiltrate the base you must first cross the frozen lake. Note that the controls to the base access bridge are located within close proximity to the base entrance.","Raising the bridge will considerably shorten the distance for your teammates to enter the base.","Once inside the base you set the ion core to overload, by operating these two switches. ","This will trigger the base's first emergency protocols, opening all exits and allowing you to steal the Ion Tank.","Once you have obtained the tank, continue up the access tunnel toward the power station. The power station feeds power directly from the two hydroelectric dams to the ion core.","To gain access to the dams the security gate must be opened. The controls for the security gate are located within the power station.","The flood valves in the two hydroelectric dams must be opened.","This will cause a power surge big enough to generate a chain reaction within the ion core.","Once the floodgates are open the second emergency protocol will initialize opening all base exits.","With the floodgates open, one objective remains. The only way to escape the base is through the outer wall.","The outer wall has blast doors which are hardened to repel any attack. However they are not entirely invulnerable.","Because of unprecedented power of the ion tank's cannon, several direct shots should be enough to destroy them. When the doors are destroyed drive the tank out to freedom.")
+
+[TriggeredObjective2]
+; EN: ObjectiveName="Ion Tank"
+ObjectiveName="イオンタンク"
+; EN: DestructionMessage="Tank Captured"
+DestructionMessage="捕獲された戦車"
+; EN: Objective_Info_Attacker="Capture the Tank"
+Objective_Info_Attacker="戦車を占領する"
+; EN: Objective_Info_Defender="Defend the Tank"
+Objective_Info_Defender="戦車を守る"
+
+[Volume0]
+; EN: LocationName="tank hanger exit"
+LocationName="タンクハンガー出口"
+
+[Volume1]
+; EN: LocationName="left base area"
+LocationName="左ベースエリア"
+
+[Volume10]
+; EN: LocationName="right base area"
+LocationName="右ベースエリア"
+
+[Volume11]
+; EN: LocationName="ion core"
+LocationName="イオンコア"
+
+[Volume12]
+; EN: LocationName="power station interior"
+LocationName="発電所内部"
+
+[Volume13]
+; EN: LocationName="secondary dam interior"
+LocationName="二次ダム内部"
+
+[Volume14]
+; EN: LocationName="secondary dam interior"
+LocationName="二次ダム内部"
+
+[Volume15]
+; EN: LocationName="primary dam interior"
+LocationName="一次ダム内部"
+
+[Volume16]
+; EN: LocationName="primary dam interior"
+LocationName="一次ダム内部"
+
+[Volume2]
+; EN: LocationName="secondary dam wall"
+LocationName="二次ダム壁"
+
+[Volume3]
+; EN: LocationName="left base area"
+LocationName="左ベースエリア"
+
+[Volume4]
+; EN: LocationName="rightbase area"
+LocationName="右ベースエリア"
+
+[Volume6]
+; EN: LocationName="primary dam wall"
+LocationName="一次ダム壁"
+
+[Volume7]
+; EN: LocationName="base exit"
+LocationName="ベース出口"
+
+[Volume8]
+; EN: LocationName="base entrance"
+LocationName="ベースエントランス"
+
+[Volume9]
+; EN: LocationName="bridge"
+LocationName="橋"
+
+[ZoneInfo0]
+; EN: LocationName="outside"
+LocationName="外"
+
+[ZoneInfo1]
+; EN: LocationName="storage area"
+LocationName="記憶領域"
+
+[ZoneInfo10]
+; EN: LocationName="left tower entrance"
+LocationName="左タワー入口"
+
+[ZoneInfo11]
+; EN: LocationName="left tower corridor"
+LocationName="左塔の回廊"
+
+[ZoneInfo12]
+; EN: LocationName="Tank Hangar"
+LocationName="タンクハンガー"
+
+[ZoneInfo13]
+; EN: LocationName="base entrance tunnel"
+LocationName="ベース入口トンネル"
+
+[ZoneInfo14]
+; EN: LocationName="Tank Hanger "
+LocationName="タンクハンガー "
+
+[ZoneInfo15]
+; EN: LocationName="ion core"
+LocationName="イオンコア"
+
+[ZoneInfo16]
+; EN: LocationName="access tunnel"
+LocationName="アクセストンネル"
+
+[ZoneInfo17]
+; EN: LocationName="power station control room"
+LocationName="発電所制御室"
+
+[ZoneInfo18]
+; EN: LocationName="base exit control room"
+LocationName="ベース出口制御室"
+
+[ZoneInfo19]
+; EN: LocationName="power station corridor "
+LocationName="発電所の廊下 "
+
+[ZoneInfo2]
+; EN: LocationName="right tower entrance"
+LocationName="右タワー入口"
+
+[ZoneInfo20]
+; EN: LocationName="lower power station "
+LocationName="下部発電所 "
+
+[ZoneInfo21]
+; EN: LocationName="depot"
+LocationName="デポ"
+
+[ZoneInfo22]
+; EN: LocationName="secondary dam control room"
+LocationName="二次ダム制御室"
+
+[ZoneInfo23]
+; EN: LocationName="primary dam control room"
+LocationName="一次ダム制御室"
+
+[ZoneInfo24]
+; EN: LocationName="primary dam observation room"
+LocationName="一次ダム観測室"
+
+[ZoneInfo25]
+; EN: LocationName="ion core"
+LocationName="イオンコア"
+
+[ZoneInfo26]
+; EN: LocationName="secondary dam observation room"
+LocationName="二次ダム観測室"
+
+[ZoneInfo27]
+; EN: LocationName="base exit control room"
+LocationName="ベース出口制御室"
+
+[ZoneInfo3]
+; EN: LocationName="ion core"
+LocationName="イオンコア"
+
+[ZoneInfo4]
+; EN: LocationName="left tower corridor"
+LocationName="左塔の回廊"
+
+[ZoneInfo5]
+; EN: LocationName="upper power station"
+LocationName="上部発電所"
+
+[ZoneInfo8]
+; EN: LocationName="right tower corridor"
+LocationName="右塔の回廊"
+

@@ -1,0 +1,488 @@
+[Action_DISPLAYMESSAGE5]
+Message="5..."
+
+[Action_DISPLAYMESSAGE6]
+Message="4..."
+
+[Action_DISPLAYMESSAGE7]
+Message="3..."
+
+[Action_DISPLAYMESSAGE8]
+Message="2..."
+
+[Action_DISPLAYMESSAGE9]
+Message="1..."
+
+[Counter0]
+; EN: CompleteMessage="Core Vents opened!"
+CompleteMessage="Основные вентиляционные отверстия открыты!"
+
+[Counter2]
+; EN: CompleteMessage="Energy Shield deactivated!!!"
+CompleteMessage="Энергетический щит деактивирован !!!"
+
+[Counter3]
+; EN: CompleteMessage="Doors and lower force field deactivated"
+CompleteMessage="Двери и нижнее силовое поле отключены"
+
+[Counter4]
+; EN: CompleteMessage="Core conductors destroyed!!!"
+CompleteMessage="Основные проводники разрушены !!!"
+
+[Counter5]
+; EN: CompleteMessage="Loading bay force field deactivated!"
+CompleteMessage="Силовое поле погрузочной платформы деактивировано!"
+
+[Counter6]
+; EN: CompleteMessage="Top force fields deactivated!"
+CompleteMessage="Верхние силовые поля деактивированы!"
+
+[DestroyVehicleObjective0]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Часовые турели"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Часовой уничтожен!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Уничтожить сторожевые турели"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Уничтожить часового"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Защищать часового"
+
+[DestroyVehicleObjective1]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Часовые турели"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Часовой уничтожен!"
+; EN: LocationPrefix="lowerhull"
+LocationPrefix="нижний корпус"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Уничтожить сторожевые турели"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Уничтожить часового"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Защищать часового"
+
+[DestroyVehicleObjective2]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Часовые турели"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Часовой уничтожен!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Уничтожить сторожевые турели"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Уничтожить часового"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Защищать часового"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Обход энергии"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Разрушенный байпас ..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Уничтожить обход лазерного поля"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Уничтожить обход энергии"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Защитите обход энергии"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Генератор верхнего щита"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Генератор щита уничтожен"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Уничтожьте генераторы щита"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Уничтожить верхний генератор щита "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Защитите верхний генератор щита "
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Генератор верхнего щита"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Генератор щита уничтожен"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Уничтожьте генераторы щита"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Уничтожить верхний генератор щита "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Защитите верхний генератор щита "
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower shield generator"
+ObjectiveName="Генератор нижнего щита"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Генератор щита уничтожен"
+; EN: ObjectiveDescription="Destroy lower shield generator"
+ObjectiveDescription="Уничтожить нижний генератор щита"
+; EN: Objective_Info_Attacker="Destroy lower shield generator"
+Objective_Info_Attacker="Уничтожить нижний генератор щита"
+; EN: Objective_Info_Defender="Defend lower shield generator "
+Objective_Info_Defender="Защитите нижний генератор щита "
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Жилы жилы ..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Дирижер уничтожен !!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Уничтожить основной проводник"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Уничтожить проводника"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Защитите проводника"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Обход энергии"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Разрушенный байпас ..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Уничтожить обход лазерного поля"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Уничтожить обход энергии"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Защитите обход энергии"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Жилы жилы ..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Дирижер уничтожен !!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Уничтожить основной проводник"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Уничтожить проводника"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Защитите проводника"
+
+[HoldObjective0]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Основные панели."
+; EN: DestructionMessage="Hatch lock #1 released!"
+DestructionMessage="Замок люка №1 освобожден!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Основные панели"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Используйте панель, чтобы разблокировать стержневой люк"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Прекратите любое использование основных панелей"
+
+[HoldObjective1]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Основные панели."
+; EN: DestructionMessage="Hatch lock #2 released!"
+DestructionMessage="Замок люка №2 освобожден!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Основные панели"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Используйте панель, чтобы разблокировать стержневой люк"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Прекратите любое использование основных панелей"
+
+[InfoPod2]
+; EN: POD_Message="Lower Inner Turrets"
+POD_Message="Нижние внутренние турели"
+
+[InfoPod3]
+POD_Message="Link Cannon"
+
+[InfoPod4]
+; EN: POD_Message="Landing Bay Turrets"
+POD_Message="Башни посадочного отсека"
+
+[InfoPod5]
+; EN: POD_Message="Top Inner Turrets"
+POD_Message="Верхние внутренние турели"
+
+[InfoPod6]
+; EN: POD_Message="Top Outer Turrets"
+POD_Message="Верхние внешние турели"
+
+[InfoPod7]
+; EN: POD_Message="Lower Outer Turrets"
+POD_Message="Нижние наружные турели"
+
+[InfoPod8]
+POD_Message="Link Cannon"
+
+[LevelInfo0]
+; EN: Title="Mothership Assault"
+Title="Штурм материнского корабля"
+
+[LevelSummary]
+; EN: Title="Mothership Assault"
+Title="Штурм материнского корабля"
+; EN: Description="First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali. Within a year the Skaarj had pushed humanity back to the brink of destruction. This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat. A Skaarj Mothership orbited the Earth, and rained death upon the planet in preparation for the final landing. In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the Mothership defenses their analysis had revealed."
+Description="Первый контакт со скарджами произошел во время подъема тюремного транспортера Vortex Rikers на На Пали. В течение года Скаарджи отбросили человечество на грань разрушения. Этот сценарий воспроизводит финальную битву за Землю и потрясающую победу людей перед лицом почти неизбежного поражения. Корабль-скаардж вращался вокруг Земли и обрушил на планету смертельный дождь, готовясь к окончательной посадке. В смелой самоубийственной миссии люди атаковали корабль-базу Скаардж на небольших истребителях-одиночках, надеясь использовать брешь в защите корабля-материка, обнаруженную в ходе анализа."
+
+[MessageTrigger15]
+; EN: Message="Prepare to attack!!!"
+Message="Готовьтесь к атаке !!!"
+
+[MessageTrigger17]
+; EN: Message="Prepare the defense!!!"
+Message="Готовьте защиту !!!"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing bay"
+ObjectiveName="Посадочная площадка"
+; EN: DestructionMessage="Attackers have entered the MotherShip!"
+DestructionMessage="Злоумышленники проникли в MotherShip!"
+; EN: ObjectiveDescription="Enter Skaarj ship via landing bay"
+ObjectiveDescription="Войти на корабль Скаарджа через посадочную площадку"
+; EN: Objective_Info_Attacker="Proceed to landing bay"
+Objective_Info_Attacker="Перейти к посадочной площадке"
+; EN: Objective_Info_Defender="Stop the humans from landing "
+Objective_Info_Defender="Остановите людей от посадки "
+
+[SceneSubtitles0]
+SubTitles=("First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali.        ","Within a year the Skaarj had pushed humanity back to the brink of destruction.","This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat.","A Skaarj mother ship orbited the Earth, and rained death upon the planet in preparation for the final landing.","In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the mother ship defenses their analysis had revealed.","Take down the generator within the lower section of the Skaarj mother ship to deactivate the top force fields.","Once completed head upwards into the main body of the Skaarj mother ship. ","Destroy the top generators to deactivate the shield for the landing bay.","Proceed and land in the mother ship landing bay.","Once on foot, proceed to the next section","Two energy bypass mechanisms will need to be destroyed to proceed to the cargo hull.","Past the bridge, the core awaits.","Once in the cargo hull three sentinels await.","The destruction of the sentinels is the only way to proceed forward.","The force fields deactivate once the three sentinels have been destroyed.","Passed the bridge and the core awaits.","Trigger the panels to open the hatch locks.","Once the panels have been triggered shoot the two energy core conductors in order to destabilize the core.")
+
+[Trigger_ASMessageTrigger14]
+; EN: Message="Force field down..."
+Message="Силовое поле вниз ..."
+
+[Trigger_ASMessageTrigger15]
+; EN: Message="Unlock the Core!"
+Message="Разблокируйте Ядро!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Core hatches have been released..."
+Message="Керновые люки выпущены ..."
+
+[Trigger_ASMessageTrigger4]
+; EN: Message="Top force fields down..."
+Message="Сверху силовые поля вниз ..."
+
+[Trigger_ASMessageTrigger5]
+; EN: Message="Attackers have landed!!!"
+Message="Злоумышленники приземлились !!!"
+
+[Trigger_ASMessageTrigger7]
+; EN: Message="Attackers have entered the core!!!"
+Message="Злоумышленники вошли в ядро ​​!!!"
+
+[Trigger_ASMessageTrigger8]
+; EN: Message="Core has been destabilized!"
+Message="Ядро дестабилизировано!"
+
+[Trigger_ASMessageTrigger9]
+; EN: Message="Landing bay force field down"
+Message="Силовое поле посадочной площадки вниз"
+
+[ZoneInfo1]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Коридор гравитационного двигателя справа"
+
+[ZoneInfo10]
+; EN: LocationName="Energy generator #2"
+LocationName="Генератор энергии # 2"
+
+[ZoneInfo12]
+; EN: LocationName="The core"
+LocationName="Ядро"
+
+[ZoneInfo13]
+; EN: LocationName="Right shaft"
+LocationName="Правый вал"
+
+[ZoneInfo14]
+; EN: LocationName="Main middle shaft"
+LocationName="Главный средний вал"
+
+[ZoneInfo16]
+; EN: LocationName="Core exterior"
+LocationName="Основной внешний вид"
+
+[ZoneInfo17]
+; EN: LocationName="Core exterior"
+LocationName="Основной внешний вид"
+
+[ZoneInfo18]
+; EN: LocationName="Inner top shaft"
+LocationName="Внутренний верхний вал"
+
+[ZoneInfo19]
+; EN: LocationName="Core exterior"
+LocationName="Основной внешний вид"
+
+[ZoneInfo2]
+; EN: LocationName="In space"
+LocationName="В космосе"
+
+[ZoneInfo20]
+; EN: LocationName="Lower cross path"
+LocationName="Нижний поперечный путь"
+
+[ZoneInfo21]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Возрождение обхода защитника"
+
+[ZoneInfo22]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Возрождение обхода защитника"
+
+[ZoneInfo23]
+; EN: LocationName="Cargo hull"
+LocationName="Грузовой корпус"
+
+[ZoneInfo24]
+; EN: LocationName="Cargo hull"
+LocationName="Грузовой корпус"
+
+[ZoneInfo25]
+; EN: LocationName="Cargo hull"
+LocationName="Грузовой корпус"
+
+[ZoneInfo26]
+; EN: LocationName="Cargo hull"
+LocationName="Грузовой корпус"
+
+[ZoneInfo27]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Возрождение обхода защитника"
+
+[ZoneInfo28]
+; EN: LocationName="Space craft bay."
+LocationName="Отсек космических кораблей."
+
+[ZoneInfo29]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Коридор грузового корпуса"
+
+[ZoneInfo3]
+; EN: LocationName="Lower section generator shaft"
+LocationName="Вал генератора нижней части"
+
+[ZoneInfo30]
+; EN: LocationName="Elevator shaft"
+LocationName="Шахта лифта"
+
+[ZoneInfo31]
+; EN: LocationName="Elevator passage "
+LocationName="Лифтовой проезд "
+
+[ZoneInfo32]
+; EN: LocationName="Cargo upper bridge left"
+LocationName="Грузовой верхний мост слева"
+
+[ZoneInfo33]
+; EN: LocationName="Cargo upper bridge right"
+LocationName="Грузовой мост верхний правый"
+
+[ZoneInfo34]
+; EN: LocationName="Elevator passage "
+LocationName="Лифтовой проезд "
+
+[ZoneInfo35]
+; EN: LocationName="Energy bypass room"
+LocationName="Комната байпаса энергии"
+
+[ZoneInfo36]
+; EN: LocationName="Left hallway"
+LocationName="Левый коридор"
+
+[ZoneInfo37]
+; EN: LocationName="Attackers landing bay"
+LocationName="Десантный отсек атакующих"
+
+[ZoneInfo38]
+; EN: LocationName="Right hallway"
+LocationName="Правый коридор"
+
+[ZoneInfo39]
+; EN: LocationName="Top energy bypass entrance"
+LocationName="Вход в байпас сверху"
+
+[ZoneInfo4]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Десантный отсек Защитника"
+
+[ZoneInfo40]
+; EN: LocationName="Core entrance"
+LocationName="Основной вход"
+
+[ZoneInfo41]
+; EN: LocationName="Core exterior"
+LocationName="Основной внешний вид"
+
+[ZoneInfo42]
+; EN: LocationName="Core bridge passage left"
+LocationName="Проход основного моста слева"
+
+[ZoneInfo43]
+; EN: LocationName="Gravity engine room #1"
+LocationName="Гравитационное машинное отделение №1"
+
+[ZoneInfo44]
+; EN: LocationName="Gravity engine hallway left"
+LocationName="Коридор гравитационного двигателя слева"
+
+[ZoneInfo45]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Коридор гравитационного двигателя справа"
+
+[ZoneInfo46]
+; EN: LocationName="Gravity engine room #2"
+LocationName="Гравитационное машинное отделение №2"
+
+[ZoneInfo47]
+; EN: LocationName="Core bridge passage right"
+LocationName="Проход основного моста справа"
+
+[ZoneInfo48]
+; EN: LocationName="Core bridge passage right"
+LocationName="Проход основного моста справа"
+
+[ZoneInfo49]
+; EN: LocationName="Cargo hull"
+LocationName="Грузовой корпус"
+
+[ZoneInfo5]
+; EN: LocationName="Energy generator #1"
+LocationName="Генератор энергии # 1"
+
+[ZoneInfo50]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Коридор грузового корпуса"
+
+[ZoneInfo51]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Коридор гравитационного двигателя справа"
+
+[ZoneInfo52]
+; EN: LocationName="Core bridge passage left"
+LocationName="Проход основного моста слева"
+
+[ZoneInfo53]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Коридор гравитационного двигателя справа"
+
+[ZoneInfo54]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Коридор гравитационного двигателя справа"
+
+[ZoneInfo55]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Коридор грузового корпуса"
+
+[ZoneInfo6]
+; EN: LocationName="Landing bay"
+LocationName="Посадочная площадка"
+
+[ZoneInfo7]
+; EN: LocationName="landing bay"
+LocationName="посадочная площадка"
+
+[ZoneInfo8]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Десантный отсек Защитника"
+
+[ZoneInfo9]
+; EN: LocationName="Left shaft"
+LocationName="Левый вал"
+

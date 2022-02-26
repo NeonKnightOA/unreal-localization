@@ -1,0 +1,280 @@
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Coolant Valve Control"
+LocationName="Kylvätskeventilkontroll"
+
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Teleporter Console"
+LocationName="Teleporter konsol"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Jump Engine A Control"
+LocationName="Jump Engine A Kontroll"
+
+[ASCriticalObjectiveVolume4]
+LocationName="Jump Engine B Control"
+
+[ASCriticalObjectiveVolume5]
+; EN: LocationName="Central Computer Console"
+LocationName="Central datorkonsol"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Coolant Valve Control Destroyed!"
+DestructionMessage="Kylvätskeventilstyrning förstörd!"
+; EN: ObjectiveDescription="Destroy Thermal Control Regulator to cool Jumpship engines."
+ObjectiveDescription="Förstör Thermal Control Regulator för att kyla Jumpship-motorer."
+; EN: Objective_Info_Attacker="Destroy Thermal Control Regulator"
+Objective_Info_Attacker="Förstör termisk kontrollregulator"
+; EN: Objective_Info_Defender="Protect Thermal Control Regulator"
+Objective_Info_Defender="Skydda termisk kontrollregulator"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Tryckventil"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Tryckventilen förstörd!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Förstör hydrauliska tryckventiler för att frigöra hoppskeppet"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Förstör hydraulventiler"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Skydda hydraulventiler"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Tryckventil"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Tryckventilen förstörd!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Förstör hydrauliska tryckventiler för att frigöra hoppskeppet"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Förstör hydraulventiler"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Skydda hydraulventiler"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Tryckventil"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Tryckventilen förstörd!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Förstör hydrauliska tryckventiler för att frigöra hoppskeppet"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Förstör hydraulventiler"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Skydda hydraulventiler"
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="Tryckventil"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="Tryckventilen förstörd!"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="Förstör hydrauliska tryckventiler för att frigöra hoppskeppet"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="Förstör hydraulventiler"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="Skydda hydraulventiler"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Computer Lock"
+ObjectiveName="Datorlås"
+; EN: DestructionMessage="Computer Lock Destroyed!"
+DestructionMessage="Datorlås förstört!"
+; EN: ObjectiveDescription="Destroy the computer Routers to gain navigation control of the Jumpship."
+ObjectiveDescription="Förstör datorns routrar för att få navigeringskontroll över Jumpship."
+; EN: Objective_Info_Attacker="Destroy Computer Routers"
+Objective_Info_Attacker="Förstör datorroutrar"
+; EN: Objective_Info_Defender="Defend Computer Routers"
+Objective_Info_Defender="Försvara datorroutrar"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Computer Lock"
+ObjectiveName="Datorlås"
+; EN: DestructionMessage="Computer Lock Destroyed!"
+DestructionMessage="Datorlås förstört!"
+; EN: ObjectiveDescription="Destroy the computer Routers to gain navigation control of the Jumpship."
+ObjectiveDescription="Förstör datorns routrar för att få navigeringskontroll över Jumpship."
+; EN: Objective_Info_Attacker="Destroy Computer Routers"
+Objective_Info_Attacker="Förstör datorroutrar"
+; EN: Objective_Info_Defender="Defend Computer Routers"
+Objective_Info_Defender="Försvara datorroutrar"
+
+[HoldObjective0]
+; EN: DestructionMessage="Engine Activated!"
+DestructionMessage="Motorn aktiverad!"
+; EN: ObjectiveDescription="Hold  the switch to activate the Jump Engine."
+ObjectiveDescription="Håll ned omkopplaren för att aktivera Jump Engine."
+; EN: Objective_Info_Attacker="Activate Jump Engines"
+Objective_Info_Attacker="Aktivera Jump Engines"
+; EN: Objective_Info_Defender="Defend Jump Engines"
+Objective_Info_Defender="Försvara Jump Engines"
+
+[HoldObjective1]
+; EN: DestructionMessage="Engine Activated!"
+DestructionMessage="Motorn aktiverad!"
+; EN: ObjectiveDescription="Hold  the switch to activate the Jump Engine."
+ObjectiveDescription="Håll ned omkopplaren för att aktivera Jump Engine."
+; EN: Objective_Info_Attacker="Activate Jump Engines"
+Objective_Info_Attacker="Aktivera Jump Engines"
+; EN: Objective_Info_Defender="Defend Jump Engines"
+Objective_Info_Defender="Försvara Jump Engines"
+
+[HoldObjective2]
+; EN: ObjectiveName="Central Computer Terminal"
+ObjectiveName="Central datorterminal"
+; EN: DestructionMessage="Computer Programmed!"
+DestructionMessage="Datorprogrammerad!"
+; EN: ObjectiveDescription="Touch and hold computer console to program jump coordinates."
+ObjectiveDescription="Peka och håll ned datorkonsolen för att programmera hoppkoordinater."
+; EN: Objective_Info_Attacker="Program Jump Coordinates"
+Objective_Info_Attacker="Koordinater för programhopp"
+; EN: Objective_Info_Defender="Prevent attackers from programming jump coordinates."
+Objective_Info_Defender="Förhindra angripare från att programmera hoppkoordinater."
+
+[LevelInfo0]
+Title="Jumpship BP2"
+
+[LevelSummary]
+Title="Jumpship BP2"
+; EN: Description="During the height of the Corporation Wars, Liandri scientists created a prototype Warship capable of making its own jumps without the need for a jumpgate.  Shortly before its maiden voyage, Izanagi spies learned of the prototype Jumpship and launched an operation to steal it.  This scenario recreates the historic battle in which Izanagi forces infiltrated the prototype Liandri Jumpship, activated its engines, and made a successful jump to Izanagi space."
+Description="Under höjden av Corporation Wars skapade Liandri-forskare en prototyp av krigsskepp som kunde göra sina egna hopp utan behov av en jumpgate. Strax före sin jungfruresa fick Izanagi-spioner veta om prototypen Jumpship och startade en operation för att stjäla den. Det här scenariot återskapar den historiska striden där Izanagi-styrkor infiltrerade prototypen Liandri Jumpship, aktiverade dess motorer och gjorde ett framgångsrikt hopp till Izanagi-rymden."
+
+[ProximityObjective0]
+ObjectiveName="Landing Bay"
+; EN: DestructionMessage="Attackers have entered the jumpship!"
+DestructionMessage="Angripare har gått in i hoppskeppet!"
+; EN: ObjectiveDescription="Fly into front bay to enter Jumpship."
+ObjectiveDescription="Flyg in i främre bukten för att komma in i Jumpship."
+; EN: Objective_Info_Attacker="Enter Jumpship"
+Objective_Info_Attacker="Ange Jumpship"
+; EN: Objective_Info_Defender="Prevent Attackers From Entering Jumpship"
+Objective_Info_Defender="Förhindra angripare från att komma in i Jumpship"
+
+[SceneSubtitles0]
+SubTitles=("During the height of the Corporation Wars, Liandri scientists created a prototype warship capable of making its own jumps without the need for a jumpgate.","Shortly before its maiden voyage, Izanagi spies learned of the prototype jumpship and launched an operation to steal it.  Success would give the Izanagi Corporation a significant advantage during the Wars.","This scenario recreates the historic battle in which Izanagi forces infiltrated the prototype Liandri jumpship, activated its engines, and made a successful jump to Izanagi space.","The jumpship is receiving power from the construction dock.  It is moored to the dock via four docking arms. ","Destroy the hydraulic valves controlling each arm to place the jumpship under internal power and release it from the dock.","After the four valves are destroyed, enter the jumpship through the docking bay.",,"Destroy the Thermal Control Regulator to cool the jump engines.  This will allow them to be powered safely.",,"Use this console to activate the ship's internal navigation systems.",,"Use the levers to inject the engine coolant and disable the safety lock on both of the jump engines.",,"The ship's bridge is too heavily defended for a direct attack, so your team will need to access the central computer deep within the ship's core.","Once you have reached the computer, use this console to reroute power from the bridge and enter the new jump coordinates.","Finally, destroy both computer routers.  This will disable all remaining safety protocols, activate the Jumpship, and end the match.")
+
+[TriggeredObjective0]
+; EN: ObjectiveName="Teleporter Room Controls"
+ObjectiveName="Teleporter rumskontroller"
+; EN: DestructionMessage="Teleporters Activated!"
+DestructionMessage="Teleportörer aktiverade!"
+; EN: ObjectiveDescription="Activate the ship's internal navigation systems."
+ObjectiveDescription="Aktivera fartygets interna navigationssystem."
+; EN: Objective_Info_Attacker="Activate the Navigation Computer"
+Objective_Info_Attacker="Aktivera navigeringsdatorn"
+; EN: Objective_Info_Defender="Defend the Navigation Computer"
+Objective_Info_Defender="Försvara navigationsdatorn"
+
+[ZoneInfo0]
+; EN: LocationName="In Space"
+LocationName="I rymden"
+
+[ZoneInfo1]
+LocationName="Landing Bay 1 Hall"
+
+[ZoneInfo10]
+LocationName="Jump Engine A Hall"
+
+[ZoneInfo11]
+; EN: LocationName="Ship Bridge"
+LocationName="Skeppsbro"
+
+[ZoneInfo12]
+LocationName="Landing Bay 1 Hall"
+
+[ZoneInfo13]
+LocationName="Landing Bay 2 Hall"
+
+[ZoneInfo14]
+LocationName="Landing Bay 2 Hall"
+
+[ZoneInfo15]
+; EN: LocationName="Coolant Control"
+LocationName="Kylvätskekontroll"
+
+[ZoneInfo16]
+; EN: LocationName="Teleporter Room"
+LocationName="Teleporterrum"
+
+[ZoneInfo17]
+; EN: LocationName="Teleporter Room"
+LocationName="Teleporterrum"
+
+[ZoneInfo18]
+LocationName="Jump Engine A Hall"
+
+[ZoneInfo19]
+; EN: LocationName="Jump Engine B Hall"
+LocationName="Hoppmotor B Hall"
+
+[ZoneInfo2]
+LocationName="Hangar"
+
+[ZoneInfo20]
+; EN: LocationName="In Space"
+LocationName="I rymden"
+
+[ZoneInfo22]
+; EN: LocationName="Jump Engine B Hall"
+LocationName="Hoppmotor B Hall"
+
+[ZoneInfo24]
+; EN: LocationName="Jump Engine A"
+LocationName="Hoppmotor A"
+
+[ZoneInfo25]
+; EN: LocationName="Jump Engine B"
+LocationName="Hoppmotor B"
+
+[ZoneInfo27]
+LocationName="Hangar"
+
+[ZoneInfo28]
+; EN: LocationName="Central Computer Hall"
+LocationName="Central datorhall"
+
+[ZoneInfo29]
+; EN: LocationName="Central Computer Core"
+LocationName="Central datorkärna"
+
+[ZoneInfo3]
+LocationName="Hangar"
+
+[ZoneInfo30]
+; EN: LocationName="Central Computer Core"
+LocationName="Central datorkärna"
+
+[ZoneInfo31]
+; EN: LocationName="Central Computer Core"
+LocationName="Central datorkärna"
+
+[ZoneInfo35]
+; EN: LocationName="Coolant Control"
+LocationName="Kylvätskekontroll"
+
+[ZoneInfo36]
+; EN: LocationName="Central Computer Core"
+LocationName="Central datorkärna"
+
+[ZoneInfo37]
+; EN: LocationName="Coolant Control"
+LocationName="Kylvätskekontroll"
+
+[ZoneInfo4]
+LocationName="Landing Bay 1"
+
+[ZoneInfo5]
+LocationName="Hangar"
+
+[ZoneInfo6]
+LocationName="Hangar"
+
+[ZoneInfo7]
+LocationName="Hangar"
+
+[ZoneInfo8]
+LocationName="Landing Bay 2"
+
+[ZoneInfo9]
+LocationName="Hangar"
+

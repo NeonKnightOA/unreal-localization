@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="MotherShip Core"
+Title="マザーシップコア"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="マザーシップコアに入る"
+
+[LevelSummary]
+; EN: Title="MotherShip Core"
+Title="マザーシップコア"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="マザーシップコアに入る"
+
+[TranslatorEvent10]
+; EN: AltMessage="Access to the Security Post granted."
+AltMessage="許可されたセキュリティポストへのアクセス。"
+; EN: Hint="Go to the Security Post to gain access to the Primary Power Supply Core Generator."
+Hint="セキュリティポストに移動して、プライマリ電源コアジェネレータにアクセスします。"
+
+[TranslatorEvent4]
+; EN: Message="WARNING: Armed intruder detected. Close all access to the Source and to the Primary Power Supply. Preventing intruders from accessing the Core Generator is critical."
+Message="警告：武装した侵入者が検出されました。ソースと一次電源へのすべてのアクセスを閉じます。侵入者がCoreGeneratorにアクセスするのを防ぐことが重要です。"
+; EN: AltMessage="RED ALERT: Core Generator Security Compromised."
+AltMessage="RED ALERT：コアジェネレータのセキュリティが侵害されました。"
+
+[TranslatorEvent5]
+; EN: Message="SECURITY ALERT: All War Masters report to Core Generator positions to ensure its protection."
+Message="セキュリティアラート：すべてのウォーマスターは、その保護を確実にするためにコアジェネレーターの位置に報告します。"
+; EN: AltMessage="Intruder detected near the Core Generator. Core Generator security must be maintained. Weakness shall be punished."
+AltMessage="コアジェネレータの近くで侵入者が検出されました。 CoreGeneratorのセキュリティを維持する必要があります。弱さは罰せられる。"
+
+[TranslatorEvent8]
+; EN: Message="Security Post, ACCESS DENIED."
+Message="セキュリティポスト、アクセス拒否。"
+
+[TranslatorEvent9]
+; EN: Message="Primary Power Supply, ACCESS DENIED."
+Message="一次電源、アクセスが拒否されました。"
+; EN: Hint="Door can be unlocked from the control panel in the Security Post."
+Hint="セキュリティポストのコントロールパネルからドアのロックを解除できます。"
+
+[TranslatorEvent11]
+; EN: Message="ACCESS DENIED: The Intruder must be eliminated. All War Masters are being routed to this area upon arrival from the Source."
+Message="アクセス拒否：侵入者を排除する必要があります。ソースから到着すると、すべてのウォーマスターがこのエリアにルーティングされます。"
+; EN: Hint="Kill all the Skaarj to proceed to this area."
+Hint="このエリアに進むためにすべてのSkaarjを殺します。"
+
+[TranslatorEvent12]
+; EN: AltMessage="Cryo Pods status: Temperature constant, Power at nominal levels, security systems active."
+AltMessage="Cryo Podsのステータス：温度定数、公称レベルの電力、アクティブなセキュリティシステム。"
+
+[TranslatorEvent6]
+; EN: Message="Core Generator security must be maintained. Access doors locked until security breach is contained."
+Message="CoreGeneratorのセキュリティを維持する必要があります。セキュリティ違反が封じ込められるまで、アクセスドアはロックされています。"
+; EN: AltMessage="Core Access Door Open."
+AltMessage="コアアクセスドアが開いています。"
+
+[TranslatorEvent13]
+; EN: Message="Emergency Power Supply, ACCESS DENIED: Primary Power Supply fully functional."
+Message="非常用電源、アクセス拒否：一次電源は完全に機能しています。"
+; EN: Hint="Find the Core Generator and destroy it to gain access to this area."
+Hint="コアジェネレーターを見つけて破壊し、このエリアにアクセスします。"

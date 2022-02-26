@@ -1,0 +1,117 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Guidance Rocket Switch"
+LocationName="Irányadó rakétakapcsoló"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Pressure Tanks"
+LocationName="Nyomástartó tartályok"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE5]
+Message="1..."
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="Pressure tanks destroyed!"
+Message="A nyomástartó tartályok megsemmisültek!"
+
+[DestroyableObjective_SM0]
+ObjectiveName="SAM Launcher 2"
+; EN: DestructionMessage="SAM Launcher 1 Destroyed!"
+DestructionMessage="A SAM Launcher 1 megsemmisült!"
+; EN: ObjectiveDescription="Destroy the SAM launcher to allow the dropship to land."
+ObjectiveDescription="Pusztítsd el a SAM indítót, hogy a csepphajó leszálljon."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 1"
+Objective_Info_Attacker="A SAM Launcher 1 megsemmisítése"
+Objective_Info_Defender="Protect SAM Launcher 1"
+
+[DestroyableObjective_SM1]
+ObjectiveName="SAM Launcher 2"
+; EN: DestructionMessage="SAM Launcher 2 Destroyed!"
+DestructionMessage="A SAM Launcher 2 megsemmisült!"
+; EN: ObjectiveDescription="Destroy SAM Launcher to allow the dropship to land."
+ObjectiveDescription="Pusztítsd el a SAM Launchert, hogy a dropship leszállhasson."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 2"
+Objective_Info_Attacker="Pusztítsd el a SAM Launcher 2-t"
+Objective_Info_Defender="Protect SAM Launcher 2"
+
+[HoldObjective0]
+; EN: ObjectiveName="Main Rocket Launch Switch"
+ObjectiveName="Fő rakétakilövő kapcsoló"
+; EN: DestructionMessage="Rocket Launched!"
+DestructionMessage="Rakéta felbocsátva!"
+; EN: ObjectiveDescription="Launch the Main Rocket."
+ObjectiveDescription="Indítsa el a fő rakétát."
+; EN: Objective_Info_Attacker="Launch the Main Rocket"
+Objective_Info_Attacker="Indítsa el a fő rakétát"
+; EN: Objective_Info_Defender="Defend the Main Rocket Switch"
+Objective_Info_Defender="Védd meg a fő rakétakapcsolót"
+
+[HoldObjective1]
+; EN: ObjectiveName="Guidance Rocket"
+ObjectiveName="Irányadó rakéta"
+; EN: DestructionMessage="Guidance Rocket Launched!"
+DestructionMessage="Útmutató rakéta indult!"
+; EN: ObjectiveDescription="Launch the Guidance Rocket, it is required for a successful launch of the main rocket."
+ObjectiveDescription="Indítsa el az irányító rakétát, ez szükséges a fő rakéta sikeres indításához."
+; EN: Objective_Info_Attacker="Launch the Guidance Rocket"
+Objective_Info_Attacker="Indítsa el az Irányító rakétát"
+; EN: Objective_Info_Defender="Defend the Guidance Rocket"
+Objective_Info_Defender="Védd meg az irányító rakétát"
+
+[HoldObjective5]
+ObjectiveName="DockObjective"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="A robbanóanyagok a helyükön vannak!"
+; EN: ObjectiveDescription="Place explosives on the pressure tanks to reduce hydraulic pressure and open the security door."
+ObjectiveDescription="Helyezzen robbanóanyagot a nyomástartó tartályokra, hogy csökkentse a hidraulikus nyomást, és nyissa ki a biztonsági ajtót."
+; EN: Objective_Info_Attacker="Place explosives on the pressure tanks"
+Objective_Info_Attacker="Helyezzen robbanóanyagot a nyomástartó tartályokra"
+; EN: Objective_Info_Defender="Defend the pressure tanks"
+Objective_Info_Defender="Védd meg a nyomástartó tartályokat"
+
+[LevelInfo0]
+; EN: Title="Thrust"
+Title="Tolóerő"
+; EN: LocationName="Outside"
+LocationName="Kívül"
+
+[LevelSummary]
+; EN: Title="Thrust"
+Title="Tolóerő"
+; EN: Description="A recreation of the infamous destruction of the Saturn IX PCNR rocket where a crack team of anti-NEG rebels stormed the launch facility and scuttled the rocket by launching it unguided and half-fueled."
+Description="A Saturn IX PCNR rakéta hírhedt megsemmisítésének felidézése, amikor a NEG-ellenes lázadók repedéscsapata megrohanta az indító létesítményt, és elpusztította a rakétát úgy, hogy irányítatlanul és félig üzemanyaggal indította."
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the premature launching of the half-fueled Saturn IX rocket by anti-NEG rebels.","First, your team must toggle the switch on the roof of this small building to launch the Guidance Rocket, which serves as a necessary navigational beacon for the Main Rocket.","If you wish, you may choose to secure the auxiliary landing pad by destroying two these SAM launchers. If the SAM site is destroyed, your team then may spawn at the landing pad, and an airstrike will drastically weaken the enemy defenses at your next objective.","Place and detonate explosives on the hydraulic pressure tanks. This will open all base doors, and allow access to the facility's main control room.","Finally, you will need to activate the launch switch inside Mission Control before final fueling is complete.  This will scuttle the Main Rocket into an improper launch orbit.")
+
+[Volume0]
+; EN: LocationName="SAM Platform"
+LocationName="SAM platform"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Kívül"
+
+[ZoneInfo1]
+; EN: LocationName="Guidance Rocket Building"
+LocationName="Irányadó rakétaépítés"
+
+[ZoneInfo2]
+; EN: LocationName="Defender Spawn in Rocker Building"
+LocationName="Defender Spawn a Rocker Buildingben"
+
+[ZoneInfo3]
+; EN: LocationName="Rocket Control Room"
+LocationName="Rakéta irányítóterem"
+

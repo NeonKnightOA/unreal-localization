@@ -1,0 +1,115 @@
+[LevelInfo0]
+; EN: Title="Concentrate"
+Title="Sűrítmény"
+
+[LevelSummary]
+; EN: Title="Concentrate"
+Title="Sűrítmény"
+; EN: Description="On this derelict outpost set deep in the Elorean Seas, there is no escape for the struggling... except through victory.  The only way out is through."
+Description="Ezen az elhagyatott előőrsön, amely az Eloreai-tenger mélyén fekszik, nincs menekvés a küzdelmek elől... csak a győzelem révén. Az egyetlen kiút az át."
+
+[PhysicsVolume0]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume1]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume2]
+LocationName="Blue Spike Pit"
+
+[PhysicsVolume3]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume4]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume5]
+LocationName="Red Spike Pit"
+
+[Volume1]
+; EN: LocationName="Blue Flag Pit"
+LocationName="Kék zászló gödör"
+
+[Volume10]
+; EN: LocationName="Red Upper Area"
+LocationName="Piros felső terület"
+
+[Volume11]
+; EN: LocationName="Red Flag Room"
+LocationName="Vörös zászlós szoba"
+
+[Volume12]
+; EN: LocationName="Red Spawn Area"
+LocationName="Vörös ívási terület"
+
+[Volume3]
+; EN: LocationName="Central Area"
+LocationName="Központi Terület"
+
+[Volume4]
+; EN: LocationName="Blue Upper Area"
+LocationName="Kék felső terület"
+
+[Volume5]
+; EN: LocationName="Blue Upper Area"
+LocationName="Kék felső terület"
+
+[Volume6]
+; EN: LocationName="Red Flag Room"
+LocationName="Vörös zászlós szoba"
+
+[Volume7]
+LocationName="Red Flag Pit"
+
+[Volume8]
+; EN: LocationName="Red Spawn Area"
+LocationName="Vörös ívási terület"
+
+[Volume9]
+; EN: LocationName="Red Upper Area"
+LocationName="Piros felső terület"
+
+[ZoneInfo0]
+; EN: LocationName="Somewhere Else"
+LocationName="Valahol máshol"
+
+[ZoneInfo1]
+; EN: LocationName="Red Upper Corridor"
+LocationName="Piros felső folyosó"
+
+[ZoneInfo2]
+; EN: LocationName="Red Lower Corridor"
+LocationName="Piros alsó folyosó"
+
+[ZoneInfo3]
+; EN: LocationName="Blue Lower Corridor"
+LocationName="Kék alsó folyosó"
+
+[ZoneInfo4]
+; EN: LocationName="Blue Upper Corridor"
+LocationName="Kék felső folyosó"
+
+[ZoneInfo5]
+; EN: LocationName="Blue Base"
+LocationName="Kék alap"
+
+[ZoneInfo6]
+; EN: LocationName="Red Base"
+LocationName="Piros alap"
+
+[fell_nogibs]
+; EN: DeathString="%o was spiked."
+DeathString="%o tüskés volt."
+; EN: FemaleSuicide="%o was spiked."
+FemaleSuicide="%o tüskés volt."
+; EN: MaleSuicide="%o was spiked."
+MaleSuicide="%o tüskés volt."
+
+[fell_nogibs2]
+; EN: DeathString="%o fell off."
+DeathString="%o leesett."
+; EN: FemaleSuicide="%o fell off."
+FemaleSuicide="%o leesett."
+; EN: MaleSuicide="%o fell off."
+MaleSuicide="%o leesett."
+

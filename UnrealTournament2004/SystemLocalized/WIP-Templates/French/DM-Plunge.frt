@@ -1,9 +1,12 @@
 [LevelInfo0]
-Title="Plunge"
+; EN: Title="Plunge"
+Title="Plonger"
 
 [LevelSummary]
-Title="Plunge"
+; EN: Title="Plunge"
+Title="Plonger"
 
 [PhysicsVolume0]
-LocationName="8 Miles High"
+; EN: LocationName="8 Miles High"
+LocationName="8 milles de haut"
 

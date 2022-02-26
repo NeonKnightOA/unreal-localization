@@ -1,0 +1,79 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Klasické zbraně ve stylu UT a konfigurovatelné pohybové schopnosti (jako je uhýbání zdí).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Vyměňte Lightning Guns za klasickou odstřelovací pušku.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Vyměňte odstřelovací pušky za Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+ItemName="Sniper Bullets"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Sebral jsi munici pro odstřelovače."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Tato odstřelovací puška s vysokou úsťovou rychlostí a 10x zaměřovačem je smrtící zbraní na jakoukoli vzdálenost, zvláště pokud dokážete střílet hlavou."
+; EN: ItemName="Sniper Rifle"
+ItemName="Odstřelovací puška"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Máš odstřelovací pušku."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k dal %o kulku do lebky."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o se střelila do hlavy."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o se střelil do hlavy."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="%k dal díru do %o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o se střelila do nohy."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o se střelil do nohy."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Povolit dvojité skákání"
+; EN: WDString="Allow Wall Dodging"
+WDString="Povolit uhýbání zdí"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Povolit Dodge Double Jumping"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Pokud je povoleno, hráči mohou na vrcholu skoků skákat dvakrát."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Pokud je povoleno, hráči se mohou vyhýbat stěnám."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Je-li povoleno, hráči mohou zdvojnásobit skok na vrcholu skoků dodge."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Upravit poškození zbraně"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Pokud je povoleno, zbraně způsobí větší poškození."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Upravit translokátor"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Pokud je povoleno, translokátor se dobíjí rychleji."
+FriendlyName="UT Classic"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Klasické zbraně a možnosti pohybu ve stylu UT."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Bleskové zbraně"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Vyměňte všechny odstřelovací pušky za bleskové zbraně."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Odstřelovací pušky"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Nahraďte všechny blesky odstřelovacími puškami."
+

@@ -1,0 +1,150 @@
+[Public]
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Last Man Standing|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Adds the Camouflage combo (RRRR).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Legger til kamuflasjekombinasjonen (RRRR).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Adds the Pint-sized combo (LLLL).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Legger til kombinasjonen Pint-størrelse (LLLL).")
+
+[ComboCrate]
+; EN: ExecMessage="Camouflaged!"
+ExecMessage="Kamuflert!"
+
+[ComboMiniMe]
+; EN: ExecMessage="Pint-sized!"
+ExecMessage="På størrelse med halvliter!"
+
+[DamTypeMutant]
+; EN: DeathString="%o suffered a fatal mutation!"
+DeathString="%o led en dødelig mutasjon!"
+; EN: FemaleSuicide="%o suffered a fatal mutation!"
+FemaleSuicide="%o led en dødelig mutasjon!"
+; EN: MaleSuicide="%o suffered a fatal mutation!"
+MaleSuicide="%o led en dødelig mutasjon!"
+
+[HudLMS]
+; EN: LivesRemainingString="Lives Remaining"
+LivesRemainingString="Gjenværende liv"
+; EN: PlayersRemainString="Players Remain -- "
+PlayersRemainString="Spillere forblir -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+; EN: BottomFeederText="BOTTOM FEEDER"
+BottomFeederText="BUNNMATER"
+
+[LMSMessage]
+; EN: YouAreCamperMessage="You Are Camping!"
+YouAreCamperMessage="Du camping!"
+SomeoneIsCamperMessage=" "
+; EN: SomeoneIsCamperMessageTrailer="Is Camping!"
+SomeoneIsCamperMessageTrailer="Er camping!"
+
+[MutCrateCombo]
+; EN: CamoDisplayText="Camouflage Combo"
+CamoDisplayText="Kamuflasjekombinasjon"
+; EN: MiniDisplayText="Pint-sized Combo"
+MiniDisplayText="Combo i halvliterstørrelse"
+; EN: CamoDescText="When enabled, this adrenaline combo covers you with a holographic projection of a rock or a part of a building"
+CamoDescText="Når aktivert, dekker denne adrenalinkombinasjonen deg med en holografisk projeksjon av en stein eller en del av en bygning"
+; EN: MiniDescText="When enabled, this adrenaline combo makes you smaller"
+MiniDescText="Når den er aktivert, gjør denne adrenalinkombinasjonen deg mindre"
+; EN: FriendlyName="Bonus Combos"
+FriendlyName="Bonuskombinasjoner"
+; EN: Description="Adds the Pint-sized combo (LLLL) and the Camouflage Combo (RRRR)."
+Description="Legger til kombinasjonen av halvliter (LLLL) og kamuflasjekombinasjonen (RRRR)."
+
+[MutantMessage]
+; EN: YouAreMutantMessage="You Have Mutated!"
+YouAreMutantMessage="Du har mutert!"
+SomeoneIsMutantMessage=" "
+; EN: SomeoneIsMutantMessageTrailer="Has Mutated!"
+SomeoneIsMutantMessageTrailer="Har mutert!"
+; EN: FFAMessage="First Blood Mutates!"
+FFAMessage="Det første blodet muterer!"
+; EN: BottomFeederMessage="You Are The Bottom Feeder!"
+BottomFeederMessage="Du er bunnmateren!"
+; EN: NotBottomFeederMessage="No Longer Bottom Feeder!"
+NotBottomFeederMessage="Ikke lenger bunnmater!"
+
+[MutantNameMessage]
+; EN: BottomFeederMesg="(BOTTOM FEEDER)"
+BottomFeederMesg="(BUNNMATER)"
+
+[ScoreBoardLMS]
+; EN: LivesText="LIVES"
+LivesText="BOR"
+
+[Tab_IALastManStanding]
+; EN: IARulesExtraLives.Caption="Killing Gives Health"
+IARulesExtraLives.Caption="Drap gir helse"
+; EN: IARulesExtraLives.Hint="When selected, a portion of the player's health is restored with each kill."
+IARulesExtraLives.Hint="Når valgt, gjenopprettes en del av spillerens helse med hvert drap."
+; EN: IARulesLMSAllowAdrenaline.Caption="Allow Adrenaline"
+IARulesLMSAllowAdrenaline.Caption="Tillat adrenalin"
+; EN: IARulesLMSAllowAdrenaline.Hint="When selected, players can use Adrenaline."
+IARulesLMSAllowAdrenaline.Hint="Når valgt, kan spillere bruke adrenalin."
+; EN: IARulesLMSAllowPickups.Caption="Allow Pickups"
+IARulesLMSAllowPickups.Caption="Tillat henting"
+; EN: IARulesLMSAllowPickups.Hint="When selected, allow normal pickups."
+IARulesLMSAllowPickups.Hint="Når valgt, tillat normal henting."
+; EN: IARulesSuperWeaps.Caption="Allow Super Weapons"
+IARulesSuperWeaps.Caption="Tillat supervåpen"
+; EN: IARulesSuperWeaps.Hint="When selected, allow super weapon pickups."
+IARulesSuperWeaps.Hint="Når valgt, tillat supervåpenhenting."
+
+[Tab_IAMutant]
+; EN: TargetScoreString="Score Limit"
+TargetScoreString="Poenggrense"
+; EN: IARulesBottomFeeders.Caption="Bottom Feeder"
+IARulesBottomFeeders.Caption="Bunnmater"
+; EN: IARulesBottomFeeders.Hint="When selected, bottom ranked player(s) can kill anyone."
+IARulesBottomFeeders.Hint="Når den er valgt, kan spillere med lavest rangering drepe hvem som helst."
+
+[xLastManStandingGame]
+; EN: LMSPropsDisplayText[0]="Camping Threshold"
+LMSPropsDisplayText[0]="Campingterskel"
+; EN: LMSPropsDisplayText[1]="Camper Warning Interval"
+LMSPropsDisplayText[1]="Advarselsintervall for bobil"
+; EN: LMSPropsDisplayText[2]="Gain Health For Kills"
+LMSPropsDisplayText[2]="Få helse for å drepe"
+; EN: LMSPropsDisplayText[3]="Allow SuperWeapons"
+LMSPropsDisplayText[3]="Tillat supervåpen"
+; EN: LMSPropsDisplayText[4]="Camper Alarm"
+LMSPropsDisplayText[4]="Bobilalarm"
+; EN: LMSPropsDisplayText[5]="Allow Pickups"
+LMSPropsDisplayText[5]="Tillat henting"
+; EN: LMSPropsDisplayText[6]="Allow Adrenaline"
+LMSPropsDisplayText[6]="Tillat adrenalin"
+; EN: LMSPropsDisplayText[7]="Full Ammo"
+LMSPropsDisplayText[7]="Full ammunisjon"
+; EN: LMSPropDescText[0]="Determines how long a player can stand in one spot before triggering a camper warning."
+LMSPropDescText[0]="Bestemmer hvor lenge en spiller kan stå på ett sted før den utløser en bobiladvarsel."
+; EN: LMSPropDescText[1]="Specifies how often the camper warning is played"
+LMSPropDescText[1]="Angir hvor ofte bobilvarselet spilles av"
+; EN: LMSPropDescText[2]="If this option is enabled, a player gains health after killing another player."
+LMSPropDescText[2]="Hvis dette alternativet er aktivert, får en spiller helse etter å ha drept en annen spiller."
+; EN: LMSPropDescText[3]="If checked, super weapons are included in the player load out."
+LMSPropDescText[3]="Hvis det er merket av, er supervåpen inkludert i spillerens belastning."
+; EN: LMSPropDescText[4]="Enable this option to cause an alarm to be played if a player stands in one spot too long."
+LMSPropDescText[4]="Aktiver dette alternativet for å få en alarm til å bli spilt hvis en spiller står på ett sted for lenge."
+; EN: LMSPropDescText[5]="If checked, pickups will be available in the map."
+LMSPropDescText[5]="Hvis det er merket av, vil henting være tilgjengelig på kartet."
+; EN: LMSPropDescText[6]="If checked, adrenaline combos will be enabled."
+LMSPropDescText[6]="Hvis det er merket av, vil adrenalinkombinasjoner være aktivert."
+; EN: LMSPropDescText[7]="If checked, players start with max ammo for all weapons."
+LMSPropDescText[7]="Hvis det er merket av, starter spillerne med maksimal ammunisjon for alle våpen."
+; EN: GameName="Last Man Standing"
+GameName="Siste mann som står"
+; EN: Description="Each player starts with a limited number of lives.  The goal is to be the last player left when the smoke clears."
+Description="Hver spiller starter med et begrenset antall liv. Målet er å være den siste spilleren igjen når røyken forsvinner."
+
+[xMutantGame]
+; EN: MutPropText="Enable BottomFeeder"
+MutPropText="Aktiver BottomFeeder"
+; EN: MutDescText="If enabled, the player with the lowest score is the BottomFeeder, and can kill other players."
+MutDescText="Hvis aktivert, er spilleren med lavest poengsum BottomFeeder, og kan drepe andre spillere."
+GameName="Mutant"
+; EN: Description="The first player to score a frag becomes the Mutant.  Everyone else hunts the Mutant, as by killing the mutant, a player becomes the mutant, with superhuman powers.  The player with the lowest score is the Bottom Feeder.  He can also kill other players."
+Description="Den første spilleren som scorer en frag blir Mutanten. Alle andre jakter på mutanten, for ved å drepe mutanten blir en spiller mutanten, med overmenneskelige krefter. Spilleren med lavest poengsum er Bottom Feeder. Han kan også drepe andre spillere."
+

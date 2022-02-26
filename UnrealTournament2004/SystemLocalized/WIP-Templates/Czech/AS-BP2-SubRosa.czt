@@ -1,0 +1,184 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Central Office"
+LocationName="centrála"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Right Lock"
+LocationName="Pravý zámek"
+
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Left Lock"
+LocationName="Levý zámek"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Left Lock"
+LocationName="Levý zámek"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Right Lock"
+LocationName="Pravý zámek"
+
+[ASCriticalObjectiveVolume5]
+; EN: LocationName="Inside Vault"
+LocationName="Uvnitř trezoru"
+
+[ASCriticalObjectiveVolume6]
+; EN: LocationName="Radio Terminal"
+LocationName="Rádiový terminál"
+
+[ASOBJ_EnergyCore_Delivery0]
+; EN: Objective_Info_Attacker="Upload Data Stick At The Computer Terminal"
+Objective_Info_Attacker="Nahrajte datovou kartu na počítačový terminál"
+; EN: Objective_Info_Defender="Protect The Computer Terminal."
+Objective_Info_Defender="Chraňte počítačový terminál."
+
+[ASOBJ_EnergyCore_Delivery1]
+; EN: DestructionMessage="Antenna Realigned!"
+DestructionMessage="Anténa přenastavena!"
+; EN: Objective_Info_Attacker="Realign The Antenna."
+Objective_Info_Attacker="Přerovnejte anténu."
+; EN: Objective_Info_Defender="Protect The Antenna."
+Objective_Info_Defender="Chraňte anténu."
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" upustil Data Stick!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="Data Stick spadl!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="Data Stick vyzvednuta!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" zvedl Data Stick!"
+PlayerCoreReset="Data Stick reset!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="Demo"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="Data stick byl ukraden!"
+ObjectiveDescription="Data Stick"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="Získejte Data Stick!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="Chraňte Data Stick!"
+
+[ASOBJ_EnergyCore_Spawn1]
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" upustil Data Stick!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="Data Stick spadl!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="Data Stick vyzvednuta!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" zvedl Data Stick!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="Demo"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="Data stick byl ukraden!"
+ObjectiveDescription="Data Stick"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="Získejte Data Stick!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="Chraňte Data Stick!"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="Zámek dveří zničen!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls."
+Objective_Info_Attacker="Zničte ovládání předních dveří."
+; EN: Objective_Info_Defender="Protect The Front Door Controls."
+Objective_Info_Defender="Chraňte ovládací prvky předních dveří."
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Data Shield"
+ObjectiveName="Datový štít"
+; EN: DestructionMessage="Data Shield Destroyed!"
+DestructionMessage="Datový štít zničen!"
+; EN: ObjectiveDescription="Destroy the data shield."
+ObjectiveDescription="Zničte datový štít."
+; EN: Objective_Info_Attacker="Destroy the data shield."
+Objective_Info_Attacker="Zničte datový štít."
+; EN: Objective_Info_Defender="Defend the data shield."
+Objective_Info_Defender="Braňte datový štít."
+
+[DestroyableObjective_SM2]
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="Zámek dveří zničen!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls."
+Objective_Info_Attacker="Zničte ovládání předních dveří."
+; EN: Objective_Info_Defender="Protect The Front Door Controls."
+Objective_Info_Defender="Chraňte ovládací prvky předních dveří."
+
+[DestroyableObjective_SM4]
+; EN: DestructionMessage="Front Gate Destroyed!"
+DestructionMessage="Přední brána zničena!"
+; EN: Objective_Info_Attacker="Destroy The Main Gate."
+Objective_Info_Attacker="Zničte Hlavní bránu."
+; EN: Objective_Info_Defender="Protect The Main Gate."
+Objective_Info_Defender="Chraňte hlavní bránu."
+
+[HoldObjective1]
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="Zámek trezoru otevřen!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault."
+Objective_Info_Attacker="Pomocí kláves otevřete trezor."
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault."
+Objective_Info_Defender="Chraňte Vchod do Vaultu."
+
+[HoldObjective2]
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="Zámek trezoru otevřen!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault."
+Objective_Info_Attacker="Pomocí kláves otevřete trezor."
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault."
+Objective_Info_Defender="Chraňte Vchod do Vaultu."
+
+[HoldObjective3]
+; EN: DestructionMessage="The Keys Have Been Stolen!"
+DestructionMessage="Klíče byly ukradeny!"
+; EN: Objective_Info_Attacker="Get the keys from the Central Office."
+Objective_Info_Attacker="Získejte klíče z centrály."
+; EN: Objective_Info_Defender="Protect the Central Office."
+Objective_Info_Defender="Chraňte ústředí."
+
+[LevelInfo0]
+Title="Sub Rosa"
+
+[LevelSummary]
+Title="Sub Rosa"
+; EN: Description="Every rose has thorns, and even the most pristine worlds can hide sinister intentions."
+Description="Každá růže má trny a i ty nejčistší světy mohou skrývat zlověstné úmysly."
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the invasion of the Central Liandri Information compound by NEG forces.","The New Earth Government discovered that the Liandri were transferring experimental weapons data through the facility, and sent an elite squad in to retrieve the research.","The attackers must first make their way to the compound and destroy the main gate to get into the courtyard.",,"Then you must destroy the front door controls to gain access to the main building.",,"Once inside, you must make your way to the central office to get the keys to the vault.",,"Next, use the keys to open the vault doors.",,"Once inside the vault, you must destroy the protective shield around the data stick.","Then, you must deliver the data stick to the access station in order to realign the antenna.",,"Finally, you must move the updated data from the antenna to the terminal, and transmit the weapon data to the NEG.",)
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Mimo"
+
+[ZoneInfo1]
+; EN: LocationName="Main Hall"
+LocationName="Hlavní hala"
+
+[ZoneInfo2]
+; EN: LocationName="Office"
+LocationName="Kancelář"
+
+[ZoneInfo3]
+; EN: LocationName="Vault Locks"
+LocationName="Zámky trezoru"
+
+[ZoneInfo4]
+; EN: LocationName="Vault Locks"
+LocationName="Zámky trezoru"
+
+[ZoneInfo5]
+; EN: LocationName="Vault Locks"
+LocationName="Zámky trezoru"
+
+[ZoneInfo6]
+; EN: LocationName="Inside Vault"
+LocationName="Uvnitř trezoru"
+
+[ZoneInfo7]
+; EN: LocationName="Radio Terminal"
+LocationName="Rádiový terminál"
+

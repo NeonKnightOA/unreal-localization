@@ -1,0 +1,289 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: ObjectiveName="Hops addition"
+ObjectiveName="ホップの追加"
+; EN: DestructionMessage="Hops level at 3.2 %"
+DestructionMessage="3.2％のホップレベル"
+; EN: ObjectiveDescription="Hops addition"
+ObjectiveDescription="ホップの追加"
+; EN: Objective_Info_Attacker="Insert the Hops canister into the addition module"
+Objective_Info_Attacker="ホップキャニスターを追加モジュールに挿入します"
+; EN: Objective_Info_Defender="Stop the Hops canister from being inserted"
+Objective_Info_Defender="ホップキャニスターの挿入を停止します"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Hops Canister!"
+PlayerDroppedMessage=" ホップキャニスターを落としました！"
+; EN: DroppedMessage="Hops Canister dropped!"
+DroppedMessage="キャニスターが落ちたホップ！"
+; EN: EnergyCorePickedUp="Hops Canister picked up!"
+EnergyCorePickedUp="ホップキャニスターが拾いました！"
+; EN: PlayerPickedUpEnergyCore=" picked up the Hops Canister!"
+PlayerPickedUpEnergyCore=" ホップキャニスターを手に入れました！"
+; EN: PlayerCoreReset="Hops Canister reset!"
+PlayerCoreReset="ホップキャニスターがリセットされました！"
+; EN: ObjectiveName="Hops canister"
+ObjectiveName="ホップキャニスター"
+; EN: DestructionMessage="Hops canister located"
+DestructionMessage="ホップキャニスターがあります"
+; EN: ObjectiveDescription="Hops canister"
+ObjectiveDescription="ホップキャニスター"
+; EN: Objective_Info_Attacker="Find and deliver the missing Hops canister."
+Objective_Info_Attacker="不足しているホップキャニスターを見つけて配達します。"
+; EN: Objective_Info_Defender="Defend the Hops canister."
+Objective_Info_Defender="ホップキャニスターを守ります。"
+
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Brewery gates are open"
+Message="醸造所のゲートが開いています"
+
+[Action_DISPLAYMESSAGE3]
+; EN: Message="The brewery has been breached...!"
+Message="醸造所が破られました...！"
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="Hops level at 9.8 % and holding"
+Message="ホップレベルは9.8％で保持"
+
+[Action_DISPLAYMESSAGE5]
+; EN: Message="Return to the pub to celebrate your victory..."
+Message="あなたの勝利を祝うためにパブに戻ってください..."
+
+[Action_DISPLAYMESSAGE7]
+; EN: Message="and catch the Bush Boys live on stage"
+Message="ブッシュボーイズをステージでライブでキャッチ"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="ゼロビールマーケティングキャンペーン"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="ビルボードが破壊されました！"
+; EN: ObjectiveDescription="Zero Beer Billboard"
+ObjectiveDescription="ゼロビールビルボード"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign."
+Objective_Info_Attacker="ゼロビールのマーケティングキャンペーンを停止します。"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="ゼロビールの看板を保護します。"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="ゼロビールマーケティングキャンペーン"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="ビルボードが破壊されました！"
+; EN: ObjectiveDescription="Zero Beer Billboard"
+ObjectiveDescription="ゼロビールビルボード"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="ゼロビールのマーケティングキャンペーンをやめましょう！"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="ゼロビールの看板を保護します。"
+
+[DestroyableObjective_SM10]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="醸造所のゲートロック"
+; EN: ObjectiveDescription="Destroy Locks on Brewery gates."
+ObjectiveDescription="醸造所のゲートのロックを破壊します。"
+; EN: Objective_Info_Attacker="Destroy the Brewery gate locks."
+Objective_Info_Attacker="醸造所のゲートロックを破壊します。"
+; EN: Objective_Info_Defender="Protect the Brewery gates."
+Objective_Info_Defender="醸造所のゲートを保護します。"
+
+[DestroyableObjective_SM11]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="醸造所のゲートロック"
+; EN: Objective_Info_Attacker="Destroy the brewery gate locks"
+Objective_Info_Attacker="醸造所のゲートロックを破壊する"
+; EN: Objective_Info_Defender="Protect the brewery gates"
+Objective_Info_Defender="醸造所の門を守る"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="ゼロビールマーケティングキャンペーン"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="ビルボードが破壊されました！"
+; EN: ObjectiveDescription="Zero Beer Billboard"
+ObjectiveDescription="ゼロビールビルボード"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="ゼロビールのマーケティングキャンペーンをやめましょう！"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="ゼロビールの看板を保護します。"
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="ゼロビールマーケティングキャンペーン"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="ビルボードが破壊されました！"
+; EN: ObjectiveDescription="Zero Beer Billboard"
+ObjectiveDescription="ゼロビールビルボード"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="ゼロビールのマーケティングキャンペーンをやめましょう！"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="ゼロビールの看板を保護します。"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="醸造所のゲートロック"
+; EN: Objective_Info_Attacker="Destroy the brewery gate locks"
+Objective_Info_Attacker="醸造所のゲートロックを破壊する"
+; EN: Objective_Info_Defender="Protect the brewery gates"
+Objective_Info_Defender="醸造所の門を守る"
+
+[DestroyableObjective_SM9]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="ゼロビールマーケティングキャンペーン"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="ビルボードが破壊されました！"
+; EN: ObjectiveDescription="Zero Beer Billboard"
+ObjectiveDescription="ゼロビールビルボード"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="ゼロビールのマーケティングキャンペーンをやめましょう！"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="ゼロビールの看板を保護します。"
+
+[Energybeer]
+; EN: ObjectiveName="Beer canister"
+ObjectiveName="ビールキャニスター"
+
+[HoldObjective1]
+; EN: ObjectiveName="The Pubs Main Valve"
+ObjectiveName="パブのメインバルブ"
+; EN: DestructionMessage="Drainage valve opened!"
+DestructionMessage="排水バルブが開きました！"
+; EN: ObjectiveDescription="Main Pub Valve"
+ObjectiveDescription="メインパブバルブ"
+; EN: Objective_Info_Attacker="Open the Pub's Zero Beer drainage valve."
+Objective_Info_Attacker="パブのゼロビール排水バルブを開きます。"
+; EN: Objective_Info_Defender="Protect the Pub's Zero Beer drainage valve."
+Objective_Info_Defender="パブのゼロビール排水バルブを保護します。"
+
+[HoldObjective2]
+; EN: ObjectiveName="The Billabong Water Valve"
+ObjectiveName="ビラボンウォーターバルブ"
+; EN: DestructionMessage="Billabong water sucessfully pumped!"
+DestructionMessage="ビラボンの水がうまく汲み上げられました！"
+; EN: ObjectiveDescription="Brewery Valve"
+ObjectiveDescription="醸造所のバルブ"
+; EN: Objective_Info_Attacker="Pump the fresh water to the brewery system."
+Objective_Info_Attacker="淡水を醸造所システムにポンプで送ります。"
+; EN: Objective_Info_Defender="Keep the fresh water out of the brewery."
+Objective_Info_Defender="醸造所に真水を入れないでください。"
+
+[HoldObjective3]
+; EN: ObjectiveName="The Final Valve"
+ObjectiveName="ファイナルバルブ"
+; EN: DestructionMessage="New beer has been distilled"
+DestructionMessage="新しいビールが蒸留されました"
+; EN: ObjectiveDescription="Fermentation Tanks"
+ObjectiveDescription="発酵タンク"
+; EN: Objective_Info_Attacker="Get the new beer into the fermentation tanks."
+Objective_Info_Attacker="新しいビールを発酵タンクに入れます。"
+; EN: Objective_Info_Defender="Keep the new beer out of the fermentation tanks."
+Objective_Info_Defender="新しいビールを発酵タンクに入れないでください。"
+
+[HoldObjective4]
+; EN: ObjectiveName="Billabong Flow Valve"
+ObjectiveName="ビラボンフローバルブ"
+; EN: DestructionMessage="Billabong water sucessfully added."
+DestructionMessage="ビラボン水が正常に追加されました。"
+; EN: ObjectiveDescription="Brewery Valve"
+ObjectiveDescription="醸造所のバルブ"
+; EN: Objective_Info_Attacker="Open the Brew Tank water valve."
+Objective_Info_Attacker="醸造タンクの水バルブを開きます。"
+; EN: Objective_Info_Defender="Keep the Brew Tank Valve closed."
+Objective_Info_Defender="醸造タンクバルブを閉じたままにします。"
+
+[LevelInfo0]
+; EN: Title="AS-BP2-Outback"
+Title="AS-BP2-アウトバック"
+
+[LevelSummary]
+; EN: Title="AS-BP2-Outback"
+Title="AS-BP2-アウトバック"
+; EN: Description="City slickers just took over the outback's top brewery.  They've dumped your favorite beverage, replacing it with piss poor Zero Beer.                                                                                The grog's got no alcohol and tastes like a Bondi cigar!  Get over there pronto and sort this thing out...  before it takes over OZ!!"
+Description="シティスリッカーズは、アウトバックのトップ醸造所を引き継いだばかりです。彼らはあなたの好きな飲​​み物を捨てて、それを小便の貧しいゼロビールと取り替えました。グロッグにはアルコールがなく、ボンダイシガーのような味がします！そこに行き、このことを整理してください...それがOZを引き継ぐ前に!!"
+
+[MyBurned]
+; EN: DeathString="%o got to close to the flamage."
+DeathString="％oはフラマージュに近づきました。"
+; EN: FemaleSuicide="%o played with fire, and lost"
+FemaleSuicide="％oは火遊びをし、負けました"
+; EN: MaleSuicide="%o played with fire, and lost"
+MaleSuicide="％oは火遊びをし、負けました"
+
+[MyDrowned]
+; EN: DeathString="%o went looking for the swagman"
+DeathString="％oはスワッグマンを探しに行きました"
+; EN: FemaleSuicide="%o went looking for the swagman"
+FemaleSuicide="％oはスワッグマンを探しに行きました"
+; EN: MaleSuicide="%o went looking for the swagman"
+MaleSuicide="％oはスワッグマンを探しに行きました"
+
+[PhysicsVolume0]
+; EN: LocationName="Conveyor blets"
+LocationName="コンベヤーブレット"
+
+[SceneSubtitles1]
+SubTitles=("Somewhere deep in the Australian outback...",,"trouble is brewing.",,"First, your team will need to open the Pub's drainage valve and get rid of the old Zero Beer.",,"Next, destroy the Zero Beer billboards to ruin their marketing campaign.",,"In order to make new beer, you'll need to engage the lake's pumps and restore the flow of fresh water into the Brewery.",,"Once the water is flowing, your team must storm the Brewery's main gates.",,"When you're inside, open the intake valve to pump the fresh water into the brewing tanks.",,"Find the missing Hops canister and add it to the Brew cycle.",,"Once the hops are in, someone will need to activate the main switch and start the stirring paddles of the brew kettles.",,"Finally, open the main valve to fill up the fermentation tanks with fresh beer.",)
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Billboards have been destroyed, proceed to the billabong"
+Message="看板が破壊されました、ビラボンに進んでください"
+
+[TriggeredObjective2]
+; EN: ObjectiveName="Stirring Paddle Switch"
+ObjectiveName="攪拌パドルスイッチ"
+; EN: DestructionMessage="Stirring paddles activated."
+DestructionMessage="攪拌パドルが作動しました。"
+; EN: ObjectiveDescription="Brew Kettles Main Switch"
+ObjectiveDescription="醸造ケトルメインスイッチ"
+; EN: Objective_Info_Attacker="Activate the Brew Kettles."
+Objective_Info_Attacker="醸造ケトルをアクティブにします。"
+; EN: Objective_Info_Defender="Keep the Brew Kettles shut down"
+Objective_Info_Defender="醸造ケトルをシャットダウンしてください"
+
+[Volume0]
+; EN: LocationName="In the Pub"
+LocationName="パブで"
+
+[WaterVolume0]
+; EN: LocationName="Billabong water"
+LocationName="ビラボン水"
+
+[WaterVolume1]
+; EN: LocationName="Fermenting beer"
+LocationName="発酵ビール"
+
+[WaterVolume2]
+; EN: LocationName="Beer tank"
+LocationName="ビールタンク"
+
+[WaterVolume3]
+; EN: LocationName="Under Water in Billiabong"
+LocationName="ビリアボンの水中"
+
+[ZoneInfo0]
+; EN: LocationName="Outback"
+LocationName="アウトバック"
+
+[ZoneInfo1]
+; EN: LocationName="Brewery Shipping"
+LocationName="醸造所の配送"
+
+[ZoneInfo2]
+; EN: LocationName="Brewery Production"
+LocationName="醸造所の生産"
+
+[ZoneInfo3]
+; EN: LocationName="Back at the Pub"
+LocationName="パブに戻る"
+
+[beercanister]
+; EN: PlayerDroppedMessage=" dropped the Hops canister!"
+PlayerDroppedMessage=" ホップキャニスターを落としました！"
+; EN: DroppedMessage="Hops canister dropped!"
+DroppedMessage="ホップキャニスターが落ちました！"
+; EN: EnergyCorePickedUp="Hops canister picked up!"
+EnergyCorePickedUp="ホップキャニスターを拾いました！"
+; EN: PlayerPickedUpEnergyCore=" picked up the Hops canister!"
+PlayerPickedUpEnergyCore=" ホップキャニスターを手に入れました！"
+; EN: PlayerCoreReset="Hops canister reset!"
+PlayerCoreReset="ホップキャニスターリセット！"
+

@@ -1,113 +1,183 @@
 [ACTION_DamageActor]
-ActionString="Damage actor"
+; EN: ActionString="Damage actor"
+ActionString="Schaden Akteur"
 
 [ACTION_DestroyActor]
-ActionString="Destroy actor"
+; EN: ActionString="Destroy actor"
+ActionString="Schauspieler zerstören"
 
 [ACTION_FinishRotation]
-ActionString="Finish rotation"
+; EN: ActionString="Finish rotation"
+ActionString="Drehung beenden"
 
 [ACTION_FireWeapon]
-ActionString="fire weapon"
+; EN: ActionString="fire weapon"
+ActionString="Feuerwaffe"
 
 [ACTION_FireWeaponAt]
-ActionString="fire weapon"
+; EN: ActionString="fire weapon"
+ActionString="Feuerwaffe"
 
 [ACTION_Freeze]
-ActionString="Freeze"
+; EN: ActionString="Freeze"
+ActionString="Einfrieren"
 
 [ACTION_HealActor]
-ActionString="Heal actor"
+; EN: ActionString="Heal actor"
+ActionString="Schauspieler heilen"
 
 [ACTION_Jump]
-ActionString="Jump"
+; EN: ActionString="Jump"
+ActionString="Springen"
 
 [ACTION_LocalizedMessage]
-ActionString="Localized Message"
+; EN: ActionString="Localized Message"
+ActionString="Lokalisierte Nachricht"
 
 [ACTION_PlayLIPSinc]
-ActionString="Play LIPSinc"
+; EN: ActionString="Play LIPSinc"
+ActionString="Spielen Sie LIPSinc"
 
 [ACTION_SetPhysics]
-ActionString="change physics to "
+; EN: ActionString="change physics to "
+ActionString="ändere physik zu "
 
 [ACTION_ShootTarget]
-ActionString="shoot target"
+; EN: ActionString="shoot target"
+ActionString="Zielscheibe schießen"
 
 [ACTION_SpawnActor]
-ActionString="Spawn actor"
+; EN: ActionString="Spawn actor"
+ActionString="Spawn-Schauspieler"
 
 [ACTION_SubTitles]
-ActionString="SubTitles"
+; EN: ActionString="SubTitles"
+ActionString="Untertitel"
 
 [ACTION_ThrowWeapon]
-ActionString="throw weapon"
+; EN: ActionString="throw weapon"
+ActionString="Waffe werfen"
 
 [ACTION_WaitForLIPSincAnimEnd]
-ActionString="Wait for LIPSincAnimEnd"
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="Warte auf LIPSincAnimEnd"
 
 [ActionMessage_BR]
-Messages[0]="Bombing Run"
-Messages[1]="The ball is in the center"
-Messages[2]="Touch the ball to pick it up"
-Messages[3]="The ball carrier cannot attack"
-Messages[4]="Primary fire shoots ball"
-Messages[5]="Alternate fire targets teammates"
-Messages[6]="Pass the ball to teammates"
-Messages[7]="Each team has a round goal"
-Messages[8]="Throwing the ball = 3 points"
-Messages[9]="Carrying it = 7 points"
-Messages[10]="Good luck!"
+; EN: Messages[0]="Bombing Run"
+Messages[0]="Bombenangriff"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="Der Ball ist in der Mitte"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="Berühre den Ball, um ihn aufzuheben"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="Der Ballträger kann nicht angreifen"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="Primärfeuer schießt Ball"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="Alternatives Feuer zielt auf Teamkollegen ab"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="Pass den Ball an Mitspieler weiter"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="Jedes Team hat ein rundes Ziel"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="Ball werfen = 3 Punkte"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="Tragen = 7 Punkte"
+; EN: Messages[10]="Good luck!"
+Messages[10]="Viel Glück!"
 
 [ActionMessage_CTF]
-Messages[0]="Capture the Flag"
-Messages[1]="Two bases : red and blue"
-Messages[2]="Touch enemy flag to take it"
-Messages[3]="Return to your base"
-Messages[4]="Touch your flag to score"
-Messages[5]="Translocating will drop the flag"
-Messages[6]="Default capture limit is 3"
-Messages[7]="Good luck!"
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="Erobere die Flagge"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="Zwei Basen: Rot und Blau"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="Berühre die feindliche Flagge, um sie zu nehmen"
+; EN: Messages[3]="Return to your base"
+Messages[3]="Kehre zu deiner Basis zurück"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="Berühre deine Flagge, um zu punkten"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="Beim Translozieren wird die Flagge fallen gelassen"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="Das standardmäßige Aufnahmelimit beträgt 3 "
+; EN: Messages[7]="Good luck!"
+Messages[7]="Viel Glück!"
 
 [ActionMessage_DM]
-Messages[0]="Deathmatch"
-Messages[1]="Press fire to spawn"
-Messages[2]="Weapons have two firing modes"
-Messages[3]="Regular and alternate fire"
-Messages[4]="Assault Rifle"
-Messages[5]="Fires bullets and grenades"
-Messages[6]="Shield Gun"
-Messages[7]="Melee attack"
-Messages[8]="Protective Shield"
-Messages[9]="Explore to find other weapons"
-Messages[10]="Flak Cannon"
-Messages[11]="Bio-Rifle"
+; EN: Messages[0]="Deathmatch"
+Messages[0]="Todeskampf"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="Drücken Sie Feuer, um zu spawnen"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="Waffen haben zwei Feuermodi"
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="Regelmäßiges und wechselndes Feuer"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="Sturmgewehr"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="Feuert Kugeln und Granaten ab"
+; EN: Messages[6]="Shield Gun"
+Messages[6]="Schildkanone"
+; EN: Messages[7]="Melee attack"
+Messages[7]="Nahkampfangriff"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="Schutzschild"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="Erkunden Sie, um andere Waffen zu finden"
+; EN: Messages[10]="Flak Cannon"
+Messages[10]="Flakkanone"
+; EN: Messages[11]="Bio-Rifle"
+Messages[11]="Bio-Gewehr"
 Messages[12]="Minigun"
-Messages[13]="Movement"
-Messages[14]="WASD = Default movement keys"
-Messages[15]="Double tap a key to dodge"
-Messages[16]="Jumping"
-Messages[17]="Double jump"
-Messages[18]="Powerups"
-Messages[19]="Health vials"
-Messages[20]="Health pack"
-Messages[21]="Big Keg O' Health"
-Messages[22]="Armor"
-Messages[23]="Shield Pack"
-Messages[24]="Super Shield Pack"
-Messages[25]="Adrenaline"
-Messages[26]="Adrenaline can be used for combos"
-Messages[27]="Damage Amplifier"
-Messages[28]="Reach the frag limit first!"
-Messages[29]="Suicides count against you"
-Messages[30]="Good luck!"
+; EN: Messages[13]="Movement"
+Messages[13]="Bewegung"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD = Standard-Bewegungstasten"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="Tippe doppelt auf eine Taste, um auszuweichen"
+; EN: Messages[16]="Jumping"
+Messages[16]="Springen"
+; EN: Messages[17]="Double jump"
+Messages[17]="Doppelsprung"
+; EN: Messages[18]="Powerups"
+Messages[18]="Einschalten"
+; EN: Messages[19]="Health vials"
+Messages[19]="Gesundheitsfläschchen"
+; EN: Messages[20]="Health pack"
+Messages[20]="Gesundheitspaket"
+; EN: Messages[21]="Big Keg O' Health"
+Messages[21]="Big Fass O'Health"
+; EN: Messages[22]="Armor"
+Messages[22]="Rüstung"
+; EN: Messages[23]="Shield Pack"
+Messages[23]="Schildpaket"
+; EN: Messages[24]="Super Shield Pack"
+Messages[24]="Super-Schild-Paket"
+; EN: Messages[25]="Adrenaline"
+Messages[25]="Adrenalin"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="Adrenalin kann für Combos verwendet werden"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="Schadensverstärker"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="Erreiche zuerst das Frag-Limit!"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="Selbstmorde zählen gegen dich"
+; EN: Messages[30]="Good luck!"
+Messages[30]="Viel Glück!"
 
 [ActionMessage_DOM]
-Messages[0]="Double Domination"
-Messages[1]="Control points : A & B"
-Messages[2]="Hold points for 10 seconds"
-Messages[3]="Touch point to take control"
-Messages[4]="Good luck!"
+; EN: Messages[0]="Double Domination"
+Messages[0]="Doppelte Dominanz"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="Kontrollpunkte: A &amp; B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="Punkte 10 Sekunden halten"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="Berühren Sie den Punkt, um die Kontrolle zu übernehmen"
+; EN: Messages[4]="Good luck!"
+Messages[4]="Viel Glück!"
 
 [ActionMessage_SubTitle]
 Delays[0]=4.000000
@@ -142,160 +212,230 @@ Delays[28]=0.000000
 Delays[29]=0.000000
 Delays[30]=0.000000
 Delays[31]=0.000000
-Messages[0]="How do I look?"
-Messages[1]="Not as good as me baby..."
-Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
-Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
-Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
-Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
-Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
-Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
-Messages[8]="Yeah right.....you like watching Lauren for her energy."
-Messages[9]="This time he's MINE!!"
+; EN: Messages[0]="How do I look?"
+Messages[0]="Wie sehe ich aus?"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="Nicht so gut wie ich Baby..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="Nun, Fans hier, wir sind für eine weitere Ausgabe des blutigsten Sports in der Galaxis. Ein Turnier, bei dem die Gewinner zu Göttern werden und die Verlierer den ultimativen Preis zahlen!"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="DA SIND SIE! Einst waren sie Rivalen, aber jetzt sind sie eines der härtesten Teams überhaupt."
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="Korrekt. Nichts geht über Erfahrung und jeder dieser drei bringt jede Menge davon auf den Tisch."
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="Sieh dir Malcolm an! Jetzt gibt es einen Typen, der in einem Feuergefecht wirklich cool bleiben kann."
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="Dieser Brocken. Er ist für die Damen AUSSERHALB des Rings genauso gefährlich wie für seine Gegner innen!"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="Ich liebe es, Lauren zuzusehen. Sie ist so ein kleines... Energiebündel."
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="Ja, richtig..... du magst es, Lauren wegen ihrer Energie zu beobachten."
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="Dieses Mal gehört er MIR!!"
 Messages[10]="AAGGGHHHHRRRR"
-Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="Du d'man Gorge! Du rockst! Ja, Baby, komm schon, du d'man-Typ!"
 Messages[12]="MAAAALLLCOOOOOMMM!"
-Messages[13]="Oh, man, did you see that?"
-Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
-Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
-Messages[16]="Yea, I think he is looking for a little PAYBACK."
-Messages[17]="Yep, it should be a good one tonight."
-Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
-Messages[19]="Looks like it's gonna be... Kalendra Icefields."
-Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
-Messages[21]="Tonight's match oughta be a real blood-bath."
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="Oh Mann, hast du das gesehen?"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="Ich sage dir Jim, dieser Gorge, er hat einfach keinen Respekt vor seinen Fans."
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="Nun, ich glaube, er ist immer noch sauer über die neue Narbe in seinem Gesicht, die Malcolm in ihrem letzten Spiel zu verdanken ist."
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="Ja, ich glaube, er sucht nach einem kleinen PAYBACK."
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="Ja, heute Abend sollte es gut werden."
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="Da Malcolms Team die amtierenden Champions ist, können sie heute Abend die Arena wählen."
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="Sieht so aus, als ob es... Kalendra Icefields sein wird."
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="Awww Ja, ich liebe diese Arena, Malcolm macht sich hier wirklich gut."
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="Das Spiel heute Abend sollte ein echtes Blutbad werden."
 
 [Action_CHANGELEVEL]
-ActionString="Change level"
+; EN: ActionString="Change level"
+ActionString="Ebene ändern"
 
 [Action_CHANGESCRIPT]
-ActionString="Change script"
+; EN: ActionString="Change script"
+ActionString="Skript ändern"
 
 [Action_CHANGETEAM]
-ActionString="Change Team"
+; EN: ActionString="Change Team"
+ActionString="Team wechseln"
 
 [Action_CROUCH]
-ActionString="crouch"
+; EN: ActionString="crouch"
+ActionString="hocken"
 
 [Action_ConsoleCommand]
-ActionString="console command"
+; EN: ActionString="console command"
+ActionString="Konsolenbefehl"
 
 [Action_DAMAGEINSTIGATOR]
-ActionString="Damage instigator"
+; EN: ActionString="Damage instigator"
+ActionString="Schadensauslöser"
 
 [Action_DESTROYPAWN]
-ActionString="destroy pawn"
+; EN: ActionString="destroy pawn"
+ActionString="Bauer zerstören"
 
 [Action_DISPLAYMESSAGE]
-ActionString="display message"
+; EN: ActionString="display message"
+ActionString="Nachricht anzeigen"
 
 [Action_DrawHUDMaterial]
-ActionString="draw HUD texture"
+; EN: ActionString="draw HUD texture"
+ActionString="HUD-Textur zeichnen"
 
 [Action_ENDSECTION]
-ActionString="end section"
+; EN: ActionString="end section"
+ActionString="Endstück"
 
 [Action_FADEVIEW]
-ActionString="fade view"
+; EN: ActionString="fade view"
+ActionString="Ansicht verblassen"
 
 [Action_GOTOACTION]
-ActionString="go to action"
+; EN: ActionString="go to action"
+ActionString="gehe zur aktion"
 
 [Action_IFCONDITION]
-ActionString="If condition"
+; EN: ActionString="If condition"
+ActionString="Wenn Bedingung"
 
 [Action_KILLINSTIGATOR]
-ActionString="Damage instigator"
+; EN: ActionString="Damage instigator"
+ActionString="Schadensauslöser"
 
 [Action_LEAVESEQUENCE]
-ActionString="leave sequence"
+; EN: ActionString="leave sequence"
+ActionString="Sequenz verlassen"
 
 [Action_MOVETOPLAYER]
-ActionString="Move to player"
+; EN: ActionString="Move to player"
+ActionString="Zu Spieler wechseln"
 
 [Action_MOVETOPOINT]
-ActionString="Move to point"
+; EN: ActionString="Move to point"
+ActionString="Zum Punkt bewegen"
 
 [Action_PLAYAMBIENTSOUND]
-ActionString="play ambient sound"
+; EN: ActionString="play ambient sound"
+ActionString="Umgebungsgeräusche abspielen"
 
 [Action_PLAYANIM]
-ActionString="play animation"
+; EN: ActionString="play animation"
+ActionString="Animation abspielen"
 
 [Action_PLAYANNOUNCEMENT]
-ActionString="play announcement"
+; EN: ActionString="play announcement"
+ActionString="Ansage abspielen"
 
 [Action_PLAYLOCALSOUND]
-ActionString="play sound"
+; EN: ActionString="play sound"
+ActionString="Ton abspielen"
 
 [Action_PLAYMUSIC]
-ActionString="play song"
+; EN: ActionString="play song"
+ActionString="Lied spielen"
 
 [Action_PLAYSOUND]
-ActionString="play sound"
+; EN: ActionString="play sound"
+ActionString="Ton abspielen"
 
 [Action_RUN]
-ActionString="Run"
+; EN: ActionString="Run"
+ActionString="Lauf"
 
 [Action_SETALERTNESS]
-ActionString="set alertness"
+; EN: ActionString="set alertness"
+ActionString="Wachsamkeit einstellen"
 
 [Action_SETVIEWTARGET]
-ActionString="set viewtarget"
+; EN: ActionString="set viewtarget"
+ActionString="Ansichtsziel festlegen"
 
 [Action_STOPANIMATION]
-ActionString="stop animation"
+; EN: ActionString="stop animation"
+ActionString="Animation stoppen"
 
 [Action_TRIGGEREVENT]
-ActionString="trigger event"
+; EN: ActionString="trigger event"
+ActionString="auslösendes Ereignis"
 
 [Action_TURNTOWARDPLAYER]
-ActionString="Turn toward player"
+; EN: ActionString="Turn toward player"
+ActionString="Wende dich an den Spieler"
 
 [Action_WAITFORANIMEND]
-ActionString="Wait for animend"
+; EN: ActionString="Wait for animend"
+ActionString="Warte auf Anime"
 
 [Action_WAITFOREVENT]
-ActionString="Wait for external event"
+; EN: ActionString="Wait for external event"
+ActionString="Auf externes Ereignis warten"
 
 [Action_WAITFORPLAYER]
-ActionString="Wait for player"
+; EN: ActionString="Wait for player"
+ActionString="Warte auf Spieler"
 
 [Action_WAITFORTIMER]
-ActionString="Wait for timer"
+; EN: ActionString="Wait for timer"
+ActionString="Warte auf den Timer"
 
 [Action_WALK]
-ActionString="walk"
+; EN: ActionString="walk"
+ActionString="Spaziergang"
 
 [Burned]
-DeathString="%o was sauteed."
+; EN: DeathString="%o was sauteed."
+DeathString="%o wurde sautiert."
 
 [Corroded]
-DeathString="%o was dissolved by %k's."
-FemaleSuicide="%o dissolved in slime."
-MaleSuicide="%o dissolved in slime."
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="%o wurde von %k's aufgelöst."
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="%o in Schleim aufgelöst."
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="%o in Schleim aufgelöst."
 
 [Counter]
-CountMessage="Only %i more to go..."
-CompleteMessage="Completed!"
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Nur noch %i mehr..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Vollendet!"
 
 [Depressurized]
-DeathString="%o was depressurized by %k."
-FemaleSuicide="%o was depressurized."
-MaleSuicide="%o was depressurized."
+; EN: DeathString="%o was depressurized by %k."
+DeathString="%o wurde um %k drucklos gemacht."
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="%o war drucklos."
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="%o war drucklos."
 
 [Drowned]
-DeathString="%o forgot to come up for air."
-FemaleSuicide="%o forgot to come up for air."
-MaleSuicide="%o forgot to come up for air."
+; EN: DeathString="%o forgot to come up for air."
+DeathString="%o hat vergessen, Luft zu holen."
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="%o hat vergessen, Luft zu holen."
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="%o hat vergessen, Luft zu holen."
 
 [MessageTextureClient]
-HisMessage="his"
-HerMessage="her"
+; EN: HisMessage="his"
+HisMessage="seine"
+; EN: HerMessage="her"
+HerMessage="Sie"
 
 [ScriptedAction]
-ActionString="unspecified action"
+; EN: ActionString="unspecified action"
+ActionString="nicht näher bezeichnete Aktion"
 
 [WaterVolume]
-LocationName="under water"
+; EN: LocationName="under water"
+LocationName="unter Wasser"
 

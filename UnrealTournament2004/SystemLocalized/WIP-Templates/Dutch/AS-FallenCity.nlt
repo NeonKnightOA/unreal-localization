@@ -1,0 +1,190 @@
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Subway station entrance"
+LocationName="Ingang metrostation"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Subway train"
+LocationName="Metro"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Boarding station"
+LocationName="Opstapstation"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE4]
+Message="1..."
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Poortslot"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Poortslot vernietigd!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Vernietig de poort Lock"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Vernietig poortslot"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Verdedig poortslot"
+
+[DestroyableObjective_SM1]
+ObjectiveName="barricade"
+; EN: DestructionMessage="barricade destroyed!"
+DestructionMessage="barricade vernietigd!"
+; EN: ObjectiveDescription="Destroy the barricade"
+ObjectiveDescription="Vernietig de barricade"
+; EN: Objective_Info_Attacker="Destroy barricade"
+Objective_Info_Attacker="Vernietig barricade"
+; EN: Objective_Info_Defender="Defend barricade"
+Objective_Info_Defender="Verdedig barricade"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Poortslot"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Poortslot vernietigd!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Vernietig de poort Lock"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Vernietig poortslot"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Verdedig poortslot"
+
+[HoldObjective0]
+; EN: ObjectiveName="Explosive #2"
+ObjectiveName="Explosief #2"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="De explosieven zijn op hun plaats!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Plant een explosief"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Commandocentrum vernietigen"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Commandocentrum verdedigen"
+
+[HoldObjective1]
+; EN: ObjectiveName="Forward outpost"
+ObjectiveName="Voorpost doorsturen"
+; EN: DestructionMessage="Forward outpost taken!"
+DestructionMessage="Voorwaartse buitenpost bezet!"
+; EN: ObjectiveDescription="Take the forward outpost "
+ObjectiveDescription="Neem de voorste buitenpost "
+; EN: Objective_Info_Attacker="Secure forward outpost"
+Objective_Info_Attacker="Veilige voorwaartse buitenpost"
+; EN: Objective_Info_Defender="Defend forward outpost"
+Objective_Info_Defender="Voorwaartse buitenpost verdedigen"
+
+[HoldObjective2]
+; EN: ObjectiveName="Explosive #1"
+ObjectiveName="Explosief #1"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="De explosieven zijn op hun plaats!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Plant een explosief"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Commandocentrum vernietigen"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Commandocentrum verdedigen"
+
+[LevelInfo0]
+; EN: Title="The Fallen City"
+Title="De gevallen stad"
+
+[LevelSummary]
+; EN: Title="The Fallen City"
+Title="De gevallen stad"
+; EN: Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+Description="Na de oorlog tussen mens en Skaarj lagen veel van de steden op aarde in puin. Toen de regering van de Nieuwe Aarde haar gezag over deze gebieden probeerde te doen gelden, werden ze geconfronteerd met vele rebellengroepen, vaak heimelijk gefinancierd door de grote bedrijven, die bases hadden gevestigd in de verwoeste steden. In dit scenario wordt de vernietiging van een commandocentrum van de rebellen door NEG-troepen nagebootst. In overeenstemming met de historische strijd ligt het invoegpunt van de aanvaller op enige afstand van het commandocentrum, vanwege de zware luchtafweerbescherming rond de bunker."
+
+[SceneSubtitles1]
+SubTitles=("Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas,","they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities.","This scenario recreates the destruction of a rebel command center by NEG forces. ","In keeping with the historical battle, the attackers' insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker. ","The attackers must first make their way through the streets on foot and clear out any resistance they find. They must destroy the barricade in order to proceed to the next objective.","Next, they must take out the forward outpost. When the area is clear, a shipment of heavier cargo will be dropped in to help you proceed.","The defenders are nestled deep within this hardened bunker. You will have to bypass the defenses and infiltrate the bunker to reach their command center.","Reach the underground command center and place explosives to destroy the entire base. This should bring the resistance to its knees.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Bunker infiltrated!"
+Message="Bunker geïnfiltreerd!"
+
+[Trigger_ASMessageTrigger2]
+; EN: Message="Command center destroyed!"
+Message="Commandocentrum vernietigd!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Explosives Set!!!"
+Message="Explosieven Set!!!"
+
+[Volume0]
+; EN: LocationName="Forward outpost"
+LocationName="Voorpost doorsturen"
+
+[Volume1]
+; EN: LocationName="Attackers drop zone"
+LocationName="Dropzone voor aanvallers"
+
+[Volume10]
+; EN: LocationName="Stairs"
+LocationName="Trap"
+
+[Volume11]
+; EN: LocationName="Subway station lobby"
+LocationName="Lobby van het metrostation"
+
+[Volume12]
+; EN: LocationName="Station roof"
+LocationName="Stationsdak"
+
+[Volume13]
+; EN: LocationName="Vents"
+LocationName="Ventilatieopeningen"
+
+[Volume14]
+; EN: LocationName="Subway train"
+LocationName="Metro"
+
+[Volume15]
+; EN: LocationName="Subway tracks"
+LocationName="metrosporen"
+
+[Volume2]
+; EN: LocationName="Rebel look out"
+LocationName="Rebellen kijk uit"
+
+[Volume3]
+LocationName="Caudle Ave."
+
+[Volume4]
+; EN: LocationName="Attackers drop zone"
+LocationName="Dropzone voor aanvallers"
+
+[Volume5]
+; EN: LocationName="Boarding station"
+LocationName="Opstapstation"
+
+[Volume6]
+; EN: LocationName="Statue pass"
+LocationName="Standbeeldpas"
+
+[Volume7]
+; EN: LocationName="Statue pass"
+LocationName="Standbeeldpas"
+
+[Volume8]
+; EN: LocationName="Roman path way"
+LocationName="Romeins pad"
+
+[Volume9]
+; EN: LocationName="Subway ticket stand"
+LocationName="Metro ticket stand"
+
+[ZoneInfo0]
+; EN: LocationName="Destroyed city"
+LocationName="verwoeste stad"
+

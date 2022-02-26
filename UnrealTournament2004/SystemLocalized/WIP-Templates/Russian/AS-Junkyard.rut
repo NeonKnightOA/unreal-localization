@@ -1,0 +1,144 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: DestructionMessage="Vehicle has been repaired!"
+DestructionMessage="Автомобиль отремонтирован!"
+; EN: ObjectiveDescription="Deliver the Power Core to repair the vehicle."
+ObjectiveDescription="Доставьте Power Core, чтобы отремонтировать машину."
+; EN: Objective_Info_Attacker="Return the Core to the vehicle"
+Objective_Info_Attacker="Верните Ядро в машину"
+; EN: Objective_Info_Defender="Prevent the Attackers from returning the Core"
+Objective_Info_Defender="Не позволяйте злоумышленникам вернуть ядро"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: ObjectiveDescription="You need to pick up the Energy Core and return it to your vehicle in order to repair it."
+ObjectiveDescription="Вам нужно забрать Энергетическое Ядро и вернуть его в машину, чтобы отремонтировать."
+; EN: Objective_Info_Attacker="Find the Energy Core"
+Objective_Info_Attacker="Найдите энергетическое ядро"
+; EN: Objective_Info_Defender="Protect the Energy Core"
+Objective_Info_Defender="Защитите энергетическое ядро"
+
+[HoldObjective0]
+; EN: DestructionMessage="Checkpoint gate opened!"
+DestructionMessage="Ворота КПП открыты!"
+; EN: ObjectiveDescription="Stand at the switch to open the gate."
+ObjectiveDescription="Встаньте у переключателя, чтобы открыть ворота."
+; EN: Objective_Info_Attacker="Open the checkpoint gate"
+Objective_Info_Attacker="Откройте ворота контрольно-пропускного пункта"
+; EN: Objective_Info_Defender="Protect the checkpoint switch."
+Objective_Info_Defender="Защитите переключатель КПП."
+
+[HoldObjective1]
+; EN: DestructionMessage="Drawbridge is down!"
+DestructionMessage="Подъемный мост не работает!"
+; EN: ObjectiveDescription="Stand at the switch to lower the bridge."
+ObjectiveDescription="Встаньте у переключателя, чтобы опустить мост."
+; EN: Objective_Info_Attacker="Lower the bridge"
+Objective_Info_Attacker="Опустить мост"
+; EN: Objective_Info_Defender="Defend the bridge switch"
+Objective_Info_Defender="Защитите мостовой переключатель"
+
+[LevelInfo0]
+; EN: Title="Junkyard Escape"
+Title="Побег со свалки"
+
+[LevelSummary]
+; EN: Title="Junkyard Escape"
+Title="Побег со свалки"
+; EN: Description="This scenario is based on an infamous episode of a popular Holovision program. In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard. The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape. Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born."
+Description="Этот сценарий основан на печально известном эпизоде ​​популярной программы Holovision. В оригинальном эпизоде ​​две команды механиков соревновались, чтобы привести свою машину в рабочее состояние и сбежать со свалки. Неожиданный поворот произошел, когда проигравшая команда вытащила какое-то импровизированное оружие и погрузила в забвение другую команду, прежде чем они смогли сбежать. Поскольку не было явного правила, запрещающего насилие на соревнованиях, они были объявлены победителями, и родилась новая классика турниров."
+
+[ProximityObjective0]
+; EN: DestructionMessage="Attackers escaped from the Junkyard!"
+DestructionMessage="Злоумышленники сбежали со свалки!"
+; EN: ObjectiveDescription="Escape from the Junkyard."
+ObjectiveDescription="Побег со свалки."
+; EN: Objective_Info_Attacker="Proceed to the main gates"
+Objective_Info_Attacker="Пройдите к главным воротам"
+; EN: Objective_Info_Defender="Protect the main gates"
+Objective_Info_Defender="Защитите главные ворота"
+
+[ProximityObjective2]
+; EN: DestructionMessage="Bridge has been crossed!"
+DestructionMessage="Мост пересечен!"
+; EN: ObjectiveDescription="Cross the bridge to progress."
+ObjectiveDescription="Переходите мост, чтобы продвигаться."
+; EN: Objective_Info_Attacker="Cross the bridge"
+Objective_Info_Attacker="Переходить мост"
+; EN: Objective_Info_Defender="Defend the bridge"
+Objective_Info_Defender="Защити мост"
+
+[ProximityObjective3]
+; EN: DestructionMessage="Checkpoint secured!"
+DestructionMessage="КПП обеспечен!"
+; EN: ObjectiveDescription="Secure the checkpoint to progress."
+ObjectiveDescription="Закрепите контрольно-пропускной пункт для продвижения."
+; EN: Objective_Info_Attacker="Secure the checkpoint"
+Objective_Info_Attacker="Обезопасьте контрольно-пропускной пункт"
+; EN: Objective_Info_Defender="Protect the checkpoint"
+Objective_Info_Defender="Защитите контрольно-пропускной пункт"
+
+[SceneSubtitles0]
+SubTitles=("This scenario is based on an infamous episode of a popular Holovision program.","In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard.","The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape.","Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born.","You must find and return the vehicle energy core which is in the interior of the junkyard, and return it to your vehicle.","Once your vehicle is operational, you must drive it through the junkyard and out through the main gate.","To cross the drawbridge, you must lower it by pressing this lever.","Once the bridge is crossed, you must now reach the check point.","You can do so, by following this path and opening the gates to the checkpoint.","It is also possible to use this magnet. While being a much shorter path, it is more risky and exposed.","Once the checkpoint is reached, make your way to the main gate in order to escape.")
+
+[Volume10]
+; EN: LocationName="Magnet hill"
+LocationName="Магнитная горка"
+
+[Volume11]
+; EN: LocationName="Magnet shortcut"
+LocationName="Магнитный ярлык"
+
+[Volume12]
+; EN: LocationName="Pipe stack"
+LocationName="Стек труб"
+
+[Volume13]
+; EN: LocationName="Junk tunnel"
+LocationName="Мусорный туннель"
+
+[Volume14]
+; EN: LocationName="Car crusher"
+LocationName="Автомобильная дробилка"
+
+[Volume15]
+LocationName="Drive-In"
+
+[Volume16]
+; EN: LocationName="Checkpoint"
+LocationName="Контрольно-пропускной пункт"
+
+[Volume17]
+; EN: LocationName="Bathing"
+LocationName="Купание"
+
+[Volume18]
+; EN: LocationName="Communication tower"
+LocationName="Башня связи"
+
+[Volume19]
+; EN: LocationName="Main gate"
+LocationName="Главные ворота"
+
+[Volume4]
+; EN: LocationName="Core tower"
+LocationName="Основная башня"
+
+[Volume5]
+; EN: LocationName="Defense hill"
+LocationName="Холм обороны"
+
+[Volume7]
+; EN: LocationName="Bridge"
+LocationName="Мост"
+
+[Volume8]
+; EN: LocationName="Garage"
+LocationName="Гараж"
+
+[Volume9]
+; EN: LocationName="Fire pit"
+LocationName="Яма для костра"
+
+[ZoneInfo1]
+; EN: LocationName="Junkyard"
+LocationName="Свалка"
+

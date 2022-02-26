@@ -1,0 +1,35 @@
+﻿[LevelInfo2]
+; EN: Title="Demon Crater"
+Title="デーモンクレーター"
+; EN: LevelEntryText="Entering the Demon Crater"
+LevelEntryText="デーモンクレーターに入る"
+
+[LevelSummary]
+; EN: Title="Demon Crater"
+Title="デーモンクレーター"
+; EN: LevelEntryText="Entering the Demon Crater"
+LevelEntryText="デーモンクレーターに入る"
+
+[TranslatorEvent1]
+; EN: Message="Generator Control Panel. Generator is operational. Power output nominal."
+Message="発電機のコントロールパネル。発電機は作動可能です。公称出力。"
+
+[TranslatorEvent0]
+; EN: Message="Portal Gate: Warning: not enough power to establish portal link. Activate the Generator."
+Message="ポータルゲート：警告：ポータルリンクを確立するのに十分な電力がありません。ジェネレータをアクティブにします。"
+; EN: AltMessage="Portal Gate: Link Established. Enter transport field."
+AltMessage="ポータルゲート：リンクが確立されました。移送項目を入力します。"
+; EN: Hint="Activate the Generator that powers the portal to the ship."
+Hint="船へのポータルに電力を供給するジェネレーターをアクティブにします。"
+
+[TranslatorEvent3]
+; EN: Message="Generator and Loading Room."
+Message="発電機と荷積み室。"
+; EN: Hint="Activate the Generator that powers the portal to the ship."
+Hint="船へのポータルに電力を供給するジェネレーターをアクティブにします。"
+
+[TranslatorEvent4]
+; EN: Message="Intruder Alert. Secure all access points, all personnel on full alert. Protect the Mother, failure results in DEATH."
+Message="侵入者アラート。すべてのアクセスポイント、すべての担当者を完全に警戒してください。母を守ってください、失敗は死をもたらします。"
+; EN: Hint="Activate the Generator that powers the portal to the ship."
+Hint="船へのポータルに電力を供給するジェネレーターをアクティブにします。"

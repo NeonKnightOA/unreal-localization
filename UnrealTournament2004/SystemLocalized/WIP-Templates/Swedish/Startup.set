@@ -1,0 +1,53 @@
+[General]
+; EN: Run="Run!"
+Run="Springa!"
+; EN: FirstTime="Unreal Tournament 2004 First-Time Configuration"
+FirstTime="Unreal Tournament 2004 Förstagångskonfiguration"
+; EN: SafeMode="Unreal Tournament 2004 Safe Mode"
+SafeMode="Unreal Tournament 2004 Säkert läge"
+RecoveryMode="Unreal Tournament 2004 Recovery Mode"
+WebPage="http://unreal.epicgames.com/versions.htm"
+; EN: Detecting="Detecting 3D video devices, please wait..."
+Detecting="Upptäcker 3D-videoenheter, vänta..."
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=""
+; EN: IDC_DetailPrompt="Based on your computer's speed, memory, and video card, the Unreal Engine has selected the following detail options in order to optimize performance."
+IDC_DetailPrompt="Baserat på din dators hastighet, minne och grafikkort har Unreal Engine valt följande detaljalternativ för att optimera prestandan."
+; EN: IDC_DetailNote="You may change these options from the game's 'Preferences' window later, if you wish."
+IDC_DetailNote="Du kan ändra dessa alternativ från spelets "Preferences"-fönster senare, om du vill."
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=""
+; EN: IDC_Prompt="Unreal Tournament 2004 is starting up for the first time.  If you experience any problems, please read the release notes in the 'Programs / Unreal Tournament 2004' section of the Windows 'Start' menu."
+IDC_Prompt="Unreal Tournament 2004 startar för första gången. Om du upplever några problem, vänligen läs utgåvan i avsnittet 'Program / Unreal Tournament 2004' i Windows 'Start'-menyn."
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=""
+; EN: IDC_SafeModePrompt="The previous time Unreal Tournament 2004 was run, it was not shut down properly.  In case the shut down was caused by a problem, you may use the options below for recovery."
+IDC_SafeModePrompt="Förra gången Unreal Tournament 2004 kördes stängdes den inte av ordentligt. Om avstängningen orsakades av ett problem kan du använda alternativen nedan för återställning."
+; EN: IDC_SafeModePrompt2="Unreal Tournament 2004 safe mode options: If you are experiencing problems, you may use the options below for recovery."
+IDC_SafeModePrompt2="Alternativ för felsäkert läge i Unreal Tournament 2004: Om du har problem kan du använda alternativen nedan för återställning."
+; EN: IDC_Run="Run Unreal Tournament 2004"
+IDC_Run="Kör Unreal Tournament 2004"
+; EN: IDC_SafeMode="Run Unreal Tournament 2004 in safe mode - for troubleshooting"
+IDC_SafeMode="Kör Unreal Tournament 2004 i säkert läge - för felsökning"
+; EN: IDC_Web="Visit our Web site for troubleshooting tips"
+IDC_Web="Besök vår webbplats för felsökningstips"
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=""
+; EN: IDC_SafeOptions="Safe mode options, for diagnosing problems"
+IDC_SafeOptions="Alternativ för felsäkert läge, för att diagnostisera problem"
+; EN: IDC_NoSound="Disable all sound"
+IDC_NoSound="Inaktivera allt ljud"
+; EN: IDC_Res="Run in standard 640x480 resolution"
+IDC_Res="Kör i standardupplösning 640x480"
+; EN: IDC_ResetConfig="Reset all configuration options to defaults"
+IDC_ResetConfig="Återställ alla konfigurationsalternativ till standardinställningarna"
+; EN: IDC_NoProcessor="Disable Pentium III/3DNow processor extensions"
+IDC_NoProcessor="Inaktivera Pentium III/3DNow-processortillägg"
+; EN: IDC_NoJoy="Disable joystick support"
+IDC_NoJoy="Inaktivera joystick-stöd"
+; EN: IDC_SoftwareRenderer="Use software rendering"
+IDC_SoftwareRenderer="Använd mjukvarurendering"

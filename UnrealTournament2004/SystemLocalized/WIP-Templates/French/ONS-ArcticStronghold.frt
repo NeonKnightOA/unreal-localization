@@ -1,34 +1,46 @@
 [LevelInfo0]
-Title="Arctic Stronghold"
+; EN: Title="Arctic Stronghold"
+Title="Forteresse de l'Arctique"
 
 [LevelSummary]
-Title="Arctic Stronghold"
-Description="Stationed at 24,000 feet and veiled behind blinding fog and constant snow, Arctic Stronghold provided the perfect place to conduct unsanctioned military experiments for use against the Skaarj. Restructured for Onslaught, this arena allows several paths to your enemy, and countless paths to death for the foolish or unwary."
+; EN: Title="Arctic Stronghold"
+Title="Forteresse de l'Arctique"
+; EN: Description="Stationed at 24,000 feet and veiled behind blinding fog and constant snow, Arctic Stronghold provided the perfect place to conduct unsanctioned military experiments for use against the Skaarj. Restructured for Onslaught, this arena allows several paths to your enemy, and countless paths to death for the foolish or unwary."
+Description="Stationné à 24 000 pieds et voilé derrière un brouillard aveuglant et une neige constante, Arctic Stronghold était l'endroit idéal pour mener des expériences militaires non autorisées à utiliser contre les Skaarj. Restructurée pour Onslaught, cette arène permet plusieurs chemins vers votre ennemi, et d'innombrables chemins vers la mort pour les idiots ou les imprudents."
 
 [Volume1]
-LocationName="Red Base"
+; EN: LocationName="Red Base"
+LocationName="Base rouge"
 
 [Volume14]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base bleue"
 
 [Volume15]
-LocationName="North Node"
+; EN: LocationName="North Node"
+LocationName="Nœud Nord"
 
 [Volume16]
-LocationName="East Node"
+; EN: LocationName="East Node"
+LocationName="Nœud Est"
 
 [Volume17]
-LocationName="Central Node"
+; EN: LocationName="Central Node"
+LocationName="Nœud central"
 
 [Volume18]
-LocationName="South Node"
+; EN: LocationName="South Node"
+LocationName="Nœud Sud"
 
 [Volume19]
-LocationName="West Node"
+; EN: LocationName="West Node"
+LocationName="Nœud Ouest"
 
 [Volume20]
-LocationName="Bridge"
+; EN: LocationName="Bridge"
+LocationName="Pont"
 
 [ZoneInfo0]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 

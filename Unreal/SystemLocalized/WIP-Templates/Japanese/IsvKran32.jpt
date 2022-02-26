@@ -1,0 +1,124 @@
+﻿[LevelInfo2]
+; EN: Title="ISV-KRAN Decks 3 and 2"
+Title="ISV-KRANデッキ3および2"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 3"
+LevelEnterText="ISV-KRANデッキ3に入る"
+
+[LevelSummary]
+; EN: Title="ISV-KRAN Decks 3 and 2"
+Title="ISV-KRANデッキ3および2"
+; EN: LevelEnterText="Entering ISV-Kean Deck 3"
+LevelEnterText="ISVに入る-KeanDeck 3"
+
+[TranslatorEvent8]
+; EN: Message="Main Shuttle Bay Door Override Controls"
+Message="メインシャトルベイドアオーバーライドコントロール"
+; EN: AltMessage="Main Shuttle Bay Door Controls Fully Powered Now - Bypass Successful"
+AltMessage="メインシャトルベイドアコントロールがフルパワーになりました-バイパスが成功しました"
+
+[TranslatorEvent11]
+; EN: Message="PRIMARY TURBO LIFT REQUIRES FULL ENGINE POWER"
+Message="プライマリターボリフトにはフルエンジンパワーが必要です"
+; EN: AltMessage="PRIMARY TURBO LIFT POWER RESTORED - WARNING A 2 SECOND SAFETY DELAY FOR LOADING IS IN EFFECT"
+AltMessage="プライマリターボリフトパワーが復元されました-警告ロードの2番目の安全遅延が有効になっています"
+
+[TranslatorEvent31]
+; EN: Message="ISV-KRAN DECK 3 STATUS: ENGINE SYSTEMS ATTEMPTING TO BE RE-ROUTED BY UNKNOWN INTRUDERS. ENGINE POWER CAPACTITY AT 75%."
+Message="ISV-KRANデッキ3のステータス：未知の侵入者によって再ルーティングされようとしているエンジンシステム。 75％のエンジン出力容量。"
+
+[TranslatorEvent32]
+; EN: Message="PLANET SCANNING STATION. ALIEN STARSHIP DETECTED ENTERING AND EXITING THE ATMOSPHERE. ALIEN MOTHERSHIP LANDED IN NORTHERN VALLEY NEAR ATMOSPHERIC ELECTRICAL STORMS."
+Message="惑星スキャンステーション。エイリアンスターシップは、大気圏への出入りを検出しました。エイリアンの母船は、雷雨の近くの北の谷に上陸しました。"
+
+[TranslatorEvent5]
+; EN: Message="This panel requires bypass to activate."
+Message="このパネルをアクティブにするにはバイパスが必要です。"
+
+[TranslatorEvent10]
+; EN: Message="The Skaarj have infiltrated the Dock area. We will retreat to Deck 1 and set up a makeshift high voltage barrier. We should be safe."
+Message="SkaarjはDockエリアに侵入しました。デッキ1に戻り、その場しのぎの高電圧バリアを設置します。私たちは安全でなければなりません。"
+
+[TranslatorEvent24]
+; EN: Message="BIO SUIT CONTROL STATION: SYSTEM FAILURE: POWER IS BEING REROUTED BY INTRUDERS ON DECK 1."
+Message="バイオスーツ制御ステーション：システム障害：電源がデッキ1の侵入者によって再ルーティングされています。"
+
+[TranslatorEvent26]
+; EN: Message="SCANNING STATION 1: Short range surface scans indicate location of large Alien spacecraft on the planet surface that matches the description of the same ship viewed entering and leaving the planet's Tarydium field's prior to orbital decay."
+Message="スキャンステーション1：短距離表面スキャンは、軌道減衰の前に惑星のタリジウムフィールドに出入りするのと同じ船の説明と一致する、惑星表面上の大きなエイリアン宇宙船の位置を示します。"
+
+[TranslatorEvent27]
+; EN: Message="SCANNING STATION 2: Surface scan indicates indigenous primitive structures on the planet surface. A higher technology town detected on a rock suspended in the sky by some unknown force. Huge power sources emanating from an obelisk within this town."
+Message="スキャンステーション2：表面スキャンは、惑星表面の固有の原始構造を示します。未知の力で空に浮かぶ岩の上で発見されたハイテクタウン。この町のオベリスクから発せられる巨大な電源。"
+
+[TranslatorEvent34]
+; EN: Message="COOLING SYSTEM STATUS: COOLANT LEAKS IN CONTAINMENT CORE LOWER LEVEL. MANUAL INPUT BY UNAUTHORIZED PERSONNEL DENIED."
+Message="冷却システムの状態：コンテインメントコアの低レベルでの冷却液の漏れ。許可されていない担当者による手動入力が拒否されました。"
+
+[TranslatorEvent17]
+; EN: Message="WARNING: ENGINE COOLANT OVERFLOW - COOLING SYSTEM EMERGENCY PUMP AND DRAIN VALVE MUST BE ACTIVATED PRIOR TO ENTERING THIS AREA"
+Message="警告：エンジンクーラントのオーバーフロー-このエリアに入る前に、冷却システムの緊急ポンプとドレンバルブを作動させる必要があります"
+; EN: AltMessage="ENGINE COOLANT EMERGENCY PUMPS ACTIVE - CONTAINMENT FIELD SYSTEMS BEING REROUTED BY ALIEN INTRUDERS"
+AltMessage="エンジン冷却水緊急ポンプがアクティブ-エイリアンの侵入者によって再ルーティングされている封じ込めフィールドシステム"
+
+[TranslatorEvent35]
+Hint=""
+; EN: Message="COOLING SYSTEM STATUS: SYNTAX ERROR? INCORRECT AUTHORIZATION"
+Message="冷却システムのステータス：構文エラー？誤った承認"
+
+[TranslatorEvent9]
+; EN: Message="Main Engineering Has Been Sealed With A Containment Field. Containment Field Generator Must Be Destroyed Prior To Accessing Engineering."
+Message="主なエンジニアリングは封じ込めフィールドで封印されています。封じ込めフィールドジェネレータは、エンジニアリングにアクセスする前に破棄する必要があります。"
+
+[TranslatorEvent6]
+; EN: Message="The first wave of Skaarj have been isolated within DECK 4. I doubt they will be able to get through the ductwork and enter the Main Ship. We will retreat to Deck 1 and seal Engineering with a containment force field."
+Message="Skaarjの最初の波はDECK4内で隔離されています。彼らがダクトを通り抜けて本船に入ることができるとは思えません。デッキ1に後退し、封じ込め力場でエンジニアリングを封印します。"
+
+[TranslatorEvent28]
+; EN: Message="CONTAINMENT FIELD GENERATOR ONLINE. GOLD POWER CORES UNSTABLE DUE TO EXCESS STRESS FROM SEALING ENGINEERING. MAIN ENGINEERING CONTAINMENT FORCE FIELDS MAY BE DISABLED BY DESTROYING GOLD CORES."
+Message="封じ込めフィールドジェネレーターオンライン。シーリングエンジニアリングによるストレスが大きすぎるため、ゴールドパワーコアが不安定になります。ゴールドコアを破壊することにより、主要なエンジニアリング封じ込めフォースフィールドが無効になる場合があります。"
+
+[TranslatorEvent29]
+; EN: Message="ISV-KRAN ENGINE STATUS-OFFLINE. DAMAGE REPORT MINIMAL. LIFE SUPPORT SYSTEMS ONLINE. DECK 1 POWER LEVELS FULL. SHIP'S HULL BREACHED AT OBSERVATION LOUNGE."
+Message="ISV-KRANエンジンステータス-オフライン。ダメージレポートは最小限です。オンライン生命維持システム。デッキ1のパワーレベルがいっぱいです。観測ラウンジで船体が破損しました。"
+
+[TranslatorEvent30]
+; EN: Message="MAIN ENGINE DIAGNOSTIC PANEL. 75% ENGINE POWER AVAILABLE. COOLANT LEAK IN CONTAINMENT CORE GENERATOR AREA LOCALIZED. LAST ATTEMPT TO REROUTE POWER UNSUCCESSFUL."
+Message="メインエンジン診断パネル。 75％のエンジン出力が利用可能です。ローカライズされた格納容器コア発電機エリアの冷却水漏れ。電力を再ルーティングする最後の試みが失敗しました。"
+
+[TranslatorEvent21]
+; EN: Message="WARNING CONTAINMENT CORE EXPOSED: THIS CORE IS HIGHLY EXPLOSIVE - STAND BACK BEFORE DISCHARGING WEAPONS"
+Message="警告封じ込めコアの暴露：このコアは爆発性が高い-武器を放出する前に立ち止まる"
+
+[TranslatorEvent14]
+; EN: Message="COOLING SYSTEM EMERGENCY DRAIN VALVE ACTIVATED"
+Message="冷却システムの緊急ドレンバルブが作動"
+
+[TranslatorEvent18]
+; EN: Message="MAIN ENGINEERING: EMERGENCY CONTAINMENT FIELD ACTIVE. CONTAINMENT FIELD GENERATOR GOLD CORES MUST BE DESTROYED BEFORE THIS FIELD WILL DISENGAGE."
+Message="メインエンジニアリング：緊急封じ込めフィールドがアクティブです。封じ込めフィールドジェネレーターのゴールドコアは、このフィールドが解放される前に破壊する必要があります。"
+; EN: AltMessage="MAIN ENGINEERING: INTRUDERS DETECTED. PROCEED WITH CAUTION."
+AltMessage="主なエンジニアリング：侵入者が検出されました。注意して続行してください。"
+
+[TranslatorEvent20]
+; EN: Message="CONTAINMENT ENERGY CORES EXTREMELY VOLATILE: ALL WEAPONS MUST BE PLACED ON SAFETY."
+Message="封じ込めエネルギーコアは非常に揮発性です：すべての武器は安全に配置する必要があります。"
+
+[TranslatorEvent22]
+; EN: Message="WARNING CONTAINMENT CORE EXPOSED: THIS CORE IS HIGHLY EXPLOSIVE - STAND BACK BEFORE DISCHARGING WEAPONS."
+Message="警告封じ込めコアの暴露：このコアは爆発性が高い-武器を放出する前に立ち止まってください。"
+
+[TranslatorEvent23]
+; EN: Message="WARNING: ENGINE COOLANT LEAK ON LOWERMOST FLOOR OF THIS AREA."
+Message="警告：このエリアの最下階にエンジンクーラントが漏れています。"
+
+[TranslatorEvent3]
+; EN: Message="Primary Shuttle Bay: Log Entry by Dockmaster Ivan Romanov Second Officer ISV-KRAN. I have sealed the main Iris Hatch with a Laser welding team. No Alien Bastards are going to get into my shuttle bay."
+Message="プライマリシャトルベイ：ドックマスターIvanRomanov二等航海士ISV-KRANによるログエントリ。メインのアイリスハッチをレーザー溶接チームで封印しました。エイリアンバスターズは私のシャトルベイに入るつもりはありません。"
+
+[TranslatorEvent4]
+; EN: Message="Primary Shuttle Bay: Log Entry by Dockmaster Ivan Romanov Second Officer ISV-KRAN. The dock doors control panel can be reactivated with the override in one of the Access tubes."
+Message="プライマリシャトルベイ：ドックマスターIvanRomanov二等航海士ISV-KRANによるログエントリ。ドックドアのコントロールパネルは、アクセスチューブの1つでオーバーライドして再アクティブ化できます。"
+
+[TranslatorEvent16]
+; EN: Message="COOLING SYSTEM EMERGENCY PUMP ACTIVATED"
+Message="冷却システムの緊急ポンプが作動"

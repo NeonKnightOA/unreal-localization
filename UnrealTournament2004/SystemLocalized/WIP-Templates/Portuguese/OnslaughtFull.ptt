@@ -1,0 +1,78 @@
+[DamTypeIonTankBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="% o foi OBLITERADO por% k"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="% o foi OBLITERADO"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="% o foi OBLITERADO"
+
+[DamTypeMASCannon]
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="% o foi VAPORIZADO por% k!"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="% o foi VAPORIZADO!"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="% o foi VAPORIZADO!"
+
+[DamTypeMASPlasma]
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="Torre do Leviatã de% k plasmanated% o."
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="% o se desperdiçou."
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="% o se desperdiçou."
+
+[MutVehicleArena]
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="Veículo Arena"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="Determina qual tipo de veículo será usado na partida."
+FriendlyName="Vehicle Arena"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="Substitua todos os veículos no mapa por um tipo específico."
+
+[ONSBomber]
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="em um DragonFly"
+; EN: VehicleNameString="DragonFly"
+VehicleNameString="Libélula"
+
+[ONSGenericSD]
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="indisposto"
+VehicleNameString="TC-1200"
+
+[ONSHoverTank_IonPlasma]
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="em um tanque de plasma iônico"
+; EN: VehicleNameString="Ion Plasma Tank"
+VehicleNameString="Tanque Ion Plasma"
+
+[ONSMASSideGunPawn]
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="em uma torre Leviathan"
+; EN: VehicleNameString="Leviathan Turret"
+VehicleNameString="Torre Leviatã"
+
+[ONSMobileAssaultStation]
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="em um Leviathan"
+; EN: VehicleNameString="Leviathan"
+VehicleNameString="Leviatã"
+
+[ONSPainter]
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="O Pintor de Alvos, semelhante ao Pintor de Íons, dispara um laser de baixa potência inofensivo com seu fogo primário. Ao contrário do Ion Painter, no entanto, esta arma chama um bombardeiro que lança uma série de bombas na direção em que o usuário está voltado, centralizado no alvo pintado. As bombas incinerarão facilmente o alvo e qualquer infeliz que por acaso esteja por perto."
+; EN: ItemName="Target Painter"
+ItemName="Pintor de Alvo"
+
+[ONSPainterPickup]
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="Você tem o Pintor de Alvo."
+
+[ONSTankSecondaryTurretPawn_IonPlasma]
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="em uma torre de tanque de íons"
+; EN: VehicleNameString="Ion Tank Minigun Turret"
+VehicleNameString="Torre de minigun do tanque de íons"
+

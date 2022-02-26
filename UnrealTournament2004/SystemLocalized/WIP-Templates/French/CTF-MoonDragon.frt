@@ -1,52 +1,70 @@
 [LevelInfo0]
-Title="Moon Dragon"
+; EN: Title="Moon Dragon"
+Title="Dragon de lune"
 
 [LevelSummary]
-Title="Moon Dragon"
-Description="In the depths of ancient Korea, hidden high up in the Mountain of the Moon Dragon, battles rage between brave warriors."
+; EN: Title="Moon Dragon"
+Title="Dragon de lune"
+; EN: Description="In the depths of ancient Korea, hidden high up in the Mountain of the Moon Dragon, battles rage between brave warriors."
+Description="Dans les profondeurs de l'ancienne Corée, cachée dans les hauteurs de la Montagne du Dragon de la Lune, les combats font rage entre de braves guerriers."
 
 [Volume10]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Chambre Drapeau Rouge"
 
 [Volume11]
-LocationName="Red Base Entrances"
+; EN: LocationName="Red Base Entrances"
+LocationName="Entrées de la base rouge"
 
 [Volume12]
-LocationName="Central Cave"
+; EN: LocationName="Central Cave"
+LocationName="Grotte centrale"
 
 [Volume14]
-LocationName="Blue Shield Side"
+; EN: LocationName="Blue Shield Side"
+LocationName="Côté Bouclier Bleu"
 
 [Volume17]
-LocationName="Blue Base Entrances"
+; EN: LocationName="Blue Base Entrances"
+LocationName="Entrées de la base bleue"
 
 [Volume18]
-LocationName="Blue Center"
+; EN: LocationName="Blue Center"
+LocationName="Centre bleu"
 
 [Volume19]
-LocationName="Blue Fortress Area"
+; EN: LocationName="Blue Fortress Area"
+LocationName="Zone de la forteresse bleue"
 
 [Volume20]
-LocationName="Red Fortress Area"
+; EN: LocationName="Red Fortress Area"
+LocationName="Zone de la forteresse rouge"
 
 [Volume21]
-LocationName="Central Cave"
+; EN: LocationName="Central Cave"
+LocationName="Grotte centrale"
 
 [Volume3]
-LocationName="Red Center"
+; EN: LocationName="Red Center"
+LocationName="Centre rouge"
 
 [Volume6]
-LocationName="Red Shield Side"
+; EN: LocationName="Red Shield Side"
+LocationName="Côté Bouclier Rouge"
 
 [Volume7]
-LocationName="Red Side Route"
+; EN: LocationName="Red Side Route"
+LocationName="Route du côté rouge"
 
 [Volume8]
-LocationName="Blue Side Route"
+; EN: LocationName="Blue Side Route"
+LocationName="Route du côté bleu"
 
 [Volume9]
-LocationName="Blue Flag Room"
+; EN: LocationName="Blue Flag Room"
+LocationName="Chambre Pavillon Bleu"
 
 [xBlueFlagBase1]
-ObjectiveName="BlueFlag"
+; EN: ObjectiveName="BlueFlag"
+ObjectiveName="Drapeau bleu"
 

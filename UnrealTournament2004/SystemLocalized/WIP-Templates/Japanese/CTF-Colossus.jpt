@@ -1,0 +1,44 @@
+[LevelInfo0]
+; EN: Title="Colossus"
+Title="コロッサス"
+
+[LevelSummary]
+; EN: Title="Colossus"
+Title="コロッサス"
+; EN: Description="By taking advantage of the fast moving high ground and the relative cover of the low, tactically proficient players can make their way to the flag practically unscathed.  Returning with the flag, on the other hand, is another matter altogether."
+Description="動きの速い高地と低地の相対的なカバーを利用することで、戦術的に熟練したプレーヤーは、実質的に無傷で旗に向かうことができます。一方、旗を持って戻ることは、まったく別の問題です。"
+
+[Volume0]
+; EN: LocationName="Blue Rear Base"
+LocationName="ブルーリアベース"
+
+[Volume1]
+; EN: LocationName="Blue Forward Base"
+LocationName="ブルーフォワードベース"
+
+[Volume2]
+; EN: LocationName="Neutral Zone"
+LocationName="ニュートラルゾーン"
+
+[Volume3]
+; EN: LocationName="Red Forward Base"
+LocationName="レッドフォワードベース"
+
+[Volume4]
+; EN: LocationName="Red Rear Base"
+LocationName="赤いリアベース"
+
+[ZoneInfo1]
+; EN: LocationName="Red Bunker"
+LocationName="レッドバンカー"
+
+[ZoneInfo2]
+; EN: LocationName="Blue Bunker"
+LocationName="ブルーバンカー"
+
+[xBlueFlagBase0]
+ObjectiveName="BlueFlagBase"
+
+[xRedFlagBase0]
+ObjectiveName="RedFlagBase"
+

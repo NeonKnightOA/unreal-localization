@@ -1,0 +1,55 @@
+[Public]
+Object=(Name=IpDrv.UpdateServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.MasterServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
+Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
+; EN: Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="TCP/IP Network Play",Parent="vytváření sítí",Class=IpDrv.TcpNetDriver)
+; EN: Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="Beacon serveru",Parent="vytváření sítí",Class=IpDrv.UdpBeacon,Immediate=True)
+
+[TcpNetDriver]
+ClassCaption=TCP/IP Network Play
+
+[UdpBeacon]
+ClassCaption=Server LAN Beacon
+
+[DecompressCommandlet]
+; EN: HelpCmd=decompress
+HelpCmd=dekomprimovat
+; EN: HelpOneLiner=Decompress a file compressed with ucc compress.
+HelpOneLiner=Dekomprimujte soubor komprimovaný pomocí komprimace ucc.
+; EN: HelpUsage=decompress CompressedFile
+HelpUsage=dekomprimovat CompressedFile
+HelpParm[0]=CompressedFile
+; EN: HelpDesc[0]=The .uz file to decompress.
+HelpDesc[0]=Soubor .uz k dekomprimaci.
+
+[CompressCommandlet]
+; EN: HelpCmd=compress
+HelpCmd=komprimovat
+; EN: HelpOneLiner=Compress an Unreal package for auto-downloading.  A file with extension .uz will be created.
+HelpOneLiner=Zkomprimujte balíček Unreal pro automatické stahování. Vytvoří se soubor s příponou .uz.
+; EN: HelpUsage=compress File1 [File2 [File3 ...]]
+HelpUsage=komprimovat Soubor1 [Soubor2 [Soubor3 ...]]
+; EN: HelpParm[0]=Files
+HelpParm[0]=Soubory
+; EN: HelpDesc[0]=The wildcard or file names to compress.
+HelpDesc[0]=Zástupný znak nebo názvy souborů ke komprimaci.
+
+[MasterServerUplink]
+; EN: MSUPropText[0]="Advertise Server"
+MSUPropText[0]="Inzertní server"
+; EN: MSUPropText[1]="Process Stats"
+MSUPropText[1]="Statistiky procesu"
+; EN: MSUPropText[2]="Ignore UTAN Bans"
+MSUPropText[2]="Ignorujte zákazy UTAN"
+; EN: MSUPropDesc[0]="if true, your server is advertised on the internet server browser."
+MSUPropDesc[0]="pokud je pravda, váš server je inzerován v prohlížeči internetového serveru."
+; EN: MSUPropDesc[1]="Publishes player stats from your server on the UT2004 stats website."
+MSUPropDesc[1]="Zveřejňuje statistiky hráče z vašeho serveru na webu statistik UT2004."
+; EN: MSUPropDesc[2]="If true, your server will ignore UTAN based bans coming from the master server."
+MSUPropDesc[2]="Pokud je pravda, váš server bude ignorovat zákazy založené na UTAN přicházející z hlavního serveru."
+

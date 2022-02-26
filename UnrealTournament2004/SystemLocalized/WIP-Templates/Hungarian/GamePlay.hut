@@ -1,0 +1,437 @@
+[ACTION_DamageActor]
+; EN: ActionString="Damage actor"
+ActionString="Káros színész"
+
+[ACTION_DestroyActor]
+; EN: ActionString="Destroy actor"
+ActionString="Pusztítsd el a színészt"
+
+[ACTION_FinishRotation]
+; EN: ActionString="Finish rotation"
+ActionString="Fejezd be a forgatást"
+
+[ACTION_FireWeapon]
+; EN: ActionString="fire weapon"
+ActionString="lőfegyver"
+
+[ACTION_FireWeaponAt]
+; EN: ActionString="fire weapon"
+ActionString="lőfegyver"
+
+[ACTION_Freeze]
+; EN: ActionString="Freeze"
+ActionString="Fagy"
+
+[ACTION_HealActor]
+; EN: ActionString="Heal actor"
+ActionString="Gyógyíts színész"
+
+[ACTION_Jump]
+; EN: ActionString="Jump"
+ActionString="Ugrás"
+
+[ACTION_LocalizedMessage]
+; EN: ActionString="Localized Message"
+ActionString="Lokalizált üzenet"
+
+[ACTION_PlayLIPSinc]
+; EN: ActionString="Play LIPSinc"
+ActionString="Játssz LIPSinc-et"
+
+[ACTION_SetPhysics]
+; EN: ActionString="change physics to "
+ActionString="változtassa meg a fizikát "
+
+[ACTION_ShootTarget]
+; EN: ActionString="shoot target"
+ActionString="célba lőni"
+
+[ACTION_SpawnActor]
+; EN: ActionString="Spawn actor"
+ActionString="Spawn színész"
+
+[ACTION_SubTitles]
+; EN: ActionString="SubTitles"
+ActionString="Feliratok"
+
+[ACTION_ThrowWeapon]
+; EN: ActionString="throw weapon"
+ActionString="fegyvert dobni"
+
+[ACTION_WaitForLIPSincAnimEnd]
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="Várja meg a LIPSincAnimEnd-et"
+
+[ActionMessage_BR]
+; EN: Messages[0]="Bombing Run"
+Messages[0]="Bombavetési rárepülés"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="A labda középen van"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="Érintse meg a labdát, hogy felvegye"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="A labdahordozó nem támadhat"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="Az elsődleges tűz labdát lő"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="Alternatív tűz célpontok csapattársakra"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="Adja át a labdát a csapattársaknak"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="Minden csapatnak van egy kerek célja"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="Labdadobás = 3 pont"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="Hordozás = 7 pont"
+; EN: Messages[10]="Good luck!"
+Messages[10]="Sok szerencsét!"
+
+[ActionMessage_CTF]
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="Szerezd meg a zászlót"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="Két alap: piros és kék"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="Érintse meg az ellenség zászlóját, hogy elvigye"
+; EN: Messages[3]="Return to your base"
+Messages[3]="Térj vissza a bázisodra"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="Érintse meg a zászlót a pontozáshoz"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="A transzlokáció ledobja a zászlót"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="Az alapértelmezett rögzítési határ 3"
+; EN: Messages[7]="Good luck!"
+Messages[7]="Sok szerencsét!"
+
+[ActionMessage_DM]
+; EN: Messages[0]="Deathmatch"
+Messages[0]="Élet-halál játszma"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="Nyomja meg a tüzet az íváshoz"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="A fegyvereknek két tüzelési módjuk van"
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="Rendszeres és váltakozó tűz"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="Gépkarabély"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="Golyókat és gránátokat tüzel"
+; EN: Messages[6]="Shield Gun"
+Messages[6]="Pajzs fegyver"
+; EN: Messages[7]="Melee attack"
+Messages[7]="Közelharci támadás"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="Védőpajzs"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="Fedezzen fel más fegyvereket"
+Messages[10]="Flak Cannon"
+; EN: Messages[11]="Bio-Rifle"
+Messages[11]="Bio-puska"
+Messages[12]="Minigun"
+; EN: Messages[13]="Movement"
+Messages[13]="Mozgalom"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD = Alapértelmezett mozgásbillentyűk"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="Koppintson duplán egy billentyűre a kikerüléshez"
+; EN: Messages[16]="Jumping"
+Messages[16]="Ugrás"
+; EN: Messages[17]="Double jump"
+Messages[17]="Dupla ugrás"
+Messages[18]="Powerups"
+; EN: Messages[19]="Health vials"
+Messages[19]="Egészségügyi fiolák"
+; EN: Messages[20]="Health pack"
+Messages[20]="Egészségügyi csomag"
+Messages[21]="Big Keg O' Health"
+; EN: Messages[22]="Armor"
+Messages[22]="Páncél"
+; EN: Messages[23]="Shield Pack"
+Messages[23]="Pajzs csomag"
+Messages[24]="Super Shield Pack"
+; EN: Messages[25]="Adrenaline"
+Messages[25]="Adrenalin"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="Adrenalin használható kombókhoz"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="Károsodási erősítő"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="Először érd el a töredezettség határát!"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="Az öngyilkosságok ellened számítanak"
+; EN: Messages[30]="Good luck!"
+Messages[30]="Sok szerencsét!"
+
+[ActionMessage_DOM]
+; EN: Messages[0]="Double Domination"
+Messages[0]="Kettős uralom"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="Ellenőrző pontok: A és B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="Tartsa a pontokat 10 másodpercig"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="Érintse meg a pontot az irányítás átvételéhez"
+; EN: Messages[4]="Good luck!"
+Messages[4]="Sok szerencsét!"
+
+[ActionMessage_SubTitle]
+Delays[0]=4.000000
+Delays[1]=4.000000
+Delays[2]=8.000000
+Delays[3]=8.000000
+Delays[4]=8.000000
+Delays[5]=8.000000
+Delays[6]=8.000000
+Delays[7]=8.000000
+Delays[8]=8.000000
+Delays[9]=8.000000
+Delays[10]=8.000000
+Delays[11]=8.000000
+Delays[12]=8.000000
+Delays[13]=8.000000
+Delays[14]=8.000000
+Delays[15]=8.000000
+Delays[16]=8.000000
+Delays[17]=8.000000
+Delays[18]=8.000000
+Delays[19]=8.000000
+Delays[20]=8.000000
+Delays[21]=8.000000
+Delays[22]=0.000000
+Delays[23]=0.000000
+Delays[24]=0.000000
+Delays[25]=0.000000
+Delays[26]=0.000000
+Delays[27]=0.000000
+Delays[28]=0.000000
+Delays[29]=0.000000
+Delays[30]=0.000000
+Delays[31]=0.000000
+; EN: Messages[0]="How do I look?"
+Messages[0]="Hogy nézek ki?"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="Nem olyan jó, mint én bébi..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="Nos, a rajongók itt vagyunk a Galaxy legvéresebb sportjának újabb kiadásáért. Egy verseny, ahol a győztesek istenekké válnak, a vesztesek pedig a végső árat fizetik!"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="OTT VANNAK! Valamikor riválisok voltak, most viszont az egyik leghevesebb csapat a környéken."
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="Úgy van. A tapasztalatot semmi sem éri felül, és a három közül mindegyik rengeteget hoz belőle az asztalra."
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="Nézd meg Malcolmot! Most van egy srác, aki igazán meg tudja őrizni hidegvérét a tűzharcban."
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="Az a Brock. Ugyanolyan veszélyes a ringen kívüli hölgyekre, mint a belső ellenségeire!"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="Imádom Laurent nézni. Olyan kis....energiaköteg."
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="Igen, igen… szereted nézni Lauren energiáját."
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="Ezúttal az ENYÉM!!"
+Messages[10]="AAGGGHHHHRRRR"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="Te Gorge uram! Király vagy! Igen bébi, gyerünk, te öreg haver!"
+Messages[12]="MAAAALLLCOOOOOMMM!"
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="Ó, ember, láttad ezt?"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="Mondom, Jim, az a Gorge, egyszerűen nem tiszteli a rajongóit."
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="Nos, azt hiszem, még mindig dühös az arcán lévő új heg miatt, Malcolm jóvoltából az utolsó meccsükön."
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="Igen, azt hiszem, egy kis VISSZAFIZETÉST keres."
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="Igen, ma este jónak kell lennie."
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="Mivel Malcolm csapata a regnáló bajnok, ők választhatják meg a ma esti arénát."
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="Úgy tűnik, ez lesz... Kalendra Icefields."
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="Awww Igen, szeretem ezt az arénát, Malcolm nagyon jól teljesít itt."
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="A ma esti meccsnek igazi vérfürdőnek kell lennie."
+
+[Action_CHANGELEVEL]
+; EN: ActionString="Change level"
+ActionString="Szint módosítása"
+
+[Action_CHANGESCRIPT]
+; EN: ActionString="Change script"
+ActionString="Szkript módosítása"
+
+[Action_CHANGETEAM]
+; EN: ActionString="Change Team"
+ActionString="Csapatváltás"
+
+[Action_CROUCH]
+; EN: ActionString="crouch"
+ActionString="lekuporodik"
+
+[Action_ConsoleCommand]
+; EN: ActionString="console command"
+ActionString="konzol parancs"
+
+[Action_DAMAGEINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Károsító"
+
+[Action_DESTROYPAWN]
+; EN: ActionString="destroy pawn"
+ActionString="elpusztítani a gyalogot"
+
+[Action_DISPLAYMESSAGE]
+; EN: ActionString="display message"
+ActionString="üzenet megjelenítése"
+
+[Action_DrawHUDMaterial]
+; EN: ActionString="draw HUD texture"
+ActionString="rajzoljon HUD textúrát"
+
+[Action_ENDSECTION]
+; EN: ActionString="end section"
+ActionString="végszakasz"
+
+[Action_FADEVIEW]
+; EN: ActionString="fade view"
+ActionString="elhalványul a nézet"
+
+[Action_GOTOACTION]
+; EN: ActionString="go to action"
+ActionString="lépj akcióba"
+
+[Action_IFCONDITION]
+; EN: ActionString="If condition"
+ActionString="Ha feltétel"
+
+[Action_KILLINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Károsító"
+
+[Action_LEAVESEQUENCE]
+; EN: ActionString="leave sequence"
+ActionString="hagyja el a sorrendet"
+
+[Action_MOVETOPLAYER]
+; EN: ActionString="Move to player"
+ActionString="Ugrás lejátszóra"
+
+[Action_MOVETOPOINT]
+; EN: ActionString="Move to point"
+ActionString="Ugrás a pontra"
+
+[Action_PLAYAMBIENTSOUND]
+; EN: ActionString="play ambient sound"
+ActionString="környezeti hang lejátszása"
+
+[Action_PLAYANIM]
+; EN: ActionString="play animation"
+ActionString="animációt játszani"
+
+[Action_PLAYANNOUNCEMENT]
+; EN: ActionString="play announcement"
+ActionString="játék bejelentése"
+
+[Action_PLAYLOCALSOUND]
+; EN: ActionString="play sound"
+ActionString="hang lejátszása"
+
+[Action_PLAYMUSIC]
+; EN: ActionString="play song"
+ActionString="dalt játszani"
+
+[Action_PLAYSOUND]
+; EN: ActionString="play sound"
+ActionString="hang lejátszása"
+
+[Action_RUN]
+; EN: ActionString="Run"
+ActionString="Fuss"
+
+[Action_SETALERTNESS]
+; EN: ActionString="set alertness"
+ActionString="állítsa be az éberséget"
+
+[Action_SETVIEWTARGET]
+; EN: ActionString="set viewtarget"
+ActionString="nézeti cél beállítása"
+
+[Action_STOPANIMATION]
+; EN: ActionString="stop animation"
+ActionString="állítsa le az animációt"
+
+[Action_TRIGGEREVENT]
+; EN: ActionString="trigger event"
+ActionString="kiváltó esemény"
+
+[Action_TURNTOWARDPLAYER]
+; EN: ActionString="Turn toward player"
+ActionString="Fordulj a játékos felé"
+
+[Action_WAITFORANIMEND]
+; EN: ActionString="Wait for animend"
+ActionString="Várd meg az animét"
+
+[Action_WAITFOREVENT]
+; EN: ActionString="Wait for external event"
+ActionString="Várja meg a külső eseményt"
+
+[Action_WAITFORPLAYER]
+; EN: ActionString="Wait for player"
+ActionString="Várd meg a játékost"
+
+[Action_WAITFORTIMER]
+; EN: ActionString="Wait for timer"
+ActionString="Várja meg az időzítőt"
+
+[Action_WALK]
+; EN: ActionString="walk"
+ActionString="séta"
+
+[Burned]
+; EN: DeathString="%o was sauteed."
+DeathString="%o megsült."
+
+[Corroded]
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="%o-t %k's feloldotta."
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="%o iszapban oldva."
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="%o iszapban oldva."
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Már csak %i van hátra..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Elkészült!"
+
+[Depressurized]
+; EN: DeathString="%o was depressurized by %k."
+DeathString="%o nyomást csökkentette %k."
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="%o nyomásmentes volt."
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="%o nyomásmentes volt."
+
+[Drowned]
+; EN: DeathString="%o forgot to come up for air."
+DeathString="%o elfelejtett feljönni levegőért."
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="%o elfelejtett feljönni levegőért."
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="%o elfelejtett feljönni levegőért."
+
+[MessageTextureClient]
+; EN: HisMessage="his"
+HisMessage="övé"
+; EN: HerMessage="her"
+HerMessage="neki"
+
+[ScriptedAction]
+; EN: ActionString="unspecified action"
+ActionString="meghatározatlan cselekvés"
+
+[WaterVolume]
+; EN: LocationName="under water"
+LocationName="viz alatti"
+

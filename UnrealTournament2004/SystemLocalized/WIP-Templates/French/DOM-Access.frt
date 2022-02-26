@@ -1,46 +1,62 @@
 [LevelInfo0]
-Title="Access"
+; EN: Title="Access"
+Title="Accès"
 
 [LevelSummary]
-Title="Access"
-Description="Seal off the Domination point of your choice by controlling the Access button in the middle of the arena."
+; EN: Title="Access"
+Title="Accès"
+; EN: Description="Seal off the Domination point of your choice by controlling the Access button in the middle of the arena."
+Description="Fermez le point de domination de votre choix en contrôlant le bouton d'accès au milieu de l'arène."
 
 [ZoneInfo0]
-LocationName="Switch Room"
+; EN: LocationName="Switch Room"
+LocationName="Salle de commutation"
 
 [ZoneInfo1]
-LocationName="Blue Spawn Halls"
+; EN: LocationName="Blue Spawn Halls"
+LocationName="Salles d'apparition bleues"
 
 [ZoneInfo10]
-LocationName="Switch Room"
+; EN: LocationName="Switch Room"
+LocationName="Salle de commutation"
 
 [ZoneInfo11]
-LocationName="Point A Room"
+; EN: LocationName="Point A Room"
+LocationName="Point une pièce"
 
 [ZoneInfo12]
-LocationName="Point B Room"
+; EN: LocationName="Point B Room"
+LocationName="Chambre Point B"
 
 [ZoneInfo2]
-LocationName="Red Spawn Halls"
+; EN: LocationName="Red Spawn Halls"
+LocationName="Salles d'apparition rouges"
 
 [ZoneInfo3]
-LocationName="Red Spawn Halls"
+; EN: LocationName="Red Spawn Halls"
+LocationName="Salles d'apparition rouges"
 
 [ZoneInfo4]
-LocationName="Blue Spawn Halls"
+; EN: LocationName="Blue Spawn Halls"
+LocationName="Salles d'apparition bleues"
 
 [ZoneInfo5]
-LocationName="Blue Spawn Halls"
+; EN: LocationName="Blue Spawn Halls"
+LocationName="Salles d'apparition bleues"
 
 [ZoneInfo6]
-LocationName="Red Spawn Halls"
+; EN: LocationName="Red Spawn Halls"
+LocationName="Salles d'apparition rouges"
 
 [ZoneInfo7]
-LocationName="Switch Room"
+; EN: LocationName="Switch Room"
+LocationName="Salle de commutation"
 
 [ZoneInfo8]
-LocationName="Switch Room"
+; EN: LocationName="Switch Room"
+LocationName="Salle de commutation"
 
 [ZoneInfo9]
-LocationName="Switch Room"
+; EN: LocationName="Switch Room"
+LocationName="Salle de commutation"
 

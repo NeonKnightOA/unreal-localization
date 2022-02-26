@@ -1,0 +1,79 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Klasszikus UT stílusú fegyverek és konfigurálható mozgási képességek (például fali kitérő).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Cserélje ki a villámfegyvereket klasszikus mesterlövész puskára.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Cserélje le a mesterlövész puskákat villámágyúkra.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+ItemName="Sniper Bullets"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Felszedtél mesterlövész lőszert."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Ez a 10-szeres távcsővel rendelkező, nagy torkolati sebességű mesterlövész puska bármely hatótávolságon halálos fegyver, különösen, ha fejlövést is tud leadni."
+; EN: ItemName="Sniper Rifle"
+ItemName="Mesterlövész puska"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Megvan a mesterlövész puska."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k golyót lőtt %o koponyájába."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o fejbe lőtte magát."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o fejbe lőtte magát."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="%k lyukat tegyünk %o-ba"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o lábon lőtte magát."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o lábon lőtte magát."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Dupla ugrás engedélyezése"
+; EN: WDString="Allow Wall Dodging"
+WDString="Wall Dodging engedélyezése"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Dodge Double Jumping engedélyezése"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Ha engedélyezve van, a játékosok duplán ugorhatnak az ugrások csúcsán."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Ha engedélyezve van, a játékosok kikerülhetik a falakat."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Ha engedélyezve van, a játékosok duplán ugorhatnak a kitérő ugrások csúcsán."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Fegyversebzés módosítása"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Ha engedélyezve van, a fegyverek több sebzést okoznak."
+; EN: TranslocString="Modify Translocator"
+TranslocString="A Translokátor módosítása"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Ha engedélyezve van, a transzlokátor gyorsabban töltődik."
+FriendlyName="UT Classic"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Klasszikus UT stílusú fegyverek és mozgási lehetőségek."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Villámfegyverek"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Cserélje ki az összes mesterlövész puskát villámfegyverre."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Mesterlövész puskák"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Cserélje ki az összes villámpisztolyt mesterlövész puskára."
+

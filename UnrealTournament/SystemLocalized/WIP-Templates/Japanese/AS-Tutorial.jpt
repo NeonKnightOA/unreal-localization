@@ -1,0 +1,35 @@
+﻿[LevelInfo0]
+; EN: Title="Assault Tutorial"
+Title="暴行チュートリアル"
+IdealPlayerCount="2-4"
+
+[LevelSummary]
+; EN: Title="Assault Tutorial"
+Title="暴行チュートリアル"
+IdealPlayerCount="2-4"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="ヒューズ"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="発火しました！"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="ガレージドア"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="違反しました！"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="戦車砲塔"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="破壊されました！"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="ヒューズを撃って点火し、TNTを爆破します。これにより、地下基地へのアクセスが可能になります。"
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="ガレージ起動スイッチのあるプラットフォームまでリフトに乗るまで、途中で見つけたすべての砲塔と敵に対処しながら、基地を通り抜けてください。"
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="ドアが開いたら、砲塔を撃ってプロトタイプの戦車を破壊します。"

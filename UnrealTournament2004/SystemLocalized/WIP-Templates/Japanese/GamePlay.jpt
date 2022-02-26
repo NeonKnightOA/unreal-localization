@@ -1,0 +1,443 @@
+[ACTION_DamageActor]
+; EN: ActionString="Damage actor"
+ActionString="ダメージアクター"
+
+[ACTION_DestroyActor]
+; EN: ActionString="Destroy actor"
+ActionString="アクターを破壊する"
+
+[ACTION_FinishRotation]
+; EN: ActionString="Finish rotation"
+ActionString="回転を終了します"
+
+[ACTION_FireWeapon]
+; EN: ActionString="fire weapon"
+ActionString="火器"
+
+[ACTION_FireWeaponAt]
+; EN: ActionString="fire weapon"
+ActionString="火器"
+
+[ACTION_Freeze]
+; EN: ActionString="Freeze"
+ActionString="氷結"
+
+[ACTION_HealActor]
+; EN: ActionString="Heal actor"
+ActionString="俳優を癒す"
+
+[ACTION_Jump]
+; EN: ActionString="Jump"
+ActionString="ジャンプ"
+
+[ACTION_LocalizedMessage]
+; EN: ActionString="Localized Message"
+ActionString="ローカライズされたメッセージ"
+
+[ACTION_PlayLIPSinc]
+; EN: ActionString="Play LIPSinc"
+ActionString="LIPSincを再生する"
+
+[ACTION_SetPhysics]
+; EN: ActionString="change physics to "
+ActionString="物理学をに変更します "
+
+[ACTION_ShootTarget]
+; EN: ActionString="shoot target"
+ActionString="シューティングターゲット"
+
+[ACTION_SpawnActor]
+; EN: ActionString="Spawn actor"
+ActionString="スポーンアクター"
+
+[ACTION_SubTitles]
+; EN: ActionString="SubTitles"
+ActionString="字幕"
+
+[ACTION_ThrowWeapon]
+; EN: ActionString="throw weapon"
+ActionString="武器を投げる"
+
+[ACTION_WaitForLIPSincAnimEnd]
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="LIPSincAnimEndを待つ"
+
+[ActionMessage_BR]
+; EN: Messages[0]="Bombing Run"
+Messages[0]="爆撃実行"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="ボールは中央にあります"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="ボールをタッチして拾います"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="ボールキャリアは攻撃できません"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="一次火はボールを撃ちます"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="代替射撃はチームメイトをターゲットにします"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="チームメイトにボールを渡す"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="各チームにはラウンドゴールがあります"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="ボールを投げる= 3ポイント"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="持ち運び= 7ポイント"
+; EN: Messages[10]="Good luck!"
+Messages[10]="幸運を！"
+
+[ActionMessage_CTF]
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="旗を取れ"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="2つのベース：赤と青"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="敵の旗をタッチしてそれを取る"
+; EN: Messages[3]="Return to your base"
+Messages[3]="あなたの基地に戻る"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="旗をタッチしてスコアを付けます"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="移動するとフラグが削除されます"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="デフォルトのキャプチャ制限は3です"
+; EN: Messages[7]="Good luck!"
+Messages[7]="幸運を！"
+
+[ActionMessage_DM]
+; EN: Messages[0]="Deathmatch"
+Messages[0]="デスマッチ"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="火を押してスポーンします"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="武器には2つの発砲モードがあります"
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="定期的および交互の火災"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="アサルトライフル"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="弾丸と手榴弾を発射します"
+; EN: Messages[6]="Shield Gun"
+Messages[6]="シールドガン"
+; EN: Messages[7]="Melee attack"
+Messages[7]="近接攻撃"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="保護シールド"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="他の武器を探すために探索する"
+; EN: Messages[10]="Flak Cannon"
+Messages[10]="フラックキャノン"
+; EN: Messages[11]="Bio-Rifle"
+Messages[11]="バイオライフル"
+; EN: Messages[12]="Minigun"
+Messages[12]="ミニガン"
+; EN: Messages[13]="Movement"
+Messages[13]="動き"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD =デフォルトの移動キー"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="キーをダブルタップして回避します"
+; EN: Messages[16]="Jumping"
+Messages[16]="ジャンピング"
+; EN: Messages[17]="Double jump"
+Messages[17]="ダブルジャンプ"
+; EN: Messages[18]="Powerups"
+Messages[18]="パワーアップ"
+; EN: Messages[19]="Health vials"
+Messages[19]="健康バイアル"
+; EN: Messages[20]="Health pack"
+Messages[20]="ヘルスパック"
+; EN: Messages[21]="Big Keg O' Health"
+Messages[21]="Big Keg O'Health"
+; EN: Messages[22]="Armor"
+Messages[22]="鎧"
+; EN: Messages[23]="Shield Pack"
+Messages[23]="シールドパック"
+; EN: Messages[24]="Super Shield Pack"
+Messages[24]="スーパーシールドパック"
+; EN: Messages[25]="Adrenaline"
+Messages[25]="アドレナリン"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="アドレナリンはコンボに使用できます"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="ダメージアンプ"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="最初にフラグの限界に到達してください！"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="自殺はあなたに不利に働く"
+; EN: Messages[30]="Good luck!"
+Messages[30]="幸運を！"
+
+[ActionMessage_DOM]
+; EN: Messages[0]="Double Domination"
+Messages[0]="ダブルドミネーション"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="コントロールポイント：A＆B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="ポイントを10秒間保持します"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="コントロールするタッチポイント"
+; EN: Messages[4]="Good luck!"
+Messages[4]="幸運を！"
+
+[ActionMessage_SubTitle]
+Delays[0]=4.000000
+Delays[1]=4.000000
+Delays[2]=8.000000
+Delays[3]=8.000000
+Delays[4]=8.000000
+Delays[5]=8.000000
+Delays[6]=8.000000
+Delays[7]=8.000000
+Delays[8]=8.000000
+Delays[9]=8.000000
+Delays[10]=8.000000
+Delays[11]=8.000000
+Delays[12]=8.000000
+Delays[13]=8.000000
+Delays[14]=8.000000
+Delays[15]=8.000000
+Delays[16]=8.000000
+Delays[17]=8.000000
+Delays[18]=8.000000
+Delays[19]=8.000000
+Delays[20]=8.000000
+Delays[21]=8.000000
+Delays[22]=0.000000
+Delays[23]=0.000000
+Delays[24]=0.000000
+Delays[25]=0.000000
+Delays[26]=0.000000
+Delays[27]=0.000000
+Delays[28]=0.000000
+Delays[29]=0.000000
+Delays[30]=0.000000
+Delays[31]=0.000000
+; EN: Messages[0]="How do I look?"
+Messages[0]="どのように見えますか？"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="私の赤ちゃんほど良くない..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="さて、ここのファンはギャラクシーで最も血なまぐさいスポーツの別の版のためです。勝者が神になり、敗者が究極の代償を払うトーナメント！"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="それらがあります！かつてはライバルでしたが、今では最も激しいチームの1つになっています。"
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="それは正しい。経験に勝るものはなく、これら3つのそれぞれがそれをテーブルにもたらします。"
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="マルコムを見てください！今、火の戦いで彼の冷静さを本当に保つことができる人がいます。"
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="そのブロック。彼はリングの外側の女性にとっても、内側の敵にとっても危険です！"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="ローレンを見るのが大好きです。彼女はとても小さいです....エネルギーの束。"
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="ええそうです.....あなたは彼女のエネルギーのためにローレンを見るのが好きです。"
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="今回はMINEです!!"
+Messages[10]="AAGGGHHHHRRRR"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="ゴージ！あなたはロック！ええ、ベイビー、コムオン、今、あなたは男だ！"
+; EN: Messages[12]="MAAAALLLCOOOOOMMM!"
+Messages[12]="MAAAALLLCOOOOOMMM！"
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="ああ、男、あなたはそれを見ましたか？"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="私はジムに言います、その峡谷、彼はただ彼のファンを尊重していません。"
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="まあ、彼はまだ彼の顔のその新しい傷に腹を立てていると思います、彼らの最後の試合でのマルコムの礼儀。"
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="ええ、彼は少しのペイバックを探していると思います。"
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="うん、今夜はいいものになるはずだ。"
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="マルコムのチームは支配的なチャンピオンであるため、彼らは今夜のアリーナを選ぶことができます。"
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="コリアンダーのようです...カレンドラアイスフィールド。"
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="ああ、ええ、私はこのアリーナが大好きです、マルコムはここで本当にうまくやっています。"
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="今夜の試合は本当の血の風呂になるはずです。"
+
+[Action_CHANGELEVEL]
+; EN: ActionString="Change level"
+ActionString="レベルを変更する"
+
+[Action_CHANGESCRIPT]
+; EN: ActionString="Change script"
+ActionString="スクリプトを変更する"
+
+[Action_CHANGETEAM]
+; EN: ActionString="Change Team"
+ActionString="チームを変更する"
+
+[Action_CROUCH]
+; EN: ActionString="crouch"
+ActionString="しゃがむ"
+
+[Action_ConsoleCommand]
+; EN: ActionString="console command"
+ActionString="コンソールコマンド"
+
+[Action_DAMAGEINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="ダメージ扇動者"
+
+[Action_DESTROYPAWN]
+; EN: ActionString="destroy pawn"
+ActionString="ポーンを破壊する"
+
+[Action_DISPLAYMESSAGE]
+; EN: ActionString="display message"
+ActionString="メッセージを表示する"
+
+[Action_DrawHUDMaterial]
+; EN: ActionString="draw HUD texture"
+ActionString="HUDテクスチャを描画します"
+
+[Action_ENDSECTION]
+; EN: ActionString="end section"
+ActionString="終了セクション"
+
+[Action_FADEVIEW]
+; EN: ActionString="fade view"
+ActionString="フェードビュー"
+
+[Action_GOTOACTION]
+; EN: ActionString="go to action"
+ActionString="アクションに行く"
+
+[Action_IFCONDITION]
+; EN: ActionString="If condition"
+ActionString="状態の場合"
+
+[Action_KILLINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="ダメージ扇動者"
+
+[Action_LEAVESEQUENCE]
+; EN: ActionString="leave sequence"
+ActionString="シーケンスを離れる"
+
+[Action_MOVETOPLAYER]
+; EN: ActionString="Move to player"
+ActionString="プレイヤーに移動"
+
+[Action_MOVETOPOINT]
+; EN: ActionString="Move to point"
+ActionString="ポイントに移動"
+
+[Action_PLAYAMBIENTSOUND]
+; EN: ActionString="play ambient sound"
+ActionString="アンビエントサウンドを再生する"
+
+[Action_PLAYANIM]
+; EN: ActionString="play animation"
+ActionString="アニメーションを再生する"
+
+[Action_PLAYANNOUNCEMENT]
+; EN: ActionString="play announcement"
+ActionString="アナウンスを再生"
+
+[Action_PLAYLOCALSOUND]
+; EN: ActionString="play sound"
+ActionString="音を出す"
+
+[Action_PLAYMUSIC]
+; EN: ActionString="play song"
+ActionString="曲を再生する"
+
+[Action_PLAYSOUND]
+; EN: ActionString="play sound"
+ActionString="音を出す"
+
+[Action_RUN]
+; EN: ActionString="Run"
+ActionString="走る"
+
+[Action_SETALERTNESS]
+; EN: ActionString="set alertness"
+ActionString="覚醒を設定する"
+
+[Action_SETVIEWTARGET]
+; EN: ActionString="set viewtarget"
+ActionString="ビューターゲットを設定する"
+
+[Action_STOPANIMATION]
+; EN: ActionString="stop animation"
+ActionString="アニメーションを停止します"
+
+[Action_TRIGGEREVENT]
+; EN: ActionString="trigger event"
+ActionString="トリガーイベント"
+
+[Action_TURNTOWARDPLAYER]
+; EN: ActionString="Turn toward player"
+ActionString="プレイヤーの方を向いて"
+
+[Action_WAITFORANIMEND]
+; EN: ActionString="Wait for animend"
+ActionString="アニメンドを待つ"
+
+[Action_WAITFOREVENT]
+; EN: ActionString="Wait for external event"
+ActionString="外部イベントを待つ"
+
+[Action_WAITFORPLAYER]
+; EN: ActionString="Wait for player"
+ActionString="プレイヤーを待つ"
+
+[Action_WAITFORTIMER]
+; EN: ActionString="Wait for timer"
+ActionString="タイマーを待つ"
+
+[Action_WALK]
+; EN: ActionString="walk"
+ActionString="歩く"
+
+[Burned]
+; EN: DeathString="%o was sauteed."
+DeathString="％oは炒められました。"
+
+[Corroded]
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="％oは％kによって溶解されました。"
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="％oはスライムに溶けました。"
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="％oはスライムに溶けました。"
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="あと％iだけ..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="完了しました！"
+
+[Depressurized]
+; EN: DeathString="%o was depressurized by %k."
+DeathString="％oは％kによって減圧されました。"
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="％oは減圧されました。"
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="％oは減圧されました。"
+
+[Drowned]
+; EN: DeathString="%o forgot to come up for air."
+DeathString="％oは空気のために来るのを忘れました。"
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="％oは空気のために来るのを忘れました。"
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="％oは空気のために来るのを忘れました。"
+
+[MessageTextureClient]
+; EN: HisMessage="his"
+HisMessage="彼の"
+; EN: HerMessage="her"
+HerMessage="彼女"
+
+[ScriptedAction]
+; EN: ActionString="unspecified action"
+ActionString="不特定の行動"
+
+[WaterVolume]
+; EN: LocationName="under water"
+LocationName="水中"
+

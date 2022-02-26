@@ -1,0 +1,964 @@
+[Public]
+Object=(Name=XGame.AlienFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.AlienMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.RobotVoice,Class=Class,MetaClass=XGame.xVoicePack)
+
+[AlienFemaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="Fújj rám"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="Táborozó!"
+; EN: TauntString[23]="Douche bag!"
+TauntString[23]="Douche táska!"
+TauntString[24]="Spammer!"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="Szívó"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="Beszélj a kézhez"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="Te fasz!"
+; EN: VoicePackName="Female Alien"
+VoicePackName="Nő Alien"
+
+[AlienMaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="Fújj rám"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="Táborozó!"
+; EN: TauntString[23]="Douche bag!"
+TauntString[23]="Douche táska!"
+TauntString[24]="Spammer!"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="Szívó"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="Beszélj a kézhez"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="Te fasz!"
+; EN: VoicePackName="Male Alien"
+VoicePackName="Férfi idegen"
+
+[BloodRites]
+ChallengeName="Bloodrites"
+; EN: ChallengeDescription="Challenge an enemy team for one for their team mates."
+ChallengeDescription="Hívj ki egy ellenséges csapatot csapattársaiknak."
+
+[BossDM]
+; EN: GameName="Championship Match"
+GameName="Bajnoki mérkőzés"
+
+[CLOnslaught]
+EntryLabels=("Hit & Run","Roadkill","Drive-by shooting","Road warrior","Core meltdown","Vehicle slaughter")
+
+[ChallengeGame]
+; EN: msgGotChallenged="We got challenged"
+msgGotChallenged="Kihívást kaptunk"
+; EN: msgWeChallenged="We challenged"
+msgWeChallenged="Kihívtuk"
+; EN: msgFor="for"
+msgFor="számára"
+
+[ChampRosterFinal]
+; EN: TeamName="Championship Match"
+TeamName="Bajnoki mérkőzés"
+
+[ChampRosterSemiFinal]
+; EN: TeamName="Championship Match"
+TeamName="Bajnoki mérkőzés"
+
+[ComboBerserk]
+ExecMessage="Berserk!"
+
+[ComboDefensive]
+; EN: ExecMessage="Booster!"
+ExecMessage="Gyorsító!"
+
+[ComboInvis]
+; EN: ExecMessage="Invisible!"
+ExecMessage="Láthatatlan!"
+
+[ComboSpeed]
+; EN: ExecMessage="Speed!"
+ExecMessage="Sebesség!"
+
+[DMRosterBeatTeam]
+; EN: TeamName="Death Match"
+TeamName="Élet-halál játszma"
+
+[DMRosterGael]
+; EN: TeamName="Death Match"
+TeamName="Élet-halál játszma"
+
+[DMRosterLeviathan]
+; EN: TeamName="Death Match"
+TeamName="Élet-halál játszma"
+
+[DMRosterOceanic]
+; EN: TeamName="Death Match"
+TeamName="Élet-halál játszma"
+
+[DMRosterTrainingDay]
+; EN: TeamName="Death Match"
+TeamName="Élet-halál játszma"
+
+[DamTypeIonVolume]
+; EN: DeathString="%o was OBLITERATED by %k!"
+DeathString="%o-t %k TÖRÖLT!"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o TÖRLÉSRE került"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o TÖRLÉSRE került"
+
+[InstagibCTF]
+; EN: ZoomDisplayText="Allow Zoom"
+ZoomDisplayText="Nagyítás engedélyezése"
+; EN: ZoomDescText="Instagib rifles have sniper scopes."
+ZoomDescText="Az Instagib puskáknak mesterlövész távcsövei vannak."
+GameName="Instagib CTF"
+
+[IonCannonKillWarning]
+CountDownTrailer="..."
+; EN: WarningString="You have been targeted by an orbital Ion Satellite!"
+WarningString="Önt egy orbitális ionműhold vette célba!"
+
+[JuggFemaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="Az élet fájdalom, lépj túl rajta"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="Közvetlenül a Szemek között"
+TauntString[23]="Tag 'Em And Bag 'Em"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="Ez csúnya volt"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="Jobban vérzel, mint lősz"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="Te szívsz"
+; EN: TauntString[27]="Lick me"
+TauntString[27]="Nyalj meg"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="Nem érzem a lábam"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="Szép lövés"
+; EN: VoicePackName="Female Juggernaut"
+VoicePackName="Juggernaut nőstény"
+
+[JuggMaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="Az élet fájdalom, lépj túl rajta"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="Közvetlenül a Szemek között"
+TauntString[23]="Tag 'Em And Bag 'Em"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="Ez csúnya volt"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="Jobban vérzel, mint lősz"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="Te szívsz"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="Nem érzem a lábam"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="Szép lövés"
+; EN: VoicePackName="Male Juggernaut"
+VoicePackName="Hím Juggernaut"
+
+[LavaVolume]
+; EN: LocationName="in lava"
+LocationName="lávában"
+
+[ManoEMano]
+; EN: ChallengeName="Head to Head"
+ChallengeName="Fej-fej mellett"
+; EN: ChallengeDescription="A 1 vs 1 match against another team leader."
+ChallengeDescription="1 vs 1 meccs egy másik csapatvezető ellen."
+
+[MercFemaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="Kacsa gyorsabban legközelebb"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="Maradj még a fenébe"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="Szent szar"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="Csak tartsd meg, és gyorsan elkészítem"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="Öld meg mindet"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="Leszögezte Neki"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="Nem is közel"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="Félreáll"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="Szívd ezt"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="Próbálja meg kikapcsolni a biztonsági funkciót"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="Csak tartsd meg"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="Nem rossz"
+; EN: VoicePackName="Female Mercenary"
+VoicePackName="Zsoldos nő"
+
+[MercMaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="Kacsa gyorsabban legközelebb"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="Maradj még a fenébe"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="Szent szar"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="Csak tartsd meg, és gyorsan elkészítem"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="Öld meg mindet"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="Leszögezte Neki"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="Nem is közel"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="Félreáll"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="Szívd ezt"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="Próbálja meg kikapcsolni a biztonsági funkciót"
+; EN: TauntString[31]="You Die Too Easily"
+TauntString[31]="Túl könnyen meghalsz"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="Csak tartsd meg"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="Nem rossz"
+; EN: VoicePackName="Male Mercenary"
+VoicePackName="Férfi zsoldos"
+
+[MultiKillMessage]
+; EN: KillString[0]="Double Kill!"
+KillString[0]="Dupla ölés!"
+KillString[1]="Multi Kill!"
+KillString[2]="Mega Kill!!"
+KillString[3]="ULTRA KILL!!"
+; EN: KillString[4]="M O N S T E R  K I L L !!!"
+KillString[4]="SZÖRNYÖLÉS !!!"
+KillString[5]="L U D I C R O U S !!!"
+; EN: KillString[6]="H O L Y  S H I T !"
+KillString[6]="SZENT SZAR !"
+
+[MutFastWeapSwitch]
+; EN: FriendlyName="UT2003 Style"
+FriendlyName="UT2003 stílus"
+; EN: Description="UT2003 style fast weapon switching and boost dodging."
+Description="UT2003 stílusú gyors fegyverváltás és a kikerülés fokozása."
+
+[MutInstaGib]
+; EN: TranslocDisplayText="Allow Translocator"
+TranslocDisplayText="A Translocator engedélyezése"
+; EN: BoostDisplayText="Allow Teammate boosting"
+BoostDisplayText="Engedélyezze a csapattárs erősítését"
+; EN: TranslocDescText="Players get a Translocator in their inventory."
+TranslocDescText="A játékosok egy Translokátort kapnak a készletükbe."
+; EN: BoostDescText="Teammates get a big boost when shot by the instagib rifle."
+BoostDescText="A csapattársak nagy lendületet kapnak, ha az instagib puska lövés."
+FriendlyName="InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles."
+Description="Azonnali ölés elleni küzdelem módosított lökéspuskákkal."
+
+[MutNoAdrenaline]
+; EN: FriendlyName="No Adrenaline"
+FriendlyName="Nincs adrenalin"
+; EN: Description="Adrenaline pickups are removed from the map."
+Description="Az adrenalinfelszedők lekerülnek a térképről."
+
+[MutQuadJump]
+FriendlyName="QuadJump"
+; EN: Description="When double jump just isn't enough."
+Description="Amikor a dupla ugrás nem elég."
+
+[MutRegen]
+; EN: FriendlyName="Regeneration"
+FriendlyName="Regeneráció"
+; EN: Description="All players regenerate health."
+Description="Minden játékos regenerálja az egészségét."
+
+[MutSlomoDeath]
+; EN: FriendlyName="Slow Motion Corpses"
+FriendlyName="Lassú mozgású holttestek"
+; EN: Description="Death should not be rushed."
+Description="A halált nem szabad siettetni."
+
+[MutSpeciesStats]
+; EN: FriendlyName="Species Statistics"
+FriendlyName="Fajstatisztika"
+; EN: Description="Each race has unique combat statistics."
+Description="Minden versenynek egyedi harci statisztikái vannak."
+
+[MutUDamageReward]
+; EN: FriendlyName="UDamage Reward"
+FriendlyName="UDamage jutalom"
+; EN: Description="Any remaining UDamage powerup is thrown from players when they are fragged."
+Description="A megmaradt UDamage teljesítményt a játékosok eldobják, amikor töredezettek."
+
+[MutVampire]
+; EN: FriendlyName="Vampire"
+FriendlyName="Vámpír"
+; EN: Description="Damaging your opponents will heal you."
+Description="Az ellenfelek sérülése meggyógyít."
+
+[MutZoomInstagib]
+FriendlyName="Zoom InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles with sniper zooms."
+Description="Azonnali ölés elleni küzdelem módosított lökéspuskákkal, mesterlövész zoommal."
+
+[NightFemaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="Friss hús"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="Össze kell törjelek"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="lenyelem a lelkedet"
+; EN: TauntString[24]="Lost Is Your Soul"
+TauntString[24]="Elveszett a lelked"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="Ismerje meg hóhérját"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="Az én nevem Halál"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="Könnyek nélkül kérem.."
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="A fájdalom megtisztít"
+; EN: VoicePackName="Female Night"
+VoicePackName="Női éjszaka"
+
+[NightMaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="Friss hús"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="Össze kell törjelek"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="lenyelem a lelkedet"
+; EN: TauntString[24]="Lost Is Your Soul"
+TauntString[24]="Elveszett a lelked"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="Ismerje meg hóhérját"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="Az én nevem Halál"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="Könnyek nélkül kérem.."
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="A fájdalom megtisztít"
+; EN: VoicePackName="Male Night"
+VoicePackName="Férfi éjszaka"
+
+[PhantomBloodReavers]
+; EN: TeamDescription="An organization of mercenaries and ex-military specialists, the Blood Reavers are interested in fame and fortune. They seek to win the Tournament for the prize that victory offers: nearly limitless wealth and power."
+TeamDescription="A zsoldosokból és volt katonai szakemberekből álló szervezet, a Blood Reavers a hírnév és a vagyon iránt érdeklődik. Arra a nyereményre törekszenek, amelyet a győzelem kínál: szinte határtalan gazdagság és hatalom."
+TeamName="Blood Reavers"
+
+[PhantomDarkPhalanx]
+; EN: TeamDescription="The Dark Phalanx are an honorable collection of military specialists. All have proven themselves in the Human/Skaarj war and now seek glory in the ranks of the Tournament."
+TeamDescription="A Dark Phalanx a katonai szakemberek tiszteletreméltó gyűjteménye. Mindannyian bizonyítottak a Human/Skaarj háborúban, és most a bajnokság soraiban keresik a dicsőséget."
+; EN: TeamName="Dark Phalanx"
+TeamName="Sötét falanx"
+
+[PhantomEpic]
+; EN: TeamDescription="Founded in 1991, Epic has long been a pioneer of cool PC games, new business models, and boundary-defining game technologies. Epic was founded by Tim Sweeney (Jill of the Jungle, Unreal), and joined shortly after by Mark Rein (VP of Marketing), James Schmalz (Epic Pinball, Extreme Pinball, Unreal), and Cliff Bleszinski (Jazz Jackrabbit, Unreal)."
+TeamDescription="Az 1991-ben alapított Epic régóta úttörője a menő PC-játékoknak, az új üzleti modelleknek és a határokat meghatározó játéktechnológiáknak. Az Epic-et Tim Sweeney (Jill of the Jungle, Unreal) alapította, majd nem sokkal később Mark Rein (marketing alelnök), James Schmalz (Epic Pinball, Extreme Pinball, Unreal) és Cliff Bleszinski (Jazz Jackrabbit, Unreal) csatlakozott hozzá."
+TeamName="Epic Games, Inc."
+
+[PhantomNecrisBlackLegion]
+; EN: TeamDescription="This powerful team of Necris Phayder assassins seeks to dominate the Tournament."
+TeamDescription="Ez a hatalmas Necris Phayder bérgyilkos csapat arra törekszik, hogy uralja a versenyt."
+; EN: TeamName="Necris Black Legion"
+TeamName="Necris Fekete Légió"
+
+[PhantomRawSteel]
+; EN: TeamDescription="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
+TeamDescription="Csak férfiak léphetnek be a „Nyers acél” néven ismert harcoló erőbe. Az emberi izom és a polihab fémek ötvözete, a 'Raw Steel' megőrzi az erőt és a hatalmat minden más erénnyel szemben."
+; EN: TeamName="Raw Steel"
+TeamName="Nyers acél"
+
+[RobotVoice]
+TauntString[21]="Die Human"
+; EN: TauntString[22]="Faster Stronger Better"
+TauntString[22]="Gyorsabb Erősebb Jobb"
+; EN: TauntString[23]="Fear Me"
+TauntString[23]="Félj tőlem"
+; EN: TauntString[24]="Flesh Is A Design Flaw"
+TauntString[24]="A hús tervezési hiba"
+; EN: TauntString[25]="My Victory Your Death"
+TauntString[25]="Győzelem a halálod"
+; EN: TauntString[26]="Not Unacceptable"
+TauntString[26]="Nem Elfogadhatatlan"
+; EN: TauntString[27]="Rogue Process Terminated"
+TauntString[27]="Rogue folyamat megszakadt"
+; EN: TauntString[28]="Witness My Perfection"
+TauntString[28]="Tanúja a tökéletességemnek"
+; EN: TauntString[29]="You Die Too Easily"
+TauntString[29]="Túl könnyen meghalsz"
+; EN: TauntString[30]="You Make Easy Prey"
+TauntString[30]="Könnyű prédát csinálsz"
+; EN: TauntString[31]="Your Programming Is Inferior"
+TauntString[31]="A programozásod gyengébb"
+; EN: OtherString[32]="Rerouting Critical Systems"
+OtherString[32]="Kritikus rendszerek átirányítása"
+; EN: OtherString[33]="You Adapt Well"
+OtherString[33]="Jól alkalmazkodsz"
+VoicePackName="Robot"
+
+[SPECIES_Alien]
+; EN: SpeciesName="Alien"
+SpeciesName="Idegen"
+; EN: TauntAnimNames[8]="Tail wag"
+TauntAnimNames[8]="Farokcsóválás"
+; EN: TauntAnimNames[9]="Gun check"
+TauntAnimNames[9]="Fegyver ellenőrzés"
+; EN: TauntAnimNames[10]="Dismissal"
+TauntAnimNames[10]="Elbocsátás"
+TauntAnimNames[11]="360"
+
+[SPECIES_Bot]
+SpeciesName="Robot"
+; EN: TauntAnimNames[8]="Want some?"
+TauntAnimNames[8]="Kérsz?"
+
+[SPECIES_Egypt]
+; EN: SpeciesName="Egyptian"
+SpeciesName="egyiptomi"
+
+[SPECIES_Jugg]
+SpeciesName="Juggernaut"
+TauntAnimNames[7]="Flex"
+TauntAnimNames[8]="Stomp"
+; EN: TauntAnimNames[9]="Back scratch"
+TauntAnimNames[9]="Hátsó karcolás"
+; EN: TauntAnimNames[10]="Show butt"
+TauntAnimNames[10]="Mutasd a fenekét"
+; EN: TauntAnimNames[11]="Head scratch"
+TauntAnimNames[11]="Fejkarcolás"
+
+[SPECIES_Merc]
+; EN: SpeciesName="Mercenary"
+SpeciesName="Zsoldos"
+
+[SPECIES_Night]
+; EN: SpeciesName="Night"
+SpeciesName="Éjszaka"
+
+[SpecialKillMessage]
+; EN: DecapitationString="Head Shot!!"
+DecapitationString="Fejbelövés!!"
+
+[SpeciesSkaarj]
+SpeciesName="Skaarj"
+; EN: TauntAnimNames[4]="Hair flip"
+TauntAnimNames[4]="Hajcsavar"
+; EN: TauntAnimNames[5]="Slash"
+TauntAnimNames[5]="Vágás"
+; EN: TauntAnimNames[6]="Scan"
+TauntAnimNames[6]="Letapogatás"
+; EN: TauntAnimNames[7]="Finger"
+TauntAnimNames[7]="Ujj"
+; EN: TauntAnimNames[8]="Idle"
+TauntAnimNames[8]="Tétlen"
+
+[SpeciesType]
+; EN: SpeciesName="Human"
+SpeciesName="Emberi"
+; EN: TauntAnimNames[0]="Point"
+TauntAnimNames[0]="Pont"
+; EN: TauntAnimNames[1]="Beckon"
+TauntAnimNames[1]="Odahív"
+; EN: TauntAnimNames[2]="Halt"
+TauntAnimNames[2]="Állj"
+; EN: TauntAnimNames[3]="Cheer"
+TauntAnimNames[3]="Éljenzés"
+; EN: TauntAnimNames[4]="Pelvic Thrust"
+TauntAnimNames[4]="Kismedencei tolóerő"
+TauntAnimNames[5]="Ass Smack"
+; EN: TauntAnimNames[6]="Throat Cut"
+TauntAnimNames[6]="Torokvágás"
+; EN: TauntAnimNames[7]="Unique"
+TauntAnimNames[7]="Egyedi"
+TauntAnimNames[8]="Team Taunt"
+TauntAnimNames[9]="Team Idle"
+
+[TeamApocalypse]
+; EN: TeamName="Apocalypse"
+TeamName="Apokalipszis"
+
+[TeamBlackLegion]
+TeamName="BlackLegion"
+
+[TeamBloodFists]
+TeamName="BloodFists"
+
+[TeamBoneCrushers]
+TeamName="BoneCrushers"
+
+[TeamColdSteel]
+; EN: TeamName="ColdSteel"
+TeamName="Hideg fém"
+
+[TeamCorrupt]
+; EN: TeamDescription="Xan Kriegor was long regarded as invincible, until Malcolm defeated him in the fourth officially recognized Tournament finals.  After a long hiatus, he has returned to lead the Liandri team, The Corrupt, back to the championship.  Xan is sitting out the early rounds, which he perceives as beneath his attention."
+TeamDescription="Xan Kriegort sokáig legyőzhetetlennek tekintették, mígnem Malcolm legyőzte őt a negyedik hivatalosan elismert torna döntőjében. Hosszú kihagyás után visszatért, hogy a Liandri csapatot, a The Corruptot vezesse vissza a bajnokságba. Xan a korai körökben ül, amit figyelmen kívül hagyottnak érzékel."
+; EN: TeamName="The Corrupt"
+TeamName="A korrupt"
+
+[TeamCrusaders]
+; EN: TeamName="Crusaders"
+TeamName="Keresztesek"
+
+[TeamDragonBreath]
+; EN: TeamName="DragonBreath"
+TeamName="Sárkánylehellet"
+
+[TeamFirestorm]
+; EN: TeamName="Firestorm"
+TeamName="Tűzvihar"
+
+[TeamGoliath]
+; EN: TeamDescription="With the success of Gorge's Juggernauts in last year's tournament, Axon Research Corporation is now sponsoring Goliath in hopes of producing an all Juggernaut finals."
+TeamDescription="A Gorge's Juggernauts tavalyi tornán aratott sikerével az Axon Research Corporation most szponzorálja a Góliátot, abban a reményben, hogy minden Juggernaut döntőt hoz létre."
+; EN: TeamName="Goliath"
+TeamName="Góliát"
+
+[TeamHellions]
+; EN: TeamDescription="Once feared and reviled throughout human space as pirates and renegades, the Hellions seek to gain respectability as a mercenary outfit.  They've entered the tournament to demonstrate their capabilities to potential customers."
+TeamDescription="Valamikor kalózként és renegátként rettegtek és szidalmaztak az emberi térben, a Hellions-t zsoldos öltözékként igyekeznek tekintélyre szert tenni. Azért neveztek a versenyre, hogy bemutassák képességeiket a potenciális vásárlóknak."
+TeamName="Hellions"
+
+[TeamIronGuard]
+TeamName="IronGuard"
+
+[TeamIronSkull]
+; EN: TeamDescription="This year, the Skaarj Empire is represented by the Iron Skull clan, who seek to regain honor after long being held responsible for the loss of the Skaarj Mothership during the Human/Skaarj wars."
+TeamDescription="Idén a Skaarj Birodalmat az Iron Skull klán képviseli, akik igyekeznek visszaszerezni a becsületet, miután hosszú ideig felelőssé váltak a Skaarj Anyahajó elvesztéséért az Ember/Skaarj háborúk során."
+; EN: TeamName="Iron Skull Skaarj"
+TeamName="Vaskoponya Skaarj"
+
+[TeamJuggernauts]
+; EN: TeamDescription="Gorge is determined to prove that his one year reign as Tournament Champion is no fluke, and he has re-assembled the Juggernaut team he led to the championship.  Axon Research Corporation has made armor and bio-genetic upgrades to the Juggernauts design for this year's tournament."
+TeamDescription="Gorge eltökélt szándéka, hogy bebizonyítsa, hogy egyéves tornabajnoki uralkodása nem véletlen, és újra összeállította a Juggernaut csapatot, amelyet a bajnokságig vezetett. Az Axon Research Corporation páncélzatot és biogenetikai fejlesztéseket hajtott végre a Juggernauts tervezésében az idei versenyre."
+TeamName="Juggernauts"
+
+[TeamNewBlacklegion]
+; EN: TeamDescription="The Black Legion is made up of the hideously deformed subjects of weaponized genetic mutation tests.  This year, they have a new leader, Abaddon, the current pinnacle of achievement of this line of experiments."
+TeamDescription="A Fekete Légió a fegyveres genetikai mutációs tesztek borzalmasan deformált alanyaiból áll. Idén új vezetőjük van, Abaddon, a kísérletek jelenlegi csúcsa."
+; EN: TeamName="Black Legion"
+TeamName="Fekete légió"
+
+[TeamNewBloodfist]
+; EN: TeamDescription="The only team in the Tournament acknowledged to be entirely cybernetic, Blood Fist warriors have their programming upgraded each year, and have become more and more lethal."
+TeamDescription="A verseny egyetlen csapata, akit teljesen kibernetikusnak ismernek el, a Blood Fist harcosok programjait minden évben frissítik, és egyre halálosabbakká váltak."
+; EN: TeamName="Blood Fist"
+TeamName="Vérököl"
+
+[TeamNewFirestorm]
+; EN: TeamDescription="The Mokara are respected and feared as warriors. The Mokara's elite fighting unit, Fire Storm, sends a team of their best soldiers to the Tournament each year."
+TeamDescription="A Mokarákat harcosként tisztelik és féltik. A Mokara elit harci egysége, a Fire Storm minden évben a legjobb katonáikból álló csapatot küld a versenyre."
+; EN: TeamName="Firestorm"
+TeamName="Tűzvihar"
+
+[TeamNewIronGuard]
+; EN: TeamDescription="Brock and Lauren joined forces with Malcolm during his reign as tournament champion. Infighting and recrimination over their stunning defeat in last year's Tournament led to the dissolution of that team. Now, Brock and Lauren have returned leading their old team, the Iron Guard."
+TeamDescription="Brock és Lauren egyesítették erőiket Malcolmmal a versenybajnoki uralkodása alatt. A tavalyi bajnokságban elszenvedett elképesztő vereségük miatti belharc és vádaskodás a csapat feloszlatásához vezetett. Most Brock és Lauren visszatért régi csapatuk, a Vasgárda élére."
+; EN: TeamName="Iron Guard"
+TeamName="Vasgárda"
+
+[TeamNewSunblade]
+; EN: TeamDescription="Sun Blade is comprised of former Temple Guardians and veterans of the Desert Legion. They see victory in the Tournament as their only hope for burial and eternal life in the Valley of Kings on Luxor IV."
+TeamDescription="A Sun Blade egykori Templomőrökből és a Sivatagi Légió veteránjaiból áll. A torna győzelmét látják az egyetlen reményüknek a temetésre és az örök életre a Királyok Völgyében Luxor IV-en."
+TeamName="Sun Blade"
+
+[TeamNewSuperNova]
+; EN: TeamDescription="Super Nova, a team of mercenaries from the Seventh Mercenary Fleet, has entered the Tournament to pay off their debts to the Izanagi Corporation."
+TeamDescription="A Super Nova, a hetedik zsoldosflotta zsoldoscsapata benevezett a versenyre, hogy kifizesse az Izanagi Corporation felé fennálló tartozásait."
+; EN: TeamName="Super Nova"
+TeamName="Szupernóva"
+
+[TeamNightstalkers]
+TeamName="Nightstalkers"
+
+[TeamPainMachine]
+TeamName="PainMachine"
+
+[TeamSunBlades]
+TeamName="SunBlades"
+
+[TeamSupernova]
+; EN: TeamName="Supernova"
+TeamName="Szupernóva"
+
+[TeamThundercrash]
+; EN: TeamDescription="Following his well publicized break-up with long-time teammates Brock and Lauren, Malcolm has returned to lead his old team, Thunder Crash.  Malcolm is currently rehabilitating an injury sustained in last year's championship match, but he is expected to be healthy in time for the Tournament Finals."
+TeamDescription="A nagy nyilvánosságot kapott szakítása után a régi csapattársakkal, Brockkal és Laurennel Malcolm visszatért régi csapata, a Thunder Crash élére. Malcolm jelenleg a tavalyi bajnoki mérkőzésen szerzett sérülését rehabilitálja, de várhatóan egészséges lesz a bajnokság döntőjére."
+TeamName="Thunder Crash"
+
+[TeamVenom]
+; EN: TeamName="Venom"
+TeamName="Méreg"
+
+[TeamWarCry]
+; EN: TeamName="WarCry"
+TeamName="Csatakiáltást"
+
+[UT2003LadderInfo]
+; EN: CHAMP1.MenuName="Tournament Semi-Final"
+CHAMP1.MenuName="A torna elődöntője"
+; EN: CHAMP2.MenuName="Tournament Final"
+CHAMP2.MenuName="Verseny döntője"
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="Deathmatch bemutatója"
+
+[UT2K4DMRoster]
+; EN: TeamName="Death Match"
+TeamName="Élet-halál játszma"
+
+[UT2K4GameProfile]
+msgSpecialAward[0]="Flak Monkey"
+; EN: msgSpecialAward[1]="Combo Whore"
+msgSpecialAward[1]="Kombinált kurva"
+msgSpecialAward[2]="Head Hunter"
+msgSpecialAward[3]="Road Rampage"
+; EN: msgSpecialAward[4]="Hat Trick"
+msgSpecialAward[4]="Mesterhármas"
+; EN: msgSpecialAward[5]="Untouchable"
+msgSpecialAward[5]="Érinthetetlen"
+; EN: msgCheater="CHEATER!!!"
+msgCheater="CSALÓ!!!"
+; EN: msgCredits="credits"
+msgCredits="krediteket"
+; EN: msgCredit="credit"
+msgCredit="hitel"
+; EN: msgChallengeGame="Challenge game"
+msgChallengeGame="Kihívás játék"
+; EN: msgAdditionalLadder="Additional ladder game"
+msgAdditionalLadder="További létrajáték"
+; EN: msgMatch="match"
+msgMatch="mérkőzés"
+; EN: msgLadderGame="Ladder game"
+msgLadderGame="Létra játék"
+; EN: msgChampionship="Championship"
+msgChampionship="Bajnokság"
+
+[UT2K4LadderInfo]
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="Deathmatch bemutatója"
+
+[xBlueFlagBase]
+; EN: ObjectiveName="Blue Flag"
+ObjectiveName="Kék zászló"
+
+[xBombDelivery]
+; EN: ObjectiveStringSuffix=" Goal"
+ObjectiveStringSuffix=" Cél"
+
+[xBombHUDMessage]
+; EN: YouHaveFlagString="You have the ball, deliver it to enemy base!"
+YouHaveFlagString="Nálad van a labda, szállítsd az ellenséges bázisra!"
+; EN: EnemyHasFlagString="The enemy has the ball, recover it!"
+EnemyHasFlagString="Az ellenségé a labda, szerezd vissza!"
+
+[xBombMessage]
+; EN: ReturnBlue="returns the ball!"
+ReturnBlue="visszaadja a labdát!"
+; EN: ReturnRed="returns the ball!"
+ReturnRed="visszaadja a labdát!"
+; EN: ReturnedBlue="The ball was returned!"
+ReturnedBlue="A labda visszakerült!"
+; EN: ReturnedRed="The ball was returned!"
+ReturnedRed="A labda visszakerült!"
+; EN: CaptureBlue="scored the goal!"
+CaptureBlue="gólt szerzett!"
+; EN: CaptureRed="scored the goal!"
+CaptureRed="gólt szerzett!"
+; EN: DroppedBlue="dropped the ball!"
+DroppedBlue="elejtette a labdát!"
+; EN: DroppedRed="dropped the ball!"
+DroppedRed="elejtette a labdát!"
+; EN: HasBlue="has the ball!"
+HasBlue="nála van a labda!"
+; EN: HasRed="has the ball!"
+HasRed="nála van a labda!"
+
+[xBombSpawn]
+ObjectiveName="Bomb Spawn"
+
+[xBombingRun]
+; EN: BRPropText="Delay ball contact"
+BRPropText="Késleltetett labdaérintkezés"
+; EN: BRPropText2="BallLauncher drains Translocator"
+BRPropText2="A BallLauncher leereszti a Translokátort"
+; EN: BRDescText="If checked, a player must wait a few seconds after throwing the ball before picking it up again."
+BRDescText="Ha be van jelölve, a játékosnak várnia kell néhány másodpercet a labda eldobása után, mielőtt újra felveszi."
+; EN: BRDescText2="If checked, a player must wait a few seconds after throwing the ball before being able to translocate (or until someone else catches or picks up the ball)."
+BRDescText2="Ha be van jelölve, a játékosnak várnia kell néhány másodpercet a labda eldobása után, mielőtt áthelyezheti magát (vagy amíg valaki más el nem kapja vagy felveszi a labdát)."
+BRHints=("You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base.","Firing the translocator sends out your translocator beacon.  Pressing %FIRE% again returns the beacon, while pressing %A:TFIRE% teleports you instantly to the beacon's location (if you fit).","While carrying the ball, you can target teammates by pressing %ALTFIRE%.  Pressing %FIRE% will pass the ball to the targeted teammate.","Pressing %SWITCHWEAPON 10% after tossing the Translocator allows you to view from its internal camera.","Pressing %FIRE% while your %ALTFIRE% is still held down after teleporting with the translocator will switch you back to your previous weapon.")
+; EN: GameName="Bombing Run"
+GameName="Bombavetési rárepülés"
+; EN: Description="Each level has a ball that starts in the middle of the playing field.  Your team scores by getting the ball through the enemy team's hoop.  You score 7 points for jumping through the hoop while holding the ball, and 3 points for tossing the ball through the hoop.  The ball can be passed to teammates, and is dropped if the player carrying it is killed."
+Description="Minden szinten van egy labda, amely a játéktér közepén kezdődik. Csapatod úgy szerez gólt, hogy átveszi a labdát az ellenséges csapat karikáján. 7 pontot kapsz, ha átugrál a karikán, miközben tartod a labdát, és 3 pontot, ha átdobod a karikán. A labdát át lehet adni a csapattársaknak, és elejtik, ha a labdát hordozó játékos meghal."
+
+[xCTFGame]
+; EN: GameName="Capture the Flag"
+GameName="Szerezd meg a zászlót"
+; EN: Description="Your team must score flag captures by taking the enemy flag from the enemy base and returning it to their own flag.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
+Description="Csapatának zászlófogást kell szereznie úgy, hogy elviszi az ellenséges zászlót az ellenséges bázisról, és visszahelyezi a saját zászlójára. Ha a zászlóvivő meghal, a zászló a földre esik, hogy bárki felvehesse. Ha a csapat zászlaját elfoglalják, vissza kell adni (az elejtés utáni érintéssel), mielőtt csapata zászlóelvételt szerezhet."
+
+[xDeathMatch]
+; EN: GameName="DeathMatch"
+GameName="Élet-halál játszma"
+; EN: Description="Free-for-all kill or be killed.  The player with the most frags wins."
+Description="Mindenki számára ingyenes ölni vagy megölni. A legtöbb fraggal rendelkező játékos nyer."
+
+[xDeathMessage]
+; EN: KilledString="was killed by"
+KilledString="által ölték meg"
+; EN: SomeoneString="someone"
+SomeoneString="valaki"
+
+[xDomMessage]
+; EN: YouControlBothPointsString="Your team controls both points!"
+YouControlBothPointsString="A csapatod irányítja mindkét pontot!"
+; EN: EnemyControlsBothPointsString="The enemy controls both points!"
+EnemyControlsBothPointsString="Az ellenség irányítja mindkét pontot!"
+
+[xDomPointA]
+PointName="A"
+; EN: ObjectiveName="Point A"
+ObjectiveName="A pont"
+
+[xDomPointB]
+PointName="B"
+; EN: ObjectiveName="Point B"
+ObjectiveName="B pont"
+
+[xDoubleDom]
+; EN: DDomPropsDisplayText[0]="Time To Score"
+DDomPropsDisplayText[0]="Ideje gólt szerezni"
+; EN: DDomPropsDisplayText[1]="Time Disabled"
+DDomPropsDisplayText[1]="Idő letiltva"
+; EN: DDomPropDescText[0]="Specifies how long domination points must be held to score a point."
+DDomPropDescText[0]="Meghatározza, hogy mennyi ideig kell megtartani az uralmi pontokat a pontszerzéshez."
+; EN: DDomPropDescText[1]="Specifies how long domination points are disabled after a point is scored."
+DDomPropDescText[1]="Meghatározza, hogy mennyi ideig legyenek letiltva az uralmi pontok a pontszerzés után."
+; EN: GameName="Double Domination"
+GameName="Kettős uralom"
+; EN: Description="Your team scores by capturing and holding both Control Points for ten seconds.  Control Points are captured by touching them.  After scoring, the Control Points reset to neutral."
+Description="Csapatod úgy szerzi a pontszámot, hogy elfogja és tíz másodpercig megtartja mindkét kontrollpontot. A vezérlőpontok megérintésével rögzíthetők. Pontozás után a kontrollpontok visszaállnak semlegesre."
+
+[xFallingVolume]
+; EN: LocationName="in air"
+LocationName="a levegőben"
+
+[xKillerMessagePlus]
+; EN: YouKilled="You killed"
+YouKilled="Megölted"
+
+[xRedFlagBase]
+; EN: ObjectiveName="Red Flag"
+ObjectiveName="Piros zászló"
+
+[xTeamGame]
+GameName="Team DeathMatch"
+; EN: Description="Two teams duke it out in a quest for battlefield supremacy.  The team with the most total frags wins."
+Description="Két csapat harcol a harctéren. Az a csapat nyer, amelyiknek a legtöbb frage van."
+
+[xUtil]
+; EN: NoPreference="No Weapon Preference"
+NoPreference="Nincs fegyverpreferencia"
+; EN: FavoriteWeapon="Favorite Weapon:"
+FavoriteWeapon="Kedvenc fegyver:"
+; EN: AgilityString="Agility:"
+AgilityString="Agilitás:"
+; EN: TacticsString="Team Tactics:"
+TacticsString="Csapattaktika:"
+; EN: AccuracyString="Accuracy:"
+AccuracyString="Pontosság:"
+; EN: AggressivenessString="Aggression:"
+AggressivenessString="Agresszió:"
+
+[xVehicleCTFGame]
+VCTFHints=("You can't carry the flag in a Manta or a Raptor.")
+; EN: GameName="Vehicle CTF"
+GameName="Jármű CTF"
+; EN: Description="Like traditional Capture The Flag, only adding vehicles into the mix! Only ground-based vehicles can carry the flag."
+Description="A hagyományos Capture The Flaghez hasonlóan csak járműveket ad hozzá a keverékhez! Csak a földi járművek viselhetik a zászlót."
+
+[xVictimMessage]
+; EN: YouWereKilledBy="You were killed by"
+YouWereKilledBy="Önt megölték"
+KilledByTrailer="!"
+
+[xVoicePack]
+; EN: AckString[0]="Affirmative"
+AckString[0]="Igenlő"
+; EN: AckString[1]="Got It"
+AckString[1]="Megvan"
+; EN: AckString[2]="I'm On It"
+AckString[2]="Rajta vagyok"
+AckString[3]="Roger"
+; EN: FFireString[0]="I'm On Your Team!"
+FFireString[0]="A csapatodban vagyok!"
+; EN: FFireString[1]="I'm On Your Team, Idiot!"
+FFireString[1]="A csapatodban vagyok, idióta!"
+; EN: FFireString[2]="Same Team!"
+FFireString[2]="Ugyanaz a csapat!"
+; EN: FFireAbbrev[1]="Your Team, Idiot!"
+FFireAbbrev[1]="A csapatod, idióta!"
+; EN: TauntString[0]="And Stay Down"
+TauntString[0]="És maradj lent"
+; EN: TauntString[1]="Anyone Else Want Some?"
+TauntString[1]="Akar még valaki?"
+; EN: TauntString[2]="Boom!"
+TauntString[2]="Bumm!"
+TauntString[3]="BURN Baby"
+; EN: TauntString[4]="Die Bitch"
+TauntString[4]="Halj meg kurva"
+; EN: TauntString[5]="Eat THAT"
+TauntString[5]="Edd meg"
+; EN: TauntString[6]="You Fight Like Nali"
+TauntString[6]="Úgy harcolsz, mint Nali"
+; EN: TauntString[7]="Is That Your Best?"
+TauntString[7]="Ez a legjobb?"
+TauntString[8]="Kiss My Ass"
+; EN: TauntString[9]="Loser"
+TauntString[9]="Vesztes"
+; EN: TauntString[10]="MY House"
+TauntString[10]="Én házam"
+; EN: TauntString[11]="Next!"
+TauntString[11]="Következő!"
+; EN: TauntString[12]="Oh YEAH!"
+TauntString[12]="Ó igen!"
+; EN: TauntString[13]="Ownage"
+TauntString[13]="Tulajdon"
+; EN: TauntString[14]="Seeya"
+TauntString[14]="Szia"
+; EN: TauntString[15]="That HAD To Hurt"
+TauntString[15]="Ennek Fájnia KELLETT"
+; EN: TauntString[16]="Useless"
+TauntString[16]="Hiábavaló"
+; EN: TauntString[17]="You Play Like A Girl"
+TauntString[17]="Úgy játszol, mint egy lány"
+; EN: TauntString[18]="You Be Dead"
+TauntString[18]="Legyél halott"
+; EN: TauntString[19]="You Like That?"
+TauntString[19]="Tetszik neked?"
+; EN: TauntString[20]="You Whore"
+TauntString[20]="Te Kurva"
+; EN: OrderString[0]="Defend the base"
+OrderString[0]="Védd meg a bázist"
+; EN: OrderString[1]="Hold this position"
+OrderString[1]="Tartsd ezt a pozíciót"
+; EN: OrderString[2]="Assault the base"
+OrderString[2]="Megtámadják a bázist"
+; EN: OrderString[3]="Cover me"
+OrderString[3]="Fedezz"
+; EN: OrderString[4]="Search and destroy"
+OrderString[4]="Keres és lerombol"
+; EN: OrderString[10]="Take their flag"
+OrderString[10]="Fogd a zászlójukat"
+; EN: OrderString[11]="Defend the flag"
+OrderString[11]="Védd meg a zászlót"
+; EN: OrderString[12]="Attack Alpha"
+OrderString[12]="Támadd meg az Alfát"
+; EN: OrderString[13]="Attack Bravo"
+OrderString[13]="Támadd meg a Bravo-t"
+; EN: OrderString[14]="Get the ball"
+OrderString[14]="Szerezd meg a labdát"
+; EN: OrderAbbrev[0]="Defend"
+OrderAbbrev[0]="Megvédeni"
+; EN: OrderAbbrev[2]="Attack"
+OrderAbbrev[2]="Támadás"
+; EN: OtherString[0]="Base is undefended!"
+OtherString[0]="Az alap védtelen!"
+; EN: OtherString[1]="Somebody get our flag back!"
+OtherString[1]="Valaki szerezze vissza a zászlónkat!"
+; EN: OtherString[2]="I've got the flag"
+OtherString[2]="Megvan a zászló"
+; EN: OtherString[3]="I've got your back"
+OtherString[3]="fedezlek"
+; EN: OtherString[4]="I'm hit!"
+OtherString[4]="El vagyok ütött!"
+; EN: OtherString[5]="Man down!"
+OtherString[5]="Ember a földön!"
+; EN: OtherString[6]="I'm all alone here %l"
+OtherString[6]="Egyedül vagyok itt %l"
+; EN: OtherString[7]="Negative!"
+OtherString[7]="Negatív!"
+; EN: OtherString[8]="I've got our flag"
+OtherString[8]="Megvan a zászlónk"
+; EN: OtherString[9]="I'm in position %l"
+OtherString[9]="%l pozícióban vagyok"
+; EN: OtherString[10]="I'm going in!"
+OtherString[10]="Bemegyek!"
+; EN: OtherString[11]="Area is secure"
+OtherString[11]="A terület biztonságos"
+; EN: OtherString[12]="Enemy flag carrier is %l"
+OtherString[12]="Az ellenség zászlóvivője %l"
+; EN: OtherString[13]="I need some backup %l"
+OtherString[13]="Szükségem van egy kis biztonsági mentésre %l"
+; EN: OtherString[14]="Incoming!"
+OtherString[14]="Beérkező!"
+; EN: OtherString[15]="Enemy ball carrier is %l"
+OtherString[15]="Az ellenséges labdahordozó %l"
+; EN: OtherString[16]="Alpha secure!"
+OtherString[16]="Alfa biztonságos!"
+; EN: OtherString[17]="Bravo secure!"
+OtherString[17]="Bravó biztos!"
+; EN: OtherString[18]="Attack Alpha"
+OtherString[18]="Támadd meg az Alfát"
+; EN: OtherString[19]="Attack Bravo"
+OtherString[19]="Támadd meg a Bravo-t"
+; EN: OtherString[20]="The base is under attack %l"
+OtherString[20]="A bázis támadás alatt %l"
+; EN: OtherString[21]="We're being overrun %l!"
+OtherString[21]="Túllépünk %l!"
+; EN: OtherString[22]="Under heavy attack %l"
+OtherString[22]="Erős támadás alatt %l"
+; EN: OtherString[23]="Defend point Alpha"
+OtherString[23]="Védőpont Alfa"
+; EN: OtherString[24]="Defend point Bravo"
+OtherString[24]="Védőpont Bravo"
+; EN: OtherString[25]="Get The Ball"
+OtherString[25]="Szerezd meg a labdát"
+; EN: OtherString[26]="I'm on defense"
+OtherString[26]="védekezésben vagyok"
+; EN: OtherString[27]="I'm on offense"
+OtherString[27]="meg vagyok sértődve"
+; EN: OtherString[28]="Take point Alpha"
+OtherString[28]="Vegyük az Alfát"
+; EN: OtherString[29]="Take point Bravo"
+OtherString[29]="Vegyük a Bravo pontot"
+; EN: OtherString[30]="Medic"
+OtherString[30]="Medikus"
+; EN: OtherString[31]="Nice"
+OtherString[31]="szép"
+; EN: OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[1]="Szerezd meg a zászlónkat!"
+; EN: OtherAbbrev[2]="Got the flag"
+OtherAbbrev[2]="Megvan a zászló"
+; EN: OtherAbbrev[3]="Got your back"
+OtherAbbrev[3]="Megkaptad a hátadat"
+; EN: OtherAbbrev[6]="All alone!"
+OtherAbbrev[6]="Egyedül!"
+; EN: OtherAbbrev[8]="Got our flag"
+OtherAbbrev[8]="Megvan a zászlónk"
+; EN: OtherAbbrev[9]="In position"
+OtherAbbrev[9]="Pozícióban"
+; EN: OtherAbbrev[12]="Enemy flag carrier"
+OtherAbbrev[12]="Ellenséges zászlóvivő"
+; EN: OtherAbbrev[13]="Need backup"
+OtherAbbrev[13]="Támogatásra van szükség"
+; EN: OtherAbbrev[15]="Enemy ball carrier"
+OtherAbbrev[15]="Ellenséges labdahordozó"
+; EN: OtherAbbrev[20]="Base under attack"
+OtherAbbrev[20]="Támadás alatt álló bázis"
+; EN: OtherAbbrev[21]="Being overrun"
+OtherAbbrev[21]="Túllépve"
+; EN: OtherAbbrev[22]="Under heavy attack"
+OtherAbbrev[22]="Erős támadás alatt"
+

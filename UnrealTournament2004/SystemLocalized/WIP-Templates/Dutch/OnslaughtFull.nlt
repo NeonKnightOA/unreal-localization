@@ -1,0 +1,78 @@
+[DamTypeIonTankBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="%o werd VERPLICHT door %k"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o was VERPLICHT"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o was VERPLICHT"
+
+[DamTypeMASCannon]
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="%o is verdampt door %k!"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="%o is VERVAMPEN!"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="%o is VERVAMPEN!"
+
+[DamTypeMASPlasma]
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="%k's Leviathan-torentje geplasmatiseerd %o."
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="%o heeft zichzelf verspild."
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="%o heeft zichzelf verspild."
+
+[MutVehicleArena]
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="Arena voertuig"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="Bepaalt welk voertuigtype in de wedstrijd wordt gebruikt."
+; EN: FriendlyName="Vehicle Arena"
+FriendlyName="Voertuig Arena"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="Vervang alle voertuigen op de kaart door een bepaald type."
+
+[ONSBomber]
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="in een Libelle"
+; EN: VehicleNameString="DragonFly"
+VehicleNameString="Libel"
+
+[ONSGenericSD]
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="ongesteld"
+VehicleNameString="TC-1200"
+
+[ONSHoverTank_IonPlasma]
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="in een ionenplasmatank"
+; EN: VehicleNameString="Ion Plasma Tank"
+VehicleNameString="Ionen plasmatank"
+
+[ONSMASSideGunPawn]
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="in een Leviathan-torentje"
+; EN: VehicleNameString="Leviathan Turret"
+VehicleNameString="Leviathan-torentje"
+
+[ONSMobileAssaultStation]
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="in een Leviathan"
+VehicleNameString="Leviathan"
+
+[ONSPainter]
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="De Target Painter, vergelijkbaar met de Ion Painter, vuurt een onschadelijke laser met laag vermogen af ​​met zijn primaire vuur. In tegenstelling tot de Ion Painter roept dit wapen echter een bommenwerper op die een reeks bommen lanceert in de richting waarin de gebruiker staat, gecentreerd op het geverfde doelwit. De bommen zullen gemakkelijk het doelwit en eventuele ongelukkigen die zich in de buurt bevinden verbranden."
+; EN: ItemName="Target Painter"
+ItemName="Doelschilder"
+
+[ONSPainterPickup]
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="Je hebt de Target Painter."
+
+[ONSTankSecondaryTurretPawn_IonPlasma]
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="in een Ion Tank-torentje"
+; EN: VehicleNameString="Ion Tank Minigun Turret"
+VehicleNameString="Ion Tank Minigun-torentje"
+

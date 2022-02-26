@@ -1,66 +1,86 @@
 [LevelInfo0]
-Title="Sun Temple"
+; EN: Title="Sun Temple"
+Title="Temple du Soleil"
 
 [LevelSummary]
-Title="Sun Temple"
+; EN: Title="Sun Temple"
+Title="Temple du Soleil"
 
 [ZoneInfo0]
-LocationName="Open Ground"
+; EN: LocationName="Open Ground"
+LocationName="Terrain ouvert"
 
 [ZoneInfo10]
-LocationName="Dom B Hallways"
+; EN: LocationName="Dom B Hallways"
+LocationName="Dom B Couloirs"
 
 [ZoneInfo11]
-LocationName="Dom B Upper Room"
+; EN: LocationName="Dom B Upper Room"
+LocationName="Chambre Supérieure Dom B"
 
 [ZoneInfo12]
 LocationName="Dom Point B"
 
 [ZoneInfo13]
-LocationName="Dom A Hallways"
+; EN: LocationName="Dom A Hallways"
+LocationName="Dom A Couloirs"
 
 [ZoneInfo14]
-LocationName="Dom A Hallways"
+; EN: LocationName="Dom A Hallways"
+LocationName="Dom A Couloirs"
 
 [ZoneInfo15]
-LocationName="Dom A Entryway"
+; EN: LocationName="Dom A Entryway"
+LocationName="Dom une entrée"
 
 [ZoneInfo16]
-LocationName="Dom A Upper Room"
+; EN: LocationName="Dom A Upper Room"
+LocationName="Dom A Chambre Supérieure"
 
 [ZoneInfo17]
-LocationName="Dom A Upper Room"
+; EN: LocationName="Dom A Upper Room"
+LocationName="Dom A Chambre Supérieure"
 
 [ZoneInfo18]
-LocationName="Dom A Courtyard"
+; EN: LocationName="Dom A Courtyard"
+LocationName="Dom une cour"
 
 [ZoneInfo2]
-LocationName="Dom B Entryway"
+; EN: LocationName="Dom B Entryway"
+LocationName="Entrée Dom B"
 
 [ZoneInfo23]
 LocationName="Dom Point A"
 
 [ZoneInfo24]
-LocationName="Dom B Upper Room"
+; EN: LocationName="Dom B Upper Room"
+LocationName="Chambre Supérieure Dom B"
 
 [ZoneInfo3]
-LocationName="Central Jump Room"
+; EN: LocationName="Central Jump Room"
+LocationName="Salle de saut centrale"
 
 [ZoneInfo4]
-LocationName="Dom B Courtyard"
+; EN: LocationName="Dom B Courtyard"
+LocationName="Cour Dom B"
 
 [ZoneInfo5]
-LocationName="Dom B Hallways"
+; EN: LocationName="Dom B Hallways"
+LocationName="Dom B Couloirs"
 
 [ZoneInfo6]
-LocationName="Dom B Hallways"
+; EN: LocationName="Dom B Hallways"
+LocationName="Dom B Couloirs"
 
 [ZoneInfo7]
-LocationName="Dom A Hallways"
+; EN: LocationName="Dom A Hallways"
+LocationName="Dom A Couloirs"
 
 [ZoneInfo8]
-LocationName="Dom A Hallways"
+; EN: LocationName="Dom A Hallways"
+LocationName="Dom A Couloirs"
 
 [ZoneInfo9]
-LocationName="Dom B Hallways"
+; EN: LocationName="Dom B Hallways"
+LocationName="Dom B Couloirs"
 

@@ -1,0 +1,259 @@
+[ACTION_ASOpenSentinel]
+; EN: ActionString="Awake sentinel"
+ActionString="Probuďte se strážce"
+
+[ACTION_ASSetPlayerSpawnArea]
+ActionString="ACTION_ASSetPlayerSpawnArea"
+
+[ACTION_ASTeleportToSpawnArea]
+; EN: ActionString="teleport to spawn area"
+ActionString="teleportujte se do oblasti spawn"
+
+[ACTION_PlayExplosionSound]
+; EN: ActionString="Play explosion sound"
+ActionString="Přehrajte zvuk výbuchu"
+
+[ACTION_PlayerViewShake]
+ActionString="PlayerViewShake"
+
+[ASGameInfo]
+; EN: ASPropsDisplayText[0]="Pair of Rounds"
+ASPropsDisplayText[0]="Dvojice kol"
+; EN: ASPropsDisplayText[1]="Round Time Limit"
+ASPropsDisplayText[1]="Časový limit kola"
+; EN: ASPropsDisplayText[2]="Reset Countdown"
+ASPropsDisplayText[2]="Resetovat odpočítávání"
+; EN: ASPropsDisplayText[3]="Reinforcements Time"
+ASPropsDisplayText[3]="Čas posil"
+; EN: ASPropsDisplayText[4]="Practice Time"
+ASPropsDisplayText[4]="Čas praxe"
+; EN: ASPropDescText[0]="Number of pair of rounds (Attack and defense) for this match."
+ASPropDescText[0]="Počet dvojic kol (útok a obrana) pro tento zápas."
+; EN: ASPropDescText[1]="Specifies how long each round lasts."
+ASPropDescText[1]="Určuje, jak dlouho každé kolo trvá."
+; EN: ASPropDescText[2]="Specifies how much time there is between each round."
+ASPropDescText[2]="Určuje, kolik času je mezi jednotlivými koly."
+; EN: ASPropDescText[3]="Specifies time between reinforcements spawning."
+ASPropDescText[3]="Určuje dobu mezi vznikem výztuh."
+; EN: ASPropDescText[4]="Specifies how much time lasts the online practice round. (In seconds)"
+ASPropDescText[4]="Určuje, jak dlouho trvá online cvičné kolo. (v sekundách)"
+ASHints=("A waypoint on the HUD indicates the location of an objective.","Be on the look out for HUD warnings and alarm sounds when an objective is in danger.","When a new spawn area has been enabled, Press %SWITCHWEAPON 10% to teleport to it instantly.","Press %BASEPATH 0% or %BASEPATH 1% to highlight the current objective, show a path to it, and slide out the objective list.","Monitor the respawn countdown to know when to expect backups.","Some weapons are better at destroying enemy Spider Mines than others.","You can be hurt or killed by vehicles exploding near you.","You can heal a friendly vehicle with the Link Gun alt-fire.","If you die, any Spider Mines or Grenades you fired will explode.","The green light on top of the weapon lockers indicates that additional ammo is available at that locker.","All turrets can zoom in by pressing %MOVEFORWARD% and zoom out by pressing %MOVEBACKWARD%.","Link turrets have the same properties as the Link Gun.","The Ion Cannon and Ion Plasma Tank, while charging up, indicate their target with a laser beam.","You can switch between remote controlled turrets by pressing %NEXTWEAPON% and %PREVWEAPON%.","In a SpaceFighter, you can cycle through targets by pressing %NEXTWEAPON% and %PREVWEAPON%.","Various trophies can be obtained by destroying a key vehicle (or turret), completing an objective, or successfully attacking.","A trophy is given to the player completing an objective, but the points reward is shared between all contributors.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person view in vehicles.")
+; EN: GameName="Assault"
+GameName="Útok"
+; EN: Description="In each round, one team takes the role of the attacker, while the other team defends, in recreations of famous (or infamous) scenarios. After a pair of rounds, the most successful attacking team scores a point."
+Description="V každém kole jeden tým převezme roli útočníka, zatímco druhý tým brání, v rekreacích slavných (nebo nechvalně známých) scénářů. Po dvou kolech získává bod nejúspěšnější útočící tým."
+
+[ASGameReplicationInfo]
+; EN: ERW_PracticeRoundEndedStr="Practice round over. Get ready!"
+ERW_PracticeRoundEndedStr="Cvičte dokola. Připravit se!"
+; EN: ERW_RedAttackedStr="Red team successfully attacked!"
+ERW_RedAttackedStr="Červený tým úspěšně zaútočil!"
+; EN: ERW_BlueAttackedStr="Blue team successfully attacked!"
+ERW_BlueAttackedStr="Modrý tým úspěšně zaútočil!"
+; EN: ERW_RedDefendedStr="Red team successfully defended!"
+ERW_RedDefendedStr="Červený tým úspěšně bránil!"
+; EN: ERW_BlueDefendedStr="Blue team successfully defended!"
+ERW_BlueDefendedStr="Modrý tým úspěšně bránil!"
+; EN: ERW_RedMoreObjectivesStr="Red team scored (more objectives)."
+ERW_RedMoreObjectivesStr="Červený tým skóroval (více gólů)."
+; EN: ERW_BlueMoreObjectivesStr="Blue team scored (more objectives)."
+ERW_BlueMoreObjectivesStr="Modrý tým skóroval (více gólů)."
+; EN: ERW_RedMoreProgressStr="Red team scored (closer to completion)."
+ERW_RedMoreProgressStr="Červený tým skóroval (blíže k dokončení)."
+; EN: ERW_BlueMoreProgressStr="Blue team scored (closer to completion)."
+ERW_BlueMoreProgressStr="Modrý tým skóroval (blíže k dokončení)."
+; EN: ERW_RedGotSameOBJFasterStr="Red team scored (fastest)."
+ERW_RedGotSameOBJFasterStr="Červený tým skóroval (nejrychleji)."
+; EN: ERW_BlueGotSameOBJFasterStr="Blue team scored (fastest)."
+ERW_BlueGotSameOBJFasterStr="Modrý tým skóroval (nejrychleji)."
+; EN: ERW_DrawStr="Draw game."
+ERW_DrawStr="Hra na kreslení."
+
+[ASOBJ_EnergyCore_Delivery]
+; EN: ObjectiveName="Energy Core Delivery"
+ObjectiveName="Dodávka energetického jádra"
+
+[ASOBJ_EnergyCore_Spawn]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" upustilo Power Core!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Napájecí jádro vypadlo!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Power Core vyzvednuto!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" zvedl Power Core!"
+PlayerCoreReset="Power Core reset!"
+; EN: ObjectiveName="Energy Core Spawn"
+ObjectiveName="Spawn energetického jádra"
+
+[ASTurret]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="obsazení věže"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Energetická věžička"
+
+[ASTurret_Minigun]
+; EN: VehiclePositionString="manning a Minigun Turret"
+VehiclePositionString="obsluhující věž Minigun"
+; EN: VehicleNameString="Minigun Turret"
+VehicleNameString="Věž pro minigun"
+
+[ASVehicle_Sentinel]
+; EN: VehicleNameString="Sentinel"
+VehicleNameString="Stráž"
+
+[ASVehicle_Sentinel_Ceiling]
+; EN: VehicleNameString="Ceiling Sentinel"
+VehicleNameString="Stropní Sentinel"
+
+[ASVehicle_Sentinel_Floor]
+; EN: VehicleNameString="Floor Sentinel"
+VehicleNameString="Podlahový Sentinel"
+
+[ASVehicle_SpaceFighter]
+; EN: Text_Speed="Speed:"
+Text_Speed="Rychlost:"
+
+[Ammo_Dummy]
+ItemName="Dummy"
+
+[DamTypeExploBarrel]
+; EN: DeathString="%k took out %o with a barrel explosion."
+DeathString="%k vytáhl %o výbuchem sudu."
+; EN: FemaleSuicide="%o was a little too close to the barrel she blew up."
+FemaleSuicide="%o byl trochu příliš blízko sudu, který vyhodila do vzduchu."
+; EN: MaleSuicide="%o was a little too close to the barrel he blew up."
+MaleSuicide="%o byl trochu příliš blízko sudu, který vyhodil do vzduchu."
+
+[DamTypeMinigunTurretBullet]
+; EN: DeathString="%o was mowed down by %k's minigun turret."
+DeathString="%o bylo pokoseno věží minigunu %k."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="%o obrátila minigun na sebe."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="%o obrátil minigun na sebe."
+
+[DamTypeSentinelLaser]
+; EN: DeathString="%o was served an extra helping of %k's lasers."
+DeathString="%o dostal extra pomoc laserů %k."
+; EN: FemaleSuicide="%o fried herself with her own laser blast."
+FemaleSuicide="%o se smažila vlastním laserovým výbuchem."
+; EN: MaleSuicide="%o fried himself with his own laser blast."
+MaleSuicide="%o se usmažil svým vlastním laserovým výbuchem."
+
+[DestroyVehicleObjective]
+; EN: ObjectiveName="Destroy Vehicle Objective"
+ObjectiveName="Cíl zničit vozidlo"
+; EN: ObjectiveDescription="Destroy Objective to disable it."
+ObjectiveDescription="Destroy Objective jej deaktivujete."
+; EN: Objective_Info_Attacker="Destroy Vehicle Objective"
+Objective_Info_Attacker="Cíl zničit vozidlo"
+; EN: Objective_Info_Defender="Protect Vehicle Objective"
+Objective_Info_Defender="Ochrana cíle vozidla"
+
+[GameObject_EnergyCore]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" upustilo Power Core!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Napájecí jádro vypadlo!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Power Core vyzvednuto!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" zvedl Power Core!"
+PlayerCoreReset="Power Core reset!"
+
+[HUD_Assault]
+IP_Bracket_Open="["
+IP_Bracket_Close="]"
+Cardinal_North="N"
+Cardinal_East="E"
+Cardinal_South="S"
+Cardinal_West="W"
+; EN: NoGameReplicationInfoString="Receiving Server State..."
+NoGameReplicationInfoString="Stav přijímacího serveru..."
+MetersString="m"
+; EN: TargetString="Target:"
+TargetString="Cílová:"
+; EN: NoTargetString="No Target"
+NoTargetString="Žádný cíl"
+; EN: PracticeRoundString="Practice Round"
+PracticeRoundString="Cvičební kolo"
+
+[InfoPod]
+; EN: POD_Message="-= info pod =-"
+POD_Message="-= informační modul =-"
+
+[Message_ASKillMessages]
+KillString[0]="Top Gun!"
+; EN: KillString[1]="Wrecker!"
+KillString[1]="Záškodník!"
+; EN: KillString[2]="Vehicle spawn blocking! 5 secs warning"
+KillString[2]="Blokování potěru vozidla! Upozornění 5 sekund"
+; EN: KillString[3]="Vehicle spawn blocking! 4 secs warning"
+KillString[3]="Blokování potěru vozidla! Upozornění 4 sekundy"
+; EN: KillString[4]="Vehicle spawn blocking! 3 secs warning"
+KillString[4]="Blokování potěru vozidla! Upozornění 3 sekundy"
+; EN: KillString[5]="Vehicle spawn blocking! 2 secs warning"
+KillString[5]="Blokování potěru vozidla! Upozornění 2 sekundy"
+; EN: KillString[6]="Vehicle spawn blocking! 1 sec warning"
+KillString[6]="Blokování potěru vozidla! 1s varování"
+; EN: KillString[7]="Leaving battle field!"
+KillString[7]="Opuštění bojiště!"
+
+[Message_AssaultTeamRole]
+; EN: Message_PostLogin_Attacker="You are Attacking!!"
+Message_PostLogin_Attacker="Útočíš!!"
+; EN: Message_PostLogin_Defender="You are Defending!!"
+Message_PostLogin_Defender="Ty se bráníš!!"
+
+[Message_Awards]
+; EN: Msg[0]="You have completed the Objective!"
+Msg[0]="Splnili jste cíl!"
+; EN: Msg[1]="completed the Objective!"
+Msg[1]="splnili cíl!"
+
+[ObjectiveProgressDisplay]
+; EN: HeaderText="Objectives"
+HeaderText="Cíle"
+OptionalObjectivePrefix="*"
+; EN: ObjTimesString="x"
+ObjTimesString="X"
+TextCutSuffix="..."
+SpaceSeparator=" "
+PrimaryObjectivePrefix="-"
+
+[ScoreBoard_Assault]
+; EN: RemainingRoundTime="Remaining round time:"
+RemainingRoundTime="Zbývající čas kola:"
+; EN: CurrentRound="Round:"
+CurrentRound="Kolo:"
+RoundSeparator="/"
+; EN: Defender="( Defender )"
+Defender="( obránce )"
+; EN: Attacker="( Attacker )"
+Attacker="(útočník)"
+; EN: WaitForReinforcements="   You were killed. Reinforcements in"
+WaitForReinforcements="   Byl jsi zabit. Posílení v"
+; EN: WaitingToSpawnReinforcements="Waiting for reinforcements..."
+WaitingToSpawnReinforcements="Čekání na posily..."
+; EN: AutoRespawn="Automatically respawning in..."
+AutoRespawn="Automaticky se obnoví v..."
+; EN: YouWonRound="You've won the round!"
+YouWonRound="Vyhráli jste kolo!"
+; EN: YouLostRound="You've lost the round."
+YouLostRound="Prohráli jste kolo."
+; EN: PracticeRoundOver="Practice round over."
+PracticeRoundOver="Cvičte dokola."
+
+[Trigger_ASMessageTrigger]
+; EN: Message="My Message"
+Message="Moje zpráva"
+
+[Weapon_Sentinel]
+; EN: ItemName="Sentinel weapon"
+ItemName="Strážná zbraň"
+
+[Weapon_Turret_Minigun]
+; EN: ItemName="Turret weapon"
+ItemName="Věžová zbraň"
+

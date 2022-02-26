@@ -1,0 +1,80 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Klassiske våpen i UT-stil og konfigurerbare bevegelsesevner (som veggunnvikelse).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Bytt ut Lightning Guns med klassisk snikskytterrifle.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Bytt ut snikskytterrifler med lyngevær.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="Snikskytterkuler"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Du plukket opp snikskytterammunisjon."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Denne snikskytterriflen med høy munningshastighet med et 10X-sikte er et dødelig våpen på alle avstander, spesielt hvis du kan lande et hodeskudd."
+; EN: ItemName="Sniper Rifle"
+ItemName="Skarpskytterrifle"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Du har snikskytterriflen."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k satte en kule i hodeskallen til %o."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o skjøt seg selv i hodet."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o skjøt seg selv i hodet."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="%k satte et hull i %o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o skjøt seg selv i foten."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o skjøt seg selv i foten."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Tillat dobbelthopping"
+; EN: WDString="Allow Wall Dodging"
+WDString="Tillat Wall Dodging"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Tillat Dodge Double Jumping"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Hvis aktivert, kan spillere doble hoppe på toppen av hopp."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Hvis aktivert, kan spillere unnslippe vegger."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Hvis aktivert, kan spillere doble hoppe på toppen av unnvikehopp."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Endre våpenskader"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Hvis aktivert, gjør våpen mer skade."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Endre Translocator"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Hvis den er aktivert, lades translokatoren opp raskere."
+FriendlyName="UT Classic"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Våpen og bevegelsesmuligheter i klassisk UT-stil."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Lynvåpen"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Bytt ut alle snikskytterrifler med lyngevær."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Snikskytterrifler"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Bytt ut alle lynvåpen med snikskytterrifler."
+

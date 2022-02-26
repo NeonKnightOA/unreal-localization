@@ -1,0 +1,78 @@
+[DamTypeIonTankBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="% o было ОБЯЗАНО% k"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="% o было ОБЯЗАТЕЛЬНО"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="% o было ОБЯЗАТЕЛЬНО"
+
+[DamTypeMASCannon]
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="% o был ИСПАРЕН% k!"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="% o был ИСПАРЕН!"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="% o был ИСПАРЕН!"
+
+[DamTypeMASPlasma]
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="Башня Левиафана% k плазманирована% o."
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="% o растратила себя зря."
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="% o потратил зря."
+
+[MutVehicleArena]
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="Автомобиль Арены"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="Определяет, какой тип техники будет использован в матче."
+; EN: FriendlyName="Vehicle Arena"
+FriendlyName="Транспортная арена"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="Заменить все машины на карте на определенный тип."
+
+[ONSBomber]
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="в DragonFly"
+VehicleNameString="DragonFly"
+
+[ONSGenericSD]
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="нездоровый"
+; EN: VehicleNameString="TC-1200"
+VehicleNameString="ТК-1200"
+
+[ONSHoverTank_IonPlasma]
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="в ионно-плазменном резервуаре"
+; EN: VehicleNameString="Ion Plasma Tank"
+VehicleNameString="Ионно-плазменный бак"
+
+[ONSMASSideGunPawn]
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="в башне Левиафана"
+; EN: VehicleNameString="Leviathan Turret"
+VehicleNameString="Левиафановая турель"
+
+[ONSMobileAssaultStation]
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="в Левиафане"
+; EN: VehicleNameString="Leviathan"
+VehicleNameString="Левиафан"
+
+[ONSPainter]
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="Target Painter, как и Ion Painter, стреляет безвредным маломощным лазером своим основным огнем. Однако, в отличие от Ion Painter, это оружие вызывает бомбардировщик, который запускает серию бомб в направлении, в котором смотрит пользователь, с центром на нарисованной цели. Бомбы легко испепелят цель и всех несчастных, оказавшихся поблизости."
+ItemName="Target Painter"
+
+[ONSPainterPickup]
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="У вас есть Target Painter."
+
+[ONSTankSecondaryTurretPawn_IonPlasma]
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="в башне ионного танка"
+; EN: VehicleNameString="Ion Tank Minigun Turret"
+VehicleNameString="Ионный танк-миниган-турель"
+

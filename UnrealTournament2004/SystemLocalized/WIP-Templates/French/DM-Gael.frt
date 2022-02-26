@@ -1,9 +1,12 @@
 [LevelInfo0]
-Title="Gael"
+; EN: Title="Gael"
+Title="Gaël"
 
 [LevelSummary]
-Title="Gael"
+; EN: Title="Gael"
+Title="Gaël"
 
 [PhysicsVolume0]
-LocationName="The Pit"
+; EN: LocationName="The Pit"
+LocationName="La fosse"
 

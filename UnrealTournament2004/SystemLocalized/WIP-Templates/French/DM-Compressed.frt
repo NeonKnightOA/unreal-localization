@@ -1,54 +1,72 @@
 [LevelInfo0]
-Title="Compressed"
+; EN: Title="Compressed"
+Title="Comprimé"
 
 [LevelSummary]
-Title="Compressed"
+; EN: Title="Compressed"
+Title="Comprimé"
 
 [ZoneInfo0]
-LocationName="Top Hall"
+; EN: LocationName="Top Hall"
+LocationName="Salle du haut"
 
 [ZoneInfo11]
-LocationName="Flak Hall"
+; EN: LocationName="Flak Hall"
+LocationName="Salle de Flak"
 
 [ZoneInfo12]
-LocationName="Flak Hall"
+; EN: LocationName="Flak Hall"
+LocationName="Salle de Flak"
 
 [ZoneInfo13]
-LocationName="Link Hall"
+; EN: LocationName="Link Hall"
+LocationName="Lien Hall"
 
 [ZoneInfo14]
-LocationName="Link Hall"
+; EN: LocationName="Link Hall"
+LocationName="Lien Hall"
 
 [ZoneInfo16]
-LocationName="Lower Shield hall"
+; EN: LocationName="Lower Shield hall"
+LocationName="Salle du Bouclier inférieur"
 
 [ZoneInfo17]
-LocationName="Lower Shield hall"
+; EN: LocationName="Lower Shield hall"
+LocationName="Salle du Bouclier inférieur"
 
 [ZoneInfo19]
-LocationName="Top Hall"
+; EN: LocationName="Top Hall"
+LocationName="Salle du haut"
 
 [ZoneInfo2]
-LocationName="Left Annex"
+; EN: LocationName="Left Annex"
+LocationName="Annexe de gauche"
 
 [ZoneInfo20]
-LocationName="Flak elevator"
+; EN: LocationName="Flak elevator"
+LocationName="Élévateur Flak"
 
 [ZoneInfo3]
-LocationName="Top Hall"
+; EN: LocationName="Top Hall"
+LocationName="Salle du haut"
 
 [ZoneInfo4]
-LocationName="Top Hall"
+; EN: LocationName="Top Hall"
+LocationName="Salle du haut"
 
 [ZoneInfo5]
-LocationName="Top Hall"
+; EN: LocationName="Top Hall"
+LocationName="Salle du haut"
 
 [ZoneInfo6]
-LocationName="Lower Shield hall"
+; EN: LocationName="Lower Shield hall"
+LocationName="Salle du Bouclier inférieur"
 
 [ZoneInfo7]
-LocationName="Top Hall"
+; EN: LocationName="Top Hall"
+LocationName="Salle du haut"
 
 [ZoneInfo9]
-LocationName="Right Annex"
+; EN: LocationName="Right Annex"
+LocationName="Annexe de droite"
 

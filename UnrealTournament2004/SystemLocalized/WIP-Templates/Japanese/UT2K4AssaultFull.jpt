@@ -1,0 +1,86 @@
+[ASTurret_IonCannon]
+; EN: VehiclePositionString="manning an Ion Cannon"
+VehiclePositionString="イオンキャノンの配置"
+; EN: VehicleNameString="Ion Cannon"
+VehicleNameString="イオンキャノン"
+
+[ASTurret_LinkTurret]
+; EN: VehiclePositionString="manning a Link Turret"
+VehiclePositionString="リンクタレットの配置"
+; EN: VehicleNameString="Link Turret"
+VehicleNameString="リンクタレット"
+
+[ASVehicle_SpaceFighter_Human]
+; EN: VehiclePositionString="in a spacefighter"
+VehiclePositionString="宇宙戦闘機で"
+; EN: VehicleNameString="Human Spacefighter"
+VehicleNameString="人間の宇宙戦闘機"
+
+[ASVehicle_SpaceFighter_Skaarj]
+; EN: VehicleNameString="Skaarj Spacefighter"
+VehicleNameString="スカージ宇宙戦闘機"
+
+[DamTypeBallTurretPlasma]
+; EN: DeathString="%o was served an extra helping of %k's plasma."
+DeathString="％oには、％kのプラズマの追加の支援が提供されました。"
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="％oは自分のプラズマブラストで揚げました。"
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="％oは彼自身のプラズマ爆風で自分自身を揚げました。"
+
+[DamTypeIonCannonBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="％oは％kによってOBLITERATEDされました"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="％oはOBLITERATEDでした"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="％oはOBLITERATEDでした"
+
+[DamTypeLinkTurretBeam]
+; EN: DeathString="%o was carved up by %k's green shaft."
+DeathString="％oは％kの緑色のシャフトによって切り分けられました。"
+; EN: FemaleSuicide="%o shafted herself."
+FemaleSuicide="％oは自分自身をシャフトしました。"
+; EN: MaleSuicide="%o shafted himself."
+MaleSuicide="％oは自分自身をシャフトしました。"
+
+[DamTypeLinkTurretPlasma]
+; EN: DeathString="%o was served an extra helping of %k's plasma."
+DeathString="％oには、％kのプラズマの追加の支援が提供されました。"
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="％oは自分のプラズマブラストで揚げました。"
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="％oは彼自身のプラズマ爆風で自分自身を揚げました。"
+
+[DamTypeSpaceFighterLaser]
+; EN: DeathString="%o was served an extra helping of %k's lasers."
+DeathString="％oは、％kのレーザーの追加の支援を受けました。"
+; EN: FemaleSuicide="%o fried herself with her own laser blast."
+FemaleSuicide="％oは自分のレーザーブラストで揚げました。"
+; EN: MaleSuicide="%o fried himself with his own laser blast."
+MaleSuicide="％oは彼自身のレーザーブラストで自分自身を揚げました。"
+
+[DamTypeSpaceFighterMissile]
+; EN: DeathString="%o couldn't avoid %k's missile."
+DeathString="％oは％kのミサイルを避けられませんでした。"
+; EN: FemaleSuicide="%o blasted herself out of space."
+FemaleSuicide="％oは宇宙から飛び出しました。"
+; EN: MaleSuicide="%o blasted himself out of space."
+MaleSuicide="％oは宇宙から飛び出しました。"
+
+[Weapon_LinkTurret]
+; EN: ItemName="Turret weapon"
+ItemName="砲塔の武器"
+
+[Weapon_SpaceFighter]
+; EN: ItemName="SpaceFighter weapon"
+ItemName="SpaceFighterの武器"
+
+[Weapon_Turret]
+; EN: ItemName="Turret weapon"
+ItemName="砲塔の武器"
+
+[Weapon_Turret_IonCannon]
+; EN: ItemName="Ion Cannon Turret weapon"
+ItemName="イオンキャノンタレット武器"
+

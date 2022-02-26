@@ -1,0 +1,39 @@
+﻿[LevelInfo0]
+; EN: Title="First Intermission"
+Title="最初の休憩"
+
+[LevelSummary]
+; EN: Title="First Intermission"
+Title="最初の休憩"
+
+[TransitionGenderEvent0]
+OutDelays[1]=5.00000
+OutDelays[2]=10.000000
+OutDelays[3]=17.000000
+OutDelays[4]=15.000000
+OutDelays[5]=13.000000
+OutDelays[6]=9.000000
+; EN: MaleText[0]="A day after my so-called rescue, and I'm going back to the surface of the planet."
+MaleText[0]="いわゆる救助の翌日、私は惑星の表面に戻ります。"
+; EN: MaleText[1]="They've promised me a full pardon and transit back to Earth in exchange for my help. The alternative was a trip out the airlock without a suit. I agreed to take the mission."
+MaleText[1]="彼らは私に完全な許しを約束し、私の助けと引き換えに地球に戻ることを約束しました。代替案は、スーツなしでエアロックから出て行くことでした。私は任務を引き受けることに同意しました。"
+; EN: MaleText[2]="My job is to find the wreck of another ship, the Prometheus, and recover the data cores of some new secret weapons research project. When I've got the cores, I'm supposed to go to the bridge of the crashed ship and activate the ELT transmitter - the ELT will pinpoint my location for pick-up."
+MaleText[2]="私の仕事は、別の船、プロメテウスの難破船を見つけて、いくつかの新しい秘密兵器研究プロジェクトのデータコアを回復することです。コアを入手したら、墜落した船の橋に行き、ELT送信機をアクティブにすることになっています-ELTはピックアップのために私の場所を正確に特定します。"
+; EN: MaleText[3]="They need me because they don't know exactly where the Prometheus went down... apparently the Tarydium in the planet below is wreaking havoc with their scanners. They figure I learned a thing or two during my last romp on the surface. If anyone can find their missing ship, I can."
+MaleText[3]="彼らはプロメテウスがどこに落ちたのか正確にはわからないので私を必要としています...どうやら下の惑星のタリジウムは彼らのスキャナーで大混乱を引き起こしています。彼らは、私が最後に水面に出たときに1つか2つのことを学んだと考えています。誰かが行方不明の船を見つけることができれば、私は見つけることができます。"
+; EN: MaleText[4]="I'm a little better prepared than last time... they've given me a military-issue combat assault rifle, a new portable scuba unit for under water, and this computer log. They've also made logistics drops of ammo, weapons, and other supplies."
+MaleText[4]="前回よりも少し準備が整っています...彼らは私に軍事問題の戦闘アサルトライフル、水中用の新しいポータブルスキューバユニット、そしてこのコンピューターログをくれました。彼らはまた、弾薬、武器、およびその他の物資の兵站ドロップを作成しました。"
+; EN: MaleText[5]="So... I did it before, and I'll do it again - but it won't be easy. They call this a salvage mission. I call it a return to hell."
+MaleText[5]="だから...私は前にそれをしました、そして私はそれをもう一度やります-しかしそれは簡単ではありません。彼らはこれをサルベージミッションと呼んでいます。私はそれを地獄への回帰と呼んでいます。"
+; EN: FemaleText[0]="A day after my so-called rescue, and I'm going back to the surface of the planet."
+FemaleText[0]="いわゆる救助の翌日、私は惑星の表面に戻ります。"
+; EN: FemaleText[1]="They've promised me a full pardon and transit back to Earth in exchange for my help. The alternative was a trip out the airlock without a suit. I agreed to take the mission."
+FemaleText[1]="彼らは私に完全な許しを約束し、私の助けと引き換えに地球に戻ることを約束しました。代替案は、スーツなしでエアロックから出て行くことでした。私は任務を引き受けることに同意しました。"
+; EN: FemaleText[2]="My job is to find the wreck of another ship, the Prometheus, and recover the data cores of some new secret weapons research project. When I've got the cores, I'm supposed to go to the bridge of the crashed ship and activate the ELT transmitter - the ELT will pinpoint my location for pick-up."
+FemaleText[2]="私の仕事は、別の船、プロメテウスの難破船を見つけて、いくつかの新しい秘密兵器研究プロジェクトのデータコアを回復することです。コアを入手したら、墜落した船の橋に行き、ELT送信機をアクティブにすることになっています-ELTはピックアップのために私の場所を正確に特定します。"
+; EN: FemaleText[3]="They need me because they don't know exactly where the Prometheus went down... apparently the Tarydium in the planet below is wreaking havoc with their scanners. They figure I learned a thing or two during my last romp on the surface. If anyone can find their missing ship, I can."
+FemaleText[3]="彼らはプロメテウスがどこに落ちたのか正確にはわからないので私を必要としています...どうやら下の惑星のタリジウムは彼らのスキャナーで大混乱を引き起こしています。彼らは、私が最後に水面に出たときに1つか2つのことを学んだと考えています。誰かが行方不明の船を見つけることができれば、私は見つけることができます。"
+; EN: FemaleText[4]="I'm a little better prepared than last time... they've given me a military-issue combat assault rifle, a new portable scuba unit for under water, and this computer log. They've also made logistics drops of ammo, weapons, and other supplies."
+FemaleText[4]="前回よりも少し準備が整っています...彼らは私に軍事問題の戦闘アサルトライフル、水中用の新しいポータブルスキューバユニット、そしてこのコンピューターログをくれました。彼らはまた、弾薬、武器、およびその他の物資の兵站ドロップを作成しました。"
+; EN: FemaleText[5]="So... I did it before, and I'll do it again - but it won't be easy. They call this a salvage mission. I call it a return to hell."
+FemaleText[5]="だから...私は前にそれをしました、そして私はそれをもう一度やります-しかしそれは簡単ではありません。彼らはこれをサルベージミッションと呼んでいます。私はそれを地獄への回帰と呼んでいます。"

@@ -1,0 +1,438 @@
+[ACTION_DamageActor]
+; EN: ActionString="Damage actor"
+ActionString="Actor de danys"
+
+[ACTION_DestroyActor]
+; EN: ActionString="Destroy actor"
+ActionString="Destrueix l'actor"
+
+[ACTION_FinishRotation]
+; EN: ActionString="Finish rotation"
+ActionString="Acabar la rotació"
+
+[ACTION_FireWeapon]
+; EN: ActionString="fire weapon"
+ActionString="arma de foc"
+
+[ACTION_FireWeaponAt]
+; EN: ActionString="fire weapon"
+ActionString="arma de foc"
+
+[ACTION_Freeze]
+; EN: ActionString="Freeze"
+ActionString="Congelar"
+
+[ACTION_HealActor]
+; EN: ActionString="Heal actor"
+ActionString="Cura l'actor"
+
+[ACTION_Jump]
+; EN: ActionString="Jump"
+ActionString="Saltar"
+
+[ACTION_LocalizedMessage]
+; EN: ActionString="Localized Message"
+ActionString="Missatge localitzat"
+
+[ACTION_PlayLIPSinc]
+; EN: ActionString="Play LIPSinc"
+ActionString="Juga a LIPSinc"
+
+[ACTION_SetPhysics]
+; EN: ActionString="change physics to "
+ActionString="canviar la física a "
+
+[ACTION_ShootTarget]
+; EN: ActionString="shoot target"
+ActionString="disparar al blanc"
+
+[ACTION_SpawnActor]
+; EN: ActionString="Spawn actor"
+ActionString="Actor de generació"
+
+[ACTION_SubTitles]
+; EN: ActionString="SubTitles"
+ActionString="Subtítols"
+
+[ACTION_ThrowWeapon]
+; EN: ActionString="throw weapon"
+ActionString="arma de llançament"
+
+[ACTION_WaitForLIPSincAnimEnd]
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="Espereu a LIPSincAnimEnd"
+
+[ActionMessage_BR]
+; EN: Messages[0]="Bombing Run"
+Messages[0]="Carrera de bombardeig"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="La pilota està al centre"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="Toca la pilota per recollir-la"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="El portador de la pilota no pot atacar"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="El foc primari dispara la pilota"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="El foc alternatiu apunta als companys d'equip"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="Passar la pilota als companys"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="Cada equip té un objectiu rodó"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="Llançar la pilota = 3 punts"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="Portar-lo = 7 punts"
+; EN: Messages[10]="Good luck!"
+Messages[10]="Bona sort!"
+
+[ActionMessage_CTF]
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="Captura la bandera"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="Dues bases: vermella i blava"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="Toca la bandera enemiga per agafar-la"
+; EN: Messages[3]="Return to your base"
+Messages[3]="Torna a la teva base"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="Toca la teva bandera per marcar"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="La translocació deixarà caure la bandera"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="El límit de captura predeterminat és 3"
+; EN: Messages[7]="Good luck!"
+Messages[7]="Bona sort!"
+
+[ActionMessage_DM]
+; EN: Messages[0]="Deathmatch"
+Messages[0]="Combat a mort"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="Premeu foc per generar"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="Les armes tenen dos modes de tir"
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="Foc regular i altern"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="Rifle d'assalt"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="Dispara bales i granades"
+; EN: Messages[6]="Shield Gun"
+Messages[6]="Escut de pistola"
+; EN: Messages[7]="Melee attack"
+Messages[7]="Atac cos a cos"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="Escut protector"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="Explora per trobar altres armes"
+Messages[10]="Flak Cannon"
+Messages[11]="Bio-Rifle"
+Messages[12]="Minigun"
+; EN: Messages[13]="Movement"
+Messages[13]="Moviment"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD = Tecles de moviment per defecte"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="Toca dues vegades una tecla per esquivar"
+; EN: Messages[16]="Jumping"
+Messages[16]="Saltant"
+; EN: Messages[17]="Double jump"
+Messages[17]="Doble salt"
+; EN: Messages[18]="Powerups"
+Messages[18]="Potències"
+; EN: Messages[19]="Health vials"
+Messages[19]="Vials de salut"
+; EN: Messages[20]="Health pack"
+Messages[20]="Paquet de salut"
+Messages[21]="Big Keg O' Health"
+; EN: Messages[22]="Armor"
+Messages[22]="Armadura"
+; EN: Messages[23]="Shield Pack"
+Messages[23]="Pack d'escuts"
+; EN: Messages[24]="Super Shield Pack"
+Messages[24]="Paquet Super Shield"
+; EN: Messages[25]="Adrenaline"
+Messages[25]="Adrenalina"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="L'adrenalina es pot utilitzar per a combos"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="Amplificador de danys"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="Arribeu primer al límit de fragància!"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="Els suïcidis compten contra tu"
+; EN: Messages[30]="Good luck!"
+Messages[30]="Bona sort!"
+
+[ActionMessage_DOM]
+; EN: Messages[0]="Double Domination"
+Messages[0]="Doble dominació"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="Punts de control: A i B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="Manteniu els punts durant 10 segons"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="Punt de contacte per prendre el control"
+; EN: Messages[4]="Good luck!"
+Messages[4]="Bona sort!"
+
+[ActionMessage_SubTitle]
+Delays[0]=4.000000
+Delays[1]=4.000000
+Delays[2]=8.000000
+Delays[3]=8.000000
+Delays[4]=8.000000
+Delays[5]=8.000000
+Delays[6]=8.000000
+Delays[7]=8.000000
+Delays[8]=8.000000
+Delays[9]=8.000000
+Delays[10]=8.000000
+Delays[11]=8.000000
+Delays[12]=8.000000
+Delays[13]=8.000000
+Delays[14]=8.000000
+Delays[15]=8.000000
+Delays[16]=8.000000
+Delays[17]=8.000000
+Delays[18]=8.000000
+Delays[19]=8.000000
+Delays[20]=8.000000
+Delays[21]=8.000000
+Delays[22]=0.000000
+Delays[23]=0.000000
+Delays[24]=0.000000
+Delays[25]=0.000000
+Delays[26]=0.000000
+Delays[27]=0.000000
+Delays[28]=0.000000
+Delays[29]=0.000000
+Delays[30]=0.000000
+Delays[31]=0.000000
+; EN: Messages[0]="How do I look?"
+Messages[0]="Com em veig?"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="No tan bo com jo, nena..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="Doncs fans aquí estem per una altra edició de l'esport més sagnant de la Galàxia. Un torneig on els guanyadors esdevenen déus i els perdedors paguen el preu definitiu!"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="ALLÍ SON! Abans eren rivals, però ara són un dels equips més ferotges del món."
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="Això és correcte. No hi ha res millor que l'experiència i cadascun d'aquests tres en porta molt sobre la taula."
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="Mira en Malcolm! Ara hi ha un noi que realment pot mantenir la calma en una baralla de foc."
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="Aquell Brock. És tan perillós per a les dones fora de l'anell com per als seus enemics a l'interior!"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="M'encanta veure Lauren. Ella és tan petita... munt d'energia."
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="Sí, oi... t'agrada veure la Lauren per la seva energia."
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="Aquesta vegada és MEU!!"
+Messages[10]="AAGGGHHHHRRRR"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="You d'man Gorge! Tu rock! Sí, nena, va, ara, noi!"
+Messages[12]="MAAAALLLCOOOOOMMM!"
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="Oh, home, ho has vist?"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="Us dic Jim, que Gorge, simplement no té cap respecte pels seus fans."
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="Bé, crec que encara està enfadat per aquesta nova cicatriu a la cara, cortesia de Malcolm en el seu darrer partit."
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="Sí, crec que està buscant una mica d'amortització."
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="Sí, hauria de ser bona aquesta nit."
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="Com que l'equip de Malcolm és el campió vigent, poden triar l'arena d'aquesta nit."
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="Sembla que serà... Camps de gel de Kalendra."
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="Awww Sí, m'encanta aquesta arena, en Malcolm ho fa molt bé aquí."
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="El partit d'aquesta nit hauria de ser un autèntic bany de sang."
+
+[Action_CHANGELEVEL]
+; EN: ActionString="Change level"
+ActionString="Canvia de nivell"
+
+[Action_CHANGESCRIPT]
+; EN: ActionString="Change script"
+ActionString="Canvia el guió"
+
+[Action_CHANGETEAM]
+; EN: ActionString="Change Team"
+ActionString="Canviar equip"
+
+[Action_CROUCH]
+; EN: ActionString="crouch"
+ActionString="ajupir-se"
+
+[Action_ConsoleCommand]
+; EN: ActionString="console command"
+ActionString="comanda de la consola"
+
+[Action_DAMAGEINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Instigador de danys"
+
+[Action_DESTROYPAWN]
+; EN: ActionString="destroy pawn"
+ActionString="destruir peó"
+
+[Action_DISPLAYMESSAGE]
+; EN: ActionString="display message"
+ActionString="missatge de visualització"
+
+[Action_DrawHUDMaterial]
+; EN: ActionString="draw HUD texture"
+ActionString="dibuixa la textura HUD"
+
+[Action_ENDSECTION]
+; EN: ActionString="end section"
+ActionString="secció final"
+
+[Action_FADEVIEW]
+; EN: ActionString="fade view"
+ActionString="vista esvaïda"
+
+[Action_GOTOACTION]
+; EN: ActionString="go to action"
+ActionString="passar a l'acció"
+
+[Action_IFCONDITION]
+; EN: ActionString="If condition"
+ActionString="Si condició"
+
+[Action_KILLINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Instigador de danys"
+
+[Action_LEAVESEQUENCE]
+; EN: ActionString="leave sequence"
+ActionString="deixar la seqüència"
+
+[Action_MOVETOPLAYER]
+; EN: ActionString="Move to player"
+ActionString="Mou al jugador"
+
+[Action_MOVETOPOINT]
+; EN: ActionString="Move to point"
+ActionString="Mou-te al punt"
+
+[Action_PLAYAMBIENTSOUND]
+; EN: ActionString="play ambient sound"
+ActionString="reproduir so ambiental"
+
+[Action_PLAYANIM]
+; EN: ActionString="play animation"
+ActionString="jugar animació"
+
+[Action_PLAYANNOUNCEMENT]
+; EN: ActionString="play announcement"
+ActionString="anunci de joc"
+
+[Action_PLAYLOCALSOUND]
+; EN: ActionString="play sound"
+ActionString="reproduir so"
+
+[Action_PLAYMUSIC]
+; EN: ActionString="play song"
+ActionString="tocar la cançó"
+
+[Action_PLAYSOUND]
+; EN: ActionString="play sound"
+ActionString="reproduir so"
+
+[Action_RUN]
+; EN: ActionString="Run"
+ActionString="Correr"
+
+[Action_SETALERTNESS]
+; EN: ActionString="set alertness"
+ActionString="establir alerta"
+
+[Action_SETVIEWTARGET]
+; EN: ActionString="set viewtarget"
+ActionString="establir l'objectiu de visualització"
+
+[Action_STOPANIMATION]
+; EN: ActionString="stop animation"
+ActionString="aturar l'animació"
+
+[Action_TRIGGEREVENT]
+; EN: ActionString="trigger event"
+ActionString="esdeveniment desencadenant"
+
+[Action_TURNTOWARDPLAYER]
+; EN: ActionString="Turn toward player"
+ActionString="Gireu cap al jugador"
+
+[Action_WAITFORANIMEND]
+; EN: ActionString="Wait for animend"
+ActionString="Espereu animend"
+
+[Action_WAITFOREVENT]
+; EN: ActionString="Wait for external event"
+ActionString="Espereu l'esdeveniment extern"
+
+[Action_WAITFORPLAYER]
+; EN: ActionString="Wait for player"
+ActionString="Espereu el jugador"
+
+[Action_WAITFORTIMER]
+; EN: ActionString="Wait for timer"
+ActionString="Espereu el temporitzador"
+
+[Action_WALK]
+; EN: ActionString="walk"
+ActionString="caminar"
+
+[Burned]
+; EN: DeathString="%o was sauteed."
+DeathString="%o es va saltejar."
+
+[Corroded]
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="%o es va dissoldre per %k."
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="%o dissolt en llim."
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="%o dissolt en llim."
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Només falta %i..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Completat!"
+
+[Depressurized]
+; EN: DeathString="%o was depressurized by %k."
+DeathString="%o es va despresuritzar per %k."
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="%o es va despresuritzar."
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="%o es va despresuritzar."
+
+[Drowned]
+; EN: DeathString="%o forgot to come up for air."
+DeathString="%o s'ha oblidat de pujar per aire."
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="%o s'ha oblidat de pujar per aire."
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="%o s'ha oblidat de pujar per aire."
+
+[MessageTextureClient]
+; EN: HisMessage="his"
+HisMessage="seva"
+; EN: HerMessage="her"
+HerMessage="ella"
+
+[ScriptedAction]
+; EN: ActionString="unspecified action"
+ActionString="acció no especificada"
+
+[WaterVolume]
+; EN: LocationName="under water"
+LocationName="sota l'aigua"
+

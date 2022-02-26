@@ -3,35 +3,46 @@ Title="Canyon"
 
 [LevelSummary]
 Title="Canyon"
-Description="Vicious, bloody combat and the great outdoors - who could ask for more?  This small arena is divided by a fast moving, deadly river.  Swimming is NOT recommended."
+; EN: Description="Vicious, bloody combat and the great outdoors - who could ask for more?  This small arena is divided by a fast moving, deadly river.  Swimming is NOT recommended."
+Description="Des combats vicieux et sanglants et les grands espaces - qui pourrait demander plus ? Cette petite arène est divisée par une rivière mortelle en mouvement rapide. La baignade n'est PAS recommandée."
 
 [Volume1]
-LocationName="Blue Sniper Roost"
+; EN: LocationName="Blue Sniper Roost"
+LocationName="Perchoir de tireur d'élite bleu"
 
 [Volume2]
-LocationName="Blue Bomb Goal"
+; EN: LocationName="Blue Bomb Goal"
+LocationName="But de la bombe bleue"
 
 [Volume3]
-LocationName="Blue South Spawn Pool"
+; EN: LocationName="Blue South Spawn Pool"
+LocationName="Bassin de frai bleu du sud"
 
 [Volume4]
-LocationName="Blue North Spawn Pool"
+; EN: LocationName="Blue North Spawn Pool"
+LocationName="Piscine Blue North Spawn"
 
 [Volume6]
-LocationName="Red Sniper Roost"
+; EN: LocationName="Red Sniper Roost"
+LocationName="Perchoir de tireur d'élite rouge"
 
 [Volume7]
-LocationName="Red North Spawn Pool"
+; EN: LocationName="Red North Spawn Pool"
+LocationName="Bassin de frai du nord rouge"
 
 [Volume8]
-LocationName="Red South Spawn Pool"
+; EN: LocationName="Red South Spawn Pool"
+LocationName="Bassin d'apparition du sud rouge"
 
 [Volume9]
-LocationName="Red Bomb Goal"
+; EN: LocationName="Red Bomb Goal"
+LocationName="But de la bombe rouge"
 
 [WaterVolume0]
-LocationName="With the Fishes"
+; EN: LocationName="With the Fishes"
+LocationName="avec les poissons"
 
 [ZoneInfo1]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 

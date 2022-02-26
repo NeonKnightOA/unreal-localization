@@ -1,28 +1,38 @@
 [LevelInfo0]
-Title="Colossus"
+; EN: Title="Colossus"
+Title="Colosse"
 
 [LevelSummary]
-Title="Colossus"
-Description="Whether attacking by ground or through the air via boost tunnels, expect heavy resistance as your opponents take advantage of terrain and technology to block your path.  Maps will be available for those with poor navigational skills."
+; EN: Title="Colossus"
+Title="Colosse"
+; EN: Description="Whether attacking by ground or through the air via boost tunnels, expect heavy resistance as your opponents take advantage of terrain and technology to block your path.  Maps will be available for those with poor navigational skills."
+Description="Que vous attaquiez au sol ou dans les airs via des tunnels de boost, attendez-vous à une forte résistance alors que vos adversaires profitent du terrain et de la technologie pour bloquer votre chemin. Des cartes seront disponibles pour ceux qui ont de faibles compétences en navigation."
 
 [Volume0]
-LocationName="Blue Rear Base"
+; EN: LocationName="Blue Rear Base"
+LocationName="Base arrière bleue"
 
 [Volume1]
-LocationName="Blue Forward Base"
+; EN: LocationName="Blue Forward Base"
+LocationName="Base avancée bleue"
 
 [Volume2]
-LocationName="Neutral Zone"
+; EN: LocationName="Neutral Zone"
+LocationName="Zone neutre"
 
 [Volume3]
-LocationName="Red Forward Base"
+; EN: LocationName="Red Forward Base"
+LocationName="Base avancée rouge"
 
 [Volume4]
-LocationName="Red Rear Base"
+; EN: LocationName="Red Rear Base"
+LocationName="Base arrière rouge"
 
 [ZoneInfo1]
-LocationName="Red Bunker"
+; EN: LocationName="Red Bunker"
+LocationName="Bunker rouge"
 
 [ZoneInfo2]
-LocationName="Blue Bunker"
+; EN: LocationName="Blue Bunker"
+LocationName="Bunker bleu"
 

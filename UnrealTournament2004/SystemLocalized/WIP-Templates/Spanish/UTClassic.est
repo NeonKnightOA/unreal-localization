@@ -1,51 +1,81 @@
 [Public]
-;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
-;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
-;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Armas clásicas de estilo UT y habilidades de movimiento configurables (como esquivar paredes).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Reemplaza Lightning Guns con un rifle de francotirador clásico.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Reemplace los rifles de francotirador con pistolas relámpago.")
 ;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
 
 [ClassicSniperAmmo]
-ItemName="Sniper Bullets"
+; EN: ItemName="Sniper Bullets"
+ItemName="Balas de francotirador"
 
 [ClassicSniperAmmoPickup]
-PickupMessage="You picked up sniper ammo."
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Recogiste munición de francotirador."
 
 [ClassicSniperRifle]
-Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
-ItemName="Sniper Rifle"
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Este rifle de francotirador de alta velocidad de boca con un alcance de 10X es un arma letal en cualquier rango, especialmente si puedes disparar en la cabeza."
+; EN: ItemName="Sniper Rifle"
+ItemName="Rifle de francotirador"
 
 [ClassicSniperRiflePickup]
-PickupMessage="You got the Sniper Rifle."
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Tienes el rifle de francotirador."
 
 [DamTypeClassicHeadshot]
-DeathString="%k put a bullet in %o's skull."
-FemaleSuicide="%o shot herself in the head."
-MaleSuicide="%o shot himself in the head."
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="% k puso una bala en el cráneo de% o."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="% o se pegó un tiro en la cabeza."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="% o se pegó un tiro en la cabeza."
 
 [DamTypeClassicSniper]
-DeathString="%k put a hole in %o"
-FemaleSuicide="%o shot herself in the foot."
-MaleSuicide="%o shot himself in the foot."
+; EN: DeathString="%k put a hole in %o"
+DeathString="% k puso un agujero en% o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="% o se disparó en el pie."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="% o se disparó en el pie."
 
 [MutUTClassic]
-DJString="Allow Double Jumping"
-WDString="Allow Wall Dodging"
-DDJString="Allow Dodge Double Jumping"
-DJHelp="If enabled, players can double jump at the peak of jumps."
-WDHelp="If enabled, players can dodge off walls."
-DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
-WeapString="Modify Weapon Damage"
-WeapHelp="If enabled, weapons do more damage."
-TranslocString="Modify Translocator"
-TranslocHelp="If enabled, translocator recharges faster."
-FriendlyName="UT Classic"
-Description="Classic UT style weapons and movement options."
+; EN: DJString="Allow Double Jumping"
+DJString="Permitir doble salto"
+; EN: WDString="Allow Wall Dodging"
+WDString="Permitir esquivar la pared"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Permitir esquivar doble salto"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Si está habilitado, los jugadores pueden hacer doble salto en la cima de los saltos."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Si está habilitado, los jugadores pueden esquivar las paredes."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Si está habilitado, los jugadores pueden hacer doble salto en la cima de los saltos de esquiva."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Modificar daño de arma"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Si está habilitado, las armas hacen más daño."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Modificar translocador"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Si está habilitado, el translocador se recarga más rápido."
+; EN: FriendlyName="UT Classic"
+FriendlyName="UT clásico"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Armas clásicas de estilo UT y opciones de movimiento."
 
 [MutUseLightning]
-FriendlyName="Lightning Guns"
-Description="Replace all sniper rifles with lightning guns."
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Pistolas relámpago"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Reemplaza todos los rifles de francotirador con pistolas relámpago."
 
 [MutUseSniper]
-FriendlyName="Sniper Rifles"
-Description="Replace all lightning guns with sniper rifles."
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Rifles de francotirador"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Reemplaza todas las armas de rayos con rifles de francotirador."
 

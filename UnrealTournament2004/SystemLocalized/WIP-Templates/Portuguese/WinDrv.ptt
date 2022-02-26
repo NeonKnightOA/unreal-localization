@@ -1,0 +1,34 @@
+[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
+; EN: Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="janelas",Parent="Exibição",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="janelas",Parent="Controle de video game",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3d hardware initialization failed"
+Failed3D="A inicialização do hardware 3D falhou"
+; EN: DDrawMode="DirectDraw was unable to set the requested video mode"
+DDrawMode="DirectDraw não foi capaz de definir o modo de vídeo solicitado"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Mapa de perspectiva"
+; EN: ViewXY="Overhead map"
+ViewXY="Mapa aéreo"
+; EN: ViewXZ="XZ map"
+ViewXZ="Mapa XZ"
+; EN: ViewYZ="YZ map"
+ViewYZ="Mapa YZ"
+; EN: ViewOther="Viewport"
+ViewOther="Janela de exibição"
+; EN: Color16="&16-bit color"
+Color16="E cor de 16 bits"
+; EN: Color32="&32-bit color"
+Color32="E cor de 32 bits"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Opções avançadas"
+
+[WindowsClient]
+; EN: ClassCaption="Standard Windows Manager"
+ClassCaption="Gerenciador padrão do Windows"

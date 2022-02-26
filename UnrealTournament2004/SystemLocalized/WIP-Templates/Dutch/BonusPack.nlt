@@ -1,0 +1,147 @@
+[Public]
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Last Man Standing|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Adds the Camouflage combo (RRRR).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Voegt de Camouflage-combo (RRRR) toe.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Adds the Pint-sized combo (LLLL).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Voegt de Pint-sized combo (LLLL) toe.")
+
+[ComboCrate]
+; EN: ExecMessage="Camouflaged!"
+ExecMessage="Gecamoufleerd!"
+
+[ComboMiniMe]
+; EN: ExecMessage="Pint-sized!"
+ExecMessage="Pint-formaat!"
+
+[DamTypeMutant]
+; EN: DeathString="%o suffered a fatal mutation!"
+DeathString="%o leed aan een fatale mutatie!"
+; EN: FemaleSuicide="%o suffered a fatal mutation!"
+FemaleSuicide="%o leed aan een fatale mutatie!"
+; EN: MaleSuicide="%o suffered a fatal mutation!"
+MaleSuicide="%o leed aan een fatale mutatie!"
+
+[HudLMS]
+; EN: LivesRemainingString="Lives Remaining"
+LivesRemainingString="Resterende levens"
+; EN: PlayersRemainString="Players Remain -- "
+PlayersRemainString="Spelers blijven -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+; EN: BottomFeederText="BOTTOM FEEDER"
+BottomFeederText="ONDERVOER"
+
+[LMSMessage]
+; EN: YouAreCamperMessage="You Are Camping!"
+YouAreCamperMessage="Je bent aan het kamperen!"
+SomeoneIsCamperMessage=" "
+; EN: SomeoneIsCamperMessageTrailer="Is Camping!"
+SomeoneIsCamperMessageTrailer="Is kamperen!"
+
+[MutCrateCombo]
+CamoDisplayText="Camouflage Combo"
+; EN: MiniDisplayText="Pint-sized Combo"
+MiniDisplayText="Combinatie in pintformaat"
+; EN: CamoDescText="When enabled, this adrenaline combo covers you with a holographic projection of a rock or a part of a building"
+CamoDescText="Indien ingeschakeld, bedekt deze adrenalinecombo je met een holografische projectie van een rots of een deel van een gebouw"
+; EN: MiniDescText="When enabled, this adrenaline combo makes you smaller"
+MiniDescText="Indien ingeschakeld, maakt deze adrenalinecombo je kleiner"
+; EN: FriendlyName="Bonus Combos"
+FriendlyName="Bonuscombinaties"
+; EN: Description="Adds the Pint-sized combo (LLLL) and the Camouflage Combo (RRRR)."
+Description="Voegt de Pint-sized combo (LLLL) en de Camouflage Combo (RRRR) toe."
+
+[MutantMessage]
+; EN: YouAreMutantMessage="You Have Mutated!"
+YouAreMutantMessage="Je bent gemuteerd!"
+SomeoneIsMutantMessage=" "
+; EN: SomeoneIsMutantMessageTrailer="Has Mutated!"
+SomeoneIsMutantMessageTrailer="Is gemuteerd!"
+; EN: FFAMessage="First Blood Mutates!"
+FFAMessage="Eerste bloed muteert!"
+; EN: BottomFeederMessage="You Are The Bottom Feeder!"
+BottomFeederMessage="Jij bent de onderste feeder!"
+; EN: NotBottomFeederMessage="No Longer Bottom Feeder!"
+NotBottomFeederMessage="Geen bodemaanvoer meer!"
+
+[MutantNameMessage]
+; EN: BottomFeederMesg="(BOTTOM FEEDER)"
+BottomFeederMesg="(ONDERAANVOER)"
+
+[ScoreBoardLMS]
+; EN: LivesText="LIVES"
+LivesText="LEEFT"
+
+[Tab_IALastManStanding]
+; EN: IARulesExtraLives.Caption="Killing Gives Health"
+IARulesExtraLives.Caption="Doden geeft gezondheid"
+; EN: IARulesExtraLives.Hint="When selected, a portion of the player's health is restored with each kill."
+IARulesExtraLives.Hint="Indien geselecteerd, wordt bij elke kill een deel van de gezondheid van de speler hersteld."
+; EN: IARulesLMSAllowAdrenaline.Caption="Allow Adrenaline"
+IARulesLMSAllowAdrenaline.Caption="Adrenaline toestaan"
+; EN: IARulesLMSAllowAdrenaline.Hint="When selected, players can use Adrenaline."
+IARulesLMSAllowAdrenaline.Hint="Indien geselecteerd, kunnen spelers Adrenaline gebruiken."
+; EN: IARulesLMSAllowPickups.Caption="Allow Pickups"
+IARulesLMSAllowPickups.Caption="Ophalen toestaan"
+; EN: IARulesLMSAllowPickups.Hint="When selected, allow normal pickups."
+IARulesLMSAllowPickups.Hint="Indien geselecteerd, sta normale pick-ups toe."
+; EN: IARulesSuperWeaps.Caption="Allow Super Weapons"
+IARulesSuperWeaps.Caption="Superwapens toestaan"
+; EN: IARulesSuperWeaps.Hint="When selected, allow super weapon pickups."
+IARulesSuperWeaps.Hint="Als deze optie is geselecteerd, kun je superwapen-pickups toestaan."
+
+[Tab_IAMutant]
+; EN: TargetScoreString="Score Limit"
+TargetScoreString="Scorelimiet"
+; EN: IARulesBottomFeeders.Caption="Bottom Feeder"
+IARulesBottomFeeders.Caption="Bodeminvoer"
+; EN: IARulesBottomFeeders.Hint="When selected, bottom ranked player(s) can kill anyone."
+IARulesBottomFeeders.Hint="Indien geselecteerd, kunnen de laagste gerangschikte speler(s) iedereen doden."
+
+[xLastManStandingGame]
+; EN: LMSPropsDisplayText[0]="Camping Threshold"
+LMSPropsDisplayText[0]="Campingdrempel"
+; EN: LMSPropsDisplayText[1]="Camper Warning Interval"
+LMSPropsDisplayText[1]="Camper waarschuwingsinterval"
+; EN: LMSPropsDisplayText[2]="Gain Health For Kills"
+LMSPropsDisplayText[2]="Gezondheid verkrijgen voor moorden"
+; EN: LMSPropsDisplayText[3]="Allow SuperWeapons"
+LMSPropsDisplayText[3]="Superwapens toestaan"
+LMSPropsDisplayText[4]="Camper Alarm"
+; EN: LMSPropsDisplayText[5]="Allow Pickups"
+LMSPropsDisplayText[5]="Ophalen toestaan"
+; EN: LMSPropsDisplayText[6]="Allow Adrenaline"
+LMSPropsDisplayText[6]="Adrenaline toestaan"
+; EN: LMSPropsDisplayText[7]="Full Ammo"
+LMSPropsDisplayText[7]="Volle munitie"
+; EN: LMSPropDescText[0]="Determines how long a player can stand in one spot before triggering a camper warning."
+LMSPropDescText[0]="Bepaalt hoe lang een speler op één plek kan staan ​​voordat een camperwaarschuwing wordt geactiveerd."
+; EN: LMSPropDescText[1]="Specifies how often the camper warning is played"
+LMSPropDescText[1]="Specificeert hoe vaak de camperwaarschuwing wordt afgespeeld"
+; EN: LMSPropDescText[2]="If this option is enabled, a player gains health after killing another player."
+LMSPropDescText[2]="Als deze optie is ingeschakeld, krijgt een speler gezondheid na het doden van een andere speler."
+; EN: LMSPropDescText[3]="If checked, super weapons are included in the player load out."
+LMSPropDescText[3]="Indien aangevinkt, zijn superwapens inbegrepen in de uitrusting van de speler."
+; EN: LMSPropDescText[4]="Enable this option to cause an alarm to be played if a player stands in one spot too long."
+LMSPropDescText[4]="Schakel deze optie in om een ​​alarm te laten afgaan als een speler te lang op één plek blijft staan."
+; EN: LMSPropDescText[5]="If checked, pickups will be available in the map."
+LMSPropDescText[5]="Indien aangevinkt, zijn ophaalservices beschikbaar op de kaart."
+; EN: LMSPropDescText[6]="If checked, adrenaline combos will be enabled."
+LMSPropDescText[6]="Indien aangevinkt, worden adrenaline-combo's ingeschakeld."
+; EN: LMSPropDescText[7]="If checked, players start with max ammo for all weapons."
+LMSPropDescText[7]="Indien aangevinkt, beginnen spelers met maximale munitie voor alle wapens."
+GameName="Last Man Standing"
+; EN: Description="Each player starts with a limited number of lives.  The goal is to be the last player left when the smoke clears."
+Description="Elke speler begint met een beperkt aantal levens. Het doel is om als laatste speler over te zijn als de rook is opgetrokken."
+
+[xMutantGame]
+; EN: MutPropText="Enable BottomFeeder"
+MutPropText="BottomFeeder inschakelen"
+; EN: MutDescText="If enabled, the player with the lowest score is the BottomFeeder, and can kill other players."
+MutDescText="Indien ingeschakeld, is de speler met de laagste score de BottomFeeder en kan hij andere spelers doden."
+GameName="Mutant"
+; EN: Description="The first player to score a frag becomes the Mutant.  Everyone else hunts the Mutant, as by killing the mutant, a player becomes the mutant, with superhuman powers.  The player with the lowest score is the Bottom Feeder.  He can also kill other players."
+Description="De eerste speler die een frag scoort, wordt de Mutant. Alle anderen jagen op de mutant, want door de mutant te doden, wordt een speler de mutant, met bovenmenselijke krachten. De speler met de laagste score is de Bottom Feeder. Hij kan ook andere spelers doden."
+

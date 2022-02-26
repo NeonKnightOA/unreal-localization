@@ -1,0 +1,255 @@
+[ACTION_ASOpenSentinel]
+; EN: ActionString="Awake sentinel"
+ActionString="Våken vaktpost"
+
+[ACTION_ASSetPlayerSpawnArea]
+ActionString="ACTION_ASSetPlayerSpawnArea"
+
+[ACTION_ASTeleportToSpawnArea]
+; EN: ActionString="teleport to spawn area"
+ActionString="teleportere til spawn-området"
+
+[ACTION_PlayExplosionSound]
+; EN: ActionString="Play explosion sound"
+ActionString="Spill eksplosjonslyd"
+
+[ACTION_PlayerViewShake]
+ActionString="PlayerViewShake"
+
+[ASGameInfo]
+; EN: ASPropsDisplayText[0]="Pair of Rounds"
+ASPropsDisplayText[0]="Par med runder"
+; EN: ASPropsDisplayText[1]="Round Time Limit"
+ASPropsDisplayText[1]="Runde tidsbegrensning"
+; EN: ASPropsDisplayText[2]="Reset Countdown"
+ASPropsDisplayText[2]="Tilbakestill nedtelling"
+; EN: ASPropsDisplayText[3]="Reinforcements Time"
+ASPropsDisplayText[3]="Forsterkninger Tid"
+; EN: ASPropsDisplayText[4]="Practice Time"
+ASPropsDisplayText[4]="Øvetid"
+; EN: ASPropDescText[0]="Number of pair of rounds (Attack and defense) for this match."
+ASPropDescText[0]="Antall parrunder (angrep og forsvar) for denne kampen."
+; EN: ASPropDescText[1]="Specifies how long each round lasts."
+ASPropDescText[1]="Angir hvor lenge hver runde varer."
+; EN: ASPropDescText[2]="Specifies how much time there is between each round."
+ASPropDescText[2]="Angir hvor lang tid det er mellom hver runde."
+; EN: ASPropDescText[3]="Specifies time between reinforcements spawning."
+ASPropDescText[3]="Angir tiden mellom forsterkningers gyting."
+; EN: ASPropDescText[4]="Specifies how much time lasts the online practice round. (In seconds)"
+ASPropDescText[4]="Spesifiserer hvor lang tid som varer den nettbaserte treningsrunden. (På sekunder)"
+ASHints=("A waypoint on the HUD indicates the location of an objective.","Be on the look out for HUD warnings and alarm sounds when an objective is in danger.","When a new spawn area has been enabled, Press %SWITCHWEAPON 10% to teleport to it instantly.","Press %BASEPATH 0% or %BASEPATH 1% to highlight the current objective, show a path to it, and slide out the objective list.","Monitor the respawn countdown to know when to expect backups.","Some weapons are better at destroying enemy Spider Mines than others.","You can be hurt or killed by vehicles exploding near you.","You can heal a friendly vehicle with the Link Gun alt-fire.","If you die, any Spider Mines or Grenades you fired will explode.","The green light on top of the weapon lockers indicates that additional ammo is available at that locker.","All turrets can zoom in by pressing %MOVEFORWARD% and zoom out by pressing %MOVEBACKWARD%.","Link turrets have the same properties as the Link Gun.","The Ion Cannon and Ion Plasma Tank, while charging up, indicate their target with a laser beam.","You can switch between remote controlled turrets by pressing %NEXTWEAPON% and %PREVWEAPON%.","In a SpaceFighter, you can cycle through targets by pressing %NEXTWEAPON% and %PREVWEAPON%.","Various trophies can be obtained by destroying a key vehicle (or turret), completing an objective, or successfully attacking.","A trophy is given to the player completing an objective, but the points reward is shared between all contributors.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person view in vehicles.")
+; EN: GameName="Assault"
+GameName="Overfall"
+; EN: Description="In each round, one team takes the role of the attacker, while the other team defends, in recreations of famous (or infamous) scenarios. After a pair of rounds, the most successful attacking team scores a point."
+Description="I hver runde tar ett lag rollen som angriperen, mens det andre laget forsvarer, i gjenskapinger av kjente (eller beryktede) scenarier. Etter et par runder scorer det mest suksessrike angripende laget et poeng."
+
+[ASGameReplicationInfo]
+; EN: ERW_PracticeRoundEndedStr="Practice round over. Get ready!"
+ERW_PracticeRoundEndedStr="Øv rundt. Gjør deg klar!"
+; EN: ERW_RedAttackedStr="Red team successfully attacked!"
+ERW_RedAttackedStr="Rødt lag angrep vellykket!"
+; EN: ERW_BlueAttackedStr="Blue team successfully attacked!"
+ERW_BlueAttackedStr="Blått lag angrep vellykket!"
+; EN: ERW_RedDefendedStr="Red team successfully defended!"
+ERW_RedDefendedStr="Rødt lag forsvarte seg!"
+; EN: ERW_BlueDefendedStr="Blue team successfully defended!"
+ERW_BlueDefendedStr="Blått lag forsvarte seg!"
+; EN: ERW_RedMoreObjectivesStr="Red team scored (more objectives)."
+ERW_RedMoreObjectivesStr="Rødt lag scoret (flere mål)."
+; EN: ERW_BlueMoreObjectivesStr="Blue team scored (more objectives)."
+ERW_BlueMoreObjectivesStr="Blått lag scoret (flere mål)."
+; EN: ERW_RedMoreProgressStr="Red team scored (closer to completion)."
+ERW_RedMoreProgressStr="Rødt lag scoret (nærmere ferdigstillelse)."
+; EN: ERW_BlueMoreProgressStr="Blue team scored (closer to completion)."
+ERW_BlueMoreProgressStr="Blått lag scoret (nærmere ferdigstillelse)."
+; EN: ERW_RedGotSameOBJFasterStr="Red team scored (fastest)."
+ERW_RedGotSameOBJFasterStr="Rødt lag scoret (raskest)."
+; EN: ERW_BlueGotSameOBJFasterStr="Blue team scored (fastest)."
+ERW_BlueGotSameOBJFasterStr="Blått lag scoret (raskest)."
+; EN: ERW_DrawStr="Draw game."
+ERW_DrawStr="Uavgjort spill."
+
+[ASOBJ_EnergyCore_Delivery]
+; EN: ObjectiveName="Energy Core Delivery"
+ObjectiveName="Energikjernelevering"
+
+[ASOBJ_EnergyCore_Spawn]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" droppet Power Core!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Power Core falt!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Power Core plukket opp!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" plukket opp Power Core!"
+; EN: PlayerCoreReset="Power Core reset!"
+PlayerCoreReset="Power Core tilbakestilt!"
+ObjectiveName="Energy Core Spawn"
+
+[ASTurret]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="bemanne et tårn"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Energitårn"
+
+[ASTurret_Minigun]
+; EN: VehiclePositionString="manning a Minigun Turret"
+VehiclePositionString="bemanne et Minigun Turret"
+VehicleNameString="Minigun Turret"
+
+[ASVehicle_Sentinel]
+; EN: VehicleNameString="Sentinel"
+VehicleNameString="vakt"
+
+[ASVehicle_Sentinel_Ceiling]
+VehicleNameString="Ceiling Sentinel"
+
+[ASVehicle_Sentinel_Floor]
+VehicleNameString="Floor Sentinel"
+
+[ASVehicle_SpaceFighter]
+; EN: Text_Speed="Speed:"
+Text_Speed="Hastighet:"
+
+[Ammo_Dummy]
+ItemName="Dummy"
+
+[DamTypeExploBarrel]
+; EN: DeathString="%k took out %o with a barrel explosion."
+DeathString="%k tok ut %o med en tønneeksplosjon."
+; EN: FemaleSuicide="%o was a little too close to the barrel she blew up."
+FemaleSuicide="%o var litt for nærme tønnen hun sprengte."
+; EN: MaleSuicide="%o was a little too close to the barrel he blew up."
+MaleSuicide="%o var litt for nærme tønnen han sprengte."
+
+[DamTypeMinigunTurretBullet]
+; EN: DeathString="%o was mowed down by %k's minigun turret."
+DeathString="%o ble meiet ned av %k sin minigun-tårn."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="%o snudde minipistolen mot seg selv."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="%o vendte minipistolen mot seg selv."
+
+[DamTypeSentinelLaser]
+; EN: DeathString="%o was served an extra helping of %k's lasers."
+DeathString="%o fikk servert en ekstra porsjon av %k sine lasere."
+; EN: FemaleSuicide="%o fried herself with her own laser blast."
+FemaleSuicide="o stekte seg med sin egen laserblåsing."
+; EN: MaleSuicide="%o fried himself with his own laser blast."
+MaleSuicide="o stekte seg med sin egen laserblåsing."
+
+[DestroyVehicleObjective]
+; EN: ObjectiveName="Destroy Vehicle Objective"
+ObjectiveName="Ødelegge kjøretøyets mål"
+; EN: ObjectiveDescription="Destroy Objective to disable it."
+ObjectiveDescription="Destroy Objective for å deaktivere den."
+; EN: Objective_Info_Attacker="Destroy Vehicle Objective"
+Objective_Info_Attacker="Ødelegge kjøretøyets mål"
+; EN: Objective_Info_Defender="Protect Vehicle Objective"
+Objective_Info_Defender="Beskytt kjøretøyets mål"
+
+[GameObject_EnergyCore]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" droppet Power Core!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Power Core falt!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Power Core plukket opp!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" plukket opp Power Core!"
+; EN: PlayerCoreReset="Power Core reset!"
+PlayerCoreReset="Power Core tilbakestilt!"
+
+[HUD_Assault]
+IP_Bracket_Open="["
+IP_Bracket_Close="]"
+Cardinal_North="N"
+Cardinal_East="E"
+Cardinal_South="S"
+Cardinal_West="W"
+; EN: NoGameReplicationInfoString="Receiving Server State..."
+NoGameReplicationInfoString="Mottar serverstatus..."
+MetersString="m"
+; EN: TargetString="Target:"
+TargetString="Mål:"
+; EN: NoTargetString="No Target"
+NoTargetString="Ingen mål"
+; EN: PracticeRoundString="Practice Round"
+PracticeRoundString="Øvingsrunde"
+
+[InfoPod]
+; EN: POD_Message="-= info pod =-"
+POD_Message="-= infopod =-"
+
+[Message_ASKillMessages]
+KillString[0]="Top Gun!"
+KillString[1]="Wrecker!"
+; EN: KillString[2]="Vehicle spawn blocking! 5 secs warning"
+KillString[2]="Kjøretøys spawn blokkering! 5 sekunder advarsel"
+; EN: KillString[3]="Vehicle spawn blocking! 4 secs warning"
+KillString[3]="Kjøretøys spawn blokkering! 4 sek advarsel"
+; EN: KillString[4]="Vehicle spawn blocking! 3 secs warning"
+KillString[4]="Kjøretøys spawn blokkering! 3 sek advarsel"
+; EN: KillString[5]="Vehicle spawn blocking! 2 secs warning"
+KillString[5]="Kjøretøys spawn blokkering! 2 sek advarsel"
+; EN: KillString[6]="Vehicle spawn blocking! 1 sec warning"
+KillString[6]="Kjøretøys spawn blokkering! 1 sek advarsel"
+; EN: KillString[7]="Leaving battle field!"
+KillString[7]="Forlater slagmarken!"
+
+[Message_AssaultTeamRole]
+; EN: Message_PostLogin_Attacker="You are Attacking!!"
+Message_PostLogin_Attacker="Du angriper!!"
+; EN: Message_PostLogin_Defender="You are Defending!!"
+Message_PostLogin_Defender="Du forsvarer!!"
+
+[Message_Awards]
+; EN: Msg[0]="You have completed the Objective!"
+Msg[0]="Du har fullført målet!"
+; EN: Msg[1]="completed the Objective!"
+Msg[1]="fullførte målet!"
+
+[ObjectiveProgressDisplay]
+; EN: HeaderText="Objectives"
+HeaderText="Mål"
+OptionalObjectivePrefix="*"
+ObjTimesString="x"
+TextCutSuffix="..."
+SpaceSeparator=" "
+PrimaryObjectivePrefix="-"
+
+[ScoreBoard_Assault]
+; EN: RemainingRoundTime="Remaining round time:"
+RemainingRoundTime="Gjenstående rundetid:"
+; EN: CurrentRound="Round:"
+CurrentRound="Rund:"
+RoundSeparator="/"
+; EN: Defender="( Defender )"
+Defender="( Forsvarer )"
+; EN: Attacker="( Attacker )"
+Attacker="(angriper)"
+; EN: WaitForReinforcements="   You were killed. Reinforcements in"
+WaitForReinforcements="   Du ble drept. Forsterkninger i"
+; EN: WaitingToSpawnReinforcements="Waiting for reinforcements..."
+WaitingToSpawnReinforcements="Venter på forsterkninger..."
+; EN: AutoRespawn="Automatically respawning in..."
+AutoRespawn="Gjenoppretter automatisk i..."
+; EN: YouWonRound="You've won the round!"
+YouWonRound="Du har vunnet runden!"
+; EN: YouLostRound="You've lost the round."
+YouLostRound="Du har tapt runden."
+; EN: PracticeRoundOver="Practice round over."
+PracticeRoundOver="Øv rundt."
+
+[Trigger_ASMessageTrigger]
+; EN: Message="My Message"
+Message="Mitt budskap"
+
+[Weapon_Sentinel]
+; EN: ItemName="Sentinel weapon"
+ItemName="Sentinel våpen"
+
+[Weapon_Turret_Minigun]
+; EN: ItemName="Turret weapon"
+ItemName="Turret våpen"
+

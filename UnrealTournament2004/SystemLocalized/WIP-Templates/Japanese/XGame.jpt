@@ -1,0 +1,999 @@
+[Public]
+Object=(Name=XGame.AlienFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.AlienMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.RobotVoice,Class=Class,MetaClass=XGame.xVoicePack)
+
+[AlienFemaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="私を吹き飛ばす"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="カンペール！"
+; EN: TauntString[23]="Douche bag!"
+TauntString[23]="うざい野郎！"
+; EN: TauntString[24]="Spammer!"
+TauntString[24]="スパマー！"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="吸盤"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="放っといて"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="あなたはディック！"
+; EN: VoicePackName="Female Alien"
+VoicePackName="女性エイリアン"
+
+[AlienMaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="私を吹き飛ばす"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="カンペール！"
+; EN: TauntString[23]="Douche bag!"
+TauntString[23]="うざい野郎！"
+; EN: TauntString[24]="Spammer!"
+TauntString[24]="スパマー！"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="吸盤"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="放っといて"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="あなたはディック！"
+; EN: VoicePackName="Male Alien"
+VoicePackName="男性エイリアン"
+
+[BloodRites]
+; EN: ChallengeName="Bloodrites"
+ChallengeName="ブラッドライト"
+; EN: ChallengeDescription="Challenge an enemy team for one for their team mates."
+ChallengeDescription="チームメイトのために敵チームに挑戦します。"
+
+[BossDM]
+; EN: GameName="Championship Match"
+GameName="チャンピオンシップマッチ"
+
+[CLOnslaught]
+EntryLabels=("Hit & Run","Roadkill","Drive-by shooting","Road warrior","Core meltdown","Vehicle slaughter")
+
+[ChallengeGame]
+; EN: msgGotChallenged="We got challenged"
+msgGotChallenged="挑戦しました"
+; EN: msgWeChallenged="We challenged"
+msgWeChallenged="挑戦しました"
+; EN: msgFor="for"
+msgFor="にとって"
+
+[ChampRosterFinal]
+; EN: TeamName="Championship Match"
+TeamName="チャンピオンシップマッチ"
+
+[ChampRosterSemiFinal]
+; EN: TeamName="Championship Match"
+TeamName="チャンピオンシップマッチ"
+
+[ComboBerserk]
+; EN: ExecMessage="Berserk!"
+ExecMessage="ベルセルク！"
+
+[ComboDefensive]
+; EN: ExecMessage="Booster!"
+ExecMessage="増幅器！"
+
+[ComboInvis]
+; EN: ExecMessage="Invisible!"
+ExecMessage="見えない！"
+
+[ComboSpeed]
+; EN: ExecMessage="Speed!"
+ExecMessage="スピード！"
+
+[DMRosterBeatTeam]
+; EN: TeamName="Death Match"
+TeamName="デスマッチ"
+
+[DMRosterGael]
+; EN: TeamName="Death Match"
+TeamName="デスマッチ"
+
+[DMRosterLeviathan]
+; EN: TeamName="Death Match"
+TeamName="デスマッチ"
+
+[DMRosterOceanic]
+; EN: TeamName="Death Match"
+TeamName="デスマッチ"
+
+[DMRosterTrainingDay]
+; EN: TeamName="Death Match"
+TeamName="デスマッチ"
+
+[DamTypeIonVolume]
+; EN: DeathString="%o was OBLITERATED by %k!"
+DeathString="％oは％kによってOBLITERATEDされました！"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="％oはOBLITERATEDでした"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="％oはOBLITERATEDでした"
+
+[InstagibCTF]
+; EN: ZoomDisplayText="Allow Zoom"
+ZoomDisplayText="ズームを許可する"
+; EN: ZoomDescText="Instagib rifles have sniper scopes."
+ZoomDescText="Instagibライフルには狙撃スコープがあります。"
+GameName="Instagib CTF"
+
+[IonCannonKillWarning]
+CountDownTrailer="..."
+; EN: WarningString="You have been targeted by an orbital Ion Satellite!"
+WarningString="あなたは軌道イオン衛星の標的にされました！"
+
+[JuggFemaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="人生は苦痛です、それを乗り越えてください"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="目の間に"
+; EN: TauntString[23]="Tag 'Em And Bag 'Em"
+TauntString[23]="タグ 'エムとバッグ'エム"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="それは厄介でした"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="あなたは撃つよりもよく出血します"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="最悪だな"
+; EN: TauntString[27]="Lick me"
+TauntString[27]="私をなめて"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="足が感じられない"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="ナイスショット"
+; EN: VoicePackName="Female Juggernaut"
+VoicePackName="女性ジャガーノート"
+
+[JuggMaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="人生は苦痛です、それを乗り越えてください"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="目の間に"
+; EN: TauntString[23]="Tag 'Em And Bag 'Em"
+TauntString[23]="タグ 'エムとバッグ'エム"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="それは厄介でした"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="あなたは撃つよりもよく出血します"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="最悪だな"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="足が感じられない"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="ナイスショット"
+; EN: VoicePackName="Male Juggernaut"
+VoicePackName="男性ジャガーノート"
+
+[LavaVolume]
+; EN: LocationName="in lava"
+LocationName="溶岩で"
+
+[ManoEMano]
+; EN: ChallengeName="Head to Head"
+ChallengeName="面と向かって"
+; EN: ChallengeDescription="A 1 vs 1 match against another team leader."
+ChallengeDescription="別のチームリーダーとの1対1の試合。"
+
+[MercFemaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="次回はもっと速くダック"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="じっとしている"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="聖なるたわごと"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="じっとしているだけで早くします"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="全員殺せ"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="釘付けにされた彼"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="程遠い"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="ステップアサイド"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="これを吸う"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="安全をオフにしてみてください"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="じっとしている"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="悪くない"
+; EN: VoicePackName="Female Mercenary"
+VoicePackName="女性傭兵"
+
+[MercMaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="次回はもっと速くダック"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="じっとしている"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="聖なるたわごと"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="じっとしているだけで早くします"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="全員殺せ"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="釘付けにされた彼"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="程遠い"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="ステップアサイド"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="これを吸う"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="安全をオフにしてみてください"
+; EN: TauntString[31]="You Die Too Easily"
+TauntString[31]="あなたはあまりにも簡単に死ぬ"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="じっとしている"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="悪くない"
+; EN: VoicePackName="Male Mercenary"
+VoicePackName="男性傭兵"
+
+[MultiKillMessage]
+; EN: KillString[0]="Double Kill!"
+KillString[0]="ダブルキル！"
+; EN: KillString[1]="Multi Kill!"
+KillString[1]="マルチキル！"
+; EN: KillString[2]="Mega Kill!!"
+KillString[2]="メガキル!!"
+; EN: KillString[3]="ULTRA KILL!!"
+KillString[3]="ウルトラキル!!"
+; EN: KillString[4]="M O N S T E R  K I L L !!!"
+KillString[4]="モンスターを倒す ！！！"
+KillString[5]="L U D I C R O U S !!!"
+; EN: KillString[6]="H O L Y  S H I T !"
+KillString[6]="H O L Y S H I T！"
+
+[MutFastWeapSwitch]
+; EN: FriendlyName="UT2003 Style"
+FriendlyName="UT2003スタイル"
+; EN: Description="UT2003 style fast weapon switching and boost dodging."
+Description="UT2003スタイルの高速武器切り替えと回避の強化。"
+
+[MutInstaGib]
+; EN: TranslocDisplayText="Allow Translocator"
+TranslocDisplayText="トランスロケーターを許可する"
+; EN: BoostDisplayText="Allow Teammate boosting"
+BoostDisplayText="チームメイトのブーストを許可する"
+; EN: TranslocDescText="Players get a Translocator in their inventory."
+TranslocDescText="プレイヤーはインベントリにトランスロケーターを取得します。"
+; EN: BoostDescText="Teammates get a big boost when shot by the instagib rifle."
+BoostDescText="チームメイトは、インスタジブライフルで撃たれると大きな後押しを得る。"
+FriendlyName="InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles."
+Description="修正されたショックライフルでのインスタントキル戦闘。"
+
+[MutNoAdrenaline]
+; EN: FriendlyName="No Adrenaline"
+FriendlyName="アドレナリンなし"
+; EN: Description="Adrenaline pickups are removed from the map."
+Description="アドレナリンピックアップはマップから削除されます。"
+
+[MutQuadJump]
+FriendlyName="QuadJump"
+; EN: Description="When double jump just isn't enough."
+Description="ダブルジャンプだけでは不十分な場合。"
+
+[MutRegen]
+; EN: FriendlyName="Regeneration"
+FriendlyName="再生"
+; EN: Description="All players regenerate health."
+Description="すべてのプレイヤーは体力を回復します。"
+
+[MutSlomoDeath]
+; EN: FriendlyName="Slow Motion Corpses"
+FriendlyName="スローモーションの死体"
+; EN: Description="Death should not be rushed."
+Description="死を急ぐべきではありません。"
+
+[MutSpeciesStats]
+; EN: FriendlyName="Species Statistics"
+FriendlyName="種の統計"
+; EN: Description="Each race has unique combat statistics."
+Description="各レースには固有の戦闘統計があります。"
+
+[MutUDamageReward]
+; EN: FriendlyName="UDamage Reward"
+FriendlyName="UDダメージ報酬"
+; EN: Description="Any remaining UDamage powerup is thrown from players when they are fragged."
+Description="残りのUDamageパワーアップは、フラッグされたプレイヤーからスローされます。"
+
+[MutVampire]
+; EN: FriendlyName="Vampire"
+FriendlyName="吸血鬼"
+; EN: Description="Damaging your opponents will heal you."
+Description="敵にダメージを与えるとあなたは癒されます。"
+
+[MutZoomInstagib]
+; EN: FriendlyName="Zoom InstaGib"
+FriendlyName="ズームInstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles with sniper zooms."
+Description="スナイパーズームを備えた修正されたショックライフルでのインスタントキル戦闘。"
+
+[NightFemaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="新鮮な肉"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="私はあなたを壊さなければなりません"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="私はあなたの魂を飲み込みます"
+; EN: TauntString[24]="Lost Is Your Soul"
+TauntString[24]="失われたのはあなたの魂"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="死刑執行人に会う"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="私の名前は死です"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="涙を流さないでください。"
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="痛みはあなたを浄化します"
+; EN: VoicePackName="Female Night"
+VoicePackName="女性の夜"
+
+[NightMaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="新鮮な肉"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="私はあなたを壊さなければなりません"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="私はあなたの魂を飲み込みます"
+; EN: TauntString[24]="Lost Is Your Soul"
+TauntString[24]="失われたのはあなたの魂"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="死刑執行人に会う"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="私の名前は死です"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="涙を流さないでください。"
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="痛みはあなたを浄化します"
+; EN: VoicePackName="Male Night"
+VoicePackName="男性の夜"
+
+[PhantomBloodReavers]
+; EN: TeamDescription="An organization of mercenaries and ex-military specialists, the Blood Reavers are interested in fame and fortune. They seek to win the Tournament for the prize that victory offers: nearly limitless wealth and power."
+TeamDescription="傭兵と元軍の専門家の組織であるBloodReaversは、名声と富に関心を持っています。彼らは勝利がもたらす賞、ほぼ無限の富と権力のためにトーナメントに勝つことを目指しています。"
+; EN: TeamName="Blood Reavers"
+TeamName="ブラッドリーバー"
+
+[PhantomDarkPhalanx]
+; EN: TeamDescription="The Dark Phalanx are an honorable collection of military specialists. All have proven themselves in the Human/Skaarj war and now seek glory in the ranks of the Tournament."
+TeamDescription="ダークファランクスは、軍事専門家の名誉あるコレクションです。全員がHuman / Skaarj戦争で自分自身を証明し、トーナメントのランクで栄光を求めています。"
+; EN: TeamName="Dark Phalanx"
+TeamName="ダークファランクス"
+
+[PhantomEpic]
+; EN: TeamDescription="Founded in 1991, Epic has long been a pioneer of cool PC games, new business models, and boundary-defining game technologies. Epic was founded by Tim Sweeney (Jill of the Jungle, Unreal), and joined shortly after by Mark Rein (VP of Marketing), James Schmalz (Epic Pinball, Extreme Pinball, Unreal), and Cliff Bleszinski (Jazz Jackrabbit, Unreal)."
+TeamDescription="1991年に設立されたEpicは、クールなPCゲーム、新しいビジネスモデル、境界を定義するゲームテクノロジーのパイオニアとして長い間活躍してきました。 EpicはTimSweeney（Jill of the Jungle、Unreal）によって設立され、すぐ後にMark Rein（マーケティング担当副社長）、James Schmalz（Epic Pinball、Extreme Pinball、Unreal）、Cliff Bleszinski（Jazz Jackrabbit、Unreal）が加わりました。"
+; EN: TeamName="Epic Games, Inc."
+TeamName="Epic Games、Inc。"
+
+[PhantomNecrisBlackLegion]
+; EN: TeamDescription="This powerful team of Necris Phayder assassins seeks to dominate the Tournament."
+TeamDescription="Necris Phayder暗殺者のこの強力なチームは、トーナメントを支配しようとしています。"
+; EN: TeamName="Necris Black Legion"
+TeamName="ネクリスブラックレギオン"
+
+[PhantomRawSteel]
+; EN: TeamDescription="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
+TeamDescription="「生の鋼」として知られている戦闘部隊に入ることができるのは男性だけです。人間の筋肉とポリフォーム金属の融合である「RawSteel」は、他のすべての美徳よりも強度とパワーを維持します。"
+; EN: TeamName="Raw Steel"
+TeamName="生鋼"
+
+[RobotVoice]
+; EN: TauntString[21]="Die Human"
+TauntString[21]="人間を死ぬ"
+; EN: TauntString[22]="Faster Stronger Better"
+TauntString[22]="より速く、より強く、より良い"
+; EN: TauntString[23]="Fear Me"
+TauntString[23]="私を恐れる"
+; EN: TauntString[24]="Flesh Is A Design Flaw"
+TauntString[24]="肉は設計上の欠陥です"
+; EN: TauntString[25]="My Victory Your Death"
+TauntString[25]="私の勝利あなたの死"
+; EN: TauntString[26]="Not Unacceptable"
+TauntString[26]="受け入れられない"
+; EN: TauntString[27]="Rogue Process Terminated"
+TauntString[27]="不正なプロセスが終了しました"
+; EN: TauntString[28]="Witness My Perfection"
+TauntString[28]="私の完璧さを目撃する"
+; EN: TauntString[29]="You Die Too Easily"
+TauntString[29]="あなたはあまりにも簡単に死ぬ"
+; EN: TauntString[30]="You Make Easy Prey"
+TauntString[30]="あなたは簡単に獲物を作る"
+; EN: TauntString[31]="Your Programming Is Inferior"
+TauntString[31]="あなたのプログラミングは劣っています"
+; EN: OtherString[32]="Rerouting Critical Systems"
+OtherString[32]="重要なシステムの再ルーティング"
+; EN: OtherString[33]="You Adapt Well"
+OtherString[33]="あなたはうまく適応します"
+; EN: VoicePackName="Robot"
+VoicePackName="ロボット"
+
+[SPECIES_Alien]
+; EN: SpeciesName="Alien"
+SpeciesName="エイリアン"
+; EN: TauntAnimNames[8]="Tail wag"
+TauntAnimNames[8]="テールワグ"
+; EN: TauntAnimNames[9]="Gun check"
+TauntAnimNames[9]="ガンチェック"
+; EN: TauntAnimNames[10]="Dismissal"
+TauntAnimNames[10]="解任"
+TauntAnimNames[11]="360"
+
+[SPECIES_Bot]
+; EN: SpeciesName="Robot"
+SpeciesName="ロボット"
+; EN: TauntAnimNames[8]="Want some?"
+TauntAnimNames[8]="いる？"
+
+[SPECIES_Egypt]
+; EN: SpeciesName="Egyptian"
+SpeciesName="エジプト人"
+
+[SPECIES_Jugg]
+; EN: SpeciesName="Juggernaut"
+SpeciesName="ジャガーノート"
+; EN: TauntAnimNames[7]="Flex"
+TauntAnimNames[7]="フレックス"
+; EN: TauntAnimNames[8]="Stomp"
+TauntAnimNames[8]="ストンプ"
+; EN: TauntAnimNames[9]="Back scratch"
+TauntAnimNames[9]="バックスクラッチ"
+; EN: TauntAnimNames[10]="Show butt"
+TauntAnimNames[10]="お尻を表示"
+; EN: TauntAnimNames[11]="Head scratch"
+TauntAnimNames[11]="ヘッドスクラッチ"
+
+[SPECIES_Merc]
+; EN: SpeciesName="Mercenary"
+SpeciesName="傭兵"
+
+[SPECIES_Night]
+; EN: SpeciesName="Night"
+SpeciesName="夜"
+
+[SpecialKillMessage]
+; EN: DecapitationString="Head Shot!!"
+DecapitationString="ヘッド・ショット！！"
+
+[SpeciesSkaarj]
+SpeciesName="Skaarj"
+; EN: TauntAnimNames[4]="Hair flip"
+TauntAnimNames[4]="ヘアフリップ"
+; EN: TauntAnimNames[5]="Slash"
+TauntAnimNames[5]="スラッシュ"
+; EN: TauntAnimNames[6]="Scan"
+TauntAnimNames[6]="スキャン"
+; EN: TauntAnimNames[7]="Finger"
+TauntAnimNames[7]="指"
+; EN: TauntAnimNames[8]="Idle"
+TauntAnimNames[8]="アイドル"
+
+[SpeciesType]
+; EN: SpeciesName="Human"
+SpeciesName="人間"
+; EN: TauntAnimNames[0]="Point"
+TauntAnimNames[0]="点"
+; EN: TauntAnimNames[1]="Beckon"
+TauntAnimNames[1]="ベッコン"
+; EN: TauntAnimNames[2]="Halt"
+TauntAnimNames[2]="停止"
+; EN: TauntAnimNames[3]="Cheer"
+TauntAnimNames[3]="応援"
+; EN: TauntAnimNames[4]="Pelvic Thrust"
+TauntAnimNames[4]="骨盤スラスト"
+; EN: TauntAnimNames[5]="Ass Smack"
+TauntAnimNames[5]="お尻のスマック"
+; EN: TauntAnimNames[6]="Throat Cut"
+TauntAnimNames[6]="スロートカット"
+; EN: TauntAnimNames[7]="Unique"
+TauntAnimNames[7]="個性的"
+; EN: TauntAnimNames[8]="Team Taunt"
+TauntAnimNames[8]="チーム挑発"
+; EN: TauntAnimNames[9]="Team Idle"
+TauntAnimNames[9]="チームアイドル"
+
+[TeamApocalypse]
+; EN: TeamName="Apocalypse"
+TeamName="黙示録"
+
+[TeamBlackLegion]
+TeamName="BlackLegion"
+
+[TeamBloodFists]
+TeamName="BloodFists"
+
+[TeamBoneCrushers]
+TeamName="BoneCrushers"
+
+[TeamColdSteel]
+; EN: TeamName="ColdSteel"
+TeamName="コールドスチール"
+
+[TeamCorrupt]
+; EN: TeamDescription="Xan Kriegor was long regarded as invincible, until Malcolm defeated him in the fourth officially recognized Tournament finals.  After a long hiatus, he has returned to lead the Liandri team, The Corrupt, back to the championship.  Xan is sitting out the early rounds, which he perceives as beneath his attention."
+TeamDescription="Xan Kriegorは、マルコムが4回目の公式に認められたトーナメント決勝で彼を破るまで、長い間無敵と見なされていました。長い休止の後、彼はLiandriチームのTheCorruptを率いてチャンピオンシップに戻ってきました。ザンは初期のラウンドに腰を下ろしており、彼はそれを彼の注意の下にあると認識している。"
+; EN: TeamName="The Corrupt"
+TeamName="腐敗した"
+
+[TeamCrusaders]
+; EN: TeamName="Crusaders"
+TeamName="十字軍"
+
+[TeamDragonBreath]
+; EN: TeamName="DragonBreath"
+TeamName="ドラゴンブレス"
+
+[TeamFirestorm]
+; EN: TeamName="Firestorm"
+TeamName="ファイアストーム"
+
+[TeamGoliath]
+; EN: TeamDescription="With the success of Gorge's Juggernauts in last year's tournament, Axon Research Corporation is now sponsoring Goliath in hopes of producing an all Juggernaut finals."
+TeamDescription="昨年のトーナメントでのGorge'sJuggernautsの成功を受けて、Axon Research Corporationは現在、すべてのJuggernaut決勝戦をプロデュースすることを期待してGoliathを後援しています。"
+; EN: TeamName="Goliath"
+TeamName="ゴリアテ"
+
+[TeamHellions]
+; EN: TeamDescription="Once feared and reviled throughout human space as pirates and renegades, the Hellions seek to gain respectability as a mercenary outfit.  They've entered the tournament to demonstrate their capabilities to potential customers."
+TeamDescription="かつて海賊や反逆者として人間の宇宙全体で恐れられ、罵倒されたヘリオンは、傭兵の衣装としての尊敬を得ようとしています。彼らは潜在的な顧客に彼らの能力を示すためにトーナメントに参加しました。"
+; EN: TeamName="Hellions"
+TeamName="ヘリオン"
+
+[TeamIronGuard]
+TeamName="IronGuard"
+
+[TeamIronSkull]
+; EN: TeamDescription="This year, the Skaarj Empire is represented by the Iron Skull clan, who seek to regain honor after long being held responsible for the loss of the Skaarj Mothership during the Human/Skaarj wars."
+TeamDescription="今年、スカージ帝国はアイアンスカル一族によって代表されます。アイアンスカル一族は、ヒューマン/スカージ戦争中にスカージ母権を失った責任を長い間負っていた後、名誉を取り戻そうとしています。"
+; EN: TeamName="Iron Skull Skaarj"
+TeamName="アイアンスカルスカージ"
+
+[TeamJuggernauts]
+; EN: TeamDescription="Gorge is determined to prove that his one year reign as Tournament Champion is no fluke, and he has re-assembled the Juggernaut team he led to the championship.  Axon Research Corporation has made armor and bio-genetic upgrades to the Juggernauts design for this year's tournament."
+TeamDescription="ゴージは、トーナメントチャンピオンとしての彼の1年間の統治がまぐれではないことを証明することを決意しており、チャンピオンシップに導いたジャガーノートチームを再編成しました。 Axon Research Corporationは、今年のトーナメントのJuggernautsデザインに鎧と生物遺伝学的アップグレードを行いました。"
+; EN: TeamName="Juggernauts"
+TeamName="ジャガーノート"
+
+[TeamNewBlacklegion]
+; EN: TeamDescription="The Black Legion is made up of the hideously deformed subjects of weaponized genetic mutation tests.  This year, they have a new leader, Abaddon, the current pinnacle of achievement of this line of experiments."
+TeamDescription="ブラックレギオンは、武器化された遺伝子変異テストの恐ろしく変形した被験者で構成されています。今年、彼らには新しいリーダー、アバドンがいます。これは、この一連の実験の達成の現在の頂点です。"
+; EN: TeamName="Black Legion"
+TeamName="ブラックレギオン"
+
+[TeamNewBloodfist]
+; EN: TeamDescription="The only team in the Tournament acknowledged to be entirely cybernetic, Blood Fist warriors have their programming upgraded each year, and have become more and more lethal."
+TeamDescription="トーナメントで唯一のチームは完全にサイバネティックであると認められており、Blood Fistの戦士は毎年プログラミングをアップグレードしており、ますます致命的になっています。"
+; EN: TeamName="Blood Fist"
+TeamName="ブラッドフィスト"
+
+[TeamNewFirestorm]
+; EN: TeamDescription="The Mokara are respected and feared as warriors. The Mokara's elite fighting unit, Fire Storm, sends a team of their best soldiers to the Tournament each year."
+TeamDescription="モカラは戦士として尊敬され、恐れられています。モカラのエリート戦闘ユニットであるファイアストームは、毎年最高の兵士のチームをトーナメントに送ります。"
+; EN: TeamName="Firestorm"
+TeamName="ファイアストーム"
+
+[TeamNewIronGuard]
+; EN: TeamDescription="Brock and Lauren joined forces with Malcolm during his reign as tournament champion. Infighting and recrimination over their stunning defeat in last year's Tournament led to the dissolution of that team. Now, Brock and Lauren have returned leading their old team, the Iron Guard."
+TeamDescription="ブロックとローレンはトーナメントチャンピオンとしての彼の治世中にマルコムと力を合わせました。昨年のトーナメントでの彼らの見事な敗北をめぐる争いと非難は、そのチームの解散につながりました。今、ブロックとローレンは彼らの古いチーム、鉄衛団を率いて戻ってきました。"
+; EN: TeamName="Iron Guard"
+TeamName="鉄衛団"
+
+[TeamNewSunblade]
+; EN: TeamDescription="Sun Blade is comprised of former Temple Guardians and veterans of the Desert Legion. They see victory in the Tournament as their only hope for burial and eternal life in the Valley of Kings on Luxor IV."
+TeamDescription="サンブレードは、元テンプルガーディアンとデザートレギオンのベテランで構成されています。彼らはトーナメントでの勝利を、ルクソールIVの王家の谷での埋葬と永遠の命への唯一の希望と見なしています。"
+; EN: TeamName="Sun Blade"
+TeamName="サンブレード"
+
+[TeamNewSuperNova]
+; EN: TeamDescription="Super Nova, a team of mercenaries from the Seventh Mercenary Fleet, has entered the Tournament to pay off their debts to the Izanagi Corporation."
+TeamDescription="第7傭兵艦隊の傭兵チームであるスーパーノヴァは、イザナギコーポレーションへの債務を返済するためにトーナメントに参加しました。"
+; EN: TeamName="Super Nova"
+TeamName="スーパーノヴァ"
+
+[TeamNightstalkers]
+; EN: TeamName="Nightstalkers"
+TeamName="ナイトストーカー"
+
+[TeamPainMachine]
+TeamName="PainMachine"
+
+[TeamSunBlades]
+TeamName="SunBlades"
+
+[TeamSupernova]
+; EN: TeamName="Supernova"
+TeamName="超新星"
+
+[TeamThundercrash]
+; EN: TeamDescription="Following his well publicized break-up with long-time teammates Brock and Lauren, Malcolm has returned to lead his old team, Thunder Crash.  Malcolm is currently rehabilitating an injury sustained in last year's championship match, but he is expected to be healthy in time for the Tournament Finals."
+TeamDescription="長年のチームメイトであるブロックとローレンとの彼のよく知られた別れに続いて、マルコムは彼の古いチーム、サンダークラッシュを率いるために戻ってきました。マルコムは現在、昨年のチャンピオンシップマッチで負傷した負傷者のリハビリを行っているが、トーナメント決勝に間に合うように健康であることが期待されている。"
+; EN: TeamName="Thunder Crash"
+TeamName="サンダークラッシュ"
+
+[TeamVenom]
+; EN: TeamName="Venom"
+TeamName="ヴェノム"
+
+[TeamWarCry]
+TeamName="WarCry"
+
+[UT2003LadderInfo]
+; EN: CHAMP1.MenuName="Tournament Semi-Final"
+CHAMP1.MenuName="トーナメント準決勝"
+; EN: CHAMP2.MenuName="Tournament Final"
+CHAMP2.MenuName="トーナメント決勝"
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="デスマッチチュートリアル"
+
+[UT2K4DMRoster]
+; EN: TeamName="Death Match"
+TeamName="デスマッチ"
+
+[UT2K4GameProfile]
+; EN: msgSpecialAward[0]="Flak Monkey"
+msgSpecialAward[0]="フラックモンキー"
+; EN: msgSpecialAward[1]="Combo Whore"
+msgSpecialAward[1]="コンボ娼婦"
+; EN: msgSpecialAward[2]="Head Hunter"
+msgSpecialAward[2]="ヘッドハンター"
+; EN: msgSpecialAward[3]="Road Rampage"
+msgSpecialAward[3]="道路暴れ"
+; EN: msgSpecialAward[4]="Hat Trick"
+msgSpecialAward[4]="ハットトリック"
+; EN: msgSpecialAward[5]="Untouchable"
+msgSpecialAward[5]="アンタッチャブル"
+; EN: msgCheater="CHEATER!!!"
+msgCheater="チーター!!!"
+; EN: msgCredits="credits"
+msgCredits="クレジット"
+; EN: msgCredit="credit"
+msgCredit="クレジット"
+; EN: msgChallengeGame="Challenge game"
+msgChallengeGame="チャレンジゲーム"
+; EN: msgAdditionalLadder="Additional ladder game"
+msgAdditionalLadder="追加のはしごゲーム"
+; EN: msgMatch="match"
+msgMatch="マッチ"
+; EN: msgLadderGame="Ladder game"
+msgLadderGame="ラダーゲーム"
+; EN: msgChampionship="Championship"
+msgChampionship="チャンピオンシップ"
+
+[UT2K4LadderInfo]
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="デスマッチチュートリアル"
+
+[xBlueFlagBase]
+; EN: ObjectiveName="Blue Flag"
+ObjectiveName="ブルーフラッグ"
+
+[xBombDelivery]
+; EN: ObjectiveStringSuffix=" Goal"
+ObjectiveStringSuffix=" ゴール"
+
+[xBombHUDMessage]
+; EN: YouHaveFlagString="You have the ball, deliver it to enemy base!"
+YouHaveFlagString="あなたはボールを持っています、それを敵の基地に届けてください！"
+; EN: EnemyHasFlagString="The enemy has the ball, recover it!"
+EnemyHasFlagString="敵はボールを持っています、それを取り戻してください！"
+
+[xBombMessage]
+; EN: ReturnBlue="returns the ball!"
+ReturnBlue="ボールを返します！"
+; EN: ReturnRed="returns the ball!"
+ReturnRed="ボールを返します！"
+; EN: ReturnedBlue="The ball was returned!"
+ReturnedBlue="ボールが返されました！"
+; EN: ReturnedRed="The ball was returned!"
+ReturnedRed="ボールが返されました！"
+; EN: CaptureBlue="scored the goal!"
+CaptureBlue="ゴールを決めました！"
+; EN: CaptureRed="scored the goal!"
+CaptureRed="ゴールを決めました！"
+; EN: DroppedBlue="dropped the ball!"
+DroppedBlue="ボールを落とした！"
+; EN: DroppedRed="dropped the ball!"
+DroppedRed="ボールを落とした！"
+; EN: HasBlue="has the ball!"
+HasBlue="ボールを持っています！"
+; EN: HasRed="has the ball!"
+HasRed="ボールを持っています！"
+
+[xBombSpawn]
+; EN: ObjectiveName="Bomb Spawn"
+ObjectiveName="爆弾スポーン"
+
+[xBombingRun]
+; EN: BRPropText="Delay ball contact"
+BRPropText="ボールの接触を遅らせる"
+; EN: BRPropText2="BallLauncher drains Translocator"
+BRPropText2="BallLauncherはTranslocatorを排出します"
+; EN: BRDescText="If checked, a player must wait a few seconds after throwing the ball before picking it up again."
+BRDescText="チェックされている場合、プレーヤーはボールを投げてから数秒待ってから、ボールを再び拾う必要があります。"
+; EN: BRDescText2="If checked, a player must wait a few seconds after throwing the ball before being able to translocate (or until someone else catches or picks up the ball)."
+BRDescText2="チェックされている場合、プレーヤーはボールを投げてから移動できるようになるまで（または他の誰かがボールをキャッチまたはピックアップするまで）数秒待つ必要があります。"
+BRHints=("You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base.","Firing the translocator sends out your translocator beacon.  Pressing %FIRE% again returns the beacon, while pressing %A:TFIRE% teleports you instantly to the beacon's location (if you fit).","While carrying the ball, you can target teammates by pressing %ALTFIRE%.  Pressing %FIRE% will pass the ball to the targeted teammate.","Pressing %SWITCHWEAPON 10% after tossing the Translocator allows you to view from its internal camera.","Pressing %FIRE% while your %ALTFIRE% is still held down after teleporting with the translocator will switch you back to your previous weapon.")
+; EN: GameName="Bombing Run"
+GameName="爆撃実行"
+; EN: Description="Each level has a ball that starts in the middle of the playing field.  Your team scores by getting the ball through the enemy team's hoop.  You score 7 points for jumping through the hoop while holding the ball, and 3 points for tossing the ball through the hoop.  The ball can be passed to teammates, and is dropped if the player carrying it is killed."
+Description="各レベルには、競技場の真ん中で始まるボールがあります。あなたのチームは、敵チームのフープを介してボールを取得することによって得点します。ボールを持ってフープをジャンプすると7ポイント、フープにボールを投げると3ポイントを獲得できます。ボールはチームメイトに渡すことができ、ボールを持っているプレーヤーが殺された場合はドロップされます。"
+
+[xCTFGame]
+; EN: GameName="Capture the Flag"
+GameName="旗を取れ"
+; EN: Description="Your team must score flag captures by taking the enemy flag from the enemy base and returning it to their own flag.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
+Description="チームは、敵の基地から敵の旗を取り、それを自分の旗に戻すことによって、旗のキャプチャを獲得する必要があります。フラッグキャリアが殺された場合、旗は誰でも拾うことができるように地面に落ちます。チームの旗が取られた場合、チームが旗のキャプチャを獲得する前に、旗を返す必要があります（旗を落とした後に触れることによって）。"
+
+[xDeathMatch]
+; EN: GameName="DeathMatch"
+GameName="デスマッチ"
+; EN: Description="Free-for-all kill or be killed.  The player with the most frags wins."
+Description="誰でも自由に殺すか、殺されます。フラグが最も多いプレイヤーが勝ちます。"
+
+[xDeathMessage]
+; EN: KilledString="was killed by"
+KilledString="によって殺された"
+; EN: SomeoneString="someone"
+SomeoneString="誰か"
+
+[xDomMessage]
+; EN: YouControlBothPointsString="Your team controls both points!"
+YouControlBothPointsString="あなたのチームが両方のポイントをコントロールします！"
+; EN: EnemyControlsBothPointsString="The enemy controls both points!"
+EnemyControlsBothPointsString="敵は両方のポイントをコントロールします！"
+
+[xDomPointA]
+; EN: PointName="A"
+PointName="NS"
+; EN: ObjectiveName="Point A"
+ObjectiveName="ポイントA"
+
+[xDomPointB]
+; EN: PointName="B"
+PointName="NS"
+; EN: ObjectiveName="Point B"
+ObjectiveName="ポイントB"
+
+[xDoubleDom]
+; EN: DDomPropsDisplayText[0]="Time To Score"
+DDomPropsDisplayText[0]="得点する時間"
+; EN: DDomPropsDisplayText[1]="Time Disabled"
+DDomPropsDisplayText[1]="時間無効"
+; EN: DDomPropDescText[0]="Specifies how long domination points must be held to score a point."
+DDomPropDescText[0]="ポイントを獲得するために支配ポイントを保持する必要がある期間を指定します。"
+; EN: DDomPropDescText[1]="Specifies how long domination points are disabled after a point is scored."
+DDomPropDescText[1]="ポイントが獲得された後、支配ポイントが無効になる期間を指定します。"
+; EN: GameName="Double Domination"
+GameName="ダブルドミネーション"
+; EN: Description="Your team scores by capturing and holding both Control Points for ten seconds.  Control Points are captured by touching them.  After scoring, the Control Points reset to neutral."
+Description="チームは、両方のコントロールポイントをキャプチャして10秒間保持することでスコアを獲得します。コントロールポイントは、それらに触れることでキャプチャされます。得点後、コントロールポイントはニュートラルにリセットされます。"
+
+[xFallingVolume]
+; EN: LocationName="in air"
+LocationName="放送中"
+
+[xKillerMessagePlus]
+; EN: YouKilled="You killed"
+YouKilled="あなたが殺しました"
+
+[xRedFlagBase]
+; EN: ObjectiveName="Red Flag"
+ObjectiveName="赤旗"
+
+[xTeamGame]
+; EN: GameName="Team DeathMatch"
+GameName="チームデスマッチ"
+; EN: Description="Two teams duke it out in a quest for battlefield supremacy.  The team with the most total frags wins."
+Description="2つのチームが戦場の覇権を求めてそれを公にした。フラグの総数が最も多いチームが勝ちます。"
+
+[xUtil]
+; EN: NoPreference="No Weapon Preference"
+NoPreference="武器の好みはありません"
+; EN: FavoriteWeapon="Favorite Weapon:"
+FavoriteWeapon="好きな武器："
+; EN: AgilityString="Agility:"
+AgilityString="機敏："
+; EN: TacticsString="Team Tactics:"
+TacticsString="チーム戦術："
+; EN: AccuracyString="Accuracy:"
+AccuracyString="正確さ："
+; EN: AggressivenessString="Aggression:"
+AggressivenessString="侵略："
+
+[xVehicleCTFGame]
+VCTFHints=("You can't carry the flag in a Manta or a Raptor.")
+; EN: GameName="Vehicle CTF"
+GameName="車両CTF"
+; EN: Description="Like traditional Capture The Flag, only adding vehicles into the mix! Only ground-based vehicles can carry the flag."
+Description="従来のキャプチャーザフラッグのように、車両をミックスに追加するだけです！旗を運ぶことができるのは地上車両のみです。"
+
+[xVictimMessage]
+; EN: YouWereKilledBy="You were killed by"
+YouWereKilledBy="あなたはによって殺されました"
+KilledByTrailer="!"
+
+[xVoicePack]
+; EN: AckString[0]="Affirmative"
+AckString[0]="肯定的"
+; EN: AckString[1]="Got It"
+AckString[1]="とった"
+; EN: AckString[2]="I'm On It"
+AckString[2]="やってる"
+; EN: AckString[3]="Roger"
+AckString[3]="ロジャー"
+; EN: FFireString[0]="I'm On Your Team!"
+FFireString[0]="私はあなたのチームにいます！"
+; EN: FFireString[1]="I'm On Your Team, Idiot!"
+FFireString[1]="私はあなたのチームにいます、ばか！"
+; EN: FFireString[2]="Same Team!"
+FFireString[2]="同じチーム！"
+; EN: FFireAbbrev[1]="Your Team, Idiot!"
+FFireAbbrev[1]="あなたのチーム、ばか！"
+; EN: TauntString[0]="And Stay Down"
+TauntString[0]="そして、落ち着いて"
+; EN: TauntString[1]="Anyone Else Want Some?"
+TauntString[1]="他の誰かが欲しいですか？"
+; EN: TauntString[2]="Boom!"
+TauntString[2]="ブーム！"
+; EN: TauntString[3]="BURN Baby"
+TauntString[3]="バーンベイビー"
+; EN: TauntString[4]="Die Bitch"
+TauntString[4]="ダイビッチ"
+; EN: TauntString[5]="Eat THAT"
+TauntString[5]="それを食べる"
+; EN: TauntString[6]="You Fight Like Nali"
+TauntString[6]="あなたはナリのように戦う"
+; EN: TauntString[7]="Is That Your Best?"
+TauntString[7]="それはあなたのベストですか？"
+; EN: TauntString[8]="Kiss My Ass"
+TauntString[8]="消え失せろ"
+; EN: TauntString[9]="Loser"
+TauntString[9]="敗者"
+; EN: TauntString[10]="MY House"
+TauntString[10]="私の家"
+; EN: TauntString[11]="Next!"
+TauntString[11]="次！"
+; EN: TauntString[12]="Oh YEAH!"
+TauntString[12]="そうそう！"
+; EN: TauntString[13]="Ownage"
+TauntString[13]="所有権"
+; EN: TauntString[14]="Seeya"
+TauntString[14]="じゃあ"
+; EN: TauntString[15]="That HAD To Hurt"
+TauntString[15]="それは傷つけなければならなかった"
+; EN: TauntString[16]="Useless"
+TauntString[16]="使い物にならない"
+; EN: TauntString[17]="You Play Like A Girl"
+TauntString[17]="あなたは女の子のように遊ぶ"
+; EN: TauntString[18]="You Be Dead"
+TauntString[18]="あなたは死んでいる"
+; EN: TauntString[19]="You Like That?"
+TauntString[19]="あなたはそれが好きですか？"
+; EN: TauntString[20]="You Whore"
+TauntString[20]="あなたは娼婦"
+; EN: OrderString[0]="Defend the base"
+OrderString[0]="基地を守る"
+; EN: OrderString[1]="Hold this position"
+OrderString[1]="この位置を保持します"
+; EN: OrderString[2]="Assault the base"
+OrderString[2]="基地を襲撃"
+; EN: OrderString[3]="Cover me"
+OrderString[3]="カバーして"
+; EN: OrderString[4]="Search and destroy"
+OrderString[4]="検索し破壊します"
+; EN: OrderString[10]="Take their flag"
+OrderString[10]="彼らの旗を取る"
+; EN: OrderString[11]="Defend the flag"
+OrderString[11]="旗を守る"
+; EN: OrderString[12]="Attack Alpha"
+OrderString[12]="アルファを攻撃"
+; EN: OrderString[13]="Attack Bravo"
+OrderString[13]="ブラボーを攻撃する"
+; EN: OrderString[14]="Get the ball"
+OrderString[14]="ボールを取得"
+; EN: OrderAbbrev[0]="Defend"
+OrderAbbrev[0]="守る"
+; EN: OrderAbbrev[2]="Attack"
+OrderAbbrev[2]="攻撃"
+; EN: OtherString[0]="Base is undefended!"
+OtherString[0]="ベースは無防備です！"
+; EN: OtherString[1]="Somebody get our flag back!"
+OtherString[1]="誰かが私たちの旗を取り戻します！"
+; EN: OtherString[2]="I've got the flag"
+OtherString[2]="私は旗を持っています"
+; EN: OtherString[3]="I've got your back"
+OtherString[3]="私がついている"
+; EN: OtherString[4]="I'm hit!"
+OtherString[4]="殴られた！"
+; EN: OtherString[5]="Man down!"
+OtherString[5]="する勇気がなくなる！"
+; EN: OtherString[6]="I'm all alone here %l"
+OtherString[6]="私はここで一人ぼっちです％l"
+; EN: OtherString[7]="Negative!"
+OtherString[7]="ネガティブ！"
+; EN: OtherString[8]="I've got our flag"
+OtherString[8]="私は私たちの旗を持っています"
+; EN: OtherString[9]="I'm in position %l"
+OtherString[9]="私は位置％lにいます"
+; EN: OtherString[10]="I'm going in!"
+OtherString[10]="行きます！"
+; EN: OtherString[11]="Area is secure"
+OtherString[11]="エリアは安全です"
+; EN: OtherString[12]="Enemy flag carrier is %l"
+OtherString[12]="敵のフラッグキャリアは％lです"
+; EN: OtherString[13]="I need some backup %l"
+OtherString[13]="バックアップ％lが必要です"
+; EN: OtherString[14]="Incoming!"
+OtherString[14]="入ってくる！"
+; EN: OtherString[15]="Enemy ball carrier is %l"
+OtherString[15]="敵のボールキャリアは％lです"
+; EN: OtherString[16]="Alpha secure!"
+OtherString[16]="アルファセキュア！"
+; EN: OtherString[17]="Bravo secure!"
+OtherString[17]="ブラボーセキュア！"
+; EN: OtherString[18]="Attack Alpha"
+OtherString[18]="アルファを攻撃"
+; EN: OtherString[19]="Attack Bravo"
+OtherString[19]="ブラボーを攻撃する"
+; EN: OtherString[20]="The base is under attack %l"
+OtherString[20]="基地は攻撃を受けています％l"
+; EN: OtherString[21]="We're being overrun %l!"
+OtherString[21]="％lをオーバーランしています！"
+; EN: OtherString[22]="Under heavy attack %l"
+OtherString[22]="激しい攻撃の下で％l"
+; EN: OtherString[23]="Defend point Alpha"
+OtherString[23]="ポイントアルファを守る"
+; EN: OtherString[24]="Defend point Bravo"
+OtherString[24]="ポイントブラボーを守る"
+; EN: OtherString[25]="Get The Ball"
+OtherString[25]="ボールをゲット"
+; EN: OtherString[26]="I'm on defense"
+OtherString[26]="私は防衛している"
+; EN: OtherString[27]="I'm on offense"
+OtherString[27]="私は腹を立てている"
+; EN: OtherString[28]="Take point Alpha"
+OtherString[28]="ポイントアルファを取る"
+; EN: OtherString[29]="Take point Bravo"
+OtherString[29]="ポイントブラボーを取る"
+; EN: OtherString[30]="Medic"
+OtherString[30]="メディック"
+; EN: OtherString[31]="Nice"
+OtherString[31]="良い"
+; EN: OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[1]="私たちの旗を手に入れよう！"
+; EN: OtherAbbrev[2]="Got the flag"
+OtherAbbrev[2]="旗を手に入れました"
+; EN: OtherAbbrev[3]="Got your back"
+OtherAbbrev[3]="戻ってきた"
+; EN: OtherAbbrev[6]="All alone!"
+OtherAbbrev[6]="孤独に！"
+; EN: OtherAbbrev[8]="Got our flag"
+OtherAbbrev[8]="私たちの旗を手に入れました"
+; EN: OtherAbbrev[9]="In position"
+OtherAbbrev[9]="位置している"
+; EN: OtherAbbrev[12]="Enemy flag carrier"
+OtherAbbrev[12]="敵のフラッグキャリア"
+; EN: OtherAbbrev[13]="Need backup"
+OtherAbbrev[13]="援軍を求める"
+; EN: OtherAbbrev[15]="Enemy ball carrier"
+OtherAbbrev[15]="敵のボールキャリア"
+; EN: OtherAbbrev[20]="Base under attack"
+OtherAbbrev[20]="攻撃を受けている基地"
+; EN: OtherAbbrev[21]="Being overrun"
+OtherAbbrev[21]="オーバーランしている"
+; EN: OtherAbbrev[22]="Under heavy attack"
+OtherAbbrev[22]="激しい攻撃を受けている"
+

@@ -1,0 +1,57 @@
+[Public]
+Object=(Name=IpDrv.UpdateServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.MasterServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
+Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
+; EN: Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="TCP/IP-nätverksspel",Parent="Nätverk",Class=IpDrv.TcpNetDriver)
+; EN: Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="Server Beacon",Parent="Nätverk",Class=IpDrv.UdpBeacon,Immediate=True)
+
+[TcpNetDriver]
+; EN: ClassCaption=TCP/IP Network Play
+ClassCaption=TCP/IP-nätverksspel
+
+[UdpBeacon]
+ClassCaption=Server LAN Beacon
+
+[DecompressCommandlet]
+; EN: HelpCmd=decompress
+HelpCmd=dekomprimera
+; EN: HelpOneLiner=Decompress a file compressed with ucc compress.
+HelpOneLiner=Dekomprimera en fil komprimerad med ucc compress.
+; EN: HelpUsage=decompress CompressedFile
+HelpUsage=dekomprimera CompressedFile
+; EN: HelpParm[0]=CompressedFile
+HelpParm[0]=Komprimerad fil
+; EN: HelpDesc[0]=The .uz file to decompress.
+HelpDesc[0]=.uz-filen som ska dekomprimeras.
+
+[CompressCommandlet]
+; EN: HelpCmd=compress
+HelpCmd=komprimera
+; EN: HelpOneLiner=Compress an Unreal package for auto-downloading.  A file with extension .uz will be created.
+HelpOneLiner=Komprimera ett Unreal-paket för automatisk nedladdning. En fil med filändelsen .uz kommer att skapas.
+; EN: HelpUsage=compress File1 [File2 [File3 ...]]
+HelpUsage=komprimera Fil1 [Fil2 [Fil3 ...]]
+; EN: HelpParm[0]=Files
+HelpParm[0]=Filer
+; EN: HelpDesc[0]=The wildcard or file names to compress.
+HelpDesc[0]=Jokertecken eller filnamn som ska komprimeras.
+
+[MasterServerUplink]
+; EN: MSUPropText[0]="Advertise Server"
+MSUPropText[0]="Annonsera server"
+; EN: MSUPropText[1]="Process Stats"
+MSUPropText[1]="Processstatistik"
+; EN: MSUPropText[2]="Ignore UTAN Bans"
+MSUPropText[2]="Ignorera UTAN-förbud"
+; EN: MSUPropDesc[0]="if true, your server is advertised on the internet server browser."
+MSUPropDesc[0]="om sant, annonseras din server i webbläsaren på internetservern."
+; EN: MSUPropDesc[1]="Publishes player stats from your server on the UT2004 stats website."
+MSUPropDesc[1]="Publicerar spelarstatistik från din server på UT2004 statistikwebbplatsen."
+; EN: MSUPropDesc[2]="If true, your server will ignore UTAN based bans coming from the master server."
+MSUPropDesc[2]="Om sant, kommer din server att ignorera UTAN-baserade förbud som kommer från huvudservern."
+

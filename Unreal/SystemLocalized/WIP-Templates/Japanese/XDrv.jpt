@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
+; EN: Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="画面",Class=XDrv.XClient,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="XDrv",Parent="ジョイスティック",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D="3Dハードウェアの初期化に失敗しました"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="透視図"
+; EN: ViewXY="Overhead map"
+ViewXY="オーバーヘッドマップ"
+; EN: ViewXZ="XZ map"
+ViewXZ="XZマップ"
+; EN: ViewYZ="YZ map"
+ViewYZ="YZマップ"
+; EN: ViewOther="Viewport"
+ViewOther="ビューポート"
+; EN: Color16="&16-bit color"
+Color16="＆16ビットカラー"
+; EN: Color32="&32-bit color"
+Color32="＆32ビットカラー"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="高度なオプション"
+
+[XClient]
+; EN: ClassCaption="Standard XDrv Linux Manager"
+ClassCaption="標準のXDrvLinux Manager"

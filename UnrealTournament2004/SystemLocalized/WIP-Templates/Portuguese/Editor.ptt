@@ -1,0 +1,204 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; EN: Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="(Legenda = "Avançado", Pai = "Editor", Classe = Editor.EditorEngine, Imediato = Verdadeiro, Categoria = Avançado)"
+; EN: Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+Preferences="(Legenda = "Cores", Pai = "Editor", Classe = Editor.EditorEngine, Imediato = Verdadeiro, Categoria = Cores)"
+; EN: Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="(Legenda = "Grade", Pai = "Editor", Classe = Editor.EditorEngine, Imediato = Verdadeiro, Categoria = Grade)"
+; EN: Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
+Preferences="(Legenda = "Rotation Grid", Parent = "Editor", Class = Editor.EditorEngine, Immediate = True, Category = RotationGrid)"
+
+[PkgCommandlet]
+; EN: HelpCmd="pkg"
+HelpCmd="pacote"
+; EN: HelpOneLiner="Imports/Exports data to/from packages using directory structures."
+HelpOneLiner="Importa / exporta dados de / para pacotes usando estruturas de diretório."
+; EN: HelpUsage="pkg [import/export] [texture/sound] [packagename] [directory]"
+HelpUsage="pacote [importar / exportar] [textura / som] [nome do pacote] [diretório]"
+; EN: HelpParm[0]="import/export"
+HelpParm[0]="importar / exportar"
+; EN: HelpDesc[0]="What you are attempting to do with the data"
+HelpDesc[0]="O que você está tentando fazer com os dados"
+; EN: HelpParm[1]="texture/sound"
+HelpParm[1]="textura / som"
+; EN: HelpDesc[1]="The type of package you are working with"
+HelpDesc[1]="O tipo de pacote com o qual você está trabalhando"
+; EN: HelpParm[2]="packagename"
+HelpParm[2]="nome do pacote"
+; EN: HelpDesc[2]="The package you are creating/exporting from"
+HelpDesc[2]="O pacote que você está criando / exportando"
+; EN: HelpParm[3]="directory"
+HelpParm[3]="diretório"
+; EN: HelpDesc[3]="The directory to read from/write to"
+HelpDesc[3]="O diretório para ler / escrever"
+
+[MasterCommandlet]
+; EN: HelpCmd="master"
+HelpCmd="mestre"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="Crie arquivos do instalador mestre"
+; EN: HelpUsage="master [-option...] [parm=value]..."
+HelpUsage="mestre [-opção ...] [parm = valor] ..."
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from"
+HelpDesc[0]="Diretório raiz de onde copiar os arquivos de origem"
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to"
+HelpDesc[1]="Diretório raiz para copiar os arquivos de origem (liberação) para"
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference"
+HelpDesc[2]="Caminho para referência de caminho compactado delta"
+
+[MapConvertCommandlet]
+HelpCmd="mapconvert"
+; EN: HelpOneLiner="Converts Maps from old format to new (no brush transforms)"
+HelpOneLiner="Converte mapas do formato antigo para o novo (sem transformações de pincel)"
+HelpUsage="mapconvert SrcFilename DstFilename"
+HelpParm[0]="SrcFilename"
+; EN: HelpDesc[0]="The map filename to read from"
+HelpDesc[0]="O nome do arquivo do mapa para ler"
+HelpParm[1]="DstFilename"
+; EN: HelpDesc[1]="The map filename to write to"
+HelpDesc[1]="O nome do arquivo do mapa para escrever"
+
+[MakeCommandlet]
+; EN: HelpCmd="make"
+HelpCmd="faço"
+; EN: HelpOneLiner="Rebuild UnrealScript packages"
+HelpOneLiner="Reconstruir pacotes UnrealScript"
+; EN: HelpUsage="make [-option...] [parm=value]..."
+HelpUsage="make [-option ...] [parm = value] ..."
+HelpParm[0]="auto"
+; EN: HelpDesc[0]="No prompts; assume "yes" to all questions"
+HelpDesc[0]="Sem prompts; assuma "sim" para todas as perguntas"
+HelpParm[1]="nobind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs"
+HelpDesc[1]="Não force funções nativas a serem vinculadas a DLLs"
+; EN: HelpParm[2]="silentbuild"
+HelpParm[2]="construção silenciosa"
+; EN: HelpDesc[2]="Do not display 'Analyzing' & 'Compiling' messages for every class"
+HelpDesc[2]="Não exibir mensagens de 'Analisando' e 'Compilando' para todas as aulas"
+HelpParm[3]="exportcache"
+; EN: HelpDesc[3]="Create cache record files for the compiled package"
+HelpDesc[3]="Crie arquivos de registro de cache para o pacote compilado"
+
+[DXTConvertCommandlet]
+HelpCmd="dxtconvert"
+; EN: HelpOneLiner="Convert DXT3/5 textures to DXT1/ RGBA"
+HelpOneLiner="Converter texturas DXT3 / 5 em DXT1 / RGBA"
+HelpUsage="dxtconvert srcpath destpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files"
+HelpDesc[0]="Caminho contendo arquivos de origem"
+HelpParm[1]="destpath"
+; EN: HelpDesc[1]="Path for destination files"
+HelpDesc[1]="Caminho para arquivos de destino"
+
+[DataRipCommandlet]
+HelpCmd="datarip"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="Crie um pacote com dados de textura, música e som extraídos."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package"
+HelpDesc[0]="Pacote Fonte"
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package"
+HelpDesc[1]="Pacote de Destino"
+
+[PackageFlagCommandlet]
+; EN: HelpCmd="packageflag"
+HelpCmd="sinalizador de pacote"
+; EN: HelpOneLiner="Set package flags in package files"
+HelpOneLiner="Definir sinalizadores de pacote em arquivos de pacote"
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [dest.ext &lt;+ | -&gt; sinalizador [&lt;+ | -&gt; sinalizador] ...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load"
+HelpDesc[0]="Arquivo de pacote existente para carregar"
+HelpParm[1]="dest.exe"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings"
+HelpDesc[1]="Nome do novo arquivo de pacote com as novas configurações de sinalização"
+; EN: HelpParm[2]="flag"
+HelpParm[2]="bandeira"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+ para definir um sinalizador, ou - para remover um sinalizador, seguido por um dos seguintes:"
+HelpParm[3]=" "
+HelpDesc[3]="  AllowDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClientOptional"
+HelpParm[5]=" "
+HelpDesc[5]="  ServerSideOnly"
+HelpParm[6]=" "
+; EN: HelpDesc[6]="  BrokenLinks"
+HelpDesc[6]="  Links quebrados"
+HelpParm[7]=" "
+; EN: HelpDesc[7]="  Unsecure"
+HelpDesc[7]="  Inseguro"
+
+[ConformCommandlet]
+; EN: HelpCmd="conform"
+HelpCmd="conformar-se"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="Gerar arquivos binários em conformidade"
+HelpUsage="conform existing_file.ext old_file.ext"
+HelpParm[0]="existingfile.ext"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save"
+HelpDesc[0]="Arquivo binário existente para carregar, conformar e salvar"
+HelpParm[1]="oldfile.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with"
+HelpDesc[1]="Arquivo antigo para tornar o binário do arquivo fonte compatível com"
+
+[BatchExportCommandlet]
+HelpCmd="batchexport"
+; EN: HelpOneLiner="Export objects in bulk"
+HelpOneLiner="Exportar objetos em massa"
+HelpUsage="batchexport package.ext classname export_ext"
+HelpParm[0]="package.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export"
+HelpDesc[0]="Pacote cujos objetos você deseja exportar"
+; EN: HelpParm[1]="classname"
+HelpParm[1]="nome da classe"
+; EN: HelpDesc[1]="Class of object to export"
+HelpDesc[1]="Classe de objeto para exportar"
+HelpParm[2]="export_ext"
+; EN: HelpDesc[2]="File extension to export to"
+HelpDesc[2]="Extensão de arquivo para exportar para"
+; EN: HelpParm[3]="path"
+HelpParm[3]="caminho"
+; EN: HelpDesc[3]="Path to export files to, like c:\MyPath"
+HelpDesc[3]="Caminho para exportar arquivos, como c: \ MyPath"
+
+[AnalyzeContentCommandlet]
+; EN: HelpCmd="analyzecontent"
+HelpCmd="análise de conteúdo"
+; EN: HelpOneLiner="Analyzes map"
+HelpOneLiner="Analisa o mapa"
+; EN: HelpUsage="analyzecontent mapname"
+HelpUsage="analisecontent mapname"
+; EN: HelpParm[0]="mapname"
+HelpParm[0]="nome do mapa"
+; EN: HelpDesc[0]="Path to a map file"
+HelpDesc[0]="Caminho para um arquivo de mapa"

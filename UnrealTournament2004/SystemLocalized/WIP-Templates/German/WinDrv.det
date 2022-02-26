@@ -1,21 +1,34 @@
 [Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+; EN: Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Fenster",Parent="Anzeige",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Fenster",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
-Failed3D="3d hardware initialization failed"
-DDrawMode="DirectDraw was unable to set the requested video mode"
+; EN: Failed3D="3d hardware initialization failed"
+Failed3D="3D-Hardware-Initialisierung fehlgeschlagen"
+; EN: DDrawMode="DirectDraw was unable to set the requested video mode"
+DDrawMode="DirectDraw konnte den angeforderten Videomodus nicht einstellen"
 
 [General]
-ViewPersp="Perspective map"
-ViewXY="Overhead map"
-ViewXZ="XZ map"
-ViewYZ="YZ map"
-ViewOther="Viewport"
-Color16="&16-bit color"
-Color32="&32-bit color"
-AdvancedOptions="Advanced Options"
+; EN: ViewPersp="Perspective map"
+ViewPersp="Perspektivische Karte"
+; EN: ViewXY="Overhead map"
+ViewXY="Übersichtskarte"
+; EN: ViewXZ="XZ map"
+ViewXZ="XZ-Karte"
+; EN: ViewYZ="YZ map"
+ViewYZ="YZ-Karte"
+; EN: ViewOther="Viewport"
+ViewOther="Ansichtsfenster"
+; EN: Color16="&16-bit color"
+Color16="&amp;16-Bit-Farbe"
+; EN: Color32="&32-bit color"
+Color32="&amp;32-Bit-Farbe"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Erweiterte Optionen"
 
 [WindowsClient]
-ClassCaption="Standard Windows Manager"
+; EN: ClassCaption="Standard Windows Manager"
+ClassCaption="Standard-Windows-Manager"

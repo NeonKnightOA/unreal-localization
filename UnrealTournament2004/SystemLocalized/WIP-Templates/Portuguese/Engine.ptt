@@ -1,0 +1,882 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Avançado",Parent="Opções avançadas")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Áudio",Parent="Opções avançadas")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Exibição",Parent="Opções avançadas")
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="editor",Parent="Opções avançadas")
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Configurações do jogo",Parent="Opções avançadas",Class=Engine.GameInfo,Immediate=True)
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Controle de video game",Parent="Opções avançadas")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Opções avançadas")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Renderização",Parent="Opções avançadas")
+; "Advanced" root
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Configurações do motor de jogo",Parent="Avançado",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Aliases de chave",Parent="Avançado",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Ligações de teclas brutas",Parent="Avançado",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Motoristas",Parent="Opções avançadas",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; "Networking" root
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Informação do servidor público",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+
+[Errors]
+; EN: NetOpen=Error opening file
+NetOpen=Erro ao abrir arquivo
+; EN: NetWrite=Error writing to file
+NetWrite=Erro ao gravar no arquivo
+; EN: NetRefused=Server refused to send '%s'
+NetRefused=O servidor recusou-se a enviar '% s'
+; EN: NetClose=Error closing file
+NetClose=Erro ao fechar arquivo
+; EN: NetSize=File size mismatch
+NetSize=Tamanho de arquivo incompatível
+; EN: NetMove=Error moving file
+NetMove=Erro ao mover o arquivo
+; EN: NetInvalid=Received invalid file request
+NetInvalid=Pedido de arquivo inválido recebido
+; EN: NoDownload=Package '%s' is not downloadable
+NoDownload=O pacote '% s' não pode ser baixado
+; EN: DownloadFailed=Downloading package '%s' failed: %s
+DownloadFailed=O download do pacote '% s' falhou:% s
+; EN: RequestDenied=Server requested file from pending level: Denied
+RequestDenied=O servidor solicitou o arquivo do nível pendente: negado
+; EN: ConnectionFailed=Connection failed
+ConnectionFailed=Conexão falhou
+; EN: ChAllocate=Couldn't allocate channel
+ChAllocate=Não foi possível alocar canal
+; EN: NetAlready=Already networking
+NetAlready=Já fazendo networking
+; EN: NetListen=Listen failed: No linker context available
+NetListen=Falha na escuta: Nenhum contexto de vinculador disponível
+; EN: LoadEntry=Can't load Entry: %s
+LoadEntry=Não é possível carregar a entrada:% s
+; EN: InvalidUrl=Invalid URL: %s
+InvalidUrl=URL inválido:% s
+; EN: InvalidLink=Invalid Link: %s
+InvalidLink=Link inválido:% s
+; EN: FailedBrowse=Failed to enter %s: %s
+FailedBrowse=Falha ao inserir% s:% s
+; EN: Listen=Listen failed: %s
+Listen=Falha ao ouvir:% s
+; EN: AbortToEntry=Failed; returning to Entry
+AbortToEntry=Fracassado; voltando para a entrada
+; EN: ServerOpen=Servers can't open network URLs
+ServerOpen=Os servidores não podem abrir URLs de rede
+; EN: ServerListen=Dedicated server can't listen: %s
+ServerListen=O servidor dedicado não pode escutar:% s
+; EN: Pending=Pending connect to '%s' failed; %s
+Pending=Falha na conexão pendente com '% s'; % s
+; EN: LoadPlayerClass=Failed to load player class
+LoadPlayerClass=Falha ao carregar classe de jogador
+; EN: ServerOutdated=Server's version is outdated
+ServerOutdated=A versão do servidor está desatualizada
+; EN: ClientOutdated=You need to apply the latest patches
+ClientOutdated=Você precisa aplicar os patches mais recentes
+; EN: InvalidCDKey=Your CD key appears to be invalid.  You will need to reinstall the game and enter your CD key to fix this problem.
+InvalidCDKey=Sua chave de CD parece ser inválida. Você precisará reinstalar o jogo e inserir a chave do CD para corrigir o problema.
+; EN: ConnectLost=Connection Lost
+ConnectLost=Conexão perdida
+; EN: DemoFileMissing=Missing package '%s' for demo playback
+DemoFileMissing=Falta o pacote '% s' para reprodução de demonstração
+; EN: DownloadNotAllowed=Downloading '%s' not allowed
+DownloadNotAllowed=Download de '% s' não permitido
+
+[General]
+; EN: Upgrade=To enter this server, you need the latest free update to Unreal available from Epic's Web site:
+Upgrade=Para entrar neste servidor, você precisa da última atualização gratuita do Unreal disponível no site da Epic:
+UpgradeURL=http://www.unreal.com/upgrade
+; EN: UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
+UpgradeQuestion=Deseja iniciar seu navegador da web e ir para a página de atualização agora?
+; EN: Version=Version %i
+Version=Versão% i
+
+[KeyNames]
+; EN: Up=UP
+Up=ACIMA
+; EN: Right=RIGHT
+Right=DIREITO
+; EN: Left=LEFT
+Left=DEIXOU
+; EN: Down=DOWN
+Down=BAIXA
+; EN: LeftMouse=LEFT MOUSE
+LeftMouse=MOUSE ESQUERDO
+; EN: RightMouse=RIGHT MOUSE
+RightMouse=DIREITO DO MOUSE
+; EN: MiddleMouse=MIDDLE MOUSE
+MiddleMouse=MOUSE DO MEIO
+MouseX=MOUSE X
+MouseY=MOUSE Y
+MouseZ=MOUSE Z
+MouseW=MOUSE W
+JoyX=JOY X
+JoyY=JOY Y
+JoyZ=JOY Z
+JoyU=JOY U
+; EN: JoyV=JOY V
+JoyV=ALEGRIA V
+JoySlider1=JOYSLIDER 1
+JoySlider2=JOYSLIDER 2
+MouseWheelUp=MOUSEWHEEL UP
+MouseWheelDown=MOUSEWHEEL DOWN
+; EN: Joy1=JOY 1
+Joy1=ALEGRIA 1
+; EN: Joy2=JOY 2
+Joy2=ALEGRIA 2
+; EN: Joy3=JOY 3
+Joy3=ALEGRIA 3
+; EN: Joy4=JOY 4
+Joy4=ALEGRIA 4
+; EN: Joy5=JOY 5
+Joy5=ALEGRIA 5
+; EN: Joy6=JOY 6
+Joy6=ALEGRIA 6
+; EN: Joy7=JOY 7
+Joy7=ALEGRIA 7
+; EN: Joy8=JOY 8
+Joy8=ALEGRIA 8
+Joy9=JOY 9
+; EN: Joy10=JOY 10
+Joy10=ALEGRIA 10
+; EN: Joy11=JOY 11
+Joy11=ALEGRIA 11
+; EN: Joy12=JOY 12
+Joy12=ALEGRIA 12
+; EN: Joy13=JOY 13
+Joy13=ALEGRIA 13
+; EN: Joy14=JOY 14
+Joy14=ALEGRIA 14
+; EN: Joy15=JOY 15
+Joy15=ALEGRIA 15
+; EN: Joy16=JOY 16
+Joy16=ALEGRIA 16
+; EN: Space=SPACE
+Space=ESPAÇO
+; EN: PageUp=PAGE UP
+PageUp=SUBIR PÁGINA
+PageDown=PAGE DOWN
+; EN: End=END
+End=FIM
+; EN: Home=HOME
+Home=CASA
+; EN: Select=SELECT
+Select=SELECIONE
+; EN: Print=PRINT
+Print=IMPRIMIR
+; EN: Execute=EXECUTE
+Execute=EXECUTAR
+PrintScrn=PRINTSCRN
+; EN: Insert=INSERT
+Insert=INSERIR
+; EN: Delete=DELETE
+Delete=EXCLUIR
+; EN: Help=HELP
+Help=AJUDA
+NumPad0=NUM 0
+NumPad1=NUM 1
+NumPad2=NUM 2
+NumPad3=NUM 3
+NumPad4=NUM 4
+NumPad5=NUM 5
+NumPad6=NUM 6
+NumPad7=NUM 7
+NumPad8=NUM 8
+NumPad9=NUM 9
+; EN: GreyStar=GREY STAR
+GreyStar=ESTRELA CINZA
+GreyPlus=GREY PLUS
+; EN: Separator=SEPARATOR
+Separator=SEPARADOR
+; EN: GreyMinus=GREY MINUS
+GreyMinus=CINZA MENOS
+; EN: NumPadPeriod=NUM .
+NumPadPeriod=NUM.
+GreySlash=GREY SLASH
+; EN: Pause=PAUSE
+Pause=PAUSA
+; EN: CapsLock=CAPSLOCK
+CapsLock=CAPS LOCK
+; EN: Tab=TAB
+Tab=ABA
+; EN: Enter=ENTER
+Enter=DIGITAR
+; EN: Shift=SHIFT
+Shift=MUDANÇA
+; EN: NumLock=NUMLOCK
+NumLock=NUM LOCK
+; EN: Escape=ESCAPE
+Escape=FUGA
+
+[Progress]
+; EN: CancelledConnect=Cancelled Connect Attempt
+CancelledConnect=Tentativa de conexão cancelada
+; EN: RunningNet=%s: %s (%i players)
+RunningNet=% s:% s (% i jogadores)
+; EN: NetReceiving=Receiving '%s': %i/%i
+NetReceiving=Recebendo '% s':% i /% i
+; EN: NetReceiveOk=Successfully received '%s'
+NetReceiveOk=Recebido com sucesso '% s'
+; EN: NetSend=Sending '%s'
+NetSend=Enviando '% s'
+; EN: NetSending=Sending '%s': %i/%i
+NetSending=Enviando '% s':% i /% i
+; EN: Connecting=Connecting (F10 to Abort)...
+Connecting=Conectando (F10 para Abortar) ...
+; EN: Listening=Listening for clients...
+Listening=Ouvindo clientes ...
+; EN: Loading=Loading
+Loading=Carregando
+; EN: Saving=Saving
+Saving=Salvando
+; EN: Paused=Paused by %s
+Paused=Pausado por% s
+; EN: ReceiveFile=Receiving '%s' (F10 Cancels)
+ReceiveFile=Recebendo '% s' (F10 cancelamentos)
+; EN: ReceiveOptionalFile=Receiving optional file '%s' (Press F10 to Skip)
+ReceiveOptionalFile=Recebendo o arquivo opcional '% s' (pressione F10 para pular)
+; EN: ReceiveSize=Size %iK, Complete %3.1f%%
+ReceiveSize=Tamanho% iK, Completo% 3.1f %%
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="Conectando (F10 Cancela):"
+; EN: ConnectingURL=%s://%s/%s
+ConnectingURL=% s: //% s /% s
+; EN: CorruptConnect=Incompatible Game Files!
+CorruptConnect=Arquivos de jogo incompatíveis!
+
+[UpgradeDrivers]
+; EN: OutdatedDrivers=You are running old graphics card drivers that might not work in conjunction with the game.
+OutdatedDrivers=Você está executando drivers de placa gráfica antigos que podem não funcionar em conjunto com o jogo.
+; EN: OursOrWeb=Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage
+OursOrWeb=Escolha SIM para instalar os drivers atualizados de nosso CD e NÃO para visitar a página inicial dos fabricantes
+; EN: InsertCD=Please insert your Unreal Tournament CD 3
+InsertCD=Insira seu CD 3 do Unreal Tournament
+NvidiaURL=http://www.nvidia.com/content/drivers/drivers.asp
+AtiURL=http://www.ati.com/support/driver.html
+; EN: CDButton=Upgrade from CD
+CDButton=Atualizar do CD
+; EN: WebButton=Upgrade from Web
+WebButton=Atualizar da Web
+; EN: cancelButton=Don't Upgrade
+cancelButton=Não atualize
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5
+; EN: HelpOneLiner=Manipulate the Master MD5 database
+HelpOneLiner=Manipular o banco de dados Master MD5
+; EN: HelpUsage=mastermd5 [-option..] <params>
+HelpUsage=mastermd5 [-option ..] &lt;params&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-c
+; EN: HelpDesc[0]=Creates a new MD5 database
+HelpDesc[0]=Cria um novo banco de dados MD5
+; EN: HelpParm[1]=-a
+HelpParm[1]=-uma
+; EN: HelpDesc[1]=Adds new packages to the database
+HelpDesc[1]=Adiciona novos pacotes ao banco de dados
+HelpParm[2]=-s
+; EN: HelpDesc[2]=Show the current database.
+HelpDesc[2]=Mostra o banco de dados atual.
+HelpParm[3]=-r
+; EN: HelpDesc[3]=Force the revision of all entries to <param>
+HelpDesc[3]=Força a revisão de todas as entradas para &lt;param&gt;
+
+[UModUnpackCommandlet]
+HelpCmd=umodunpack
+; EN: HelpOneLiner=Unpack UMOD files
+HelpOneLiner=Descompacte arquivos UMOD
+; EN: HelpUsage=umodunpack [-option] <filename>
+HelpUsage=umodunpack [-option] &lt;filename&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-x
+; EN: HelpDesc[0]=Extract files from <filename>
+HelpDesc[0]=Extraia arquivos de &lt;filename&gt;
+; EN: HelpParm[1]=-l
+HelpParm[1]=-eu
+; EN: HelpDesc[1]=List files in <filename> without extracting.
+HelpDesc[1]=Liste arquivos em &lt;filename&gt; sem extrair.
+
+[ServerCommandlet]
+; EN: HelpCmd=server
+HelpCmd=servidor
+; EN: HelpOneLiner=Network game server
+HelpOneLiner=Servidor de jogo em rede
+; EN: HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpUsage=server map.unr [? game = gametype] [-option ...] [parm = value] ...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=Log
+HelpParm[0]=Registro
+; EN: HelpDesc[0]=Specify the log file to generate
+HelpDesc[0]=Especifique o arquivo de log a ser gerado
+HelpParm[1]=AllAdmin
+; EN: HelpDesc[1]=Give all players admin priveleges
+HelpDesc[1]=Dê privilégios de administrador a todos os jogadores
+
+[ExportCacheCommandlet]
+HelpCmd=exportcache
+; EN: HelpOneLIner=Generates cache record entries for the specified packages.
+HelpOneLIner=Gera entradas de registro de cache para os pacotes especificados.
+; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext ...] [destfilename.ucl]
+HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
+; EN: HelpParm[0]=-a
+HelpParm[0]=-uma
+HelpParm[1]=-y
+HelpParm[2]=-v
+HelpParm[3]=package.ext
+HelpParm[4]=destfilename.ucl
+; EN: HelpDesc[0]=Update matching entries in destfilename.ucl.  Append any new entries.
+HelpDesc[0]=Atualize as entradas correspondentes em destfilename.ucl. Acrescente quaisquer novas entradas.
+; EN: HelpDesc[1]=Automatically answer 'Yes' to any prompts during the operation.
+HelpDesc[1]=Responda automaticamente 'Sim' a qualquer solicitação durante a operação.
+; EN: HelpDesc[2]=Verbose output (to ucc.log)
+HelpDesc[2]=Saída detalhada (para ucc.log)
+; EN: HelpDesc[3]=Space delimited list of packages (including extension) that should be exported.  Wildcards are supported.  Paths are not required.
+HelpDesc[3]=Lista delimitada por espaço de pacotes (incluindo extensão) que devem ser exportados. Há suporte para curingas. Os caminhos não são obrigatórios.
+; EN: HelpDesc[4]=Destination file for exported entries.  Default filename is the name of the package being exported.  To export multiple packages to a single .ucl file, you must specify a destination filename.
+HelpDesc[4]=Arquivo de destino para entradas exportadas. O nome do arquivo padrão é o nome do pacote que está sendo exportado. Para exportar vários pacotes para um único arquivo .ucl, você deve especificar um nome de arquivo de destino.
+
+[AccessControl]
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="Seu endereço IP foi banido neste servidor."
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="A senha que você digitou está incorreta."
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="Você precisa inserir uma senha para entrar neste jogo."
+; EN: SessionBanned="Your IP address has been banned from the current game session."
+SessionBanned="Seu endereço IP foi banido da sessão de jogo atual."
+; EN: KickedMsg="You have been forcibly removed from the game."
+KickedMsg="Você foi removido do jogo à força."
+; EN: DefaultKickReason="None specified"
+DefaultKickReason="nada especificado"
+; EN: IdleKickReason="Kicked for idling."
+IdleKickReason="Chutado por inatividade."
+; EN: ACDisplayText[0]="Game Password"
+ACDisplayText[0]="Senha do jogo"
+; EN: ACDisplayText[1]="Access Policies"
+ACDisplayText[1]="Políticas de Acesso"
+; EN: ACDisplayText[2]="Admin Password"
+ACDisplayText[2]="Senha do administrador"
+; EN: ACDisplayText[3]="Login Delay"
+ACDisplayText[3]="Atraso de login"
+; EN: ACDescText[0]="If this password is set, players will have to enter it to join this server."
+ACDescText[0]="Se esta senha for definida, os jogadores terão que inseri-la para entrar neste servidor."
+; EN: ACDescText[1]="Specifies IP addresses or address ranges which have been banned."
+ACDescText[1]="Especifica endereços IP ou intervalos de endereços que foram banidos."
+; EN: ACDescText[2]="Password required to login with administrator privileges on this server."
+ACDescText[2]="Senha necessária para fazer login com privilégios de administrador neste servidor."
+; EN: ACDescText[3]="Number of seconds user must wait after an unsuccessful login attempt before able to login again."
+ACDescText[3]="Número de segundos que o usuário deve esperar após uma tentativa malsucedida de login antes de poder fazer o login novamente."
+
+[AdminBase]
+; EN: Msg_PlayerList="Player List:"
+Msg_PlayerList="Lista de jogadores:"
+; EN: Msg_AllGameMaps="Maps that are valid (can be added) to"
+Msg_AllGameMaps="Mapas que são válidos (podem ser adicionados) para"
+; EN: Msg_AllMapLists="Available maplists for %gametype%."
+Msg_AllMapLists="Maplists disponíveis para% gametype%."
+; EN: Msg_MapRotationList="Active maps for maplist %maplist%."
+Msg_MapRotationList="Mapas ativos para maplist% maplist%."
+; EN: Msg_NoMapsAdded="No maps added to the maplist %maplist%."
+Msg_NoMapsAdded="Nenhum mapa adicionado ao maplist% maplist%."
+; EN: Msg_AddedMapToList="Maps successfully added to maplist"
+Msg_AddedMapToList="Mapas adicionados com sucesso ao maplist"
+; EN: Msg_NoMapsRemoved="No maps were removed from the maplist %maplist%."
+Msg_NoMapsRemoved="Nenhum mapa foi removido do maplist% maplist%."
+; EN: Msg_RemovedFromList="Maps successfully removed from maplist"
+Msg_RemovedFromList="Mapas removidos com sucesso do maplist"
+; EN: Msg_PlayerBanned="%Player% has been banned from this server"
+Msg_PlayerBanned="% Player% foi banido deste servidor"
+; EN: Msg_SessionBanned="%Player% has been banned for this match"
+Msg_SessionBanned="% Player% foi banido para este jogo"
+; EN: Msg_PlayerKicked="%Player% has been kicked"
+Msg_PlayerKicked="% Player% foi chutado"
+; EN: Msg_NextMapNotFound="Next map not found; Restarting same map"
+Msg_NextMapNotFound="Próximo mapa não encontrado; Reiniciando o mesmo mapa"
+; EN: Msg_ChangingMapTo="Changing Map to %NextMap%"
+Msg_ChangingMapTo="Mudando o mapa para% NextMap%"
+; EN: Msg_NoMapInRotation="No maps configured for %maplist%."
+Msg_NoMapInRotation="Nenhum mapa configurado para% maplist%."
+; EN: Msg_NoMapsFound="No matching maps in maplist %maplist% were found."
+Msg_NoMapsFound="Nenhum mapa correspondente no maplist% maplist% foi encontrado."
+; EN: Msg_MapIsInRotation="Matching %maplist% maps"
+Msg_MapIsInRotation="Mapas de% maplist% correspondentes"
+; EN: Msg_MapNotInRotation="Matching maps which are not members of %maplist%."
+Msg_MapNotInRotation="Mapas correspondentes que não são membros de% maplist%."
+; EN: Msg_UnknownParam="Unknown Parameter : %Value%"
+Msg_UnknownParam="Parâmetro desconhecido:% Value%"
+; EN: Msg_NoParamsFound="No Parameters found!"
+Msg_NoParamsFound="Nenhum parâmetro encontrado!"
+; EN: Msg_ParamModified="Modification Successful"
+Msg_ParamModified="Modificação bem-sucedida"
+; EN: Msg_ParamNotModified="Could not Modify Parameter"
+Msg_ParamNotModified="Não foi possível modificar o parâmetro"
+; EN: Msg_MapListAdded="Maplist %listname% successfully added for gametype"
+Msg_MapListAdded="Maplist% listname% adicionado com sucesso para o tipo de jogo"
+; EN: Msg_MapListRemoved="Maplist %listname% successfully removed from gametype"
+Msg_MapListRemoved="Maplist% listname% removido com sucesso do tipo de jogo"
+; EN: Msg_EditingMapList="Now editing maplist"
+Msg_EditingMapList="Agora editando maplist"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo."
+PickupMessage="Você pegou um pouco de munição."
+
+[BroadcastHandler]
+; EN: BHDisplayText[0]="Mute Spectators"
+BHDisplayText[0]="Espectadores mudos"
+; EN: BHDisplayText[1]="Partition Spectators"
+BHDisplayText[1]="Espectadores de partição"
+; EN: BHDescText[0]="Check this option to prevent spectators from chatting during the game."
+BHDescText[0]="Marque esta opção para evitar que os espectadores conversem durante o jogo."
+; EN: BHDescText[1]="Check this option to separate spectator chat from player chat."
+BHDescText[1]="Marque esta opção para separar o bate-papo do espectador do bate-papo do jogador."
+
+[Canvas]
+TinyFontName="UT2003Fonts.FontMono"
+SmallFontName="UT2003Fonts.FontMono"
+MedFontName="UT2003Fonts.FontMono800x600"
+
+[ChatRoomMessage]
+; EN: AnonText="Someone"
+AnonText="Alguém"
+; EN: ChatRoomString[0]="Invalid channel or channel couldn't be found: '%title%'"
+ChatRoomString[0]="Canal inválido ou canal não encontrado: '% title%'"
+; EN: ChatRoomString[1]="Already a member of channel '%title%'"
+ChatRoomString[1]="Já é membro do canal '% title%'"
+; EN: ChatRoomString[2]="Channel '%title%' requires a password!"
+ChatRoomString[2]="O canal '% title%' requer uma senha!"
+; EN: ChatRoomString[3]="Incorrect password specified for channel '%title%'"
+ChatRoomString[3]="Senha incorreta especificada para o canal '% title%'"
+; EN: ChatRoomString[4]="You have been banned from channel '%title%'"
+ChatRoomString[4]="Você foi banido do canal '% title%'"
+; EN: ChatRoomString[5]="Couldn't join channel '%title%'.  Channel full!"
+ChatRoomString[5]="Não foi possível entrar no canal '% title%'. Canal cheio!"
+; EN: ChatRoomString[6]="You are not allowed to join channel '%title%'"
+ChatRoomString[6]="Você não tem permissão para entrar no canal '% title%'"
+; EN: ChatRoomString[7]="Successfully joined channel '%title%'"
+ChatRoomString[7]="Entrou no canal '% title%' com sucesso"
+; EN: ChatRoomString[8]="You left channel '%title%'"
+ChatRoomString[8]="Você saiu do canal '% title%'"
+; EN: ChatRoomString[9]="Now speaking on channel '%title%'"
+ChatRoomString[9]="Agora falando no canal '% title%'"
+; EN: ChatRoomString[10]="No longer speaking on channel '%title%'"
+ChatRoomString[10]="Não falo mais no canal '% title%'"
+; EN: ChatRoomString[11]="'%pri%' joined channel '%title%'"
+ChatRoomString[11]="'% pri%' entrou no canal '% title%'"
+; EN: ChatRoomString[12]="'%pri%' left channel '%title%'"
+ChatRoomString[12]="'% pri%' canal esquerdo '% title%'"
+; EN: ChatRoomString[13]="Successfully banned '%pri%' from your personal chat channel"
+ChatRoomString[13]="Banido com sucesso '% pri%' do seu canal de chat pessoal"
+; EN: ChatRoomString[14]="Voice-chat ban action not successful.  No player with the specified ID was found"
+ChatRoomString[14]="A ação de proibição do chat de voz não foi bem-sucedida. Nenhum jogador com o ID especificado foi encontrado"
+; EN: ChatRoomString[15]="Voice chat is not enabled on this server"
+ChatRoomString[15]="O bate-papo por voz não está habilitado neste servidor"
+
+[Crushed]
+; EN: DeathString="%o was crushed by %k."
+DeathString="% o foi esmagado por% k."
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="% o foi esmagado."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="% o foi esmagado."
+
+[DamRanOver]
+; EN: DeathString="%k ran over %o"
+DeathString="% k atropelou% o"
+; EN: FemaleSuicide="%o ran over herself"
+FemaleSuicide="% o se atropelou"
+; EN: MaleSuicide="%o ran over himself"
+MaleSuicide="% o se atropelou"
+
+[DamTypeTelefragged]
+; EN: DeathString="%o was telefragged by %k"
+DeathString="% o foi disparado por telefrag por% k"
+; EN: FemaleSuicide="%o was telefragged by %k"
+FemaleSuicide="% o foi disparado por telefrag por% k"
+; EN: MaleSuicide="%o was telefragged by %k"
+MaleSuicide="% o foi disparado por telefrag por% k"
+
+[DamageType]
+; EN: DeathString="%o was killed by %k."
+DeathString="% o foi morto por% k."
+; EN: FemaleSuicide="%o killed herself."
+FemaleSuicide="% o se matou."
+; EN: MaleSuicide="%o killed himself."
+MaleSuicide="% o se matou."
+
+[FailedConnect]
+; EN: FailMessage[0]="FAILED TO JOIN GAME.  NEED PASSWORD."
+FailMessage[0]="FALHOU EM PARTICIPAR DO JOGO. PRECISA DE SENHA."
+; EN: FailMessage[1]="FAILED TO JOIN GAME.  WRONG PASSWORD."
+FailMessage[1]="FALHOU EM PARTICIPAR DO JOGO. SENHA INCORRETA."
+; EN: FailMessage[2]="FAILED TO JOIN GAME.  GAME HAS STARTED."
+FailMessage[2]="FALHOU EM PARTICIPAR DO JOGO. O JOGO COMEÇOU."
+; EN: FailMessage[3]="FAILED TO JOIN GAME."
+FailMessage[3]="FALHOU EM PARTICIPAR DO JOGO."
+
+[FellLava]
+; EN: DeathString="%k made %o take a deadly swim."
+DeathString="% k fez% o dar um mergulho mortal."
+; EN: FemaleSuicide="%o crashed and burned"
+FemaleSuicide="% o caiu e queimou"
+; EN: MaleSuicide="%o crashed and burned"
+MaleSuicide="% o caiu e queimou"
+
+[GameInfo]
+; EN: bAlternateMode=False
+bAlternateMode=Falso
+; EN: GoreLevelText[0]="No Gore"
+GoreLevelText[0]="Sem sangue"
+; EN: GoreLevelText[1]="Reduced Gore"
+GoreLevelText[1]="Gore Reduzido"
+GoreLevelText[2]="Full Gore"
+; EN: DefaultPlayerName="Player"
+DefaultPlayerName="Jogador"
+; EN: GameName="Game"
+GameName="Jogo"
+; EN: GIPropsDisplayText[0]="Bot Skill"
+GIPropsDisplayText[0]="Habilidade do bot"
+; EN: GIPropsDisplayText[1]="Weapons Stay"
+GIPropsDisplayText[1]="Armas ficam"
+; EN: GIPropsDisplayText[2]="Reduce Gore Level"
+GIPropsDisplayText[2]="Reduzir o nível de sangue"
+; EN: GIPropsDisplayText[3]="Game Speed"
+GIPropsDisplayText[3]="Velocidade do jogo"
+; EN: GIPropsDisplayText[4]="Max Spectators"
+GIPropsDisplayText[4]="Máximo de espectadores"
+; EN: GIPropsDisplayText[5]="Max Players"
+GIPropsDisplayText[5]="Máximo de jogadores"
+; EN: GIPropsDisplayText[6]="Goal Score"
+GIPropsDisplayText[6]="Pontuação do gol"
+GIPropsDisplayText[7]="Max Lives"
+; EN: GIPropsDisplayText[8]="Time Limit"
+GIPropsDisplayText[8]="Limite de tempo"
+; EN: GIPropsDisplayText[9]="World Stats Logging"
+GIPropsDisplayText[9]="Registro de estatísticas mundiais"
+; EN: GIPropsDisplayText[10]="Allow Weapon Throwing"
+GIPropsDisplayText[10]="Permitir lançamento de armas"
+; EN: GIPropsDisplayText[11]="Allow Behind View"
+GIPropsDisplayText[11]="Permitir Atrás da Visão"
+; EN: GIPropsDisplayText[12]="Allow Admin Pausing"
+GIPropsDisplayText[12]="Permitir pausa do administrador"
+; EN: GIPropsDisplayText[13]="Kick Idlers Time"
+GIPropsDisplayText[13]="Tempo de chute ociosos"
+; EN: GIPropsDisplayText[14]="Weapons shake view"
+GIPropsDisplayText[14]="Armas sacudem a vista"
+; EN: GIPropDescText[0]="Set the skill of your bot opponents."
+GIPropDescText[0]="Defina a habilidade de seus oponentes bot."
+; EN: GIPropDescText[1]="When enabled, weapons will always be available for pickup."
+GIPropDescText[1]="Quando habilitado, as armas sempre estarão disponíveis para coleta."
+; EN: GIPropDescText[2]="Enable this option to reduce the amount of blood and guts you see."
+GIPropDescText[2]="Ative esta opção para reduzir a quantidade de sangue e vísceras que você vê."
+; EN: GIPropDescText[3]="Controls how fast time passes in the game."
+GIPropDescText[3]="Controla a rapidez com que o tempo passa no jogo."
+; EN: GIPropDescText[4]="Sets the maximum number of spectators that can watch the game."
+GIPropDescText[4]="Define o número máximo de espectadores que podem assistir ao jogo."
+; EN: GIPropDescText[5]="Sets the maximum number of players that can join this server."
+GIPropDescText[5]="Define o número máximo de jogadores que podem ingressar neste servidor."
+; EN: GIPropDescText[6]="The game ends when someone reaches this score."
+GIPropDescText[6]="O jogo termina quando alguém atinge essa pontuação."
+; EN: GIPropDescText[7]="Limits how many times players can respawn after dying."
+GIPropDescText[7]="Limita quantas vezes os jogadores podem reaparecer após morrer."
+; EN: GIPropDescText[8]="The game ends after this many minutes of play."
+GIPropDescText[8]="O jogo termina após tantos minutos de jogo."
+; EN: GIPropDescText[9]="Enable this option to send game statistics to the UT2004 global stats server"
+GIPropDescText[9]="Habilite esta opção para enviar estatísticas do jogo para o servidor de estatísticas globais UT2004"
+; EN: GIPropDescText[10]="When enabled, players can throw their current weapon out."
+GIPropDescText[10]="Quando habilitado, os jogadores podem jogar sua arma atual."
+; EN: GIPropDescText[11]="Controls whether players can switch to a third person view."
+GIPropDescText[11]="Controla se os jogadores podem mudar para uma visão de terceira pessoa."
+; EN: GIPropDescText[12]="Controls whether administrators can pause the game."
+GIPropDescText[12]="Controla se os administradores podem pausar o jogo."
+; EN: GIPropDescText[13]="Specifies how long to wait before kicking idle player from server."
+GIPropDescText[13]="Especifica quanto tempo esperar antes de chutar o jogador inativo do servidor."
+; EN: GIPropDescText[14]="When enabled, some weapons cause view shaking while firing."
+GIPropDescText[14]="Quando ativadas, algumas armas causam tremores na visão ao disparar."
+; EN: GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
+GIPropsExtras[0]="0,000000; Novato; 1,0000; Médio; 2,000000; Experiente; 3,0000,00; Habilitado; 4,0000,00; Adepto; 5,0000,00; Mestre; 6,0000; Inumano; 7,0000,00; Divino"
+; EN: NoBindString="[None]"
+NoBindString="[Nenhum]"
+
+[GameMessage]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="Níveis de mudança"
+; EN: LeftMessage=" left the game."
+LeftMessage=" deixe o jogo."
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="Não foi possível encontrar time para jogador"
+; EN: FailedPlaceMessage="Could not find a starting spot"
+FailedPlaceMessage="Não foi possível encontrar um ponto de partida"
+; EN: FailedSpawnMessage="Could not spawn player"
+FailedSpawnMessage="Não foi possível gerar jogador"
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" entrou no jogo."
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="O servidor já está no limite."
+; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
+OvertimeMessage="Resultado empatado no final do regulamento. Horas extras de morte súbita !!!"
+; EN: GlobalNameChange="changed name to"
+GlobalNameChange="mudou o nome para"
+; EN: NewTeamMessage="is now on"
+NewTeamMessage="agora está ligado"
+; EN: NoNameChange="Name is already in use."
+NoNameChange="O nome já está em uso."
+; EN: VoteStarted="started a vote."
+VoteStarted="começou uma votação."
+; EN: VotePassed="Vote passed."
+VotePassed="Votação aprovada."
+; EN: MustHaveStats="Must have stats enabled to join this server."
+MustHaveStats="Deve ter estatísticas habilitadas para ingressar neste servidor."
+; EN: CantBeSpectator="Sorry, you cannot become a spectator at this time."
+CantBeSpectator="Desculpe, você não pode se tornar um espectador neste momento."
+; EN: CantBePlayer="Sorry, you cannot become an active player at this time."
+CantBePlayer="Desculpe, você não pode se tornar um jogador ativo neste momento."
+; EN: BecameSpectator="became a spectator."
+BecameSpectator="tornou-se um espectador."
+; EN: NewPlayerMessage="A new player entered the game."
+NewPlayerMessage="Um novo jogador entrou no jogo."
+; EN: KickWarning="You are about to be kicked for idling!"
+KickWarning="Você está prestes a ser chutado por inatividade!"
+; EN: NewSpecMessage="A spectator entered the game/"
+NewSpecMessage="Um espectador entrou no jogo /"
+; EN: SpecEnteredMessage=" joined as a spectator."
+SpecEnteredMessage=" juntou-se como espectador."
+
+[GameProfile]
+; EN: PositionName[0]="AUTO-ASSIGN"
+PositionName[0]="AUTO-ATRIBUIÇÃO"
+; EN: PositionName[1]="DEFENSE"
+PositionName[1]="DEFESA"
+; EN: PositionName[2]="OFFENSE"
+PositionName[2]="OFENSA"
+PositionName[3]="ROAM"
+; EN: PositionName[4]="SUPPORT"
+PositionName[4]="APOIO, SUPORTE"
+
+[GameReplicationInfo]
+; EN: GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[0]="Nome do servidor"
+; EN: GRIPropsDisplayText[1]="Admin Name"
+GRIPropsDisplayText[1]="Nome do Admin"
+GRIPropsDisplayText[2]="Admin E-Mail"
+GRIPropsDisplayText[3]="MOTD"
+; EN: GRIPropDescText[0]="Server name shown on server browser."
+GRIPropDescText[0]="Nome do servidor mostrado no navegador do servidor."
+; EN: GRIPropDescText[1]="Server administrator's name"
+GRIPropDescText[1]="Nome do administrador do servidor"
+; EN: GRIPropDescText[2]="Server administrator's email address."
+GRIPropDescText[2]="Endereço de e-mail do administrador do servidor."
+; EN: GRIPropDescText[3]="Message of the Day"
+GRIPropDescText[3]="Mensagem do Dia"
+
+[Gibbed]
+; EN: DeathString="%o exploded in a shower of body parts"
+DeathString="% o explodiu em uma chuva de partes do corpo"
+; EN: FemaleSuicide="%o exploded in a shower of body parts"
+FemaleSuicide="% o explodiu em uma chuva de partes do corpo"
+; EN: MaleSuicide="%o exploded in a shower of body parts"
+MaleSuicide="% o explodiu em uma chuva de partes do corpo"
+
+[HUD]
+ProgressFontName="UT2003Fonts.FontEurostile12"
+FontArrayNames[0]="Engine.DefaultFont"
+FontArrayNames[1]="Engine.DefaultFont"
+FontArrayNames[2]="Engine.DefaultFont"
+FontArrayNames[3]="Engine.DefaultFont"
+FontArrayNames[4]="Engine.DefaultFont"
+FontArrayNames[5]="Engine.DefaultFont"
+FontArrayNames[6]="Engine.DefaultFont"
+FontArrayNames[7]="Engine.DefaultFont"
+FontArrayNames[8]="Engine.DefaultFont"
+
+[Info]
+; EN: RulesGroup="Rules"
+RulesGroup="Regras"
+; EN: GameGroup="Game"
+GameGroup="Jogo"
+; EN: ServerGroup="Server"
+ServerGroup="Servidor"
+; EN: ChatGroup="Chat"
+ChatGroup="Bate-papo"
+BotsGroup="Bots"
+; EN: MapVoteGroup="Map Voting"
+MapVoteGroup="Votação do mapa"
+KickVoteGroup="Kick Voting"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Sem título"
+
+[MaplistManager]
+; EN: DefaultListName="Default"
+DefaultListName="Predefinição"
+; EN: InvalidGameType="could not be loaded.  Normally, this means an .u file has been deleted, but the .int file has not."
+InvalidGameType="não pode ser carregado. Normalmente, isso significa que um arquivo .u foi excluído, mas o arquivo .int não."
+; EN: ReallyInvalidGameType="The requested gametype '%gametype%' could not be loaded."
+ReallyInvalidGameType="O tipo de jogo solicitado '% gametype%' não pôde ser carregado."
+; EN: DefaultListExists="Gametype already has a default list!"
+DefaultListExists="Gametype já tem uma lista padrão!"
+
+[MatSubAction]
+; EN: Desc="N/A"
+Desc="N / D"
+
+[Pickup]
+; EN: PickupMessage="Snagged an item."
+PickupMessage="Roubou um item."
+
+[PlayerController]
+QuickSaveString="Quick Saving"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="O jogo não pode ser pausado"
+; EN: ViewingFrom="Now viewing from"
+ViewingFrom="Agora vendo de"
+; EN: OwnCamera="Now viewing from own camera"
+OwnCamera="Agora visualizando da própria câmera"
+
+[PlayerReplicationInfo]
+; EN: StringDead="Dead"
+StringDead="Morto"
+; EN: StringSpectating="Spectating"
+StringSpectating="Espectador"
+; EN: StringUnknown="Unknown"
+StringUnknown="Desconhecido"
+
+[StreamPlaylistManager]
+; EN: DefaultPlaylistName="New Playlist"
+DefaultPlaylistName="Nova Playlist"
+
+[SubActionCameraEffect]
+; EN: Desc="Camera effect"
+Desc="Efeito de câmera"
+
+[SubActionCameraShake]
+; EN: Desc="Shake"
+Desc="Sacudir"
+
+[SubActionFOV]
+Desc="FOV"
+
+[SubActionFade]
+; EN: Desc="Fade"
+Desc="Desvaneça"
+
+[SubActionGameSpeed]
+; EN: Desc="Game Speed"
+Desc="Velocidade do jogo"
+
+[SubActionOrientation]
+; EN: Desc="Orientation"
+Desc="Orientação"
+
+[SubActionSceneSpeed]
+; EN: Desc="Scene Speed"
+Desc="Velocidade da cena"
+
+[SubActionSubTitle]
+; EN: Desc="SubTitle"
+Desc="Legenda"
+
+[SubActionTrigger]
+; EN: Desc="Trigger"
+Desc="Desencadear"
+
+[Suicided]
+; EN: DeathString="%o had an aneurysm."
+DeathString="% o tinha um aneurisma."
+; EN: FemaleSuicide="%o had an aneurysm."
+FemaleSuicide="% o tinha um aneurisma."
+; EN: MaleSuicide="%o had an aneurysm."
+MaleSuicide="% o tinha um aneurisma."
+
+[TeamInfo]
+; EN: TeamName="Team"
+TeamName="Equipe"
+; EN: ColorNames[0]="Red"
+ColorNames[0]="vermelho"
+; EN: ColorNames[1]="Blue"
+ColorNames[1]="Azul"
+; EN: ColorNames[2]="Green"
+ColorNames[2]="Verde"
+; EN: ColorNames[3]="Gold"
+ColorNames[3]="Ouro"
+
+[Vehicle]
+; EN: VehiclePositionString="in a vehicle"
+VehiclePositionString="em um veículo"
+; EN: VehicleNameString="Vehicle"
+VehicleNameString="Veículo"
+
+[VoiceChatReplicationInfo]
+PublicChannelNames=("Public","Local")
+; EN: VCDisplayText[0]="Enable Voice Chat"
+VCDisplayText[0]="Habilitar chat de voz"
+; EN: VCDisplayText[1]="Enable local Channel"
+VCDisplayText[1]="Habilitar canal local"
+; EN: VCDisplayText[2]="Local Chat Range"
+VCDisplayText[2]="Intervalo de bate-papo local"
+; EN: VCDisplayText[3]="Local Chat Radius"
+VCDisplayText[3]="Raio de bate-papo local"
+; EN: VCDisplayText[4]="Allowed VoIP Codecs"
+VCDisplayText[4]="Codecs VoIP permitidos"
+; EN: VCDisplayText[5]="Allowed VoIP LAN Codecs"
+VCDisplayText[5]="Codecs VoIP LAN permitidos"
+; EN: VCDescText[0]="Enable voice chat on the server."
+VCDescText[0]="Habilite o bate-papo por voz no servidor."
+; EN: VCDescText[1]="Determines whether the "local" voice chat channel is created, which allows players to broadcast voice transmissions to all players in the immediate vicinity."
+VCDescText[1]="Determina se o canal de chat de voz "local" é criado, o que permite aos jogadores transmitirem transmissões de voz para todos os jogadores nas proximidades."
+; EN: VCDescText[2]="Maximum distance at which a broadcast on the local channel may be heard"
+VCDescText[2]="Distância máxima em que uma transmissão no canal local pode ser ouvida"
+; EN: VCDescText[3]="Distance at which local broadcasts begin to fade"
+VCDescText[3]="Distância na qual as transmissões locais começam a diminuir"
+; EN: VCDescText[4]="Configure which codecs exist on the server and should be used in Internet games."
+VCDescText[4]="Configure quais codecs existem no servidor e devem ser usados ​​em jogos da Internet."
+; EN: VCDescText[5]="Configure which codecs exist on the server and should be used in LAN games."
+VCDescText[5]="Configure quais codecs existem no servidor e devem ser usados ​​em jogos LAN."
+; EN: InstalledCodec=((CodecName="Less Bandwidth",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Better Quality",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+InstalledCodec=((CodecName="Menos largura de banda",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Melhor qualidade",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+
+[Volume]
+; EN: LocationName="unspecified"
+LocationName="não especificado"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo"
+MessageNoAmmo=" não tem munição"
+
+[WeaponPickup]
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Voce tem uma arma"
+
+[XBoxPlayerInput]
+LookPresets[0].PresetName="Linear"
+; EN: LookPresets[1].PresetName="Exponential"
+LookPresets[1].PresetName="Exponencial"
+; EN: LookPresets[2].PresetName="Hybrid"
+LookPresets[2].PresetName="Híbrido"
+; EN: LookPresets[3].PresetName="Custom"
+LookPresets[3].PresetName="Personalizado"
+
+[fell]
+; EN: DeathString="%k pushed %o over the edge."
+DeathString="% k empurrou% o além da borda."
+; EN: FemaleSuicide="%o left a small crater"
+FemaleSuicide="% o deixou uma pequena cratera"
+; EN: MaleSuicide="%o left a small crater"
+MaleSuicide="% o deixou uma pequena cratera"
+

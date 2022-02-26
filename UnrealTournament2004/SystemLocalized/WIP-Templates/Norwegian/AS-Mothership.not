@@ -1,0 +1,482 @@
+[Action_DISPLAYMESSAGE5]
+Message="5..."
+
+[Action_DISPLAYMESSAGE6]
+Message="4..."
+
+[Action_DISPLAYMESSAGE7]
+Message="3..."
+
+[Action_DISPLAYMESSAGE8]
+Message="2..."
+
+[Action_DISPLAYMESSAGE9]
+Message="1..."
+
+[Counter0]
+; EN: CompleteMessage="Core Vents opened!"
+CompleteMessage="Kjerneventiler åpnet!"
+
+[Counter2]
+; EN: CompleteMessage="Energy Shield deactivated!!!"
+CompleteMessage="Energy Shield deaktivert!!!"
+
+[Counter3]
+; EN: CompleteMessage="Doors and lower force field deactivated"
+CompleteMessage="Dører og nedre kraftfelt deaktivert"
+
+[Counter4]
+; EN: CompleteMessage="Core conductors destroyed!!!"
+CompleteMessage="Kjerneledere ødelagt!!!"
+
+[Counter5]
+; EN: CompleteMessage="Loading bay force field deactivated!"
+CompleteMessage="Kraftfelt for lasterom er deaktivert!"
+
+[Counter6]
+; EN: CompleteMessage="Top force fields deactivated!"
+CompleteMessage="Toppkraftfelt deaktivert!"
+
+[DestroyVehicleObjective0]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Sentinels tårn"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel ødelagt!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Ødelegg vakttårn"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Ødelegg vaktposten"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Forsvar vaktpost"
+
+[DestroyVehicleObjective1]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Sentinels tårn"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel ødelagt!"
+; EN: LocationPrefix="lowerhull"
+LocationPrefix="nedre skrog"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Ødelegg vakttårn"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Ødelegg vaktposten"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Forsvar vaktpost"
+
+[DestroyVehicleObjective2]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Sentinels tårn"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel ødelagt!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Ødelegg vakttårn"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Ødelegg vaktposten"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Forsvar vaktpost"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Energibypass"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Ødelagt energiomløp..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Ødelegg laserfelt-bypass"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Ødelegg energiomløp"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Forsvar energiomløp"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Øvre skjoldgenerator"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Skjoldgenerator ødelagt"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Ødelegg skjoldgeneratorer"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Ødelegg den øvre skjoldgeneratoren "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Forsvar øvre skjoldgenerator "
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Øvre skjoldgenerator"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Skjoldgenerator ødelagt"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Ødelegg skjoldgeneratorer"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Ødelegg den øvre skjoldgeneratoren "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Forsvar øvre skjoldgenerator "
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower shield generator"
+ObjectiveName="Generator for nedre skjold"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Skjoldgenerator ødelagt"
+; EN: ObjectiveDescription="Destroy lower shield generator"
+ObjectiveDescription="Ødelegg nedre skjoldgenerator"
+; EN: Objective_Info_Attacker="Destroy lower shield generator"
+Objective_Info_Attacker="Ødelegg nedre skjoldgenerator"
+; EN: Objective_Info_Defender="Defend lower shield generator "
+Objective_Info_Defender="Forsvar nedre skjoldgenerator "
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Kjerneledere..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Dirigent ødelagt!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Ødelegg kjernelederen"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Ødelegg konduktøren"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Forsvar dirigenten"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Energibypass"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Ødelagt energiomløp..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Ødelegg laserfelt-bypass"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Ødelegg energiomløp"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Forsvar energiomløp"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Kjerneledere..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Dirigent ødelagt!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Ødelegg kjernelederen"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Ødelegg konduktøren"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Forsvar dirigenten"
+
+[HoldObjective0]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Kjernepaneler."
+; EN: DestructionMessage="Hatch lock #1 released!"
+DestructionMessage="Lukelås #1 utløst!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Kjernepaneler"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Bruk panelet for å låse opp kjerneluken"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Stopp all bruk av kjernepanelene"
+
+[HoldObjective1]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Kjernepaneler."
+; EN: DestructionMessage="Hatch lock #2 released!"
+DestructionMessage="Lukelås #2 utløst!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Kjernepaneler"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Bruk panelet for å låse opp kjerneluken"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Stopp all bruk av kjernepanelene"
+
+[InfoPod2]
+; EN: POD_Message="Lower Inner Turrets"
+POD_Message="Nedre indre tårn"
+
+[InfoPod3]
+POD_Message="Link Cannon"
+
+[InfoPod4]
+POD_Message="Landing Bay Turrets"
+
+[InfoPod5]
+; EN: POD_Message="Top Inner Turrets"
+POD_Message="Topp indre tårn"
+
+[InfoPod6]
+; EN: POD_Message="Top Outer Turrets"
+POD_Message="Øvre ytre tårn"
+
+[InfoPod7]
+; EN: POD_Message="Lower Outer Turrets"
+POD_Message="Nedre ytre tårn"
+
+[InfoPod8]
+POD_Message="Link Cannon"
+
+[LevelInfo0]
+; EN: Title="Mothership Assault"
+Title="Moderskipsangrep"
+
+[LevelSummary]
+; EN: Title="Mothership Assault"
+Title="Moderskipsangrep"
+; EN: Description="First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali. Within a year the Skaarj had pushed humanity back to the brink of destruction. This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat. A Skaarj Mothership orbited the Earth, and rained death upon the planet in preparation for the final landing. In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the Mothership defenses their analysis had revealed."
+Description="Første kontakt med Skaarj kom under bergingen av fengselstransportøren Vortex Rikers på Na Pali. I løpet av et år hadde Skaarj presset menneskeheten tilbake til randen av ødeleggelse. Dette scenariet gjenskaper den siste kampen om jorden, og den fantastiske seieren til mennesker i møte med nesten sikkert nederlag. Et Skaarj-moderskip gikk i bane rundt jorden og regnet død over planeten som forberedelse til den endelige landingen. I et vågalt selvmordsoppdrag angrep menneskene Skaarj-moderskipet i små enmannsjagere, i håp om å utnytte en feil i moderskipsforsvaret deres analyse hadde avslørt."
+
+[MessageTrigger15]
+; EN: Message="Prepare to attack!!!"
+Message="Forbered deg på å angripe!!!"
+
+[MessageTrigger17]
+; EN: Message="Prepare the defense!!!"
+Message="Forbered forsvaret!!!"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing bay"
+ObjectiveName="Landingsbukt"
+; EN: DestructionMessage="Attackers have entered the MotherShip!"
+DestructionMessage="Angripere har gått inn i moderskipet!"
+; EN: ObjectiveDescription="Enter Skaarj ship via landing bay"
+ObjectiveDescription="Gå inn i Skaarj-skipet via landingsbukta"
+; EN: Objective_Info_Attacker="Proceed to landing bay"
+Objective_Info_Attacker="Fortsett til landingsbukta"
+; EN: Objective_Info_Defender="Stop the humans from landing "
+Objective_Info_Defender="Stopp menneskene fra å lande "
+
+[SceneSubtitles0]
+SubTitles=("First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali.        ","Within a year the Skaarj had pushed humanity back to the brink of destruction.","This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat.","A Skaarj mother ship orbited the Earth, and rained death upon the planet in preparation for the final landing.","In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the mother ship defenses their analysis had revealed.","Take down the generator within the lower section of the Skaarj mother ship to deactivate the top force fields.","Once completed head upwards into the main body of the Skaarj mother ship. ","Destroy the top generators to deactivate the shield for the landing bay.","Proceed and land in the mother ship landing bay.","Once on foot, proceed to the next section","Two energy bypass mechanisms will need to be destroyed to proceed to the cargo hull.","Past the bridge, the core awaits.","Once in the cargo hull three sentinels await.","The destruction of the sentinels is the only way to proceed forward.","The force fields deactivate once the three sentinels have been destroyed.","Passed the bridge and the core awaits.","Trigger the panels to open the hatch locks.","Once the panels have been triggered shoot the two energy core conductors in order to destabilize the core.")
+
+[Trigger_ASMessageTrigger14]
+; EN: Message="Force field down..."
+Message="Tving feltet ned..."
+
+[Trigger_ASMessageTrigger15]
+; EN: Message="Unlock the Core!"
+Message="Lås opp kjernen!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Core hatches have been released..."
+Message="Kjerneluker er sluppet..."
+
+[Trigger_ASMessageTrigger4]
+; EN: Message="Top force fields down..."
+Message="Øverste kraftfelt ned..."
+
+[Trigger_ASMessageTrigger5]
+; EN: Message="Attackers have landed!!!"
+Message="Angripere har landet!!!"
+
+[Trigger_ASMessageTrigger7]
+; EN: Message="Attackers have entered the core!!!"
+Message="Angripere har kommet inn i kjernen!!!"
+
+[Trigger_ASMessageTrigger8]
+; EN: Message="Core has been destabilized!"
+Message="Kjernen har blitt destabilisert!"
+
+[Trigger_ASMessageTrigger9]
+; EN: Message="Landing bay force field down"
+Message="Landing bay kraftfelt ned"
+
+[ZoneInfo1]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravity motor gang høyre"
+
+[ZoneInfo10]
+; EN: LocationName="Energy generator #2"
+LocationName="Energigenerator #2"
+
+[ZoneInfo12]
+; EN: LocationName="The core"
+LocationName="Kjernen"
+
+[ZoneInfo13]
+; EN: LocationName="Right shaft"
+LocationName="Høyre skaft"
+
+[ZoneInfo14]
+; EN: LocationName="Main middle shaft"
+LocationName="Hoved midtaksel"
+
+[ZoneInfo16]
+; EN: LocationName="Core exterior"
+LocationName="Kjerne eksteriør"
+
+[ZoneInfo17]
+; EN: LocationName="Core exterior"
+LocationName="Kjerne eksteriør"
+
+[ZoneInfo18]
+; EN: LocationName="Inner top shaft"
+LocationName="Indre toppskaft"
+
+[ZoneInfo19]
+; EN: LocationName="Core exterior"
+LocationName="Kjerne eksteriør"
+
+[ZoneInfo2]
+; EN: LocationName="In space"
+LocationName="I verdensrommet"
+
+[ZoneInfo20]
+; EN: LocationName="Lower cross path"
+LocationName="Nedre tverrbane"
+
+[ZoneInfo21]
+LocationName="Defender's bypass spawn"
+
+[ZoneInfo22]
+LocationName="Defender's bypass spawn"
+
+[ZoneInfo23]
+; EN: LocationName="Cargo hull"
+LocationName="Lasteskrog"
+
+[ZoneInfo24]
+; EN: LocationName="Cargo hull"
+LocationName="Lasteskrog"
+
+[ZoneInfo25]
+; EN: LocationName="Cargo hull"
+LocationName="Lasteskrog"
+
+[ZoneInfo26]
+; EN: LocationName="Cargo hull"
+LocationName="Lasteskrog"
+
+[ZoneInfo27]
+LocationName="Defender's bypass spawn"
+
+[ZoneInfo28]
+; EN: LocationName="Space craft bay."
+LocationName="Romfartøybukt."
+
+[ZoneInfo29]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Lasteskrog gang"
+
+[ZoneInfo3]
+; EN: LocationName="Lower section generator shaft"
+LocationName="Nedre seksjon generatoraksel"
+
+[ZoneInfo30]
+; EN: LocationName="Elevator shaft"
+LocationName="Heissjakt"
+
+[ZoneInfo31]
+; EN: LocationName="Elevator passage "
+LocationName="Heispassasje "
+
+[ZoneInfo32]
+; EN: LocationName="Cargo upper bridge left"
+LocationName="Last øvre bro til venstre"
+
+[ZoneInfo33]
+; EN: LocationName="Cargo upper bridge right"
+LocationName="Last øvre bro til høyre"
+
+[ZoneInfo34]
+; EN: LocationName="Elevator passage "
+LocationName="Heispassasje "
+
+[ZoneInfo35]
+; EN: LocationName="Energy bypass room"
+LocationName="Energiomløpsrom"
+
+[ZoneInfo36]
+; EN: LocationName="Left hallway"
+LocationName="Venstre gang"
+
+[ZoneInfo37]
+; EN: LocationName="Attackers landing bay"
+LocationName="Angripere landing bay"
+
+[ZoneInfo38]
+; EN: LocationName="Right hallway"
+LocationName="Høyre gang"
+
+[ZoneInfo39]
+; EN: LocationName="Top energy bypass entrance"
+LocationName="Topp energiomløpsinngang"
+
+[ZoneInfo4]
+LocationName="Defender's Landing bay"
+
+[ZoneInfo40]
+; EN: LocationName="Core entrance"
+LocationName="Kjerneinngang"
+
+[ZoneInfo41]
+; EN: LocationName="Core exterior"
+LocationName="Kjerne eksteriør"
+
+[ZoneInfo42]
+; EN: LocationName="Core bridge passage left"
+LocationName="Kjernebropassasje venstre"
+
+[ZoneInfo43]
+; EN: LocationName="Gravity engine room #1"
+LocationName="Gravity maskinrom #1"
+
+[ZoneInfo44]
+; EN: LocationName="Gravity engine hallway left"
+LocationName="Gravity motor gang venstre"
+
+[ZoneInfo45]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravity motor gang høyre"
+
+[ZoneInfo46]
+; EN: LocationName="Gravity engine room #2"
+LocationName="Tyngdekraftsmaskinrom #2"
+
+[ZoneInfo47]
+; EN: LocationName="Core bridge passage right"
+LocationName="Kjernebropassasje høyre"
+
+[ZoneInfo48]
+; EN: LocationName="Core bridge passage right"
+LocationName="Kjernebropassasje høyre"
+
+[ZoneInfo49]
+; EN: LocationName="Cargo hull"
+LocationName="Lasteskrog"
+
+[ZoneInfo5]
+; EN: LocationName="Energy generator #1"
+LocationName="Energigenerator #1"
+
+[ZoneInfo50]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Lasteskrog gang"
+
+[ZoneInfo51]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravity motor gang høyre"
+
+[ZoneInfo52]
+; EN: LocationName="Core bridge passage left"
+LocationName="Kjernebropassasje venstre"
+
+[ZoneInfo53]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravity motor gang høyre"
+
+[ZoneInfo54]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravity motor gang høyre"
+
+[ZoneInfo55]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Lasteskrog gang"
+
+[ZoneInfo6]
+; EN: LocationName="Landing bay"
+LocationName="Landingsbukt"
+
+[ZoneInfo7]
+; EN: LocationName="landing bay"
+LocationName="landingsbukt"
+
+[ZoneInfo8]
+LocationName="Defender's Landing bay"
+
+[ZoneInfo9]
+; EN: LocationName="Left shaft"
+LocationName="Venstre skaft"
+

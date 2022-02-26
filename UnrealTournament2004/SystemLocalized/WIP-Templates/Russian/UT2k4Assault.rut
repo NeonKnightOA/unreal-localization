@@ -1,0 +1,263 @@
+[ACTION_ASOpenSentinel]
+; EN: ActionString="Awake sentinel"
+ActionString="Пробудитесь стражник"
+
+[ACTION_ASSetPlayerSpawnArea]
+ActionString="ACTION_ASSetPlayerSpawnArea"
+
+[ACTION_ASTeleportToSpawnArea]
+; EN: ActionString="teleport to spawn area"
+ActionString="телепортироваться в зону возрождения"
+
+[ACTION_PlayExplosionSound]
+; EN: ActionString="Play explosion sound"
+ActionString="Воспроизвести звук взрыва"
+
+[ACTION_PlayerViewShake]
+ActionString="PlayerViewShake"
+
+[ASGameInfo]
+; EN: ASPropsDisplayText[0]="Pair of Rounds"
+ASPropsDisplayText[0]="Пара туров"
+; EN: ASPropsDisplayText[1]="Round Time Limit"
+ASPropsDisplayText[1]="Лимит времени раунда"
+; EN: ASPropsDisplayText[2]="Reset Countdown"
+ASPropsDisplayText[2]="Сбросить обратный отсчет"
+; EN: ASPropsDisplayText[3]="Reinforcements Time"
+ASPropsDisplayText[3]="Время подкрепления"
+; EN: ASPropsDisplayText[4]="Practice Time"
+ASPropsDisplayText[4]="Время практики"
+; EN: ASPropDescText[0]="Number of pair of rounds (Attack and defense) for this match."
+ASPropDescText[0]="Количество парных раундов (Атака и защита) на этот матч."
+; EN: ASPropDescText[1]="Specifies how long each round lasts."
+ASPropDescText[1]="Определяет, как долго длится каждый раунд."
+; EN: ASPropDescText[2]="Specifies how much time there is between each round."
+ASPropDescText[2]="Указывает, сколько времени проходит между раундами."
+; EN: ASPropDescText[3]="Specifies time between reinforcements spawning."
+ASPropDescText[3]="Определяет время между появлением подкреплений."
+; EN: ASPropDescText[4]="Specifies how much time lasts the online practice round. (In seconds)"
+ASPropDescText[4]="Указывает, сколько времени длится онлайн-тренировочный раунд. (В секундах)"
+ASHints=("A waypoint on the HUD indicates the location of an objective.","Be on the look out for HUD warnings and alarm sounds when an objective is in danger.","When a new spawn area has been enabled, Press %SWITCHWEAPON 10% to teleport to it instantly.","Press %BASEPATH 0% or %BASEPATH 1% to highlight the current objective, show a path to it, and slide out the objective list.","Monitor the respawn countdown to know when to expect backups.","Some weapons are better at destroying enemy Spider Mines than others.","You can be hurt or killed by vehicles exploding near you.","You can heal a friendly vehicle with the Link Gun alt-fire.","If you die, any Spider Mines or Grenades you fired will explode.","The green light on top of the weapon lockers indicates that additional ammo is available at that locker.","All turrets can zoom in by pressing %MOVEFORWARD% and zoom out by pressing %MOVEBACKWARD%.","Link turrets have the same properties as the Link Gun.","The Ion Cannon and Ion Plasma Tank, while charging up, indicate their target with a laser beam.","You can switch between remote controlled turrets by pressing %NEXTWEAPON% and %PREVWEAPON%.","In a SpaceFighter, you can cycle through targets by pressing %NEXTWEAPON% and %PREVWEAPON%.","Various trophies can be obtained by destroying a key vehicle (or turret), completing an objective, or successfully attacking.","A trophy is given to the player completing an objective, but the points reward is shared between all contributors.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person view in vehicles.")
+; EN: GameName="Assault"
+GameName="Атаковать"
+; EN: Description="In each round, one team takes the role of the attacker, while the other team defends, in recreations of famous (or infamous) scenarios. After a pair of rounds, the most successful attacking team scores a point."
+Description="В каждом раунде одна команда берет на себя роль атакующего, а другая команда защищает, воссоздав известные (или печально известные) сценарии. После пары раундов наиболее успешная атакующая команда получает очко."
+
+[ASGameReplicationInfo]
+; EN: ERW_PracticeRoundEndedStr="Practice round over. Get ready!"
+ERW_PracticeRoundEndedStr="Практикуйтесь заново. Приготовься!"
+; EN: ERW_RedAttackedStr="Red team successfully attacked!"
+ERW_RedAttackedStr="Красная команда успешно атаковала!"
+; EN: ERW_BlueAttackedStr="Blue team successfully attacked!"
+ERW_BlueAttackedStr="Синяя команда успешно атаковала!"
+; EN: ERW_RedDefendedStr="Red team successfully defended!"
+ERW_RedDefendedStr="Красная команда успешно защитилась!"
+; EN: ERW_BlueDefendedStr="Blue team successfully defended!"
+ERW_BlueDefendedStr="Синяя команда успешно защитилась!"
+; EN: ERW_RedMoreObjectivesStr="Red team scored (more objectives)."
+ERW_RedMoreObjectivesStr="Красная команда забила (больше голов)."
+; EN: ERW_BlueMoreObjectivesStr="Blue team scored (more objectives)."
+ERW_BlueMoreObjectivesStr="Забила синяя команда (больше голов)."
+; EN: ERW_RedMoreProgressStr="Red team scored (closer to completion)."
+ERW_RedMoreProgressStr="Забила красная команда (ближе к завершению)."
+; EN: ERW_BlueMoreProgressStr="Blue team scored (closer to completion)."
+ERW_BlueMoreProgressStr="Забила синяя команда (ближе к завершению)."
+; EN: ERW_RedGotSameOBJFasterStr="Red team scored (fastest)."
+ERW_RedGotSameOBJFasterStr="Забила красная команда (самая быстрая)."
+; EN: ERW_BlueGotSameOBJFasterStr="Blue team scored (fastest)."
+ERW_BlueGotSameOBJFasterStr="Забила синяя команда (самая быстрая)."
+; EN: ERW_DrawStr="Draw game."
+ERW_DrawStr="Ничья."
+
+[ASOBJ_EnergyCore_Delivery]
+; EN: ObjectiveName="Energy Core Delivery"
+ObjectiveName="Поставка Energy Core"
+
+[ASOBJ_EnergyCore_Spawn]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" упал Power Core!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Power Core упал!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Power Core поднят!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" взял Power Core!"
+; EN: PlayerCoreReset="Power Core reset!"
+PlayerCoreReset="Сброс Power Core!"
+; EN: ObjectiveName="Energy Core Spawn"
+ObjectiveName="Появление энергетического ядра"
+
+[ASTurret]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="укомплектовать башню"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Энергетическая турель"
+
+[ASTurret_Minigun]
+; EN: VehiclePositionString="manning a Minigun Turret"
+VehiclePositionString="управление турелью-миниганом"
+; EN: VehicleNameString="Minigun Turret"
+VehicleNameString="Миниган Турель"
+
+[ASVehicle_Sentinel]
+; EN: VehicleNameString="Sentinel"
+VehicleNameString="Страж"
+
+[ASVehicle_Sentinel_Ceiling]
+; EN: VehicleNameString="Ceiling Sentinel"
+VehicleNameString="Потолочный Sentinel"
+
+[ASVehicle_Sentinel_Floor]
+; EN: VehicleNameString="Floor Sentinel"
+VehicleNameString="Напольный Страж"
+
+[ASVehicle_SpaceFighter]
+; EN: Text_Speed="Speed:"
+Text_Speed="Скорость:"
+
+[Ammo_Dummy]
+; EN: ItemName="Dummy"
+ItemName="Дурачок"
+
+[DamTypeExploBarrel]
+; EN: DeathString="%k took out %o with a barrel explosion."
+DeathString="% k уничтожил% o взрывом ствола."
+; EN: FemaleSuicide="%o was a little too close to the barrel she blew up."
+FemaleSuicide="% o была слишком близко к взорванной ею бочке."
+; EN: MaleSuicide="%o was a little too close to the barrel he blew up."
+MaleSuicide="% o был слишком близко к взорванной бочке."
+
+[DamTypeMinigunTurretBullet]
+; EN: DeathString="%o was mowed down by %k's minigun turret."
+DeathString="% o был скошен турелью для минигана% k."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="% o повернула миниган на себя."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="% o повернул миниган на себя."
+
+[DamTypeSentinelLaser]
+; EN: DeathString="%o was served an extra helping of %k's lasers."
+DeathString="% o получил дополнительную порцию лазеров% k."
+; EN: FemaleSuicide="%o fried herself with her own laser blast."
+FemaleSuicide="% o поджарила себя собственной лазерной вспышкой."
+; EN: MaleSuicide="%o fried himself with his own laser blast."
+MaleSuicide="% o поджарил себя собственной лазерной вспышкой."
+
+[DestroyVehicleObjective]
+; EN: ObjectiveName="Destroy Vehicle Objective"
+ObjectiveName="Уничтожить цель машины"
+; EN: ObjectiveDescription="Destroy Objective to disable it."
+ObjectiveDescription="Уничтожьте цель, чтобы отключить его."
+; EN: Objective_Info_Attacker="Destroy Vehicle Objective"
+Objective_Info_Attacker="Уничтожить цель машины"
+; EN: Objective_Info_Defender="Protect Vehicle Objective"
+Objective_Info_Defender="Защитить цель автомобиля"
+
+[GameObject_EnergyCore]
+; EN: PlayerDroppedMessage=" dropped the Power Core!"
+PlayerDroppedMessage=" упал Power Core!"
+; EN: DroppedMessage="Power Core dropped!"
+DroppedMessage="Power Core упал!"
+; EN: EnergyCorePickedUp="Power Core picked up!"
+EnergyCorePickedUp="Power Core поднят!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Power Core!"
+PlayerPickedUpEnergyCore=" взял Power Core!"
+; EN: PlayerCoreReset="Power Core reset!"
+PlayerCoreReset="Сброс Power Core!"
+
+[HUD_Assault]
+IP_Bracket_Open="["
+IP_Bracket_Close="]"
+Cardinal_North="N"
+Cardinal_East="E"
+Cardinal_South="S"
+Cardinal_West="W"
+; EN: NoGameReplicationInfoString="Receiving Server State..."
+NoGameReplicationInfoString="Получение состояния сервера ..."
+; EN: MetersString="m"
+MetersString="м"
+; EN: TargetString="Target:"
+TargetString="Цель:"
+; EN: NoTargetString="No Target"
+NoTargetString="Нет цели"
+; EN: PracticeRoundString="Practice Round"
+PracticeRoundString="Практический раунд"
+
+[InfoPod]
+; EN: POD_Message="-= info pod =-"
+POD_Message="- = информационный блок = -"
+
+[Message_ASKillMessages]
+KillString[0]="Top Gun!"
+; EN: KillString[1]="Wrecker!"
+KillString[1]="Вредитель!"
+; EN: KillString[2]="Vehicle spawn blocking! 5 secs warning"
+KillString[2]="Блокировка появления транспорта! Предупреждение за 5 секунд"
+; EN: KillString[3]="Vehicle spawn blocking! 4 secs warning"
+KillString[3]="Блокировка появления транспорта! Предупреждение за 4 секунды"
+; EN: KillString[4]="Vehicle spawn blocking! 3 secs warning"
+KillString[4]="Блокировка появления транспорта! Предупреждение за 3 секунды"
+; EN: KillString[5]="Vehicle spawn blocking! 2 secs warning"
+KillString[5]="Блокировка появления транспорта! 2 секунды предупреждения"
+; EN: KillString[6]="Vehicle spawn blocking! 1 sec warning"
+KillString[6]="Блокировка появления транспорта! Предупреждение за 1 секунду"
+; EN: KillString[7]="Leaving battle field!"
+KillString[7]="Покидая поле битвы!"
+
+[Message_AssaultTeamRole]
+; EN: Message_PostLogin_Attacker="You are Attacking!!"
+Message_PostLogin_Attacker="Вы нападаете !!"
+; EN: Message_PostLogin_Defender="You are Defending!!"
+Message_PostLogin_Defender="Вы защищаетесь !!"
+
+[Message_Awards]
+; EN: Msg[0]="You have completed the Objective!"
+Msg[0]="Вы выполнили задачу!"
+; EN: Msg[1]="completed the Objective!"
+Msg[1]="выполнил цель!"
+
+[ObjectiveProgressDisplay]
+; EN: HeaderText="Objectives"
+HeaderText="Цели"
+OptionalObjectivePrefix="*"
+; EN: ObjTimesString="x"
+ObjTimesString="Икс"
+TextCutSuffix="..."
+SpaceSeparator=" "
+PrimaryObjectivePrefix="-"
+
+[ScoreBoard_Assault]
+; EN: RemainingRoundTime="Remaining round time:"
+RemainingRoundTime="Оставшееся время раунда:"
+; EN: CurrentRound="Round:"
+CurrentRound="Круглый:"
+RoundSeparator="/"
+; EN: Defender="( Defender )"
+Defender="(Защитник)"
+; EN: Attacker="( Attacker )"
+Attacker="(Нападающий)"
+; EN: WaitForReinforcements="   You were killed. Reinforcements in"
+WaitForReinforcements="   Вы были убиты. Подкрепление в"
+; EN: WaitingToSpawnReinforcements="Waiting for reinforcements..."
+WaitingToSpawnReinforcements="В ожидании подкрепления ..."
+; EN: AutoRespawn="Automatically respawning in..."
+AutoRespawn="Автоматически возрождается через ..."
+; EN: YouWonRound="You've won the round!"
+YouWonRound="Вы выиграли раунд!"
+; EN: YouLostRound="You've lost the round."
+YouLostRound="Вы проиграли раунд."
+; EN: PracticeRoundOver="Practice round over."
+PracticeRoundOver="Практикуйтесь заново."
+
+[Trigger_ASMessageTrigger]
+; EN: Message="My Message"
+Message="Мое сообщение"
+
+[Weapon_Sentinel]
+; EN: ItemName="Sentinel weapon"
+ItemName="Сторожевое оружие"
+
+[Weapon_Turret_Minigun]
+; EN: ItemName="Turret weapon"
+ItemName="Турельное оружие"
+

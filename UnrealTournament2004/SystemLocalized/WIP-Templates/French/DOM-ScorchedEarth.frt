@@ -1,63 +1,83 @@
 [LevelInfo0]
-Title="Scorched Earth"
+; EN: Title="Scorched Earth"
+Title="Terre brûlée"
 
 [LevelSummary]
-Title="Scorched Earth"
+; EN: Title="Scorched Earth"
+Title="Terre brûlée"
 
 [PhysicsVolume0]
-LocationName="Blue Spawn"
+; EN: LocationName="Blue Spawn"
+LocationName="Spawn bleu"
 
 [PhysicsVolume1]
-LocationName="Red Spawn"
+; EN: LocationName="Red Spawn"
+LocationName="Spawn rouge"
 
 [ZoneInfo0]
-LocationName="Inside Center"
+; EN: LocationName="Inside Center"
+LocationName="Centre intérieur"
 
 [ZoneInfo1]
-LocationName="Back Hallway B"
+; EN: LocationName="Back Hallway B"
+LocationName="Arrière Couloir B"
 
 [ZoneInfo14]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 
 [ZoneInfo15]
-LocationName="Inside Center"
+; EN: LocationName="Inside Center"
+LocationName="Centre intérieur"
 
 [ZoneInfo16]
-LocationName="Spawn Blue"
+; EN: LocationName="Spawn Blue"
+LocationName="Bleu d'apparition"
 
 [ZoneInfo17]
-LocationName="Front Hallway A"
+; EN: LocationName="Front Hallway A"
+LocationName="Couloir avant A"
 
 [ZoneInfo18]
-LocationName="Front Hallway A"
+; EN: LocationName="Front Hallway A"
+LocationName="Couloir avant A"
 
 [ZoneInfo19]
-LocationName="Room A"
+; EN: LocationName="Room A"
+LocationName="Salle A"
 
 [ZoneInfo2]
 LocationName="Skybox"
 
 [ZoneInfo20]
-LocationName="Back Hallway A"
+; EN: LocationName="Back Hallway A"
+LocationName="Arrière Couloir A"
 
 [ZoneInfo3]
-LocationName="Inside Center"
+; EN: LocationName="Inside Center"
+LocationName="Centre intérieur"
 
 [ZoneInfo4]
-LocationName="Inside Center"
+; EN: LocationName="Inside Center"
+LocationName="Centre intérieur"
 
 [ZoneInfo5]
-LocationName="Inside Center"
+; EN: LocationName="Inside Center"
+LocationName="Centre intérieur"
 
 [ZoneInfo6]
-LocationName="Front Hallway B"
+; EN: LocationName="Front Hallway B"
+LocationName="Couloir avant B"
 
 [ZoneInfo7]
-LocationName="Spawn Red"
+; EN: LocationName="Spawn Red"
+LocationName="spawn rouge"
 
 [ZoneInfo8]
-LocationName="Front Hallway B"
+; EN: LocationName="Front Hallway B"
+LocationName="Couloir avant B"
 
 [ZoneInfo9]
-LocationName="Room B"
+; EN: LocationName="Room B"
+LocationName="Salle B"
 

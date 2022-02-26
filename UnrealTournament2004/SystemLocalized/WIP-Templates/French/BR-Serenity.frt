@@ -1,37 +1,50 @@
 [LevelInfo0]
-Title="Serenity"
+; EN: Title="Serenity"
+Title="Sérénité"
 
 [LevelSummary]
-Title="Serenity"
-Description="Feel the gentle breeze on your skin, hear the calming sounds of the forest, watch the fireflies dance in the clearing and surrender yourself to a growing sense of serenity.  Now ... collect your Flak Cannon and wreak havoc!"
+; EN: Title="Serenity"
+Title="Sérénité"
+; EN: Description="Feel the gentle breeze on your skin, hear the calming sounds of the forest, watch the fireflies dance in the clearing and surrender yourself to a growing sense of serenity.  Now ... collect your Flak Cannon and wreak havoc!"
+Description="Sentez la douce brise sur votre peau, entendez les sons apaisants de la forêt, regardez les lucioles danser dans la clairière et abandonnez-vous à un sentiment croissant de sérénité. Maintenant... récupérez votre Flak Cannon et faites des ravages !"
 
 [Volume1]
-LocationName="blue side of center field"
+; EN: LocationName="blue side of center field"
+LocationName="côté bleu du champ central"
 
 [Volume2]
-LocationName="center field"
+; EN: LocationName="center field"
+LocationName="champ central"
 
 [Volume3]
-LocationName="red base"
+; EN: LocationName="red base"
+LocationName="base rouge"
 
 [Volume4]
-LocationName="red side of center field"
+; EN: LocationName="red side of center field"
+LocationName="côté rouge du champ central"
 
 [Volume5]
-LocationName="blue base"
+; EN: LocationName="blue base"
+LocationName="fond bleu"
 
 [WaterVolume0]
-LocationName="in a watery grave"
+; EN: LocationName="in a watery grave"
+LocationName="dans une tombe aquatique"
 
 [WaterVolume1]
-LocationName="in a watery grave"
+; EN: LocationName="in a watery grave"
+LocationName="dans une tombe aquatique"
 
 [WaterVolume2]
-LocationName="hiding in the center field waterfall"
+; EN: LocationName="hiding in the center field waterfall"
+LocationName="se cacher dans la cascade du champ central"
 
 [xFallingVolume0]
-LocationName="falling to a watery grave"
+; EN: LocationName="falling to a watery grave"
+LocationName="tomber dans une tombe aquatique"
 
 [xFallingVolume1]
-LocationName="falling to a watery grave"
+; EN: LocationName="falling to a watery grave"
+LocationName="tomber dans une tombe aquatique"
 

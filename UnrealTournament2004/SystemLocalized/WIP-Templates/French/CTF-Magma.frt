@@ -5,67 +5,87 @@ Title="Magma"
 Title="Magma"
 
 [Volume0]
-LocationName="Inside Blue Base"
+; EN: LocationName="Inside Blue Base"
+LocationName="À l'intérieur de la base bleue"
 
 [Volume1]
-LocationName="Inside Red Base"
+; EN: LocationName="Inside Red Base"
+LocationName="À l'intérieur de la base rouge"
 
 [Volume10]
-LocationName="Red Walkways"
+; EN: LocationName="Red Walkways"
+LocationName="Passerelles rouges"
 
 [Volume11]
-LocationName="Blue Walkways"
+; EN: LocationName="Blue Walkways"
+LocationName="Passerelles bleues"
 
 [Volume2]
-LocationName="Upper Red Base"
+; EN: LocationName="Upper Red Base"
+LocationName="Base supérieure rouge"
 
 [Volume3]
-LocationName="Upper Blue Base"
+; EN: LocationName="Upper Blue Base"
+LocationName="Base supérieure bleue"
 
 [Volume4]
-LocationName="Red Tower"
+; EN: LocationName="Red Tower"
+LocationName="Tour Rouge"
 
 [Volume5]
-LocationName="Blue Tower"
+; EN: LocationName="Blue Tower"
+LocationName="Tour Bleue"
 
 [Volume6]
-LocationName="Blue Tower Bottom"
+; EN: LocationName="Blue Tower Bottom"
+LocationName="Bas de la tour bleue"
 
 [Volume7]
-LocationName="Red Tower Bottom"
+; EN: LocationName="Red Tower Bottom"
+LocationName="Bas de la tour rouge"
 
 [Volume8]
-LocationName="Under Red Base"
+; EN: LocationName="Under Red Base"
+LocationName="Sous la base rouge"
 
 [Volume9]
-LocationName="Under Blue Base"
+; EN: LocationName="Under Blue Base"
+LocationName="Sous la base bleue"
 
 [WaterVolume0]
-LocationName="Lava Pit"
+; EN: LocationName="Lava Pit"
+LocationName="Fosse de lave"
 
 [ZoneInfo0]
-LocationName="Cave"
+; EN: LocationName="Cave"
+LocationName="la grotte"
 
 [ZoneInfo1]
 LocationName="BlueSide"
 
 [ZoneInfo2]
-LocationName="Cave"
+; EN: LocationName="Cave"
+LocationName="la grotte"
 
 [ZoneInfo3]
-LocationName="Cave"
+; EN: LocationName="Cave"
+LocationName="la grotte"
 
 [ZoneInfo4]
-LocationName="Cave"
+; EN: LocationName="Cave"
+LocationName="la grotte"
 
 [ZoneInfo5]
-LocationName="Cave"
+; EN: LocationName="Cave"
+LocationName="la grotte"
 
 [ZoneInfo6]
-LocationName="Cave"
+; EN: LocationName="Cave"
+LocationName="la grotte"
 
 [ZoneInfo7]
-LocationName="cave"
+; EN: LocationName="cave"
+LocationName="la grotte"
 
 [ZoneInfo8]
 LocationName="RedSide"

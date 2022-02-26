@@ -1,22 +1,30 @@
 [LevelInfo0]
-Title="Gestalt"
+; EN: Title="Gestalt"
+Title="gestalt"
 
 [LevelSummary]
-Title="Gestalt"
-Description="Sitting just below the ever-thinning polar ice caps, the Gestalt Research Center will chill its inhabitants to their bones.  In fact, bones may be all that's left to chill, since this location has been added to the growing list of tournament settings."
+; EN: Title="Gestalt"
+Title="gestalt"
+; EN: Description="Sitting just below the ever-thinning polar ice caps, the Gestalt Research Center will chill its inhabitants to their bones.  In fact, bones may be all that's left to chill, since this location has been added to the growing list of tournament settings."
+Description="Situé juste en dessous des calottes glaciaires polaires toujours plus minces, le Centre de recherche de la Gestalt refroidira ses habitants jusqu'aux os. En fait, les os peuvent être tout ce qui reste à refroidir, puisque cet endroit a été ajouté à la liste croissante des paramètres de tournoi."
 
 [Volume1]
-LocationName="Center Atrium"
+; EN: LocationName="Center Atrium"
+LocationName="Atrium central"
 
 [Volume2]
-LocationName="Back Lift"
+; EN: LocationName="Back Lift"
+LocationName="Ascenseur du dos"
 
 [Volume3]
-LocationName="Bio Bay"
+; EN: LocationName="Bio Bay"
+LocationName="Baie Bio"
 
 [Volume4]
-LocationName="Center Lift "
+; EN: LocationName="Center Lift "
+LocationName="Ascenseur central "
 
 [Volume5]
-LocationName="Flak Hall"
+; EN: LocationName="Flak Hall"
+LocationName="Salle de Flak"
 

@@ -1,72 +1,96 @@
 [LevelInfo0]
-Title="Citadel"
+; EN: Title="Citadel"
+Title="Citadelle"
 
 [LevelSummary]
-Title="Citadel"
+; EN: Title="Citadel"
+Title="Citadelle"
 
 [Volume0]
-LocationName="Middle Bridge"
+; EN: LocationName="Middle Bridge"
+LocationName="Pont du Milieu"
 
 [Volume1]
-LocationName="Red High Bridge"
+; EN: LocationName="Red High Bridge"
+LocationName="Pont haut rouge"
 
 [Volume10]
-LocationName="Red Sloped Entrance"
+; EN: LocationName="Red Sloped Entrance"
+LocationName="Entrée en pente rouge"
 
 [Volume11]
-LocationName="Red Entrance"
+; EN: LocationName="Red Entrance"
+LocationName="Entrée rouge"
 
 [Volume12]
-LocationName="Blue Entrance"
+; EN: LocationName="Blue Entrance"
+LocationName="Entrée bleue"
 
 [Volume2]
-LocationName="Red Low Bridge"
+; EN: LocationName="Red Low Bridge"
+LocationName="Pont bas rouge"
 
 [Volume3]
-LocationName="Blue Low Bridge"
+; EN: LocationName="Blue Low Bridge"
+LocationName="Pont bas bleu"
 
 [Volume4]
-LocationName="Blue High Bridge"
+; EN: LocationName="Blue High Bridge"
+LocationName="Pont haut bleu"
 
 [Volume5]
-LocationName="Blue Mesa"
+; EN: LocationName="Blue Mesa"
+LocationName="Mesa bleu"
 
 [Volume6]
-LocationName="Red Mesa"
+; EN: LocationName="Red Mesa"
+LocationName="Mesa rouge"
 
 [Volume7]
-LocationName="Blue Sloped Entrance"
+; EN: LocationName="Blue Sloped Entrance"
+LocationName="Entrée en pente bleue"
 
 [Volume8]
-LocationName="Blue Flag Base"
+; EN: LocationName="Blue Flag Base"
+LocationName="Base Pavillon Bleu"
 
 [Volume9]
-LocationName="Red Flag Base"
+; EN: LocationName="Red Flag Base"
+LocationName="Base de drapeau rouge"
 
 [ZoneInfo0]
-LocationName="Blue Sloped Entrance"
+; EN: LocationName="Blue Sloped Entrance"
+LocationName="Entrée en pente bleue"
 
 [ZoneInfo1]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 
 [ZoneInfo3]
-LocationName="Red Sloped Entrance"
+; EN: LocationName="Red Sloped Entrance"
+LocationName="Entrée en pente rouge"
 
 [ZoneInfo4]
-LocationName="Red Flag Base"
+; EN: LocationName="Red Flag Base"
+LocationName="Base de drapeau rouge"
 
 [ZoneInfo5]
-LocationName="Red Entrance"
+; EN: LocationName="Red Entrance"
+LocationName="Entrée rouge"
 
 [ZoneInfo6]
-LocationName="Red Entrance"
+; EN: LocationName="Red Entrance"
+LocationName="Entrée rouge"
 
 [ZoneInfo7]
-LocationName="Blue Entrance"
+; EN: LocationName="Blue Entrance"
+LocationName="Entrée bleue"
 
 [ZoneInfo8]
-LocationName="Blue Entrance"
+; EN: LocationName="Blue Entrance"
+LocationName="Entrée bleue"
 
 [ZoneInfo9]
-LocationName="Blue Flag Room"
+; EN: LocationName="Blue Flag Room"
+LocationName="Chambre Pavillon Bleu"
 

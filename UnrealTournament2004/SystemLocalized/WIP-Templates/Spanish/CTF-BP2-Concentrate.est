@@ -1,89 +1,122 @@
 [LevelInfo0]
-Title="Concentrate"
+; EN: Title="Concentrate"
+Title="Concentrado"
 
 [LevelSummary]
-Title="Concentrate"
-Description="On this derelict outpost set deep in the Elorean Seas, there is no escape for the struggling... except through victory.  The only way out is through."
+; EN: Title="Concentrate"
+Title="Concentrado"
+; EN: Description="On this derelict outpost set deep in the Elorean Seas, there is no escape for the struggling... except through victory.  The only way out is through."
+Description="En este puesto avanzado abandonado en lo profundo de los mares Elorean, no hay escapatoria para los que luchan ... excepto a través de la victoria. La única salida es a través de."
 
 [PhysicsVolume0]
-LocationName="Red Spike Pit"
+; EN: LocationName="Red Spike Pit"
+LocationName="Pozo de pinchos rojos"
 
 [PhysicsVolume1]
-LocationName="Red Spike Pit"
+; EN: LocationName="Red Spike Pit"
+LocationName="Pozo de pinchos rojos"
 
 [PhysicsVolume2]
-LocationName="Blue Spike Pit"
+; EN: LocationName="Blue Spike Pit"
+LocationName="Pozo de pinchos azules"
 
 [PhysicsVolume3]
-LocationName="Red Spike Pit"
+; EN: LocationName="Red Spike Pit"
+LocationName="Pozo de pinchos rojos"
 
 [PhysicsVolume4]
-LocationName="Red Spike Pit"
+; EN: LocationName="Red Spike Pit"
+LocationName="Pozo de pinchos rojos"
 
 [PhysicsVolume5]
-LocationName="Red Spike Pit"
+; EN: LocationName="Red Spike Pit"
+LocationName="Pozo de pinchos rojos"
 
 [Volume1]
-LocationName="Blue Flag Pit"
+; EN: LocationName="Blue Flag Pit"
+LocationName="Hoyo Bandera Azul"
 
 [Volume10]
-LocationName="Red Upper Area"
+; EN: LocationName="Red Upper Area"
+LocationName="Área superior roja"
 
 [Volume11]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Habitación Bandera Roja"
 
 [Volume12]
-LocationName="Red Spawn Area"
+; EN: LocationName="Red Spawn Area"
+LocationName="Área de aparición roja"
 
 [Volume3]
-LocationName="Central Area"
+; EN: LocationName="Central Area"
+LocationName="Area Central"
 
 [Volume4]
-LocationName="Blue Upper Area"
+; EN: LocationName="Blue Upper Area"
+LocationName="Área superior azul"
 
 [Volume5]
-LocationName="Blue Upper Area"
+; EN: LocationName="Blue Upper Area"
+LocationName="Área superior azul"
 
 [Volume6]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Habitación Bandera Roja"
 
 [Volume7]
-LocationName="Red Flag Pit"
+; EN: LocationName="Red Flag Pit"
+LocationName="Hoyo de bandera roja"
 
 [Volume8]
-LocationName="Red Spawn Area"
+; EN: LocationName="Red Spawn Area"
+LocationName="Área de aparición roja"
 
 [Volume9]
-LocationName="Red Upper Area"
+; EN: LocationName="Red Upper Area"
+LocationName="Área superior roja"
 
 [ZoneInfo0]
-LocationName="Somewhere Else"
+; EN: LocationName="Somewhere Else"
+LocationName="En algún otro lugar"
 
 [ZoneInfo1]
-LocationName="Red Upper Corridor"
+; EN: LocationName="Red Upper Corridor"
+LocationName="Corredor superior rojo"
 
 [ZoneInfo2]
-LocationName="Red Lower Corridor"
+; EN: LocationName="Red Lower Corridor"
+LocationName="Corredor inferior rojo"
 
 [ZoneInfo3]
-LocationName="Blue Lower Corridor"
+; EN: LocationName="Blue Lower Corridor"
+LocationName="Pasillo inferior azul"
 
 [ZoneInfo4]
-LocationName="Blue Upper Corridor"
+; EN: LocationName="Blue Upper Corridor"
+LocationName="Pasillo superior azul"
 
 [ZoneInfo5]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base azul"
 
 [ZoneInfo6]
-LocationName="Red Base"
+; EN: LocationName="Red Base"
+LocationName="Base roja"
 
 [fell_nogibs]
-DeathString="%o was spiked."
-FemaleSuicide="%o was spiked."
-MaleSuicide="%o was spiked."
+; EN: DeathString="%o was spiked."
+DeathString="% o fue enriquecido."
+; EN: FemaleSuicide="%o was spiked."
+FemaleSuicide="% o fue enriquecido."
+; EN: MaleSuicide="%o was spiked."
+MaleSuicide="% o fue enriquecido."
 
 [fell_nogibs2]
-DeathString="%o fell off."
-FemaleSuicide="%o fell off."
-MaleSuicide="%o fell off."
+; EN: DeathString="%o fell off."
+DeathString="% o cayó."
+; EN: FemaleSuicide="%o fell off."
+FemaleSuicide="% o cayó."
+; EN: MaleSuicide="%o fell off."
+MaleSuicide="% o cayó."
 

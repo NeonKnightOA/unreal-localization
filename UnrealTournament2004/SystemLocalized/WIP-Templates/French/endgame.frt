@@ -1,6 +1,8 @@
 [LevelInfo0]
-Title="End Game"
+; EN: Title="End Game"
+Title="Fin du jeu"
 
 [LevelSummary]
-Title="End Game"
+; EN: Title="End Game"
+Title="Fin du jeu"
 

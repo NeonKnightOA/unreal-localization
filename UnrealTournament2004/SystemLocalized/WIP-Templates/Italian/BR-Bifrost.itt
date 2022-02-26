@@ -1,51 +1,65 @@
 [LevelInfo0]
-Title="Bifrost Bases"
+; EN: Title="Bifrost Bases"
+Title="Basi Bifrost"
 
 [LevelSummary]
-Title="Bifrost Bases"
+; EN: Title="Bifrost Bases"
+Title="Basi Bifrost"
 
 [ZoneInfo1]
-LocationName="BLUE Front Room"
+; EN: LocationName="BLUE Front Room"
+LocationName="Camera anteriore BLU"
 
 [ZoneInfo12]
 LocationName="RED Front Room"
 
 [ZoneInfo13]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Al di fuori"
 
 [ZoneInfo14]
-LocationName="RED Hallway"
+; EN: LocationName="RED Hallway"
+LocationName="ROSSO Corridoio"
 
 [ZoneInfo15]
 LocationName="RED Bomb Room"
 
 [ZoneInfo16]
-LocationName="BLUE Hallway"
+; EN: LocationName="BLUE Hallway"
+LocationName="BLU Corridoio"
 
 [ZoneInfo17]
-LocationName="BLUE Bomb Room"
+; EN: LocationName="BLUE Bomb Room"
+LocationName="BLU Bomb Room"
 
 [ZoneInfo2]
 LocationName="RED Bomb Room"
 
 [ZoneInfo4]
-LocationName="BLUE Hallway"
+; EN: LocationName="BLUE Hallway"
+LocationName="BLU Corridoio"
 
 [ZoneInfo5]
-LocationName="RED Hallway"
+; EN: LocationName="RED Hallway"
+LocationName="ROSSO Corridoio"
 
 [ZoneInfo6]
-LocationName="BLUE Bomb Room"
+; EN: LocationName="BLUE Bomb Room"
+LocationName="BLU Bomb Room"
 
 [ZoneInfo7]
-LocationName="RED Entrance"
+; EN: LocationName="RED Entrance"
+LocationName="Ingresso ROSSO"
 
 [ZoneInfo9]
-LocationName="BLUE Entrance"
+; EN: LocationName="BLUE Entrance"
+LocationName="Ingresso BLU"
 
 [xBombDelivery0]
-DestructionMessage="Red Team Scores!"
+; EN: DestructionMessage="Red Team Scores!"
+DestructionMessage="I punteggi della squadra rossa!"
 
 [xBombDelivery1]
-DestructionMessage="Blue Team Scores!"
+; EN: DestructionMessage="Blue Team Scores!"
+DestructionMessage="I punteggi della squadra blu!"
 

@@ -1,43 +1,58 @@
 [LevelInfo0]
-Title="Squader"
+; EN: Title="Squader"
+Title="escadron"
 
 [LevelSummary]
-Title="Squader"
-Description="Once a section of a hidden military research facility, this cold structure now hosts some of the premiere 1 on 1 duels from the Tournament. The pressure is on.....how will you handle the spotlight?"
+; EN: Title="Squader"
+Title="escadron"
+; EN: Description="Once a section of a hidden military research facility, this cold structure now hosts some of the premiere 1 on 1 duels from the Tournament. The pressure is on.....how will you handle the spotlight?"
+Description="Autrefois une section d'un centre de recherche militaire caché, cette structure froide accueille désormais certains des premiers duels 1 contre 1 du tournoi. La pression est forte.....comment allez-vous gérer les projecteurs ?"
 
 [ZoneInfo0]
-LocationName="Super Shield Area"
+; EN: LocationName="Super Shield Area"
+LocationName="Super zone de bouclier"
 
 [ZoneInfo10]
-LocationName="UDamage Halls"
+; EN: LocationName="UDamage Halls"
+LocationName="Salles de Dégâts"
 
 [ZoneInfo11]
-LocationName="UDamage Halls"
+; EN: LocationName="UDamage Halls"
+LocationName="Salles de Dégâts"
 
 [ZoneInfo12]
-LocationName="Super Shield Area"
+; EN: LocationName="Super Shield Area"
+LocationName="Super zone de bouclier"
 
 [ZoneInfo2]
-LocationName="Minigun Lift"
+; EN: LocationName="Minigun Lift"
+LocationName="Ascenseur Minigun"
 
 [ZoneInfo3]
-LocationName="Flak Hall"
+; EN: LocationName="Flak Hall"
+LocationName="Salle de Flak"
 
 [ZoneInfo4]
-LocationName="Flak Hall"
+; EN: LocationName="Flak Hall"
+LocationName="Salle de Flak"
 
 [ZoneInfo5]
-LocationName="Double Health"
+; EN: LocationName="Double Health"
+LocationName="Double Santé"
 
 [ZoneInfo6]
-LocationName="Bio Rifle Corner"
+; EN: LocationName="Bio Rifle Corner"
+LocationName="Coin carabine bio"
 
 [ZoneInfo7]
-LocationName="Large Window Area"
+; EN: LocationName="Large Window Area"
+LocationName="Grande surface de fenêtre"
 
 [ZoneInfo8]
-LocationName="Large Window Area"
+; EN: LocationName="Large Window Area"
+LocationName="Grande surface de fenêtre"
 
 [ZoneInfo9]
-LocationName="UDamage Halls"
+; EN: LocationName="UDamage Halls"
+LocationName="Salles de Dégâts"
 

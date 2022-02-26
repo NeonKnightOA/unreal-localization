@@ -1,0 +1,192 @@
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Subway station entrance"
+LocationName="地下鉄駅入口"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Subway train"
+LocationName="地下鉄"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Boarding station"
+LocationName="搭乗駅"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE4]
+Message="1..."
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="ゲートロック"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="ゲートロックが破壊されました！"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="ゲートロックを破壊する"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="ゲートロックを破壊する"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="ゲートロックを守る"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="barricade"
+ObjectiveName="バリケード"
+; EN: DestructionMessage="barricade destroyed!"
+DestructionMessage="バリケードが破壊されました！"
+; EN: ObjectiveDescription="Destroy the barricade"
+ObjectiveDescription="バリケードを破壊する"
+; EN: Objective_Info_Attacker="Destroy barricade"
+Objective_Info_Attacker="バリケードを破壊する"
+; EN: Objective_Info_Defender="Defend barricade"
+Objective_Info_Defender="バリケードを守る"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="ゲートロック"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="ゲートロックが破壊されました！"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="ゲートロックを破壊する"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="ゲートロックを破壊する"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="ゲートロックを守る"
+
+[HoldObjective0]
+; EN: ObjectiveName="Explosive #2"
+ObjectiveName="爆発物＃2"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="爆発物が配置されています！"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="爆発物を植える"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="コマンドセンターを破壊する"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="コマンドセンターを守る"
+
+[HoldObjective1]
+; EN: ObjectiveName="Forward outpost"
+ObjectiveName="前哨基地"
+; EN: DestructionMessage="Forward outpost taken!"
+DestructionMessage="前哨基地を占領！"
+; EN: ObjectiveDescription="Take the forward outpost "
+ObjectiveDescription="前哨基地を取る "
+; EN: Objective_Info_Attacker="Secure forward outpost"
+Objective_Info_Attacker="安全な前方前哨基地"
+; EN: Objective_Info_Defender="Defend forward outpost"
+Objective_Info_Defender="前哨基地を守る"
+
+[HoldObjective2]
+; EN: ObjectiveName="Explosive #1"
+ObjectiveName="爆発物＃1"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="爆発物が配置されています！"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="爆発物を植える"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="コマンドセンターを破壊する"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="コマンドセンターを守る"
+
+[LevelInfo0]
+; EN: Title="The Fallen City"
+Title="堕ちた街"
+
+[LevelSummary]
+; EN: Title="The Fallen City"
+Title="堕ちた街"
+; EN: Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+Description="人間/スカージ戦争の後、地球の都市の多くは廃墟になりました。新天新地政府がこれらの地域に対する権威を主張しようとしたとき、彼らは破壊された都市に基地を設立した大企業によってしばしばひそかに資金提供された多くの反政府勢力グループに直面しました。このシナリオは、NEG軍による反乱軍司令部の破壊を再現します。歴史的な戦いに合わせて、攻撃者の挿入ポイントは、バンカーの周りの強力な対空保護のために、コマンドセンターから離れています。"
+
+[SceneSubtitles1]
+SubTitles=("Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas,","they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities.","This scenario recreates the destruction of a rebel command center by NEG forces. ","In keeping with the historical battle, the attackers' insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker. ","The attackers must first make their way through the streets on foot and clear out any resistance they find. They must destroy the barricade in order to proceed to the next objective.","Next, they must take out the forward outpost. When the area is clear, a shipment of heavier cargo will be dropped in to help you proceed.","The defenders are nestled deep within this hardened bunker. You will have to bypass the defenses and infiltrate the bunker to reach their command center.","Reach the underground command center and place explosives to destroy the entire base. This should bring the resistance to its knees.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Bunker infiltrated!"
+Message="バンカーが潜入！"
+
+[Trigger_ASMessageTrigger2]
+; EN: Message="Command center destroyed!"
+Message="コマンドセンターが破壊されました！"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Explosives Set!!!"
+Message="爆発物セット!!!"
+
+[Volume0]
+; EN: LocationName="Forward outpost"
+LocationName="前哨基地"
+
+[Volume1]
+; EN: LocationName="Attackers drop zone"
+LocationName="攻撃者はゾーンをドロップします"
+
+[Volume10]
+; EN: LocationName="Stairs"
+LocationName="階段"
+
+[Volume11]
+; EN: LocationName="Subway station lobby"
+LocationName="地下鉄駅ロビー"
+
+[Volume12]
+; EN: LocationName="Station roof"
+LocationName="駅の屋根"
+
+[Volume13]
+; EN: LocationName="Vents"
+LocationName="ベント"
+
+[Volume14]
+; EN: LocationName="Subway train"
+LocationName="地下鉄"
+
+[Volume15]
+; EN: LocationName="Subway tracks"
+LocationName="地下鉄の線路"
+
+[Volume2]
+; EN: LocationName="Rebel look out"
+LocationName="反逆者は気をつけて"
+
+[Volume3]
+; EN: LocationName="Caudle Ave."
+LocationName="カウドアベニュー。"
+
+[Volume4]
+; EN: LocationName="Attackers drop zone"
+LocationName="攻撃者はゾーンをドロップします"
+
+[Volume5]
+; EN: LocationName="Boarding station"
+LocationName="搭乗駅"
+
+[Volume6]
+; EN: LocationName="Statue pass"
+LocationName="スタチューパス"
+
+[Volume7]
+; EN: LocationName="Statue pass"
+LocationName="スタチューパス"
+
+[Volume8]
+; EN: LocationName="Roman path way"
+LocationName="ローマの道"
+
+[Volume9]
+; EN: LocationName="Subway ticket stand"
+LocationName="地下鉄の切符売り場"
+
+[ZoneInfo0]
+; EN: LocationName="Destroyed city"
+LocationName="破壊された都市"
+

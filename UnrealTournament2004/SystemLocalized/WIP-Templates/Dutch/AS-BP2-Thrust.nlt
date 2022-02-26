@@ -1,0 +1,120 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Guidance Rocket Switch"
+LocationName="Begeleiding Rocket Switch"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Pressure Tanks"
+LocationName="Druktanks"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE5]
+Message="1..."
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="Pressure tanks destroyed!"
+Message="Druktanks vernietigd!"
+
+[DestroyableObjective_SM0]
+ObjectiveName="SAM Launcher 2"
+; EN: DestructionMessage="SAM Launcher 1 Destroyed!"
+DestructionMessage="SAM Launcher 1 vernietigd!"
+; EN: ObjectiveDescription="Destroy the SAM launcher to allow the dropship to land."
+ObjectiveDescription="Vernietig de SAM-draagraket om het dropship te laten landen."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 1"
+Objective_Info_Attacker="Vernietig SAM Launcher 1"
+; EN: Objective_Info_Defender="Protect SAM Launcher 1"
+Objective_Info_Defender="Bescherm SAM Launcher 1"
+
+[DestroyableObjective_SM1]
+ObjectiveName="SAM Launcher 2"
+; EN: DestructionMessage="SAM Launcher 2 Destroyed!"
+DestructionMessage="SAM Launcher 2 vernietigd!"
+; EN: ObjectiveDescription="Destroy SAM Launcher to allow the dropship to land."
+ObjectiveDescription="Vernietig SAM Launcher om het dropship te laten landen."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 2"
+Objective_Info_Attacker="Vernietig SAM Launcher 2"
+; EN: Objective_Info_Defender="Protect SAM Launcher 2"
+Objective_Info_Defender="Bescherm SAM Launcher 2"
+
+[HoldObjective0]
+; EN: ObjectiveName="Main Rocket Launch Switch"
+ObjectiveName="Hoofdschakelaar voor raketlancering"
+; EN: DestructionMessage="Rocket Launched!"
+DestructionMessage="Raket gelanceerd!"
+; EN: ObjectiveDescription="Launch the Main Rocket."
+ObjectiveDescription="Lanceer de hoofdraket."
+; EN: Objective_Info_Attacker="Launch the Main Rocket"
+Objective_Info_Attacker="Lanceer de hoofdraket"
+; EN: Objective_Info_Defender="Defend the Main Rocket Switch"
+Objective_Info_Defender="Verdedig de hoofdraketschakelaar"
+
+[HoldObjective1]
+; EN: ObjectiveName="Guidance Rocket"
+ObjectiveName="Geleidingsraket"
+; EN: DestructionMessage="Guidance Rocket Launched!"
+DestructionMessage="Begeleidingsraket gelanceerd!"
+; EN: ObjectiveDescription="Launch the Guidance Rocket, it is required for a successful launch of the main rocket."
+ObjectiveDescription="Lanceer de Guidance Rocket, deze is nodig voor een succesvolle lancering van de hoofdraket."
+; EN: Objective_Info_Attacker="Launch the Guidance Rocket"
+Objective_Info_Attacker="Lanceer de geleideraket"
+; EN: Objective_Info_Defender="Defend the Guidance Rocket"
+Objective_Info_Defender="Verdedig de geleideraket"
+
+[HoldObjective5]
+; EN: ObjectiveName="DockObjective"
+ObjectiveName="DockDoelstelling"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="De explosieven zijn op hun plaats!"
+; EN: ObjectiveDescription="Place explosives on the pressure tanks to reduce hydraulic pressure and open the security door."
+ObjectiveDescription="Plaats explosieven op de druktanks om de hydraulische druk te verminderen en open de veiligheidsdeur."
+; EN: Objective_Info_Attacker="Place explosives on the pressure tanks"
+Objective_Info_Attacker="Plaats explosieven op de druktanks"
+; EN: Objective_Info_Defender="Defend the pressure tanks"
+Objective_Info_Defender="Verdedig de druktanks"
+
+[LevelInfo0]
+; EN: Title="Thrust"
+Title="Stoot"
+; EN: LocationName="Outside"
+LocationName="Buiten"
+
+[LevelSummary]
+; EN: Title="Thrust"
+Title="Stoot"
+; EN: Description="A recreation of the infamous destruction of the Saturn IX PCNR rocket where a crack team of anti-NEG rebels stormed the launch facility and scuttled the rocket by launching it unguided and half-fueled."
+Description="Een recreatie van de beruchte vernietiging van de Saturn IX PCNR-raket waarbij een team van anti-NEG-rebellen de lanceerfaciliteit bestormden en de raket tot zinken bracht door deze ongeleid en halfvol te lanceren."
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the premature launching of the half-fueled Saturn IX rocket by anti-NEG rebels.","First, your team must toggle the switch on the roof of this small building to launch the Guidance Rocket, which serves as a necessary navigational beacon for the Main Rocket.","If you wish, you may choose to secure the auxiliary landing pad by destroying two these SAM launchers. If the SAM site is destroyed, your team then may spawn at the landing pad, and an airstrike will drastically weaken the enemy defenses at your next objective.","Place and detonate explosives on the hydraulic pressure tanks. This will open all base doors, and allow access to the facility's main control room.","Finally, you will need to activate the launch switch inside Mission Control before final fueling is complete.  This will scuttle the Main Rocket into an improper launch orbit.")
+
+[Volume0]
+; EN: LocationName="SAM Platform"
+LocationName="SAM-platform"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Buiten"
+
+[ZoneInfo1]
+; EN: LocationName="Guidance Rocket Building"
+LocationName="Begeleiding raket bouwen"
+
+[ZoneInfo2]
+; EN: LocationName="Defender Spawn in Rocker Building"
+LocationName="Verdedigerspawn in Rocker Building"
+
+[ZoneInfo3]
+; EN: LocationName="Rocket Control Room"
+LocationName="Raket Controlekamer"
+

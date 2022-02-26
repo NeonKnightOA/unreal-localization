@@ -3,32 +3,42 @@ Title="Morpheus3"
 
 [LevelSummary]
 Title="Morpheus3"
-Description="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper Superstructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the Tournament athlete's ability to adapt and conquer in extreme environments."
+; EN: Description="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper Superstructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the Tournament athlete's ability to adapt and conquer in extreme environments."
+Description="LMC wusste, dass sie ganz oben auf einem neu gebauten Galaxyscraper Superstructure eine ausgezeichnete Arena gefunden hatten. Dank des modernen Wunders superdehnbarer Feststoffe erreichen diese drei Gebäude an ihrer Spitze eine atemberaubende Höhe von 19 km. Die dünne Atmosphäre und der reduzierte Einfluss der Erdanziehungskraft stellen einen interessanten Test für die Fähigkeit des Turniersportlers dar, sich in extremen Umgebungen anzupassen und zu erobern."
 
 [MessageTextureClient4]
-ScrollingMessage="%lp leads the match with %lf frags"
+; EN: ScrollingMessage="%lp leads the match with %lf frags"
+ScrollingMessage="%lp führt das Match mit %lf frags an"
 
 [PhysicsVolume1]
-LocationName="12 Miles High"
+; EN: LocationName="12 Miles High"
+LocationName="12 Meilen hoch"
 
 [ZoneInfo0]
-LocationName="YELLOW Tower Interior"
+; EN: LocationName="YELLOW Tower Interior"
+LocationName="GELBE Turm-Innenraum"
 
 [ZoneInfo1]
-LocationName="BLUE Tower Interior"
+; EN: LocationName="BLUE Tower Interior"
+LocationName="Innenraum des BLAUEN Turms"
 
 [ZoneInfo2]
-LocationName="12 Miles High"
+; EN: LocationName="12 Miles High"
+LocationName="12 Meilen hoch"
 
 [ZoneInfo3]
-LocationName="BLUE Tower Interior"
+; EN: LocationName="BLUE Tower Interior"
+LocationName="Innenraum des BLAUEN Turms"
 
 [ZoneInfo4]
-LocationName="YELLOW Tower Interior"
+; EN: LocationName="YELLOW Tower Interior"
+LocationName="GELBE Turm-Innenraum"
 
 [ZoneInfo5]
-LocationName="RED Tower Interior"
+; EN: LocationName="RED Tower Interior"
+LocationName="Innenraum des ROTEN Turms"
 
 [ZoneInfo6]
-LocationName="RED Tower Interior"
+; EN: LocationName="RED Tower Interior"
+LocationName="Innenraum des ROTEN Turms"
 

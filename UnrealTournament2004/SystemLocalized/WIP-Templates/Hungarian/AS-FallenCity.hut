@@ -1,0 +1,187 @@
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Subway station entrance"
+LocationName="Metróállomás bejárata"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Subway train"
+LocationName="Metró"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Boarding station"
+LocationName="Beszálló állomás"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE4]
+Message="1..."
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Kapuzár"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="A kapuzár megsemmisült!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Pusztítsd el a kapuzárat"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Pusztítsd el a kapuzárat"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Védd meg a kapuzárat"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="barricade"
+ObjectiveName="barikád"
+; EN: DestructionMessage="barricade destroyed!"
+DestructionMessage="barikád lerombolva!"
+; EN: ObjectiveDescription="Destroy the barricade"
+ObjectiveDescription="Pusztítsd el a barikádot"
+; EN: Objective_Info_Attacker="Destroy barricade"
+Objective_Info_Attacker="Pusztítsd el a barikádot"
+; EN: Objective_Info_Defender="Defend barricade"
+Objective_Info_Defender="Barikád védelme"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Kapuzár"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="A kapuzár megsemmisült!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Pusztítsd el a kapuzárat"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Pusztítsd el a kapuzárat"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Védd meg a kapuzárat"
+
+[HoldObjective0]
+; EN: ObjectiveName="Explosive #2"
+ObjectiveName="2. robbanóanyag"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="A robbanóanyagok a helyükön vannak!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Helyezzen be egy robbanóanyagot"
+Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Defender="Defend Command Center"
+
+[HoldObjective1]
+; EN: ObjectiveName="Forward outpost"
+ObjectiveName="Előőrs"
+; EN: DestructionMessage="Forward outpost taken!"
+DestructionMessage="Előőrs foglalt!"
+; EN: ObjectiveDescription="Take the forward outpost "
+ObjectiveDescription="Vegye ki az elülső előőrsöt "
+; EN: Objective_Info_Attacker="Secure forward outpost"
+Objective_Info_Attacker="Biztonságos előretolt előőrs"
+; EN: Objective_Info_Defender="Defend forward outpost"
+Objective_Info_Defender="Védd meg az előőrsöt"
+
+[HoldObjective2]
+; EN: ObjectiveName="Explosive #1"
+ObjectiveName="1. robbanóanyag"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="A robbanóanyagok a helyükön vannak!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Helyezzen be egy robbanóanyagot"
+Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Defender="Defend Command Center"
+
+[LevelInfo0]
+; EN: Title="The Fallen City"
+Title="A bukott város"
+
+[LevelSummary]
+; EN: Title="The Fallen City"
+Title="A bukott város"
+; EN: Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+Description="Az emberek/Skaarj háborút követően a Föld számos városa romokban hevert. Amikor az Új Föld Kormánya megpróbálta érvényesíteni hatalmát ezeken a területeken, sok lázadó csoporttal szembesültek, amelyeket gyakran burkoltan a nagyvállalatok finanszíroztak, amelyek bázisokat hoztak létre a lerombolt városokban. Ez a forgatókönyv újrateremti a lázadók parancsnoki központjának a NEG erők általi megsemmisítését. A történelmi ütközetnek megfelelően a támadó beszúrási pontja távol van a parancsnoki központtól, a bunker körüli erős légvédelmi védelem miatt."
+
+[SceneSubtitles1]
+SubTitles=("Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas,","they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities.","This scenario recreates the destruction of a rebel command center by NEG forces. ","In keeping with the historical battle, the attackers' insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker. ","The attackers must first make their way through the streets on foot and clear out any resistance they find. They must destroy the barricade in order to proceed to the next objective.","Next, they must take out the forward outpost. When the area is clear, a shipment of heavier cargo will be dropped in to help you proceed.","The defenders are nestled deep within this hardened bunker. You will have to bypass the defenses and infiltrate the bunker to reach their command center.","Reach the underground command center and place explosives to destroy the entire base. This should bring the resistance to its knees.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Bunker infiltrated!"
+Message="Bunker beszivárgott!"
+
+[Trigger_ASMessageTrigger2]
+; EN: Message="Command center destroyed!"
+Message="A parancsnoki központ megsemmisült!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Explosives Set!!!"
+Message="Robbanóanyag készlet!!!"
+
+[Volume0]
+; EN: LocationName="Forward outpost"
+LocationName="Előőrs"
+
+[Volume1]
+; EN: LocationName="Attackers drop zone"
+LocationName="A támadók dobási zóna"
+
+[Volume10]
+; EN: LocationName="Stairs"
+LocationName="Lépcsők"
+
+[Volume11]
+; EN: LocationName="Subway station lobby"
+LocationName="Metróállomás előcsarnoka"
+
+[Volume12]
+; EN: LocationName="Station roof"
+LocationName="Állomástető"
+
+[Volume13]
+; EN: LocationName="Vents"
+LocationName="Szellőzőnyílások"
+
+[Volume14]
+; EN: LocationName="Subway train"
+LocationName="Metró"
+
+[Volume15]
+; EN: LocationName="Subway tracks"
+LocationName="Metró vágányok"
+
+[Volume2]
+; EN: LocationName="Rebel look out"
+LocationName="Lázadó vigyázzon"
+
+[Volume3]
+LocationName="Caudle Ave."
+
+[Volume4]
+; EN: LocationName="Attackers drop zone"
+LocationName="A támadók dobási zóna"
+
+[Volume5]
+; EN: LocationName="Boarding station"
+LocationName="Beszálló állomás"
+
+[Volume6]
+; EN: LocationName="Statue pass"
+LocationName="Szoborbérlet"
+
+[Volume7]
+; EN: LocationName="Statue pass"
+LocationName="Szoborbérlet"
+
+[Volume8]
+; EN: LocationName="Roman path way"
+LocationName="Római út módja"
+
+[Volume9]
+; EN: LocationName="Subway ticket stand"
+LocationName="Metrójegy stand"
+
+[ZoneInfo0]
+; EN: LocationName="Destroyed city"
+LocationName="Lerombolt város"
+

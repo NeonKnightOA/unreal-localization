@@ -1,0 +1,114 @@
+[LevelInfo0]
+; EN: Title="Concentrate"
+Title="Konsentrere"
+
+[LevelSummary]
+; EN: Title="Concentrate"
+Title="Konsentrere"
+; EN: Description="On this derelict outpost set deep in the Elorean Seas, there is no escape for the struggling... except through victory.  The only way out is through."
+Description="På denne forlatte utposten som ligger dypt i Eloreanhavet, er det ingen flukt for de som sliter... bortsett fra gjennom seier. Den eneste veien ut er gjennom."
+
+[PhysicsVolume0]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume1]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume2]
+LocationName="Blue Spike Pit"
+
+[PhysicsVolume3]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume4]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume5]
+LocationName="Red Spike Pit"
+
+[Volume1]
+LocationName="Blue Flag Pit"
+
+[Volume10]
+; EN: LocationName="Red Upper Area"
+LocationName="Rødt øvre område"
+
+[Volume11]
+; EN: LocationName="Red Flag Room"
+LocationName="Rom med rødt flagg"
+
+[Volume12]
+; EN: LocationName="Red Spawn Area"
+LocationName="Rødt gyteområde"
+
+[Volume3]
+; EN: LocationName="Central Area"
+LocationName="Sentralområdet"
+
+[Volume4]
+; EN: LocationName="Blue Upper Area"
+LocationName="Blått øvre område"
+
+[Volume5]
+; EN: LocationName="Blue Upper Area"
+LocationName="Blått øvre område"
+
+[Volume6]
+; EN: LocationName="Red Flag Room"
+LocationName="Rom med rødt flagg"
+
+[Volume7]
+LocationName="Red Flag Pit"
+
+[Volume8]
+; EN: LocationName="Red Spawn Area"
+LocationName="Rødt gyteområde"
+
+[Volume9]
+; EN: LocationName="Red Upper Area"
+LocationName="Rødt øvre område"
+
+[ZoneInfo0]
+; EN: LocationName="Somewhere Else"
+LocationName="Et annet sted"
+
+[ZoneInfo1]
+; EN: LocationName="Red Upper Corridor"
+LocationName="Rød øvre korridor"
+
+[ZoneInfo2]
+; EN: LocationName="Red Lower Corridor"
+LocationName="Rød nedre korridor"
+
+[ZoneInfo3]
+; EN: LocationName="Blue Lower Corridor"
+LocationName="Blå nedre korridor"
+
+[ZoneInfo4]
+; EN: LocationName="Blue Upper Corridor"
+LocationName="Blå øvre korridor"
+
+[ZoneInfo5]
+; EN: LocationName="Blue Base"
+LocationName="Blå base"
+
+[ZoneInfo6]
+; EN: LocationName="Red Base"
+LocationName="Rød base"
+
+[fell_nogibs]
+; EN: DeathString="%o was spiked."
+DeathString="%o ble økt."
+; EN: FemaleSuicide="%o was spiked."
+FemaleSuicide="%o ble økt."
+; EN: MaleSuicide="%o was spiked."
+MaleSuicide="%o ble økt."
+
+[fell_nogibs2]
+; EN: DeathString="%o fell off."
+DeathString="%o falt av."
+; EN: FemaleSuicide="%o fell off."
+FemaleSuicide="%o falt av."
+; EN: MaleSuicide="%o fell off."
+MaleSuicide="%o falt av."
+

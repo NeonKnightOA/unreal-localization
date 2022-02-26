@@ -1,0 +1,33 @@
+[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
+; EN: Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="ablakok",Parent="Kijelző",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="ablakok",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3d hardware initialization failed"
+Failed3D="A 3D hardver inicializálása nem sikerült"
+; EN: DDrawMode="DirectDraw was unable to set the requested video mode"
+DDrawMode="A DirectDraw nem tudta beállítani a kért videomódot"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Perspektivikus térkép"
+; EN: ViewXY="Overhead map"
+ViewXY="Felülnézeti térkép"
+; EN: ViewXZ="XZ map"
+ViewXZ="XZ térkép"
+; EN: ViewYZ="YZ map"
+ViewYZ="YZ térkép"
+ViewOther="Viewport"
+; EN: Color16="&16-bit color"
+Color16="&amp;16 bites szín"
+; EN: Color32="&32-bit color"
+Color32="&amp;32 bites szín"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Haladó beállítások"
+
+[WindowsClient]
+; EN: ClassCaption="Standard Windows Manager"
+ClassCaption="Normál Windows Manager"

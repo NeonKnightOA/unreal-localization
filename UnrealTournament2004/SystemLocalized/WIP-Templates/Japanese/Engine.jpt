@@ -1,0 +1,905 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="高度",Parent="高度なオプション")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="オーディオ",Parent="高度なオプション")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="画面",Parent="高度なオプション")
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="編集者",Parent="高度なオプション")
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="ゲームの設定",Parent="高度なオプション",Class=Engine.GameInfo,Immediate=True)
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="ジョイスティック",Parent="高度なオプション")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="ネットワーキング",Parent="高度なオプション")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="レンダリング",Parent="高度なオプション")
+; "Advanced" root
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="ゲームエンジンの設定",Parent="高度",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="キーエイリアス",Parent="高度",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="生のキーバインディング",Parent="高度",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="運転手",Parent="高度なオプション",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; "Networking" root
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="パブリックサーバー情報",Parent="ネットワーキング",Class=Engine.GameReplicationInfo,Immediate=True)
+
+[Errors]
+; EN: NetOpen=Error opening file
+NetOpen=ファイルを開くときにエラーが発生しました
+; EN: NetWrite=Error writing to file
+NetWrite=ファイルへの書き込み中にエラーが発生しました
+; EN: NetRefused=Server refused to send '%s'
+NetRefused=サーバーは「％s」の送信を拒否しました
+; EN: NetClose=Error closing file
+NetClose=ファイルを閉じるときにエラーが発生しました
+; EN: NetSize=File size mismatch
+NetSize=ファイルサイズの不一致
+; EN: NetMove=Error moving file
+NetMove=ファイルの移動中にエラーが発生しました
+; EN: NetInvalid=Received invalid file request
+NetInvalid=無効なファイルリクエストを受信しました
+; EN: NoDownload=Package '%s' is not downloadable
+NoDownload=パッケージ '％s'はダウンロードできません
+; EN: DownloadFailed=Downloading package '%s' failed: %s
+DownloadFailed=パッケージ '％s'のダウンロードに失敗しました：％s
+; EN: RequestDenied=Server requested file from pending level: Denied
+RequestDenied=サーバーが保留中のレベルからファイルを要求しました：拒否されました
+; EN: ConnectionFailed=Connection failed
+ConnectionFailed=接続に失敗しました
+; EN: ChAllocate=Couldn't allocate channel
+ChAllocate=チャネルを割り当てることができませんでした
+; EN: NetAlready=Already networking
+NetAlready=すでにネットワーキング
+; EN: NetListen=Listen failed: No linker context available
+NetListen=リッスンに失敗しました：利用可能なリンカーコンテキストがありません
+; EN: LoadEntry=Can't load Entry: %s
+LoadEntry=エントリを読み込めません：％s
+; EN: InvalidUrl=Invalid URL: %s
+InvalidUrl=無効なURL：％s
+; EN: InvalidLink=Invalid Link: %s
+InvalidLink=無効なリンク：％s
+; EN: FailedBrowse=Failed to enter %s: %s
+FailedBrowse=％sの入力に失敗しました：％s
+; EN: Listen=Listen failed: %s
+Listen=リッスンに失敗しました：％s
+; EN: AbortToEntry=Failed; returning to Entry
+AbortToEntry=失敗した;エントリーに戻る
+; EN: ServerOpen=Servers can't open network URLs
+ServerOpen=サーバーはネットワークURLを開くことができません
+; EN: ServerListen=Dedicated server can't listen: %s
+ServerListen=専用サーバーはリッスンできません：％s
+; EN: Pending=Pending connect to '%s' failed; %s
+Pending='％s'への保留中の接続に失敗しました。 ％NS
+; EN: LoadPlayerClass=Failed to load player class
+LoadPlayerClass=プレーヤークラスの読み込みに失敗しました
+; EN: ServerOutdated=Server's version is outdated
+ServerOutdated=サーバーのバージョンが古くなっています
+; EN: ClientOutdated=You need to apply the latest patches
+ClientOutdated=最新のパッチを適用する必要があります
+; EN: InvalidCDKey=Your CD key appears to be invalid.  You will need to reinstall the game and enter your CD key to fix this problem.
+InvalidCDKey=CDキーが無効のようです。この問題を解決するには、ゲームを再インストールしてCDキーを入力する必要があります。
+; EN: ConnectLost=Connection Lost
+ConnectLost=接続切断
+; EN: DemoFileMissing=Missing package '%s' for demo playback
+DemoFileMissing=デモ再生用のパッケージ '％s'がありません
+; EN: DownloadNotAllowed=Downloading '%s' not allowed
+DownloadNotAllowed='％s'のダウンロードは許可されていません
+
+[General]
+; EN: Upgrade=To enter this server, you need the latest free update to Unreal available from Epic's Web site:
+Upgrade=このサーバーに入るには、EpicのWebサイトから入手できるUnrealの最新の無料アップデートが必要です。
+UpgradeURL=http://www.unreal.com/upgrade
+; EN: UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
+UpgradeQuestion=Webブラウザーを起動して、今すぐアップグレードページに移動しますか？
+; EN: Version=Version %i
+Version=バージョン％i
+
+[KeyNames]
+; EN: Up=UP
+Up=上
+; EN: Right=RIGHT
+Right=右
+; EN: Left=LEFT
+Left=左
+; EN: Down=DOWN
+Down=下
+; EN: LeftMouse=LEFT MOUSE
+LeftMouse=マウスの左
+; EN: RightMouse=RIGHT MOUSE
+RightMouse=右マウス
+; EN: MiddleMouse=MIDDLE MOUSE
+MiddleMouse=ミドルマウス
+; EN: MouseX=MOUSE X
+MouseX=マウスX
+; EN: MouseY=MOUSE Y
+MouseY=マウスY
+; EN: MouseZ=MOUSE Z
+MouseZ=マウスZ
+; EN: MouseW=MOUSE W
+MouseW=マウスW
+; EN: JoyX=JOY X
+JoyX=ジョイX
+; EN: JoyY=JOY Y
+JoyY=ジョイY
+; EN: JoyZ=JOY Z
+JoyZ=ジョイZ
+; EN: JoyU=JOY U
+JoyU=ジョイU
+; EN: JoyV=JOY V
+JoyV=ジョイV
+; EN: JoySlider1=JOYSLIDER 1
+JoySlider1=ジョイスライダー1
+; EN: JoySlider2=JOYSLIDER 2
+JoySlider2=ジョイスライダー2
+MouseWheelUp=MOUSEWHEEL UP
+MouseWheelDown=MOUSEWHEEL DOWN
+; EN: Joy1=JOY 1
+Joy1=ジョイ1
+; EN: Joy2=JOY 2
+Joy2=ジョイ2
+; EN: Joy3=JOY 3
+Joy3=ジョイ3
+; EN: Joy4=JOY 4
+Joy4=ジョイ4
+; EN: Joy5=JOY 5
+Joy5=ジョイ5
+; EN: Joy6=JOY 6
+Joy6=ジョイ6
+; EN: Joy7=JOY 7
+Joy7=ジョイ7
+; EN: Joy8=JOY 8
+Joy8=ジョイ8
+; EN: Joy9=JOY 9
+Joy9=ジョイ9
+; EN: Joy10=JOY 10
+Joy10=ジョイ10
+; EN: Joy11=JOY 11
+Joy11=ジョイ11
+; EN: Joy12=JOY 12
+Joy12=ジョイ12
+; EN: Joy13=JOY 13
+Joy13=ジョイ13
+; EN: Joy14=JOY 14
+Joy14=ジョイ14
+; EN: Joy15=JOY 15
+Joy15=ジョイ15
+; EN: Joy16=JOY 16
+Joy16=ジョイ16
+; EN: Space=SPACE
+Space=スペース
+; EN: PageUp=PAGE UP
+PageUp=ページアップ
+; EN: PageDown=PAGE DOWN
+PageDown=ページダウン
+; EN: End=END
+End=終わり
+; EN: Home=HOME
+Home=家
+; EN: Select=SELECT
+Select=選択する
+; EN: Print=PRINT
+Print=印刷
+; EN: Execute=EXECUTE
+Execute=実行する
+PrintScrn=PRINTSCRN
+; EN: Insert=INSERT
+Insert=入れる
+; EN: Delete=DELETE
+Delete=消去
+; EN: Help=HELP
+Help=ヘルプ
+NumPad0=NUM 0
+NumPad1=NUM 1
+NumPad2=NUM 2
+NumPad3=NUM 3
+NumPad4=NUM 4
+NumPad5=NUM 5
+NumPad6=NUM 6
+NumPad7=NUM 7
+NumPad8=NUM 8
+NumPad9=NUM 9
+; EN: GreyStar=GREY STAR
+GreyStar=グレイスター
+; EN: GreyPlus=GREY PLUS
+GreyPlus=グレープラス
+; EN: Separator=SEPARATOR
+Separator=セパレーター
+; EN: GreyMinus=GREY MINUS
+GreyMinus=グレーマイナス
+; EN: NumPadPeriod=NUM .
+NumPadPeriod=NUM。
+; EN: GreySlash=GREY SLASH
+GreySlash=グレースラッシュ
+; EN: Pause=PAUSE
+Pause=一時停止
+; EN: CapsLock=CAPSLOCK
+CapsLock=キャップスロック
+; EN: Tab=TAB
+Tab=タブ
+; EN: Enter=ENTER
+Enter=入力
+; EN: Shift=SHIFT
+Shift=シフト
+NumLock=NUMLOCK
+; EN: Escape=ESCAPE
+Escape=エスケープ
+
+[Progress]
+; EN: CancelledConnect=Cancelled Connect Attempt
+CancelledConnect=接続の試行をキャンセルしました
+; EN: RunningNet=%s: %s (%i players)
+RunningNet=％s：％s（％iプレーヤー）
+; EN: NetReceiving=Receiving '%s': %i/%i
+NetReceiving='％s'の受信：％i /％i
+; EN: NetReceiveOk=Successfully received '%s'
+NetReceiveOk='％s'を正常に受信しました
+; EN: NetSend=Sending '%s'
+NetSend='％s'を送信する
+; EN: NetSending=Sending '%s': %i/%i
+NetSending='％s'の送信：％i /％i
+; EN: Connecting=Connecting (F10 to Abort)...
+Connecting=接続中（F10から中止）..
+; EN: Listening=Listening for clients...
+Listening=クライアントの話を聞いています...
+; EN: Loading=Loading
+Loading=読み込み中
+; EN: Saving=Saving
+Saving=保存
+; EN: Paused=Paused by %s
+Paused=％sによって一時停止
+; EN: ReceiveFile=Receiving '%s' (F10 Cancels)
+ReceiveFile='％s'を受信して​​います（F10キャンセル）
+; EN: ReceiveOptionalFile=Receiving optional file '%s' (Press F10 to Skip)
+ReceiveOptionalFile=オプションファイル '％s'を受信して​​います（F10キーを押してスキップします）
+; EN: ReceiveSize=Size %iK, Complete %3.1f%%
+ReceiveSize=サイズ％iK、完了％3.1f %%
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="接続（F10キャンセル）："
+; EN: ConnectingURL=%s://%s/%s
+ConnectingURL=％s：//％s /％s
+; EN: CorruptConnect=Incompatible Game Files!
+CorruptConnect=互換性のないゲームファイル！
+
+[UpgradeDrivers]
+; EN: OutdatedDrivers=You are running old graphics card drivers that might not work in conjunction with the game.
+OutdatedDrivers=ゲームと組み合わせて動作しない可能性のある古いグラフィックカードドライバを実行しています。
+; EN: OursOrWeb=Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage
+OursOrWeb=CDから更新されたドライバをインストールするには[はい]を選択し、メーカーのホームページにアクセスするには[いいえ]を選択します
+; EN: InsertCD=Please insert your Unreal Tournament CD 3
+InsertCD=Unreal Tournament CD3を挿入してください
+NvidiaURL=http://www.nvidia.com/content/drivers/drivers.asp
+AtiURL=http://www.ati.com/support/driver.html
+; EN: CDButton=Upgrade from CD
+CDButton=CDからアップグレード
+; EN: WebButton=Upgrade from Web
+WebButton=Webからのアップグレード
+; EN: cancelButton=Don't Upgrade
+cancelButton=アップグレードしないでください
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5
+; EN: HelpOneLiner=Manipulate the Master MD5 database
+HelpOneLiner=マスターMD5データベースを操作する
+; EN: HelpUsage=mastermd5 [-option..] <params>
+HelpUsage=mastermd5 [-option ..] &lt;params&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=-c
+HelpParm[0]=-NS
+; EN: HelpDesc[0]=Creates a new MD5 database
+HelpDesc[0]=新しいMD5データベースを作成します
+; EN: HelpParm[1]=-a
+HelpParm[1]=-NS
+; EN: HelpDesc[1]=Adds new packages to the database
+HelpDesc[1]=データベースに新しいパッケージを追加します
+; EN: HelpParm[2]=-s
+HelpParm[2]=-NS
+; EN: HelpDesc[2]=Show the current database.
+HelpDesc[2]=現在のデータベースを表示します。
+; EN: HelpParm[3]=-r
+HelpParm[3]=-NS
+; EN: HelpDesc[3]=Force the revision of all entries to <param>
+HelpDesc[3]=すべてのエントリの改訂を&lt;param&gt;に強制します
+
+[UModUnpackCommandlet]
+HelpCmd=umodunpack
+; EN: HelpOneLiner=Unpack UMOD files
+HelpOneLiner=UMODファイルを解凍します
+; EN: HelpUsage=umodunpack [-option] <filename>
+HelpUsage=umodunpack [-option] &lt;ファイル名&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=-x
+HelpParm[0]=-NS
+; EN: HelpDesc[0]=Extract files from <filename>
+HelpDesc[0]=&lt;ファイル名&gt;からファイルを抽出します
+HelpParm[1]=-l
+; EN: HelpDesc[1]=List files in <filename> without extracting.
+HelpDesc[1]=抽出せずに&lt;filename&gt;内のファイルを一覧表示します。
+
+[ServerCommandlet]
+; EN: HelpCmd=server
+HelpCmd=サーバ
+; EN: HelpOneLiner=Network game server
+HelpOneLiner=ネットワークゲームサーバー
+; EN: HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpUsage=サーバーmap.unr [？game = gametype] [-option ...] [parm = value] .. ..
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=Log
+HelpParm[0]=ログ
+; EN: HelpDesc[0]=Specify the log file to generate
+HelpDesc[0]=生成するログファイルを指定します
+HelpParm[1]=AllAdmin
+; EN: HelpDesc[1]=Give all players admin priveleges
+HelpDesc[1]=すべてのプレイヤーに管理者特権を与える
+
+[ExportCacheCommandlet]
+HelpCmd=exportcache
+; EN: HelpOneLIner=Generates cache record entries for the specified packages.
+HelpOneLIner=指定されたパッケージのキャッシュレコードエントリを生成します。
+; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext ...] [destfilename.ucl]
+HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
+; EN: HelpParm[0]=-a
+HelpParm[0]=-NS
+HelpParm[1]=-y
+HelpParm[2]=-v
+HelpParm[3]=package.ext
+HelpParm[4]=destfilename.ucl
+; EN: HelpDesc[0]=Update matching entries in destfilename.ucl.  Append any new entries.
+HelpDesc[0]=destfilename.uclの一致するエントリを更新します。新しいエントリを追加します。
+; EN: HelpDesc[1]=Automatically answer 'Yes' to any prompts during the operation.
+HelpDesc[1]=操作中のプロンプトに対して自動的に「はい」と答えます。
+; EN: HelpDesc[2]=Verbose output (to ucc.log)
+HelpDesc[2]=詳細出力（ucc.logへ）
+; EN: HelpDesc[3]=Space delimited list of packages (including extension) that should be exported.  Wildcards are supported.  Paths are not required.
+HelpDesc[3]=エクスポートする必要のあるパッケージ（拡張子を含む）のスペース区切りリスト。ワイルドカードがサポートされています。パスは必要ありません。
+; EN: HelpDesc[4]=Destination file for exported entries.  Default filename is the name of the package being exported.  To export multiple packages to a single .ucl file, you must specify a destination filename.
+HelpDesc[4]=エクスポートされたエントリの宛先ファイル。デフォルトのファイル名は、エクスポートされるパッケージの名前です。複数のパッケージを単一の.uclファイルにエクスポートするには、宛先ファイル名を指定する必要があります。
+
+[AccessControl]
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="このサーバーではIPアドレスが禁止されています。"
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="あなたの入力したパスワードに誤りがあります。"
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="このゲームに参加するには、パスワードを入力する必要があります。"
+; EN: SessionBanned="Your IP address has been banned from the current game session."
+SessionBanned="あなたのIPアドレスは現在のゲームセッションから禁止されています。"
+; EN: KickedMsg="You have been forcibly removed from the game."
+KickedMsg="ゲームから強制的に削除されました。"
+; EN: DefaultKickReason="None specified"
+DefaultKickReason="指定なし"
+; EN: IdleKickReason="Kicked for idling."
+IdleKickReason="アイドリングのために蹴られた。"
+; EN: ACDisplayText[0]="Game Password"
+ACDisplayText[0]="ゲームパスワード"
+; EN: ACDisplayText[1]="Access Policies"
+ACDisplayText[1]="アクセスポリシー"
+; EN: ACDisplayText[2]="Admin Password"
+ACDisplayText[2]="管理者のパスワード"
+; EN: ACDisplayText[3]="Login Delay"
+ACDisplayText[3]="ログイン遅延"
+; EN: ACDescText[0]="If this password is set, players will have to enter it to join this server."
+ACDescText[0]="このパスワードが設定されている場合、プレイヤーはこのサーバーに参加するためにパスワードを入力する必要があります。"
+; EN: ACDescText[1]="Specifies IP addresses or address ranges which have been banned."
+ACDescText[1]="禁止されているIPアドレスまたはアドレス範囲を指定します。"
+; EN: ACDescText[2]="Password required to login with administrator privileges on this server."
+ACDescText[2]="このサーバーで管理者権限でログインするために必要なパスワード。"
+; EN: ACDescText[3]="Number of seconds user must wait after an unsuccessful login attempt before able to login again."
+ACDescText[3]="ログイン試行が失敗した後、ユーザーが再度ログインできるようになるまで待機する必要がある秒数。"
+
+[AdminBase]
+; EN: Msg_PlayerList="Player List:"
+Msg_PlayerList="プレイヤーリスト："
+; EN: Msg_AllGameMaps="Maps that are valid (can be added) to"
+Msg_AllGameMaps="に有効な（追加できる）マップ"
+; EN: Msg_AllMapLists="Available maplists for %gametype%."
+Msg_AllMapLists="％gametype％で利用可能なマップリスト。"
+; EN: Msg_MapRotationList="Active maps for maplist %maplist%."
+Msg_MapRotationList="マップリスト％maplist％のアクティブなマップ。"
+; EN: Msg_NoMapsAdded="No maps added to the maplist %maplist%."
+Msg_NoMapsAdded="マップリスト％maplist％にマップが追加されていません。"
+; EN: Msg_AddedMapToList="Maps successfully added to maplist"
+Msg_AddedMapToList="マップがマップリストに正常に追加されました"
+; EN: Msg_NoMapsRemoved="No maps were removed from the maplist %maplist%."
+Msg_NoMapsRemoved="マップリスト％maplist％からマップは削除されませんでした。"
+; EN: Msg_RemovedFromList="Maps successfully removed from maplist"
+Msg_RemovedFromList="マップがマップリストから正常に削除されました"
+; EN: Msg_PlayerBanned="%Player% has been banned from this server"
+Msg_PlayerBanned="％Player％はこのサーバーから禁止されました"
+; EN: Msg_SessionBanned="%Player% has been banned for this match"
+Msg_SessionBanned="％Player％はこの試合で禁止されました"
+; EN: Msg_PlayerKicked="%Player% has been kicked"
+Msg_PlayerKicked="％Player％がキックされました"
+; EN: Msg_NextMapNotFound="Next map not found; Restarting same map"
+Msg_NextMapNotFound="次のマップが見つかりません。同じマップを再起動します"
+; EN: Msg_ChangingMapTo="Changing Map to %NextMap%"
+Msg_ChangingMapTo="マップを％NextMap％に変更"
+; EN: Msg_NoMapInRotation="No maps configured for %maplist%."
+Msg_NoMapInRotation="％maplist％にマップが構成されていません。"
+; EN: Msg_NoMapsFound="No matching maps in maplist %maplist% were found."
+Msg_NoMapsFound="マップリスト％maplist％に一致するマップが見つかりませんでした。"
+; EN: Msg_MapIsInRotation="Matching %maplist% maps"
+Msg_MapIsInRotation="一致する％maplist％マップ"
+; EN: Msg_MapNotInRotation="Matching maps which are not members of %maplist%."
+Msg_MapNotInRotation="％maplist％のメンバーではない一致するマップ。"
+; EN: Msg_UnknownParam="Unknown Parameter : %Value%"
+Msg_UnknownParam="不明なパラメータ：％Value％"
+; EN: Msg_NoParamsFound="No Parameters found!"
+Msg_NoParamsFound="パラメータが見つかりません！"
+; EN: Msg_ParamModified="Modification Successful"
+Msg_ParamModified="変更に成功"
+; EN: Msg_ParamNotModified="Could not Modify Parameter"
+Msg_ParamNotModified="パラメータを変更できませんでした"
+; EN: Msg_MapListAdded="Maplist %listname% successfully added for gametype"
+Msg_MapListAdded="マップリスト％listname％がゲームタイプに正常に追加されました"
+; EN: Msg_MapListRemoved="Maplist %listname% successfully removed from gametype"
+Msg_MapListRemoved="マップリスト％listname％がゲームタイプから正常に削除されました"
+; EN: Msg_EditingMapList="Now editing maplist"
+Msg_EditingMapList="マップリストを編集しています"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo."
+PickupMessage="弾薬を手に入れました。"
+
+[BroadcastHandler]
+; EN: BHDisplayText[0]="Mute Spectators"
+BHDisplayText[0]="観客をミュートする"
+; EN: BHDisplayText[1]="Partition Spectators"
+BHDisplayText[1]="パーティションスペクテイター"
+; EN: BHDescText[0]="Check this option to prevent spectators from chatting during the game."
+BHDescText[0]="ゲーム中に観客がチャットできないようにするには、このオプションをオンにします。"
+; EN: BHDescText[1]="Check this option to separate spectator chat from player chat."
+BHDescText[1]="観客のチャットをプレーヤーのチャットから分離するには、このオプションをオンにします。"
+
+[Canvas]
+TinyFontName="UT2003Fonts.FontMono"
+SmallFontName="UT2003Fonts.FontMono"
+MedFontName="UT2003Fonts.FontMono800x600"
+
+[ChatRoomMessage]
+; EN: AnonText="Someone"
+AnonText="誰か"
+; EN: ChatRoomString[0]="Invalid channel or channel couldn't be found: '%title%'"
+ChatRoomString[0]="無効なチャンネルまたはチャンネルが見つかりませんでした： '％title％'"
+; EN: ChatRoomString[1]="Already a member of channel '%title%'"
+ChatRoomString[1]="すでにチャンネル '％title％'のメンバー"
+; EN: ChatRoomString[2]="Channel '%title%' requires a password!"
+ChatRoomString[2]="チャンネル '％title％'にはパスワードが必要です！"
+; EN: ChatRoomString[3]="Incorrect password specified for channel '%title%'"
+ChatRoomString[3]="チャネル '％title％'に誤ったパスワードが指定されました"
+; EN: ChatRoomString[4]="You have been banned from channel '%title%'"
+ChatRoomString[4]="あなたはチャンネル '％title％'から禁止されました"
+; EN: ChatRoomString[5]="Couldn't join channel '%title%'.  Channel full!"
+ChatRoomString[5]="チャネル '％title％'に参加できませんでした。チャンネルがいっぱいです！"
+; EN: ChatRoomString[6]="You are not allowed to join channel '%title%'"
+ChatRoomString[6]="チャンネル '％title％'への参加は許可されていません"
+; EN: ChatRoomString[7]="Successfully joined channel '%title%'"
+ChatRoomString[7]="チャネル '％title％'に正常に参加しました"
+; EN: ChatRoomString[8]="You left channel '%title%'"
+ChatRoomString[8]="チャンネル '％title％'を離れました"
+; EN: ChatRoomString[9]="Now speaking on channel '%title%'"
+ChatRoomString[9]="今チャンネル '％title％'で話している"
+; EN: ChatRoomString[10]="No longer speaking on channel '%title%'"
+ChatRoomString[10]="チャンネル '％title％'で話さなくなりました"
+; EN: ChatRoomString[11]="'%pri%' joined channel '%title%'"
+ChatRoomString[11]="'％pri％'がチャネルに参加しました '％title％'"
+; EN: ChatRoomString[12]="'%pri%' left channel '%title%'"
+ChatRoomString[12]="'％pri％'左チャネル '％title％'"
+; EN: ChatRoomString[13]="Successfully banned '%pri%' from your personal chat channel"
+ChatRoomString[13]="個人のチャットチャネルから「％pri％」を正常に禁止しました"
+; EN: ChatRoomString[14]="Voice-chat ban action not successful.  No player with the specified ID was found"
+ChatRoomString[14]="ボイスチャット禁止アクションは成功しませんでした。指定されたIDのプレーヤーが見つかりませんでした"
+; EN: ChatRoomString[15]="Voice chat is not enabled on this server"
+ChatRoomString[15]="このサーバーではボイスチャットが有効になっていません"
+
+[Crushed]
+; EN: DeathString="%o was crushed by %k."
+DeathString="％oは％kによって押しつぶされました。"
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="％oは押しつぶされました。"
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="％oは押しつぶされました。"
+
+[DamRanOver]
+; EN: DeathString="%k ran over %o"
+DeathString="％kが％oを超えました"
+; EN: FemaleSuicide="%o ran over herself"
+FemaleSuicide="％oは自分自身に轢きました"
+; EN: MaleSuicide="%o ran over himself"
+MaleSuicide="％oは自分自身に轢きました"
+
+[DamTypeTelefragged]
+; EN: DeathString="%o was telefragged by %k"
+DeathString="％oは％kによってテレフラグされました"
+; EN: FemaleSuicide="%o was telefragged by %k"
+FemaleSuicide="％oは％kによってテレフラグされました"
+; EN: MaleSuicide="%o was telefragged by %k"
+MaleSuicide="％oは％kによってテレフラグされました"
+
+[DamageType]
+; EN: DeathString="%o was killed by %k."
+DeathString="％oは％kによって殺されました。"
+; EN: FemaleSuicide="%o killed herself."
+FemaleSuicide="％oは自殺した。"
+; EN: MaleSuicide="%o killed himself."
+MaleSuicide="％oは自殺した。"
+
+[FailedConnect]
+; EN: FailMessage[0]="FAILED TO JOIN GAME.  NEED PASSWORD."
+FailMessage[0]="ゲームに参加できませんでした。パスワードが必要です。"
+; EN: FailMessage[1]="FAILED TO JOIN GAME.  WRONG PASSWORD."
+FailMessage[1]="ゲームに参加できませんでした。間違ったパスワード。"
+; EN: FailMessage[2]="FAILED TO JOIN GAME.  GAME HAS STARTED."
+FailMessage[2]="ゲームに参加できませんでした。ゲームが始まりました。"
+; EN: FailMessage[3]="FAILED TO JOIN GAME."
+FailMessage[3]="ゲームに参加できませんでした。"
+
+[FellLava]
+; EN: DeathString="%k made %o take a deadly swim."
+DeathString="％kは％oに致命的な水泳をさせました。"
+; EN: FemaleSuicide="%o crashed and burned"
+FemaleSuicide="％oがクラッシュして焼けました"
+; EN: MaleSuicide="%o crashed and burned"
+MaleSuicide="％oがクラッシュして焼けました"
+
+[GameInfo]
+; EN: bAlternateMode=False
+bAlternateMode=NS
+; EN: GoreLevelText[0]="No Gore"
+GoreLevelText[0]="ゴアなし"
+; EN: GoreLevelText[1]="Reduced Gore"
+GoreLevelText[1]="ゴアの減少"
+; EN: GoreLevelText[2]="Full Gore"
+GoreLevelText[2]="フルゴア"
+; EN: DefaultPlayerName="Player"
+DefaultPlayerName="プレーヤー"
+; EN: GameName="Game"
+GameName="ゲーム"
+; EN: GIPropsDisplayText[0]="Bot Skill"
+GIPropsDisplayText[0]="ボットスキル"
+; EN: GIPropsDisplayText[1]="Weapons Stay"
+GIPropsDisplayText[1]="武器滞在"
+; EN: GIPropsDisplayText[2]="Reduce Gore Level"
+GIPropsDisplayText[2]="ゴアレベルを下げる"
+; EN: GIPropsDisplayText[3]="Game Speed"
+GIPropsDisplayText[3]="ゲームスピード"
+; EN: GIPropsDisplayText[4]="Max Spectators"
+GIPropsDisplayText[4]="最大観客"
+; EN: GIPropsDisplayText[5]="Max Players"
+GIPropsDisplayText[5]="最大プレーヤー"
+; EN: GIPropsDisplayText[6]="Goal Score"
+GIPropsDisplayText[6]="ゴールスコア"
+GIPropsDisplayText[7]="Max Lives"
+; EN: GIPropsDisplayText[8]="Time Limit"
+GIPropsDisplayText[8]="制限時間"
+; EN: GIPropsDisplayText[9]="World Stats Logging"
+GIPropsDisplayText[9]="世界統計ロギング"
+; EN: GIPropsDisplayText[10]="Allow Weapon Throwing"
+GIPropsDisplayText[10]="武器の投擲を許可する"
+; EN: GIPropsDisplayText[11]="Allow Behind View"
+GIPropsDisplayText[11]="背後からの許可"
+; EN: GIPropsDisplayText[12]="Allow Admin Pausing"
+GIPropsDisplayText[12]="管理者の一時停止を許可する"
+; EN: GIPropsDisplayText[13]="Kick Idlers Time"
+GIPropsDisplayText[13]="キックアイドラーズタイム"
+; EN: GIPropsDisplayText[14]="Weapons shake view"
+GIPropsDisplayText[14]="武器がビューを振る"
+; EN: GIPropDescText[0]="Set the skill of your bot opponents."
+GIPropDescText[0]="ボットの対戦相手のスキルを設定します。"
+; EN: GIPropDescText[1]="When enabled, weapons will always be available for pickup."
+GIPropDescText[1]="有効にすると、武器は常にピックアップできるようになります。"
+; EN: GIPropDescText[2]="Enable this option to reduce the amount of blood and guts you see."
+GIPropDescText[2]="このオプションを有効にすると、表示される血液と腸の量が減少します。"
+; EN: GIPropDescText[3]="Controls how fast time passes in the game."
+GIPropDescText[3]="ゲーム内での経過時間を制御します。"
+; EN: GIPropDescText[4]="Sets the maximum number of spectators that can watch the game."
+GIPropDescText[4]="ゲームを観戦できる観客の最大数を設定します。"
+; EN: GIPropDescText[5]="Sets the maximum number of players that can join this server."
+GIPropDescText[5]="このサーバーに参加できるプレーヤーの最大数を設定します。"
+; EN: GIPropDescText[6]="The game ends when someone reaches this score."
+GIPropDescText[6]="誰かがこのスコアに達すると、ゲームは終了します。"
+; EN: GIPropDescText[7]="Limits how many times players can respawn after dying."
+GIPropDescText[7]="プレイヤーが死んだ後にリスポーンできる回数を制限します。"
+; EN: GIPropDescText[8]="The game ends after this many minutes of play."
+GIPropDescText[8]="この数分間のプレイの後、ゲームは終了します。"
+; EN: GIPropDescText[9]="Enable this option to send game statistics to the UT2004 global stats server"
+GIPropDescText[9]="このオプションを有効にすると、ゲーム統計がUT2004グローバル統計サーバーに送信されます"
+; EN: GIPropDescText[10]="When enabled, players can throw their current weapon out."
+GIPropDescText[10]="有効にすると、プレイヤーは現在の武器を捨てることができます。"
+; EN: GIPropDescText[11]="Controls whether players can switch to a third person view."
+GIPropDescText[11]="プレーヤーがサードパーソンビューに切り替えることができるかどうかを制御します。"
+; EN: GIPropDescText[12]="Controls whether administrators can pause the game."
+GIPropDescText[12]="管理者がゲームを一時停止できるかどうかを制御します。"
+; EN: GIPropDescText[13]="Specifies how long to wait before kicking idle player from server."
+GIPropDescText[13]="サーバーからアイドル状態のプレーヤーをキックする前に待機する時間を指定します。"
+; EN: GIPropDescText[14]="When enabled, some weapons cause view shaking while firing."
+GIPropDescText[14]="有効にすると、一部の武器は発砲中にビューの揺れを引き起こします。"
+; EN: GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
+GIPropsExtras[0]="0.000000;初心者; 1.000000;平均; 2.000000;経験豊富; 3.000000;熟練; 4.000000;熟達者; 5.000000;巧みな; 6.000000;非人間的; 7.000000;神のような"
+; EN: NoBindString="[None]"
+NoBindString="[なし]"
+
+[GameMessage]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="レベルの切り替え"
+; EN: LeftMessage=" left the game."
+LeftMessage=" ゲームをやめました。"
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="プレーヤーのチームが見つかりませんでした"
+; EN: FailedPlaceMessage="Could not find a starting spot"
+FailedPlaceMessage="スタート地点が見つかりませんでした"
+; EN: FailedSpawnMessage="Could not spawn player"
+FailedSpawnMessage="プレイヤーをスポーンできませんでした"
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" ゲームに入った。"
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="サーバーはすでに容量に達しています。"
+; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
+OvertimeMessage="規制の終わりに同点のスコア。サドンデス延長戦!!!"
+; EN: GlobalNameChange="changed name to"
+GlobalNameChange="名前をに変更"
+; EN: NewTeamMessage="is now on"
+NewTeamMessage="今オンになっています"
+; EN: NoNameChange="Name is already in use."
+NoNameChange="名前はすでに使用されています。"
+; EN: VoteStarted="started a vote."
+VoteStarted="投票を開始しました。"
+; EN: VotePassed="Vote passed."
+VotePassed="投票に合格しました。"
+; EN: MustHaveStats="Must have stats enabled to join this server."
+MustHaveStats="このサーバーに参加するには、統計を有効にする必要があります。"
+; EN: CantBeSpectator="Sorry, you cannot become a spectator at this time."
+CantBeSpectator="申し訳ありませんが、現時点では観客になることはできません。"
+; EN: CantBePlayer="Sorry, you cannot become an active player at this time."
+CantBePlayer="申し訳ありませんが、現時点ではアクティブプレイヤーになることはできません。"
+; EN: BecameSpectator="became a spectator."
+BecameSpectator="観客になりました。"
+; EN: NewPlayerMessage="A new player entered the game."
+NewPlayerMessage="新しいプレーヤーがゲームに参加しました。"
+; EN: KickWarning="You are about to be kicked for idling!"
+KickWarning="あなたはアイドリングのために蹴られようとしています！"
+; EN: NewSpecMessage="A spectator entered the game/"
+NewSpecMessage="観客がゲームに参加しました/"
+; EN: SpecEnteredMessage=" joined as a spectator."
+SpecEnteredMessage=" 観客として参加しました。"
+
+[GameProfile]
+; EN: PositionName[0]="AUTO-ASSIGN"
+PositionName[0]="自動割り当て"
+; EN: PositionName[1]="DEFENSE"
+PositionName[1]="防衛"
+; EN: PositionName[2]="OFFENSE"
+PositionName[2]="オフェンス"
+; EN: PositionName[3]="ROAM"
+PositionName[3]="ローミング"
+; EN: PositionName[4]="SUPPORT"
+PositionName[4]="サポート"
+
+[GameReplicationInfo]
+; EN: GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[0]="サーバーの名前"
+; EN: GRIPropsDisplayText[1]="Admin Name"
+GRIPropsDisplayText[1]="管理者名"
+; EN: GRIPropsDisplayText[2]="Admin E-Mail"
+GRIPropsDisplayText[2]="管理者の電子メール"
+GRIPropsDisplayText[3]="MOTD"
+; EN: GRIPropDescText[0]="Server name shown on server browser."
+GRIPropDescText[0]="サーバーブラウザに表示されるサーバー名。"
+; EN: GRIPropDescText[1]="Server administrator's name"
+GRIPropDescText[1]="サーバー管理者の名前"
+; EN: GRIPropDescText[2]="Server administrator's email address."
+GRIPropDescText[2]="サーバー管理者のメールアドレス。"
+; EN: GRIPropDescText[3]="Message of the Day"
+GRIPropDescText[3]="今日のメッセージ"
+
+[Gibbed]
+; EN: DeathString="%o exploded in a shower of body parts"
+DeathString="％oは体の部分のシャワーで爆発した"
+; EN: FemaleSuicide="%o exploded in a shower of body parts"
+FemaleSuicide="％oは体の部分のシャワーで爆発した"
+; EN: MaleSuicide="%o exploded in a shower of body parts"
+MaleSuicide="％oは体の部分のシャワーで爆発した"
+
+[HUD]
+ProgressFontName="UT2003Fonts.FontEurostile12"
+FontArrayNames[0]="Engine.DefaultFont"
+FontArrayNames[1]="Engine.DefaultFont"
+FontArrayNames[2]="Engine.DefaultFont"
+FontArrayNames[3]="Engine.DefaultFont"
+FontArrayNames[4]="Engine.DefaultFont"
+FontArrayNames[5]="Engine.DefaultFont"
+FontArrayNames[6]="Engine.DefaultFont"
+FontArrayNames[7]="Engine.DefaultFont"
+FontArrayNames[8]="Engine.DefaultFont"
+
+[Info]
+; EN: RulesGroup="Rules"
+RulesGroup="ルール"
+; EN: GameGroup="Game"
+GameGroup="ゲーム"
+; EN: ServerGroup="Server"
+ServerGroup="サーバ"
+; EN: ChatGroup="Chat"
+ChatGroup="チャット"
+; EN: BotsGroup="Bots"
+BotsGroup="ボット"
+; EN: MapVoteGroup="Map Voting"
+MapVoteGroup="地図投票"
+; EN: KickVoteGroup="Kick Voting"
+KickVoteGroup="キック投票"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="無題"
+
+[MaplistManager]
+; EN: DefaultListName="Default"
+DefaultListName="ディフォルト"
+; EN: InvalidGameType="could not be loaded.  Normally, this means an .u file has been deleted, but the .int file has not."
+InvalidGameType="ロードできませんでした。通常、これは.uファイルが削除されたことを意味しますが、.intファイルは削除されていません。"
+; EN: ReallyInvalidGameType="The requested gametype '%gametype%' could not be loaded."
+ReallyInvalidGameType="要求されたゲームタイプ '％gametype％'をロードできませんでした。"
+; EN: DefaultListExists="Gametype already has a default list!"
+DefaultListExists="Gametypeにはすでにデフォルトのリストがあります！"
+
+[MatSubAction]
+; EN: Desc="N/A"
+Desc="該当なし"
+
+[Pickup]
+; EN: PickupMessage="Snagged an item."
+PickupMessage="アイテムを引っ掛けた。"
+
+[PlayerController]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="クイックセービング"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="ゲームは一時停止できません"
+; EN: ViewingFrom="Now viewing from"
+ViewingFrom="今から見ています"
+; EN: OwnCamera="Now viewing from own camera"
+OwnCamera="今自分のカメラから見ています"
+
+[PlayerReplicationInfo]
+; EN: StringDead="Dead"
+StringDead="死"
+; EN: StringSpectating="Spectating"
+StringSpectating="観戦"
+; EN: StringUnknown="Unknown"
+StringUnknown="わからない"
+
+[StreamPlaylistManager]
+; EN: DefaultPlaylistName="New Playlist"
+DefaultPlaylistName="新規プレイリスト"
+
+[SubActionCameraEffect]
+; EN: Desc="Camera effect"
+Desc="カメラ効果"
+
+[SubActionCameraShake]
+; EN: Desc="Shake"
+Desc="シェイク"
+
+[SubActionFOV]
+Desc="FOV"
+
+[SubActionFade]
+; EN: Desc="Fade"
+Desc="フェード"
+
+[SubActionGameSpeed]
+; EN: Desc="Game Speed"
+Desc="ゲームスピード"
+
+[SubActionOrientation]
+; EN: Desc="Orientation"
+Desc="オリエンテーション"
+
+[SubActionSceneSpeed]
+; EN: Desc="Scene Speed"
+Desc="シーンスピード"
+
+[SubActionSubTitle]
+; EN: Desc="SubTitle"
+Desc="字幕"
+
+[SubActionTrigger]
+; EN: Desc="Trigger"
+Desc="引き金"
+
+[Suicided]
+; EN: DeathString="%o had an aneurysm."
+DeathString="％oには動脈瘤がありました。"
+; EN: FemaleSuicide="%o had an aneurysm."
+FemaleSuicide="％oには動脈瘤がありました。"
+; EN: MaleSuicide="%o had an aneurysm."
+MaleSuicide="％oには動脈瘤がありました。"
+
+[TeamInfo]
+; EN: TeamName="Team"
+TeamName="チーム"
+; EN: ColorNames[0]="Red"
+ColorNames[0]="赤"
+; EN: ColorNames[1]="Blue"
+ColorNames[1]="青"
+; EN: ColorNames[2]="Green"
+ColorNames[2]="緑"
+; EN: ColorNames[3]="Gold"
+ColorNames[3]="ゴールド"
+
+[Vehicle]
+; EN: VehiclePositionString="in a vehicle"
+VehiclePositionString="車内"
+; EN: VehicleNameString="Vehicle"
+VehicleNameString="車両"
+
+[VoiceChatReplicationInfo]
+PublicChannelNames=("Public","Local")
+; EN: VCDisplayText[0]="Enable Voice Chat"
+VCDisplayText[0]="ボイスチャットを有効にする"
+; EN: VCDisplayText[1]="Enable local Channel"
+VCDisplayText[1]="ローカルチャネルを有効にする"
+; EN: VCDisplayText[2]="Local Chat Range"
+VCDisplayText[2]="ローカルチャット範囲"
+; EN: VCDisplayText[3]="Local Chat Radius"
+VCDisplayText[3]="ローカルチャットの半径"
+; EN: VCDisplayText[4]="Allowed VoIP Codecs"
+VCDisplayText[4]="許可されたVoIPコーデック"
+; EN: VCDisplayText[5]="Allowed VoIP LAN Codecs"
+VCDisplayText[5]="許可されたVoIPLANコーデック"
+; EN: VCDescText[0]="Enable voice chat on the server."
+VCDescText[0]="サーバーでボイスチャットを有効にします。"
+; EN: VCDescText[1]="Determines whether the "local" voice chat channel is created, which allows players to broadcast voice transmissions to all players in the immediate vicinity."
+VCDescText[1]="「ローカル」ボイスチャットチャネルを作成するかどうかを決定します。これにより、プレーヤーはすぐ近くにいるすべてのプレーヤーに音声送信をブロードキャストできます。"
+; EN: VCDescText[2]="Maximum distance at which a broadcast on the local channel may be heard"
+VCDescText[2]="ローカルチャネルでの放送が聞こえる最大距離"
+; EN: VCDescText[3]="Distance at which local broadcasts begin to fade"
+VCDescText[3]="ローカル放送が衰退し始める距離"
+; EN: VCDescText[4]="Configure which codecs exist on the server and should be used in Internet games."
+VCDescText[4]="サーバーに存在し、インターネットゲームで使用する必要があるコーデックを構成します。"
+; EN: VCDescText[5]="Configure which codecs exist on the server and should be used in LAN games."
+VCDescText[5]="サーバーに存在し、LANゲームで使用する必要があるコーデックを構成します。"
+; EN: InstalledCodec=((CodecName="Less Bandwidth",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Better Quality",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+InstalledCodec=((CodecName="より少ない帯域幅",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="より良い品質",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+
+[Volume]
+; EN: LocationName="unspecified"
+LocationName="詳細不明"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo"
+MessageNoAmmo=" 弾薬がありません"
+
+[WeaponPickup]
+; EN: PickupMessage="You got a weapon"
+PickupMessage="あなたは武器を手に入れました"
+
+[XBoxPlayerInput]
+; EN: LookPresets[0].PresetName="Linear"
+LookPresets[0].PresetName="線形"
+; EN: LookPresets[1].PresetName="Exponential"
+LookPresets[1].PresetName="指数関数"
+; EN: LookPresets[2].PresetName="Hybrid"
+LookPresets[2].PresetName="ハイブリッド"
+; EN: LookPresets[3].PresetName="Custom"
+LookPresets[3].PresetName="カスタム"
+
+[fell]
+; EN: DeathString="%k pushed %o over the edge."
+DeathString="％kは％oを端から押し出しました。"
+; EN: FemaleSuicide="%o left a small crater"
+FemaleSuicide="％oは小さなクレーターを残しました"
+; EN: MaleSuicide="%o left a small crater"
+MaleSuicide="％oは小さなクレーターを残しました"
+

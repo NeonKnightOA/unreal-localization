@@ -1,3 +1,4 @@
 [LevelSummary]
-Title="Untitled"
+; EN: Title="Untitled"
+Title="Sans titre"
 

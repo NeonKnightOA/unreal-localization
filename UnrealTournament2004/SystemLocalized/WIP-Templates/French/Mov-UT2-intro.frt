@@ -1,6 +1,8 @@
 [LevelInfo0]
-Title="Intro"
+; EN: Title="Intro"
+Title="Introduction"
 
 [LevelSummary]
-Title="Intro"
+; EN: Title="Intro"
+Title="Introduction"
 

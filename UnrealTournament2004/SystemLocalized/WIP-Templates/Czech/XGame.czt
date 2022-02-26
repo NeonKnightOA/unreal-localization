@@ -1,0 +1,978 @@
+[Public]
+Object=(Name=XGame.AlienFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.AlienMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.JuggMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.MercMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightFemaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.NightMaleVoice,Class=Class,MetaClass=XGame.xVoicePack)
+Object=(Name=XGame.RobotVoice,Class=Class,MetaClass=XGame.xVoicePack)
+
+[AlienFemaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="Vyfoukni mě"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="Táborník!"
+; EN: TauntString[23]="Douche bag!"
+TauntString[23]="Taška na sprchování!"
+TauntString[24]="Spammer!"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="Zelenáč"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="Mluvte s rukou"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="Ty čuráku!"
+; EN: VoicePackName="Female Alien"
+VoicePackName="Mimozemšťanka"
+
+[AlienMaleVoice]
+; EN: TauntString[21]="Blow me"
+TauntString[21]="Vyfoukni mě"
+; EN: TauntString[22]="Camper!"
+TauntString[22]="Táborník!"
+; EN: TauntString[23]="Douche bag!"
+TauntString[23]="Taška na sprchování!"
+TauntString[24]="Spammer!"
+; EN: TauntString[25]="Sucker"
+TauntString[25]="Zelenáč"
+; EN: TauntString[26]="Talk to the hand"
+TauntString[26]="Mluvte s rukou"
+; EN: TauntString[27]="You dick!"
+TauntString[27]="Ty čuráku!"
+; EN: VoicePackName="Male Alien"
+VoicePackName="Muž mimozemšťan"
+
+[BloodRites]
+ChallengeName="Bloodrites"
+; EN: ChallengeDescription="Challenge an enemy team for one for their team mates."
+ChallengeDescription="Vyzvěte nepřátelský tým o jeden pro jejich týmové kolegy."
+
+[BossDM]
+; EN: GameName="Championship Match"
+GameName="Mistrovský zápas"
+
+[CLOnslaught]
+EntryLabels=("Hit & Run","Roadkill","Drive-by shooting","Road warrior","Core meltdown","Vehicle slaughter")
+
+[ChallengeGame]
+; EN: msgGotChallenged="We got challenged"
+msgGotChallenged="Dostali jsme výzvu"
+; EN: msgWeChallenged="We challenged"
+msgWeChallenged="Vyzvali jsme"
+; EN: msgFor="for"
+msgFor="pro"
+
+[ChampRosterFinal]
+; EN: TeamName="Championship Match"
+TeamName="Mistrovský zápas"
+
+[ChampRosterSemiFinal]
+; EN: TeamName="Championship Match"
+TeamName="Mistrovský zápas"
+
+[ComboBerserk]
+; EN: ExecMessage="Berserk!"
+ExecMessage="Šílený!"
+
+[ComboDefensive]
+; EN: ExecMessage="Booster!"
+ExecMessage="Posilovač!"
+
+[ComboInvis]
+; EN: ExecMessage="Invisible!"
+ExecMessage="Neviditelný!"
+
+[ComboSpeed]
+; EN: ExecMessage="Speed!"
+ExecMessage="Rychlost!"
+
+[DMRosterBeatTeam]
+; EN: TeamName="Death Match"
+TeamName="Zápas na život a na smrt"
+
+[DMRosterGael]
+; EN: TeamName="Death Match"
+TeamName="Zápas na život a na smrt"
+
+[DMRosterLeviathan]
+; EN: TeamName="Death Match"
+TeamName="Zápas na život a na smrt"
+
+[DMRosterOceanic]
+; EN: TeamName="Death Match"
+TeamName="Zápas na život a na smrt"
+
+[DMRosterTrainingDay]
+; EN: TeamName="Death Match"
+TeamName="Zápas na život a na smrt"
+
+[DamTypeIonVolume]
+; EN: DeathString="%o was OBLITERATED by %k!"
+DeathString="%o byl VYMAZÁN uživatelem %k!"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o byl VYMAZÁN"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o byl VYMAZÁN"
+
+[InstagibCTF]
+; EN: ZoomDisplayText="Allow Zoom"
+ZoomDisplayText="Povolit zoom"
+; EN: ZoomDescText="Instagib rifles have sniper scopes."
+ZoomDescText="Pušky Instagib mají odstřelovací dalekohledy."
+GameName="Instagib CTF"
+
+[IonCannonKillWarning]
+CountDownTrailer="..."
+; EN: WarningString="You have been targeted by an orbital Ion Satellite!"
+WarningString="Byli jste zaměřeni orbitálním iontovým satelitem!"
+
+[JuggFemaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="Život je bolest, překonejte to"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="Přímo mezi očima"
+TauntString[23]="Tag 'Em And Bag 'Em"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="To bylo Ošklivé"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="Lépe krvácíte, než střílíte"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="Ty Suck"
+; EN: TauntString[27]="Lick me"
+TauntString[27]="Lízej mě"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="Necítím své nohy"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="Hezký snímek"
+; EN: VoicePackName="Female Juggernaut"
+VoicePackName="Žena Juggernaut"
+
+[JuggMaleVoice]
+; EN: TauntString[21]="Life Is Pain, Get Over It"
+TauntString[21]="Život je bolest, překonejte to"
+; EN: TauntString[22]="Right Between The Eyes"
+TauntString[22]="Přímo mezi očima"
+TauntString[23]="Tag 'Em And Bag 'Em"
+; EN: TauntString[24]="That Was Nasty"
+TauntString[24]="To bylo Ošklivé"
+; EN: TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[25]="Lépe krvácíte, než střílíte"
+; EN: TauntString[26]="You Suck"
+TauntString[26]="Ty Suck"
+; EN: OtherString[32]="I Can't Feel My Legs"
+OtherString[32]="Necítím své nohy"
+; EN: OtherString[33]="Nice Shot"
+OtherString[33]="Hezký snímek"
+; EN: VoicePackName="Male Juggernaut"
+VoicePackName="Mužský Juggernaut"
+
+[LavaVolume]
+; EN: LocationName="in lava"
+LocationName="v lávě"
+
+[ManoEMano]
+; EN: ChallengeName="Head to Head"
+ChallengeName="Hlava na hlavě"
+; EN: ChallengeDescription="A 1 vs 1 match against another team leader."
+ChallengeDescription="Zápas 1 vs 1 proti jinému vedoucímu týmu."
+
+[MercFemaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="Příště rychleji kachna"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="Drž se Sakra"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="Sakra"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="Jen vydržte a já to rychle udělám"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="Zabijte Em All"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="Přibil Ho"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="Ani blízko"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="Ustoupit stranou"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="Sát na tohle"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="Zkuste vypnout bezpečnost"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="Jen se držte"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="Není špatné"
+; EN: VoicePackName="Female Mercenary"
+VoicePackName="Žoldák"
+
+[MercMaleVoice]
+; EN: TauntString[21]="Duck Faster Next Time"
+TauntString[21]="Příště rychleji kachna"
+; EN: TauntString[22]="Hold Still Dammit"
+TauntString[22]="Drž se Sakra"
+; EN: TauntString[23]="Holy Shit"
+TauntString[23]="Sakra"
+; EN: TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[24]="Jen vydržte a já to rychle udělám"
+; EN: TauntString[25]="Kill Em All"
+TauntString[25]="Zabijte Em All"
+; EN: TauntString[26]="Nailed Him"
+TauntString[26]="Přibil Ho"
+; EN: TauntString[27]="Not Even Close"
+TauntString[27]="Ani blízko"
+; EN: TauntString[28]="Step Aside"
+TauntString[28]="Ustoupit stranou"
+; EN: TauntString[29]="Suck On This"
+TauntString[29]="Sát na tohle"
+; EN: TauntString[30]="Try Turning The Safety Off"
+TauntString[30]="Zkuste vypnout bezpečnost"
+; EN: TauntString[31]="You Die Too Easily"
+TauntString[31]="Umíráte příliš snadno"
+; EN: TauntAbbrev[24]="Just Hold Still"
+TauntAbbrev[24]="Jen se držte"
+; EN: OtherString[32]="Not Bad"
+OtherString[32]="Není špatné"
+; EN: VoicePackName="Male Mercenary"
+VoicePackName="Mužský žoldák"
+
+[MultiKillMessage]
+; EN: KillString[0]="Double Kill!"
+KillString[0]="Dvojité zabití!"
+; EN: KillString[1]="Multi Kill!"
+KillString[1]="Mnohonásobné zabití!"
+; EN: KillString[2]="Mega Kill!!"
+KillString[2]="Mega zabít!!"
+; EN: KillString[3]="ULTRA KILL!!"
+KillString[3]="ULTRA ZABITÍ!!"
+; EN: KillString[4]="M O N S T E R  K I L L !!!"
+KillString[4]="M O N S T E R K I L L !!!"
+KillString[5]="L U D I C R O U S !!!"
+; EN: KillString[6]="H O L Y  S H I T !"
+KillString[6]="H O L Y S H I T !"
+
+[MutFastWeapSwitch]
+; EN: FriendlyName="UT2003 Style"
+FriendlyName="Styl UT2003"
+; EN: Description="UT2003 style fast weapon switching and boost dodging."
+Description="Rychlé přepínání zbraní ve stylu UT2003 a posílení uhýbání."
+
+[MutInstaGib]
+; EN: TranslocDisplayText="Allow Translocator"
+TranslocDisplayText="Povolit Translocator"
+; EN: BoostDisplayText="Allow Teammate boosting"
+BoostDisplayText="Povolit posílení spoluhráčů"
+; EN: TranslocDescText="Players get a Translocator in their inventory."
+TranslocDescText="Hráči dostanou translokátor do svého inventáře."
+; EN: BoostDescText="Teammates get a big boost when shot by the instagib rifle."
+BoostDescText="Týmoví kolegové dostanou velkou podporu při střelbě z instagibské pušky."
+FriendlyName="InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles."
+Description="Okamžitý boj s upravenými šokovými puškami."
+
+[MutNoAdrenaline]
+; EN: FriendlyName="No Adrenaline"
+FriendlyName="Žádný adrenalin"
+; EN: Description="Adrenaline pickups are removed from the map."
+Description="Adrenalinové snímače jsou z mapy odstraněny."
+
+[MutQuadJump]
+FriendlyName="QuadJump"
+; EN: Description="When double jump just isn't enough."
+Description="Když dvojitý skok prostě nestačí."
+
+[MutRegen]
+; EN: FriendlyName="Regeneration"
+FriendlyName="Regenerace"
+; EN: Description="All players regenerate health."
+Description="Všichni hráči regenerují zdraví."
+
+[MutSlomoDeath]
+; EN: FriendlyName="Slow Motion Corpses"
+FriendlyName="Zpomalené mrtvoly"
+; EN: Description="Death should not be rushed."
+Description="Smrt se nemá uspěchat."
+
+[MutSpeciesStats]
+; EN: FriendlyName="Species Statistics"
+FriendlyName="Statistika druhů"
+; EN: Description="Each race has unique combat statistics."
+Description="Každá rasa má jedinečné bojové statistiky."
+
+[MutUDamageReward]
+; EN: FriendlyName="UDamage Reward"
+FriendlyName="Odměna UDamage"
+; EN: Description="Any remaining UDamage powerup is thrown from players when they are fragged."
+Description="Jakékoli zbývající vylepšení UDamage je odhozeno z hráčů, když jsou fragováni."
+
+[MutVampire]
+; EN: FriendlyName="Vampire"
+FriendlyName="Upír"
+; EN: Description="Damaging your opponents will heal you."
+Description="Poškození vašich protivníků vás vyléčí."
+
+[MutZoomInstagib]
+FriendlyName="Zoom InstaGib"
+; EN: Description="Instant-kill combat with modified Shock Rifles with sniper zooms."
+Description="Okamžitý boj s upravenými šokovými puškami s odstřelovacími zoomy."
+
+[NightFemaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="Čerstvé maso"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="Musím tě zlomit"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="Spolkám tvou duši"
+; EN: TauntString[24]="Lost Is Your Soul"
+TauntString[24]="Ztracená je vaše duše"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="Seznamte se se svým popravčím"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="Jmenuji se Smrt"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="Žádné slzy prosím.."
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="Bolest vás očistí"
+; EN: VoicePackName="Female Night"
+VoicePackName="Ženská noc"
+
+[NightMaleVoice]
+; EN: TauntString[21]="Fresh Meat"
+TauntString[21]="Čerstvé maso"
+; EN: TauntString[22]="I Must Break You"
+TauntString[22]="Musím tě zlomit"
+; EN: TauntString[23]="I'll Swallow Your Soul"
+TauntString[23]="Spolkám tvou duši"
+; EN: TauntString[24]="Lost Is Your Soul"
+TauntString[24]="Ztracená je vaše duše"
+; EN: TauntString[25]="Meet Your Executioner"
+TauntString[25]="Seznamte se se svým popravčím"
+; EN: TauntString[26]="My Name Is Death"
+TauntString[26]="Jmenuji se Smrt"
+; EN: TauntString[27]="No Tears Please.."
+TauntString[27]="Žádné slzy prosím.."
+; EN: TauntString[28]="Pain Will Purify You"
+TauntString[28]="Bolest vás očistí"
+; EN: VoicePackName="Male Night"
+VoicePackName="Mužská noc"
+
+[PhantomBloodReavers]
+; EN: TeamDescription="An organization of mercenaries and ex-military specialists, the Blood Reavers are interested in fame and fortune. They seek to win the Tournament for the prize that victory offers: nearly limitless wealth and power."
+TeamDescription="Organizace žoldáků a bývalých vojenských specialistů, Blood Reavers se zajímá o slávu a bohatství. Snaží se vyhrát turnaj za cenu, kterou vítězství nabízí: téměř neomezené bohatství a moc."
+TeamName="Blood Reavers"
+
+[PhantomDarkPhalanx]
+; EN: TeamDescription="The Dark Phalanx are an honorable collection of military specialists. All have proven themselves in the Human/Skaarj war and now seek glory in the ranks of the Tournament."
+TeamDescription="Dark Phalanx je čestná sbírka vojenských specialistů. Všichni se osvědčili ve válce Human/Skaarj a nyní hledají slávu v řadách Turnaje."
+; EN: TeamName="Dark Phalanx"
+TeamName="Temná falanga"
+
+[PhantomEpic]
+; EN: TeamDescription="Founded in 1991, Epic has long been a pioneer of cool PC games, new business models, and boundary-defining game technologies. Epic was founded by Tim Sweeney (Jill of the Jungle, Unreal), and joined shortly after by Mark Rein (VP of Marketing), James Schmalz (Epic Pinball, Extreme Pinball, Unreal), and Cliff Bleszinski (Jazz Jackrabbit, Unreal)."
+TeamDescription="Společnost Epic, založená v roce 1991, je již dlouho průkopníkem skvělých počítačových her, nových obchodních modelů a herních technologií definujících hranice. Epic založil Tim Sweeney (Jill of the Jungle, Unreal) a krátce poté se k němu připojili Mark Rein (VP of Marketing), James Schmalz (Epic Pinball, Extreme Pinball, Unreal) a Cliff Bleszinski (Jazz Jackrabbit, Unreal)."
+; EN: TeamName="Epic Games, Inc."
+TeamName="Společnost Epic Games, Inc."
+
+[PhantomNecrisBlackLegion]
+; EN: TeamDescription="This powerful team of Necris Phayder assassins seeks to dominate the Tournament."
+TeamDescription="Tento mocný tým zabijáků Necrise Phaydera se snaží ovládnout turnaj."
+TeamName="Necris Black Legion"
+
+[PhantomRawSteel]
+; EN: TeamDescription="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
+TeamDescription="V bojové síle známé jako 'Surová ocel' jsou povoleni pouze muži. Sloučení lidských svalů a polyfoamových kovů, 'Raw Steel' udržuje sílu a moc nad všemi ostatními ctnostmi."
+; EN: TeamName="Raw Steel"
+TeamName="Surová ocel"
+
+[RobotVoice]
+; EN: TauntString[21]="Die Human"
+TauntString[21]="Zemřít jako člověk"
+; EN: TauntString[22]="Faster Stronger Better"
+TauntString[22]="Rychlejší Silnější Lepší"
+; EN: TauntString[23]="Fear Me"
+TauntString[23]="Boj se mě"
+; EN: TauntString[24]="Flesh Is A Design Flaw"
+TauntString[24]="Maso Je Designová Vada"
+; EN: TauntString[25]="My Victory Your Death"
+TauntString[25]="Moje vítězství, vaše smrt"
+; EN: TauntString[26]="Not Unacceptable"
+TauntString[26]="Není nepřijatelné"
+; EN: TauntString[27]="Rogue Process Terminated"
+TauntString[27]="Nečestný proces ukončen"
+; EN: TauntString[28]="Witness My Perfection"
+TauntString[28]="Staňte se svědkem mé dokonalosti"
+; EN: TauntString[29]="You Die Too Easily"
+TauntString[29]="Umíráte příliš snadno"
+; EN: TauntString[30]="You Make Easy Prey"
+TauntString[30]="Děláte snadnou kořist"
+; EN: TauntString[31]="Your Programming Is Inferior"
+TauntString[31]="Vaše programování je podřadné"
+; EN: OtherString[32]="Rerouting Critical Systems"
+OtherString[32]="Přesměrování kritických systémů"
+; EN: OtherString[33]="You Adapt Well"
+OtherString[33]="Dobře se přizpůsobíte"
+VoicePackName="Robot"
+
+[SPECIES_Alien]
+; EN: SpeciesName="Alien"
+SpeciesName="Mimozemšťan"
+; EN: TauntAnimNames[8]="Tail wag"
+TauntAnimNames[8]="Vrtění ocasem"
+; EN: TauntAnimNames[9]="Gun check"
+TauntAnimNames[9]="Kontrola zbraně"
+; EN: TauntAnimNames[10]="Dismissal"
+TauntAnimNames[10]="Propuštění"
+TauntAnimNames[11]="360"
+
+[SPECIES_Bot]
+SpeciesName="Robot"
+; EN: TauntAnimNames[8]="Want some?"
+TauntAnimNames[8]="Chcete nějaké?"
+
+[SPECIES_Egypt]
+; EN: SpeciesName="Egyptian"
+SpeciesName="egyptský"
+
+[SPECIES_Jugg]
+; EN: SpeciesName="Juggernaut"
+SpeciesName="Kolos"
+TauntAnimNames[7]="Flex"
+; EN: TauntAnimNames[8]="Stomp"
+TauntAnimNames[8]="Dupat"
+; EN: TauntAnimNames[9]="Back scratch"
+TauntAnimNames[9]="Poškrábání na zádech"
+; EN: TauntAnimNames[10]="Show butt"
+TauntAnimNames[10]="Ukaž zadek"
+; EN: TauntAnimNames[11]="Head scratch"
+TauntAnimNames[11]="Poškrábání hlavy"
+
+[SPECIES_Merc]
+; EN: SpeciesName="Mercenary"
+SpeciesName="Žoldák"
+
+[SPECIES_Night]
+; EN: SpeciesName="Night"
+SpeciesName="Noc"
+
+[SpecialKillMessage]
+; EN: DecapitationString="Head Shot!!"
+DecapitationString="Střelit do hlavy!!"
+
+[SpeciesSkaarj]
+SpeciesName="Skaarj"
+; EN: TauntAnimNames[4]="Hair flip"
+TauntAnimNames[4]="Přehození vlasů"
+; EN: TauntAnimNames[5]="Slash"
+TauntAnimNames[5]="Rozřezat"
+; EN: TauntAnimNames[6]="Scan"
+TauntAnimNames[6]="Skenovat"
+; EN: TauntAnimNames[7]="Finger"
+TauntAnimNames[7]="Prst"
+; EN: TauntAnimNames[8]="Idle"
+TauntAnimNames[8]="Líný"
+
+[SpeciesType]
+; EN: SpeciesName="Human"
+SpeciesName="Člověk"
+; EN: TauntAnimNames[0]="Point"
+TauntAnimNames[0]="Směřovat"
+; EN: TauntAnimNames[1]="Beckon"
+TauntAnimNames[1]="Pokynout"
+; EN: TauntAnimNames[2]="Halt"
+TauntAnimNames[2]="Stůj"
+; EN: TauntAnimNames[3]="Cheer"
+TauntAnimNames[3]="Jásot"
+; EN: TauntAnimNames[4]="Pelvic Thrust"
+TauntAnimNames[4]="Pánevní tah"
+TauntAnimNames[5]="Ass Smack"
+; EN: TauntAnimNames[6]="Throat Cut"
+TauntAnimNames[6]="Řez hrdla"
+; EN: TauntAnimNames[7]="Unique"
+TauntAnimNames[7]="Unikátní"
+; EN: TauntAnimNames[8]="Team Taunt"
+TauntAnimNames[8]="Tým Taunt"
+; EN: TauntAnimNames[9]="Team Idle"
+TauntAnimNames[9]="Tým nečinný"
+
+[TeamApocalypse]
+; EN: TeamName="Apocalypse"
+TeamName="Apokalypsa"
+
+[TeamBlackLegion]
+TeamName="BlackLegion"
+
+[TeamBloodFists]
+TeamName="BloodFists"
+
+[TeamBoneCrushers]
+TeamName="BoneCrushers"
+
+[TeamColdSteel]
+; EN: TeamName="ColdSteel"
+TeamName="Chladná ocel"
+
+[TeamCorrupt]
+; EN: TeamDescription="Xan Kriegor was long regarded as invincible, until Malcolm defeated him in the fourth officially recognized Tournament finals.  After a long hiatus, he has returned to lead the Liandri team, The Corrupt, back to the championship.  Xan is sitting out the early rounds, which he perceives as beneath his attention."
+TeamDescription="Xan Kriegor byl dlouho považován za neporazitelného, ​​dokud ho Malcolm neporazil ve čtvrtém oficiálně uznaném finále turnaje. Po dlouhé odmlce se vrátil, aby vedl tým Liandri, The Corrupt, zpět do šampionátu. Xan seděl v prvních kolech, což vnímá jako pod jeho pozorností."
+; EN: TeamName="The Corrupt"
+TeamName="Zkorumpovaní"
+
+[TeamCrusaders]
+; EN: TeamName="Crusaders"
+TeamName="křižáci"
+
+[TeamDragonBreath]
+; EN: TeamName="DragonBreath"
+TeamName="Dračí dech"
+
+[TeamFirestorm]
+; EN: TeamName="Firestorm"
+TeamName="Ohnivá bouře"
+
+[TeamGoliath]
+; EN: TeamDescription="With the success of Gorge's Juggernauts in last year's tournament, Axon Research Corporation is now sponsoring Goliath in hopes of producing an all Juggernaut finals."
+TeamDescription="S úspěchem Gorge's Juggernauts v loňském turnaji společnost Axon Research Corporation nyní sponzoruje Goliath v naději, že vytvoří finále všech Juggernautů."
+; EN: TeamName="Goliath"
+TeamName="Goliáš"
+
+[TeamHellions]
+; EN: TeamDescription="Once feared and reviled throughout human space as pirates and renegades, the Hellions seek to gain respectability as a mercenary outfit.  They've entered the tournament to demonstrate their capabilities to potential customers."
+TeamDescription="Kdysi se Hellions obávali a uráželi v celém lidském prostoru jako piráti a odpadlíci, snaží se získat vážnost jako žoldnéřské oblečení. Přihlásili se do turnaje, aby předvedli své schopnosti potenciálním zákazníkům."
+TeamName="Hellions"
+
+[TeamIronGuard]
+TeamName="IronGuard"
+
+[TeamIronSkull]
+; EN: TeamDescription="This year, the Skaarj Empire is represented by the Iron Skull clan, who seek to regain honor after long being held responsible for the loss of the Skaarj Mothership during the Human/Skaarj wars."
+TeamDescription="Tento rok je říše Skaarjů zastoupena klanem Železné lebky, který se snaží získat zpět čest poté, co byl dlouho považován za odpovědný za ztrátu mateřské lodi Skaarj během válek mezi lidmi a Skaarji."
+; EN: TeamName="Iron Skull Skaarj"
+TeamName="Železná lebka Skaarj"
+
+[TeamJuggernauts]
+; EN: TeamDescription="Gorge is determined to prove that his one year reign as Tournament Champion is no fluke, and he has re-assembled the Juggernaut team he led to the championship.  Axon Research Corporation has made armor and bio-genetic upgrades to the Juggernauts design for this year's tournament."
+TeamDescription="Gorge je odhodlán dokázat, že jeho jednoroční kralování turnajového šampiona není žádná náhoda, a znovu sestavil tým Juggernaut, který vedl na šampionát. Společnost Axon Research Corporation provedla pro letošní turnaj brnění a biogenetické vylepšení designu Juggernautů."
+; EN: TeamName="Juggernauts"
+TeamName="Juggernauti"
+
+[TeamNewBlacklegion]
+; EN: TeamDescription="The Black Legion is made up of the hideously deformed subjects of weaponized genetic mutation tests.  This year, they have a new leader, Abaddon, the current pinnacle of achievement of this line of experiments."
+TeamDescription="Černá legie se skládá z příšerně zdeformovaných subjektů testů genetických mutací. Letos mají nového vůdce, Abaddona, současný vrchol dosažení této řady experimentů."
+; EN: TeamName="Black Legion"
+TeamName="Černá legie"
+
+[TeamNewBloodfist]
+; EN: TeamDescription="The only team in the Tournament acknowledged to be entirely cybernetic, Blood Fist warriors have their programming upgraded each year, and have become more and more lethal."
+TeamDescription="Jediný tým v turnaji, který je plně kybernetický, bojovníci Blood Fist mají každý rok vylepšené programování a jsou stále smrtelnější."
+; EN: TeamName="Blood Fist"
+TeamName="Krvavá pěst"
+
+[TeamNewFirestorm]
+; EN: TeamDescription="The Mokara are respected and feared as warriors. The Mokara's elite fighting unit, Fire Storm, sends a team of their best soldiers to the Tournament each year."
+TeamDescription="Mokarové jsou jako válečníci respektováni a obávaní. Elitní bojová jednotka Mokara, Ohnivá bouře, vysílá každý rok na turnaj tým svých nejlepších vojáků."
+; EN: TeamName="Firestorm"
+TeamName="Ohnivá bouře"
+
+[TeamNewIronGuard]
+; EN: TeamDescription="Brock and Lauren joined forces with Malcolm during his reign as tournament champion. Infighting and recrimination over their stunning defeat in last year's Tournament led to the dissolution of that team. Now, Brock and Lauren have returned leading their old team, the Iron Guard."
+TeamDescription="Brock a Lauren spojili své síly s Malcolmem během jeho vlády jako turnajového šampiona. Boje a obviňování za jejich ohromující porážku na loňském turnaji vedly k rozpuštění tohoto týmu. Nyní se Brock a Lauren vrátili do vedení svého starého týmu, Železné gardy."
+; EN: TeamName="Iron Guard"
+TeamName="Železná stráž"
+
+[TeamNewSunblade]
+; EN: TeamDescription="Sun Blade is comprised of former Temple Guardians and veterans of the Desert Legion. They see victory in the Tournament as their only hope for burial and eternal life in the Valley of Kings on Luxor IV."
+TeamDescription="Sun Blade se skládá z bývalých Chrámových strážců a veteránů Desert Legion. Vítězství v turnaji vidí jako svou jedinou naději na pohřeb a věčný život v Údolí králů na Luxoru IV."
+; EN: TeamName="Sun Blade"
+TeamName="Sluneční čepel"
+
+[TeamNewSuperNova]
+; EN: TeamDescription="Super Nova, a team of mercenaries from the Seventh Mercenary Fleet, has entered the Tournament to pay off their debts to the Izanagi Corporation."
+TeamDescription="Super Nova, tým žoldáků ze Sedmé žoldnéřské flotily, vstoupil do turnaje, aby splatil své dluhy vůči Izanagi Corporation."
+TeamName="Super Nova"
+
+[TeamNightstalkers]
+; EN: TeamName="Nightstalkers"
+TeamName="Nightstalkeři"
+
+[TeamPainMachine]
+TeamName="PainMachine"
+
+[TeamSunBlades]
+TeamName="SunBlades"
+
+[TeamSupernova]
+TeamName="Supernova"
+
+[TeamThundercrash]
+; EN: TeamDescription="Following his well publicized break-up with long-time teammates Brock and Lauren, Malcolm has returned to lead his old team, Thunder Crash.  Malcolm is currently rehabilitating an injury sustained in last year's championship match, but he is expected to be healthy in time for the Tournament Finals."
+TeamDescription="Po dobře medializovaném rozchodu s dlouholetými spoluhráči Brockem a Lauren se Malcolm vrátil, aby vedl svůj starý tým Thunder Crash. Malcolm v současné době rehabilituje zranění, které si přivodil v loňském mistrovském utkání, ale očekává se, že bude zdravý včas do finále turnaje."
+TeamName="Thunder Crash"
+
+[TeamVenom]
+; EN: TeamName="Venom"
+TeamName="Jed"
+
+[TeamWarCry]
+; EN: TeamName="WarCry"
+TeamName="Válečný pokřik"
+
+[UT2003LadderInfo]
+; EN: CHAMP1.MenuName="Tournament Semi-Final"
+CHAMP1.MenuName="Semifinále turnaje"
+; EN: CHAMP2.MenuName="Tournament Final"
+CHAMP2.MenuName="Finále turnaje"
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="Deathmatch výukový program"
+
+[UT2K4DMRoster]
+; EN: TeamName="Death Match"
+TeamName="Zápas na život a na smrt"
+
+[UT2K4GameProfile]
+; EN: msgSpecialAward[0]="Flak Monkey"
+msgSpecialAward[0]="Opice Flak"
+; EN: msgSpecialAward[1]="Combo Whore"
+msgSpecialAward[1]="Kombinovaná děvka"
+; EN: msgSpecialAward[2]="Head Hunter"
+msgSpecialAward[2]="Lovec hlav"
+msgSpecialAward[3]="Road Rampage"
+; EN: msgSpecialAward[4]="Hat Trick"
+msgSpecialAward[4]="Kloboukový trik"
+; EN: msgSpecialAward[5]="Untouchable"
+msgSpecialAward[5]="Nedotknutelný"
+; EN: msgCheater="CHEATER!!!"
+msgCheater="PODVODNÍK!!!"
+; EN: msgCredits="credits"
+msgCredits="kredity"
+; EN: msgCredit="credit"
+msgCredit="kredit"
+; EN: msgChallengeGame="Challenge game"
+msgChallengeGame="Challenge hra"
+; EN: msgAdditionalLadder="Additional ladder game"
+msgAdditionalLadder="Dodatečná hra žebříčku"
+; EN: msgMatch="match"
+msgMatch="zápas"
+; EN: msgLadderGame="Ladder game"
+msgLadderGame="Hra žebřík"
+; EN: msgChampionship="Championship"
+msgChampionship="Mistrovství"
+
+[UT2K4LadderInfo]
+; EN: DM0.MenuName="Deathmatch Tutorial"
+DM0.MenuName="Deathmatch výukový program"
+
+[xBlueFlagBase]
+; EN: ObjectiveName="Blue Flag"
+ObjectiveName="Modrá vlajka"
+
+[xBombDelivery]
+; EN: ObjectiveStringSuffix=" Goal"
+ObjectiveStringSuffix=" Fotbalová branka"
+
+[xBombHUDMessage]
+; EN: YouHaveFlagString="You have the ball, deliver it to enemy base!"
+YouHaveFlagString="Máte míč, doručte jej na nepřátelskou základnu!"
+; EN: EnemyHasFlagString="The enemy has the ball, recover it!"
+EnemyHasFlagString="Nepřítel má míč, získejte ho!"
+
+[xBombMessage]
+; EN: ReturnBlue="returns the ball!"
+ReturnBlue="vrací míč!"
+; EN: ReturnRed="returns the ball!"
+ReturnRed="vrací míč!"
+; EN: ReturnedBlue="The ball was returned!"
+ReturnedBlue="Míč byl vrácen!"
+; EN: ReturnedRed="The ball was returned!"
+ReturnedRed="Míč byl vrácen!"
+; EN: CaptureBlue="scored the goal!"
+CaptureBlue="dal gól!"
+; EN: CaptureRed="scored the goal!"
+CaptureRed="dal gól!"
+; EN: DroppedBlue="dropped the ball!"
+DroppedBlue="upustil míč!"
+; EN: DroppedRed="dropped the ball!"
+DroppedRed="upustil míč!"
+; EN: HasBlue="has the ball!"
+HasBlue="má míč!"
+; EN: HasRed="has the ball!"
+HasRed="má míč!"
+
+[xBombSpawn]
+; EN: ObjectiveName="Bomb Spawn"
+ObjectiveName="Bomba spawn"
+
+[xBombingRun]
+; EN: BRPropText="Delay ball contact"
+BRPropText="Zpoždění kontaktu s míčem"
+; EN: BRPropText2="BallLauncher drains Translocator"
+BRPropText2="BallLauncher vypustí Translocator"
+; EN: BRDescText="If checked, a player must wait a few seconds after throwing the ball before picking it up again."
+BRDescText="Pokud je zaškrtnuto, hráč musí po odhození míče několik sekund počkat, než jej znovu zvedne."
+; EN: BRDescText2="If checked, a player must wait a few seconds after throwing the ball before being able to translocate (or until someone else catches or picks up the ball)."
+BRDescText2="Pokud je zaškrtnuto, hráč musí počkat několik sekund po vhození míče, než se bude moci přemístit (nebo dokud někdo jiný míč nechytí nebo nezvedne)."
+BRHints=("You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base.","Firing the translocator sends out your translocator beacon.  Pressing %FIRE% again returns the beacon, while pressing %A:TFIRE% teleports you instantly to the beacon's location (if you fit).","While carrying the ball, you can target teammates by pressing %ALTFIRE%.  Pressing %FIRE% will pass the ball to the targeted teammate.","Pressing %SWITCHWEAPON 10% after tossing the Translocator allows you to view from its internal camera.","Pressing %FIRE% while your %ALTFIRE% is still held down after teleporting with the translocator will switch you back to your previous weapon.")
+; EN: GameName="Bombing Run"
+GameName="Bombardování Run"
+; EN: Description="Each level has a ball that starts in the middle of the playing field.  Your team scores by getting the ball through the enemy team's hoop.  You score 7 points for jumping through the hoop while holding the ball, and 3 points for tossing the ball through the hoop.  The ball can be passed to teammates, and is dropped if the player carrying it is killed."
+Description="Každá úroveň má míč, který začíná uprostřed hracího pole. Váš tým skóruje tím, že dostane míč přes branku nepřátelského týmu. Získáváte 7 bodů za skok skrz obruč při držení míče a 3 body za prohození míče přes obruč. Míč lze předat spoluhráčům a je upuštěn, pokud je zabit hráč, který jej nese."
+
+[xCTFGame]
+; EN: GameName="Capture the Flag"
+GameName="Zmocni se vlajky"
+; EN: Description="Your team must score flag captures by taking the enemy flag from the enemy base and returning it to their own flag.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
+Description="Váš tým musí získat vlajku tím, že vezme nepřátelskou vlajku z nepřátelské základny a vrátí ji pod svou vlastní vlajku. Pokud je vlajkový nosič zabit, vlajka spadne na zem, aby ji mohl kdokoli zvednout. Pokud je vlajka vašeho týmu vzata, musí být vrácena (dotykem po jejím upuštění), než bude váš tým moci získat vlajku."
+
+[xDeathMatch]
+; EN: GameName="DeathMatch"
+GameName="Zápas na život a na smrt"
+; EN: Description="Free-for-all kill or be killed.  The player with the most frags wins."
+Description="Zabijte nebo buďte zabiti zdarma. Vyhrává hráč s nejvíce fragy."
+
+[xDeathMessage]
+; EN: KilledString="was killed by"
+KilledString="byl zabit"
+; EN: SomeoneString="someone"
+SomeoneString="někdo"
+
+[xDomMessage]
+; EN: YouControlBothPointsString="Your team controls both points!"
+YouControlBothPointsString="Váš tým kontroluje oba body!"
+; EN: EnemyControlsBothPointsString="The enemy controls both points!"
+EnemyControlsBothPointsString="Nepřítel ovládá oba body!"
+
+[xDomPointA]
+PointName="A"
+; EN: ObjectiveName="Point A"
+ObjectiveName="Bod A"
+
+[xDomPointB]
+PointName="B"
+; EN: ObjectiveName="Point B"
+ObjectiveName="Bod B"
+
+[xDoubleDom]
+; EN: DDomPropsDisplayText[0]="Time To Score"
+DDomPropsDisplayText[0]="Čas na skóre"
+; EN: DDomPropsDisplayText[1]="Time Disabled"
+DDomPropsDisplayText[1]="Čas zakázán"
+; EN: DDomPropDescText[0]="Specifies how long domination points must be held to score a point."
+DDomPropDescText[0]="Určuje, jak dlouho je třeba držet body za dominanci, abyste získali bod."
+; EN: DDomPropDescText[1]="Specifies how long domination points are disabled after a point is scored."
+DDomPropDescText[1]="Určuje, jak dlouho budou body nadvlády zakázány po dosažení bodu."
+; EN: GameName="Double Domination"
+GameName="Dvojitá nadvláda"
+; EN: Description="Your team scores by capturing and holding both Control Points for ten seconds.  Control Points are captured by touching them.  After scoring, the Control Points reset to neutral."
+Description="Váš tým skóruje tím, že zajme a podrží oba kontrolní body po dobu deseti sekund. Kontrolní body se zachytí dotykem. Po skórování se kontrolní body vrátí do neutrální polohy."
+
+[xFallingVolume]
+; EN: LocationName="in air"
+LocationName="ve vzduchu"
+
+[xKillerMessagePlus]
+; EN: YouKilled="You killed"
+YouKilled="Zabil jsi"
+
+[xRedFlagBase]
+; EN: ObjectiveName="Red Flag"
+ObjectiveName="Červená vlajka"
+
+[xTeamGame]
+; EN: GameName="Team DeathMatch"
+GameName="Týmový souboj na smrt"
+; EN: Description="Two teams duke it out in a quest for battlefield supremacy.  The team with the most total frags wins."
+Description="Dva týmy to ovládly ve snaze získat nadvládu na bojišti. Vyhrává tým s nejvyšším počtem fragů."
+
+[xUtil]
+; EN: NoPreference="No Weapon Preference"
+NoPreference="Bez preference zbraní"
+; EN: FavoriteWeapon="Favorite Weapon:"
+FavoriteWeapon="Oblíbená zbraň:"
+; EN: AgilityString="Agility:"
+AgilityString="Hbitost:"
+; EN: TacticsString="Team Tactics:"
+TacticsString="Týmová taktika:"
+; EN: AccuracyString="Accuracy:"
+AccuracyString="Přesnost:"
+; EN: AggressivenessString="Aggression:"
+AggressivenessString="Agrese:"
+
+[xVehicleCTFGame]
+VCTFHints=("You can't carry the flag in a Manta or a Raptor.")
+; EN: GameName="Vehicle CTF"
+GameName="CTF vozidla"
+; EN: Description="Like traditional Capture The Flag, only adding vehicles into the mix! Only ground-based vehicles can carry the flag."
+Description="Jako tradiční Capture The Flag, pouze přidávání vozidel do mixu! Vlajku mohou nést pouze pozemní vozidla."
+
+[xVictimMessage]
+; EN: YouWereKilledBy="You were killed by"
+YouWereKilledBy="Byli jste zabiti"
+KilledByTrailer="!"
+
+[xVoicePack]
+; EN: AckString[0]="Affirmative"
+AckString[0]="Potvrzující"
+; EN: AckString[1]="Got It"
+AckString[1]="Mám to"
+; EN: AckString[2]="I'm On It"
+AckString[2]="Jdu na to"
+; EN: AckString[3]="Roger"
+AckString[3]="Rogere"
+; EN: FFireString[0]="I'm On Your Team!"
+FFireString[0]="Jsem ve vašem týmu!"
+; EN: FFireString[1]="I'm On Your Team, Idiot!"
+FFireString[1]="Jsem ve vašem týmu, idiote!"
+; EN: FFireString[2]="Same Team!"
+FFireString[2]="Stejný tým!"
+; EN: FFireAbbrev[1]="Your Team, Idiot!"
+FFireAbbrev[1]="Váš tým, Idiote!"
+; EN: TauntString[0]="And Stay Down"
+TauntString[0]="A zůstaň dole"
+; EN: TauntString[1]="Anyone Else Want Some?"
+TauntString[1]="Chce ještě někdo nějaké?"
+; EN: TauntString[2]="Boom!"
+TauntString[2]="Výložník!"
+TauntString[3]="BURN Baby"
+; EN: TauntString[4]="Die Bitch"
+TauntString[4]="Zemřít děvko"
+; EN: TauntString[5]="Eat THAT"
+TauntString[5]="Jezte TO"
+; EN: TauntString[6]="You Fight Like Nali"
+TauntString[6]="Bojuješ jako Nali"
+; EN: TauntString[7]="Is That Your Best?"
+TauntString[7]="Je to vaše nejlepší?"
+TauntString[8]="Kiss My Ass"
+; EN: TauntString[9]="Loser"
+TauntString[9]="Ztroskotanec"
+; EN: TauntString[10]="MY House"
+TauntString[10]="Můj dům"
+; EN: TauntString[11]="Next!"
+TauntString[11]="Další!"
+; EN: TauntString[12]="Oh YEAH!"
+TauntString[12]="Ach jo!"
+; EN: TauntString[13]="Ownage"
+TauntString[13]="Vlastnictví"
+; EN: TauntString[14]="Seeya"
+TauntString[14]="Uvidíme se"
+; EN: TauntString[15]="That HAD To Hurt"
+TauntString[15]="To MUSELO Bolet"
+; EN: TauntString[16]="Useless"
+TauntString[16]="Zbytečný"
+; EN: TauntString[17]="You Play Like A Girl"
+TauntString[17]="Hrajete jako dívka"
+TauntString[18]="You Be Dead"
+; EN: TauntString[19]="You Like That?"
+TauntString[19]="To se ti líbí?"
+; EN: TauntString[20]="You Whore"
+TauntString[20]="Ty děvko"
+; EN: OrderString[0]="Defend the base"
+OrderString[0]="Bránit základnu"
+; EN: OrderString[1]="Hold this position"
+OrderString[1]="Drž tuto pozici"
+; EN: OrderString[2]="Assault the base"
+OrderString[2]="Útok na základnu"
+; EN: OrderString[3]="Cover me"
+OrderString[3]="Kryj mě"
+; EN: OrderString[4]="Search and destroy"
+OrderString[4]="Najít a zničit"
+; EN: OrderString[10]="Take their flag"
+OrderString[10]="Vezměte jejich vlajku"
+; EN: OrderString[11]="Defend the flag"
+OrderString[11]="Braňte vlajku"
+; EN: OrderString[12]="Attack Alpha"
+OrderString[12]="Útok na Alfu"
+; EN: OrderString[13]="Attack Bravo"
+OrderString[13]="Útok na Bravo"
+; EN: OrderString[14]="Get the ball"
+OrderString[14]="Získejte míč"
+; EN: OrderAbbrev[0]="Defend"
+OrderAbbrev[0]="Hájit"
+; EN: OrderAbbrev[2]="Attack"
+OrderAbbrev[2]="Záchvat"
+; EN: OtherString[0]="Base is undefended!"
+OtherString[0]="Základna není bráněna!"
+; EN: OtherString[1]="Somebody get our flag back!"
+OtherString[1]="Vraťte někdo naši vlajku!"
+; EN: OtherString[2]="I've got the flag"
+OtherString[2]="Mám vlajku"
+; EN: OtherString[3]="I've got your back"
+OtherString[3]="kryji ti záda"
+; EN: OtherString[4]="I'm hit!"
+OtherString[4]="Jsem zasažen!"
+; EN: OtherString[5]="Man down!"
+OtherString[5]="Mrtvý muž!"
+; EN: OtherString[6]="I'm all alone here %l"
+OtherString[6]="Jsem tu úplně sám %l"
+; EN: OtherString[7]="Negative!"
+OtherString[7]="Záporný!"
+; EN: OtherString[8]="I've got our flag"
+OtherString[8]="Mám naši vlajku"
+; EN: OtherString[9]="I'm in position %l"
+OtherString[9]="Jsem na pozici %l"
+; EN: OtherString[10]="I'm going in!"
+OtherString[10]="Jdu dovnitř!"
+; EN: OtherString[11]="Area is secure"
+OtherString[11]="Oblast je zabezpečená"
+; EN: OtherString[12]="Enemy flag carrier is %l"
+OtherString[12]="Nepřátelský vlajkový nosič je %l"
+; EN: OtherString[13]="I need some backup %l"
+OtherString[13]="Potřebuji nějakou zálohu %l"
+; EN: OtherString[14]="Incoming!"
+OtherString[14]="Přicházející!"
+; EN: OtherString[15]="Enemy ball carrier is %l"
+OtherString[15]="Nepřátelský nosič míče je %l"
+; EN: OtherString[16]="Alpha secure!"
+OtherString[16]="Alfa zajištěna!"
+; EN: OtherString[17]="Bravo secure!"
+OtherString[17]="Bravo bezpečně!"
+; EN: OtherString[18]="Attack Alpha"
+OtherString[18]="Útok na Alfu"
+; EN: OtherString[19]="Attack Bravo"
+OtherString[19]="Útok na Bravo"
+; EN: OtherString[20]="The base is under attack %l"
+OtherString[20]="Základna je napadena %l"
+; EN: OtherString[21]="We're being overrun %l!"
+OtherString[21]="Jsme překročeni %l!"
+; EN: OtherString[22]="Under heavy attack %l"
+OtherString[22]="Pod silným útokem %l"
+; EN: OtherString[23]="Defend point Alpha"
+OtherString[23]="Obrana bodu Alfa"
+; EN: OtherString[24]="Defend point Bravo"
+OtherString[24]="Bránit bod Bravo"
+; EN: OtherString[25]="Get The Ball"
+OtherString[25]="Získejte míč"
+; EN: OtherString[26]="I'm on defense"
+OtherString[26]="Jsem v obraně"
+; EN: OtherString[27]="I'm on offense"
+OtherString[27]="Jsem v útoku"
+; EN: OtherString[28]="Take point Alpha"
+OtherString[28]="Vezměte bod Alfa"
+; EN: OtherString[29]="Take point Bravo"
+OtherString[29]="Vezměte bod Bravo"
+; EN: OtherString[30]="Medic"
+OtherString[30]="Medik"
+; EN: OtherString[31]="Nice"
+OtherString[31]="Pěkný"
+; EN: OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[1]="Získejte naši vlajku!"
+; EN: OtherAbbrev[2]="Got the flag"
+OtherAbbrev[2]="Dostal vlajku"
+; EN: OtherAbbrev[3]="Got your back"
+OtherAbbrev[3]="Držím ti záda"
+; EN: OtherAbbrev[6]="All alone!"
+OtherAbbrev[6]="Úplně sám!"
+; EN: OtherAbbrev[8]="Got our flag"
+OtherAbbrev[8]="Dostali jsme naši vlajku"
+; EN: OtherAbbrev[9]="In position"
+OtherAbbrev[9]="V pozici"
+; EN: OtherAbbrev[12]="Enemy flag carrier"
+OtherAbbrev[12]="Nepřátelský vlajkový nosič"
+; EN: OtherAbbrev[13]="Need backup"
+OtherAbbrev[13]="Potřebuji zálohu"
+; EN: OtherAbbrev[15]="Enemy ball carrier"
+OtherAbbrev[15]="Nepřátelský nosič míčů"
+; EN: OtherAbbrev[20]="Base under attack"
+OtherAbbrev[20]="Základna pod útokem"
+; EN: OtherAbbrev[21]="Being overrun"
+OtherAbbrev[21]="Být překročen"
+; EN: OtherAbbrev[22]="Under heavy attack"
+OtherAbbrev[22]="Pod těžkým útokem"
+

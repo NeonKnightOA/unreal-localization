@@ -1,24 +1,32 @@
 [LevelInfo0]
-Title="Skyline"
+; EN: Title="Skyline"
+Title="Horizon"
 
 [LevelSummary]
-Title="Skyline"
+; EN: Title="Skyline"
+Title="Horizon"
 
 [MessageTextureClient0]
-ScrollingMessage="%lp IS WINNING WITH A SCORE OF %lf"
+; EN: ScrollingMessage="%lp IS WINNING WITH A SCORE OF %lf"
+ScrollingMessage="%lp GAGNE AVEC UN SCORE DE %lf"
 
 [Volume2]
-LocationName="Inside Blue Tower"
+; EN: LocationName="Inside Blue Tower"
+LocationName="À l'intérieur de la tour bleue"
 
 [Volume3]
-LocationName="Central Tower"
+; EN: LocationName="Central Tower"
+LocationName="Tour centrale"
 
 [Volume4]
-LocationName="Inside Red Tower"
+; EN: LocationName="Inside Red Tower"
+LocationName="À l'intérieur de la tour rouge"
 
 [Volume5]
-LocationName="Red Tower"
+; EN: LocationName="Red Tower"
+LocationName="Tour Rouge"
 
 [Volume6]
-LocationName="Blue Tower"
+; EN: LocationName="Blue Tower"
+LocationName="Tour Bleue"
 

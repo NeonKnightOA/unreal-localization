@@ -1,0 +1,212 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+; EN: Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="(Caption="Grid", Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+; EN: Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
+Preferences="(Caption="Rotation Grid", Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
+
+[PkgCommandlet]
+HelpCmd="pkg"
+; EN: HelpOneLiner="Imports/Exports data to/from packages using directory structures."
+HelpOneLiner="Importerer/eksporterer data til/fra pakker ved hjelp av katalogstrukturer."
+; EN: HelpUsage="pkg [import/export] [texture/sound] [packagename] [directory]"
+HelpUsage="pkg [import/eksport] [tekstur/lyd] [pakkenavn] [katalog]"
+; EN: HelpParm[0]="import/export"
+HelpParm[0]="import Eksport"
+; EN: HelpDesc[0]="What you are attempting to do with the data"
+HelpDesc[0]="Hva du prøver å gjøre med dataene"
+; EN: HelpParm[1]="texture/sound"
+HelpParm[1]="tekstur/lyd"
+; EN: HelpDesc[1]="The type of package you are working with"
+HelpDesc[1]="Type pakke du jobber med"
+; EN: HelpParm[2]="packagename"
+HelpParm[2]="pakkenavn"
+; EN: HelpDesc[2]="The package you are creating/exporting from"
+HelpDesc[2]="Pakken du oppretter/eksporterer fra"
+; EN: HelpParm[3]="directory"
+HelpParm[3]="katalog"
+; EN: HelpDesc[3]="The directory to read from/write to"
+HelpDesc[3]="Katalogen å lese fra/skrive til"
+
+[MasterCommandlet]
+; EN: HelpCmd="master"
+HelpCmd="herre"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="Bygg masterinstallasjonsfiler"
+; EN: HelpUsage="master [-option...] [parm=value]..."
+HelpUsage="master [-alternativ...] [parm=verdi]..."
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from"
+HelpDesc[0]="Rotkatalog å kopiere kildefiler fra"
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to"
+HelpDesc[1]="Rotkatalog å kopiere kilde (utgivelses)filer til"
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference"
+HelpDesc[2]="Bane for delta-komprimert banereferanse"
+
+[MapConvertCommandlet]
+; EN: HelpCmd="mapconvert"
+HelpCmd="kartkonverter"
+; EN: HelpOneLiner="Converts Maps from old format to new (no brush transforms)"
+HelpOneLiner="Konverterer kart fra gammelt format til nytt (ingen børstetransformasjoner)"
+HelpUsage="mapconvert SrcFilename DstFilename"
+; EN: HelpParm[0]="SrcFilename"
+HelpParm[0]="SrcFilnavn"
+; EN: HelpDesc[0]="The map filename to read from"
+HelpDesc[0]="Kartfilnavnet å lese fra"
+; EN: HelpParm[1]="DstFilename"
+HelpParm[1]="DstFilnavn"
+; EN: HelpDesc[1]="The map filename to write to"
+HelpDesc[1]="Kartfilnavnet å skrive til"
+
+[MakeCommandlet]
+; EN: HelpCmd="make"
+HelpCmd="gjøre"
+; EN: HelpOneLiner="Rebuild UnrealScript packages"
+HelpOneLiner="Gjenoppbygg UnrealScript-pakker"
+; EN: HelpUsage="make [-option...] [parm=value]..."
+HelpUsage="lag [-alternativ...] [parm=verdi]..."
+HelpParm[0]="auto"
+; EN: HelpDesc[0]="No prompts; assume "yes" to all questions"
+HelpDesc[0]="Ingen meldinger; anta "ja" på alle spørsmål"
+HelpParm[1]="nobind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs"
+HelpDesc[1]="Ikke tving innfødte funksjoner til å være bundet til DLL-er"
+HelpParm[2]="silentbuild"
+; EN: HelpDesc[2]="Do not display 'Analyzing' & 'Compiling' messages for every class"
+HelpDesc[2]="Ikke vis 'Analyser' og 'Kompilerer'-meldinger for hver klasse"
+; EN: HelpParm[3]="exportcache"
+HelpParm[3]="eksportcache"
+; EN: HelpDesc[3]="Create cache record files for the compiled package"
+HelpDesc[3]="Opprett cache-postfiler for den kompilerte pakken"
+
+[DXTConvertCommandlet]
+HelpCmd="dxtconvert"
+; EN: HelpOneLiner="Convert DXT3/5 textures to DXT1/ RGBA"
+HelpOneLiner="Konverter DXT3/5-teksturer til DXT1/RGBA"
+HelpUsage="dxtconvert srcpath destpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files"
+HelpDesc[0]="Bane som inneholder kildefiler"
+HelpParm[1]="destpath"
+; EN: HelpDesc[1]="Path for destination files"
+HelpDesc[1]="Bane for destinasjonsfiler"
+
+[DataRipCommandlet]
+HelpCmd="datarip"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="Lag en pakke med tekstur-, musikk- og lyddata revet ut."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package"
+HelpDesc[0]="Kildepakke"
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package"
+HelpDesc[1]="Destinasjonspakke"
+
+[PackageFlagCommandlet]
+; EN: HelpCmd="packageflag"
+HelpCmd="pakkeflagg"
+; EN: HelpOneLiner="Set package flags in package files"
+HelpOneLiner="Sett pakkeflagg i pakkefiler"
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [dest.ext &lt;+|-&gt;flagg [&lt;+|-&gt;flagg] ...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load"
+HelpDesc[0]="Eksisterende pakkefil som skal lastes"
+HelpParm[1]="dest.exe"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings"
+HelpDesc[1]="Navn på ny pakkefil med de nye flagginnstillingene"
+; EN: HelpParm[2]="flag"
+HelpParm[2]="flagg"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+ for å sette et flagg, eller - for å fjerne et flagg, etterfulgt av ett av:"
+HelpParm[3]=" "
+; EN: HelpDesc[3]="  AllowDownload"
+HelpDesc[3]="  TillatLast ned"
+HelpParm[4]=" "
+; EN: HelpDesc[4]="  ClientOptional"
+HelpDesc[4]="  KundeValgfri"
+HelpParm[5]=" "
+; EN: HelpDesc[5]="  ServerSideOnly"
+HelpDesc[5]="  Kun serverside"
+HelpParm[6]=" "
+; EN: HelpDesc[6]="  BrokenLinks"
+HelpDesc[6]="  Ødelagte koblinger"
+HelpParm[7]=" "
+; EN: HelpDesc[7]="  Unsecure"
+HelpDesc[7]="  Usikker"
+
+[ConformCommandlet]
+; EN: HelpCmd="conform"
+HelpCmd="samsvare"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="Generer samsvarende binære filer"
+; EN: HelpUsage="conform existing_file.ext old_file.ext"
+HelpUsage="samsvar eksisterende_fil.ekst gammel_fil.ekst"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="eksisterendefil.ext"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save"
+HelpDesc[0]="Eksisterende binær fil for å laste, tilpasse og lagre"
+HelpParm[1]="oldfile.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with"
+HelpDesc[1]="Gammel fil å gjøre kildefilen binær kompatibel med"
+
+[BatchExportCommandlet]
+; EN: HelpCmd="batchexport"
+HelpCmd="batcheksport"
+; EN: HelpOneLiner="Export objects in bulk"
+HelpOneLiner="Eksporter objekter i bulk"
+; EN: HelpUsage="batchexport package.ext classname export_ext"
+HelpUsage="batchexport package.ext klassenavn eksport_ext"
+HelpParm[0]="package.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export"
+HelpDesc[0]="Pakke hvis objekter du ønsker å eksportere"
+; EN: HelpParm[1]="classname"
+HelpParm[1]="klassenavn"
+; EN: HelpDesc[1]="Class of object to export"
+HelpDesc[1]="Klasse av objekt som skal eksporteres"
+; EN: HelpParm[2]="export_ext"
+HelpParm[2]="eksport_ext"
+; EN: HelpDesc[2]="File extension to export to"
+HelpDesc[2]="Filtype å eksportere til"
+; EN: HelpParm[3]="path"
+HelpParm[3]="sti"
+; EN: HelpDesc[3]="Path to export files to, like c:\MyPath"
+HelpDesc[3]="Bane for å eksportere filer til, som c:\MyPath"
+
+[AnalyzeContentCommandlet]
+; EN: HelpCmd="analyzecontent"
+HelpCmd="analysere innhold"
+; EN: HelpOneLiner="Analyzes map"
+HelpOneLiner="Analyserer kart"
+; EN: HelpUsage="analyzecontent mapname"
+HelpUsage="analyseinnhold kartnavn"
+; EN: HelpParm[0]="mapname"
+HelpParm[0]="kartnavn"
+; EN: HelpDesc[0]="Path to a map file"
+HelpDesc[0]="Sti til en kartfil"

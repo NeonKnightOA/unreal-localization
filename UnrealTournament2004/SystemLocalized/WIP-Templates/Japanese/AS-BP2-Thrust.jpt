@@ -1,0 +1,121 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Guidance Rocket Switch"
+LocationName="ガイダンスロケットスイッチ"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Pressure Tanks"
+LocationName="圧力タンク"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE5]
+Message="1..."
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="Pressure tanks destroyed!"
+Message="圧力タンクが破壊されました！"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="SAM Launcher 2"
+ObjectiveName="SAMランチャー2"
+; EN: DestructionMessage="SAM Launcher 1 Destroyed!"
+DestructionMessage="SAMランチャー1が破壊されました！"
+; EN: ObjectiveDescription="Destroy the SAM launcher to allow the dropship to land."
+ObjectiveDescription="ドロップシップが着陸できるように、SAMランチャーを破壊します。"
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 1"
+Objective_Info_Attacker="SAMランチャー1を破壊する"
+; EN: Objective_Info_Defender="Protect SAM Launcher 1"
+Objective_Info_Defender="SAMランチャー1を保護する"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="SAM Launcher 2"
+ObjectiveName="SAMランチャー2"
+; EN: DestructionMessage="SAM Launcher 2 Destroyed!"
+DestructionMessage="SAMランチャー2が破壊されました！"
+; EN: ObjectiveDescription="Destroy SAM Launcher to allow the dropship to land."
+ObjectiveDescription="ドロップシップが着陸できるようにSAMランチャーを破壊します。"
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 2"
+Objective_Info_Attacker="SAMランチャー2を破壊する"
+; EN: Objective_Info_Defender="Protect SAM Launcher 2"
+Objective_Info_Defender="SAMランチャー2を保護する"
+
+[HoldObjective0]
+; EN: ObjectiveName="Main Rocket Launch Switch"
+ObjectiveName="メインロケット発射スイッチ"
+; EN: DestructionMessage="Rocket Launched!"
+DestructionMessage="ロケット打ち上げ！"
+; EN: ObjectiveDescription="Launch the Main Rocket."
+ObjectiveDescription="メインロケットを打ち上げます。"
+; EN: Objective_Info_Attacker="Launch the Main Rocket"
+Objective_Info_Attacker="メインロケットを打ち上げる"
+; EN: Objective_Info_Defender="Defend the Main Rocket Switch"
+Objective_Info_Defender="メインロケットスイッチを守る"
+
+[HoldObjective1]
+; EN: ObjectiveName="Guidance Rocket"
+ObjectiveName="ガイダンスロケット"
+; EN: DestructionMessage="Guidance Rocket Launched!"
+DestructionMessage="ガイダンスロケット発売！"
+; EN: ObjectiveDescription="Launch the Guidance Rocket, it is required for a successful launch of the main rocket."
+ObjectiveDescription="ガイダンスロケットを打ち上げます。メインロケットの打ち上げを成功させるために必要です。"
+; EN: Objective_Info_Attacker="Launch the Guidance Rocket"
+Objective_Info_Attacker="ガイダンスロケットを打ち上げる"
+; EN: Objective_Info_Defender="Defend the Guidance Rocket"
+Objective_Info_Defender="ガイダンスロケットを守る"
+
+[HoldObjective5]
+ObjectiveName="DockObjective"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="爆発物が配置されています！"
+; EN: ObjectiveDescription="Place explosives on the pressure tanks to reduce hydraulic pressure and open the security door."
+ObjectiveDescription="圧力タンクに爆発物を置いて油圧を下げ、セキュリティドアを開きます。"
+; EN: Objective_Info_Attacker="Place explosives on the pressure tanks"
+Objective_Info_Attacker="圧力タンクに爆発物を置きます"
+; EN: Objective_Info_Defender="Defend the pressure tanks"
+Objective_Info_Defender="圧力タンクを守る"
+
+[LevelInfo0]
+; EN: Title="Thrust"
+Title="推力"
+; EN: LocationName="Outside"
+LocationName="外"
+
+[LevelSummary]
+; EN: Title="Thrust"
+Title="推力"
+; EN: Description="A recreation of the infamous destruction of the Saturn IX PCNR rocket where a crack team of anti-NEG rebels stormed the launch facility and scuttled the rocket by launching it unguided and half-fueled."
+Description="土星IXPCNRロケットの悪名高い破壊の再現。反NEG反乱軍のクラックチームが打ち上げ施設を襲撃し、無誘導で半燃料で打ち上げてロケットを自沈させました。"
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the premature launching of the half-fueled Saturn IX rocket by anti-NEG rebels.","First, your team must toggle the switch on the roof of this small building to launch the Guidance Rocket, which serves as a necessary navigational beacon for the Main Rocket.","If you wish, you may choose to secure the auxiliary landing pad by destroying two these SAM launchers. If the SAM site is destroyed, your team then may spawn at the landing pad, and an airstrike will drastically weaken the enemy defenses at your next objective.","Place and detonate explosives on the hydraulic pressure tanks. This will open all base doors, and allow access to the facility's main control room.","Finally, you will need to activate the launch switch inside Mission Control before final fueling is complete.  This will scuttle the Main Rocket into an improper launch orbit.")
+
+[Volume0]
+; EN: LocationName="SAM Platform"
+LocationName="SAMプラットフォーム"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="外"
+
+[ZoneInfo1]
+; EN: LocationName="Guidance Rocket Building"
+LocationName="ガイダンスロケットビルディング"
+
+[ZoneInfo2]
+; EN: LocationName="Defender Spawn in Rocker Building"
+LocationName="ロッカービルのディフェンダースポーン"
+
+[ZoneInfo3]
+; EN: LocationName="Rocket Control Room"
+LocationName="ロケット制御室"
+

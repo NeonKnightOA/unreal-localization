@@ -1,0 +1,10 @@
+[Public]
+Object=(Name=D3DDrv.D3DRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+; EN: Preferences=(Caption="Direct3D support",Parent="Rendering",Class=D3DDrv.D3DRenderDevice,Immediate=True)
+Preferences=(Caption="Direct3Dのサポート",Parent="レンダリング",Class=D3DDrv.D3DRenderDevice,Immediate=True)
+
+[D3DRenderDevice]
+; EN: ClassCaption="Direct3D Support"
+ClassCaption="Direct3Dサポート"
+; EN: AskInstalled="Do you want to use Direct3D?"
+AskInstalled="Direct3Dを使用しますか？"

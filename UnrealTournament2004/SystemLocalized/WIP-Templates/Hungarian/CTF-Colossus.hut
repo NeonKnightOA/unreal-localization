@@ -1,0 +1,42 @@
+[LevelInfo0]
+; EN: Title="Colossus"
+Title="Kolosszus"
+
+[LevelSummary]
+; EN: Title="Colossus"
+Title="Kolosszus"
+; EN: Description="By taking advantage of the fast moving high ground and the relative cover of the low, tactically proficient players can make their way to the flag practically unscathed.  Returning with the flag, on the other hand, is another matter altogether."
+Description="A gyorsan mozgó magaslat és az alacsony szint viszonylagos fedezékének kihasználásával a taktikusan jártas játékosok gyakorlatilag sértetlenül juthatnak el a zászló felé. A zászlóval való visszatérés viszont teljesen más kérdés."
+
+[Volume0]
+; EN: LocationName="Blue Rear Base"
+LocationName="Kék hátsó alap"
+
+[Volume1]
+LocationName="Blue Forward Base"
+
+[Volume2]
+; EN: LocationName="Neutral Zone"
+LocationName="Semleges zóna"
+
+[Volume3]
+LocationName="Red Forward Base"
+
+[Volume4]
+; EN: LocationName="Red Rear Base"
+LocationName="Piros hátsó talp"
+
+[ZoneInfo1]
+; EN: LocationName="Red Bunker"
+LocationName="Vörös Bunker"
+
+[ZoneInfo2]
+; EN: LocationName="Blue Bunker"
+LocationName="Kék Bunker"
+
+[xBlueFlagBase0]
+ObjectiveName="BlueFlagBase"
+
+[xRedFlagBase0]
+ObjectiveName="RedFlagBase"
+

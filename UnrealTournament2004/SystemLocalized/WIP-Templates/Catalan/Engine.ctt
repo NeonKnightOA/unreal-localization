@@ -1,0 +1,891 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Avançat",Parent="Opcions avançades")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Àudio",Parent="Opcions avançades")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Mostra",Parent="Opcions avançades")
+; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Editor",Parent="Opcions avançades")
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Configuració del joc",Parent="Opcions avançades",Class=Engine.GameInfo,Immediate=True)
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Opcions avançades")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Treball en xarxa",Parent="Opcions avançades")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Renderització",Parent="Opcions avançades")
+; "Advanced" root
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Configuració del motor del joc",Parent="Avançat",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Àlies clau",Parent="Avançat",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Enquadernacions de clau en brut",Parent="Avançat",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Conductors",Parent="Opcions avançades",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; "Networking" root
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Informació del servidor públic",Parent="Treball en xarxa",Class=Engine.GameReplicationInfo,Immediate=True)
+
+[Errors]
+; EN: NetOpen=Error opening file
+NetOpen=Error en obrir el fitxer
+; EN: NetWrite=Error writing to file
+NetWrite=S'ha produït un error escrivint al fitxer
+; EN: NetRefused=Server refused to send '%s'
+NetRefused=El servidor s'ha negat a enviar '%s'
+; EN: NetClose=Error closing file
+NetClose=S'ha produït un error en tancar el fitxer
+; EN: NetSize=File size mismatch
+NetSize=La mida del fitxer no coincideix
+; EN: NetMove=Error moving file
+NetMove=S'ha produït un error en moure el fitxer
+; EN: NetInvalid=Received invalid file request
+NetInvalid=S'ha rebut una sol·licitud de fitxer no vàlida
+; EN: NoDownload=Package '%s' is not downloadable
+NoDownload=El paquet '%s' no es pot descarregar
+; EN: DownloadFailed=Downloading package '%s' failed: %s
+DownloadFailed=No s'ha pogut descarregar el paquet '%s': %s
+; EN: RequestDenied=Server requested file from pending level: Denied
+RequestDenied=Fitxer sol·licitat pel servidor des del nivell pendent: Denegat
+; EN: ConnectionFailed=Connection failed
+ConnectionFailed=Connexió fallida
+; EN: ChAllocate=Couldn't allocate channel
+ChAllocate=No s'ha pogut assignar el canal
+; EN: NetAlready=Already networking
+NetAlready=Ja està fent xarxa
+; EN: NetListen=Listen failed: No linker context available
+NetListen=No s'ha pogut escoltar: no hi ha cap context d'enllaç disponible
+; EN: LoadEntry=Can't load Entry: %s
+LoadEntry=No es pot carregar l'entrada: %s
+; EN: InvalidUrl=Invalid URL: %s
+InvalidUrl=URL no vàlid: %s
+; EN: InvalidLink=Invalid Link: %s
+InvalidLink=Enllaç no vàlid: %s
+; EN: FailedBrowse=Failed to enter %s: %s
+FailedBrowse=No s'ha pogut introduir %s: %s
+; EN: Listen=Listen failed: %s
+Listen=No s'ha pogut escoltar: %s
+; EN: AbortToEntry=Failed; returning to Entry
+AbortToEntry=Fracassat; tornant a l'entrada
+; EN: ServerOpen=Servers can't open network URLs
+ServerOpen=Els servidors no poden obrir URL de xarxa
+; EN: ServerListen=Dedicated server can't listen: %s
+ServerListen=El servidor dedicat no pot escoltar: %s
+; EN: Pending=Pending connect to '%s' failed; %s
+Pending=No s'ha pogut connectar a '%s' pendent; %s
+; EN: LoadPlayerClass=Failed to load player class
+LoadPlayerClass=No s'ha pogut carregar la classe del jugador
+; EN: ServerOutdated=Server's version is outdated
+ServerOutdated=La versió del servidor està obsoleta
+; EN: ClientOutdated=You need to apply the latest patches
+ClientOutdated=Heu d'aplicar els últims pegats
+; EN: InvalidCDKey=Your CD key appears to be invalid.  You will need to reinstall the game and enter your CD key to fix this problem.
+InvalidCDKey=Sembla que la vostra clau de CD no és vàlida. Haureu de tornar a instal·lar el joc i introduir la vostra clau de CD per solucionar aquest problema.
+; EN: ConnectLost=Connection Lost
+ConnectLost=Connexió perduda
+; EN: DemoFileMissing=Missing package '%s' for demo playback
+DemoFileMissing=Falta el paquet '%s' per a la reproducció de demostració
+; EN: DownloadNotAllowed=Downloading '%s' not allowed
+DownloadNotAllowed=No es permet la baixada de '%s'
+
+[General]
+; EN: Upgrade=To enter this server, you need the latest free update to Unreal available from Epic's Web site:
+Upgrade=Per entrar a aquest servidor, necessiteu l'última actualització gratuïta d'Unreal disponible al lloc web d'Epic:
+UpgradeURL=http://www.unreal.com/upgrade
+; EN: UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
+UpgradeQuestion=Voleu iniciar el vostre navegador web i anar a la pàgina d'actualització ara?
+; EN: Version=Version %i
+Version=Versió %i
+
+[KeyNames]
+; EN: Up=UP
+Up=Amunt
+; EN: Right=RIGHT
+Right=DRET
+; EN: Left=LEFT
+Left=ESQUERRA
+; EN: Down=DOWN
+Down=ABAIX
+; EN: LeftMouse=LEFT MOUSE
+LeftMouse=ratolí esquerre
+; EN: RightMouse=RIGHT MOUSE
+RightMouse=ratolí dret
+; EN: MiddleMouse=MIDDLE MOUSE
+MiddleMouse=RATÍ MITJÀ
+; EN: MouseX=MOUSE X
+MouseX=RATOLÍ X
+; EN: MouseY=MOUSE Y
+MouseY=RATOLÍ Y
+; EN: MouseZ=MOUSE Z
+MouseZ=ratolí Z
+; EN: MouseW=MOUSE W
+MouseW=RATOLÍ W
+; EN: JoyX=JOY X
+JoyX=ALEGRIA X
+; EN: JoyY=JOY Y
+JoyY=ALEGRIA Y
+; EN: JoyZ=JOY Z
+JoyZ=JOIA Z
+; EN: JoyU=JOY U
+JoyU=ALEGRIA U
+; EN: JoyV=JOY V
+JoyV=ALEGRIA V
+JoySlider1=JOYSLIDER 1
+JoySlider2=JOYSLIDER 2
+; EN: MouseWheelUp=MOUSEWHEEL UP
+MouseWheelUp=RODA Amunt
+; EN: MouseWheelDown=MOUSEWHEEL DOWN
+MouseWheelDown=RODA DEL ratolí cap avall
+; EN: Joy1=JOY 1
+Joy1=ALEGRIA 1
+; EN: Joy2=JOY 2
+Joy2=ALEGRIA 2
+; EN: Joy3=JOY 3
+Joy3=ALEGRIA 3
+; EN: Joy4=JOY 4
+Joy4=ALEGRIA 4
+; EN: Joy5=JOY 5
+Joy5=ALEGRIA 5
+; EN: Joy6=JOY 6
+Joy6=ALEGRIA 6
+; EN: Joy7=JOY 7
+Joy7=ALEGRIA 7
+; EN: Joy8=JOY 8
+Joy8=ALEGRIA 8
+; EN: Joy9=JOY 9
+Joy9=ALEGRIA 9
+; EN: Joy10=JOY 10
+Joy10=ALEGRIA 10
+; EN: Joy11=JOY 11
+Joy11=ALEGRIA 11
+; EN: Joy12=JOY 12
+Joy12=ALEGRIA 12
+; EN: Joy13=JOY 13
+Joy13=ALEGRIA 13
+; EN: Joy14=JOY 14
+Joy14=ALEGRIA 14
+; EN: Joy15=JOY 15
+Joy15=ALEGRIA 15
+; EN: Joy16=JOY 16
+Joy16=ALEGRIA 16
+; EN: Space=SPACE
+Space=ESPAI
+; EN: PageUp=PAGE UP
+PageUp=PÀGINA Amunt
+; EN: PageDown=PAGE DOWN
+PageDown=AVANÇAR PAGINA
+; EN: End=END
+End=FINAL
+; EN: Home=HOME
+Home=CASA
+; EN: Select=SELECT
+Select=SELECCIONA
+; EN: Print=PRINT
+Print=IMPRIMIR
+; EN: Execute=EXECUTE
+Execute=EXECUTAR
+PrintScrn=PRINTSCRN
+Insert=INSERT
+; EN: Delete=DELETE
+Delete=ELIMINAR
+; EN: Help=HELP
+Help=AJUDA
+NumPad0=NUM 0
+NumPad1=NUM 1
+NumPad2=NUM 2
+NumPad3=NUM 3
+NumPad4=NUM 4
+NumPad5=NUM 5
+NumPad6=NUM 6
+NumPad7=NUM 7
+NumPad8=NUM 8
+NumPad9=NUM 9
+; EN: GreyStar=GREY STAR
+GreyStar=ESTRELLA GRIS
+; EN: GreyPlus=GREY PLUS
+GreyPlus=GRIS PLUS
+; EN: Separator=SEPARATOR
+Separator=SEPARADOR
+; EN: GreyMinus=GREY MINUS
+GreyMinus=GRIS MENYS
+NumPadPeriod=NUM .
+GreySlash=GREY SLASH
+; EN: Pause=PAUSE
+Pause=PAUSA
+; EN: CapsLock=CAPSLOCK
+CapsLock=MAJÚSCULES ACTIVADES
+Tab=TAB
+; EN: Enter=ENTER
+Enter=ENTRAR
+; EN: Shift=SHIFT
+Shift=MAJÚ
+; EN: NumLock=NUMLOCK
+NumLock=BLOQUEIG NUMÈRIC
+; EN: Escape=ESCAPE
+Escape=ESCAPAR
+
+[Progress]
+; EN: CancelledConnect=Cancelled Connect Attempt
+CancelledConnect=Intent de connexió cancel·lat
+; EN: RunningNet=%s: %s (%i players)
+RunningNet=%s: %s (%i jugadors)
+; EN: NetReceiving=Receiving '%s': %i/%i
+NetReceiving=S'està rebent '%s': %i/%i
+; EN: NetReceiveOk=Successfully received '%s'
+NetReceiveOk=S'ha rebut '%s' correctament
+; EN: NetSend=Sending '%s'
+NetSend=S'està enviant '%s'
+; EN: NetSending=Sending '%s': %i/%i
+NetSending=S'està enviant '%s': %i/%i
+; EN: Connecting=Connecting (F10 to Abort)...
+Connecting=S'està connectant (F10 per cancel·lar)...
+; EN: Listening=Listening for clients...
+Listening=Escoltant els clients...
+; EN: Loading=Loading
+Loading=Carregant
+; EN: Saving=Saving
+Saving=Estalvi
+; EN: Paused=Paused by %s
+Paused=Ha posat en pausa %s
+; EN: ReceiveFile=Receiving '%s' (F10 Cancels)
+ReceiveFile=S'està rebent "%s" (F10 cancel·la)
+; EN: ReceiveOptionalFile=Receiving optional file '%s' (Press F10 to Skip)
+ReceiveOptionalFile=S'està rebent el fitxer opcional '%s' (preme F10 per saltar)
+; EN: ReceiveSize=Size %iK, Complete %3.1f%%
+ReceiveSize=Mida %iK, completa %3,1f%%
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="Connexió (F10 cancel·la):"
+ConnectingURL=%s://%s/%s
+; EN: CorruptConnect=Incompatible Game Files!
+CorruptConnect=Fitxers de jocs incompatibles!
+
+[UpgradeDrivers]
+; EN: OutdatedDrivers=You are running old graphics card drivers that might not work in conjunction with the game.
+OutdatedDrivers=Esteu executant controladors de targeta gràfica antics que potser no funcionen juntament amb el joc.
+; EN: OursOrWeb=Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage
+OursOrWeb=Trieu SÍ per instal·lar els controladors actualitzats des del nostre CD i NO per visitar la pàgina d'inici del fabricant
+; EN: InsertCD=Please insert your Unreal Tournament CD 3
+InsertCD=Si us plau, inseriu el vostre CD 3 del torneig Unreal
+NvidiaURL=http://www.nvidia.com/content/drivers/drivers.asp
+AtiURL=http://www.ati.com/support/driver.html
+; EN: CDButton=Upgrade from CD
+CDButton=Actualitza des del CD
+; EN: WebButton=Upgrade from Web
+WebButton=Actualitza des del web
+; EN: cancelButton=Don't Upgrade
+cancelButton=No actualitzis
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5
+; EN: HelpOneLiner=Manipulate the Master MD5 database
+HelpOneLiner=Manipular la base de dades Master MD5
+; EN: HelpUsage=mastermd5 [-option..] <params>
+HelpUsage=mastermd5 [-opció..] &lt;params&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-c
+; EN: HelpDesc[0]=Creates a new MD5 database
+HelpDesc[0]=Crea una nova base de dades MD5
+HelpParm[1]=-a
+; EN: HelpDesc[1]=Adds new packages to the database
+HelpDesc[1]=Afegeix nous paquets a la base de dades
+HelpParm[2]=-s
+; EN: HelpDesc[2]=Show the current database.
+HelpDesc[2]=Mostra la base de dades actual.
+HelpParm[3]=-r
+; EN: HelpDesc[3]=Force the revision of all entries to <param>
+HelpDesc[3]=Força la revisió de totes les entrades a &lt;param&gt;
+
+[UModUnpackCommandlet]
+HelpCmd=umodunpack
+; EN: HelpOneLiner=Unpack UMOD files
+HelpOneLiner=Descomprimir fitxers UMOD
+; EN: HelpUsage=umodunpack [-option] <filename>
+HelpUsage=umodunpack [-opció] &lt;nom del fitxer&gt;
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-x
+; EN: HelpDesc[0]=Extract files from <filename>
+HelpDesc[0]=Extreu fitxers de &lt;filename&gt;
+HelpParm[1]=-l
+; EN: HelpDesc[1]=List files in <filename> without extracting.
+HelpDesc[1]=Llista els fitxers a &lt;filename&gt; sense extreure'ls.
+
+[ServerCommandlet]
+; EN: HelpCmd=server
+HelpCmd=servidor
+; EN: HelpOneLiner=Network game server
+HelpOneLiner=Servidor de jocs en xarxa
+; EN: HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpUsage=server map.unr[?game=gametype] [-opció...] [parm=valor]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+; EN: HelpParm[0]=Log
+HelpParm[0]=Registre
+; EN: HelpDesc[0]=Specify the log file to generate
+HelpDesc[0]=Especifiqueu el fitxer de registre que voleu generar
+; EN: HelpParm[1]=AllAdmin
+HelpParm[1]=Tots Admin
+; EN: HelpDesc[1]=Give all players admin priveleges
+HelpDesc[1]=Doneu a tots els jugadors privilegis d'administrador
+
+[ExportCacheCommandlet]
+HelpCmd=exportcache
+; EN: HelpOneLIner=Generates cache record entries for the specified packages.
+HelpOneLIner=Genera entrades de registre de memòria cau per als paquets especificats.
+; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
+HelpParm[0]=-a
+; EN: HelpParm[1]=-y
+HelpParm[1]=-i
+HelpParm[2]=-v
+; EN: HelpParm[3]=package.ext
+HelpParm[3]=paquet.ext
+HelpParm[4]=destfilename.ucl
+; EN: HelpDesc[0]=Update matching entries in destfilename.ucl.  Append any new entries.
+HelpDesc[0]=Actualitza les entrades coincidents a destfilename.ucl. Afegiu qualsevol entrada nova.
+; EN: HelpDesc[1]=Automatically answer 'Yes' to any prompts during the operation.
+HelpDesc[1]=Respon automàticament "Sí" a qualsevol indicació durant l'operació.
+; EN: HelpDesc[2]=Verbose output (to ucc.log)
+HelpDesc[2]=Sortida detallada (a ucc.log)
+; EN: HelpDesc[3]=Space delimited list of packages (including extension) that should be exported.  Wildcards are supported.  Paths are not required.
+HelpDesc[3]=Llista delimitada per espais de paquets (inclosa l'extensió) que s'han d'exportar. S'admeten els comodins. Els camins no són obligatoris.
+; EN: HelpDesc[4]=Destination file for exported entries.  Default filename is the name of the package being exported.  To export multiple packages to a single .ucl file, you must specify a destination filename.
+HelpDesc[4]=Fitxer de destinació per a les entrades exportades. El nom de fitxer per defecte és el nom del paquet que s'està exportant. Per exportar diversos paquets a un sol fitxer .ucl, heu d'especificar un nom de fitxer de destinació.
+
+[AccessControl]
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="La teva adreça IP s'ha prohibit en aquest servidor."
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="La contrasenya que heu introduït és incorrecta."
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="Has d'introduir una contrasenya per unir-te a aquest joc."
+; EN: SessionBanned="Your IP address has been banned from the current game session."
+SessionBanned="La teva adreça IP s'ha prohibit de la sessió de joc actual."
+; EN: KickedMsg="You have been forcibly removed from the game."
+KickedMsg="Has estat eliminat per la força del joc."
+; EN: DefaultKickReason="None specified"
+DefaultKickReason="Cap especificat"
+; EN: IdleKickReason="Kicked for idling."
+IdleKickReason="Fomentat per ralentí."
+; EN: ACDisplayText[0]="Game Password"
+ACDisplayText[0]="Contrasenya del joc"
+; EN: ACDisplayText[1]="Access Policies"
+ACDisplayText[1]="Polítiques d'accés"
+; EN: ACDisplayText[2]="Admin Password"
+ACDisplayText[2]="Contrasenya d'administrador"
+; EN: ACDisplayText[3]="Login Delay"
+ACDisplayText[3]="Retard d'inici de sessió"
+; EN: ACDescText[0]="If this password is set, players will have to enter it to join this server."
+ACDescText[0]="Si s'estableix aquesta contrasenya, els jugadors hauran d'introduir-la per unir-se a aquest servidor."
+; EN: ACDescText[1]="Specifies IP addresses or address ranges which have been banned."
+ACDescText[1]="Especifica adreces IP o intervals d'adreces que s'han prohibit."
+; EN: ACDescText[2]="Password required to login with administrator privileges on this server."
+ACDescText[2]="Cal contrasenya per iniciar sessió amb privilegis d'administrador en aquest servidor."
+; EN: ACDescText[3]="Number of seconds user must wait after an unsuccessful login attempt before able to login again."
+ACDescText[3]="Nombre de segons que l'usuari ha d'esperar després d'un intent d'inici de sessió sense èxit abans de poder tornar a iniciar sessió."
+
+[AdminBase]
+; EN: Msg_PlayerList="Player List:"
+Msg_PlayerList="Llista de jugadors:"
+; EN: Msg_AllGameMaps="Maps that are valid (can be added) to"
+Msg_AllGameMaps="Mapes als quals són vàlids (es poden afegir)."
+; EN: Msg_AllMapLists="Available maplists for %gametype%."
+Msg_AllMapLists="Llistes de mapes disponibles per a %gametype%."
+; EN: Msg_MapRotationList="Active maps for maplist %maplist%."
+Msg_MapRotationList="Mapes actius per a maplist %maplist%."
+; EN: Msg_NoMapsAdded="No maps added to the maplist %maplist%."
+Msg_NoMapsAdded="No s'ha afegit cap mapa a la llista de mapes %maplist%."
+; EN: Msg_AddedMapToList="Maps successfully added to maplist"
+Msg_AddedMapToList="Els mapes s'han afegit correctament a la llista de mapes"
+; EN: Msg_NoMapsRemoved="No maps were removed from the maplist %maplist%."
+Msg_NoMapsRemoved="No s'ha eliminat cap mapa de la llista de mapes %maplist%."
+; EN: Msg_RemovedFromList="Maps successfully removed from maplist"
+Msg_RemovedFromList="Els mapes s'han eliminat correctament de la llista de mapes"
+; EN: Msg_PlayerBanned="%Player% has been banned from this server"
+Msg_PlayerBanned="%Player% ha estat prohibit d'aquest servidor"
+; EN: Msg_SessionBanned="%Player% has been banned for this match"
+Msg_SessionBanned="%Player% ha estat expulsat per a aquest partit"
+; EN: Msg_PlayerKicked="%Player% has been kicked"
+Msg_PlayerKicked="%Player% ha estat expulsat"
+; EN: Msg_NextMapNotFound="Next map not found; Restarting same map"
+Msg_NextMapNotFound="No s'ha trobat el mapa següent; Reiniciant el mateix mapa"
+; EN: Msg_ChangingMapTo="Changing Map to %NextMap%"
+Msg_ChangingMapTo="Canviant el mapa a %NextMap%"
+; EN: Msg_NoMapInRotation="No maps configured for %maplist%."
+Msg_NoMapInRotation="No s'ha configurat cap mapa per a %maplist%."
+; EN: Msg_NoMapsFound="No matching maps in maplist %maplist% were found."
+Msg_NoMapsFound="No s'han trobat mapes coincidents a la llista de mapes %maplist%."
+; EN: Msg_MapIsInRotation="Matching %maplist% maps"
+Msg_MapIsInRotation="Mapes de %maplist% coincidents"
+; EN: Msg_MapNotInRotation="Matching maps which are not members of %maplist%."
+Msg_MapNotInRotation="Mapes coincidents que no són membres de %maplist%."
+; EN: Msg_UnknownParam="Unknown Parameter : %Value%"
+Msg_UnknownParam="Paràmetre desconegut: %Value%"
+; EN: Msg_NoParamsFound="No Parameters found!"
+Msg_NoParamsFound="No s'han trobat paràmetres!"
+; EN: Msg_ParamModified="Modification Successful"
+Msg_ParamModified="Modificació correcta"
+; EN: Msg_ParamNotModified="Could not Modify Parameter"
+Msg_ParamNotModified="No s'ha pogut modificar el paràmetre"
+; EN: Msg_MapListAdded="Maplist %listname% successfully added for gametype"
+Msg_MapListAdded="La llista de mapes %listname% s'ha afegit correctament per al tipus de joc"
+; EN: Msg_MapListRemoved="Maplist %listname% successfully removed from gametype"
+Msg_MapListRemoved="La llista de mapes %listname% s'ha eliminat correctament del tipus de joc"
+; EN: Msg_EditingMapList="Now editing maplist"
+Msg_EditingMapList="Ara s'està editant la llista de mapes"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo."
+PickupMessage="Vas agafar una mica de munició."
+
+[BroadcastHandler]
+; EN: BHDisplayText[0]="Mute Spectators"
+BHDisplayText[0]="Espectadors Muts"
+; EN: BHDisplayText[1]="Partition Spectators"
+BHDisplayText[1]="Partició d'espectadors"
+; EN: BHDescText[0]="Check this option to prevent spectators from chatting during the game."
+BHDescText[0]="Marqueu aquesta opció per evitar que els espectadors xerren durant el joc."
+; EN: BHDescText[1]="Check this option to separate spectator chat from player chat."
+BHDescText[1]="Marqueu aquesta opció per separar el xat d'espectadors del xat de jugadors."
+
+[Canvas]
+TinyFontName="UT2003Fonts.FontMono"
+SmallFontName="UT2003Fonts.FontMono"
+MedFontName="UT2003Fonts.FontMono800x600"
+
+[ChatRoomMessage]
+; EN: AnonText="Someone"
+AnonText="Algú"
+; EN: ChatRoomString[0]="Invalid channel or channel couldn't be found: '%title%'"
+ChatRoomString[0]="No s'ha pogut trobar un canal o canal no vàlid: '%title%'"
+; EN: ChatRoomString[1]="Already a member of channel '%title%'"
+ChatRoomString[1]="Ja sou membre del canal '%title%'"
+; EN: ChatRoomString[2]="Channel '%title%' requires a password!"
+ChatRoomString[2]="El canal '%title%' requereix una contrasenya!"
+; EN: ChatRoomString[3]="Incorrect password specified for channel '%title%'"
+ChatRoomString[3]="S'ha especificat una contrasenya incorrecta per al canal '%title%'"
+; EN: ChatRoomString[4]="You have been banned from channel '%title%'"
+ChatRoomString[4]="Has estat expulsat del canal '%title%'"
+; EN: ChatRoomString[5]="Couldn't join channel '%title%'.  Channel full!"
+ChatRoomString[5]="No s'ha pogut unir al canal '%title%'. Canal ple!"
+; EN: ChatRoomString[6]="You are not allowed to join channel '%title%'"
+ChatRoomString[6]="No tens permís per unir-te al canal '%title%'"
+; EN: ChatRoomString[7]="Successfully joined channel '%title%'"
+ChatRoomString[7]="S'ha unit correctament al canal '%title%'"
+; EN: ChatRoomString[8]="You left channel '%title%'"
+ChatRoomString[8]="Has sortit del canal '%title%'"
+; EN: ChatRoomString[9]="Now speaking on channel '%title%'"
+ChatRoomString[9]="Ara parlant al canal '%title%'"
+; EN: ChatRoomString[10]="No longer speaking on channel '%title%'"
+ChatRoomString[10]="Ja no es parla al canal '%title%'"
+; EN: ChatRoomString[11]="'%pri%' joined channel '%title%'"
+ChatRoomString[11]="'%pri%' s'ha unit al canal '%title%'"
+; EN: ChatRoomString[12]="'%pri%' left channel '%title%'"
+ChatRoomString[12]="'%pri%' del canal esquerre '%title%'"
+; EN: ChatRoomString[13]="Successfully banned '%pri%' from your personal chat channel"
+ChatRoomString[13]="S'ha prohibit correctament "%pri%" del teu canal de xat personal"
+; EN: ChatRoomString[14]="Voice-chat ban action not successful.  No player with the specified ID was found"
+ChatRoomString[14]="L'acció de prohibició del xat de veu no ha èxit. No s'ha trobat cap jugador amb l'identificador especificat"
+; EN: ChatRoomString[15]="Voice chat is not enabled on this server"
+ChatRoomString[15]="El xat de veu no està habilitat en aquest servidor"
+
+[Crushed]
+; EN: DeathString="%o was crushed by %k."
+DeathString="%o va ser aixafat per %k."
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="%o va ser aixafat."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="%o va ser aixafat."
+
+[DamRanOver]
+; EN: DeathString="%k ran over %o"
+DeathString="%k va superar %o"
+; EN: FemaleSuicide="%o ran over herself"
+FemaleSuicide="%o es va atropellar a si mateixa"
+; EN: MaleSuicide="%o ran over himself"
+MaleSuicide="%o es va atropellar a si mateix"
+
+[DamTypeTelefragged]
+; EN: DeathString="%o was telefragged by %k"
+DeathString="%o ha estat telefragmentat per %k"
+; EN: FemaleSuicide="%o was telefragged by %k"
+FemaleSuicide="%o ha estat telefragmentat per %k"
+; EN: MaleSuicide="%o was telefragged by %k"
+MaleSuicide="%o ha estat telefragmentat per %k"
+
+[DamageType]
+; EN: DeathString="%o was killed by %k."
+DeathString="%o va ser assassinat per %k."
+; EN: FemaleSuicide="%o killed herself."
+FemaleSuicide="%o es va suïcidar."
+; EN: MaleSuicide="%o killed himself."
+MaleSuicide="%o es va suïcidar."
+
+[FailedConnect]
+; EN: FailMessage[0]="FAILED TO JOIN GAME.  NEED PASSWORD."
+FailMessage[0]="NO S'ha pogut unir al joc. NECESSITA CONTRAsenya."
+; EN: FailMessage[1]="FAILED TO JOIN GAME.  WRONG PASSWORD."
+FailMessage[1]="NO S'ha pogut unir al joc. CONTRASENYA INCORRECTA."
+; EN: FailMessage[2]="FAILED TO JOIN GAME.  GAME HAS STARTED."
+FailMessage[2]="NO S'ha pogut unir al joc. EL JOC HA COMENÇAT."
+; EN: FailMessage[3]="FAILED TO JOIN GAME."
+FailMessage[3]="NO S'ha pogut unir al joc."
+
+[FellLava]
+; EN: DeathString="%k made %o take a deadly swim."
+DeathString="%k va fer que %o fes un bany mortal."
+; EN: FemaleSuicide="%o crashed and burned"
+FemaleSuicide="%o es va estavellar i es va cremar"
+; EN: MaleSuicide="%o crashed and burned"
+MaleSuicide="%o es va estavellar i es va cremar"
+
+[GameInfo]
+; EN: bAlternateMode=False
+bAlternateMode=Fals
+GoreLevelText[0]="No Gore"
+; EN: GoreLevelText[1]="Reduced Gore"
+GoreLevelText[1]="Gore reduït"
+GoreLevelText[2]="Full Gore"
+; EN: DefaultPlayerName="Player"
+DefaultPlayerName="Jugador"
+; EN: GameName="Game"
+GameName="Joc"
+; EN: GIPropsDisplayText[0]="Bot Skill"
+GIPropsDisplayText[0]="Habilitat de bot"
+; EN: GIPropsDisplayText[1]="Weapons Stay"
+GIPropsDisplayText[1]="Les armes romanen"
+; EN: GIPropsDisplayText[2]="Reduce Gore Level"
+GIPropsDisplayText[2]="Redueix el nivell de gore"
+; EN: GIPropsDisplayText[3]="Game Speed"
+GIPropsDisplayText[3]="Velocitat de joc"
+; EN: GIPropsDisplayText[4]="Max Spectators"
+GIPropsDisplayText[4]="Màxim Espectadors"
+; EN: GIPropsDisplayText[5]="Max Players"
+GIPropsDisplayText[5]="Màxim jugadors"
+; EN: GIPropsDisplayText[6]="Goal Score"
+GIPropsDisplayText[6]="Gol puntuació"
+; EN: GIPropsDisplayText[7]="Max Lives"
+GIPropsDisplayText[7]="Max Vides"
+; EN: GIPropsDisplayText[8]="Time Limit"
+GIPropsDisplayText[8]="Termini"
+; EN: GIPropsDisplayText[9]="World Stats Logging"
+GIPropsDisplayText[9]="Registre d'estadístiques mundials"
+; EN: GIPropsDisplayText[10]="Allow Weapon Throwing"
+GIPropsDisplayText[10]="Permetre el llançament d'armes"
+; EN: GIPropsDisplayText[11]="Allow Behind View"
+GIPropsDisplayText[11]="Permet la vista posterior"
+; EN: GIPropsDisplayText[12]="Allow Admin Pausing"
+GIPropsDisplayText[12]="Permet la pausa de l'administrador"
+GIPropsDisplayText[13]="Kick Idlers Time"
+; EN: GIPropsDisplayText[14]="Weapons shake view"
+GIPropsDisplayText[14]="Les armes sacsegen la vista"
+; EN: GIPropDescText[0]="Set the skill of your bot opponents."
+GIPropDescText[0]="Estableix l'habilitat dels teus oponents del bot."
+; EN: GIPropDescText[1]="When enabled, weapons will always be available for pickup."
+GIPropDescText[1]="Quan estigui activat, les armes sempre estaran disponibles per a la seva recollida."
+; EN: GIPropDescText[2]="Enable this option to reduce the amount of blood and guts you see."
+GIPropDescText[2]="Activeu aquesta opció per reduir la quantitat de sang i tripes que veieu."
+; EN: GIPropDescText[3]="Controls how fast time passes in the game."
+GIPropDescText[3]="Controla la rapidesa amb què passa el temps al joc."
+; EN: GIPropDescText[4]="Sets the maximum number of spectators that can watch the game."
+GIPropDescText[4]="Estableix el nombre màxim d'espectadors que poden veure el partit."
+; EN: GIPropDescText[5]="Sets the maximum number of players that can join this server."
+GIPropDescText[5]="Estableix el nombre màxim de jugadors que poden unir-se a aquest servidor."
+; EN: GIPropDescText[6]="The game ends when someone reaches this score."
+GIPropDescText[6]="El joc acaba quan algú arriba a aquesta puntuació."
+; EN: GIPropDescText[7]="Limits how many times players can respawn after dying."
+GIPropDescText[7]="Limita quantes vegades els jugadors poden reaparecer després de morir."
+; EN: GIPropDescText[8]="The game ends after this many minutes of play."
+GIPropDescText[8]="El partit acaba després de tants minuts de joc."
+; EN: GIPropDescText[9]="Enable this option to send game statistics to the UT2004 global stats server"
+GIPropDescText[9]="Activa aquesta opció per enviar estadístiques de joc al servidor d'estadístiques globals UT2004"
+; EN: GIPropDescText[10]="When enabled, players can throw their current weapon out."
+GIPropDescText[10]="Quan està activat, els jugadors poden llançar la seva arma actual."
+; EN: GIPropDescText[11]="Controls whether players can switch to a third person view."
+GIPropDescText[11]="Controla si els jugadors poden canviar a una vista en tercera persona."
+; EN: GIPropDescText[12]="Controls whether administrators can pause the game."
+GIPropDescText[12]="Controla si els administradors poden aturar el joc."
+; EN: GIPropDescText[13]="Specifies how long to wait before kicking idle player from server."
+GIPropDescText[13]="Especifica quant de temps s'ha d'esperar abans de treure el jugador inactiu del servidor."
+; EN: GIPropDescText[14]="When enabled, some weapons cause view shaking while firing."
+GIPropDescText[14]="Quan s'activen, algunes armes provoquen un tremolor de la vista mentre es disparen."
+; EN: GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
+GIPropsExtras[0]="0,000000;Novice;1,000000;Mitjana;2,000000;Experimentat;3,000000;Hàbil;4,000000;Adept;5,000000;Magistral;6,000000;Inhumà;7,000;"
+; EN: NoBindString="[None]"
+NoBindString="[Cap]"
+
+[GameMessage]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="Canvi de nivells"
+; EN: LeftMessage=" left the game."
+LeftMessage=" va deixar el joc."
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="No s'ha pogut trobar l'equip per al jugador"
+; EN: FailedPlaceMessage="Could not find a starting spot"
+FailedPlaceMessage="No s'ha pogut trobar un punt de partida"
+; EN: FailedSpawnMessage="Could not spawn player"
+FailedSpawnMessage="No s'ha pogut generar el jugador"
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" va entrar al joc."
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="El servidor ja està al màxim."
+; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
+OvertimeMessage="Puntuació empatada al final del reglament. Hora extraordinària de la mort sobtada!!!"
+; EN: GlobalNameChange="changed name to"
+GlobalNameChange="canviat de nom a"
+; EN: NewTeamMessage="is now on"
+NewTeamMessage="ara està en marxa"
+; EN: NoNameChange="Name is already in use."
+NoNameChange="El nom ja està en ús."
+; EN: VoteStarted="started a vote."
+VoteStarted="va iniciar una votació."
+; EN: VotePassed="Vote passed."
+VotePassed="Votació aprovada."
+; EN: MustHaveStats="Must have stats enabled to join this server."
+MustHaveStats="Ha de tenir les estadístiques habilitades per unir-se a aquest servidor."
+; EN: CantBeSpectator="Sorry, you cannot become a spectator at this time."
+CantBeSpectator="Ho sento, no pots convertir-te en espectador en aquest moment."
+; EN: CantBePlayer="Sorry, you cannot become an active player at this time."
+CantBePlayer="Ho sentim, no pots convertir-te en un jugador actiu en aquest moment."
+; EN: BecameSpectator="became a spectator."
+BecameSpectator="es va convertir en espectador."
+; EN: NewPlayerMessage="A new player entered the game."
+NewPlayerMessage="Un nou jugador va entrar al joc."
+; EN: KickWarning="You are about to be kicked for idling!"
+KickWarning="Estàs a punt de ser expulsat pel ralentí!"
+; EN: NewSpecMessage="A spectator entered the game/"
+NewSpecMessage="Un espectador va entrar al joc/"
+; EN: SpecEnteredMessage=" joined as a spectator."
+SpecEnteredMessage=" unir-se com a espectador."
+
+[GameProfile]
+; EN: PositionName[0]="AUTO-ASSIGN"
+PositionName[0]="AUTO-ASSIGNACIÓ"
+; EN: PositionName[1]="DEFENSE"
+PositionName[1]="DEFENSA"
+; EN: PositionName[2]="OFFENSE"
+PositionName[2]="OFENSA"
+PositionName[3]="ROAM"
+; EN: PositionName[4]="SUPPORT"
+PositionName[4]="SUPORT"
+
+[GameReplicationInfo]
+; EN: GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[0]="Nom del servidor"
+; EN: GRIPropsDisplayText[1]="Admin Name"
+GRIPropsDisplayText[1]="Nom de l'administrador"
+; EN: GRIPropsDisplayText[2]="Admin E-Mail"
+GRIPropsDisplayText[2]="Correu electrònic de l'administrador"
+GRIPropsDisplayText[3]="MOTD"
+; EN: GRIPropDescText[0]="Server name shown on server browser."
+GRIPropDescText[0]="El nom del servidor es mostra al navegador del servidor."
+; EN: GRIPropDescText[1]="Server administrator's name"
+GRIPropDescText[1]="Nom de l'administrador del servidor"
+; EN: GRIPropDescText[2]="Server administrator's email address."
+GRIPropDescText[2]="Adreça de correu electrònic de l'administrador del servidor."
+; EN: GRIPropDescText[3]="Message of the Day"
+GRIPropDescText[3]="Missatge del dia"
+
+[Gibbed]
+; EN: DeathString="%o exploded in a shower of body parts"
+DeathString="%o va explotar en una pluja de parts del cos"
+; EN: FemaleSuicide="%o exploded in a shower of body parts"
+FemaleSuicide="%o va explotar en una pluja de parts del cos"
+; EN: MaleSuicide="%o exploded in a shower of body parts"
+MaleSuicide="%o va explotar en una pluja de parts del cos"
+
+[HUD]
+ProgressFontName="UT2003Fonts.FontEurostile12"
+FontArrayNames[0]="Engine.DefaultFont"
+FontArrayNames[1]="Engine.DefaultFont"
+FontArrayNames[2]="Engine.DefaultFont"
+FontArrayNames[3]="Engine.DefaultFont"
+FontArrayNames[4]="Engine.DefaultFont"
+FontArrayNames[5]="Engine.DefaultFont"
+FontArrayNames[6]="Engine.DefaultFont"
+FontArrayNames[7]="Engine.DefaultFont"
+FontArrayNames[8]="Engine.DefaultFont"
+
+[Info]
+; EN: RulesGroup="Rules"
+RulesGroup="Normes"
+; EN: GameGroup="Game"
+GameGroup="Joc"
+; EN: ServerGroup="Server"
+ServerGroup="Servidor"
+; EN: ChatGroup="Chat"
+ChatGroup="Xatejar"
+BotsGroup="Bots"
+; EN: MapVoteGroup="Map Voting"
+MapVoteGroup="Votació al mapa"
+KickVoteGroup="Kick Voting"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Sense títol"
+
+[MaplistManager]
+; EN: DefaultListName="Default"
+DefaultListName="Per defecte"
+; EN: InvalidGameType="could not be loaded.  Normally, this means an .u file has been deleted, but the .int file has not."
+InvalidGameType="no s'ha pogut carregar. Normalment, això significa que s'ha suprimit un fitxer .u, però el fitxer .int no."
+; EN: ReallyInvalidGameType="The requested gametype '%gametype%' could not be loaded."
+ReallyInvalidGameType="No s'ha pogut carregar el tipus de joc sol·licitat '%gametype%'."
+; EN: DefaultListExists="Gametype already has a default list!"
+DefaultListExists="Gametype ja té una llista predeterminada!"
+
+[MatSubAction]
+Desc="N/A"
+
+[Pickup]
+; EN: PickupMessage="Snagged an item."
+PickupMessage="S'ha enganxat un element."
+
+[PlayerController]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Estalvi ràpid"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="El joc no es pot aturar"
+; EN: ViewingFrom="Now viewing from"
+ViewingFrom="Ara mirant des de"
+; EN: OwnCamera="Now viewing from own camera"
+OwnCamera="Ara es veu des de la pròpia càmera"
+
+[PlayerReplicationInfo]
+; EN: StringDead="Dead"
+StringDead="Mort"
+; EN: StringSpectating="Spectating"
+StringSpectating="Espectant"
+; EN: StringUnknown="Unknown"
+StringUnknown="Desconegut"
+
+[StreamPlaylistManager]
+; EN: DefaultPlaylistName="New Playlist"
+DefaultPlaylistName="Nova llista de reproducció"
+
+[SubActionCameraEffect]
+; EN: Desc="Camera effect"
+Desc="Efecte de càmera"
+
+[SubActionCameraShake]
+; EN: Desc="Shake"
+Desc="Sacsejar"
+
+[SubActionFOV]
+Desc="FOV"
+
+[SubActionFade]
+; EN: Desc="Fade"
+Desc="Esvair"
+
+[SubActionGameSpeed]
+; EN: Desc="Game Speed"
+Desc="Velocitat de joc"
+
+[SubActionOrientation]
+; EN: Desc="Orientation"
+Desc="Orientació"
+
+[SubActionSceneSpeed]
+; EN: Desc="Scene Speed"
+Desc="Velocitat de l'escena"
+
+[SubActionSubTitle]
+; EN: Desc="SubTitle"
+Desc="Subtítol"
+
+[SubActionTrigger]
+; EN: Desc="Trigger"
+Desc="Disparador"
+
+[Suicided]
+; EN: DeathString="%o had an aneurysm."
+DeathString="%o tenia un aneurisma."
+; EN: FemaleSuicide="%o had an aneurysm."
+FemaleSuicide="%o tenia un aneurisma."
+; EN: MaleSuicide="%o had an aneurysm."
+MaleSuicide="%o tenia un aneurisma."
+
+[TeamInfo]
+; EN: TeamName="Team"
+TeamName="Equip"
+; EN: ColorNames[0]="Red"
+ColorNames[0]="Vermell"
+; EN: ColorNames[1]="Blue"
+ColorNames[1]="Blau"
+; EN: ColorNames[2]="Green"
+ColorNames[2]="verd"
+; EN: ColorNames[3]="Gold"
+ColorNames[3]="Or"
+
+[Vehicle]
+; EN: VehiclePositionString="in a vehicle"
+VehiclePositionString="en un vehicle"
+VehicleNameString="Vehicle"
+
+[VoiceChatReplicationInfo]
+PublicChannelNames=("Public","Local")
+; EN: VCDisplayText[0]="Enable Voice Chat"
+VCDisplayText[0]="Activa el xat de veu"
+; EN: VCDisplayText[1]="Enable local Channel"
+VCDisplayText[1]="Activa el canal local"
+; EN: VCDisplayText[2]="Local Chat Range"
+VCDisplayText[2]="Interval de xat local"
+; EN: VCDisplayText[3]="Local Chat Radius"
+VCDisplayText[3]="Radi de xat local"
+; EN: VCDisplayText[4]="Allowed VoIP Codecs"
+VCDisplayText[4]="Còdecs VoIP permesos"
+; EN: VCDisplayText[5]="Allowed VoIP LAN Codecs"
+VCDisplayText[5]="Còdecs LAN VoIP permesos"
+; EN: VCDescText[0]="Enable voice chat on the server."
+VCDescText[0]="Activa el xat de veu al servidor."
+; EN: VCDescText[1]="Determines whether the "local" voice chat channel is created, which allows players to broadcast voice transmissions to all players in the immediate vicinity."
+VCDescText[1]="Determina si es crea el canal de xat de veu "local", que permet als jugadors transmetre transmissions de veu a tots els jugadors dels voltants."
+; EN: VCDescText[2]="Maximum distance at which a broadcast on the local channel may be heard"
+VCDescText[2]="Distància màxima a la qual es pot escoltar una emissió al canal local"
+; EN: VCDescText[3]="Distance at which local broadcasts begin to fade"
+VCDescText[3]="Distància a la qual les emissions locals comencen a esvair-se"
+; EN: VCDescText[4]="Configure which codecs exist on the server and should be used in Internet games."
+VCDescText[4]="Configureu quins còdecs existeixen al servidor i s'han d'utilitzar en jocs d'Internet."
+; EN: VCDescText[5]="Configure which codecs exist on the server and should be used in LAN games."
+VCDescText[5]="Configureu quins còdecs existeixen al servidor i s'han d'utilitzar en jocs de LAN."
+; EN: InstalledCodec=((CodecName="Less Bandwidth",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Better Quality",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+InstalledCodec=((CodecName="Menys ample de banda",CodecDescription="(4.8kbps) - Uses less bandwidth, but sound is not as clear."),(CodecName="Millor Qualitat",CodecDescription="(9.6kbps) - Uses more bandwidth, but sound is much clearer."))
+
+[Volume]
+; EN: LocationName="unspecified"
+LocationName="sense especificar"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo"
+MessageNoAmmo=" no té munició"
+
+[WeaponPickup]
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Tens una arma"
+
+[XBoxPlayerInput]
+; EN: LookPresets[0].PresetName="Linear"
+LookPresets[0].PresetName="Lineal"
+; EN: LookPresets[1].PresetName="Exponential"
+LookPresets[1].PresetName="Exponencial"
+; EN: LookPresets[2].PresetName="Hybrid"
+LookPresets[2].PresetName="Híbrid"
+; EN: LookPresets[3].PresetName="Custom"
+LookPresets[3].PresetName="Personalitzat"
+
+[fell]
+; EN: DeathString="%k pushed %o over the edge."
+DeathString="%k va empènyer %o per sobre de la vora."
+; EN: FemaleSuicide="%o left a small crater"
+FemaleSuicide="%o va deixar un petit cràter"
+; EN: MaleSuicide="%o left a small crater"
+MaleSuicide="%o va deixar un petit cràter"
+

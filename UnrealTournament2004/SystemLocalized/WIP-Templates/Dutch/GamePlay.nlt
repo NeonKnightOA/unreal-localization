@@ -1,0 +1,439 @@
+[ACTION_DamageActor]
+; EN: ActionString="Damage actor"
+ActionString="Schade acteur"
+
+[ACTION_DestroyActor]
+; EN: ActionString="Destroy actor"
+ActionString="Vernietig acteur"
+
+[ACTION_FinishRotation]
+; EN: ActionString="Finish rotation"
+ActionString="Rotatie beëindigen"
+
+[ACTION_FireWeapon]
+; EN: ActionString="fire weapon"
+ActionString="vuurwapen"
+
+[ACTION_FireWeaponAt]
+; EN: ActionString="fire weapon"
+ActionString="vuurwapen"
+
+[ACTION_Freeze]
+; EN: ActionString="Freeze"
+ActionString="Bevriezen"
+
+[ACTION_HealActor]
+; EN: ActionString="Heal actor"
+ActionString="Genezen acteur"
+
+[ACTION_Jump]
+; EN: ActionString="Jump"
+ActionString="Springen"
+
+[ACTION_LocalizedMessage]
+; EN: ActionString="Localized Message"
+ActionString="Gelokaliseerd bericht"
+
+[ACTION_PlayLIPSinc]
+; EN: ActionString="Play LIPSinc"
+ActionString="Speel LIPSinc"
+
+[ACTION_SetPhysics]
+; EN: ActionString="change physics to "
+ActionString="verander natuurkunde in "
+
+[ACTION_ShootTarget]
+; EN: ActionString="shoot target"
+ActionString="schiet doel"
+
+[ACTION_SpawnActor]
+; EN: ActionString="Spawn actor"
+ActionString="Spawn acteur"
+
+[ACTION_SubTitles]
+; EN: ActionString="SubTitles"
+ActionString="Ondertitels"
+
+[ACTION_ThrowWeapon]
+; EN: ActionString="throw weapon"
+ActionString="wapen gooien"
+
+[ACTION_WaitForLIPSincAnimEnd]
+; EN: ActionString="Wait for LIPSincAnimEnd"
+ActionString="Wacht op LIPSincAnimEnd"
+
+[ActionMessage_BR]
+; EN: Messages[0]="Bombing Run"
+Messages[0]="Bombardement"
+; EN: Messages[1]="The ball is in the center"
+Messages[1]="De bal ligt in het midden"
+; EN: Messages[2]="Touch the ball to pick it up"
+Messages[2]="Raak de bal aan om hem op te rapen"
+; EN: Messages[3]="The ball carrier cannot attack"
+Messages[3]="De baldrager kan niet aanvallen"
+; EN: Messages[4]="Primary fire shoots ball"
+Messages[4]="Primair vuur schiet bal"
+; EN: Messages[5]="Alternate fire targets teammates"
+Messages[5]="Alternatieve vuurdoelen teamgenoten"
+; EN: Messages[6]="Pass the ball to teammates"
+Messages[6]="De bal doorgeven aan teamgenoten"
+; EN: Messages[7]="Each team has a round goal"
+Messages[7]="Elk team heeft een rond doel"
+; EN: Messages[8]="Throwing the ball = 3 points"
+Messages[8]="De bal gooien = 3 punten"
+; EN: Messages[9]="Carrying it = 7 points"
+Messages[9]="Dragen = 7 punten"
+; EN: Messages[10]="Good luck!"
+Messages[10]="Veel geluk!"
+
+[ActionMessage_CTF]
+; EN: Messages[0]="Capture the Flag"
+Messages[0]="Verover de vlag"
+; EN: Messages[1]="Two bases : red and blue"
+Messages[1]="Twee basen: rood en blauw"
+; EN: Messages[2]="Touch enemy flag to take it"
+Messages[2]="Raak de vijandelijke vlag aan om deze te pakken"
+; EN: Messages[3]="Return to your base"
+Messages[3]="Keer terug naar je basis"
+; EN: Messages[4]="Touch your flag to score"
+Messages[4]="Raak je vlag aan om te scoren"
+; EN: Messages[5]="Translocating will drop the flag"
+Messages[5]="Bij translocatie valt de vlag weg"
+; EN: Messages[6]="Default capture limit is 3"
+Messages[6]="Standaard opnamelimiet is 3"
+; EN: Messages[7]="Good luck!"
+Messages[7]="Veel geluk!"
+
+[ActionMessage_DM]
+Messages[0]="Deathmatch"
+; EN: Messages[1]="Press fire to spawn"
+Messages[1]="Druk op vuur om te spawnen"
+; EN: Messages[2]="Weapons have two firing modes"
+Messages[2]="Wapens hebben twee schietstanden"
+; EN: Messages[3]="Regular and alternate fire"
+Messages[3]="Regelmatig en afwisselend vuur"
+; EN: Messages[4]="Assault Rifle"
+Messages[4]="Aanvalsgeweer"
+; EN: Messages[5]="Fires bullets and grenades"
+Messages[5]="Vuurt kogels en granaten af"
+; EN: Messages[6]="Shield Gun"
+Messages[6]="schild pistool"
+; EN: Messages[7]="Melee attack"
+Messages[7]="Melee-aanval"
+; EN: Messages[8]="Protective Shield"
+Messages[8]="Beschermend schild"
+; EN: Messages[9]="Explore to find other weapons"
+Messages[9]="Verkennen om andere wapens te vinden"
+; EN: Messages[10]="Flak Cannon"
+Messages[10]="Flak kanon"
+; EN: Messages[11]="Bio-Rifle"
+Messages[11]="Bio-geweer"
+Messages[12]="Minigun"
+; EN: Messages[13]="Movement"
+Messages[13]="Beweging"
+; EN: Messages[14]="WASD = Default movement keys"
+Messages[14]="WASD = Standaard bewegingstoetsen"
+; EN: Messages[15]="Double tap a key to dodge"
+Messages[15]="Dubbeltik op een toets om te ontwijken"
+; EN: Messages[16]="Jumping"
+Messages[16]="Springen"
+; EN: Messages[17]="Double jump"
+Messages[17]="Dubbele sprong"
+; EN: Messages[18]="Powerups"
+Messages[18]="Power-ups"
+; EN: Messages[19]="Health vials"
+Messages[19]="Gezondheid flesjes"
+; EN: Messages[20]="Health pack"
+Messages[20]="Gezondheidspakket"
+Messages[21]="Big Keg O' Health"
+; EN: Messages[22]="Armor"
+Messages[22]="Schild"
+; EN: Messages[23]="Shield Pack"
+Messages[23]="Schildpakket"
+; EN: Messages[24]="Super Shield Pack"
+Messages[24]="Super Shield-pakket"
+Messages[25]="Adrenaline"
+; EN: Messages[26]="Adrenaline can be used for combos"
+Messages[26]="Adrenaline kan worden gebruikt voor combo's"
+; EN: Messages[27]="Damage Amplifier"
+Messages[27]="Schade versterker"
+; EN: Messages[28]="Reach the frag limit first!"
+Messages[28]="Bereik eerst de frag-limiet!"
+; EN: Messages[29]="Suicides count against you"
+Messages[29]="Zelfdodingen tellen tegen je"
+; EN: Messages[30]="Good luck!"
+Messages[30]="Veel geluk!"
+
+[ActionMessage_DOM]
+; EN: Messages[0]="Double Domination"
+Messages[0]="Dubbele overheersing"
+; EN: Messages[1]="Control points : A & B"
+Messages[1]="Controlepunten: A &amp; B"
+; EN: Messages[2]="Hold points for 10 seconds"
+Messages[2]="Houd punten 10 seconden vast"
+; EN: Messages[3]="Touch point to take control"
+Messages[3]="Aanraakpunt om de controle over te nemen"
+; EN: Messages[4]="Good luck!"
+Messages[4]="Veel geluk!"
+
+[ActionMessage_SubTitle]
+Delays[0]=4.000000
+Delays[1]=4.000000
+Delays[2]=8.000000
+Delays[3]=8.000000
+Delays[4]=8.000000
+Delays[5]=8.000000
+Delays[6]=8.000000
+Delays[7]=8.000000
+Delays[8]=8.000000
+Delays[9]=8.000000
+Delays[10]=8.000000
+Delays[11]=8.000000
+Delays[12]=8.000000
+Delays[13]=8.000000
+Delays[14]=8.000000
+Delays[15]=8.000000
+Delays[16]=8.000000
+Delays[17]=8.000000
+Delays[18]=8.000000
+Delays[19]=8.000000
+Delays[20]=8.000000
+Delays[21]=8.000000
+Delays[22]=0.000000
+Delays[23]=0.000000
+Delays[24]=0.000000
+Delays[25]=0.000000
+Delays[26]=0.000000
+Delays[27]=0.000000
+Delays[28]=0.000000
+Delays[29]=0.000000
+Delays[30]=0.000000
+Delays[31]=0.000000
+; EN: Messages[0]="How do I look?"
+Messages[0]="Hoe zie ik eruit?"
+; EN: Messages[1]="Not as good as me baby..."
+Messages[1]="Niet zo goed als ik schat..."
+; EN: Messages[2]="Well fans here we are for another edition of the bloodiest sport in the Galaxy. A tournament where the winners become gods and the losers pay the ultimate price!"
+Messages[2]="Nou, fans hier zijn we voor een nieuwe editie van de bloedigste sport in de Galaxy. Een toernooi waar de winnaars goden worden en de verliezers de ultieme prijs betalen!"
+; EN: Messages[3]="THERE THEY ARE! Once they were rivals, but now they're one of the fiercest teams around."
+Messages[3]="DAAR ZIJN ZE! Ooit waren ze rivalen, maar nu zijn ze een van de felste teams die er zijn."
+; EN: Messages[4]="That's right. Nothing beats experience and each one of these three brings loads of it to the table."
+Messages[4]="Klopt. Er gaat niets boven ervaring en elk van deze drie brengt er heel wat van op tafel."
+; EN: Messages[5]="Look at Malcolm! Now there's a guy who can really keep his cool in a fire-fight."
+Messages[5]="Kijk naar Malcolm! Nu is er een man die zijn hoofd koel kan houden in een vuurgevecht."
+; EN: Messages[6]="That Brock. He's as dangerous to the ladies OUT-side the ring as he is to his foes IN-side!"
+Messages[6]="Die Brok. Hij is net zo gevaarlijk voor de dames BUITEN de ring als voor zijn vijanden BINNEN!"
+; EN: Messages[7]="I love watching Lauren. She's such a little....bundle of energy."
+Messages[7]="Ik kijk graag naar Laurens. Ze is zo'n kleine... bundel energie."
+; EN: Messages[8]="Yeah right.....you like watching Lauren for her energy."
+Messages[8]="Ja klopt... je kijkt graag naar Lauren voor haar energie."
+; EN: Messages[9]="This time he's MINE!!"
+Messages[9]="Deze keer is hij van MIJ!!"
+; EN: Messages[10]="AAGGGHHHHRRRR"
+Messages[10]="AAGGGHHHRRRR"
+; EN: Messages[11]="You d'man Gorge! You rock! Yeah baby, com'on, now, you d'man dude!"
+Messages[11]="Jij d'man Gorge! Jij rockt! Ja schat, kom op, nu, jij d'man kerel!"
+Messages[12]="MAAAALLLCOOOOOMMM!"
+; EN: Messages[13]="Oh, man, did you see that?"
+Messages[13]="Oh man, heb je dat gezien?"
+; EN: Messages[14]="I tell you Jim, that Gorge, he just has no respect for his fans."
+Messages[14]="Ik zeg je Jim, die Gorge, hij heeft gewoon geen respect voor zijn fans."
+; EN: Messages[15]="Well, I think he is still pissed about that new scar on his face, courtesy of Malcolm in their last match."
+Messages[15]="Nou, ik denk dat hij nog steeds boos is over dat nieuwe litteken op zijn gezicht, met dank aan Malcolm in hun laatste wedstrijd."
+; EN: Messages[16]="Yea, I think he is looking for a little PAYBACK."
+Messages[16]="Ja, ik denk dat hij op zoek is naar een beetje PAYBACK."
+; EN: Messages[17]="Yep, it should be a good one tonight."
+Messages[17]="Ja, vanavond moet het goed zijn."
+; EN: Messages[18]="Since Malcolm's team are the reigning champs, they get to choose tonight's arena."
+Messages[18]="Aangezien het team van Malcolm de regerend kampioen is, mogen ze de arena van vanavond kiezen."
+; EN: Messages[19]="Looks like it's gonna be... Kalendra Icefields."
+Messages[19]="Het lijkt erop dat het... Kalendra Icefields wordt."
+; EN: Messages[20]="Awww Yeah, I love this arena, Malcolm does really well here."
+Messages[20]="Awww Ja, ik hou van deze arena, Malcolm doet het hier heel goed."
+; EN: Messages[21]="Tonight's match oughta be a real blood-bath."
+Messages[21]="De wedstrijd van vanavond zou een echt bloedbad moeten zijn."
+
+[Action_CHANGELEVEL]
+; EN: ActionString="Change level"
+ActionString="Niveau wijzigen"
+
+[Action_CHANGESCRIPT]
+; EN: ActionString="Change script"
+ActionString="Script wijzigen"
+
+[Action_CHANGETEAM]
+; EN: ActionString="Change Team"
+ActionString="Van Team wisselen"
+
+[Action_CROUCH]
+; EN: ActionString="crouch"
+ActionString="hurken"
+
+[Action_ConsoleCommand]
+; EN: ActionString="console command"
+ActionString="console commando"
+
+[Action_DAMAGEINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Schade aanstichter"
+
+[Action_DESTROYPAWN]
+; EN: ActionString="destroy pawn"
+ActionString="pion vernietigen"
+
+[Action_DISPLAYMESSAGE]
+; EN: ActionString="display message"
+ActionString="bericht weergeven:"
+
+[Action_DrawHUDMaterial]
+; EN: ActionString="draw HUD texture"
+ActionString="teken HUD-textuur"
+
+[Action_ENDSECTION]
+; EN: ActionString="end section"
+ActionString="eindsectie"
+
+[Action_FADEVIEW]
+; EN: ActionString="fade view"
+ActionString="weergave vervagen"
+
+[Action_GOTOACTION]
+; EN: ActionString="go to action"
+ActionString="ga tot actie"
+
+[Action_IFCONDITION]
+; EN: ActionString="If condition"
+ActionString="Als voorwaarde:"
+
+[Action_KILLINSTIGATOR]
+; EN: ActionString="Damage instigator"
+ActionString="Schade aanstichter"
+
+[Action_LEAVESEQUENCE]
+; EN: ActionString="leave sequence"
+ActionString="volgorde verlaten"
+
+[Action_MOVETOPLAYER]
+; EN: ActionString="Move to player"
+ActionString="Verplaatsen naar speler"
+
+[Action_MOVETOPOINT]
+; EN: ActionString="Move to point"
+ActionString="Verplaatsen naar punt"
+
+[Action_PLAYAMBIENTSOUND]
+; EN: ActionString="play ambient sound"
+ActionString="speel omgevingsgeluid af"
+
+[Action_PLAYANIM]
+; EN: ActionString="play animation"
+ActionString="animatie spelen"
+
+[Action_PLAYANNOUNCEMENT]
+; EN: ActionString="play announcement"
+ActionString="aankondiging afspelen"
+
+[Action_PLAYLOCALSOUND]
+; EN: ActionString="play sound"
+ActionString="geluid afspelen"
+
+[Action_PLAYMUSIC]
+; EN: ActionString="play song"
+ActionString="speel liedje"
+
+[Action_PLAYSOUND]
+; EN: ActionString="play sound"
+ActionString="geluid afspelen"
+
+[Action_RUN]
+; EN: ActionString="Run"
+ActionString="Loop"
+
+[Action_SETALERTNESS]
+; EN: ActionString="set alertness"
+ActionString="alertheid instellen"
+
+[Action_SETVIEWTARGET]
+; EN: ActionString="set viewtarget"
+ActionString="weergavedoel instellen"
+
+[Action_STOPANIMATION]
+; EN: ActionString="stop animation"
+ActionString="stop animatie"
+
+[Action_TRIGGEREVENT]
+; EN: ActionString="trigger event"
+ActionString="triggergebeurtenis"
+
+[Action_TURNTOWARDPLAYER]
+; EN: ActionString="Turn toward player"
+ActionString="Draai naar speler"
+
+[Action_WAITFORANIMEND]
+; EN: ActionString="Wait for animend"
+ActionString="Wacht op animend"
+
+[Action_WAITFOREVENT]
+; EN: ActionString="Wait for external event"
+ActionString="Wacht op externe gebeurtenis"
+
+[Action_WAITFORPLAYER]
+; EN: ActionString="Wait for player"
+ActionString="Wacht op speler"
+
+[Action_WAITFORTIMER]
+; EN: ActionString="Wait for timer"
+ActionString="Wacht op timer"
+
+[Action_WALK]
+; EN: ActionString="walk"
+ActionString="wandelen"
+
+[Burned]
+; EN: DeathString="%o was sauteed."
+DeathString="%o is gebakken."
+
+[Corroded]
+; EN: DeathString="%o was dissolved by %k's."
+DeathString="%o is opgelost door %k's."
+; EN: FemaleSuicide="%o dissolved in slime."
+FemaleSuicide="%o opgelost in slijm."
+; EN: MaleSuicide="%o dissolved in slime."
+MaleSuicide="%o opgelost in slijm."
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Nog maar %i te gaan..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Voltooid!"
+
+[Depressurized]
+; EN: DeathString="%o was depressurized by %k."
+DeathString="%o werd met %k drukloos gemaakt."
+; EN: FemaleSuicide="%o was depressurized."
+FemaleSuicide="%o was drukloos."
+; EN: MaleSuicide="%o was depressurized."
+MaleSuicide="%o was drukloos."
+
+[Drowned]
+; EN: DeathString="%o forgot to come up for air."
+DeathString="%o is vergeten naar boven te komen voor lucht."
+; EN: FemaleSuicide="%o forgot to come up for air."
+FemaleSuicide="%o is vergeten naar boven te komen voor lucht."
+; EN: MaleSuicide="%o forgot to come up for air."
+MaleSuicide="%o is vergeten naar boven te komen voor lucht."
+
+[MessageTextureClient]
+; EN: HisMessage="his"
+HisMessage="zijn"
+; EN: HerMessage="her"
+HerMessage="haar"
+
+[ScriptedAction]
+; EN: ActionString="unspecified action"
+ActionString="niet-gespecificeerde actie"
+
+[WaterVolume]
+; EN: LocationName="under water"
+LocationName="onder water"
+

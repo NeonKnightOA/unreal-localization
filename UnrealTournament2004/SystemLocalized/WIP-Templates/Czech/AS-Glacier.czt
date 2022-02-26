@@ -1,0 +1,328 @@
+[DestroyableObjective1]
+; EN: ObjectiveName="Secondary Dam Controls"
+ObjectiveName="Řízení sekundární přehrady"
+; EN: DestructionMessage="Secondary Dam Shutdown"
+DestructionMessage="Odstavení sekundární přehrady"
+; EN: ObjectiveDescription="Destroy the dam controls"
+ObjectiveDescription="Zničte ovládání přehrady"
+; EN: Objective_Info_Attacker="Shutdown Secondary Dam"
+Objective_Info_Attacker="Odstavení sekundární přehrady"
+; EN: Objective_Info_Defender="Defend Secondary Dam"
+Objective_Info_Defender="Bránit sekundární přehradu"
+
+[DestroyableObjective5]
+; EN: ObjectiveName="Primary Dam Controls"
+ObjectiveName="Primární ovládání přehrady"
+; EN: DestructionMessage="Primary Dam Shutdown"
+DestructionMessage="Odstavení primární přehrady"
+; EN: ObjectiveDescription="Destroy the dam controls"
+ObjectiveDescription="Zničte ovládání přehrady"
+; EN: Objective_Info_Attacker="Shutdown Primary Dam"
+Objective_Info_Attacker="Odstavení primární přehrady"
+; EN: Objective_Info_Defender="Defend Primary Dam"
+Objective_Info_Defender="Bránit Primární přehradu"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Depot Door"
+ObjectiveName="Dveře skladu"
+; EN: DestructionMessage="Depot Door Destroyed"
+DestructionMessage="Dveře skladu zničeny"
+; EN: ObjectiveDescription="Destroy the depot doors blocking your path  "
+ObjectiveDescription="Zničte dveře depa blokující vaši cestu  "
+; EN: Objective_Info_Attacker="Destroy the Depot Door"
+Objective_Info_Attacker="Zničte dveře skladu"
+; EN: Objective_Info_Defender="Defend the Depot Door"
+Objective_Info_Defender="Braňte dveře skladiště"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Blast Door"
+ObjectiveName="Výbušné dveře"
+DestructionMessage="Blast Door Breached!"
+; EN: ObjectiveDescription="Destroy blast door blocking the base exit"
+ObjectiveDescription="Zničte výbuchové dveře blokující východ ze základny"
+; EN: Objective_Info_Attacker="Destroy the Blast Door"
+Objective_Info_Attacker="Zničte Blast Door"
+Objective_Info_Defender="Defend the Blast Door"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Access Tunnel Doors"
+ObjectiveName="Přístupové dveře tunelu"
+; EN: DestructionMessage="Access Tunnel Doors Destroyed"
+DestructionMessage="Dveře přístupového tunelu zničeny"
+; EN: ObjectiveDescription="Use the ion tank to destroy the power station access doors"
+ObjectiveDescription="Pomocí iontové nádrže zničte přístupové dveře elektrárny"
+; EN: Objective_Info_Attacker="Destroy Access Doors"
+Objective_Info_Attacker="Zničte přístupové dveře"
+; EN: Objective_Info_Defender="Protect Access Doors"
+Objective_Info_Defender="Chraňte přístupové dveře"
+
+[HoldObjective0]
+; EN: ObjectiveName="Ion Core Switch"
+ObjectiveName="Přepínač iontových jader"
+; EN: DestructionMessage="Ion Core Switch Activated"
+DestructionMessage="Spínač iontového jádra aktivován"
+; EN: ObjectiveDescription="Pull the core levers to activate the ion core"
+ObjectiveDescription="Zatažením za páčky jádra aktivujte iontové jádro"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="Aktivujte iontové jádro"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="Braňte iontové jádro"
+
+[HoldObjective2]
+; EN: ObjectiveName="Security Gate Controls"
+ObjectiveName="Ovládání bezpečnostních bran"
+; EN: DestructionMessage="Security Gate Open"
+DestructionMessage="Bezpečnostní brána otevřena"
+; EN: ObjectiveDescription="Pull the power lever to open the security gate"
+ObjectiveDescription="Zatáhněte za páku pro otevření bezpečnostní brány"
+; EN: Objective_Info_Attacker="Open Security Gate"
+Objective_Info_Attacker="Otevřete bezpečnostní bránu"
+Objective_Info_Defender="Defend Power Station"
+
+[HoldObjective4]
+; EN: ObjectiveName="Bridge Controls"
+ObjectiveName="Ovládání mostu"
+; EN: DestructionMessage="Bridge Raised"
+DestructionMessage="Most zvednutý"
+; EN: ObjectiveDescription="Use the control box to raise the bridge"
+ObjectiveDescription="Pomocí ovládací skříňky zvedněte most"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="Aktivujte iontové jádro"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="Braňte iontové jádro"
+
+[HoldObjective5]
+; EN: ObjectiveName="Ion Core Switch"
+ObjectiveName="Přepínač iontových jader"
+; EN: DestructionMessage="Ion Core Switch Activated"
+DestructionMessage="Spínač iontového jádra aktivován"
+; EN: ObjectiveDescription="Pull the core levers to activate the ion core"
+ObjectiveDescription="Zatažením za páčky jádra aktivujte iontové jádro"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="Aktivujte iontové jádro"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="Braňte iontové jádro"
+
+[LevelInfo0]
+; EN: Title="Glacier"
+Title="Ledovec"
+
+[LevelSummary]
+; EN: Title="Glacier"
+Title="Ledovec"
+; EN: Description="In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.  This scenario recreates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.  You must infiltrate the facility, steal the plasma ion tank, and destroy the entire facility."
+Description="V jednom z nejodvážnějších činů většinou skrytých korporačních válek bylo výzkumné zařízení korporace Izanagi na Lamdon 3 přepadeno a zničeno údernou silou z Axon Research Corporation, navzdory ochraně nabízené elitní silou NEG ThunderCrash. Tento scénář znovu vytváří tuto misi. Axon byl schopen nejen zničit zařízení, ale také získat pokročilou plazmovou iontovou nádrž, která se tam vyvíjí. Musíte infiltrovat zařízení, ukrást plazmový iontový tank a zničit celé zařízení."
+
+[ProximityObjective0]
+; EN: ObjectiveName="Infiltrate Base"
+ObjectiveName="Infiltrovat základnu"
+; EN: DestructionMessage="Base Infiltrated"
+DestructionMessage="Základna infiltrovaná"
+; EN: ObjectiveDescription="Pass through the base doors to infiltrate the base "
+ObjectiveDescription="Projděte dveřmi základny a infiltrujte základnu "
+; EN: Objective_Info_Attacker="Infiltrate the Base"
+Objective_Info_Attacker="Infiltrujte základnu"
+; EN: Objective_Info_Defender="Defend the Base"
+Objective_Info_Defender="Defend Base"
+
+[ProximityObjective1]
+; EN: ObjectiveName="Infiltrate Base"
+ObjectiveName="Infiltrovat základnu"
+; EN: DestructionMessage="Base Infiltrated"
+DestructionMessage="Základna infiltrovaná"
+; EN: ObjectiveDescription="Pass through the base doors to infiltrate the base "
+ObjectiveDescription="Projděte dveřmi základny a infiltrujte základnu "
+; EN: Objective_Info_Attacker="Infiltrate the Base"
+Objective_Info_Attacker="Infiltrujte základnu"
+; EN: Objective_Info_Defender="Defend the Base"
+Objective_Info_Defender="Defend Base"
+
+[ProximityObjective9]
+; EN: ObjectiveName="Base Exit"
+ObjectiveName="Východ ze základny"
+; EN: DestructionMessage="The Tank has Escaped"
+DestructionMessage="Tank unikl"
+; EN: ObjectiveDescription="Drive the tank out of the base"
+ObjectiveDescription="Vyjeďte tank ze základny"
+; EN: Objective_Info_Attacker="Escape the Base"
+Objective_Info_Attacker="Uniknout ze základny"
+; EN: Objective_Info_Defender="Stop the Tank From Escaping"
+Objective_Info_Defender="Zastavte únik tanku"
+
+[SceneSubtitles0]
+SubTitles=("In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed","by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.","This scenario re-creates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.","You must infiltrate the facility, steal the Ion Plasma Tank, and destroy the entire facility.","To infiltrate the base you must first cross the frozen lake. Note that the controls to the base access bridge are located within close proximity to the base entrance.","Raising the bridge will considerably shorten the distance for your teammates to enter the base.","Once inside the base you set the ion core to overload, by operating these two switches. ","This will trigger the base's first emergency protocols, opening all exits and allowing you to steal the Ion Tank.","Once you have obtained the tank, continue up the access tunnel toward the power station. The power station feeds power directly from the two hydroelectric dams to the ion core.","To gain access to the dams the security gate must be opened. The controls for the security gate are located within the power station.","The flood valves in the two hydroelectric dams must be opened.","This will cause a power surge big enough to generate a chain reaction within the ion core.","Once the floodgates are open the second emergency protocol will initialize opening all base exits.","With the floodgates open, one objective remains. The only way to escape the base is through the outer wall.","The outer wall has blast doors which are hardened to repel any attack. However they are not entirely invulnerable.","Because of unprecedented power of the ion tank's cannon, several direct shots should be enough to destroy them. When the doors are destroyed drive the tank out to freedom.")
+
+[TriggeredObjective2]
+; EN: ObjectiveName="Ion Tank"
+ObjectiveName="Iontový tank"
+; EN: DestructionMessage="Tank Captured"
+DestructionMessage="Tank zachycen"
+; EN: Objective_Info_Attacker="Capture the Tank"
+Objective_Info_Attacker="Zachyťte tank"
+; EN: Objective_Info_Defender="Defend the Tank"
+Objective_Info_Defender="Braňte tank"
+
+[Volume0]
+; EN: LocationName="tank hanger exit"
+LocationName="výstup závěsu nádrže"
+
+[Volume1]
+; EN: LocationName="left base area"
+LocationName="levá základní plocha"
+
+[Volume10]
+; EN: LocationName="right base area"
+LocationName="pravá základní plocha"
+
+[Volume11]
+; EN: LocationName="ion core"
+LocationName="iontové jádro"
+
+[Volume12]
+; EN: LocationName="power station interior"
+LocationName="interiér elektrárny"
+
+[Volume13]
+; EN: LocationName="secondary dam interior"
+LocationName="interiér sekundární přehrady"
+
+[Volume14]
+; EN: LocationName="secondary dam interior"
+LocationName="interiér sekundární přehrady"
+
+[Volume15]
+; EN: LocationName="primary dam interior"
+LocationName="primární vnitřek přehrady"
+
+[Volume16]
+; EN: LocationName="primary dam interior"
+LocationName="primární vnitřek přehrady"
+
+[Volume2]
+; EN: LocationName="secondary dam wall"
+LocationName="sekundární přehradní zeď"
+
+[Volume3]
+; EN: LocationName="left base area"
+LocationName="levá základní plocha"
+
+[Volume4]
+; EN: LocationName="rightbase area"
+LocationName="oblast pravé základny"
+
+[Volume6]
+; EN: LocationName="primary dam wall"
+LocationName="primární přehradní zeď"
+
+[Volume7]
+; EN: LocationName="base exit"
+LocationName="východ ze základny"
+
+[Volume8]
+; EN: LocationName="base entrance"
+LocationName="základny vchod"
+
+[Volume9]
+; EN: LocationName="bridge"
+LocationName="most"
+
+[ZoneInfo0]
+; EN: LocationName="outside"
+LocationName="mimo"
+
+[ZoneInfo1]
+; EN: LocationName="storage area"
+LocationName="úložný prostor"
+
+[ZoneInfo10]
+; EN: LocationName="left tower entrance"
+LocationName="levý vchod do věže"
+
+[ZoneInfo11]
+; EN: LocationName="left tower corridor"
+LocationName="levá věžová chodba"
+
+[ZoneInfo12]
+; EN: LocationName="Tank Hangar"
+LocationName="Tankový hangár"
+
+[ZoneInfo13]
+; EN: LocationName="base entrance tunnel"
+LocationName="základní vstupní tunel"
+
+[ZoneInfo14]
+; EN: LocationName="Tank Hanger "
+LocationName="Závěs na tank "
+
+[ZoneInfo15]
+; EN: LocationName="ion core"
+LocationName="iontové jádro"
+
+[ZoneInfo16]
+; EN: LocationName="access tunnel"
+LocationName="přístupový tunel"
+
+[ZoneInfo17]
+; EN: LocationName="power station control room"
+LocationName="velín elektrárny"
+
+[ZoneInfo18]
+; EN: LocationName="base exit control room"
+LocationName="základna výstupní kontrolní místnost"
+
+[ZoneInfo19]
+; EN: LocationName="power station corridor "
+LocationName="koridor elektrárny "
+
+[ZoneInfo2]
+; EN: LocationName="right tower entrance"
+LocationName="pravý vchod do věže"
+
+[ZoneInfo20]
+; EN: LocationName="lower power station "
+LocationName="dolní elektrárna "
+
+[ZoneInfo21]
+; EN: LocationName="depot"
+LocationName="sklad"
+
+[ZoneInfo22]
+; EN: LocationName="secondary dam control room"
+LocationName="sekundární dozorna přehrady"
+
+[ZoneInfo23]
+; EN: LocationName="primary dam control room"
+LocationName="primární dispečink přehrady"
+
+[ZoneInfo24]
+; EN: LocationName="primary dam observation room"
+LocationName="primární pozorovací místnost přehrady"
+
+[ZoneInfo25]
+; EN: LocationName="ion core"
+LocationName="iontové jádro"
+
+[ZoneInfo26]
+; EN: LocationName="secondary dam observation room"
+LocationName="vedlejší pozorovací místnost přehrady"
+
+[ZoneInfo27]
+; EN: LocationName="base exit control room"
+LocationName="základna výstupní kontrolní místnost"
+
+[ZoneInfo3]
+; EN: LocationName="ion core"
+LocationName="iontové jádro"
+
+[ZoneInfo4]
+; EN: LocationName="left tower corridor"
+LocationName="levá věžová chodba"
+
+[ZoneInfo5]
+; EN: LocationName="upper power station"
+LocationName="horní elektrárna"
+
+[ZoneInfo8]
+; EN: LocationName="right tower corridor"
+LocationName="pravá věžová chodba"
+

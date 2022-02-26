@@ -1,0 +1,145 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: DestructionMessage="Vehicle has been repaired!"
+DestructionMessage="El vehicle ha estat reparat!"
+; EN: ObjectiveDescription="Deliver the Power Core to repair the vehicle."
+ObjectiveDescription="Entrega el Power Core per reparar el vehicle."
+; EN: Objective_Info_Attacker="Return the Core to the vehicle"
+Objective_Info_Attacker="Torneu el nucli al vehicle"
+; EN: Objective_Info_Defender="Prevent the Attackers from returning the Core"
+Objective_Info_Defender="Eviteu que els atacants tornin el nucli"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: ObjectiveDescription="You need to pick up the Energy Core and return it to your vehicle in order to repair it."
+ObjectiveDescription="Heu de recollir l'Energy Core i tornar-lo al vostre vehicle per reparar-lo."
+; EN: Objective_Info_Attacker="Find the Energy Core"
+Objective_Info_Attacker="Trobeu el nucli energètic"
+; EN: Objective_Info_Defender="Protect the Energy Core"
+Objective_Info_Defender="Protegiu el nucli energètic"
+
+[HoldObjective0]
+; EN: DestructionMessage="Checkpoint gate opened!"
+DestructionMessage="S'ha obert la porta de control!"
+; EN: ObjectiveDescription="Stand at the switch to open the gate."
+ObjectiveDescription="Atureu-vos a l'interruptor per obrir la porta."
+; EN: Objective_Info_Attacker="Open the checkpoint gate"
+Objective_Info_Attacker="Obriu la porta del punt de control"
+; EN: Objective_Info_Defender="Protect the checkpoint switch."
+Objective_Info_Defender="Protegiu l'interruptor del punt de control."
+
+[HoldObjective1]
+; EN: DestructionMessage="Drawbridge is down!"
+DestructionMessage="El pont llevadís està caigut!"
+; EN: ObjectiveDescription="Stand at the switch to lower the bridge."
+ObjectiveDescription="Atureu-vos a l'interruptor per baixar el pont."
+; EN: Objective_Info_Attacker="Lower the bridge"
+Objective_Info_Attacker="Baixa el pont"
+; EN: Objective_Info_Defender="Defend the bridge switch"
+Objective_Info_Defender="Defensa l'interruptor del pont"
+
+[LevelInfo0]
+; EN: Title="Junkyard Escape"
+Title="Fuga de la ferralla"
+
+[LevelSummary]
+; EN: Title="Junkyard Escape"
+Title="Fuga de la ferralla"
+; EN: Description="This scenario is based on an infamous episode of a popular Holovision program. In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard. The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape. Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born."
+Description="Aquest escenari es basa en un episodi infame d'un popular programa Holovision. A l'episodi original, dos equips de mecànics competien per fer funcionar el seu vehicle i escapar del dipòsit de ferralla. El gir inesperat es va produir quan l'equip perdedor va treure algunes armes improvisades i va colpejar l'altre equip a l'oblit abans que poguessin escapar. Com que no hi havia cap regla explícita que prohibés la violència a la competició, van ser declarats guanyadors i va néixer un nou clàssic del Torneig."
+
+[ProximityObjective0]
+; EN: DestructionMessage="Attackers escaped from the Junkyard!"
+DestructionMessage="Els atacants van escapar del dipòsit de ferralla!"
+; EN: ObjectiveDescription="Escape from the Junkyard."
+ObjectiveDescription="Escapar de la ferralla."
+; EN: Objective_Info_Attacker="Proceed to the main gates"
+Objective_Info_Attacker="Continueu cap a les portes principals"
+; EN: Objective_Info_Defender="Protect the main gates"
+Objective_Info_Defender="Protegiu les portes principals"
+
+[ProximityObjective2]
+; EN: DestructionMessage="Bridge has been crossed!"
+DestructionMessage="S'ha creuat el pont!"
+; EN: ObjectiveDescription="Cross the bridge to progress."
+ObjectiveDescription="Creueu el pont per progressar."
+; EN: Objective_Info_Attacker="Cross the bridge"
+Objective_Info_Attacker="Creueu el pont"
+; EN: Objective_Info_Defender="Defend the bridge"
+Objective_Info_Defender="Defensa el pont"
+
+[ProximityObjective3]
+; EN: DestructionMessage="Checkpoint secured!"
+DestructionMessage="Punt de control assegurat!"
+; EN: ObjectiveDescription="Secure the checkpoint to progress."
+ObjectiveDescription="Assegureu el punt de control per progressar."
+; EN: Objective_Info_Attacker="Secure the checkpoint"
+Objective_Info_Attacker="Assegureu el punt de control"
+; EN: Objective_Info_Defender="Protect the checkpoint"
+Objective_Info_Defender="Protegiu el punt de control"
+
+[SceneSubtitles0]
+SubTitles=("This scenario is based on an infamous episode of a popular Holovision program.","In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard.","The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape.","Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born.","You must find and return the vehicle energy core which is in the interior of the junkyard, and return it to your vehicle.","Once your vehicle is operational, you must drive it through the junkyard and out through the main gate.","To cross the drawbridge, you must lower it by pressing this lever.","Once the bridge is crossed, you must now reach the check point.","You can do so, by following this path and opening the gates to the checkpoint.","It is also possible to use this magnet. While being a much shorter path, it is more risky and exposed.","Once the checkpoint is reached, make your way to the main gate in order to escape.")
+
+[Volume10]
+; EN: LocationName="Magnet hill"
+LocationName="Turó Magnet"
+
+[Volume11]
+; EN: LocationName="Magnet shortcut"
+LocationName="Drecera d'imant"
+
+[Volume12]
+; EN: LocationName="Pipe stack"
+LocationName="Pila de canonades"
+
+[Volume13]
+; EN: LocationName="Junk tunnel"
+LocationName="Túnel brossa"
+
+[Volume14]
+; EN: LocationName="Car crusher"
+LocationName="Trituradora de cotxes"
+
+[Volume15]
+; EN: LocationName="Drive-In"
+LocationName="Conduir a"
+
+[Volume16]
+; EN: LocationName="Checkpoint"
+LocationName="Punt de control"
+
+[Volume17]
+; EN: LocationName="Bathing"
+LocationName="Banyar-se"
+
+[Volume18]
+; EN: LocationName="Communication tower"
+LocationName="Torre de comunicacions"
+
+[Volume19]
+; EN: LocationName="Main gate"
+LocationName="Porta principal"
+
+[Volume4]
+; EN: LocationName="Core tower"
+LocationName="Torre del nucli"
+
+[Volume5]
+; EN: LocationName="Defense hill"
+LocationName="Turó de defensa"
+
+[Volume7]
+; EN: LocationName="Bridge"
+LocationName="Pont"
+
+[Volume8]
+; EN: LocationName="Garage"
+LocationName="Garatge"
+
+[Volume9]
+; EN: LocationName="Fire pit"
+LocationName="Pou de foc"
+
+[ZoneInfo1]
+; EN: LocationName="Junkyard"
+LocationName="Descàrrega"
+

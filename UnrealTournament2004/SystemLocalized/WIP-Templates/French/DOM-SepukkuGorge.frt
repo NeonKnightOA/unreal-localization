@@ -1,24 +1,32 @@
 [LevelInfo0]
-Title="Sepukku Gorge"
+; EN: Title="Sepukku Gorge"
+Title="Gorges de Sepukku"
 
 [LevelSummary]
-Title="Sepukku Gorge"
+; EN: Title="Sepukku Gorge"
+Title="Gorges de Sepukku"
 
 [Volume0]
-LocationName="Near Point B"
+; EN: LocationName="Near Point B"
+LocationName="Près du point B"
 
 [Volume1]
-LocationName="Near Point A"
+; EN: LocationName="Near Point A"
+LocationName="Près du point A"
 
 [Volume2]
-LocationName="On The Bridges"
+; EN: LocationName="On The Bridges"
+LocationName="Sur les ponts"
 
 [Volume3]
-LocationName="Red Cave"
+; EN: LocationName="Red Cave"
+LocationName="Grotte rouge"
 
 [Volume4]
-LocationName="Blue Cave"
+; EN: LocationName="Blue Cave"
+LocationName="Grotte Bleue"
 
 [ZoneInfo0]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 

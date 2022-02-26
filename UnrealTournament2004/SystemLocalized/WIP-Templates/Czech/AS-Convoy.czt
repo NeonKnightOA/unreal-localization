@@ -1,0 +1,230 @@
+[Action_DISPLAYMESSAGE10]
+Message="2..."
+
+[Action_DISPLAYMESSAGE11]
+Message="1..."
+
+[Action_DISPLAYMESSAGE12]
+; EN: Message="The doors are now open!"
+Message="Dveře jsou nyní otevřené!"
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="The attackers have infiltrated the repair vessel!"
+Message="Útočníci pronikli do opravárenského plavidla!"
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="The attackers have reached the weapon trailer!"
+Message="Útočníci dosáhli přívěsu zbraní!"
+
+[Action_DISPLAYMESSAGE7]
+Message="5..."
+
+[Action_DISPLAYMESSAGE8]
+Message="4..."
+
+[Action_DISPLAYMESSAGE9]
+Message="3..."
+
+[HoldObjective1]
+; EN: DestructionMessage="The forward weapon cache has been stolen!"
+DestructionMessage="Předsunutá vyrovnávací paměť zbraní byla ukradena!"
+; EN: ObjectiveDescription="Open the panel to advance closer."
+ObjectiveDescription="Otevřete panel, abyste se přiblížili."
+; EN: Objective_Info_Attacker="Open the panel"
+Objective_Info_Attacker="Otevřete panel"
+; EN: Objective_Info_Defender="Defend the panel"
+Objective_Info_Defender="Braňte panel"
+
+[HoldObjective2]
+; EN: DestructionMessage="The boarding platform has been extended!"
+DestructionMessage="Nástupní plošina prodloužena!"
+; EN: ObjectiveDescription="Extend the boarding platform to continue your advance."
+ObjectiveDescription="Rozšiřte nástupní plošinu, abyste mohli pokračovat v postupu."
+; EN: Objective_Info_Attacker="Extend the boarding platform"
+Objective_Info_Attacker="Rozšiřte nástupní plošinu"
+; EN: Objective_Info_Defender="Defend the boarding platform"
+Objective_Info_Defender="Braňte nástupní plošinu"
+
+[HoldObjective3]
+; EN: DestructionMessage="The N.E.X.U.S. missiles have been secured!"
+DestructionMessage="Společnost N.E.X.U.S. rakety byly zajištěny!"
+; EN: ObjectiveDescription="Retrieve the N.E.X.U.S. missiles and your mission is complete!"
+ObjectiveDescription="Získejte N.E.X.U.S. rakety a vaše mise je dokončena!"
+; EN: Objective_Info_Attacker="Retrieve the N.E.X.U.S. missiles"
+Objective_Info_Attacker="Získejte N.E.X.U.S. střely"
+; EN: Objective_Info_Defender="Defend the N.E.X.U.S. missiles"
+Objective_Info_Defender="Hájit N.E.X.U.S. střely"
+
+[HoldObjective4]
+; EN: DestructionMessage="Side doors have been opened!"
+DestructionMessage="Boční dveře byly otevřeny!"
+; EN: ObjectiveDescription="Use the side door switch in order to proceed"
+ObjectiveDescription="Chcete-li pokračovat, použijte spínač bočních dveří"
+; EN: Objective_Info_Attacker="Open the side doors"
+Objective_Info_Attacker="Otevřete boční dveře"
+; EN: Objective_Info_Defender="Defend the side door switch"
+Objective_Info_Defender="Chraňte spínač bočních dveří"
+
+[HoldObjective5]
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Výbušniny jsou na místě!"
+; EN: ObjectiveDescription="Place explosives on the rear door to gain access to the repair vessel."
+ObjectiveDescription="Umístěte výbušniny na zadní dveře, abyste získali přístup k opravné nádobě."
+; EN: Objective_Info_Attacker="Place explosives on the door"
+Objective_Info_Attacker="Umístěte výbušniny na dveře"
+; EN: Objective_Info_Defender="Defend the door"
+Objective_Info_Defender="Braňte dveře"
+
+[HoldObjective6]
+; EN: DestructionMessage="Reinforcements are on the way!"
+DestructionMessage="Posily jsou na cestě!"
+; EN: ObjectiveDescription="Open the rear door of the repair vessel to advance."
+ObjectiveDescription="Chcete-li postupovat, otevřete zadní dvířka opravné nádoby."
+; EN: Objective_Info_Attacker="Open rear door"
+Objective_Info_Attacker="Otevřete zadní dveře"
+; EN: Objective_Info_Defender="Defend rear door"
+Objective_Info_Defender="Bránit zadní dveře"
+
+[InfoPod0]
+; EN: POD_Message="! ! ! S T A N D    B A C K ! ! !"
+POD_Message="! ! ! ODSTOUPIT ! ! !"
+
+[InfoPod19]
+; EN: POD_Message="DROP DOWN HERE"
+POD_Message="SLOŽTE ZDE"
+
+[InfoPod20]
+; EN: POD_Message="DROP DOWN HERE"
+POD_Message="SLOŽTE ZDE"
+
+[InfoPod21]
+; EN: POD_Message="DROP DOWN HERE"
+POD_Message="SLOŽTE ZDE"
+
+[InfoPod30]
+; EN: POD_Message="! ! ! S T A N D    B A C K ! ! !"
+POD_Message="! ! ! ODSTOUPIT ! ! !"
+
+[LevelInfo0]
+; EN: Title="Convoy"
+Title="Konvoj"
+
+[LevelInfo9]
+; EN: Title="Convoy"
+Title="Konvoj"
+
+[LevelSummary]
+; EN: Title="Convoy"
+Title="Konvoj"
+; EN: Description="This scenario is a recreation of the recovery of the Nexus prototype missiles by the NEG military, after they were stolen by the Hellions. NEG forces pinpointed the location of the cache due to a hidden homing device on these devastating weapons of mass destruction. The exact location of the missiles could only be pinpointed during the short period when they were being transferred from one location to another above ground on Taron, and the military had no choice but to strike at this time."
+Description="Tento scénář je ukázkou znovuzískání prototypu střel Nexus armádou NEG poté, co byly ukradeny Hellions. Síly NEG přesně určily umístění skrýše kvůli skrytému naváděcímu zařízení na těchto ničivých zbraních hromadného ničení. Přesné umístění raket bylo možné určit pouze během krátké doby, kdy byly na Taronu přemisťovány z jednoho místa na druhé nad zemí, a armáda neměla jinou možnost, než v tuto chvíli zasáhnout."
+
+[SceneSubtitles0]
+SubTitles=("This scenario is a recreation of the recovery of the N.E.X.U.S. prototype missiles by the NEG military, after they were stolen by the Hellions.","NEG forces pinpointed the location of the cache due to a hidden homing device on these devastating weapons of mass destruction.","The exact location of the missiles could only be pinpointed during the short period when they were being transferred from one location to another above ground on Taron, and the military had no choice but to strike at this time.","The attackers must first make their way to the Hellions' boarding platform, manipulate the controls, and extend the platform to allow the advance to continue.",,"At this point, it may be a good idea for the attackers to remove this control panel and convert the trailer circuitry to work for them instead of the Hellions. It will allow for a faster advance and an upgrade in weaponry.",,"The attackers must cross the boarding platform, reach the rear door, and plant explosives on the door to gain access to the inside of the Hellion repair vessel.",,"In order to make a quicker advance, open the rear doors of the Repair Vessel. This will allow the attackers to start much closer to the next objective.",,"One word of caution. There is a gasoline tanker within the repair vessel, watch your fire or it may explode, making progress far more difficult.",,"The attackers need to flip this switch in order to be able to proceed any further. This will allow them to control the side doors to proceed to the final objective.",,"The attackers must make it to the weapon trailer. Once inside, they must hold this switch to retrieve the Nexus missiles.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Air strike inbound! Seek shelter immediately!"
+Message="Letecký úder přicházející! Okamžitě vyhledejte úkryt!"
+
+[TriggeredObjective0]
+; EN: DestructionMessage="The N.E.X.U.S. trailer has been opened!"
+DestructionMessage="Společnost N.E.X.U.S. přívěs byl otevřen!"
+; EN: ObjectiveDescription="Reach the N.E.X.U.S. missile trailer and open it"
+ObjectiveDescription="Oslovte N.E.X.U.S. raketový přívěs a otevřete jej"
+; EN: Objective_Info_Attacker="Reach the N.E.X.U.S. missile trailer"
+Objective_Info_Attacker="Oslovte N.E.X.U.S. raketový přívěs"
+; EN: Objective_Info_Defender="Defend the N.E.X.U.S. missile trailer"
+Objective_Info_Defender="Hájit N.E.X.U.S. raketový přívěs"
+
+[Volume1]
+; EN: LocationName="Attacker vehicle"
+LocationName="Útočné vozidlo"
+
+[Volume12]
+; EN: LocationName="Rear sniper tower"
+LocationName="Zadní odstřelovací věž"
+
+[Volume13]
+; EN: LocationName="Rear sniper tower"
+LocationName="Zadní odstřelovací věž"
+
+[Volume14]
+; EN: LocationName="Minigun platform"
+LocationName="Platforma pro minigun"
+
+[Volume15]
+; EN: LocationName="Minigun platform"
+LocationName="Platforma pro minigun"
+
+[Volume16]
+; EN: LocationName="Forward sniping tower"
+LocationName="Přední ostřelovací věž"
+
+[Volume17]
+; EN: LocationName="Forward sniping tower"
+LocationName="Přední ostřelovací věž"
+
+[Volume2]
+; EN: LocationName="Cargo trailer"
+LocationName="Nákladní přívěs"
+
+[Volume3]
+; EN: LocationName="Boarding platform vehicle"
+LocationName="Nástupní plošinové vozidlo"
+
+[Volume4]
+; EN: LocationName="Forward weapon cache"
+LocationName="Dopředná mezipaměť zbraní"
+
+[Volume5]
+; EN: LocationName="Pipe trailer"
+LocationName="Přívěs na potrubí"
+
+[Volume6]
+; EN: LocationName="Weapon trailer vehicle"
+LocationName="Vozidlo pro přívěs zbraně"
+
+[Volume7]
+; EN: LocationName="Weapon trailer roof"
+LocationName="Střecha zbrojního přívěsu"
+
+[Volume8]
+; EN: LocationName="Boarding platform"
+LocationName="Nástupní plošina"
+
+[Volume9]
+; EN: LocationName="Boarding platform"
+LocationName="Nástupní plošina"
+
+[ZoneInfo1]
+; EN: LocationName="Outside"
+LocationName="Mimo"
+
+[ZoneInfo2]
+; EN: LocationName="Repair vessel bridge"
+LocationName="Oprava lodního mostu"
+
+[ZoneInfo3]
+; EN: LocationName="Repair vessel upper deck"
+LocationName="Opravte horní palubu plavidla"
+
+[ZoneInfo4]
+; EN: LocationName="Repair vessel upper deck"
+LocationName="Opravte horní palubu plavidla"
+
+[ZoneInfo6]
+; EN: LocationName="Door"
+LocationName="Dveře"
+
+[ZoneInfo7]
+; EN: LocationName="Repair vessel"
+LocationName="Opravná nádoba"
+
+[ZoneInfo8]
+; EN: LocationName="Weapon trailer inside"
+LocationName="Uvnitř přívěsu na zbraně"
+
+[ZoneInfo9]
+; EN: LocationName="Outside"
+LocationName="Mimo"
+

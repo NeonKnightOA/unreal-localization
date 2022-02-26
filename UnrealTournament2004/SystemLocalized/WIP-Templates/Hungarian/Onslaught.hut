@@ -1,0 +1,511 @@
+[ActionMessage_ONS]
+; EN: Messages[0]="Welcome to Onslaught Training."
+Messages[0]="Üdvözöljük az Onslaught Training programban."
+; EN: Messages[1]="There are many types of vehicles."
+Messages[1]="Sokféle jármű létezik."
+; EN: Messages[2]="The 'USE' key gets in or out of vehicles."
+Messages[2]="A 'USE' gomb be- vagy kiszáll a járművekbe."
+; EN: Messages[3]="Some vehicles can hold passengers."
+Messages[3]="Egyes járművek utasokat tudnak szállítani."
+; EN: Messages[4]="Each team in Onslaught has a PowerCore."
+Messages[4]="Az Onslaught minden csapatának van PowerCore-ja."
+; EN: Messages[5]="PowerCores are connected to each other through PowerNodes."
+Messages[5]="A PowerCore-ok PowerNode-okon keresztül kapcsolódnak egymáshoz."
+; EN: Messages[6]="You can see the network of PowerNodes in the overhead map."
+Messages[6]="A PowerNodes hálózatát a felső térképen láthatja."
+; EN: Messages[7]="The objective is to destroy the other team's PowerCore."
+Messages[7]="A cél a másik csapat PowerCore-jának megsemmisítése."
+; EN: Messages[8]="You may only attack Nodes and Cores which are linked to a Node or Core you already control."
+Messages[8]="Csak azokat a csomópontokat és magokat támadhatja meg, amelyek egy Ön által már irányított csomóponthoz vagy maghoz kapcsolódnak."
+; EN: Messages[9]="To take a PowerNode, destroy it if it is controlled by the enemy."
+Messages[9]="PowerNode elvételéhez semmisítsd meg, ha az ellenség irányítja."
+; EN: Messages[10]="Touch a neutral PowerAccessPoint to create a friendly PowerNode."
+Messages[10]="Érintsen meg egy semleges PowerAccessPoint egy barátságos PowerNode létrehozásához."
+; EN: Messages[11]="Vehicles appear near friendly Nodes and your Core."
+Messages[11]="A járművek a barátságos csomópontok és a mag közelében jelennek meg."
+; EN: Messages[12]="Until moved, vehicles are locked against the enemy team."
+Messages[12]="Amíg el nem költöznek, a járművek le vannak zárva az ellenséges csapat ellen."
+; EN: Messages[13]="The Link Gun can heal vehicles and Nodes."
+Messages[13]="A Link Gun képes járműveket és csomópontokat gyógyítani."
+; EN: Messages[14]="Damaged PowerCores can NOT be healed."
+Messages[14]="A sérült PowerCore-okat NEM lehet meggyógyítani."
+; EN: Messages[15]="Build a network of Nodes to gain access to the enemy Core,"
+Messages[15]="Építsen csomópontok hálózatát, hogy hozzáférjen az ellenséges maghoz,"
+; EN: Messages[16]="then destroy it."
+Messages[16]="akkor semmisítse meg."
+; EN: Messages[17]="This concludes the Onslaught Tutorial. Good luck."
+Messages[17]="Ezzel az Onslaught Tutorial befejeződik. Sok szerencsét."
+
+[DamTypeAttackCraftMissle]
+; EN: DeathString="%o couldn't avoid %k's air-to-air missile."
+DeathString="%o nem tudta elkerülni %k levegő-levegő rakétáját."
+; EN: FemaleSuicide="%o blasted herself out of the sky."
+FemaleSuicide="%o kirobbantotta magát az égből."
+; EN: MaleSuicide="%o blasted himself out of the sky."
+MaleSuicide="%o kirobbantotta magát az égből."
+
+[DamTypeAttackCraftPlasma]
+; EN: DeathString="%k's Raptor filled %o with plasma."
+DeathString="%k Raptorja megtöltötte %o-t plazmával."
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="%o megsütötte magát a saját plazmarobbantásával."
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="%o megsütötte magát a saját plazmarobbantásával."
+
+[DamTypeChargingBeam]
+; EN: DeathString="%o was incinerated by %k's twin beams."
+DeathString="%o-t %k ikernyalábjai elégették."
+; EN: FemaleSuicide="%o somehow managed to shoot herself with a turret."
+FemaleSuicide="%o valahogy sikerült lelőnie magát egy toronnyal."
+; EN: MaleSuicide="%o somehow managed to shoot himself with a turret."
+MaleSuicide="%o valahogy sikerült lelőnie magát egy toronnyal."
+
+[DamTypeDestroyedVehicleRoadKill]
+; EN: DeathString="A vehicle %k destroyed crushed %o"
+DeathString="Egy jármű %k megsemmisült, összetört %o"
+; EN: FemaleSuicide="%o couldn't avoid the vehicle she destroyed."
+FemaleSuicide="%o nem tudta elkerülni a járművet, amit tönkretett."
+; EN: MaleSuicide="%o couldn't avoid the vehicle he destroyed."
+MaleSuicide="%o nem tudta elkerülni a járművet, amit tönkretett."
+
+[DamTypeHoverBikeHeadshot]
+; EN: DeathString="%k clipped off %o's head"
+DeathString="%k levágta %o fejét"
+
+[DamTypeHoverBikePlasma]
+; EN: DeathString="%k's Manta filled %o with plasma."
+DeathString="%k Mantája megtöltötte %o-t plazmával."
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="%o megsütötte magát a saját plazmarobbantásával."
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="%o megsütötte magát a saját plazmarobbantásával."
+
+[DamTypeONSAVRiLRocket]
+; EN: DeathString="%k blew %o away with an AVRiL."
+DeathString="%k elfújta %o-t egy AVRiL-el."
+; EN: FemaleSuicide="%o pointed her gun the wrong way."
+FemaleSuicide="%o rossz irányba mutatta a fegyverét."
+; EN: MaleSuicide="%o pointed his gun the wrong way."
+MaleSuicide="%o rossz irányba mutatta a fegyverét."
+
+[DamTypeONSChainGun]
+; EN: DeathString="%o was punctured by %k's minigun."
+DeathString="%o-t átszúrta %k minipuskája."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="%o maga ellen fordította a minipuskát."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="%o maga ellen fordította a minipuskát."
+
+[DamTypeONSGrenade]
+; EN: DeathString="%o played with %k's happy fun ball..."
+DeathString="%o %k vidám labdájával játszott..."
+; EN: FemaleSuicide="Silly %o, grenades are for enemies..."
+FemaleSuicide="Ostoba %o, a gránátok az ellenségnek valók..."
+; EN: MaleSuicide="Silly %o, grenades are for enemies..."
+MaleSuicide="Ostoba %o, a gránátok az ellenségnek valók..."
+
+[DamTypeONSMine]
+; EN: DeathString="%o trespassed on %k's property"
+DeathString="%o behatolt %k tulajdonába"
+; EN: FemaleSuicide="%o tried out one of her own mines... it worked!"
+FemaleSuicide="%o kipróbálta az egyik saját bányáját... bevált!"
+; EN: MaleSuicide="%o tried out one of his own mines... it worked!"
+MaleSuicide="%o kipróbálta az egyik saját bányáját... bevált!"
+
+[DamTypeONSRVBlade]
+; EN: DeathString="%o was cut down."
+DeathString="%o-t levágták."
+; EN: FemaleSuicide="%o was cut down."
+FemaleSuicide="%o-t levágták."
+; EN: MaleSuicide="%o was cut down."
+MaleSuicide="%o-t levágták."
+
+[DamTypeONSVehicle]
+; EN: DeathString="%o had an accident."
+DeathString="%o balesetet szenvedett."
+; EN: FemaleSuicide="%o had an accident."
+FemaleSuicide="%o balesetet szenvedett."
+; EN: MaleSuicide="%o had an accident."
+MaleSuicide="%o balesetet szenvedett."
+
+[DamTypeONSVehicleExplosion]
+; EN: DeathString="%k took out %o with a vehicle explosion."
+DeathString="%k járműrobbanással vette ki %o-t."
+; EN: FemaleSuicide="%o was a little too close to the vehicle she blew up."
+FemaleSuicide="%o egy kicsit túl közel volt a járműhöz, amelyet felrobbant."
+; EN: MaleSuicide="%o was a little too close to the vehicle he blew up."
+MaleSuicide="%o egy kicsit túl közel volt a járműhöz, amelyet felrobbant."
+
+[DamTypeONSWeb]
+; EN: DeathString="%o was tied up by %k."
+DeathString="%o lekötötte %k."
+; EN: FemaleSuicide="%o came to a sticky end."
+FemaleSuicide="%o ragadós véget ért."
+; EN: MaleSuicide="%o came to a sticky end."
+MaleSuicide="%o ragadós véget ért."
+
+[DamTypePRVCombo]
+; EN: DeathString="%o couldn't escape the awesome power of %k's skymine combo."
+DeathString="%o nem tudott kikerülni %k skymine kombójának fantasztikus ereje elől."
+; EN: FemaleSuicide="%o was a little hasty detonation her skymines."
+FemaleSuicide="%o volt egy kicsit elhamarkodott detonáció a skymines."
+; EN: MaleSuicide="%o was a little hasty detonating his skymines."
+MaleSuicide="%o kissé elhamarkodottan felrobbantotta a skymineit."
+
+[DamTypePRVLaser]
+; EN: DeathString="%k's laser shocked %o."
+DeathString="%k lézere sokkot kapott %o."
+; EN: FemaleSuicide="%o used her laser on herself."
+FemaleSuicide="%o magán használta a lézerét."
+; EN: MaleSuicide="%o used his laser on himself."
+MaleSuicide="%o magán használta a lézerét."
+
+[DamTypePancake]
+; EN: DeathString="%o was crushed by %k"
+DeathString="%o-t összetörte %k"
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="%o összetört."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="%o összetört."
+
+[DamTypeRoadkill]
+; EN: DeathString="%k ran over %o"
+DeathString="%k átfutott %o-n"
+; EN: FemaleSuicide="%o ran over herself."
+FemaleSuicide="%o elgázolta magát."
+; EN: MaleSuicide="%o ran over himself."
+MaleSuicide="%o elgázolta magát."
+
+[DamTypeSkyMine]
+; EN: DeathString="%o ran into %k's skymine."
+DeathString="%o belefutott %k égboltjába."
+; EN: FemaleSuicide="%o ran into her own skymine."
+FemaleSuicide="%o belefutott a saját égboltjába."
+; EN: MaleSuicide="%o ran into his own skymine."
+MaleSuicide="%o berohant a saját égboltjába."
+
+[DamTypeTankShell]
+; EN: DeathString="%k's tank shell blew %o into flaming bits."
+DeathString="%k tartályhéja lángoló darabokra fújta %o-t."
+; EN: FemaleSuicide="%o fired her rocket prematurely."
+FemaleSuicide="%o idő előtt kilőtte a rakétáját."
+; EN: MaleSuicide="%o fired his rocket prematurely."
+MaleSuicide="%o idő előtt kilőtte a rakétáját."
+
+[DamTypeTurretBeam]
+; EN: DeathString="%k's turret electrified %o."
+DeathString="%k tornya villamosított %o."
+; EN: FemaleSuicide="%o somehow managed to shoot herself with a turret."
+FemaleSuicide="%o valahogy sikerült lelőnie magát egy toronnyal."
+; EN: MaleSuicide="%o somehow managed to shoot himself with a turret."
+MaleSuicide="%o valahogy sikerült lelőnie magát egy toronnyal."
+
+[MutBigWheels]
+FriendlyName="BigWheels"
+; EN: Description="Vehicle wheel size depends on how well you are doing."
+Description="A jármű kerékmérete attól függ, hogy milyen jól teljesít."
+
+[MutLightweightVehicles]
+; EN: DisplayText="Momentum Multiplier"
+DisplayText="Lendület szorzó"
+; EN: DescText="Vehicles get this many times as much momentum from damage"
+DescText="A járművek ekkora lendületet kapnak a sérülésektől"
+; EN: FriendlyName="Lightweight Vehicles"
+FriendlyName="Könnyű járművek"
+; EN: Description="Vehicles fly farther when you hit them."
+Description="A járművek messzebbre repülnek, ha elüti őket."
+
+[MutOnslaughtWeapons]
+; EN: ONSWeaponDisplayText[0]="Include AVRiL"
+ONSWeaponDisplayText[0]="Tartalmazza az AVRiL-t"
+; EN: ONSWeaponDisplayText[1]="Replace this with AVRiL"
+ONSWeaponDisplayText[1]="Cserélje ki ezt AVRiL-re"
+; EN: ONSWeaponDisplayText[2]="Include Mine Layer"
+ONSWeaponDisplayText[2]="Tartalmazza a bányaréteget"
+; EN: ONSWeaponDisplayText[3]="Replace this with Mine Layer"
+ONSWeaponDisplayText[3]="Cserélje ki ezt Mine Layer-re"
+; EN: ONSWeaponDisplayText[4]="Include Grenade Launcher"
+ONSWeaponDisplayText[4]="Tartalmazza a gránátvetőt"
+; EN: ONSWeaponDisplayText[5]="Replace this with Grenade Launcher"
+ONSWeaponDisplayText[5]="Cserélje ki ezt a gránátvetőre"
+; EN: ONSWeaponDescText[0]="Choose if the AVRiL will be added to the game"
+ONSWeaponDescText[0]="Válassza ki, hogy az AVRiL hozzáadásra kerül-e a játékhoz"
+; EN: ONSWeaponDescText[1]="Replace this weapon with the AVRiL"
+ONSWeaponDescText[1]="Cserélje ki ezt a fegyvert AVRiL-re"
+; EN: ONSWeaponDescText[2]="Choose if the Mine Layer will be added to the game"
+ONSWeaponDescText[2]="Válassza ki, hogy az Aknaréteg hozzáadásra kerül-e a játékhoz"
+; EN: ONSWeaponDescText[3]="Replace this weapon with the Mine Layer"
+ONSWeaponDescText[3]="Cserélje ki ezt a fegyvert az Aknarétegre"
+; EN: ONSWeaponDescText[4]="Choose if the Grenade Launcher will be added to the game"
+ONSWeaponDescText[4]="Válassza ki, hogy a Gránátvető hozzáadásra kerül-e a játékhoz"
+; EN: ONSWeaponDescText[5]="Replace this weapon with the Grenade Launcher"
+ONSWeaponDescText[5]="Cserélje ki ezt a fegyvert a Gránátvetőre"
+; EN: FriendlyName="Onslaught Weapons"
+FriendlyName="Támadási fegyverek"
+; EN: Description="Add the Onslaught weapons to other gametypes."
+Description="Adja hozzá az Onslaught fegyvereket más játéktípusokhoz."
+
+[MutWheeledVehicleStunts]
+FriendlyName="Stunt Vehicles"
+; EN: Description="Players can make the wheeled vehicles jump. Hold down the crouch key to charge up and then release to jump. They can also control wheeled vehicles in mid-air."
+Description="A játékosok ugrálhatják a kerekes járműveket. Tartsa lenyomva a guggoló gombot a feltöltéshez, majd engedje el az ugráshoz. Levegőben is irányíthatják a kerekes járműveket."
+
+[ONSAVRiL]
+; EN: Description="The AVRiL, or Anti-Vehicle Rocket Launcher, shoots homing missiles that pack quite a punch."
+Description="Az AVRiL vagy az Anti-Vehicle Rocket Launcher olyan irányító rakétákat lő ki, amelyek elég erősek."
+ItemName="AVRiL"
+
+[ONSAVRiLAmmo]
+; EN: ItemName="Anti-vehicle Rockets"
+ItemName="Járműellenes rakéták"
+
+[ONSAVRiLAmmoPickup]
+; EN: PickupMessage="You picked up some anti-vehicle rockets"
+PickupMessage="Felvettél néhány járműellenes rakétát"
+
+[ONSAVRiLPickup]
+; EN: PickupMessage="You got the AVRiL."
+PickupMessage="Megvan az AVRiL."
+
+[ONSAttackCraft]
+; EN: VehiclePositionString="in a Raptor"
+VehiclePositionString="egy Raptorban"
+VehicleNameString="Raptor"
+
+[ONSCrosshairs]
+; EN: Crosshair=((FriendlyName="Circle (3)"),(FriendlyName="Circle (4)"),(FriendlyName="Circle (5)"))
+Crosshair=((FriendlyName="Kör (3)"),(FriendlyName="Kör (4)"),(FriendlyName="Kör (5)"))
+
+[ONSDaredevilMessage]
+; EN: StuntInfoString1="Daredevil!  Level "
+StuntInfoString1="Vakmerő! Szint "
+StuntInfoString2=", "
+StuntInfoString3="m"
+; EN: StuntInfoString4="Spin: "
+StuntInfoString4="Pörgetés: "
+StuntInfoString5="Flip: "
+; EN: StuntInfoString6="Roll: "
+StuntInfoString6="Tekercs: "
+StuntInfoString7=", "
+; EN: StuntInfoString8=" secs"
+StuntInfoString8=" mp"
+StuntDegrees="�"
+
+[ONSGrenadeAmmo]
+; EN: ItemName="Grenades"
+ItemName="Gránátok"
+
+[ONSGrenadeAmmoPickup]
+; EN: PickupMessage="You picked up some grenades"
+PickupMessage="Felszedtél néhány gránátot"
+
+[ONSGrenadeLauncher]
+; EN: Description="The MGG Grenade Launcher fires magnetic sticky grenades, which will attach to enemy players and vehicles."
+Description="Az MGG gránátvető mágneses ragadós gránátokat lő ki, amelyek az ellenséges játékosokhoz és járművekhez csatlakoznak."
+; EN: ItemName="Grenade Launcher"
+ItemName="Gránátvető"
+
+[ONSGrenadePickup]
+; EN: PickupMessage="You got the Grenade Launcher."
+PickupMessage="Megvan a gránátvető."
+
+[ONSHoverBike]
+; EN: VehiclePositionString="in a Manta"
+VehiclePositionString="egy Mantában"
+VehicleNameString="Manta"
+
+[ONSHoverTank]
+; EN: VehiclePositionString="in a Goliath"
+VehiclePositionString="egy Góliátban"
+; EN: VehicleNameString="Goliath"
+VehicleNameString="Góliát"
+
+[ONSLinkDesignMessage]
+; EN: SaveSetupString="Successfully saved Link Setup."
+SaveSetupString="A linkbeállítás sikeresen elmentve."
+; EN: LoadSetupString="Successfully loaded Link Setup."
+LoadSetupString="A linkbeállítás sikeresen betöltve."
+; EN: SaveFailedString="You can't overwrite official Link Setups!"
+SaveFailedString="A hivatalos linkbeállításokat nem lehet felülírni!"
+; EN: LoadFailedString="Failed to load Link Setup because no setup of that name exists."
+LoadFailedString="Nem sikerült betölteni a hivatkozásbeállítást, mert nem létezik ilyen nevű beállítás."
+; EN: DeleteSetupString="Successfully deleted Link Setup."
+DeleteSetupString="A hivatkozás beállítása sikeresen törölve."
+; EN: DeleteOfficialFailedString="You can't delete official Link Setups!"
+DeleteOfficialFailedString="A hivatalos linkbeállításokat nem törölheti!"
+; EN: DeleteNothingString="Failed to delete Link Setup because no setup of that name exists."
+DeleteNothingString="Nem sikerült törölni a hivatkozás beállítását, mert nem létezik ilyen nevű beállítás."
+; EN: NoPathToPowerCoreString="Cannot save Link Setup: There must be a complete path between the PowerCores."
+NoPathToPowerCoreString="A hivatkozás beállítása nem menthető: A PowerCore-ok között teljes útvonalnak kell lennie."
+; EN: LoadFailedNoPathToCoreString="Failed to load Link Setup because it does not have a complete path between the PowerCores."
+LoadFailedNoPathToCoreString="Nem sikerült betölteni a Link Setup programot, mert nincs teljes elérési útja a PowerCore-ok között."
+
+[ONSMineAmmo]
+; EN: ItemName="Parasite Mines"
+ItemName="Parazitabányák"
+
+[ONSMineAmmoPickup]
+; EN: PickupMessage="You picked up some parasite mines"
+PickupMessage="Felszedtél néhány parazita aknát"
+
+[ONSMineLayer]
+; EN: Description="The Spider Mine Layer is used for deploying spider mines, autonomous mobile mines that are highly effective against both foot soldiers and vehicles."
+Description="A Spider Mine Layert pókaknák, autonóm mobil aknák telepítésére használják, amelyek rendkívül hatékonyak mind a gyalogosok, mind a járművek ellen."
+; EN: ItemName="Mine Layer"
+ItemName="Bányaréteg"
+
+[ONSMineLayerPickup]
+; EN: PickupMessage="You got the Mine Layer."
+PickupMessage="Megvan a bányaréteg."
+
+[ONSOnslaughtGame]
+; EN: ONSPropsDisplayText[0]="Core Drain in Overtime"
+ONSPropsDisplayText[0]="Core Drain a hosszabbításban"
+; EN: ONSPropsDisplayText[1]="Random Link Setup After Reset"
+ONSPropsDisplayText[1]="Véletlenszerű hivatkozás beállítása visszaállítás után"
+; EN: ONSPropsDisplayText[2]="Teams Swap Sides After Reset"
+ONSPropsDisplayText[2]="A csapatok oldalt cserélnek az alaphelyzetbe állítás után"
+; EN: ONSPropDescText[0]="In overtime, PowerCores lose a maximum of this much health every second."
+ONSPropDescText[0]="A hosszabbítás során a PowerCore-ok másodpercenként maximum ennyi életerőt veszítenek."
+; EN: ONSPropDescText[1]="After a reset, a new link setup will be chosen at random."
+ONSPropDescText[1]="Az alaphelyzetbe állítás után véletlenszerűen új kapcsolatbeállítás kerül kiválasztásra."
+; EN: ONSPropDescText[2]="After a reset, teams will switch sides so they are defending the PowerCore they were previously attacking."
+ONSPropDescText[2]="A visszaállítás után a csapatok oldalt váltanak, így megvédik azt a PowerCore-t, amelyet korábban támadtak."
+ONSHints=("If you receive a missile lock warning, try to get out of sight quickly!","The Raptor's missiles will automatically lock onto Mantas and other Raptors.","In the Raptor press %JUMP% to fly higher and %DUCK% to fly lower.","The Manta can rapidly descend to smash your enemies by pressing %DUCK% or %ALTFIRE%.","Press %JUMP% to perform a 180 spin out in the Hellbender or Scorpion.","The Manta is the only vehicle that has the ability to jump.","When deployed, the Leviathan is highly vulnerable to air attacks.","You can heal a friendly vehicle with the link gun alt-fire.","You can heal a friendly PowerNode with the link gun alt-fire.","It is impossible to heal the final PowerCore, so defend it at all costs!","Press %TOGGLERADARMAP% to toggle the radar map on and off.","You can be hurt or killed by vehicles exploding near you.","Enemy Spider Mines can be destroyed, but some weapons are better against them than others.","Pressing %USE% on a PowerNode allows you to teleport to any PowerNode your team controls.","You won't be able to spawn at a PowerNode that is under attack, even if your team controls it.","If you die, any Spider Mines or Grenades you fired will explode.","Press %VOICETALK% to voice chat with your team.","%BASEPATH 0% will show the way to the nearest PowerNode or PowerCore the Red Team can attack, while %BASEPATH 1% will do the same for the Blue Team.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person mode in vehicles.","AVRiL rockets will home into an occupied enemy vehicle as long as you keep your crosshair on it.","When you find a target with the AVRiL, press alt-fire to zoom and lock your view to that target.","The green light on top of the weaponlockers indicates that additional ammo is available at that locker.","Attack PowerNodes that have the enemy team color sky beams above them.","You cannot attack the PowerCore or PowerNodes if there is an energy shield present. Remove the shield by controlling a node that is linked to it.","The Grenade Launcher shoots sticky grenades that attach themselves to vehicles and players. You must detonate them yourself with the alternate fire (press %ALTFIRE%)","The bomber that the Target Painter calls in can be shot down by enemy fire.","In Onslaught, your team earns 2 points for winning before overtime and 1 point for a win during overtime.")
+; EN: GameName="Onslaught"
+GameName="Támadás"
+; EN: Description="Your team must take control over PowerNodes in a 'connect the dots' fashion to establish a direct line to the enemy PowerCore. Once you establish a link to the next PowerNode, you can destroy it if controlled by the enemy. Control the PowerNode for your team by touching it to start the build process (Use the linkgun alt-fire to speed things up). Once your team has a link to the enemy PowerCore, attack and destroy it."
+Description="A csapatodnak át kell vennie az irányítást a PowerNodes felett a „pontok összekapcsolása” módon, hogy közvetlen vonalat létesítsen az ellenséges PowerCore-ral. Miután létrehozta a kapcsolatot a következő PowerNode-hoz, megsemmisítheti azt, ha az ellenség irányítja. Vezérelje csapata PowerNode-ját úgy, hogy megérinti az építési folyamat elindításához (Használja a linkgun alt-fire-t a dolgok felgyorsításához). Ha a csapatodnak van linkje az ellenséges PowerCore-hoz, támadd meg és semmisítsd meg."
+
+[ONSOnslaughtMessage]
+; EN: RedTeamDominatesString="Red Team Achieves Victory!"
+RedTeamDominatesString="A Red Team győzelmet aratott!"
+; EN: BlueTeamDominatesString="Blue Team Achieves Victory!"
+BlueTeamDominatesString="A kék csapat győzelmet aratott!"
+; EN: RedTeamPowerCoreString="Red Team PowerNode Constructed!"
+RedTeamPowerCoreString="Red Team PowerNode megépült!"
+; EN: BlueTeamPowerCoreString="Blue Team PowerNode Constructed!"
+BlueTeamPowerCoreString="A Blue Team PowerNode megépült!"
+; EN: VehicleLockedString="Vehicle is Locked!"
+VehicleLockedString="A jármű le van zárva!"
+; EN: InvincibleCoreString="You Are Unable To Damage Unlinked PowerNodes!"
+InvincibleCoreString="Nem tudja károsítani a szétválasztott PowerNode-okat!"
+; EN: UnattainableNodeString="You Are Unable To Obtain Unlinked PowerNodes!"
+UnattainableNodeString="Nem tud össze nem kapcsolt PowerNode-okat szerezni!"
+; EN: RedPowerCoreAttackedString="Red Team PowerCore is under Attack!"
+RedPowerCoreAttackedString="A Red Team PowerCore támadás alatt áll!"
+; EN: BluePowerCoreAttackedString="Blue Team PowerCore is under Attack!"
+BluePowerCoreAttackedString="A Blue Team PowerCore támadás alatt áll!"
+; EN: RedPowerNodeAttackedString="Red Team PowerNode is under Attack!"
+RedPowerNodeAttackedString="A Red Team PowerNode támadás alatt áll!"
+; EN: BluePowerNodeAttackedString="Blue Team PowerNode is under Attack!"
+BluePowerNodeAttackedString="A Blue Team PowerNode támadás alatt áll!"
+; EN: InWayOfVehicleSpawnString="You are in the way of a vehicle spawning!"
+InWayOfVehicleSpawnString="Egy jármű ívásában állsz!"
+; EN: MissileLockOnString="Missile Lock-On!"
+MissileLockOnString="Rakétazár!"
+; EN: UnpoweredString="Turret is Unpowered!"
+UnpoweredString="A torony erőtlen!"
+; EN: RedPowerCoreDestroyedString="Red PowerCore Destroyed"
+RedPowerCoreDestroyedString="Piros PowerCore megsemmisült"
+; EN: BluePowerCoreDestroyedString="Blue PowerCore Destroyed"
+BluePowerCoreDestroyedString="Kék PowerCore megsemmisült"
+; EN: RedPowerNodeDestroyedString="Red PowerNode Destroyed"
+RedPowerNodeDestroyedString="Piros PowerNode megsemmisült"
+; EN: BluePowerNodeDestroyedString="Blue PowerNode Destroyed"
+BluePowerNodeDestroyedString="A kék PowerNode megsemmisült"
+; EN: RedPowerCoreCriticalString="Red PowerCore is Critical!"
+RedPowerCoreCriticalString="A Red PowerCore kritikus!"
+; EN: BluePowerCoreCriticalString="Blue PowerCore is Critical!"
+BluePowerCoreCriticalString="A kék PowerCore kritikus!"
+; EN: PressUseToTeleportString="Press Use to teleport to another node"
+PressUseToTeleportString="Nyomja meg a Use gombot egy másik csomópontra való teleportáláshoz"
+; EN: RedPowerCoreVulnerableString="Red PowerCore is Vulnerable!"
+RedPowerCoreVulnerableString="A Red PowerCore sebezhető!"
+; EN: BluePowerCoreVulnerableString="Blue PowerCore is Vulnerable!"
+BluePowerCoreVulnerableString="A Blue PowerCore sebezhető!"
+; EN: RedPowerNodeUnderConstructionString="Red PowerNode under Construction!"
+RedPowerNodeUnderConstructionString="Red PowerNode építés alatt!"
+; EN: BluePowerNodeUnderConstructionString="Blue PowerNode under Construction!"
+BluePowerNodeUnderConstructionString="Kék PowerNode építés alatt!"
+; EN: RedPowerCoreDamagedString="Red PowerCore is at 50%!"
+RedPowerCoreDamagedString="A Red PowerCore 50%-os!"
+; EN: BluePowerCoreDamagedString="Blue PowerCore is at 50%!"
+BluePowerCoreDamagedString="A Blue PowerCore 50%-os!"
+; EN: RedPowerNodeSeveredString="Red PowerNode Isolated!"
+RedPowerNodeSeveredString="Piros PowerNode elkülönítve!"
+; EN: BluePowerNodeSeveredString="Blue PowerNode Isolated!"
+BluePowerNodeSeveredString="Kék PowerNode elkülönítve!"
+; EN: PowerCoresAreDrainingString="PowerCores are draining!"
+PowerCoresAreDrainingString="A PowerCore-ok kimerülnek!"
+; EN: UnhealablePowerCoreString="You can't heal your PowerCore!"
+UnhealablePowerCoreString="Nem tudod meggyógyítani a PowerCore-odat!"
+; EN: AvrilLockOnString="Incoming Heat-Seeking Missile!"
+AvrilLockOnString="Bejövő hőkereső rakéta!"
+; EN: CameraDeploy="Press Alt-Fire to deploy camera!"
+CameraDeploy="Nyomja meg az Alt-Fire billentyűt a kamera üzembe helyezéséhez!"
+; EN: MoveReticle="Use Forward and Strafe to Aim Reticle"
+MoveReticle="Használja az Előre és a Strafe-et a célirányítóhoz"
+; EN: SPMAAcquiredString="SPMA Acquired"
+SPMAAcquiredString="SPMA megszerzése"
+
+[ONSPRV]
+; EN: VehiclePositionString="in a HellBender"
+VehiclePositionString="egy HellBenderben"
+; EN: VehicleNameString="HellBender"
+VehicleNameString="Tivornya"
+
+[ONSPRVRearGunPawn]
+; EN: VehiclePositionString="in a HellBender's rear turret"
+VehiclePositionString="egy HellBender hátsó tornyában"
+; EN: VehicleNameString="HellBender Rear Turret"
+VehicleNameString="HellBender hátsó torony"
+
+[ONSPRVSideGunPawn]
+; EN: VehiclePositionString="in a HellBender's side turret"
+VehiclePositionString="egy HellBender oldaltornyában"
+; EN: VehicleNameString="HellBender Side Turret"
+VehicleNameString="HellBender oldalsó torony"
+
+[ONSPowerCore]
+ObjectiveStringSuffix=" PowerCore"
+
+[ONSPowerNode]
+; EN: NeutralString="Neutral PowerNode"
+NeutralString="Semleges PowerNode"
+; EN: ConstructingString=" Constructing PowerNode"
+ConstructingString=" PowerNode felépítése"
+ObjectiveStringSuffix=" PowerNode"
+
+[ONSRV]
+; EN: VehiclePositionString="in a Scorpion"
+VehiclePositionString="egy Skorpióban"
+; EN: VehicleNameString="Scorpion"
+VehicleNameString="Skorpió"
+
+[ONSStationaryWeaponPawn]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="tornyot irányítva"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Energia torony"
+
+[ONSTankSecondaryTurretPawn]
+; EN: VehiclePositionString="in a Goliath turret"
+VehiclePositionString="egy Góliát-toronyban"
+; EN: VehicleNameString="Goliath Minigun Turret"
+VehicleNameString="Góliát miniágyú torony"
+
+[ONSVehicleKillMessage]
+KillString[0]="Road Kill!"
+; EN: KillString[1]="Hit and Run!"
+KillString[1]="Üss és fuss!"
+KillString[2]="Road Rage!"
+; EN: KillString[3]="Vehicular Manslaughter!"
+KillString[3]="Gépjármű emberölés!"
+; EN: KillString[4]="Pancake!"
+KillString[4]="Palacsinta!"
+; EN: KillString[5]="Eagle Eye!"
+KillString[5]="Sasszem!"
+KillString[6]="Top Gun!"
+KillString[7]="Fender Bender!"
+

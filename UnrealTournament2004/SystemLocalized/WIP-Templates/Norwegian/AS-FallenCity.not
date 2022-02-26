@@ -1,0 +1,189 @@
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Subway station entrance"
+LocationName="Inngang til T-banestasjon"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Subway train"
+LocationName="T-banetog"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Boarding station"
+LocationName="Ombordstigningsstasjon"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE4]
+Message="1..."
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Portlås"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Portlås ødelagt!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Ødelegg portlåsen"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Ødelegg portlås"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Forsvar portlås"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="barricade"
+ObjectiveName="barrikade"
+; EN: DestructionMessage="barricade destroyed!"
+DestructionMessage="barrikaden ødelagt!"
+; EN: ObjectiveDescription="Destroy the barricade"
+ObjectiveDescription="Ødelegg barrikaden"
+; EN: Objective_Info_Attacker="Destroy barricade"
+Objective_Info_Attacker="Ødelegg barrikaden"
+; EN: Objective_Info_Defender="Defend barricade"
+Objective_Info_Defender="Forsvar barrikaden"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Portlås"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Portlås ødelagt!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Ødelegg portlåsen"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Ødelegg portlås"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Forsvar portlås"
+
+[HoldObjective0]
+; EN: ObjectiveName="Explosive #2"
+ObjectiveName="Eksplosiv #2"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Sprengstoffet er på plass!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Plant et eksplosiv"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Ødelegg kommandosenteret"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Forsvar kommandosenter"
+
+[HoldObjective1]
+; EN: ObjectiveName="Forward outpost"
+ObjectiveName="Fremover utpost"
+; EN: DestructionMessage="Forward outpost taken!"
+DestructionMessage="Fremover utpost tatt!"
+; EN: ObjectiveDescription="Take the forward outpost "
+ObjectiveDescription="Ta den fremre utposten "
+; EN: Objective_Info_Attacker="Secure forward outpost"
+Objective_Info_Attacker="Sikre fremre utpost"
+; EN: Objective_Info_Defender="Defend forward outpost"
+Objective_Info_Defender="Forsvare frem utpost"
+
+[HoldObjective2]
+; EN: ObjectiveName="Explosive #1"
+ObjectiveName="Eksplosiv #1"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Sprengstoffet er på plass!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Plant et eksplosiv"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Ødelegg kommandosenteret"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Forsvar kommandosenter"
+
+[LevelInfo0]
+; EN: Title="The Fallen City"
+Title="Den falne byen"
+
+[LevelSummary]
+; EN: Title="The Fallen City"
+Title="Den falne byen"
+; EN: Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+Description="Etter menneske/Skaarj-krigen lå mange av jordens byer i ruiner. Da New Earth-regjeringen forsøkte å hevde sin autoritet over disse områdene, ble de konfrontert med mange opprørsgrupper, ofte skjult finansiert av de store selskapene, som hadde etablert baser i de ødelagte byene. Dette scenariet gjenskaper ødeleggelsen av et opprørskommandosenter av NEG-styrker. I tråd med det historiske slaget er angriperens innsettingspunkt et stykke unna kommandosentralen, på grunn av den tunge luftvernbeskyttelsen rundt bunkeren."
+
+[SceneSubtitles1]
+SubTitles=("Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas,","they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities.","This scenario recreates the destruction of a rebel command center by NEG forces. ","In keeping with the historical battle, the attackers' insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker. ","The attackers must first make their way through the streets on foot and clear out any resistance they find. They must destroy the barricade in order to proceed to the next objective.","Next, they must take out the forward outpost. When the area is clear, a shipment of heavier cargo will be dropped in to help you proceed.","The defenders are nestled deep within this hardened bunker. You will have to bypass the defenses and infiltrate the bunker to reach their command center.","Reach the underground command center and place explosives to destroy the entire base. This should bring the resistance to its knees.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Bunker infiltrated!"
+Message="Bunker infiltrert!"
+
+[Trigger_ASMessageTrigger2]
+; EN: Message="Command center destroyed!"
+Message="Kommandosenteret ødelagt!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Explosives Set!!!"
+Message="Sprengstoffsett!!!"
+
+[Volume0]
+; EN: LocationName="Forward outpost"
+LocationName="Fremover utpost"
+
+[Volume1]
+; EN: LocationName="Attackers drop zone"
+LocationName="Angripere fallsone"
+
+[Volume10]
+; EN: LocationName="Stairs"
+LocationName="Trapp"
+
+[Volume11]
+; EN: LocationName="Subway station lobby"
+LocationName="T-banestasjon lobby"
+
+[Volume12]
+; EN: LocationName="Station roof"
+LocationName="Stasjonstak"
+
+[Volume13]
+; EN: LocationName="Vents"
+LocationName="Ventiler"
+
+[Volume14]
+; EN: LocationName="Subway train"
+LocationName="T-banetog"
+
+[Volume15]
+; EN: LocationName="Subway tracks"
+LocationName="T-banespor"
+
+[Volume2]
+; EN: LocationName="Rebel look out"
+LocationName="Rebell ser ut"
+
+[Volume3]
+LocationName="Caudle Ave."
+
+[Volume4]
+; EN: LocationName="Attackers drop zone"
+LocationName="Angripere fallsone"
+
+[Volume5]
+; EN: LocationName="Boarding station"
+LocationName="Ombordstigningsstasjon"
+
+[Volume6]
+LocationName="Statue pass"
+
+[Volume7]
+LocationName="Statue pass"
+
+[Volume8]
+; EN: LocationName="Roman path way"
+LocationName="romersk vei"
+
+[Volume9]
+; EN: LocationName="Subway ticket stand"
+LocationName="T-banebillettstand"
+
+[ZoneInfo0]
+; EN: LocationName="Destroyed city"
+LocationName="Ødelagt by"
+

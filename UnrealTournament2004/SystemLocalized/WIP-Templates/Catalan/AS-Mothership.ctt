@@ -1,0 +1,488 @@
+[Action_DISPLAYMESSAGE5]
+Message="5..."
+
+[Action_DISPLAYMESSAGE6]
+Message="4..."
+
+[Action_DISPLAYMESSAGE7]
+Message="3..."
+
+[Action_DISPLAYMESSAGE8]
+Message="2..."
+
+[Action_DISPLAYMESSAGE9]
+Message="1..."
+
+[Counter0]
+; EN: CompleteMessage="Core Vents opened!"
+CompleteMessage="Core Vents oberts!"
+
+[Counter2]
+; EN: CompleteMessage="Energy Shield deactivated!!!"
+CompleteMessage="Energy Shield desactivat!!!"
+
+[Counter3]
+; EN: CompleteMessage="Doors and lower force field deactivated"
+CompleteMessage="Portes i camp de força inferior desactivats"
+
+[Counter4]
+; EN: CompleteMessage="Core conductors destroyed!!!"
+CompleteMessage="Conductors centrals destruïts!!!"
+
+[Counter5]
+; EN: CompleteMessage="Loading bay force field deactivated!"
+CompleteMessage="Camp de força de la badia de càrrega desactivat!"
+
+[Counter6]
+; EN: CompleteMessage="Top force fields deactivated!"
+CompleteMessage="Camps de força superiors desactivats!"
+
+[DestroyVehicleObjective0]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Torretes de sentinelles"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel destruït!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Destrueix torretes sentinella"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Destrueix sentinella"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Defensa sentinella"
+
+[DestroyVehicleObjective1]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Torretes de sentinelles"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel destruït!"
+; EN: LocationPrefix="lowerhull"
+LocationPrefix="casc inferior"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Destrueix torretes sentinella"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Destrueix sentinella"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Defensa sentinella"
+
+[DestroyVehicleObjective2]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Torretes de sentinelles"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Sentinel destruït!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Destrueix torretes sentinella"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Destrueix sentinella"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Defensa sentinella"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Bypass energètic"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Bypass energètic destruït..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Destrueix el bypass de camp làser"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Destrueix el bypass energètic"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Defensa la derivació energètica"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Generador d'escut superior"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Generador d'escut destruït"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Destrueix els generadors d'escut"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Destrueix el generador d'escut superior "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Defensa el generador d'escut superior "
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Generador d'escut superior"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Generador d'escut destruït"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Destrueix els generadors d'escut"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Destrueix el generador d'escut superior "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Defensa el generador d'escut superior "
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower shield generator"
+ObjectiveName="Generador d'escut inferior"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="Generador d'escut destruït"
+; EN: ObjectiveDescription="Destroy lower shield generator"
+ObjectiveDescription="Destrueix el generador de blindatge inferior"
+; EN: Objective_Info_Attacker="Destroy lower shield generator"
+Objective_Info_Attacker="Destrueix el generador de blindatge inferior"
+; EN: Objective_Info_Defender="Defend lower shield generator "
+Objective_Info_Defender="Defensa el generador d'escut inferior "
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Conductors centrals..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Conductor destruït!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Destrueix el conductor principal"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Destrueix el conductor"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Defensa el conductor"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Bypass energètic"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Bypass energètic destruït..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Destrueix el bypass de camp làser"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Destrueix el bypass energètic"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Defensa la derivació energètica"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Conductors centrals..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="Conductor destruït!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="Destrueix el conductor principal"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Destrueix el conductor"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Defensa el conductor"
+
+[HoldObjective0]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Panells centrals."
+; EN: DestructionMessage="Hatch lock #1 released!"
+DestructionMessage="S'ha llançat el pany de l'escotilla núm."
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Panells centrals"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Utilitzeu el panell per desbloquejar l'escotilla central"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Atureu qualsevol ús dels panells centrals"
+
+[HoldObjective1]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Panells centrals."
+; EN: DestructionMessage="Hatch lock #2 released!"
+DestructionMessage="S'ha llançat el bloqueig de l'escotilla núm. 2!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Panells centrals"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Utilitzeu el panell per desbloquejar l'escotilla central"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Atureu qualsevol ús dels panells centrals"
+
+[InfoPod2]
+; EN: POD_Message="Lower Inner Turrets"
+POD_Message="Torretes interiors inferiors"
+
+[InfoPod3]
+POD_Message="Link Cannon"
+
+[InfoPod4]
+; EN: POD_Message="Landing Bay Turrets"
+POD_Message="Torretes de la badia de desembarcament"
+
+[InfoPod5]
+; EN: POD_Message="Top Inner Turrets"
+POD_Message="Torretes interiors superiors"
+
+[InfoPod6]
+; EN: POD_Message="Top Outer Turrets"
+POD_Message="Torretes exteriors superiors"
+
+[InfoPod7]
+; EN: POD_Message="Lower Outer Turrets"
+POD_Message="Torretes exteriors inferiors"
+
+[InfoPod8]
+POD_Message="Link Cannon"
+
+[LevelInfo0]
+; EN: Title="Mothership Assault"
+Title="Assalt a la nau mare"
+
+[LevelSummary]
+; EN: Title="Mothership Assault"
+Title="Assalt a la nau mare"
+; EN: Description="First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali. Within a year the Skaarj had pushed humanity back to the brink of destruction. This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat. A Skaarj Mothership orbited the Earth, and rained death upon the planet in preparation for the final landing. In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the Mothership defenses their analysis had revealed."
+Description="El primer contacte amb els Skaarj es va produir durant la recuperació del transportista de la presó Vortex Rikers a Na Pali. Al cap d'un any, els Skaarj havien fet retrocedir la humanitat a la vora de la destrucció. Aquest escenari replica la batalla final per la Terra i la sorprenent victòria dels humans davant una derrota gairebé segura. Una nau mare Skaarj va orbitar la Terra i va ploure la mort sobre el planeta en preparació per a l'aterratge final. En una agosarada missió suïcida, els humans van atacar la nau mare Skaarj en petits combatents d'un sol home, amb l'esperança d'explotar un defecte en les defenses de la nau mare que la seva anàlisi havia revelat."
+
+[MessageTrigger15]
+; EN: Message="Prepare to attack!!!"
+Message="Prepareu-vos per atacar!!!"
+
+[MessageTrigger17]
+; EN: Message="Prepare the defense!!!"
+Message="Prepareu la defensa!!!"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing bay"
+ObjectiveName="Badia d'aterratge"
+; EN: DestructionMessage="Attackers have entered the MotherShip!"
+DestructionMessage="Els atacants han entrat a la nau mare!"
+; EN: ObjectiveDescription="Enter Skaarj ship via landing bay"
+ObjectiveDescription="Entreu al vaixell Skaarj per la badia de desembarcament"
+; EN: Objective_Info_Attacker="Proceed to landing bay"
+Objective_Info_Attacker="Continueu fins a la badia d'aterratge"
+; EN: Objective_Info_Defender="Stop the humans from landing "
+Objective_Info_Defender="Atureu l'aterratge dels humans "
+
+[SceneSubtitles0]
+SubTitles=("First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali.        ","Within a year the Skaarj had pushed humanity back to the brink of destruction.","This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat.","A Skaarj mother ship orbited the Earth, and rained death upon the planet in preparation for the final landing.","In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the mother ship defenses their analysis had revealed.","Take down the generator within the lower section of the Skaarj mother ship to deactivate the top force fields.","Once completed head upwards into the main body of the Skaarj mother ship. ","Destroy the top generators to deactivate the shield for the landing bay.","Proceed and land in the mother ship landing bay.","Once on foot, proceed to the next section","Two energy bypass mechanisms will need to be destroyed to proceed to the cargo hull.","Past the bridge, the core awaits.","Once in the cargo hull three sentinels await.","The destruction of the sentinels is the only way to proceed forward.","The force fields deactivate once the three sentinels have been destroyed.","Passed the bridge and the core awaits.","Trigger the panels to open the hatch locks.","Once the panels have been triggered shoot the two energy core conductors in order to destabilize the core.")
+
+[Trigger_ASMessageTrigger14]
+; EN: Message="Force field down..."
+Message="Camp de força cap avall..."
+
+[Trigger_ASMessageTrigger15]
+; EN: Message="Unlock the Core!"
+Message="Desbloqueja el nucli!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Core hatches have been released..."
+Message="S'han alliberat les escotilles del nucli..."
+
+[Trigger_ASMessageTrigger4]
+; EN: Message="Top force fields down..."
+Message="Camps de força superiors cap avall..."
+
+[Trigger_ASMessageTrigger5]
+; EN: Message="Attackers have landed!!!"
+Message="Els atacants han aterrat!!!"
+
+[Trigger_ASMessageTrigger7]
+; EN: Message="Attackers have entered the core!!!"
+Message="Els atacants han entrat al nucli!!!"
+
+[Trigger_ASMessageTrigger8]
+; EN: Message="Core has been destabilized!"
+Message="El nucli s'ha desestabilitzat!"
+
+[Trigger_ASMessageTrigger9]
+; EN: Message="Landing bay force field down"
+Message="Camp de força de la badia d'aterratge cap avall"
+
+[ZoneInfo1]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Passadís del motor de gravetat a la dreta"
+
+[ZoneInfo10]
+; EN: LocationName="Energy generator #2"
+LocationName="Generador d'energia #2"
+
+[ZoneInfo12]
+; EN: LocationName="The core"
+LocationName="El nucli"
+
+[ZoneInfo13]
+; EN: LocationName="Right shaft"
+LocationName="Eix dret"
+
+[ZoneInfo14]
+; EN: LocationName="Main middle shaft"
+LocationName="Eix central principal"
+
+[ZoneInfo16]
+; EN: LocationName="Core exterior"
+LocationName="Exterior del nucli"
+
+[ZoneInfo17]
+; EN: LocationName="Core exterior"
+LocationName="Exterior del nucli"
+
+[ZoneInfo18]
+; EN: LocationName="Inner top shaft"
+LocationName="Eix superior interior"
+
+[ZoneInfo19]
+; EN: LocationName="Core exterior"
+LocationName="Exterior del nucli"
+
+[ZoneInfo2]
+; EN: LocationName="In space"
+LocationName="A l'espai"
+
+[ZoneInfo20]
+; EN: LocationName="Lower cross path"
+LocationName="Camí transversal inferior"
+
+[ZoneInfo21]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Generació de bypass del defensor"
+
+[ZoneInfo22]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Generació de bypass del defensor"
+
+[ZoneInfo23]
+; EN: LocationName="Cargo hull"
+LocationName="Casc de càrrega"
+
+[ZoneInfo24]
+; EN: LocationName="Cargo hull"
+LocationName="Casc de càrrega"
+
+[ZoneInfo25]
+; EN: LocationName="Cargo hull"
+LocationName="Casc de càrrega"
+
+[ZoneInfo26]
+; EN: LocationName="Cargo hull"
+LocationName="Casc de càrrega"
+
+[ZoneInfo27]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Generació de bypass del defensor"
+
+[ZoneInfo28]
+; EN: LocationName="Space craft bay."
+LocationName="Badia de naus espacials."
+
+[ZoneInfo29]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Passadís del casc de càrrega"
+
+[ZoneInfo3]
+; EN: LocationName="Lower section generator shaft"
+LocationName="Eix del generador de secció inferior"
+
+[ZoneInfo30]
+; EN: LocationName="Elevator shaft"
+LocationName="Eix de l'ascensor"
+
+[ZoneInfo31]
+; EN: LocationName="Elevator passage "
+LocationName="Pas d'ascensor "
+
+[ZoneInfo32]
+; EN: LocationName="Cargo upper bridge left"
+LocationName="Pont de càrrega superior esquerre"
+
+[ZoneInfo33]
+; EN: LocationName="Cargo upper bridge right"
+LocationName="Pont de càrrega superior dret"
+
+[ZoneInfo34]
+; EN: LocationName="Elevator passage "
+LocationName="Pas d'ascensor "
+
+[ZoneInfo35]
+; EN: LocationName="Energy bypass room"
+LocationName="Sala de derivació energètica"
+
+[ZoneInfo36]
+; EN: LocationName="Left hallway"
+LocationName="Passadís esquerre"
+
+[ZoneInfo37]
+; EN: LocationName="Attackers landing bay"
+LocationName="Baixa d'aterratge dels atacants"
+
+[ZoneInfo38]
+; EN: LocationName="Right hallway"
+LocationName="Passadís dret"
+
+[ZoneInfo39]
+; EN: LocationName="Top energy bypass entrance"
+LocationName="Entrada de derivació energètica superior"
+
+[ZoneInfo4]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Badia de desembarcament del defensor"
+
+[ZoneInfo40]
+; EN: LocationName="Core entrance"
+LocationName="Entrada del nucli"
+
+[ZoneInfo41]
+; EN: LocationName="Core exterior"
+LocationName="Exterior del nucli"
+
+[ZoneInfo42]
+; EN: LocationName="Core bridge passage left"
+LocationName="Pas del pont central a l'esquerra"
+
+[ZoneInfo43]
+; EN: LocationName="Gravity engine room #1"
+LocationName="Sala de màquines de gravetat #1"
+
+[ZoneInfo44]
+; EN: LocationName="Gravity engine hallway left"
+LocationName="Passadís del motor de gravetat a l'esquerra"
+
+[ZoneInfo45]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Passadís del motor de gravetat a la dreta"
+
+[ZoneInfo46]
+; EN: LocationName="Gravity engine room #2"
+LocationName="Sala de màquines de gravetat #2"
+
+[ZoneInfo47]
+; EN: LocationName="Core bridge passage right"
+LocationName="Pas del pont del nucli a la dreta"
+
+[ZoneInfo48]
+; EN: LocationName="Core bridge passage right"
+LocationName="Pas del pont del nucli a la dreta"
+
+[ZoneInfo49]
+; EN: LocationName="Cargo hull"
+LocationName="Casc de càrrega"
+
+[ZoneInfo5]
+; EN: LocationName="Energy generator #1"
+LocationName="Generador d'energia #1"
+
+[ZoneInfo50]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Passadís del casc de càrrega"
+
+[ZoneInfo51]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Passadís del motor de gravetat a la dreta"
+
+[ZoneInfo52]
+; EN: LocationName="Core bridge passage left"
+LocationName="Pas del pont central a l'esquerra"
+
+[ZoneInfo53]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Passadís del motor de gravetat a la dreta"
+
+[ZoneInfo54]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Passadís del motor de gravetat a la dreta"
+
+[ZoneInfo55]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Passadís del casc de càrrega"
+
+[ZoneInfo6]
+; EN: LocationName="Landing bay"
+LocationName="Badia d'aterratge"
+
+[ZoneInfo7]
+; EN: LocationName="landing bay"
+LocationName="badia d'aterratge"
+
+[ZoneInfo8]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Badia de desembarcament del defensor"
+
+[ZoneInfo9]
+; EN: LocationName="Left shaft"
+LocationName="Eix esquerre"
+

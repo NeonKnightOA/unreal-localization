@@ -1,0 +1,79 @@
+[DamTypeIonTankBlast]
+; EN: DeathString="%o was OBLITERATED by %k"
+DeathString="%o-t %k TÖRÖLT"
+; EN: FemaleSuicide="%o was OBLITERATED"
+FemaleSuicide="%o TÖRLÉSRE került"
+; EN: MaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o TÖRLÉSRE került"
+
+[DamTypeMASCannon]
+; EN: DeathString="%o was VAPORIZED by %k!"
+DeathString="%o elpárologtatott %k által!"
+; EN: FemaleSuicide="%o was VAPORIZED!"
+FemaleSuicide="%o elpárolgott!"
+; EN: MaleSuicide="%o was VAPORIZED!"
+MaleSuicide="%o elpárolgott!"
+
+[DamTypeMASPlasma]
+; EN: DeathString="%k's Leviathan turret plasmanated %o."
+DeathString="%k Leviathan tornya plazmázta %o."
+; EN: FemaleSuicide="%o wasted herself."
+FemaleSuicide="%o elpazarolta magát."
+; EN: MaleSuicide="%o wasted himself."
+MaleSuicide="%o elpazarolta magát."
+
+[MutVehicleArena]
+; EN: ArenaDisplayText="Arena Vehicle"
+ArenaDisplayText="Aréna jármű"
+; EN: ArenaDescText="Determines which vehicle type will be used in the match."
+ArenaDescText="Meghatározza, hogy melyik járműtípust használják a mérkőzésen."
+; EN: FriendlyName="Vehicle Arena"
+FriendlyName="Jármű Aréna"
+; EN: Description="Replace all vehicles in map with a particular type."
+Description="Cserélje le az összes járművet a térképen egy adott típusra."
+
+[ONSBomber]
+; EN: VehiclePositionString="in a DragonFly"
+VehiclePositionString="egy DragonFly-ben"
+; EN: VehicleNameString="DragonFly"
+VehicleNameString="Szitakötő"
+
+[ONSGenericSD]
+; EN: VehiclePositionString="indisposed"
+VehiclePositionString="indiszponált"
+VehicleNameString="TC-1200"
+
+[ONSHoverTank_IonPlasma]
+; EN: VehiclePositionString="in an Ion Plasma Tank"
+VehiclePositionString="egy ion plazmatartályban"
+; EN: VehicleNameString="Ion Plasma Tank"
+VehicleNameString="Ion plazma tartály"
+
+[ONSMASSideGunPawn]
+; EN: VehiclePositionString="in a Leviathan turret"
+VehiclePositionString="egy Leviathan toronyban"
+; EN: VehicleNameString="Leviathan Turret"
+VehicleNameString="Leviathan Torony"
+
+[ONSMobileAssaultStation]
+; EN: VehiclePositionString="in a Leviathan"
+VehiclePositionString="egy Leviathanban"
+; EN: VehicleNameString="Leviathan"
+VehicleNameString="Leviatán"
+
+[ONSPainter]
+; EN: Description="The Target Painter, similar to the Ion Painter, fires a harmless, low power laser with its primary fire. Unlike the Ion Painter, however, this weapon calls in a bomber that launches a string of bombs in the direction the user is facing, centered on the painted target. The bombs will easily incinerate the target and any unfortunates that happen to be nearby."
+Description="A Target Painter, hasonlóan az Ion Painterhez, egy ártalmatlan, kis teljesítményű lézert lő ki elsődleges tüzével. Az Ion Painterrel ellentétben azonban ez a fegyver egy bombázót hív be, amely egy sor bombát indít a felhasználó felé, középen a festett célponton. A bombák könnyen elégetik a célpontot és a közelben lévő szerencsétleneket."
+; EN: ItemName="Target Painter"
+ItemName="Célfestő"
+
+[ONSPainterPickup]
+; EN: PickupMessage="You got the Target Painter."
+PickupMessage="Megvan a Target Painter."
+
+[ONSTankSecondaryTurretPawn_IonPlasma]
+; EN: VehiclePositionString="in an Ion Tank turret"
+VehiclePositionString="egy Ion Tank toronyban"
+; EN: VehicleNameString="Ion Tank Minigun Turret"
+VehicleNameString="Ion tank minigun torony"
+

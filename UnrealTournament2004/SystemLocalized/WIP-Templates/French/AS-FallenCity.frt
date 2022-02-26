@@ -1,11 +1,14 @@
 [ASCriticalObjectiveVolume2]
-LocationName="Subway station entrance"
+; EN: LocationName="Subway station entrance"
+LocationName="entrée de la station de métro"
 
 [ASCriticalObjectiveVolume3]
-LocationName="Subway train"
+; EN: LocationName="Subway train"
+LocationName="Métro"
 
 [ASCriticalObjectiveVolume4]
-LocationName="Boarding station"
+; EN: LocationName="Boarding station"
+LocationName="Gare d'embarquement"
 
 [Action_DISPLAYMESSAGE0]
 Message="5..."
@@ -23,114 +26,166 @@ Message="2..."
 Message="1..."
 
 [DestroyableObjective_SM0]
-ObjectiveName="Gate Lock"
-DestructionMessage="Gate Lock Destroyed!"
-ObjectiveDescription="Destroy the gate Lock"
-Objective_Info_Attacker="Destroy Gate Lock"
-Objective_Info_Defender="Defend Gate Lock"
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Serrure de porte"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Serrure de porte détruite !"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Détruire le verrou de la porte"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Détruire la serrure de la porte"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Défendre la serrure de la porte"
 
 [DestroyableObjective_SM1]
 ObjectiveName="barricade"
-DestructionMessage="barricade destroyed!"
-ObjectiveDescription="Destroy the barricade"
-Objective_Info_Attacker="Destroy barricade"
-Objective_Info_Defender="Defend barricade"
+; EN: DestructionMessage="barricade destroyed!"
+DestructionMessage="barricade détruite !"
+; EN: ObjectiveDescription="Destroy the barricade"
+ObjectiveDescription="Détruire la barricade"
+; EN: Objective_Info_Attacker="Destroy barricade"
+Objective_Info_Attacker="Détruire la barricade"
+; EN: Objective_Info_Defender="Defend barricade"
+Objective_Info_Defender="Défendre la barricade"
 
 [DestroyableObjective_SM2]
-ObjectiveName="Gate Lock"
-DestructionMessage="Gate Lock Destroyed!"
-ObjectiveDescription="Destroy the gate Lock"
-Objective_Info_Attacker="Destroy Gate Lock"
-Objective_Info_Defender="Defend Gate Lock"
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Serrure de porte"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Serrure de porte détruite !"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Détruire le verrou de la porte"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Détruire la serrure de la porte"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Défendre la serrure de la porte"
 
 [HoldObjective0]
-ObjectiveName="Explosive #2"
-DestructionMessage="The explosives are in place!"
-ObjectiveDescription="Plant an explosive"
-Objective_Info_Attacker="Destroy Command Center"
-Objective_Info_Defender="Defend Command Center"
+; EN: ObjectiveName="Explosive #2"
+ObjectiveName="Explosif #2"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Les explosifs sont en place !"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Planter un explosif"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Détruire le centre de commandement"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Défendre le centre de commandement"
 
 [HoldObjective1]
-ObjectiveName="Forward outpost"
-DestructionMessage="Forward outpost taken!"
-ObjectiveDescription="Take the forward outpost "
-Objective_Info_Attacker="Secure forward outpost"
-Objective_Info_Defender="Defend forward outpost"
+; EN: ObjectiveName="Forward outpost"
+ObjectiveName="Avant-poste avancé"
+; EN: DestructionMessage="Forward outpost taken!"
+DestructionMessage="Avant-poste avancé pris !"
+; EN: ObjectiveDescription="Take the forward outpost "
+ObjectiveDescription="Prendre l'avant-poste "
+; EN: Objective_Info_Attacker="Secure forward outpost"
+Objective_Info_Attacker="Avant-poste avancé sécurisé"
+; EN: Objective_Info_Defender="Defend forward outpost"
+Objective_Info_Defender="Défendre l'avant-poste"
 
 [HoldObjective2]
-ObjectiveName="Explosive #1"
-DestructionMessage="The explosives are in place!"
-ObjectiveDescription="Plant an explosive"
-Objective_Info_Attacker="Destroy Command Center"
-Objective_Info_Defender="Defend Command Center"
+; EN: ObjectiveName="Explosive #1"
+ObjectiveName="Explosif #1"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Les explosifs sont en place !"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Planter un explosif"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Détruire le centre de commandement"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Défendre le centre de commandement"
 
 [LevelInfo0]
-Title="The Fallen City"
+; EN: Title="The Fallen City"
+Title="La ville déchue"
 
 [LevelSummary]
-Title="The Fallen City"
-Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+; EN: Title="The Fallen City"
+Title="La ville déchue"
+; EN: Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+Description="Après la guerre entre les humains et les Skaarj, de nombreuses villes de la Terre étaient en ruines. Lorsque le gouvernement de la Nouvelle Terre a tenté d'affirmer son autorité sur ces zones, il a été confronté à de nombreux groupes rebelles, souvent financés secrètement par les grandes sociétés, qui avaient établi des bases dans les villes détruites. Ce scénario recrée la destruction d'un centre de commandement rebelle par les forces du NEG. Conformément à la bataille historique, le point d'insertion de l'attaquant est éloigné du centre de commandement, en raison de la lourde protection anti-aérienne autour du bunker."
 
 [SceneSubtitles1]
 SubTitles=("Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas,","they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities.","This scenario recreates the destruction of a rebel command center by NEG forces. ","In keeping with the historical battle, the attackers' insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker. ","The attackers must first make their way through the streets on foot and clear out any resistance they find. They must destroy the barricade in order to proceed to the next objective.","Next, they must take out the forward outpost. When the area is clear, a shipment of heavier cargo will be dropped in to help you proceed.","The defenders are nestled deep within this hardened bunker. You will have to bypass the defenses and infiltrate the bunker to reach their command center.","Reach the underground command center and place explosives to destroy the entire base. This should bring the resistance to its knees.")
 
 [Trigger_ASMessageTrigger0]
-Message="Bunker infiltrated!"
+; EN: Message="Bunker infiltrated!"
+Message="Bunker infiltré !"
 
 [Trigger_ASMessageTrigger2]
-Message="Command center destroyed!"
+; EN: Message="Command center destroyed!"
+Message="Centre de commandement détruit !"
 
 [Trigger_ASMessageTrigger3]
-Message="Explosives Set!!!"
+; EN: Message="Explosives Set!!!"
+Message="Ensemble d'explosifs !!!"
 
 [Volume0]
-LocationName="Forward outpost"
+; EN: LocationName="Forward outpost"
+LocationName="Avant-poste avancé"
 
 [Volume1]
-LocationName="Attackers drop zone"
+; EN: LocationName="Attackers drop zone"
+LocationName="Zone de largage des attaquants"
 
 [Volume10]
-LocationName="Stairs"
+; EN: LocationName="Stairs"
+LocationName="Escaliers"
 
 [Volume11]
-LocationName="Subway station lobby"
+; EN: LocationName="Subway station lobby"
+LocationName="Hall de la station de métro"
 
 [Volume12]
-LocationName="Station roof"
+; EN: LocationName="Station roof"
+LocationName="Toit de la gare"
 
 [Volume13]
-LocationName="Vents"
+; EN: LocationName="Vents"
+LocationName="Évents"
 
 [Volume14]
-LocationName="Subway train"
+; EN: LocationName="Subway train"
+LocationName="Métro"
 
 [Volume15]
-LocationName="Subway tracks"
+; EN: LocationName="Subway tracks"
+LocationName="Voies de métro"
 
 [Volume2]
-LocationName="Rebel look out"
+; EN: LocationName="Rebel look out"
+LocationName="Rebelle attention"
 
 [Volume3]
-LocationName="Caudle Ave."
+; EN: LocationName="Caudle Ave."
+LocationName="Avenue Caudle."
 
 [Volume4]
-LocationName="Attackers drop zone"
+; EN: LocationName="Attackers drop zone"
+LocationName="Zone de largage des attaquants"
 
 [Volume5]
-LocationName="Boarding station"
+; EN: LocationName="Boarding station"
+LocationName="Gare d'embarquement"
 
 [Volume6]
-LocationName="Statue pass"
+; EN: LocationName="Statue pass"
+LocationName="laissez-passer pour les statues"
 
 [Volume7]
-LocationName="Statue pass"
+; EN: LocationName="Statue pass"
+LocationName="laissez-passer pour les statues"
 
 [Volume8]
-LocationName="Roman path way"
+; EN: LocationName="Roman path way"
+LocationName="voie romaine"
 
 [Volume9]
-LocationName="Subway ticket stand"
+; EN: LocationName="Subway ticket stand"
+LocationName="Billetterie de métro"
 
 [ZoneInfo0]
-LocationName="Destroyed city"
+; EN: LocationName="Destroyed city"
+LocationName="Ville détruite"
 

@@ -1,90 +1,120 @@
 [LevelInfo0]
-Title="Orbital2"
+; EN: Title="Orbital2"
+Title="Orbitale2"
 
 [LevelSummary]
-Title="Orbital2"
+; EN: Title="Orbital2"
+Title="Orbitale2"
 
 [ZoneInfo0]
-LocationName="Blue Flag Room"
+; EN: LocationName="Blue Flag Room"
+LocationName="Chambre Pavillon Bleu"
 
 [ZoneInfo1]
-LocationName="Blue Flag Room"
+; EN: LocationName="Blue Flag Room"
+LocationName="Chambre Pavillon Bleu"
 
 [ZoneInfo10]
-LocationName="Middle Room"
+; EN: LocationName="Middle Room"
+LocationName="Chambre du Milieu"
 
 [ZoneInfo11]
-LocationName="Blue Minigun Halls"
+; EN: LocationName="Blue Minigun Halls"
+LocationName="Salles de minigun bleu"
 
 [ZoneInfo12]
-LocationName="Blue Lower Halls"
+; EN: LocationName="Blue Lower Halls"
+LocationName="Salles Inférieures Bleues"
 
 [ZoneInfo13]
-LocationName="Blue Upper Halls"
+; EN: LocationName="Blue Upper Halls"
+LocationName="Salles Supérieures Bleues"
 
 [ZoneInfo14]
-LocationName="Blue Lower Halls"
+; EN: LocationName="Blue Lower Halls"
+LocationName="Salles Inférieures Bleues"
 
 [ZoneInfo15]
-LocationName="Red Linkgun Hall"
+; EN: LocationName="Red Linkgun Hall"
+LocationName="Salle de Linkgun rouge"
 
 [ZoneInfo16]
-LocationName="Red Upper Halls"
+; EN: LocationName="Red Upper Halls"
+LocationName="Salles Supérieures Rouges"
 
 [ZoneInfo17]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Chambre Drapeau Rouge"
 
 [ZoneInfo18]
-LocationName="Red Upper Halls"
+; EN: LocationName="Red Upper Halls"
+LocationName="Salles Supérieures Rouges"
 
 [ZoneInfo19]
-LocationName="Red Flak Room"
+; EN: LocationName="Red Flak Room"
+LocationName="Chambre Rouge Flak"
 
 [ZoneInfo2]
-LocationName="Blue Flag Room"
+; EN: LocationName="Blue Flag Room"
+LocationName="Chambre Pavillon Bleu"
 
 [ZoneInfo20]
-LocationName="Red Lower Halls"
+; EN: LocationName="Red Lower Halls"
+LocationName="Salles inférieures rouges"
 
 [ZoneInfo21]
-LocationName="Red Minigun Halls"
+; EN: LocationName="Red Minigun Halls"
+LocationName="Salles de minigun rouges"
 
 [ZoneInfo22]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Chambre Drapeau Rouge"
 
 [ZoneInfo23]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Chambre Drapeau Rouge"
 
 [ZoneInfo24]
-LocationName="Red Flag Room"
+; EN: LocationName="Red Flag Room"
+LocationName="Chambre Drapeau Rouge"
 
 [ZoneInfo25]
-LocationName="Red Lower Halls"
+; EN: LocationName="Red Lower Halls"
+LocationName="Salles inférieures rouges"
 
 [ZoneInfo26]
-LocationName="Red Upper Halls"
+; EN: LocationName="Red Upper Halls"
+LocationName="Salles Supérieures Rouges"
 
 [ZoneInfo27]
-LocationName="Red Minigun Halls"
+; EN: LocationName="Red Minigun Halls"
+LocationName="Salles de minigun rouges"
 
 [ZoneInfo3]
-LocationName="Blue Flag Room"
+; EN: LocationName="Blue Flag Room"
+LocationName="Chambre Pavillon Bleu"
 
 [ZoneInfo4]
-LocationName="Middle Room"
+; EN: LocationName="Middle Room"
+LocationName="Chambre du Milieu"
 
 [ZoneInfo5]
-LocationName="Blue Upper Halls"
+; EN: LocationName="Blue Upper Halls"
+LocationName="Salles Supérieures Bleues"
 
 [ZoneInfo6]
-LocationName="Blue Flak Room"
+; EN: LocationName="Blue Flak Room"
+LocationName="Chambre Bleue Flak"
 
 [ZoneInfo7]
-LocationName="Blue Minigun Halls"
+; EN: LocationName="Blue Minigun Halls"
+LocationName="Salles de minigun bleu"
 
 [ZoneInfo8]
-LocationName="Blue Upper Halls"
+; EN: LocationName="Blue Upper Halls"
+LocationName="Salles Supérieures Bleues"
 
 [ZoneInfo9]
-LocationName="Blue Upper Halls"
+; EN: LocationName="Blue Upper Halls"
+LocationName="Salles Supérieures Bleues"
 

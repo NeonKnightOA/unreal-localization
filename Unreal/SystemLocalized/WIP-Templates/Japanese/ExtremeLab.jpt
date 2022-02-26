@@ -1,0 +1,99 @@
+﻿[LevelInfo0]
+; EN: Title="MotherShip Lab"
+Title="マザーシップラボ"
+; EN: LevelEntryText="Entering the MotherShip Lab"
+LevelEntryText="マザーシップラボに入る"
+
+[LevelSummary]
+; EN: Title="MotherShip Lab"
+Title="マザーシップラボ"
+; EN: LevelEntryText="Entering the MotherShip Lab"
+LevelEntryText="マザーシップラボに入る"
+
+[TranslatorEvent0]
+; EN: AltMessage="Primary Power Supply is operating at peak efficiency. Auxilliary Power Supply operational at 80% output. Activating the Alternate Power Supply for the Security Force Fields is imperative. Weakness shall be punished."
+AltMessage="一次電源装置は最高の効率で動作しています。補助電源は80％の出力で動作します。治安部隊のフィールドの代替電源をアクティブにすることが不可欠です。弱さは罰せられる。"
+
+[TranslatorEvent3]
+; EN: Message="Intruder detected. Protect the Source at any cost. Intruder must be halted before penetrating the Source's defensive perimeter."
+Message="侵入者が検出されました。どんな犠牲を払ってもソースを保護します。ソースの防御境界に侵入する前に、侵入者を停止する必要があります。"
+
+[TranslatorEvent2]
+; EN: Message="Security personnel report to deployment zones around the Detention Block until APS back online. All detainees must be contained."
+Message="セキュリティ担当者は、APSがオンラインに戻るまで、拘留ブロック周辺の展開ゾーンに報告します。すべての被拘禁者は封じ込められなければなりません。"
+
+[TranslatorEvent19]
+; EN: Message="Research Center"
+Message="リサーチセンター"
+
+[TranslatorEvent18]
+; EN: Message="Energy Department"
+Message="エネルギー省"
+
+[TranslatorEvent24]
+; EN: AltMessage="Cryo Pods Status: Temperature at 269 degrees Kelvin, Pressure at 748 millibars, subjects are prepared for experiment commencement."
+AltMessage="クライオポッドの状態：269度ケルビンの温度、748ミリバールの圧力、被験者は実験開始の準備ができています。"
+
+[TranslatorEvent26]
+; EN: Message="Power Reserve at 100%, Shielding effect at 0.0025%. EEG/EKG readings are normal, physiological state is cryogenised."
+Message="パワーリザーブは100％、シールド効果は0.0025％。 EEG / EKGの測定値は正常であり、生理学的状態は凍結されています。"
+; EN: AltMessage="Power Reserve at 80%, Shielding effect at 5.64%, EEG/EKG readings showing massive disturbances, physiological state is active and endorphin/adrenal systems are producing hormonal overloads."
+AltMessage="パワーリザーブ80％、シールド効果5.64％、EEG / EKG読み取り値は大規模な障害を示し、生理学的状態はアクティブであり、エンドルフィン/副腎系はホルモン過負荷を引き起こしています。"
+
+[TranslatorEvent25]
+; EN: AltMessage="All the test subjects have been placed in the Detention Area. The force fields are keeping them confined and unshielded. All subjects continue to exhibit extremely aggressive behaviour when not in carefully tuned magnetic fields."
+AltMessage="すべての被験者は、拘留エリアに配置されました。力の場はそれらを閉じ込められ、シールドされていない状態に保ちます。注意深く調整された磁場にないとき、すべての被験者は非常に攻撃的な行動を示し続けます。"
+
+[TranslatorEvent1]
+; EN: AltMessage="Energy supply for the Source is secured, Alternate Power Supply operational. Maintaining energy flow to the Source is highest priority. Weakness shall be punished."
+AltMessage="ソースへのエネルギー供給は確保されており、代替電源が動作しています。ソースへのエネルギーの流れを維持することが最優先事項です。弱さは罰せられる。"
+
+[TranslatorEvent7]
+; EN: Message="ACCESS DENIED: Power Reserves at 100%."
+Message="アクセスが拒否されました：100％のパワーリザーブ。"
+; EN: Hint="You need to go the the Research Lab to lower the Energy level."
+Hint="エネルギーレベルを下げるには、研究所に行く必要があります。"
+
+[TranslatorEvent21]
+; EN: Message="Research Center"
+Message="リサーチセンター"
+
+[TranslatorEvent22]
+; EN: Message="Report 190: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji observing. We are ready for the next experiment. We expect an 18% drop in Power Reserves from 100% levels. The test subject is in place and the Tarydium is prepared for charging."
+Message="レポート190：Shrk'Tajji 2nd Lesser Eye of Ess'Tajji観察。次の実験の準備ができています。パワーリザーブは100％レベルから18％減少すると予想されます。被験者は所定の位置にあり、Tarydiumは充電の準備ができています。"
+
+[TranslatorEvent20]
+; EN: Message="Genetic Department"
+Message="遺伝学部"
+
+[TranslatorEvent14]
+; EN: AltMessage="Security Orders: Intruder detected in MotherShip, all experiments are suspended on orders of Chakti'Nrrj 2nd Great Talon of Ssa'Nrrj until further notice. Power Reserves must be at 100% for optimal security system operation."
+AltMessage="セキュリティ命令：MotherShipで侵入者が検出されました。すべての実験は、追って通知があるまで、Ssa'NrrjのChakti'Nrrj 2nd GreatTalonの命令で中断されます。セキュリティシステムを最適に動作させるには、パワーリザーブを100％にする必要があります。"
+
+[TranslatorEvent15]
+; EN: AltMessage="Report 187: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. Despite the failure in our previous tests on the shielding effect, the test subjects' cells are showing some residual effects. Very interesting..."
+AltMessage="レポート187：Shrk'Tajji 2nd Lesser Eye ofEss'Tajjiレポート。シールド効果に関する以前のテストでは失敗しましたが、被験者の細胞にはいくつかの残留効果が見られます。とても興味深い..."
+
+[TranslatorEvent16]
+; EN: AltMessage="Report 189: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. After cross-analysis of the test results on all subects, we've reached the conclusion that the Core Generator's magnetic field is probably the cause of the failures."
+AltMessage="レポート189：Shrk'Tajji 2nd Lesser Eye ofEss'Tajjiレポート。すべてのサブセクトのテスト結果を相互分析した結果、コアジェネレータの磁場がおそらく障害の原因であるという結論に達しました。"
+
+[TranslatorEvent17]
+; EN: AltMessage="Report 188: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. Studies on the test subjects' cells are showing persistent shielding, with minor fluctuations in reflectivity. Strangely these are all perfectly synchronized."
+AltMessage="レポート188：Shrk'Tajji 2nd Lesser Eye ofEss'Tajjiレポート。被験者の細胞に関する研究では、反射率にわずかな変動があり、持続的なシールドが示されています。不思議なことに、これらはすべて完全に同期されています。"
+
+[TranslatorEvent23]
+; EN: AltMessage="If the experiment is successful we'll look into moving the Research Center to Site B where we'll be shielded from the magnetic field of the Core Generator. If we're successful we'll reach the green level or even blue."
+AltMessage="実験が成功した場合は、研究センターをサイトBに移動して、コアジェネレーターの磁場からシールドすることを検討します。成功すれば、緑のレベル、さらには青に到達します。"
+
+[TranslatorEvent6]
+; EN: Message="ACCESS DENIED"
+Message="アクセスが拒否されました"
+
+[TranslatorEvent5]
+; EN: Message="Experimentation Facility"
+Message="実験施設"
+
+[TranslatorEvent4]
+; EN: AltMessage="Report 190: We're ready for the next experiment, the subject is positionned properly and the Primary Generator Power will be reduced to 80%. The subject should barely be affected, the expected energy level is characterised by an orange color."
+AltMessage="レポート190：次の実験の準備が整いました。被験者は適切に配置され、一次発電機の電力は80％に減少します。被験者はほとんど影響を受けないはずです。期待されるエネルギーレベルはオレンジ色で特徴づけられます。"

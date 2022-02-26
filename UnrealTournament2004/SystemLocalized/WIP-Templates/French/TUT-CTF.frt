@@ -1,6 +1,8 @@
 [LevelInfo0]
-Title="CTF Tutorial"
+; EN: Title="CTF Tutorial"
+Title="Tutoriel CTF"
 
 [LevelSummary]
-Title="CTF Tutorial"
+; EN: Title="CTF Tutorial"
+Title="Tutoriel CTF"
 

@@ -5,83 +5,110 @@ Title="Chrome"
 Title="Chrome"
 
 [ZoneInfo0]
-LocationName="Blue Generator"
+; EN: LocationName="Blue Generator"
+LocationName="Générateur bleu"
 
 [ZoneInfo1]
-LocationName="Blue Base"
+; EN: LocationName="Blue Base"
+LocationName="Base bleue"
 
 [ZoneInfo10]
-LocationName="Red Spawn"
+; EN: LocationName="Red Spawn"
+LocationName="Spawn rouge"
 
 [ZoneInfo11]
-LocationName="Blue Entry"
+; EN: LocationName="Blue Entry"
+LocationName="Entrée bleue"
 
 [ZoneInfo12]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo13]
-LocationName="Red Generator"
+; EN: LocationName="Red Generator"
+LocationName="Générateur rouge"
 
 [ZoneInfo14]
-LocationName="Red Generator"
+; EN: LocationName="Red Generator"
+LocationName="Générateur rouge"
 
 [ZoneInfo15]
-LocationName="Red Generator"
+; EN: LocationName="Red Generator"
+LocationName="Générateur rouge"
 
 [ZoneInfo16]
-LocationName="Red Entry"
+; EN: LocationName="Red Entry"
+LocationName="Entrée rouge"
 
 [ZoneInfo17]
-LocationName="Red Entry"
+; EN: LocationName="Red Entry"
+LocationName="Entrée rouge"
 
 [ZoneInfo18]
-LocationName="Red Entry"
+; EN: LocationName="Red Entry"
+LocationName="Entrée rouge"
 
 [ZoneInfo20]
-LocationName="Blue Spawn"
+; EN: LocationName="Blue Spawn"
+LocationName="Spawn bleu"
 
 [ZoneInfo21]
-LocationName="Blue Spawn"
+; EN: LocationName="Blue Spawn"
+LocationName="Spawn bleu"
 
 [ZoneInfo22]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo23]
-LocationName="Red Generator"
+; EN: LocationName="Red Generator"
+LocationName="Générateur rouge"
 
 [ZoneInfo24]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo25]
-LocationName="Blue Entry"
+; EN: LocationName="Blue Entry"
+LocationName="Entrée bleue"
 
 [ZoneInfo26]
-LocationName="Blue Entry"
+; EN: LocationName="Blue Entry"
+LocationName="Entrée bleue"
 
 [ZoneInfo27]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo28]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo3]
-LocationName="Blue Generator"
+; EN: LocationName="Blue Generator"
+LocationName="Générateur bleu"
 
 [ZoneInfo4]
-LocationName="Red Entry"
+; EN: LocationName="Red Entry"
+LocationName="Entrée rouge"
 
 [ZoneInfo5]
-LocationName="Blue Entry"
+; EN: LocationName="Blue Entry"
+LocationName="Entrée bleue"
 
 [ZoneInfo6]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo7]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 
 [ZoneInfo8]
-LocationName="Red Spawn"
+; EN: LocationName="Red Spawn"
+LocationName="Spawn rouge"
 
 [ZoneInfo9]
-LocationName="Middle"
+; EN: LocationName="Middle"
+LocationName="Milieu"
 

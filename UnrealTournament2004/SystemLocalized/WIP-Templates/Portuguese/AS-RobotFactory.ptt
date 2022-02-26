@@ -1,0 +1,248 @@
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Aligning dish ..."
+Message="Alinhando prato ..."
+
+[Action_DISPLAYMESSAGE1]
+; EN: Message="Blast doors open in..."
+Message="As portas de explosão abrem em ..."
+
+[Action_DISPLAYMESSAGE2]
+; EN: Message="... 3 seconds ..."
+Message="... 3 segundos ..."
+
+[Action_DISPLAYMESSAGE3]
+; EN: Message="... 2 seconds ..."
+Message="... 2 segundos ..."
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="... 1 second ..."
+Message="... 1 segundo ..."
+
+[Action_DISPLAYMESSAGE5]
+; EN: Message="... signal received"
+Message="... sinal recebido"
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="...3 seconds..."
+Message="...3 segundos..."
+
+[Action_DISPLAYMESSAGE7]
+; EN: Message="...2 seconds..."
+Message="...2 segundos..."
+
+[Action_DISPLAYMESSAGE8]
+; EN: Message="...1 second..."
+Message="...1 segundo..."
+
+[Action_DISPLAYMESSAGE9]
+; EN: Message="Blast doors opening!"
+Message="Portas explosivas abrindo!"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Outer defenses breached!"
+DestructionMessage="Defesas externas violadas!"
+; EN: ObjectiveDescription="Destroy the gate"
+ObjectiveDescription="Destrua o portão"
+; EN: Objective_Info_Attacker="Destroy the gate"
+Objective_Info_Attacker="Destrua o portão"
+; EN: Objective_Info_Defender="Defend the main gate"
+Objective_Info_Defender="Defenda o portão principal"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Data Cables"
+ObjectiveName="Cabos de Dados"
+; EN: DestructionMessage="Data Cables Cut!"
+DestructionMessage="Corte de cabos de dados!"
+; EN: ObjectiveDescription="Cut the Data Cables"
+ObjectiveDescription="Corte os cabos de dados"
+; EN: Objective_Info_Attacker="Cut the Data Cables"
+Objective_Info_Attacker="Corte os cabos de dados"
+; EN: Objective_Info_Defender="Defend the data cables"
+Objective_Info_Defender="Defenda os cabos de dados"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Shield Component 1"
+ObjectiveName="Componente de escudo 1"
+; EN: DestructionMessage="Shield generator destroyed!"
+DestructionMessage="Gerador de escudo destruído!"
+; EN: ObjectiveDescription="Shatter the shield nexus"
+ObjectiveDescription="Quebrar o nexo do escudo"
+; EN: Objective_Info_Attacker="Destroy shield component"
+Objective_Info_Attacker="Destrua o componente do escudo"
+; EN: Objective_Info_Defender="Defend the shield nexus"
+Objective_Info_Defender="Defenda o nexo do escudo"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Shield Component 3"
+ObjectiveName="Componente de blindagem 3"
+; EN: DestructionMessage="Shield generator destroyed!"
+DestructionMessage="Gerador de escudo destruído!"
+; EN: ObjectiveDescription="Shatter the shield nexus"
+ObjectiveDescription="Quebrar o nexo do escudo"
+; EN: Objective_Info_Attacker="Destroy shield component"
+Objective_Info_Attacker="Destrua o componente do escudo"
+; EN: Objective_Info_Defender="Defend the shield nexus"
+Objective_Info_Defender="Defenda o nexo do escudo"
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Shield Component 2"
+ObjectiveName="Componente de blindagem 2"
+; EN: DestructionMessage="Shield generator destroyed!"
+DestructionMessage="Gerador de escudo destruído!"
+; EN: ObjectiveDescription="Shatter the shield nexus"
+ObjectiveDescription="Quebrar o nexo do escudo"
+; EN: Objective_Info_Attacker="Destroy shield component"
+Objective_Info_Attacker="Destrua o componente do escudo"
+; EN: Objective_Info_Defender="Defend the shield nexus"
+Objective_Info_Defender="Defenda o nexo do escudo"
+
+[DestroyableObjective_SM5]
+ObjectiveName="AI Generator"
+; EN: DestructionMessage="AI generator destroyed!"
+DestructionMessage="Gerador de IA destruído!"
+; EN: ObjectiveDescription="Destroy the AI generator"
+ObjectiveDescription="Destrua o gerador de IA"
+; EN: Objective_Info_Attacker="Destroy the AI generator"
+Objective_Info_Attacker="Destrua o gerador de IA"
+; EN: Objective_Info_Defender="Defend the AI generator"
+Objective_Info_Defender="Defenda o gerador de IA"
+
+[HoldObjective2]
+ObjectiveName="teleporter_activation"
+; EN: DestructionMessage="Attackers' new spawn location ready"
+DestructionMessage="Novo local de desova dos atacantes pronto"
+; EN: ObjectiveDescription="Align the satellite dish"
+ObjectiveDescription="Alinhe a antena parabólica"
+; EN: Objective_Info_Attacker="Align the satellite dish"
+Objective_Info_Attacker="Alinhe a antena parabólica"
+; EN: Objective_Info_Defender="Defend the satellite controls"
+Objective_Info_Defender="Defenda os controles do satélite"
+
+[LevelInfo0]
+Title="Robot Factory"
+
+[LevelSummary]
+Title="Robot Factory"
+; EN: Description="This scenario is a recreation of the Liandri robot uprising on the mechanical asteroid of LBX-7683 and the subsequent quelling of this rebellion by human forces. LBX-7683 was an outpost for research and development of the next generation of Liandri robots. Liandri's best scientists were able to introduce increasingly sophisticated artificial intelligence into the machines that they designed. Eventually, they rebelled against the humans and took the asteroid as their own, brutally disposing of their creators and mining the rich materials embedded within the rock for their own gain. Liandri's commanders devised a plan to strike directly at the production facility manufacturing the robots. During an all-out assault on the world, a small team was inserted with the sole goal of destroying the AI generators, thereby destroying the ability of the machines to reproduce themselves and ending this uprising."
+Description="Este cenário é uma recriação da revolta do robô Liandri no asteróide mecânico de LBX-7683 e a subseqüente supressão dessa rebelião pelas forças humanas. LBX-7683 foi um posto avançado para pesquisa e desenvolvimento da próxima geração de robôs Liandri. Os melhores cientistas de Liandri foram capazes de introduzir inteligência artificial cada vez mais sofisticada nas máquinas que projetaram. Eventualmente, eles se rebelaram contra os humanos e tomaram o asteróide como seu, eliminando brutalmente seus criadores e minerando os ricos materiais embutidos na rocha para seu próprio ganho. Os comandantes de Liandri elaboraram um plano para atacar diretamente nas instalações de produção dos robôs. Durante um ataque total ao mundo, uma pequena equipe foi inserida com o único objetivo de destruir os geradores de IA, destruindo assim a capacidade das máquinas de se reproduzirem e encerrando esta revolta."
+
+[SceneSubtitles0]
+SubTitles=("This scenario is a recreation of the Liandri robot uprising on the mechanical planet of LBX-7683","and the subsequent quelling of this rebellion by human forces.","LBX-7683 was an outpost for research and development of the next generation of Liandri robots.","Liandri's best scientists were able to introduce increasingly sophisticated artificial intelligence into the machines that they designed.","Eventually, they rebelled against the humans and took the planet, and surrounding moons, as their own,","brutally disposing of their creators and mining the rich materials embedded within the rock for their own gain.","Liandri's commanders devised a plan to strike directly at the production facility manufacturing the robots.","During an all-out assault on the world, a small team was inserted with the sole goal of destroying the AI generators,","thereby destroying the ability of the machines to reproduce themselves and ending this uprising.","You have landed near the robot factory's docking and loading facilities.","Your goal is to breach the factory's defenses and destroy the AI generator.","First, you must align the Satellite Dish to contact your HeadQuarters.","Then, destroy the gate that blocks entrance to the factory.",,"Once the Factory has been infiltrated, you must cut the data cables.",,"Shatter the three components of the shield nexus to uncover the AI generator.",,"Destroy the AI generator to stop the Robot production.")
+
+[Volume0]
+; EN: LocationName="Outside the access door"
+LocationName="Fora da porta de acesso"
+
+[Volume1]
+; EN: LocationName="Northern deck"
+LocationName="Convés norte"
+
+[Volume3]
+; EN: LocationName="Attackers' staging area"
+LocationName="Área de preparação de atacantes"
+
+[Volume4]
+; EN: LocationName="Deck control room"
+LocationName="Sala de controle do convés"
+
+[Volume6]
+; EN: LocationName="Southern deck"
+LocationName="Deck sul"
+
+[ZoneInfo0]
+LocationName="AI Generator"
+
+[ZoneInfo1]
+; EN: LocationName="Outside Loading Deck"
+LocationName="Plataforma de carregamento externa"
+
+[ZoneInfo11]
+; EN: LocationName="Packaging chamber"
+LocationName="Câmara de embalagem"
+
+[ZoneInfo12]
+; EN: LocationName="Data transfer hall"
+LocationName="Sala de transferência de dados"
+
+[ZoneInfo13]
+; EN: LocationName="Warehouse"
+LocationName="Armazém"
+
+[ZoneInfo14]
+; EN: LocationName="Generator Control room"
+LocationName="Sala de controle do gerador"
+
+[ZoneInfo15]
+; EN: LocationName="Crusher plant"
+LocationName="Planta de trituração"
+
+[ZoneInfo16]
+; EN: LocationName="Factory entrance"
+LocationName="Entrada da fábrica"
+
+[ZoneInfo18]
+; EN: LocationName="Generator Control room"
+LocationName="Sala de controle do gerador"
+
+[ZoneInfo2]
+; EN: LocationName="AI Conveyor Belts"
+LocationName="Correias transportadoras AI"
+
+[ZoneInfo20]
+; EN: LocationName="Warehouse"
+LocationName="Armazém"
+
+[ZoneInfo21]
+; EN: LocationName="Duct to data transfer hall"
+LocationName="Conduta para a sala de transferência de dados"
+
+[ZoneInfo22]
+; EN: LocationName="Packaging chamber"
+LocationName="Câmara de embalagem"
+
+[ZoneInfo23]
+; EN: LocationName="Packaging chamber"
+LocationName="Câmara de embalagem"
+
+[ZoneInfo24]
+; EN: LocationName="Shield Generator Annex"
+LocationName="Anexo do gerador de escudo"
+
+[ZoneInfo25]
+; EN: LocationName="Data transfer hall"
+LocationName="Sala de transferência de dados"
+
+[ZoneInfo26]
+LocationName="AI Generator"
+
+[ZoneInfo27]
+; EN: LocationName="Crusher plant"
+LocationName="Planta de trituração"
+
+[ZoneInfo28]
+; EN: LocationName="AI Conveyor Belts"
+LocationName="Correias transportadoras AI"
+
+[ZoneInfo3]
+; EN: LocationName="Duct to data transfer hall"
+LocationName="Conduta para a sala de transferência de dados"
+
+[ZoneInfo4]
+; EN: LocationName="Data hub chamber"
+LocationName="Câmara de hub de dados"
+
+[ZoneInfo5]
+; EN: LocationName="Shield generators"
+LocationName="Geradores de escudo"
+
+[ZoneInfo6]
+; EN: LocationName="Deck Control room"
+LocationName="Sala de controle do convés"
+
+[ZoneInfo7]
+LocationName="Cine Forces"
+
+[ZoneInfo9]
+; EN: LocationName="Shield Generator Annex"
+LocationName="Anexo do gerador de escudo"
+

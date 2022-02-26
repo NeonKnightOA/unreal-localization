@@ -1,0 +1,33 @@
+﻿[Setup]
+; EN: LocalProduct="Unreal Tournament"
+LocalProduct="UnrealTournament"
+; EN: DefaultFolder="C:\UnrealTournament"
+DefaultFolder="C：\ UnrealTournament"
+; EN: ReadMe="Help\469ReleaseNotes.pdf"
+ReadMe="Help \ 469ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle="UnrealTournamentのセットアップ"
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle="非現実的なトーナメントオプション"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
+Developer="Epic Games、Inc.-469 by Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+; EN: Logo="Help\Logo.bmp"
+Logo="Help \ Logo.bmp"
+
+[UnrealRequirement]
+; EN: LocalProduct="Unreal Tournament"
+LocalProduct="UnrealTournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.epicgames.com/"
+; EN: Developer="Epic Games, Inc."
+Developer="Epic Games、Inc。"
+DeveloperURL="http://www.epicgames.com/"
+
+[LinuxGroup]
+; EN: Caption="Linux native files"
+Caption="Linuxネイティブファイル"
+; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
+Description="LinuxでUnrealTournamentをネイティブに実行および再生するために必要なすべてのファイルをコピーします。 [詳細オプション]メニューはまだありませんが、すべての設定が記録されており、SystemフォルダーのUnrealTournamentLinux.iniで編集できます。レベルエディタUnrealED2.1は、Linuxではまだ使用できません。ゲームの開始に問題がある場合は、ヘルプディレクトリのリリースノート内に詳細情報とFAQがあります。システムがすべてのライブラリを提供していない場合は、ヘルプフォルダにlin_convenience_libs.7zというパッケージがあり、必要なすべてのファイルが含まれている必要があります。"

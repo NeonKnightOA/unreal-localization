@@ -1,0 +1,39 @@
+﻿[LevelInfo0]
+Title="Terraniux Underground"
+; EN: LevelEntryText="Entering Terraniux Underground"
+LevelEntryText="Terraniux地下に入る"
+
+[LevelSummary]
+Title="Terraniux Underground"
+; EN: LevelEntryText="Entering Terraniux Underground"
+LevelEntryText="Terraniux地下に入る"
+
+[SpecialEvent0]
+; EN: Message="ALERT"
+Message="アラート"
+
+[TranslatorEvent0]
+; EN: Message="Biowaste Flow Control: the Biowaste flow is constant. Monitor it for dangerous fluctuations in viscosity or pressure. The alarm still seems to have problems, in case of malfunction activate the two override controls."
+Message="バイオ廃棄物の流れの制御：バイオ廃棄物の流れは一定です。粘度や圧力の危険な変動がないか監視してください。アラームにはまだ問題があるようです。誤動作した場合は、2つのオーバーライドコントロールをアクティブにします。"
+; EN: AltMessage="Lift activated. All personnel are reminded to complete assigned tasks."
+AltMessage="リフトがアクティブになりました。すべての担当者は、割り当てられたタスクを完了するように通知されます。"
+
+[TranslatorEvent5]
+; EN: Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+Message="排水状況：バイオ廃棄物の流れは公称レベルです。すべてのポンプが作動しています。セクションCは空で、Biowasterオーバーフローに使用できます。定期的な配管メンテナンスを必ず行ってください。"
+
+[TranslatorEvent4]
+; EN: Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Message="セキュリティステータス：侵入者が入り口で検出されました。科学研究所と水耕栽培セクションのセキュリティ画面をアクティブにします。すべてのセキュリティ要素は、セクションA、B、およびCのアクセスポイントの周囲に配置され、Lift1への侵入者のアクセスを拒否します。"
+; EN: Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+Hint="収容室A、B、Cを見つけ、ボタンをアクティブにしてリフト1にアクセスします。"
+
+[TranslatorEvent3]
+; EN: Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+Message="制御室の状態：加圧され、ロックされています。緊急時以外はアクセスしないでください。"
+
+[TranslatorEvent1]
+; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%."
+Message="ポンプ場が作動しており、運転後の予想貯蔵容量：32％。"
+; EN: AltMessage="Section D: 54% of full capacity reached."
+AltMessage="セクションD：全容量の54％に達しました。"

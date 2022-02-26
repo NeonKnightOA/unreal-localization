@@ -1,0 +1,57 @@
+[Public]
+Object=(Name=IpDrv.UpdateServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.MasterServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
+Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
+; EN: Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="TCP / IP em rede",Parent="Networking",Class=IpDrv.TcpNetDriver)
+; EN: Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="Beacon do servidor",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+
+[TcpNetDriver]
+; EN: ClassCaption=TCP/IP Network Play
+ClassCaption=TCP / IP em rede
+
+[UdpBeacon]
+; EN: ClassCaption=Server LAN Beacon
+ClassCaption=Servidor LAN Beacon
+
+[DecompressCommandlet]
+; EN: HelpCmd=decompress
+HelpCmd=descomprimir
+; EN: HelpOneLiner=Decompress a file compressed with ucc compress.
+HelpOneLiner=Descompacte um arquivo compactado com ucc compress.
+; EN: HelpUsage=decompress CompressedFile
+HelpUsage=descompactar CompressedFile
+HelpParm[0]=CompressedFile
+; EN: HelpDesc[0]=The .uz file to decompress.
+HelpDesc[0]=O arquivo .uz para descompactar.
+
+[CompressCommandlet]
+; EN: HelpCmd=compress
+HelpCmd=comprimir
+; EN: HelpOneLiner=Compress an Unreal package for auto-downloading.  A file with extension .uz will be created.
+HelpOneLiner=Compacte um pacote Unreal para download automático. Um arquivo com extensão .uz será criado.
+; EN: HelpUsage=compress File1 [File2 [File3 ...]]
+HelpUsage=compactar Arquivo1 [Arquivo2 [Arquivo3 ...]]
+; EN: HelpParm[0]=Files
+HelpParm[0]=arquivos
+; EN: HelpDesc[0]=The wildcard or file names to compress.
+HelpDesc[0]=Os nomes curinga ou de arquivo a serem compactados.
+
+[MasterServerUplink]
+; EN: MSUPropText[0]="Advertise Server"
+MSUPropText[0]="Anuncie Servidor"
+; EN: MSUPropText[1]="Process Stats"
+MSUPropText[1]="Estatísticas do processo"
+; EN: MSUPropText[2]="Ignore UTAN Bans"
+MSUPropText[2]="Ignorar banimentos UTAN"
+; EN: MSUPropDesc[0]="if true, your server is advertised on the internet server browser."
+MSUPropDesc[0]="se verdadeiro, seu servidor é anunciado no navegador do servidor de Internet."
+; EN: MSUPropDesc[1]="Publishes player stats from your server on the UT2004 stats website."
+MSUPropDesc[1]="Publica estatísticas do jogador de seu servidor no site de estatísticas UT2004."
+; EN: MSUPropDesc[2]="If true, your server will ignore UTAN based bans coming from the master server."
+MSUPropDesc[2]="Se verdadeiro, seu servidor irá ignorar banimentos baseados em UTAN vindos do servidor mestre."
+

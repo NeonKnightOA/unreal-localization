@@ -1,0 +1,34 @@
+[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
+; EN: Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Okna",Parent="Zobrazit",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+; EN: Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Okna",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3d hardware initialization failed"
+Failed3D="Inicializace 3D hardwaru se nezdařila"
+; EN: DDrawMode="DirectDraw was unable to set the requested video mode"
+DDrawMode="DirectDraw nemohl nastavit požadovaný režim videa"
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Perspektivní mapa"
+; EN: ViewXY="Overhead map"
+ViewXY="Nadzemní mapa"
+; EN: ViewXZ="XZ map"
+ViewXZ="mapa XZ"
+; EN: ViewYZ="YZ map"
+ViewYZ="mapa YZ"
+; EN: ViewOther="Viewport"
+ViewOther="Výřez"
+; EN: Color16="&16-bit color"
+Color16="&amp;16bitové barvy"
+; EN: Color32="&32-bit color"
+Color32="&amp;32bitové barvy"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Pokročilé možnosti"
+
+[WindowsClient]
+; EN: ClassCaption="Standard Windows Manager"
+ClassCaption="Standardní správce systému Windows"

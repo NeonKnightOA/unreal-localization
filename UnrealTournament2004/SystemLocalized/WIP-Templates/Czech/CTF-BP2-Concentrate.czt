@@ -1,0 +1,115 @@
+[LevelInfo0]
+; EN: Title="Concentrate"
+Title="Soustřeď se"
+
+[LevelSummary]
+; EN: Title="Concentrate"
+Title="Soustřeď se"
+; EN: Description="On this derelict outpost set deep in the Elorean Seas, there is no escape for the struggling... except through victory.  The only way out is through."
+Description="Na této opuštěné základně zasazené hluboko v Eloreanských mořích není pro bojující žádný únik... leda přes vítězství. Jediná cesta ven je skrz."
+
+[PhysicsVolume0]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume1]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume2]
+LocationName="Blue Spike Pit"
+
+[PhysicsVolume3]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume4]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume5]
+LocationName="Red Spike Pit"
+
+[Volume1]
+; EN: LocationName="Blue Flag Pit"
+LocationName="Jáma s modrou vlajkou"
+
+[Volume10]
+; EN: LocationName="Red Upper Area"
+LocationName="Červená horní oblast"
+
+[Volume11]
+; EN: LocationName="Red Flag Room"
+LocationName="Místnost s červenou vlajkou"
+
+[Volume12]
+; EN: LocationName="Red Spawn Area"
+LocationName="Oblast červeného potěru"
+
+[Volume3]
+; EN: LocationName="Central Area"
+LocationName="Centrální oblast"
+
+[Volume4]
+; EN: LocationName="Blue Upper Area"
+LocationName="Modrá horní oblast"
+
+[Volume5]
+; EN: LocationName="Blue Upper Area"
+LocationName="Modrá horní oblast"
+
+[Volume6]
+; EN: LocationName="Red Flag Room"
+LocationName="Místnost s červenou vlajkou"
+
+[Volume7]
+LocationName="Red Flag Pit"
+
+[Volume8]
+; EN: LocationName="Red Spawn Area"
+LocationName="Oblast červeného potěru"
+
+[Volume9]
+; EN: LocationName="Red Upper Area"
+LocationName="Červená horní oblast"
+
+[ZoneInfo0]
+; EN: LocationName="Somewhere Else"
+LocationName="Někde jinde"
+
+[ZoneInfo1]
+; EN: LocationName="Red Upper Corridor"
+LocationName="Červená horní chodba"
+
+[ZoneInfo2]
+; EN: LocationName="Red Lower Corridor"
+LocationName="Červená dolní chodba"
+
+[ZoneInfo3]
+; EN: LocationName="Blue Lower Corridor"
+LocationName="Modrá dolní chodba"
+
+[ZoneInfo4]
+; EN: LocationName="Blue Upper Corridor"
+LocationName="Modrá horní chodba"
+
+[ZoneInfo5]
+; EN: LocationName="Blue Base"
+LocationName="Modrá základna"
+
+[ZoneInfo6]
+; EN: LocationName="Red Base"
+LocationName="Červená základna"
+
+[fell_nogibs]
+; EN: DeathString="%o was spiked."
+DeathString="%o bylo navýšeno."
+; EN: FemaleSuicide="%o was spiked."
+FemaleSuicide="%o bylo navýšeno."
+; EN: MaleSuicide="%o was spiked."
+MaleSuicide="%o bylo navýšeno."
+
+[fell_nogibs2]
+; EN: DeathString="%o fell off."
+DeathString="%o spadl."
+; EN: FemaleSuicide="%o fell off."
+FemaleSuicide="%o spadl."
+; EN: MaleSuicide="%o fell off."
+MaleSuicide="%o spadl."
+

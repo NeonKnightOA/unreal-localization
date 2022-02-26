@@ -1,40 +1,54 @@
 [LevelInfo0]
-Title="Pistola Battle Grounds"
+; EN: Title="Pistola Battle Grounds"
+Title="Champs de bataille de Pistola"
 
 [LevelSummary]
-Title="Pistola Battle Grounds"
-Description="This twin complex of concrete and metal combines the beauty of nature with the harsh lines of industrial architecture to create a fierce battle arena.  Where is my Pistola?"
+; EN: Title="Pistola Battle Grounds"
+Title="Champs de bataille de Pistola"
+; EN: Description="This twin complex of concrete and metal combines the beauty of nature with the harsh lines of industrial architecture to create a fierce battle arena.  Where is my Pistola?"
+Description="Ce complexe jumeau de béton et de métal combine la beauté de la nature avec les lignes dures de l'architecture industrielle pour créer une arène de combat féroce. Où est ma Pistola ?"
 
 [ZoneInfo0]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 
 [ZoneInfo1]
-LocationName="Blue Flagroom"
+; EN: LocationName="Blue Flagroom"
+LocationName="Pavillon bleu"
 
 [ZoneInfo11]
-LocationName="Red Flagroom"
+; EN: LocationName="Red Flagroom"
+LocationName="Pavillon rouge"
 
 [ZoneInfo12]
-LocationName="Red Interials A"
+; EN: LocationName="Red Interials A"
+LocationName="Intercalaires rouges A"
 
 [ZoneInfo13]
-LocationName="Red Interials B"
+; EN: LocationName="Red Interials B"
+LocationName="Intercalaires rouges B"
 
 [ZoneInfo14]
-LocationName="Red Flak Foyer"
+; EN: LocationName="Red Flak Foyer"
+LocationName="Foyer Rouge Flak"
 
 [ZoneInfo15]
-LocationName="Red Foyer A"
+; EN: LocationName="Red Foyer A"
+LocationName="Foyer Rouge A"
 
 [ZoneInfo2]
-LocationName="Blue Interials A"
+; EN: LocationName="Blue Interials A"
+LocationName="Bleu Interials A"
 
 [ZoneInfo3]
-LocationName="Blue Interials B"
+; EN: LocationName="Blue Interials B"
+LocationName="Bleu Interial B"
 
 [ZoneInfo4]
-LocationName="Blue Flak Foyer"
+; EN: LocationName="Blue Flak Foyer"
+LocationName="Foyer Bleu Flak"
 
 [ZoneInfo5]
-LocationName="Blue Foyer A"
+; EN: LocationName="Blue Foyer A"
+LocationName="Bleu Foyer A"
 

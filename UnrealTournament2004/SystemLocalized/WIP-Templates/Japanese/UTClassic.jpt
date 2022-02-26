@@ -1,0 +1,81 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="古典的なUTスタイルの武器と構成可能な移動能力（壁の覆い焼きなど）。")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="ライトニングガンをクラシックなスナイパーライフルに交換してください。")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="スナイパーライフルをライトニングガンに交換してください。")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="スナイパー弾"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="あなたは狙撃弾を手に入れました。"
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="10倍のスコープを備えたこの高砲口初速スナイパーライフルは、特にヘッドショットを着陸させることができる場合、あらゆる範囲で致命的な武器です。"
+; EN: ItemName="Sniper Rifle"
+ItemName="スナイパーライフル"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="あなたはスナイパーライフルを手に入れました。"
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="％kは％oの頭蓋骨に弾丸を入れました。"
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="％oは頭を撃った。"
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="％oは頭を撃った。"
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="％kは％oに穴を開けます"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="％oは自分の足を撃った。"
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="％oは自分の足を撃った。"
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="ダブルジャンプを許可する"
+; EN: WDString="Allow Wall Dodging"
+WDString="壁の覆い焼きを許可する"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="ダッジダブルジャンプを許可する"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="有効にすると、プレーヤーはジャンプのピーク時にダブルジャンプできます。"
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="有効にすると、プレイヤーは壁をかわすことができます。"
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="有効にすると、プレイヤーは回避ジャンプのピーク時にダブルジャンプできます。"
+; EN: WeapString="Modify Weapon Damage"
+WeapString="武器のダメージを変更する"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="有効にすると、武器はより多くのダメージを与えます。"
+; EN: TranslocString="Modify Translocator"
+TranslocString="Translocatorを変更する"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="有効にすると、トランスロケーターの再充電が速くなります。"
+; EN: FriendlyName="UT Classic"
+FriendlyName="UTクラシック"
+; EN: Description="Classic UT style weapons and movement options."
+Description="古典的なUTスタイルの武器と移動オプション。"
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="ライトニングガン"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="すべてのスナイパーライフルを稲妻銃と交換してください。"
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="スナイパーライフル"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="すべてのライトニングガンをスナイパーライフルと交換してください。"
+

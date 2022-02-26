@@ -1,0 +1,230 @@
+[Action_DISPLAYMESSAGE10]
+Message="2..."
+
+[Action_DISPLAYMESSAGE11]
+Message="1..."
+
+[Action_DISPLAYMESSAGE12]
+; EN: Message="The doors are now open!"
+Message="ドアが開いています！"
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="The attackers have infiltrated the repair vessel!"
+Message="攻撃者は修理船に潜入しました！"
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="The attackers have reached the weapon trailer!"
+Message="攻撃者は武器の予告編に到達しました！"
+
+[Action_DISPLAYMESSAGE7]
+Message="5..."
+
+[Action_DISPLAYMESSAGE8]
+Message="4..."
+
+[Action_DISPLAYMESSAGE9]
+Message="3..."
+
+[HoldObjective1]
+; EN: DestructionMessage="The forward weapon cache has been stolen!"
+DestructionMessage="前方の武器のキャッシュが盗まれました！"
+; EN: ObjectiveDescription="Open the panel to advance closer."
+ObjectiveDescription="パネルを開いて近づきます。"
+; EN: Objective_Info_Attacker="Open the panel"
+Objective_Info_Attacker="パネルを開く"
+; EN: Objective_Info_Defender="Defend the panel"
+Objective_Info_Defender="パネルを守る"
+
+[HoldObjective2]
+; EN: DestructionMessage="The boarding platform has been extended!"
+DestructionMessage="搭乗プラットフォームが拡張されました！"
+; EN: ObjectiveDescription="Extend the boarding platform to continue your advance."
+ObjectiveDescription="搭乗プラットフォームを拡張して、前進を続けます。"
+; EN: Objective_Info_Attacker="Extend the boarding platform"
+Objective_Info_Attacker="搭乗プラットフォームを拡張する"
+; EN: Objective_Info_Defender="Defend the boarding platform"
+Objective_Info_Defender="搭乗プラットフォームを守る"
+
+[HoldObjective3]
+; EN: DestructionMessage="The N.E.X.U.S. missiles have been secured!"
+DestructionMessage="ネクサス。ミサイルが確保されました！"
+; EN: ObjectiveDescription="Retrieve the N.E.X.U.S. missiles and your mission is complete!"
+ObjectiveDescription="N.E.X.U.Sを取得します。ミサイルとあなたの使命は完了です！"
+; EN: Objective_Info_Attacker="Retrieve the N.E.X.U.S. missiles"
+Objective_Info_Attacker="N.E.X.U.Sを取得します。ミサイル"
+; EN: Objective_Info_Defender="Defend the N.E.X.U.S. missiles"
+Objective_Info_Defender="N.E.X.U.Sを守るミサイル"
+
+[HoldObjective4]
+; EN: DestructionMessage="Side doors have been opened!"
+DestructionMessage="サイドドアが開きました！"
+; EN: ObjectiveDescription="Use the side door switch in order to proceed"
+ObjectiveDescription="続行するには、サイドドアスイッチを使用してください"
+; EN: Objective_Info_Attacker="Open the side doors"
+Objective_Info_Attacker="サイドドアを開ける"
+; EN: Objective_Info_Defender="Defend the side door switch"
+Objective_Info_Defender="サイドドアスイッチを守る"
+
+[HoldObjective5]
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="爆発物が配置されています！"
+; EN: ObjectiveDescription="Place explosives on the rear door to gain access to the repair vessel."
+ObjectiveDescription="後部ドアに爆発物を置いて、修理船にアクセスできるようにします。"
+; EN: Objective_Info_Attacker="Place explosives on the door"
+Objective_Info_Attacker="ドアに爆発物を置きます"
+; EN: Objective_Info_Defender="Defend the door"
+Objective_Info_Defender="ドアを守る"
+
+[HoldObjective6]
+; EN: DestructionMessage="Reinforcements are on the way!"
+DestructionMessage="増援が進行中です！"
+; EN: ObjectiveDescription="Open the rear door of the repair vessel to advance."
+ObjectiveDescription="修理船の後部ドアを開けて前進します。"
+; EN: Objective_Info_Attacker="Open rear door"
+Objective_Info_Attacker="後部ドアを開く"
+; EN: Objective_Info_Defender="Defend rear door"
+Objective_Info_Defender="後部ドアを守る"
+
+[InfoPod0]
+; EN: POD_Message="! ! ! S T A N D    B A C K ! ! !"
+POD_Message="！ ！ ！ S T A N D B A C K！ ！ ！"
+
+[InfoPod19]
+; EN: POD_Message="DROP DOWN HERE"
+POD_Message="ここにドロップダウン"
+
+[InfoPod20]
+; EN: POD_Message="DROP DOWN HERE"
+POD_Message="ここにドロップダウン"
+
+[InfoPod21]
+; EN: POD_Message="DROP DOWN HERE"
+POD_Message="ここにドロップダウン"
+
+[InfoPod30]
+; EN: POD_Message="! ! ! S T A N D    B A C K ! ! !"
+POD_Message="！ ！ ！ S T A N D B A C K！ ！ ！"
+
+[LevelInfo0]
+; EN: Title="Convoy"
+Title="コンボイ"
+
+[LevelInfo9]
+; EN: Title="Convoy"
+Title="コンボイ"
+
+[LevelSummary]
+; EN: Title="Convoy"
+Title="コンボイ"
+; EN: Description="This scenario is a recreation of the recovery of the Nexus prototype missiles by the NEG military, after they were stolen by the Hellions. NEG forces pinpointed the location of the cache due to a hidden homing device on these devastating weapons of mass destruction. The exact location of the missiles could only be pinpointed during the short period when they were being transferred from one location to another above ground on Taron, and the military had no choice but to strike at this time."
+Description="このシナリオは、ヘリオンによって盗まれた後のNEG軍によるNexusプロトタイプミサイルの回収を再現したものです。 NEG部隊は、これらの破壊的な大量破壊兵器に隠されたホーミングデバイスがあるため、キャッシュの場所を特定しました。ミサイルの正確な位置は、タロンの地上のある場所から別の場所に移動されていた短期間でしか特定できず、軍はこの時点で攻撃するしかありませんでした。"
+
+[SceneSubtitles0]
+SubTitles=("This scenario is a recreation of the recovery of the N.E.X.U.S. prototype missiles by the NEG military, after they were stolen by the Hellions.","NEG forces pinpointed the location of the cache due to a hidden homing device on these devastating weapons of mass destruction.","The exact location of the missiles could only be pinpointed during the short period when they were being transferred from one location to another above ground on Taron, and the military had no choice but to strike at this time.","The attackers must first make their way to the Hellions' boarding platform, manipulate the controls, and extend the platform to allow the advance to continue.",,"At this point, it may be a good idea for the attackers to remove this control panel and convert the trailer circuitry to work for them instead of the Hellions. It will allow for a faster advance and an upgrade in weaponry.",,"The attackers must cross the boarding platform, reach the rear door, and plant explosives on the door to gain access to the inside of the Hellion repair vessel.",,"In order to make a quicker advance, open the rear doors of the Repair Vessel. This will allow the attackers to start much closer to the next objective.",,"One word of caution. There is a gasoline tanker within the repair vessel, watch your fire or it may explode, making progress far more difficult.",,"The attackers need to flip this switch in order to be able to proceed any further. This will allow them to control the side doors to proceed to the final objective.",,"The attackers must make it to the weapon trailer. Once inside, they must hold this switch to retrieve the Nexus missiles.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Air strike inbound! Seek shelter immediately!"
+Message="空爆インバウンド！すぐに避難所を探しましょう！"
+
+[TriggeredObjective0]
+; EN: DestructionMessage="The N.E.X.U.S. trailer has been opened!"
+DestructionMessage="ネクサス。トレーラーがオープンしました！"
+; EN: ObjectiveDescription="Reach the N.E.X.U.S. missile trailer and open it"
+ObjectiveDescription="N.E.X.U.Sに到達するミサイルトレーラーとそれを開きます"
+; EN: Objective_Info_Attacker="Reach the N.E.X.U.S. missile trailer"
+Objective_Info_Attacker="N.E.X.U.Sに到達するミサイルトレーラー"
+; EN: Objective_Info_Defender="Defend the N.E.X.U.S. missile trailer"
+Objective_Info_Defender="N.E.X.U.Sを守るミサイルトレーラー"
+
+[Volume1]
+; EN: LocationName="Attacker vehicle"
+LocationName="攻撃車両"
+
+[Volume12]
+; EN: LocationName="Rear sniper tower"
+LocationName="リアスナイパータワー"
+
+[Volume13]
+; EN: LocationName="Rear sniper tower"
+LocationName="リアスナイパータワー"
+
+[Volume14]
+; EN: LocationName="Minigun platform"
+LocationName="ミニガンプラットフォーム"
+
+[Volume15]
+; EN: LocationName="Minigun platform"
+LocationName="ミニガンプラットフォーム"
+
+[Volume16]
+; EN: LocationName="Forward sniping tower"
+LocationName="前方狙撃塔"
+
+[Volume17]
+; EN: LocationName="Forward sniping tower"
+LocationName="前方狙撃塔"
+
+[Volume2]
+; EN: LocationName="Cargo trailer"
+LocationName="貨物トレーラー"
+
+[Volume3]
+; EN: LocationName="Boarding platform vehicle"
+LocationName="搭乗プラットフォーム車両"
+
+[Volume4]
+; EN: LocationName="Forward weapon cache"
+LocationName="前方武器キャッシュ"
+
+[Volume5]
+; EN: LocationName="Pipe trailer"
+LocationName="パイプトレーラー"
+
+[Volume6]
+; EN: LocationName="Weapon trailer vehicle"
+LocationName="武器トレーラー車両"
+
+[Volume7]
+; EN: LocationName="Weapon trailer roof"
+LocationName="武器トレーラーの屋根"
+
+[Volume8]
+; EN: LocationName="Boarding platform"
+LocationName="搭乗プラットフォーム"
+
+[Volume9]
+; EN: LocationName="Boarding platform"
+LocationName="搭乗プラットフォーム"
+
+[ZoneInfo1]
+; EN: LocationName="Outside"
+LocationName="外"
+
+[ZoneInfo2]
+; EN: LocationName="Repair vessel bridge"
+LocationName="船舶橋の修理"
+
+[ZoneInfo3]
+; EN: LocationName="Repair vessel upper deck"
+LocationName="船舶のアッパーデッキを修理する"
+
+[ZoneInfo4]
+; EN: LocationName="Repair vessel upper deck"
+LocationName="船舶のアッパーデッキを修理する"
+
+[ZoneInfo6]
+; EN: LocationName="Door"
+LocationName="ドア"
+
+[ZoneInfo7]
+; EN: LocationName="Repair vessel"
+LocationName="修理船"
+
+[ZoneInfo8]
+; EN: LocationName="Weapon trailer inside"
+LocationName="内部の武器トレーラー"
+
+[ZoneInfo9]
+; EN: LocationName="Outside"
+LocationName="外"
+

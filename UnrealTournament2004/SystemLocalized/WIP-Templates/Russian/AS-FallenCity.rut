@@ -1,0 +1,192 @@
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Subway station entrance"
+LocationName="Вход в метро"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Subway train"
+LocationName="Поезд метро"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Boarding station"
+LocationName="Посадочная станция"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE4]
+Message="1..."
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Замок ворот"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Замок ворот разрушен!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Уничтожьте замок ворот"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Уничтожить замок ворот"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Защитить замок ворот"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="barricade"
+ObjectiveName="баррикада"
+; EN: DestructionMessage="barricade destroyed!"
+DestructionMessage="баррикада разрушена!"
+; EN: ObjectiveDescription="Destroy the barricade"
+ObjectiveDescription="Разрушьте баррикаду"
+; EN: Objective_Info_Attacker="Destroy barricade"
+Objective_Info_Attacker="Уничтожить баррикаду"
+; EN: Objective_Info_Defender="Defend barricade"
+Objective_Info_Defender="Защитить баррикаду"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Gate Lock"
+ObjectiveName="Замок ворот"
+; EN: DestructionMessage="Gate Lock Destroyed!"
+DestructionMessage="Замок ворот разрушен!"
+; EN: ObjectiveDescription="Destroy the gate Lock"
+ObjectiveDescription="Уничтожьте замок ворот"
+; EN: Objective_Info_Attacker="Destroy Gate Lock"
+Objective_Info_Attacker="Уничтожить замок ворот"
+; EN: Objective_Info_Defender="Defend Gate Lock"
+Objective_Info_Defender="Защитить замок ворот"
+
+[HoldObjective0]
+; EN: ObjectiveName="Explosive #2"
+ObjectiveName="Взрывчатка # 2"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Взрывчатка на месте!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Установить взрывчатку"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Уничтожить командный центр"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Командный центр защиты"
+
+[HoldObjective1]
+; EN: ObjectiveName="Forward outpost"
+ObjectiveName="Передовой форпост"
+; EN: DestructionMessage="Forward outpost taken!"
+DestructionMessage="Передовой форпост взят!"
+; EN: ObjectiveDescription="Take the forward outpost "
+ObjectiveDescription="Возьмите передовой форпост "
+; EN: Objective_Info_Attacker="Secure forward outpost"
+Objective_Info_Attacker="Безопасный форпост"
+; EN: Objective_Info_Defender="Defend forward outpost"
+Objective_Info_Defender="Защищать форпост"
+
+[HoldObjective2]
+; EN: ObjectiveName="Explosive #1"
+ObjectiveName="Взрывоопасное # 1"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="Взрывчатка на месте!"
+; EN: ObjectiveDescription="Plant an explosive"
+ObjectiveDescription="Установить взрывчатку"
+; EN: Objective_Info_Attacker="Destroy Command Center"
+Objective_Info_Attacker="Уничтожить командный центр"
+; EN: Objective_Info_Defender="Defend Command Center"
+Objective_Info_Defender="Командный центр защиты"
+
+[LevelInfo0]
+; EN: Title="The Fallen City"
+Title="Падший город"
+
+[LevelSummary]
+; EN: Title="The Fallen City"
+Title="Падший город"
+; EN: Description="Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas, they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities. This scenario recreates the destruction of a rebel command center by NEG forces. In keeping with the historical battle, the attacker's insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker."
+Description="После войны людей и скаарджей многие города Земли лежали в руинах. Когда Правительство Новой Земли попыталось утвердить свою власть над этими территориями, им противостояло множество повстанческих групп, часто тайно финансируемых крупными корпорациями, которые создали базы в разрушенных городах. Этот сценарий воссоздает разрушение командного центра повстанцев силами NEG. В соответствии с исторической битвой, точка входа атакующего находится на некотором расстоянии от командного центра из-за сильной противовоздушной защиты вокруг бункера."
+
+[SceneSubtitles1]
+SubTitles=("Following the human/Skaarj war, many of Earth's cities lay in ruins.  When the New Earth Government attempted to assert its authority over these areas,","they were confronted by many rebel groups, often covertly financed by the great corporations, which had established bases in the destroyed cities.","This scenario recreates the destruction of a rebel command center by NEG forces. ","In keeping with the historical battle, the attackers' insertion point is a distance away from the command center, because of the heavy anti-aircraft protection around the bunker. ","The attackers must first make their way through the streets on foot and clear out any resistance they find. They must destroy the barricade in order to proceed to the next objective.","Next, they must take out the forward outpost. When the area is clear, a shipment of heavier cargo will be dropped in to help you proceed.","The defenders are nestled deep within this hardened bunker. You will have to bypass the defenses and infiltrate the bunker to reach their command center.","Reach the underground command center and place explosives to destroy the entire base. This should bring the resistance to its knees.")
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Bunker infiltrated!"
+Message="Бункер проник!"
+
+[Trigger_ASMessageTrigger2]
+; EN: Message="Command center destroyed!"
+Message="Командный центр уничтожен!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Explosives Set!!!"
+Message="Набор взрывчатки !!!"
+
+[Volume0]
+; EN: LocationName="Forward outpost"
+LocationName="Передовой форпост"
+
+[Volume1]
+; EN: LocationName="Attackers drop zone"
+LocationName="Зона высадки атакующих"
+
+[Volume10]
+; EN: LocationName="Stairs"
+LocationName="Лестница"
+
+[Volume11]
+; EN: LocationName="Subway station lobby"
+LocationName="Вестибюль станции метро"
+
+[Volume12]
+; EN: LocationName="Station roof"
+LocationName="Крыша станции"
+
+[Volume13]
+; EN: LocationName="Vents"
+LocationName="Вентиляционные отверстия"
+
+[Volume14]
+; EN: LocationName="Subway train"
+LocationName="Поезд метро"
+
+[Volume15]
+; EN: LocationName="Subway tracks"
+LocationName="Пути метро"
+
+[Volume2]
+; EN: LocationName="Rebel look out"
+LocationName="Бунтарь берегись"
+
+[Volume3]
+; EN: LocationName="Caudle Ave."
+LocationName="Кодл-авеню."
+
+[Volume4]
+; EN: LocationName="Attackers drop zone"
+LocationName="Зона высадки атакующих"
+
+[Volume5]
+; EN: LocationName="Boarding station"
+LocationName="Посадочная станция"
+
+[Volume6]
+; EN: LocationName="Statue pass"
+LocationName="Пропуск статуи"
+
+[Volume7]
+; EN: LocationName="Statue pass"
+LocationName="Пропуск статуи"
+
+[Volume8]
+; EN: LocationName="Roman path way"
+LocationName="Римский путь путь"
+
+[Volume9]
+; EN: LocationName="Subway ticket stand"
+LocationName="Билетная касса метро"
+
+[ZoneInfo0]
+; EN: LocationName="Destroyed city"
+LocationName="Разрушенный город"
+

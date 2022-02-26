@@ -1,94 +1,126 @@
 [LevelInfo0]
-Title="Curse4"
+; EN: Title="Curse4"
+Title="Malédiction4"
 
 [LevelSummary]
-Title="Curse4"
-Description="Feel the walls closing in on you? A little claustrophobia maybe? When the flak starts flying and the shock combos fill the air, as you find yourself backed into a corner by a relentless pursuer you'll come to learn the meaning of the word cursed."
+; EN: Title="Curse4"
+Title="Malédiction4"
+; EN: Description="Feel the walls closing in on you? A little claustrophobia maybe? When the flak starts flying and the shock combos fill the air, as you find yourself backed into a corner by a relentless pursuer you'll come to learn the meaning of the word cursed."
+Description="Vous sentez les murs se refermer sur vous ? Un peu de claustrophobie peut-être ? Lorsque la flak commence à voler et que les combos de choc remplissent l'air, alors que vous vous retrouvez dans un coin par un poursuivant implacable, vous apprendrez le sens du mot maudit."
 
 [ZoneInfo0]
-LocationName="U- Damage Room"
+; EN: LocationName="U- Damage Room"
+LocationName="U- Chambre des Dégâts"
 
 [ZoneInfo1]
-LocationName="Basement Hallway"
+; EN: LocationName="Basement Hallway"
+LocationName="Couloir du sous-sol"
 
 [ZoneInfo10]
-LocationName="Upper Atrium"
+; EN: LocationName="Upper Atrium"
+LocationName="Atrium supérieur"
 
 [ZoneInfo11]
-LocationName="Flak Cannon Room"
+; EN: LocationName="Flak Cannon Room"
+LocationName="Salle de canon Flak"
 
 [ZoneInfo13]
-LocationName="Upper Atrium"
+; EN: LocationName="Upper Atrium"
+LocationName="Atrium supérieur"
 
 [ZoneInfo14]
-LocationName="Upper Atrium"
+; EN: LocationName="Upper Atrium"
+LocationName="Atrium supérieur"
 
 [ZoneInfo15]
-LocationName="Upper Atrium"
+; EN: LocationName="Upper Atrium"
+LocationName="Atrium supérieur"
 
 [ZoneInfo16]
-LocationName="Minigun Room"
+; EN: LocationName="Minigun Room"
+LocationName="Chambre Minigun"
 
 [ZoneInfo17]
-LocationName="Minigun Room"
+; EN: LocationName="Minigun Room"
+LocationName="Chambre Minigun"
 
 [ZoneInfo18]
-LocationName="Upper Atrium"
+; EN: LocationName="Upper Atrium"
+LocationName="Atrium supérieur"
 
 [ZoneInfo19]
-LocationName="Rocket Launcher Loft"
+; EN: LocationName="Rocket Launcher Loft"
+LocationName="Loft lance-roquettes"
 
 [ZoneInfo2]
-LocationName="Basement Hallway"
+; EN: LocationName="Basement Hallway"
+LocationName="Couloir du sous-sol"
 
 [ZoneInfo20]
-LocationName="Upper Atrium"
+; EN: LocationName="Upper Atrium"
+LocationName="Atrium supérieur"
 
 [ZoneInfo21]
-LocationName="Flak Cannon Room"
+; EN: LocationName="Flak Cannon Room"
+LocationName="Salle de canon Flak"
 
 [ZoneInfo22]
-LocationName="Flak Cannon Room"
+; EN: LocationName="Flak Cannon Room"
+LocationName="Salle de canon Flak"
 
 [ZoneInfo23]
-LocationName="U- Damage Room"
+; EN: LocationName="U- Damage Room"
+LocationName="U- Chambre des Dégâts"
 
 [ZoneInfo24]
-LocationName="U- Damage Room"
+; EN: LocationName="U- Damage Room"
+LocationName="U- Chambre des Dégâts"
 
 [ZoneInfo25]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo26]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo27]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo28]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo29]
-LocationName="U - Damage Room"
+; EN: LocationName="U - Damage Room"
+LocationName="U - Chambre des Dégâts"
 
 [ZoneInfo3]
-LocationName="Dragon Heads Area"
+; EN: LocationName="Dragon Heads Area"
+LocationName="Zone des têtes de dragon"
 
 [ZoneInfo4]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo5]
-LocationName="Side Hallway"
+; EN: LocationName="Side Hallway"
+LocationName="Côté couloir"
 
 [ZoneInfo6]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo7]
-LocationName="Flak Cannon Room"
+; EN: LocationName="Flak Cannon Room"
+LocationName="Salle de canon Flak"
 
 [ZoneInfo8]
-LocationName="Lightning Gun Hallway"
+; EN: LocationName="Lightning Gun Hallway"
+LocationName="Couloir Lightning Gun"
 
 [ZoneInfo9]
-LocationName="Middle Room"
+; EN: LocationName="Middle Room"
+LocationName="Chambre du Milieu"
 

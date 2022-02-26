@@ -1,0 +1,71 @@
+[DamTypeArtilleryShell]
+; EN: DeathString="%k rained on %o's parade."
+DeathString="％kは％oのパレードで雨が降った。"
+; EN: FemaleSuicide="%o managed to kill herself with her own Artillery."
+FemaleSuicide="％oは自分の砲兵でなんとか自殺した。"
+; EN: MaleSuicide="%o managed to kill himself with his own Artillery."
+MaleSuicide="％oは自分の砲兵でなんとか自殺した。"
+
+[DamTypeONSCicadaLaser]
+; EN: DeathString="%k's blaster stung %o."
+DeathString="％kのブラスターは％oを刺しました。"
+; EN: FemaleSuicide="%o used her blaster on herself."
+FemaleSuicide="％oは自分でブラスターを使用しました。"
+; EN: MaleSuicide="%o used his blaster on himself."
+MaleSuicide="％oは自分でブラスターを使用しました。"
+
+[DamTypeONSCicadaRocket]
+; EN: DeathString="%k's blew %o to bits."
+DeathString="％kは％oをビットに吹き飛ばしました。"
+; EN: FemaleSuicide="%o blew herself up good."
+FemaleSuicide="％oは自分自身を上手く爆破しました。"
+; EN: MaleSuicide="%o blew himself up good."
+MaleSuicide="％oは自分自身を上手く爆破しました。"
+
+[DamTypeShockTankProximityExplosion]
+; EN: DeathString="%o got too close to %k's Paladin."
+DeathString="％oは％kのパラディンに近づきすぎました。"
+
+[DamTypeShockTankShockBall]
+; EN: DeathString="%o couldn't avoid the blast from %k's Paladin."
+DeathString="％oは％kのパラディンからの爆発を避けられませんでした。"
+
+[MutVehiclePickups]
+; EN: FriendlyName="Vehicle Pickups"
+FriendlyName="車両ピックアップ"
+; EN: Description="Vehicles will pickup items and give them to the driver"
+Description="車両はアイテムをピックアップしてドライバーに渡します"
+
+[ONSArtillery]
+; EN: VehiclePositionString="in a SPMA"
+VehiclePositionString="SPMAで"
+VehicleNameString="SPMA"
+
+[ONSArtillerySideGunPawn]
+; EN: VehiclePositionString="in a SPMA side turret"
+VehiclePositionString="SPMAサイドタレット内"
+; EN: VehicleNameString="SPMA Side Turret"
+VehicleNameString="SPMAサイドタレット"
+
+[ONSDualACGatlingGunPawn]
+; EN: LockedMsg=" INCOMING "
+LockedMsg=" 入ってくる "
+; EN: VehiclePositionString="in a Cicada turret"
+VehiclePositionString="蝉の砲塔で"
+; EN: VehicleNameString="Cicada Laser Turret"
+VehicleNameString="セミレーザータレット"
+
+[ONSDualAttackCraft]
+; EN: LockedMsg=" Locked "
+LockedMsg=" ロック済み "
+; EN: VehiclePositionString="in a Cicada"
+VehiclePositionString="蝉で"
+; EN: VehicleNameString="Cicada"
+VehicleNameString="蝉"
+
+[ONSShockTank]
+; EN: VehiclePositionString="in a Paladin"
+VehiclePositionString="パラディンで"
+; EN: VehicleNameString="Paladin"
+VehicleNameString="パラディン"
+

@@ -1,124 +1,187 @@
 [ASCriticalObjectiveVolume0]
-LocationName="Central Office"
+; EN: LocationName="Central Office"
+LocationName="Ufficio centrale"
 
 [ASCriticalObjectiveVolume1]
-LocationName="Right Lock"
+; EN: LocationName="Right Lock"
+LocationName="Blocco destro"
 
 [ASCriticalObjectiveVolume2]
-LocationName="Left Lock"
+; EN: LocationName="Left Lock"
+LocationName="Blocco sinistro"
 
 [ASCriticalObjectiveVolume3]
-LocationName="Left Lock"
+; EN: LocationName="Left Lock"
+LocationName="Blocco sinistro"
 
 [ASCriticalObjectiveVolume4]
-LocationName="Right Lock"
+; EN: LocationName="Right Lock"
+LocationName="Blocco destro"
 
 [ASCriticalObjectiveVolume5]
-LocationName="Inside Vault"
+; EN: LocationName="Inside Vault"
+LocationName="All'interno del Vault"
 
 [ASCriticalObjectiveVolume6]
-LocationName="Radio Terminal"
+; EN: LocationName="Radio Terminal"
+LocationName="Terminale radio"
 
 [ASOBJ_EnergyCore_Delivery0]
-Objective_Info_Attacker="Upload Data Stick At The Computer Terminal"
-Objective_Info_Defender="Protect The Computer Terminal."
+; EN: Objective_Info_Attacker="Upload Data Stick At The Computer Terminal"
+Objective_Info_Attacker="Carica la chiavetta dati sul terminale del computer"
+; EN: Objective_Info_Defender="Protect The Computer Terminal."
+Objective_Info_Defender="Proteggi il terminale del computer."
 
 [ASOBJ_EnergyCore_Delivery1]
-DestructionMessage="Antenna Realigned!"
-Objective_Info_Attacker="Realign The Antenna."
-Objective_Info_Defender="Protect The Antenna."
+; EN: DestructionMessage="Antenna Realigned!"
+DestructionMessage="Antenna riallineata!"
+; EN: Objective_Info_Attacker="Realign The Antenna."
+Objective_Info_Attacker="Riallineare l'antenna."
+; EN: Objective_Info_Defender="Protect The Antenna."
+Objective_Info_Defender="Proteggi l'antenna."
 
 [ASOBJ_EnergyCore_Spawn0]
-PlayerDroppedMessage=" dropped the Data Stick!"
-DroppedMessage="Data Stick dropped!"
-EnergyCorePickedUp="Data Stick picked up!"
-PlayerPickedUpEnergyCore=" picked up the Data Stick!"
-PlayerCoreReset="Data Stick reset!"
-ObjectiveName="Teh Demo"
-DestructionMessage="The data stick has been stolen!"
-ObjectiveDescription="Data Stick"
-Objective_Info_Attacker="Get the Data Stick!"
-Objective_Info_Defender="Protect the Data Stick!"
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" è caduto il Data Stick!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="Data Stick caduto!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="Data Stick raccolto!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" preso il Data Stick!"
+; EN: PlayerCoreReset="Data Stick reset!"
+PlayerCoreReset="Ripristino della chiavetta dati!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="La dimostrazione"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="La chiavetta dati è stata rubata!"
+; EN: ObjectiveDescription="Data Stick"
+ObjectiveDescription="Chiavetta dati"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="Prendi il Data Stick!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="Proteggi il Data Stick!"
 
 [ASOBJ_EnergyCore_Spawn1]
-PlayerDroppedMessage=" dropped the Data Stick!"
-DroppedMessage="Data Stick dropped!"
-EnergyCorePickedUp="Data Stick picked up!"
-PlayerPickedUpEnergyCore=" picked up the Data Stick!"
-ObjectiveName="Teh Demo"
-DestructionMessage="The data stick has been stolen!"
-ObjectiveDescription="Data Stick"
-Objective_Info_Attacker="Get the Data Stick!"
-Objective_Info_Defender="Protect the Data Stick!"
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" è caduto il Data Stick!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="Data Stick caduto!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="Data Stick raccolto!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" preso il Data Stick!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="La dimostrazione"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="La chiavetta dati è stata rubata!"
+; EN: ObjectiveDescription="Data Stick"
+ObjectiveDescription="Chiavetta dati"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="Prendi il Data Stick!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="Proteggi il Data Stick!"
 
 [DestroyableObjective_SM0]
-DestructionMessage="Door Lock Destroyed!"
-Objective_Info_Attacker="Destroy The Front Door Controls."
-Objective_Info_Defender="Protect The Front Door Controls."
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="Serratura Distrutta!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls."
+Objective_Info_Attacker="Distruggi i controlli della porta d'ingresso."
+; EN: Objective_Info_Defender="Protect The Front Door Controls."
+Objective_Info_Defender="Proteggi i controlli della porta d'ingresso."
 
 [DestroyableObjective_SM1]
-ObjectiveName="Data Shield"
-DestructionMessage="Data Shield Destroyed!"
-ObjectiveDescription="Destroy the data shield."
-Objective_Info_Attacker="Destroy the data shield."
-Objective_Info_Defender="Defend the data shield."
+; EN: ObjectiveName="Data Shield"
+ObjectiveName="Protezione dati"
+; EN: DestructionMessage="Data Shield Destroyed!"
+DestructionMessage="Scudo dati distrutto!"
+; EN: ObjectiveDescription="Destroy the data shield."
+ObjectiveDescription="Distruggi lo scudo dati."
+; EN: Objective_Info_Attacker="Destroy the data shield."
+Objective_Info_Attacker="Distruggi lo scudo dati."
+; EN: Objective_Info_Defender="Defend the data shield."
+Objective_Info_Defender="Difendi lo scudo dei dati."
 
 [DestroyableObjective_SM2]
-DestructionMessage="Door Lock Destroyed!"
-Objective_Info_Attacker="Destroy The Front Door Controls."
-Objective_Info_Defender="Protect The Front Door Controls."
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="Serratura Distrutta!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls."
+Objective_Info_Attacker="Distruggi i controlli della porta d'ingresso."
+; EN: Objective_Info_Defender="Protect The Front Door Controls."
+Objective_Info_Defender="Proteggi i controlli della porta d'ingresso."
 
 [DestroyableObjective_SM4]
-DestructionMessage="Front Gate Destroyed!"
-Objective_Info_Attacker="Destroy The Main Gate."
-Objective_Info_Defender="Protect The Main Gate."
+; EN: DestructionMessage="Front Gate Destroyed!"
+DestructionMessage="Cancello anteriore distrutto!"
+; EN: Objective_Info_Attacker="Destroy The Main Gate."
+Objective_Info_Attacker="Distruggi il cancello principale."
+; EN: Objective_Info_Defender="Protect The Main Gate."
+Objective_Info_Defender="Proteggi il cancello principale."
 
 [HoldObjective1]
-DestructionMessage="Vault Lock Opened!"
-Objective_Info_Attacker="Use The Keys To Open The Vault."
-Objective_Info_Defender="Protect The Entrance To The Vault."
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="Serratura del caveau aperta!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault."
+Objective_Info_Attacker="Usa le chiavi per aprire il Vault."
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault."
+Objective_Info_Defender="Proteggi l'ingresso al Vault."
 
 [HoldObjective2]
-DestructionMessage="Vault Lock Opened!"
-Objective_Info_Attacker="Use The Keys To Open The Vault."
-Objective_Info_Defender="Protect The Entrance To The Vault."
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="Serratura del caveau aperta!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault."
+Objective_Info_Attacker="Usa le chiavi per aprire il Vault."
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault."
+Objective_Info_Defender="Proteggi l'ingresso al Vault."
 
 [HoldObjective3]
-DestructionMessage="The Keys Have Been Stolen!"
-Objective_Info_Attacker="Get the keys from the Central Office."
-Objective_Info_Defender="Protect the Central Office."
+; EN: DestructionMessage="The Keys Have Been Stolen!"
+DestructionMessage="Le chiavi sono state rubate!"
+; EN: Objective_Info_Attacker="Get the keys from the Central Office."
+Objective_Info_Attacker="Prendi le chiavi dall'ufficio centrale."
+; EN: Objective_Info_Defender="Protect the Central Office."
+Objective_Info_Defender="Proteggi l'ufficio centrale."
 
 [LevelInfo0]
 Title="Sub Rosa"
 
 [LevelSummary]
 Title="Sub Rosa"
-Description="Every rose has thorns, and even the most pristine worlds can hide sinister intentions."
+; EN: Description="Every rose has thorns, and even the most pristine worlds can hide sinister intentions."
+Description="Ogni rosa ha spine e anche i mondi più incontaminati possono nascondere intenzioni sinistre."
 
 [SceneSubtitles0]
 SubTitles=("This scenario recreates the invasion of the Central Liandri Information compound by NEG forces.","The New Earth Government discovered that the Liandri were transferring experimental weapons data through the facility, and sent an elite squad in to retrieve the research.","The attackers must first make their way to the compound and destroy the main gate to get into the courtyard.",,"Then you must destroy the front door controls to gain access to the main building.",,"Once inside, you must make your way to the central office to get the keys to the vault.",,"Next, use the keys to open the vault doors.",,"Once inside the vault, you must destroy the protective shield around the data stick.","Then, you must deliver the data stick to the access station in order to realign the antenna.",,"Finally, you must move the updated data from the antenna to the terminal, and transmit the weapon data to the NEG.",)
 
 [ZoneInfo0]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Al di fuori"
 
 [ZoneInfo1]
-LocationName="Main Hall"
+; EN: LocationName="Main Hall"
+LocationName="Sala principale"
 
 [ZoneInfo2]
-LocationName="Office"
+; EN: LocationName="Office"
+LocationName="Ufficio"
 
 [ZoneInfo3]
-LocationName="Vault Locks"
+; EN: LocationName="Vault Locks"
+LocationName="Serrature per caveau"
 
 [ZoneInfo4]
-LocationName="Vault Locks"
+; EN: LocationName="Vault Locks"
+LocationName="Serrature per caveau"
 
 [ZoneInfo5]
-LocationName="Vault Locks"
+; EN: LocationName="Vault Locks"
+LocationName="Serrature per caveau"
 
 [ZoneInfo6]
-LocationName="Inside Vault"
+; EN: LocationName="Inside Vault"
+LocationName="All'interno del Vault"
 
 [ZoneInfo7]
-LocationName="Radio Terminal"
+; EN: LocationName="Radio Terminal"
+LocationName="Terminale radio"
 

@@ -1,0 +1,253 @@
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Aligning dish ..."
+Message="Tányér igazítása..."
+
+[Action_DISPLAYMESSAGE1]
+; EN: Message="Blast doors open in..."
+Message="Robbanás ajtók nyílnak..."
+
+[Action_DISPLAYMESSAGE2]
+; EN: Message="... 3 seconds ..."
+Message="... 3 másodperc ..."
+
+[Action_DISPLAYMESSAGE3]
+; EN: Message="... 2 seconds ..."
+Message="... 2 másodperc ..."
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="... 1 second ..."
+Message="... 1 másodperc ..."
+
+[Action_DISPLAYMESSAGE5]
+; EN: Message="... signal received"
+Message="... jel érkezett"
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="...3 seconds..."
+Message="...3 másodperc..."
+
+[Action_DISPLAYMESSAGE7]
+; EN: Message="...2 seconds..."
+Message="...2 másodperc..."
+
+[Action_DISPLAYMESSAGE8]
+; EN: Message="...1 second..."
+Message="...1 másodperc..."
+
+[Action_DISPLAYMESSAGE9]
+; EN: Message="Blast doors opening!"
+Message="Robbanás ajtónyitás!"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Outer defenses breached!"
+DestructionMessage="A külső védelem megtört!"
+; EN: ObjectiveDescription="Destroy the gate"
+ObjectiveDescription="Pusztítsd el a kaput"
+; EN: Objective_Info_Attacker="Destroy the gate"
+Objective_Info_Attacker="Pusztítsd el a kaput"
+; EN: Objective_Info_Defender="Defend the main gate"
+Objective_Info_Defender="Védd meg a főkaput"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Data Cables"
+ObjectiveName="Adatkábelek"
+; EN: DestructionMessage="Data Cables Cut!"
+DestructionMessage="Adatkábelek elvágva!"
+; EN: ObjectiveDescription="Cut the Data Cables"
+ObjectiveDescription="Vágja le az adatkábeleket"
+; EN: Objective_Info_Attacker="Cut the Data Cables"
+Objective_Info_Attacker="Vágja le az adatkábeleket"
+; EN: Objective_Info_Defender="Defend the data cables"
+Objective_Info_Defender="Védje meg az adatkábeleket"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Shield Component 1"
+ObjectiveName="1. pajzs komponens"
+; EN: DestructionMessage="Shield generator destroyed!"
+DestructionMessage="A pajzsgenerátor megsemmisült!"
+; EN: ObjectiveDescription="Shatter the shield nexus"
+ObjectiveDescription="Törje szét a pajzs nexust"
+; EN: Objective_Info_Attacker="Destroy shield component"
+Objective_Info_Attacker="Pusztítsa el a pajzs alkatrészét"
+; EN: Objective_Info_Defender="Defend the shield nexus"
+Objective_Info_Defender="Védd meg a pajzs nexust"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Shield Component 3"
+ObjectiveName="3. pajzs komponens"
+; EN: DestructionMessage="Shield generator destroyed!"
+DestructionMessage="A pajzsgenerátor megsemmisült!"
+; EN: ObjectiveDescription="Shatter the shield nexus"
+ObjectiveDescription="Törje szét a pajzs nexust"
+; EN: Objective_Info_Attacker="Destroy shield component"
+Objective_Info_Attacker="Pusztítsa el a pajzs alkatrészét"
+; EN: Objective_Info_Defender="Defend the shield nexus"
+Objective_Info_Defender="Védd meg a pajzs nexust"
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Shield Component 2"
+ObjectiveName="2. pajzs komponens"
+; EN: DestructionMessage="Shield generator destroyed!"
+DestructionMessage="A pajzsgenerátor megsemmisült!"
+; EN: ObjectiveDescription="Shatter the shield nexus"
+ObjectiveDescription="Törje szét a pajzs nexust"
+; EN: Objective_Info_Attacker="Destroy shield component"
+Objective_Info_Attacker="Pusztítsa el a pajzs alkatrészét"
+; EN: Objective_Info_Defender="Defend the shield nexus"
+Objective_Info_Defender="Védd meg a pajzs nexust"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="AI Generator"
+ObjectiveName="AI generátor"
+; EN: DestructionMessage="AI generator destroyed!"
+DestructionMessage="Az AI generátor megsemmisült!"
+; EN: ObjectiveDescription="Destroy the AI generator"
+ObjectiveDescription="Pusztítsd el az AI generátort"
+; EN: Objective_Info_Attacker="Destroy the AI generator"
+Objective_Info_Attacker="Pusztítsd el az AI generátort"
+; EN: Objective_Info_Defender="Defend the AI generator"
+Objective_Info_Defender="Védd meg az AI generátort"
+
+[HoldObjective2]
+ObjectiveName="teleporter_activation"
+; EN: DestructionMessage="Attackers' new spawn location ready"
+DestructionMessage="A támadók új költési helye készen áll"
+; EN: ObjectiveDescription="Align the satellite dish"
+ObjectiveDescription="Állítsa be a parabolaantennát"
+; EN: Objective_Info_Attacker="Align the satellite dish"
+Objective_Info_Attacker="Állítsa be a parabolaantennát"
+; EN: Objective_Info_Defender="Defend the satellite controls"
+Objective_Info_Defender="Védd meg a műholdvezérlőket"
+
+[LevelInfo0]
+; EN: Title="Robot Factory"
+Title="Robotgyár"
+
+[LevelSummary]
+; EN: Title="Robot Factory"
+Title="Robotgyár"
+; EN: Description="This scenario is a recreation of the Liandri robot uprising on the mechanical asteroid of LBX-7683 and the subsequent quelling of this rebellion by human forces. LBX-7683 was an outpost for research and development of the next generation of Liandri robots. Liandri's best scientists were able to introduce increasingly sophisticated artificial intelligence into the machines that they designed. Eventually, they rebelled against the humans and took the asteroid as their own, brutally disposing of their creators and mining the rich materials embedded within the rock for their own gain. Liandri's commanders devised a plan to strike directly at the production facility manufacturing the robots. During an all-out assault on the world, a small team was inserted with the sole goal of destroying the AI generators, thereby destroying the ability of the machines to reproduce themselves and ending this uprising."
+Description="Ez a forgatókönyv az LBX-7683 mechanikus aszteroidán a Liandri-robot felkelés újraalkotása, és ezt követően a lázadás emberi erők általi elfojtása. Az LBX-7683 a Liandri robotok következő generációjának kutatási és fejlesztési előőrse volt. Liandri legjobb tudósai egyre kifinomultabb mesterséges intelligenciát tudtak bevezetni az általuk tervezett gépekbe. Végül fellázadtak az emberek ellen, és magukénak vették az aszteroidát, brutálisan megsemmisítve alkotóikat, és saját hasznukra bányászták ki a sziklába ágyazott gazdag anyagokat. Liandri parancsnokai azt a tervet dolgozták ki, hogy közvetlenül a robotokat gyártó üzemben csapjanak le. A világ elleni teljes támadás során egy kis csapatot beiktattak, amelynek egyetlen célja az AI-generátorok megsemmisítése volt, ezzel tönkretéve a gépek önreprodukciós képességét, és véget vetve ennek a felkelésnek."
+
+[SceneSubtitles0]
+SubTitles=("This scenario is a recreation of the Liandri robot uprising on the mechanical planet of LBX-7683","and the subsequent quelling of this rebellion by human forces.","LBX-7683 was an outpost for research and development of the next generation of Liandri robots.","Liandri's best scientists were able to introduce increasingly sophisticated artificial intelligence into the machines that they designed.","Eventually, they rebelled against the humans and took the planet, and surrounding moons, as their own,","brutally disposing of their creators and mining the rich materials embedded within the rock for their own gain.","Liandri's commanders devised a plan to strike directly at the production facility manufacturing the robots.","During an all-out assault on the world, a small team was inserted with the sole goal of destroying the AI generators,","thereby destroying the ability of the machines to reproduce themselves and ending this uprising.","You have landed near the robot factory's docking and loading facilities.","Your goal is to breach the factory's defenses and destroy the AI generator.","First, you must align the Satellite Dish to contact your HeadQuarters.","Then, destroy the gate that blocks entrance to the factory.",,"Once the Factory has been infiltrated, you must cut the data cables.",,"Shatter the three components of the shield nexus to uncover the AI generator.",,"Destroy the AI generator to stop the Robot production.")
+
+[Volume0]
+; EN: LocationName="Outside the access door"
+LocationName="A bejárati ajtón kívül"
+
+[Volume1]
+; EN: LocationName="Northern deck"
+LocationName="Északi fedélzet"
+
+[Volume3]
+; EN: LocationName="Attackers' staging area"
+LocationName="A támadók állomáshelye"
+
+[Volume4]
+; EN: LocationName="Deck control room"
+LocationName="Fedélzeti vezérlőterem"
+
+[Volume6]
+; EN: LocationName="Southern deck"
+LocationName="Déli fedélzet"
+
+[ZoneInfo0]
+; EN: LocationName="AI Generator"
+LocationName="AI generátor"
+
+[ZoneInfo1]
+; EN: LocationName="Outside Loading Deck"
+LocationName="Rakodási fedélzeten kívül"
+
+[ZoneInfo11]
+; EN: LocationName="Packaging chamber"
+LocationName="Csomagoló kamra"
+
+[ZoneInfo12]
+; EN: LocationName="Data transfer hall"
+LocationName="Adatátviteli csarnok"
+
+[ZoneInfo13]
+; EN: LocationName="Warehouse"
+LocationName="Raktár"
+
+[ZoneInfo14]
+; EN: LocationName="Generator Control room"
+LocationName="Generátor vezérlőterem"
+
+[ZoneInfo15]
+; EN: LocationName="Crusher plant"
+LocationName="Daráló üzem"
+
+[ZoneInfo16]
+; EN: LocationName="Factory entrance"
+LocationName="A gyár bejárata"
+
+[ZoneInfo18]
+; EN: LocationName="Generator Control room"
+LocationName="Generátor vezérlőterem"
+
+[ZoneInfo2]
+; EN: LocationName="AI Conveyor Belts"
+LocationName="AI szállítószalagok"
+
+[ZoneInfo20]
+; EN: LocationName="Warehouse"
+LocationName="Raktár"
+
+[ZoneInfo21]
+; EN: LocationName="Duct to data transfer hall"
+LocationName="Csatorna az adatátviteli csarnokba"
+
+[ZoneInfo22]
+; EN: LocationName="Packaging chamber"
+LocationName="Csomagoló kamra"
+
+[ZoneInfo23]
+; EN: LocationName="Packaging chamber"
+LocationName="Csomagoló kamra"
+
+[ZoneInfo24]
+; EN: LocationName="Shield Generator Annex"
+LocationName="Pajzsgenerátor melléklet"
+
+[ZoneInfo25]
+; EN: LocationName="Data transfer hall"
+LocationName="Adatátviteli csarnok"
+
+[ZoneInfo26]
+; EN: LocationName="AI Generator"
+LocationName="AI generátor"
+
+[ZoneInfo27]
+; EN: LocationName="Crusher plant"
+LocationName="Daráló üzem"
+
+[ZoneInfo28]
+; EN: LocationName="AI Conveyor Belts"
+LocationName="AI szállítószalagok"
+
+[ZoneInfo3]
+; EN: LocationName="Duct to data transfer hall"
+LocationName="Csatorna az adatátviteli csarnokba"
+
+[ZoneInfo4]
+; EN: LocationName="Data hub chamber"
+LocationName="Adatközponti kamra"
+
+[ZoneInfo5]
+; EN: LocationName="Shield generators"
+LocationName="Pajzs generátorok"
+
+[ZoneInfo6]
+; EN: LocationName="Deck Control room"
+LocationName="Fedélzeti vezérlőterem"
+
+[ZoneInfo7]
+LocationName="Cine Forces"
+
+[ZoneInfo9]
+; EN: LocationName="Shield Generator Annex"
+LocationName="Pajzsgenerátor melléklet"
+

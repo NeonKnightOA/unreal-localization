@@ -1,12 +1,16 @@
 [Counter0]
-CompleteMessage="Secret activated!"
+; EN: CompleteMessage="Secret activated!"
+CompleteMessage="Geheimnis aktiviert!"
 
 [LevelInfo0]
-Title="Frostbite"
+; EN: Title="Frostbite"
+Title="Erfrierung"
 
 [LevelSummary]
-Title="Frostbite"
-Description="Don't be deceived by the apparent simplicity found in this frozen waste. Although it's among the smallest arenas for Onslaught, Frostbite is defined by frenetic pace and pitched battles."
+; EN: Title="Frostbite"
+Title="Erfrierung"
+; EN: Description="Don't be deceived by the apparent simplicity found in this frozen waste. Although it's among the smallest arenas for Onslaught, Frostbite is defined by frenetic pace and pitched battles."
+Description="Lassen Sie sich nicht von der scheinbaren Einfachheit dieses gefrorenen Abfalls täuschen. Obwohl es eine der kleinsten Arenen für Onslaught ist, wird Frostbite durch frenetisches Tempo und offene Schlachten definiert."
 
 [MessageTrigger0]
 Message="Peter Respondek"
@@ -27,7 +31,8 @@ Message="Jeff Geis"
 Message="David Sirmons"
 
 [MessageTrigger4]
-Message="Matt Oelfke"
+; EN: Message="Matt Oelfke"
+Message="Matt Ölfke"
 
 [MessageTrigger5]
 Message="Stuart Fitzsimmons"
@@ -45,89 +50,118 @@ Message="Laurent Delayen"
 Message="Dave Hagewood"
 
 [PhysicsVolume51]
-LocationName="Secret Underground Hiding Place"
+; EN: LocationName="Secret Underground Hiding Place"
+LocationName="Geheimes unterirdisches Versteck"
 
 [Volume18]
-LocationName="Southeast Valley"
+; EN: LocationName="Southeast Valley"
+LocationName="Südost-Tal"
 
 [Volume19]
-LocationName="Southwest Lake"
+; EN: LocationName="Southwest Lake"
+LocationName="Südwestsee"
 
 [Volume20]
-LocationName="Northwest Lake"
+; EN: LocationName="Northwest Lake"
+LocationName="Nordwestsee"
 
 [Volume21]
-LocationName="Northeast Valley"
+; EN: LocationName="Northeast Valley"
+LocationName="Nordost-Tal"
 
 [Volume22]
-LocationName="Central Lake"
+; EN: LocationName="Central Lake"
+LocationName="Zentraler See"
 
 [Volume23]
-LocationName="Northern Canyon"
+; EN: LocationName="Northern Canyon"
+LocationName="Nördlicher Canyon"
 
 [Volume24]
-LocationName="Southern Canyon"
+; EN: LocationName="Southern Canyon"
+LocationName="Südlicher Canyon"
 
 [Volume25]
-LocationName="Unspecified"
+; EN: LocationName="Unspecified"
+LocationName="Nicht spezifiziert"
 
 [Volume26]
-LocationName="Unspecified"
+; EN: LocationName="Unspecified"
+LocationName="Nicht spezifiziert"
 
 [Volume27]
-LocationName="Central Mountain"
+; EN: LocationName="Central Mountain"
+LocationName="Zentralberg"
 
 [Volume29]
-LocationName="Central Mountain"
+; EN: LocationName="Central Mountain"
+LocationName="Zentralberg"
 
 [Volume30]
-LocationName="North"
+; EN: LocationName="North"
+LocationName="Norden"
 
 [Volume31]
-LocationName="South"
+; EN: LocationName="South"
+LocationName="Süd"
 
 [Volume8]
-LocationName="Unspecified"
+; EN: LocationName="Unspecified"
+LocationName="Nicht spezifiziert"
 
 [ZoneInfo0]
-LocationName="Blue Entrance"
+; EN: LocationName="Blue Entrance"
+LocationName="Blauer Eingang"
 
 [ZoneInfo1]
-LocationName="Blue Tower"
+; EN: LocationName="Blue Tower"
+LocationName="Blauer Turm"
 
 [ZoneInfo10]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 
 [ZoneInfo11]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 
 [ZoneInfo12]
-LocationName="Red Tower"
+; EN: LocationName="Red Tower"
+LocationName="Roter Turm"
 
 [ZoneInfo13]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 
 [ZoneInfo2]
-LocationName="Red Tower"
+; EN: LocationName="Red Tower"
+LocationName="Roter Turm"
 
 [ZoneInfo3]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 
 [ZoneInfo4]
-LocationName="Red Tower"
+; EN: LocationName="Red Tower"
+LocationName="Roter Turm"
 
 [ZoneInfo5]
-LocationName="Blue Tower"
+; EN: LocationName="Blue Tower"
+LocationName="Blauer Turm"
 
 [ZoneInfo6]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 
 [ZoneInfo7]
-LocationName="Red Tower"
+; EN: LocationName="Red Tower"
+LocationName="Roter Turm"
 
 [ZoneInfo8]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 
 [ZoneInfo9]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="Außen"
 

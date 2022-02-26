@@ -1,9 +1,12 @@
 [LevelInfo0]
-Title="Adara Canyon"
+; EN: Title="Adara Canyon"
+Title="Cañón de Adara"
 
 [LevelSummary]
-Title="Adara Canyon"
-Description="Seismic tremors and eons of erosion forged this battlefield. Adara Canyon is nature at its most awe-inspiring. But don't let the beauty fool you. Long drops claim lives and the corridor-like nature of the canyon makes AVRiL avoidance somewhat difficult."
+; EN: Title="Adara Canyon"
+Title="Cañón de Adara"
+; EN: Description="Seismic tremors and eons of erosion forged this battlefield. Adara Canyon is nature at its most awe-inspiring. But don't let the beauty fool you. Long drops claim lives and the corridor-like nature of the canyon makes AVRiL avoidance somewhat difficult."
+Description="Temblores sísmicos y eones de erosión forjaron este campo de batalla. Adara Canyon es la naturaleza en su forma más impresionante. Pero no dejes que la belleza te engañe. Las caídas largas cobran vidas y la naturaleza similar a un corredor del cañón hace que evitar AVRiL sea algo difícil."
 
 [Volume0]
 LocationName="Eastern Falls"
@@ -12,23 +15,30 @@ LocationName="Eastern Falls"
 LocationName="Western Falls"
 
 [Volume2]
-LocationName="Eastern Base"
+; EN: LocationName="Eastern Base"
+LocationName="Base Este"
 
 [Volume3]
-LocationName="Western Base"
+; EN: LocationName="Western Base"
+LocationName="Base occidental"
 
 [Volume4]
-LocationName="Northern Bridge Passage"
+; EN: LocationName="Northern Bridge Passage"
+LocationName="Pasaje del Puente Norte"
 
 [Volume5]
-LocationName="Southern Bridge Passage"
+; EN: LocationName="Southern Bridge Passage"
+LocationName="Pasaje del Puente Sur"
 
 [Volume6]
-LocationName="Bridge"
+; EN: LocationName="Bridge"
+LocationName="Puente"
 
 [Volume7]
-LocationName="Central Island"
+; EN: LocationName="Central Island"
+LocationName="Isla central"
 
 [ZoneInfo0]
-LocationName="Canyon"
+; EN: LocationName="Canyon"
+LocationName="Cañón"
 

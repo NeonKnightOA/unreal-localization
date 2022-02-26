@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Mazon Fortress"
+Title="マゾン要塞"
+IdealPlayerCount="8-12"
+
+[FortStandard5]
+; EN: FortName="The Crystal"
+FortName="クリスタル"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="破壊されました！"
+
+[FortStandard6]
+; EN: FortName="The Reactor Room Doors"
+FortName="原子炉室のドア"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="開店しました！"
+
+[LevelSummary]
+; EN: Title="Mazon Fortress"
+Title="マゾン要塞"
+IdealPlayerCount="8-12"
+
+[FortStandard0]
+; EN: FortName="The Front Doors"
+FortName="正面玄関"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="開店しました！"
+
+[FortStandard1]
+; EN: FortName="The Chain 2"
+FortName="チェーン2"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="破壊されました！"
+
+[FortStandard2]
+; EN: FortName="The Chain 1"
+FortName="チェーン1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="破壊されました！"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Your enemy is using Tarydium, a powerful and volatile element, to power their War Machines. You must infiltrate the base by first destroying the two counterweights outside the west wing of the fort. This will open the doors to the fortress."
+ObjDesc[0]="あなたの敵は、強力で揮発性の要素であるタリジウムを使用して、ウォーマシンに動力を供給しています。最初に砦の西翼の外側にある2つのカウンターウェイトを破壊して、基地に潜入する必要があります。これにより、要塞への扉が開かれます。"
+; EN: ObjDesc[1]="Optionally, you may locate the main gate access control switch and open the castle's main gate, giving your teammates more direct access."
+ObjDesc[1]="必要に応じて、メインゲートのアクセス制御スイッチを見つけて城のメインゲートを開き、チームメートがより直接アクセスできるようにすることができます。"
+; EN: ObjDesc[2]="Find and activate the primary access control switch to gain entry to the Tarydium reactor room."
+ObjDesc[2]="Tarydium原子炉室に入るために、一次アクセス制御スイッチを見つけてアクティブにします。"
+; EN: ObjDesc[3]="Finally, destroy the Tarydium power crystal to shut down the operation."
+ObjDesc[3]="最後に、タリジウムパワークリスタルを破壊して動作を停止します。"

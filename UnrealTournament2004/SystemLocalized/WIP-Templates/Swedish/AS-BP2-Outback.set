@@ -1,0 +1,277 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: ObjectiveName="Hops addition"
+ObjectiveName="Humletillsats"
+; EN: DestructionMessage="Hops level at 3.2 %"
+DestructionMessage="Humlenivå på 3,2 %"
+; EN: ObjectiveDescription="Hops addition"
+ObjectiveDescription="Humletillsats"
+; EN: Objective_Info_Attacker="Insert the Hops canister into the addition module"
+Objective_Info_Attacker="Sätt i humlebehållaren i tilläggsmodulen"
+; EN: Objective_Info_Defender="Stop the Hops canister from being inserted"
+Objective_Info_Defender="Stoppa humlebehållaren från att sättas in"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Hops Canister!"
+PlayerDroppedMessage=" tappade humlebehållaren!"
+; EN: DroppedMessage="Hops Canister dropped!"
+DroppedMessage="Humle Canister tappade!"
+; EN: EnergyCorePickedUp="Hops Canister picked up!"
+EnergyCorePickedUp="Humle Canister plockade upp!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Hops Canister!"
+PlayerPickedUpEnergyCore=" hämtade humlebehållaren!"
+; EN: PlayerCoreReset="Hops Canister reset!"
+PlayerCoreReset="Humle Canister återställd!"
+; EN: ObjectiveName="Hops canister"
+ObjectiveName="Humlebehållare"
+; EN: DestructionMessage="Hops canister located"
+DestructionMessage="Humlekapsel placerad"
+; EN: ObjectiveDescription="Hops canister"
+ObjectiveDescription="Humlebehållare"
+; EN: Objective_Info_Attacker="Find and deliver the missing Hops canister."
+Objective_Info_Attacker="Hitta och leverera den saknade humlebehållaren."
+; EN: Objective_Info_Defender="Defend the Hops canister."
+Objective_Info_Defender="Försvara humlebehållaren."
+
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Brewery gates are open"
+Message="Bryggeriportarna är öppna"
+
+[Action_DISPLAYMESSAGE3]
+; EN: Message="The brewery has been breached...!"
+Message="Bryggeriet har brutits...!"
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="Hops level at 9.8 % and holding"
+Message="Humlenivån på 9,8 % och håller"
+
+[Action_DISPLAYMESSAGE5]
+; EN: Message="Return to the pub to celebrate your victory..."
+Message="Återvänd till puben för att fira din seger..."
+
+[Action_DISPLAYMESSAGE7]
+; EN: Message="and catch the Bush Boys live on stage"
+Message="och fånga Bush Boys live på scen"
+
+[DestroyableObjective_SM0]
+ObjectiveName="Zero Beer Marketing Campaign"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard förstört!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign."
+Objective_Info_Attacker="Stoppa marknadsföringskampanjen Zero Beer."
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Skydda Zero Beer Billboards."
+
+[DestroyableObjective_SM1]
+ObjectiveName="Zero Beer Marketing Campaign"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard förstört!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Stoppa marknadsföringskampanjen Zero Beer!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Skydda Zero Beer Billboards."
+
+[DestroyableObjective_SM10]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="Bryggeriportlås"
+; EN: ObjectiveDescription="Destroy Locks on Brewery gates."
+ObjectiveDescription="Förstör lås på bryggeriportar."
+; EN: Objective_Info_Attacker="Destroy the Brewery gate locks."
+Objective_Info_Attacker="Förstör bryggeriets portlås."
+; EN: Objective_Info_Defender="Protect the Brewery gates."
+Objective_Info_Defender="Skydda bryggeriets portar."
+
+[DestroyableObjective_SM11]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="Bryggeriportlås"
+; EN: Objective_Info_Attacker="Destroy the brewery gate locks"
+Objective_Info_Attacker="Förstör bryggeriets lås"
+; EN: Objective_Info_Defender="Protect the brewery gates"
+Objective_Info_Defender="Skydda bryggeriportarna"
+
+[DestroyableObjective_SM2]
+ObjectiveName="Zero Beer Marketing Campaign"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard förstört!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Stoppa marknadsföringskampanjen Zero Beer!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Skydda Zero Beer Billboards."
+
+[DestroyableObjective_SM4]
+ObjectiveName="Zero Beer Marketing Campaign"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard förstört!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Stoppa marknadsföringskampanjen Zero Beer!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Skydda Zero Beer Billboards."
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="Bryggeriportlås"
+; EN: Objective_Info_Attacker="Destroy the brewery gate locks"
+Objective_Info_Attacker="Förstör bryggeriets lås"
+; EN: Objective_Info_Defender="Protect the brewery gates"
+Objective_Info_Defender="Skydda bryggeriportarna"
+
+[DestroyableObjective_SM9]
+ObjectiveName="Zero Beer Marketing Campaign"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard förstört!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Stoppa marknadsföringskampanjen Zero Beer!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Skydda Zero Beer Billboards."
+
+[Energybeer]
+; EN: ObjectiveName="Beer canister"
+ObjectiveName="Ölburk"
+
+[HoldObjective1]
+; EN: ObjectiveName="The Pubs Main Valve"
+ObjectiveName="Pubarnas huvudventil"
+; EN: DestructionMessage="Drainage valve opened!"
+DestructionMessage="Dräneringsventil öppnad!"
+; EN: ObjectiveDescription="Main Pub Valve"
+ObjectiveDescription="Huvudpubventil"
+; EN: Objective_Info_Attacker="Open the Pub's Zero Beer drainage valve."
+Objective_Info_Attacker="Öppna pubens Zero Beer dräneringsventil."
+; EN: Objective_Info_Defender="Protect the Pub's Zero Beer drainage valve."
+Objective_Info_Defender="Skydda Pubens Zero Beer dräneringsventil."
+
+[HoldObjective2]
+; EN: ObjectiveName="The Billabong Water Valve"
+ObjectiveName="Billabong vattenventil"
+; EN: DestructionMessage="Billabong water sucessfully pumped!"
+DestructionMessage="Billabong-vatten pumpades framgångsrikt!"
+; EN: ObjectiveDescription="Brewery Valve"
+ObjectiveDescription="Bryggeriventil"
+; EN: Objective_Info_Attacker="Pump the fresh water to the brewery system."
+Objective_Info_Attacker="Pumpa färskvattnet till bryggerisystemet."
+; EN: Objective_Info_Defender="Keep the fresh water out of the brewery."
+Objective_Info_Defender="Håll det färska vattnet borta från bryggeriet."
+
+[HoldObjective3]
+; EN: ObjectiveName="The Final Valve"
+ObjectiveName="Slutventilen"
+; EN: DestructionMessage="New beer has been distilled"
+DestructionMessage="Nytt öl har destillerats"
+; EN: ObjectiveDescription="Fermentation Tanks"
+ObjectiveDescription="Jäsningstankar"
+; EN: Objective_Info_Attacker="Get the new beer into the fermentation tanks."
+Objective_Info_Attacker="Hämta det nya ölet i jäsningstankarna."
+; EN: Objective_Info_Defender="Keep the new beer out of the fermentation tanks."
+Objective_Info_Defender="Håll det nya ölet borta från jäsningstankarna."
+
+[HoldObjective4]
+; EN: ObjectiveName="Billabong Flow Valve"
+ObjectiveName="Billabong flödesventil"
+; EN: DestructionMessage="Billabong water sucessfully added."
+DestructionMessage="Billabong-vatten tillsattes framgångsrikt."
+; EN: ObjectiveDescription="Brewery Valve"
+ObjectiveDescription="Bryggeriventil"
+; EN: Objective_Info_Attacker="Open the Brew Tank water valve."
+Objective_Info_Attacker="Öppna bryggtankens vattenventil."
+; EN: Objective_Info_Defender="Keep the Brew Tank Valve closed."
+Objective_Info_Defender="Håll bryggtankens ventil stängd."
+
+[LevelInfo0]
+Title="AS-BP2-Outback"
+
+[LevelSummary]
+Title="AS-BP2-Outback"
+; EN: Description="City slickers just took over the outback's top brewery.  They've dumped your favorite beverage, replacing it with piss poor Zero Beer.                                                                                The grog's got no alcohol and tastes like a Bondi cigar!  Get over there pronto and sort this thing out...  before it takes over OZ!!"
+Description="City slickers tog precis över outbackens bästa bryggeri. De har dumpat din favoritdryck och ersatt den med skitstackars Zero Beer. Groggen har ingen alkohol och smakar som en Bondi-cigarr! Gå dit pronto och reda ut det här... innan det tar över OZ!!"
+
+[MyBurned]
+; EN: DeathString="%o got to close to the flamage."
+DeathString="%o kom nära lågan."
+; EN: FemaleSuicide="%o played with fire, and lost"
+FemaleSuicide="%o lekte med elden och förlorade"
+; EN: MaleSuicide="%o played with fire, and lost"
+MaleSuicide="%o lekte med elden och förlorade"
+
+[MyDrowned]
+; EN: DeathString="%o went looking for the swagman"
+DeathString="%o letade efter swagman"
+; EN: FemaleSuicide="%o went looking for the swagman"
+FemaleSuicide="%o letade efter swagman"
+; EN: MaleSuicide="%o went looking for the swagman"
+MaleSuicide="%o letade efter swagman"
+
+[PhysicsVolume0]
+; EN: LocationName="Conveyor blets"
+LocationName="Blättar för transportband"
+
+[SceneSubtitles1]
+SubTitles=("Somewhere deep in the Australian outback...",,"trouble is brewing.",,"First, your team will need to open the Pub's drainage valve and get rid of the old Zero Beer.",,"Next, destroy the Zero Beer billboards to ruin their marketing campaign.",,"In order to make new beer, you'll need to engage the lake's pumps and restore the flow of fresh water into the Brewery.",,"Once the water is flowing, your team must storm the Brewery's main gates.",,"When you're inside, open the intake valve to pump the fresh water into the brewing tanks.",,"Find the missing Hops canister and add it to the Brew cycle.",,"Once the hops are in, someone will need to activate the main switch and start the stirring paddles of the brew kettles.",,"Finally, open the main valve to fill up the fermentation tanks with fresh beer.",)
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Billboards have been destroyed, proceed to the billabong"
+Message="Affischtavlor har förstörts, fortsätt till billabongen"
+
+[TriggeredObjective2]
+; EN: ObjectiveName="Stirring Paddle Switch"
+ObjectiveName="Omrörarpaddelbrytare"
+; EN: DestructionMessage="Stirring paddles activated."
+DestructionMessage="Omrörarpaddlar aktiverade."
+; EN: ObjectiveDescription="Brew Kettles Main Switch"
+ObjectiveDescription="Bryggvattenkokare Huvudströmbrytare"
+; EN: Objective_Info_Attacker="Activate the Brew Kettles."
+Objective_Info_Attacker="Aktivera bryggkokarna."
+; EN: Objective_Info_Defender="Keep the Brew Kettles shut down"
+Objective_Info_Defender="Håll bryggkokarna avstängda"
+
+[Volume0]
+; EN: LocationName="In the Pub"
+LocationName="I puben"
+
+[WaterVolume0]
+; EN: LocationName="Billabong water"
+LocationName="Billabong vatten"
+
+[WaterVolume1]
+; EN: LocationName="Fermenting beer"
+LocationName="Jäsande öl"
+
+[WaterVolume2]
+; EN: LocationName="Beer tank"
+LocationName="Öltank"
+
+[WaterVolume3]
+; EN: LocationName="Under Water in Billiabong"
+LocationName="Under vatten i Billiabong"
+
+[ZoneInfo0]
+; EN: LocationName="Outback"
+LocationName="Vildmark"
+
+[ZoneInfo1]
+; EN: LocationName="Brewery Shipping"
+LocationName="Bryggerifrakt"
+
+[ZoneInfo2]
+; EN: LocationName="Brewery Production"
+LocationName="Bryggeriproduktion"
+
+[ZoneInfo3]
+; EN: LocationName="Back at the Pub"
+LocationName="Tillbaka på puben"
+
+[beercanister]
+; EN: PlayerDroppedMessage=" dropped the Hops canister!"
+PlayerDroppedMessage=" tappade humlebehållaren!"
+; EN: DroppedMessage="Hops canister dropped!"
+DroppedMessage="Humlebehållaren tappade!"
+; EN: EnergyCorePickedUp="Hops canister picked up!"
+EnergyCorePickedUp="Humleburk plockad upp!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Hops canister!"
+PlayerPickedUpEnergyCore=" plockade upp humlebehållaren!"
+; EN: PlayerCoreReset="Hops canister reset!"
+PlayerCoreReset="Återställning av humlebehållaren!"
+

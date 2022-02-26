@@ -1,133 +1,178 @@
 [BlockingVolume3]
-LocationName="In the Sky"
+; EN: LocationName="In the Sky"
+LocationName="Dans le ciel"
 
 [BlockingVolume61]
-LocationName="In the Sky"
+; EN: LocationName="In the Sky"
+LocationName="Dans le ciel"
 
 [LevelInfo0]
-Title="Deck 17"
+; EN: Title="Deck 17"
+Title="Pont 17"
 
 [LevelSummary]
-Title="Deck 17"
-Description="Enter Deck 17 - Magma Refinery... Deck 16's HOT neighbor."
+; EN: Title="Deck 17"
+Title="Pont 17"
+; EN: Description="Enter Deck 17 - Magma Refinery... Deck 16's HOT neighbor."
+Description="Entrez dans le pont 17 - Raffinerie de magma... Le voisin CHAUD du pont 16."
 
 [Volume0]
-LocationName="D17 Elevators - Lower Level (Shield Pack)"
+; EN: LocationName="D17 Elevators - Lower Level (Shield Pack)"
+LocationName="Ascenseurs D17 - Niveau inférieur (Pack de bouclier)"
 
 [Volume10]
-LocationName="D17 Main Room - West (Link Gun)"
+; EN: LocationName="D17 Main Room - West (Link Gun)"
+LocationName="D17 Salle Principale - Ouest (Link Gun)"
 
 [Volume4]
-LocationName="Main Room - Low N. Ledge (UDamage)"
+; EN: LocationName="Main Room - Low N. Ledge (UDamage)"
+LocationName="Pièce principale - Low N. Ledge (UDamage)"
 
 [Volume5]
-LocationName="D17 Main Room - East Ledge (Shield Pack)"
+; EN: LocationName="D17 Main Room - East Ledge (Shield Pack)"
+LocationName="Salle principale D17 - Rebord Est (Pack Bouclier)"
 
 [Volume6]
-LocationName="D17 Elevators - Lower Level (2 Health Packs)"
+; EN: LocationName="D17 Elevators - Lower Level (2 Health Packs)"
+LocationName="Ascenseurs D17 - Niveau inférieur (2 packs de santé)"
 
 [Volume7]
-LocationName="D17 Main Room - Middle (Minigun)"
+; EN: LocationName="D17 Main Room - Middle (Minigun)"
+LocationName="D17 Salle Principale - Milieu (Minigun)"
 
 [Volume8]
-LocationName="Giant Lava Pool (Rocket Launcher)"
+; EN: LocationName="Giant Lava Pool (Rocket Launcher)"
+LocationName="Piscine de lave géante (lance-roquettes)"
 
 [ZoneInfo25]
-LocationName="Deck 16 (Restricted Area)"
+; EN: LocationName="Deck 16 (Restricted Area)"
+LocationName="Pont 16 (Zone restreinte)"
 
 [ZoneInfo30]
-LocationName="Orange Corridor Curve"
+; EN: LocationName="Orange Corridor Curve"
+LocationName="Courbe de couloir orange"
 
 [ZoneInfo32]
-LocationName="Blue Room (Rocket Launcher)"
+; EN: LocationName="Blue Room (Rocket Launcher)"
+LocationName="Chambre bleue (lance-roquettes)"
 
 [ZoneInfo37]
-LocationName="Upper Hallway"
+; EN: LocationName="Upper Hallway"
+LocationName="Couloir supérieur"
 
 [ZoneInfo40]
-LocationName="Upper Small Lava Pool (Lightning Gun)"
+; EN: LocationName="Upper Small Lava Pool (Lightning Gun)"
+LocationName="Petite piscine de lave supérieure (pistolet à foudre)"
 
 [ZoneInfo41]
-LocationName="Under Exhaust Fan Near Elevators"
+; EN: LocationName="Under Exhaust Fan Near Elevators"
+LocationName="Sous le ventilateur d'extraction près des ascenseurs"
 
 [ZoneInfo43]
-LocationName="Restricted Entrance to Deck 16"
+; EN: LocationName="Restricted Entrance to Deck 16"
+LocationName="Entrée restreinte au pont 16"
 
 [ZoneInfo45]
-LocationName="Entrance to D17/D16 Junction"
+; EN: LocationName="Entrance to D17/D16 Junction"
+LocationName="Entrée de la jonction D17/D16"
 
 [ZoneInfo47]
-LocationName="Deck 16 (Restricted Area)"
+; EN: LocationName="Deck 16 (Restricted Area)"
+LocationName="Pont 16 (Zone restreinte)"
 
 [ZoneInfo48]
-LocationName="Deck 16 (Restricted Area)"
+; EN: LocationName="Deck 16 (Restricted Area)"
+LocationName="Pont 16 (Zone restreinte)"
 
 [ZoneInfo49]
-LocationName="Deck 16 (Restricted Area)"
+; EN: LocationName="Deck 16 (Restricted Area)"
+LocationName="Pont 16 (Zone restreinte)"
 
 [ZoneInfo50]
-LocationName="D17/D16 Junction (Bio-Rifle)"
+; EN: LocationName="D17/D16 Junction (Bio-Rifle)"
+LocationName="Jonction D17/D16 (Bio-Fusil)"
 
 [ZoneInfo51]
-LocationName="Deck 16 (Restricted Area)"
+; EN: LocationName="Deck 16 (Restricted Area)"
+LocationName="Pont 16 (Zone restreinte)"
 
 [ZoneInfo52]
-LocationName="Deck 16 (Restricted Area)"
+; EN: LocationName="Deck 16 (Restricted Area)"
+LocationName="Pont 16 (Zone restreinte)"
 
 [ZoneInfo53]
-LocationName="Near Elevators - Eastern Upper Level"
+; EN: LocationName="Near Elevators - Eastern Upper Level"
+LocationName="Près des ascenseurs - Niveau supérieur est"
 
 [ZoneInfo54]
-LocationName="Upper Hallway (Flak Cannon)"
+; EN: LocationName="Upper Hallway (Flak Cannon)"
+LocationName="Couloir supérieur (Flak Cannon)"
 
 [ZoneInfo55]
-LocationName="T-Section of Upper Hallway"
+; EN: LocationName="T-Section of Upper Hallway"
+LocationName="Section en T du couloir supérieur"
 
 [ZoneInfo56]
-LocationName="Main Entrance to Upper Hallway"
+; EN: LocationName="Main Entrance to Upper Hallway"
+LocationName="Entrée principale du couloir supérieur"
 
 [ZoneInfo57]
-LocationName="Elevators - Upper Level"
+; EN: LocationName="Elevators - Upper Level"
+LocationName="Ascenseurs - Niveau supérieur"
 
 [ZoneInfo58]
-LocationName="Above Elevators (Redeemer)"
+; EN: LocationName="Above Elevators (Redeemer)"
+LocationName="Au-dessus des ascenseurs (Rédempteur)"
 
 [ZoneInfo59]
-LocationName="Elevators - Lower Level (Shock Rifle)"
+; EN: LocationName="Elevators - Lower Level (Shock Rifle)"
+LocationName="Ascenseurs - Niveau inférieur (Shock Rifle)"
 
 [ZoneInfo60]
-LocationName="Elevators - Lower Level (Shock Rifle)"
+; EN: LocationName="Elevators - Lower Level (Shock Rifle)"
+LocationName="Ascenseurs - Niveau inférieur (Shock Rifle)"
 
 [ZoneInfo61]
-LocationName="Red Elevator Corridor - East"
+; EN: LocationName="Red Elevator Corridor - East"
+LocationName="Corridor d'ascenseur rouge - Est"
 
 [ZoneInfo62]
-LocationName="Red Elevator Corridor - West"
+; EN: LocationName="Red Elevator Corridor - West"
+LocationName="Corridor d'ascenseur rouge - Ouest"
 
 [ZoneInfo63]
-LocationName="Giant Lava Pool"
+; EN: LocationName="Giant Lava Pool"
+LocationName="Piscine de lave géante"
 
 [ZoneInfo69]
-LocationName="Giant Lava Pit (Super Shield Pack)"
+; EN: LocationName="Giant Lava Pit (Super Shield Pack)"
+LocationName="Puits de lave géant (Pack Super Bouclier)"
 
 [ZoneInfo70]
-LocationName="Main Room - East Ledge (Bio-Rifle)"
+; EN: LocationName="Main Room - East Ledge (Bio-Rifle)"
+LocationName="Salle principale - East Ledge (Bio-Rifle)"
 
 [ZoneInfo71]
-LocationName="Main Room - Middle"
+; EN: LocationName="Main Room - Middle"
+LocationName="Pièce Principale - Milieu"
 
 [ZoneInfo73]
-LocationName="Main Room - Low N. Ledge (Shock Rifle)"
+; EN: LocationName="Main Room - Low N. Ledge (Shock Rifle)"
+LocationName="Salle principale - Low N. Ledge (fusil à choc)"
 
 [ZoneInfo74]
-LocationName="Main Room - Sniper Ledge (Lightning Gun)"
+; EN: LocationName="Main Room - Sniper Ledge (Lightning Gun)"
+LocationName="Salle principale - Sniper Ledge (Lightning Gun)"
 
 [ZoneInfo76]
-LocationName="Tall North Corridor (2 Health Packs)"
+; EN: LocationName="Tall North Corridor (2 Health Packs)"
+LocationName="Grand couloir nord (2 packs de santé)"
 
 [ZoneInfo77]
-LocationName="Lower Small Lava Pool (Flak Cannon)"
+; EN: LocationName="Lower Small Lava Pool (Flak Cannon)"
+LocationName="Petite piscine de lave inférieure (Flak Cannon)"
 
 [ZoneInfo78]
-LocationName="Orange Corridor Straightaway"
+; EN: LocationName="Orange Corridor Straightaway"
+LocationName="Couloir Orange Tout de suite"
 

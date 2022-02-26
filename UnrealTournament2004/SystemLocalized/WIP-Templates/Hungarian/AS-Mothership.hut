@@ -1,0 +1,487 @@
+[Action_DISPLAYMESSAGE5]
+Message="5..."
+
+[Action_DISPLAYMESSAGE6]
+Message="4..."
+
+[Action_DISPLAYMESSAGE7]
+Message="3..."
+
+[Action_DISPLAYMESSAGE8]
+Message="2..."
+
+[Action_DISPLAYMESSAGE9]
+Message="1..."
+
+[Counter0]
+; EN: CompleteMessage="Core Vents opened!"
+CompleteMessage="A központi szellőzőnyílások megnyíltak!"
+
+[Counter2]
+; EN: CompleteMessage="Energy Shield deactivated!!!"
+CompleteMessage="Az Energy Shield deaktiválva!!!"
+
+[Counter3]
+; EN: CompleteMessage="Doors and lower force field deactivated"
+CompleteMessage="Az ajtók és az alsó erőtér deaktiválva"
+
+[Counter4]
+; EN: CompleteMessage="Core conductors destroyed!!!"
+CompleteMessage="Magvezetők megsemmisültek!!!"
+
+[Counter5]
+; EN: CompleteMessage="Loading bay force field deactivated!"
+CompleteMessage="Betöltési erőtér deaktiválva!"
+
+[Counter6]
+; EN: CompleteMessage="Top force fields deactivated!"
+CompleteMessage="A legjobb erőterek deaktiválva!"
+
+[DestroyVehicleObjective0]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Sentinel tornyok"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Őrszem megsemmisült!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Pusztítsd el az őrtornyokat"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Pusztítsd el az őrszemet"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Védd az őrszemet"
+
+[DestroyVehicleObjective1]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Sentinel tornyok"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Őrszem megsemmisült!"
+; EN: LocationPrefix="lowerhull"
+LocationPrefix="alsótest"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Pusztítsd el az őrtornyokat"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Pusztítsd el az őrszemet"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Védd az őrszemet"
+
+[DestroyVehicleObjective2]
+; EN: ObjectiveName="Sentinels turrets"
+ObjectiveName="Sentinel tornyok"
+; EN: DestructionMessage="Sentinel destroyed!"
+DestructionMessage="Őrszem megsemmisült!"
+; EN: ObjectiveDescription="Destroy sentinel turrets"
+ObjectiveDescription="Pusztítsd el az őrtornyokat"
+; EN: Objective_Info_Attacker="Destroy sentinel"
+Objective_Info_Attacker="Pusztítsd el az őrszemet"
+; EN: Objective_Info_Defender="Defend sentinel"
+Objective_Info_Defender="Védd az őrszemet"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Energia bypass"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Megsemmisült energia bypass..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Megsemmisíti a lézermező bypass-t"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Az energia bypass megsemmisítése"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Az energia-bypass védelme"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Felső pajzs generátor"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="A Shield Generator megsemmisült"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Pusztítsd el a pajzsgenerátorokat"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Pusztítsa el a felső pajzsgenerátort "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Védd meg a felső pajzsgenerátort "
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Upper shield generator"
+ObjectiveName="Felső pajzs generátor"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="A Shield Generator megsemmisült"
+; EN: ObjectiveDescription="Destroy shield generators"
+ObjectiveDescription="Pusztítsd el a pajzsgenerátorokat"
+; EN: Objective_Info_Attacker="Destroy upper shield generator "
+Objective_Info_Attacker="Pusztítsa el a felső pajzsgenerátort "
+; EN: Objective_Info_Defender="Defend upper shield generator "
+Objective_Info_Defender="Védd meg a felső pajzsgenerátort "
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower shield generator"
+ObjectiveName="Alsó pajzs generátor"
+; EN: DestructionMessage="Shield Generator Destroyed"
+DestructionMessage="A Shield Generator megsemmisült"
+; EN: ObjectiveDescription="Destroy lower shield generator"
+ObjectiveDescription="Pusztítsa el az alsó pajzsgenerátort"
+; EN: Objective_Info_Attacker="Destroy lower shield generator"
+Objective_Info_Attacker="Pusztítsa el az alsó pajzsgenerátort"
+; EN: Objective_Info_Defender="Defend lower shield generator "
+Objective_Info_Defender="Védd az alsó pajzs generátort "
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Magvezetők..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="A karmester megsemmisült!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="A magvezető megsemmisítése"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Pusztítsd el a karmestert"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Védd meg a karmestert"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Energy bypass"
+ObjectiveName="Energia bypass"
+; EN: DestructionMessage="Destroyed energy bypass..."
+DestructionMessage="Megsemmisült energia bypass..."
+; EN: ObjectiveDescription="Destroy laser field bypass"
+ObjectiveDescription="Megsemmisíti a lézermező bypass-t"
+; EN: Objective_Info_Attacker="Destroy energy bypass"
+Objective_Info_Attacker="Az energia bypass megsemmisítése"
+; EN: Objective_Info_Defender="Defend energy bypass"
+Objective_Info_Defender="Az energia-bypass védelme"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Core conductors..."
+ObjectiveName="Magvezetők..."
+; EN: DestructionMessage="Conductor destroyed!!!"
+DestructionMessage="A karmester megsemmisült!!!"
+; EN: ObjectiveDescription="Destroy core conductor"
+ObjectiveDescription="A magvezető megsemmisítése"
+; EN: Objective_Info_Attacker="Destroy the conductor"
+Objective_Info_Attacker="Pusztítsd el a karmestert"
+; EN: Objective_Info_Defender="Defend the conductor"
+Objective_Info_Defender="Védd meg a karmestert"
+
+[HoldObjective0]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Mag panelek."
+; EN: DestructionMessage="Hatch lock #1 released!"
+DestructionMessage="Az 1-es nyílászár feloldva!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Mag panelek"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Használja a panelt a magnyílás feloldásához"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Hagyja abba a magpanelek használatát"
+
+[HoldObjective1]
+; EN: ObjectiveName="Core panels."
+ObjectiveName="Mag panelek."
+; EN: DestructionMessage="Hatch lock #2 released!"
+DestructionMessage="A 2-es nyílászár feloldva!"
+; EN: ObjectiveDescription="Core panels"
+ObjectiveDescription="Mag panelek"
+; EN: Objective_Info_Attacker="Use panel to unlock core hatch"
+Objective_Info_Attacker="Használja a panelt a magnyílás feloldásához"
+; EN: Objective_Info_Defender="Stop any usage of the core panels"
+Objective_Info_Defender="Hagyja abba a magpanelek használatát"
+
+[InfoPod2]
+; EN: POD_Message="Lower Inner Turrets"
+POD_Message="Alsó belső tornyok"
+
+[InfoPod3]
+POD_Message="Link Cannon"
+
+[InfoPod4]
+POD_Message="Landing Bay Turrets"
+
+[InfoPod5]
+; EN: POD_Message="Top Inner Turrets"
+POD_Message="Legfelső belső tornyok"
+
+[InfoPod6]
+; EN: POD_Message="Top Outer Turrets"
+POD_Message="Legfelső külső tornyok"
+
+[InfoPod7]
+; EN: POD_Message="Lower Outer Turrets"
+POD_Message="Alsó külső tornyok"
+
+[InfoPod8]
+POD_Message="Link Cannon"
+
+[LevelInfo0]
+; EN: Title="Mothership Assault"
+Title="Anyahajó támadás"
+
+[LevelSummary]
+; EN: Title="Mothership Assault"
+Title="Anyahajó támadás"
+; EN: Description="First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali. Within a year the Skaarj had pushed humanity back to the brink of destruction. This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat. A Skaarj Mothership orbited the Earth, and rained death upon the planet in preparation for the final landing. In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the Mothership defenses their analysis had revealed."
+Description="Az első érintkezés a Skaarjjal a Vortex Rikers börtönszállító felépülése során jött létre Na Pali-n. A Skaarj egy éven belül a pusztulás szélére taszította az emberiséget. Ez a forgatókönyv megismétli a Földért folyó végső csatát, és az emberek lenyűgöző győzelmét a szinte biztos vereség mellett. Egy Skaarj anyahajó keringett a Föld körül, és halálos esőt zúdított a bolygóra a végső leszállásra készülve. Egy merész öngyilkos küldetés során az emberek megtámadták a Skaarj Anyahajót kisméretű, egyszemélyes vadászgépekben, abban a reményben, hogy kihasználják az anyahajó védelmének egy hibáját, amelyet elemzésük feltárt."
+
+[MessageTrigger15]
+; EN: Message="Prepare to attack!!!"
+Message="Készülj fel a támadásra!!!"
+
+[MessageTrigger17]
+; EN: Message="Prepare the defense!!!"
+Message="Készülj fel a védekezésre!!!"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing bay"
+ObjectiveName="Leszálló öböl"
+; EN: DestructionMessage="Attackers have entered the MotherShip!"
+DestructionMessage="Támadók léptek be az Anyahajóba!"
+; EN: ObjectiveDescription="Enter Skaarj ship via landing bay"
+ObjectiveDescription="Lépjen be a Skaarj hajóra a leszállóhelyen keresztül"
+; EN: Objective_Info_Attacker="Proceed to landing bay"
+Objective_Info_Attacker="Tovább a leszállóhelyre"
+; EN: Objective_Info_Defender="Stop the humans from landing "
+Objective_Info_Defender="Ne szálljanak le az emberek "
+
+[SceneSubtitles0]
+SubTitles=("First contact with the Skaarj came during the recovery of the prison transporter Vortex Rikers on Na Pali.        ","Within a year the Skaarj had pushed humanity back to the brink of destruction.","This scenario replicates the final battle for Earth, and the stunning victory by humans in the face of almost certain defeat.","A Skaarj mother ship orbited the Earth, and rained death upon the planet in preparation for the final landing.","In a daring suicide mission, the humans attacked the Skaarj Mothership in small one man fighters, hoping to exploit a flaw in the mother ship defenses their analysis had revealed.","Take down the generator within the lower section of the Skaarj mother ship to deactivate the top force fields.","Once completed head upwards into the main body of the Skaarj mother ship. ","Destroy the top generators to deactivate the shield for the landing bay.","Proceed and land in the mother ship landing bay.","Once on foot, proceed to the next section","Two energy bypass mechanisms will need to be destroyed to proceed to the cargo hull.","Past the bridge, the core awaits.","Once in the cargo hull three sentinels await.","The destruction of the sentinels is the only way to proceed forward.","The force fields deactivate once the three sentinels have been destroyed.","Passed the bridge and the core awaits.","Trigger the panels to open the hatch locks.","Once the panels have been triggered shoot the two energy core conductors in order to destabilize the core.")
+
+[Trigger_ASMessageTrigger14]
+; EN: Message="Force field down..."
+Message="Kényszermező le..."
+
+[Trigger_ASMessageTrigger15]
+; EN: Message="Unlock the Core!"
+Message="Oldja fel a magot!"
+
+[Trigger_ASMessageTrigger3]
+; EN: Message="Core hatches have been released..."
+Message="A törzsnyílások megjelentek..."
+
+[Trigger_ASMessageTrigger4]
+; EN: Message="Top force fields down..."
+Message="Felső erőterek lefelé..."
+
+[Trigger_ASMessageTrigger5]
+; EN: Message="Attackers have landed!!!"
+Message="A támadók leszálltak!!!"
+
+[Trigger_ASMessageTrigger7]
+; EN: Message="Attackers have entered the core!!!"
+Message="A támadók beléptek a magba!!!"
+
+[Trigger_ASMessageTrigger8]
+; EN: Message="Core has been destabilized!"
+Message="A mag destabilizálódott!"
+
+[Trigger_ASMessageTrigger9]
+; EN: Message="Landing bay force field down"
+Message="Leszállási erőtér lefelé"
+
+[ZoneInfo1]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitációs motor folyosó jobbra"
+
+[ZoneInfo10]
+; EN: LocationName="Energy generator #2"
+LocationName="Energiagenerátor #2"
+
+[ZoneInfo12]
+; EN: LocationName="The core"
+LocationName="A mag"
+
+[ZoneInfo13]
+; EN: LocationName="Right shaft"
+LocationName="Jobb tengely"
+
+[ZoneInfo14]
+; EN: LocationName="Main middle shaft"
+LocationName="Fő középső tengely"
+
+[ZoneInfo16]
+; EN: LocationName="Core exterior"
+LocationName="Core külső"
+
+[ZoneInfo17]
+; EN: LocationName="Core exterior"
+LocationName="Core külső"
+
+[ZoneInfo18]
+; EN: LocationName="Inner top shaft"
+LocationName="Belső felső tengely"
+
+[ZoneInfo19]
+; EN: LocationName="Core exterior"
+LocationName="Core külső"
+
+[ZoneInfo2]
+; EN: LocationName="In space"
+LocationName="Űrben"
+
+[ZoneInfo20]
+; EN: LocationName="Lower cross path"
+LocationName="Alsó keresztút"
+
+[ZoneInfo21]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Defender bypass spawn"
+
+[ZoneInfo22]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Defender bypass spawn"
+
+[ZoneInfo23]
+; EN: LocationName="Cargo hull"
+LocationName="Rakománytest"
+
+[ZoneInfo24]
+; EN: LocationName="Cargo hull"
+LocationName="Rakománytest"
+
+[ZoneInfo25]
+; EN: LocationName="Cargo hull"
+LocationName="Rakománytest"
+
+[ZoneInfo26]
+; EN: LocationName="Cargo hull"
+LocationName="Rakománytest"
+
+[ZoneInfo27]
+; EN: LocationName="Defender's bypass spawn"
+LocationName="Defender bypass spawn"
+
+[ZoneInfo28]
+; EN: LocationName="Space craft bay."
+LocationName="Űrhajó-öböl."
+
+[ZoneInfo29]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Rakománytest folyosója"
+
+[ZoneInfo3]
+; EN: LocationName="Lower section generator shaft"
+LocationName="Alsó szakasz generátor tengely"
+
+[ZoneInfo30]
+; EN: LocationName="Elevator shaft"
+LocationName="Liftakna"
+
+[ZoneInfo31]
+; EN: LocationName="Elevator passage "
+LocationName="Lift átjáró "
+
+[ZoneInfo32]
+; EN: LocationName="Cargo upper bridge left"
+LocationName="Rakomány felső híd balra"
+
+[ZoneInfo33]
+; EN: LocationName="Cargo upper bridge right"
+LocationName="Rakomány felső híd jobbra"
+
+[ZoneInfo34]
+; EN: LocationName="Elevator passage "
+LocationName="Lift átjáró "
+
+[ZoneInfo35]
+; EN: LocationName="Energy bypass room"
+LocationName="Energia bypass szoba"
+
+[ZoneInfo36]
+; EN: LocationName="Left hallway"
+LocationName="Bal folyosó"
+
+[ZoneInfo37]
+; EN: LocationName="Attackers landing bay"
+LocationName="A támadók leszállóhelye"
+
+[ZoneInfo38]
+; EN: LocationName="Right hallway"
+LocationName="Jobb folyosó"
+
+[ZoneInfo39]
+; EN: LocationName="Top energy bypass entrance"
+LocationName="Felső energia bypass bejárat"
+
+[ZoneInfo4]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Defender's Landing öböl"
+
+[ZoneInfo40]
+; EN: LocationName="Core entrance"
+LocationName="Core bejárat"
+
+[ZoneInfo41]
+; EN: LocationName="Core exterior"
+LocationName="Core külső"
+
+[ZoneInfo42]
+; EN: LocationName="Core bridge passage left"
+LocationName="A maghíd átjárója balra"
+
+[ZoneInfo43]
+; EN: LocationName="Gravity engine room #1"
+LocationName="Gravitációs gépház #1"
+
+[ZoneInfo44]
+; EN: LocationName="Gravity engine hallway left"
+LocationName="A gravitációs motor folyosója balra"
+
+[ZoneInfo45]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitációs motor folyosó jobbra"
+
+[ZoneInfo46]
+; EN: LocationName="Gravity engine room #2"
+LocationName="Gravitációs gépház #2"
+
+[ZoneInfo47]
+; EN: LocationName="Core bridge passage right"
+LocationName="Maghídi átjáró jobbra"
+
+[ZoneInfo48]
+; EN: LocationName="Core bridge passage right"
+LocationName="Maghídi átjáró jobbra"
+
+[ZoneInfo49]
+; EN: LocationName="Cargo hull"
+LocationName="Rakománytest"
+
+[ZoneInfo5]
+; EN: LocationName="Energy generator #1"
+LocationName="Energiagenerátor #1"
+
+[ZoneInfo50]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Rakománytest folyosója"
+
+[ZoneInfo51]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitációs motor folyosó jobbra"
+
+[ZoneInfo52]
+; EN: LocationName="Core bridge passage left"
+LocationName="A maghíd átjárója balra"
+
+[ZoneInfo53]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitációs motor folyosó jobbra"
+
+[ZoneInfo54]
+; EN: LocationName="Gravity engine hallway right"
+LocationName="Gravitációs motor folyosó jobbra"
+
+[ZoneInfo55]
+; EN: LocationName="Cargo hull hallway"
+LocationName="Rakománytest folyosója"
+
+[ZoneInfo6]
+; EN: LocationName="Landing bay"
+LocationName="Leszálló öböl"
+
+[ZoneInfo7]
+; EN: LocationName="landing bay"
+LocationName="leszálló öböl"
+
+[ZoneInfo8]
+; EN: LocationName="Defender's Landing bay"
+LocationName="Defender's Landing öböl"
+
+[ZoneInfo9]
+; EN: LocationName="Left shaft"
+LocationName="Bal tengely"
+

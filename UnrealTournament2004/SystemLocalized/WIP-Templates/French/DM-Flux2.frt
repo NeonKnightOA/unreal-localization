@@ -5,23 +5,30 @@ Title="Flux 2"
 Title="Flux 2"
 
 [Volume5]
-LocationName="Back Alley"
+; EN: LocationName="Back Alley"
+LocationName="Ruelle"
 
 [Volume6]
-LocationName="Long Ramp Area"
+; EN: LocationName="Long Ramp Area"
+LocationName="Zone de longue rampe"
 
 [Volume7]
-LocationName="Long Ramp Area"
+; EN: LocationName="Long Ramp Area"
+LocationName="Zone de longue rampe"
 
 [Volume8]
-LocationName="Front Area"
+; EN: LocationName="Front Area"
+LocationName="Zone avant"
 
 [Volume9]
-LocationName="Walkway Area"
+; EN: LocationName="Walkway Area"
+LocationName="Zone de la passerelle"
 
 [ZoneInfo0]
-LocationName="Inside"
+; EN: LocationName="Inside"
+LocationName="À l'intérieur"
 
 [ZoneInfo1]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 

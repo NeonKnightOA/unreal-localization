@@ -1,0 +1,78 @@
+[AdminIni]
+; EN: Msg_FinishGameEditFirst="You must finish your Game Edit before restarting the map"
+Msg_FinishGameEditFirst="Musisz zakończyć edycję gry przed ponownym uruchomieniem mapy"
+; EN: Msg_FinishGameRestart="You must finish your Game Edit before changing or restarting the map"
+Msg_FinishGameRestart="Musisz zakończyć edycję gry przed zmianą lub ponownym uruchomieniem mapy"
+; EN: Msg_MutNeedGameEdit="You must use 'Game Edit' command before 'Mutators' commands"
+Msg_MutNeedGameEdit="Musisz użyć polecenia „Edycja gry” przed poleceniami „Mutatory”"
+; EN: Msg_NoMutatorInUse="No Mutators in use"
+Msg_NoMutatorInUse="Brak mutatorów w użyciu"
+; EN: Msg_NoUnusedMuts="Found no unused mutators"
+Msg_NoUnusedMuts="Nie znaleziono nieużywanych mutatorów"
+; EN: Msg_AddedMutator="Added '%Mutator%' to used mutator list."
+Msg_AddedMutator="Dodano '%Mutator%' do listy używanych mutatorów."
+; EN: Msg_ErrAddingMutator="Error Adding '%Mutator%'To Used Mutator List"
+Msg_ErrAddingMutator="Błąd podczas dodawania '%Mutator%'do listy używanych mutatorów"
+; EN: Msg_RemovedMutator="Removed '%Mutator%' From Used Mutator List"
+Msg_RemovedMutator="Usunięto '%Mutator%' z listy używanych mutatorów"
+; EN: Msg_ErrRemovingMutator="Error Removing '%Mutator%' from used mutator List"
+Msg_ErrRemovingMutator="Błąd podczas usuwania '%Mutator%' z listy używanych mutatorów"
+; EN: Msg_MapListNeedGameEdit="You must use 'Game Edit' command before 'MapList' command"
+Msg_MapListNeedGameEdit="Musisz użyć polecenia „Edytuj grę” przed poleceniem „Lista map”"
+; EN: Msg_MustEndGameEdit="You must end your Game Edit first"
+Msg_MustEndGameEdit="Najpierw musisz zakończyć edycję gry"
+; EN: Msg_EditingClass="Editing %Class%"
+Msg_EditingClass="Edycja %Klasy%"
+; EN: Msg_EditFailed="Failed Starting To Edit"
+Msg_EditFailed="Nie udało się rozpocząć edycji"
+; EN: Msg_AlreadyEdited="Game Already being edited by Someone Else"
+Msg_AlreadyEdited="Gra już edytowana przez kogoś innego"
+; EN: Msg_NotEditing="You are not editing Game Settings, use 'Game Edit' first"
+Msg_NotEditing="Nie edytujesz ustawień gry, najpierw użyj opcji „Edytuj grę”"
+; EN: Msg_EditingCompleted="Editing Completed"
+Msg_EditingCompleted="Edycja zakończona"
+; EN: Msg_EditingCancelled="Editing Cancelled"
+Msg_EditingCancelled="Edycja anulowana"
+; EN: Msg_NoBotGameFull="Cannot add a bot, game is full."
+Msg_NoBotGameFull="Nie można dodać bota, gra jest pełna."
+; EN: Msg_NoAddNamedBot="Can only add named bots once the match has started"
+Msg_NoAddNamedBot="Nazwane boty można dodawać dopiero po rozpoczęciu meczu"
+; EN: Msg_NoBotsPlaying="No bots are currently playing"
+Msg_NoBotsPlaying="Żadne boty obecnie nie grają"
+; EN: Msg_GameNoSupportBots="The current Game Type does not support Bots"
+Msg_GameNoSupportBots="Obecny typ gry nie obsługuje botów"
+; EN: Msg_StatsNoBots="Cannot control bots when Worlds Stats are enabled"
+Msg_StatsNoBots="Nie można kontrolować botów, gdy włączone są statystyki światów"
+; EN: Msg_SetBotNeedVal="This command requires a numeric value between 0 and 32"
+Msg_SetBotNeedVal="To polecenie wymaga wartości liczbowej z zakresu od 0 do 32"
+
+[xExtraPrivs]
+; EN: LoadMsg="Extra Privileges Loaded"
+LoadMsg="Załadowano dodatkowe uprawnienia"
+; EN: MainPrivs="X"
+MainPrivs="x"
+SubPrivs="Xb|Xc|Xp|Xs|Xi|Xv|Xm"
+Tags=("Miscellaneous","Set Bot Skill","Use Console","Player List","Change Webadmin Skin","Manage Access Policies","Voice Chat Management","Match Setup")
+
+[xGamePrivs]
+; EN: LoadMsg="Maps & Game Privileges Loaded"
+LoadMsg="Załadowano mapy i uprawnienia do gier"
+; EN: MainPrivs="M"
+MainPrivs="m"
+SubPrivs="Mr|Mt|Mm|Ml|Ms|Mu|Mb|Ma"
+Tags=("Maps/Game Settings","Restart Map","Change Game Type","Change Map","Manages Map Rotation","Game Settings","Select Mutators","Add/Remove Bots","Game Status")
+
+[xKickPrivs]
+; EN: LoadMsg="Kick and Ban Privileges Loaded"
+LoadMsg="Załadowano przywileje kopania i banowania"
+MainPrivs="K"
+SubPrivs="Kp|Kb|Ko"
+Tags=("Kick/Ban","Kick Players","Ban Players","Kick Bots")
+
+[xUserGroupPrivs]
+; EN: LoadMsg="Admins & Groups Management Loaded"
+LoadMsg="Załadowano zarządzanie administratorami i grupami"
+MainPrivs="A|G"
+SubPrivs="Al|Aa|Ae|Ag|Am|Gl|Ga|Ge"
+Tags=("Users","List Admins","Add/Remove Admins","Edit Admins","Assign Groups","Make Managers","Groups","List Groups","Add/Remove Groups","Edit Groups")
+

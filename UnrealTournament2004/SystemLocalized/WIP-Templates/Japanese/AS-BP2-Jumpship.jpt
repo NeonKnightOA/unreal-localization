@@ -1,0 +1,299 @@
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Coolant Valve Control"
+LocationName="クーラントバルブ制御"
+
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Teleporter Console"
+LocationName="テレポーターコンソール"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Jump Engine A Control"
+LocationName="ジャンプエンジンAコントロール"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Jump Engine B Control"
+LocationName="ジャンプエンジンB制御"
+
+[ASCriticalObjectiveVolume5]
+; EN: LocationName="Central Computer Console"
+LocationName="セントラルコンピュータコンソール"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Coolant Valve Control Destroyed!"
+DestructionMessage="クーラントバルブコントロールが破壊されました！"
+; EN: ObjectiveDescription="Destroy Thermal Control Regulator to cool Jumpship engines."
+ObjectiveDescription="サーマルコントロールレギュレーターを破壊して、ジャンプシップエンジンを冷却します。"
+; EN: Objective_Info_Attacker="Destroy Thermal Control Regulator"
+Objective_Info_Attacker="熱制御レギュレーターを破壊する"
+; EN: Objective_Info_Defender="Protect Thermal Control Regulator"
+Objective_Info_Defender="熱制御レギュレーターを保護する"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="圧力弁"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="圧力弁が破壊されました！"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="油圧バルブを破壊してジャンプシップを解放します"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="油圧バルブを破壊する"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="油圧バルブを保護する"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="圧力弁"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="圧力弁が破壊されました！"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="油圧バルブを破壊してジャンプシップを解放します"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="油圧バルブを破壊する"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="油圧バルブを保護する"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="圧力弁"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="圧力弁が破壊されました！"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="油圧バルブを破壊してジャンプシップを解放します"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="油圧バルブを破壊する"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="油圧バルブを保護する"
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Pressure Valve"
+ObjectiveName="圧力弁"
+; EN: DestructionMessage="Pressure valve destroyed!"
+DestructionMessage="圧力弁が破壊されました！"
+; EN: ObjectiveDescription="Destroy Hydraulic Pressure Valves to release the Jumpship"
+ObjectiveDescription="油圧バルブを破壊してジャンプシップを解放します"
+; EN: Objective_Info_Attacker="Destroy Hydraulic Valves"
+Objective_Info_Attacker="油圧バルブを破壊する"
+; EN: Objective_Info_Defender="Protect Hydraulic Valves"
+Objective_Info_Defender="油圧バルブを保護する"
+
+[DestroyableObjective_SM5]
+; EN: ObjectiveName="Computer Lock"
+ObjectiveName="コンピューターロック"
+; EN: DestructionMessage="Computer Lock Destroyed!"
+DestructionMessage="コンピュータロックが破壊されました！"
+; EN: ObjectiveDescription="Destroy the computer Routers to gain navigation control of the Jumpship."
+ObjectiveDescription="コンピューターのルーターを破壊して、ジャンプシップのナビゲーション制御を取得します。"
+; EN: Objective_Info_Attacker="Destroy Computer Routers"
+Objective_Info_Attacker="コンピュータルーターを破壊する"
+; EN: Objective_Info_Defender="Defend Computer Routers"
+Objective_Info_Defender="コンピュータルーターを守る"
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Computer Lock"
+ObjectiveName="コンピューターロック"
+; EN: DestructionMessage="Computer Lock Destroyed!"
+DestructionMessage="コンピュータロックが破壊されました！"
+; EN: ObjectiveDescription="Destroy the computer Routers to gain navigation control of the Jumpship."
+ObjectiveDescription="コンピューターのルーターを破壊して、ジャンプシップのナビゲーション制御を取得します。"
+; EN: Objective_Info_Attacker="Destroy Computer Routers"
+Objective_Info_Attacker="コンピュータルーターを破壊する"
+; EN: Objective_Info_Defender="Defend Computer Routers"
+Objective_Info_Defender="コンピュータルーターを守る"
+
+[HoldObjective0]
+; EN: DestructionMessage="Engine Activated!"
+DestructionMessage="エンジン起動！"
+; EN: ObjectiveDescription="Hold  the switch to activate the Jump Engine."
+ObjectiveDescription="スイッチを押したままにして、ジャンプエンジンをアクティブにします。"
+; EN: Objective_Info_Attacker="Activate Jump Engines"
+Objective_Info_Attacker="ジャンプエンジンをアクティブにする"
+; EN: Objective_Info_Defender="Defend Jump Engines"
+Objective_Info_Defender="ジャンプエンジンを守る"
+
+[HoldObjective1]
+; EN: DestructionMessage="Engine Activated!"
+DestructionMessage="エンジン起動！"
+; EN: ObjectiveDescription="Hold  the switch to activate the Jump Engine."
+ObjectiveDescription="スイッチを押したままにして、ジャンプエンジンをアクティブにします。"
+; EN: Objective_Info_Attacker="Activate Jump Engines"
+Objective_Info_Attacker="ジャンプエンジンをアクティブにする"
+; EN: Objective_Info_Defender="Defend Jump Engines"
+Objective_Info_Defender="ジャンプエンジンを守る"
+
+[HoldObjective2]
+; EN: ObjectiveName="Central Computer Terminal"
+ObjectiveName="中央コンピュータ端末"
+; EN: DestructionMessage="Computer Programmed!"
+DestructionMessage="コンピュータープログラム！"
+; EN: ObjectiveDescription="Touch and hold computer console to program jump coordinates."
+ObjectiveDescription="コンピュータコンソールを長押しして、ジャンプ座標をプログラムします。"
+; EN: Objective_Info_Attacker="Program Jump Coordinates"
+Objective_Info_Attacker="プログラムジャンプ座標"
+; EN: Objective_Info_Defender="Prevent attackers from programming jump coordinates."
+Objective_Info_Defender="攻撃者がジャンプ座標をプログラミングするのを防ぎます。"
+
+[LevelInfo0]
+; EN: Title="Jumpship BP2"
+Title="ジャンプシップBP2"
+
+[LevelSummary]
+; EN: Title="Jumpship BP2"
+Title="ジャンプシップBP2"
+; EN: Description="During the height of the Corporation Wars, Liandri scientists created a prototype Warship capable of making its own jumps without the need for a jumpgate.  Shortly before its maiden voyage, Izanagi spies learned of the prototype Jumpship and launched an operation to steal it.  This scenario recreates the historic battle in which Izanagi forces infiltrated the prototype Liandri Jumpship, activated its engines, and made a successful jump to Izanagi space."
+Description="コーポレーションウォーズの最盛期に、リアンドリの科学者たちは、ジャンプゲートを必要とせずに独自のジャンプを行うことができるプロトタイプの軍艦を作成しました。処女航海の少し前に、イザナギのスパイはプロトタイプのジャンプシップを知り、それを盗むための作戦を開始しました。このシナリオは、イザナギ軍がプロトタイプのリアンドリジャンプシップに潜入し、エンジンを作動させ、イザナギ宇宙へのジャンプに成功したという歴史的な戦いを再現しています。"
+
+[ProximityObjective0]
+; EN: ObjectiveName="Landing Bay"
+ObjectiveName="ランディングベイ"
+; EN: DestructionMessage="Attackers have entered the jumpship!"
+DestructionMessage="攻撃者がジャンプシップに入った！"
+; EN: ObjectiveDescription="Fly into front bay to enter Jumpship."
+ObjectiveDescription="ジャンプシップに入るためにフロントベイに飛んでください。"
+; EN: Objective_Info_Attacker="Enter Jumpship"
+Objective_Info_Attacker="ジャンプシップに入る"
+; EN: Objective_Info_Defender="Prevent Attackers From Entering Jumpship"
+Objective_Info_Defender="攻撃者がジャンプシップに入るのを防ぐ"
+
+[SceneSubtitles0]
+SubTitles=("During the height of the Corporation Wars, Liandri scientists created a prototype warship capable of making its own jumps without the need for a jumpgate.","Shortly before its maiden voyage, Izanagi spies learned of the prototype jumpship and launched an operation to steal it.  Success would give the Izanagi Corporation a significant advantage during the Wars.","This scenario recreates the historic battle in which Izanagi forces infiltrated the prototype Liandri jumpship, activated its engines, and made a successful jump to Izanagi space.","The jumpship is receiving power from the construction dock.  It is moored to the dock via four docking arms. ","Destroy the hydraulic valves controlling each arm to place the jumpship under internal power and release it from the dock.","After the four valves are destroyed, enter the jumpship through the docking bay.",,"Destroy the Thermal Control Regulator to cool the jump engines.  This will allow them to be powered safely.",,"Use this console to activate the ship's internal navigation systems.",,"Use the levers to inject the engine coolant and disable the safety lock on both of the jump engines.",,"The ship's bridge is too heavily defended for a direct attack, so your team will need to access the central computer deep within the ship's core.","Once you have reached the computer, use this console to reroute power from the bridge and enter the new jump coordinates.","Finally, destroy both computer routers.  This will disable all remaining safety protocols, activate the Jumpship, and end the match.")
+
+[TriggeredObjective0]
+; EN: ObjectiveName="Teleporter Room Controls"
+ObjectiveName="テレポータールームコントロール"
+; EN: DestructionMessage="Teleporters Activated!"
+DestructionMessage="テレポーターがアクティブになりました！"
+; EN: ObjectiveDescription="Activate the ship's internal navigation systems."
+ObjectiveDescription="船の内部ナビゲーションシステムをアクティブにします。"
+; EN: Objective_Info_Attacker="Activate the Navigation Computer"
+Objective_Info_Attacker="ナビゲーションコンピュータをアクティブにする"
+; EN: Objective_Info_Defender="Defend the Navigation Computer"
+Objective_Info_Defender="ナビゲーションコンピュータを守る"
+
+[ZoneInfo0]
+; EN: LocationName="In Space"
+LocationName="宇宙で"
+
+[ZoneInfo1]
+; EN: LocationName="Landing Bay 1 Hall"
+LocationName="ランディングベイ1ホール"
+
+[ZoneInfo10]
+; EN: LocationName="Jump Engine A Hall"
+LocationName="ジャンプエンジンAホール"
+
+[ZoneInfo11]
+; EN: LocationName="Ship Bridge"
+LocationName="船橋"
+
+[ZoneInfo12]
+; EN: LocationName="Landing Bay 1 Hall"
+LocationName="ランディングベイ1ホール"
+
+[ZoneInfo13]
+; EN: LocationName="Landing Bay 2 Hall"
+LocationName="ランディングベイ2ホール"
+
+[ZoneInfo14]
+; EN: LocationName="Landing Bay 2 Hall"
+LocationName="ランディングベイ2ホール"
+
+[ZoneInfo15]
+; EN: LocationName="Coolant Control"
+LocationName="クーラントコントロール"
+
+[ZoneInfo16]
+; EN: LocationName="Teleporter Room"
+LocationName="テレポータールーム"
+
+[ZoneInfo17]
+; EN: LocationName="Teleporter Room"
+LocationName="テレポータールーム"
+
+[ZoneInfo18]
+; EN: LocationName="Jump Engine A Hall"
+LocationName="ジャンプエンジンAホール"
+
+[ZoneInfo19]
+; EN: LocationName="Jump Engine B Hall"
+LocationName="ジャンプエンジンBホール"
+
+[ZoneInfo2]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+
+[ZoneInfo20]
+; EN: LocationName="In Space"
+LocationName="宇宙で"
+
+[ZoneInfo22]
+; EN: LocationName="Jump Engine B Hall"
+LocationName="ジャンプエンジンBホール"
+
+[ZoneInfo24]
+; EN: LocationName="Jump Engine A"
+LocationName="ジャンプエンジンA"
+
+[ZoneInfo25]
+; EN: LocationName="Jump Engine B"
+LocationName="ジャンプエンジンB"
+
+[ZoneInfo27]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+
+[ZoneInfo28]
+; EN: LocationName="Central Computer Hall"
+LocationName="中央コンピュータホール"
+
+[ZoneInfo29]
+; EN: LocationName="Central Computer Core"
+LocationName="セントラルコンピュータコア"
+
+[ZoneInfo3]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+
+[ZoneInfo30]
+; EN: LocationName="Central Computer Core"
+LocationName="セントラルコンピュータコア"
+
+[ZoneInfo31]
+; EN: LocationName="Central Computer Core"
+LocationName="セントラルコンピュータコア"
+
+[ZoneInfo35]
+; EN: LocationName="Coolant Control"
+LocationName="クーラントコントロール"
+
+[ZoneInfo36]
+; EN: LocationName="Central Computer Core"
+LocationName="セントラルコンピュータコア"
+
+[ZoneInfo37]
+; EN: LocationName="Coolant Control"
+LocationName="クーラントコントロール"
+
+[ZoneInfo4]
+; EN: LocationName="Landing Bay 1"
+LocationName="ランディングベイ1"
+
+[ZoneInfo5]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+
+[ZoneInfo6]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+
+[ZoneInfo7]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+
+[ZoneInfo8]
+; EN: LocationName="Landing Bay 2"
+LocationName="ランディングベイ2"
+
+[ZoneInfo9]
+; EN: LocationName="Hangar"
+LocationName="ハンガー"
+

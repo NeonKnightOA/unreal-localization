@@ -1,0 +1,263 @@
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Facility Entrance"
+LocationName="施設入口"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Weapons Lab Control Room"
+LocationName="武器実験室制御室"
+
+[ASOBJ_EnergyCore_Delivery1]
+; EN: ObjectiveName="Escape Point"
+ObjectiveName="エスケープポイント"
+; EN: DestructionMessage="Blueprints stolen!"
+DestructionMessage="設計図が盗まれました！"
+; EN: ObjectiveDescription="Escape to the waiting ships with the Blueprints."
+ObjectiveDescription="ブループリントを持って待っている船に逃げましょう。"
+; EN: Objective_Info_Attacker="Escape with the Blueprints."
+Objective_Info_Attacker="ブループリントで脱出。"
+; EN: Objective_Info_Defender="Defend with the Blueprints."
+Objective_Info_Defender="設計図で防御します。"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Blueprints!"
+PlayerDroppedMessage=" ブループリントを落としました！"
+; EN: DroppedMessage="Blueprints dropped!"
+DroppedMessage="設計図が削除されました！"
+; EN: EnergyCorePickedUp="Blueprints picked up!"
+EnergyCorePickedUp="設計図を取得しました！"
+; EN: PlayerPickedUpEnergyCore=" picked up the Blueprints!"
+PlayerPickedUpEnergyCore=" 設計図を手に入れました！"
+; EN: PlayerCoreReset="Blueprints reset!!"
+PlayerCoreReset="ブループリントがリセットされました!!"
+; EN: ObjectiveName="Weapons Data"
+ObjectiveName="武器データ"
+; EN: DestructionMessage="Data Stolen!"
+DestructionMessage="データが盗まれました！"
+; EN: ObjectiveDescription="Steal the Weapon Blueprints and escape to the ships."
+ObjectiveDescription="武器の設計図を盗み、船に逃げます。"
+; EN: Objective_Info_Attacker="Steal the Weapon Blueprints."
+Objective_Info_Attacker="武器の設計図を盗みます。"
+; EN: Objective_Info_Defender="Defend the Weapon Blueprints."
+Objective_Info_Defender="武器の設計図を守ります。"
+
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Ship Disabled!"
+Message="船が無効になりました！"
+
+[Action_DISPLAYMESSAGE2]
+; EN: Message="Ship Disabled!"
+Message="船が無効になりました！"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Upper Reactor"
+ObjectiveName="アッパーリアクター"
+; EN: DestructionMessage="Upper Reactor Destroyed!"
+DestructionMessage="アッパーリアクターが破壊されました！"
+; EN: ObjectiveDescription="Shoot out the Upper Reactor Core."
+ObjectiveDescription="上部炉心を撃ちます。"
+; EN: Objective_Info_Attacker="Destroy the Reactor Core."
+Objective_Info_Attacker="炉心を破壊します。"
+; EN: Objective_Info_Defender="Defend the Reactor Core."
+Objective_Info_Defender="炉心を守る。"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="船のエンジン"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="エンジンが破壊されました！"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="エンジンを破壊してバトルクルーザーを無効にします。"
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="船のエンジンを破壊します。"
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="船のエンジンを守ります。"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Lower Reactor"
+ObjectiveName="下部原子炉"
+; EN: DestructionMessage="Lower Reactor Destroyed!"
+DestructionMessage="下部リアクターが破壊されました！"
+; EN: ObjectiveDescription="Shoot out the Lower Reactor Core."
+ObjectiveDescription="下部炉心を撃ちます。"
+; EN: Objective_Info_Attacker="Destroy the Reactor Core."
+Objective_Info_Attacker="炉心を破壊します。"
+; EN: Objective_Info_Defender="Defend the Reactor Core."
+Objective_Info_Defender="炉心を守る。"
+
+[DestroyableObjective_SM7]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="船のエンジン"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="エンジンが破壊されました！"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="エンジンを破壊してバトルクルーザーを無効にします。"
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="船のエンジンを破壊します。"
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="船のエンジンを守ります。"
+
+[DestroyableObjective_SM8]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="船のエンジン"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="エンジンが破壊されました！"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="エンジンを破壊してバトルクルーザーを無効にします。"
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="船のエンジンを破壊します。"
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="船のエンジンを守ります。"
+
+[DestroyableObjective_SM9]
+; EN: ObjectiveName="Ship Engine"
+ObjectiveName="船のエンジン"
+; EN: DestructionMessage="Engine Destroyed!"
+DestructionMessage="エンジンが破壊されました！"
+; EN: ObjectiveDescription="Disable the Battle Cruisers by destroying their engines."
+ObjectiveDescription="エンジンを破壊してバトルクルーザーを無効にします。"
+; EN: Objective_Info_Attacker="Destroy the Ship Engines."
+Objective_Info_Attacker="船のエンジンを破壊します。"
+; EN: Objective_Info_Defender="Defend the Ship Engines."
+Objective_Info_Defender="船のエンジンを守ります。"
+
+[HoldObjective1]
+; EN: ObjectiveName="Bunker Doors"
+ObjectiveName="バンカードア"
+; EN: DestructionMessage="Bunker Doors Blown!"
+DestructionMessage="バンカードアが吹き飛ばされた！"
+; EN: ObjectiveDescription="Place Explosives to blow open the main doors."
+ObjectiveDescription="爆発物を置いてメインドアを吹き飛ばします。"
+; EN: Objective_Info_Attacker="Blow up the Main Doors."
+Objective_Info_Attacker="メインドアを爆破します。"
+; EN: Objective_Info_Defender="Defend the Main Doors."
+Objective_Info_Defender="メインドアを守ります。"
+
+[HoldObjective2]
+; EN: ObjectiveName="Main Gates"
+ObjectiveName="メインゲート"
+; EN: DestructionMessage="Main Gates Opening!"
+DestructionMessage="メインゲートオープン！"
+; EN: ObjectiveDescription="Use the switch to open the Security Gate."
+ObjectiveDescription="スイッチを使用してセキュリティゲートを開きます。"
+; EN: Objective_Info_Attacker="Open the Security Gate."
+Objective_Info_Attacker="セキュリティゲートを開きます。"
+; EN: Objective_Info_Defender="Defend the Security Gate."
+Objective_Info_Defender="セキュリティゲートを守ります。"
+
+[InfoPod0]
+; EN: POD_Message="Cruiser 2 Left Wing"
+POD_Message="クルーザー2左翼"
+
+[InfoPod1]
+; EN: POD_Message="Cruiser 2 Upper"
+POD_Message="クルーザー2アッパー"
+
+[InfoPod2]
+; EN: POD_Message="Cruiser 2 Right Wing"
+POD_Message="クルーザー2右翼"
+
+[InfoPod3]
+; EN: POD_Message="Cruiser 1 Left Wing"
+POD_Message="クルーザー1左翼"
+
+[InfoPod4]
+; EN: POD_Message="Cruiser 1 Upper"
+POD_Message="クルーザー1アッパー"
+
+[InfoPod5]
+; EN: POD_Message="Cruiser 1 Right Wing"
+POD_Message="クルーザー1右翼"
+
+[LevelInfo0]
+; EN: Title="Invasion of Acatana"
+Title="アカタナの侵略"
+
+[LevelSummary]
+; EN: Title="Invasion of Acatana"
+Title="アカタナの侵略"
+; EN: Description="Due to the treacherous asteroid field and the advanced defense systems surrounding the Acatana research facility, no intruders had been near the planet for years.  When the Skaarj Marauders heard rumors of a highly lucrative technology hidden there, they decided to make it their own.  This scenario recreates the Skaarj attack on the Acatana research facility, and the battle to penetrate the planet's asteroid field."
+Description="危険な小惑星フィールドとアカタナ研究施設を取り巻く高度な防御システムのために、侵入者は何年もの間惑星の近くにいませんでした。 Skaarj Maraudersは、そこに隠された非常に儲かる技術の噂を聞いたとき、それを自分たちのものにすることに決めました。このシナリオは、アカタナ研究施設へのスカージ攻撃と、惑星の小惑星フィールドを貫通するための戦いを再現しています。"
+
+[MultiSkyZoneInfo0]
+; EN: LocationName="Base Entrance"
+LocationName="ベースエントランス"
+
+[MultiSkyZoneInfo1]
+; EN: LocationName="Space"
+LocationName="スペース"
+
+[MultiSkyZoneInfo18]
+; EN: LocationName="Space"
+LocationName="スペース"
+
+[MultiSkyZoneInfo19]
+; EN: LocationName="Planet Surface"
+LocationName="惑星表面"
+
+[MultiSkyZoneInfo2]
+; EN: LocationName="Hangar 2"
+LocationName="ハンガー2"
+
+[MultiSkyZoneInfo20]
+; EN: LocationName="Weapons Lab Spawn Room"
+LocationName="武器ラボスポーンルーム"
+
+[MultiSkyZoneInfo21]
+; EN: LocationName="Hangar 1"
+LocationName="ハンガー1"
+
+[MultiSkyZoneInfo22]
+; EN: LocationName="Defender Spawn Exit"
+LocationName="ディフェンダースポーン出口"
+
+[MultiSkyZoneInfo23]
+; EN: LocationName="Defender Inside Spawn"
+LocationName="スポーン内のディフェンダー"
+
+[MultiSkyZoneInfo24]
+; EN: LocationName="Defender Spawn Exit"
+LocationName="ディフェンダースポーン出口"
+
+[MultiSkyZoneInfo25]
+; EN: LocationName="Defender Spawn Exit"
+LocationName="ディフェンダースポーン出口"
+
+[MultiSkyZoneInfo27]
+; EN: LocationName="Reactor Core Entrance"
+LocationName="炉心入口"
+
+[MultiSkyZoneInfo28]
+; EN: LocationName="Reactor Core"
+LocationName="炉心"
+
+[MultiSkyZoneInfo29]
+; EN: LocationName="Base Entrance"
+LocationName="ベースエントランス"
+
+[MultiSkyZoneInfo30]
+; EN: LocationName="Weapons Lab Entrance"
+LocationName="武器ラボの入り口"
+
+[MultiSkyZoneInfo31]
+; EN: LocationName="Weapons Lab Control Room"
+LocationName="武器実験室制御室"
+
+[MultiSkyZoneInfo32]
+; EN: LocationName="Weapons Lab Control Room"
+LocationName="武器実験室制御室"
+
+[MultiSkyZoneInfo33]
+; EN: LocationName="Weapons Lab Spawn Room"
+LocationName="武器ラボスポーンルーム"
+
+[PhysicsVolume26]
+; EN: LocationName="In Lava"
+LocationName="溶岩で"
+
+[SceneSubtitles0]
+SubTitles=("This scenario recreates the Skaarj attack on the Acatana asteroid belt.","Acatana had long been a forgotten planet, uninhabitable to most species, and known only to a secret scientific division of the NEG.","Hidden away on an asteroid orbiting the barren planet was a secret facility, created with the sole purpose of researching advanced weapons technology.","Due to the treacherous asteroid field and the advanced planetary defense systems, no other race had been near the planet for years.","In fact, the barrier had never even been challenged until the Skaarj Marauders heard rumors of the highly lucrative technology ripe for the taking.","First, you must navigate the asteroid field and attack the Battle Cruiser Blockade.  Disable the Cruisers by destroying their engines, allowing the Skaarj ships to land the asteroid's surface.","After successful deployment to the surface, make your way to the facility's entrance and use this switch to open the security gate.","Once inside the gate, place explosives to blow open the main facility doors.","Infiltrate the complex and destroy both sections of the facility's main reactor core. This will activate the evacuation protocol and release the locks on the doors to the weapons lab.","Next, make your way into the weapons lab and steal the weapon blueprints from the central computer station.","Finally, your team must transport the blueprints back to the main entrance where a squad of fighters will cover your escape.")
+
+[Volume0]
+; EN: LocationName="Weapons Lab Access Tunnel"
+LocationName="武器ラボアクセストンネル"
+

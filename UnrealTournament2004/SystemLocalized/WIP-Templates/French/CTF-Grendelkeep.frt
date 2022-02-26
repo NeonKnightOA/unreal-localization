@@ -9,31 +9,40 @@ Title="Grendelkeep"
 
 [LevelSummary]
 Title="Grendelkeep"
-Description="Prieth Callas was a hard, cruel man, fond of torturing his enemies before sending them to their deaths. He raised creatures of great size and ferocity, setting them against his prisoners in arenas of his own creation. Grendelkeep is the last of his diabolical constructions, left to fall into ruin after Callas was dragged from the battlements by his own men and fed to the creatures he bred in the dark kennels below. The rain has washed away the blood, but the evil that bred here has left a much deeper stain."
+; EN: Description="Prieth Callas was a hard, cruel man, fond of torturing his enemies before sending them to their deaths. He raised creatures of great size and ferocity, setting them against his prisoners in arenas of his own creation. Grendelkeep is the last of his diabolical constructions, left to fall into ruin after Callas was dragged from the battlements by his own men and fed to the creatures he bred in the dark kennels below. The rain has washed away the blood, but the evil that bred here has left a much deeper stain."
+Description="Prieth Callas était un homme dur et cruel, aimant torturer ses ennemis avant de les envoyer à la mort. Il a élevé des créatures de grande taille et férocité, les opposant à ses prisonniers dans des arènes de sa propre création. Grendelkeep est la dernière de ses constructions diaboliques, laissée à tomber en ruine après que Callas ait été traîné des remparts par ses propres hommes et nourri aux créatures qu'il a élevées dans les chenils sombres ci-dessous. La pluie a lavé le sang, mais le mal qui s'est reproduit ici a laissé une tache beaucoup plus profonde."
 
 [ZoneInfo0]
-LocationName="BLUE Main Room"
+; EN: LocationName="BLUE Main Room"
+LocationName="BLEU Salle Principale"
 
 [ZoneInfo1]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo10]
-LocationName="Center"
+; EN: LocationName="Center"
+LocationName="Centre"
 
 [ZoneInfo11]
-LocationName="BLUE Main Hall"
+; EN: LocationName="BLUE Main Hall"
+LocationName="Salle principale BLEU"
 
 [ZoneInfo12]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo13]
-LocationName="BLUE Lower Flak Hall"
+; EN: LocationName="BLUE Lower Flak Hall"
+LocationName="BLEU Lower Flak Hall"
 
 [ZoneInfo14]
-LocationName="BLUE Lower Hall"
+; EN: LocationName="BLUE Lower Hall"
+LocationName="BLEU Salle Inférieure"
 
 [ZoneInfo2]
-LocationName="BLUE Base"
+; EN: LocationName="BLUE Base"
+LocationName="Fond BLEU"
 
 [ZoneInfo28]
 LocationName="BLUE Spawn"
@@ -42,152 +51,201 @@ LocationName="BLUE Spawn"
 LocationName="BLUE Spawn"
 
 [ZoneInfo30]
-LocationName="BLUE Main Room"
+; EN: LocationName="BLUE Main Room"
+LocationName="BLEU Salle Principale"
 
 [ZoneInfo31]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo32]
-LocationName="Great Room Hall"
+; EN: LocationName="Great Room Hall"
+LocationName="Salle de la grande salle"
 
 [ZoneInfo33]
-LocationName="Great Amp Hall"
+; EN: LocationName="Great Amp Hall"
+LocationName="Grande salle d'ampli"
 
 [ZoneInfo34]
-LocationName="Upper Rocket Hall"
+; EN: LocationName="Upper Rocket Hall"
+LocationName="Salle des fusées supérieure"
 
 [ZoneInfo35]
-LocationName="Upper Rocket Hall"
+; EN: LocationName="Upper Rocket Hall"
+LocationName="Salle des fusées supérieure"
 
 [ZoneInfo36]
-LocationName="Upper Rocket Hall"
+; EN: LocationName="Upper Rocket Hall"
+LocationName="Salle des fusées supérieure"
 
 [ZoneInfo37]
-LocationName="Mini Hall"
+; EN: LocationName="Mini Hall"
+LocationName="Mini-salle"
 
 [ZoneInfo38]
-LocationName="Mini Hall"
+; EN: LocationName="Mini Hall"
+LocationName="Mini-salle"
 
 [ZoneInfo39]
-LocationName="Great Tower"
+; EN: LocationName="Great Tower"
+LocationName="Grande Tour"
 
 [ZoneInfo4]
-LocationName="BLUE Main Room"
+; EN: LocationName="BLUE Main Room"
+LocationName="BLEU Salle Principale"
 
 [ZoneInfo40]
-LocationName="Sniper Nest"
+; EN: LocationName="Sniper Nest"
+LocationName="Nid de tireur d'élite"
 
 [ZoneInfo41]
-LocationName="Great Room Hall"
+; EN: LocationName="Great Room Hall"
+LocationName="Salle de la grande salle"
 
 [ZoneInfo42]
-LocationName="Lower Flak Hall"
+; EN: LocationName="Lower Flak Hall"
+LocationName="Salle de Flak inférieure"
 
 [ZoneInfo43]
-LocationName="Great Room Hall"
+; EN: LocationName="Great Room Hall"
+LocationName="Salle de la grande salle"
 
 [ZoneInfo44]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo45]
-LocationName="RED Lower Flak Hall"
+; EN: LocationName="RED Lower Flak Hall"
+LocationName="ROUGE Lower Flak Hall"
 
 [ZoneInfo47]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo48]
-LocationName="Great Room Hall"
+; EN: LocationName="Great Room Hall"
+LocationName="Salle de la grande salle"
 
 [ZoneInfo49]
-LocationName="Great Amp Hall"
+; EN: LocationName="Great Amp Hall"
+LocationName="Grande salle d'ampli"
 
 [ZoneInfo5]
 LocationName="BLUE Spawn"
 
 [ZoneInfo50]
-LocationName="RED Main Room"
+; EN: LocationName="RED Main Room"
+LocationName="Salle Principale ROUGE"
 
 [ZoneInfo51]
-LocationName="RED Main Room"
+; EN: LocationName="RED Main Room"
+LocationName="Salle Principale ROUGE"
 
 [ZoneInfo52]
-LocationName="RED BASE"
+; EN: LocationName="RED BASE"
+LocationName="BASE ROUGE"
 
 [ZoneInfo53]
-LocationName="RED Spawn"
+; EN: LocationName="RED Spawn"
+LocationName="spawn ROUGE"
 
 [ZoneInfo54]
-LocationName="RED Spawn"
+; EN: LocationName="RED Spawn"
+LocationName="spawn ROUGE"
 
 [ZoneInfo55]
-LocationName="RED Spawn"
+; EN: LocationName="RED Spawn"
+LocationName="spawn ROUGE"
 
 [ZoneInfo56]
-LocationName="RED Sniper Hall"
+; EN: LocationName="RED Sniper Hall"
+LocationName="Salle des tireurs d'élite ROUGE"
 
 [ZoneInfo57]
-LocationName="RED Sniper Hall"
+; EN: LocationName="RED Sniper Hall"
+LocationName="Salle des tireurs d'élite ROUGE"
 
 [ZoneInfo58]
-LocationName="RED round stairs"
+; EN: LocationName="RED round stairs"
+LocationName="escalier rond ROUGE"
 
 [ZoneInfo59]
-LocationName="Center"
+; EN: LocationName="Center"
+LocationName="Centre"
 
 [ZoneInfo6]
-LocationName="BLUE Sniper Hall"
+; EN: LocationName="BLUE Sniper Hall"
+LocationName="Salle des tireurs d'élite BLEUE"
 
 [ZoneInfo60]
-LocationName="Upper Rocket Hall"
+; EN: LocationName="Upper Rocket Hall"
+LocationName="Salle des fusées supérieure"
 
 [ZoneInfo61]
-LocationName="RED Main Hall"
+; EN: LocationName="RED Main Hall"
+LocationName="Salle principale ROUGE"
 
 [ZoneInfo62]
-LocationName="Upper Rocket Hall"
+; EN: LocationName="Upper Rocket Hall"
+LocationName="Salle des fusées supérieure"
 
 [ZoneInfo64]
-LocationName="RED Lower Hall"
+; EN: LocationName="RED Lower Hall"
+LocationName="Hall inférieur ROUGE"
 
 [ZoneInfo65]
-LocationName="RED Main Room"
+; EN: LocationName="RED Main Room"
+LocationName="Salle Principale ROUGE"
 
 [ZoneInfo66]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo67]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo68]
-LocationName="Upper Rocket Hall"
+; EN: LocationName="Upper Rocket Hall"
+LocationName="Salle des fusées supérieure"
 
 [ZoneInfo69]
-LocationName="Mini Hall"
+; EN: LocationName="Mini Hall"
+LocationName="Mini-salle"
 
 [ZoneInfo7]
-LocationName="BLUE Sniper Hall"
+; EN: LocationName="BLUE Sniper Hall"
+LocationName="Salle des tireurs d'élite BLEUE"
 
 [ZoneInfo70]
-LocationName="Mini Hall"
+; EN: LocationName="Mini Hall"
+LocationName="Mini-salle"
 
 [ZoneInfo72]
-LocationName="Sniper Nest"
+; EN: LocationName="Sniper Nest"
+LocationName="Nid de tireur d'élite"
 
 [ZoneInfo73]
-LocationName="Sniper Nest"
+; EN: LocationName="Sniper Nest"
+LocationName="Nid de tireur d'élite"
 
 [ZoneInfo74]
-LocationName="Great Room Hall"
+; EN: LocationName="Great Room Hall"
+LocationName="Salle de la grande salle"
 
 [ZoneInfo76]
-LocationName="Great Room Hall"
+; EN: LocationName="Great Room Hall"
+LocationName="Salle de la grande salle"
 
 [ZoneInfo77]
-LocationName="Great Room"
+; EN: LocationName="Great Room"
+LocationName="Grande salle"
 
 [ZoneInfo8]
-LocationName="BLUE Round Stairs"
+; EN: LocationName="BLUE Round Stairs"
+LocationName="Escalier Rond BLEU"
 
 [ZoneInfo9]
-LocationName="Center"
+; EN: LocationName="Center"
+LocationName="Centre"
 

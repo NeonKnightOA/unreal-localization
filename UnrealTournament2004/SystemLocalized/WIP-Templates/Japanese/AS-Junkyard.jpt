@@ -1,0 +1,145 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: DestructionMessage="Vehicle has been repaired!"
+DestructionMessage="車両が修理されました！"
+; EN: ObjectiveDescription="Deliver the Power Core to repair the vehicle."
+ObjectiveDescription="パワーコアを納品して車両を修理します。"
+; EN: Objective_Info_Attacker="Return the Core to the vehicle"
+Objective_Info_Attacker="コアを車両に戻します"
+; EN: Objective_Info_Defender="Prevent the Attackers from returning the Core"
+Objective_Info_Defender="攻撃者がコアを返すのを防ぎます"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: ObjectiveDescription="You need to pick up the Energy Core and return it to your vehicle in order to repair it."
+ObjectiveDescription="修理するには、エナジーコアを手に取って車両に戻す必要があります。"
+; EN: Objective_Info_Attacker="Find the Energy Core"
+Objective_Info_Attacker="エネルギーコアを見つける"
+; EN: Objective_Info_Defender="Protect the Energy Core"
+Objective_Info_Defender="エネルギーコアを保護する"
+
+[HoldObjective0]
+; EN: DestructionMessage="Checkpoint gate opened!"
+DestructionMessage="チェックポイントゲートがオープンしました！"
+; EN: ObjectiveDescription="Stand at the switch to open the gate."
+ObjectiveDescription="スイッチに立ってゲートを開きます。"
+; EN: Objective_Info_Attacker="Open the checkpoint gate"
+Objective_Info_Attacker="チェックポイントゲートを開く"
+; EN: Objective_Info_Defender="Protect the checkpoint switch."
+Objective_Info_Defender="チェックポイントスイッチを保護します。"
+
+[HoldObjective1]
+; EN: DestructionMessage="Drawbridge is down!"
+DestructionMessage="跳ね橋がダウンしています！"
+; EN: ObjectiveDescription="Stand at the switch to lower the bridge."
+ObjectiveDescription="スイッチに立って橋を下げます。"
+; EN: Objective_Info_Attacker="Lower the bridge"
+Objective_Info_Attacker="橋を下げる"
+; EN: Objective_Info_Defender="Defend the bridge switch"
+Objective_Info_Defender="ブリッジスイッチを守る"
+
+[LevelInfo0]
+; EN: Title="Junkyard Escape"
+Title="ジャンクヤードエスケープ"
+
+[LevelSummary]
+; EN: Title="Junkyard Escape"
+Title="ジャンクヤードエスケープ"
+; EN: Description="This scenario is based on an infamous episode of a popular Holovision program. In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard. The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape. Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born."
+Description="このシナリオは、人気のあるHolovisionプログラムの悪名高いエピソードに基づいています。元のエピソードでは、2つのメカニックチームが、車両を操作可能にしてジャンクヤードから脱出するために競い合っていました。負けたチームがいくつかの間に合わせの武器を引き出し、他のチームが逃げる前に他のチームを忘却に追い込んだときに、予期しないねじれが発生しました。大会での暴力を禁止する明確なルールがなかったため、彼らは勝者と宣言され、新しいトーナメントクラシックが誕生しました。"
+
+[ProximityObjective0]
+; EN: DestructionMessage="Attackers escaped from the Junkyard!"
+DestructionMessage="攻撃者はジャンクヤードから脱出しました！"
+; EN: ObjectiveDescription="Escape from the Junkyard."
+ObjectiveDescription="ジャンクヤードからの脱出。"
+; EN: Objective_Info_Attacker="Proceed to the main gates"
+Objective_Info_Attacker="正門に進みます"
+; EN: Objective_Info_Defender="Protect the main gates"
+Objective_Info_Defender="メインゲートを保護する"
+
+[ProximityObjective2]
+; EN: DestructionMessage="Bridge has been crossed!"
+DestructionMessage="橋を渡った！"
+; EN: ObjectiveDescription="Cross the bridge to progress."
+ObjectiveDescription="橋を渡って進みます。"
+; EN: Objective_Info_Attacker="Cross the bridge"
+Objective_Info_Attacker="橋を渡る"
+; EN: Objective_Info_Defender="Defend the bridge"
+Objective_Info_Defender="橋を守る"
+
+[ProximityObjective3]
+; EN: DestructionMessage="Checkpoint secured!"
+DestructionMessage="チェックポイントが確保されました！"
+; EN: ObjectiveDescription="Secure the checkpoint to progress."
+ObjectiveDescription="進行するチェックポイントを確保します。"
+; EN: Objective_Info_Attacker="Secure the checkpoint"
+Objective_Info_Attacker="チェックポイントを確保する"
+; EN: Objective_Info_Defender="Protect the checkpoint"
+Objective_Info_Defender="チェックポイントを保護する"
+
+[SceneSubtitles0]
+SubTitles=("This scenario is based on an infamous episode of a popular Holovision program.","In the original episode, two teams of mechanics were competing to make their vehicle operational and escape the junkyard.","The unexpected twist occurred when the losing team pulled out some makeshift weapons and pounded the other team into oblivion before they could make their escape.","Since there was no explicit rule forbidding violence in the competition, they were declared the winners, and a new Tournament classic was born.","You must find and return the vehicle energy core which is in the interior of the junkyard, and return it to your vehicle.","Once your vehicle is operational, you must drive it through the junkyard and out through the main gate.","To cross the drawbridge, you must lower it by pressing this lever.","Once the bridge is crossed, you must now reach the check point.","You can do so, by following this path and opening the gates to the checkpoint.","It is also possible to use this magnet. While being a much shorter path, it is more risky and exposed.","Once the checkpoint is reached, make your way to the main gate in order to escape.")
+
+[Volume10]
+; EN: LocationName="Magnet hill"
+LocationName="マグネチックヒル"
+
+[Volume11]
+; EN: LocationName="Magnet shortcut"
+LocationName="マグネットショートカット"
+
+[Volume12]
+; EN: LocationName="Pipe stack"
+LocationName="パイプスタック"
+
+[Volume13]
+; EN: LocationName="Junk tunnel"
+LocationName="ジャンクトンネル"
+
+[Volume14]
+; EN: LocationName="Car crusher"
+LocationName="カークラッシャー"
+
+[Volume15]
+; EN: LocationName="Drive-In"
+LocationName="ドライブイン"
+
+[Volume16]
+; EN: LocationName="Checkpoint"
+LocationName="チェックポイント"
+
+[Volume17]
+; EN: LocationName="Bathing"
+LocationName="入浴"
+
+[Volume18]
+; EN: LocationName="Communication tower"
+LocationName="通信塔"
+
+[Volume19]
+; EN: LocationName="Main gate"
+LocationName="正門"
+
+[Volume4]
+; EN: LocationName="Core tower"
+LocationName="コアタワー"
+
+[Volume5]
+; EN: LocationName="Defense hill"
+LocationName="ディフェンスヒル"
+
+[Volume7]
+; EN: LocationName="Bridge"
+LocationName="橋"
+
+[Volume8]
+; EN: LocationName="Garage"
+LocationName="ガレージ"
+
+[Volume9]
+; EN: LocationName="Fire pit"
+LocationName="炉"
+
+[ZoneInfo1]
+; EN: LocationName="Junkyard"
+LocationName="廃品"
+

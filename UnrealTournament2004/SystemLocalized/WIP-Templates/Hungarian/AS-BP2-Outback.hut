@@ -1,0 +1,279 @@
+[ASOBJ_EnergyCore_Delivery0]
+; EN: ObjectiveName="Hops addition"
+ObjectiveName="Komló kiegészítés"
+; EN: DestructionMessage="Hops level at 3.2 %"
+DestructionMessage="Komlószint 3,2%"
+; EN: ObjectiveDescription="Hops addition"
+ObjectiveDescription="Komló kiegészítés"
+; EN: Objective_Info_Attacker="Insert the Hops canister into the addition module"
+Objective_Info_Attacker="Helyezze be a komlótartályt az adagoló modulba"
+; EN: Objective_Info_Defender="Stop the Hops canister from being inserted"
+Objective_Info_Defender="Állítsa le a komlótartály behelyezését"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Hops Canister!"
+PlayerDroppedMessage=" leejtette a komlós kannát!"
+; EN: DroppedMessage="Hops Canister dropped!"
+DroppedMessage="Komlódoboz leesett!"
+; EN: EnergyCorePickedUp="Hops Canister picked up!"
+EnergyCorePickedUp="Komló kannát felvette!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Hops Canister!"
+PlayerPickedUpEnergyCore=" felvette a komlós kannát!"
+; EN: PlayerCoreReset="Hops Canister reset!"
+PlayerCoreReset="Komlótartály visszaállítása!"
+; EN: ObjectiveName="Hops canister"
+ObjectiveName="Komló doboz"
+; EN: DestructionMessage="Hops canister located"
+DestructionMessage="Komlótartó található"
+; EN: ObjectiveDescription="Hops canister"
+ObjectiveDescription="Komló doboz"
+; EN: Objective_Info_Attacker="Find and deliver the missing Hops canister."
+Objective_Info_Attacker="Keresse meg és szállítsa le a hiányzó komlótartót."
+; EN: Objective_Info_Defender="Defend the Hops canister."
+Objective_Info_Defender="Védd meg a komlótartót."
+
+[Action_DISPLAYMESSAGE0]
+; EN: Message="Brewery gates are open"
+Message="A sörgyár kapuja nyitva"
+
+[Action_DISPLAYMESSAGE3]
+; EN: Message="The brewery has been breached...!"
+Message="A sörfőzdét feltörték...!"
+
+[Action_DISPLAYMESSAGE4]
+; EN: Message="Hops level at 9.8 % and holding"
+Message="Komlószint 9,8 % és tartás"
+
+[Action_DISPLAYMESSAGE5]
+; EN: Message="Return to the pub to celebrate your victory..."
+Message="Térj vissza a kocsmába, hogy megünnepeld a győzelmedet..."
+
+[Action_DISPLAYMESSAGE7]
+; EN: Message="and catch the Bush Boys live on stage"
+Message="és élőben kapja el a Bush Boyst a színpadon"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="Zero Beer Marketing Kampány"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard elpusztult!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign."
+Objective_Info_Attacker="Állítsa le a Zero Beer marketing kampányt."
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Védje meg a Zero Beer óriásplakátokat."
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="Zero Beer Marketing Kampány"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard elpusztult!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Állítsa le a Zero Beer marketing kampányt!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Védje meg a Zero Beer óriásplakátokat."
+
+[DestroyableObjective_SM10]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="Sörgyári kapuzárak"
+; EN: ObjectiveDescription="Destroy Locks on Brewery gates."
+ObjectiveDescription="Pusztítsd el a zárakat a sörfőzde kapuin."
+; EN: Objective_Info_Attacker="Destroy the Brewery gate locks."
+Objective_Info_Attacker="Pusztítsd el a Sörgyár kapujának zárait."
+; EN: Objective_Info_Defender="Protect the Brewery gates."
+Objective_Info_Defender="Védd a Sörgyár kapuit."
+
+[DestroyableObjective_SM11]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="Sörgyári kapuzárak"
+; EN: Objective_Info_Attacker="Destroy the brewery gate locks"
+Objective_Info_Attacker="Pusztítsd el a sörfőzde kapujának zárait"
+; EN: Objective_Info_Defender="Protect the brewery gates"
+Objective_Info_Defender="Védje a sörfőzde kapuit"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="Zero Beer Marketing Kampány"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard elpusztult!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Állítsa le a Zero Beer marketing kampányt!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Védje meg a Zero Beer óriásplakátokat."
+
+[DestroyableObjective_SM4]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="Zero Beer Marketing Kampány"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard elpusztult!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Állítsa le a Zero Beer marketing kampányt!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Védje meg a Zero Beer óriásplakátokat."
+
+[DestroyableObjective_SM6]
+; EN: ObjectiveName="Brewery gate locks"
+ObjectiveName="Sörgyári kapuzárak"
+; EN: Objective_Info_Attacker="Destroy the brewery gate locks"
+Objective_Info_Attacker="Pusztítsd el a sörfőzde kapujának zárait"
+; EN: Objective_Info_Defender="Protect the brewery gates"
+Objective_Info_Defender="Védje a sörfőzde kapuit"
+
+[DestroyableObjective_SM9]
+; EN: ObjectiveName="Zero Beer Marketing Campaign"
+ObjectiveName="Zero Beer Marketing Kampány"
+; EN: DestructionMessage="Billboard Destroyed!"
+DestructionMessage="Billboard elpusztult!"
+ObjectiveDescription="Zero Beer Billboard"
+; EN: Objective_Info_Attacker="Stop the Zero Beer marketing campaign!"
+Objective_Info_Attacker="Állítsa le a Zero Beer marketing kampányt!"
+; EN: Objective_Info_Defender="Protect the Zero Beer Billboards."
+Objective_Info_Defender="Védje meg a Zero Beer óriásplakátokat."
+
+[Energybeer]
+; EN: ObjectiveName="Beer canister"
+ObjectiveName="Sörösdoboz"
+
+[HoldObjective1]
+ObjectiveName="The Pubs Main Valve"
+; EN: DestructionMessage="Drainage valve opened!"
+DestructionMessage="Leeresztő szelep nyitva!"
+ObjectiveDescription="Main Pub Valve"
+; EN: Objective_Info_Attacker="Open the Pub's Zero Beer drainage valve."
+Objective_Info_Attacker="Nyissa ki a Pub Zero Beer leeresztő szelepét."
+; EN: Objective_Info_Defender="Protect the Pub's Zero Beer drainage valve."
+Objective_Info_Defender="Védje a Pub Zero Beer leeresztő szelepét."
+
+[HoldObjective2]
+; EN: ObjectiveName="The Billabong Water Valve"
+ObjectiveName="A Billabong vízszelep"
+; EN: DestructionMessage="Billabong water sucessfully pumped!"
+DestructionMessage="Billabong víz sikeresen szivattyúzott!"
+; EN: ObjectiveDescription="Brewery Valve"
+ObjectiveDescription="Sörgyári szelep"
+; EN: Objective_Info_Attacker="Pump the fresh water to the brewery system."
+Objective_Info_Attacker="Szivattyúzza a friss vizet a sörfőzde rendszerébe."
+; EN: Objective_Info_Defender="Keep the fresh water out of the brewery."
+Objective_Info_Defender="Tartsa távol a friss vizet a sörfőzdéből."
+
+[HoldObjective3]
+; EN: ObjectiveName="The Final Valve"
+ObjectiveName="A végső szelep"
+; EN: DestructionMessage="New beer has been distilled"
+DestructionMessage="Az új sört lepárolták"
+; EN: ObjectiveDescription="Fermentation Tanks"
+ObjectiveDescription="Fermentációs tartályok"
+; EN: Objective_Info_Attacker="Get the new beer into the fermentation tanks."
+Objective_Info_Attacker="Tegye az új sört az erjesztőtartályokba."
+; EN: Objective_Info_Defender="Keep the new beer out of the fermentation tanks."
+Objective_Info_Defender="Tartsa távol az új sört az erjesztőtartályokból."
+
+[HoldObjective4]
+; EN: ObjectiveName="Billabong Flow Valve"
+ObjectiveName="Billabong áramlási szelep"
+; EN: DestructionMessage="Billabong water sucessfully added."
+DestructionMessage="Billabong víz sikeresen hozzáadva."
+; EN: ObjectiveDescription="Brewery Valve"
+ObjectiveDescription="Sörgyári szelep"
+; EN: Objective_Info_Attacker="Open the Brew Tank water valve."
+Objective_Info_Attacker="Nyissa ki a főzőtartály vízszelepét."
+; EN: Objective_Info_Defender="Keep the Brew Tank Valve closed."
+Objective_Info_Defender="Tartsa zárva a főzőtartály szelepét."
+
+[LevelInfo0]
+Title="AS-BP2-Outback"
+
+[LevelSummary]
+Title="AS-BP2-Outback"
+; EN: Description="City slickers just took over the outback's top brewery.  They've dumped your favorite beverage, replacing it with piss poor Zero Beer.                                                                                The grog's got no alcohol and tastes like a Bondi cigar!  Get over there pronto and sort this thing out...  before it takes over OZ!!"
+Description="A városi slickerek éppen most vették át az uralmat a külterület legjobb sörfőzdéjében. Kidobták a kedvenc italodat, és lecserélték szegény Zero Beerre. A grogban nincs alkohol, és olyan íze van, mint egy Bondi szivarnak! Menj oda azonnal és rendezd ezt a dolgot... mielőtt átveszi OZ uralmát!!"
+
+[MyBurned]
+; EN: DeathString="%o got to close to the flamage."
+DeathString="%o közel került a lánghoz."
+; EN: FemaleSuicide="%o played with fire, and lost"
+FemaleSuicide="%o játszott a tűzzel, és elveszett"
+; EN: MaleSuicide="%o played with fire, and lost"
+MaleSuicide="%o játszott a tűzzel, és elveszett"
+
+[MyDrowned]
+; EN: DeathString="%o went looking for the swagman"
+DeathString="%o megkereste a szajrét"
+; EN: FemaleSuicide="%o went looking for the swagman"
+FemaleSuicide="%o megkereste a szajrét"
+; EN: MaleSuicide="%o went looking for the swagman"
+MaleSuicide="%o megkereste a szajrét"
+
+[PhysicsVolume0]
+; EN: LocationName="Conveyor blets"
+LocationName="Szállítószalagok"
+
+[SceneSubtitles1]
+SubTitles=("Somewhere deep in the Australian outback...",,"trouble is brewing.",,"First, your team will need to open the Pub's drainage valve and get rid of the old Zero Beer.",,"Next, destroy the Zero Beer billboards to ruin their marketing campaign.",,"In order to make new beer, you'll need to engage the lake's pumps and restore the flow of fresh water into the Brewery.",,"Once the water is flowing, your team must storm the Brewery's main gates.",,"When you're inside, open the intake valve to pump the fresh water into the brewing tanks.",,"Find the missing Hops canister and add it to the Brew cycle.",,"Once the hops are in, someone will need to activate the main switch and start the stirring paddles of the brew kettles.",,"Finally, open the main valve to fill up the fermentation tanks with fresh beer.",)
+
+[Trigger_ASMessageTrigger0]
+; EN: Message="Billboards have been destroyed, proceed to the billabong"
+Message="Az óriásplakátok megsemmisültek, menjen tovább a billabong felé"
+
+[TriggeredObjective2]
+; EN: ObjectiveName="Stirring Paddle Switch"
+ObjectiveName="Keverő lapát kapcsoló"
+; EN: DestructionMessage="Stirring paddles activated."
+DestructionMessage="A keverőlapátok aktiválva."
+; EN: ObjectiveDescription="Brew Kettles Main Switch"
+ObjectiveDescription="Főzőfőző vízforraló főkapcsolója"
+; EN: Objective_Info_Attacker="Activate the Brew Kettles."
+Objective_Info_Attacker="Aktiválja a sörfőzőt."
+; EN: Objective_Info_Defender="Keep the Brew Kettles shut down"
+Objective_Info_Defender="Tartsa lecsukva a sörfőzőt"
+
+[Volume0]
+; EN: LocationName="In the Pub"
+LocationName="A kocsmában"
+
+[WaterVolume0]
+; EN: LocationName="Billabong water"
+LocationName="Billabong víz"
+
+[WaterVolume1]
+; EN: LocationName="Fermenting beer"
+LocationName="Erjesztő sör"
+
+[WaterVolume2]
+; EN: LocationName="Beer tank"
+LocationName="Sörtartály"
+
+[WaterVolume3]
+; EN: LocationName="Under Water in Billiabong"
+LocationName="Víz alatt Billiabongban"
+
+[ZoneInfo0]
+LocationName="Outback"
+
+[ZoneInfo1]
+; EN: LocationName="Brewery Shipping"
+LocationName="Sörgyári szállítás"
+
+[ZoneInfo2]
+; EN: LocationName="Brewery Production"
+LocationName="Sörgyár gyártás"
+
+[ZoneInfo3]
+; EN: LocationName="Back at the Pub"
+LocationName="Vissza a kocsmába"
+
+[beercanister]
+; EN: PlayerDroppedMessage=" dropped the Hops canister!"
+PlayerDroppedMessage=" leejtette a Komló kannát!"
+; EN: DroppedMessage="Hops canister dropped!"
+DroppedMessage="Komlódoboz leesett!"
+; EN: EnergyCorePickedUp="Hops canister picked up!"
+EnergyCorePickedUp="Komlós doboz felvetve!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Hops canister!"
+PlayerPickedUpEnergyCore=" felkapta a Komló kannát!"
+; EN: PlayerCoreReset="Hops canister reset!"
+PlayerCoreReset="Komlótartály visszaállítása!"
+

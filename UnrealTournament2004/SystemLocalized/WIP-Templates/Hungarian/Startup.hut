@@ -1,0 +1,52 @@
+[General]
+; EN: Run="Run!"
+Run="Fuss!"
+; EN: FirstTime="Unreal Tournament 2004 First-Time Configuration"
+FirstTime="Unreal Tournament 2004 első alkalommal történő konfiguráció"
+SafeMode="Unreal Tournament 2004 Safe Mode"
+RecoveryMode="Unreal Tournament 2004 Recovery Mode"
+WebPage="http://unreal.epicgames.com/versions.htm"
+; EN: Detecting="Detecting 3D video devices, please wait..."
+Detecting="3D-s videoeszközök észlelése, kérjük, várjon..."
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=""
+; EN: IDC_DetailPrompt="Based on your computer's speed, memory, and video card, the Unreal Engine has selected the following detail options in order to optimize performance."
+IDC_DetailPrompt="A számítógép sebessége, memóriája és videokártyája alapján az Unreal Engine a következő részletes beállításokat választotta a teljesítmény optimalizálása érdekében."
+; EN: IDC_DetailNote="You may change these options from the game's 'Preferences' window later, if you wish."
+IDC_DetailNote="Ezeket a beállításokat később módosíthatja a játék „Beállítások” ablakában, ha kívánja."
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=""
+; EN: IDC_Prompt="Unreal Tournament 2004 is starting up for the first time.  If you experience any problems, please read the release notes in the 'Programs / Unreal Tournament 2004' section of the Windows 'Start' menu."
+IDC_Prompt="Az Unreal Tournament 2004 először indul. Ha bármilyen problémát tapasztal, kérjük, olvassa el a kiadási megjegyzéseket a Windows 'Start' menüjének 'Programok / Unreal Tournament 2004' részében."
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=""
+; EN: IDC_SafeModePrompt="The previous time Unreal Tournament 2004 was run, it was not shut down properly.  In case the shut down was caused by a problem, you may use the options below for recovery."
+IDC_SafeModePrompt="Az Unreal Tournament 2004 előző lebonyolítása során nem zárták le megfelelően. Ha a leállást probléma okozta, használhatja az alábbi lehetőségeket a helyreállításhoz."
+; EN: IDC_SafeModePrompt2="Unreal Tournament 2004 safe mode options: If you are experiencing problems, you may use the options below for recovery."
+IDC_SafeModePrompt2="Az Unreal Tournament 2004 csökkentett mód beállításai: Ha problémákat tapasztal, használhatja az alábbi lehetőségeket a helyreállításhoz."
+; EN: IDC_Run="Run Unreal Tournament 2004"
+IDC_Run="Fuss Unreal Tournament 2004-et"
+; EN: IDC_SafeMode="Run Unreal Tournament 2004 in safe mode - for troubleshooting"
+IDC_SafeMode="Futtassa az Unreal Tournament 2004-et csökkentett módban – a hibaelhárításhoz"
+; EN: IDC_Web="Visit our Web site for troubleshooting tips"
+IDC_Web="Keresse fel webhelyünket hibaelhárítási tippekért"
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=""
+; EN: IDC_SafeOptions="Safe mode options, for diagnosing problems"
+IDC_SafeOptions="Csökkentett mód opciók a problémák diagnosztizálásához"
+; EN: IDC_NoSound="Disable all sound"
+IDC_NoSound="Minden hang letiltása"
+; EN: IDC_Res="Run in standard 640x480 resolution"
+IDC_Res="Szabványos 640x480-as felbontásban fut"
+; EN: IDC_ResetConfig="Reset all configuration options to defaults"
+IDC_ResetConfig="Állítsa vissza az összes konfigurációs beállítást az alapértelmezett értékre"
+; EN: IDC_NoProcessor="Disable Pentium III/3DNow processor extensions"
+IDC_NoProcessor="Tiltsa le a Pentium III/3DNow processzorbővítményeket"
+; EN: IDC_NoJoy="Disable joystick support"
+IDC_NoJoy="Joystick támogatás letiltása"
+; EN: IDC_SoftwareRenderer="Use software rendering"
+IDC_SoftwareRenderer="Használjon szoftveres megjelenítést"

@@ -1,0 +1,81 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Armes clàssiques d'estil UT i habilitats de moviment configurables (com ara esquivar parets).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Substituïu les pistoles llamps per un rifle de franctirador clàssic.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Substituïu els rifles de franctirador per pistoles llamps.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="Bales de franctirador"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up sniper ammo."
+PickupMessage="Vas agafar munició de franctirador."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Aquest rifle de franctirador d'alta velocitat de boca amb un abast 10X és una arma letal a qualsevol abast, sobretot si pots disparar al cap."
+; EN: ItemName="Sniper Rifle"
+ItemName="Rifle de franctirador"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle."
+PickupMessage="Tens el rifle de franctirador."
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k va posar una bala al crani de %o."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o es va disparar al cap."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o es va disparar al cap."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o"
+DeathString="%k va fer un forat a %o"
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o es va disparar al peu."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o es va disparar al peu."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Permet el doble salt"
+; EN: WDString="Allow Wall Dodging"
+WDString="Permet esquivar la paret"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Permet Dodge Double Jumping"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Si està activat, els jugadors poden saltar per doble en el punt àlgid dels salts."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Si està activat, els jugadors poden esquivar les parets."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Si està activat, els jugadors poden fer doble salt en el punt àlgid dels salts d'esquivar."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Modifica el dany de l'arma"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Si s'activa, les armes fan més dany."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Modificar el translocador"
+; EN: TranslocHelp="If enabled, translocator recharges faster."
+TranslocHelp="Si està activat, el translocador es recarrega més ràpidament."
+; EN: FriendlyName="UT Classic"
+FriendlyName="Clàssic UT"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Armes clàssiques d'estil UT i opcions de moviment."
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Pistoles llamps"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Substituïu tots els rifles de franctirador per pistoles llamps."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Rifles de franctirador"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Substituïu tots els pistoles llamps per rifles de franctirador."
+

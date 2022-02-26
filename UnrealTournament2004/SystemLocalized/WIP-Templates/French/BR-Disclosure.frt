@@ -1,165 +1,220 @@
 [LevelInfo0]
-Title="Disclosure"
+; EN: Title="Disclosure"
+Title="Divulgation"
 
 [LevelSummary]
-Title="Disclosure"
+; EN: Title="Disclosure"
+Title="Divulgation"
 
 [ZoneInfo0]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo1]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo2]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo3]
-LocationName="Behind Fan"
+; EN: LocationName="Behind Fan"
+LocationName="Derrière le ventilateur"
 
 [ZoneInfo33]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo34]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo35]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo36]
-LocationName="Behind Fan"
+; EN: LocationName="Behind Fan"
+LocationName="Derrière le ventilateur"
 
 [ZoneInfo37]
-LocationName="Red sniper hall"
+; EN: LocationName="Red sniper hall"
+LocationName="Salle de tireur d'élite rouge"
 
 [ZoneInfo38]
-LocationName="Red sniper hall"
+; EN: LocationName="Red sniper hall"
+LocationName="Salle de tireur d'élite rouge"
 
 [ZoneInfo39]
-LocationName="Red sniper hall"
+; EN: LocationName="Red sniper hall"
+LocationName="Salle de tireur d'élite rouge"
 
 [ZoneInfo4]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo40]
-LocationName="Red snipers nest"
+; EN: LocationName="Red snipers nest"
+LocationName="Nid de tireurs d'élite rouges"
 
 [ZoneInfo41]
-LocationName="Bomb room"
+; EN: LocationName="Bomb room"
+LocationName="Salle des bombes"
 
 [ZoneInfo42]
-LocationName="Middle over bomb room"
+; EN: LocationName="Middle over bomb room"
+LocationName="Au milieu de la salle des bombes"
 
 [ZoneInfo43]
-LocationName="Back hallway"
+; EN: LocationName="Back hallway"
+LocationName="Couloir arrière"
 
 [ZoneInfo44]
-LocationName="Back hallway blue side"
+; EN: LocationName="Back hallway blue side"
+LocationName="Couloir arrière côté bleu"
 
 [ZoneInfo45]
-LocationName="Back hallway red side"
+; EN: LocationName="Back hallway red side"
+LocationName="Couloir arrière côté rouge"
 
 [ZoneInfo46]
-LocationName="Red minigun room"
+; EN: LocationName="Red minigun room"
+LocationName="Salle de minigun rouge"
 
 [ZoneInfo47]
-LocationName="Red Bomb goal hallway"
+; EN: LocationName="Red Bomb goal hallway"
+LocationName="Couloir de but de bombe rouge"
 
 [ZoneInfo48]
-LocationName="Red Bomb goal hallway"
+; EN: LocationName="Red Bomb goal hallway"
+LocationName="Couloir de but de bombe rouge"
 
 [ZoneInfo49]
-LocationName="Red bomb goal room"
+; EN: LocationName="Red bomb goal room"
+LocationName="Salle de but de bombe rouge"
 
 [ZoneInfo5]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo50]
-LocationName="Red bomb goal hallway"
+; EN: LocationName="Red bomb goal hallway"
+LocationName="Couloir de but de bombe rouge"
 
 [ZoneInfo51]
-LocationName="Red bomb goal hallway"
+; EN: LocationName="Red bomb goal hallway"
+LocationName="Couloir de but de bombe rouge"
 
 [ZoneInfo52]
-LocationName="Red bomb goal hallway"
+; EN: LocationName="Red bomb goal hallway"
+LocationName="Couloir de but de bombe rouge"
 
 [ZoneInfo53]
-LocationName="Blue bomb goal hallway"
+; EN: LocationName="Blue bomb goal hallway"
+LocationName="Couloir de but de bombe bleue"
 
 [ZoneInfo54]
-LocationName="Blue bomb goal hallway"
+; EN: LocationName="Blue bomb goal hallway"
+LocationName="Couloir de but de bombe bleue"
 
 [ZoneInfo55]
-LocationName="Blue bomb goal hallway"
+; EN: LocationName="Blue bomb goal hallway"
+LocationName="Couloir de but de bombe bleue"
 
 [ZoneInfo56]
-LocationName="Blue bomb goal hallway"
+; EN: LocationName="Blue bomb goal hallway"
+LocationName="Couloir de but de bombe bleue"
 
 [ZoneInfo57]
-LocationName="Blue bomb goal hallway"
+; EN: LocationName="Blue bomb goal hallway"
+LocationName="Couloir de but de bombe bleue"
 
 [ZoneInfo58]
-LocationName="Blue bomb goal room"
+; EN: LocationName="Blue bomb goal room"
+LocationName="Salle de but de la bombe bleue"
 
 [ZoneInfo59]
-LocationName="Blue minigun room"
+; EN: LocationName="Blue minigun room"
+LocationName="Salle de minigun bleu"
 
 [ZoneInfo6]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [ZoneInfo60]
-LocationName="Blue respawn room"
+; EN: LocationName="Blue respawn room"
+LocationName="Salle de réapparition bleue"
 
 [ZoneInfo61]
-LocationName="Blue respawn hallway"
+; EN: LocationName="Blue respawn hallway"
+LocationName="Couloir de réapparition bleu"
 
 [ZoneInfo62]
-LocationName="Blue respawn hallway"
+; EN: LocationName="Blue respawn hallway"
+LocationName="Couloir de réapparition bleu"
 
 [ZoneInfo63]
-LocationName="Blue respawn hallway"
+; EN: LocationName="Blue respawn hallway"
+LocationName="Couloir de réapparition bleu"
 
 [ZoneInfo64]
-LocationName="Blue respawn hallway"
+; EN: LocationName="Blue respawn hallway"
+LocationName="Couloir de réapparition bleu"
 
 [ZoneInfo65]
-LocationName="Blue sniper hallway"
+; EN: LocationName="Blue sniper hallway"
+LocationName="Couloir de tireur d'élite bleu"
 
 [ZoneInfo66]
-LocationName="Blue sniper hallway"
+; EN: LocationName="Blue sniper hallway"
+LocationName="Couloir de tireur d'élite bleu"
 
 [ZoneInfo67]
-LocationName="Blue sniper hallway"
+; EN: LocationName="Blue sniper hallway"
+LocationName="Couloir de tireur d'élite bleu"
 
 [ZoneInfo68]
-LocationName="Blue snipers nest"
+; EN: LocationName="Blue snipers nest"
+LocationName="Nid de tireurs d'élite bleu"
 
 [ZoneInfo69]
-LocationName="Blue respawn hallway"
+; EN: LocationName="Blue respawn hallway"
+LocationName="Couloir de réapparition bleu"
 
 [ZoneInfo70]
-LocationName="Blue rocket launcher hallway"
+; EN: LocationName="Blue rocket launcher hallway"
+LocationName="Couloir bleu de lanceur de fusée"
 
 [ZoneInfo71]
-LocationName="Blue rocket launcher hallway"
+; EN: LocationName="Blue rocket launcher hallway"
+LocationName="Couloir bleu de lanceur de fusée"
 
 [ZoneInfo72]
-LocationName="Blue rocket launcher hallway"
+; EN: LocationName="Blue rocket launcher hallway"
+LocationName="Couloir bleu de lanceur de fusée"
 
 [ZoneInfo73]
-LocationName="Red rocket launcher hallway"
+; EN: LocationName="Red rocket launcher hallway"
+LocationName="Couloir de lance-roquettes rouge"
 
 [ZoneInfo74]
-LocationName="Red rocket launcher hallway"
+; EN: LocationName="Red rocket launcher hallway"
+LocationName="Couloir de lance-roquettes rouge"
 
 [ZoneInfo75]
-LocationName="Red rocket launcher hallway"
+; EN: LocationName="Red rocket launcher hallway"
+LocationName="Couloir de lance-roquettes rouge"
 
 [ZoneInfo76]
-LocationName="Red respawn hall"
+; EN: LocationName="Red respawn hall"
+LocationName="Salle de réapparition rouge"
 
 [xBombDelivery0]
-ObjectiveName="BlueBombDelivery"
+; EN: ObjectiveName="BlueBombDelivery"
+ObjectiveName="BlueBombLivraison"
 
 [xBombDelivery2]
-ObjectiveName="BlueBombDelivery"
+; EN: ObjectiveName="BlueBombDelivery"
+ObjectiveName="BlueBombLivraison"
 

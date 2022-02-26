@@ -1,0 +1,510 @@
+[ActionMessage_ONS]
+; EN: Messages[0]="Welcome to Onslaught Training."
+Messages[0]="Velkommen til Onslaught Training."
+; EN: Messages[1]="There are many types of vehicles."
+Messages[1]="Det finnes mange typer kjøretøy."
+; EN: Messages[2]="The 'USE' key gets in or out of vehicles."
+Messages[2]="'USE'-tasten kommer inn eller ut av kjøretøy."
+; EN: Messages[3]="Some vehicles can hold passengers."
+Messages[3]="Noen kjøretøy kan holde passasjerer."
+; EN: Messages[4]="Each team in Onslaught has a PowerCore."
+Messages[4]="Hvert lag i Onslaught har en PowerCore."
+; EN: Messages[5]="PowerCores are connected to each other through PowerNodes."
+Messages[5]="PowerCores er koblet til hverandre gjennom PowerNodes."
+; EN: Messages[6]="You can see the network of PowerNodes in the overhead map."
+Messages[6]="Du kan se nettverket til PowerNodes i overheadkartet."
+; EN: Messages[7]="The objective is to destroy the other team's PowerCore."
+Messages[7]="Målet er å ødelegge det andre lagets PowerCore."
+; EN: Messages[8]="You may only attack Nodes and Cores which are linked to a Node or Core you already control."
+Messages[8]="Du kan bare angripe noder og kjerner som er knyttet til en node eller kjerne du allerede kontrollerer."
+; EN: Messages[9]="To take a PowerNode, destroy it if it is controlled by the enemy."
+Messages[9]="For å ta en PowerNode, ødelegge den hvis den kontrolleres av fienden."
+; EN: Messages[10]="Touch a neutral PowerAccessPoint to create a friendly PowerNode."
+Messages[10]="Trykk på et nøytralt PowerAccessPoint for å lage en vennlig PowerNode."
+; EN: Messages[11]="Vehicles appear near friendly Nodes and your Core."
+Messages[11]="Kjøretøy vises i nærheten av vennlige noder og kjernen din."
+; EN: Messages[12]="Until moved, vehicles are locked against the enemy team."
+Messages[12]="Inntil de flyttes, er kjøretøy låst mot fiendens lag."
+; EN: Messages[13]="The Link Gun can heal vehicles and Nodes."
+Messages[13]="Link Gun kan helbrede kjøretøy og noder."
+; EN: Messages[14]="Damaged PowerCores can NOT be healed."
+Messages[14]="Skadede PowerCores kan IKKE helbredes."
+; EN: Messages[15]="Build a network of Nodes to gain access to the enemy Core,"
+Messages[15]="Bygg et nettverk av noder for å få tilgang til fiendens kjerne,"
+; EN: Messages[16]="then destroy it."
+Messages[16]="så ødelegge den."
+; EN: Messages[17]="This concludes the Onslaught Tutorial. Good luck."
+Messages[17]="Dette avslutter Onslaught Tutorial. Lykke til."
+
+[DamTypeAttackCraftMissle]
+; EN: DeathString="%o couldn't avoid %k's air-to-air missile."
+DeathString="%o kunne ikke unngå %ks luft-til-luft-missil."
+; EN: FemaleSuicide="%o blasted herself out of the sky."
+FemaleSuicide="o sprengte seg ut av himmelen."
+; EN: MaleSuicide="%o blasted himself out of the sky."
+MaleSuicide="o sprengte seg ut av himmelen."
+
+[DamTypeAttackCraftPlasma]
+; EN: DeathString="%k's Raptor filled %o with plasma."
+DeathString="%k sin Raptor fylte %o med plasma."
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="o stekte seg selv med sin egen plasmablast."
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="o stekte seg med sin egen plasma-eksplosjon."
+
+[DamTypeChargingBeam]
+; EN: DeathString="%o was incinerated by %k's twin beams."
+DeathString="%o ble brent av %k sine tvillingstråler."
+; EN: FemaleSuicide="%o somehow managed to shoot herself with a turret."
+FemaleSuicide="%o klarte på en eller annen måte å skyte seg selv med et tårn."
+; EN: MaleSuicide="%o somehow managed to shoot himself with a turret."
+MaleSuicide="%o klarte på en eller annen måte å skyte seg selv med et tårn."
+
+[DamTypeDestroyedVehicleRoadKill]
+; EN: DeathString="A vehicle %k destroyed crushed %o"
+DeathString="Et kjøretøy %k ødelagt knust %o"
+; EN: FemaleSuicide="%o couldn't avoid the vehicle she destroyed."
+FemaleSuicide="%o kunne ikke unngå kjøretøyet hun ødela."
+; EN: MaleSuicide="%o couldn't avoid the vehicle he destroyed."
+MaleSuicide="%o kunne ikke unngå kjøretøyet han ødela."
+
+[DamTypeHoverBikeHeadshot]
+; EN: DeathString="%k clipped off %o's head"
+DeathString="%k klippet av %o sitt hode"
+
+[DamTypeHoverBikePlasma]
+; EN: DeathString="%k's Manta filled %o with plasma."
+DeathString="%k's Manta fylt %o med plasma."
+; EN: FemaleSuicide="%o fried herself with her own plasma blast."
+FemaleSuicide="o stekte seg selv med sin egen plasmablast."
+; EN: MaleSuicide="%o fried himself with his own plasma blast."
+MaleSuicide="o stekte seg med sin egen plasma-eksplosjon."
+
+[DamTypeONSAVRiLRocket]
+; EN: DeathString="%k blew %o away with an AVRiL."
+DeathString="%k blåste %o bort med en AVRiL."
+; EN: FemaleSuicide="%o pointed her gun the wrong way."
+FemaleSuicide="%o pekte pistolen feil vei."
+; EN: MaleSuicide="%o pointed his gun the wrong way."
+MaleSuicide="%o pekte pistolen feil vei."
+
+[DamTypeONSChainGun]
+; EN: DeathString="%o was punctured by %k's minigun."
+DeathString="%o ble punktert av %k sin minipistol."
+; EN: FemaleSuicide="%o turned the minigun on herself."
+FemaleSuicide="%o snudde minipistolen mot seg selv."
+; EN: MaleSuicide="%o turned the minigun on himself."
+MaleSuicide="%o vendte minipistolen mot seg selv."
+
+[DamTypeONSGrenade]
+; EN: DeathString="%o played with %k's happy fun ball..."
+DeathString="%o spilte med %k sin glade morsomme ball..."
+; EN: FemaleSuicide="Silly %o, grenades are for enemies..."
+FemaleSuicide="Dumt %o, granater er for fiender..."
+; EN: MaleSuicide="Silly %o, grenades are for enemies..."
+MaleSuicide="Dumt %o, granater er for fiender..."
+
+[DamTypeONSMine]
+; EN: DeathString="%o trespassed on %k's property"
+DeathString="%o overtrådt %k sin eiendom"
+; EN: FemaleSuicide="%o tried out one of her own mines... it worked!"
+FemaleSuicide="%o prøvde ut en av hennes egne gruver... det fungerte!"
+; EN: MaleSuicide="%o tried out one of his own mines... it worked!"
+MaleSuicide="%o prøvde ut en av hans egne gruver... det fungerte!"
+
+[DamTypeONSRVBlade]
+; EN: DeathString="%o was cut down."
+DeathString="%o ble kuttet ned."
+; EN: FemaleSuicide="%o was cut down."
+FemaleSuicide="%o ble kuttet ned."
+; EN: MaleSuicide="%o was cut down."
+MaleSuicide="%o ble kuttet ned."
+
+[DamTypeONSVehicle]
+; EN: DeathString="%o had an accident."
+DeathString="%o hadde en ulykke."
+; EN: FemaleSuicide="%o had an accident."
+FemaleSuicide="%o hadde en ulykke."
+; EN: MaleSuicide="%o had an accident."
+MaleSuicide="%o hadde en ulykke."
+
+[DamTypeONSVehicleExplosion]
+; EN: DeathString="%k took out %o with a vehicle explosion."
+DeathString="%k tok ut %o med en kjøretøyeksplosjon."
+; EN: FemaleSuicide="%o was a little too close to the vehicle she blew up."
+FemaleSuicide="%o var litt for nær kjøretøyet hun sprengte."
+; EN: MaleSuicide="%o was a little too close to the vehicle he blew up."
+MaleSuicide="%o var litt for nær kjøretøyet han sprengte."
+
+[DamTypeONSWeb]
+; EN: DeathString="%o was tied up by %k."
+DeathString="%o ble bundet opp av %k."
+; EN: FemaleSuicide="%o came to a sticky end."
+FemaleSuicide="%o kom til en klebrig slutt."
+; EN: MaleSuicide="%o came to a sticky end."
+MaleSuicide="%o kom til en klebrig slutt."
+
+[DamTypePRVCombo]
+; EN: DeathString="%o couldn't escape the awesome power of %k's skymine combo."
+DeathString="%o kunne ikke unnslippe den fantastiske kraften til %k sin skymine-kombinasjon."
+; EN: FemaleSuicide="%o was a little hasty detonation her skymines."
+FemaleSuicide="%o var en liten forhastet detonasjon hennes skyminer."
+; EN: MaleSuicide="%o was a little hasty detonating his skymines."
+MaleSuicide="%o var litt forhastet med å detonere skyminene hans."
+
+[DamTypePRVLaser]
+; EN: DeathString="%k's laser shocked %o."
+DeathString="%k sin laser sjokkerte %o."
+; EN: FemaleSuicide="%o used her laser on herself."
+FemaleSuicide="%o brukte laseren på seg selv."
+; EN: MaleSuicide="%o used his laser on himself."
+MaleSuicide="%o brukte laseren på seg selv."
+
+[DamTypePancake]
+; EN: DeathString="%o was crushed by %k"
+DeathString="%o ble knust av %k"
+; EN: FemaleSuicide="%o was crushed."
+FemaleSuicide="%o ble knust."
+; EN: MaleSuicide="%o was crushed."
+MaleSuicide="%o ble knust."
+
+[DamTypeRoadkill]
+; EN: DeathString="%k ran over %o"
+DeathString="%k løp over %o"
+; EN: FemaleSuicide="%o ran over herself."
+FemaleSuicide="%o kjørte over seg selv."
+; EN: MaleSuicide="%o ran over himself."
+MaleSuicide="%o kjørte over seg selv."
+
+[DamTypeSkyMine]
+; EN: DeathString="%o ran into %k's skymine."
+DeathString="%o løp inn i %k sin skymine."
+; EN: FemaleSuicide="%o ran into her own skymine."
+FemaleSuicide="%o løp inn i sin egen skymine."
+; EN: MaleSuicide="%o ran into his own skymine."
+MaleSuicide="%o løp inn i sin egen skymine."
+
+[DamTypeTankShell]
+; EN: DeathString="%k's tank shell blew %o into flaming bits."
+DeathString="%ks tankskall blåste %o i flammende biter."
+; EN: FemaleSuicide="%o fired her rocket prematurely."
+FemaleSuicide="%o avfyrte raketten hennes for tidlig."
+; EN: MaleSuicide="%o fired his rocket prematurely."
+MaleSuicide="%o avfyrte raketten sin for tidlig."
+
+[DamTypeTurretBeam]
+; EN: DeathString="%k's turret electrified %o."
+DeathString="%ks tårn elektrifisert %o."
+; EN: FemaleSuicide="%o somehow managed to shoot herself with a turret."
+FemaleSuicide="%o klarte på en eller annen måte å skyte seg selv med et tårn."
+; EN: MaleSuicide="%o somehow managed to shoot himself with a turret."
+MaleSuicide="%o klarte på en eller annen måte å skyte seg selv med et tårn."
+
+[MutBigWheels]
+FriendlyName="BigWheels"
+; EN: Description="Vehicle wheel size depends on how well you are doing."
+Description="Kjøretøyets hjulstørrelse avhenger av hvor godt du har det."
+
+[MutLightweightVehicles]
+; EN: DisplayText="Momentum Multiplier"
+DisplayText="Momentum multiplikator"
+; EN: DescText="Vehicles get this many times as much momentum from damage"
+DescText="Kjøretøyer får så mange ganger så mye fart av skader"
+; EN: FriendlyName="Lightweight Vehicles"
+FriendlyName="Lette kjøretøy"
+; EN: Description="Vehicles fly farther when you hit them."
+Description="Kjøretøyer flyr lenger når du treffer dem."
+
+[MutOnslaughtWeapons]
+; EN: ONSWeaponDisplayText[0]="Include AVRiL"
+ONSWeaponDisplayText[0]="Inkluder AVRiL"
+; EN: ONSWeaponDisplayText[1]="Replace this with AVRiL"
+ONSWeaponDisplayText[1]="Erstatt denne med AVRiL"
+; EN: ONSWeaponDisplayText[2]="Include Mine Layer"
+ONSWeaponDisplayText[2]="Inkluder Mine Layer"
+; EN: ONSWeaponDisplayText[3]="Replace this with Mine Layer"
+ONSWeaponDisplayText[3]="Erstatt dette med Mine Layer"
+; EN: ONSWeaponDisplayText[4]="Include Grenade Launcher"
+ONSWeaponDisplayText[4]="Inkluder granatkaster"
+; EN: ONSWeaponDisplayText[5]="Replace this with Grenade Launcher"
+ONSWeaponDisplayText[5]="Erstatt dette med Grenade Launcher"
+; EN: ONSWeaponDescText[0]="Choose if the AVRiL will be added to the game"
+ONSWeaponDescText[0]="Velg om AVRiL skal legges til spillet"
+; EN: ONSWeaponDescText[1]="Replace this weapon with the AVRiL"
+ONSWeaponDescText[1]="Bytt ut dette våpenet med AVRiL"
+; EN: ONSWeaponDescText[2]="Choose if the Mine Layer will be added to the game"
+ONSWeaponDescText[2]="Velg om gruvelaget skal legges til spillet"
+; EN: ONSWeaponDescText[3]="Replace this weapon with the Mine Layer"
+ONSWeaponDescText[3]="Bytt ut dette våpenet med Mine Layer"
+; EN: ONSWeaponDescText[4]="Choose if the Grenade Launcher will be added to the game"
+ONSWeaponDescText[4]="Velg om granatkasteren skal legges til spillet"
+; EN: ONSWeaponDescText[5]="Replace this weapon with the Grenade Launcher"
+ONSWeaponDescText[5]="Bytt ut dette våpenet med granatkasteren"
+; EN: FriendlyName="Onslaught Weapons"
+FriendlyName="angrepsvåpen"
+; EN: Description="Add the Onslaught weapons to other gametypes."
+Description="Legg Onslaught-våpnene til andre spilltyper."
+
+[MutWheeledVehicleStunts]
+; EN: FriendlyName="Stunt Vehicles"
+FriendlyName="Stuntkjøretøy"
+; EN: Description="Players can make the wheeled vehicles jump. Hold down the crouch key to charge up and then release to jump. They can also control wheeled vehicles in mid-air."
+Description="Spillere kan få hjulkjøretøyene til å hoppe. Hold nede cruch-tasten for å lade opp og slipp deretter for å hoppe. De kan også kontrollere kjøretøy med hjul i luften."
+
+[ONSAVRiL]
+; EN: Description="The AVRiL, or Anti-Vehicle Rocket Launcher, shoots homing missiles that pack quite a punch."
+Description="AVRiL, eller Anti-Vehicle Rocket Launcher, skyter målsøkende missiler som gir mye kraft."
+ItemName="AVRiL"
+
+[ONSAVRiLAmmo]
+; EN: ItemName="Anti-vehicle Rockets"
+ItemName="Anti-kjøretøy raketter"
+
+[ONSAVRiLAmmoPickup]
+; EN: PickupMessage="You picked up some anti-vehicle rockets"
+PickupMessage="Du plukket opp noen antikjøretøyraketter"
+
+[ONSAVRiLPickup]
+; EN: PickupMessage="You got the AVRiL."
+PickupMessage="Du har AVRiL."
+
+[ONSAttackCraft]
+; EN: VehiclePositionString="in a Raptor"
+VehiclePositionString="i en Raptor"
+VehicleNameString="Raptor"
+
+[ONSCrosshairs]
+; EN: Crosshair=((FriendlyName="Circle (3)"),(FriendlyName="Circle (4)"),(FriendlyName="Circle (5)"))
+Crosshair=((FriendlyName="Sirkel (3)"),(FriendlyName="Sirkel (4)"),(FriendlyName="Sirkel (5)"))
+
+[ONSDaredevilMessage]
+; EN: StuntInfoString1="Daredevil!  Level "
+StuntInfoString1="Våghals! Nivå "
+StuntInfoString2=", "
+StuntInfoString3="m"
+; EN: StuntInfoString4="Spin: "
+StuntInfoString4="Snurre rundt: "
+; EN: StuntInfoString5="Flip: "
+StuntInfoString5="Vend: "
+; EN: StuntInfoString6="Roll: "
+StuntInfoString6="Rull: "
+StuntInfoString7=", "
+; EN: StuntInfoString8=" secs"
+StuntInfoString8=" sek"
+StuntDegrees="�"
+
+[ONSGrenadeAmmo]
+; EN: ItemName="Grenades"
+ItemName="Granater"
+
+[ONSGrenadeAmmoPickup]
+; EN: PickupMessage="You picked up some grenades"
+PickupMessage="Du plukket opp noen granater"
+
+[ONSGrenadeLauncher]
+; EN: Description="The MGG Grenade Launcher fires magnetic sticky grenades, which will attach to enemy players and vehicles."
+Description="MGG Grenade Launcher avfyrer magnetiske klebrige granater, som festes til fiendtlige spillere og kjøretøy."
+; EN: ItemName="Grenade Launcher"
+ItemName="Granatkaster"
+
+[ONSGrenadePickup]
+; EN: PickupMessage="You got the Grenade Launcher."
+PickupMessage="Du har granatkasteren."
+
+[ONSHoverBike]
+; EN: VehiclePositionString="in a Manta"
+VehiclePositionString="i en Manta"
+VehicleNameString="Manta"
+
+[ONSHoverTank]
+; EN: VehiclePositionString="in a Goliath"
+VehiclePositionString="i en Goliat"
+; EN: VehicleNameString="Goliath"
+VehicleNameString="Goliat"
+
+[ONSLinkDesignMessage]
+; EN: SaveSetupString="Successfully saved Link Setup."
+SaveSetupString="Lagret koblingsoppsett."
+; EN: LoadSetupString="Successfully loaded Link Setup."
+LoadSetupString="Lenkeoppsett er lastet inn."
+; EN: SaveFailedString="You can't overwrite official Link Setups!"
+SaveFailedString="Du kan ikke overskrive offisielle koblingsoppsett!"
+; EN: LoadFailedString="Failed to load Link Setup because no setup of that name exists."
+LoadFailedString="Kunne ikke laste inn koblingsoppsett fordi det ikke finnes noe oppsett for det navnet."
+; EN: DeleteSetupString="Successfully deleted Link Setup."
+DeleteSetupString="Link Setup er slettet."
+; EN: DeleteOfficialFailedString="You can't delete official Link Setups!"
+DeleteOfficialFailedString="Du kan ikke slette offisielle koblingsoppsett!"
+; EN: DeleteNothingString="Failed to delete Link Setup because no setup of that name exists."
+DeleteNothingString="Kunne ikke slette koblingsoppsett fordi det ikke finnes noe oppsett for det navnet."
+; EN: NoPathToPowerCoreString="Cannot save Link Setup: There must be a complete path between the PowerCores."
+NoPathToPowerCoreString="Kan ikke lagre koblingsoppsett: Det må være en fullstendig bane mellom PowerCores."
+; EN: LoadFailedNoPathToCoreString="Failed to load Link Setup because it does not have a complete path between the PowerCores."
+LoadFailedNoPathToCoreString="Kunne ikke laste koblingsoppsett fordi det ikke har en fullstendig bane mellom PowerCores."
+
+[ONSMineAmmo]
+; EN: ItemName="Parasite Mines"
+ItemName="Parasittgruver"
+
+[ONSMineAmmoPickup]
+; EN: PickupMessage="You picked up some parasite mines"
+PickupMessage="Du plukket opp noen parasittgruver"
+
+[ONSMineLayer]
+; EN: Description="The Spider Mine Layer is used for deploying spider mines, autonomous mobile mines that are highly effective against both foot soldiers and vehicles."
+Description="Spider Mine Layer brukes til å utplassere edderkoppminer, autonome mobile miner som er svært effektive mot både fotsoldater og kjøretøy."
+; EN: ItemName="Mine Layer"
+ItemName="Mine lag"
+
+[ONSMineLayerPickup]
+; EN: PickupMessage="You got the Mine Layer."
+PickupMessage="Du har Mine Layer."
+
+[ONSOnslaughtGame]
+; EN: ONSPropsDisplayText[0]="Core Drain in Overtime"
+ONSPropsDisplayText[0]="Core Drain på overtid"
+; EN: ONSPropsDisplayText[1]="Random Link Setup After Reset"
+ONSPropsDisplayText[1]="Tilfeldig koblingsoppsett etter tilbakestilling"
+; EN: ONSPropsDisplayText[2]="Teams Swap Sides After Reset"
+ONSPropsDisplayText[2]="Lag bytter side etter tilbakestilling"
+; EN: ONSPropDescText[0]="In overtime, PowerCores lose a maximum of this much health every second."
+ONSPropDescText[0]="På overtid mister PowerCores maksimalt så mye helse hvert sekund."
+; EN: ONSPropDescText[1]="After a reset, a new link setup will be chosen at random."
+ONSPropDescText[1]="Etter en tilbakestilling vil et nytt koblingsoppsett bli valgt tilfeldig."
+; EN: ONSPropDescText[2]="After a reset, teams will switch sides so they are defending the PowerCore they were previously attacking."
+ONSPropDescText[2]="Etter en tilbakestilling vil lagene bytte side slik at de forsvarer PowerCore de tidligere angrep."
+ONSHints=("If you receive a missile lock warning, try to get out of sight quickly!","The Raptor's missiles will automatically lock onto Mantas and other Raptors.","In the Raptor press %JUMP% to fly higher and %DUCK% to fly lower.","The Manta can rapidly descend to smash your enemies by pressing %DUCK% or %ALTFIRE%.","Press %JUMP% to perform a 180 spin out in the Hellbender or Scorpion.","The Manta is the only vehicle that has the ability to jump.","When deployed, the Leviathan is highly vulnerable to air attacks.","You can heal a friendly vehicle with the link gun alt-fire.","You can heal a friendly PowerNode with the link gun alt-fire.","It is impossible to heal the final PowerCore, so defend it at all costs!","Press %TOGGLERADARMAP% to toggle the radar map on and off.","You can be hurt or killed by vehicles exploding near you.","Enemy Spider Mines can be destroyed, but some weapons are better against them than others.","Pressing %USE% on a PowerNode allows you to teleport to any PowerNode your team controls.","You won't be able to spawn at a PowerNode that is under attack, even if your team controls it.","If you die, any Spider Mines or Grenades you fired will explode.","Press %VOICETALK% to voice chat with your team.","%BASEPATH 0% will show the way to the nearest PowerNode or PowerCore the Red Team can attack, while %BASEPATH 1% will do the same for the Blue Team.","Press %TOGGLEBEHINDVIEW% to switch between 1st and 3rd person mode in vehicles.","AVRiL rockets will home into an occupied enemy vehicle as long as you keep your crosshair on it.","When you find a target with the AVRiL, press alt-fire to zoom and lock your view to that target.","The green light on top of the weaponlockers indicates that additional ammo is available at that locker.","Attack PowerNodes that have the enemy team color sky beams above them.","You cannot attack the PowerCore or PowerNodes if there is an energy shield present. Remove the shield by controlling a node that is linked to it.","The Grenade Launcher shoots sticky grenades that attach themselves to vehicles and players. You must detonate them yourself with the alternate fire (press %ALTFIRE%)","The bomber that the Target Painter calls in can be shot down by enemy fire.","In Onslaught, your team earns 2 points for winning before overtime and 1 point for a win during overtime.")
+; EN: GameName="Onslaught"
+GameName="Angrep"
+; EN: Description="Your team must take control over PowerNodes in a 'connect the dots' fashion to establish a direct line to the enemy PowerCore. Once you establish a link to the next PowerNode, you can destroy it if controlled by the enemy. Control the PowerNode for your team by touching it to start the build process (Use the linkgun alt-fire to speed things up). Once your team has a link to the enemy PowerCore, attack and destroy it."
+Description="Laget ditt må ta kontroll over PowerNodes på en "koble punktene"-måte for å etablere en direkte linje til fiendens PowerCore. Når du har opprettet en kobling til neste PowerNode, kan du ødelegge den hvis den kontrolleres av fienden. Kontroller PowerNode for teamet ditt ved å berøre det for å starte byggeprosessen (Bruk linkgun alt-fire for å få fart på sakene). Når laget ditt har en kobling til fienden PowerCore, angrip og ødelegge det."
+
+[ONSOnslaughtMessage]
+; EN: RedTeamDominatesString="Red Team Achieves Victory!"
+RedTeamDominatesString="Rødt lag oppnår seier!"
+; EN: BlueTeamDominatesString="Blue Team Achieves Victory!"
+BlueTeamDominatesString="Blue Team oppnår seier!"
+; EN: RedTeamPowerCoreString="Red Team PowerNode Constructed!"
+RedTeamPowerCoreString="Red Team PowerNode konstruert!"
+; EN: BlueTeamPowerCoreString="Blue Team PowerNode Constructed!"
+BlueTeamPowerCoreString="Blue Team PowerNode konstruert!"
+; EN: VehicleLockedString="Vehicle is Locked!"
+VehicleLockedString="Kjøretøyet er låst!"
+; EN: InvincibleCoreString="You Are Unable To Damage Unlinked PowerNodes!"
+InvincibleCoreString="Du kan ikke skade ikke-koblede PowerNodes!"
+; EN: UnattainableNodeString="You Are Unable To Obtain Unlinked PowerNodes!"
+UnattainableNodeString="Du kan ikke skaffe ukoblede PowerNodes!"
+; EN: RedPowerCoreAttackedString="Red Team PowerCore is under Attack!"
+RedPowerCoreAttackedString="Red Team PowerCore er under angrep!"
+; EN: BluePowerCoreAttackedString="Blue Team PowerCore is under Attack!"
+BluePowerCoreAttackedString="Blue Team PowerCore er under angrep!"
+; EN: RedPowerNodeAttackedString="Red Team PowerNode is under Attack!"
+RedPowerNodeAttackedString="Red Team PowerNode er under angrep!"
+; EN: BluePowerNodeAttackedString="Blue Team PowerNode is under Attack!"
+BluePowerNodeAttackedString="Blue Team PowerNode er under angrep!"
+; EN: InWayOfVehicleSpawnString="You are in the way of a vehicle spawning!"
+InWayOfVehicleSpawnString="Du er i veien for et kjøretøy som gyter!"
+MissileLockOnString="Missile Lock-On!"
+; EN: UnpoweredString="Turret is Unpowered!"
+UnpoweredString="Turret er uten kraft!"
+; EN: RedPowerCoreDestroyedString="Red PowerCore Destroyed"
+RedPowerCoreDestroyedString="Rød PowerCore ødelagt"
+; EN: BluePowerCoreDestroyedString="Blue PowerCore Destroyed"
+BluePowerCoreDestroyedString="Blå PowerCore ødelagt"
+; EN: RedPowerNodeDestroyedString="Red PowerNode Destroyed"
+RedPowerNodeDestroyedString="Rød PowerNode ødelagt"
+; EN: BluePowerNodeDestroyedString="Blue PowerNode Destroyed"
+BluePowerNodeDestroyedString="Blå PowerNode ødelagt"
+; EN: RedPowerCoreCriticalString="Red PowerCore is Critical!"
+RedPowerCoreCriticalString="Rød PowerCore er kritisk!"
+; EN: BluePowerCoreCriticalString="Blue PowerCore is Critical!"
+BluePowerCoreCriticalString="Blue PowerCore er kritisk!"
+; EN: PressUseToTeleportString="Press Use to teleport to another node"
+PressUseToTeleportString="Trykk Bruk for å teleportere til en annen node"
+; EN: RedPowerCoreVulnerableString="Red PowerCore is Vulnerable!"
+RedPowerCoreVulnerableString="Red PowerCore er sårbar!"
+; EN: BluePowerCoreVulnerableString="Blue PowerCore is Vulnerable!"
+BluePowerCoreVulnerableString="Blue PowerCore er sårbar!"
+; EN: RedPowerNodeUnderConstructionString="Red PowerNode under Construction!"
+RedPowerNodeUnderConstructionString="Rød PowerNode under konstruksjon!"
+; EN: BluePowerNodeUnderConstructionString="Blue PowerNode under Construction!"
+BluePowerNodeUnderConstructionString="Blå PowerNode under konstruksjon!"
+; EN: RedPowerCoreDamagedString="Red PowerCore is at 50%!"
+RedPowerCoreDamagedString="Red PowerCore er på 50 %!"
+; EN: BluePowerCoreDamagedString="Blue PowerCore is at 50%!"
+BluePowerCoreDamagedString="Blue PowerCore er på 50 %!"
+; EN: RedPowerNodeSeveredString="Red PowerNode Isolated!"
+RedPowerNodeSeveredString="Rød PowerNode isolert!"
+; EN: BluePowerNodeSeveredString="Blue PowerNode Isolated!"
+BluePowerNodeSeveredString="Blå PowerNode isolert!"
+; EN: PowerCoresAreDrainingString="PowerCores are draining!"
+PowerCoresAreDrainingString="PowerCores tømmes!"
+; EN: UnhealablePowerCoreString="You can't heal your PowerCore!"
+UnhealablePowerCoreString="Du kan ikke helbrede din PowerCore!"
+; EN: AvrilLockOnString="Incoming Heat-Seeking Missile!"
+AvrilLockOnString="Innkommende varmesøkende missil!"
+; EN: CameraDeploy="Press Alt-Fire to deploy camera!"
+CameraDeploy="Trykk Alt-Fire for å distribuere kamera!"
+; EN: MoveReticle="Use Forward and Strafe to Aim Reticle"
+MoveReticle="Bruk Forward og Strafe for å sikte Reticle"
+; EN: SPMAAcquiredString="SPMA Acquired"
+SPMAAcquiredString="SPMA ervervet"
+
+[ONSPRV]
+; EN: VehiclePositionString="in a HellBender"
+VehiclePositionString="i en HellBender"
+VehicleNameString="HellBender"
+
+[ONSPRVRearGunPawn]
+; EN: VehiclePositionString="in a HellBender's rear turret"
+VehiclePositionString="i en HellBenders bakre tårn"
+; EN: VehicleNameString="HellBender Rear Turret"
+VehicleNameString="HellBender bakre tårn"
+
+[ONSPRVSideGunPawn]
+; EN: VehiclePositionString="in a HellBender's side turret"
+VehiclePositionString="i et HellBenders sidetårn"
+VehicleNameString="HellBender Side Turret"
+
+[ONSPowerCore]
+ObjectiveStringSuffix=" PowerCore"
+
+[ONSPowerNode]
+; EN: NeutralString="Neutral PowerNode"
+NeutralString="Nøytral PowerNode"
+; EN: ConstructingString=" Constructing PowerNode"
+ConstructingString=" Konstruerer PowerNode"
+ObjectiveStringSuffix=" PowerNode"
+
+[ONSRV]
+; EN: VehiclePositionString="in a Scorpion"
+VehiclePositionString="i en skorpion"
+; EN: VehicleNameString="Scorpion"
+VehicleNameString="Skorpion"
+
+[ONSStationaryWeaponPawn]
+; EN: VehiclePositionString="manning a turret"
+VehiclePositionString="bemanne et tårn"
+; EN: VehicleNameString="Energy Turret"
+VehicleNameString="Energitårn"
+
+[ONSTankSecondaryTurretPawn]
+; EN: VehiclePositionString="in a Goliath turret"
+VehiclePositionString="i et Goliat-tårn"
+VehicleNameString="Goliath Minigun Turret"
+
+[ONSVehicleKillMessage]
+KillString[0]="Road Kill!"
+; EN: KillString[1]="Hit and Run!"
+KillString[1]="Hit og løp!"
+KillString[2]="Road Rage!"
+; EN: KillString[3]="Vehicular Manslaughter!"
+KillString[3]="Bilmord!"
+; EN: KillString[4]="Pancake!"
+KillString[4]="Pannekake!"
+; EN: KillString[5]="Eagle Eye!"
+KillString[5]="Ørneøye!"
+KillString[6]="Top Gun!"
+; EN: KillString[7]="Fender Bender!"
+KillString[7]="Liten bulk!"
+

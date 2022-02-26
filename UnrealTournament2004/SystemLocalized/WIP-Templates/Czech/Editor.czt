@@ -1,0 +1,205 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+; EN: Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="(Caption="Mřížka",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Mřížka)"
+Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
+
+[PkgCommandlet]
+; EN: HelpCmd="pkg"
+HelpCmd="bal"
+; EN: HelpOneLiner="Imports/Exports data to/from packages using directory structures."
+HelpOneLiner="Importuje/exportuje data do/z balíčků pomocí adresářových struktur."
+; EN: HelpUsage="pkg [import/export] [texture/sound] [packagename] [directory]"
+HelpUsage="pkg [import/export] [textura/zvuk] [název balíčku] [adresář]"
+; EN: HelpParm[0]="import/export"
+HelpParm[0]="import Export"
+; EN: HelpDesc[0]="What you are attempting to do with the data"
+HelpDesc[0]="Co se pokoušíte udělat s daty"
+; EN: HelpParm[1]="texture/sound"
+HelpParm[1]="textura/zvuk"
+; EN: HelpDesc[1]="The type of package you are working with"
+HelpDesc[1]="Typ balíčku, se kterým pracujete"
+; EN: HelpParm[2]="packagename"
+HelpParm[2]="název balíčku"
+; EN: HelpDesc[2]="The package you are creating/exporting from"
+HelpDesc[2]="Balíček, ze kterého vytváříte/exportujete"
+; EN: HelpParm[3]="directory"
+HelpParm[3]="adresář"
+; EN: HelpDesc[3]="The directory to read from/write to"
+HelpDesc[3]="Adresář, ze kterého se má číst/zapisovat"
+
+[MasterCommandlet]
+; EN: HelpCmd="master"
+HelpCmd="mistr"
+; EN: HelpOneLiner="Build master installer files"
+HelpOneLiner="Sestavte hlavní instalační soubory"
+HelpUsage="master [-option...] [parm=value]..."
+HelpParm[0]="MasterPath"
+; EN: HelpDesc[0]="Root directory to copy source files from"
+HelpDesc[0]="Kořenový adresář, ze kterého se mají kopírovat zdrojové soubory"
+HelpParm[1]="SrcPath"
+; EN: HelpDesc[1]="Root directory to copy source (release) files to"
+HelpDesc[1]="Kořenový adresář, do kterého se mají kopírovat zdrojové (uvolněné) soubory"
+HelpParm[2]="RefPath"
+; EN: HelpDesc[2]="Path for delta-compressed path reference"
+HelpDesc[2]="Cesta pro delta-komprimovanou referenci cesty"
+
+[MapConvertCommandlet]
+HelpCmd="mapconvert"
+; EN: HelpOneLiner="Converts Maps from old format to new (no brush transforms)"
+HelpOneLiner="Převádí mapy ze starého formátu do nového (žádné transformace štětcem)"
+HelpUsage="mapconvert SrcFilename DstFilename"
+HelpParm[0]="SrcFilename"
+; EN: HelpDesc[0]="The map filename to read from"
+HelpDesc[0]="Název souboru mapy, ze kterého se má číst"
+HelpParm[1]="DstFilename"
+; EN: HelpDesc[1]="The map filename to write to"
+HelpDesc[1]="Název souboru mapy, do kterého se má zapisovat"
+
+[MakeCommandlet]
+; EN: HelpCmd="make"
+HelpCmd="udělat"
+; EN: HelpOneLiner="Rebuild UnrealScript packages"
+HelpOneLiner="Znovu sestavte balíčky UnrealScript"
+HelpUsage="make [-option...] [parm=value]..."
+HelpParm[0]="auto"
+; EN: HelpDesc[0]="No prompts; assume "yes" to all questions"
+HelpDesc[0]="Žádné výzvy; předpokládejte „ano“ na všechny otázky"
+HelpParm[1]="nobind"
+; EN: HelpDesc[1]="Don't force native functions to be bound to DLLs"
+HelpDesc[1]="Nevynucujte vazbu nativních funkcí na knihovny DLL"
+HelpParm[2]="silentbuild"
+; EN: HelpDesc[2]="Do not display 'Analyzing' & 'Compiling' messages for every class"
+HelpDesc[2]="Nezobrazujte zprávy „Analýza“ a „Kompilace“ pro každou třídu"
+; EN: HelpParm[3]="exportcache"
+HelpParm[3]="exportní cache"
+; EN: HelpDesc[3]="Create cache record files for the compiled package"
+HelpDesc[3]="Vytvořte soubory záznamů mezipaměti pro zkompilovaný balíček"
+
+[DXTConvertCommandlet]
+HelpCmd="dxtconvert"
+; EN: HelpOneLiner="Convert DXT3/5 textures to DXT1/ RGBA"
+HelpOneLiner="Převeďte textury DXT3/5 na DXT1/RGBA"
+HelpUsage="dxtconvert srcpath destpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files"
+HelpDesc[0]="Cesta obsahující zdrojové soubory"
+HelpParm[1]="destpath"
+; EN: HelpDesc[1]="Path for destination files"
+HelpDesc[1]="Cesta pro cílové soubory"
+
+[DataRipCommandlet]
+HelpCmd="datarip"
+; EN: HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
+HelpOneLiner="Vytvořte balíček s vytrhanými daty textury, hudby a zvuku."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+; EN: HelpDesc[0]="Source Package"
+HelpDesc[0]="Zdrojový balíček"
+HelpParm[1]="dstpackage.ext"
+; EN: HelpDesc[1]="Destination Package"
+HelpDesc[1]="Destinační balíček"
+
+[PackageFlagCommandlet]
+; EN: HelpCmd="packageflag"
+HelpCmd="příznak balíčku"
+; EN: HelpOneLiner="Set package flags in package files"
+HelpOneLiner="Nastavit příznaky balíčku v souborech balíčku"
+; EN: HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
+HelpUsage="packageflag src.ext [dest.ext &lt;+|-&gt;flag [&lt;+|-&gt;flag] ...]"
+HelpParm[0]="src.ext"
+; EN: HelpDesc[0]="Existing package file to load"
+HelpDesc[0]="Existující soubor balíčku k načtení"
+HelpParm[1]="dest.exe"
+; EN: HelpDesc[1]="Name of new package file with the new flag settings"
+HelpDesc[1]="Název nového souboru balíčku s nastavením nového příznaku"
+; EN: HelpParm[2]="flag"
+HelpParm[2]="vlajka"
+; EN: HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
+HelpDesc[2]="+ pro nastavení příznaku, nebo - pro odstranění příznaku, následované jedním z:"
+HelpParm[3]=" "
+; EN: HelpDesc[3]="  AllowDownload"
+HelpDesc[3]="  Povolit stažení"
+HelpParm[4]=" "
+; EN: HelpDesc[4]="  ClientOptional"
+HelpDesc[4]="  KlientVolitelné"
+HelpParm[5]=" "
+; EN: HelpDesc[5]="  ServerSideOnly"
+HelpDesc[5]="  Pouze na straně serveru"
+HelpParm[6]=" "
+HelpDesc[6]="  BrokenLinks"
+HelpParm[7]=" "
+; EN: HelpDesc[7]="  Unsecure"
+HelpDesc[7]="  Nezabezpečené"
+
+[ConformCommandlet]
+; EN: HelpCmd="conform"
+HelpCmd="vyhovovat"
+; EN: HelpOneLiner="Generate conforming binary files"
+HelpOneLiner="Generujte vyhovující binární soubory"
+; EN: HelpUsage="conform existing_file.ext old_file.ext"
+HelpUsage="přizpůsobit existující_soubor.přípon starý_soubor.přípona"
+; EN: HelpParm[0]="existingfile.ext"
+HelpParm[0]="existující soubor.přípona"
+; EN: HelpDesc[0]="Existing binary file to load, conform, and save"
+HelpDesc[0]="Existující binární soubor k načtení, přizpůsobení a uložení"
+HelpParm[1]="oldfile.ext"
+; EN: HelpDesc[1]="Old file to make source file binary compatible with"
+HelpDesc[1]="Starý soubor, se kterým bude zdrojový soubor binárně kompatibilní"
+
+[BatchExportCommandlet]
+; EN: HelpCmd="batchexport"
+HelpCmd="dávkový export"
+; EN: HelpOneLiner="Export objects in bulk"
+HelpOneLiner="Exportujte objekty hromadně"
+HelpUsage="batchexport package.ext classname export_ext"
+; EN: HelpParm[0]="package.ext"
+HelpParm[0]="balíček.ext"
+; EN: HelpDesc[0]="Package whose objects you wish to export"
+HelpDesc[0]="Balíček, jehož objekty chcete exportovat"
+; EN: HelpParm[1]="classname"
+HelpParm[1]="jméno třídy"
+; EN: HelpDesc[1]="Class of object to export"
+HelpDesc[1]="Třída objektu k exportu"
+HelpParm[2]="export_ext"
+; EN: HelpDesc[2]="File extension to export to"
+HelpDesc[2]="Přípona souboru k exportu"
+; EN: HelpParm[3]="path"
+HelpParm[3]="cesta"
+; EN: HelpDesc[3]="Path to export files to, like c:\MyPath"
+HelpDesc[3]="Cesta k exportu souborů, například c:\MyPath"
+
+[AnalyzeContentCommandlet]
+; EN: HelpCmd="analyzecontent"
+HelpCmd="analyzovat obsah"
+; EN: HelpOneLiner="Analyzes map"
+HelpOneLiner="Analyzuje mapu"
+; EN: HelpUsage="analyzecontent mapname"
+HelpUsage="název mapy analyzovat obsah"
+; EN: HelpParm[0]="mapname"
+HelpParm[0]="název mapy"
+; EN: HelpDesc[0]="Path to a map file"
+HelpDesc[0]="Cesta k souboru mapy"

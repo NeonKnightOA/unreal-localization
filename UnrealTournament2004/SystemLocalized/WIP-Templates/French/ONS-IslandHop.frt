@@ -1,97 +1,130 @@
 [LevelInfo0]
-Title="Island Hop"
+; EN: Title="Island Hop"
+Title="Houblon des îles"
 
 [LevelSummary]
-Title="Island Hop"
-Description="This volcanic archipelago served once as a gateway in the human wars of the 21st century. Transformed for tournament use, a series of bridges now connects the islands. These bridges, though excellent use for ground based vehicles, do not provide a direct path to battle. Mantas will be the primary choice for transportation."
+; EN: Title="Island Hop"
+Title="Houblon des îles"
+; EN: Description="This volcanic archipelago served once as a gateway in the human wars of the 21st century. Transformed for tournament use, a series of bridges now connects the islands. These bridges, though excellent use for ground based vehicles, do not provide a direct path to battle. Mantas will be the primary choice for transportation."
+Description="Cet archipel volcanique a servi autrefois de porte d'entrée aux guerres humaines du XXIe siècle. Transformé pour une utilisation en tournoi, une série de ponts relie désormais les îles. Ces ponts, bien qu'excellents pour les véhicules terrestres, ne fournissent pas un chemin direct vers la bataille. Les mantas seront le premier choix pour le transport."
 
 [Volume0]
-LocationName="Southwest Island"
+; EN: LocationName="Southwest Island"
+LocationName="Île du Sud-Ouest"
 
 [Volume1]
-LocationName="Southwest Island"
+; EN: LocationName="Southwest Island"
+LocationName="Île du Sud-Ouest"
 
 [Volume11]
-LocationName="West Island"
+; EN: LocationName="West Island"
+LocationName="Ouest de l'île"
 
 [Volume12]
-LocationName="Northwest Island"
+; EN: LocationName="Northwest Island"
+LocationName="Île du Nord-Ouest"
 
 [Volume14]
-LocationName="Northwest Island"
+; EN: LocationName="Northwest Island"
+LocationName="Île du Nord-Ouest"
 
 [Volume15]
-LocationName="Northeast Island"
+; EN: LocationName="Northeast Island"
+LocationName="Île du Nord-Est"
 
 [Volume16]
-LocationName="Northeast Island"
+; EN: LocationName="Northeast Island"
+LocationName="Île du Nord-Est"
 
 [Volume17]
-LocationName="Northeast Island"
+; EN: LocationName="Northeast Island"
+LocationName="Île du Nord-Est"
 
 [Volume19]
-LocationName="East Island"
+; EN: LocationName="East Island"
+LocationName="Île de l'Est"
 
 [Volume2]
-LocationName="Southwest Island"
+; EN: LocationName="Southwest Island"
+LocationName="Île du Sud-Ouest"
 
 [Volume20]
-LocationName="Small Northeast Island"
+; EN: LocationName="Small Northeast Island"
+LocationName="Petite île du nord-est"
 
 [Volume22]
-LocationName="East Island"
+; EN: LocationName="East Island"
+LocationName="Île de l'Est"
 
 [Volume23]
-LocationName="Southeast Island"
+; EN: LocationName="Southeast Island"
+LocationName="Île du Sud-Est"
 
 [Volume25]
-LocationName="Southeast Island"
+; EN: LocationName="Southeast Island"
+LocationName="Île du Sud-Est"
 
 [Volume26]
-LocationName="Volcano"
+; EN: LocationName="Volcano"
+LocationName="Volcan"
 
 [Volume5]
-LocationName="West Island"
+; EN: LocationName="West Island"
+LocationName="Ouest de l'île"
 
 [Volume9]
-LocationName="Small Southwest Island"
+; EN: LocationName="Small Southwest Island"
+LocationName="Petite île du sud-ouest"
 
 [WaterVolume1]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume18]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume19]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume20]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume23]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume24]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume25]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume26]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume27]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume28]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume3]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [WaterVolume31]
-LocationName="Under Water"
+; EN: LocationName="Under Water"
+LocationName="Sous-marin"
 
 [ZoneInfo1]
-LocationName="Outside"
+; EN: LocationName="Outside"
+LocationName="À l'extérieur"
 
