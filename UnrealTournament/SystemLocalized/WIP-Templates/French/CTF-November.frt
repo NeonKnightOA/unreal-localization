@@ -34,8 +34,8 @@ ZoneName="Base rouge"
 ZoneName="Eau"
 
 [LevelSummary]
-; EN: Title="November"
-Title="novembre"
+; EN: Title="November Sub Pen"
+Title="Stylo Sub de Novembre"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
 LevelEnterText="Entrer dans le stylo sous-marin nucléaire de novembre."

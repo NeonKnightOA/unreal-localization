@@ -33,8 +33,8 @@ ZoneName="Czerwona podstawa"
 ZoneName="woda"
 
 [LevelSummary]
-; EN: Title="November"
-Title="listopad"
+; EN: Title="November Sub Pen"
+Title="Listopadowy długopis"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
 LevelEnterText="Wejście na pokład łodzi podwodnej November-Nuclear."
