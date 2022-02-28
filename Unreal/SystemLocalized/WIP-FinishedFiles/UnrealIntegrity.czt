@@ -1,0 +1,15 @@
+﻿[Public]
+; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Integrita Unreal",Parent="Síťování",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Integritním Serveru",Parent="Integrita Unreal",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+Preferences=(Caption="Bílá Listina",Parent="Integrita Unreal",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+
+[General]
+; EN: ScanningInfo="Unreal Integrity is scanning your client for possible cheats..."
+ScanningInfo="Integrita Unreal skenuje vašeho klienta kvůli možným podvodům ..."
+; EN: MidGameScan="You have died, performing mid-game cheat scan."
+MidGameScan="Zemřel jsi při provádění podvádění ve hře."
+; EN: EndGameScan="Game has ended, performing end-game cheat scan."
+EndGameScan="Hra skončila, provádí se skenování cheatů na konci hry."

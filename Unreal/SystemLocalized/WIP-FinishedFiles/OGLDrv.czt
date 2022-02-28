@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OGLDrv Support",Parent="Rendering",Class=OGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="Podpora vykreslování OGL",Parent="Vykreslování",Class=OGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OGLDrv Support"
+ClassCaption="Podpora vykreslování OGL"
+; EN: AskInstalled="Do you have a OGLDrv compatible 3D accelerator installed?"
+AskInstalled="Máte nainstalovaný 3D akcelerátor kompatibilní s OGLDrv?"
+; EN: AskUse="Do you want Unreal to use your OGLDrv accelerator?"
+AskUse="Chcete, aby Unreal použil váš akcelerátor OGLDrv?"
+
+[Errors]
+; EN: NoFindGL="Can't find OGLDrv driver %ls"
+NoFindGL="Nelze najít ovladač OGLDrv %ls"
+; EN: MissingFunc="Missing OGLDrv function %ls (%i)"
+MissingFunc="Chybějící funkce OGLDrv %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Nastavení se nezdařilo"

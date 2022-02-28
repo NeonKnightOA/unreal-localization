@@ -1,0 +1,235 @@
+﻿[public]
+; EN: Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Win 95")
+Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Win 95")
+
+[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText="Ano"
+; EN: NoText="No"
+NoText="Ne"
+; EN: OKText="OK"
+OKText="OK"
+; EN: CancelText="Cancel"
+CancelText="Zrusit"
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle="Systemova Konzole"
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText="Zavrit"
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText="Zrusit"
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText="OK"
+
+[UWindowConsoleClientWindow]
+; EN: ShowColorsText="Show console messages in colours"
+ShowColorsText="Zobrazit zprávy konzoly v barvách"
+; EN: ShowChatText="Log only chat messages"
+ShowChatText="Zaznamenávejte pouze zprávy chatu"
+
+[AdminGUIPlayersGrid]
+; EN: PlayerID="ID#"
+PlayerID="ID #"
+; EN: PlayerName="Player Name"
+PlayerName="Jméno hráče"
+; EN: PlayerIP="IP-Address"
+PlayerIP="IP adresa"
+; EN: PlayerClientID="Client ID"
+PlayerClientID="ID klienta"
+; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
+MaxLengthExceeded="Byla překročena maximální délka seznamu hráčů „%i“"
+; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
+IDMismatchedStr="ID odpovědi neodpovídá: %i/%j"
+; EN: ClientReceivedStr="Received client "%ls"."
+ClientReceivedStr="Přijatý klient "%ls"."
+; EN: GettingInfoStr="Getting player list from server, if nothing happens you may not be logged in as admin."
+GettingInfoStr="Získání seznamu hráčů ze serveru, pokud se nic nestane, možná nebudete přihlášeni jako správce."
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded "%i""
+LengthExceeded="Byla překročena maximální délka seznamu hráčů „%i“"
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch="ID odpovědi neodpovídá: %i/%j"
+; EN: ReceiveBanText="Received ban "%ls"."
+ReceiveBanText="Přijatý zákaz „%ls“."
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText="Získání banlistu ze serveru, pokud se nic nestane, možná nebudete přihlášeni jako admin (nebo na serveru nejsou žádné zákazy)."
+
+[MMMusicListGrid]
+; EN: MusicNameStr="Music name"
+MusicNameStr="Název hudby"
+; EN: MusicPackStr="Music package"
+MusicPackStr="Hudební balíček"
+; EN: FailedToPlayStr="Failed to play: Music "%ls" was not found or failed to load."
+FailedToPlayStr="Přehrávání se nezdařilo: Hudba „%ls“ nebyla nalezena nebo se nepodařilo načíst."
+; EN: StartedPlayStr="Started playing music "%ls" with section %i."
+StartedPlayStr="Zahájeno přehrávání hudby „%ls“ v sekci %i."
+; EN: NullErrorStr="Failed to add: NULL is not a valid song."
+NullErrorStr="Nepodařilo se přidat: NULL není platná skladba."
+; EN: FailedLoadStr="Failed to add: Music "%ls" file could not be found or loaded."
+FailedLoadStr="Nepodařilo se přidat: Hudební soubor „%ls“ nebyl nalezen nebo načten."
+; EN: ConfirmInsertDuplicateTitle="Adding an already listed track"
+ConfirmInsertDuplicateTitle="Přidání již uvedené stopy"
+; EN: ConfirmInsertDuplicateText="Such a track is already included in the playlist. Insert it anyway?"
+ConfirmInsertDuplicateText="Taková skladba je již zahrnuta v seznamu skladeb. Vložit to stejně?"
+; EN: AddedStr="Added music "%ls" (%i)."
+AddedStr="Přidána hudba „%ls“ (%i)."
+; EN: RemoveSongStr="Removed song #%i."
+RemoveSongStr="Odstraněná skladba #%i."
+; EN: ClearListStr="Removed all tracks from the playlist."
+ClearListStr="Odebrány všechny skladby ze seznamu skladeb."
+; EN: ConfirmClearListTitle="Confirm clearing the playlist"
+ConfirmClearListTitle="Potvrďte vymazání seznamu skladeb"
+; EN: ConfirmClearListText="Do you want to clear the playlist?"
+ConfirmClearListText="Chcete vymazat seznam skladeb?"
+; EN: BadIndexStr="Failed to remove: Bad remove index."
+BadIndexStr="Odebrání se nezdařilo: Špatný index odebrání."
+
+[AdminGUIClientWindow]
+; EN: PlayersListTxt="Clients List"
+PlayersListTxt="Seznam klientů"
+; EN: BanListTxt="Banned Clients"
+BanListTxt="Zakázaní klienti"
+; EN: TempBanListTxt="Session Banned Clients"
+TempBanListTxt="Klienti se zákazem relace"
+
+[AdminGUIManBanClientW]
+; EN: PlayerNameTxt="Client name (for banlisting purposes only):"
+PlayerNameTxt="Jméno klienta (pouze pro účely banlistu):"
+; EN: PlayerIpTxt="Client IP address (or IP range if desired):"
+PlayerIpTxt="IP adresa klienta (nebo rozsah IP, pokud je to požadováno):"
+; EN: InsertBanTxt="Insert ban"
+InsertBanTxt="Vložit zákaz"
+
+[MMMainWindow]
+; EN: WindowTitle="Music Menu"
+WindowTitle="Nabídka Hudba"
+
+[UWindowNetErrorClientWindow]
+; EN: ReconnectText="Reconnect to server"
+ReconnectText="Znovu se připojte k serveru"
+; EN: KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\"
+KickNetworkText="KICKED! | Z tohoto serveru vás po zbytek hry vyhodil administrátor. \"
+; EN: BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\If you feel like you don't deserve this ban, contact the administrator at: "
+BanNetworkText="BANNED! | Byl vám z tohoto serveru zakázán administrátor kvůli špatnému chování. \\ Pokud máte pocit, že si tento zákaz nezasloužíte, kontaktujte administrátora na: "
+; EN: TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\"
+TempBanNetworkText="ZASEDÁNÍ ZAKÁZÁNO! | Z tohoto serveru vám byl dočasně zakázán přístup na zbývající část mapy. \"
+
+[MMControlsClient]
+; EN: MusicVolumeText="Music Volume"
+MusicVolumeText="Hlasitost hudby"
+; EN: BrowseText="Browse"
+BrowseText="Procházet"
+; EN: BrowseHint="Browse music files"
+BrowseHint="Procházejte hudební soubory"
+; EN: AddMusicText="Add Music"
+AddMusicText="Přidat hudbu"
+; EN: AddMusicHint="Add music with the specified name"
+AddMusicHint="Přidejte hudbu se zadaným názvem"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="Lhůta"
+; EN: TimeLimitHint="Select music playtime in minutes (0 = no time limit)"
+TimeLimitHint="Vyberte dobu přehrávání hudby v minutách (0 = žádný časový limit)"
+; EN: SectionText="Song Section"
+SectionText="Sekce písní"
+; EN: SectionHint="Set initial music section (0 - 254)"
+SectionHint="Nastavit počáteční hudební sekci (0-254)"
+; EN: MusicStoppedText="Music player was stopped."
+MusicStoppedText="Hudební přehrávač byl zastaven."
+; EN: PlayTrackHint="Play track"
+PlayTrackHint="Přehrát skladbu"
+; EN: StopTrackHint="Stop track"
+StopTrackHint="Zastavit stopu"
+; EN: PriorTrackHint="Prior track"
+PriorTrackHint="Předchozí skladba"
+; EN: NextTrackHint="Next track"
+NextTrackHint="Další skladba"
+
+[UWindowNetErrorWindow]
+; EN: WindowTitle="Player Network error status"
+WindowTitle="Stav chyby sítě hráče"
+
+[AdminGUIMainWindow]
+; EN: WindowTitle="Admin Menu"
+WindowTitle="Nabídka správce"
+
+[AdminGUIBanLPullDown]
+; EN: RemoveBanTxt="&Remove ban"
+RemoveBanTxt="&Odstranit zákaz"
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt="&Zavřít tuto nabídku"
+; EN: RefreshTxt="&Refresh banlist"
+RefreshTxt="&Obnovit banlist"
+; EN: ManualBanTxt="&Manually insert ban entry"
+ManualBanTxt="&Ručně vložit záznam o zákazu"
+
+[MMMusListWindow]
+; EN: WindowTitle="Found music tracks:"
+WindowTitle="Nalezené hudební stopy:"
+
+[MMListPullDown]
+; EN: PlaySongStr="&Play"
+PlaySongStr="&Hrát si"
+; EN: RemoveSongStr="&Remove from playlist"
+RemoveSongStr="&Odebrat ze seznamu skladeb"
+; EN: InsertCurrentSongStr="&Insert currently playing track"
+InsertCurrentSongStr="&Vložit aktuálně přehrávanou stopu"
+; EN: ClearPlaylistStr="&Clear playlist"
+ClearPlaylistStr="&Vymazat seznam skladeb"
+
+[MMMusicFilesGrid]
+; EN: ErrorLoadPackage="Error: Failed to load music package."
+ErrorLoadPackage="Chyba: Nepodařilo se načíst hudební balíček."
+; EN: ErrorNoMusics="Error: Failed to find any musics in this package."
+ErrorNoMusics="Chyba: V tomto balíčku se nepodařilo najít žádnou hudbu."
+
+[AdminGUIPLPullDown]
+; EN: GetAliasesTxt="&Get player aliases"
+GetAliasesTxt="&Získat aliasy hráčů"
+; EN: KickPlayerTxt="&Kick player"
+KickPlayerTxt="&Kick player"
+; EN: KickBanTempTxt="&Temporarily kick-ban player"
+KickBanTempTxt="&Dočasně vykopnout hráče"
+; EN: KickBanTxt="Kick-&ban player"
+KickBanTxt="Nakopněte a zakažte hráče"
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt="&Zavřít tuto nabídku"
+; EN: RefreshTxt="&Refresh players list"
+RefreshTxt="&Obnovit seznam hráčů"
+
+[AdminGUIManualBanWnd]
+; EN: WindowTitle="Insert manual ban"
+WindowTitle="Vložte ruční zákaz"
+
+[AdminGUITBanLGrid]
+; EN: GettingBanListText="Getting temp-banlist from server, if nothing happens you may not be logged in as admin (or there are no temp-bans on server)."
+GettingBanListText="Získání dočasného banlistu ze serveru, pokud se nic nestane, možná nebudete přihlášeni jako správce (nebo na serveru nejsou žádné dočasné zákazy)."
+
+[FontStyle]
+SmallFont=UWindowFonts.Tahoma10
+SmallFontBold=UWindowFonts.TahomaB10
+MedFont=UWindowFonts.Tahoma20
+MedFontBold=UWindowFonts.TahomaB20
+LargeFont=UWindowFonts.Tahoma30
+LargeFontBold=UWindowFonts.TahomaB30
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded "%i""
+LengthExceeded="Byla překročena maximální délka seznamu hráčů „%i“"
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch="ID odpovědi neodpovídá: %i/%j"
+; EN: ReceiveBanText="Received ban "%ls"."
+ReceiveBanText="Přijatý zákaz „%ls“."
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText="Získání banlistu ze serveru, pokud se nic nestane, možná nebudete přihlášeni jako admin (nebo na serveru nejsou žádné zákazy)."
+
+[UWindowSmallRestartButton]
+; EN: RestartText="Restart"
+RestartText="Restartujte"

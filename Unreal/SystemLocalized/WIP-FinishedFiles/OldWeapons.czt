@@ -1,6 +1,6 @@
 ﻿[Public]
 ; EN: Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
-Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Staré Zbraně,Vyměňte novější zvuky zbraní Unreal za zvuky Unreal verze 200.")
 Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
@@ -14,125 +14,125 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
-DeathMessage="%o bylo zabito %k %w. Jaký poražený!"
-FemDeathMessage="%o bylo zabito %k %w. Jaký poražený!"
+DeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
+FemDeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Máš Disperzní Pistoli"
+PickupMessage="Sebral jsi Energetickou Pistoli"
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Disperzní Pistoli"
+ItemName="Energeticka Pistole"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k způsobil smrtelné poškození %o s %w."
-FemDeathMessage="%k způsobil smrtelné poškození %o s %w."
+DeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
+FemDeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Máš ASMD"
+PickupMessage="Sebral jsi ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o bylo vícekrát zasaženo o %k %w."
-FemDeathMessage="%o bylo vícekrát zasaženo o %k %w."
+DeathMessage="%o byl roztrhan na kusy %kovym %wem."
+FemDeathMessage="%o byl roztrhan na kusy %kovym %wem."
 ; EN: PickupMessage="You got the Eightball"
-PickupMessage="Máš zbraň Eightball"
+PickupMessage="Sebral jsi Sestihlavnovy Raketomet"
 ; EN: ItemName="Eightball"
-ItemName="Eightball"
+ItemName="Sestihlavnovy Raketomet"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k vrhá kulku do hlavy %o."
-FemDeathMessage="%k vrhá kulku do hlavy %o."
+DeathMessage="%k prohnal %oovi hlavou kulku."
+FemDeathMessage="%k prohnal %oovi hlavou kulku."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Máš Pušku"
+PickupMessage="Sebral jsi Ostrelovacku"
 ; EN: ItemName="Sniper Rifle"
-ItemName="Odstřelovací Puška"
+ItemName="Ostrelovacka"
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o bylo roztrháno na kousky %k %w."
-FemDeathMessage="%o bylo roztrháno na kousky %k %w."
+DeathMessage="%o byl roztrhan na kousky od %kova %wu."
+FemDeathMessage="%o byl roztrhan na kousky od %kova %wu."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Máš šrapnelové Dělo"
+PickupMessage="Sebral jsi Flak Kanon"
 ; EN: ItemName="Flak Cannon"
-ItemName="šrapnelové Dělo"
+ItemName="Flak Kanon"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o dostal gatted o %k %w."
-FemDeathMessage="%o dostal gatted o %k %w."
+DeathMessage="%o to koupil z %kovy %w."
+FemDeathMessage="%o to koupil z %kovy %w."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Máte Automag"
+PickupMessage="Sebral jsi Poloautomatickou Pistoli"
 ; EN: ItemName="Automag"
-ItemName="Automag"
+ItemName="Poloautomaticka Pistole"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%k's %w proměnil %o na děravý kus masa."
-FemDeathMessage="%k's %w proměnil %o na děravý kus masa."
+DeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
+FemDeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Máte Minigun"
+PickupMessage="Sebral jsi Rotacak"
 ; EN: ItemName="Minigun"
-ItemName="Minigun"
+ItemName="Rotacak"
 
 [OldGESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o vypil sklenici kapající zelené náplně %k."
-FemDeathMessage="%o vypil sklenici kapající zelené náplně %k."
+DeathMessage="%o byl rozleptan %kovym slizem."
+FemDeathMessage="%o byl rozleptan %kovym slizem."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Získali jste GES Biologická Puška"
+PickupMessage="Sebral jsi GES Slizomet"
 ; EN: ItemName="GES BioRifle"
-ItemName="GES Biologická Puška"
+ItemName="GES Slizomet"
 
 [OldAmplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Energetický Zesilovač je vybitý."
+ExpireMessage="Energeticky Nasobic vycerpan."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Máte Energetický Zesilovač"
+PickupMessage="Sebral jsi Energeticky Nasobic"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Energetický Zesilovač"
+ItemName="Energeticky Nasobic"
 
 [OldStinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o bylo perforováno %k's %w."
-FemDeathMessage="%o bylo perforováno %k's %w."
+DeathMessage="%o byl proderaven %kovym %wem."
+FemDeathMessage="%o byl proderaven %kovym %wem."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Zvedl jsi Stinger"
+PickupMessage="Sebral jsi Stinger"
 ; EN: ItemName="Stinger"
 ItemName="Stinger"
 
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets."
-PickupMessage="Vyzvedli jste 50 střel."
+PickupMessage="Sebral jsi 50 naboju."
 ; EN: ItemName="Bullet Box"
-ItemName="Kulka"
+ItemName="Naboju"
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle rounds"
-PickupMessage="Máš 8 Puškové Střelivo"
+PickupMessage="Sebral jsi 8 Naboju do Ostrelovacky"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Puškové Střelivo"
+ItemName="Naboju do Ostrelovacky"
 
 [OldWeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Zapnuli jste Vylepšovač Disperzní Pistole"
+PickupMessage="Sebral jsi Vylepseni Energeticke Pistole"
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Vylepšovač Disperzní Pistole"
+ItemName="Vylepseni Energeticke Pistole"
 
 [OldFlakBox]
 ; EN: PickupMessage="You picked up 10 Flak shells"
-PickupMessage="Zachytil jsi 10 Flak Mušle"
+PickupMessage="Sebral jsi 10 Tristivych Granatu"
 ; EN: ItemName="Flak Shells"
-ItemName="Flak Mušle"
+ItemName="Tristivych Granatu"
 
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k vzal %ls krvavou část z %o."
-FemDeathMessage="%k vzal %ls krvavou část z %o."
+DeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
+FemDeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Máš RazorJack"
+PickupMessage="Sebral jsi Rozparovac"
 ; EN: ItemName="RazorJack"
-ItemName="RazorJack"
+ItemName="Rozparovac"
 
 [OldDefaultAmmo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -142,48 +142,48 @@ ItemName="Munice"
 
 [OldASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD core"
-PickupMessage="Zachytili jste jádro ASMD"
+PickupMessage="Sebral jsi Napln do ASMD"
 ; EN: ItemName="ASMD Core"
-ItemName="ASMD Core"
+ItemName="Napln do ASMD"
 
 [OldStingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"
-PickupMessage="Zachytil jsi 40 Tarydiové Střepy"
+PickupMessage="Sebral jsi 40 Tarydiovych Strepu"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Tarydiové Střepy"
+ItemName="Tarydiovych Strepu"
 
 [OldRazorAmmo]
 ; EN: PickupMessage="You picked up some Razor blades"
-PickupMessage="Zvedl jsi Několik Žiletek"
+PickupMessage="Sebral jsi Ostri do Rozparovace"
 ; EN: ItemName="Razor Blades"
-ItemName="Několik Žiletek"
+ItemName="Ostri do Rozparovace"
 
 [OldSludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium sludge"
-PickupMessage="Zachytili jste 25 kilogramů kalů z Tarydium"
+PickupMessage="Sebral jsi 25 Kilo Tarydioveho Slizu"
 ; EN: ItemName="Tarydium Sludge"
-ItemName="Kalů z Tarydium"
+ItemName="Tarydioveho Slizu"
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Zvedl jsi 12 Osm Koule"
+PickupMessage="Sebral jsi 12 Raket"
 ; EN: ItemName="Eightballs"
-ItemName="Osm Koule"
+ItemName="Raket"
 
 [OldClip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Zvedl jsi Klip"
+PickupMessage="Sebral jsi Zasobnik"
 ; EN: ItemName="Clip"
-ItemName="Klip"
+ItemName="Zasobnik"
 
 [OldRifleRound]
 ; EN: PickupMessage="You got a Rifle round"
-PickupMessage="Máte Puška Kulatá"
+PickupMessage="Sebral jsi Naboj do Ostrelovacky"
 ; EN: ItemName="Rifle Round"
-ItemName="Puška Kulatá"
+ItemName="Naboj do Ostrelovacky"
 
 [OldFlakShellAmmo]
 ; EN: PickupMessage="You got a Flak shell"
-PickupMessage="Máš šrapnelový Projektil"
+PickupMessage="Sebral jsi Tristivy Granat"
 ; EN: ItemName="Flak Shell"
-ItemName="šrapnelový Projektil"
+ItemName="Tristivy Granat"

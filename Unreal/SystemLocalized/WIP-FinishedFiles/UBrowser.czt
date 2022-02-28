@@ -1,0 +1,187 @@
+﻿[Public]
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console)
+; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+Preferences=(Caption="UBrowser",Parent="Síťování",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+
+[UBrowserServerListWindow]
+InfoName="Info"
+; EN: PlayerCountName="Players"
+PlayerCountName="Hráči"
+; EN: ServerCountName="Servers"
+ServerCountName="Servery"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Dotaz na hlavní server (stiskněte F5, pokud se nic nestane)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="Hlavní server selhal: "
+; EN: PingingText="Pinging Servers"
+PingingText="Ping servery"
+; EN: CompleteText="Complete"
+CompleteText="Kompletní"
+
+[UBrowserMainWindow]
+; EN: WindowTitleString="Server Browser"
+WindowTitleString="Zobrazeni Serveru"
+
+[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Hlavní server nelze vyřešit: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Časový limit rozhovoru s hlavním serverem"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Vypršel časový limit připojení k hlavnímu serveru: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Hlavní server nelze vyřešit: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Časový limit rozhovoru s hlavním serverem"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Vypršel časový limit připojení k hlavnímu serveru: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Nelze najít okno: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Okno není připraveno: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Pravidlo"
+; EN: ValueText="Value"
+ValueText="Hodnota"
+
+[UBrowserServerPing]
+; EN: AdminEmailText="Admin Email"
+AdminEmailText="Adminuv E-mail"
+; EN: AdminNameText="Admin Name"
+AdminNameText="Adminovo Jmeno"
+; EN: ChangeLevelsText="Change Levels"
+ChangeLevelsText="Zmenit Levely"
+; EN: MultiplayerBotsText="Bots in Multiplayer"
+MultiplayerBotsText="Boti v Multiplayeru"
+; EN: FragLimitText="Frag Limit"
+FragLimitText="Limit Fragu"
+; EN: TimeLimitText="Time Limit"
+TimeLimitText="Casovy Limit"
+; EN: GameModeText="Game Mode"
+GameModeText="Rezim Hry"
+; EN: GameTypeText="Game Type"
+GameTypeText="Typ Hry"
+; EN: GameVersionText="Game Version"
+GameVersionText="Verze Hry"
+; EN: WorldLogText="ngStats World Stat-Logging"
+WorldLogText="Svět ngStats Stat-Logování"
+; EN: TrueString="Enabled"
+TrueString="Povoleno"
+; EN: FalseString="Disabled"
+FalseString="Zakazano"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="Subverze hry"
+; EN: MapFileString="Map Filename"
+MapFileString="Název souboru mapy"
+; EN: DLLString="C++ Library"
+DLLString="Knihovna C ++"
+; EN: DLLVerString="%ls (ver %i)"
+DLLVerString="%ls (ver %i)"
+; EN: WebURLString="Website URL"
+WebURLString="URL stránky"
+; EN: ServerOSString="Server OS"
+ServerOSString="OS serveru"
+; EN: GameClassString="Game Class"
+GameClassString="Herní třída"
+
+[UBrowserMainClientWindow]
+; EN: FavoritesName="Favorites"
+FavoritesName="Oblibene"
+; EN: NewsName="Community News"
+NewsName="Komunitní zprávy"
+; EN: RecentName="Recent servers"
+RecentName="Nedávné servery"
+
+[UBrowserServerGrid]
+; EN: ServerName="Server"
+ServerName="Server"
+; EN: PingName="Ping"
+PingName="Ping"
+; EN: MapNameName="Map Name"
+MapNameName="Nazev Mapy"
+; EN: PlayersName="Players"
+PlayersName="Hraci"
+; EN: VersionName="Version"
+VersionName="Verze"
+
+[UBrowserInfoMenu]
+; EN: RefreshName="&Refresh Info"
+RefreshName="&Obcerstvit Info"
+; EN: AttachName="&Attach"
+AttachName="&Připojit"
+; EN: CloseName="&Close"
+CloseName="&Zavrit"
+
+[UBrowserRightClickMenu]
+; EN: RefreshName="&Refresh All Servers"
+RefreshName="&Obcerstvit &vsechny servery"
+; EN: FavoritesName="Add to &Favorites"
+FavoritesName="Pridat k &Oblibenym"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="O&dstranit z Oblibenych"
+; EN: RefreshServerName="&Ping This Server"
+RefreshServerName="&Ping na server"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="&Ping na vsechny servery"
+; EN: InfoName="&Server and Player Info"
+InfoName="&Info o serverech a hracich"
+; EN: JoinPasswordName="Join with &Password"
+JoinPasswordName="Připojte se pomocí &hesla"
+; EN: JoinServerName="&Join server"
+JoinServerName="&Připojit se k serveru"
+; EN: SpectateServerName="Join as &Spectator"
+SpectateServerName="Připojte se jako &divák"
+; EN: ServerWebsiteName="Show server &Website"
+ServerWebsiteName="Zobrazit server a web"
+; EN: CopyAddressName="&Copy server address"
+CopyAddressName="&Kopírovat adresu serveru"
+
+[UBrowserPlayerGrid]
+; EN: NameText="Name"
+NameText="Jmeno"
+; EN: FragsText="Frags"
+FragsText="Fragy"
+; EN: PingText="Ping"
+PingText="Ping"
+; EN: TeamText="Team"
+TeamText="Tym"
+; EN: MeshText="Mesh"
+MeshText="Mesh"
+; EN: SkinText="Skin"
+SkinText="Vzhled"
+; EN: IDText="ID"
+IDText="ID"
+
+[UBrowserConsole]
+; EN: ClassCaption="Unreal Browser Console"
+ClassCaption="Konzolový Prohlížeč Unreal"
+
+[UBrowserOpenBar]
+; EN: OpenText="Open:"
+OpenText="Otevrit:"
+; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
+OpenHelp="Zadej standardni URL, nebo vyber z URL historie. Stiskni Enter pro aktivaci."
+
+[UBrowserServerWebWin]
+; EN: WindowTitle="Web Explorer"
+WindowTitle="Webový prohlížeč"
+
+[UBrowserLibPageWindow]
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+DLLTitleStr="Nelze se připojit: Chybí knihovna dynamických odkazů „%ls“."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+DLLVerTitleStr="Nelze se připojit: Verze knihovny dynamických odkazů neodpovídá „%ls“."
+; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
+InfoText[0]="Pro připojení tohoto serveru budete potřebovat další knihovnu C ++ "%ls"."
+; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
+InfoText[1]="Pro více informací zobrazte externí informace zespodu (hostované %ls):"
+
+[UBrowserServerWebCW]
+; EN: RefreshString="Refresh page"
+RefreshString="Obnovit stránku"

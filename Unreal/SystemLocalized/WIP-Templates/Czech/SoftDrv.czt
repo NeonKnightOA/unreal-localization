@@ -1,8 +1,0 @@
-﻿[Public]
-Object=(Name=SoftDrv.SoftwareRenderDevice,Class=Class,MetaClass=Engine.RenderDevice)
-; EN: Preferences=(Caption="Software Rendering",Parent="Rendering",Class=SoftDrv.SoftwareRenderDevice,Immediate=True)
-Preferences=(Caption="Vykreslování softwaru",Parent="Vykreslování",Class=SoftDrv.SoftwareRenderDevice,Immediate=True)
-
-[SoftwareRenderDevice]
-; EN: ClassCaption="Software Rendering"
-ClassCaption="Vykreslování softwaru"
