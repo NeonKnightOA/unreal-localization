@@ -1,7 +1,7 @@
 ﻿[public]
 ; EN: Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Unreal")
 Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Onwerkelijk")
-Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console)
+Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console,Description="UMenu")
 ; EN: Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Gold")
 Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Goud")
 ; EN: Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Ice")
@@ -133,6 +133,7 @@ SpeedText="Gamesnelheid"
 SpeedHelp="Pas de snelheid van het spel aan."
 
 [UMenuBotConfigBase]
+bSingleColumn=False
 ; EN: BaseText="Base Skill:"
 BaseText="Basisvaardigheid:"
 ; EN: BaseHelp="This is the base skill level of the bots."
@@ -1574,6 +1575,7 @@ SkillHelp="Selecteer de moeilijkheidsgraad waarmee u wilt spelen."
 EditAreaWidth=90
 
 [UMenuCoopGameRulesCWindow]
+bSingleColumn=False
 ; EN: FriendlyFireText="Friendly Fire"
 FriendlyFireText="Vriendschappelijk vuur"
 ; EN: FriendlyFireHelp="If checked, friendly fire damage is allowed"

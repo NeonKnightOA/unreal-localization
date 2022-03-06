@@ -329,10 +329,12 @@ HelpParm[2]="The class of output resources to take from the input map."
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpOneLiner="texturemerger <packagename>"
-HelpDesc[0]="<packagename>"
-HelpParm[0]="The package where the textures will be saved to."
+HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpOneLiner="texturemerger [packagename]"
+HelpDesc[0]="[packagename]"
+HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpDesc[0]=" "
+HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
 
 [FontExporter]
 HelpCmd=FontExporter

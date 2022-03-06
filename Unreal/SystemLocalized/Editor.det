@@ -463,14 +463,17 @@ HelpParm[2]="Die Klasse der Ausgaberessourcen, die aus der Eingabekarte entnomme
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Fügt Texturen aus dem Ordner ../TextureMerge/<Paketname>.utx in das Zielpaket ein."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <Paketnamen>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<Paketnamen>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="Das Paket, in dem die Texturen gespeichert werden."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Fügt neue hochauflösende Texturen in ein bestehendes Paket ein oder fügt zusätzliche Height- und Normalmaps hinzu. Unterstützt die Komprimierung von .bmp-Texturen in BC1-BC7-Formate während des Imports. Kann zusätzliche Schritt-, Klammer-, Detail- und Makrotexturinformationen hinzufügen."
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [Paketname]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[Paketname]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Ein optionaler Parameter, es ist das Paket, in dem die Texturen gespeichert werden."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Wenn kein Paketname angegeben ist, wird das TextureMerge-Verzeichnis verwendet, um die Namen aller Unterordner bei der Suche nach entsprechenden Paketen zu finden."
 
 [FontExporter]
 HelpCmd=FontExporter

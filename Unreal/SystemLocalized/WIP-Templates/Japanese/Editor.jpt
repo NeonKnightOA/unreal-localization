@@ -482,14 +482,17 @@ HelpParm[2]="入力マップから取得する出力リソースのクラス。"
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="../TextureMerge/&lt;packagename&gt;.utxフォルダーからターゲットパッケージにテクスチャをマージします。"
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger &lt;パッケージ名&gt;"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="&lt;パッケージ名&gt;"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="テクスチャが保存されるパッケージ。"
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="新しい高解像度テクスチャを既存のパッケージにマージするか、追加のハイトマップとノーマルマップを追加します。インポート中に.bmpテクスチャをBC1-BC7形式に圧縮することをサポートします。追加のフットステップ、クランプ、詳細、およびマクロテクスチャ情報を追加できます。"
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [パッケージ名]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[パッケージ名]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="オプションのパラメータです。テクスチャが保存されるパッケージです。"
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="パッケージ名が指定されていない場合、「TextureMerge」ディレクトリは、対応するパッケージを検索する際にすべてのサブフォルダの名前を見つけるために使用されます。"
 
 [FontExporter]
 HelpCmd=FontExporter

@@ -1,7 +1,7 @@
 ﻿[public]
 ; EN: Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Unreal")
 Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Irreális")
-Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console)
+Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console,Description="UMenu")
 ; EN: Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Gold")
 Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Arany")
 ; EN: Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Ice")
@@ -135,6 +135,7 @@ SpeedText="Játék sebesség"
 SpeedHelp="Állítsa be a játék sebességét."
 
 [UMenuBotConfigBase]
+bSingleColumn=False
 ; EN: BaseText="Base Skill:"
 BaseText="Alapkészség:"
 ; EN: BaseHelp="This is the base skill level of the bots."
@@ -1586,6 +1587,7 @@ SkillHelp="Válassza ki azt a nehézséget, amellyel játszani szeretne."
 EditAreaWidth=90
 
 [UMenuCoopGameRulesCWindow]
+bSingleColumn=False
 ; EN: FriendlyFireText="Friendly Fire"
 FriendlyFireText="Baráti tűz"
 ; EN: FriendlyFireHelp="If checked, friendly fire damage is allowed"

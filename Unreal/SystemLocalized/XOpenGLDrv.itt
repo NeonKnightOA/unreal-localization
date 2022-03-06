@@ -4,6 +4,8 @@ Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderD
 Preferences=(Caption="Supporto per video XOpenGL",Parent="Resa",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="Options")
 ; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
 Preferences=(Caption="Opzioni di Debug",Parent="Supporto XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
+; EN: Preferences=(Caption="Render Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Opzioni di Resa",Parent="Supporto XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
@@ -16,7 +18,7 @@ ResFailed="Errore nel settare la risoluzione"
 [XOpenGLRenderDevice]
 ; EN: ClassCaption="XOpenGL Support"
 ClassCaption="Supporto per video XOpenGL"
-; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
-AskInstalled="Hai una scheda video 3d acceleratrice compatibile con OpenGL?"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Hai una scheda grafica che supporta almeno OpenGL versione 3.3 o successiva installata?"
 ; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
 AskUse="Vuoi che Unreal usi la scheda video OpenGL?"

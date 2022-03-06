@@ -464,14 +464,17 @@ HelpParm[2]="Třída výstupních zdrojů, která se má převzít ze vstupní m
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Sloučí v texturách ze složky ../TextureMerge/<názevBalíčku>.utx do cílového balíčku."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <názevBalíčku>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<názevBalíčku>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="Balíček, do kterého budou uloženy textury."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Sloučí nové textury ve vysokém rozlišení do stávajícího balíčku nebo přidá další mapy výšky a normalmaps. Podporuje kompresi textur .bmp do formátů BC1-BC7 během importu. Může přidat další informace o stopách, svorkách, detailech a makrotexturech."
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [názevBalíčku]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[názevBalíčku]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Volitelný parametr, je to balíček, do kterého se budou textury ukládat."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Pokud není zadán název balíčku, použije se adresář TextureMerge k nalezení názvů všech podsložek při hledání odpovídajících balíčků."
 
 [FontExporter]
 HelpCmd=FontExporter

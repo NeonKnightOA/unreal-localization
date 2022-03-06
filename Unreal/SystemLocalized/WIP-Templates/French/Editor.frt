@@ -466,14 +466,17 @@ HelpParm[2]="La classe des ressources de sortie à extraire de la carte d'entré
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Fusionne les textures du dossier ../TextureMerge/<packagename>.utx vers le package cible."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <Nom du paquet>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<Nom du paquet>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="Le package dans lequel les textures seront enregistrées."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Fusionne de nouvelles textures haute résolution dans un package existant ou ajoute des cartes de hauteur et des cartes normales supplémentaires. Prend en charge la compression des textures .bmp aux formats BC1-BC7 lors de l'importation. Peut ajouter des informations supplémentaires sur les pas, les pinces, les détails et les macrotextures."
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [nomPaquet]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[nomPaquet]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Un paramètre facultatif, c'est le package dans lequel les textures seront enregistrées."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Si aucun nomPaquet n'est spécifié, le répertoire TextureMerge est utilisé pour localiser les noms de tous les sous-dossiers lors de la recherche des packages correspondants." 
 
 [FontExporter]
 HelpCmd=FontExporter

@@ -463,14 +463,17 @@ HelpParm[2]="La classe de recursos de sortida que cal treure del mapa d’entrad
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Combina textures de la carpeta ../TextureMerge/<nom_paquet>.utx al paquet de destinació."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <nomDelPaquet>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<nomDelPaquet>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="El paquet on es guardaran les textures."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Combina noves textures d'alta resolució en un paquet existent o afegeix "height-" (altura) i mapes normals addicionals. Admet la compressió de textures .bmp en formats BC1-BC7 durant la importació. Pot afegir informació addicional sobre el pas, la pinça, el detall i la macrotextura. "
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [nomDelPaquet]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[nomDelPaquet]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Un paràmetre opcional, és el paquet on es desaran les textures."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Si no s'especifica cap nomDelPaquet, s'utilitza el directori TextureMerge per localitzar els noms de totes les subcarpetes a la recerca dels paquets corresponents."
 
 [FontExporter]
 HelpCmd=FontExporter

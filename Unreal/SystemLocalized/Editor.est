@@ -468,14 +468,17 @@ HelpParm[2]="La clase de recursos que se extraerán del mapa original."
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Une las texturas de la carpeta ../TextureMerge/<packagename>.utx al paquete destino."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <paquete>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<paquete>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="El paquete en el cual se guardarán las texturas."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Combina nuevas texturas de alta resolución en un paquete existente o agrega mapas de altura ("heightmaps") y mapas normales ("normalmaps"). Soporta texturas .bmp comprimidas con los formatos BC1-BC7 durante la importación. Puede agregar información adicional de pasos, clamp, detalles y microtexturas."
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [paquete]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[paquete]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Un parámetro opcional, es el paquete en el cual se guardarán las texturas."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Si no se especifica el nombre del paquete, se usará el directorio TextureMerge con el fin de localizar los nombres de todas las subcarpetas en la búsqueda de paquetes correspondientes."
 
 [FontExporter]
 HelpCmd=FontExporter

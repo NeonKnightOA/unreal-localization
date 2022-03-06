@@ -1,7 +1,7 @@
 ﻿[public]
 ; EN: Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Unreal")
 Object=(Name=UMenu.UMenuUGLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Uvirkelig")
-Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console)
+Object=(Name=UMenu.UnrealConsole,Class=Class,MetaClass=Engine.Console,Description="UMenu")
 ; EN: Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Gold")
 Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Gull")
 ; EN: Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Ice")
@@ -133,6 +133,7 @@ SpeedText="Spillhastighet"
 SpeedHelp="Juster hastigheten på spillet."
 
 [UMenuBotConfigBase]
+bSingleColumn=False
 ; EN: BaseText="Base Skill:"
 BaseText="Grunnleggende ferdigheter:"
 ; EN: BaseHelp="This is the base skill level of the bots."
@@ -1593,6 +1594,7 @@ SkillHelp="Velg vanskeligheten du vil spille på."
 EditAreaWidth=90
 
 [UMenuCoopGameRulesCWindow]
+bSingleColumn=False
 ; EN: FriendlyFireText="Friendly Fire"
 FriendlyFireText="Vennlig ild"
 ; EN: FriendlyFireHelp="If checked, friendly fire damage is allowed"

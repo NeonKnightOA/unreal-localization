@@ -1,5 +1,5 @@
 ﻿[Public]
-Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console)
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
 Preferences=(Caption="UBrowser",Parent="Réseau",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserServerListWindow]

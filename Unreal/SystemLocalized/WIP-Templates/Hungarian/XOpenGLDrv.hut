@@ -1,9 +1,11 @@
 ﻿[Public]
 Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
 ; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
-Preferences=(Caption="XOpenGL támogatás",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Opciók")
+Preferences=(Caption="XOpenGL támogatás",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
 ; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
 Preferences=(Caption="Hibakeresési beállítások",Parent="XOpenGL támogatás",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+; EN: Preferences=(Caption="Render Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Rendering opciók",Parent="XOpenGL támogatás",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
@@ -16,7 +18,7 @@ ResFailed="Nem sikerült beállítani a felbontást"
 [XOpenGLRenderDevice]
 ; EN: ClassCaption="XOpenGL Support"
 ClassCaption="XOpenGL támogatás"
-; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
-AskInstalled="Van telepítve OpenGL-kompatibilis 3D-s gyorsító?"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Van telepítve legalább az OpenGL 3.3-as vagy újabb verzióját támogató grafikus kártya?"
 ; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
 AskUse="Szeretné, hogy az Unreal használja az OpenGL gyorsítót?"

@@ -463,14 +463,17 @@ HelpParm[2]="La classe delle risorse di output da prendere dalla mappa di input.
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Unisce le trame dalla cartella ../TextureMerge/<Nome del pacchetto>.utx al pacchetto di destinazione."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <Nome del pacchetto>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<Nome del pacchetto>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="Il pacchetto in cui verranno salvate le trame."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Unisce nuove trame ad alta risoluzione in un pacchetto esistente o aggiunge ulteriori mappe di altezza e mappe normali. Supporta la compressione di trame .bmp nei formati BC1-BC7 durante l'importazione. Può aggiungere ulteriori informazioni su passi, clamp, dettagli e macrotexture."
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [nomePacchetto]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[nomePacchetto]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Un parametro opzionale, è il pacchetto in cui verranno salvate le trame."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Se non viene specificato alcun nomePacchetto, viene utilizzata la directory TextureMerge per individuare i nomi di tutte le sottocartelle nella ricerca dei pacchetti corrispondenti." 
 
 [FontExporter]
 HelpCmd=FontExporter

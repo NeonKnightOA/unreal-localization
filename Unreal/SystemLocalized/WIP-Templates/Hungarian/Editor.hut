@@ -464,14 +464,17 @@ HelpParm[2]="A kimeneti erőforrások osztálya, amelyet a bemeneti térképből
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges in textures from ../TextureMerge/<packagename>.utx folder to the target package."
-HelpUsage="Egyesül a textúrákban a ../TextureMerge/<csomagnév>.utx mappából a célcsomagba."
-; EN: HelpOneLiner="texturemerger <packagename>"
-HelpOneLiner="texturemerger <csomagnév>"
-; EN: HelpDesc[0]="<packagename>"
-HelpDesc[0]="<csomagnév>"
-; EN: HelpParm[0]="The package where the textures will be saved to."
-HelpParm[0]="Az a csomag, ahová a textúrák mentésre kerülnek."
+; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
+HelpUsage="Összevonja az új, nagy felbontású textúrákat egy meglévő csomagba, vagy további magasságtérképeket és normáltérképeket ad hozzá. Támogatja a .bmp textúrák BC1-BC7 formátumba tömörítését az importálás során. További lépések, rögzítések, részletek és makrotextúra információkat adhat hozzá."
+; EN: HelpOneLiner="texturemerger [packagename]"
+HelpOneLiner="texturemerger [csomagNév]"
+; EN: HelpDesc[0]="[packagename]"
+HelpDesc[0]="[csomagNév]"
+; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
+HelpParm[0]="Opcionális paraméter, ez az a csomag, ahová a textúrák mentésre kerülnek."
+HelpDesc[0]=" "
+; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
+HelpParm[1]="Ha nincs megadva csomagNév, akkor a TextureMerge könyvtárat használja az összes almappa nevének megkeresésére a megfelelő csomagok keresése során."
 
 [FontExporter]
 HelpCmd=FontExporter

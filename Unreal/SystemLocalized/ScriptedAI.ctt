@@ -1,6 +1,6 @@
 ﻿[SVariableBase]
 ; EN: MenuName="Variables"
-MenuName="Les variables"
+MenuName="Variables"
 
 [VAR_OBJECT_BASE]
 ; EN: MenuName="Object ref"
@@ -28,6 +28,7 @@ MenuName="Lògica"
 MenuName="Accions"
 
 [ACTORBASE]
+; EN: MenuName="Actor"
 MenuName="Actor"
 
 [ACTOR_Overlay]
@@ -40,10 +41,11 @@ Description="Afegeix una superposició de malla temporal a un actor."
 ; EN: MenuName="Draw Icon"
 MenuName="Icona de dibuix"
 ; EN: Description="Draws an icon on the HUD."
-Description="Dibuixa una icona al HUD."
+Description="Dibuixa una icona al Monitor Frontal."
 
 [HUDElementBase]
-MenuName="HUD"
+; EN: MenuName="HUD"
+MenuName="Monitor Frontal"
 
 [HUD_DrawText]
 ; EN: MenuName="Draw Text"
@@ -69,7 +71,7 @@ Description="Variable de referència Dynamic ActorList."
 
 [VARIABLEBASE]
 ; EN: MenuName="Variables"
-MenuName="Les variables"
+MenuName="Variables"
 
 [VAR_ObjectList]
 ; EN: MenuName="Object List"
@@ -82,18 +84,20 @@ Description="Variable de referència de la llista d'objectes."
 MenuName="Nivell"
 
 [VAR_Actor]
+; EN: MenuName="Actor"
 MenuName="Actor"
 ; EN: Description="Dynamic actor reference variable."
 Description="Variable de referència d'actor dinàmic."
 
 [VAR_Float]
 ; EN: MenuName="Float"
-MenuName="Flotador"
+MenuName="Flotant"
 ; EN: Description="Floating point variable."
 Description="Variable de coma flotant."
 
 [VAR_Int]
-MenuName="Int"
+; EN: MenuName="Int"
+MenuName="Ent"
 ; EN: Description="32-bit integer variable."
 Description="Variable sencera de 32 bits."
 
@@ -110,7 +114,8 @@ MenuName="Actors de radi"
 Description="Agafa tots els actors dins d'un punt de nivell. | L'entrada de posició pot ser un actor o un vector."
 
 [MATH_Int]
-MenuName="Int op"
+; EN: MenuName="Int op"
+MenuName="Op Ent"
 ; EN: Description="Does a math operation with integers."
 Description="Fa una operació matemàtica amb enters."
 
@@ -124,13 +129,13 @@ MenuName="Esdeveniments"
 
 [VAR_String]
 ; EN: MenuName="String"
-MenuName="Corda"
+MenuName="Línia de text"
 ; EN: Description="Text line variable."
 Description="Variable de línia de text."
 
 [MOVER_MoveToKey]
 ; EN: MenuName="Move to key"
-MenuName="Mou a la tecla"
+MenuName="Moure a posició"
 ; EN: Description="Moves a mover to a keyframe."
 Description="Moveu un motor a un fotograma clau."
 
@@ -150,13 +155,13 @@ MenuName="Peó"
 
 [EVENT_Triggered]
 ; EN: MenuName="Triggered"
-MenuName="Desencadenat"
+MenuName="Activat"
 ; EN: Description="Triggered by a regular in level event.|Tag can be changed by firing Set Tag event and binding NewTag value."
-Description="Desencadenat per un esdeveniment normal de nivell. | L'etiqueta es pot canviar activant l'esdeveniment Set Tag i vinculant el valor NewTag."
+Description="Activat per un esdeveniment normal de nivell.|L'etiqueta es pot canviar activant l'esdeveniment Set Tag i vinculant el valor NewTag."
 
 [ACTOR_ChangeScale]
 ; EN: MenuName="Change scale"
-MenuName="Canvia l’escala"
+MenuName="Canviar escala"
 ; EN: Description="Resizes an actor with optional blend time."
 Description="Canvia la mida d’un actor amb temps de barreja opcional."
 
@@ -185,11 +190,13 @@ MenuName="Booleà"
 Description="Variable booleana."
 
 [LATENT_MoveToActor]
-MenuName="AI Move to actor"
+; EN: MenuName="AI Move to actor"
+MenuName="Moure IA a Actor"
 ; EN: Description="Makes a ScriptedPawn move to a goal actor.|Output is fired when a pawn has reached or not the goal actor, with Reached output set to just finished pawn."
-Description="Fa que un ScriptedPon es mogui a un actor objectiu. | La sortida s'activa quan un peó ha arribat o no a l'actor objectiu, amb la sortida Abast establerta com a peó acabat."
+Description="Fa que un ScriptedPon es mogui a un actor objectiu.|La sortida s'activa quan un peó ha arribat o no a l'actor objectiu, amb la sortida Abast establerta com a peó acabat."
 
 [LATENTBASE]
+; EN: MenuName="Latent"
 MenuName="Latent"
 
 [ACTOR_PlaySound]
@@ -206,27 +213,27 @@ Description="Variable rotativa."
 
 [LEVEL_SpawnActor]
 ; EN: MenuName="Spawn Actor"
-MenuName="Actor de spawn"
+MenuName="Engendrar Actor"
 ; EN: Description="Spawns a new actor.|If you input Position as actor variable, it will use that actor rotation. Otherwise you can input vector and rotation."
-Description="Crea un actor nou. | Si introduïu Posició com a variable d'actor, s'utilitzarà aquesta rotació d'actor. En cas contrari, podeu introduir vector i rotació."
+Description="Crea un actor nou.|Si introduïu Posició com a variable d'actor, s'utilitzarà aquesta rotació d'actor. En cas contrari, podeu introduir vector i rotació."
 
 [LEVEL_AllPawns]
 ; EN: MenuName="All Pawns"
-MenuName="Tots els peons"
+MenuName="Tots Els Peons"
 ; EN: Description="Grabs all pawns from level."
 Description="Agafa tots els peons del nivell."
 
 [PAWN_GiveItem]
 ; EN: MenuName="Give Item"
-MenuName="Dona l'article"
+MenuName="Dona Article"
 ; EN: Description="Gives an inventory item to a player."
 Description="Dóna un article d’inventari a un jugador."
 
 [LOGIC_ArrayAdd]
 ; EN: MenuName="Array Add"
-MenuName="Afegeix matriu"
+MenuName="Afegir a Matriu"
 ; EN: Description="Adds an unique item to array.|Fires event Found or Not Found depending on the result."
-Description="Afegeix un element únic a la matriu. | Esdeveniment d'incendis trobat o no trobat en funció del resultat."
+Description="Afegeix un element únic a la matriu.|Esdeveniment d'incendis trobat o no trobat en funció del resultat."
 
 [VAR_RandInt]
 ; EN: MenuName="Random Int"
@@ -244,13 +251,13 @@ Description="Afegeix text al final de la línia de text actual."
 ; EN: MenuName="Object"
 MenuName="Objecte"
 ; EN: Description="Object reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
-Description="Variable de referència d’objecte. | AVÍS: no l’utilitzeu per fer referència a actors destruïbles dinàmics, ja que el joc pot fallar."
+Description="Variable de referència d’objecte.|AVÍS: no l’utilitzeu per fer referència a actors destruïbles dinàmics, ja que el joc pot fallar."
 
 [LEVEL_PlayMusic]
 ; EN: MenuName="Play Music"
 MenuName="Tocar música"
 ; EN: Description="Changes currently played music.|If no player is specified, the event affects all actors."
-Description="Canvis que es reprodueixen actualment. | Si no s'especifica cap reproductor, l'esdeveniment afecta tots els actors."
+Description="Canvis que es reprodueixen actualment.|Si no s'especifica cap reproductor, l'esdeveniment afecta tots els actors."
 
 [VAR_RandFloat]
 ; EN: MenuName="Random Float"
@@ -292,7 +299,7 @@ Description="Es desencadena quan un peó fa malbé."
 ; EN: MenuName="Prevent Death"
 MenuName="Prevenir la mort"
 ; EN: Description="Prevents a pawn from dying.|NOTE: Output link is fired, THEN it checks the Input flag. If true, it prevents the pawn from dying."
-Description="Evita que un peó es mori. | NOTA: l'enllaç de sortida s'activa, DESPRÉS comprova el senyal d'entrada. Si és cert, evita que el peó es mori."
+Description="Evita que un peó es mori.|NOTA: l'enllaç de sortida s'activa, DESPRÉS comprova el senyal d'entrada. Si és cert, evita que el peó es mori."
 
 [OBJECTBASE]
 ; EN: MenuName="Object"
@@ -311,12 +318,14 @@ MenuName="Matar Peó"
 Description="Mata a l'instant un peó."
 
 [LOGIC_ListIterator]
-MenuName="ObjList Iterator"
+; EN: MenuName="ObjList Iterator"
+MenuName="Iterador ObjList"
 ; EN: Description="Iterates through an object list."
 Description="Repeteix una llista d'objectes."
 
 [LEVEL_SendEvent]
-MenuName="Trigger Event"
+; EN: MenuName="Trigger Event"
+MenuName="Desencadenar Esdeveniment"
 ; EN: Description="Sends a regular event to all actors in level."
 Description="Envia un esdeveniment habitual a tots els actors de nivell."
 
@@ -333,7 +342,8 @@ MenuName="Substitueix el text"
 Description="Substitueix una part de text per un altre text."
 
 [LOGIC_Dispatch]
-MenuName="Dispatcher"
+; EN: MenuName="Dispatcher"
+MenuName="Despatxador"
 ; EN: Description="Split a call into multiple branches."
 Description="Dividiu una trucada en diverses sucursals."
 
@@ -359,7 +369,7 @@ Description="Canvia l'estat de col·lisió de l'actor."
 ; EN: MenuName="Play Anim"
 MenuName="Reprodueix Anim"
 ; EN: Description="Play an animation on actors.|Note: Pawn code may override the animation!"
-Description="Reprodueix una animació en actors. | Nota: el codi de peó pot anul·lar l'animació."
+Description="Reprodueix una animació en actors.|Nota: el codi de peó pot anul·lar l'animació."
 
 [LOGIC_CompareFloat]
 ; EN: MenuName="Compare Float"
