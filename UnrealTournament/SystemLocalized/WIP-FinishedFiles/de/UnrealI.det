@@ -8,19 +8,19 @@ Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
 ; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
-Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Weiblich 2")
+Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Frau 2")
 ; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
-Object=(Name=Unreali.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Männlich 1")
+Object=(Name=Unreali.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mann 1")
 ; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
-Object=(Name=Unreali.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Männlich 2")
+Object=(Name=Unreali.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mann 2")
 ; EN: Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Trooper")
 Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Soldat Skaarj")
 ; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
-Object=(Name=Unreali.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Weiblich 2")
+Object=(Name=Unreali.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Frau 2")
 ; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
-Object=(Name=Unreali.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Männlich 1")
+Object=(Name=Unreali.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Mann 1")
 ; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
-Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Männlich 2")
+Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Mann 2")
 ; EN: Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Trooper")
 Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldat Skaarj")
 
@@ -38,7 +38,7 @@ MenuName="Königin"
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Behemoth"
-MenuName="Ungetüm"
+MenuName="Behemoth"
 
 [Blob]
 ; EN: NameArticle=" a "
@@ -51,18 +51,6 @@ MenuName="Klecks"
 NameArticle=" ein "
 ; EN: MenuName="Bloblet"
 MenuName="Kleiner Klecks"
-
-[Chameleon]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Chameleon"
-MenuName="Chamäleon"
-
-[Cow]
-; EN: NameArticle=" a "
-NameArticle=" eine "
-; EN: MenuName="Nali Cow"
-MenuName="Nali-Kuh"
 
 [Gasbag]
 ; EN: NameArticle=" a "
@@ -82,12 +70,6 @@ NameArticle=" der "
 ; EN: MenuName="Giant Manta"
 MenuName="Riesiger Manta"
 
-[IceSkaarj]
-; EN: NameArticle=" an "
-NameArticle=" ein "
-; EN: MenuName="Ice Skaarj"
-MenuName="Eis Skaarj"
-
 [Krall]
 ; EN: NameArticle=" a "
 NameArticle=" ein "
@@ -99,6 +81,12 @@ MenuName="Krall"
 NameArticle=" ein "
 ; EN: MenuName="Elite Krall"
 MenuName="Überlegener Krall"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Legless Krall"
+MenuName="Beinloser Krall"
 
 [Mercenary]
 ; EN: NameArticle=" a "
@@ -112,23 +100,11 @@ NameArticle=" ein "
 ; EN: MenuName="Elite Mercenary"
 MenuName="Überlegener Söldner"
 
-[Nali]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Nali"
-MenuName="Nali"
-
 [Pupae]
 ; EN: NameArticle=" a "
 NameArticle=" eine "
 ; EN: MenuName="Pupae"
 MenuName="Puppe"
-
-[Skaarj]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj"
-MenuName="Skaarj"
 
 [SkaarjAssassin]
 ; EN: NameArticle=" a "
@@ -206,7 +182,7 @@ MenuName="Nali"
 ; EN: NameArticle=" the "
 NameArticle=" der "
 ; EN: MenuName="WarLord"
-MenuName="Herr des Krieges"
+MenuName="Kriegsherrn"
 
 [SearchLight]
 ; EN: ExpireMessage="The Search Light batteries have died."
@@ -236,11 +212,11 @@ ItemName="Flak-Geschosse"
 
 [MaleOne]
 ; EN: MenuName="Male 1"
-MenuName="Männlich 1"
+MenuName="Mann 1"
 
 [MaleOneBot]
 ; EN: MenuName="Male 1"
-MenuName="Männlich 1"
+MenuName="Mann 1"
 
 [RifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle Rounds"
@@ -272,19 +248,19 @@ ItemName="Kraftfeld"
 
 [FemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="Weiblich 2"
+MenuName="Frau 2"
 
 [FemaleTwoBot]
 ; EN: MenuName="Female 2"
-MenuName="Weiblich 2"
+MenuName="Frau 2"
 
 [MaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="Männlich 2"
+MenuName="Mann 2"
 
 [MaleTwoBot]
 ; EN: MenuName="Male 2"
-MenuName="Männlich 2"
+MenuName="Mann 2"
 
 [Sludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
@@ -402,9 +378,9 @@ GameName="König des Hügels"
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="Die %w von %k zerschmetterte %o in Stücke."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="You got the Flak Cannon"
+PickupMessage="Du hast die Flak-Kanone"
 ; EN: ItemName="Flak Cannon"
-ItemName="Flak Cannon"
+ItemName="Flak-Kanone"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -418,9 +394,9 @@ ItemName="Heckenschützengewehr"
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%k füllte %o mit ihrer %w mit Löchern."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Du hast die Maschinengewehr"
+PickupMessage="Du hast die Minigeschütz"
 ; EN: ItemName="Minigun"
-ItemName="Du hast die Maschinengewehr"
+ItemName="Minigeschütz"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."

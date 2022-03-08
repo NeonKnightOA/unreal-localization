@@ -12,7 +12,8 @@ ZoneName="Unterer Punktraum"
 ZoneName="Zentraler Raum"
 
 [ZoneInfo1]
-ZoneName="Upper Point Room"
+; EN: ZoneName="Upper Point Room"
+ZoneName="Oberer Punktraum"
 
 [ZoneInfo3]
 ; EN: ZoneName="Chain Lift Room"
@@ -24,7 +25,7 @@ PointName="Niedriger"
 
 [ControlPoint2]
 ; EN: PointName="Upper"
-PointName="Oberer, höher"
+PointName="Oberer"
 
 [ControlPoint0]
 ; EN: PointName="Mid"

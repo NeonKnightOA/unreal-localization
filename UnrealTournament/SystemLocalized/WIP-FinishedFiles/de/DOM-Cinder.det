@@ -12,6 +12,7 @@ ZoneName="Winkel"
 ZoneName="Südseite"
 
 [ZoneInfo20]
+; EN: ZoneName="Lava"
 ZoneName="Lava"
 
 [ControlPoint2]
@@ -19,11 +20,12 @@ ZoneName="Lava"
 PointName="Winkel"
 
 [ControlPoint1]
-PointName="Lava"
+; EN: ZoneName="Lava"
+ZoneName="Lava"
 
 [ControlPoint0]
 ; EN: PointName="Top"
-PointName="oben"
+PointName="Oben"
 
 [ZoneInfo22]
 ; EN: ZoneName="Tall Lift"

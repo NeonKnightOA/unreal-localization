@@ -11,7 +11,7 @@ ZoneName="Gasse"
 
 [ControlPoint2]
 ; EN: PointName="Arturo's"
-PointName="Arturo"
+PointName="Arturo's"
 
 [ZoneInfo0]
 ; EN: ZoneName="The Condemned Building"
@@ -22,6 +22,7 @@ ZoneName="Das verurteilte Gebäude"
 PointName="Dach"
 
 [ControlPoint0]
+; EN: PointName="Garage"
 PointName="Garage"
 
 [locationid3]
@@ -49,9 +50,10 @@ ZoneName="Gassen"
 
 [ScrollingMessageTexture0]
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="HEUTE 22:00 EST... %p FÜHRT SEIN UNDEFEATED TEAm %h IN DIE VERURTEILTE ARENA"
+ScrollingMessage="HEUTE 22:00 EST... %p FÜHRT SEIN UNDEFEATED TEAM %h IN DIE VERURTEILTE ARENA"
 
 [locationid0]
+; EN: LocationName="Garage"
 LocationName="Garage"
 
 [locationid2]
@@ -59,4 +61,5 @@ LocationName="Garage"
 LocationName="Dach"
 
 [locationid1]
-LocationName="Arturo's Bar"
+; EN: LocationName="Arturo's Bar"
+LocationName="Arturo's Kneipe"

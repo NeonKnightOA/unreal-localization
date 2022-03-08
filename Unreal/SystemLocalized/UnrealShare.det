@@ -573,7 +573,7 @@ HelpMessage[11]="Eingabetaste: Zu diesem Server gehen. Pfeiltaste rechts: Diesen
 ; EN: HelpMessage[12]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
 HelpMessage[12]="Eingabetaste: Zu diesem Server gehen. Pfeiltaste rechts: Diesen Eintrag bearbeiten."
 ; EN: MenuTitle="FAVORITES"
-MenuTitle="FAVORITES"
+MenuTitle="FAVORITEN"
 
 [Translator]
 ; EN: NewMessage="Universal Translator"
@@ -643,7 +643,7 @@ MenuList[5]="Passwörter werden jetzt über den Unreal Server-Browser eingegeben
 ; EN: MenuList[6]="Spectate:"
 MenuList[6]="Zuschauer:"
 ; EN: MenuList[7]="Start Game"
-MenuList[7]="Spiel starten"
+MenuList[7]="Spiel Starten"
 
 [UnrealPlayerMenu]
 ; EN: Teams[0]="Red"
@@ -1367,9 +1367,9 @@ MenuList[7]="Sofortiges Respawn von Gegenständen"
 
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
-PickupMessage="Sie haben das Super Gesundheitspaket abgeholt"
+PickupMessage="Du hast das Super-Gesundheitspack eingesammelt"
 ; EN: ItemName="Super Health Pack"
-ItemName="Super Gesundheitspaket"
+ItemName="Super-Gesundheitspack"
 
 [UpgradeMenu]
 ; EN: MenuList[1]="You need a newer version of Unreal to play on this server. Would you like to go to the Unreal web site for a newer version?"

@@ -1,9 +1,11 @@
 ﻿[LevelInfo0]
+; EN: Title="Turbine"
 Title="Turbine"
 IdealPlayerCount="4-8"
 
 [ZoneInfo15]
-ZoneName="Arena"
+; EN: ZoneName="Arena"
+ZoneName="Stadion"
 
 [ZoneInfo17]
 ; EN: ZoneName="Basement"
@@ -14,5 +16,6 @@ ZoneName="Keller"
 ZoneName="Winkel"
 
 [LevelSummary]
+; EN: Title="Turbine"
 Title="Turbine"
 IdealPlayerCount="4-8"

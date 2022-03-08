@@ -1,5 +1,6 @@
 ﻿[LevelInfo0]
-Title="Ghardhen Labs"
+; EN: Title="Ghardhen Labs"
+Title="Labors Ghardhen"
 IdealPlayerCount="6-12"
 
 [ZoneInfo13]
@@ -8,7 +9,7 @@ ZoneName="Keller"
 
 [ControlPoint2]
 ; EN: PointName="Top"
-PointName="oben"
+PointName="Oben"
 
 [ZoneInfo12]
 ; EN: ZoneName="Upward Hall"
@@ -19,7 +20,8 @@ ZoneName="Aufwärtshalle"
 PointName="Unterseite"
 
 [ControlPoint3]
-PointName="Center"
+; EN: PointName="Center"
+PointName="Zentral"
 
 [ZoneInfo8]
 ; EN: ZoneName="Observation Deck"
@@ -38,7 +40,8 @@ ZoneName="Strahlkammer 1"
 ZoneName="Strahlkammer 2"
 
 [LevelSummary]
-Title="Ghardhen Labs"
+; EN: Title="Ghardhen Labs"
+Title="Labors Ghardhen"
 IdealPlayerCount="6-12"
 
 [locationid7]

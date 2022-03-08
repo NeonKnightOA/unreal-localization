@@ -15,10 +15,11 @@ ZoneName="Säulenhalle"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Ankh"
-ZoneName="Blauer Ankh"
+ZoneName="Blaues Ankh-Kreuz"
 
 [ZoneInfo4]
-ZoneName="Red Ankh"
+; EN: ZoneName="Red Ankh"
+ZoneName="Rotes Ankh-Kreuz"
 
 [ZoneInfo2]
 ; EN: ZoneName="South Passage"
@@ -30,14 +31,15 @@ ZoneName="Nordpassage"
 
 [ControlPoint0]
 ; EN: PointName="Blue Ankh"
-PointName="Blauer Ankh"
+ZoneName="Blaues Ankh-Kreuz"
 
 [ControlPoint3]
 ; EN: PointName="Hall of Pillars"
 PointName="Säulenhalle"
 
 [ControlPoint1]
-PointName="Red Ankh"
+; EN: ZoneName="Red Ankh"
+ZoneName="Rotes Ankh-Kreuz"
 
 [LevelSummary]
 ; EN: Title="Tomb of Sesmar"
