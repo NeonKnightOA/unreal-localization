@@ -52,18 +52,6 @@ NameArticle=" une "
 ; EN: MenuName="Bloblet"
 MenuName="Petite Goutte"
 
-[Chameleon]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Chameleon"
-MenuName="Caméléon"
-
-[Cow]
-; EN: NameArticle=" a "
-NameArticle=" une "
-; EN: MenuName="Nali Cow"
-MenuName="Vache Nali"
-
 [Gasbag]
 ; EN: NameArticle=" a "
 NameArticle=" un "
@@ -82,12 +70,6 @@ NameArticle=" la "
 ; EN: MenuName="Giant Manta"
 MenuName="Mante Géante"
 
-[IceSkaarj]
-; EN: NameArticle=" an "
-NameArticle=" un "
-; EN: MenuName="Ice Skaarj"
-MenuName="Skaarj de Glace"
-
 [Krall]
 ; EN: NameArticle=" a "
 NameArticle=" un "
@@ -99,6 +81,12 @@ MenuName="Krall"
 NameArticle=" un "
 ; EN: MenuName="Elite Krall"
 MenuName="Krall d'Élite"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" un "
+; EN: MenuName="Legless Krall"
+MenuName="Krall Sans Pattes"
 
 [Mercenary]
 ; EN: NameArticle=" a "
@@ -112,23 +100,11 @@ NameArticle=" un "
 ; EN: MenuName="Elite Mercenary"
 MenuName="Mercenaire d'Élite"
 
-[Nali]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Nali"
-MenuName="Nali"
-
 [Pupae]
 ; EN: NameArticle=" a "
 NameArticle=" une "
 ; EN: MenuName="Pupae"
 MenuName="Pupe"
-
-[Skaarj]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Skaarj"
-MenuName="Skaarj"
 
 [SkaarjAssassin]
 ; EN: NameArticle=" a "
@@ -197,10 +173,6 @@ MenuName="Soldat Skaarj"
 [SkaarjPlayerBot]
 ; EN: MenuName="Skaarj Trooper"
 MenuName="Soldat Skaarj"
-
-[NaliPlayer]
-; EN: MenuName="Nali"
-MenuName="Nali"
 
 [WarLord]
 ; EN: NameArticle=" the "

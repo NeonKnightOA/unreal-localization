@@ -1,0 +1,485 @@
+﻿[Public]
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.PeaceMaker,Class=Class,MetaClass=Engine.Weapon)
+; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
+Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nő 2")
+; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
+Object=(Name=Unreali.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Férfi 1")
+; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
+Object=(Name=Unreali.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Férfi 2")
+; EN: Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Katona")
+; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nő 2")
+; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
+Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Férfi 1")
+; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
+Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Férfi 2")
+; EN: Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Katona")
+; EN: Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
+Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
+; EN: Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
+Preferences=(Caption="Sötétség Meccs",Parent="Játék típusok",Class=UnrealI.DarkMatch,Immediate=True)
+; EN: Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="A Hegy Királya",Parent="Játék típusok",Class=UnrealI.KingOfTheHill,Immediate=True)
+; EN: Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
+Preferences=(Caption="Sötétség Meccs Pályák",Parent="Pályalisták",Class=UnrealI.DkMapList,Immediate=True)
+
+[IntroNullHud]
+; EN: ESCMessage="Press ESC to begin"
+ESCMessage="Nyomj ESC-et a kezdéshez"
+
+[Queen]
+; EN: NameArticle=" the "
+NameArticle=" az "
+; EN: MenuName="Queen"
+MenuName="Királynő"
+
+[Behemoth]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Behemoth"
+MenuName="Behemót"
+
+[Blob]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Blob"
+MenuName="Csepp"
+
+[Bloblet]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Bloblet"
+MenuName="Kis Folt"
+
+[Gasbag]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Gasbag"
+MenuName="Gázzsákot"
+
+[GiantGasbag]
+; EN: NameArticle=" the "
+NameArticle=" az "
+; EN: MenuName="Giant Gasbag"
+MenuName="Óriási Gázzsák"
+
+[GiantManta]
+; EN: NameArticle=" the "
+NameArticle=" az "
+; EN: MenuName="Giant Manta"
+MenuName="Óriás Manta"
+
+[Krall]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Krall"
+MenuName="Krall"
+
+[KrallElite]
+; EN: NameArticle=" an "
+NameArticle=" egy "
+; EN: MenuName="Elite Krall"
+MenuName="Elit Krall"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Legless Krall"
+MenuName="Lábatlan Krall"
+
+[Mercenary]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Mercenary"
+MenuName="Zsoldos"
+
+[MercenaryElite]
+; EN: NameArticle=" an "
+NameArticle=" egy "
+; EN: MenuName="Elite Mercenary"
+MenuName="Elit Zsoldos"
+
+[Pupae]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Pupae"
+MenuName="Báb"
+
+[SkaarjAssassin]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Assassin"
+MenuName="Skaarj Bérgyilkos"
+
+[SkaarjBerserker]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Berserker"
+MenuName="Skaarj Megvadult"
+
+[SkaarjGunner]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Gunner"
+MenuName="Skaarj Tüzer"
+
+[SkaarjInfantry]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Infantry"
+MenuName="Skaarj Gyalogos Katona"
+
+[SkaarjLord]
+; EN: NameArticle=" the "
+NameArticle=" a "
+; EN: MenuName="Skaarj Lord"
+MenuName="Skaarj Úr"
+
+[SkaarjOfficer]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Officer"
+MenuName="Skaarj Tiszt"
+
+[SkaarjSniper]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Sniper"
+MenuName="Skaarj Mesterlövész"
+
+[SkaarjTrooper]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Trooper"
+MenuName="Skaarj Katona"
+
+[Titan]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Titan"
+MenuName="Titán"
+
+[StoneTitan]
+; EN: NameArticle=" the "
+NameArticle=" a "
+; EN: MenuName="Stone Titan"
+MenuName="Kőtitán"
+
+[SkaarjPlayer]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Skaarj Katona"
+
+[SkaarjPlayerBot]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Skaarj Katona"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" a "
+; EN: MenuName="WarLord"
+MenuName="Hadvezér"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="A Keresőfényt elemei lemerültek."
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="Felvetted a Keresőfényt"
+; EN: ItemName="Search Light"
+ItemName="Keresőfényt"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="Felvettél néhány Borotvapengét"
+; EN: ItemName="Razor Blades"
+ItemName="Borotvapengét"
+
+[DarkMatch]
+; EN: ClassCaption="DarkMatch"
+ClassCaption="Sötétség Meccs"
+; EN: GameName="DarkMatch"
+GameName="Sötétség Meccs"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Szereztél 10 Szilánk Lőszert"
+; EN: ItemName="Flak Shells"
+ItemName="Szilánk Lőszert"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="Férfi 1"
+
+[MaleOneBot]
+; EN: MenuName="Male 1"
+MenuName="Férfi 1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Szereztél 8 Puska Töltényt"
+; EN: ItemName="Rifle Rounds"
+ItemName="Puska Töltényt"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="Megszerezted a Nali gyümölcs magokat"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="Nali gyümölcs magokat"
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained."
+ExpireMessage="Az UgróCsizmák kimerültek."
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="Felvetted az UgróCsizmákat"
+; EN: ItemName="Jump Boots"
+ItemName="UgróCsizmákat"
+
+[ForceField]
+; EN: M_NoRoom="No room to activate the Force Field."
+M_NoRoom="Nincs hely az erőmező aktiválásához."
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="Felvetted az ErőMezőt"
+; EN: ItemName="Force Field"
+ItemName="ErőMezőt"
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Nő 2"
+
+[FemaleTwoBot]
+; EN: MenuName="Female 2"
+MenuName="Nő 2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Férfi 2"
+
+[MaleTwoBot]
+; EN: MenuName="Male 2"
+MenuName="Férfi 2"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Felvettél 25 Kiló Tarydium Üledéket"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Tarydium Üledéket"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="A Láthatatlanság elkopott."
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="Megszerezted a Láthatatlanságot"
+; EN: ItemName="Invisibility"
+ItemName="Láthatatlanságot"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Felvetted az Azbeszt Öltözetet"
+; EN: ItemName="Asbestos Suit"
+ItemName="Azbeszt Öltözetet"
+
+[fell]
+; EN: Name="fell"
+Name="felfordult"
+; EN: AltName="fell"
+AltName="felfordult"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Szereztél egy Szilánklőszert.
+; EN: ItemName="Flak Shell"
+ItemName="Szilánklőszert"
+
+[drowned]
+; EN: Name="drowned"
+Name="megfulladt"
+; EN: AltName="drowned"
+AltName="megfulladt"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="lefejezve"
+; EN: AltName="decapitated"
+AltName="fejetlenítve"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="A Hangtompító elhasználódott."
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="Megszrezted a Hangtompítót"
+; EN: ItemName="Acoustic Dampener"
+ItemName="Hangtompítót"
+
+[Corroded]
+; EN: Name="corroded"
+Name="szétmarva"
+; EN: AltName="slimed"
+AltName="benyálkázva"
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="Felvetted a Toxikus Védőruhát"
+; EN: ItemName="Toxin Suit"
+ItemName="Toxikus Védőruhát"
+
+[Burned]
+; EN: Name="burned"
+Name="megsült"
+; EN: AltName="flame-broiled"
+AltName="lángonsült"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="Megszerezted az ErőPajzsot"
+; EN: ItemName="Power Shield"
+ItemName="ErőPajzsot"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Szereztél egy Puska Töltényt"
+; EN: ItemName="Rifle Round"
+ItemName="Puska Töltényt"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="szétmarta egy Csepp"
+FemBlobKillMessage="szétmarta egy Csepp"
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Blob"
+MenuName="Csepp"
+
+[IceSkaarj]
+; EN: NameArticle=" an "
+NameArticle=" egy "
+; EN: MenuName="Ice Skaarj"
+MenuName="Jég Skaarj"
+
+[NaliPlayer]
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[EndgameHud]
+; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
+Message1="A Skaarj mentőkabin elszakadt a bolygó gravitációjából... éppen hogy. Az üzemanyagod elvogyott, és a mozgásod céltalanná vált."
+; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
+Message2="Elmenekültél onnan, ahol annyian meghaltak. Nevetsz magadon, mert sokminden történt, de kevés változott."
+; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
+Message3="A kényszerleszállás előtt fogva voltál egy szűk cellában. Most megint fogva vagy egy börtönben."
+; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
+Message4="De biztos vagy benne, hogy valaki érted jön egy kis hajóval... végül is."
+; EN: Message5="Until then, you drift and hope."
+Message5="Addig is sodródsz, és reménykedsz."
+; EN: Message6="To Be Continued..."
+Message6="Folyt köv..."
+; EN: Message7="Press fire to restart"
+Message7="Press fire to restart"
+
+[KingOfTheHill]
+; EN: ClassCaption="King of the Hill"
+ClassCaption="A Hegy Királya"
+; EN: KingMessage=" is the new king of the hill!"
+KingMessage=" a hegy új királya!"
+; EN: NewKingMessage="%k is the new king of the hill!"
+NewKingMessage="%k a hegy új királya!"
+; EN: NewQueenMessage="%k is the new queen of the hill!"
+NewQueenMessage="%k a hegy új királynője!"
+; EN: GameName="King of the Hill"
+GameName="A Hegy Királya"
+
+[FlakCannon]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%o-t széttépte darabokra %k %wja."
+FemDeathMessage="%o-t széttépte darabokra %k %wja."
+FemKillMessage="%o-t széttépte darabokra %k %wja."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Megszerezted a Szilánkvetőt"
+; EN: ItemName="Sniper Rifle"
+ItemName="Szilánkvető"
+
+[Rifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%k golyót repített %o fejébe."
+FemDeathMessage="%k golyót repített %o fejébe."
+FemKillMessage="%k golyót repített %o fejébe."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Megszerezted a Puskát"
+; EN: ItemName="Sniper Rifle"
+ItemName="Orvlövész Puska"
+
+[Minigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="%k %we véres húscafattá változtatta %o-t."
+FemDeathMessage="%k %we véres húscafattá változtatta %o-t."
+FemKillMessage="%k %we véres húscafattá változtatta %o-t."
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="Megszerezted a Gépfegyvert"
+; EN: ItemName="Minigun"
+ItemName="Gépfegyver"
+
+[GESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
+FemDeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
+FemKillMessage="%o ivott egy pohárkával %k zöld trutymójából."
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="Megszerezted a GES Biológiai Fegyvert"
+; EN: ItemName="GES Bio Rifle"
+ItemName="GES Biológiai Fegyver"
+
+[RazorJack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="%k kilőtt egy véres darabot %o-ból a %wvel."
+FemDeathMessage="%k kilőtt egy véres darabot %o-ból a %wvel."
+FemKillMessage="%k kilőtt egy véres darabot %o-ból a %wvel."
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="Megszerezted a Borotvalövőt"
+; EN: ItemName="Razorjack"
+ItemName="Borotvalövő"
+
+[Squid]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Squid"
+MenuName="Tintahal"
+
+[Chameleon]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Chameleon"
+MenuName="Kaméleon"
+
+[QuadShot]
+; EN: DeathMessage="%o was blasted to bits by %k's %w."
+DeathMessage="%o-t bitekre robbantotta %k %w."
+FemDeathMessage="%o-t bitekre robbantotta %k %w."
+FemKillMessage="%o-t bitekre robbantotta %k %w."
+; EN: PickupMessage="You got the Quad-Barreled Shotgun"
+PickupMessage="Felvetted a Négylövetűt"
+; EN: ItemName="Quad-Barreled Shotgun"
+ItemName="Négylövetűt"
+
+[PeaceMaker]
+; EN: DeathMessage="One of %k's %w missiles blew up %o."
+DeathMessage="%k egyik rakétája %o-t talált el."
+FemDeathMessage="%k egyik rakétája %o-t talált el."
+FemKillMessage="%k egyik rakétája %o-t talált el."
+; EN: PickupMessage="You got the Peacemaker"
+PickupMessage="Felvetted a Béketeremtő"
+; EN: ItemName="Peacemaker"
+ItemName="Békéltető"
+
+[WoodruffSeeds]
+; EN: PickupMessage="You got the Woodruff Seeds"
+PickupMessage="Felvetted a Woodruff mag"
+; EN: ItemName="Woodruff Seeds"
+ItemName="Woodruff magok"

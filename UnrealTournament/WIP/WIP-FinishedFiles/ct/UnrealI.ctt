@@ -5,70 +5,70 @@ Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
-Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
 ; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
-Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Donna 2")
+Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Dona 2")
 ; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
-Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Uomo 1")
+Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Home 1")
 ; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
-Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Uomo 2")
+Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Home 2")
 ; EN: Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Trooper")
-Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Soldato Skaarj")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Soldat Skaarj")
 ; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
-Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Donna 2")
+Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Dona 2")
 ; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
-Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Uomo 1")
+Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Home 1")
 ; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
-Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Uomo 2")
+Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Home 2")
 ; EN: Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Trooper")
-Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldato Skaarj")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldat Skaarj")
 
 [IntroNullHud]
 ; EN: ESCMessage="Press ESC to begin"
-ESCMessage="Premi ESC per iniziare"
+ESCMessage="Premeu ESC per començar"
 
 [Queen]
 ; EN: NameArticle=" the "
 NameArticle=" la "
 ; EN: MenuName="Queen"
-MenuName="Regina"
+MenuName="Reina"
 
 [Behemoth]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Behemoth"
-MenuName="Colosso"
+MenuName="Gigante"
 
 [Blob]
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Blob"
-MenuName="Goccia"
+MenuName="Gota"
 
 [Bloblet]
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Bloblet"
-MenuName="Piccola Goccia"
+MenuName="Goteta"
 
 [Gasbag]
 ; EN: NameArticle=" a "
-NameArticle=" un "
+NameArticle=" una "
 ; EN: MenuName="Gasbag"
-MenuName="Sacco di Gas"
+MenuName="Bossa Gasosa"
 
 [GiantGasbag]
 ; EN: NameArticle=" the "
-NameArticle=" il "
+NameArticle=" la "
 ; EN: MenuName="Giant Gasbag"
-MenuName="Sacco di Gas Gigante"
+MenuName="Bossa Gasosa Gigant"
 
 [GiantManta]
 ; EN: NameArticle=" the "
-NameArticle=" la "
+NameArticle=" el "
 ; EN: MenuName="Giant Manta"
-MenuName="Manta Gigante"
+MenuName="Manta Gegant"
 
 [Krall]
 ; EN: NameArticle=" a "
@@ -80,37 +80,37 @@ MenuName="Krall"
 ; EN: NameArticle=" an "
 NameArticle=" un "
 ; EN: MenuName="Elite Krall"
-MenuName="Krall d'Élite"
+MenuName="Krall d'Elit"
 
 [LeglessKrall]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Legless Krall"
-MenuName="Krall Senza Gambe"
+MenuName="Krall Sense Cames"
 
 [Mercenary]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Mercenary"
-MenuName="Mercenario"
+MenuName="Mercenari"
 
 [MercenaryElite]
 ; EN: NameArticle=" an "
 NameArticle=" un "
 ; EN: MenuName="Elite Mercenary"
-MenuName="Mercenario d'Élite"
+MenuName="Mercenari d'Elit"
 
 [Pupae]
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Pupae"
-MenuName="Pupe"
+MenuName="Pupa"
 
 [SkaarjAssassin]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Assassin"
-MenuName="Assassino Skaarj"
+MenuName="Assassí Skaarj"
 
 [SkaarjBerserker]
 ; EN: NameArticle=" a "
@@ -122,299 +122,312 @@ MenuName="Berserker Skaarj"
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Gunner"
-MenuName="Artigliere Skaarj"
+MenuName="Artilhiller Skaarj"
 
 [SkaarjInfantry]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Infantry"
-MenuName="Soldato di Fanteria Skaarj"
+MenuName="Soldat d'Infanteria Skaarj"
 
 [SkaarjLord]
 ; EN: NameArticle=" the "
-NameArticle=" il "
+NameArticle=" el "
 ; EN: MenuName="Skaarj Lord"
-MenuName="Capo Skaarj"
+MenuName="Cap Skaarj"
 
 [SkaarjOfficer]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Officer"
-MenuName="Ufficiale Skaarj"
+MenuName="Oficial Skaarj"
 
 [SkaarjSniper]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Sniper"
-MenuName="Cecchino Skaarj"
+MenuName="Franctirador Skaarj"
 
 [SkaarjTrooper]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Trooper"
-MenuName="Soldato Skaarj"
+MenuName="Soldat Skaarj"
 
 [Titan]
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Titan"
-MenuName="Titano"
+MenuName="Tità"
 
 [StoneTitan]
 ; EN: NameArticle=" the "
-NameArticle=" il "
+NameArticle=" el "
 ; EN: MenuName="Stone Titan"
-MenuName="Titano di Pietra"
+MenuName="Tità de Pedra"
 
 [SkaarjPlayer]
 ; EN: MenuName="Skaarj Trooper"
-MenuName="Soldato Skaarj"
+MenuName="Soldat Skaarj"
 
 [SkaarjPlayerBot]
 ; EN: MenuName="Skaarj Trooper"
-MenuName="Soldato Skaarj"
+MenuName="Soldat Skaarj"
+
+[NaliPlayer]
+; EN: MenuName="Nali"
+MenuName="Nali"
 
 [WarLord]
 ; EN: NameArticle=" the "
-NameArticle=" il "
+NameArticle=" el "
 ; EN: MenuName="WarLord"
-MenuName="Signore Guerrieri"
+MenuName="Cap Guerrer"
 
 [SearchLight]
 ; EN: ExpireMessage="The Search Light batteries have died."
-ExpireMessage="Le batterie di Riflettore sono esaurite."
+ExpireMessage="Les bateries de Search Light s'han esgotat."
 ; EN: PickupMessage="You picked up the Search Light"
-PickupMessage="Hai raccolto il Riflettore"
+PickupMessage="Has recollit la Llanterna de recerca"
 ; EN: ItemName="Search Light"
-ItemName="Riflettore"
+ItemName="Llanterna de recerca"
 
 [RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Hai raccolto le Lame di Rasoio"
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Has recollit algunes Fulles Filoses"
 ; EN: ItemName="Razor Blades"
-ItemName="Lame di Rasoio"
+ItemName="Fulles Filoses"
 
 [DarkMatch]
-; EN: ClassCaption="DarkMatch"
-ClassCaption="Partita Scura"
-; EN: GameName="DarkMatch"
-GameName="Partita Scura"
+; EN: ClassCaption="Darkmatch"
+ClassCaption="Partit Fosc"
+; EN: GameName="Darkmatch"
+GameName="Partit Fosc"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Hai raccolto 10 Cariche per il Flak"
+PickupMessage="Has recollit 10 Projectils de Metralla"
 ; EN: ItemName="Flak Shells"
-ItemName="Cariche per il Flak"
+ItemName="Projectils de Metralla"
 
 [MaleOne]
 ; EN: MenuName="Male 1"
-MenuName="Uomo 1"
+MenuName="Home 1"
 
 [MaleOneBot]
 ; EN: MenuName="Male 1"
-MenuName="Uomo 1"
+MenuName="Home 1"
 
 [RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle Rounds"
-PickupMessage="Hai raccolto 8 Cartucce del Fucile"
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Has recollit 8 Cartutxos de Fusell"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Cartucce del Fucile"
+ItemName="Cartutxos de Fusell"
 
 [Seeds]
 ; EN: PickupMessage="You got the Nali Fruit Seeds"
-PickupMessage="Hai preso i Semi del Frutto dei Nali"
+PickupMessage="Has recollit les llavors de planta Nali"
 ; EN: ItemName="Nali Fruit Seeds"
-ItemName="Semi del Frutto dei Nali"
+ItemName="Llavors de planta Nali"
 
 [JumpBoots]
-; EN: ExpireMessage="The Jump Boots have drained."
-ExpireMessage="Gli Stivali da Salto si sono esauriti."
+; EN: ExpireMessage="The Jump Boots have drained"
+ExpireMessage="Les botes de salt s'han esgotat"
 ; EN: PickupMessage="You picked up the Jump Boots"
-PickupMessage="Hai raccolto gli Stivali da Salto"
+PickupMessage="Has recollit les Botes de Salt"
 ; EN: ItemName="Jump Boots"
-ItemName="Stivali da Salto"
+ItemName="Botes de Salt"
 
 [ForceField]
-; EN: M_NoRoom="No room to activate the Force Field."
-M_NoRoom="Non c'è spazio per attivare il Campo Magnetico."
+; EN: M_NoRoom="No room to activate Force Field."
+M_NoRoom="No hi ha espai per activar el camp de força."
 ; EN: PickupMessage="You picked up the Force Field"
-PickupMessage="Hai raccolto il Campo Magnetico"
+PickupMessage="Has recollit el Camp de Força Portàtil"
 ; EN: ItemName="Force Field"
-ItemName="Campo Magnetico"
+ItemName="Camp de Força Portàtil"
 
 [FemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="Donna 2"
+MenuName="Dona 2"
 
 [FemaleTwoBot]
 ; EN: MenuName="Female 2"
-MenuName="Donna 2"
+MenuName="Dona 2"
 
 [MaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="Uomo 2"
+MenuName="Home 2"
 
 [MaleTwoBot]
 ; EN: MenuName="Male 2"
-MenuName="Uomo 2"
+MenuName="Home 2"
 
 [Sludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Hai raccolto 25 Chili di Fanghiglia di Tarydium"
+PickupMessage="Has recollit 25 quilos de Residus de Taridio"
 ; EN: ItemName="Tarydium Biosludge"
-ItemName="Fanghiglia di Tarydium"
-
+ItemName="Residus de Taridio"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
-ExpireMessage="Invisibilità esaurita."
+ExpireMessage="La invisibilitat s’ha esgotat."
 ; EN: PickupMessage="You have Invisibility"
-PickupMessage="Hai preso l'Invisibilità"
+PickupMessage="Tens Invisibilitat"
 ; EN: ItemName="Invisibility"
-ItemName="Invisibilità"
+ItemName="Invisibilitat"
 
 [AsbestosSuit]
 ; EN: PickupMessage="You picked up the Asbestos Suit"
-PickupMessage="Hai raccolto la Tuta d'Amianto"
+PickupMessage="Heu recollit el Vestit d’Amiant"
 ; EN: ItemName="Asbestos Suit"
-ItemName="Tuta d'Amianto"
+ItemName="Vestit d'Amiant"
 
 [fell]
 ; EN: Name="fell"
-Name="abbattuto"
+Name="caigut"
+FemName="caiguda"
 ; EN: AltName="fell"
-AltName="atterrato"
+AltName="caigut"
+FemAltName="caiguda"
 
 [FlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Hai preso una Ricarica per il Flak"
+PickupMessage="Tens un Projectil de Metralla"
 ; EN: ItemName="Flak Shell"
-ItemName="Ricarica per il Flak"
+ItemName="Projectil de Metralla"
 
 [drowned]
 ; EN: Name="drowned"
-Name="affogato"
+Name="ofegat"
+FemName="ofegada"
 ; EN: AltName="drowned"
-AltName="affogato"
+AltName="ofegat"
+FemAltName="ofegada"
 
 [Decapitated]
 ; EN: Name="beheaded"
-Name="decapitato"
+Name="decapitat"
+FemName="decapitada"
 ; EN: AltName="decapitated"
-AltName="decapitato"
+AltName="escapçat"
+FemAltName="escapçada"
 
 [Dampener]
 ; EN: ExpireMessage="Acoustic dampener has run out."
-ExpireMessage="Silenziatore esaurito."
+ExpireMessage="L’Silenciador Acústic s’ha esgotat."
 ; EN: PickupMessage="You got the Acoustic Dampener"
-PickupMessage="Hai raccolto il Silenziatore"
+PickupMessage="Tens l’Silenciador Acústic"
 ; EN: ItemName="Acoustic Dampener"
-ItemName="Silenziatore"
+ItemName="Silenciador Acústic"
 
 [Corroded]
 ; EN: Name="corroded"
-Name="corroso"
+Name="corroït"
+FemName="corroïda"
 ; EN: AltName="slimed"
-AltName="smerdato"
+AltName="aprimat"
+FemAltName="aprimada"
 
 [ToxinSuit]
 ; EN: PickupMessage="You picked up the Toxin Suit"
-PickupMessage="Hai raccolto la Tuta Antitossica"
+PickupMessage="Has recollit el Vestit Antitòxic"
 ; EN: ItemName="Toxin Suit"
-ItemName="Tuta Antitossica"
+ItemName="Vestit Antitòxic"
 
 [Burned]
 ; EN: Name="burned"
-Name="arrostito"
+Name="cremat"
+FemName="cremada"
 ; EN: AltName="flame-broiled"
-AltName="bruciato"
+AltName="cuit"
+FemAltName="cuita"
 
 [PowerShield]
 ; EN: PickupMessage="You got the Power Shield"
-PickupMessage="Hai preso lo Scudo Potenziato"
+PickupMessage="Has recollit el Escut Energètic"
 ; EN: ItemName="Power Shield"
-ItemName="Scudo Potenziato"
+ItemName="Escut Energètic"
 
 [RifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Hai preso una Cartuccia di Fucile"
+PickupMessage="Tens un Cartutxo de Fusell"
 ; EN: ItemName="Rifle Round"
-ItemName="Cartuccia di Fucile"
+ItemName="Cartutxo de Fusell"
 
 [ParentBlob]
 ; EN: BlobKillMessage="was corroded by a Blob"
-BlobKillMessage="è stato corroso per una Goccia"
+BlobKillMessage="ha estat corroït per una Gota"
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Blob"
-MenuName="Goccia"
+MenuName="Gota"
 
 [EndgameHud]
-; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
-Message1="La capsula di salvataggio Skaarj è riuscita a sottrarsi alla forza gravitazionale del pianeta... forse. Il carburante è esaurito... vai alla deriva senza possibilità di scampo."
-; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
-Message2="Sei riuscito a fuggire dal luogo dove molti sono morti. Ridi fra te e te; sono successe così tante cose, ma quasi nulla è cambiato."
-; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
-Message3="Prima dello schianto eri rinchiuso in una piccola cella. Ora, sei stato sbattuto nuovamente in prigione."
+; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely.  Yet it's fuel has depleted and you drift aimlessly."
+Message1="La vaina d’escapament Skaarj s’ha alliberat de l’atracció gravitacional del planeta ... amb prou feines. Tot i així, el combustible s’ha esgotat i es deriva sense rumb."
+; EN: Message2="From where many have died, you have escaped.  You laugh to yourself; so much has happened, but little has changed."
+Message2="D’on han mort molts, n’heu escapat. Rius per a tu mateix; han passat tantes coses, però poc ha canviat."
+; EN: Message3="Before the crash landing, you were trapped in a cramped cell.  Now, once again you are confined in a prison."
+Message3="Abans de l’aterratge, quedaves atrapat en una cel·la estreta. Ara, una vegada més, estàs confinat a una presó."
 ; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
-Message4="Ma, sei sicuro che qualcuno ti raggiungerà sul piccolo vascello... forse."
+Message4="Però, us sentiu segurs que algú arribarà al vostre petit vaixell ... finalment."
 ; EN: Message5="Until then, you drift and hope."
-Message5="Fino ad allora, continui ad andare alla deriva e a sperare."
+Message5="Fins llavors, es deriva i s’espera."
 ; EN: Message6="To Be Continued..."
-Message6="Continuerà..."
+Message6="Continuarà..."
 
 [KingOfTheHill]
-; EN: ClassCaption="King of the Hill"
-ClassCaption="Re della Montagna"
+; EN: ClassCaption="King Of The Hill"
+ClassCaption="El Rei del Turó"
 ; EN: KingMessage=" is the new king of the hill!"
-KingMessage=" è il nuovo re della montagna!"
+KingMessage=" és el nou rei del turó!"
 ; EN: GameName="King of the Hill"
-GameName="Re della Montagna"
+GameName="Rei del Turó"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o è stato squartato da %w di %k."
+DeathMessage="%o ha estat destrossat per l'%w de %k."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Hai preso il Cannone Flak"
+PickupMessage="Tens el Canó de Metralla"
 ; EN: ItemName="Flak Cannon"
-ItemName="Cannone Flak"
+ItemName="Canó de Metralla"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k ha fatto passare un proiettile attraverso la testa di %o."
+DeathMessage="%k ha posat una bala al cap de %o."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Hai preso il Fucile"
+PickupMessage="Tens el Fusell"
 ; EN: ItemName="Sniper Rifle"
-ItemName="Fucile Cecchino"
+ItemName="Fusell de Franctirador"
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="%w di %k ha fatto %o a polpette."
+DeathMessage="El %w de %k ha convertit %o en un tros de carn sagnant."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Hai preso il Minifucile"
+PickupMessage="Tens el Minigun"
 ; EN: ItemName="Minigun"
-ItemName="Minifucile"
+ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o ha bevuto un bicchiere della sostanza verde sgocciolante di %k."
+DeathMessage="%o ha begut un got de la regalima càrrega verda de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Hai preso il BioFucile GES"
-; EN: ItemName="GES Bio Rifle"
-ItemName="BioFucile GES"
+PickupMessage="Tens el Rifle Bio GES"
+; EN: ItemName="GES BioRifle"
+ItemName="Rifle Bio GES"
 
 [Razorjack]
-; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k ha preso un pezzo sanguinante di %o con %w."
-; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Hai preso il RazorJack"
-; EN: ItemName="Razorjack"
-ItemName="Razorjack"
+; EN: DeathMessage="%o was blasted to bits by %k's %w."
+DeathMessage="%o s'ha convertit en peces per %w de %k."
+; EN: PickupMessage="You got the Quad-Barreled Shotgun"
+PickupMessage="Tens l’Escopeta Quàdruple"
+; EN: ItemName="Quad-Barreled Shotgun"
+ItemName="Escopeta Quàdruple"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
-DeathMessage="%o è stato fatto a pezzettini dal %w di %k."
+DeathMessage="%o s'ha convertit en peces per %w de %k."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
-PickupMessage="Hai preso il Colpo Quadruplo"
+PickupMessage="Tens l’Escopeta Quàdruple"
 ; EN: ItemName="Quad-Barreled Shotgun"
-ItemName="Colpo Quadruplo"
+ItemName="Escopeta Quàdruple"
