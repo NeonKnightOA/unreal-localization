@@ -61,18 +61,6 @@ NameArticle=" "
 ; EN: MenuName="Bloblet"
 MenuName="маленькая капля"
 
-[Chameleon]
-; EN: NameArticle=" a "
-NameArticle=" "
-; EN: MenuName="Chameleon"
-MenuName="хамелеон"
-
-[Cow]
-; EN: NameArticle=" a "
-NameArticle=" "
-; EN: MenuName="Nali Cow"
-MenuName="нали корова"
-
 [Gasbag]
 ; EN: NameArticle=" a "
 NameArticle=" "
@@ -91,12 +79,6 @@ NameArticle=" "
 ; EN: MenuName="Giant Manta"
 MenuName="Гигантская Манта"
 
-[IceSkaarj]
-; EN: NameArticle=" an "
-NameArticle=" "
-; EN: MenuName="Ice Skaarj"
-MenuName="ледяной Скаардж"
-
 [Krall]
 ; EN: NameArticle=" a "
 NameArticle=" "
@@ -108,6 +90,12 @@ MenuName="кралл"
 NameArticle=" "
 ; EN: MenuName="Elite Krall"
 MenuName="элитный кралл"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Legless Krall"
+MenuName="Безногий Кралл"
 
 [Mercenary]
 ; EN: NameArticle=" a "
@@ -121,23 +109,11 @@ NameArticle=" "
 ; EN: MenuName="Elite Mercenary"
 MenuName="элитный наемник"
 
-[Nali]
-; EN: NameArticle=" a "
-NameArticle="  "
-; EN: MenuName="Nali"
-MenuName="Нали"
-
 [Pupae]
 ; EN: NameArticle=" a "
 NameArticle=" "
 ; EN: MenuName="Pupae"
 MenuName="куколка"
-
-[Skaarj]
-; EN: NameArticle=" a "
-NameArticle=" "
-; EN: MenuName="Skaarj"
-MenuName="Скаардж"
 
 [SkaarjAssassin]
 ; EN: NameArticle=" a "
@@ -206,10 +182,6 @@ MenuName="Солдат Скаарджа"
 [SkaarjPlayerBot]
 ; EN: MenuName="Skaarj Trooper"
 MenuName="Солдат Скаарджа"
-
-[NaliPlayer]
-; EN: MenuName="Nali"
-MenuName="Нали"
 
 [WarLord]
 ; EN: NameArticle=" the "
@@ -380,12 +352,21 @@ ItemName="патрон для винтовки"
 [ParentBlob]
 ; EN: BlobKillMessage="was corroded by a Blob"
 BlobKillMessage="был разъеден каплей"
-; EN: FemBlobKillMessage="was corroded by a Blob"
 FemBlobKillMessage="была разъедена каплей"
 ; EN: NameArticle=" a "
 NameArticle=" "
 ; EN: MenuName="Blob"
 MenuName="Капля"
+
+[IceSkaarj]
+; EN: NameArticle=" an "
+NameArticle=" "
+; EN: MenuName="Ice Skaarj"
+MenuName="ледяной Скаардж"
+
+[NaliPlayer]
+; EN: MenuName="Nali"
+MenuName="Нали"
 
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
@@ -418,9 +399,7 @@ GameName="Царь горы"
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%k разорвал %o в клочья из %wа."
-; EN: FemDeathMessage="%o was ripped to shreds by %k's %w."
 FemDeathMessage="%k разорвала %o в клочья из %wа."
-; EN: FemKillMessage="%o was ripped to shreds by %k's %w."
 FemKillMessage="%k порвала в клочья %o из зенитной пушки."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Вы получили Флак"
@@ -430,9 +409,7 @@ ItemName="Флак"
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k положил пулю в голову %o."
-; EN: FemDeathMessage="%k put a bullet through %o's head."
 FemDeathMessage="%k положила пулю в голову %o."
-; EN: FemKillMessage="%k put a bullet through %o's head."
 FemKillMessage="%k засадила пулю в голову %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Вы получили ружьё"
@@ -442,9 +419,7 @@ ItemName="Снайперское Ружьё"
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%w %k превратил %o в дырявый кусок мяса."
-; EN: FemDeathMessage="%k's %w turned %o into a leaky piece of meat."
 FemDeathMessage="%w %k превратила %o в дырявый кусок мяса."
-; EN: FemKillMessage="%k's %w turned %o into a leaky piece of meat."
 FemKillMessage="%k изрешетила %o из минигана."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Вы получили пулемёт"
@@ -454,10 +429,8 @@ ItemName="Пулемёт"
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o выпил стакан капающей зелёной жижи %k."
-; EN: FemDeathMessage="%o drank a glass of %k's dripping green load."
 FemDeathMessage="%o выпила стакан капающей зелёной жижи %k."
-; EN: FemKillMessage="%o drank a glass of %k's dripping green load."
-FemDeathMessage="%o выпила стаканчик зелёной гадости от %k."
+FemKillMessage="%o выпила стаканчик зелёной гадости от %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Вы получили биовинтовку GES"
 ; EN: ItemName="GES Bio Rifle"
@@ -469,12 +442,16 @@ NameArticle=" "
 ; EN: MenuName="Squid"
 MenuName="кальмар"
 
+[Chameleon]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Chameleon"
+MenuName="хамелеон"
+
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k вырвал кровавый кусок из %o %wом."
-; EN: FemDeathMessage="%k took a bloody chunk out of %o with the %w."
 FemDeathMessage="%k вырвала кровавый кусок из %o %wом."
-; EN: FemKillMessage="%k took a bloody chunk out of %o with the %w."
 FemKillMessage="%k вырвал кровавый кусок из %o %wом."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Вы получили резак"
@@ -484,9 +461,7 @@ ItemName="Резак"
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o был разорван на кусочки %k из %wа."
-; EN: FemDeathMessage="%o was blasted to bits by %k's %w."
 FemDeathMessage="%o была разорвана на кусочки %k из %wа."
-; EN: FemKillMessage="%o was blasted to bits by %k's %w."
 FemKillMessage="%o был разорван на кусочки %k из %wа."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Вы получили четырёхствольный дробовик"
@@ -496,9 +471,7 @@ ItemName="Квадшот"
 [PeaceMaker]
 ; EN: DeathMessage="One of %k's %w missiles blew up %o."
 DeathMessage="Одна из ракет %w %k поразила %o."
-; EN: FemDeathMessage="One of %k's %w missiles blew up %o."
 FemDeathMessage="Одна из ракет %w %k поразила %o."
-; EN: FemKillMessage="One of %k's %w missiles blew up %o."
 FemKillMessage="Одна из ракет %w %k поразила %o."
 ; EN: PickupMessage="You got the Peacemaker"
 PickupMessage="Вы получили Миротворец"
