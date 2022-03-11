@@ -1,4 +1,5 @@
 ﻿[SVariableBase]
+; EN: MenuName="Variables"
 MenuName="Variables"
 
 [VAR_OBJECT_BASE]
@@ -24,6 +25,7 @@ MenuName="Membres de la structure"
 MenuName="Logique"
 
 [ACTIONSBASE]
+; EN: MenuName="Actions"
 MenuName="Actions"
 
 [ACTORBASE]
@@ -43,6 +45,7 @@ MenuName="Icône de dessin"
 Description="Dessine une icône sur le HUD."
 
 [HUDElementBase]
+; EN: MenuName="HUD"
 MenuName="HUD"
 
 [HUD_DrawText]
@@ -68,13 +71,14 @@ MenuName="Liste des acteurs"
 Description="Variable de référence dynamique ActorList."
 
 [VARIABLEBASE]
+; EN: MenuName="Variables"
 MenuName="Variables"
 
 [VAR_ObjectList]
 ; EN: MenuName="Object List"
 MenuName="Liste d'objets"
 ; EN: Description="Object list reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
-Description="Variable de référence de liste d'objets. | AVERTISSEMENT: ne l'utilisez pas pour référencer des acteurs destructibles dynamiques, sinon le jeu risque de planter!"
+Description="Variable de référence de liste d'objets.|AVERTISSEMENT: ne l'utilisez pas pour référencer des acteurs destructibles dynamiques, sinon le jeu risque de planter!"
 
 [LEVELSBASE]
 ; EN: MenuName="Level"
@@ -93,6 +97,7 @@ MenuName="Flotter"
 Description="Variable à virgule flottante."
 
 [VAR_Int]
+; EN: MenuName="Int"
 MenuName="Int"
 ; EN: Description="32-bit integer variable."
 Description="Variable entière de 32 bits."
@@ -101,7 +106,7 @@ Description="Variable entière de 32 bits."
 ; EN: MenuName="Network data"
 MenuName="Données réseau"
 ; EN: Description="Transmits data from server to client.|All inputs you set will also output on client side and fire output event client side every time you fire an input server-side.|If no receiver is specified, the networked event will be broadcast to all clients."
-Description="Transmet les données du serveur au client. | Toutes les entrées que vous définissez seront également sorties côté client et déclencheront l'événement de sortie côté client chaque fois que vous déclenchez une entrée côté serveur. | Si aucun récepteur n'est spécifié, l'événement en réseau sera diffusé à tous les clients ."
+Description="Transmet les données du serveur au client.|Toutes les entrées que vous définissez seront également sorties côté client et déclencheront l'événement de sortie côté client chaque fois que vous déclenchez une entrée côté serveur.|Si aucun récepteur n'est spécifié, l'événement en réseau sera diffusé à tous les clients ."
 
 [LEVEL_RadialActors]
 ; EN: MenuName="Radius Actors"
@@ -110,11 +115,13 @@ MenuName="Acteurs Radius"
 Description="Saisit tous les acteurs d'un point de niveau. | L'entrée de position peut être un acteur ou un vecteur."
 
 [MATH_Int]
+; EN: MenuName="Int op"
 MenuName="Int op"
 ; EN: Description="Does a math operation with integers."
 Description="Effectue une opération mathématique avec des nombres entiers."
 
 [MATHBASE]
+; EN: MenuName="Math"
 MenuName="Math"
 
 [EVENTBASE]
@@ -172,6 +179,7 @@ MenuName="Détruire l'acteur"
 Description="Détruit instantanément un acteur."
 
 [MATH_Float]
+; EN: MenuName="Float op"
 MenuName="Float op"
 ; EN: Description="Does a math operation with floating point."
 Description="Effectue une opération mathématique avec virgule flottante."
@@ -189,6 +197,7 @@ MenuName="AI Passer à l'acteur"
 Description="Fait passer un ScriptedPawn à un acteur de but. | La sortie est déclenchée lorsqu'un pion a atteint ou non l'acteur de but, avec la sortie Atteint définie sur le pion qui vient de terminer."
 
 [LATENTBASE]
+; EN: MenuName="Latent"
 MenuName="Latent"
 
 [ACTOR_PlaySound]
@@ -207,7 +216,7 @@ Description="Variable de rotation."
 ; EN: MenuName="Spawn Actor"
 MenuName="Acteur de spawn"
 ; EN: Description="Spawns a new actor.|If you input Position as actor variable, it will use that actor rotation. Otherwise you can input vector and rotation."
-Description="Crée un nouvel acteur. | Si vous saisissez Position comme variable d'acteur, il utilisera cette rotation d'acteur. Sinon, vous pouvez saisir le vecteur et la rotation."
+Description="Crée un nouvel acteur.|Si vous saisissez Position comme variable d'acteur, il utilisera cette rotation d'acteur. Sinon, vous pouvez saisir le vecteur et la rotation."
 
 [LEVEL_AllPawns]
 ; EN: MenuName="All Pawns"
@@ -243,7 +252,7 @@ Description="Ajoute du texte à la fin de la ligne de texte actuelle."
 ; EN: MenuName="Object"
 MenuName="Objet"
 ; EN: Description="Object reference variable.|WARNING: Don't use this to reference dynamic destroyable actors, or the game may crash!"
-Description="Variable de référence d'objet. | AVERTISSEMENT: ne l'utilisez pas pour référencer des acteurs destructibles dynamiques, sinon le jeu risque de planter!"
+Description="Variable de référence d'objet.|AVERTISSEMENT: ne l'utilisez pas pour référencer des acteurs destructibles dynamiques, sinon le jeu risque de planter!"
 
 [LEVEL_PlayMusic]
 ; EN: MenuName="Play Music"
@@ -325,7 +334,7 @@ Description="Envoie un événement régulier à tous les acteurs du niveau."
 ; EN: MenuName="Array Remove"
 MenuName="Suppression de la baie"
 ; EN: Description="Remove a single item from array and return its size.|An empty event is fired once final array entry has been removed."
-Description="Supprimez un seul élément du tableau et renvoyez sa taille. | Un événement vide est déclenché une fois que l'entrée finale du tableau a été supprimée."
+Description="Supprimez un seul élément du tableau et renvoyez sa taille.|Un événement vide est déclenché une fois que l'entrée finale du tableau a été supprimée."
 
 [TEXT_Replace]
 ; EN: MenuName="Replace Text"
@@ -361,7 +370,7 @@ Description="Modifie l'état de collision de l'acteur."
 ; EN: MenuName="Play Anim"
 MenuName="Jouer à Anim"
 ; EN: Description="Play an animation on actors.|Note: Pawn code may override the animation!"
-Description="Jouez une animation sur les acteurs. | Remarque: le code du pion peut remplacer l'animation!"
+Description="Jouez une animation sur les acteurs.|Remarque: le code du pion peut remplacer l'animation!"
 
 [LOGIC_CompareFloat]
 ; EN: MenuName="Compare Float"
