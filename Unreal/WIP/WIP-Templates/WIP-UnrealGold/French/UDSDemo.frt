@@ -1,7 +1,0 @@
-[CS_Hud]
-Credits1=GT INTERACTIVE
-Credits2=LEGEND ENTERTAINMENT
-Credits3=et EPIC GAMES
-Credits4=présentent
-GameTitle=UNREAL : RETURN TO NA PALI
-

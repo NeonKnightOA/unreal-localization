@@ -1,4 +1,5 @@
 ﻿[Public]
+; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 Preferences=(Caption="Système de fichiers",Parent="Avancé",Class=Core.System,Immediate=True)
 
 [Language]
@@ -131,15 +132,13 @@ Password="Mot de passe non reconnu."
 Exec="Commande non reconnue."
 ; EN: BadProperty=""%ls": Bad or missing property "%ls"."
 BadProperty=""%ls": Propriété erronée ou manquante "%ls"."
-; EN: MisingIni="Missing .ini file: %ls."
-MisingIni="Fichier .ini manquant: %ls."
-; EN: ExportFail="Error exporting %ls."
-ExportFail="Erreur lors de l'exportation de %ls."
-; EN: ExportNoData="Did not find exportable data in object %ls."
-ExportNoData="Impossible de trouver les données exportables dans l'objet %ls." 
+; EN: MissingIni="Missing .ini file: %ls."
+MissingIni="Fichier .ini manquant: %ls."
+; EN: NoTXTFile="Can not exec non-text (.txt) file type "%ls"."
+NoTXTFile="Impossible d'exécuter le fichier '%ls'. Ce n'est pas un fichier texte (.txt)."
 
 [General]
-Product="Unreal Tournament"
+Product="Unreal"
 Engine="Unreal Engine"
 Copyright="Copyright 1999 Epic Games, Inc."
 ; EN: True="True"
