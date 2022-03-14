@@ -13,7 +13,7 @@ Preferences=(Caption="Audio",Parent="Options avancées")
 ; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
 Preferences=(Caption="Réseau",Parent="Options avancées")
 ; EN: Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="Modes de jeu",Parent="Options avancées")
+Preferences=(Caption="Modes de Jeu",Parent="Options avancées")
 ; EN: Preferences=(Caption="Display",Parent="Advanced Options")
 Preferences=(Caption="Affichage",Parent="Options avancées")
 ; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
@@ -21,51 +21,37 @@ Preferences=(Caption="Joystick",Parent="Options avancées")
 ; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
 Preferences=(Caption="Pilotes",Parent="Options avancées",Class=Engine.Engine,Immediate=False,Category=Drivers)
 ; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Paramètres du jeu",Parent="Options avancées",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Paramètres du Jeu",Parent="Options avancées",Class=Engine.GameInfo,Immediate=True)
 ; EN: Preferences=(Caption="Decals",Parent="Advanced Options")
 Preferences=(Caption="Sprites",Parent="Options avancées")
 ; Advanced
 ; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Paramètres moteur",Parent="Avancé",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Paramètres Moteur",Parent="Avancé",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 ; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Paramètres clavier",Parent="Avancé",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Paramètres Clavier",Parent="Avancé",Class=Engine.Input,Immediate=True,Category=Aliases)
 ; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Raccourcis claviers basiques",Parent="Avancé",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Raccourcis Claviers basiques",Parent="Avancé",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
 ; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Informations publiques du serveur",Parent="Réseau",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Informations Publiques du Serveur",Parent="Réseau",Class=Engine.GameReplicationInfo,Immediate=True)
 ; EN: Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
 Preferences=(Caption="Téléchargement",Parent="Réseau",Class=Engine.ChannelDownload)
 ; EN: Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="Notifications de connexion",Parent="Réseau",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+Preferences=(Caption="Notifications de Connexion",Parent="Réseau",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
 ; EN: Preferences=(Caption="Map Lists",Parent="Networking")
-Preferences=(Caption="Liste maps",Parent="Réseau")
+Preferences=(Caption="Liste Maps",Parent="Réseau")
 ; Decals
 ; EN: Preferences=(Caption="Blood",Parent="Decals")
 Preferences=(Caption="Sang",Parent="Sprites")
 ; EN: Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="Ombres des personnages",Parent="Sprites",Class=Engine.PawnShadow,Immediate=True)
+Preferences=(Caption="Ombres des Personnages",Parent="Sprites",Class=Engine.PawnShadow,Immediate=True)
 ; EN: Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="Ombres des décorations",Parent="Sprites",Class=Engine.DecoShadow,Immediate=True)
+Preferences=(Caption="Ombres des Décorations",Parent="Sprites",Class=Engine.DecoShadow,Immediate=True)
 ; EN: Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
-Preferences=(Caption="Ombres des projectiles",Parent="Sprites",Class=Engine.ProjectileShadow,Immediate=True)
+Preferences=(Caption="Ombres des Projectiles",Parent="Sprites",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
 ; EN: Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
 Preferences=(Caption="Serveur",Parent="Sang",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
-
-[PlayerPawn]
-; EN: QuickSaveString="Quick Saving"
-QuickSaveString="Sauvegarde rapide"
-; EN: NoPauseMessage="Game is not pauseable"
-NoPauseMessage="Le jeu ne peut pas être mis en pause"
-; EN: ViewingFrom="Now viewing from "
-ViewingFrom="Suivi du point de vue de "
-; EN: OwnCamera="own camera"
-OwnCamera="caméra libre"
-; EN: FailedView="Failed to change view."
-FailedView="Impossible de changer de vue."
-; EN: CantChangeNameMsg="You can't change your name during a global logged game."
-CantChangeNameMsg="Vous ne pouvez pas changer de nom pendant un match."
 
 [Pawn]
 ; EN: NameArticle=" a "
@@ -83,33 +69,19 @@ M_Selected=" selectionné."
 ; EN: M_Deactivated=" deactivated."
 M_Deactivated=" désactivé."
 
-[LevelInfo]
-; EN: Title="Untitled"
-Title="Sans titre"
-
-[Weapon]
-; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" est sans munitions."
-; EN: DeathMessage="%o was killed by %k's %w."
-DeathMessage="%o a été tué par le %w de %k."
-; EN: PickupMessage="You got a weapon"
-PickupMessage="Vous avez une arme"
-; EN: ItemName="Weapon"
-ItemName="Arme"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="%o a été tué par le %w de %k."
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="%o a été tué par le %w de %k."
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="%o a été tué par le %w de %k."
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="%o a été tué par le %w de %k."
-
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
 PickupMessage="Vous avez ramassé des munitions"
 ; EN: ItemName="Ammo"
 ItemName="Munitions"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Sans Titre"
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName="Spectateur"
 
 [Counter]
 ; EN: CountMessage="Only %i more to go..."
@@ -117,29 +89,19 @@ CountMessage="Plus que %i..."
 ; EN: CompleteMessage="Completed!"
 CompleteMessage="Réussi!"
 
-[Spectator]
-; EN: MenuName="Spectator"
-MenuName="Spectateur"
-
-[DamageType]
-; EN: Name="killed"
-Name="tué"
-; EN: AltName="killed"
-AltName="abattu"
-
 [Progress]
 ; EN: CancelledConnect="Cancelled Connect Attempt"
 CancelledConnect="Tentative de connexion interrompue"
 ; EN: RunningNet="%ls: %ls (%i players)"
 RunningNet="%ls: %ls (%i joueurs)"
-; EN: NetReceiving="Receiving "%ls": %i/%i"
-NetReceiving="Réception de "%ls": %i/%i"
-; EN: NetReceiveOk="Successfully received "%ls""
-NetReceiveOk="Réception réussie "%ls""
-; EN: NetSend="Sending "%ls""
-NetSend="Envoi de "%ls""
-; EN: NetSending="Sending "%ls": %i/%i"
-NetSending="Envoi de "%ls": %i/%i"
+; EN: NetReceiving="Receiving %ls: %i/%i"
+NetReceiving="Réception de %ls: %i/%i"
+; EN: NetReceiveOk="Successfully received %ls"
+NetReceiveOk="Réception réussie %ls"
+; EN: NetSend="Sending %ls"
+NetSend="Envoi de %ls"
+; EN: NetSending="Sending %ls: %i/%i"
+NetSending="Envoi de %ls: %i/%i"
 ; EN: Connecting="Connecting..."
 Connecting="Connexion..."
 ; EN: Listening="Listening for clients..."
@@ -150,24 +112,15 @@ Loading="Chargement"
 Saving="Sauvegarde"
 ; EN: Paused="Paused by %ls"
 Paused="Mis en pause par %ls"
-; EN: ReceiveFile="Receiving "%ls" (F10 Cancels)"
-ReceiveFile="Reception de "%ls" (F10 pour annuler)"
-; EN: ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
-ReceiveOptionalFile="Réception du fichier optionnel "%ls" (F10 pour passer)"
+; EN: ReceiveFile="Receiving %ls (F10 Cancels)"
+ReceiveFile="Reception de %ls (F10 pour annuler)"
+; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
+ReceiveOptionalFile="Réception du fichier optionnel %ls (F10 pour passer)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Taille: %iK, terminé %3.1f%% = %iK, %i Packages restants"
 ; EN: ConnectingText="Connecting (F10 Cancels):"
 ConnectingText="Connexion (F10 pour annuler):"
 ConnectingURL="unreal://%ls/%ls"
-
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
@@ -183,6 +136,20 @@ HelpParm[1]="AllAdmin"
 ; EN: HelpDesc[1]="Give all players admin privileges."
 HelpDesc[1]="Donne les privilège d'administration à tous les joueurs."
 
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Sauvegarde rapide"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Le jeu ne peut pas être mis en pause"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Suivi du point de vue de "
+; EN: OwnCamera="own camera"
+OwnCamera="caméra libre"
+; EN: FailedView="Failed to change view."
+FailedView="Impossible de changer de vue."
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="Vous ne pouvez pas changer de nom pendant un match."
+
 [Console]
 ; EN: ClassCaption="Standard Unreal Console"
 ClassCaption="Console Unreal Standard"
@@ -196,14 +163,8 @@ ConnectingMessage="CONNEXION EN COURS"
 PausedMessage="PAUSE"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="PRECHARGEMENT"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="(CHAT) "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="(EQP) "
 
 [Menu]
-MenuList=" "
-HelpMessage=" "
 ; EN: HelpMessage[1]="This menu has not yet been implemented."
 HelpMessage[1]="Ce menu n'existe pas encore."
 ; EN: LeftString="Left"
@@ -254,13 +215,33 @@ MaleGender="son"
 ; EN: FemaleGender="her"
 FemaleGender="sa"
 
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" est sans munitions."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o a été tué par le %w de %k."
+FemDeathMessage="%o a été tuée par le %w de %k."
+FemKillMessage="%o a été tué par le %w de %k."
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Vous avez une arme"
+; EN: ItemName="Weapon"
+ItemName="Arme"
+
+[DamageType]
+; EN: Name="killed"
+Name="tué"
+FemName="tuée"
+; EN: AltName="killed"
+AltName="abattu"
+AltFemName="abattue"
+
 [Errors]
 ; EN: NetOpen="Error opening file"
 NetOpen="Erreur à l'ouverture du fichier"
 ; EN: NetWrite="Error writing to file"
 NetWrite="Erreur lors de l'écriture du fichier"
-; EN: NetRefused="Server refused to send "%ls""
-NetRefused="Le serveur refuse d'envoyer "%ls""
+; EN: NetRefused="Server refused to send %ls"
+NetRefused="Le serveur refuse d'envoyer %ls"
 ; EN: NetClose="Error closing file"
 NetClose="Erreur à la fermeture du fichier"
 ; EN: NetSize="File size mismatch"
@@ -269,10 +250,10 @@ NetSize="Taille du fichier non conforme"
 NetMove="Erreur lors du déplacement du fichier"
 ; EN: NetInvalid="Received invalid file request"
 NetInvalid="Requête de fichier invalide à la réception"
-; EN: NoDownload="Package "%ls" is not downloadable"
-NoDownload="Le package "%ls" ne peut pas être téléchargé"
-; EN: DownloadFailed="Downloading package "%ls" failed: %ls"
-DownloadFailed="Téléchargement de "%ls" interrompu: %ls"
+; EN: NoDownload="Package %ls is not downloadable"
+NoDownload="Le package %ls ne peut pas être téléchargé"
+; EN: DownloadFailed="Downloading package %ls failed: %ls"
+DownloadFailed="Téléchargement de %ls interrompu: %ls"
 ; EN: RequestDenied="Server requested file from pending level: Denied"
 RequestDenied="Reqête de fichier demandé par le niveau en attente refusé"
 ; EN: ConnectionFailed="Connection failed"
@@ -299,8 +280,8 @@ AbortToEntry="Echec; renvoi à Entry"
 ServerOpen="Les serveurs ne peuvent pas ouvrir les URLs réseau"
 ; EN: ServerListen="Dedicated server can't listen: %ls"
 ServerListen="Les serveurs dédiés ne peuvent pas écouter: %ls"
-; EN: Pending="Pending connect to "%ls" failed; %ls"
-Pending="Connexion en cours à '%ls' interrompue; %ls"
+; EN: Pending="Pending connect to %ls failed; %ls"
+Pending="Connexion en cours à %ls interrompue; %ls"
 ; EN: LoadPlayerClass="Failed to load player class"
 LoadPlayerClass="Impossible de charger la classe du joueur"
 ; EN: ServerOutdated="Server's version is outdated"
@@ -328,6 +309,10 @@ AdminLoginText="Administrateur %ls connecté"
 AdminLogoutText="Administrateur %ls déconnecté"
 ; EN: CheatUsedStr="%ls used admin/cheat command: %c"
 CheatUsedStr="%ls a utilisé une commande de triche ou d'administration: %c"
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Sauvegarde Automatique..."
 
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
