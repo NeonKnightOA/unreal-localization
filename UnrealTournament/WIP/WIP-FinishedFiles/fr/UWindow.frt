@@ -4,17 +4,17 @@ YesText="Oui"
 ; EN: NoText="No"
 NoText="Non"
 ; EN: OKText="OK"
-OKText="D'accord"
+OKText="OK"
 ; EN: CancelText="Cancel"
 CancelText="Annuler"
 
 [UWindowConsoleWindow]
 ; EN: WindowTitle="System Console"
-WindowTitle="Console système"
+WindowTitle="Console Système"
 
 [UWindowSmallCloseButton]
 ; EN: CloseText="Close"
-CloseText="proche"
+CloseText="Fermer"
 
 [UWindowSmallCancelButton]
 ; EN: CancelText="Cancel"
@@ -22,4 +22,4 @@ CancelText="Annuler"
 
 [UWindowSmallOKButton]
 ; EN: OKText="OK"
-OKText="D'accord"
+OKText="OK"
