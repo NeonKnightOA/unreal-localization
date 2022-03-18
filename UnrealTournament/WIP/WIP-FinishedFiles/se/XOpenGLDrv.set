@@ -1,0 +1,22 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="XOpenGL videostöd",Parent="Tolkning",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="Felsökningsalternativ",Parent="XOpenGL videostöd",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="OpenGL-drivrutinen %ls hittades inte"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Saknar OpenGL-funktionen %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Det gick inte att ställa in upplösning"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption="XOpenGL videostöd"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Har du ett grafikkort som stöder åtminstone OpenGL version 3.3 eller senare installerat?"
+; EN: AskUse="Do you want Unreal Tournament to use your XOpenGL accelerator?"
+AskUse="Vill du att Unreal Tournament ska använda din XOpenGL-accelerator?"

@@ -1,0 +1,22 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="XOpenGLビデオサポート",Parent="レンダリング",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="デバッグオプション",Parent="XOpenGLビデオサポート",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="OpenGLドライバ％lsが見つかりません"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="OpenGL関数％ls（％i）が見つかりません"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="解像度の設定に失敗しました"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption="XOpenGLビデオサポート"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="少なくともOpenGLバージョン3.3以降をサポートするグラフィックカードがインストールされていますか？"
+; EN: AskUse="Do you want Unreal Tournament to use your XOpenGL accelerator?"
+AskUse="UnrealTournamentでXOpenGLアクセラレータを使用しますか？"

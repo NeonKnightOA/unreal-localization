@@ -1,0 +1,24 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="XOpenGL videó támogatás",Parent="Renderelés",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="Hibakeresési lehetőségek",Parent="XOpenGL videó támogatás",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+; EN: Preferences=(Caption="Render Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Renderelési lehetőségek",Parent="XOpenGL videó támogatás",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Nem található %ls OpenGL illesztőprogram"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Hiányzik az "OpenGL" függvény %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Nem sikerült a felbontás beállítása"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption="XOpenGL videó támogatás"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Van telepítve legalább OpenGL 3.3-as vagy újabb verziójú grafikus kártya?"
+; EN: AskUse="Do you want Unreal to use your XOpenGL accelerator?"
+AskUse="Szeretnéd, hogy az Unreal használja az XOpenGL gyorsítódat?"

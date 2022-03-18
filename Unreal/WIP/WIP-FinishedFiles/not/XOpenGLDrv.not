@@ -1,0 +1,24 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="XOpenGL videostøtte",Parent="Gjengivelse",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="Feilsøkingsalternativer",Parent="XOpenGL videostøtte",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+; EN: Preferences=(Caption="Render Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Gjengivelsesalternativer",Parent="XOpenGL videostøtte",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Mangler OpenGL-driveren %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Mangler OpenGL-funksjonen %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Kunne ikke angi oppløsning"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption="XOpenGL videostøtte"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Har du installert et grafikkort som støtter minst OpenGL versjon 3.3 eller nyere?"
+; EN: AskUse="Do you want Unreal to use your XOpenGL accelerator?"
+AskUse="Vil du at Unreal skal bruke XOpenGL-akseleratoren din?"

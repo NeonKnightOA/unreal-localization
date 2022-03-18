@@ -1,24 +1,24 @@
 ﻿[Public]
 Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
-; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="Options")
-Preferences=(Caption="Podpora vykreslování XOpenGL",Parent="Vykreslování",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="Options")
-; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
-Preferences=(Caption="Možnosti ladění",Parent="Podpora vykreslování XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
+; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="Podpora videa XOpenGL",Parent="Vykreslování",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="Možnosti ladění",Parent="Podpora videa XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
 ; EN: Preferences=(Caption="Render Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
-Preferences=(Caption="Možnosti Vykreslování",Parent="Podpora vykreslování XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Možnosti vykreslování",Parent="Podpora videa XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
 NoFindGL="Nelze najít ovladač OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Chybějící funkce OpenGL %ls (%i)"
+MissingFunc="Chybí funkce OpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
-ResFailed="Nastavení se nezdařilo"
+ResFailed="Nepodařilo se nastavit rozlišení"
 
 [XOpenGLRenderDevice]
 ; EN: ClassCaption="XOpenGL Support"
-ClassCaption="Podpora vykreslování XOpenGL"
+ClassCaption="Podpora videa XOpenGL"
 ; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
 AskInstalled="Máte nainstalovanou grafickou kartu podporující alespoň OpenGL verze 3.3 nebo vyšší?"
-; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
-AskUse="Chcete, aby Unreal použil váš akcelerátor OpenGL?"
+; EN: AskUse="Do you want Unreal to use your XOpenGL accelerator?"
+AskUse="Chcete, aby Unreal používal váš akcelerátor XOpenGL?"
