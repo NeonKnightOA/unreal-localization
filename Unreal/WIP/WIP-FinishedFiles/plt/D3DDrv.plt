@@ -9,4 +9,3 @@ ClassCaption="Obsługa wideo Direct3D 7"
 ; EN: AskInstalled="Do you want to use Direct3D 7?"
 AskInstalled="Włączyć obsługę Direct3D 7?"
 AskUse=""
-NoEditor=True
