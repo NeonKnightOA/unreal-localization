@@ -1,0 +1,15 @@
+﻿[Public]
+; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="UnrealIntegrity",Parent="ネットワーキング",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="整合性サーバー",Parent="UnrealIntegrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+Preferences=(Caption="ホワイトリスト",Parent="UnrealIntegrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+
+[General]
+; EN: ScanningInfo="Unreal Integrity is scanning your client for possible cheats..."
+ScanningInfo="UnrealIntegrityはクライアントをスキャンしてチートの可能性を探しています..."
+; EN: MidGameScan="You have died, performing mid-game cheat scan."
+MidGameScan="あなたは死んだ。 現在、ゲーム中のチートスキャンを実行しています。"
+; EN: EndGameScan="Game has ended, performing end-game cheat scan."
+EndGameScan="ゲームは終了しました。 現在、エンドゲームのチートスキャンを実行しています。"

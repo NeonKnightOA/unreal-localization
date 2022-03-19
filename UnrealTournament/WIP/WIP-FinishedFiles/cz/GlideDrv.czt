@@ -1,0 +1,12 @@
+﻿[Public]
+Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
+; EN: Preferences=(Caption="3dfx Glide Support",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+Preferences=(Caption="Podpora vykreslování 3dfx Glide",Parent="Vykreslování",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+
+[GlideRenderDevice]
+; EN: ClassCaption="3dfx Glide Support"
+ClassCaption="Podpora vykreslování 3dfx Glide"
+; EN: AskInstalled="Do you have a 3dfx card installed?"
+AskInstalled="Máte nainstalovanou kartu 3dfx?"
+; EN: AskUse="Unreal Tournament is compatible with 3dfx Voodoo 1 and Voodoo 2, but not with Voodoo Rush-based cards. Do you want Unreal Tournament to use your 3dfx card?"
+AskUse="Unreal Tournament je kompatibilní s 3dfx Voodoo 1 a Voodoo 2, ale ne s grafickými kartami založenými na Voodoo Rush. Chcete, aby společnost Unreal Tournament používala vaši kartu 3dfx?"
