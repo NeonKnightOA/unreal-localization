@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OpenGLサポート",Parent="レンダリング",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="OpenGL ドライバ %ls が見つかりません"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="OpenGL 関数 %ls (%i)がありません"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="解像度の設定ができませんでした"
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OpenGL Support"
+ClassCaption="OpenGLサポート"
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled="OpenGLに対応した3Dアクセラレータカードをお持ちですか?"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="OpenGLを使用してアンリアルをプレイしますか?"

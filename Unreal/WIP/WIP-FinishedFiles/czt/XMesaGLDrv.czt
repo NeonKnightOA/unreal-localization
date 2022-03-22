@@ -8,8 +8,9 @@ Preferences=(Caption="Podpora vykreslování Mesa 3D",Parent="Vykreslování",Cl
 ResFailed="Nastavení se nezdařilo"
 
 [XMesaGLRenderDevice]
+; EN: ClassCaption="Mesa 3D"
 ClassCaption="Podpora vykreslování Mesa 3D"
-; EN: AskInstalled="Do you have an OpenGL compatible 3D accelerator installed?"
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
 AskInstalled="Máte nainstalovaný 3D akcelerátor kompatibilní s OpenGL?"
 ; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
 AskUse="Chcete, aby Unreal použil váš akcelerátor OpenGL?"
