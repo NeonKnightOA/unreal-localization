@@ -14,7 +14,7 @@ Preferences=(Caption="Support audio Cluster 3D",Parent="Audio",Class=Cluster.Clu
 ClassCaption="Support audio Cluster 3D"
 ; User facing desciption (intended to be used in startup wizard for a detailed description instead of Startup.int:Descriptions.<Package>.<Object>).
 ; EN: ClassDescription="Cluster is designed as a similiar sounding substituate to the aging Galaxy 3D Audio."
-ClassDescription="Le cluster est conçu comme un substitut au son similaire au Galaxy 3D Audio vieillissant."
+ClassDescription="Cluster est conçu comme un substitut au son similaire au Galaxy 3D Audio vieillissant."
 
 [General]
 ; Serialized to log on init.
@@ -25,13 +25,13 @@ Init="Cluster initialisé."
 Exit="Cluster arrêté."
 ; Serialized to log on exit after error.
 ; EN: ExitAfterError="Cluster shut down after error."
-ExitAfterError="Le cluster s'est arrêté après une erreur."
+ExitAfterError="Cluster s'est arrêté après une erreur."
 ; Serialized to log on init in case -No3dSound switch was used on the commandline which forces Use3dHardware option to be ignored.
 ; EN: No3dSoundSwitch="-No3dSound switch found. Use3dHardware option will be ignored by Cluster."
 No3dSoundSwitch="-No3dSound commutateur trouvé. L'option Use3dHardware sera ignorée par Cluster."
 ; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ; EN: ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
-ClusterFuck="Le cluster a injecté des correctifs binaires pour les fonctionnalités audio brisées dans le package Engine. Vous pouvez utiliser -NoClusterFuck pour le désactiver."
+ClusterFuck="Cluster a injecté des correctifs binaires pour les fonctionnalités audio brisées dans le package Engine. Vous pouvez utiliser -NoClusterFuck pour le désactiver."
 
 [Warnings]
 ; Serialized to output device for each digital music command in case UseDigitalMusic is disabled.
@@ -50,7 +50,7 @@ MonoSoundExpected="%ls a %i canaux."
 SystemCreate="Échec de la création de l'objet système FMOD: %ls."
 ; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
 ; EN: Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
-Version="Le cluster attend une version minimale de la bibliothèque FMOd %ls, mais la version %ls a été trouvée."
+Version="Cluster attend une version minimale de la bibliothèque FMOd %ls, mais la version %ls a été trouvée."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
 ; EN: SystemInit="Failed to initialize FMOD system object: %ls."
 SystemInit="Échec de l'initialisation de l'objet système FMOD: %ls."
