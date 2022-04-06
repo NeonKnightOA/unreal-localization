@@ -1,6 +1,6 @@
 ﻿[Public]
-; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
-Preferences=(Caption="Unreal Integriteit",Parent="Netwerken",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking")
+Preferences=(Caption="Unreal Integriteit",Parent="Netwerken")
 ; EN: Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
 Preferences=(Caption="Integriteitsserver",Parent="Unreal Integriteit",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
 ; EN: Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
