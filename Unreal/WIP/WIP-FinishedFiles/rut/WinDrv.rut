@@ -1,34 +1,34 @@
 ﻿[Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client,Compat="Win32,Win64")
 ; EN: Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Окна",Parent="Отображать",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Экран",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
 ; EN: Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
-Preferences=(Caption="Окна",Parent="Джойстик",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Windows",Parent="Джойстик",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
 ; EN: Failed3D="3D hardware initialization failed"
-Failed3D="Не удалось инициализировать оборудование 3D"
+Failed3D="Не получилось инициализировать аппаратное 3D ускорение"
 ; EN: DDrawMode="DirectDraw was unable to set the requested video mode."
-DDrawMode="DirectDraw не смог установить запрошенный видеорежим."
+DDrawMode="DirectDraw не смог выставить заданный видеорежим."
 
 [General]
 ; EN: ViewPersp="Perspective map"
-ViewPersp="Карта перспективы"
+ViewPersp="Карта в перспективе"
 ; EN: ViewXY="Overhead map"
-ViewXY="Верхняя карта"
+ViewXY="Карта сверху"
 ; EN: ViewXZ="XZ map"
 ViewXZ="Карта XZ"
 ; EN: ViewYZ="YZ map"
 ViewYZ="Карта YZ"
 ; EN: ViewOther="Viewport"
-ViewOther="Область просмотра"
+ViewOther="Вьюпорт"
 ; EN: Color16="&16-bit color"
 Color16="&16-битный цвет"
 ; EN: Color32="&32-bit color"
 Color32="&32-битный цвет"
 ; EN: AdvancedOptions="Advanced Options"
-AdvancedOptions="Расширенные настройки"
+AdvancedOptions="Дополнительные опции"
 
 [WindowsClient]
 ; EN: ClassCaption="Standard Windows Manager"
-ClassCaption="Стандартный диспетчер Windows"
+ClassCaption="Стандартный менеджер Windows"

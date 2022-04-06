@@ -3,9 +3,9 @@ LocalProduct="Unreal Gold/Unreal Anthology"
 DefaultFolder="C:\Program Files\Unreal Gold"
 ReadMe="Help\227ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Gold/Unreal Anthology Setup"
-SetupWindowTitle="Инсталляция Unreal Gold/Unreal Anthology"
+SetupWindowTitle="Установка Unreal Gold/Unreal Anthology"
 ; EN: AutoplayWindowTitle="Unreal Gold/Unreal Anthology Options"
-AutoplayWindowTitle="Unreal Gold/Unreal Anthology варианты"
+AutoplayWindowTitle="Опции Unreal Gold/Unreal Anthology"
 ProductURL="http://www.unrealengine.com/"
 VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
@@ -22,9 +22,9 @@ DeveloperURL="http://www.epicgames.com/"
 
 [LinuxGroup]
 ; EN: Caption="Linux native files"
-Caption="Родные файлы Linux"
+Caption="Нативные файлы Linux"
 ; EN: Description="Copies all files required to run and play Unreal natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
-Description="Копирует все файлы, необходимые для запуска и воспроизведения Unreal прямо в Linux. Меню «Дополнительные параметры» пока отсутствует, но все настройки отмечены и могут быть отредактированы в файле UnrealLinux.ini в папке «Система». Редактор уровней UnrealED 2.1 пока недоступен в Linux. Если у вас возникли проблемы с запуском игры, дополнительную информацию и ответы на часто задаваемые вопросы можно найти в ReleaseNotes в справочном каталоге. Если ваша система не предоставляет все библиотеки, в папке Help есть пакет lin_convenience_libs.7z, который должен содержать все необходимые файлы."
+Description="Копии всех файлов необходимых для запуска игры в Линукс. Тут еще нет дополнительного меню опций, но все настройки указаны в UnrealLinux.ini и могут быть изменены. Редактор UnrealEd 2.1 не доступен для Линукс. Если вы испытываете проблемы с запуском игры вы можете получить дополнительную информацию из FAQ в документации к релизу в Help директории. Если в вашей системе отсутствуют необходимые библиотеки, вы можете воспользоваться этим архивом lin_convenience_libs.7z, расположенным в Help директории."
 
 [OldWeaponsGroup]
 ; EN: Caption="Old Weapons"
