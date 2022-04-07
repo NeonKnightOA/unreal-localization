@@ -22,9 +22,32 @@ We've got you covered as well. Open an account in [the OldUnreal Wiki](https://w
 
 Each language has a portal which comprises the general guidelines. All languages support both games and can easily support other games as well as other translations. [Here's the Spanish language portal](https://www.oldunreal.com/wiki/index.php?title=Spanish_.est), for example. We also have [a general guidelines page](https://www.oldunreal.com/wiki/index.php?title=Language_Guidelines), with tips on keeping consistency across the whole translation. Each of the languages also has a Guidelines page, a set of translated strings kept as a guide for consistency. These usually comprise stuff like the Public sections, common strings between both games, locales, weapon ammo and item names, difficulty levels, etc. The guidelines are NOT set in stone, and can be modified at anytime, provided a consensus is reached. [Here's the Spanish language example](https://www.oldunreal.com/wiki/index.php?title=Spanish_.est/Language_Guidelines) And finally, we have the individual pages/files themselves. The idea of the whole format is that we just copy and paste into a blank file, and we have the translation ready to go. Some pages have multiple sections because they are used in multiple games, they're separated into their Public headers, the general translation for all games, and then the separate lines per game.
 
+## Credits
+* **Epic Games/Digital Extremes/Legend Entertainment:** Original English/German/French/Spanish/Italian localizations
+* **Neon_Knight:** Project coordination, Spanish maintenance.
+* **Buggie:** Localization templates.
+* **Smirftsch:** German, additional contributions.
+* **eGo:** German, additional contributions.
+* **Ividyon:** German, additional contributions.
+* **Hellkeeper:** French, fixes and maintenance.
+* **Rackover/Louvenarde:** French, fixes and maintenance.
+* **rarsonic:** Spanish, additional contributions.
+* **UBerserker:** Italian, additional contributions.
+* **TaglesMalsto:** Italian, additional contributions.
+* **u.HighPriest:** Russian, localization author.
+* **Skaarj ZR:** Russian, additional contributions.
+* **Delacroix:** Polish, additional contributions.
+* **Nahand:** Portuguese, additional contributions.
+* **Naruto_9:** Portuguese, additional contributions.
+* **Relaks:** Hungarian, localization author.
+* **MakeMeUnreal:** Hungarian, additional contributions.
+* **Gabor Kovacs:** Hungarian, additional contributions.
+* **tomcat:** Czech, localization author.
+* **Nikola:** Czech, additional contributions.
+* **ElectricIce:** Swedish, additional contributions.
+* **Excalidar:** Norwegian, additional contributions.
+* **Vapor Mermaid:** Japanese, localization contributor.
+
 ## Links of interest
-* [OldUnreal](https://www.oldunreal.com/)
-** [Forums](https://www.oldunreal.com/phpBB3/)
-** [Wiki](https://www.oldunreal.com/wiki/)
-** [Discord](https://discord.gg/thURucxzs6)
+* [OldUnreal](https://www.oldunreal.com/) - [Forums](https://www.oldunreal.com/phpBB3/) - [Wiki](https://www.oldunreal.com/wiki/) - [Discord](https://discord.gg/thURucxzs6)
 * [Original japanese localization for UT](https://mega.nz/file/TJ4SjSgK#dLB09tFOkGo5ctu974RG1YCWfAH_0N_um_Gw00R_WAk) - Includes important files such as the Texture pack.
