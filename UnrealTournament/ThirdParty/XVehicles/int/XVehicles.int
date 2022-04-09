@@ -1,0 +1,54 @@
+[Public]
+Object=(Name=XVehicles.XVehiclesMH,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesMH,<Insert description here>")
+Object=(Name=XVehicles.XVehiclesCTF,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesCTF,<Insert description here>")
+Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesSummon,<Insert description here>")
+Object=(Name=XVehicles.DriverWeapon,Class=Class,MetaClass=Engine.Weapon)
+
+[Vehicle]
+VehicleName="Vehicle"
+MsgVehicleDesc="Zoom out the HUD to read the help in the top right corner of the screen."
+
+[DriverWeapon]
+PickupMessage="You got a vehicle"
+ItemName="Vehicle"
+
+[TreadCraftPhys]
+VehicleName="Tread Craft"
+TranslatorDescription="This is a Tread Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys to turn this vehicle and Move Forward/Backward keys to accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+VehicleKeyInfoStr="Tread craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+
+[WheeledCarPhys]
+VehicleName="Wheeled Car"
+TranslatorDescription="This is a wheeled vehicle, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys to turn this vehicle and Move Forward/Backward keys to accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+VehicleKeyInfoStr="Wheeled car keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+
+[FlightCraftPhys]
+VehicleName="Flight Craft"
+TranslatorDescription="This is a Flight Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate while on ground, if you accelerated fast enough you can take off and steer this plane through air. To leave this vehicle, press your [ThrowWeapon] key."
+VehicleKeyInfoStr="Flight craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe (when not in air)|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+
+[HoverCraftPhys]
+VehicleName="Hover Craft"
+TranslatorDescription="This is a Hover Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+VehicleKeyInfoStr="Hover craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%,%StrafeRight% to strafe|%Jump% to jump with the vehicle|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+
+[ChopperPhys]
+VehicleName="Helicopter"
+TranslatorDescription="This is a chopper vehicle, you can fire different firemodes using [Fire] and [AltFire] buttons. To move higher or lover use [Jump] and [Crouch] buttons and to move around use movement keys. To leave this vehicle press [ThrowWeapon] key."
+VehicleKeyInfoStr="Chopper craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+
+[StationaryPhys]
+VehicleName="Stationary Turret"
+TranslatorDescription="This is a stationary turret. You can fire using [Fire] and [AltFire] and zoom in and out using movement keys. To leave this vehicle press [ThrowWeapon] key."
+VehicleKeyInfoStr="Turret keys:|%Fire% to fire, %AltFire% to alt fire|%ThrowWeapon% to exit the vehicle"
+
+[SubmarinePhys]
+VehicleName="Submarine"
+TranslatorDescription="This is a Submarine, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+VehicleKeyInfoStr="Submarine keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+
+[AirShipPhys]
+VehicleName="Air Ship"
+TranslatorDescription="This is a Air Ship, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+VehicleKeyInfoStr="Airship keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+

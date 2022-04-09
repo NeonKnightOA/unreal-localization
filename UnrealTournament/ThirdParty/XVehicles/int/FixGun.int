@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=FixGun.FixGunMutator,Class=Class,MetaClass=Engine.Mutator,Description="FixGunMutator,<Insert description here>")
+Object=(Name=FixGun.FixGun,Class=Class,MetaClass=Engine.Weapon)
+
+[FixGun]
+WeaponDescription="Classification: Fix Rifle\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\nSecondary Fire: A bolt of blue lightning is expelled for 100 meters, which will fix vehicles.\nTechniques: Firing and keeping the secondary fire's beam on a vehicle will fix them in seconds."
+MessageNoAmmo=" has no ammo."
+PickupMessage="You got a Fixing Gun"
+ItemName="Fixing Gun"
+
+[FixAmmo]
+PickupMessage="You picked up a FixGun Cell."
+ItemName="FixGun Cell"
+
