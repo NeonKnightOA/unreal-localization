@@ -431,6 +431,12 @@ HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Экспортирует пакет в соответственно структурированные директории."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
 HelpUsage="fullbatchexport <pkg> <outpath>"
+; EN: HelpDesc[0]="Optional, to define export format:"
+HelpDesc[0]="Необязательно, для определения формата экспорта:"
+HelpParm[0]="   -DefaultFontExtension"
+HelpParm[1]="   -DefaultMusicExtension"
+HelpParm[2]="   -DefaultSoundExtension"
+HelpParm[3]="   -DefaultTextureExtension"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
