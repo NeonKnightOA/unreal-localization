@@ -32,6 +32,8 @@ OKText="OK"
 ShowColorsText="Отображать сообщения консоли в цвете"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="Логировать только сообщения чата"
+; EN: ShowWarningText="Log script errors"
+ShowWarningText="Ошибки сценария журнала"
 
 [AdminGUIPlayersGrid]
 ; EN: PlayerID="ID#"
@@ -90,6 +92,8 @@ ConfirmClearListTitle="Подтвердите очистку списка тре
 ConfirmClearListText="Убрать все треки из списка?"
 ; EN: BadIndexStr="Failed to remove: Bad remove index."
 BadIndexStr="Ошибка удаления: неправильный индекс."
+; EN: AddAllStr="Added all musics to the list."
+AddAllStr="Добавлено в список все музыкальные композиции."
 
 [AdminGUIClientWindow]
 ; EN: PlayersListTxt="Clients List"
@@ -150,6 +154,18 @@ StopTrackHint="Остановка"
 PriorTrackHint="Предыдущий трек"
 ; EN: NextTrackHint="Next track"
 NextTrackHint="Следующий трек"
+; EN: AddAllText="Add All"
+AddAllText="Добавить все"
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint="Выполняется поиск по всему музыкальному каталогу и добавление всех звуковых дорожек в список воспроизведения."
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr="ВНИМАНИЕ! Добавить все песни?"
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText="Эта операция будет медленной и добавит все возможные песни в ваш плейлист, продолжить?"
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText="Перемешать плейлист"
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint="Следующая дорожка всегда выбирается случайным образом."
 
 [UWindowNetErrorWindow]
 ; EN: WindowTitle="Player Network error status"
@@ -232,3 +248,8 @@ GettingBanListText="Получение банлистов с сервера, е�
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
 RestartText="Начать сначала"
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage="Что-то создает предупреждения сценария..."
+
