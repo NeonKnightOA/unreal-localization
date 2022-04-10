@@ -24,73 +24,78 @@ Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.Terran
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
-Statheader="Dödsstatistik: "
+Statheader="Statystyki zabójstw: "
 ; EN: CARStat="Combat Assault Rifle"
-CARStat="Combat Assault Rifle"
+CARStat="Karabin Szturmowy"
 ; EN: RLStat="UMS Rocket Launcher"
-RLStat="UMS Rocket Launcher"
+RLStat="Wyrzutnia Rakiet UMS"
 ; EN: GLStat="UMS Grenade Launcher"
-GLStat="UMS granatkastare"
+GLStat="Wyrzutnia Granatów UMS"
 ; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
 ; EN: AutomagStat="Automag"
 AutomagStat="Automag"
 ; EN: DispersionStat="Dispersion Pistol"
-DispersionStat="Dispersionspistol"
+DispersionStat="Pistolet Rozpryskowy"
 ; EN: EightballStat="Eightball"
-EightballStat="Åtta boll"
+EightballStat="Ósemka"
 ; EN: FlakCannonStat="Flak Cannon"
-FlakCannonStat="Flakkanon"
+FlakCannonStat="Garłacz"
 ; EN: GESBioRifleStat="GES BioRifle"
-GESBioRifleStat="GES BioRifle"
+GESBioRifleStat="Karabin Odpadowy GES"
 ; EN: MinigunStat="Minigun"
 MinigunStat="Minigun"
 ; EN: RazorjackStat="Razorjack"
-RazorjackStat="Razorjack"
+RazorjackStat="Rozpruwacz"
 ; EN: RifleStat="Sniper Rifle"
-RifleStat="Gevär"
+RifleStat="Karabin Snajperski"
 ; EN: StingerStat="Stinger"
-StingerStat="Stinger"
+StingerStat="Żądło"
 ; EN: TotalStat="Total Kills"
-TotalStat="Totala dödar"
+TotalStat="Ogółem"
 ; EN: LogEntryMsg="LOG ENTRY:"
-LogEntryMsg="LOGGINTREDNING:"
+LogEntryMsg="WPIS DO DZIENNIKA:"
 
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
-DeathMessage="Granaten på %k gjorde %o sprängde."
+DeathMessage="%o - %k wysadza cię w powietrze granatem."
+FemDeathMessage="%o - %k wysadza cię w powietrze granatem."
+FemKillMessage="%o - %k wysadza cię w powietrze granatem."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Du har UMS Granatkastare"
+PickupMessage="Podnosisz Wyrzutnia Granatów UMS"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="UMS Granatkastare"
+ItemName="Wyrzutnia Granatów UMS"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
-ExpireMessage="frånkopplad."
+ExpireMessage="wyłączony."
 ; EN: PickupMessage="You got the Cloaking Device"
-PickupMessage="Du har mantelapparaten"
+PickupMessage="Podnosisz Kamuflaż Wojskowy"
 ; EN: ItemName="Cloaking Device"
-ItemName="Mantelapparat"
+ItemName="Kamuflaż Wojskowy"
 ; EN: M_Activated=" engaged"
-M_Activated=" engagerad"
+M_Activated=" włączony."
 ; EN: M_Deactivated=" disengaged"
-M_Deactivated=" frånkopplad"
+M_Deactivated=" wyłączony."
+ItemArticle=" "
+M_Selected=" gotowy do użycia."
 
 [UPakHUD]
 ; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
-MultWeapSlotMsg="Tryck på vapenväljarknappen för att växla mellan vapen."
+MultWeapSlotMsg="Wciśnij klawisz wyboru broni, aby przełączyć broń."
 
 [UPakSinglePlayer]
-; EN: GameName="Unreal Mission Pack"
-GameName="Mission pack för Unreal"
+GameName="Unreal Mission Pack"
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
-DeathMessage="Raketten på %k förvandlade kroppen till %o till bitar."
+DeathMessage="%o - zjadasz rakietę %k. Smacznego!"
+FemDeathMessage="%o - zjadasz rakietę %k. Smacznego!"
+FemKillMessage="%o - zjadasz rakietę %k. Smacznego!"
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Du har UMS Raketkastare"
+PickupMessage="Podnosisz Wyrzutnia Rakiet UMS"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS Raketkastare"
+ItemName="Wyrzutnia Rakiet UMS"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -98,84 +103,170 @@ MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
-GameName="Mantelmatch"
+GameName="DM z Kamuflażem"
 
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
-DeathMessage="%w från %k gjorde %o till schweizisk ost."
+DeathMessage="%o - %k eliminuje cię serią z karabinu szturmowego."
+FemDeathMessage="%o - %k eliminuje cię serią z karabinu szturmowego."
+FemKillMessage="%o - %k eliminuje cię serią z karabinu szturmowego."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Du har Stridsgevär"
+PickupMessage="Podnosisz Karabin Szturmowy"
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Stridsgevär"
+ItemName="Karabin Szturmowy"
 
 [UPakScubaGear]
 ; EN: RechargedMessage="ScubaGear fully recharged."
-RechargedMessage="ScubaGear fulladdat."
+RechargedMessage="Poziom tlenu w butli: 100%."
 ; EN: LowOxygenMessage="Oxygen supply critically low"
-LowOxygenMessage="Syretillförsel kritiskt låg"
+LowOxygenMessage="Tlen na wykończeniu"
 ; EN: PickupMessage="You picked up the Marine SCUBA Gear"
-PickupMessage="Du hämtade Marine SCUBA Gear"
+PickupMessage="Podnosisz wojskowy sprzęt do nurkowania"
 ; EN: ItemName="Marine SCUBA Gear"
-ItemName="Marine SCUBA Gear"
+ItemName="Wojskowy sprzęt do nurkowania"
 ; EN: M_Deactivated="deactivated... Recharging."
-M_Deactivated="avaktiverad ... Laddar igen."
+M_Deactivated=" nieaktywny... Trwa uzupełnianie zapasu tlenu."
+ItemArticle=" "
+M_Selected=" gotowy do użycia."
 
 [MarineMatch]
 ; EN: GameName="Marine Match"
-GameName="Marin match"
+GameName="DM z Piechotą Morską"
 
 [GravityMatch]
 ; EN: GameName="Gravity Match"
-GameName="Gravity match"
+GameName="DM z Obniżoną Grawitacją"
 
 [UPakDebugger]
 ; EN: ItemName="UPak Debugger"
-ItemName="UPak Debugger"
+ItemName="Debugger dla UPak"
+PickupMessage="Podnosisz debugger dla UPak. I co z tym zrobisz?"
+ItemArticle=" "
+M_Activated=" włączony."
+M_Deactivated=" wyłączony."
+M_Selected=" gotowy do użycia."
 
 [UPakMaleOne]
 ; EN: MenuName="Male 1"
-MenuName="Hane 1"
+MenuName="Mężczyzna 1"
 
 [UPakFemaleOne]
 ; EN: MenuName="Female 1"
-MenuName="Kvinna 1"
+MenuName="Kobieta 1"
 
 [GLAmmo]
 ; EN: PickupMessage="You picked up 10 UMS Grenades"
-PickupMessage="Du plockade upp 10 UMS-granater"
+PickupMessage="Podnosisz 10 Granatów UMS"
 ; EN: ItemName="UMS Grenades"
-ItemName="UMS-granater"
+ItemName="Granaty UMS"
 
 [RLAmmo]
 ; EN: PickupMessage="You got 10 UMS Rockets"
-PickupMessage="Du har 10 UMS-raketer"
+PickupMessage="Podnosisz 10 Rakiet UMS"
 ; EN: ItemName="UMS Rockets"
-ItemName="UMS raketer"
+ItemName="Rakiety UMS"
 
 [CARifleClip]
 ; EN: PickupMessage="You got a 50 bullet CAR clip"
-PickupMessage="Du har ett 50-kulars CAR-klipp"
+PickupMessage="Podnosisz magazynek 50 nabojów dla karabinu szturmowego"
 ; EN: ItemName="CAR Clip"
-ItemName="BIL Clip"
+ItemName="magazynek nabojów dla karabinu szturmowego"
 
 [UPakFemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="Kvinna 2"
+MenuName="Kobieta 2"
 
 [UPakMaleThree]
 ; EN: MenuName="Male 3"
-MenuName="Hane 3"
+MenuName="Mężczyzna 3"
 
 [UPakMaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="Hane 2"
+MenuName="Mężczyzna 2"
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
-GameName="Terran vapenmatch"
+GameName="DM z Orężem Ziemskim"
 
 [CompTablet]
 ; EN: PickupMessage="You got the Computer Tablet"
-PickupMessage="Du har datorns surfplatta"
+PickupMessage="Podnosisz Tablet"
 ; EN: ItemName="Computer Tablet"
-ItemName="Datorplatta"
+ItemName="Tablet"
+ExpireMessage="Tablet wyczerpany."
+ItemArticle=" "
+M_Activated=" włączony."
+M_Deactivated=" wyłączony."
+M_Selected=" gotowy do użycia."
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="Kosmiczny komandos UMS"
+MenuNameDative="kosmicznego komandosa UMS"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="Kosmiczny komandos UMS"
+MenuNameDative="kosmicznego komandosa UMS" 
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="Kosmiczny komandos UMS"
+MenuNameDative="kosmicznego komandosa UMS"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="Kosmiczny komandos UMS"
+MenuNameDative="kosmicznego komandosa UMS"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Brute"
+MenuName="Dzikus"
+MenuNameDative="Dzikusa"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Cow"
+MenuName="Krowa"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" un "
+; EN: MenuName="NaliCopter"
+MenuName="Helikopter Nali"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Jaszczurka"
+MenuNameDative="jaszczurkę"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Jaszczurka"
+MenuNameDative="jaszczurkę"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Pack Hunter"
+MenuName="Stadny Skaarj"
+MenuNameDative="stadnego Skaarj"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Spinner"
+MenuName="Pajęczak"
+MenuNameDative="pajęczaka"
+
+[PredatorPathUser]
+NameArticle=" "
+MenuName="Jaszczurka"
+MenuNameDative="jaszczurkę"

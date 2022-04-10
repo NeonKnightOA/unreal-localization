@@ -24,73 +24,76 @@ Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.Terran
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
-Statheader="Statystyki zabójstw: "
+Statheader="Dood statistieken: "
 ; EN: CARStat="Combat Assault Rifle"
-CARStat="Karabin bojowy"
+CARStat="Gevechtsgeweer"
 ; EN: RLStat="UMS Rocket Launcher"
-RLStat="Wyrzutnia rakiet UMS"
+RLStat="UMS Raketwerper"
 ; EN: GLStat="UMS Grenade Launcher"
-GLStat="Granatnik UMS"
+GLStat="UMS Granaatwerper"
 ; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
 ; EN: AutomagStat="Automag"
 AutomagStat="Automag"
 ; EN: DispersionStat="Dispersion Pistol"
-DispersionStat="Pistolet dyspersyjny"
+DispersionStat="Dispersiepistool"
 ; EN: EightballStat="Eightball"
-EightballStat="Ósma Bila"
+EightballStat="Acht Bal"
 ; EN: FlakCannonStat="Flak Cannon"
-FlakCannonStat="Flak Cannon"
+FlakCannonStat="Luchtafweerkanon"
 ; EN: GESBioRifleStat="GES BioRifle"
-GESBioRifleStat="GES BioRifle"
+GESBioRifleStat="BioGeweer GES"
 ; EN: MinigunStat="Minigun"
 MinigunStat="Minigun"
 ; EN: RazorjackStat="Razorjack"
-RazorjackStat="Razorjack"
+RazorjackStat="RazorJack"
 ; EN: RifleStat="Sniper Rifle"
-RifleStat="Karabin"
+RifleStat="Scherpschuttersgeweer"
 ; EN: StingerStat="Stinger"
 StingerStat="Stinger"
 ; EN: TotalStat="Total Kills"
-TotalStat="Total Kills"
+TotalStat="Totaal aantal moorden"
 ; EN: LogEntryMsg="LOG ENTRY:"
-LogEntryMsg="WPISYWANIE DO DZIENNIKA:"
+LogEntryMsg="LOGINVOER:"
 
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
-DeathMessage="Granat z %k, który wykonał %o wybuchł."
+DeathMessage="De granaat van %k gemaakt %o is opgeblazen."
+FemDeathMessage="De granaat van %k gemaakt %o is opgeblazen."
+FemKillMessage="De granaat van %k gemaakt %o is opgeblazen."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Masz Wyrzutnia Granatów UMS"
+PickupMessage="Je hebt de UMS Granaatwerper"
 ; EN: ItemName="UMS Grenade Launcher"
-ItemName="Wyrzutnia Granatów UMS"
+ItemName="UMS Granaatwerper"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
-ExpireMessage="wolny."
+ExpireMessage="ontkoppeld."
 ; EN: PickupMessage="You got the Cloaking Device"
-PickupMessage="Masz urządzenie maskujące"
+PickupMessage="Je hebt het verhul apparaat"
 ; EN: ItemName="Cloaking Device"
-ItemName="Urządzenie maskowania"
+ItemName="Cloaking-apparaat"
 ; EN: M_Activated=" engaged"
-M_Activated=" zaręczony"
+M_Activated=" verloofd"
 ; EN: M_Deactivated=" disengaged"
-M_Deactivated=" wolny"
+M_Deactivated=" ontkoppeld"
 
 [UPakHUD]
 ; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
-MultWeapSlotMsg="Naciśnij przycisk wyboru broni, aby przełączyć broń."
+MultWeapSlotMsg="Druk op de wapenselectieknop om tussen wapens te schakelen."
 
 [UPakSinglePlayer]
-; EN: GameName="Unreal Mission Pack"
-GameName="Pakiet misji do Unreal"
+GameName="Unreal Mission Pack"
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
-DeathMessage="Rakieta %k zamieniła ciało %o na kawałki."
+DeathMessage="De raket van %k veranderde het lichaam van %o in brokken."
+FemDeathMessage="De raket van %k veranderde het lichaam van %o in brokken."
+FemKillMessage="De raket van %k veranderde het lichaam van %o in brokken."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Masz Wyrzutnia Rakiet UMS"
+PickupMessage="Du har UMS Raketkastare"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="Wyrzutnia Rakiet UMS"
+ItemName="UMS Raketkastare"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -98,35 +101,37 @@ MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
-GameName="Dopasowanie peleryny"
+GameName="Mantelwedstrijd"
 
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
-DeathMessage="%w %k zamienił %o w szwajcarski ser."
+DeathMessage="De %w van %k veranderde %o in Zwitserse kaas."
+FemDeathMessage="De %w van %k veranderde %o in Zwitserse kaas."
+FemKillMessage="De %w van %k veranderde %o in Zwitserse kaas."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Masz Karabin Bojowy"
+PickupMessage="Je hebt het Gevechtsgeweer"
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Karabin Bojowy"
+ItemName="Gevechtsgeweer"
 
 [UPakScubaGear]
 ; EN: RechargedMessage="ScubaGear fully recharged."
-RechargedMessage="ScubaGear w pełni naładowany."
+RechargedMessage="ScubaGear volledig opgeladen."
 ; EN: LowOxygenMessage="Oxygen supply critically low"
-LowOxygenMessage="Krytycznie niski poziom zaopatrzenia w tlen"
+LowOxygenMessage="Zuurstoftoevoer kritiek laag"
 ; EN: PickupMessage="You picked up the Marine SCUBA Gear"
-PickupMessage="Podniosłeś Marine SCUBA Gear"
+PickupMessage="Je hebt de Marine SCUBA-uitrusting opgehaald"
 ; EN: ItemName="Marine SCUBA Gear"
-ItemName="Sprzęt do nurkowania morskiego"
+ItemName="Marine SCUBA-uitrusting"
 ; EN: M_Deactivated="deactivated... Recharging."
-M_Deactivated="dezaktywowane ... Ładowanie."
+M_Deactivated="gedeactiveerd ... Bezig met opladen."
 
 [MarineMatch]
 ; EN: GameName="Marine Match"
-GameName="Mecz morski"
+GameName="Mariene wedstrijd"
 
 [GravityMatch]
 ; EN: GameName="Gravity Match"
-GameName="Dopasowanie grawitacyjne"
+GameName="Zwaartekracht match"
 
 [UPakDebugger]
 ; EN: ItemName="UPak Debugger"
@@ -134,48 +139,112 @@ ItemName="UPak Debugger"
 
 [UPakMaleOne]
 ; EN: MenuName="Male 1"
-MenuName="Mężczyzna 1"
+MenuName="Man 1"
 
 [UPakFemaleOne]
 ; EN: MenuName="Female 1"
-MenuName="Kobieta 1"
+MenuName="Vrouw 1"
 
 [GLAmmo]
 ; EN: PickupMessage="You picked up 10 UMS Grenades"
-PickupMessage="Zdobyłeś 10 granatów UMS"
+PickupMessage="Je hebt 10 UMS-granaten opgepakt"
 ; EN: ItemName="UMS Grenades"
-ItemName="Granaty UMS"
+ItemName="UMS-granaten"
 
 [RLAmmo]
 ; EN: PickupMessage="You got 10 UMS Rockets"
-PickupMessage="Masz 10 rakiet UMS"
+PickupMessage="Je hebt 10 UMS Rockets"
 ; EN: ItemName="UMS Rockets"
-ItemName="Rakiety UMS"
+ItemName="UMS-raketten"
 
 [CARifleClip]
 ; EN: PickupMessage="You got a 50 bullet CAR clip"
-PickupMessage="Masz 50-kulowy magazynek CAR"
+PickupMessage="Je hebt een CAR-clip met 50 kogels"
 ; EN: ItemName="CAR Clip"
-ItemName="Klips do samochodu"
+ItemName="CAR Clip"
 
 [UPakFemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="Kobieta 2"
+MenuName="Vrouw 2"
 
 [UPakMaleThree]
 ; EN: MenuName="Male 3"
-MenuName="Mężczyzna 3"
+MenuName="Mannetje 3"
 
 [UPakMaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="Mężczyzna 2"
+MenuName="Mannetje 2"
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
-GameName="Dopasowanie broni terran"
+GameName="Terran wapenwedstrijd"
 
 [CompTablet]
 ; EN: PickupMessage="You got the Computer Tablet"
-PickupMessage="Masz tablet komputerowy"
+PickupMessage="Je hebt de computertablet"
 ; EN: ItemName="Computer Tablet"
-ItemName="Tablet komputerowy"
+ItemName="Computertablet"
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="UMS Arctische Soldaat"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="UMS Woestijnsoldaat"
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="UMS Jungle Soldaat"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="UMS Ruimte Soldaat"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Brute"
+MenuName="Bruut"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Nali Cow"
+MenuName="Nali-koe"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="NaliCopter"
+MenuName="Nalikopter"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Predator"
+MenuName="Roofdier"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Predator"
+MenuName="Roofdier"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Pack Hunter"
+MenuName="Groepsjager"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Spinner"
+MenuName="Spin"
+
+[PredatorPathUser]
+; EN: NameArticle=" a "
+NameArticle=" een "
+; EN: MenuName="Predator"
+MenuName="Roofdier"

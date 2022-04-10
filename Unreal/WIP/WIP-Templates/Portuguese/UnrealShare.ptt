@@ -92,29 +92,29 @@ Object=(Name="ThrowWeapon",Class=Class,MetaClass=Engine.Input,Description="Weapo
 ; EN: Object=(Name="GetWeapon UnrealShare.DispersionPistol",Class=Class,MetaClass=Engine.Input,Description="Weapon,Dispersion Pistol")
 Object=(Name="GetWeapon UnrealShare.DispersionPistol",Class=Class,MetaClass=Engine.Input,Description="Weapon,Pistola de Dispersão")
 ; EN: Object=(Name="GetWeapon UnrealShare.Automag",Class=Class,MetaClass=Engine.Input,Description="Weapon,AutoMag")
-Object=(Name="GetWeapon UnrealShare.Automag",Class=Class,MetaClass=Engine.Input,Description="Weapon,Magnum Automática")
+Object=(Name="GetWeapon UnrealShare.Automag",Class=Class,MetaClass=Engine.Input,Description="Weapon,Automag")
 ; EN: Object=(Name="GetWeapon UnrealShare.Stinger",Class=Class,MetaClass=Engine.Input,Description="Weapon,Stinger")
-Object=(Name="GetWeapon UnrealShare.Stinger",Class=Class,MetaClass=Engine.Input,Description="Weapon,Perfuradora")
+Object=(Name="GetWeapon UnrealShare.Stinger",Class=Class,MetaClass=Engine.Input,Description="Weapon,Perfurador")
 ; EN: Object=(Name="GetWeapon UnrealShare.ASMD",Class=Class,MetaClass=Engine.Input,Description="Weapon,ASMD")
 Object=(Name="GetWeapon UnrealShare.ASMD",Class=Class,MetaClass=Engine.Input,Description="Weapon,ASMD")
 ; EN: Object=(Name="GetWeapon UnrealShare.Eightball",Class=Class,MetaClass=Engine.Input,Description="Weapon,Eightball")
-Object=(Name="GetWeapon UnrealShare.Eightball",Class=Class,MetaClass=Engine.Input,Description="Weapon,Bola Oito")
+Object=(Name="GetWeapon UnrealShare.Eightball",Class=Class,MetaClass=Engine.Input,Description="Weapon,Canhão 8")
 ; EN: Object=(Name="GetWeapon UnrealI.FlakCannon",Class=Class,MetaClass=Engine.Input,Description="Weapon,Flak Cannon")
-Object=(Name="GetWeapon UnrealI.FlakCannon",Class=Class,MetaClass=Engine.Input,Description="Weapon,Canhão de Estilhaços")
+Object=(Name="GetWeapon UnrealI.FlakCannon",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançaestilhaços")
 ; EN: Object=(Name="GetWeapon UnrealI.Razorjack",Class=Class,MetaClass=Engine.Input,Description="Weapon,RazorJack")
-Object=(Name="GetWeapon UnrealI.Razorjack",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançador de Lâminas")
+Object=(Name="GetWeapon UnrealI.Razorjack",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançalâminas")
 ; EN: Object=(Name="GetWeapon UnrealI.GESBioRifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,GES BioRifle")
-Object=(Name="GetWeapon UnrealI.GESBioRifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançador de Gosma Tóxica GES")
+Object=(Name="GetWeapon UnrealI.GESBioRifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançalixo Tóxico GES")
 ; EN: Object=(Name="GetWeapon UnrealI.Rifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Sniper Rifle")
-Object=(Name="GetWeapon UnrealI.Rifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Fuzil de longo alcance")
+Object=(Name="GetWeapon UnrealI.Rifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Fuzil de Longo Alcance")
 ; EN: Object=(Name="GetWeapon UnrealI.Minigun",Class=Class,MetaClass=Engine.Input,Description="Weapon,Minigun")
 Object=(Name="GetWeapon UnrealI.Minigun",Class=Class,MetaClass=Engine.Input,Description="Weapon,Metralhadora")
 ; EN: Object=(Name="GetWeapon UPak.CARifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Combat Assault Rifle")
-Object=(Name="GetWeapon UPak.CARifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Rifle de assalto de combate")
+Object=(Name="GetWeapon UPak.CARifle",Class=Class,MetaClass=Engine.Input,Description="Weapon,Fuzil de Assalto")
 ; EN: Object=(Name="GetWeapon UPak.GrenadeLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,UMS Grenade Launcher")
-Object=(Name="GetWeapon UPak.GrenadeLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançador de Granadas UMS")
+Object=(Name="GetWeapon UPak.GrenadeLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançagranadas UMS")
 ; EN: Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,UMS Rocket Launcher")
-Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançador de Foguetes UMS")
+Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,Lançafoguetes UMS")
 ; EN: Object=(Name="GetWeapon UnrealI.QuadShot",Class=Class,MetaClass=Engine.Input,Description="Weapon,Quad-Barreled Shotgun")
 Object=(Name="GetWeapon UnrealI.QuadShot",Class=Class,MetaClass=Engine.Input,Description="Weapon,Escopeta Quádrupla")
 ; EN: Object=(Name="GetWeapon UnrealShare.UTranslocator",Class=Class,MetaClass=Engine.Input,Description="Weapon,Translocator")
@@ -810,9 +810,9 @@ MenuTitle="BOTS"
 DeathMessage="%o foi massacrado múltiplas vezes por %w de %k."
 FemDeathMessage="%o foi massacrada múltiplas vezes por %w de %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Você pegou a arma Bola Oito"
+PickupMessage="Você pegou a arma Canhão 8"
 ; EN: ItemName="Eightball"
-ItemName="Bola Oito"
+ItemName="Canhão 8"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1061,9 +1061,9 @@ MenuTitle="ESCOLHER O JOGO"
 DeathMessage="%o foi encurralado pela %w de %k."
 FemDeathMessage="%o foi encurralada pela %w de %k."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Você pegou a Magnum Automática"
+PickupMessage="Você pegou a Automag"
 ; EN: ItemName="Automag"
-ItemName="Magnum Automática"
+ItemName="Automag"
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1220,9 +1220,9 @@ MenuTitle="SALVAR JOGO"
 DeathMessage="%o foi perfurado pela %w de %k."
 FemDeathMessage="%o foi perfurada pela %w de %k."
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Você pegou a Perfuradora"
+PickupMessage="Você pegou a Perfurador"
 ; EN: ItemName="Stinger"
-ItemName="Perfuradora"
+ItemName="Perfurador"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"

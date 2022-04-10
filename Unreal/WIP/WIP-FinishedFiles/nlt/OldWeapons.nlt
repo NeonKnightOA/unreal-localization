@@ -17,7 +17,7 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 DeathMessage="%o werd gedood door de %w van %k. Wat een loser!"
 FemDeathMessage="%o werd gedood door de %w van %k. Wat een loser!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Je hebt het Dispersion Pistol"
+PickupMessage="Je hebt het Dispersiepistool"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Dispersiepistool"
 
@@ -35,9 +35,9 @@ ItemName="ASMD"
 DeathMessage="%o werd meerdere keren neergeslagen door de %w van %k."
 FemDeathMessage="%o werd meerdere keren neergeslagen door de %w van %k."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Je hebt het Eightball"
+PickupMessage="Je hebt het Acht Bal"
 ; EN: ItemName="Eightball"
-ItemName="Eightball"
+ItemName="Acht Bal"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."

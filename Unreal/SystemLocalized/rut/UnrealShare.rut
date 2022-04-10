@@ -99,7 +99,7 @@ Object=(Name="ThrowWeapon",Class=Class,MetaClass=Engine.Input,Description="Ор�
 ; EN: Object=(Name="GetWeapon UnrealShare.DispersionPistol",Class=Class,MetaClass=Engine.Input,Description="Weapon,Dispersion Pistol")
 Object=(Name="GetWeapon UnrealShare.DispersionPistol",Class=Class,MetaClass=Engine.Input,Description="Оружие,Дисперсионный пистолет")
 ; EN: Object=(Name="GetWeapon UnrealShare.Automag",Class=Class,MetaClass=Engine.Input,Description="Weapon,AutoMag")
-Object=(Name="GetWeapon UnrealShare.Automag",Class=Class,MetaClass=Engine.Input,Description="Оружие,Автомаг")
+Object=(Name="GetWeapon UnrealShare.Automag",Class=Class,MetaClass=Engine.Input,Description="Оружие,Пистолет")
 ; EN: Object=(Name="GetWeapon UnrealShare.Stinger",Class=Class,MetaClass=Engine.Input,Description="Weapon,Stinger")
 Object=(Name="GetWeapon UnrealShare.Stinger",Class=Class,MetaClass=Engine.Input,Description="Оружие,Стингер")
 ; EN: Object=(Name="GetWeapon UnrealShare.ASMD",Class=Class,MetaClass=Engine.Input,Description="Weapon,ASMD")
@@ -121,7 +121,7 @@ Object=(Name="GetWeapon UPak.CARifle",Class=Class,MetaClass=Engine.Input,Descrip
 ; EN: Object=(Name="GetWeapon UPak.GrenadeLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,UMS Grenade Launcher")
 Object=(Name="GetWeapon UPak.GrenadeLauncher",Class=Class,MetaClass=Engine.Input,Description="Оружие,Гранатомет ОВС")
 ; EN: Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,Description="Weapon,UMS Rocket Launcher")
-Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,Description="Оружие,Ракетная установка ОВС")
+Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,Description="Оружие,Ракетомёт ОВС")
 ; EN: Object=(Name="GetWeapon UnrealI.QuadShot",Class=Class,MetaClass=Engine.Input,Description="Weapon,Quad-Barreled Shotgun")
 Object=(Name="GetWeapon UnrealI.QuadShot",Class=Class,MetaClass=Engine.Input,Description="Оружие,Квадшот")
 ; EN: Object=(Name="GetWeapon UnrealShare.UTranslocator",Class=Class,MetaClass=Engine.Input,Description="Weapon,Translocator")
@@ -1173,9 +1173,9 @@ MenuTitle="ВЫБОР ИГРЫ"
 DeathMessage="%o был застрелен из пистолета %k"
 FemDeathMessage="%o была застрелена из пистолета %k"
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Вы подобрали Автомаг"
+PickupMessage="Вы подобрали Пистолет"
 ; EN: ItemName="Automag"
-ItemName="Автомаг"
+ItemName="Пистолет"
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."

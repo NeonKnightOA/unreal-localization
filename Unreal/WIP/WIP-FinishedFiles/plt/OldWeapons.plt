@@ -62,9 +62,9 @@ ItemName="Garłacza"
 DeathMessage="%o - %k dziurawi cię Automagiem."
 FemDeathMessage="%o - %k dziurawi cię Automagiem."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Podnosisz Automaga"
+PickupMessage="Podnosisz Automag"
 ; EN: ItemName="Automag"
-ItemName="Automaga"
+ItemName="Automag"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."

@@ -475,9 +475,9 @@ DeathMessage="%o - %k posłał ci kulkę w sam łeb."
 FemDeathMessage="%o - %k posłał ci kulkę w sam łeb."
 FemKillMessage="%o - %k posłał ci kulkę w sam łeb."
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Podnosisz karabin snajperski"
+PickupMessage="Podnosisz Karabin Snajperski"
 ; EN: ItemName="Sniper Rifle"
-ItemName="Karabin snajperski"
+ItemName="Karabin Snajperski"
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -497,7 +497,7 @@ FemKillMessage="%o - %k właśnie spuścił ci do gardła cały ładunek ściek�
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Podnosisz karabin odpadowy"
 ; EN: ItemName="GES Bio Rifle"
-ItemName="Karabin odpadowy"
+ItemName="Karabin Odpadowy"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."

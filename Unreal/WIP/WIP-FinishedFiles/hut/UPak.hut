@@ -24,73 +24,76 @@ Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.Terran
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
-Statheader="Ölési statisztikák: "
+Statheader="Megölt ellenfelek összegzése: "
 ; EN: CARStat="Combat Assault Rifle"
-CARStat="Harcos puska"
+CARStat="Harci Rohamkarabély"
 ; EN: RLStat="UMS Rocket Launcher"
-RLStat="UMS rakétaindító"
+RLStat="UMS Rakétavető"
 ; EN: GLStat="UMS Grenade Launcher"
-GLStat="UMS gránátvető"
+GLStat="UMS Gránátvető"
 ; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
 ; EN: AutomagStat="Automag"
-AutomagStat="Automag"
+AutomagStat="Automag Pisztoly"
 ; EN: DispersionStat="Dispersion Pistol"
-DispersionStat="Diszperziós pisztoly"
+DispersionStat="Szórópisztoly"
 ; EN: EightballStat="Eightball"
-EightballStat="Nyolcgolyó"
+EightballStat="Nyolcgömb"
 ; EN: FlakCannonStat="Flak Cannon"
-FlakCannonStat="Flak ágyú"
+FlakCannonStat="Szilánkvető"
 ; EN: GESBioRifleStat="GES BioRifle"
-GESBioRifleStat="GES BioRifle"
+GESBioRifleStat="GES Biofegyver"
 ; EN: MinigunStat="Minigun"
-MinigunStat="Minigun"
+MinigunStat="Gépfegyver"
 ; EN: RazorjackStat="Razorjack"
-RazorjackStat="Razorjack"
+RazorjackStat="Borotvalövő"
 ; EN: RifleStat="Sniper Rifle"
-RifleStat="Puska"
+RifleStat="Orvlövész Puska"
 ; EN: StingerStat="Stinger"
-StingerStat="Fájdalmas ütés"
+StingerStat="Stinger"
 ; EN: TotalStat="Total Kills"
-TotalStat="Összesen öl"
+TotalStat="Összes megölt ellenfél"
 ; EN: LogEntryMsg="LOG ENTRY:"
 LogEntryMsg="BEJEGYZÉS:"
 
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
 DeathMessage="%k gránátja %o-t robbant fel."
+FemDeathMessage="%k gránátja %o-t robbant fel."
+FemKillMessage="%k gránátja %o-t robbant fel."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Megvan az UMS Gránátvető"
+PickupMessage="Felvettél egy UMS Gránátvetőt"
 ; EN: ItemName="UMS Grenade Launcher"
 ItemName="UMS Gránátvető"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
-ExpireMessage="kikapcsolva."
+ExpireMessage="lemerült."
 ; EN: PickupMessage="You got the Cloaking Device"
-PickupMessage="Megvan a Palástoló eszköz"
+PickupMessage="Felvettél egy Álcázóberendezást"
 ; EN: ItemName="Cloaking Device"
-ItemName="Álcázó eszköz"
+ItemName="Álcázóberendezés"
 ; EN: M_Activated=" engaged"
-M_Activated=" foglalt"
+M_Activated=" aktiválva"
 ; EN: M_Deactivated=" disengaged"
-M_Deactivated=" kikapcsolva"
+M_Deactivated=" deaktiválva"
 
 [UPakHUD]
 ; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
-MultWeapSlotMsg="Nyomja meg a fegyver választó gombot a fegyverek váltásához."
+MultWeapSlotMsg="A fegyverváltáshoz használd a Fegyverválasztó gombot."
 
 [UPakSinglePlayer]
-; EN: GameName="Unreal Mission Pack"
-GameName="Missziós csomag az Unreal számára"
+GameName="Unreal Mission Pack"
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
 DeathMessage="A %k rakéta darabokká változtatta a %o testét."
+FemDeathMessage="A %k rakéta darabokká változtatta a %o testét."
+FemKillMessage="A %k rakéta darabokká változtatta a %o testét."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Megvan az UMS Rakétaindító"
+PickupMessage="Felvetted a UMS Rakétavetőt"
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="UMS Rakétaindító"
+ItemName="UMS Rakétavetőt"
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -102,23 +105,25 @@ GameName="Köpenymérkőzés"
 
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
-DeathMessage="A %ki %w svájci sajttá változtatta a %ot. "
+DeathMessage="A %ki %w svájci sajttá változtatta a %ot."
+FemDeathMessage="A %ki %w svájci sajttá változtatta a %ot."
+FemKillMessage="A %ki %w svájci sajttá változtatta a %ot."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Megvan a Harcos puska"
+PickupMessage="Felvetted a Harci Rohamkarabélyt"
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Harcos puska"
+ItemName="Harci Rohamkarabély"
 
 [UPakScubaGear]
 ; EN: RechargedMessage="ScubaGear fully recharged."
-RechargedMessage="A ScubaGear teljesen fel van töltve."
+RechargedMessage="A búvárpalack újratölődött."
 ; EN: LowOxygenMessage="Oxygen supply critically low"
-LowOxygenMessage="Az oxigénellátás kritikusan alacsony"
+LowOxygenMessage="Az oxigénszint veszélyesen alacsony"
 ; EN: PickupMessage="You picked up the Marine SCUBA Gear"
-PickupMessage="Felkapta a Marine SCUBA Gear felszerelést"
+PickupMessage="Felvetted a Tengerészgyalogos Búvárfelszerelést"
 ; EN: ItemName="Marine SCUBA Gear"
-ItemName="Marine SCUBA Gear"
+ItemName="Tengerészgyalogos Búvárfelszerelés"
 ; EN: M_Deactivated="deactivated... Recharging."
-M_Deactivated="deaktiválva ... Újratöltés."
+M_Deactivated="deaktiválva... Újratöltés folyamatban."
 
 [MarineMatch]
 ; EN: GameName="Marine Match"
@@ -134,33 +139,33 @@ ItemName="UPak hibakereső"
 
 [UPakMaleOne]
 ; EN: MenuName="Male 1"
-MenuName="1. férfi"
+MenuName="Férfi 1"
 
 [UPakFemaleOne]
 ; EN: MenuName="Female 1"
-MenuName="1. nő"
+MenuName="Nő 1"
 
 [GLAmmo]
 ; EN: PickupMessage="You picked up 10 UMS Grenades"
-PickupMessage="Felszedett 10 UMS-gránátot"
+PickupMessage="Felvettél 10 UMS gránátot"
 ; EN: ItemName="UMS Grenades"
 ItemName="UMS gránátok"
 
 [RLAmmo]
 ; EN: PickupMessage="You got 10 UMS Rockets"
-PickupMessage="10 UMS rakétád van"
+PickupMessage="Felvettél 10 UMS Rakétát"
 ; EN: ItemName="UMS Rockets"
 ItemName="UMS rakéták"
 
 [CARifleClip]
 ; EN: PickupMessage="You got a 50 bullet CAR clip"
-PickupMessage="Van egy 50 golyós CAR klip"
+PickupMessage="Felvettél egy 50 Töltényt Tartalmazó HRK tárat"
 ; EN: ItemName="CAR Clip"
-ItemName="CAR klip"
+ItemName="Töltényt Tartalmazó HRK Tára"
 
 [UPakFemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="2. nő"
+MenuName="Nő 2"
 
 [UPakMaleThree]
 ; EN: MenuName="Male 3"
@@ -168,7 +173,7 @@ MenuName="Férfi 3"
 
 [UPakMaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="2. férfi"
+MenuName="Férfi 2"
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
@@ -176,6 +181,70 @@ GameName="Terran fegyvermeccs"
 
 [CompTablet]
 ; EN: PickupMessage="You got the Computer Tablet"
-PickupMessage="Megvan a Computer Tablet"
+PickupMessage="Megtaláltad a Tabletet"
 ; EN: ItemName="Computer Tablet"
-ItemName="Számítógépes tabletta"
+ItemName="Tabletek"
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="UMS Sarkvidéki Tengeri"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="UMS Sivatagi Tengeri"
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="UMS Dzsungel Tengeri"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="UMS űrhajózás"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Brute"
+MenuName="Durva"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Nali Cow"
+MenuName="Nali Tehén"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="NaliCopter"
+MenuName="Nalikopter"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Predator"
+MenuName="Ragadozó"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Predator"
+MenuName="Ragadozó"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Pack Hunter"
+MenuName="Falkavadász"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Spinner"
+MenuName="Pók"
+
+[PredatorPathUser]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Predator"
+MenuName="Ragadozó"

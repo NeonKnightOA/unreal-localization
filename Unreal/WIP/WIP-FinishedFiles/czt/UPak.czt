@@ -26,31 +26,31 @@ Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.Terran
 ; EN: Statheader="Kill Statistics: "
 Statheader="Statistika zabitých: "
 ; EN: CARStat="Combat Assault Rifle"
-CARStat="Utočnou Puškou"
+CARStat="Útočná Puška"
 ; EN: RLStat="UMS Rocket Launcher"
-RLStat="UMS Raketometem"
+RLStat="UMS Raketomet"
 ; EN: GLStat="UMS Grenade Launcher"
-GLStat="UMS Granátometem"
+GLStat="UMS Granátomet"
 ; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
 ; EN: AutomagStat="Automag"
-AutomagStat="Poloautomatickou Pistolí"
+AutomagStat="Poloautomaticka Pistole"
 ; EN: DispersionStat="Dispersion Pistol"
-DispersionStat="Energetickou Pistolí"
+DispersionStat="Energeticka Pistole"
 ; EN: EightballStat="Eightball"
-EightballStat="Šesti-hlavňovým Raketometem"
+EightballStat="Sestihlavnovy Raketomet"
 ; EN: FlakCannonStat="Flak Cannon"
-FlakCannonStat="Flak Kanonem"
+FlakCannonStat="Flak Kanon"
 ; EN: GESBioRifleStat="GES BioRifle"
-GESBioRifleStat="GES Slizometem"
+GESBioRifleStat="GES Slizomet"
 ; EN: MinigunStat="Minigun"
-MinigunStat="Rotační Puškou"
+MinigunStat="Rotacak"
 ; EN: RazorjackStat="Razorjack"
-RazorjackStat="Rozparovačem"
+RazorjackStat="Rozparovac"
 ; EN: RifleStat="Sniper Rifle"
-RifleStat="Odstřelovačkou"
+RifleStat="Ostrelovacka"
 ; EN: StingerStat="Stinger"
-StingerStat="Stingerem"
+StingerStat="Stinger"
 ; EN: TotalStat="Total Kills"
 TotalStat="Celkem Zabito"
 ; EN: LogEntryMsg="LOG ENTRY:"
@@ -59,6 +59,8 @@ LogEntryMsg="ZÁSNAM V LOGU:"
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
 DeathMessage="Granát %k způsobil, že %o vybuchl."
+FemDeathMessage="Granát %k způsobil, že %o vybuchl."
+FemKillMessage="Granát %k způsobil, že %o vybuchl."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
 PickupMessage="Sebral jsi UMS Granátomet"
 ; EN: ItemName="UMS Grenade Launcher"
@@ -81,12 +83,13 @@ M_Deactivated=" vypnuto"
 MultWeapSlotMsg="Stiskni tlačítko pro volbu zbraně pro přepnutí na jinou zbraň."
 
 [UPakSinglePlayer]
-; EN: GameName="Unreal Mission Pack"
-GameName="Balíček misí pro Unreal"
+GameName="Unreal Mission Pack"
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
 DeathMessage="Raketa %k proměnila tělo %o na kousky."
+FemDeathMessage="Raketa %k proměnila tělo %o na kousky."
+FemKillMessage="Raketa %k proměnila tělo %o na kousky."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
 PickupMessage="Sebral jsi UMS Raketomet"
 ; EN: ItemName="UMS Rocket Launcher"
@@ -103,6 +106,8 @@ GameName="Plášť zápas"
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="%kvo %w proměnilo %o ve švýcarský sýr."
+FemDeathMessage="%kvo %w proměnilo %o ve švýcarský sýr."
+FemKillMessage="%kvo %w proměnilo %o ve švýcarský sýr."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
 PickupMessage="Sebral jsi Útočnou Pušku"
 ; EN: ItemName="Combat Assault Rifle"
@@ -134,11 +139,11 @@ ItemName="Debugger UPak"
 
 [UPakMaleOne]
 ; EN: MenuName="Male 1"
-MenuName="Chlapek 1"
+MenuName="Muž 1"
 
 [UPakFemaleOne]
 ; EN: MenuName="Female 1"
-MenuName="Zenska 1"
+MenuName="Žena 1"
 
 [GLAmmo]
 ; EN: PickupMessage="You picked up 10 UMS Grenades"
@@ -160,15 +165,15 @@ ItemName="Nabojů do Útočné Pušky"
 
 [UPakFemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="Zenska 2"
+MenuName="Žena 2"
 
 [UPakMaleThree]
 ; EN: MenuName="Male 3"
-MenuName="Chlapek 3"
+MenuName="Muž 3"
 
 [UPakMaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="Chlapek 2"
+MenuName="Muž 2"
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
@@ -179,3 +184,67 @@ GameName="Zápas terranských zbraní"
 PickupMessage="Sebral jsi Počítačový Tablet"
 ; EN: ItemName="Computer Tablet"
 ItemName="Počítačový Tablet"
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="UMS Arktický Voják"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="UMS Pouštní Voják"
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="UMS Džungli Voják"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="UMS Vesmírný Voják"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Brute"
+MenuName="Hrubý"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Cow"
+MenuName="Kráva Nali"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="NaliCopter"
+MenuName="Nalicopter"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Dravec"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Dravec"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Pack Hunter"
+MenuName="Lovec Skupiny"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Spinner"
+MenuName="Pavouk"
+
+[PredatorPathUser]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Dravec"
