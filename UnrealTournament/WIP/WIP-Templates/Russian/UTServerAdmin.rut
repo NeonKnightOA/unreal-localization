@@ -1,6 +1,5 @@
 ﻿[Public]
-; EN: Preferences=(Caption="Web-Based Remote Administration",Parent="Networking",Class=UTServerAdmin.UTServerAdmin)
-Preferences=(Caption="Удаленное администрирование через Интернет",Parent="Сети",Class=UTServerAdmin.UTServerAdmin)
+Preferences=(Caption="Web-Based Remote Administration",Parent="Networking",Class=UTServerAdmin.UTServerAdmin)
 
 [WebServer]
 ; EN: ClassCaption="Web-based Remote Administration"

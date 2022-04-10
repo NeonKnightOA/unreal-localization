@@ -1,12 +1,10 @@
 ﻿[Public]
-; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
-Preferences=(Caption="ファイルシステム",Parent="高度",Class=Core.System,Immediate=True)
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 
 [Language]
-; EN: Language="English (International)"
-Language="英語（国際）"
-LangId=9
-SubLangId=1
+Language=日本語
+LangId=999
+SubLangId=1111
 
 [Query]
 ; EN: OldVersion="The file "%ls" was saved by a previous version which is not backwards compatible with this one. Reading it will likely fail, and may cause a crash. Do you want to try anyway?"

@@ -1,6 +1,5 @@
 ﻿[Public]
 Object=(Name=XMesaGLDrv.XMesaGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
-; EN: Preferences=(Caption="Mesa 3D",Parent="Rendering",Class=XMesaGLDrv.XMesaGLRenderDevice,Immediate=True)
 Preferences=(Caption="Mesa 3D",Parent="Rendering",Class=XMesaGLDrv.XMesaGLRenderDevice,Immediate=True)
 
 [Errors]

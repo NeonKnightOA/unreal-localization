@@ -5,8 +5,7 @@
 ;
 [Public]
 Object=(Name=Cluster.ClusterAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
-; EN: Preferences=(Caption="Cluster 3D Audio Support",Parent="Audio",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
-Preferences=(Caption="Obsługa dźwięku Cluster 3D",Parent="Dźwięk",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
+Preferences=(Caption="Cluster 3D Audio Support",Parent="Audio",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
 
 [ClusterAudioSubsystem]
 ; User facing name (used in startup wizard list, preferences, etc.).

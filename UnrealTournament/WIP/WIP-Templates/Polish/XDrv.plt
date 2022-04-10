@@ -1,9 +1,7 @@
 ﻿[Public]
 Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
-; EN: Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
-Preferences=(Caption="XDrv",Parent="Pokaz",Class=XDrv.XClient,Immediate=True,Category=Display)
-; EN: Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,Category=Joystick)
-Preferences=(Caption="XDrv",Parent="Drążek sterowy",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,Category=Joystick)
 
 [Errors]
 ; EN: Failed3D="3D hardware initialization failed"

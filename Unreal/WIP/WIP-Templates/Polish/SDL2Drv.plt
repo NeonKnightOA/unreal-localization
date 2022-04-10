@@ -1,9 +1,7 @@
 ﻿[Public]
 Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client,Compat="Lin32,Lin64,LinARM")
-; EN: Preferences=(Caption="SDL2",Parent="Display",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
-Preferences=(Caption="SDL2",Parent="Pokaz",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
-; EN: Preferences=(Caption="SDL2",Parent="Joystick",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
-Preferences=(Caption="SDL2",Parent="Drążek sterowy",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
+Preferences=(Caption="SDL2",Parent="Display",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+Preferences=(Caption="SDL2",Parent="Joystick",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
 
 [Errors]
 ; EN: Failed3D="3D hardware initialization failed"

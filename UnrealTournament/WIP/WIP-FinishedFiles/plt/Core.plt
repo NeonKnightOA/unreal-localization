@@ -1,6 +1,5 @@
 ﻿[Public]
-; EN: Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
-Preferences=(Caption="System plików",Parent="Zaawansowane",Class=Core.System,Immediate=True)
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 
 [Language]
 Language="Polski"

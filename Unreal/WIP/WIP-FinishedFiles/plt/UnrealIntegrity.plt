@@ -1,10 +1,7 @@
 ﻿[Public]
-; EN: Preferences=(Caption="Unreal Integrity",Parent="Networking")
-Preferences=(Caption="Integralność Unreal",Parent="Obsługa sieci")
-; EN: Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
-Preferences=(Caption="Serwer Integralnościowy",Parent="Integralność Unreal",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
-; EN: Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
-Preferences=(Caption="Biała lista",Parent="Integralność Unreal",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+Preferences=(Caption="Unreal Integrity",Parent="Networking")
+Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
 
 [General]
 ; EN: ScanningInfo="Unreal Integrity is scanning your client for possible cheats..."

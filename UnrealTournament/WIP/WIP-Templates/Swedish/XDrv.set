@@ -1,7 +1,6 @@
 ﻿[Public]
 Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
-; EN: Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
-Preferences=(Caption="XDrv",Parent="Visa",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="Display",Class=XDrv.XClient,Immediate=True,Category=Display)
 Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,Category=Joystick)
 
 [Errors]

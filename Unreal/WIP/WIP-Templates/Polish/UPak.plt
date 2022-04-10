@@ -17,14 +17,10 @@ Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
-; EN: Preferences=(Caption="Cloak Match",Parent="Game Types",Class=UPak.CloakMatch,Immediate=True)
-Preferences=(Caption="Dopasowanie peleryny",Parent="Typy gier",Class=UPak.CloakMatch,Immediate=True)
-; EN: Preferences=(Caption="Gravity Match",Parent="Game Types",Class=UPak.GravityMatch,Immediate=True)
-Preferences=(Caption="Dopasowanie grawitacyjne",Parent="Typy gier",Class=UPak.GravityMatch,Immediate=True)
-; EN: Preferences=(Caption="Marine Match",Parent="Game Types",Class=UPak.MarineMatch,Immediate=True)
-Preferences=(Caption="Mecz morski",Parent="Typy gier",Class=UPak.MarineMatch,Immediate=True)
-; EN: Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.TerranWeaponMatch,Immediate=True)
-Preferences=(Caption="Dopasowanie broni terran",Parent="Typy gier",Class=UPak.TerranWeaponMatch,Immediate=True)
+Preferences=(Caption="Cloak Match",Parent="Game Types",Class=UPak.CloakMatch,Immediate=True)
+Preferences=(Caption="Gravity Match",Parent="Game Types",Class=UPak.GravityMatch,Immediate=True)
+Preferences=(Caption="Marine Match",Parent="Game Types",Class=UPak.MarineMatch,Immediate=True)
+Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.TerranWeaponMatch,Immediate=True)
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
