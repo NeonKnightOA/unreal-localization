@@ -1,7 +1,6 @@
 [Public]
 Object="(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-; EN: Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
-Preferences="(Caption="Filsystem", Parent="Avansert",Class=Core.System,Immediate=True)"
+Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
 
 [Errors]
 ; EN: Unknown="Unknown Error"

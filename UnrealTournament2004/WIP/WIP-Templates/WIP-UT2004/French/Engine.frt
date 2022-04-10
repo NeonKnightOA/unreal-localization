@@ -134,13 +134,22 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Preferences=(Caption="Avancé",Parent="Options avancées")
-Preferences=(Caption="Paramètres moteur de jeu",Parent="Avancé",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; Main roots
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+; "Advanced" root
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
 Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Pilotes",Parent="Options avancées",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Informations serveur publique",Parent="Réseau",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Paramètres de jeu",Parent="Options avancées",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; "Networking" root
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
 
 [UpgradeDrivers]
 OutdatedDrivers=Les pilotes de carte graphique que vous utilisez sont anciens et risquent de ne pas être compatibles avec le jeu.

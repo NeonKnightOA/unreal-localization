@@ -74,7 +74,6 @@ Closing="Fermet."
 
 [Public]
 Object="(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Preferences="(Caption="Advanced",Parent="Advanced Options")"
 Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
 
 [Query]

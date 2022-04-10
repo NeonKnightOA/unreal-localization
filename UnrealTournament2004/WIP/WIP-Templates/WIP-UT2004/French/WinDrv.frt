@@ -1,7 +1,7 @@
 [Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-Preferences=(Caption="Affichage",Parent="Options avancées",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Joystick",Parent="Options avancées",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
 Failed3D="Echec init. matérielle 3D"

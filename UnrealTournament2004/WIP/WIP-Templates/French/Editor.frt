@@ -21,14 +21,10 @@ Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
-; EN: Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
-Preferences="(Légende="Avancé",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Catégorie=Avancé)"
-; EN: Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
-Preferences="(Légende="Couleurs",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Catégorie=Couleurs)"
-; EN: Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
-Preferences="(Légende="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
-; EN: Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
-Preferences="(Caption="Grille de rotation",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
+Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
 
 [PkgCommandlet]
 ; EN: HelpCmd="pkg"

@@ -1,9 +1,7 @@
 [Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-; EN: Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="les fenêtres",Parent="Affichage",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-; EN: Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
-Preferences=(Caption="les fenêtres",Parent="Manette",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
 ; EN: Failed3D="3d hardware initialization failed"
