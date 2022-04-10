@@ -396,13 +396,13 @@ NewQueenMessage="%k a hegy új királynője!"
 GameName="A Hegy Királya"
 
 [FlakCannon]
-; EN: DeathMessage="%k put a bullet through %o's head."
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o-t széttépte darabokra %k %wja."
 FemDeathMessage="%o-t széttépte darabokra %k %wja."
 FemKillMessage="%o-t széttépte darabokra %k %wja."
-; EN: PickupMessage="You got the Rifle"
+; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Megszerezted a Szilánkvetőt"
-; EN: ItemName="Sniper Rifle"
+; EN: ItemName="Flak Cannon"
 ItemName="Szilánkvető"
 
 [Rifle]
