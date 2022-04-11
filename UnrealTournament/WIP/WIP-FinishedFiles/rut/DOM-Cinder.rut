@@ -4,7 +4,8 @@ Title="Литейный завод"
 IdealPlayerCount="6-12"
 
 [ZoneInfo18]
-ZoneName="Nook"
+; EN: ZoneName="Nook"
+ZoneName="Уголок"
 
 [ZoneInfo21]
 ; EN: ZoneName="South Side"
@@ -15,7 +16,8 @@ ZoneName="Южная сторона"
 ZoneName="Лава"
 
 [ControlPoint2]
-PointName="Nook"
+; EN: ZoneName="Nook"
+ZoneName="Уголок"
 
 [ControlPoint1]
 ; EN: PointName="Lava"
