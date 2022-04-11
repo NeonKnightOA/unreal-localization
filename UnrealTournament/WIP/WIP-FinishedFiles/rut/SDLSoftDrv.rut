@@ -4,10 +4,10 @@ Preferences=(Caption="SDL Software Support",Parent="Rendering",Class=SDLSoftDrv.
 
 [Errors]
 ; EN: ResFailed="Failed to set resolution"
-ResFailed="Не удалось установить разрешение"
+ResFailed="Разрешение не установилось"
 
 [SDLSoftwareRenderDevice]
 ; EN: ClassCaption="SDL Software Support"
-ClassCaption="Поддержка программного обеспечения SDL"
+ClassCaption="Программная поддержка SDL"
 ; EN: AskUse="Do you want Unreal Tournament to use your SDL Software RenderDevice?"
-AskUse="Вы хотите, чтобы Unreal Tournament использовал ваше SDL Software RenderDevice?"
+AskUse="Хотите ли вы, что бы Unreal Tournament использовал программную отрисовку через SDL?"

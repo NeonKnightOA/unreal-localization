@@ -4,14 +4,14 @@ Preferences=(Caption="SDL OpenGL Support",Parent="Rendering",Class=SDLGLDrv.SDLG
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Не удается найти драйвер OpenGl %ls"
+NoFindGL="Не возможно найти драйвера OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Отсутствует функция OpenGl %ls (%i)"
+MissingFunc="Функция OpenGL %ls (%i) не найдена"
 ; EN: ResFailed="Failed to set resolution"
-ResFailed="Не удалось установить разрешение"
+ResFailed="Разрешение не установилось"
 
 [SDLGLRenderDevice]
 ; EN: ClassCaption="SDL OpenGL Support"
 ClassCaption="Поддержка SDL OpenGL"
 ; EN: AskUse="Do you want Unreal Tournament to use your SDL OpenGL rendering device?"
-AskUse="Вы хотите, чтобы Unreal Tournament использовал ваше устройство рендеринга SDL OpenGL?"
+AskUse="Хотите ли вы, что бы Unreal Tournament использовал вашу видеокарту с поддержкой SDL OpenGL?"
