@@ -5,26 +5,26 @@ Preferences=(Caption="XDrv",Parent="Joystick",Class=XDrv.XClient,Immediate=True,
 
 [Errors]
 ; EN: Failed3D="3D hardware initialization failed"
-Failed3D="Не удалось инициализировать оборудование 3D"
+Failed3D="Не получилось инициализировать аппаратное 3D ускорение"
 
 [General]
 ; EN: ViewPersp="Perspective map"
-ViewPersp="Карта перспективы"
+ViewPersp="Карта в перспективе"
 ; EN: ViewXY="Overhead map"
-ViewXY="Верхняя карта"
+ViewXY="Карта сверху"
 ; EN: ViewXZ="XZ map"
 ViewXZ="Карта XZ"
 ; EN: ViewYZ="YZ map"
 ViewYZ="Карта YZ"
 ; EN: ViewOther="Viewport"
-ViewOther="Область просмотра"
+ViewOther="Вьюпорт"
 ; EN: Color16="&16-bit color"
 Color16="&16-битный цвет"
 ; EN: Color32="&32-bit color"
 Color32="&32-битный цвет"
 ; EN: AdvancedOptions="Advanced Options"
-AdvancedOptions="Расширенные настройки"
+AdvancedOptions="Дополнительные опции"
 
 [XClient]
 ; EN: ClassCaption="Standard XDrv Linux Manager"
-ClassCaption="Стандартный XDrv Linux Manager"
+ClassCaption="Стандартный менеджер XDrv Linux"
