@@ -25,7 +25,7 @@ Each language has a portal which comprises the general guidelines. All languages
 ## Credits
 * **Epic Games/Digital Extremes/Legend Entertainment:** Original English/German/French/Spanish/Italian localizations
 * **Neon_Knight:** Project coordination, Spanish maintenance.
-* **Buggie:** Localization templates.
+* **Buggie:** Localization templates for all 15 languages.
 * **Smirftsch:** German, additional contributions.
 * **eGo:** German, additional contributions.
 * **Ividyon:** German, additional contributions.
@@ -48,6 +48,14 @@ Each language has a portal which comprises the general guidelines. All languages
 * **Excalidar:** Norwegian, additional contributions.
 * **Vapor Mermaid:** Japanese, localization contributor.
 
+### UT2004 Localization credits
+* **Epic Games/Digital Extremes/Scion Studios/Streamline Studios:** Original English/German/French/Spanish/Italian/Korean localizations
+* **Neon_Knight:** Project coordination.
+* **Buggie:** Localization templates for all 15 languages.
+* **Rasiel:** Original Russian localization
+* **Cobalt:** Russian, additional contributions
+
 ## Links of interest
 * [OldUnreal](https://www.oldunreal.com/) - [Forums](https://www.oldunreal.com/phpBB3/) - [Wiki](https://www.oldunreal.com/wiki/) - [Discord](https://discord.gg/thURucxzs6)
 * [Original japanese localization for UT](https://mega.nz/file/TJ4SjSgK#dLB09tFOkGo5ctu974RG1YCWfAH_0N_um_Gw00R_WAk) - Includes important files such as the Texture pack.
+* [Original russian localizations for UT2004](http://rusut.ru/) - Includes important files such as the Texture pack.
