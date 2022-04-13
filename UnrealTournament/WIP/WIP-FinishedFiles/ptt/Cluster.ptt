@@ -31,6 +31,8 @@ No3dSoundSwitch="-No3dSound switch encontrado. A opção Use3dHardware será ign
 ; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ; EN: ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
 ClusterFuck="Cluster injetou patches binários para funcionalidade de áudio quebrada no pacote do Engine. Você pode usar -NoClusterFuck para desativá-lo."
+; EN: SelectedDriver="Cluster selected output driver: %ls."
+SelectedDriver="Driver de saída selecionado por Cluster: %ls."
 
 [Warnings]
 ; Serialized to output device for each digital music command in case UseDigitalMusic is disabled.
@@ -53,3 +55,9 @@ Version="Cluster espera uma versão mínima da biblioteca FMOd %ls, mas a versã
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
 ; EN: SystemInit="Failed to initialize FMOD system object: %ls."
 SystemInit="Falha ao inicializar o objeto do sistema FMOD: %ls."
+; EN: SystemGetNumDrivers="Failed to get number of FMOD output drivers: %ls."
+SystemGetNumDrivers="Falha ao obter o número de drivers de saída FMOD: %ls."
+; EN: SystemGetDriver="Failed to get current FMOD output driver: %ls."
+SystemGetDriver="Falha ao obter o driver de saída FMOD atual: %ls."
+; EN: SystemSetDriver="Failed to set FMOD output driver: %ls."
+SystemSetDriver="Falha ao definir o driver de saída FMOD: %ls."
