@@ -40,7 +40,8 @@ DispersionStat="分散ピストル"
 EightballStat="エイトボール"
 ; EN: FlakCannonStat="Flak Cannon"
 FlakCannonStat="フラックキャノン"
-GESBioRifleStat="GES BioRifle"
+; EN: GESBioRifleStat="GES BioRifle"
+GESBioRifleStat="GESバイオライフル"
 ; EN: MinigunStat="Minigun"
 MinigunStat="ミニガン"
 ; EN: RazorjackStat="Razorjack"
@@ -57,6 +58,8 @@ LogEntryMsg="ログエントリ："
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
 DeathMessage="％kの手榴弾は％oを爆破させました。"
+FemDeathMessage="％kの手榴弾は％oを爆破させました。"
+FemKillMessage="％kの手榴弾は％oを爆破させました。"
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
 PickupMessage="あなたはUMSグレネードランチャーを手に入れました"
 ; EN: ItemName="UMS Grenade Launcher"
@@ -84,16 +87,16 @@ GameName="Unreal Mission Pack"
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
 DeathMessage="％kのロケットは％oの体を塊に変えました。"
+FemDeathMessage="％kのロケットは％oの体を塊に変えました。"
+FemKillMessage="％kのロケットは％oの体を塊に変えました。"
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
 PickupMessage="あなたはUMSロケットランチャーを手に入れました"
 ; EN: ItemName="UMS Rocket Launcher"
 ItemName="UMSロケットランチャー"
 
 [UPakChooseGameMenu]
-; EN: MenuList[0]="Return to Na Pali"
-MenuList[0]="ナパリに戻る"
-; EN: MenuList[1]="Unreal"
-MenuList[1]="非現実的"
+MenuList[0]="Return to Na Pali"
+MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
@@ -102,6 +105,8 @@ GameName="マントマッチ"
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="％kの％wは％oをスイスチーズに変えました。"
+FemDeathMessage="％kの％wは％oをスイスチーズに変えました。"
+FemKillMessage="％kの％wは％oをスイスチーズに変えました。"
 ; EN: PickupMessage="You got the Combat Assault Rifle"
 PickupMessage="あなたはコンバットアサルトライフルを手に入れました"
 ; EN: ItemName="Combat Assault Rifle"
@@ -178,3 +183,61 @@ GameName="テランウェポンマッチ"
 PickupMessage="あなたはコンピュータタブレットを手に入れました"
 ; EN: ItemName="Computer Tablet"
 ItemName="コンピュータータブレット"
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="北極の兵士UMS"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="砂漠の兵士UMS"
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="ジャングルトルーパーUMS"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="スペーストルーパーUMS"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Brute"
+MenuName="獣"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Cow"
+MenuName="ナリウシ"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="NaliCopter"
+MenuName="ナリヘリコプター"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="捕食者"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="捕食者"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Pack Hunter"
+MenuName="グループハンター"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Spinner"
+MenuName="蜘蛛"

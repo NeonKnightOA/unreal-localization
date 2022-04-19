@@ -26,11 +26,11 @@ Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.Terran
 ; EN: Statheader="Kill Statistics: "
 Statheader="Kill Statistics: "
 ; EN: CARStat="Combat Assault Rifle"
-CARStat="Combat Assault Rifle"
+CARStat="Kampgevær"
 ; EN: RLStat="UMS Rocket Launcher"
-RLStat="UMS Rocket Launcher"
+RLStat="UMS Rakettstarter"
 ; EN: GLStat="UMS Grenade Launcher"
-GLStat="UMS Grenade Launcher"
+GLStat="UMS Granatkaster"
 ; EN: ASMDStat="ASMD"
 ASMDStat="ASMD"
 ; EN: AutomagStat="Automag"
@@ -40,15 +40,15 @@ DispersionStat="Dispersjonspistol"
 ; EN: EightballStat="Eightball"
 EightballStat="Åtteball"
 ; EN: FlakCannonStat="Flak Cannon"
-FlakCannonStat="Flak Cannon"
+FlakCannonStat="Flak Kanon"
 ; EN: GESBioRifleStat="GES BioRifle"
-GESBioRifleStat="GES BioRifle"
+GESBioRifleStat="BioGeværet GES"
 ; EN: MinigunStat="Minigun"
 MinigunStat="Minigun"
 ; EN: RazorjackStat="Razorjack"
-RazorjackStat="Razorjack"
+RazorjackStat="Bladkaster"
 ; EN: RifleStat="Sniper Rifle"
-RifleStat="Sniper Rifle"
+RifleStat="Geværet"
 ; EN: StingerStat="Stinger"
 StingerStat="Stinger"
 ; EN: TotalStat="Total Kills"
@@ -59,6 +59,8 @@ LogEntryMsg="LOGGINNGANG:"
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
 DeathMessage="Granaten på %k fikk %o til å blåse opp."
+FemDeathMessage="Granaten på %k fikk %o til å blåse opp."
+FemKillMessage="Granaten på %k fikk %o til å blåse opp."
 ; EN: PickupMessage="You got the UMS Grenade Launcher"
 PickupMessage="Du har UMS Granatkaster"
 ; EN: ItemName="UMS Grenade Launcher"
@@ -81,12 +83,13 @@ M_Deactivated=" frakoblet"
 MultWeapSlotMsg="Trykk på våpenvalgknappen for å veksle mellom våpen."
 
 [UPakSinglePlayer]
-; EN: GameName="Unreal Mission Pack"
-GameName="Oppdragspakke for Unreal"
+GameName="Unreal Mission Pack"
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
 DeathMessage="Raketten på %k gjorde kroppen til %o til biter."
+FemDeathMessage="Raketten på %k gjorde kroppen til %o til biter."
+FemKillMessage="Raketten på %k gjorde kroppen til %o til biter."
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
 PickupMessage="Du har UMS Rakettstarter"
 ; EN: ItemName="UMS Rocket Launcher"
@@ -103,6 +106,8 @@ GameName="Kappekamp"
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
 DeathMessage="%w fra %k gjorde %o til sveitsisk ost."
+FemDeathMessage="%w fra %k gjorde %o til sveitsisk ost."
+FemKillMessage="%w fra %k gjorde %o til sveitsisk ost."
 ; EN: PickupMessage="You got the Combat Assault Rifle"
 PickupMessage="Du har Kampgevær"
 ; EN: ItemName="Combat Assault Rifle"
@@ -172,10 +177,68 @@ MenuName="Mann 2"
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
-GameName="Terran våpenkamp"
+GameName="Terran Våpenkamp"
 
 [CompTablet]
 ; EN: PickupMessage="You got the Computer Tablet"
 PickupMessage="Du har datamaskintavlen"
 ; EN: ItemName="Computer Tablet"
 ItemName="Datamaskin nettbrett"
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="UMS Arktiske Marine"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="UMS ørkenmarine"
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="UMS Jungel Marine"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="UMS Romfartsmarin"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Brute"
+MenuName="Brute"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Nali Cow"
+MenuName="Nali Ki"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" et "
+; EN: MenuName="NaliCopter"
+MenuName="Nalikopter"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" et "
+; EN: MenuName="Predator"
+MenuName="Rovdyr"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" et "
+; EN: MenuName="Predator"
+MenuName="Rovdyr"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Pack Hunter"
+MenuName="Gruppejeger"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Spinner"
+MenuName="Edderkopp"
