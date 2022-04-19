@@ -1,7 +1,7 @@
 ﻿[LevelInfo5]
 ; EN: Title="Illumination"
-Title="Oświetlenie"
+Title="Iluminacja"
 
 [LevelSummary]
 ; EN: Title="Illumination"
-Title="Oświetlenie"
+Title="Iluminacja"

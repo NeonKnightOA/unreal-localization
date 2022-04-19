@@ -1,77 +1,77 @@
 ﻿[LevelInfo0]
 ; EN: Title="Rrajigar Mine"
-Title="Kopalnia Rrajigar"
+Title="Kopalnie Rrajigar"
 ; EN: LevelEntryText="Entering the Rrajigar Mine"
-LevelEntryText="Wejście do kopalni Rrajigar"
+LevelEntryText="Wejście do Kopalnie Rrajigar"
 
 [LevelSummary]
 ; EN: Title="Rrajigar Mine"
-Title="Kopalnia Rrajigar"
+Title="Kopalnie Rrajigar"
 ; EN: LevelEntryText="Entering the Rrajigar Mine"
-LevelEntryText="Wejście do kopalni Rrajigar"
+LevelEntryText="Wejście do Kopalnie Rrajigar"
 
 [TranslatorEvent11]
 ; EN: Message="WARNING: Intruder detected in Sections C-6 and D-8. All personnel are responsible for patrolling their local area."
-Message="OSTRZEŻENIE: wykryto intruza w sekcjach C-6 i D-8. Cały personel jest odpowiedzialny za patrolowanie swojego obszaru."
+Message="UWAGA: Wykryto intruza na terenie sekcji C-6 i D-8. Cały personel ma obowiązek patrolować wyznaczone tereny."
 ; EN: Hint="Shoot the red button nearby to raise the narrow bridge across the lava."
-Hint="Strzel w czerwony przycisk obok, aby podnieść wąski most nad lawą."
+Hint="Strzel w czerwony przycisk nieopodal, aby podnieść kładkę i przejść na drugą stronę strumienia lawy."
 
 [TranslatorEvent1]
 ; EN: Message="WARNING: Access bridges in lower half of mine are unsafe. Proceed with caution."
-Message="OSTRZEŻENIE: Mosty dostępu w dolnej połowie moich są niebezpieczne. Postępuj ostrożnie."
+Message="UWAGA: Mosty w dolnej części kopalni są niestabilne. Zachować ostrożność przy przechodzeniu."
 
 [TranslatorEvent0]
 ; EN: Message="ALERT: Nali slave resistance detected in Sector 3A. Lethal force authorized to suppress rebellious activity."
-Message="ALERT: Opór Nali slave został wykryty w sektorze 3A. Śmiertelna siła upoważniona do stłumienia buntowniczych działań."
+Message="ALARM: Wykryto czynny opór niewolników Nali w sektorze 3A. Niniejszym wydaje się zezwolenie na zabicie buntowników celem stłumienia rebelii."
 
 [TranslatorEvent2]
 ; EN: Message="Harobed Village is on the other side of these mountains. I will wait until the two suns have set and proceed through Rrajigar mine. It is the only way."
-Message="Wioska Harobed znajduje się po drugiej stronie tych gór. Poczekam, aż zajdą dwa słońca i przejdę przez kopalnię Rrajigar. To jedyny sposób."
+Message="Wioska Harobed znajduje się po drugiej stronie gór. Poczekam do zachodu obu słońc, a potem udam się do kopalni Rrajgar. To jedyna droga."
 
 [TranslatorEvent10]
 ; EN: Message="WARNING: Force Field power source two status is inactive. Security Condition Two reached."
-Message="OSTRZEŻENIE: Stan źródła zasilania pola siłowego nr 2 jest nieaktywny. Osiągnięto drugi warunek bezpieczeństwa."
+Message="UWAGA: Drugie źródło zasilania pola siłowego jest nieaktywne. Poziom zagrożenia 2."
 
 [TranslatorEvent6]
 ; EN: Message="Force field intact. All systems normal."
-Message="Pole siłowe nienaruszone. Wszystkie systemy normalne."
+Message="Pole siłowe aktywne. Wszystkie systemy w normie."
 ; EN: Hint="The force field must be deactivated. Find the control room."
-Hint="Pole siłowe musi być wyłączone. Znajdź pokój kontrolny."
+Hint="Należy wyłączyć pole siłowe. Znajdź sterownię."
 
 [TranslatorEvent5]
 ; EN: Message="WARNING! Force field de-activated. Intruder detected in Section C-6. Eliminate any unauthorized presence."
-Message="OSTRZEŻENIE! Pole siłowe dezaktywowane. W sekcji C-6 wykryto intruza. Wyeliminuj nieautoryzowaną obecność."
+Message="UWAGA: Pole siłowe nieaktywne. Wykryto intruza w sekcji C-6. Rozkaz: wyeliminować."
 ; EN: Hint="Shoot all red barrels."
-Hint="Zestrzel wszystkie czerwone beczki."
+Hint="Strzelaj do czerwonych beczek." 
 
 [TranslatorEvent9]
 ; EN: Message="WARNING: Force Field power source one status is inactive. Security Condition Two reached."
-Message="OSTRZEŻENIE: Jeden stan źródła zasilania pola siłowego jest nieaktywny. Osiągnięto drugi warunek bezpieczeństwa."
+Message="UWAGA: Pierwsze źródło zasilania pola siłowego jest nieaktywne. Poziom zagrożenia 1."
 
 [TranslatorEvent19]
 ; EN: Message="NOTE: Area must be clear for transport lift to perform properly."
-Message="UWAGA: Obszar musi być wolny, aby podnośnik transportowy działał prawidłowo."
+Message="WAŻNE: Teren musi być opróżniony, aby winda transportowa działała poprawnie."
 
 [TranslatorEvent15]
 ; EN: Message="You are SO dead."
-Message="Nie żyjesz."
+Message="Już jesteś TRUPEM."
 
 [TranslatorEvent14]
 ; EN: Message="What the hell are you doing up here?"
-Message="Co ty tu do cholery robisz?"
+Message="A co ty robisz tu na górze?"
 
 [TranslatorEvent20]
 ; EN: Message="Force Field Control Area"
-Message="Obszar Kontroli Pola Siłowego"
+Message="Sterownia Pola Siłowego" 
 
 [TranslatorEvent8]
 ; EN: Message="Force Field power source one status is active."
-Message="Źródło zasilania pola siłowego o jednym statusie jest aktywne."
+Message="Pierwsze źródło zasilania pola siłowego jest aktywne."
 ; EN: Hint="Press the red buttons on the wall by bumping into them."
-Hint="Naciśnij czerwone przyciski na ścianie, wpadając na nie."
+Hint="Podejdź do czerwonych przycisków przy ścianie, aby je włączyć."
 
 [TranslatorEvent7]
 ; EN: Message="Force Field power source two status is active."
-Message="Status źródła zasilania pola siłowego dwa jest aktywny."
+Message="Drugie źródło zasilania pola siłowego jest aktywne."
 ; EN: Hint="Press the red buttons on the wall by bumping into them."
-Hint="Naciśnij czerwone przyciski na ścianie, wpadając na nie."
+Hint="Podejdź do czerwonych przycisków przy ścianie, aby je włączyć."

@@ -1,25 +1,25 @@
 ﻿[LevelInfo0]
 ; EN: Title="The Ceremonial Chambers"
-Title="Komnaty ceremonialne"
+Title="Skrzydło ceremonialne"
 ; EN: LevelEnterText="Entering The Ceremonial Wing"
-LevelEnterText="Wejście do Ceremonialnego Skrzydła"
+LevelEnterText="Wkraczasz do skrzydła ceremonialnego"
 
 [LevelSummary]
 ; EN: Title="The Ceremonial Chambers"
-Title="Komnaty ceremonialne"
+Title="Skrzydło ceremonialne"
 ; EN: LevelEnterText="Entering The Ceremonial Wing"
-LevelEnterText="Wejście do Ceremonialnego Skrzydła"
+LevelEnterText="Wkraczasz do skrzydła ceremonialnego"
 
 [TranslatorEvent15]
 ; EN: Message="The inner ceremonial chambers. Here the water god's serpents reside to accept the flesh of the weak to be devoured. Only a warrior who swims like the serpent shall escape their clutches."
-Message="Wewnętrzne komnaty ceremonialne. Tutaj przebywają węże boga wody, które przyjmują ciała słabych do pożarcia. Tylko wojownik, który pływa jak wąż, wyrwie się z ich szponów."
+Message="Wewnętrzne skrzydło ceremonialne. Mieszkają tu węże należące do Boga Wód, oczekując na ciała istot słabych, aby je pożreć. Tylko wojownik, który sam pływa jak wąż, może im uciec."
 
 [TranslatorEvent0]
 ; EN: Message="Sgt. William Bradford: My entire squad has been killed by these salamander things. There's no ammo left and I've been holding up at this shrine with one of the native priests for days. While he prays I try and keep a watchful eye at the door."
-Message="Sierż. William Bradford: Cały mój oddział został zabity przez te salamandry. Nie ma już amunicji i od kilku dni trzymam się w tej świątyni z jednym z miejscowych kapłanów. Kiedy się modli, staram się uważnie obserwować drzwi."
+Message="Sierż. William Bradford: Te salamandro-podobne stwory wymordowały cały mój oddział. Nie mam już amunicji i od kilku dni przebywam w tej świątyni razem z jednym z kapłanów tubylców. Gdy on się modli, ja trzymam wartę przy drzwiach."
 
 [Counter2]
 ; EN: CountMessage="Prove to the Gods your Warrior Skills"
-CountMessage="Udowodnij bogom swoje umiejętności wojownika"
+CountMessage="Dowiedź swego kunsztu wojownika w oczach Bogów."
 ; EN: CompleteMessage="Well Done!"
-CompleteMessage="Dobra robota!"
+CompleteMessage="Znakomicie!"
