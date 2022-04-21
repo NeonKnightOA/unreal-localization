@@ -4,8 +4,8 @@ Preferences=(Caption="Master Server Uplink",Parent="Networking",Class=IpServer.U
 
 [ServerUplink]
 ; EN: ClassCaption="Master Server Uplink"
-ClassCaption="Uplink do serwera głównego"
+ClassCaption="Połączenie z serwerem głównym"
 
 [ServerQuery]
 ; EN: ClassCaption="Game Server Query"
-ClassCaption="Zapytanie do serwera gry"
+ClassCaption="Zapytania serwera gry"

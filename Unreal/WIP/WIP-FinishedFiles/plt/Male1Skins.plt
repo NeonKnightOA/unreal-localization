@@ -1,6 +1,5 @@
 ﻿[public]
-; EN: Object=(Name=Male1Skins.Carter,Class=Texture,Description="Carter")
-Object=(Name=Male1Skins.Carter,Class=Texture,Description="Furman")
+Object=(Name=Male1Skins.Carter,Class=Texture,Description="Carter")
 Object=(Name=Male1Skins.Kurgan,Class=Texture,Description="Kurgan")
 ; EN: Object=(Name=Male1Skins.T_Blue,Class=Texture,Description="Blue")
 Object=(Name=Male1Skins.T_Blue,Class=Texture,Description="niebieski")
@@ -11,4 +10,4 @@ Object=(Name=Male1Skins.T_Red,Class=Texture,Description="Czerwony")
 ; EN: Object=(Name=Male1Skins.T_Yellow,Class=Texture,Description="Yellow")
 Object=(Name=Male1Skins.T_Yellow,Class=Texture,Description="Żółty")
 ; EN: Object=(Name=Male1Skins.Male1Gib,Class=Texture,Description="Zombie")
-Object=(Name=Male1Skins.Male1Gib,Class=Texture,Description="Zambi")
+Object=(Name=Male1Skins.Male1Gib,Class=Texture,Description="Truposz")
