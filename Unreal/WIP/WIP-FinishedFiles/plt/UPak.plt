@@ -1,5 +1,6 @@
 ﻿[Public]
 Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;UPak.Return;Return to Na Pali")
+Object=(Name=UPak.UPakConsole,Class=Class,MetaClass=Engine.Console,Description="Unreal Gold")
 Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
@@ -270,3 +271,7 @@ MenuNameDative="pajęczaka"
 NameArticle=" "
 MenuName="Jaszczurka"
 MenuNameDative="jaszczurkę"
+
+[UPakConsole]
+; EN: ClassCaption="Unreal Gold Console"
+ClassCaption="Konsola z Unreal Gold"
