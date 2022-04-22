@@ -1,11 +1,11 @@
 ﻿[LevelInfo3]
 ; EN: Title="Nagomi Passage"
-Title="Pasaż Nagomi"
+Title="Przełęcz Nagomi"
 ; EN: LevelEntryText="Returning to Nagomi Passage"
-LevelEntryText="Wracając do Pasażu Nagomi"
+LevelEntryText="Wracając do Przełęcz Nagomi"
 
 [LevelSummary]
 ; EN: Title="Nagomi Passage"
-Title="Pasaż Nagomi"
+Title="Przełęcz Nagomi"
 ; EN: LevelEntryText="Returning to Nagomi Passage"
-LevelEntryText="Wracając do Pasażu Nagomi"
+LevelEntryText="Wracając do Przełęcz Nagomi"
