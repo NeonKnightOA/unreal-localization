@@ -667,6 +667,14 @@ MenuList[5]="Hesla se nyní zadávají z prohlížeče Unreal Server."
 MenuList[6]="Pozorovat:"
 ; EN: MenuList[7]="Start Game"
 MenuList[7]="Spust hru"
+; EN: HelpMessage[8]="Should use mutators with this game?"
+HelpMessage[8]="Určuje, zda se má aktuální relace hrát s mutátory."
+; EN: HelpMessage[9]="Select which mutators to use with this game."
+HelpMessage[9]="Vyberte mutátory, které chcete v této hře použít."
+; EN: MenuList[8]="Mutators:"
+MenuList[8]="Mutátoři:"
+; EN: MenuList[9]="Select Mutators"
+MenuList[9]="Vyberte mutátory"
 
 [UnrealPlayerMenu]
 ; EN: Teams[0]="Red"
@@ -693,6 +701,10 @@ MenuList[2]="Barva tymu:"
 MenuList[3]="Vzhled:"
 ; EN: MenuTitle="Select Digital Representation"
 MenuTitle="Vyber za koho budes hrat"
+; EN: HelpMessage[4]="Change your face skin using the left and right arrow keys."
+HelpMessage[4]="Změňte vzhled obličeje pomocí kláves se šipkami doleva a doprava."
+; EN: MenuList[4]="Face:"
+MenuList[4]="Tvář:"
 
 [UnrealJoinGameMenu]
 ; EN: InternetOption="(Dial-Up)"
@@ -1467,3 +1479,16 @@ ItemArticle="the"
 [WoodruffSchool]
 ; EN: PickupMessage="You got a bunch of Master of the Woods +"
 PickupMessage="Sebral jsi Spoustu Master of the Woods +"
+
+[UnrealMutatorMenu]
+; EN: InUseString="In Use"
+InUseString="V provozu"
+; EN: NotInUseString="Inactive"
+NotInUseString="Neaktivní"
+; EN: HelpMessage[0]="Return back to previous menu"
+HelpMessage[0]="Návrat zpět do předchozí nabídky"
+; EN: MenuList[0]="Return"
+MenuList[0]="Návrat"
+; EN: MenuTitle="MUTATORS"
+MenuTitle="MUTATORS"
+

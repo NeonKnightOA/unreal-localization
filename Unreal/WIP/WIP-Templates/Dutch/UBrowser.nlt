@@ -2,24 +2,6 @@
 Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
 Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
-[UBrowserServerListWindow]
-InfoName="Info"
-; EN: PlayerCountName="Players"
-PlayerCountName="Spelers"
-ServerCountName="Servers"
-; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
-QueryServerText="Master Server opvragen (druk op F5 als er niets gebeurt)"
-; EN: QueryFailedText="Master Server Failed: "
-QueryFailedText="Master-server mislukt: "
-; EN: PingingText="Pinging Servers"
-PingingText="Servers pingen"
-; EN: CompleteText="Complete"
-CompleteText="Compleet"
-
-[UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Server browser"
-
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
 ResolveFailedError="De masterserver kan niet worden opgelost: "
@@ -48,6 +30,22 @@ RuleText="Regel"
 ; EN: ValueText="Value"
 ValueText="Waarde"
 
+[UBrowserServerListWindow]
+; EN: InfoName="Info"
+InfoName="Info"
+; EN: PlayerCountName="Players"
+PlayerCountName="Spelers"
+; EN: ServerCountName="Servers"
+ServerCountName="Servers"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Master Server opvragen (druk op F5 als er niets gebeurt)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="Master-server mislukt: "
+; EN: PingingText="Pinging Servers"
+PingingText="Servers pingen"
+; EN: CompleteText="Complete"
+CompleteText="Compleet"
+
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
 AdminEmailText="E-mailadres van beheerder"
@@ -67,18 +65,21 @@ GameModeText="Spelmodus"
 GameTypeText="Speltype"
 ; EN: GameVersionText="Game Version"
 GameVersionText="Game-versie"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="Game SubVersion"
+; EN: WorldLogText="ngStats World Stat-Logging"
 WorldLogText="ngStats World Stat-Logging"
 ; EN: TrueString="Enabled"
 TrueString="Ingeschakeld"
 ; EN: FalseString="Disabled"
 FalseString="Gehandicapt"
-GameSubVersionText="Game SubVersion"
 ; EN: MapFileString="Map Filename"
 MapFileString="Map bestandsnaam"
 ; EN: DLLString="C++ Library"
 DLLString="C ++ Bibliotheek"
 ; EN: DLLVerString="%ls (ver %i)"
 DLLVerString="%ls (ver %i)"
+; EN: WebURLString="Website URL"
 WebURLString="Website URL"
 ; EN: ServerOSString="Server OS"
 ServerOSString="Server-besturingssysteem"
@@ -94,7 +95,9 @@ NewsName="Community nieuws"
 RecentName="Recente servers"
 
 [UBrowserServerGrid]
+; EN: ServerName="Server"
 ServerName="Server"
+; EN: PingName="Ping"
 PingName="Ping"
 ; EN: MapNameName="Map Name"
 MapNameName="Kaartnaam"
@@ -111,19 +114,23 @@ AttachName="&Vastmaken"
 ; EN: CloseName="&Close"
 CloseName="&Dichtbij"
 
+[UBrowserMainWindow]
+; EN: WindowTitleString="Server Browser"
+WindowTitleString="Server browser"
+
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
 RefreshName="&Alle servers vernieuwen"
 ; EN: FavoritesName="Add to &Favorites"
 FavoritesName="Toevoegen aan favorieten"
-; EN: RemoveFavoritesName="Remove from &Favorites"
-RemoveFavoritesName="Verwijder van favorieten"
 ; EN: RefreshServerName="&Ping This Server"
 RefreshServerName="&Deze server pingen"
-; EN: PingAllName="Ping &All Servers"
-PingAllName="Ping en alle servers"
 ; EN: InfoName="&Server and Player Info"
 InfoName="&Server- en spelerinfo"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping en alle servers"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="Verwijder van favorieten"
 ; EN: JoinPasswordName="Join with &Password"
 JoinPasswordName="Doe mee met &wachtwoord"
 ; EN: JoinServerName="&Join server"
@@ -140,25 +147,16 @@ CopyAddressName="&Kopieer het serveradres"
 NameText="Naam"
 ; EN: FragsText="Frags"
 FragsText="Fragmenten"
+; EN: PingText="Ping"
 PingText="Ping"
+; EN: TeamText="Team"
 TeamText="Team"
+; EN: MeshText="Mesh"
 MeshText="Mesh"
 ; EN: SkinText="Skin"
 SkinText="Huid"
 ; EN: IDText="ID"
-IDText="ID kaart"
-
-[UBrowserConsole]
-ClassCaption="Unreal Browser Console"
-
-[UBrowserOpenBar]
-OpenText="Open:"
-; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
-OpenHelp="Voer een standaard-URL in of selecteer er een uit de URL-geschiedenis. Druk op Enter om te activeren."
-
-[UBrowserServerWebWin]
-; EN: WindowTitle="Web Explorer"
-WindowTitle="Webverkenner"
+IDText="ID"
 
 [UBrowserLibPageWindow]
 ; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
@@ -169,6 +167,20 @@ DLLVerTitleStr="Kan geen verbinding maken: Dynamic Link Library-versie komt niet
 InfoText[0]="Om verbinding te maken met deze server heb je een extra C ++ bibliotheek "%ls" nodig."
 ; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
 InfoText[1]="Bekijk voor meer info de externe info van onderen (gehost door %ls):"
+
+[UBrowserConsole]
+; EN: ClassCaption="Unreal Browser Console"
+ClassCaption="Unreal Browser Console"
+
+[UBrowserOpenBar]
+; EN: OpenText="Open:"
+OpenText="Open:"
+; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
+OpenHelp="Voer een standaard-URL in of selecteer er een uit de URL-geschiedenis. Druk op Enter om te activeren."
+
+[UBrowserServerWebWin]
+; EN: WindowTitle="Unreal Web Explorer"
+WindowTitle="Unreal Webverkenner"
 
 [UBrowserServerWebCW]
 ; EN: RefreshString="Refresh page"

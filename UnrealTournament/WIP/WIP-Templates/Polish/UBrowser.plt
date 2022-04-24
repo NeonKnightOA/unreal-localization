@@ -1,4 +1,30 @@
-﻿[Public]
+﻿[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Nie można rozwiązać serwera głównego: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Przekroczono limit czasu rozmowy z serwerem głównym"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Przekroczono limit czasu połączenia z serwerem głównym: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Nie można rozwiązać serwera głównego: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Przekroczono limit czasu rozmowy z serwerem głównym"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Przekroczono limit czasu połączenia z serwerem głównym: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Nie udało się znaleźć okna: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Okno nie jest gotowe: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Reguła"
+; EN: ValueText="Value"
+ValueText="Wartość"
 
 [UBrowserServerListWindow]
 ; EN: InfoName="Info"
@@ -31,38 +57,6 @@ FullHelp="Pokazuje pełne serwery."
 LockedText="Chronione"
 ; EN: LockedHelp="Show password-protected servers."
 LockedHelp="Pokazuje serwery chronione hasłem."
-
-[UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Przeglądarka serwerów"
-
-[UBrowserGSpyLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Nie można rozwiązać serwera głównego: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Przekroczono limit czasu rozmowy z serwerem głównym"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Przekroczono limit czasu połączenia z serwerem głównym: "
-
-[UBrowserHTTPLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Nie można rozwiązać serwera głównego: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Przekroczono limit czasu rozmowy z serwerem głównym"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Przekroczono limit czasu połączenia z serwerem głównym: "
-
-[UBrowserSubsetFact]
-; EN: NotFoundError="Could not find the window: "
-NotFoundError="Nie udało się znaleźć okna: "
-; EN: NotReadyError="Window is not ready: "
-NotReadyError="Okno nie jest gotowe: "
-
-[UBrowserRulesGrid]
-; EN: RuleText="Rule"
-RuleText="Reguła"
-; EN: ValueText="Value"
-ValueText="Wartość"
 
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
@@ -99,7 +93,9 @@ GoalTeamScoreText="Wymagany wynik drużyny"
 MinPlayersText="Boty wchodzą do gry za min. z"
 ; EN: PlayersText="Players"
 PlayersText="Gracze"
+; EN: MaxTeamsText="Max Teams"
 MaxTeamsText="Max Teams"
+; EN: BalanceTeamsText="Bots Balance Teams"
 BalanceTeamsText="Bots Balance Teams"
 ; EN: PlayersBalanceTeamsText="Force Team Balance"
 PlayersBalanceTeamsText="Wymuś równowagę zespołu"
@@ -107,6 +103,7 @@ PlayersBalanceTeamsText="Wymuś równowagę zespołu"
 FriendlyFireText="Obrażenia od ognia sojuszniczego"
 ; EN: MinNetVersionText="Min. Compatible Version"
 MinNetVersionText="Min. Zgodna wersja"
+; EN: BotSkillText="Bot Skill"
 BotSkillText="Bot Skill"
 ; EN: TournamentText="Tournament Mode"
 TournamentText="Tryb turniejowy"
@@ -149,19 +146,21 @@ RefreshName="&Odśwież informacje"
 ; EN: CloseName="&Close"
 CloseName="&Blisko"
 
+[UBrowserMainWindow]
+; EN: WindowTitleString="Server Browser"
+WindowTitleString="Przeglądarka serwerów"
+
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
 RefreshName="&Odśwież wszystkie serwery"
 ; EN: FavoritesName="Add to &Favorites"
 FavoritesName="Dodaj do ulubionych"
-; EN: RemoveFavoritesName="R&emove from Favorites"
-RemoveFavoritesName="Usuń z ulubionych"
 ; EN: RefreshServerName="P&ing This Server"
 RefreshServerName="P &rzyń ten serwer"
-; EN: PingAllName="Ping &All Servers"
-PingAllName="Ping i wszystkie serwery"
 ; EN: InfoName="&Server and Player Info"
 InfoName="&Informacje o serwerze i graczu"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping &wszystkie serwery"
 ; EN: PlayName="&Play on This Server"
 PlayName="&Graj na tym serwerze"
 ; EN: OpenLocationName="Open &Location"
@@ -182,6 +181,7 @@ TeamText="Zespół"
 MeshText="Siatka"
 ; EN: SkinText="Skin"
 SkinText="Skóra"
+; EN: IDText="ID"
 IDText="ID"
 ; EN: FaceText="Face"
 FaceText="Twarz"
@@ -191,27 +191,6 @@ ngSecretText="Typ gracza"
 BotText="Nerw"
 ; EN: HumanText="Human"
 HumanText="Człowiek"
-
-[ServerListTitles]
-; EN: UBrowserUT="UT Servers"
-UBrowserUT="Serwery UT"
-; EN: UBrowserLAN="LAN Servers"
-UBrowserLAN="Serwery LAN"
-; EN: UBrowserPopulated="Populated Servers"
-UBrowserPopulated="Zapełnione serwery"
-; EN: UBrowserDeathmatch="Deathmatch"
-UBrowserDeathmatch="Pojedynek"
-UBrowserTeamGames="Team Deathmatch"
-; EN: UBrowserCTF="Capture the Flag"
-UBrowserCTF="Zdobyć flagę"
-; EN: UBrowserDOM="Domination"
-UBrowserDOM="Dominacja"
-; EN: UBrowserAS="Assault"
-UBrowserAS="Atak"
-; EN: UBrowserLMS="Last Man Standing"
-UBrowserLMS="Ostatni stojący mężczyzna"
-; EN: UBrowserAll="All Servers"
-UBrowserAll="Wszystkie serwery"
 
 [UBrowserIRCSystemPage]
 ; EN: NotInAChannelText="Not in a channel!"
@@ -306,6 +285,7 @@ OKText="ok"
 WindowTitle="Edytuj ulubione"
 
 [UBrowserIRCWindow]
+; EN: SystemName="System"
 SystemName="System"
 
 [UBrowserOpenWindow]
@@ -347,6 +327,28 @@ JoinText="&Przystąp"
 OKText="Nowy"
 ; EN: WindowTitle="New Favorite"
 WindowTitle="Nowy ulubiony"
+
+[ServerListTitles]
+; EN: UBrowserUT="UT Servers"
+UBrowserUT="Serwery UT"
+; EN: UBrowserLAN="LAN Servers"
+UBrowserLAN="Serwery LAN"
+; EN: UBrowserPopulated="Populated Servers"
+UBrowserPopulated="Zapełnione serwery"
+; EN: UBrowserDeathmatch="Deathmatch"
+UBrowserDeathmatch="Pojedynek"
+; EN: UBrowserTeamGames="Team Deathmatch"
+UBrowserTeamGames="Team Deathmatch"
+; EN: UBrowserCTF="Capture the Flag"
+UBrowserCTF="Zdobyć flagę"
+; EN: UBrowserDOM="Domination"
+UBrowserDOM="Dominacja"
+; EN: UBrowserAS="Assault"
+UBrowserAS="Atak"
+; EN: UBrowserLMS="Last Man Standing"
+UBrowserLMS="Ostatni stojący mężczyzna"
+; EN: UBrowserAll="All Servers"
+UBrowserAll="Wszystkie serwery"
 
 [UBrowserTypesGrid]
 ; EN: TypeText="Game type"

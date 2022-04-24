@@ -1,4 +1,30 @@
-﻿[Public]
+﻿[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="No s'ha pogut resoldre el servidor mestre: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Temps d’espera per parlar amb el servidor mestre"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="S'ha esgotat el temps d'espera de la connexió al servidor mestre: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="No s'ha pogut resoldre el servidor mestre: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Temps d’espera per parlar amb el servidor mestre"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="S'ha esgotat el temps d'espera de la connexió al servidor mestre: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="No s'ha pogut trobar la finestra: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="La finestra no està preparada: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Regla"
+; EN: ValueText="Value"
+ValueText="Valor"
 
 [UBrowserServerListWindow]
 ; EN: InfoName="Info"
@@ -32,38 +58,6 @@ LockedText="Protegits"
 ; EN: LockedHelp="Show password-protected servers."
 LockedHelp="Mostra servidors protegits amb contrasenya."
 
-[UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Navegador de servidors"
-
-[UBrowserGSpyLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="No s'ha pogut resoldre el servidor mestre: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Temps d’espera per parlar amb el servidor mestre"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="S'ha esgotat el temps d'espera de la connexió al servidor mestre: "
-
-[UBrowserHTTPLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="No s'ha pogut resoldre el servidor mestre: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Temps d’espera per parlar amb el servidor mestre"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="S'ha esgotat el temps d'espera de la connexió al servidor mestre: "
-
-[UBrowserSubsetFact]
-; EN: NotFoundError="Could not find the window: "
-NotFoundError="No s'ha pogut trobar la finestra: "
-; EN: NotReadyError="Window is not ready: "
-NotReadyError="La finestra no està preparada: "
-
-[UBrowserRulesGrid]
-; EN: RuleText="Rule"
-RuleText="Regla"
-; EN: ValueText="Value"
-ValueText="Valor"
-
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
 AdminEmailText="Correu electrònic d'administrador"
@@ -83,6 +77,7 @@ GameModeText="Mode de joc"
 GameTypeText="Tipus de joc"
 ; EN: GameVersionText="Game Version"
 GameVersionText="Versió del joc"
+; EN: WorldLogText="ngStats World Stat-Logging"
 WorldLogText="ngStats World Stat-Logging"
 ; EN: MutatorsText="Mutators"
 MutatorsText="Mutadors"
@@ -138,6 +133,7 @@ MOTDName="Notícies"
 [UBrowserServerGrid]
 ; EN: ServerName="Server"
 ServerName="Servidor"
+; EN: PingName="Ping"
 PingName="Ping"
 ; EN: MapNameName="Map Name"
 MapNameName="Nom del mapa"
@@ -150,19 +146,21 @@ RefreshName="&Actualitza la informació"
 ; EN: CloseName="&Close"
 CloseName="&Tanca"
 
+[UBrowserMainWindow]
+; EN: WindowTitleString="Unreal Tournament Server Browser"
+WindowTitleString="Navegador de servidors Unreal Tournament"
+
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
 RefreshName="&Actualitza tots els servidors"
 ; EN: FavoritesName="Add to &Favorites"
 FavoritesName="Afegir a preferits"
-; EN: RemoveFavoritesName="R&emove from Favorites"
-RemoveFavoritesName="Feu-ne un canvi de Preferits"
 ; EN: RefreshServerName="P&ing This Server"
 RefreshServerName="P &ing aquest servidor"
-; EN: PingAllName="Ping &All Servers"
-PingAllName="Ping i tots els servidors"
 ; EN: InfoName="&Server and Player Info"
 InfoName="&Informació del servidor i del jugador"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping i tots els servidors"
 ; EN: PlayName="&Play on This Server"
 PlayName="&Juga en aquest servidor"
 ; EN: OpenLocationName="Open &Location"
@@ -184,7 +182,7 @@ MeshText="Malla"
 ; EN: SkinText="Skin"
 SkinText="Pell"
 ; EN: IDText="ID"
-IDText="Identificació"
+IDText="ID"
 ; EN: FaceText="Face"
 FaceText="Cara"
 ; EN: ngSecretText="Player type"
@@ -193,28 +191,6 @@ ngSecretText="Tipus de jugador"
 BotText="Bot"
 ; EN: HumanText="Human"
 HumanText="Humà"
-
-[ServerListTitles]
-; EN: UBrowserUT="UT Servers"
-UBrowserUT="Servidors UT"
-; EN: UBrowserLAN="LAN Servers"
-UBrowserLAN="Servidors LAN"
-; EN: UBrowserPopulated="Populated Servers"
-UBrowserPopulated="Servidors poblats"
-; EN: UBrowserDeathmatch="Deathmatch"
-UBrowserDeathmatch="Combat a mort"
-; EN: UBrowserTeamGames="Team Deathmatch"
-UBrowserTeamGames="Equip Deathmatch"
-; EN: UBrowserCTF="Capture the Flag"
-UBrowserCTF="Captura la bandera"
-; EN: UBrowserDOM="Domination"
-UBrowserDOM="Dominació"
-; EN: UBrowserAS="Assault"
-UBrowserAS="Assalt"
-; EN: UBrowserLMS="Last Man Standing"
-UBrowserLMS="Últim home de peu"
-; EN: UBrowserAll="All Servers"
-UBrowserAll="Tots els servidors"
 
 [UBrowserIRCSystemPage]
 ; EN: NotInAChannelText="Not in a channel!"
@@ -351,6 +327,28 @@ JoinText="&Uneix-te"
 OKText="Novo"
 ; EN: WindowTitle="New Favorite"
 WindowTitle="Nou favorit"
+
+[ServerListTitles]
+; EN: UBrowserUT="UT Servers"
+UBrowserUT="Servidors UT"
+; EN: UBrowserLAN="LAN Servers"
+UBrowserLAN="Servidors LAN"
+; EN: UBrowserPopulated="Populated Servers"
+UBrowserPopulated="Servidors poblats"
+; EN: UBrowserDeathmatch="Deathmatch"
+UBrowserDeathmatch="Combat a mort"
+; EN: UBrowserTeamGames="Team Deathmatch"
+UBrowserTeamGames="Equip Deathmatch"
+; EN: UBrowserCTF="Capture the Flag"
+UBrowserCTF="Captura la bandera"
+; EN: UBrowserDOM="Domination"
+UBrowserDOM="Dominació"
+; EN: UBrowserAS="Assault"
+UBrowserAS="Assalt"
+; EN: UBrowserLMS="Last Man Standing"
+UBrowserLMS="Últim home de peu"
+; EN: UBrowserAll="All Servers"
+UBrowserAll="Tots els servidors"
 
 [UBrowserTypesGrid]
 ; EN: TypeText="Game type"

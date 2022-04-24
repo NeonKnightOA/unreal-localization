@@ -507,6 +507,10 @@ VSyncModes[1]="Povoleno"
 VSyncModes[2]="Adaptivní"
 ; EN: NotAvailableText="Not available"
 NotAvailableText="Není dostupný"
+; EN: BorderlessFSText="Fake Fullscreen"
+BorderlessFSText="Falešná celá obrazovka"
+; EN: BorderlessFSHelp="Unreal should run game in fake fullscreen (borderless windowed) mode."
+BorderlessFSHelp="Určuje, zda má Unreal spustit hru ve falešném režimu celé obrazovky (okna bez okrajů)."
 
 [UMenuPlayerSetupClient]
 EditAreaWidth=110

@@ -1138,6 +1138,14 @@ MenuList[5]="Пароли теперь вводятся в обозревате�
 MenuList[6]="Зритель:"
 ; EN: MenuList[7]="Start Game"
 MenuList[7]="Начать игру"
+; EN: HelpMessage[8]="Should use mutators with this game?"
+HelpMessage[8]="Указывает, следует ли воспроизводить текущий сеанс с мутаторами."
+; EN: HelpMessage[9]="Select which mutators to use with this game."
+HelpMessage[9]="Выберите, какие мутаторы использовать в этой игре."
+; EN: MenuList[8]="Mutators:"
+MenuList[8]="Мутаторы:"
+; EN: MenuList[9]="Select Mutators"
+MenuList[9]="Выбрать мутаторы"
 
 [UnrealPlayerMenu]
 ; EN: Teams[0]="Red"
@@ -1164,6 +1172,10 @@ MenuList[2]="Цвет:"
 MenuList[3]="Скин:"
 ; EN: MenuTitle="Select Digital Representation"
 MenuTitle="Выбор игрока"
+; EN: HelpMessage[4]="Change your face skin using the left and right arrow keys."
+HelpMessage[4]="Измените кожу лица с помощью клавиш со стрелками влево и вправо."
+; EN: MenuList[4]="Face:"
+MenuList[4]="Лицо:"
 
 [UnrealJoinGameMenu]
 ; EN: InternetOption="(Dial-Up)"
@@ -1599,3 +1611,15 @@ ItemName="Властелина лесов"
 [WoodruffSchool]
 ; EN: PickupMessage="You got a bunch of Master of the Woods +"
 PickupMessage="У вас есть связка Мастера леса +"
+
+[UnrealMutatorMenu]
+; EN: InUseString="In Use"
+InUseString="Используется"
+; EN: NotInUseString="Inactive"
+NotInUseString="Неактивный"
+; EN: HelpMessage[0]="Return back to previous menu"
+HelpMessage[0]="Вернуться в предыдущее меню"
+; EN: MenuList[0]="Return"
+MenuList[0]="Возврат"
+; EN: MenuTitle="MUTATORS"
+MenuTitle="МУТАТОРЫ"

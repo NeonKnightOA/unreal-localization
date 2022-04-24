@@ -677,6 +677,10 @@ MenuList[4]="Class:"
 MenuList[5]="Passwords are now entered from the Unreal Server browser."
 MenuList[6]="Spectate:"
 MenuList[7]="Start Game"
+HelpMessage[8]="Specifies if the current session should be played with mutators."
+HelpMessage[9]="Select which mutators to use with this game."
+MenuList[8]="Mutators:"
+MenuList[9]="Select Mutators"
 
 [UnrealPlayerMenu]
 Teams[0]="Red"
@@ -691,6 +695,8 @@ MenuList[1]="Name: "
 MenuList[2]="Team Color:"
 MenuList[3]="Skin:"
 MenuTitle="Select Digital Representation"
+HelpMessage[4]="Change your face skin using the left and right arrow keys."
+MenuList[4]="Face:"
 
 [UnrealJoinGameMenu]
 InternetOption="(Dial-Up)"
@@ -936,3 +942,9 @@ ItemName="Master of the Woods"
 PickupMessage="You got a bundle Master of the woods +"
 ItemName="Master of the woods"
 
+[UnrealMutatorMenu]
+InUseString="In Use"
+NotInUseString="Inactive"
+HelpMessage[0]="Return back to previous menu"
+MenuList[0]="Return"
+MenuTitle="MUTATORS"

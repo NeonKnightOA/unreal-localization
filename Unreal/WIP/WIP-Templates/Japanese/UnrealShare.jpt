@@ -610,6 +610,14 @@ MenuList[5]="UnrealServerブラウザからパスワードを入力できるよ�
 MenuList[6]="観戦："
 ; EN: MenuList[7]="Start Game"
 MenuList[7]="ゲームを始める"
+; EN: HelpMessage[8]="Should use mutators with this game?"
+HelpMessage[8]="現在のセッションをミューテーターで再生するかどうかを指定します。"
+; EN: HelpMessage[9]="Select which mutators to use with this game."
+HelpMessage[9]="このゲームで使用するミューテーターを選択してください。"
+; EN: MenuList[8]="Mutators:"
+MenuList[8]="ミューテーター："
+; EN: MenuList[9]="Select Mutators"
+MenuList[9]="ミューテーターの選択"
 
 [UnrealPlayerMenu]
 ; EN: Teams[0]="Red"
@@ -636,6 +644,10 @@ MenuList[2]="チームカラー："
 MenuList[3]="肌："
 ; EN: MenuTitle="Select Digital Representation"
 MenuTitle="デジタル表現を選択"
+; EN: HelpMessage[4]="Change your face skin using the left and right arrow keys."
+HelpMessage[4]="左矢印キーと右矢印キーを使用して顔の肌を変更します。"
+; EN: MenuList[4]="Face:"
+MenuList[4]="顔："
 
 [UnrealJoinGameMenu]
 ; EN: InternetOption="(Dial-Up)"
@@ -1401,3 +1413,15 @@ ItemArticle="NS"
 [WoodruffSchool]
 ; EN: PickupMessage="You got a bunch of Master of the Woods +"
 PickupMessage="あなたは森のマスターの束を手に入れました+"
+
+[UnrealMutatorMenu]
+; EN: InUseString="In Use"
+InUseString="使用中"
+; EN: NotInUseString="Inactive"
+NotInUseString="非アクティブ"
+; EN: HelpMessage[0]="Return back to previous menu"
+HelpMessage[0]="前のメニューに戻る"
+; EN: MenuList[0]="Return"
+MenuList[0]="戻る"
+; EN: MenuTitle="MUTATORS"
+MenuTitle="ミューテイタ"

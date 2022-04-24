@@ -1129,6 +1129,14 @@ MenuList[5]="Passwörter werden jetzt über den Unreal Server-Browser eingegeben
 MenuList[6]="Zuschauer:"
 ; EN: MenuList[7]="Start Game"
 MenuList[7]="Spiel Starten"
+; EN: HelpMessage[8]="Should use mutators with this game?"
+HelpMessage[8]="Gibt an, ob die aktuelle Sitzung mit Mutatoren gespielt werden soll."
+; EN: HelpMessage[9]="Select which mutators to use with this game."
+HelpMessage[9]="Wählen Sie aus, welche Mutatoren für dieses Spiel verwendet werden sollen."
+; EN: MenuList[8]="Mutators:"
+MenuList[8]="Mutatoren:"
+; EN: MenuList[9]="Select Mutators"
+MenuList[9]="Mutatoren auswählen"
 
 [UnrealPlayerMenu]
 ; EN: Teams[0]="Red"
@@ -1155,6 +1163,10 @@ MenuList[2]="Teamfarbe:"
 MenuList[3]="Haut:"
 ; EN: MenuTitle="Select Digital Representation"
 MenuTitle="Digitale Wiedergabe wählen"
+; EN: HelpMessage[4]="Change your face skin using the left and right arrow keys."
+HelpMessage[4]="Ändern Sie Ihre Gesichtshaut mit der linken und rechten Pfeiltaste."
+; EN: MenuList[4]="Face:"
+MenuList[4]="Gesicht:"
 
 [UnrealJoinGameMenu]
 ; EN: InternetOption="(Dial-Up)"
@@ -1586,3 +1598,16 @@ ItemName="Meister des Waldes"
 PickupMessage="Du hast ein paar Master of the Woods"
 ; EN: ItemName="Master of the Woods"
 ItemName="Meister des Waldes"
+
+[UnrealMutatorMenu]
+; EN: InUseString="In Use"
+InUseString="In Gebrauch"
+; EN: NotInUseString="Inactive"
+NotInUseString="Inaktiv"
+; EN: HelpMessage[0]="Return back to previous menu"
+HelpMessage[0]="Zurück zum vorherigen Menü"
+; EN: MenuList[0]="Return"
+MenuList[0]="Zurück"
+; EN: MenuTitle="MUTATORS"
+MenuTitle="MUTATOREN"
+

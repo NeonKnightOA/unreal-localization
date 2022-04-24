@@ -231,6 +231,8 @@ NeedPassword="Aby dołączyć do wybranej rozgrywki, należy wprowadzić hasło.
 MaleGender="jego"
 ; EN: FemaleGender="her"
 FemaleGender="jej"
+; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
+MaxedOutSpectatorsMsg="Przekroczono maksymalną liczbę widzów"
 
 [Errors]
 ; EN: NetOpen="Error opening file"

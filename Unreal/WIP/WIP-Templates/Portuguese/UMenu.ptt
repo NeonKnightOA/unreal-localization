@@ -497,6 +497,10 @@ VSyncModes[1]="Habilitado"
 VSyncModes[2]="Adaptativo"
 ; EN: NotAvailableText="Not available"
 NotAvailableText="Não disponível"
+; EN: BorderlessFSText="Fake Fullscreen"
+BorderlessFSText="Tela cheia falsa"
+; EN: BorderlessFSHelp="Unreal should run game in fake fullscreen (borderless windowed) mode."
+BorderlessFSHelp="Especifica se o Unreal deve rodar o jogo em modo de tela cheia falsa (janela sem bordas)."
 
 [UMenuPlayerSetupClient]
 EditAreaWidth=110

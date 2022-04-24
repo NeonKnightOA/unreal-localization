@@ -498,6 +498,10 @@ VSyncModes[1]="Engedélyezve"
 VSyncModes[2]="Alkalmazkodó"
 ; EN: NotAvailableText="Not available"
 NotAvailableText="Nem elérhető"
+; EN: BorderlessFSText="Fake Fullscreen"
+BorderlessFSText="Hamis teljes képernyő"
+; EN: BorderlessFSHelp="Unreal should run game in fake fullscreen (borderless windowed) mode."
+BorderlessFSHelp="Meghatározza, hogy az Unrealnak hamis teljes képernyős (keret nélküli ablakos) módban kell-e futnia a játéknak."
 
 [UMenuPlayerSetupClient]
 EditAreaWidth=110
