@@ -4,4 +4,4 @@ Preferences=(Caption="FMOD 3D Audio Support",Parent="Audio",Class=FMODAudioDrv.F
 
 [FMODAudioDevice]
 ; EN: ClassCaption="FMOD 3D Audio Support"
-ClassCaption="Obsługa dźwięku FMOD 3D"
+ClassCaption="Obsługa FMOD 3D"
