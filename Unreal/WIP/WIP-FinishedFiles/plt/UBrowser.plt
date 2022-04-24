@@ -4,17 +4,17 @@ Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainC
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Serwer główny nie odpowiada: "
+ResolveFailedError="Serwer główny nie odpowiada:"
 ; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Przekroczono czas oczekiwania na odpowiedź serwera gł."
+TimeOutError="Przekroczono czas oczekiwania na odpowiedź serwera gł"
 ; EN: CouldNotConnectError="Connecting to the master server timed out: "
 CouldNotConnectError="Przekroczono czas oczekiwania na połączenie z serwerem gł.: "
 
 [UBrowserHTTPLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Serwer główny nie odpowiada: "
+ResolveFailedError="Serwer główny nie odpowiada:"
 ; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Przekroczono czas oczekiwania na odpowiedź serwera gł."
+TimeOutError="Przekroczono czas oczekiwania na odpowiedź serwera gł"
 ; EN: CouldNotConnectError="Connecting to the master server timed out: "
 CouldNotConnectError="Przekroczono czas oczekiwania na połączenie z serwerem gł.: "
 
@@ -38,7 +38,7 @@ PlayerCountName="Gracze"
 ; EN: ServerCountName="Servers"
 ServerCountName="Serwery"
 ; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
-QueryServerText="Trwa wysyłanie zapytania do serwera gł. (naciśnij F5, jeśli nic się nie dzieje)"
+QueryServerText="Trwa wysyłanie zapytania do serwera gł."
 ; EN: QueryFailedText="Master Server Failed: "
 QueryFailedText="Brak odpowiedzi od serwera gł.: "
 ; EN: PingingText="Pinging Servers"
@@ -78,7 +78,7 @@ MapFileString="Nazwa pliku mapy"
 ; EN: DLLString="C++ Library"
 DLLString="Biblioteka C++"
 ; EN: DLLVerString="%ls (ver %i)"
-DLLVerString="%s (wer %i)"
+DLLVerString="%ls (wer %i)"
 ; EN: WebURLString="Website URL"
 WebURLString="URL strony WWW"
 ; EN: ServerOSString="Server OS"
@@ -109,14 +109,14 @@ VersionName="Wersja"
 [UBrowserInfoMenu]
 ; EN: RefreshName="&Refresh Info"
 RefreshName="&Odśwież okno"
-; EN: AttachName="&Attach"
+; EN: AttachName="&Attach Window"
 AttachName="Za&czep okno"
-; EN: CloseName="&Close"
+; EN: CloseName="&Close Window"
 CloseName="&Zamknij okno"
 
 [UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Przeglądarka serwerów"
+; EN: WindowTitleString="Unreal Server Browser"
+WindowTitleString="Przeglądarka serwerów Unreal"
 
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
@@ -164,9 +164,9 @@ DLLTitleStr="Połączenie nieudane: brak biblioteki DLL "%ls"."
 ; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
 DLLVerTitleStr="Połączenie nieudane: niewłaściwa wersja biblioteki DLL "%ls"."
 ; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
-InfoText[0]="Aby dołączyć do wybranego serwera, potrzebna jest dodatkowa biblioteka C++ "%ls","
+InfoText[0]="Aby dołączyć do wybranego serwera, potrzebna jest dodatkowa biblioteka C++ "%ls"."
 ; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
-InfoText[1]="aby uzyskać dodatkowe informacje ze źródła zewnętrznego, udaj się pod poniższy adres: %ls :"
+InfoText[1]="Aby uzyskać dodatkowe informacje ze źródła zewnętrznego, udaj się pod poniższy adres: %ls:"
 
 [UBrowserConsole]
 ; EN: ClassCaption="Unreal Browser Console"
@@ -179,7 +179,7 @@ OpenText="Otwórz:"
 OpenHelp="Wprowadź standardowy adres URL, lub wybierz istniejący z historii adresów URL. Użyj klawisza Enter, aby przejść do wprowadzonego adresu."
 
 [UBrowserServerWebWin]
-; EN: WindowTitle="Web Explorer"
+; EN: WindowTitle="Unreal Web Explorer"
 WindowTitle="Przeglądarka internetowa Unreal"
 
 [UBrowserServerWebCW]
