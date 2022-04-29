@@ -215,9 +215,9 @@ MenuNameDative="Władcę"
 
 [SearchLight]
 ; EN: ExpireMessage="The Search Light batteries have died."
-ExpireMessage="Baterie reflektora wyczerpane."
+ExpireMessage="Baterie Reflektora wyczerpane."
 ; EN: PickupMessage="You picked up the Search Light"
-PickupMessage="Podnosisz reflektor"
+PickupMessage="Podnosisz Reflektor"
 ; EN: ItemName="Search Light"
 ItemName="Reflektor"
 ItemArticle=" "
@@ -227,9 +227,9 @@ M_Selected=" gotowy do użycia."
 
 [RazorAmmo]
 ; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Podnosisz paczkę ostrzy"
+PickupMessage="Podnosisz Paczkę Ostrzy"
 ; EN: ItemName="Razor Blades"
-ItemName="Paczkę ostrzy"
+ItemName="Paczkę Ostrzy"
 
 [DarkMatch]
 ; EN: ClassCaption="DarkMatch"
@@ -239,9 +239,9 @@ GameName="DarkMatch"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Podnosisz 10 ładunków do Garłacza"
+PickupMessage="Podnosisz 10 Ładunków do Garłacza"
 ; EN: ItemName="Flak Shells"
-ItemName="ładunków do Garłacza"
+ItemName="Ładunków do Garłacza"
 
 [MaleOne]
 ; EN: MenuName="Male 1"
@@ -253,26 +253,26 @@ MenuName="Mężczyzna 1"
 
 [RifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle Rounds"
-PickupMessage="Podnosisz 8 nabojów do karabinu snajperskiego"
+PickupMessage="Podnosisz 8 Nabojów do Karabinu Snajperskiego"
 ; EN: ItemName="Rifle Rounds"
-ItemName="Nabojów do karabinu snajperskiego"
+ItemName="Nabojów do Karabinu Snajperskiego"
 
 [Seeds]
 ; EN: PickupMessage="You got the Nali Fruit Seeds"
-PickupMessage="Podnosisz nasiono owocu Nali"
+PickupMessage="Podnosisz Nasiono Owocu Nali"
 ; EN: ItemName="Nali Fruit Seeds"
-ItemName="Nasiono owocu Nali"
+ItemName="Nasiono Owocu Nali"
 ItemArticle=" "
 M_Activated=" zostało posiane."
 M_Selected=" jest gotowe do posiania."
 
 [JumpBoots]
 ; EN: ExpireMessage="The Jump Boots have drained."
-ExpireMessage="Buty antygrawitacyjne wyczerpane."
+ExpireMessage="Buty Antygrawitacyjne wyczerpane."
 ; EN: PickupMessage="You picked up the Jump Boots"
-PickupMessage="Podnosisz buty antygrawitacyjne"
+PickupMessage="Podnosisz Buty Antygrawitacyjne"
 ; EN: ItemName="Jump Boots"
-ItemName="Buty antygrawitacyjne"
+ItemName="Buty Antygrawitacyjne"
 ItemArticle=" "
 M_Activated=" włączone."
 M_Deactivated=" wyłączone."
@@ -282,9 +282,9 @@ M_Selected=" gotowe do użycia."
 ; EN: M_NoRoom="No room to activate the Force Field."
 M_NoRoom="Brak miejsca na pole siłowe. Rozstawienie pola niemożliwe."
 ; EN: PickupMessage="You picked up the Force Field"
-PickupMessage="Podnosisz generator pola siłowego"
+PickupMessage="Podnosisz Generator Pola Siłowego"
 ; EN: ItemName="Force Field"
-ItemName="Generator pola siłowego"
+ItemName="Generator Pola Siłowego"
 ItemArticle=" "
 M_Activated=" włączony. Pole siłowe zostało rozstawione."
 M_Deactivated=" wyłączony."
@@ -308,9 +308,9 @@ MenuName="Mężczyzna 2"
 
 [Sludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Podnosisz 25kg odpadów tarydowych"
+PickupMessage="Podnosisz 25kg Odpadów Tarydowych"
 ; EN: ItemName="Tarydium Biosludge"
-ItemName="Odpadów tarydowych"
+ItemName="Odpadów Tarydowych"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -340,9 +340,9 @@ FemAltName="spadła"
 
 [FlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Podnosisz ładunek do Garłacza"
+PickupMessage="Podnosisz Ładunek do Garłacza"
 ; EN: ItemName="Flak Shell"
-ItemName="ładunek do Garłacza"
+ItemName="Ładunek do Garłacza"
 
 [drowned]
 ; EN: Name="drowned"
@@ -364,7 +364,7 @@ FemAltName="straciła głowę"
 ; EN: ExpireMessage="Acoustic dampener has run out."
 ExpireMessage="Tłumik wyczerpany."
 ; EN: PickupMessage="You got the Acoustic Dampener"
-PickupMessage="Podnosisz tłumik"
+PickupMessage="Podnosisz Tłumik"
 ; EN: ItemName="Acoustic Dampener"
 ItemName="Tłumik"
 ItemArticle=" "
@@ -382,9 +382,9 @@ FemAltName="rozpuszczona"
 
 [ToxinSuit]
 ; EN: PickupMessage="You picked up the Toxin Suit"
-PickupMessage="Podnosisz kombinezon antytoksynowy"
+PickupMessage="Podnosisz Kombinezon Antytoksynowy"
 ; EN: ItemName="Toxin Suit"
-ItemName="Kombinezon antytoksynowy"
+ItemName="Kombinezon Antytoksynowy"
 
 [Burned]
 ; EN: Name="burned"
@@ -402,9 +402,9 @@ ItemName="Pas Pola Siłowego"
 
 [RifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Podnosisz nabój do karabinu snajperskiego"
+PickupMessage="Podnosisz Nabój do Karabinu Snajperskiego"
 ; EN: ItemName="Rifle Round"
-ItemName="Nabój do karabinu snajperskiego"
+ItemName="Nabój do Karabinu Snajperskiego"
 
 [ParentBlob]
 ; EN: BlobKillMessage="was corroded by a Blob"
@@ -495,9 +495,9 @@ DeathMessage="%o - %k właśnie spuścił ci do gardła cały ładunek ścieków
 FemDeathMessage="%o - %k właśnie spuścił ci do gardła cały ładunek ścieków."
 FemKillMessage="%o - %k właśnie spuścił ci do gardła cały ładunek ścieków."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Podnosisz karabin odpadowy"
+PickupMessage="Podnosisz Karabin Odpadowy GES"
 ; EN: ItemName="GES Bio Rifle"
-ItemName="Karabin Odpadowy"
+ItemName="Karabin Odpadowy GES"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
@@ -529,9 +529,9 @@ DeathMessage="%o - %k rozrywa cię na części pierwsze czterolufowym obrzynem."
 FemDeathMessage="="%o - %k rozrywa cię na części pierwsze czterolufowym obrzynem."
 FemKillMessage="="%o - %k rozrywa cię na części pierwsze czterolufowym obrzynem."
 ; EN: PickupMessage="You got the Quad-Barreled Shotgun"
-PickupMessage="Podnosisz czterolufowego obrzyna"
+PickupMessage="Podnosisz Czterolufowego Obrzyna"
 ; EN: ItemName="Quad-Barreled Shotgun"
-ItemName="Obrzyn"
+ItemName="Czterolufowego Obrzyn"
 
 [PeaceMaker]
 ; EN: DeathMessage="One of %k's %w missiles blew up %o."
@@ -539,18 +539,18 @@ DeathMessage="%o - usypiacz %k właśnie zrobił z ciebie sito."
 FemDeathMessage="%o - usypiacz %k właśnie zrobił z ciebie sito."
 FemKillMessage="%o - usypiacz %k właśnie zrobił z ciebie sito."
 ; EN: PickupMessage="You got the Peacemaker"
-PickupMessage="Podnosisz usypiacza"
+PickupMessage="Podnosisz Usypiacza"
 ; EN: ItemName="Peacemaker"
 ItemName="Usypiacz"
 
 [WoodruffSeeds]
 ; EN: PickupMessage="You got the Woodruff seeds"
-PickupMessage="You got the Woodruff seeds"
+PickupMessage="Masz Nasiona Marzankia"
 ; EN: ItemName="Woodruff seeds"
-ItemName="Woodruff seeds"
+ItemName="Nasiona Marzanki"
 
 [PeaceAmmo]
 ; EN: PickupMessage="You got Peacemaker ammo"
-PickupMessage="Podnosisz amunicję do usypiacza"
+PickupMessage="Podnosisz Amunicję do Usypiacza"
 ; EN: ItemName="Peacemaker ammo"
-ItemName="Amunicję do usypiacza"
+ItemName="Amunicję do Usypiacz"
