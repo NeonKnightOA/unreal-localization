@@ -1,4 +1,6 @@
-﻿[LevelInfo0]
+﻿; //Note to self (Sly.): Check sentences' comma placement according to grammar pre-1998 reform and onwards.
+
+[LevelInfo0]
 ; EN: Title="Bluff Eversmoking"
 Title="Bluff Eversmoking"
 ; EN: LevelEnterText="Entering Bluff Eversmoking"
@@ -9,6 +11,7 @@ LevelEnterText="Eingang Bluff Eversmoking"
 Title="Bluff Eversmoking"
 ; EN: LevelEnterText="Entering Bluff Eversmoking"
 LevelEnterText="Eingang Bluff Eversmoking"
+; //The LevelEnterTexts are somewhat odd to translate. It's hard to do them justice and this will need to be rechecked later. Will do once more maps localisations are checked off.
 
 [TranslatorEvent7]
 ; EN: Message="HYDRO-ELECTRIC SHIPPING CAR FULLY POWERED AND READY FOR DEPARTURE. ELECTRO-STATIC DISCHARGE NODES AT TOP OF BELL TOWER MUST BE ACTIVATED PRIOR TO CAR START-UP."
@@ -21,6 +24,7 @@ Message="Hoher Priester De'Nasha Breeche 255-480"
 [TranslatorEvent11]
 ; EN: Message="I have been hiding here for what seems like months now. The Skaarj forces that have taken over our monastery continue to transport stolen tarydium and other strange mechanical devices using their lightning sled. I fear that they may find me."
 Message="Mir ist, als ob ich mich hier schon seit Monaten verstecke. Die Skaarj die unser Kloster übernommen haben transportieren weiterhin seltsame mechanische Apparate mit Hilfe ihres Blitzschlittens. Ich habe Angst, daß sie mich entdecken."
+; //comma wrap ", die unser Kloster übernommen haben, "?
 
 [TranslatorEvent8]
 ; EN: Message="MAGNETIC LOCKS ENGAGED: AUTHORIZED BY CAPTAIN DUK'CHOROTH - OF THE 12th HOUSE OF dUBREVI"
@@ -53,6 +57,7 @@ Message="SKAARJ TRANSPORTBETRIEB - ENERGIEVERTEILUNGSSTATION: HYDROELEKTRISCHER 
 [TranslatorEvent10]
 ; EN: Message="HAVE FAITH AND NEVER SWAY FROM YOUR BELIEFS. ONLY A SOUL THAT KEEPS THE FAITH DESPITE ALL OPPRESSION SHALL TRIUMPH WHEN THE SAVIOUR PRINCESS COMES FROM THE STARS"
 Message="HABE VERTRAUEN UND WEICHE NICHT VON DEINEM GLAUBEN AB. NUR EINE SEELE, DIE TROTZ ALLER UNTERDRÜCKUNG DEM GLAUBEN TREU BLEIBT WIRD TRIUMPHIEREN WENN DIE RETTENDE PRINZESSIN VON DEN STERNEN KOMMT"
+; //comma after BLEIBT?
 
 [TranslatorEvent13]
 ; EN: Message="Myscha Nov 28th 1994- June 1997"
@@ -61,6 +66,7 @@ Message="Myscha 28. November 1994 - Juni 1997"
 [TranslatorEvent19]
 ; EN: Message="I am feeling ill. My cough has gotten worse and this darkened cell is not helping. I only hope that my  brother Kruun can escape to our childhood hiding hole in the sewers. From there he can access the inner walls of the monastery."
 Message="Ich bin krank, habe einen schlimmen Husten. Diese Zelle ist feucht. Ich hoffe nur, daß mein Bruder Kruun entkommen und unser Kindheitsversteck in den Abwasserkanälen finden kann. Von dort aus kann er ins Innere des Klosters gelangen."
+; //EN has "my  brother" with two spaces, what's up with that? Formatting reasons? Also this translation differs from the literal meaning, though this can be waved by as stylistic alterations. Core meaning remains.
 
 [TranslatorEvent1]
 ; EN: Message="Security Officer Sergai Dubrov: ISV-KRAN: LOG ENTRY: We are hot on the trail of the Skaarj Hunting party that captured Kira near the Sunspire. They are headed north towards the blue electrical storms on the horizon."
@@ -68,7 +74,8 @@ Message="Sicherheitsoffizier Sergai Dubrov: ISV-KRAN: LOGBUCHEINTRAG: Wir sind d
 
 [TranslatorEvent12]
 ; EN: Message="I have discovered a secret! Last night I snuck out of my hiding place and swam through the pipes to the prison. They have captured a Girl! The Krall sergeant took two boots in the mouth when he approached her. Haha! I can only laugh at their stupidity."
-Message="Gestern Nacht verließ ich mein Versteck und schwamm durch die Rohre ins Gefängnis. Ein Mädchen wird dort gefangengehalten! Ein Soldtat bekam ihren Stiefel ins Gesicht als er versuchte, sich an sie ranzumachen. Ha! Das geschah ihm recht!"
+Message="Gestern Nacht verließ ich mein Versteck und schwamm durch die Rohre ins Gefängnis. Ein Mädchen wird dort gefangengehalten! Ein Soldat bekam ihren Stiefel ins Gesicht als er versuchte, sich an sie ranzumachen. Ha! Das geschah ihm recht!"
+; //This used to be Soldtat, a typo. I corrected it to Soldat, but even that would be "soldier" and incorrect. Perhaps this entire sentence should be changed to "Der Krall Wachtmeister bekam ihre Stiefel ins Gesicht, als er versuchte sich ihr zu nähern.", this would be closer to original. "The Krall" also makes it sound very specific and worth a mention.
 
 [TranslatorEvent22]
 ; EN: Message="Son of Ne'Lin Garas 380-390"
@@ -94,11 +101,13 @@ Message="Ministrant Ne'Lin Garas 353-487"
 ; EN: Message="HYDRO-LASER CONTROL STATION: LASERS ON AND OPERATIONAL"
 Message="HYDROLASER KONTROLLSTATION: LASERS AKTIVIERT UND EINSATZBEREIT"
 ; EN: AltMessage="HYDRO-LASER CONTROL STATION: LASERS DISENGAGED - ACCESS TO HYDRO-ELECTRIC GENERATOR BELOW BELL TOWER PERMITTED"
-AltMessage="HYDROLASER KONTROLLSTATION: LASERS DEAKTIVIERT - ZUGANG ZUM HYDROELEKTRISCHEN GENERATOR UNTERHALB GLOCKENTURM GESTATTET"
+AltMessage="HYDROLASER KONTROLLSTATION: LASERS DEAKTIVIERT - ZUGANG ZUM HYDROELEKTRISCHEN GENERATOR UNTERHALB DES GLOCKENTURMS GESTATTET"
+; //This was probably not a big deal, but the phrasing felt slightly awkward without "DES".
 
 [TranslatorEvent3]
 ; EN: Message="My brother Kriin is in the cell below me. My other brother Kruun escaped through the water tunnel under the stairs. They sacrificed my best friend Jaara for Kruun's escape."
-Message="Mein Bruder Kriin ist in der Zelle unter mir. Kruun, mein anderer Bruder, ist durch den Wassertunnel unter den Sternen entkommen. Mein bester Freund Jaara hat sich geopfert, um Kruun's Ausbruch zu ermöglichen."
+Message="Mein Bruder Kriin ist in der Zelle unter mir. Kruun, mein anderer Bruder, ist durch den Wassertunnel unter der Treppe entkommen. Mein bester Freund Jaara hat sich geopfert, um Kruun's Ausbruch zu ermöglichen."
+; //This original translation likely confused stairs and stars. Fixed to avoid player confusion as Sterne makes no sense. Also: The last sentence makes it sound like Jaara sacrificed himself. Should this be altered too?
 
 [TranslatorEvent15]
 ; EN: Message="Vault of the Dead - Herein lies the last resting place of the High Priest of Bluff Eversmoking and the artifacts used by the Messiah."
@@ -108,35 +117,45 @@ Hint="Suche nach einem geheimen Hebel im Friedhof."
 
 [TranslatorEvent2]
 ; EN: Message="Science Officer Kira Argmanov: Separated from my crewmates from ISV-KRAN, I've only been able to stay alive by holding up in this bell tower. A native Nali help me escape the prison cell the Skaarj put me in. Hopefully the Skaarj won't find me here."
-Message="Unteroffizier Kira Argmanov: Bin von der übrigen Besatzung getrennt. Ein Einheimischer hat mir geholfen, aus der Zelle auszubrechen in der mich die Skaarj gehalten haben. Ich habe mich hier in einem Glockenturm verschanzt."
+Message="Wissenschaftsoffizier Kira Argmanov: Bin von der übrigen Besatzung getrennt. Ein Nali hat mir geholfen, aus der Zelle auszubrechen in der mich die Skaarj gehalten haben. Ich habe mich hier im Glockenturm verschanzt. Hoffentlich finden die Skaarj mich nicht."
+; //This lacked Science in her title and Unteroffizier would rather be sergeant. Hard to cram that in but I tried the best to my abilities. Note: Offizierin would be correct by modern standards but this wasn'7 gendered back then. Einheimischer -> Nali, shorter.
+; //Note about EN: "A native Nali help" sounds wrong, shouldn't it be "helped"?
+; //This translator structure differs in order from the original, I could rewrite it from scratch if that is even desired. Might have to get back to this one.
 
 [TranslatorEvent0]
 ; EN: Message="ISV-KRAN Chief Medical Officer Log: Tatiana Zimna: We have come to this beautiful canyon lake monastery in our search for Kira's abductors. We'll make camp by this crucifix tonight and start out early tomorrow."
 Message="ISV-KRAN Logbuch: Chefsanitätsoffizier Tatiana Zimna: Bei unserer Suche nach Kira´s Entführer haben wir ein Kloster gefunden. Wir schlagen heute Abend unser Lager neben diesem Kruzifix auf und ziehen morgen früh gleich weiter."
+; //German says "heute Abend", aka "this evening". Should this be changed? It's not unusual to still say evening to early night.
 
 [TranslatorEvent26]
 ; EN: Message="Shipping Log: Grorq of the Red Hand Tribe. I am really getting sick with the way the Skaarj are treating us. Constantly bossing us around and making us watch over their pathetic Nali slaves. My troops are getting sick of this situation."
 Message="Grorq vom Stamm der Roten Hände. Allmählich werde ich es leid, wie uns die Skaarj behandeln. Sie kommandieren uns herum und wir müssen ihre jämmerlichen Nali-Sklaven bewachen. Meine Truppen haben es auch langsam satt."
+; //This one and 24 lack "Shipping Log". Not sure how to add it yet, perhaps as "Versandlogbuch"?. May need to edit "Meine Truppen haben es auch langsam satt." into "Meine Truppen haben die Situation langsam auch satt." for more accurate wording later.
 
 [TranslatorEvent24]
 ; EN: Message="Shipping Log: Grorq of the Red Hand Tribe. Coming the next full moon we are expecting a large shipment of salvaged supplies from the human spacecraft. I need to make a few repairs to the electric rails around the bluff but we should be ready by then."
-Message="Grorq vom Stamm der Roten Hände. Wir erwarten demnächst einen größeren Transport aus dem Menschenraumschiff. Ich muß ein paar Reparaturen an den elektrischen Schienen am Kliff vornehmen lassen, aber bis dahin müßten wir fertig sein."
+Message="Grorq vom Stamm der Roten Hände. Nächsten Vollmond erwarten wir einen größeren Transport aus dem Menschenraumschiff. Ich muß ein paar Reparaturen an den elektrischen Schienen am Kliff vornehmen lassen, aber bis dahin müßten wir fertig sein."
+; //See 26 comment. Also this lacked the full moon part: "Wir erwarten demnächst einen größeren Transport aus dem Menschenraumschiff."
 
 [TranslatorEvent25]
 ; EN: Message="Jailer Hrang of the Red Hand Tribe: we have captured a Terran girl. Some of my soldiers want to try and take liberties with her. I guess that's OK as long as they watch those boots! She kicked me in the Hrangos last time."
-Message="Gefängniswärter Hrang: wir haben ein Mädchen vom Planeten Terra gefangengenommen. Einige von meinen Soldaten wollen ein bißchen Spaß mit ihr haben. Hauptsache sie nehmen sich vor ihren Stiefeln in acht. Mich hat sie in die Eier getreten."
+Message="Gefängniswärter Hrang: Wir haben ein Mädchen vom Planeten Terra gefangengenommen. Einige von meinen Soldaten wollen ein bißchen Spaß mit ihr haben. Hauptsache sie nehmen sich vor ihren Stiefeln in acht. Mich hat sie letzes Mal in die Hrangos getreten."
+; //The full title of Hrang "vom Stamm der Roten Hände" probably doesn't fit into the window/character limit, I assume. Changed "Eier" to "Hrangos" to conserve the alien vibes of the original.
 
 [TranslatorEvent27]
 ; EN: Message="Jailer Hrang of the Red Hand Tribe: Dorro owes me 25,000 gold Paaras when we get home! He truly sucks at death bones. Hustling him is like taking candy from a Terran baby. Speaking of which I think it's time to go beat on that ugly Terran girl some more!"
 Message="Gefängniswärter Hrang: Dorro schuldet mir 25,000 Goldpaaras! Er ist miserabel im Todesknochenspiel. Ihn zu beschummeln ist echt leicht. So, ich glaube es wird wieder Zeit, dieses häßliche Mädchen von Terra zu verprügeln!"
+; //See 25 comment. For consistency I'd like to have it in all or none of the three.
 
 [TranslatorEvent28]
 ; EN: Message="Jailer Hrang of the Red Hand Tribe: I can't believe it!!! That Terran girl escaped! One of those worthless Nali Monks must have tunneled her out. I am in DEEP SHIT! If Captain DUK'CHOROTH comes and finds out I let her escape I'll be de-hrangod for sure!"
-Message="Gefängniswärter Hrang: Nicht zu fassen! Das Mädchen ist entkommen! Einer von diesen nichtsnützigen Nali-Mönchen muß sie durch einen Tunnel geschleust haben. So eine Scheiße!"
+Message="Gefängniswärter Hrang: Ich glaub's nicht!!! Das Mädchen ist entkommen! Einer von diesen nichtsnützigen Nali-Mönchen muß sie durch einen Tunnel geschleust haben. So eine SCHEISSE! Wenn Captain DUK'CHOROTH das herausfindet wird er mich sicher ent-hrangosen!"
+; //See 25 comment. For consistency I'd like to have it in all or none of the three. Also changed "Nicht zu fassen!" and added ! to it. Made "Scheiße" capital for same vibes. Added missing last sentence about castration.
 
 [TranslatorEvent29]
 ; EN: Message="Kruun's personal diary: I have to be careful how many times I sneak into the monastery through the tunnels. I've marked the tunnel that leads to the inner monastery with a cross, the other leads to the prison where my brother is still being held."
-Message="Kruun's Tagebuch: Ich darf nicht zu oft durch die Höhlen ins Kloster. Ich habe den quadratischen Tunnel der ins Kloster führt mit einem Kreuz gekennzeichnet. Der andere Tunnel führt zum Gefängnis, in dem mein Bruder festgehalten wird."
+Message="Kruun's Tagebuch: Ich darf mich nicht zu oft durch die Höhlen ins Kloster schleichen. Ich habe den quadratischen Tunnel der ins Klosterinnere führt mit einem Kreuz gekennzeichnet. Der andere Tunnel führt zum Gefängnis, in dem mein Bruder festgehalten wird."
+; //Why does the German version mention quadratic tunnel? Is this even relevant or could / should this be deleted? Also altered "Ich darf nicht zu oft durch die Höhlen ins Kloster." to be more accurate by including sneaking. Also "Kloster" to "Klosterinnere" to avoid tiring repetition and include "inner" in monastery.
 
 [TranslatorEvent30]
 ; EN: Message="MAIN GATE GUARD TOWER"
