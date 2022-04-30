@@ -7,23 +7,23 @@ LevelEnterText="Kontroluj podwodną bazę!"
 
 [ZoneInfo5]
 ; EN: ZoneName="Middle Area"
-ZoneName="Środkowy obszar"
+ZoneName="Środkowy Obszar"
 
 [ZoneInfo3]
 ; EN: ZoneName="Large Docking Area"
-ZoneName="Duży obszar dokowania"
+ZoneName="Duży Obszar Dokowania"
 
 [ZoneInfo4]
 ; EN: ZoneName="Small Docking Area"
-ZoneName="Mały obszar dokowania"
+ZoneName="Mały Obszar Dokowania"
 
 [ZoneInfo1]
 ; EN: ZoneName="Submarine"
-ZoneName="Łódź podwodna"
+ZoneName="Łódź Podwodna"
 
 [ZoneInfo2]
 ; EN: ZoneName="Command Center"
-ZoneName="Centrum dowodzenia"
+ZoneName="Centrum Dowodzenia"
 
 [ZoneInfo7]
 ; EN: ZoneName="Hallway"
@@ -80,7 +80,7 @@ ObjDesc[3]="Zniszcz terminal 4. Terminale można zniszczyć w dowolnej kolejnoś
 
 [ZoneInfo6]
 ; EN: ZoneName="Elevator Shaft"
-ZoneName="Szyb windy"
+ZoneName="Szyb Windy"
 
 [SpecialEvent15]
 ; EN: Message="Terminal 3 has been disabled."

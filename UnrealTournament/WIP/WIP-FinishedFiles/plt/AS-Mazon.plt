@@ -11,7 +11,7 @@ DestroyedMessage="został zniszczony!"
 
 [FortStandard6]
 ; EN: FortName="The Reactor Room Doors"
-FortName="Drzwi pokoju reaktora"
+FortName="Drzwi Pokoju Reaktora"
 ; EN: DestroyedMessage="are opened!"
 DestroyedMessage="są otwarte!"
 
@@ -22,7 +22,7 @@ IdealPlayerCount="8-12"
 
 [FortStandard0]
 ; EN: FortName="The Front Doors"
-FortName="Drzwi przednie"
+FortName="Drzwi Przednie"
 ; EN: DestroyedMessage="are opened!"
 DestroyedMessage="są otwarte!"
 

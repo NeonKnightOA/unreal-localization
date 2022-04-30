@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="High Speed"
-Title="Wysoka prędkość"
+Title="Wysoka Prędkość"
 IdealPlayerCount="4-10"
 ; EN: LevelEnterText="Control the train!! NO MERCY!!"
 LevelEnterText="Kontroluj pociąg !! BEZ LITOŚCI!!"
@@ -19,11 +19,11 @@ ZoneName="2nd. Samochód"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside 1st Car"
-ZoneName="Na zewnątrz 1. samochodu"
+ZoneName="Na Zewnątrz 1. Samochodu"
 
 [SlimeZone0]
 ; EN: ZoneName="Acid Tank"
-ZoneName="Zbiornik kwasu"
+ZoneName="Zbiornik Kwasu"
 
 [SpecialEvent0]
 ; EN: DamageString="%ls fell in between the cars. That hurts..."
@@ -31,7 +31,7 @@ DamageString="%ls wypadło pomiędzy samochodami. To boli..."
 
 [FortStandard0]
 ; EN: FortName="The Control Cabin"
-FortName="Kabina sterownicza"
+FortName="Kabina Sterownicza"
 ; EN: DestroyedMessage="has been taken over!!"
 DestroyedMessage="został przejęty !!"
 
@@ -59,23 +59,23 @@ DestroyedMessage="został aktywowany!!"
 
 [SpecialEvent3]
 ; EN: Message="The Attackers Are On The Roof!!!"
-Message="Atakujący są na dachu !!!"
+Message="Atakujący są na dachu!!!"
 
 [locationid5]
 ; EN: LocationName="Pillar Flatbed"
-LocationName="Platforma na słupku"
+LocationName="Platforma na Słupku"
 
 [locationid6]
 ; EN: LocationName="Tank Flatbed"
-LocationName="Zbiornik płaski"
+LocationName="Zbiornik Płaski"
 
 [locationid7]
 ; EN: LocationName="Empty Flatbed"
-LocationName="Pusty skaner płaski"
+LocationName="Pusty Skaner Płaski"
 
 [locationid4]
 ; EN: LocationName="Acid Tank"
-LocationName="Zbiornik kwasu"
+LocationName="Zbiornik Kwasu"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
@@ -85,7 +85,7 @@ ObjDesc[1]="Zeskocz do pomieszczenia kontrolnego. Znajdziesz tam dźwignię, kt�
 
 [LevelSummary]
 ; EN: Title="High Speed"
-Title="Wysoka prędkość"
+Title="Wysoka Prędkość"
 IdealPlayerCount="4-10"
 ; EN: LevelEnterText="Control the train!! NO MERCY!!"
 LevelEnterText="Kontroluj pociąg !! BEZ LITOŚCI!!"

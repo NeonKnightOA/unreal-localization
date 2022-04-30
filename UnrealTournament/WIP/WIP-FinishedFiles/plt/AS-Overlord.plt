@@ -11,32 +11,35 @@ ZoneName="Koszary"
 
 [ZoneInfo5]
 ; EN: ZoneName="Ammo Room"
-ZoneName="Magazyn amunicji"
+ZoneName="Magazyn Amunicji"
 
 [ZoneInfo3]
 ; EN: ZoneName="Boiler Room"
 ZoneName="Kotłownia"
 
 [ZoneInfo6]
-ZoneName="Gun Cavern"
+; EN: ZoneName="Gun Cavern"
+ZoneName="Jaskinia Armat"
 
 [KillingField0]
 ; EN: ZoneName="Beach"
 ZoneName="Plaża"
 
 [ZoneInfo1]
-ZoneName="Foxholes"
+; EN: ZoneName="Foxholes"
+ZoneName="Okopy"
 
 [ZoneInfo0]
 ; EN: ZoneName="Entrance Ramp"
-ZoneName="Rampa wjazdowa"
+ZoneName="Rampa Wjazdowa"
 
 [ZoneInfo8]
-ZoneName="Last Passage"
+; EN: ZoneName="Last Passage"
+ZoneName="Ostatnie Przejście"
 
 [WaterZone0]
 ; EN: ZoneName="Water"
-ZoneName="woda"
+ZoneName="Woda"
 
 [FortStandard0]
 ; EN: FortName="The Beachhead"

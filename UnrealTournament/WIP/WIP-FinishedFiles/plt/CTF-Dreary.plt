@@ -1,18 +1,19 @@
 ﻿[LevelInfo0]
-Title="Dreary Outpost"
+; EN: Title="Dreary Outpost"
+Title="Dreary Placówka"
 IdealPlayerCount="8-12"
 
 [ZoneInfo17]
 ; EN: ZoneName="Red Main Room"
-ZoneName="Czerwony pokój główny"
+ZoneName="Czerwony Pokój Główny"
 
 [ZoneInfo18]
-; EN: ZoneName="Center loft"
-ZoneName="Loft centralny"
+; EN: ZoneName="Center Loft"
+ZoneName="Centralne Strych"
 
 [ZoneInfo16]
 ; EN: ZoneName="Blue Main Room"
-ZoneName="Niebieski pokój główny"
+ZoneName="Niebieski Pokój Główny"
 
 [ZoneInfo19]
 ; EN: ZoneName="Red Upper Hall"
@@ -23,67 +24,70 @@ ZoneName="Czerwona Sala Górna"
 ZoneName="Czerwona Sala Dolna"
 
 [ZoneInfo22]
-ZoneName="Blue Upper Hall"
+; EN: ZoneName="Blue Upper Hall"
+ZoneName="Niebieska Sala Górna"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Right Lift Entrance"
-ZoneName="Niebieskie prawe wejście windy"
+ZoneName="Niebieskie Prawe Wejście Windy"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Right Lift Entrance"
-ZoneName="Czerwone prawe wejście windy"
+ZoneName="Czerwone Prawe Wejście Windy"
 
 [ZoneInfo0]
 ; EN: ZoneName="Red Left Lift Entrance"
-ZoneName="Czerwone lewe wejście windy"
+ZoneName="Czerwone Lewe Wejście Wwindy"
 
 [ZoneInfo21]
 ; EN: ZoneName="Blue Lower Hall"
-ZoneName="Niebieska sala dolna"
+ZoneName="Niebieska Sala Dolna"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Left Lift Entrance"
-ZoneName="Niebieskie lewe wejście do windy"
+ZoneName="Niebieskie Lewe Wejście Windy"
 
 [ZoneInfo15]
 ; EN: ZoneName="Blue Loft"
-ZoneName="Niebieski Loft"
+ZoneName="Niebieski Strych"
 
 [ZoneInfo14]
 ; EN: ZoneName="Red Loft"
-ZoneName="Czerwony Loft"
+ZoneName="Czerwony Strych"
 
 [ZoneInfo11]
 ; EN: ZoneName="Blue Left Lift"
-ZoneName="Niebieska lewa winda"
+ZoneName="Lewa Niebieska Winda"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Left Lift"
-ZoneName="Lewa czerwona winda"
+ZoneName="Lewa Czerwona Winda"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Right Lift"
-ZoneName="Prawa winda czerwona"
+ZoneName="Prawa Czerwona Winda"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Right Lift"
-ZoneName="Niebieski prawy podnośnik"
+ZoneName="Prawa Niebieska Winda"
 
 [SlimeZone0]
 ; EN: ZoneName="Red Slime Pool"
-ZoneName="Basen Red Slime"
+ZoneName="Czerwona Kałuża Śluzu"
 
 [SlimeZone1]
-ZoneName="Blue Slime Pool"
+; EN: ZoneName="Blue Slime Pool"
+ZoneName="Niebieska Kałuża Śluzu"
 
 [LevelSummary]
-Title="Dreary Outpost"
+; EN: Title="Dreary Outpost"
+Title="Dreary Placówka"
 IdealPlayerCount="8-12"
 
 [ZoneInfo13]
 ; EN: ZoneName="Red Base"
-ZoneName="Czerwona podstawa"
+ZoneName="Czerwona Podstawa"
 
 [ZoneInfo12]
 ; EN: ZoneName="Blue Base"
-ZoneName="Niebieska podstawa"
+ZoneName="Niebieska Podstawa"

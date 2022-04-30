@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Facing Worlds"
-Title="W obliczu światów"
+Title="Spotykające Się Światy"
 IdealPlayerCount="4-10"
 
 [ZoneInfo3]
@@ -9,15 +9,15 @@ ZoneName="Asteroida"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Base"
-ZoneName="Niebieska podstawa"
+ZoneName="Niebieska Podstawa"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Base"
-ZoneName="Czerwona podstawa"
+ZoneName="Czerwona Podstawa"
 
 [LevelSummary]
 ; EN: Title="Facing Worlds"
-Title="W obliczu światów"
+Title="Spotykające Się Światy"
 IdealPlayerCount="4-10"
 
 [SpecialEvent0]

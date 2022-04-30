@@ -22,7 +22,7 @@ DestroyedMessage=" "
 
 [FortStandard2]
 ; EN: FortName="The Main Doors"
-FortName="Główne drzwi"
+FortName="Główne Drzwi"
 ; EN: DestroyedMessage="are now open!"
 DestroyedMessage="są teraz otwarte!"
 

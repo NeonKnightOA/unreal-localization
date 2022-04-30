@@ -18,7 +18,8 @@ FortName="Most Lawy"
 DestroyedMessage="został przekroczony!"
 
 [FortStandard4]
-FortName="The Cavern"
+; EN: FortName="The Cavern"
+FortName="Jaskinia"
 ; EN: DestroyedMessage="has been breached!"
 DestroyedMessage="został naruszony!"
 
@@ -35,27 +36,27 @@ DestroyedMessage="został zapalony!"
 
 [FortStandard2]
 ; EN: FortName="The Garage Door"
-FortName="Drzwi garażowe"
+FortName="Drzwi Garażowe"
 ; EN: DestroyedMessage="was breached!"
 DestroyedMessage="został naruszony!"
 
 [FortStandard3]
 ; EN: FortName="The Tank Turret"
-FortName="Wieżyczka czołgu"
+FortName="Wieżyczka Czołgu"
 ; EN: DestroyedMessage="has been destroyed!"
 DestroyedMessage="został zniszczony!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Attackers' Cave"
-ZoneName="Jaskinia atakujących"
+ZoneName="Jaskinia Atakujących"
 
 [ZoneInfo1]
 ; EN: ZoneName="Near the Fuse"
-ZoneName="W pobliżu bezpiecznika"
+ZoneName="W Pobliżu Bezpiecznika"
 
 [ZoneInfo2]
 ; EN: ZoneName="Base Corridors"
-ZoneName="Korytarze bazowe"
+ZoneName="Korytarze Bazowe"
 
 [WaterZone0]
 ; EN: ZoneName="Underwater"

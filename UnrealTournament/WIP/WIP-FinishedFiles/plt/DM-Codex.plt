@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Codex of Wisdom"
-Title="Kodeks mądrości"
+Title="Kodeks Mądrości"
 IdealPlayerCount="2-8"
 
 [ZoneInfo14]
@@ -9,5 +9,5 @@ ZoneName="Kodeks"
 
 [LevelSummary]
 ; EN: Title="Codex of Wisdom"
-Title="Kodeks mądrości"
+Title="Kodeks Mądrości"
 IdealPlayerCount="2-8"

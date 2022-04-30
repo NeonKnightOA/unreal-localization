@@ -1,5 +1,6 @@
 ﻿[LevelInfo0]
-Title="Koos Galleon"
+; EN: Title="Koos Galleon"
+Title="Galeon Koos"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
 LevelEnterText="SHIVER ME TIMBERS !!!"
@@ -9,7 +10,8 @@ LevelEnterText="SHIVER ME TIMBERS !!!"
 ZoneName="Podwodny"
 
 [LevelSummary]
-Title="Koos Galleon"
+; EN: Title="Koos Galleon"
+Title="Galeon Koos"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
 LevelEnterText="SHIVER ME TIMBERS !!!"

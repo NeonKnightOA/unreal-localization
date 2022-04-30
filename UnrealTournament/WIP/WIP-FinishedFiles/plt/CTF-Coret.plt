@@ -7,26 +7,27 @@ LevelEnterText="Witamy w Coret Facility. Miłego pobytu."
 
 [ZoneInfo1]
 ; EN: ZoneName="Central Area"
-ZoneName="Centralny obszar"
+ZoneName="Centralny Obszar"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Base"
-ZoneName="Czerwona podstawa"
+ZoneName="Czerwona Podstawa"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Base"
-ZoneName="Niebieska podstawa"
+ZoneName="Niebieska Podstawa"
 
 [ZoneInfo6]
-ZoneName="Blue Main Hall"
+; EN: ZoneName="Blue Main Hall"
+ZoneName="Niebieski Hol Główny"
 
 [ZoneInfo11]
 ; EN: ZoneName="Red Main Hall"
-ZoneName="Czerwona sala główna"
+ZoneName="Czerwona Sala Główna"
 
 [ZoneInfo7]
 ; EN: ZoneName="Blue Side Hall"
-ZoneName="Sala Blue Side"
+ZoneName="Niebieska Sala Główna"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Foyer"
@@ -34,7 +35,7 @@ ZoneName="Niebieskie Foyer"
 
 [ZoneInfo2]
 ; EN: ZoneName="Red Side Approach"
-ZoneName="Podejście z czerwonej strony"
+ZoneName="Podejście Czerwonej Strony"
 
 [ZoneInfo10]
 ; EN: ZoneName="Red Foyer"
@@ -42,15 +43,15 @@ ZoneName="Czerwone Foyer"
 
 [ZoneInfo8]
 ; EN: ZoneName="Blue Overhead Hall"
-ZoneName="Niebieska sala napowietrzna"
+ZoneName="Niebieska Sala Napowietrzna"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Overhead Hall"
-ZoneName="Czerwona sala napowietrzna"
+ZoneName="Czerwona Sala Napowietrzna"
 
 [ZoneInfo0]
 ; EN: ZoneName="Middle Area - Top"
-ZoneName="Środkowy obszar - góra"
+ZoneName="Środkowy Obszar - Góra"
 
 [LevelSummary]
 ; EN: Title="Coret Facility"

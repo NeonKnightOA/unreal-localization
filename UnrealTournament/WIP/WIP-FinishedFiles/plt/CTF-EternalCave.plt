@@ -1,30 +1,33 @@
 ﻿[LevelInfo0]
 ; EN: Title="Eternal Caves"
-Title="Wieczne jaskinie"
+Title="Wieczne Jaskinie"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
 LevelEnterText="ZDOBĄDŹ TE FLAGI !!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Cave"
-ZoneName="Czerwona jaskinia"
+ZoneName="Czerwona Jaskinia"
 
 [ZoneInfo0]
 ; EN: ZoneName="Blue Cave"
 ZoneName="Błękitna Jaskinia"
 
 [ZoneInfo2]
-ZoneName="Lower Hall"
+; EN: ZoneName="Lower Hall"
+ZoneName="Dolny Hol"
 
 [ZoneInfo3]
-ZoneName="Upper Hall"
+; EN: ZoneName="Upper Hall"
+ZoneName="Górny Hol"
 
 [ZoneInfo4]
-ZoneName="Upper Hall"
+; EN: ZoneName="Upper Hall"
+ZoneName="Górny Hol"
 
 [LevelSummary]
 ; EN: Title="Eternal Caves"
-Title="Wieczne jaskinie"
+Title="Wieczne Jaskinie"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
 LevelEnterText="ZDOBĄDŹ TE FLAGI !!"

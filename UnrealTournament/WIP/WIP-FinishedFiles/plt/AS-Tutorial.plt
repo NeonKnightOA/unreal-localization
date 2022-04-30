@@ -1,11 +1,11 @@
 ﻿[LevelInfo0]
 ; EN: Title="Assault Tutorial"
-Title="Samouczek szturmowy"
+Title="Samouczek Szturmowy"
 IdealPlayerCount="2-4"
 
 [LevelSummary]
 ; EN: Title="Assault Tutorial"
-Title="Samouczek szturmowy"
+Title="Samouczek Szturmowy"
 IdealPlayerCount="2-4"
 
 [FortStandard1]
@@ -16,13 +16,13 @@ DestroyedMessage="został zapalony!"
 
 [FortStandard2]
 ; EN: FortName="The Garage Door"
-FortName="Drzwi garażowe"
+FortName="Drzwi Garażowe"
 ; EN: DestroyedMessage="was breached!"
 DestroyedMessage="został naruszony!"
 
 [FortStandard3]
 ; EN: FortName="The Tank Turret"
-FortName="Wieżyczka czołgu"
+FortName="Wieżyczka Czołgu"
 ; EN: DestroyedMessage="has been destroyed!"
 DestroyedMessage="został zniszczony!"
 

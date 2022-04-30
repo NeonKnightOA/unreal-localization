@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="The Iron Gauntlet"
-Title="Żelazna rękawica"
+Title="Żelazna Rękawica"
 IdealPlayerCount="6-8"
 
 [ZoneInfo2]
@@ -13,11 +13,11 @@ ZoneName="Niebieskie Foyer"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Base"
-ZoneName="Czerwona podstawa"
+ZoneName="Czerwona Podstawa"
 
 [ZoneInfo0]
 ; EN: ZoneName="Blue Base"
-ZoneName="Niebieska podstawa"
+ZoneName="Niebieska Podstawa"
 
 [ZoneInfo3]
 ; EN: ZoneName="Lava Room"
@@ -25,7 +25,7 @@ ZoneName="Sala Lawy"
 
 [LevelSummary]
 ; EN: Title="The Iron Gauntlet"
-Title="Żelazna rękawica"
+Title="Żelazna Rękawica"
 IdealPlayerCount="6-8"
 
 [ZoneInfo5]

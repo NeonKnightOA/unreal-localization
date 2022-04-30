@@ -22,7 +22,7 @@ DestroyedMessage="został wpisany!"
 
 [FortStandard2]
 ; EN: FortName="The Hydraulic Compressor"
-FortName="Sprężarka hydrauliczna"
+FortName="Sprężarka Hydrauliczna"
 ; EN: DestroyedMessage="has been destroyed!"
 DestroyedMessage="został zniszczony!"
 
