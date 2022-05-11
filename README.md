@@ -29,6 +29,7 @@ Each language has a portal which comprises the general guidelines. All languages
 * **Smirftsch:** German, additional contributions.
 * **eGo:** German, additional contributions.
 * **Ividyon:** German, additional contributions.
+* **Sly:** German, additional contributions.
 * **Hellkeeper:** French, fixes and maintenance.
 * **Rackover/Louvenarde:** French, fixes and maintenance.
 * **rarsonic:** Spanish, additional contributions.
