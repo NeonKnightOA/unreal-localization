@@ -53,7 +53,7 @@ DamageString="%ls at een helikopterblad..."
 
 [FortStandard4]
 ; EN: FortName="The Control Cabin Access Switch"
-FortName="De toegangsschakelaar voor de stuurcabine"
+FortName="De Controle Cabine Toegangsschakelaar"
 ; EN: DestroyedMessage="has been activated!!"
 DestroyedMessage="is geactiveerd!!"
 
@@ -63,14 +63,14 @@ Message="De aanvallers zijn op het dak !!!"
 
 [locationid5]
 ; EN: LocationName="Pillar Flatbed"
-LocationName="Pijler Flatbed"
+LocationName="Pijler oplegger"
 
 [locationid6]
 LocationName="Tank Flatbed"
 
 [locationid7]
 ; EN: LocationName="Empty Flatbed"
-LocationName="Lege flatbed"
+LocationName="Lege Oplegger"
 
 [locationid4]
 ; EN: LocationName="Acid Tank"
@@ -78,9 +78,9 @@ LocationName="Zure tank"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
-ObjDesc[0]="Werk je een weg naar de voorkant van de trein. In Car One vind je een schakelaar op de bovenste verdieping die de deur naar de Control Cabin eronder opent. Activeer deze schakelaar."
+ObjDesc[0]="Werk je een weg naar de voorkant van de trein. In Car een vind je een schakelaar op de bovenste verdieping die de deur naar de Control Cabin eronder opent. Activeer deze schakelaar."
 ; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
-ObjDesc[1]="Spring naar beneden naar de controlekamer. Daarin vind je een hendel die de bedieningselementen van de trein opheft."
+ObjDesc[1]="Spring naar beneden naar de controlekamer. Daarin vind je een hendel die de besturing van de trein overschrijft."
 
 [LevelSummary]
 ; EN: Title="High Speed"
