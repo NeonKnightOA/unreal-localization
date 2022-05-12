@@ -3,4 +3,5 @@ Object=(Name=SoftDrv.SoftwareRenderDevice,Class=Class,MetaClass=Engine.RenderDev
 Preferences=(Caption="Software Rendering",Parent="Rendering",Class=SoftDrv.SoftwareRenderDevice,Immediate=True)
 
 [SoftwareRenderDevice]
+; EN: ClassCaption="Software Rendering"
 ClassCaption="Software Rendering"
