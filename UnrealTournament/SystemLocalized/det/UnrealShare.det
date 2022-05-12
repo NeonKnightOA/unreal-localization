@@ -30,15 +30,15 @@ GlobalNameChange=" Namen geändert in "
 ; EN: NoNameChange=" is already in use"
 NoNameChange=" wird bereits verwendet"
 ; EN: TimeMessage[0]="5 minutes left in the game!"
-TimeMessage[0]="Noch 5 Minuten bis Ende!"
+TimeMessage[0]="Noch 5 Minuten bis zum Ende!"
 ; EN: TimeMessage[1]="4 minutes left in the game!"
-TimeMessage[1]="Noch 4 Minuten bis Ende!"
+TimeMessage[1]="Noch 4 Minuten bis zum Ende!"
 ; EN: TimeMessage[2]="3 minutes left in the game!"
-TimeMessage[2]="Noch 3 Minuten bis Ende!"
+TimeMessage[2]="Noch 3 Minuten bis zum Ende!"
 ; EN: TimeMessage[3]="2 minutes left in the game!"
-TimeMessage[3]="Noch 2 Minuten bis Ende!"
+TimeMessage[3]="Noch 2 Minuten bis zum Ende!"
 ; EN: TimeMessage[4]="1 minute left in the game!"
-TimeMessage[4]="Noch 1 Minuten bis Ende!"
+TimeMessage[4]="Noch 1 Minute bis zum Ende!"
 ; EN: TimeMessage[5]="30 seconds left!"
 TimeMessage[5]="30 Sekunden übrig!"
 ; EN: TimeMessage[6]="10 seconds left!"
@@ -52,7 +52,7 @@ TimeMessage[11]="1..."
 ; EN: TimeMessage[12]="Time Up!"
 TimeMessage[12]="Ende!"
 ; EN: GameName="DeathMatch"
-GameName="Todeskampf"
+GameName="DeathMatch"
 
 [UnrealGameOptionsMenu]
 ; EN: MenuTitle="GAME OPTIONS"
@@ -261,15 +261,15 @@ HelpMessage[6]="Bots bei Spielen gegen Mitspieler verwenden."
 
 [ShieldBelt]
 ; EN: PickupMessage="You got the Shield Belt"
-PickupMessage="Du hast den Schildgürtel"
+PickupMessage="Schildgürtel erhalten"
 ; EN: ItemName="Shield Belt"
 ItemName="Schildgürtel"
 
 [Flashlight]
 ; EN: ExpireMessage="Flashlight batteries have died."
-ExpireMessage="Batterien in Lampe leer."
+ExpireMessage="Batterien in Taschenlampe leer."
 ; EN: PickupMessage="You picked up the Flashlight"
-PickupMessage="Du hast de Taschenlampe eingesammelt"
+PickupMessage="Taschenlampe erhalten"
 ; EN: ItemName="Flashlight"
 ItemName="Taschenlampe"
 
@@ -329,13 +329,13 @@ HelpMessage[5]="DeathMatch gegen Bots."
 
 [NaliFruit]
 ; EN: PickupMessage="You picked the Nali Healing Fruit +"
-PickupMessage="Du hast die heilende Nali-Frucht eingesammelt +"
+PickupMessage="Nali-Heilfrucht erhalten, +"
 ; EN: ItemName="Nali Healing Fruit"
-ItemName="Heilende Nali-Frucht"
+ItemName="Nali-Heilfrucht"
 
 [Health]
 ; EN: PickupMessage="You picked up a Health Pack +"
-PickupMessage="Du hast ein Gesundheitspack Eingesammelt +"
+PickupMessage="Gesundheitspack erhalten +"
 ; EN: ItemName="Health Pack"
 ItemName="Gesundheitspack"
 
@@ -403,7 +403,7 @@ MenuTitle="LOKALE SERVER"
 
 [SCUBAGear]
 ; EN: PickupMessage="You picked up the SCUBA Gear"
-PickupMessage="Du hast die Tauchausrüstung eingesammelt"
+PickupMessage="Tauchausrüstung erhalten"
 ; EN: ItemName="SCUBA Gear"
 ItemName="Tauchausrüstung"
 
@@ -432,45 +432,45 @@ MenuTitle="SPEICHERN"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Du hast 12 Achtkugeln eingesammelt"
+PickupMessage="12 Eightballraketen erhalten"
 ; EN: ItemName="Eightballs"
-ItemName="Achtkugeln"
+ItemName="Eightballraketen"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Energie-Verstärker leer."
+ExpireMessage="Energieverstärker leer."
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Du hast den Energie-Verstärker"
+PickupMessage="Energieverstärker erhalten"
 ; EN: ItemName="Energy Amplifier"
-ItemName="Energie-Verstärker"
+ItemName="Energieverstärker"
 
 [VoiceBox]
 ; EN: PickupMessage="You picked up the Voice Box"
-PickupMessage="Du hast das Soundfeld eingesammelt"
+PickupMessage="Soundfeld erhalten"
 ; EN: ItemName="Voice Box"
 ItemName="Soundfeld"
 
 [Shellbox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Du hast 50 Kugeln eingesammelt"
+PickupMessage="50 Kugeln erhalten"
 ; EN: ItemName="Bullet Box"
 ItemName="Kugeln"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"
-PickupMessage="Du hast eine Leuchtrakete"
+PickupMessage="Leuchtfackel erhalten"
 ; EN: ItemName="Flare"
-ItemName="Leuchtrakete"
+ItemName="Leuchtfackel"
 
 [WeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Du hast das Powerup für die Dispersionspistole"
+PickupMessage="Powerup für die Dispersionspistole erhalten"
 ; EN: ItemName="Dispersion Pistol Powerup"
 ItemName="Powerup für Dispersionspistole"
 
 [ASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD core"
-PickupMessage="Du hast einen ASMD-Kern eingesammelt"
+PickupMessage="ASMD-Kern erhalten"
 ; EN: ItemName="ASMD Core"
 ItemName="ASMD-Kern"
 
@@ -496,9 +496,9 @@ OKString="[OK]"
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium shards"
-PickupMessage="Du hast 40-Tarydium-Splitter eingesammelt"
+PickupMessage="40 Tarydiumsplitter erhalten"
 ; EN: ItemName="Tarydium Shards"
-ItemName="Tarydium-Splitter"
+ItemName="Tarydiumsplitter"
 
 [UnrealTeamGameOptionsMenu]
 ; EN: HelpMessage[10]="Percentage of damage taken when hit by friendly fire.  Note that you always take full damage from your own weapons."
@@ -508,31 +508,31 @@ MenuList[10]="Ausmaß bei eigenem Feuer"
 
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
-PickupMessage="Du hast das Super-Gesundheitspack eingesammelt"
+PickupMessage="Super-Gesundheitspack erhalten"
 ; EN: ItemName="Super Health Pack"
 ItemName="Super-Gesundheitspack"
 
 [Clip]
 ; EN: PickupMessage="You picked up a Clip"
-PickupMessage="Du hast Munition eingesammelt"
+PickupMessage="Kugelmagazin erhalten"
 ; EN: ItemName="Clip"
-ItemName="Munition"
+ItemName="Kugelmagazin"
 
 [Bandages]
 ; EN: PickupMessage="You got some Bandages +"
-PickupMessage="Du hast Verbände +"
+PickupMessage="Verbände erhalten +"
 ; EN: ItemName="Bandages"
 ItemName="Verbände"
 
 [Armor]
 ; EN: PickupMessage="You got the Assault Vest"
-PickupMessage="Du hast die Rüstung"
+PickupMessage="Sturmweste erhalten"
 ; EN: ItemName="Assault Vest"
-ItemName="Rüstung"
+ItemName="Sturmweste"
 
 [KevlarSuit]
 ; EN: PickupMessage="You picked up the Kevlar Suit"
-PickupMessage="Du hast die kugelsichere Weste"
+PickupMessage="Kugelsichere Weste erhalten"
 ; EN: ItemName="Kevlar Suit"
 ItemName="Kugelsichere Weste"
 
@@ -552,13 +552,13 @@ MenuName="Vogel"
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Biterfish"
-MenuName="Fisch"
+MenuName="Beißfisch"
 
 [BiterfishSchool]
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Biterfish"
-MenuName="Fisch"
+MenuName="Beißfisch"
 
 [Brute]
 ; EN: NameArticle=" a "
@@ -570,19 +570,19 @@ MenuName="Rohling"
 ; EN: NameArticle=" the "
 NameArticle=" der "
 ; EN: MenuName="Cave Manta"
-MenuName="Höhlen Manta"
+MenuName="Höhlenmanta"
 
 [Cow]
 ; EN: NameArticle=" a "
 NameArticle=" eine "
 ; EN: MenuName="Nali Cow"
-MenuName="Nali-Kuh"
+MenuName="Nalikuh"
 
 [Devilfish]
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Devilfish"
-MenuName="Haifisch"
+MenuName="Teufelshai"
 
 [Fly]
 ; EN: NameArticle=" a "
@@ -594,7 +594,7 @@ MenuName="Fliege"
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Lesser Brute"
-MenuName="Kleiner Rohling"
+MenuName="Minderer Rohling"
 
 [Manta]
 ; EN: NameArticle=" a "
@@ -612,7 +612,7 @@ MenuName="Nali"
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Nali Priest"
-MenuName="Nali-Priester"
+MenuName="Nalipriester"
 
 [NaliRabbit]
 ; EN: NameArticle=" a "
@@ -776,7 +776,7 @@ TeamName[3]="Gold Team: "
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o wurde von %ks %w getötet. So ein Versager!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Du hast die Dispersionspistole"
+PickupMessage="Dispersionspistole erhalten"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Dispersionspistole"
 
@@ -988,7 +988,7 @@ HelpMessage[17]="Öffne das Konfigurationsmenü für erweiterte Einstellungen."
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k fügte %o mit %w vernichtenden Schaden zu."
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Du hast die ASMD"
+PickupMessage="ASMD erhalten"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
 
@@ -996,9 +996,9 @@ ItemName="ASMD"
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o wurde von %ks %w mehrfach zurückgeschlagen."
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Du hast das Achtkugelgeschütz"
+PickupMessage="Eightball erhalten"
 ; EN: ItemName="Eightball"
-ItemName="Achtkugelgeschütz"
+ItemName="Eightball"
 
 [UnrealKeyboardMenu]
 ; EN: MenuTitle="CONTROLS"
@@ -1085,7 +1085,7 @@ M_TransMessage="Übersetzernachricht"
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o wurde von %ks %w erledigt."
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Du hast das Automag"
+PickupMessage="Automag erhalten"
 ; EN: ItemName="Automag"
 ItemName="Automag"
 
@@ -1210,8 +1210,8 @@ Difficulties[3]="Unreal"
 MenuList[1]="Zum Spielen über diesem Server brauchst Du eine neuere Version von Unreal Tournament. Möchtest Du eine neuere Version von der OldUnreal-Website herunterladen?"
 
 [Shells]
-; EN: PickupMessage="You picked up 15 shells"
-PickupMessage="Du hast 15 Geschosse eingesammelt"
+; EN: PickupMessage="You picked up 12 shells"
+PickupMessage="12 Geschosse erhalten"
 ; EN: ItemName="Shells"
 ItemName="Geschosse"
 
