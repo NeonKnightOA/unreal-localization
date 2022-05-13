@@ -11,11 +11,11 @@ ZoneName="Middengebied"
 
 [ZoneInfo3]
 ; EN: ZoneName="Large Docking Area"
-ZoneName="Groot aanmeergebied"
+ZoneName="Groot dockinggebied"
 
 [ZoneInfo4]
 ; EN: ZoneName="Small Docking Area"
-ZoneName="Klein aanmeergebied"
+ZoneName="Klein dockinggebied"
 
 [ZoneInfo1]
 ; EN: ZoneName="Submarine"
@@ -70,7 +70,7 @@ LevelEnterText="Bestuur de onderwaterbasis!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
-ObjDesc[0]="Zwem naar de basis onder de onderzeeër. Binnenin de basis zijn er 4 terminals met toetsenborden eraan die moeten worden vernietigd om de basis onbruikbaar te maken. Vernietig terminal 1. De terminals kunnen in willekeurige volgorde worden vernietigd."
+ObjDesc[0]="Zwem naar de basis onder de onderzeeër. In de basis zijn er 4 terminals met toetsenborden eraan die moeten worden vernietigd om de basis onbruikbaar te maken. Terminal vernietigen 1. De terminals kunnen in willekeurige volgorde worden vernietigd."
 ; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
 ObjDesc[1]="Vernietig terminal 2. De terminals kunnen in willekeurige volgorde worden vernietigd."
 ; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
