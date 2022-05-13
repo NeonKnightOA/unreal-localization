@@ -52,13 +52,13 @@ MenuName="Behemoth"
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Blob"
-MenuName="Schleim"
+MenuName="Blob"
 
 [Bloblet]
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Bloblet"
-MenuName="Kleiner Schleim"
+MenuName="Kleiner Blob"
 
 [Gasbag]
 ; EN: NameArticle=" a "
@@ -274,7 +274,7 @@ ItemName="Tarydium-Bioschlamm"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
-ExpireMessage="Die Unsichtbarkeit wurde verbraucht."
+ExpireMessage="Die Unsichtbarkeit wurde aufgebraucht."
 ; EN: PickupMessage="You have Invisibility"
 PickupMessage="Unsichtbarkeit erhalten"
 ; EN: ItemName="Invisibility"
@@ -312,7 +312,7 @@ AltName="enthauptet"
 
 [Dampener]
 ; EN: ExpireMessage="Acoustic dampener has run out."
-ExpireMessage="Der Schalldämpfer ist ausgegangen."
+ExpireMessage="Der Schalldämpfer wurde verbraucht."
 ; EN: PickupMessage="You got the Acoustic Dampener"
 PickupMessage="Schalldämpfer erhalten"
 ; EN: ItemName="Acoustic Dampener"
@@ -427,9 +427,9 @@ ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o hat eine Ladung grüner Grütze von %k geschluckt."
-FemDeathMessage="%o hat eine Ladung grüner Grütze von %k geschluckt."
-FemKillMessage="%o hat eine Ladung grüner Grütze von %k geschluckt."
+DeathMessage="%o hat eine triefende grüne Ladung von %k geschluckt."
+FemDeathMessage="%o hat eine triefende grüne Ladung von %k geschluckt."
+FemKillMessage="%o hat eine triefende grüne Ladung von %k geschluckt."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="GES-Biogewehr erhalten"
 ; EN: ItemName="GES BioRifle"

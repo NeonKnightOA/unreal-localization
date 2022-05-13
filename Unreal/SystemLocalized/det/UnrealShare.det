@@ -85,7 +85,7 @@ Object=(Name="LookDown",Class=Class,MetaClass=Engine.Input,Description="Sicht,Ru
 ; EN: Object=(Name="CenterView",Class=Class,MetaClass=Engine.Input,Description="View,Center View")
 Object=(Name="CenterView",Class=Class,MetaClass=Engine.Input,Description="Sicht,Sicht zentrieren")
 ; EN: Object=(Name="UToggleBehindview",Class=Class,MetaClass=Engine.Input,Description="View,Toggle Behindview")
-Object=(Name="UToggleBehindview",Class=Class,MetaClass=Engine.Input,Description="Sicht,3D-Ansicht Ändern")
+Object=(Name="UToggleBehindview",Class=Class,MetaClass=Engine.Input,Description="Sicht,3D-Ansicht ändern")
 ; EN: Object=(Name="Fire",Class=Class,MetaClass=Engine.Input,Description="Weapon,Fire")
 Object=(Name="Fire",Class=Class,MetaClass=Engine.Input,Description="Waffe,Schießen")
 ; EN: Object=(Name="AltFire",Class=Class,MetaClass=Engine.Input,Description="Weapon,Alternate Fire")
@@ -125,11 +125,11 @@ Object=(Name="GetWeapon UPak.RocketLauncher",Class=Class,MetaClass=Engine.Input,
 ; EN: Object=(Name="GetWeapon UnrealI.QuadShot",Class=Class,MetaClass=Engine.Input,Description="Weapon,Quad-Barreled Shotgun")
 Object=(Name="GetWeapon UnrealI.QuadShot",Class=Class,MetaClass=Engine.Input,Description="Waffe,Vierfach-Schrotflinte")
 ; EN: Object=(Name="GetWeapon UnrealShare.UTranslocator",Class=Class,MetaClass=Engine.Input,Description="Weapon,Translocator")
-Object=(Name="GetWeapon UnrealShare.UTranslocator",Class=Class,MetaClass=Engine.Input,Description="Waffe,Übersetzer")
+Object=(Name="GetWeapon UnrealShare.UTranslocator",Class=Class,MetaClass=Engine.Input,Description="Waffe,Translokator")
 ; EN: Object=(Name="GetWeapon UnrealI.PeaceMaker",Class=Class,MetaClass=Engine.Input,Description="Weapon,Peacemaker")
 Object=(Name="GetWeapon UnrealI.PeaceMaker",Class=Class,MetaClass=Engine.Input,Description="Waffe,Friedensstifter")
 ; EN: Object=(Name="InventoryActivate",Class=Class,MetaClass=Engine.Input,Description="Inventory,Activate Item")
-Object=(Name="InventoryActivate",Class=Class,MetaClass=Engine.Input,Description="Inventar,Gegenstand aktivieren")
+Object=(Name="InventoryActivate",Class=Class,MetaClass=Engine.Input,Description="Inventar,Gegenstand benutzen")
 ; EN: Object=(Name="InventoryNext",Class=Class,MetaClass=Engine.Input,Description="Inventory,Next Item")
 Object=(Name="InventoryNext",Class=Class,MetaClass=Engine.Input,Description="Inventar,Nächster Gegenstand")
 ; EN: Object=(Name="InventoryPrevious",Class=Class,MetaClass=Engine.Input,Description="Inventory,Previous Item")
@@ -147,7 +147,7 @@ Object=(Name="TeamTalk",Class=Class,MetaClass=Engine.Input,Description="Spiel,Te
 ; EN: Object=(Name="ShowScores",Class=Class,MetaClass=Engine.Input,Description="Game,Show Scores")
 Object=(Name="ShowScores",Class=Class,MetaClass=Engine.Input,Description="Spiel,Punktestand")
 ; EN: Object=(Name="QuickSave",Class=Class,MetaClass=Engine.Input,Description="Game,Quick Save")
-Object=(Name="QuickSave",Class=Class,MetaClass=Engine.Input,Description="Spiel,Schnellsichern")
+Object=(Name="QuickSave",Class=Class,MetaClass=Engine.Input,Description="Spiel,Schnellspeichern")
 ; EN: Object=(Name="QuickLoad",Class=Class,MetaClass=Engine.Input,Description="Game,Quick Load")
 Object=(Name="QuickLoad",Class=Class,MetaClass=Engine.Input,Description="Spiel,Schnellladen")
 ; EN: Object=(Name="Shot",Class=Class,MetaClass=Engine.Input,Description="Game,Screenshot")
@@ -157,7 +157,7 @@ Object=(Name="Brightness",Class=Class,MetaClass=Engine.Input,Description="Spiel,
 ; EN: Object=(Name="UShowMusicMenu",Class=Class,MetaClass=Engine.Input,Description="Game,Music menu")
 Object=(Name="UShowMusicMenu",Class=Class,MetaClass=Engine.Input,Description="Spiel,Musikmenü")
 ; EN: Object=(Name="UShowAdminMenu",Class=Class,MetaClass=Engine.Input,Description="Game,Admin menu")
-Object=(Name="UShowAdminMenu",Class=Class,MetaClass=Engine.Input,Description="Spiel,Administrationsmenü")
+Object=(Name="UShowAdminMenu",Class=Class,MetaClass=Engine.Input,Description="Spiel,Adminmenü")
 ; EN: Object=(Name="Cancel",Class=Class,MetaClass=Engine.Input,Description="Network Connection,Cancel Connection")
 Object=(Name="Cancel",Class=Class,MetaClass=Engine.Input,Description="Network Connection,Verbindung abbrechen")
 ; EN: Object=(Name="Disconnect",Class=Class,MetaClass=Engine.Input,Description="Network Connection,Disconnect")
@@ -181,7 +181,7 @@ Preferences=(Caption="Deathmatch Maps",Parent="Map Lists",Class=UnrealShare.DmMa
 ; EN: ClassCaption="Deathmatch"
 ClassCaption="Deathmatch"
 ; EN: GlobalNameChange=" changed name to "
-GlobalNameChange=" ändert den Namen zu "
+GlobalNameChange=" änderte den Namen zu "
 ; EN: NoNameChange=" is already in use"
 NoNameChange=" wird bereits verwendet"
 ; EN: TimeMessage[0]="5 minutes left in the game!"
@@ -231,7 +231,7 @@ YesSelString=" [JA]  Nein"
 ; EN: NoSelString=" Yes  [NO]"
 NoSelString="  Ja  [Nein]"
 ; EN: HelpMessage[1]="Select yes and hit enter to return to your puny, miserable, useless real life, if you can't handle UNREALity."
-HelpMessage[1]="Wähle Ja, und drücke die Eingabetaste, wenn Du zu schwach für die UNREALe Welt bist und in Deine bedeutungslose Realität zurückkehren möchtest."
+HelpMessage[1]="Wähle Ja, und drücke die Eingabetaste, wenn du zu schwach für die UNREALe Welt bist und in deine bedeutungslose Realität zurückkehren möchtest."
 ; EN: MenuList[0]="A Digital Extremes/Epic Megagames"
 MenuList[0]="Eine gemeinsame Produktion von"
 ; EN: MenuList[1]="Collaboration"
@@ -593,7 +593,7 @@ ItemName="Eightballraketen"
 
 [Amplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="Energieverstärker leer."
+ExpireMessage="Energieverstärker ist leer."
 ; EN: PickupMessage="You got the Energy Amplifier"
 PickupMessage="Energieverstärker erhalten"
 ; EN: ItemName="Energy Amplifier"
@@ -609,7 +609,7 @@ ItemName="Soundfeld"
 ; EN: PickupMessage="You picked up 50 bullets"
 PickupMessage="50 Kugeln erhalten"
 ; EN: ItemName="Bullet Box"
-ItemName="Kugeln"
+ItemName="Kugelkarton"
 
 [Flare]
 ; EN: PickupMessage="You got a Flare"

@@ -54,9 +54,9 @@ ItemName="Kampfgewehr"
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="Die %w von %k zerschmetterte %o in Stücke."
-FemDeathMessage="Die %w von %k zerschmetterte %o in Stücke."
-FemKillMessage="Die %w von %k zerschmetterte %o in Stücke."
+DeathMessage="Die %w von %k hat %o in Stücke gerissen."
+FemDeathMessage="Die %w von %k hat %o in Stücke gerissen."
+FemKillMessage="Die %w von %k hat %o in Stücke gerissen."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Flak erhalten"
 ; EN: ItemName="Flak Cannon"
