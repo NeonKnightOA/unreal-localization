@@ -30,7 +30,7 @@ Message="Kas B: Controleer of het bioafval door de filters van de controlekamer 
 
 [Trigger32]
 ; EN: Message="Lift to Noork's Elbow activated"
-Message="Lift naar Noorks Elleboog geactiveerd"
+Message="Lift naar Noork's Elleboog geactiveerd"
 
 [TranslatorEvent1]
 ; EN: Message="Section A: Status full. Biowaste redirect to Section B active."
@@ -38,15 +38,15 @@ Message="Sectie A: Status vol. Bioafval doorverwijzing naar sectie B actief."
 
 [TranslatorEvent8]
 ; EN: Message="Access Denied. Control Room authorization must be granted to access Noork's Elbow."
-Message="Toegang geweigerd. Om toegang te krijgen tot Noork's Elbow moet autorisatie voor de controlekamer worden verleend."
+Message="Toegang geweigerd. Om toegang te krijgen tot Noork's Elleboog moet autorisatie voor de controlekamer worden verleend."
 ; EN: AltMessage="Access granted."
 AltMessage="Toegang verleend."
 ; EN: Hint="If you swim down in the BioWaste you can access the Control Room."
-Hint="Als je naar beneden zwemt in de BioWaste kun je naar de Control Room."
+Hint="Als je naar beneden zwemt in de Bioafval kun je naar de Controle Kamer."
 
 [TranslatorEvent2]
 ; EN: Message="Section C: Status Empty, this Containment Room is damaged, please avoid sending BioWaste here until we can fix it."
-Message="Sectie C: Status leeg, deze insluitkamer is beschadigd. Vermijd het verzenden van BioWaste hierheen totdat we het kunnen repareren."
+Message="Sectie C: Status leeg, deze insluitkamer is beschadigd. Vermijd het verzenden van Bioafval hierheen totdat we het kunnen repareren."
 
 [TranslatorEvent6]
 ; EN: Message="Lift 1: Security Lock, Access denied. Containment room pumps must be active for entrance to hydroponic greenhouses."
@@ -82,7 +82,7 @@ Hint="Je moet een andere manier vinden om deze kamer binnen te gaan."
 
 [TranslatorEvent14]
 ; EN: Message="Access Denied. Control Room authorization must be granted to access Noork Elbow."
-Message="Toegang geweigerd. Om toegang te krijgen tot Noork Elbow moet autorisatie voor de controlekamer worden verleend."
+Message="Toegang geweigerd. Om toegang te krijgen tot Noork's Elleboog moet autorisatie voor de controlekamer worden verleend."
 
 [Trigger46]
 ; EN: Message="Access Room security locks disengaged."
