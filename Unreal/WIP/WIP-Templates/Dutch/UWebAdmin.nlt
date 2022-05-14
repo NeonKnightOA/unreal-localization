@@ -1,10 +1,10 @@
 ﻿[public]
 ; EN: Object=(Name=UWebAdmin.DMPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="DeathMatch Game")
-Object=(Name=UWebAdmin.DMPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="DeathMatch-spel")
+Object=(Name=UWebAdmin.DMPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="Deathmatch")
 ; EN: Object=(Name=UWebAdmin.TDMPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="Team Game")
-Object=(Name=UWebAdmin.TDMPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="Team spel")
+Object=(Name=UWebAdmin.TDMPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="TeamSpel")
 ; EN: Object=(Name=UWebAdmin.CPPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="Coop Game")
-Object=(Name=UWebAdmin.CPPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="Coop-spel")
+Object=(Name=UWebAdmin.CPPageConfig,Class=Class,MetaClass=UWebAdmin.ModPageContent,Description="Samenspelen")
 Preferences=(Caption="Web Server",Parent="Networking")
 Preferences=(Caption="Web Manager",Parent="Web Server",Class=UWebAdmin.WebAdminManager)
 Preferences=(Caption="Web Connection",Parent="Web Server",Class=UWebAdmin.WebServer)
