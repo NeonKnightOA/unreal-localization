@@ -46,15 +46,15 @@ Object=(Name=Botpack.ImpactHammer,Class=Class,MetaClass=Botpack.TournamentWeapon
 ; EN: Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Translocator")
 Object=(Name=Botpack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Translocator")
 ; EN: Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Enforcer")
-Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Handhaver")
+Object=(Name=Botpack.enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Enforcer")
 ; EN: Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Double Enforcers")
-Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Dubbele handhavers")
+Object=(Name=Botpack.doubleenforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Dual Enforcers")
 ; EN: Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="GES BioRifle")
-Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="GES BioRifle")
+Object=(Name=Botpack.ut_biorifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="GES Bio-geweer")
 ; EN: Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Shock Rifle")
-Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Schock geweer")
+Object=(Name=Botpack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Schokgeweer")
 ; EN: Object=(Name=Botpack.SuperShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Super Shock Rifle")
-Object=(Name=Botpack.SuperShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Super Shock geweer")
+Object=(Name=Botpack.SuperShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Verbeterd Schokgeweer")
 ; EN: Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Pulse Gun")
 Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Puls Pistool")
 ; EN: Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ripper")
@@ -62,7 +62,7 @@ Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Descr
 ; EN: Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Minigun")
 Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Minigun")
 ; EN: Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak Cannon")
-Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak-kanon")
+Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak-Kanon")
 ; EN: Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rocket Launcher")
 Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Raketwerper")
 ; EN: Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Sniper Rifle")
@@ -378,7 +378,7 @@ StartUpMessage=""
 ; EN: gamegoal="captures wins the match!"
 gamegoal="vangt wint de wedstrijd!"
 ; EN: GameName="Capture the Flag"
-GameName="Verover de vlag"
+GameName="Verover de Vlag"
 
 [TeamGamePlus]
 ; EN: StartUpTeamMessage="You are on"
@@ -556,7 +556,7 @@ GameName="Gevechtstraining: DM"
 
 [enforcer]
 ; EN: DoubleName="Double Enforcers"
-DoubleName="Dubbele handhavers"
+DoubleName="Dual Enforcers"
 ; EN: WeaponDescription="Classification: Light Pistol\n\nPrimary Fire: Accurate but slow firing instant hit.\n\nSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice as fast and half as accurate as the primary fire.\n\nTechniques: Collect two for twice the damage."
 WeaponDescription="Classificatie: Licht pistool\n\n Primair vuur: Nauwkeurig maar langzaam afvallend direct schot.\n\n Secundair vuur: Zijwaarts of 'Gangsta'-afvuurmodus, schiet twee keer zo snel en half zo nauwkeurig als het primaire vuur.\n\nTechnieken: Verzamel er twee voor twee keer zoveel schade."
 ; EN: DeathMessage="%k riddled %o full of holes with the %w."
@@ -564,7 +564,7 @@ DeathMessage="%k doorzeefde %o vol gaten met de %w."
 ; EN: PickupMessage="You picked up another Enforcer!"
 PickupMessage="Je hebt een andere Enforcer opgepikt!"
 ; EN: ItemName="Enforcer"
-ItemName="Handhaver"
+ItemName="Enforcer"
 
 [TrainingCTF]
 ; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceCTF.uax_nlt!
@@ -596,7 +596,7 @@ SoundLengths[24]=10
 SoundLengths[25]=8
 SoundLengths[26]=9
 ; EN: TutMessage[0]="Welcome to Capture the Flag combat training. This tutorial will instruct you on the basic rules of CTF. Tutorials on DeathMatch, Domination, and Assault are also available."
-TutMessage[0]="Welkom bij de gevechtstraining Capture the Flag. In deze tutorial leer je de basisregels van CTF. Tutorials over DeathMatch, Domination en Assault zijn ook beschikbaar."
+TutMessage[0]="Welkom bij de gevechtstraining Verover de Vlag. In deze tutorial leer je de basisregels van CTF. Tutorials over DeathMatch, Overheersing en Assault zijn ook beschikbaar."
 ; EN: TutMessage[1]="Let's start by learning about the Heads Up Display (HUD). CTF adds a few new elements to the HUD you should be aware of."
 TutMessage[1]="Laten we beginnen met het leren van de Heads Up Display (HUD). CTF voegt een paar nieuwe elementen toe aan de HUD waarvan u op de hoogte moet zijn."
 ; EN: TutMessage[2]="Your HUD color indicates your team affiliation. Your HUD is red, indicating you are on the red team."
@@ -612,7 +612,7 @@ TutMessage[6]="Net links van elk vlagstatuspictogram staat de score van dat team
 ; EN: TutMessage[7]="Now lets look at the elements CTF adds to the scoreboard..."
 TutMessage[7]="Laten we nu eens kijken naar de elementen die CTF toevoegt aan het scorebord..."
 ; EN: TutMessage[8]="Capture the Flag uses the standard Unreal teamplay scoreboard configuration."
-TutMessage[8]="Capture the Flag gebruikt de standaard Unreal teamplay scorebordconfiguratie."
+TutMessage[8]="Verover de Vlag gebruikt de standaard Unreal teamplay scorebordconfiguratie."
 ; EN: TutMessage[9]="The left column lists the red team players and scores and the right column lists the blue team players and scores."
 TutMessage[9]="In de linkerkolom staan ​​de rode teamspelers en scores en in de rechterkolom de blauwe teamspelers en scores."
 ; EN: TutMessage[10]="Notice your name and current score of 0 listed to the left. Above your name is the name of your team. Your team's current score is listed to the right of the team's name."
@@ -622,9 +622,9 @@ TutMessage[11]="Als een speler in een CTF-game de vlag draagt, verschijnt er een
 ; EN: TutMessage[12]="This can be used to quickly determine which teammate to protect or which enemy to hunt down."
 TutMessage[12]="Dit kan worden gebruikt om snel te bepalen welke teamgenoot moet worden beschermd of welke vijand moet worden opgejaagd."
 ; EN: TutMessage[13]="Now its time to learn the rules of Capture the Flag."
-TutMessage[13]="Nu is het tijd om de regels van Capture the Flag te leren."
+TutMessage[13]="Nu is het tijd om de regels van Verover de Vlag te leren."
 ; EN: TutMessage[14]="In Capture the Flag you can use the translocator. It works the same way as in Domination, with one minor change. You are not allowed to translocate and carry the flag at the same time. If you translocate while holding the enemy flag, you will successfully translocate, but will drop the flag on the ground. This prevents you from translocating back to your base after having captured the enemy flag."
-TutMessage[14]="In Capture the Flag kun je de translocator gebruiken. Het werkt op dezelfde manier als in Domination, met een kleine wijziging. Het is niet toegestaan ​​om tegelijkertijd te verplaatsen en de vlag te dragen. Als je transloceert terwijl je de vijandelijke vlag vasthoudt, zul je met succes transloceren, maar de vlag op de grond laten vallen. Dit voorkomt dat je terugkeert naar je basis nadat je de vijandelijke vlag hebt veroverd."
+TutMessage[14]="In Verover de Vlag kun je de translocator gebruiken. Het werkt op dezelfde manier als in Overheersing, met een kleine wijziging. Het is niet toegestaan ​​om tegelijkertijd te verplaatsen en de vlag te dragen. Als je transloceert terwijl je de vijandelijke vlag vasthoudt, zul je met succes transloceren, maar de vlag op de grond laten vallen. Dit voorkomt dat je terugkeert naar je basis nadat je de vijandelijke vlag hebt veroverd."
 ; EN: TutMessage[15]="Each CTF map has a red and a blue base. This is red base. Blue base is just down the hallway. Each base contains a flag."
 TutMessage[15]="Elke CTF-kaart heeft een rode en een blauwe basis. Dit is een rode basis. Blauwe basis is iets verderop in de gang. Elke basis bevat een vlag."
 ; EN: TutMessage[16]="In front of you is the red flag. The object of CTF is to capture the enemy team's flag while defending your own."
@@ -648,7 +648,7 @@ TutMessage[24]="Als je je vlag op de grond vindt nadat je een vijand hebt gedood
 ; EN: TutMessage[25]="This concludes the CTF tutorial. Let me spawn those practice bots for you. Good hunting!"
 TutMessage[25]="Hiermee is de CTF-tutorial afgesloten. Laat me die oefenrobots voor je spawnen. Goede jacht!"
 ; EN: TutMessage[26]="Congratulations! You have proven yourself to be a worthy CTF player. Now its time to enter the Capture the Flag Tournament Ladder."
-TutMessage[26]="Gefeliciteerd! Je hebt bewezen een waardige CTF-speler te zijn. Nu is het tijd om naar de Capture the Flag-toernooiladder te gaan."
+TutMessage[26]="Gefeliciteerd! Je hebt bewezen een waardige CTF-speler te zijn. Nu is het tijd om naar de Verover de Vlag-toernooiladder te gaan."
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: CTF"
 GameName="Gevechtstraining: CTF"
@@ -677,11 +677,11 @@ SoundLengths[18]=10
 SoundLengths[19]=10
 SoundLengths[20]=9
 ; EN: TutMessage[0]="Welcome to Domination combat training. This tutorial will instruct you on the basic gameplay rules of Domination. Tutorials on Deathmatch, Capture the Flag, and Assault are also available."
-TutMessage[0]="Welkom bij de gevechtstraining van Domination. In deze tutorial leer je de basisregels voor het spelen van Domination. Tutorials over Deathmatch, Capture the Flag en Assault zijn ook beschikbaar."
+TutMessage[0]="Welkom bij de gevechtstraining van Overheersing. In deze tutorial leer je de basisregels voor het spelen van Overheersing. Tutorials over Deathmatch, Verover de Vlag en Assault zijn ook beschikbaar."
 ; EN: TutMessage[1]="Let's start by learning about the elements Domination adds to the Heads Up Display (HUD)."
-TutMessage[1]="Laten we beginnen met te leren over de elementen die Domination toevoegt aan de Heads Up Display (HUD)."
+TutMessage[1]="Laten we beginnen met te leren over de elementen die Overheersing toevoegt aan de Heads Up Display (HUD)."
 ; EN: TutMessage[2]="Domination enhances the basic teamplay HUD by adding control point status indicators to the left side of your screen."
-TutMessage[2]="Domination verbetert de basisteamplay-HUD door statusindicatoren van controlepunten aan de linkerkant van je scherm toe te voegen."
+TutMessage[2]="Overheersing verbetert de basisteamplay-HUD door statusindicatoren van controlepunten aan de linkerkant van je scherm toe te voegen."
 ; EN: TutMessage[3]="As you can see, there are two control points in this tutorial map. We'll discuss the function of control points shortly."
 TutMessage[3]="Zoals u kunt zien, zijn er twee controlepunten in deze instructiekaart. We bespreken binnenkort de functie van controlepunten."
 ; EN: TutMessage[4]="Each indicator shows the name of a control point and that control point's current status."
@@ -689,9 +689,9 @@ TutMessage[4]="Elke indicator toont de naam van een controlepunt en de huidige s
 ; EN: TutMessage[5]="Every control point in a domination map has a unique name. These controls points are named Alpha and Gamma."
 TutMessage[5]="Elk controlepunt in een dominatiekaart heeft een unieke naam. Deze controlepunten worden Alpha en Gamma genoemd."
 ; EN: TutMessage[6]="The icon next to the control point name displays the status of that location. Before I explain how these icons work, let's discuss the rules of Domination."
-TutMessage[6]="Het pictogram naast de naam van het controlepunt geeft de status van die locatie weer. Laten we, voordat ik uitleg hoe deze pictogrammen werken, eerst de regels van Domination bespreken."
+TutMessage[6]="Het pictogram naast de naam van het controlepunt geeft de status van die locatie weer. Laten we, voordat ik uitleg hoe deze pictogrammen werken, eerst de regels van Overheersing bespreken."
 ; EN: TutMessage[7]="In Domination each team is trying to control and hold the level's control points."
-TutMessage[7]="In Domination probeert elk team de controlepunten van het level te controleren en vast te houden."
+TutMessage[7]="In Overheersing probeert elk team de controlepunten van het level te controleren en vast te houden."
 ; EN: TutMessage[8]="A team is given 1 point every 5 seconds for each location they control."
 TutMessage[8]="Een team krijgt elke 5 seconden 1 punt voor elke locatie die ze beheersen."
 ; EN: TutMessage[9]="This is a control point. The grey X symbol indicates that no team is in control of this location. To take control of a location, touch it. Do this now."
@@ -699,13 +699,13 @@ TutMessage[9]="Dit is een controlepunt. Het grijze X-symbool geeft aan dat er ge
 ; EN: TutMessage[10]="Good. Your team now controls this location. Notice that the shape and color of the control point has changed to reflect your team symbol and color."
 TutMessage[10]="Goed. Je team beheert nu deze locatie. Merk op dat de vorm en kleur van het controlepunt is veranderd om je teamsymbool en kleur weer te geven."
 ; EN: TutMessage[11]="Look at the control point status icon. Notice that the Gamma point icon has changed to indicate your team is in control. You can use these icons to quickly assess the state of a Domination game."
-TutMessage[11]="Kijk naar het statuspictogram van het controlepunt. Merk op dat het Gamma-puntpictogram is gewijzigd om aan te geven dat uw team de controle heeft. U kunt deze pictogrammen gebruiken om snel de status van een Domination-game te beoordelen."
+TutMessage[11]="Kijk naar het statuspictogram van het controlepunt. Merk op dat het Gamma-puntpictogram is gewijzigd om aan te geven dat uw team de controle heeft. U kunt deze pictogrammen gebruiken om snel de status van een Overheersing-game te beoordelen."
 ; EN: TutMessage[12]="Now find and control the Alpha point to secure your Domination of this map."
 TutMessage[12]="Zoek en beheer nu het Alpha-punt om je overheersing van deze kaart te beveiligen."
 ; EN: TutMessage[13]="Excellent, you control all of the points on this map."
 TutMessage[13]="Uitstekend, je beheert alle punten op deze kaart."
 ; EN: TutMessage[14]="In summary, each team must locate and capture certain points in a Domination map. The more locations a team controls the faster their score increases."
-TutMessage[14]="Samengevat: elk team moet bepaalde punten op een Domination-kaart lokaliseren en veroveren. Hoe meer locaties een team beheert, hoe sneller hun score toeneemt."
+TutMessage[14]="Samengevat: elk team moet bepaalde punten op een Overheersing-kaart lokaliseren en veroveren. Hoe meer locaties een team beheert, hoe sneller hun score toeneemt."
 ; EN: TutMessage[15]="This device is called a 'Translocator.' You use it to transport from one location to another instantly. Hit the fire button to launch the translocator destination module."
 TutMessage[15]="Dit apparaat wordt een 'Translocator' genoemd. Je gebruikt het om direct van de ene locatie naar de andere te transporteren. Druk op de vuurknop om de bestemmingsmodule van de translocator te starten."
 ; EN: TutMessage[16]="The module is now on the floor. If you hit the alt-fire button you will be teleported to the module. Run away from the module and hit the alt-fire button."
@@ -717,7 +717,7 @@ TutMessage[18]="Als je een vijandelijke translocator-module op de grond ziet, ku
 ; EN: TutMessage[19]="Its time for a test. I'm going to spawn two bots on the enemy team and one bot to assist you. The first team to gain 20 points wins. Good luck!"
 TutMessage[19]="Het is tijd voor een test. Ik ga twee bots spawnen in het vijandelijke team en één bot om je te helpen. Het eerste team dat 20 punten behaalt, wint. Succes!"
 ; EN: TutMessage[20]="Congratulations! You have proven yourself to be a worthy Domination player. Now its time to enter the Domination Tournament Ladder."
-TutMessage[20]="Gefeliciteerd! Je hebt bewezen een waardige Domination-speler te zijn. Nu is het tijd om de Domination Tournament Ladder te betreden."
+TutMessage[20]="Gefeliciteerd! Je hebt bewezen een waardige Overheersing-speler te zijn. Nu is het tijd om de Overheersing Tournament Ladder te betreden."
 StartUpMessage=""
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: DOM"
@@ -853,8 +853,9 @@ Titles[6]="Kampioen"
 
 [LastManStanding]
 ; EN: StartUpMessage="Last Man Standing.  How long can you live?"
-StartUpMessage="Last Man Standing. Hoe lang kun je leven?"
-GameName="Last Man Standing"
+StartUpMessage="Laatste man die Staat. Hoe lang kun je leven?"
+; EN: GameName="Last Man Standing"
+GameName="Laatste man die Staat"
 
 [VacuumZone]
 ; EN: DamageString="%o was depressurized"
@@ -870,7 +871,7 @@ WeaponDescription="Classificatie: zwaar ballistisch\n\n Primair vuur: langzaam b
 ; EN: DeathMessage="%o was smacked down by %k's %w."
 DeathMessage="%o werd neergeslagen door %k's %w."
 ; EN: PickupMessage="You got the Rocket Launcher."
-PickupMessage="Je hebt de Rocket Launcher."
+PickupMessage="Je hebt de Raketwerper."
 ; EN: ItemName="Rocket Launcher"
 ItemName="Raketwerper"
 
@@ -932,7 +933,7 @@ SoundLengths[8]=13
 SoundLengths[9]=13
 SoundLengths[10]=13
 ; EN: TutMessage[0]="Welcome to Assault combat training. This tutorial will instruct you on the basic rules of AS. Tutorials on DeathMatch, Domination, and Capture the Flag are also available."
-TutMessage[0]="Welkom bij Assault-gevechtstraining. In deze tutorial leer je de basisregels van AS. Tutorials over DeathMatch, Domination en Capture the Flag zijn ook beschikbaar."
+TutMessage[0]="Welkom bij Assault-gevechtstraining. In deze tutorial leer je de basisregels van AS. Tutorials over DeathMatch, Overheersing en Verover de Vlag zijn ook beschikbaar."
 ; EN: TutMessage[1]="The first thing you'll notice upon entering an Assault game is the large digital time display to the left of your HUD. This timer counts away the seconds until the game ends. Time is critical in an Assault game."
 TutMessage[1]="Het eerste dat opvalt bij het betreden van een Assault-game, is de grote digitale tijdweergave links van je HUD. Deze timer telt de seconden weg totdat het spel is afgelopen. Tijd is cruciaal in een Assault-game."
 ; EN: TutMessage[2]="The game consists of two teams, each with a unique goal. You are on the attacking team. Your job is to penetrate the enemy base and destroy several key locations. If you fail to succeed in the allotted time, you lose."
@@ -993,9 +994,9 @@ WeaponDescription="Classificatie: Energiegeweer\n\n Primair vuur: Direct geraakt
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k heeft dodelijke schade toegebracht aan %o met de %w."
 ; EN: PickupMessage="You got the ASMD Shock Rifle."
-PickupMessage="Je hebt het ASMD Shock Rifle."
+PickupMessage="Je hebt het ASMD Schokgeweer."
 ; EN: ItemName="Shock Rifle"
-ItemName="Shock geweer"
+ItemName="Schokgeweer"
 
 [ScrollingMessageTexture]
 ; EN: HisMessage="his"
@@ -1021,9 +1022,9 @@ MessageNoAmmo=" heeft geen plasma."
 ; EN: DeathMessage="%o ate %k's burning plasma death."
 DeathMessage="%o at %k's brandende plasmadood."
 ; EN: PickupMessage="You got a Pulse Gun"
-PickupMessage="Je hebt een Pulse Gun"
+PickupMessage="Je hebt een Puls Pistool"
 ; EN: ItemName="Pulse Gun"
-ItemName="Pulse pistool"
+ItemName="Puls Pistool"
 
 [ImpactHammer]
 ; EN: WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high."
@@ -1031,8 +1032,9 @@ WeaponDescription="Classificatie: Melee Piston\n\n Primair vuur: als de trekker 
 ; EN: DeathMessage="%o got smeared by %k's piston."
 DeathMessage="%o is besmeurd door de zuiger van %k."
 ; EN: PickupMessage="You got the Impact Hammer."
-PickupMessage="Je hebt de Impact Hammer."
-ItemName="Impact Hammer"
+PickupMessage="Je hebt de Slaghamer."
+; EN: ItemName="Impact Hammer"
+ItemName="Slaghamer"
 
 [CTFMessage]
 ; EN: ReturnBlue="returns the blue flag!"
@@ -1072,7 +1074,7 @@ WeaponDescription="Classificatie: Ballistisch over lange afstand\n\nRegelmatig v
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k schoot een kogel door %o's hoofd."
 ; EN: PickupMessage="You got a Sniper Rifle."
-PickupMessage="Je hebt een Sniper Rifle."
+PickupMessage="Je hebt een Scherpschuttersgeweer."
 ; EN: ItemName="Sniper Rifle"
 ItemName="Scherpschuttersgeweer"
 
@@ -1088,9 +1090,9 @@ WeaponDescription="Classificatie: zware granaatscherven\n\n Primair vuur: witglo
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o werd aan flarden gescheurd met %k's %w."
 ; EN: PickupMessage="You got the Flak Cannon."
-PickupMessage="Je hebt het Flak Cannon."
+PickupMessage="Je hebt het Flak-Kanon."
 ; EN: ItemName="Flak Cannon"
-ItemName="Flak-kanon"
+ItemName="Flak-Kanon"
 
 [MultiKillMessage]
 ; EN: DoubleKillString="Double Kill!"
@@ -1117,8 +1119,9 @@ WeaponDescription="Classificatie: Giftig geweer\n\n Primair vuur: Wads met bijpr
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o dronk een glas van %k's druipende groene lading."
 ; EN: PickupMessage="You got the GES BioRifle."
-PickupMessage="Je hebt het GES BioRifle."
-ItemName="GES BioRifle"
+PickupMessage="Je hebt het GES Bio-geweer."
+; EN: ItemName="GES BioRifle"
+ItemName="GES Bio-geweer"
 
 [minigun2]
 ; EN: WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
@@ -1127,11 +1130,12 @@ WeaponDescription="Classificatie: Gatling Gun\n\n Primair vuur: Kogels worden me
 DeathMessage="%k's %w veranderde %o in een lek stuk vlees."
 ; EN: PickupMessage="You got the Minigun."
 PickupMessage="Je hebt de Minigun."
+; EN: ItemName="Minigun"
 ItemName="Minigun"
 
 [ChainSaw]
 ; EN: WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
-WeaponDescription="Classificatie: Melee Blade\n\n Primary Fire: wanneer de trekker ingedrukt wordt gehouden, gaat het met een ketting bedekte mes omhoog. Drijf dit mes in tegenstanders om enorme schade aan te richten.\n\n Secundair vuur: het omhooggeschoven mes kan horizontaal worden gezwenkt en kan onmiddellijke onthoofding van vijanden veroorzaken.\n\nTechnieken: de kettingzaag maakt een luid en herkenbaar gebrul en kan worden vermeden door luisteren naar audiosignalen."
+WeaponDescription="Classificatie: Melee Blade\n\n Primary Fire: wanneer de trekker ingedrukt wordt gehouden, gaat het met een ketting bedekte mes omhoog. Drijf dit mes in tegenstanders om enorme schade aan te richten.\n\n Secundair vuur: het omhooggeschoven mes kan horizontaal worden gezwenkt en kan onmiddellijke onthoofding van vijanden veroorzaken.\n\nTechnieken: de Kettingzaag maakt een luid en herkenbaar gebrul en kan worden vermeden door luisteren naar audiosignalen."
 ; EN: DeathMessage="%k ripped into %o with a blood soaked %w."
 DeathMessage="%k gescheurd in %o met een met bloed doordrenkte %w."
 ; EN: PickupMessage="It's been five years since I've seen one of these."
@@ -2082,6 +2086,7 @@ WeaponDescription="Classificatie: Ballistic Blade Launcher\n\n Primair vuur: vli
 DeathMessage="%k scheurde een stuk vlees uit %o met de %w."
 ; EN: PickupMessage="You got the Ripper."
 PickupMessage="Je hebt de Ripper."
+; EN: ItemName="Ripper"
 ItemName="Ripper"
 
 [KillingSpreeMessage]
@@ -2104,7 +2109,7 @@ spreenote[4]="is goddelijk!"
 
 [TDarkMatch]
 ; EN: GameName="Tournament DarkMatch"
-GameName="Toernooi DarkMatch"
+GameName="Toernooi Darkmatch"
 
 [TFemale1]
 ; EN: MenuName="Female Commando"
@@ -2531,7 +2536,7 @@ MapDescription[3]="Dankzij Magnetic Anti-Vacuum Resonance-technologie kunnen str
 
 [LadderCTF]
 ; EN: MapTitle[0]="CTF Tutorial"
-MapTitle[0]="CTF-zelfstudie"
+MapTitle[0]="VdV-zelfstudie"
 ; EN: MapTitle[1]="Niven Laboratory"
 MapTitle[1]="Niven Laboratorium"
 ; EN: MapTitle[2]="Facing Worlds"
@@ -2550,7 +2555,7 @@ MapTitle[8]="Lava Reus"
 ; EN: MapTitle[9]="November Sub Pen"
 MapTitle[9]="November Sub-pen"
 ; EN: MapDescription[0]="Learn the basic rules and systems of Capture the Flag in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[0]="Leer de basisregels en systemen van Capture the Flag in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
+MapDescription[0]="Leer de basisregels en systemen van Verover de Vlag in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
 ; EN: MapDescription[1]="An experimental orbital nuclear reactor, abandoned after funding for the project dried up. High radiation levels and waste leakage offer an environmental challenge for Tournament combatants."
 MapDescription[1]="Een experimentele orbitale kernreactor, verlaten nadat de financiering voor het project was opgedroogd. Hoge stralingsniveaus en afvallekkage vormen een uitdaging voor het milieu voor toernooistrijders."
 ; EN: MapDescription[2]="This ancient asteroid has been converted to an Arena for the Tournament. It is highly dangerous due to aberrant gravitational properties and, of course, the snipers from the other team."
@@ -2564,7 +2569,7 @@ MapDescription[5]="Niet alle omgevingen zijn achteraf aangepast aan Liandri-onro
 ; EN: MapDescription[6]="The distant wastemarsh of Vandaron 3 is said to be the wettest place in the galaxy. A post dreaded by soldiers due to its remote location, cramped quarters, and maddening echo of ever beating rain."
 MapDescription[6]="De verre woestenij van Vandaron 3 zou de natste plek in de melkweg zijn. Een post waar soldaten bang voor zijn vanwege de afgelegen ligging, de krappe vertrekken en de gekmakende echo van de altijd kloppende regen."
 ; EN: MapDescription[7]="The Last Command is a fully functional Nuclear Processing Station owned by the Liandri Corporation. This facility's system oriented layout makes an ideal proving grounds for Capture the Flag Tournament matches. High Tech voluminous industrial architecture paired with curving maintenance corridors means fighting here will require quick reaction times if your team plans on surviving."
-MapDescription[7]="The Last Command is een volledig functioneel nucleair verwerkingsstation dat eigendom is van de Liandri Corporation. De systeemgeoriënteerde lay-out van deze faciliteit is een ideaal testterrein voor wedstrijden van Capture the Flag Tournament. High-tech omvangrijke industriële architectuur in combinatie met gebogen onderhoudscorridors betekent dat vechten hier snelle reactietijden vereist als je team van plan is te overleven."
+MapDescription[7]="The Last Command is een volledig functioneel nucleair verwerkingsstation dat eigendom is van de Liandri Corporation. De systeemgeoriënteerde lay-out van deze faciliteit is een ideaal testterrein voor wedstrijden van Verover de Vlag Tournament. High-tech omvangrijke industriële architectuur in combinatie met gebogen onderhoudscorridors betekent dat vechten hier snelle reactietijden vereist als je team van plan is te overleven."
 ; EN: MapDescription[8]="This volatile world has an extremely low orbit around a superdense gas giant. The resulting gravitational forces have caused the planetary mantle to collapse. Combatants are issued special gravbelts for each match."
 MapDescription[8]="Deze vluchtige wereld heeft een extreem lage baan rond een superdense gasreus. De resulterende zwaartekrachten hebben de planetaire mantel doen instorten. Strijders krijgen voor elke wedstrijd speciale gravbelts."
 ; EN: MapDescription[9]="Battle around a retired November class nuclear submarine docked in an underground pen. This relic, left from the First Cold War, still includes machinegun nests and defensive positions key to victory."
@@ -2683,7 +2688,7 @@ MapTitle[7]="Olden Aquifer"
 MapTitle[8]="Graf van Sesmar"
 MapTitle[9]="Metal Dream"
 ; EN: MapDescription[0]="Learn the basic rules and systems of Domination in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[0]="Leer de basisregels en systemen van Domination in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
+MapDescription[0]="Leer de basisregels en systemen van Overheersing in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
 ; EN: MapDescription[1]="The many gang-related fights that ravaged this particular area have already proven this section of the city slums to be a bloody battle ground. The Liandri organizers are expecting this to be the case once again, only this time, as a tournament domination arena."
 MapDescription[1]="De vele bendegerelateerde gevechten die dit specifieke gebied hebben verwoest, hebben al bewezen dat dit deel van de sloppenwijken van de stad een bloedig strijdtoneel is. De organisatoren van Liandri verwachten dat dit opnieuw het geval zal zijn, maar dit keer als een arena voor toernooidominantie."
 ; EN: MapDescription[2]="A newly constructed explosion testing facility, Ghardhen Labs houses two blast chambers. Unfortunately, one of the silent investors was a Liandri location scout, and Ghardhen fell to Liandri."
@@ -2701,7 +2706,7 @@ MapDescription[7]="Deze oude tempel was heilig voor het ras dat hem bouwde, maar
 ; EN: MapDescription[8]="Despite worldwide protests, this historical landmark is now owned by Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We owe it to the people to ensure quality cultural events. We won't settle for less.'"
 MapDescription[8]="Ondanks wereldwijde protesten is dit historische monument nu eigendom van Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We zijn het de mensen verplicht om culturele evenementen van hoge kwaliteit te garanderen. Met minder nemen we geen genoegen. '"
 ; EN: MapDescription[9]="This oil rig has been converted into a Domination Arena. It is located near strange meteorological phenomenon in the northern reaches of Kryllia. Use the architecture to dominate your opponents."
-MapDescription[9]="Dit booreiland is omgebouwd tot een Domination Arena. Het bevindt zich in de buurt van een vreemd meteorologisch fenomeen in de noordelijke uithoeken van Kryllia. Gebruik de architectuur om je tegenstanders te domineren."
+MapDescription[9]="Dit booreiland is omgebouwd tot een Overheersing Arena. Het bevindt zich in de buurt van een vreemd meteorologisch fenomeen in de noordelijke uithoeken van Kryllia. Gebruik de architectuur om je tegenstanders te domineren."
 
 [ChallengeDMP]
 ; EN: GameName="Lightning DeathMatch"
@@ -3278,7 +3283,7 @@ MapTitle[0]="DOM-zelfstudie"
 ; EN: MapTitle[1]="Tomb of Sesmar"
 MapTitle[1]="Graf van Sesmar"
 ; EN: MapDescription[0]="Learn the basic rules and systems of Domination in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[0]="Leer de basisregels en systemen van Domination in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
+MapDescription[0]="Leer de basisregels en systemen van Overheersing in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
 ; EN: MapDescription[1]="Despite worldwide protests, this historical landmark is now owned by Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We owe it to the people to ensure quality cultural events. We won't settle for less.'"
 MapDescription[1]="Ondanks wereldwijde protesten is dit historische monument nu eigendom van Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We zijn het de mensen verplicht om culturele evenementen van hoge kwaliteit te garanderen. Met minder nemen we geen genoegen. '"
 
@@ -3303,10 +3308,10 @@ MapDescription[4]="De Tempest-faciliteit is speciaal gebouwd voor het toernooi. 
 
 [LadderCTFDemo]
 ; EN: MapTitle[0]="CTF Tutorial"
-MapTitle[0]="CTF-zelfstudie"
+MapTitle[0]="VdV-zelfstudie"
 MapTitle[1]="Coret Center"
 ; EN: MapDescription[0]="Learn the basic rules and systems of Capture the Flag in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[0]="Leer de basisregels en systemen van Capture the Flag in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
+MapDescription[0]="Leer de basisregels en systemen van Verover de Vlag in deze speciale trainingsomgeving. Test je vaardigheden tegen een ongetraind vijandelijk team voordat je aan het eigenlijke toernooi meedoet."
 ; EN: MapDescription[1]="Built into a mountaintop on the Coret moon, this facility was once the waypoint between the Interstellar zonegate in orbit over the moon and the Zeto Research Station located half the moon away in the frozen wastes."
 MapDescription[1]="Gebouwd in een bergtop op de Coret-maan, was deze faciliteit ooit het waypoint tussen de Interstellaire zonegate in een baan boven de maan en het Zeto Research Station op de halve maan weg in de bevroren woestenij."
 
@@ -3339,4 +3344,5 @@ WeaponDescription="Classificatie: Persoonlijk teleportatieapparaat\n\n Primaire 
 DeathMessage="%k telefragged %o!"
 ; EN: PickupMessage="You got the Translocator Source Module."
 PickupMessage="Je hebt de Translocator Source Module."
+; EN: ItemName="Translocator"
 ItemName="Translocator"

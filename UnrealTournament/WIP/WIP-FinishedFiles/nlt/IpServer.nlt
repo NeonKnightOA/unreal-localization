@@ -3,6 +3,7 @@ Object=(Name=IpServer.UdpServerUplink,Class=Class,MetaClass=Engine.Actor)
 Preferences=(Caption="Master Server Uplink",Parent="Networking",Class=IpServer.UdpServerUplink,Immediate=True)
 
 [ServerUplink]
+; EN: ClassCaption="Master Server Uplink"
 ClassCaption="Master Server Uplink"
 
 [ServerQuery]
