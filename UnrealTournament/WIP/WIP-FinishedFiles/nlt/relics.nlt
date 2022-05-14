@@ -1,16 +1,16 @@
 ﻿[Public]
 ; EN: Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
-Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieKracht,A magical relic that imparts a great increase in damage.")
 ; EN: Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
-Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relikwie Snelheid,A magical relic that imparts superhuman speed and reflexes.")
 ; EN: Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
-Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieRegeneratie,A magical relic that imparts the ability to gain 10 health every second.")
 ; EN: Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
-Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieVerlossing,This mysterious artifact will bind to your soul, saving you from death.")
 ; EN: Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60% of all damage sustained by the user.")
-Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60% of all damage sustained by the user.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieVerdediging,A magical relic that prevents 60% of all damage sustained by the user.")
 ; EN: Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
-Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relikwie Wraak,This relic will punish those who wish to slay you.")
 
 [RelicInventory]
 ; EN: PickupMessage="You picked up a null Relic."
