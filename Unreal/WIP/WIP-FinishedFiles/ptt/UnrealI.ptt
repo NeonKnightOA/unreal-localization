@@ -26,12 +26,11 @@ Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Descripti
 Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldado Skaarj")
 ; EN: Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
 Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
-; EN: Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
-Preferences=(Caption="Partida na Escuridão",Parent="Tipos de partidas",Class=UnrealI.DarkMatch,Immediate=True)
-; EN: Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
-Preferences=(Caption="Rei da Montanha",Parent="Tipos de partidas",Class=UnrealI.KingOfTheHill,Immediate=True)
-; EN: Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
-Preferences=(Caption="Mapas de Partida na Escuridão",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
+; EN: Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
+Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
+Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
+Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
 
 [IntroNullHud]
 ; EN: ESCMessage="Press ESC to begin"
@@ -410,9 +409,9 @@ DeathMessage="%o foi destroçado pela %k de %w."
 FemDeathMessage="%o foi destroçada pela %k de %w."
 FemKillMessage="%o foi destroçado pela %k de %w."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Você pegou o Canhão de Estilhaços"
+PickupMessage="Você pegou o Lançaestilhaços"
 ; EN: ItemName="Flak Cannon"
-ItemName="Canhão de Estilhaços"
+ItemName="Lançaestilhaços"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -422,7 +421,7 @@ FemKillMessage="%k acertou uma bala na cabeça de %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Você pegou o Fuzil"
 ; EN: ItemName="Sniper Rifle"
-ItemName="Fuzil de longo alcance"
+ItemName="Fuzil de Longo Alcance"
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -440,9 +439,9 @@ DeathMessage="%o bebeu um copo de gosma verde de %k."
 FemDeathMessage="%o bebeu um copo de gosma verde de %k."
 FemKillMessage="%o bebeu um copo de gosma verde de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Você pegou o Lançador de Gosma Tóxica GES"
+PickupMessage="Você pegou o Lançalixo Tóxico GES"
 ; EN: ItemName="GES Bio Rifle"
-ItemName="Lançador de Gosma Tóxica GES"
+ItemName="Lançalixo Tóxico GES"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
@@ -450,9 +449,9 @@ DeathMessage="%k rasgou um pedaço sangrento de %o com o %w."
 FemDeathMessage="%k rasgou um pedaço sangrento de %o com o %w."
 FemKillMessage="%k rasgou um pedaço sangrento de %o com o %w."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Você pegou o Lançador de Lâminas"
+PickupMessage="Você pegou o Lançalâminas"
 ; EN: ItemName="Razorjack"
-ItemName="Lançador de Lâminas"
+ItemName="Lançalâminas"
 
 [Squid]
 ; EN: NameArticle=" a "

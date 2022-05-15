@@ -26,12 +26,11 @@ Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Descripti
 Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Katona")
 ; EN: Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
 Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
-; EN: Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
-Preferences=(Caption="Sötétség Meccs",Parent="Játék típusok",Class=UnrealI.DarkMatch,Immediate=True)
-; EN: Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
-Preferences=(Caption="A Hegy Királya",Parent="Játék típusok",Class=UnrealI.KingOfTheHill,Immediate=True)
-; EN: Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
-Preferences=(Caption="Sötétség Meccs Pályák",Parent="Pályalisták",Class=UnrealI.DkMapList,Immediate=True)
+; EN: Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
+Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
+Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
+Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
 
 [IntroNullHud]
 ; EN: ESCMessage="Press ESC to begin"
@@ -397,13 +396,13 @@ NewQueenMessage="%k a hegy új királynője!"
 GameName="A Hegy Királya"
 
 [FlakCannon]
-; EN: DeathMessage="%k put a bullet through %o's head."
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o-t széttépte darabokra %k %wja."
 FemDeathMessage="%o-t széttépte darabokra %k %wja."
 FemKillMessage="%o-t széttépte darabokra %k %wja."
-; EN: PickupMessage="You got the Rifle"
+; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Megszerezted a Szilánkvetőt"
-; EN: ItemName="Sniper Rifle"
+; EN: ItemName="Flak Cannon"
 ItemName="Szilánkvető"
 
 [Rifle]
@@ -432,9 +431,9 @@ DeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
 FemDeathMessage="%o ivott egy pohárkával %k zöld trutymójából."
 FemKillMessage="%o ivott egy pohárkával %k zöld trutymójából."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Megszerezted a GES Biológiai Fegyvert"
+PickupMessage="Megszerezted a GES Biofegyvert"
 ; EN: ItemName="GES Bio Rifle"
-ItemName="GES Biológiai Fegyver"
+ItemName="GES Biofegyver"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."

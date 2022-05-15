@@ -31,31 +31,19 @@ Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; "Editor" tree
-; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Szerkesztő",Parent="Haladó beállítások")
-; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Haladó (szerkesztő)",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Színek",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Rotációs rács",Parent="Szerkesztő",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 ; "Commandlets and Exporters" subtree
-; EN: Preferences=(Caption="Commandlets and Exporters",Parent="Editor")
-Preferences=(Caption="Parancsek és Exportőrök",Parent="Szerkesztő")
-; EN: Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Class=Editor.AudioPackageCommandlet,Immediate=True)
-Preferences=(Caption="AudioPackage Parancs",Parent="Parancsek és Exportőrök",Class=Editor.AudioPackageCommandlet,Immediate=True)
-; EN: Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-Preferences=(Caption="BatchMeshExport Parancs",Parent="Parancsek és Exportőrök",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-; EN: Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-Preferences=(Caption="FullBatchExport Parancs",Parent="Parancsek és Exportőrök",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-; EN: Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-Preferences=(Caption="MusicPackages Parancs",Parent="Parancsek és Exportőrök",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-; EN: Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-Preferences=(Caption="RebuildImports Parancs",Parent="Parancsek és Exportőrök",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-; EN: Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
-Preferences=(Caption="SkeletalAnim (PSA) Exportőr",Parent="Parancsek és Exportőrök",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
+Preferences=(Caption="Commandlets and Exporters",Parent="Editor")
+Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Class=Editor.AudioPackageCommandlet,Immediate=True)
+Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
+Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.FullBatchExportCommandlet,Immediate=True)
+Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Class=Editor.MusicPackagesCommandlet,Immediate=True)
+Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Class=Editor.RebuildImportsCommandlet,Immediate=True)
+Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
 
 [MasterCommandlet]
 HelpCmd=master
@@ -171,7 +159,7 @@ HelpDesc[2]="   Az ügyfelek letölthetik ezt a csomagot a szerverről."
 HelpParm[3]="   ClientOptional"
 ; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
 HelpDesc[3]="   Az ügyfelek dönthetnek úgy, hogy kihagyják a csomag letöltését a szerverről."
-HelpDesc[4]="   ServerSideOnly"
+HelpParm[4]="   ServerSideOnly"
 ; EN: HelpDesc[4]="   The package has no network relevancy on a server."
 HelpDesc[4]="   A csomagnak nincs hálózati relevanciája a szerveren."
 HelpParm[5]="   BrokenLinks"
@@ -472,7 +460,7 @@ HelpOneLiner="texturemerger [csomagNév]"
 HelpDesc[0]="[csomagNév]"
 ; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
 HelpParm[0]="Opcionális paraméter, ez az a csomag, ahová a textúrák mentésre kerülnek."
-HelpDesc[0]=" "
+HelpDesc[1]=" "
 ; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
 HelpParm[1]="Ha nincs megadva csomagNév, akkor a TextureMerge könyvtárat használja az összes almappa nevének megkeresésére a megfelelő csomagok keresése során."
 

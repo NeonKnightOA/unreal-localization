@@ -1,29 +1,30 @@
 [Public]
-Object="(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
 
 [PkgCommandlet]
 HelpCmd="pkg"

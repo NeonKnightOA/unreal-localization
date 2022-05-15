@@ -31,31 +31,19 @@ Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; "Editor" tree
-; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Editeur",Parent="Options avancées")
-; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Avancées (Editeur)",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Couleurs",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Grille",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Grille de rotation",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 ; "Commandlets and Exporters" subtree
-; EN: Preferences=(Caption="Commandlets and Exporters",Parent="Editor")
-Preferences=(Caption="Applicommandes et Exportateurs",Parent="Éditeur")
-; EN: Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Class=Editor.AudioPackageCommandlet,Immediate=True)
-Preferences=(Caption="Applicommande AudioPackage",Parent="Applicommandes et Exportateurs",Class=Editor.AudioPackageCommandlet,Immediate=True)
-; EN: Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-Preferences=(Caption="Applicommande BatchMeshExport",Parent="Applicommandes et Exportateurs",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-; EN: Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-Preferences=(Caption="Applicommande FullBatchExport",Parent="Applicommandes et Exportateurs",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-; EN: Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-Preferences=(Caption="Applicommande MusicPackages",Parent="Applicommandes et Exportateurs",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-; EN: Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-Preferences=(Caption="Applicommande RebuildImports",Parent="Applicommandes et Exportateurs",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-; EN: Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
-Preferences=(Caption="Exportateur SkeletalAnim (PSA)",Parent="Applicommandes et Exportateurs",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
+Preferences=(Caption="Commandlets and Exporters",Parent="Editor")
+Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Class=Editor.AudioPackageCommandlet,Immediate=True)
+Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
+Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.FullBatchExportCommandlet,Immediate=True)
+Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Class=Editor.MusicPackagesCommandlet,Immediate=True)
+Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Class=Editor.RebuildImportsCommandlet,Immediate=True)
+Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
 
 [MasterCommandlet]
 HelpCmd=master
@@ -171,7 +159,7 @@ HelpDesc[2]="   Les clients sont autorisés à télécharger ce package à parti
 HelpParm[3]="   ClientOptional"
 ; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
 HelpDesc[3]="   Les clients peuvent choisir de ne pas télécharger ce package à partir du serveur."
-HelpDesc[4]="   ServerSideOnly"
+HelpParm[4]="   ServerSideOnly"
 ; EN: HelpDesc[4]="   The package has no network relevancy on a server."
 HelpDesc[4]="   Le package n'a aucune pertinence réseau sur un serveur."
 HelpParm[5]="   BrokenLinks"
@@ -432,6 +420,12 @@ HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Extraire le package avec la structure de répertoires."
 ; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
 HelpUsage="fullbatchexport <pkg> <outpath>"
+; EN: HelpDesc[0]="Optional, to define export format:"
+HelpDesc[0]="Optionnel, pour définir le format d'export:"
+HelpParm[0]="   -DefaultFontExtension"
+HelpParm[1]="   -DefaultMusicExtension"
+HelpParm[2]="   -DefaultSoundExtension"
+HelpParm[3]="   -DefaultTextureExtension"
 
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
@@ -472,7 +466,7 @@ HelpOneLiner="texturemerger [nomPaquet]"
 HelpDesc[0]="[nomPaquet]"
 ; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
 HelpParm[0]="Un paramètre facultatif, c'est le package dans lequel les textures seront enregistrées."
-HelpDesc[0]=" "
+HelpDesc[1]=" "
 ; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
 HelpParm[1]="Si aucun nomPaquet n'est spécifié, le répertoire TextureMerge est utilisé pour localiser les noms de tous les sous-dossiers lors de la recherche des packages correspondants." 
 

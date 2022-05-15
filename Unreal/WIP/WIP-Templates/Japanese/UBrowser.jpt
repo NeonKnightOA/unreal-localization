@@ -1,27 +1,6 @@
 ﻿[Public]
 Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
-; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-Preferences=(Caption="UBrowser",Parent="ネットワーキング",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-
-[UBrowserServerListWindow]
-; EN: InfoName="Info"
-InfoName="情報"
-; EN: PlayerCountName="Players"
-PlayerCountName="プレイヤー"
-; EN: ServerCountName="Servers"
-ServerCountName="サーバー"
-; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
-QueryServerText="マスターサーバーへのクエリ（何も起こらない場合はF5キーを押します）"
-; EN: QueryFailedText="Master Server Failed: "
-QueryFailedText="マスターサーバーに障害が発生しました： "
-; EN: PingingText="Pinging Servers"
-PingingText="pingサーバー"
-; EN: CompleteText="Complete"
-CompleteText="完了"
-
-[UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="サーバーブラウザ"
+Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
@@ -51,6 +30,22 @@ RuleText="ルール"
 ; EN: ValueText="Value"
 ValueText="価値"
 
+[UBrowserServerListWindow]
+; EN: InfoName="Info"
+InfoName="情報"
+; EN: PlayerCountName="Players"
+PlayerCountName="プレイヤー"
+; EN: ServerCountName="Servers"
+ServerCountName="サーバー"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="マスターサーバーへのクエリ（何も起こらない場合はF5キーを押します）"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="マスターサーバーに障害が発生しました： "
+; EN: PingingText="Pinging Servers"
+PingingText="pingサーバー"
+; EN: CompleteText="Complete"
+CompleteText="完了"
+
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
 AdminEmailText="管理者の電子メール"
@@ -70,14 +65,14 @@ GameModeText="ゲームモード"
 GameTypeText="ゲームの種類"
 ; EN: GameVersionText="Game Version"
 GameVersionText="ゲーム版"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="ゲームのサブバージョン"
 ; EN: WorldLogText="ngStats World Stat-Logging"
 WorldLogText="ngStats WorldStat-ロギング"
 ; EN: TrueString="Enabled"
 TrueString="有効"
 ; EN: FalseString="Disabled"
 FalseString="無効"
-; EN: GameSubVersionText="Game SubVersion"
-GameSubVersionText="ゲームのサブバージョン"
 ; EN: MapFileString="Map Filename"
 MapFileString="マップファイル名"
 ; EN: DLLString="C++ Library"
@@ -119,19 +114,23 @@ AttachName="＆Attach"
 ; EN: CloseName="&Close"
 CloseName="＆選ぶ"
 
+[UBrowserMainWindow]
+; EN: WindowTitleString="Unreal Server Browser"
+WindowTitleString="Unrealサーバーブラウザ"
+
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
 RefreshName="＆すべてのサーバーを更新"
 ; EN: FavoritesName="Add to &Favorites"
 FavoritesName="お気に入りに追加"
-; EN: RemoveFavoritesName="Remove from &Favorites"
-RemoveFavoritesName="お気に入りから削除"
 ; EN: RefreshServerName="&Ping This Server"
 RefreshServerName="＆Pingこのサーバー"
-; EN: PingAllName="Ping &All Servers"
-PingAllName="pingとすべてのサーバー"
 ; EN: InfoName="&Server and Player Info"
 InfoName="＆サーバーとプレーヤー情報"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="pingとすべてのサーバー"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="お気に入りから削除"
 ; EN: JoinPasswordName="Join with &Password"
 JoinPasswordName="＆Passwordで参加する"
 ; EN: JoinServerName="&Join server"
@@ -158,6 +157,16 @@ MeshText="メッシュ"
 SkinText="肌"
 IDText="ID"
 
+[UBrowserLibPageWindow]
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+DLLTitleStr="接続できません：ダイナミックリンクライブラリ "％ls"がありません。"
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+DLLVerTitleStr="接続できません：ダイナミックリンクライブラリのバージョンが「％ls」と一致していません。"
+; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
+InfoText[0]="このサーバーに接続するには、追加のC ++ライブラリ "％ls"が必要です。"
+; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
+InfoText[1]="詳細については、以下から外部情報を表示してください（％lsによってホストされています）。"
+
 [UBrowserConsole]
 ; EN: ClassCaption="Unreal Browser Console"
 ClassCaption="Unrealブラウザコンソール"
@@ -169,18 +178,8 @@ OpenText="開ける："
 OpenHelp="標準のURLを入力するか、URL履歴から1つ選択します。 Enterキーを押してアクティブにします。"
 
 [UBrowserServerWebWin]
-; EN: WindowTitle="Web Explorer"
-WindowTitle="Webエクスプローラー"
-
-[UBrowserLibPageWindow]
-; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
-DLLTitleStr="接続できません：ダイナミックリンクライブラリ "％ls"がありません。"
-; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
-DLLVerTitleStr="接続できません：ダイナミックリンクライブラリのバージョンが「％ls」と一致していません。"
-; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
-InfoText[0]="このサーバーに接続するには、追加のC ++ライブラリ "％ls"が必要です。"
-; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
-InfoText[1]="詳細については、以下から外部情報を表示してください（％lsによってホストされています）。"
+; EN: WindowTitle="Unreal Web Explorer"
+WindowTitle="UnrealWebエクスプローラー"
 
 [UBrowserServerWebCW]
 ; EN: RefreshString="Refresh page"

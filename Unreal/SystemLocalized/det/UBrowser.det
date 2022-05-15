@@ -1,23 +1,6 @@
 ﻿[Public]
 Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
-; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-Preferences=(Caption="UBrowser",Parent="Netzwerk",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-
-[UBrowserServerListWindow]
-; EN: InfoName="Info"
-InfoName="Information"
-; EN: PlayerCountName="Players"
-PlayerCountName="Spieler"
-; EN: ServerCountName="Servers"
-ServerCountName="Server"
-; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
-QueryServerText="Frage Masterserver ab (drücken Sie F5, wenn nichts passiert)"
-; EN: QueryFailedText="Master Server Failed: "
-QueryFailedText="Masterserver Fehlgeschlagen: "
-; EN: PingingText="Pinging Servers"
-PingingText="Pinge Server"
-; EN: CompleteText="Complete"
-CompleteText="Komplett"
+Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
@@ -46,6 +29,22 @@ NotReadyError="Fenster is nicht bereit: "
 RuleText="Regel"
 ; EN: ValueText="Value"
 ValueText="Wert"
+
+[UBrowserServerListWindow]
+; EN: InfoName="Info"
+InfoName="Information"
+; EN: PlayerCountName="Players"
+PlayerCountName="Spieler"
+; EN: ServerCountName="Servers"
+ServerCountName="Server"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Frage Masterserver ab (drücken Sie F5, wenn nichts passiert)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="Masterserver Fehlgeschlagen: "
+; EN: PingingText="Pinging Servers"
+PingingText="Pinge Server"
+; EN: CompleteText="Complete"
+CompleteText="Komplett"
 
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"

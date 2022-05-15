@@ -1,8 +1,6 @@
 [Public]
-; EN: Object="(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
-Object="(Nome = Core.HelloWorldCommandlet, Class = Class, MetaClass = Core.Commandlet)"
-; EN: Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
-Preferences="(Legenda = "Sistema de arquivos", Pai = "Avançado", Classe = Core.System, Immediate = True)"
+Object="(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
+Preferences="(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)"
 
 [Errors]
 ; EN: Unknown="Unknown Error"

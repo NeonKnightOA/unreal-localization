@@ -1,26 +1,6 @@
 ﻿[Public]
 Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
-; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-Preferences=(Caption="UBrowser",Parent="Hálózatépítés",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-
-[UBrowserServerListWindow]
-InfoName="Info"
-; EN: PlayerCountName="Players"
-PlayerCountName="Játékosok"
-; EN: ServerCountName="Servers"
-ServerCountName="Szerverek"
-; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
-QueryServerText="A Master Server lekérdezése (nyomja meg az F5 billentyűt, ha nem történik semmi)"
-; EN: QueryFailedText="Master Server Failed: "
-QueryFailedText="A fő szerver nem sikerült: "
-; EN: PingingText="Pinging Servers"
-PingingText="Pinging szerverek"
-; EN: CompleteText="Complete"
-CompleteText="teljes"
-
-[UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Szerver böngésző"
+Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
@@ -50,6 +30,22 @@ RuleText="Szabály"
 ; EN: ValueText="Value"
 ValueText="Érték"
 
+[UBrowserServerListWindow]
+; EN: InfoName="Info"
+InfoName="Info"
+; EN: PlayerCountName="Players"
+PlayerCountName="Játékosok"
+; EN: ServerCountName="Servers"
+ServerCountName="Szerverek"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="A Master Server lekérdezése (nyomja meg az F5 billentyűt, ha nem történik semmi)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="A fő szerver nem sikerült: "
+; EN: PingingText="Pinging Servers"
+PingingText="Pinging szerverek"
+; EN: CompleteText="Complete"
+CompleteText="teljes"
+
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
 AdminEmailText="Rendszergazda e-mail"
@@ -59,6 +55,7 @@ AdminNameText="Rendszergazda neve"
 ChangeLevelsText="Szintek módosítása"
 ; EN: MultiplayerBotsText="Bots in Multiplayer"
 MultiplayerBotsText="Botok a multiplayerben"
+; EN: FragLimitText="Frag Limit"
 FragLimitText="Frag Limit"
 ; EN: TimeLimitText="Time Limit"
 TimeLimitText="Határidő"
@@ -68,13 +65,14 @@ GameModeText="Játék mód"
 GameTypeText="Játék típus"
 ; EN: GameVersionText="Game Version"
 GameVersionText="Játék verzió"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="Játék SubVersion"
+; EN: WorldLogText="ngStats World Stat-Logging"
 WorldLogText="ngStats World Stat-Logging"
 ; EN: TrueString="Enabled"
 TrueString="Engedélyezve"
 ; EN: FalseString="Disabled"
 FalseString="Tiltva"
-; EN: GameSubVersionText="Game SubVersion"
-GameSubVersionText="Játék SubVersion"
 ; EN: MapFileString="Map Filename"
 MapFileString="Térkép fájlnév"
 ; EN: DLLString="C++ Library"
@@ -98,7 +96,8 @@ RecentName="Legutóbbi szerverek"
 
 [UBrowserServerGrid]
 ; EN: ServerName="Server"
-ServerName="szerver"
+ServerName="Szerver"
+; EN: PingName="Ping"
 PingName="Ping"
 ; EN: MapNameName="Map Name"
 MapNameName="Térkép neve"
@@ -110,24 +109,28 @@ VersionName="Változat"
 [UBrowserInfoMenu]
 ; EN: RefreshName="&Refresh Info"
 RefreshName="&Információ frissítése"
-; EN: AttachName="&Attach"
+; EN: AttachName="&Attach Window"
 AttachName="&Csatolni"
-; EN: CloseName="&Close"
+; EN: CloseName="&Close Window"
 CloseName="&Bezárás"
+
+[UBrowserMainWindow]
+; EN: WindowTitleString="Unreal Server Browser"
+WindowTitleString="Unreal Szerver böngésző"
 
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
 RefreshName="&Minden szerver frissítése"
 ; EN: FavoritesName="Add to &Favorites"
 FavoritesName="Add hozzá a kedvencekhez"
-; EN: RemoveFavoritesName="Remove from &Favorites"
-RemoveFavoritesName="Eltávolítás a kedvencekből"
 ; EN: RefreshServerName="&Ping This Server"
 RefreshServerName="&Ping ez a szerver"
-; EN: PingAllName="Ping &All Servers"
-PingAllName="Ping és minden szerver"
 ; EN: InfoName="&Server and Player Info"
 InfoName="&Szerver és lejátszó információ"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="Ping és minden szerver"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="Eltávolítás a kedvencekből"
 ; EN: JoinPasswordName="Join with &Password"
 JoinPasswordName="Csatlakozás a &Jelszóval"
 ; EN: JoinServerName="&Join server"
@@ -144,6 +147,7 @@ CopyAddressName="&Szerver címének másolása"
 NameText="Név"
 ; EN: FragsText="Frags"
 FragsText="Töredékek"
+; EN: PingText="Ping"
 PingText="Ping"
 ; EN: TeamText="Team"
 TeamText="Csapat"
@@ -151,20 +155,8 @@ TeamText="Csapat"
 MeshText="Háló"
 ; EN: SkinText="Skin"
 SkinText="Bőr"
+; EN: IDText="ID"
 IDText="ID"
-
-[UBrowserConsole]
-; EN: ClassCaption="Unreal Browser Console"
-ClassCaption="Irreális böngésző konzol"
-
-[UBrowserOpenBar]
-; EN: OpenText="Open:"
-OpenText="Nyisd ki:"
-; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
-OpenHelp="Írjon be egy szabványos URL-t, vagy válasszon egyet az URL-előzmények közül. Az aktiváláshoz nyomja meg az Enter billentyűt."
-
-[UBrowserServerWebWin]
-WindowTitle="Web Explorer"
 
 [UBrowserLibPageWindow]
 ; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
@@ -175,6 +167,20 @@ DLLVerTitleStr="Nem lehet csatlakozni: A Dynamic Link Library verziója nem egye
 InfoText[0]="A szerver csatlakoztatásához további "%ls" C ++ könyvtárra lesz szükség."
 ; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
 InfoText[1]="További információért tekintse meg a külső információkat alulról ( %ls üzemelteti):"
+
+[UBrowserConsole]
+; EN: ClassCaption="Unreal Browser Console"
+ClassCaption="Unreal böngésző konzol"
+
+[UBrowserOpenBar]
+; EN: OpenText="Open:"
+OpenText="Nyisd ki:"
+; EN: OpenHelp="Enter a standard URL, or select one from the URL history. Press Enter to activate."
+OpenHelp="Írjon be egy szabványos URL-t, vagy válasszon egyet az URL-előzmények közül. Az aktiváláshoz nyomja meg az Enter billentyűt."
+
+[UBrowserServerWebWin]
+; EN: WindowTitle="Unreal Web Explorer"
+WindowTitle="Unreal Web Explorer"
 
 [UBrowserServerWebCW]
 ; EN: RefreshString="Refresh page"

@@ -26,16 +26,11 @@ Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; "Editor" tree
-; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Editor",Parent="Pokročilé možnosti")
-; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Pokročilý (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Barvy",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Mřížka",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Rotační mřížka",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
 HelpCmd=master
@@ -151,7 +146,7 @@ HelpDesc[2]="   Klienti si mohou stáhnout tento balíček ze serveru."
 HelpParm[3]="   ClientOptional"
 ; EN: HelpDesc[3]="   Clients can choose to skip downloading this package from the server."
 HelpDesc[3]="   Klienti se mohou rozhodnout přeskočit stahování tohoto balíčku ze serveru."
-HelpDesc[4]="   ServerSideOnly"
+HelpParm[4]="   ServerSideOnly"
 ; EN: HelpDesc[4]="   The package has no network relevancy on a server."
 HelpDesc[4]="   Balíček nemá na serveru žádnou síťovou relevanci."
 HelpParm[5]="   BrokenLinks"

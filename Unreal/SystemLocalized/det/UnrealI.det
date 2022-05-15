@@ -26,12 +26,11 @@ Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Descripti
 Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldat Skaarj")
 ; EN: Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
 Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Nali")
-; EN: Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
-Preferences=(Caption="Dunkelheit Spiel",Parent="Spieltypen",Class=UnrealI.DarkMatch,Immediate=True)
-; EN: Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
-Preferences=(Caption="König des Hügels",Parent="Spieltypen",Class=UnrealI.KingOfTheHill,Immediate=True)
-; EN: Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
-Preferences=(Caption="Karten fur Dunkelheit Spiel",Parent="Kartenlisten",Class=UnrealI.DkMapList,Immediate=True)
+; EN: Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
+Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
+Preferences=(Caption="Darkmatch",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
+Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
 
 [IntroNullHud]
 ; EN: ESCMessage="Press ESC to begin"
@@ -295,9 +294,9 @@ AltName="gefallen"
 
 [FlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Du hast eine Flak-Geschoß"
+PickupMessage="Du hast eine Flak-Geschoss"
 ; EN: ItemName="Flak Shell"
-ItemName="Flak-Geschoß"
+ItemName="Flak-Geschoss"
 
 [drowned]
 ; EN: Name="drowned"
@@ -376,7 +375,7 @@ Message2="Du entkommst einem Ort, an dem viele gestorben sind. Du lachst befreit
 ; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
 Message3="Vor dem Absturz warst Du in einer engen Zelle gefangen. Und jetzt bist Du wieder in einem Gefängnis."
 ; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
-Message4="Aber Du bist zuversichtlich, daß jemand Dein kleines Schiff finden wird... irgendwann."
+Message4="Aber Du bist zuversichtlich, dass jemand Dein kleines Schiff finden wird... irgendwann."
 ; EN: Message5="Until then, you drift and hope."
 Message5="Bis dahin driftest Du und hoffst."
 ; EN: Message6="To Be Continued..."

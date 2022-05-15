@@ -1,26 +1,6 @@
 ﻿[Public]
 Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
-; EN: Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-Preferences=(Caption="UBrowser",Parent="Síťování",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
-
-[UBrowserServerListWindow]
-InfoName="Info"
-; EN: PlayerCountName="Players"
-PlayerCountName="Hráči"
-; EN: ServerCountName="Servers"
-ServerCountName="Servery"
-; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
-QueryServerText="Dotaz na hlavní server (stiskněte F5, pokud se nic nestane)"
-; EN: QueryFailedText="Master Server Failed: "
-QueryFailedText="Hlavní server selhal: "
-; EN: PingingText="Pinging Servers"
-PingingText="Ping servery"
-; EN: CompleteText="Complete"
-CompleteText="Kompletní"
-
-[UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Zobrazeni Serveru"
+Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
@@ -50,6 +30,22 @@ RuleText="Pravidlo"
 ; EN: ValueText="Value"
 ValueText="Hodnota"
 
+[UBrowserServerListWindow]
+; EN: InfoName="Info"
+InfoName="Info"
+; EN: PlayerCountName="Players"
+PlayerCountName="Hráči"
+; EN: ServerCountName="Servers"
+ServerCountName="Servery"
+; EN: QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Dotaz na hlavní server (stiskněte F5, pokud se nic nestane)"
+; EN: QueryFailedText="Master Server Failed: "
+QueryFailedText="Hlavní server selhal: "
+; EN: PingingText="Pinging Servers"
+PingingText="Ping servery"
+; EN: CompleteText="Complete"
+CompleteText="Kompletní"
+
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
 AdminEmailText="Adminuv E-mail"
@@ -69,14 +65,14 @@ GameModeText="Rezim Hry"
 GameTypeText="Typ Hry"
 ; EN: GameVersionText="Game Version"
 GameVersionText="Verze Hry"
+; EN: GameSubVersionText="Game SubVersion"
+GameSubVersionText="Subverze hry"
 ; EN: WorldLogText="ngStats World Stat-Logging"
 WorldLogText="Svět ngStats Stat-Logování"
 ; EN: TrueString="Enabled"
 TrueString="Povoleno"
 ; EN: FalseString="Disabled"
 FalseString="Zakazano"
-; EN: GameSubVersionText="Game SubVersion"
-GameSubVersionText="Subverze hry"
 ; EN: MapFileString="Map Filename"
 MapFileString="Název souboru mapy"
 ; EN: DLLString="C++ Library"
@@ -118,19 +114,23 @@ AttachName="&Připojit"
 ; EN: CloseName="&Close"
 CloseName="&Zavrit"
 
+[UBrowserMainWindow]
+; EN: WindowTitleString="Unreal Server Browser"
+WindowTitleString="Zobrazeni Serveru Unreal"
+
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
 RefreshName="&Obcerstvit &vsechny servery"
 ; EN: FavoritesName="Add to &Favorites"
 FavoritesName="Pridat k &Oblibenym"
-; EN: RemoveFavoritesName="Remove from &Favorites"
-RemoveFavoritesName="O&dstranit z Oblibenych"
 ; EN: RefreshServerName="&Ping This Server"
 RefreshServerName="&Ping na server"
-; EN: PingAllName="Ping &All Servers"
-PingAllName="&Ping na vsechny servery"
 ; EN: InfoName="&Server and Player Info"
 InfoName="&Info o serverech a hracich"
+; EN: PingAllName="Ping &All Servers"
+PingAllName="&Ping na vsechny servery"
+; EN: RemoveFavoritesName="Remove from &Favorites"
+RemoveFavoritesName="O&dstranit z Oblibenych"
 ; EN: JoinPasswordName="Join with &Password"
 JoinPasswordName="Připojte se pomocí &hesla"
 ; EN: JoinServerName="&Join server"
@@ -158,6 +158,16 @@ SkinText="Vzhled"
 ; EN: IDText="ID"
 IDText="ID"
 
+[UBrowserLibPageWindow]
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+DLLTitleStr="Nelze se připojit: Chybí knihovna dynamických odkazů „%ls“."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+DLLVerTitleStr="Nelze se připojit: Verze knihovny dynamických odkazů neodpovídá „%ls“."
+; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
+InfoText[0]="Pro připojení tohoto serveru budete potřebovat další knihovnu C ++ "%ls"."
+; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
+InfoText[1]="Pro více informací zobrazte externí informace zespodu (hostované %ls):"
+
 [UBrowserConsole]
 ; EN: ClassCaption="Unreal Browser Console"
 ClassCaption="Konzolový Prohlížeč Unreal"
@@ -171,16 +181,6 @@ OpenHelp="Zadej standardni URL, nebo vyber z URL historie. Stiskni Enter pro akt
 [UBrowserServerWebWin]
 ; EN: WindowTitle="Web Explorer"
 WindowTitle="Webový prohlížeč"
-
-[UBrowserLibPageWindow]
-; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
-DLLTitleStr="Nelze se připojit: Chybí knihovna dynamických odkazů „%ls“."
-; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
-DLLVerTitleStr="Nelze se připojit: Verze knihovny dynamických odkazů neodpovídá „%ls“."
-; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
-InfoText[0]="Pro připojení tohoto serveru budete potřebovat další knihovnu C ++ "%ls"."
-; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
-InfoText[1]="Pro více informací zobrazte externí informace zespodu (hostované %ls):"
 
 [UBrowserServerWebCW]
 ; EN: RefreshString="Refresh page"

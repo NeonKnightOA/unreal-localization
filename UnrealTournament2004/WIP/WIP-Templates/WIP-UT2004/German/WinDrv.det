@@ -1,7 +1,7 @@
 [Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-Preferences=(Caption="Anzeige",Parent="Erweiterte Optionen",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Joystick",Parent="Erweiterte Optionen",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
 Failed3D="3D-Hardware-Initialis. gescheit."

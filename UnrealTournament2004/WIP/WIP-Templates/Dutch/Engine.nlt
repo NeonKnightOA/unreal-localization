@@ -5,34 +5,21 @@ Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.ExportCacheCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="Geavanceerd",Parent="Geavanceerde mogelijkheden")
-; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
-Preferences=(Caption="Audio",Parent="Geavanceerde mogelijkheden")
-; EN: Preferences=(Caption="Display",Parent="Advanced Options")
-Preferences=(Caption="Weergave",Parent="Geavanceerde mogelijkheden")
-; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Editor",Parent="Geavanceerde mogelijkheden")
-; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Spelinstellingen",Parent="Geavanceerde mogelijkheden",Class=Engine.GameInfo,Immediate=True)
-; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
-Preferences=(Caption="Joystick",Parent="Geavanceerde mogelijkheden")
-; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="Netwerken",Parent="Geavanceerde mogelijkheden")
-; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="weergave",Parent="Geavanceerde mogelijkheden")
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Rendering",Parent="Advanced Options")
 ; "Advanced" root
-; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Game Engine-instellingen",Parent="Geavanceerd",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Sleutelaliassen",Parent="Geavanceerd",Class=Engine.Input,Immediate=True,Category=Aliases)
-; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Onbewerkte sleutelbindingen",Parent="Geavanceerd",Class=Engine.Input,Immediate=True,Category=RawKeys)
-; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="chauffeurs",Parent="Geavanceerde mogelijkheden",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
 ; "Networking" root
-; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Openbare serverinformatie",Parent="Netwerken",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
 
 [Errors]
 ; EN: NetOpen=Error opening file
@@ -626,7 +613,7 @@ GIPropDescText[13]="Specificeert hoe lang moet worden gewacht voordat de inactie
 ; EN: GIPropDescText[14]="When enabled, some weapons cause view shaking while firing."
 GIPropDescText[14]="Indien ingeschakeld, veroorzaken sommige wapens beeldtrillingen tijdens het schieten."
 ; EN: GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
-GIPropsExtras[0]="0.000000;Beginner;1.000000;Gemiddeld;2.000000;Ervaren;3.000000;Bekwaam;4.000000;Adept;5.000000;Meesterlijk;6.000000;Onmenselijk;7.000000;Goddelijk"
+GIPropsExtras[0]="0.000000;Gevorderde;1.000000;Gemiddeld;2.000000;Ervaren;3.000000;Geschoolde;4.000000;Bedreven;5.000000;Meesterlijk;6.000000;Onmenselijk;7.000000;Goddelijk"
 ; EN: NoBindString="[None]"
 NoBindString="[Geen]"
 

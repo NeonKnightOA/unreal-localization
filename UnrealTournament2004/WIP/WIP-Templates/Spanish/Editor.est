@@ -21,14 +21,10 @@ Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpConfigCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ClassFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
-; EN: Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
-Preferences="(Título = "Avanzado", Padre = "Editor", Clase = Editor.EditorEngine, Inmediato = Verdadero, Categoría = Avanzado)"
-; EN: Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
-Preferences="(Título = "Colores", Padre = "Editor", Clase = Editor.EditorEngine, Inmediato = Verdadero, Categoría = Colores)"
-; EN: Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
-Preferences="(Título = "Cuadrícula", Padre = "Editor", Clase = Editor.EditorEngine, Inmediato = Verdadero, Categoría = Cuadrícula)"
-; EN: Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
-Preferences="(Título = "Cuadrícula de rotación", Padre = "Editor", Clase = Editor.EditorEngine, Inmediato = Verdadero, Categoría = Cuadrícula de rotación)"
+Preferences="(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)"
+Preferences="(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)"
+Preferences="(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)"
+Preferences="(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)"
 
 [PkgCommandlet]
 ; EN: HelpCmd="pkg"

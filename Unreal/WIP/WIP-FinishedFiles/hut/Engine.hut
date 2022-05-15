@@ -4,54 +4,32 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="Haladó",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="Rendering",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
-Preferences=(Caption="Hang",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="Hálózat",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="Játék típusok",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Display",Parent="Advanced Options")
-Preferences=(Caption="Kijelző",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
-Preferences=(Caption="Joystick",Parent="Haladó Opciók")
-; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Meghajtók",Parent="Haladó Opciók",Class=Engine.Engine,Immediate=False,Category=Drivers)
-; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Játék Beállítások",Parent="Haladó Opciók",Class=Engine.GameInfo,Immediate=True)
-; EN: Preferences=(Caption="Decals",Parent="Advanced Options")
-Preferences=(Caption="Matricák",Parent="Haladó Opciók")
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Decals",Parent="Advanced Options")
 ; Advanced
-; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Játék Motor Beállítások",Parent="Haladó",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Billentyűnevek",Parent="Haladó",Class=Engine.Input,Immediate=True,Category=Aliases)
-; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Nyers Billentyűkötés",Parent="Haladó",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
-; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Publikus Szerver Információk",Parent="Hálózat",Class=Engine.GameReplicationInfo,Immediate=True)
-; EN: Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
-Preferences=(Caption="Csatorna letöltése",Parent="Hálózat",Class=Engine.ChannelDownload)
-; EN: Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="Csatlakozási értesítések",Parent="Hálózat",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-; EN: Preferences=(Caption="Map Lists",Parent="Networking")
-Preferences=(Caption="Térképlisták",Parent="Hálózat")
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+Preferences=(Caption="Map Lists",Parent="Networking")
 ; Decals
-; EN: Preferences=(Caption="Blood",Parent="Decals")
-Preferences=(Caption="Vér",Parent="Matricák")
-; EN: Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="Gyalog árnyék",Parent="Matricák",Class=Engine.PawnShadow,Immediate=True)
-; EN: Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="Dekoráció árnyéka",Parent="Matricák",Class=Engine.DecoShadow,Immediate=True)
-; EN: Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
-Preferences=(Caption="Lövedék árnyéka",Parent="Matricák",Class=Engine.ProjectileShadow,Immediate=True)
+Preferences=(Caption="Blood",Parent="Decals")
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
-; EN: Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
-Preferences=(Caption="szerver",Parent="Vér",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
+Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
 
 [PlayerPawn]
 ; EN: QuickSaveString="Quick Saving"
@@ -252,6 +230,8 @@ NeedPassword="Be kell gépelned a jelszót, hogy csatlakozhass a játékhoz."
 MaleGender="övé"
 ; EN: FemaleGender="her"
 FemaleGender="neki"
+; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
+MaxedOutSpectatorsMsg="Maximális nézőszám túllépve"
 
 [Errors]
 ; EN: NetOpen="Error opening file"

@@ -4,54 +4,32 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="高度",Parent="高度なオプション")
-; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="レンダリング",Parent="高度なオプション")
-; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
-Preferences=(Caption="オーディオ",Parent="高度なオプション")
-; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="ネットワーキング",Parent="高度なオプション")
-; EN: Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="ゲームの種類",Parent="高度なオプション")
-; EN: Preferences=(Caption="Display",Parent="Advanced Options")
-Preferences=(Caption="画面",Parent="高度なオプション")
-; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
-Preferences=(Caption="ジョイスティック",Parent="高度なオプション")
-; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="運転手",Parent="高度なオプション",Class=Engine.Engine,Immediate=False,Category=Drivers)
-; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="ゲームの設定",Parent="高度なオプション",Class=Engine.GameInfo,Immediate=True)
-; EN: Preferences=(Caption="Decals",Parent="Advanced Options")
-Preferences=(Caption="デカール",Parent="高度なオプション")
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Decals",Parent="Advanced Options")
 ; Advanced
-; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="ゲームエンジンの設定",Parent="高度",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="キーエイリアス",Parent="高度",Class=Engine.Input,Immediate=True,Category=Aliases)
-; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="生のキーバインディング",Parent="高度",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
-; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="パブリックサーバー情報",Parent="ネットワーキング",Class=Engine.GameReplicationInfo,Immediate=True)
-; EN: Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
-Preferences=(Caption="チャンネルダウンロード",Parent="ネットワーキング",Class=Engine.ChannelDownload)
-; EN: Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="接続通知",Parent="ネットワーキング",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-; EN: Preferences=(Caption="Map Lists",Parent="Networking")
-Preferences=(Caption="マップリスト",Parent="ネットワーキング")
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+Preferences=(Caption="Map Lists",Parent="Networking")
 ; Decals
-; EN: Preferences=(Caption="Blood",Parent="Decals")
-Preferences=(Caption="血",Parent="デカール")
-; EN: Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="ポーンシャドウ",Parent="デカール",Class=Engine.PawnShadow,Immediate=True)
-; EN: Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="デコレーションシャドウ",Parent="デカール",Class=Engine.DecoShadow,Immediate=True)
-; EN: Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
-Preferences=(Caption="発射物の影",Parent="デカール",Class=Engine.ProjectileShadow,Immediate=True)
+Preferences=(Caption="Blood",Parent="Decals")
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
-; EN: Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
-Preferences=(Caption="サーバ",Parent="血",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
+Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
 
 [PlayerPawn]
 ; EN: QuickSaveString="Quick Saving"
@@ -257,6 +235,8 @@ NeedPassword="このゲームに参加するには、パスワードを入力す
 MaleGender="彼の"
 ; EN: FemaleGender="her"
 FemaleGender="彼女"
+; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
+MaxedOutSpectatorsMsg="最大観客数を超えました"
 
 [Errors]
 ; EN: NetOpen="Error opening file"

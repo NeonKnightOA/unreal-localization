@@ -120,20 +120,14 @@ Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,
 ; EN: Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Default Maps")
 Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Mapy domyślne")
 ; Preferences
-; EN: Preferences=(Caption="Tournament Deathmatch",Parent="Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
-Preferences=(Caption="Deathmatch turniejowy",Parent="Rodzaje gier",Class=Botpack.DeathmatchPlus,Immediate=True)
-; EN: Preferences=(Caption="Tournament Team Game",Parent="Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
-Preferences=(Caption="Turniejowa gra zespołowa",Parent="Rodzaje gier",Class=Botpack.TeamGamePlus,Immediate=True)
-; EN: Preferences=(Caption="Capture the Flag",Parent="Game Types",Class=Botpack.CTFGame,Immediate=True)
-Preferences=(Caption="Zdobyć flagę",Parent="Rodzaje gier",Class=Botpack.CTFGame,Immediate=True)
-; EN: Preferences=(Caption="Assault",Parent="Game Types",Class=Botpack.Assault,Immediate=True)
-Preferences=(Caption="Atak",Parent="Rodzaje gier",Class=Botpack.Assault,Immediate=True)
-; EN: Preferences=(Caption="Domination",Parent="Game Types",Class=Botpack.Domination,Immediate=True)
-Preferences=(Caption="Dominacja",Parent="Rodzaje gier",Class=Botpack.Domination,Immediate=True)
-; EN: Preferences=(Caption="Last Man Standing",Parent="Game Types",Class=Botpack.LastManStanding,Immediate=True)
-Preferences=(Caption="Ostatni stojący mężczyzna",Parent="Rodzaje gier",Class=Botpack.LastManStanding,Immediate=True)
-; EN: Preferences=(Caption="Tournament Darkmatch",Parent="Game Types",Class=Botpack.TDarkMatch,Immediate=True)
-Preferences=(Caption="Turniej Darkmatch",Parent="Rodzaje gier",Class=Botpack.TDarkMatch,Immediate=True)
+Preferences=(Caption="Tournament Game Types",Parent="Game Types",Class=Botpack.TournamentGameInfo,Immediate=True)
+Preferences=(Caption="Tournament Deathmatch",Parent="Tournament Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
+Preferences=(Caption="Tournament Team Game",Parent="Tournament Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
+Preferences=(Caption="Capture the Flag",Parent="Tournament Game Types",Class=Botpack.CTFGame,Immediate=True)
+Preferences=(Caption="Assault",Parent="Tournament Game Types",Class=Botpack.Assault,Immediate=True)
+Preferences=(Caption="Domination",Parent="Tournament Game Types",Class=Botpack.Domination,Immediate=True)
+Preferences=(Caption="Last Man Standing",Parent="Tournament Game Types",Class=Botpack.LastManStanding,Immediate=True)
+Preferences=(Caption="Tournament Darkmatch",Parent="Tournament Game Types",Class=Botpack.TDarkMatch,Immediate=True)
 
 [DeathMatchPlus]
 ; EN: TourneyMessage="Waiting for other players."
