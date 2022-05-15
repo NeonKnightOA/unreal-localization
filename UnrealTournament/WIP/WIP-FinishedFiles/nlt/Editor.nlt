@@ -15,35 +15,22 @@ Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpMeshInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.CheckUnicodeCommandlet,Class=Class,MetaClass=Core.Commandlet)
-; Unreal-exclusive commandlets
-Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.AudioPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.DumpTextureInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.MusicPackagesCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.ReduceTexturesCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.SaveEmbeddedCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.BatchMeshExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.RebuildImportsCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.ProdigiosumInParvoCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.FullBatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.FontPageDiffCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
+; UT-exclusive commandlets
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageDumpCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
+;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; "Editor" tree
 Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
 Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-; "Commandlets and Exporters" subtree
-Preferences=(Caption="Commandlets and Exporters",Parent="Editor")
-Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Class=Editor.AudioPackageCommandlet,Immediate=True)
-Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
 
 [MasterCommandlet]
 HelpCmd=master
@@ -51,7 +38,7 @@ HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Build master installer files"
 HelpOneLiner="Bouw hoofdinstallatiebestanden"
 ; EN: HelpUsage="master [-option...] [parm=value]..."
-HelpUsage="master [-optie ...] [parm = waarde] ..."
+HelpUsage="master [-optie...] [parm=waarde] ..."
 HelpParm[0]="MasterPath"
 ; EN: HelpDesc[0]="Root directory to copy source files from."
 HelpDesc[0]="Root-directory om bronbestanden van te kopiëren."
@@ -68,7 +55,7 @@ HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 ; EN: HelpOneLiner="Rebuild UnrealScript packages."
 HelpOneLiner="Bouw UnrealScript-pakketten opnieuw op."
 ; EN: HelpUsage="make [-option...] [parm=value]..."
-HelpUsage="make [-optie ...] [parm = waarde] ..."
+HelpUsage="make [-optie...] [parm=waarde] ..."
 HelpParm[0]="Silent"
 ; EN: HelpDesc[0]="No prompts; assume 'yes' to all questions."
 HelpDesc[0]="Geen aanwijzingen; ga bij alle vragen uit van 'ja'."
@@ -342,132 +329,116 @@ HelpDesc[0]="<Bestandsjokerteken>"
 ; EN: HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
 HelpParm[0]="De bestanden die moeten worden gecontroleerd op Unicode-tekens. Kan jokertekens accepteren zoals "*" en "?"."
 
-[AudioPackageCommandlet]
-HelpCmd=audiopackage
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Create an audio package out of a directory."
-HelpOneLiner="Maak een audiopakket uit een directory."
-; EN: HelpUsage="audiopackage <input directory>"
-HelpUsage="audiopakket <invoermap>"
+; EN: HelpOneLiner="Merge DXT textures with standard textures."
+HelpOneLiner="Voeg DXT-texturen samen met standaardtexturen."
+; EN: HelpUsage="mergedxt srcpath oldpath destpath"
+HelpUsage="mergedxt srcpath oudpad bestemmingspad"
+; EN: HelpParm[0]="srcpath"
+HelpParm[0]="srcpath"
+; EN: HelpDesc[0]="Path containing source files."
+HelpDesc[0]="Pad met bronbestanden."
+; EN: HelpParm[1]="oldpath"
+HelpParm[1]="oudpad"
+; EN: HelpDesc[1]="Path containing old files."
+HelpDesc[1]="Pad met oude bestanden."
+; EN: HelpParm[2]="destpath"
+HelpParm[2]="bestemmingspad"
+; EN: HelpDesc[2]="Path for destination files."
+HelpDesc[2]="Pad voor bestemmingsbestanden."
 
-[DumpTextureInfoCommandlet]
-HelpCmd=dumptextureinfo
+[MD5Commandlet]
+HelpCmd=md5
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Dumps information about textures."
-HelpOneLiner="Dumpt informatie over texturen."
-; EN: HelpUsage="dumptextureinfo <pkg>"
-HelpUsage="dumptextureinfo <pkg>"
+; EN: HelpOneLiner="Manage the Packages.md5 checksums list."
+HelpOneLiner="Beheer de lijst met checksums van Packages.md5."
+; EN: HelpUsage="md5 [-option Filename|Wildcard]"
+HelpUsage="md5 [-optie Bestandsnaam|Jokerteken]"
+; EN: HelpParm[0]="-a Wildcard"
+HelpParm[0]="-a Jokerteken"
+; EN: HelpDesc[0]="Add all files matching the wildcard to the Packages.md5 list."
+HelpDesc[0]="Voeg alle bestanden die overeenkomen met het jokerteken toe aan de lijst Packages.md5."
+; EN: HelpParm[1]="-l [Filename]"
+HelpParm[1]="-l [Bestandsnaam]"
+; EN: HelpDesc[1]="Prints the current contents of the specified Packages.md5 file. If no Filename is given, Packages.md5 will be used."
+HelpDesc[1]="Drukt de huidige inhoud van het opgegeven bestand Packages.md5 af. Als er geen bestandsnaam is opgegeven, wordt Packages.md5 gebruikt."
+; EN: HelpParm[2]="-m Filename"
+HelpParm[2]="-m Bestandsnaam"
+; EN: HelpDesc[2]="Merges the contents of two Packages.md5 files. Filename should point to a valid Packages.md5 file."
+HelpDesc[2]="Voegt de inhoud van twee Packages.md5-bestanden samen. De bestandsnaam moet verwijzen naar een geldig bestand Packages.md5."
+; EN: HelpParm[3]="-p Wildcard"
+HelpParm[3]="-p Jokerteken"
+; EN: HelpDesc[3]="Removes the checksum for the all files matching the wildcard from the Packages.md5 list."
+HelpDesc[3]="Verwijdert de checksum voor alle bestanden die overeenkomen met het jokerteken uit de lijst Packages.md5."
 
-[MusicPackagesCommandlet]
-HelpCmd=musicpackages
+[PackageDumpCommandlet]
+HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Creates music packages out of a directory."
-HelpOneLiner="Maakt muziekpakketten uit een directory."
-; EN: HelpUsage="musicpackages <input directory>"
-HelpUsage="musicpackages <invoermap>"
+; EN: HelpOneLiner="Dump the structure of an Unreal Package to stdout."
+HelpOneLiner="Dump de structuur van een Unreal-pakket naar stdout."
+; EN: HelpUsage="packagedump [Filename]"
+HelpUsage="packagedump [Bestandsnaam]"
 
-[ReduceTexturesCommandlet]
-HelpCmd=reducetextures
+[DumpFontInfoCommandlet]
+HelpCmd=dumpfontinfo
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Purges unneeded uncompressed mipmaps."
-HelpOneLiner="Verwijdert onnodige niet-gecomprimeerde mipmaps."
-; EN: HelpUsage="reducetextures <inpkg> <outpkg>"
-HelpUsage="reducetextures <inpkg> <outpkg>"
+; EN: HelpOneLiner="Dumps information about fonts."
+HelpOneLiner="Dumpt informatie over lettertypen."
+; EN: HelpUsage="dumpfontinfo <pkg>"
+HelpUsage="dumpfontinfo <verpakkingsnaam>"
 
-[SaveEmbeddedCommandlet]
-HelpCmd=saveembedded
+[ExecCommandlet]
+HelpCmd=exec
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Saves an embedded package to a separate file."
-HelpOneLiner="Slaat een ingesloten pakket op in een apart bestand."
-; EN: HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
-HelpUsage="saveembedded <pkg> <embpkg> <outfile>"
-HelpParm[0]="   "
-HelpDesc[0]="   "
-HelpParm[1]="   "
-HelpDesc[1]="   "
+; EN: HelpOneLiner="Executes a command file in a minimal editor environment."
+HelpOneLiner="Voert een commandobestand uit in een minimale editoromgeving."
+; EN: HelpUsage="exec filename"
+HelpUsage="exec Bestandsnaam"
 
-[BatchMeshExportCommandlet]
-HelpCmd=batchmeshexport
+[ScriptRaysCommandlet]
+HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Batch exports meshes."
-HelpOneLiner="Batch exporteert meshes."
-; EN: HelpUsage="batchmeshexport <pkg> <format> <outpath>"
-HelpUsage="batchmeshexport <pkg> <format> <outpath>"
+; EN: HelpOneLiner="Rebuilds script source for a package or class"
+HelpOneLiner="Bouwt de scriptbron opnieuw op voor een pakket of klasse"
+; EN: HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"
+HelpUsage="scriptrays <verpakkingsnaam>[.<cls>] <out_d> [-disassemble|-mugshot]"
+; EN: HelpParm[0]="pkg[.cls]"
+HelpParm[0]="verpakkingsnaam[.cls]"
+; EN: HelpDesc[0]="Package or class to rebuild."
+HelpDesc[0]="Pakket of klasse om opnieuw op te bouwen."
+; EN: HelpParm[1]="out_d"
+HelpParm[1]="out_d"
+; EN: HelpDesc[1]="Output directory."
+HelpDesc[1]="Uitvoermap."
+HelpParm[2]="-disassemble"
+; EN: HelpDesc[2]="Output disassembly instead of code."
+HelpDesc[2]="Output demontage in plaats van code."
+HelpParm[3]="-mugshot"
+; EN: HelpDesc[3]="Output declarations instead of code."
+HelpDesc[3]="Output declaraties in plaats van code."
 
-[RebuildImportsCommandlet]
-HelpCmd=rebuildimports
+[CheckSumCommandlet]
+HelpCmd=checksum
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Rebuilds import script for a package."
-HelpOneLiner="Bouwt het importscript voor een pakket opnieuw op."
-; EN: HelpUsage="rebuildimports <pkg> [-upkg]"
-HelpUsage="rebuildimports <pkg> [-upkg]"
-HelpParm[0]="-upkg"
-; EN: HelpDesc[0]="Switches output to upkg format. Default is uc."
-HelpDesc[0]="Schakelt output naar upkg-formaat. Standaard is uc."
+; EN: HelpOneLiner="checksum packagename.u"
+HelpOneLiner="checksum verpakkingsnaam.u"
+; EN: HelpUsage="Calculates package checksum for stat logging."
+HelpUsage="Berekent pakketcontrolesom voor stat-logboekregistratie."
+; EN: HelpDesc[0]="packagename.u"
+HelpDesc[0]="verpakkingsnaam.u"
+; EN: HelpParm[0]="Filename to calculate the checksum from."
+HelpParm[0]="Bestandsnaam om de checksum van te berekenen."
 
-[ProdigiosumInParvoCommandlet]
-HelpCmd=prodigiosuminparvo
+[ResRaysCommandlet]
+HelpCmd=resrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Batch exports all mip map levels."
-HelpOneLiner="Batch exporteert alle MIP-kaartniveaus."
-; EN: HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
-HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
-
-[FullBatchExportCommandlet]
-HelpCmd=fullbatchexport
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Extract package with directory structure."
-HelpOneLiner="Pak het pakket uit met de directorystructuur."
-; EN: HelpUsage="fullbatchexport <pkg> <outpath>"
-HelpUsage="fullbatchexport <pkg> <outpath>"
-
-[FontPageDiffCommandlet]
-HelpCmd=fontpagediff
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Compares font pages."
-HelpOneLiner="Vergelijkt lettertypepagina's."
-; EN: HelpUsage="fontpagediff <left font> <right font>"
-HelpUsage="fontpagediff <linker lettertype> <rechter lettertype>"
-
-[RipAndTearCommandlet]
-HelpCmd=ripandtear
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Splits MyLevel resources from a map and saves the map and its resources as separate packages."
-HelpUsage="Splitst MyLevel-bronnen van een kaart en slaat de kaart en zijn bronnen op als afzonderlijke pakketten."
-; EN: HelpOneLiner="ripandtear <inputmap> <outputmap> <outputresources>"
-HelpOneLiner="ripandtear <Invoerkaart> <Uitvoerkaart> <Uitvoerbronnen>"
-; EN: HelpDesc[0]="<inputmap>"
-HelpDesc[0]="<Invoerkaart>"
-; EN: HelpParm[0]="The map to read MyLevel resources from."
-HelpParm[0]="De kaart om MyLevel-bronnen van te lezen."
-; EN: HelpDesc[1]="<outputmap>"
-HelpDesc[1]="<Uitvoerkaart>"
-; EN: HelpParm[1]="The map to output the non-MyLevel'd map to."
-HelpParm[1]="De kaart waarnaar de niet-MyLevel'd-kaart moet worden uitgevoerd."
-; EN: HelpDesc[2]="<outputresources>"
-HelpDesc[2]="<Uitvoerbronnen>"
-; EN: HelpParm[2]="The class of output resources to take from the input map."
-HelpParm[2]="De klasse van uitvoerbronnen die uit de invoertoewijzing moet worden gehaald."
-
-[TextureMergerCommandlet]
-HelpCmd=texturemerger
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpUsage="Merges new high-res textures into an existing package or adds additional height- and normalmaps. Supports compressing of .bmp textures into BC1-BC7 formats during import. Can add additional footstep, clamp, detail and macrotexture information."
-HelpUsage="Voegt nieuwe texturen met hoge resolutie samen in een bestaand pakket of voegt extra hoogtekaarten en normale kaarten toe. Ondersteunt het comprimeren van .bmp-texturen naar BC1-BC7-formaten tijdens het importeren. Kan extra voetstap-, klem-, detail- en macrotextuurinformatie toevoegen."
-; EN: HelpOneLiner="texturemerger [packagename]"
-HelpOneLiner="texturemerger [pakketnaam]"
-; EN: HelpDesc[0]="[packagename]"
-HelpDesc[0]="[pakketnaam]"
-; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
-HelpParm[0]="Een optionele parameter, het is het pakket waarin de texturen worden opgeslagen."
-HelpDesc[0]=" "
-; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
-HelpParm[1]="Als er geen pakketnaam is opgegeven, wordt de map TextureMerge gebruikt om de namen van alle submappen te lokaliseren bij het zoeken naar overeenkomstige pakketten."
-
-[FontExporter]
-HelpCmd=FontExporter
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Exports font pages."
-HelpOneLiner="Exporteert lettertypepagina's."
-; EN: HelpUsage="FontExporter <pkg> <outpath>"
-HelpUsage="FontExporter <pkg> <outpath>"
+; EN: HelpOneLiner="Rebuilds the import #EXEC statements for a given package."
+HelpOneLiner="Bouwt de importinstructies #EXEC opnieuw op voor een bepaald pakket."
+; EN: HelpUsage="resrays <package>"
+HelpUsage="resrays <verpakkingsnaam>"
+; EN: HelpDesc[0]="<package>"
+HelpDesc[0]="<verpakkingsnaam>"
+; EN: HelpParm[0]="The package from where the #EXEC statementes must be rebuilt."
+HelpParm[0]="Het pakket van waaruit de "#EXEC" -instructies opnieuw moeten worden opgebouwd."

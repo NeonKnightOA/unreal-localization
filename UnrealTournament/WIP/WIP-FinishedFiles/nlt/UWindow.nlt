@@ -3,9 +3,10 @@
 YesText="Ja"
 ; EN: NoText="No"
 NoText="Nee"
+; EN: OKText="OK"
 OKText="OK"
 ; EN: CancelText="Cancel"
-CancelText="annuleren"
+CancelText="Annuleer"
 
 [UWindowConsoleWindow]
 ; EN: WindowTitle="System Console"
@@ -17,7 +18,8 @@ CloseText="Dichtbij"
 
 [UWindowSmallCancelButton]
 ; EN: CancelText="Cancel"
-CancelText="annuleren"
+CancelText="Annuleer"
 
 [UWindowSmallOKButton]
+; EN: OKText="OK"
 OKText="OK"

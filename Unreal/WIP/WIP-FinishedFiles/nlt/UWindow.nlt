@@ -6,6 +6,7 @@ Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWind
 YesText="Ja"
 ; EN: NoText="No"
 NoText="Nee"
+; EN: OKText="OK"
 OKText="OK"
 ; EN: CancelText="Cancel"
 CancelText="Annuleer"
@@ -23,6 +24,7 @@ CloseText="Dichtbij"
 CancelText="Annuleer"
 
 [UWindowSmallOKButton]
+; EN: OKText="OK"
 OKText="OK"
 
 [UWindowConsoleClientWindow]
@@ -30,14 +32,16 @@ OKText="OK"
 ShowColorsText="Toon consoleberichten in kleuren"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="Log alleen chatberichten"
+; EN: ShowWarningText="Log script errors"
+ShowWarningText="Logscriptfouten"
 
 [AdminGUIPlayersGrid]
 ; EN: PlayerID="ID#"
-PlayerID="ID KAART#"
+PlayerID="ID#"
 ; EN: PlayerName="Player Name"
 PlayerName="Naam speler"
-; EN: PlayerIP="IP-Address"
-PlayerIP="IP adres"
+; EN: PlayerIP="IP Address"
+PlayerIP="IP Adres"
 ; EN: PlayerClientID="Client ID"
 PlayerClientID="klant identificatie"
 ; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
@@ -82,6 +86,8 @@ AddedStr="Muziek "%ls" (%i) toegevoegd."
 RemoveSongStr="Nummer #%i verwijderd."
 ; EN: ClearListStr="Removed all tracks from the playlist."
 ClearListStr="Alle nummers uit de afspeellijst verwijderd."
+; EN: AddAllStr="Added all musics to the list."
+AddAllStr="Alle muziek aan de lijst toegevoegd."
 ; EN: ConfirmClearListTitle="Confirm clearing the playlist"
 ConfirmClearListTitle="Bevestig het wissen van de afspeellijst"
 ; EN: ConfirmClearListText="Do you want to clear the playlist?"
@@ -112,12 +118,12 @@ WindowTitle="Muziekmenu"
 [UWindowNetErrorClientWindow]
 ; EN: ReconnectText="Reconnect to server"
 ReconnectText="Maak opnieuw verbinding met de server"
-; EN: KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\"
-KickNetworkText="GETOPT! | Je bent van deze server verwijderd door een beheerder voor de rest van het spel. \"
-; EN: BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\If you feel like you don't deserve this ban, contact the administrator at: "
-BanNetworkText="BANNED! | Je bent van deze server verbannen door een administrator wegens slecht gedrag. \\ Als je denkt dat je deze ban niet verdient, neem dan contact op met de administrator op: "
-; EN: TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\"
-TempBanNetworkText="SESSIE VERBODEN! | Je bent tijdelijk verbannen van deze server voor de rest van de kaart. \"
+; EN: KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\\"
+KickNetworkText="GETOPT!|Je bent van deze server verwijderd door een beheerder voor de rest van het spel.\\"
+; EN: BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\\\If you feel like you don't deserve this ban, contact the administrator at: "
+BanNetworkText="BANNED!|Je bent van deze server verbannen door een administrator wegens slecht gedrag. \\ Als je denkt dat je deze ban niet verdient, neem dan contact op met de administrator op: "
+; EN: TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\\"
+TempBanNetworkText="SESSIE VERBODEN!|Je bent tijdelijk verbannen van deze server voor de rest van de kaart.\\"
 
 [MMControlsClient]
 ; EN: MusicVolumeText="Music Volume"
@@ -126,6 +132,14 @@ MusicVolumeText="Muziekvolume"
 BrowseText="Bladeren"
 ; EN: BrowseHint="Browse music files"
 BrowseHint="Blader door muziekbestanden"
+; EN: AddAllText="Add All"
+AddAllText="Alles toevoegen"
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint="Hiermee wordt de hele muziekmap doorzocht en worden alle audiotracks aan de afspeellijst toegevoegd."
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr="WAARSCHUWING: Alle nummers toevoegen?"
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText="Deze bewerking zal traag zijn en zal elk mogelijk nummer aan uw afspeellijst toevoegen, doorgaan?"
 ; EN: AddMusicText="Add Music"
 AddMusicText="Muziek toevoegen"
 ; EN: AddMusicHint="Add music with the specified name"
@@ -148,6 +162,10 @@ StopTrackHint="Spoor stoppen"
 PriorTrackHint="Voorafgaand nummer"
 ; EN: NextTrackHint="Next track"
 NextTrackHint="Volgende nummer"
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText="Shuffle-afspeellijst"
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint="Volgende track wordt altijd willekeurig gekozen."
 
 [UWindowNetErrorWindow]
 ; EN: WindowTitle="Player Network error status"
@@ -168,8 +186,8 @@ RefreshTxt="&Banlijst vernieuwen"
 ManualBanTxt="&Handmatig ban-invoer invoegen"
 
 [MMMusListWindow]
-; EN: WindowTitle="Found music tracks:"
-WindowTitle="Gevonden muzieknummers:"
+; EN: WindowTitle="Multiple music tracks found:"
+WindowTitle="Meerdere muzieknummers gevonden:"
 
 [MMListPullDown]
 ; EN: PlaySongStr="&Play"
@@ -217,16 +235,10 @@ MedFontBold=UWindowFonts.TahomaB20
 LargeFont=UWindowFonts.Tahoma30
 LargeFontBold=UWindowFonts.TahomaB30
 
-[AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
-LengthExceeded="Maximale lengte van spelerslijst overschreden "%i""
-; EN: ResponseMismatch="Response ID mismatched: %i/%j"
-ResponseMismatch="Reactie-ID komt niet overeen: %i/%j"
-; EN: ReceiveBanText="Received ban "%ls"."
-ReceiveBanText="Ban "%ls" ontvangen."
-; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
-GettingBanListText="Banlist ophalen van de server, als er niets gebeurt, ben je misschien niet ingelogd als admin (of zijn er geen bans op de server)."
-
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
 RestartText="Herstarten"
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage="Iets maakt scriptwaarschuwingen..."

@@ -109,14 +109,14 @@ VersionName="Versie"
 [UBrowserInfoMenu]
 ; EN: RefreshName="&Refresh Info"
 RefreshName="&Info vernieuwen"
-; EN: AttachName="&Attach"
-AttachName="&Vastmaken"
-; EN: CloseName="&Close"
-CloseName="&Dichtbij"
+; EN: AttachName="&Attach Window"
+AttachName="&Venster bijvoegen"
+; EN: CloseName="&Close Window"
+CloseName="&Venster sluiten"
 
 [UBrowserMainWindow]
-; EN: WindowTitleString="Server Browser"
-WindowTitleString="Server browser"
+; EN: WindowTitleString="Unreal Server Browser"
+WindowTitleString="Unreal Server browser"
 
 [UBrowserRightClickMenu]
 ; EN: RefreshName="&Refresh All Servers"
