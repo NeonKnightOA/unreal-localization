@@ -460,7 +460,7 @@ HelpOneLiner="texturemerger [csomagNév]"
 HelpDesc[0]="[csomagNév]"
 ; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
 HelpParm[0]="Opcionális paraméter, ez az a csomag, ahová a textúrák mentésre kerülnek."
-HelpDesc[0]=" "
+HelpDesc[1]=" "
 ; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
 HelpParm[1]="Ha nincs megadva csomagNév, akkor a TextureMerge könyvtárat használja az összes almappa nevének megkeresésére a megfelelő csomagok keresése során."
 

@@ -460,7 +460,7 @@ HelpOneLiner="texturemerger [názevBalíčku]"
 HelpDesc[0]="[názevBalíčku]"
 ; EN: HelpParm[0]="An optional parameter, it's the package where the textures will be saved to."
 HelpParm[0]="Volitelný parametr, je to balíček, do kterého se budou textury ukládat."
-HelpDesc[0]=" "
+HelpDesc[1]=" "
 ; EN: HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
 HelpParm[1]="Pokud není zadán název balíčku, použije se adresář TextureMerge k nalezení názvů všech podsložek při hledání odpovídajících balíčků."
 
