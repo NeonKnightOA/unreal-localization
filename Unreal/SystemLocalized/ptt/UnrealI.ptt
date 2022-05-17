@@ -268,9 +268,9 @@ MenuName="Homem 2"
 
 [Sludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Você pegou 25 quilos de Fragmentos de Tarydium"
+PickupMessage="Você pegou 25 quilos de Resíduo de Tarídio"
 ; EN: ItemName="Tarydium Biosludge"
-ItemName="Fragmentos de Tarydium"
+ItemName="Resíduo de Tarídio"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -406,52 +406,52 @@ GameName="Rei da Montanha"
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o foi destroçado pela %k de %w."
-FemDeathMessage="%o foi destroçada pela %k de %w."
-FemKillMessage="%o foi destroçado pela %k de %w."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Você pegou o Lançaestilhaços"
 ; EN: ItemName="Flak Cannon"
 ItemName="Lançaestilhaços"
+FemDeathMessage="%o foi destroçada pela %k de %w."
+FemKillMessage="%o foi destroçado pela %k de %w."
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k acertou uma bala na cabeça de %o."
-FemDeathMessage="%k acertou uma bala na cabeça de %o."
-FemKillMessage="%k acertou uma bala na cabeça de %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Você pegou o Fuzil"
 ; EN: ItemName="Sniper Rifle"
 ItemName="Fuzil de Longo Alcance"
+FemDeathMessage="%k acertou uma bala na cabeça de %o."
+FemKillMessage="%k acertou uma bala na cabeça de %o."
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="A %w de %k transformou %o num pedaço de carne sangrenta."
-FemDeathMessage="A %w de %k transformou %o num pedaço de carne sangrenta."
-FemKillMessage="A %w de %k transformou %o num pedaço de carne sangrenta."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Você pegou a Metralhadora"
 ; EN: ItemName="Minigun"
 ItemName="Metralhadora"
+FemDeathMessage="A %w de %k transformou %o num pedaço de carne sangrenta."
+FemKillMessage="A %w de %k transformou %o num pedaço de carne sangrenta."
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o bebeu um copo de gosma verde de %k."
-FemDeathMessage="%o bebeu um copo de gosma verde de %k."
-FemKillMessage="%o bebeu um copo de gosma verde de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Você pegou o Lançalixo Tóxico GES"
 ; EN: ItemName="GES Bio Rifle"
 ItemName="Lançalixo Tóxico GES"
+FemDeathMessage="%o bebeu um copo de gosma verde de %k."
+FemKillMessage="%o bebeu um copo de gosma verde de %k."
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k rasgou um pedaço sangrento de %o com o %w."
-FemDeathMessage="%k rasgou um pedaço sangrento de %o com o %w."
-FemKillMessage="%k rasgou um pedaço sangrento de %o com o %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Você pegou o Lançalâminas"
 ; EN: ItemName="Razorjack"
 ItemName="Lançalâminas"
+FemDeathMessage="%k rasgou um pedaço sangrento de %o com o %w."
+FemKillMessage="%k rasgou um pedaço sangrento de %o com o %w."
 
 [Squid]
 ; EN: NameArticle=" a "
