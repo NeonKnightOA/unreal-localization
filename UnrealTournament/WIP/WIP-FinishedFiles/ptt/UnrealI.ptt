@@ -1,4 +1,6 @@
 ﻿[Public]
+;Object=(Name=UnrealI.Intro,Class=Class,MetaClass=Engine.GameInfo)
+;Object=(Name=UnrealI.EndGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
@@ -33,6 +35,150 @@ ESCMessage="Pressione ESC para começar"
 NameArticle=" a "
 ; EN: MenuName="Queen"
 MenuName="Rainha"
+
+[SkaarjPlayer]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldado Skaarj"
+
+[SkaarjPlayerBot]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldado Skaarj"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" o "
+; EN: MenuName="WarLord"
+MenuName="Senhor Guerreiro"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="A carga da bateria do Holofote se esgotou."
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="Você pegou um Holofote"
+; EN: ItemName="Search Light"
+ItemName="Holofote"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="Você pegou algumas Lâminas da Razor"
+; EN: ItemName="Razor Blades"
+ItemName="Lâminas da Razor"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Você pegou 10 Cápsulas de Estilhaços"
+; EN: ItemName="Flak Shells"
+ItemName="Cápsulas de Estilhaços"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="Homem 1"
+
+[MaleOneBot]
+; EN: MenuName="Male 1"
+MenuName="Homem 1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Você pegou 8 Munições do Fuzil"
+; EN: ItemName="Rifle Rounds"
+ItemName="Munições do Fuzil"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="Você pegou uma Semente de Fruta Nali"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="Semente de Fruta Nali"
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained."
+ExpireMessage="As Botas de Pulo estão esgotadas."
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="Você pegou as Botas de Pulo"
+; EN: ItemName="Jump Boots"
+ItemName="Botas de Pulo"
+
+[ForceField]
+; EN: M_NoRoom="No room to activate the Force Field."
+M_NoRoom="Sem espaço para ativar o Campo de Força."
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="Você pegou o gerador de Campo de Força"
+; EN: ItemName="Force Field"
+ItemName="Campo de Força"
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Mulher 2"
+
+[FemaleTwoBot]
+; EN: MenuName="Female 2"
+MenuName="Mulher 2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Homem 2"
+
+[MaleTwoBot]
+; EN: MenuName="Male 2"
+MenuName="Homem 2"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Você pegou 25 quilos de Resíduo de Tarídio"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Resíduo de Tarídio"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="A Invisibilidade esgotou-se."
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="Você pegou a Invisibilidade"
+; EN: ItemName="Invisibility"
+ItemName="Invisibilidade"
+
+[DarkMatch]
+; EN: ClassCaption="DarkMatch"
+ClassCaption="Partida na Escuridão"
+; EN: GameName="DarkMatch"
+GameName="Partida na Escuridão"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Você pegou uma Cápsula de Estilhaços"
+; EN: ItemName="Flak Shell"
+ItemName="Cápsula de Estilhaços"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Você pegou o Traje de Asbesto"
+; EN: ItemName="Asbestos Suit"
+ItemName="Traje de Asbesto"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="O Abafador Acústico esgotou-se."
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="Você pegou o Abafador Acústico"
+; EN: ItemName="Acoustic Dampener"
+ItemName="Abafador Acústico"
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="Você pegou um Traje a Prova de Toxinas"
+; EN: ItemName="Toxin Suit"
+ItemName="Traje a Prova de Toxinas"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="Você pegou o Super Escudo"
+; EN: ItemName="Power Shield"
+ItemName="Super Escudo"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Você pegou uma Munição do Fuzil"
+; EN: ItemName="Rifle Round"
+ItemName="Munição do Fuzil"
 
 [Behemoth]
 ; EN: NameArticle=" a "
@@ -69,6 +215,12 @@ MenuName="Bolsa de Ar Gigante"
 NameArticle=" a "
 ; EN: MenuName="Giant Manta"
 MenuName="Manta Gigante"
+
+[IceSkaarj]
+; EN: NameArticle=" an "
+NameArticle=" um "
+; EN: MenuName="Ice Skaarj"
+MenuName="Skaarj Gelado"
 
 [Krall]
 ; EN: NameArticle=" a "
@@ -166,196 +318,6 @@ NameArticle=" o "
 ; EN: MenuName="Stone Titan"
 MenuName="Titã de Pedra"
 
-[SkaarjPlayer]
-; EN: MenuName="Skaarj Trooper"
-MenuName="Soldado Skaarj"
-
-[SkaarjPlayerBot]
-; EN: MenuName="Skaarj Trooper"
-MenuName="Soldado Skaarj"
-
-[WarLord]
-; EN: NameArticle=" the "
-NameArticle=" o "
-; EN: MenuName="WarLord"
-MenuName="Senhor Guerreiro"
-
-[SearchLight]
-; EN: ExpireMessage="The Search Light batteries have died."
-ExpireMessage="A carga da bateria do Holofote se esgotou."
-; EN: PickupMessage="You picked up the Search Light"
-PickupMessage="Você pegou um Holofote"
-; EN: ItemName="Search Light"
-ItemName="Holofote"
-
-[RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Você pegou algumas Lâminas da Razor"
-; EN: ItemName="Razor Blades"
-ItemName="Lâminas da Razor"
-
-[DarkMatch]
-; EN: ClassCaption="DarkMatch"
-ClassCaption="Partida na Escuridão"
-; EN: GameName="DarkMatch"
-GameName="Partida na Escuridão"
-
-[FlakBox]
-; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Você pegou 10 Cápsulas de Estilhaços"
-; EN: ItemName="Flak Shells"
-ItemName="Cápsulas de Estilhaços"
-
-[MaleOne]
-; EN: MenuName="Male 1"
-MenuName="Homem 1"
-
-[MaleOneBot]
-; EN: MenuName="Male 1"
-MenuName="Homem 1"
-
-[RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle Rounds"
-PickupMessage="Você pegou 8 Munições do Fuzil"
-; EN: ItemName="Rifle Rounds"
-ItemName="Munições do Fuzil"
-
-[Seeds]
-; EN: PickupMessage="You got the Nali Fruit Seeds"
-PickupMessage="Você pegou uma Semente de Fruta Nali"
-; EN: ItemName="Nali Fruit Seeds"
-ItemName="Semente de Fruta Nali"
-
-[JumpBoots]
-; EN: ExpireMessage="The Jump Boots have drained."
-ExpireMessage="As Botas de Pulo estão esgotadas."
-; EN: PickupMessage="You picked up the Jump Boots"
-PickupMessage="Você pegou as Botas de Pulo"
-; EN: ItemName="Jump Boots"
-ItemName="Botas de Pulo"
-
-[ForceField]
-; EN: M_NoRoom="No room to activate the Force Field."
-M_NoRoom="Sem espaço para ativar o Campo de Força."
-; EN: PickupMessage="You picked up the Force Field"
-PickupMessage="Você pegou o gerador de Campo de Força"
-; EN: ItemName="Force Field"
-ItemName="Campo de Força"
-
-[FemaleTwo]
-; EN: MenuName="Female 2"
-MenuName="Mulher 2"
-
-[FemaleTwoBot]
-; EN: MenuName="Female 2"
-MenuName="Mulher 2"
-
-[MaleTwo]
-; EN: MenuName="Male 2"
-MenuName="Homem 2"
-
-[MaleTwoBot]
-; EN: MenuName="Male 2"
-MenuName="Homem 2"
-
-[Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Você pegou 25 quilos de Fragmentos de Tarydium"
-; EN: ItemName="Tarydium Biosludge"
-ItemName="Fragmentos de Tarydium"
-
-[Invisibility]
-; EN: ExpireMessage="Invisibility has worn off."
-ExpireMessage="A Invisibilidade esgotou-se."
-; EN: PickupMessage="You have Invisibility"
-PickupMessage="Você pegou a Invisibilidade"
-; EN: ItemName="Invisibility"
-ItemName="Invisibilidade"
-
-[AsbestosSuit]
-; EN: PickupMessage="You picked up the Asbestos Suit"
-PickupMessage="Você pegou o Traje de Asbesto"
-; EN: ItemName="Asbestos Suit"
-ItemName="Traje de Asbesto"
-
-[fell]
-; EN: Name="fell"
-Name="caiu"
-; EN: AltName="fell"
-AltName="caiu"
-
-[FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Você pegou uma Cápsula de Estilhaços"
-; EN: ItemName="Flak Shell"
-ItemName="Cápsula de Estilhaços"
-
-[drowned]
-; EN: Name="drowned"
-Name="afogado"
-FemName="afogada"
-; EN: AltName="drowned"
-AltName="afogado"
-FemAltName="afogada"
-
-[Decapitated]
-; EN: Name="beheaded"
-Name="decapitado"
-FemName="decapitada"
-; EN: AltName="decapitated"
-AltName="decapitado"
-FemAltName="decapitada"
-
-[Dampener]
-; EN: ExpireMessage="Acoustic dampener has run out."
-ExpireMessage="O Abafador Acústico esgotou-se."
-; EN: PickupMessage="You got the Acoustic Dampener"
-PickupMessage="Você pegou o Abafador Acústico"
-; EN: ItemName="Acoustic Dampener"
-ItemName="Abafador Acústico"
-
-[Corroded]
-; EN: Name="corroded"
-Name="corroído"
-FemName="corroída"
-; EN: AltName="slimed"
-AltName="corroído"
-FemAltName="corroída"
-
-[ToxinSuit]
-; EN: PickupMessage="You picked up the Toxin Suit"
-PickupMessage="Você pegou um Traje a Prova de Toxinas"
-; EN: ItemName="Toxin Suit"
-ItemName="Traje a Prova de Toxinas"
-
-[Burned]
-; EN: Name="burned"
-Name="carbonizado"
-FemName="carbonizada"
-; EN: AltName="flame-broiled"
-AltName="carbonizado"
-FemAltName="carbonizada"
-
-[PowerShield]
-; EN: PickupMessage="You got the Power Shield"
-PickupMessage="Você pegou o Super Escudo"
-; EN: ItemName="Power Shield"
-ItemName="Super Escudo"
-
-[RifleRound]
-; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Você pegou uma Munição do Fuzil"
-; EN: ItemName="Rifle Round"
-ItemName="Munição do Fuzil"
-
-[ParentBlob]
-; EN: BlobKillMessage="was corroded by a Blob"
-BlobKillMessage="foi corroído por uma Gosma"
-; EN: NameArticle=" a "
-NameArticle=" uma "
-; EN: MenuName="Blob"
-MenuName="Gosma"
-
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
 Message1="A cápsula de escape dos Skaarj escapou da força gravitacional do planeta... por muito pouco. Ainda assim o seu combustível esta esgotado e você vaga sem rumo."
@@ -378,13 +340,21 @@ KingMessage=" é o novo rei da montanha!"
 ; EN: GameName="King of the Hill"
 GameName="Rei da Montanha"
 
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="foi corroído por uma Gosma"
+; EN: NameArticle=" a "
+NameArticle=" uma "
+; EN: MenuName="Blob"
+MenuName="Gosma"
+
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o foi destroçado pela %k de %w."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Você pegou o Canhão de Estilhaços"
+PickupMessage="Você pegou o Lançaestilhaços"
 ; EN: ItemName="Flak Cannon"
-ItemName="Canhão de Estilhaços"
+ItemName="Lançaestilhaços"
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -392,7 +362,7 @@ DeathMessage="%k acertou uma bala na cabeça de %o."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Você pegou o Fuzil"
 ; EN: ItemName="Sniper Rifle"
-ItemName="Fuzil de longo alcance"
+ItemName="Fuzil de Longo Alcance"
 
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -406,17 +376,47 @@ ItemName="Metralhadora"
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o bebeu um copo de gosma verde de %k."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Você pegou o Lançador de Gosma Tóxica GES"
+PickupMessage="Você pegou o Lançalixo Tóxico GES"
 ; EN: ItemName="GES Bio Rifle"
-ItemName="Lançador de Gosma Tóxica GES"
+ItemName="Lançalixo Tóxico GES"
 
 [Razorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k rasgou um pedaço sangrento de %o com o %w."
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Você pegou o Lançador de Lâminas"
+PickupMessage="Você pegou o Lançalâminas"
 ; EN: ItemName="Razorjack"
-ItemName="Lançador de Lâminas"
+ItemName="Lançalâminas"
+
+[Fell]
+; EN: Name="fell"
+Name="caiu"
+; EN: AltName="fell"
+AltName="caiu"
+
+[Drowned]
+; EN: Name="drowned"
+Name="afogado"
+; EN: AltName="drowned"
+AltName="afogado"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="decapitado"
+; EN: AltName="decapitated"
+AltName="decapitado"
+
+[Corroded]
+; EN: Name="corroded"
+Name="corroído"
+; EN: AltName="slimed"
+AltName="corroído"
+
+[Burned]
+; EN: Name="burned"
+Name="carbonizado"
+; EN: AltName="flame-broiled"
+AltName="carbonizado"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
