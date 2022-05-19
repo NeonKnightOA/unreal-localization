@@ -348,6 +348,14 @@ NameArticle=" ein "
 ; EN: MenuName="Blob"
 MenuName="Blob"
 
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="wurde von einem Klecks korrodiert"
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Blob"
+MenuName="Klecks"
+
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="Die %w von %k hat %o in Stücke zerfetzt."
@@ -415,6 +423,36 @@ AltName="flambiert"
 [Burned]
 Name="burned"
 AltName="flame-broiled"
+
+[Fell]
+; EN: Name="fell"
+Name="gefallen"
+; EN: AltName="fell"
+AltName="gefallen"
+
+[Drowned]
+; EN: Name="drowned"
+Name="ertrunken"
+; EN: AltName="drowned"
+AltName="ertrunken"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="geköpft"
+; EN: AltName="decapitated"
+AltName="enthauptet"
+
+[Corroded]
+; EN: Name="corroded"
+Name="verätzt"
+; EN: AltName="slimed"
+AltName="verschleimt"
+
+[Burned]
+; EN: Name="burned"
+Name="geröstet"
+; EN: AltName="flame-broiled"
+AltName="flambiert"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."

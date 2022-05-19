@@ -222,6 +222,30 @@ NameArticle=" ein "
 ; EN: MenuName="Giant Manta"
 MenuName="Riesiger Manta"
 
+[Bloblet]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Bloblet"
+MenuName="Kleiner Klecks"
+
+[Gasbag]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Gasbag"
+MenuName="Gassack"
+
+[GiantGasbag]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Giant Gasbag"
+MenuName="Riesiger Gassack"
+
+[GiantManta]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Giant Manta"
+MenuName="Riesiger Manta"
+
 [IceSkaarj]
 ; EN: NameArticle=" an "
 NameArticle=" ein "
@@ -490,6 +514,12 @@ FemKillMessage="Eine von %ks %w-Raketen hat %o erreicht."
 PickupMessage="Friedensstifter erhalten"
 ; EN: ItemName="Peacemaker"
 ItemName="Friedensstifter"
+
+[PeaceAmmo]
+; EN: PickupMessage="You got ammo for the Peacemaker"
+PickupMessage="Du hast Munition für den Friedensstifter"
+; EN: ItemName="Peacemaker Ammo"
+ItemName="Friedensstiftermunition"
 
 [PeaceAmmo]
 ; EN: PickupMessage="You got ammo for the Peacemaker"

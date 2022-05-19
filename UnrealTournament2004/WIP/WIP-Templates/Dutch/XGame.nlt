@@ -116,7 +116,7 @@ ZoomDisplayText="Zoom toestaan"
 ; EN: ZoomDescText="Instagib rifles have sniper scopes."
 ZoomDescText="Instagib-geweren hebben sniperscopes."
 ; EN: GameName="Instagib CTF"
-GameName="Instaib CTF"
+GameName="Instaib VdV"
 
 [IonCannonKillWarning]
 CountDownTrailer="..."
@@ -712,7 +712,7 @@ Description="Elk level heeft een bal die begint in het midden van het speelveld.
 
 [xCTFGame]
 ; EN: GameName="Capture the Flag"
-GameName="Verover de vlag"
+GameName="Verover de Vlag"
 ; EN: Description="Your team must score flag captures by taking the enemy flag from the enemy base and returning it to their own flag.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
 Description="Je team moet vlagvangsten scoren door de vijandelijke vlag van de vijandelijke basis te nemen en terug te brengen naar hun eigen vlag. Als de vlaggendrager wordt gedood, valt de vlag op de grond zodat iedereen hem kan oppakken. Als de vlag van uw team is ingenomen, moet deze worden teruggegeven (door deze aan te raken nadat deze is gevallen) voordat uw team een ​​vlagverovering kan scoren."
 
@@ -792,9 +792,9 @@ AggressivenessString="Agressie:"
 [xVehicleCTFGame]
 VCTFHints=("You can't carry the flag in a Manta or a Raptor.")
 ; EN: GameName="Vehicle CTF"
-GameName="Voertuig CTF"
+GameName="Voertuig VdV"
 ; EN: Description="Like traditional Capture The Flag, only adding vehicles into the mix! Only ground-based vehicles can carry the flag."
-Description="Net als het traditionele Capture The Flag, alleen voertuigen toevoegen aan de mix! Alleen grondgebonden voertuigen mogen de vlag voeren."
+Description="Net als het traditionele Verover de Vlag, alleen voertuigen toevoegen aan de mix! Alleen grondgebonden voertuigen mogen de vlag voeren."
 
 [xVictimMessage]
 ; EN: YouWereKilledBy="You were killed by"
