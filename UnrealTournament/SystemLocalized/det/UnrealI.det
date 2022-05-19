@@ -1,4 +1,6 @@
 ﻿[Public]
+;Object=(Name=UnrealI.Intro,Class=Class,MetaClass=Engine.GameInfo)
+;Object=(Name=UnrealI.EndGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
@@ -34,138 +36,6 @@ NameArticle=" die "
 ; EN: MenuName="Queen"
 MenuName="Königin"
 
-[Behemoth]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Behemoth"
-MenuName="Behemoth"
-
-[Blob]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Blob"
-MenuName="Schleim"
-
-[Bloblet]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Bloblet"
-MenuName="Kleiner Schleim"
-
-[Gasbag]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Gasbag"
-MenuName="Gassack"
-
-[GiantGasbag]
-; EN: NameArticle=" the "
-NameArticle=" ein "
-; EN: MenuName="Giant Gasbag"
-MenuName="Riesiger Gassack"
-
-[GiantManta]
-; EN: NameArticle=" the "
-NameArticle=" ein "
-; EN: MenuName="Giant Manta"
-MenuName="Riesiger Manta"
-
-[Krall]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Krall"
-MenuName="Krall"
-
-[KrallElite]
-; EN: NameArticle=" an "
-NameArticle=" ein "
-; EN: MenuName="Elite Krall"
-MenuName="Elite-Krall"
-
-[LeglessKrall]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Legless Krall"
-MenuName="Beinloser Krall"
-
-[Mercenary]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Mercenary"
-MenuName="Söldner"
-
-[MercenaryElite]
-; EN: NameArticle=" an "
-NameArticle=" ein "
-; EN: MenuName="Elite Mercenary"
-MenuName="Elite-Söldner"
-
-[Pupae]
-; EN: NameArticle=" a "
-NameArticle=" eine "
-; EN: MenuName="Pupae"
-MenuName="Puppe"
-
-[SkaarjAssassin]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Assassin"
-MenuName="Skaarj-Meuchler"
-
-[SkaarjBerserker]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Berserker"
-MenuName="Skaarj-Berserker"
-
-[SkaarjGunner]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Gunner"
-MenuName="Skaarj-Kanonier"
-
-[SkaarjInfantry]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Infantry"
-MenuName="Skaarj-Infanterist"
-
-[SkaarjLord]
-; EN: NameArticle=" the "
-NameArticle=" der "
-; EN: MenuName="Skaarj Lord"
-MenuName="Skaarj-Herrscher"
-
-[SkaarjOfficer]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Officer"
-MenuName="Skaarj-Offizier"
-
-[SkaarjSniper]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Sniper"
-MenuName="Skaarj-Scharfschütze"
-
-[SkaarjTrooper]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Skaarj Trooper"
-MenuName="Skaarj-Soldat"
-
-[Titan]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Titan"
-MenuName="Titan"
-
-[StoneTitan]
-; EN: NameArticle=" the "
-NameArticle=" der "
-; EN: MenuName="Stone Titan"
-MenuName="Steinerner Titan"
-
 [SkaarjPlayer]
 ; EN: MenuName="Skaarj Trooper"
 MenuName="Skaarj-Soldat"
@@ -193,12 +63,6 @@ ItemName="Suchscheinwerfer"
 PickupMessage="Messerklingen erhalten"
 ; EN: ItemName="Razor Blades"
 ItemName="Messerklingen"
-
-[DarkMatch]
-; EN: ClassCaption="DarkMatch"
-ClassCaption="Düster-Match"
-; EN: GameName="DarkMatch"
-GameName="Düster-Match"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
@@ -266,23 +130,17 @@ ItemName="Tarydium-Bioschlamm"
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
-ExpireMessage="Die Unsichtbarkeit wurde verbraucht."
+ExpireMessage="Die Unsichtbarkeit wurde aufgebraucht."
 ; EN: PickupMessage="You have Invisibility"
 PickupMessage="Unsichtbarkeit erhalten"
 ; EN: ItemName="Invisibility"
 ItemName="Unsichtbarkeit"
 
-[AsbestosSuit]
-; EN: PickupMessage="You picked up the Asbestos Suit"
-PickupMessage="Asbestanzug erhalten"
-; EN: ItemName="Asbestos Suit"
-ItemName="Asbestanzug"
-
-[fell]
-; EN: Name="fell"
-Name="gefallen"
-; EN: AltName="fell"
-AltName="gefallen"
+[DarkMatch]
+; EN: ClassCaption="DarkMatch"
+ClassCaption="Düster-Match"
+; EN: GameName="DarkMatch"
+GameName="Düster-Match"
 
 [FlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
@@ -290,43 +148,25 @@ PickupMessage="Flakgranate erhalten"
 ; EN: ItemName="Flak Shell"
 ItemName="Flakgranate"
 
-[drowned]
-; EN: Name="drowned"
-Name="ertrunken"
-; EN: AltName="drowned"
-AltName="ertrunken"
-
-[Decapitated]
-; EN: Name="beheaded"
-Name="geköpft"
-; EN: AltName="decapitated"
-AltName="enthauptet"
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Asbestanzug erhalten"
+; EN: ItemName="Asbestos Suit"
+ItemName="Asbestanzug"
 
 [Dampener]
 ; EN: ExpireMessage="Acoustic dampener has run out."
-ExpireMessage="Der Schalldämpfer ist ausgegangen."
+ExpireMessage="Der Schalldämpfer wurde verbraucht."
 ; EN: PickupMessage="You got the Acoustic Dampener"
 PickupMessage="Schalldämpfer erhalten"
 ; EN: ItemName="Acoustic Dampener"
 ItemName="Schalldämpfer"
-
-[Corroded]
-; EN: Name="corroded"
-Name="verätzt"
-; EN: AltName="slimed"
-AltName="verschleimt"
 
 [ToxinSuit]
 ; EN: PickupMessage="You picked up the Toxin Suit"
 PickupMessage="Toxinanzug erhalten"
 ; EN: ItemName="Toxin Suit"
 ItemName="Toxinanzug"
-
-[Burned]
-; EN: Name="burned"
-Name="geröstet"
-; EN: AltName="flame-broiled"
-AltName="flambiert"
 
 [PowerShield]
 ; EN: PickupMessage="You got the Power Shield"
@@ -340,14 +180,41 @@ PickupMessage="Kampfgewehrgeschoss erhalten"
 ; EN: ItemName="Rifle Round"
 ItemName="Kampfgewehrgeschoss"
 
-[ParentBlob]
-; EN: BlobKillMessage="was corroded by a Blob"
-BlobKillMessage="wurde von einem Blob zersetzt"
-FemBlobKillMessage="wurde von einem Blob zersetzt"
+[Behemoth]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Behemoth"
+MenuName="Behemoth"
+
+[Blob]
 ; EN: NameArticle=" a "
 NameArticle=" ein "
 ; EN: MenuName="Blob"
 MenuName="Blob"
+
+[Bloblet]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Bloblet"
+MenuName="Kleiner Blob"
+
+[Gasbag]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Gasbag"
+MenuName="Gassack"
+
+[GiantGasbag]
+; EN: NameArticle=" the "
+NameArticle=" ein "
+; EN: MenuName="Giant Gasbag"
+MenuName="Riesiger Gassack"
+
+[GiantManta]
+; EN: NameArticle=" the "
+NameArticle=" ein "
+; EN: MenuName="Giant Manta"
+MenuName="Riesiger Manta"
 
 [IceSkaarj]
 ; EN: NameArticle=" an "
@@ -355,9 +222,101 @@ NameArticle=" ein "
 ; EN: MenuName="Ice Skaarj"
 MenuName="Eisskaarj"
 
-[NaliPlayer]
-; EN: MenuName="Nali"
-MenuName="Nali"
+[Krall]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Krall"
+MenuName="Krall"
+
+[KrallElite]
+; EN: NameArticle=" an "
+NameArticle=" ein "
+; EN: MenuName="Elite Krall"
+MenuName="Elite-Krall"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Legless Krall"
+MenuName="Beinloser Krall"
+
+[Mercenary]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Mercenary"
+MenuName="Söldner"
+
+[MercenaryElite]
+; EN: NameArticle=" an "
+NameArticle=" ein "
+; EN: MenuName="Elite Mercenary"
+MenuName="Elite-Söldner"
+
+[Pupae]
+; EN: NameArticle=" a "
+NameArticle=" eine "
+; EN: MenuName="Pupae"
+MenuName="Puppe"
+
+[SkaarjAssassin]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Assassin"
+MenuName="Skaarj-Meuchler"
+
+[SkaarjBerserker]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Berserker"
+MenuName="Skaarj-Berserker"
+
+[SkaarjGunner]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Gunner"
+MenuName="Skaarj-Kanonier"
+
+[SkaarjInfantry]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Infantry"
+MenuName="Skaarj-Infanterist"
+
+[SkaarjLord]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Skaarj Lord"
+MenuName="Skaarj-Lord"
+
+[SkaarjOfficer]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Officer"
+MenuName="Skaarj-Offizier"
+
+[SkaarjSniper]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Sniper"
+MenuName="Skaarj-Scharfschütze"
+
+[SkaarjTrooper]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Trooper"
+MenuName="Skaarj-Soldat"
+
+[Titan]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Titan"
+MenuName="Titan"
+
+[StoneTitan]
+; EN: NameArticle=" the "
+NameArticle=" ein "
+; EN: MenuName="Stone Titan"
+MenuName="Steinerner Titan"
 
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
@@ -378,18 +337,20 @@ Message6="Fortsetzung folgt..."
 ClassCaption="King of the Hill"
 ; EN: KingMessage=" is the new king of the hill!"
 KingMessage=" ist der neue König des Hügels!"
-; EN: NewKingMessage="%k is the new king of the hill!"
-NewKingMessage="%k ist der neue König des Hügels!"
-; EN: NewQueenMessage="%k is the new queen of the hill!"
-NewQueenMessage="%k ist die neue Königin des Hügels!"
 ; EN: GameName="King of the Hill"
 GameName="King of the Hill"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="wurde von einem Blob zersetzt"
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Blob"
+MenuName="Blob"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="Die %w von %k hat %o in Stücke zerfetzt."
-FemDeathMessage="Die %w von %k hat %o in Stücke zerfetzt."
-FemKillMessage="Die %w von %k hat %o in Stücke zerfetzt."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Flak erhalten"
 ; EN: ItemName="Flak Cannon"
@@ -398,8 +359,6 @@ ItemName="Flak"
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k hat %o eine Kugel in den Kopf gejagt."
-FemDeathMessage="%k hat %o eine Kugel in den Kopf gejagt."
-FemKillMessage="%k hat %o eine Kugel in den Kopf gejagt."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Kampfgewehr erhalten"
 ; EN: ItemName="Sniper Rifle"
@@ -408,8 +367,6 @@ ItemName="Kampfgewehr"
 [Minigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="Die %w von %k hat löchrigen Käse aus %o gemacht."
-FemDeathMessage="Die %w von %k hat löchrigen Käse aus %o gemacht."
-FemKillMessage="Die %w von %k hat löchrigen Käse aus %o gemacht."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Minigun erhalten"
 ; EN: ItemName="Minigun"
@@ -417,29 +374,48 @@ ItemName="Minigun"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o hat eine Ladung grüner Grütze von %k geschluckt."
-FemDeathMessage="%o hat eine Ladung grüner Grütze von %k geschluckt."
-FemKillMessage="%o hat eine Ladung grüner Grütze von %k geschluckt."
+DeathMessage="%o hat eine triefende grüne Ladung von %k geschluckt."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="GES-Biogewehr erhalten"
 ; EN: ItemName="GES BioRifle"
 ItemName="GES-Biogewehr"
 
-[RazorJack]
+[Razorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k hat mit dem %w ein schönes blutiges Stück aus %o gerissen."
-FemDeathMessage="%k hat mit dem %w ein schönes blutiges Stück aus %o gerissen."
-FemKillMessage="%k hat mit dem %w ein schönes blutiges Stück aus %o gerissen."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Razorjack erhalten"
 ; EN: ItemName="Razorjack"
 ItemName="Razorjack"
 
-[Squid]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Squid"
-MenuName="Tintenfisch"
+[Fell]
+; EN: Name="fell"
+Name="gefallen"
+; EN: AltName="fell"
+AltName="gefallen"
+
+[Drowned]
+; EN: Name="drowned"
+Name="ertrunken"
+; EN: AltName="drowned"
+AltName="ertrunken"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="geköpft"
+; EN: AltName="decapitated"
+AltName="enthauptet"
+
+[Corroded]
+; EN: Name="burned"
+Name="geröstet"
+; EN: AltName="flame-broiled"
+AltName="flambiert"
+
+[Burned]
+Name="burned"
+AltName="flame-broiled"
+
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%k hat sein Territorium vor der Invasion von %o geschützt."
