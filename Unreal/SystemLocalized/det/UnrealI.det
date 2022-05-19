@@ -492,8 +492,10 @@ PickupMessage="Friedensstifter erhalten"
 ItemName="Friedensstifter"
 
 [PeaceAmmo]
-PickupMessage="You got ammo for the Peacemaker"
-ItemName="Peacemaker Ammo"
+; EN: PickupMessage="You got ammo for the Peacemaker"
+PickupMessage="Du hast Munition für den Friedensstifter"
+; EN: ItemName="Peacemaker Ammo"
+ItemName="Friedensstiftermunition"
 
 [WoodruffSeeds]
 ; EN: PickupMessage="You got the Woodruff Seeds"
