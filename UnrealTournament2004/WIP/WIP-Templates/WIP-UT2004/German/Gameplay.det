@@ -1,8 +1,8 @@
 [ACTION_DamageActor]
-ActionString="Figur beschädigen"
+ActionString="Figur beschï¿½digen"
 
 [ACTION_DestroyActor]
-ActionString="Figur zerstören"
+ActionString="Figur zerstï¿½ren"
 
 [ACTION_FinishRotation]
 ActionString="Rotation beenden"
@@ -26,10 +26,10 @@ ActionString="Springen"
 ActionString="Lokalisierte Meldung"
 
 [ACTION_SetPhysics]
-ActionString="Physik ändern in"
+ActionString="Physik ï¿½ndern in"
 
 [ACTION_ShootTarget]
-ActionString="Ziel beschießen"
+ActionString="Ziel beschieï¿½en"
 
 [ACTION_SpawnActor]
 ActionString="Figur platzieren"
@@ -43,65 +43,65 @@ ActionString="Waffe werfen"
 [ActionMessage_BR]
 Messages[0]="Bombing Run"
 Messages[1]="Der Ball ist in der Mitte."
-Messages[2]="Berühren Sie den Ball, um ihn aufzusammeln."
-Messages[3]="Der Ballträger kann nicht angreifen."
-Messages[4]="Primärer Feuermodus schießt Ball weg"
+Messages[2]="Berï¿½hren Sie den Ball, um ihn aufzusammeln."
+Messages[3]="Der Balltrï¿½ger kann nicht angreifen."
+Messages[4]="Primï¿½rer Feuermodus schieï¿½t Ball weg"
 Messages[5]="Alternativ-Feuermodus zielt auf Teamkameraden"
 Messages[6]="Ball an Teamkameraden passen"
 Messages[7]="Jedes Team hat ein rundes Tor."
 Messages[8]="Werfen des Balls durch Tor = 3 Punkte"
 Messages[9]="Tragen des Balls durch Tor = 7 Punkte"
-Messages[10]="Viel Glück!"
+Messages[10]="Viel Glï¿½ck!"
 
 [ActionMessage_CTF]
 Messages[0]="Capture the Flag"
 Messages[1]="Zwei Basen: ROT und BLAU"
-Messages[2]="Berühren Sie die feindliche Flagge, um sie zu nehmen."
-Messages[3]="Kehren Sie zu Ihrer Basis zurück."
-Messages[4]="Berühren Sie Ihre Flagge, um zu punkten."
+Messages[2]="Berï¿½hren Sie die feindliche Flagge, um sie zu nehmen."
+Messages[3]="Kehren Sie zu Ihrer Basis zurï¿½ck."
+Messages[4]="Berï¿½hren Sie Ihre Flagge, um zu punkten."
 Messages[5]="Bei Verwendung des Translocators wird die Flagge fallengelassen."
 Messages[6]="Standard-Einnahmegrenze ist 3."
-Messages[7]="Viel Glück!"
+Messages[7]="Viel Glï¿½ck!"
 
 [ActionMessage_DM]
 Messages[0]="Death Match"
-Messages[1]="Drücken Sie auf die Feuertaste, um ins Spiel zu kommen."
-Messages[2]="Waffen verfügen über zwei Feuermodi."
-Messages[3]="Reguläres und alternatives Feuer"
+Messages[1]="Drï¿½cken Sie auf die Feuertaste, um ins Spiel zu kommen."
+Messages[2]="Waffen verfï¿½gen ï¿½ber zwei Feuermodi."
+Messages[3]="Regulï¿½res und alternatives Feuer"
 Messages[4]="Assault Rifle"
 Messages[5]="Feuert Kugeln und Granaten"
 Messages[6]="Shield Gun"
-Messages[7]="Für Nahkampf"
+Messages[7]="Fï¿½r Nahkampf"
 Messages[8]="Schutzschild"
 Messages[9]="Weitere Waffen stehen bereit."
 Messages[10]="Flak Cannon"
 Messages[11]="Bio Rifle"
 Messages[12]="Minigun"
 Messages[13]="Bewegung"
-Messages[14]="WASD = standardmäßige Bewegungstasten"
+Messages[14]="WASD = standardmï¿½ï¿½ige Bewegungstasten"
 Messages[15]="Zum Ausweichen, Taste zweimal antippen"
 Messages[16]="Springen"
 Messages[17]="Doppelter Sprung"
 Messages[18]="Zusatz-Power"
 Messages[19]="Gesundheitsflakon"
 Messages[20]="Satz Gesundheit"
-Messages[21]="Großes Fass Gesundheit"
+Messages[21]="Groï¿½es Fass Gesundheit"
 Messages[22]="Panzerung"
 Messages[23]="Satz Schilde"
 Messages[24]="Satz Superschilde"
 Messages[25]="Adrenalin"
-Messages[26]="Adrenalin kann für Kombos verwendet werden."
-Messages[27]="Schadensverstärker"
+Messages[26]="Adrenalin kann fï¿½r Kombos verwendet werden."
+Messages[27]="Schadensverstï¿½rker"
 Messages[28]="Erreichen Sie zuerst das Frag-Limit!"
-Messages[29]="Selbstmorde zählen gegen Sie."
-Messages[30]="Viel Glück!"
+Messages[29]="Selbstmorde zï¿½hlen gegen Sie."
+Messages[30]="Viel Glï¿½ck!"
 
 [ActionMessage_DOM]
 Messages[0]="Double Domination"
 Messages[1]="Kontrollpunkte: A & B"
-Messages[2]="Die Punkte müssen 10 Sekunden lang gehalten werden."
-Messages[3]="Durch Berührung des Punktes wird Kontrolle übernommen."
-Messages[4]="Viel Glück!"
+Messages[2]="Die Punkte mï¿½ssen 10 Sekunden lang gehalten werden."
+Messages[3]="Durch Berï¿½hrung des Punktes wird Kontrolle ï¿½bernommen."
+Messages[4]="Viel Glï¿½ck!"
 
 [ActionMessage_SubTitle]
 Delays[0]=4.000000
@@ -138,32 +138,32 @@ Delays[30]=0.000000
 Delays[31]=0.000000
 Messages[0]="Wie sehe ich aus?"
 Messages[1]="Nicht so gut wie ich, Baby ..."
-Messages[2]="Hallo Fans. Hier sind wir wieder bei einer weiteren Ausgabe des blutigsten Sportes dieser Galaxie. Ein Turnier, bei dem die Gewinner zu Göttern werden und die Verlierer einen unwiderruflichen Preis zahlen!"
-Messages[3]="HIER SIND SIE! Früher waren sie Feinde, aber jetzt bilden sie eines der mächtigsten Teams überhaupt."
-Messages[4]="Das stimmt. Nichts ist stärker als Erfahrung, und jeder von diesen Drei hat mehr als genug davon."
+Messages[2]="Hallo Fans. Hier sind wir wieder bei einer weiteren Ausgabe des blutigsten Sportes dieser Galaxie. Ein Turnier, bei dem die Gewinner zu Gï¿½ttern werden und die Verlierer einen unwiderruflichen Preis zahlen!"
+Messages[3]="HIER SIND SIE! Frï¿½her waren sie Feinde, aber jetzt bilden sie eines der mï¿½chtigsten Teams ï¿½berhaupt."
+Messages[4]="Das stimmt. Nichts ist stï¿½rker als Erfahrung, und jeder von diesen Drei hat mehr als genug davon."
 Messages[5]="Das hier ist Malcolm! Das ist ein Bursche, der in einem Feuergefecht eiskalt agieren kann."
-Messages[6]="Das ist Brock. Er ist für die Frauen außerhalb des Ringes genauso gefährlich wie für seine Feinde innerhalb!"
-Messages[7]="Mir gefällt es, Lauren zuzusehen. Sie ist ein kleines ... Energiebündel."
+Messages[6]="Das ist Brock. Er ist fï¿½r die Frauen auï¿½erhalb des Ringes genauso gefï¿½hrlich wie fï¿½r seine Feinde innerhalb!"
+Messages[7]="Mir gefï¿½llt es, Lauren zuzusehen. Sie ist ein kleines ... Energiebï¿½ndel."
 Messages[8]="Na klar ... Du siehst Lauren gerne wegen ihrer Energie zu. "
-Messages[9]="Dieses Mal gehört er MIR!!"
+Messages[9]="Dieses Mal gehï¿½rt er MIR!!"
 Messages[10]="AAGGGHHHHRRRR"
-Messages[11]="Du bist die Nummer 1, Gorge! Du bist der Beste! Komm schon, Junge, du zeigst es ihnen!"
+Messages[11]="Du bist die Nummer 1, Gorge. Du bist der Beste! Komm schon, Junge, du zeigst es ihnen!"
 Messages[12]="MAAAALLLCOOOOOMMM!"
 Messages[13]="Oh Mann, hast du das gesehen?"
-Messages[14]="Ich muss schon sagen, Jim, dieser Gorge hat keinen Respekt für seine Fans."
+Messages[14]="Ich muss schon sagen, Jim, dieser Gorge hat keinen Respekt fï¿½r seine Fans."
 Messages[15]="Nun, ich glaube, er ist immer noch ziemlich mies drauf wegen der neuen Narbe in seinem Gesicht, die er Malcolm vom letzten Kampf zu verdanken hat."
-Messages[16]="Ja, ich denke, er wird sich dafür revanchieren wollen. "
+Messages[16]="Ja, ich denke, er wird sich dafï¿½r revanchieren wollen. "
 Messages[17]="Ah, das wir heute abend absolut genial."
-Messages[18]="Da Malcoms Team der amtierende Meister ist, darf es auch die heutige Arena auswählen."
+Messages[18]="Da Malcoms Team der amtierende Meister ist, darf es auch die heutige Arena auswï¿½hlen."
 Messages[19]="Sieht aus wie ... die Eisfelder von Kalendra."
 Messages[20]="Jaaaaaa! Ich liebe einfach diese Arena. Malcolm hat hier wirklich eine gute Wahl getroffen."
 Messages[21]="Dieses Match heute abend wird ein wahres Blutbad sein."
 
 [Action_CHANGELEVEL]
-ActionString="Level ändern"
+ActionString="Level ï¿½ndern"
 
 [Action_CHANGESCRIPT]
-ActionString="Skript ändern"
+ActionString="Skript ï¿½ndern"
 
 [Action_CHANGETEAM]
 ActionString="Team wechseln"
@@ -178,7 +178,7 @@ ActionString="Konsolenbefehl"
 ActionString="Schadensinitiator"
 
 [Action_DESTROYPAWN]
-ActionString="Bauer zerstören"
+ActionString="Bauer zerstï¿½ren"
 
 [Action_DISPLAYMESSAGE]
 ActionString="Mitteil. anzeig."
@@ -217,7 +217,7 @@ ActionString="Hintergrundklang"
 ActionString="Animation"
 
 [Action_PLAYANNOUNCEMENT]
-ActionString="Ankündigung"
+ActionString="Ankï¿½ndigung"
 
 [Action_PLAYLOCALSOUND]
 ActionString="Klang"
@@ -265,7 +265,7 @@ ActionString="Gehen"
 DeathString="%o wurde abgefackelt."
 
 [Corroded]
-DeathString="%o wurde von %k aufgelöst."
+DeathString="%o wurde von %k aufgelï¿½st."
 FemaleSuicide="%o wurde zu Brei."
 MaleSuicide="%o wurde zu Brei."
 

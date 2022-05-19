@@ -437,7 +437,7 @@ Msg_EditingMapList="Bearbeiten Sie jetzt die Mapliste"
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo."
-PickupMessage="Du hast Munition mitgenommen."
+PickupMessage="Munition erhalten."
 
 [BroadcastHandler]
 ; EN: BHDisplayText[0]="Mute Spectators"
@@ -863,11 +863,11 @@ LocationName="nicht spezifiziert"
 
 [Weapon]
 ; EN: MessageNoAmmo=" has no ammo"
-MessageNoAmmo=" hat keine munition"
+MessageNoAmmo=" hat keine Munition"
 
 [WeaponPickup]
 ; EN: PickupMessage="You got a weapon"
-PickupMessage="Du hast eine Waffe"
+PickupMessage="Waffe erhalten."
 
 [XBoxPlayerInput]
 LookPresets[0].PresetName="Linear"
