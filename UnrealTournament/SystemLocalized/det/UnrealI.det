@@ -7,7 +7,7 @@ Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
-Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
 ; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
 Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Frau 2")
@@ -320,15 +320,15 @@ MenuName="Steinerner Titan"
 
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
-Message1="Die Rettungskapsel der Skaarj hat die Anziehungskraft des Planeten überwunden... gerade noch. Leider hast Du keinen Sprit mehr und treibst hilflos in den Weltraum hinein."
+Message1="Die Rettungskapsel der Skaarj hat die Anziehungskraft des Planeten überwunden... gerade noch. Doch du hast keinen Treibstoff mehr und treibst hilflos ins Weltall."
 ; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
 Message2="Du entkommst einem Ort, an dem viele gestorben sind. Du lachst befreit auf. So viel ist passiert, aber fast nichts hat sich verändert."
 ; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
-Message3="Vor dem Absturz warst Du in einer engen Zelle gefangen. Und jetzt bist Du wieder in einem Gefängnis."
+Message3="Vor dem Absturz warst du in einer engen Zelle gefangen. Und jetzt bist du wieder in einem Gefängnis."
 ; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
-Message4="Aber Du bist zuversichtlich, dass jemand Dein kleines Schiff finden wird... irgendwann."
+Message4="Doch du bist zuversichtlich, dass jemand dein kleines Schiff finden wird... irgendwann."
 ; EN: Message5="Until then, you drift and hope."
-Message5="Bis dahin driftest Du und hoffst."
+Message5="Bis dahin schwebst du hoffnungsvoll durchs All."
 ; EN: Message6="To Be Continued..."
 Message6="Fortsetzung folgt..."
 
@@ -348,17 +348,9 @@ NameArticle=" ein "
 ; EN: MenuName="Blob"
 MenuName="Blob"
 
-[ParentBlob]
-; EN: BlobKillMessage="was corroded by a Blob"
-BlobKillMessage="wurde von einem Klecks korrodiert"
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Blob"
-MenuName="Klecks"
-
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="Die %w von %k hat %o in Stücke zerfetzt."
+DeathMessage="Die %w von %k hat %o in Stücke gerissen."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Flak erhalten"
 ; EN: ItemName="Flak Cannon"
@@ -388,41 +380,13 @@ PickupMessage="GES-Biogewehr erhalten"
 ; EN: ItemName="GES BioRifle"
 ItemName="GES-Biogewehr"
 
-[Razorjack]
+[RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k hat mit dem %w ein schönes blutiges Stück aus %o gerissen."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Razorjack erhalten"
 ; EN: ItemName="Razorjack"
 ItemName="Razorjack"
-
-[Fell]
-; EN: Name="fell"
-Name="gefallen"
-; EN: AltName="fell"
-AltName="gefallen"
-
-[Drowned]
-; EN: Name="drowned"
-Name="ertrunken"
-; EN: AltName="drowned"
-AltName="ertrunken"
-
-[Decapitated]
-; EN: Name="beheaded"
-Name="geköpft"
-; EN: AltName="decapitated"
-AltName="enthauptet"
-
-[Corroded]
-; EN: Name="burned"
-Name="geröstet"
-; EN: AltName="flame-broiled"
-AltName="flambiert"
-
-[Burned]
-Name="burned"
-AltName="flame-broiled"
 
 [Fell]
 ; EN: Name="fell"

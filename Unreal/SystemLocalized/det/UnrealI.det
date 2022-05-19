@@ -222,30 +222,6 @@ NameArticle=" ein "
 ; EN: MenuName="Giant Manta"
 MenuName="Riesiger Manta"
 
-[Bloblet]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Bloblet"
-MenuName="Kleiner Klecks"
-
-[Gasbag]
-; EN: NameArticle=" a "
-NameArticle=" ein "
-; EN: MenuName="Gasbag"
-MenuName="Gassack"
-
-[GiantGasbag]
-; EN: NameArticle=" the "
-NameArticle=" der "
-; EN: MenuName="Giant Gasbag"
-MenuName="Riesiger Gassack"
-
-[GiantManta]
-; EN: NameArticle=" the "
-NameArticle=" der "
-; EN: MenuName="Giant Manta"
-MenuName="Riesiger Manta"
-
 [IceSkaarj]
 ; EN: NameArticle=" an "
 NameArticle=" ein "
@@ -350,15 +326,15 @@ MenuName="Steinerner Titan"
 
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
-Message1="Die Rettungskapsel der Skaarj hat die Anziehungskraft des Planeten überwunden... gerade noch. Leider hast Du keinen Sprit mehr und treibst hilflos in den Weltraum hinein."
+Message1="Die Rettungskapsel der Skaarj hat die Anziehungskraft des Planeten überwunden... gerade noch. Doch du hast keinen Treibstoff mehr und treibst hilflos ins Weltall."
 ; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
 Message2="Du entkommst einem Ort, an dem viele gestorben sind. Du lachst befreit auf. So viel ist passiert, aber fast nichts hat sich verändert."
 ; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
-Message3="Vor dem Absturz warst Du in einer engen Zelle gefangen. Und jetzt bist Du wieder in einem Gefängnis."
+Message3="Vor dem Absturz warst du in einer engen Zelle gefangen. Und jetzt bist du wieder in einem Gefängnis."
 ; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
-Message4="Aber Du bist zuversichtlich, dass jemand Dein kleines Schiff finden wird... irgendwann."
+Message4="Doch du bist zuversichtlich, dass jemand dein kleines Schiff finden wird... irgendwann."
 ; EN: Message5="Until then, you drift and hope."
-Message5="Bis dahin driftest Du und hoffst."
+Message5="Bis dahin schwebst du hoffnungsvoll durchs All."
 ; EN: Message6="To Be Continued..."
 Message6="Fortsetzung folgt..."
 ; EN: Message7="Press fire to restart"
@@ -387,13 +363,13 @@ FemBlobKillMessage="wurde von einem Blob zersetzt"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="Die %w von %k hat %o in Stücke zerfetzt."
+DeathMessage="Die %w von %k hat %o in Stücke gerissen."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Flak erhalten"
 ; EN: ItemName="Flak Cannon"
 ItemName="Flak"
-FemDeathMessage="Die %w von %k hat %o in Stücke zerfetzt."
-FemKillMessage="Die %w von %k hat %o in Stücke zerfetzt."
+FemDeathMessage="Die %w von %k hat %o in Stücke gerissen."
+FemKillMessage="Die %w von %k hat %o in Stücke gerissen."
 
 [Rifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -511,15 +487,15 @@ DeathMessage="Eine von %ks %w-Raketen hat %o erreicht."
 FemDeathMessage="Eine von %ks %w-Raketen hat %o erreicht."
 FemKillMessage="Eine von %ks %w-Raketen hat %o erreicht."
 ; EN: PickupMessage="You got the Peacemaker"
-PickupMessage="Friedensstifter erhalten"
+PickupMessage="Peacemaker erhalten"
 ; EN: ItemName="Peacemaker"
-ItemName="Friedensstifter"
+ItemName="Peacemaker"
 
 [PeaceAmmo]
 ; EN: PickupMessage="You got ammo for the Peacemaker"
-PickupMessage="Du hast Munition für den Friedensstifter"
+PickupMessage="Munition für den Peacemaker erhalten"
 ; EN: ItemName="Peacemaker Ammo"
-ItemName="Friedensstiftermunition"
+ItemName="Peacemaker-Munition"
 
 [PeaceAmmo]
 ; EN: PickupMessage="You got ammo for the Peacemaker"
