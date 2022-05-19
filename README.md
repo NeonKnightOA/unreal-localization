@@ -1,7 +1,9 @@
-# Neon_Knight's OldUnreal Localization Project Repository
+# OldUnreal Localization Project Repository
 
 ## About
-This repository holds text localizations for _Unreal_ (for the OldUnreal patch for ver. 227), _Unreal Tournament_ (for the OldUnreal patch ver. 469) and _Unreal Tournament 2004_ (for the 3369 patch with both Bonus Packs as well as the XP Bonus Maps). Currently the localization project manages 15 languages: English (.int), German (.det), French (.frt), Spanish (.est), Italian (.itt), Russian (.rut), Polish (.plt), Portuguese (.ptt), Hungarian (.hut), Czech (.czt), Swedish (.set), Catalan (.ctt), Dutch (.nlt), Norwegian (.not) and Japanese (.jpt). **NOT ALL LANGUAGES ARE COMPLETE**, currently that honor befells to English (obviously), Spanish and Italian. The rest of the languages, on the other hand, vary, from requiring a lot of work or be created from scratch, to just requiring the new strings and UT strings to be translated. This is a long-time project, so expect incompletions. Help is welcome in any regard.
+This repository holds text localizations for _Unreal_ (for the OldUnreal patch for ver. 227), _Unreal Tournament_ (for the OldUnreal patch ver. 469) and _Unreal Tournament 2004_ (for the 3369 patch with both Bonus Packs as well as the XP Bonus Maps). Currently the localization project manages 15 languages: English (.int), German (.det), French (.frt), Spanish (.est), Italian (.itt), Russian (.rut), Polish (.plt), Portuguese (.ptt), Hungarian (.hut), Czech (.czt), Swedish (.set), Catalan (.ctt), Dutch (.nlt), Norwegian (.not) and Japanese (.jpt).
+
+**NOT ALL LANGUAGES ARE COMPLETE**, currently that honor befells to English (obviously), German, French, Spanish, Italian, Russian, Polish (Unreal only), Portuguese (Unreal only), Catalan and Dutch. The rest of the languages, on the other hand, vary, from requiring a lot of work or be created from scratch, to just requiring the new strings and UT strings to be translated. This is a long-time project, so expect incompletions. Help is welcome in any regard.
 
 ## Cool! So, how do I help?
 
@@ -29,7 +31,7 @@ Each language has a portal which comprises the general guidelines. All languages
 * **Smirftsch:** German, additional contributions.
 * **eGo:** German, additional contributions.
 * **Ividyon:** German, additional contributions.
-* **Sly:** German, additional contributions.
+* **Sly.:** German, additional contributions.
 * **Hellkeeper:** French, fixes and maintenance.
 * **Rackover/Louvenarde:** French, fixes and maintenance.
 * **rarsonic:** Spanish, additional contributions.
