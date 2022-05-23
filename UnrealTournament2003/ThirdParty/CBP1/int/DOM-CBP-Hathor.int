@@ -1,0 +1,264 @@
+[Action_MOVETOPOINT11]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT3]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT4]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT7]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT8]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT9]
+ActionString="Move to point"
+
+[Action_WAITFORTIMER11]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER3]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER4]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER7]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER8]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER9]
+ActionString="Wait for timer"
+
+[AdrenalinePickup1]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup10]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup11]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup12]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup13]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup14]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup2]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup3]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup4]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup5]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup6]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup7]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup8]
+PickupMessage="Adrenaline "
+
+[AdrenalinePickup9]
+PickupMessage="Adrenaline "
+
+[AssaultAmmoPickup0]
+PickupMessage="You got a box of grenades."
+
+[AssaultAmmoPickup1]
+PickupMessage="You got a box of grenades."
+
+[AssaultAmmoPickup2]
+PickupMessage="You got a box of grenades."
+
+[AssaultAmmoPickup3]
+PickupMessage="You got a box of grenades."
+
+[BioAmmoPickup0]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BioAmmoPickup1]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BioAmmoPickup2]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BioAmmoPickup3]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BioAmmoPickup4]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BlockingVolume1]
+LocationName="unspecified"
+
+[BlockingVolume2]
+LocationName="unspecified"
+
+[BlockingVolume3]
+LocationName="unspecified"
+
+[BlockingVolume4]
+LocationName="unspecified"
+
+[DefaultPhysicsVolume9]
+LocationName="unspecified"
+
+[FlakAmmoPickup0]
+PickupMessage="You picked up 10 Flak Shells."
+
+[FlakAmmoPickup3]
+PickupMessage="You picked up 10 Flak Shells."
+
+[FlakAmmoPickup4]
+PickupMessage="You picked up 10 Flak Shells."
+
+[LevelInfo0]
+Title="Hathor"
+
+[LevelSummary]
+Title="Hathor"
+
+[LinkAmmoPickup0]
+PickupMessage="You picked up link charges."
+
+[LinkAmmoPickup1]
+PickupMessage="You picked up link charges."
+
+[LinkAmmoPickup2]
+PickupMessage="You picked up link charges."
+
+[LinkAmmoPickup3]
+PickupMessage="You picked up link charges."
+
+[LinkAmmoPickup4]
+PickupMessage="You picked up link charges."
+
+[PhysicsVolume0]
+LocationName="DOM Point A"
+
+[PhysicsVolume1]
+LocationName="DOM Point B"
+
+[PhysicsVolume2]
+LocationName="Rocket Launcher"
+
+[PhysicsVolume3]
+LocationName="Flak Cannon"
+
+[RocketAmmoPickup0]
+PickupMessage="You picked up a rocket pack."
+
+[RocketAmmoPickup1]
+PickupMessage="You picked up a rocket pack."
+
+[RocketAmmoPickup2]
+PickupMessage="You picked up a rocket pack."
+
+[ZoneInfo0]
+LocationName="Flak Cannon"
+
+[ZoneInfo1]
+LocationName="The Heavens"
+
+[ZoneInfo10]
+LocationName="Point A Upper Passage"
+
+[ZoneInfo11]
+LocationName="DOM Point A Lower Passage"
+
+[ZoneInfo12]
+LocationName="Point A Upper Passage"
+
+[ZoneInfo13]
+LocationName="DOM Point A Lower Passage"
+
+[ZoneInfo14]
+LocationName="DOM Point A Lower Passage"
+
+[ZoneInfo15]
+LocationName="DOM Point A Lower Passage"
+
+[ZoneInfo16]
+LocationName="Point B Upper Passage"
+
+[ZoneInfo17]
+LocationName="DOM Point A Lower Passage"
+
+[ZoneInfo18]
+LocationName="DOM Point B Lower Passage"
+
+[ZoneInfo19]
+LocationName="DOM Point B Lower Passage"
+
+[ZoneInfo2]
+LocationName="DOM Point B Lower Passage"
+
+[ZoneInfo20]
+LocationName="DOM Point B Lower Passage"
+
+[ZoneInfo21]
+LocationName="DOM Point B Lower Passage"
+
+[ZoneInfo22]
+LocationName="Rocket Launcher"
+
+[ZoneInfo23]
+LocationName="Point A Upper Passage"
+
+[ZoneInfo24]
+LocationName="Point A Upper Passage"
+
+[ZoneInfo25]
+LocationName="Point B Upper Passage"
+
+[ZoneInfo26]
+LocationName="Point B Upper Passage"
+
+[ZoneInfo3]
+LocationName="DOM Point B Lower Passage"
+
+[ZoneInfo4]
+LocationName="Lower Chamber"
+
+[ZoneInfo5]
+LocationName="DOM Point A Lower Passage"
+
+[ZoneInfo6]
+LocationName="Central Chamber"
+
+[ZoneInfo7]
+LocationName="Rocket Launcher"
+
+[ZoneInfo8]
+LocationName="Flak Cannon"
+
+[ZoneInfo9]
+LocationName="Point B Upper Passage"
+
+[xDomPointA0]
+PointName="A"
+ObjectiveName="DPA"
+LocationPrefix="Near"
+ObjectiveStringSuffix=" Team Base"
+
+[xDomPointB1]
+PointName="B"
+ObjectiveName="DPB"
+LocationPrefix="Near"
+ObjectiveStringSuffix=" Team Base"
+

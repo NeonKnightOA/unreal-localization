@@ -1,0 +1,316 @@
+[Action_MOVETOPOINT1]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT10]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT11]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT15]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT3]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT5]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT6]
+ActionString="Move to point"
+
+[Action_MOVETOPOINT7]
+ActionString="Move to point"
+
+[Action_WAITFORTIMER1]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER10]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER11]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER15]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER3]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER5]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER6]
+ActionString="Wait for timer"
+
+[Action_WAITFORTIMER7]
+ActionString="Wait for timer"
+
+[BioAmmoPickup0]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BioAmmoPickup1]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BlockingVolume0]
+LocationName="unspecified"
+
+[BlockingVolume1]
+LocationName="unspecified"
+
+[BlockingVolume10]
+LocationName="unspecified"
+
+[BlockingVolume13]
+LocationName="unspecified"
+
+[BlockingVolume14]
+LocationName="unspecified"
+
+[BlockingVolume15]
+LocationName="unspecified"
+
+[BlockingVolume16]
+LocationName="unspecified"
+
+[BlockingVolume17]
+LocationName="unspecified"
+
+[BlockingVolume2]
+LocationName="unspecified"
+
+[BlockingVolume3]
+LocationName="unspecified"
+
+[BlockingVolume4]
+LocationName="unspecified"
+
+[BlockingVolume45]
+LocationName="unspecified"
+
+[BlockingVolume46]
+LocationName="unspecified"
+
+[BlockingVolume47]
+LocationName="unspecified"
+
+[BlockingVolume48]
+LocationName="unspecified"
+
+[BlockingVolume49]
+LocationName="unspecified"
+
+[BlockingVolume5]
+LocationName="unspecified"
+
+[BlockingVolume50]
+LocationName="unspecified"
+
+[BlockingVolume51]
+LocationName="unspecified"
+
+[BlockingVolume52]
+LocationName="unspecified"
+
+[BlockingVolume53]
+LocationName="unspecified"
+
+[BlockingVolume54]
+LocationName="unspecified"
+
+[BlockingVolume55]
+LocationName="unspecified"
+
+[BlockingVolume56]
+LocationName="unspecified"
+
+[BlockingVolume57]
+LocationName="unspecified"
+
+[BlockingVolume58]
+LocationName="unspecified"
+
+[BlockingVolume59]
+LocationName="unspecified"
+
+[BlockingVolume6]
+LocationName="unspecified"
+
+[BlockingVolume60]
+LocationName="unspecified"
+
+[BlockingVolume61]
+LocationName="unspecified"
+
+[BlockingVolume62]
+LocationName="unspecified"
+
+[BlockingVolume63]
+LocationName="unspecified"
+
+[BlockingVolume64]
+LocationName="unspecified"
+
+[BlockingVolume65]
+LocationName="unspecified"
+
+[BlockingVolume66]
+LocationName="unspecified"
+
+[BlockingVolume7]
+LocationName="unspecified"
+
+[fell_nogibs]
+DeathString="%o was spiked."
+FemaleSuicide="%o was spiked."
+MaleSuicide="%o was spiked."
+
+[fell_nogibs2]
+DeathString="%o fell off."
+FemaleSuicide="%o fell off."
+MaleSuicide="%o fell off."
+
+[DefaultPhysicsVolume14]
+LocationName="unspecified"
+
+[FlakAmmoPickup0]
+PickupMessage="You picked up 10 Flak Shells."
+
+[FlakAmmoPickup1]
+PickupMessage="You picked up 10 Flak Shells."
+
+[LevelInfo0]
+Title="Concentrate"
+
+[LevelSummary]
+Title="Concentrate"
+
+[LinkAmmoPickup1]
+PickupMessage="You picked up link charges."
+
+[LinkAmmoPickup2]
+PickupMessage="You picked up link charges."
+
+[MiniHealthPack0]
+PickupMessage="You picked up a Health Vial +"
+
+[MiniHealthPack1]
+PickupMessage="You picked up a Health Vial +"
+
+[MiniHealthPack2]
+PickupMessage="You picked up a Health Vial +"
+
+[MiniHealthPack3]
+PickupMessage="You picked up a Health Vial +"
+
+[MiniHealthPack4]
+PickupMessage="You picked up a Health Vial +"
+
+[MiniHealthPack5]
+PickupMessage="You picked up a Health Vial +"
+
+[PhysicsVolume1]
+LocationName="Red Spike Pit"
+
+[PhysicsVolume2]
+LocationName="Blue Spike Pit"
+
+[ShockAmmoPickup0]
+PickupMessage="You picked up a Shock Core."
+
+[ShockAmmoPickup1]
+PickupMessage="You picked up a Shock Core."
+
+[SniperAmmoPickup0]
+PickupMessage="You picked up sniper ammo."
+
+[SniperAmmoPickup1]
+PickupMessage="You picked up sniper ammo."
+
+[Volume0]
+LocationName="Blue Flag Room"
+
+[Volume1]
+LocationName="Blue Flag Pit"
+
+[Volume10]
+LocationName="Red Upper Area"
+
+[Volume2]
+LocationName="Blue Spawn Area"
+
+[Volume3]
+LocationName="Central Area"
+
+[Volume4]
+LocationName="Blue Upper Area"
+
+[Volume5]
+LocationName="Blue Upper Area"
+
+[Volume6]
+LocationName="Red Flag Room"
+
+[Volume7]
+LocationName="Red Flag Pit"
+
+[Volume8]
+LocationName="Red Spawn Area"
+
+[Volume9]
+LocationName="Red Upper Area"
+
+[WaterVolume0]
+LocationName="under water"
+
+[WaterVolume1]
+LocationName="under water"
+
+[WaterVolume2]
+LocationName="under water"
+
+[ZoneInfo0]
+LocationName="Somewhere Else"
+
+[ZoneInfo1]
+LocationName="Red Upper Corridor"
+
+[ZoneInfo2]
+LocationName="Red Lower Corridor"
+
+[ZoneInfo3]
+LocationName="Blue Lower Corridor"
+
+[ZoneInfo4]
+LocationName="Blue Upper Corridor"
+
+[xBlueFlagBase0]
+ObjectiveName="Blue Flag Base"
+DestructionMessage="Objective Disabled!"
+LocationPrefix="Near"
+ObjectiveStringSuffix=" Team Base"
+
+[xFallingVolume1]
+LocationName="in air"
+
+[xFallingVolume2]
+LocationName="in air"
+
+[xFallingVolume4]
+LocationName="in air"
+
+[xFallingVolume5]
+LocationName="in air"
+
+[xFallingVolume6]
+LocationName="in air"
+
+[xFallingVolume7]
+LocationName="in air"
+
+[xRedFlagBase1]
+ObjectiveName="Red Flag Base"
+DestructionMessage="Objective Disabled!"
+LocationPrefix="Near"
+ObjectiveStringSuffix=" Team Base"
+
