@@ -1,51 +1,51 @@
 ﻿[LevelInfo0]
 ; EN: Title="High Speed"
-Title="Alta Velocidade"
+Title="Velocidade Máxima"
 IdealPlayerCount="4-10"
 ; EN: LevelEnterText="Control the train!! NO MERCY!!"
 LevelEnterText="Controle o trem !! NO MERCY !!"
 
 [ZoneInfo8]
 ; EN: ZoneName="3rd. Car"
-ZoneName="3º vagão"
+ZoneName="3º Vagão"
 
 [ZoneInfo10]
 ; EN: ZoneName="1st. Car"
-ZoneName="1ª vagão"
+ZoneName="1º Vagão"
 
 [ZoneInfo9]
 ; EN: ZoneName="2nd. Car"
-ZoneName="2ª vagão"
+ZoneName="2º Vagão"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside 1st Car"
-ZoneName="Fora do primeiro vagão"
+ZoneName="Fora do 1º Vagão"
 
 [SlimeZone0]
 ; EN: ZoneName="Acid Tank"
-ZoneName="Tanque de ácido"
+ZoneName="Tanque de Ácido"
 
 [SpecialEvent0]
 ; EN: DamageString="%ls fell in between the cars. That hurts..."
-DamageString="%ls caiu entre os carros. Isso machuca..."
+DamageString="%ls caiu entre os vagões. Isso devia doer..."
 
 [FortStandard0]
 ; EN: FortName="The Control Cabin"
-FortName="A cabine de controle"
+FortName="A Cabine de Controle"
 ; EN: DestroyedMessage="has been taken over!!"
-DestroyedMessage="foi assumido !!"
+DestroyedMessage="foi tomada !!"
 
 [FortStandard1]
 ; EN: FortName="The CAR 3"
-FortName="O vagão 3"
+FortName="O VAGÃO 3"
 ; EN: DestroyedMessage="is about to be breached!!"
-DestroyedMessage="está prestes a ser violado !!"
+DestroyedMessage="está prestes a ser cruzado !!"
 
 [FortStandard3]
 ; EN: FortName="The CAR 1"
-FortName="O vagão 1"
+FortName="O VAGÃO 1"
 ; EN: DestroyedMessage="is about to breached!!"
-DestroyedMessage="está prestes a ser violado !!"
+DestroyedMessage="está prestes a ser cruzado !!"
 
 [SpecialEvent1]
 ; EN: DamageString="%ls ate an helicopter blade..."
@@ -53,37 +53,39 @@ DamageString="%ls comeu uma lâmina de helicóptero..."
 
 [FortStandard4]
 ; EN: FortName="The Control Cabin Access Switch"
-FortName="O interruptor de acesso à cabine de controle"
+FortName="O Interruptor de Acesso à Cabine de Controle"
 ; EN: DestroyedMessage="has been activated!!"
-DestroyedMessage="Foi ativado!!"
+DestroyedMessage="foi ativado!!"
 
 [SpecialEvent3]
 ; EN: Message="The Attackers Are On The Roof!!!"
-Message="Os invasores estão no telhado !!!"
+Message="Os atacantes estão no telhado!!!"
 
 [locationid5]
-LocationName="Pillar Flatbed"
+; EN: LocationName="Pillar Flatbed"
+LocationName="Plataforma de Pilares"
 
 [locationid6]
-LocationName="Tank Flatbed"
+; EN: LocationName="Tank Flatbed"
+LocationName="Plataforma do Tanque"
 
 [locationid7]
 ; EN: LocationName="Empty Flatbed"
-LocationName="Mesa vazia"
+LocationName="Plataforma Vazia"
 
 [locationid4]
 ; EN: LocationName="Acid Tank"
-LocationName="Tanque de ácido"
+LocationName="Tanque de Ácido"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
-ObjDesc[0]="Trabalhe seu caminho até a frente do trem. No carro um, você encontrará um interruptor no nível superior que abre a porta para a cabine de controle abaixo. Ative esta opção."
+ObjDesc[0]="Faça o seu caminho para o primeiro vagão. Nele você encontrará um interruptor no nível superior que abrirá a porta da cabine de controle. Ligue este interruptor."
 ; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
-ObjDesc[1]="Desça para a sala de controle. Lá você encontrará uma alavanca que cancelará os controles do trem."
+ObjDesc[1]="Desça até a cabine de controle. Lá você encontrará uma alavanca que substituirá os controles do trem."
 
 [LevelSummary]
 ; EN: Title="High Speed"
-Title="Alta Velocidade"
+Title="Velocidade Máxima"
 IdealPlayerCount="4-10"
 ; EN: LevelEnterText="Control the train!! NO MERCY!!"
 LevelEnterText="Controle o trem !! NO MERCY !!"
@@ -94,6 +96,6 @@ Message="O TREM FOI CAPTURADO !!"
 
 [FortStandard2]
 ; EN: FortName="The CAR 2"
-FortName="O CAR 2"
+FortName="O VAGÃO 2"
 ; EN: DestroyedMessage="is about to be breached!!"
-DestroyedMessage="está prestes a ser violado !!"
+DestroyedMessage="está prestes a ser cruzado !!"
