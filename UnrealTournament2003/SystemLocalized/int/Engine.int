@@ -1,0 +1,188 @@
+[AccessControl]
+IPBanned="Your IP address has been banned on this server."
+WrongPassword="The password you entered is incorrect."
+NeedPassword="You need to enter a password to join this game."
+SessionBanned="Your IP address has been banned from the current game session."
+KickedMsg="You have been forcably removed from the game."
+
+[Ammo]
+PickupMessage="You picked up some ammo."
+
+[Crushed]
+DeathString="%o was crushed by %k."
+FemaleSuicide="%o was crushed."
+MaleSuicide="%o was crushed."
+
+[DamTypeTelefragged]
+DeathString="%o was telefragged by %k"
+FemaleSuicide="%o was telefragged by %k"
+MaleSuicide="%o was telefragged by %k"
+
+[DamageType]
+DeathString="%o was killed by %k."
+FemaleSuicide="%o killed herself."
+MaleSuicide="%o killed himself."
+
+[FailedConnect]
+FailMessage[0]="FAILED TO JOIN GAME.  NEED PASSWORD."
+FailMessage[1]="FAILED TO JOIN GAME.  WRONG PASSWORD."
+FailMessage[2]="FAILED TO JOIN GAME.  GAME HAS STARTED."
+FailMessage[3]="FAILED TO JOIN GAME."
+
+[FellLava]
+DeathString="%o crashed and burnt"
+FemaleSuicide="%o crashed and burnt"
+MaleSuicide="%o crashed and burnt"
+
+[GameInfo]
+bAlternateMode=False
+DefaultPlayerName="Player"
+GameName="Game"
+GIPropsDisplayText[0]="Bots Skill"
+GIPropsDisplayText[1]="Weapons Stay"
+GIPropsDisplayText[2]="Use Map Rotation"
+GIPropsDisplayText[3]="Gore Level"
+GIPropsDisplayText[4]="Game Speed"
+GIPropsDisplayText[5]="Max Spectators"
+GIPropsDisplayText[6]="Max Players"
+GIPropsDisplayText[7]="Goal Score"
+GIPropsDisplayText[8]="Max Lives"
+GIPropsDisplayText[9]="Time Limit"
+GIPropsDisplayText[10]="World Stats Logging"
+GIPropsDisplayText[11]="Allow Weapon Throwing"
+GIPropsDisplayText[12]="Allow Behind View"
+GIPropsDisplayText[13]="Allow Admin Pausing"
+GIPropsExtras[0]="0;Novice;1;Average;2;Experienced;3;Skilled;4;Adept;5;Masterful;6;Inhuman;7;Godlike"
+GIPropsExtras[1]="0;Full Gore;1;Reduced Gore"
+
+[GameMessage]
+SwitchLevelMessage="Switching Levels"
+LeftMessage=" left the game."
+FailedTeamMessage="Could not find team for player"
+FailedPlaceMessage="Could not find a starting spot"
+FailedSpawnMessage="Could not spawn player"
+EnteredMessage=" entered the game."
+MaxedOutMessage="Server is already at capacity."
+OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
+GlobalNameChange="changed name to"
+NewTeamMessage="is now on"
+NoNameChange="Name is already in use."
+VoteStarted="started a vote."
+VotePassed="Vote passed."
+MustHaveStats="Must have stats enabled to join this server."
+NewPlayerMessage="A new player entered the game."
+
+[GameProfile]
+PositionName[0]="AUTO-ASSIGN"
+PositionName[1]="DEFENSE"
+PositionName[2]="OFFENSE"
+PositionName[3]="ROAM"
+PositionName[4]="SUPPORT"
+
+[GameReplicationInfo]
+GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[1]="Short Server Name"
+GRIPropsDisplayText[2]="Admin Name"
+GRIPropsDisplayText[3]="Admin E-Mail"
+GRIPropsDisplayText[4]="Message"
+GRIPropsDisplayText[5]="of"
+GRIPropsDisplayText[6]="the"
+GRIPropsDisplayText[7]="day"
+
+[Gibbed]
+DeathString="%o exploded in a shower of body parts"
+FemaleSuicide="%o exploded in a shower of body parts"
+MaleSuicide="%o exploded in a shower of body parts"
+
+[HUD]
+ProgressFontName="UT2003Fonts.FontEurostile12"
+FontArrayNames[0]="Engine.DefaultFont"
+FontArrayNames[1]="Engine.DefaultFont"
+FontArrayNames[2]="Engine.DefaultFont"
+FontArrayNames[3]="Engine.DefaultFont"
+FontArrayNames[4]="Engine.DefaultFont"
+FontArrayNames[5]="Engine.DefaultFont"
+FontArrayNames[6]="Engine.DefaultFont"
+FontArrayNames[7]="Engine.DefaultFont"
+FontArrayNames[8]="Engine.DefaultFont"
+
+[LevelInfo]
+Title="Untitled"
+
+[MatSubAction]
+Desc="N/A"
+
+[Mutator]
+FriendlyName="Mutator"
+Description="Description"
+
+[Pickup]
+PickupMessage="Snagged an item."
+
+[PlayerController]
+QuickSaveString="Quick Saving"
+NoPauseMessage="Game is not pauseable"
+ViewingFrom="Now viewing from"
+OwnCamera="Now viewing from own camera"
+
+[PlayerReplicationInfo]
+StringDead="Dead"
+StringSpectating="Spectating"
+StringUnknown="Unknown"
+
+[SubActionCameraEffect]
+Desc="Camera effect"
+
+[SubActionCameraShake]
+Desc="Shake"
+
+[SubActionFOV]
+Desc="FOV"
+
+[SubActionFade]
+Desc="Fade"
+
+[SubActionGameSpeed]
+Desc="Game Speed"
+
+[SubActionOrientation]
+Desc="Orientation"
+
+[SubActionSceneSpeed]
+Desc="Scene Speed"
+
+[SubActionTrigger]
+Desc="Trigger"
+
+[Suicided]
+DeathString="%o had an aneurysm."
+FemaleSuicide="%o had an aneurysm."
+MaleSuicide="%o had an aneurysm."
+
+[TeamInfo]
+TeamName="Team"
+ColorNames[0]="Red"
+ColorNames[1]="Blue"
+ColorNames[2]="Green"
+ColorNames[3]="Gold"
+
+[Volume]
+LocationName="unspecified"
+
+[Weapon]
+MessageNoAmmo=" has no ammo"
+
+[WeaponPickup]
+PickupMessage="You got a weapon"
+
+[XBoxPlayerInput]
+LookPresets[0].PresetName="Linear"
+LookPresets[1].PresetName="Exponential"
+LookPresets[2].PresetName="Hybrid"
+LookPresets[3].PresetName="Custom"
+
+[fell]
+DeathString="%o left a small crater"
+FemaleSuicide="%o left a small crater"
+MaleSuicide="%o left a small crater"
+

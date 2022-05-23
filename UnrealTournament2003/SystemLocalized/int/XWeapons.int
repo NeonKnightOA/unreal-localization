@@ -1,0 +1,236 @@
+[AssaultAmmoPickup]
+PickupMessage="You got a box of grenades."
+
+[AssaultRifle]
+ItemName="Assault Rifle"
+
+[AssaultRiflePickup]
+PickupMessage="You got the Assault Rifle."
+
+[BallAmmo]
+ItemName="BallAmmo"
+
+[BallLauncher]
+ItemName="Ball Launcher"
+
+[BioAmmo]
+ItemName="Bio-Rifle Goop"
+
+[BioAmmoPickup]
+PickupMessage="You picked up some Bio-Rifle ammo"
+
+[BioRifle]
+ItemName="Bio-Rifle"
+
+[BioRiflePickup]
+PickupMessage="You got the Bio-Rifle"
+
+[DamTypeAssaultBullet]
+DeathString="%o was ventilated by %k's assault rifle."
+FemaleSuicide="%o assaulted herself."
+MaleSuicide="%o assaulted himself."
+
+[DamTypeAssaultGrenade]
+DeathString="%o tried to juggle %k's grenade."
+FemaleSuicide="%o jumped on her own grenade."
+MaleSuicide="%o jumped on his own grenade."
+
+[DamTypeBioGlob]
+DeathString="%o was slimed by %k's bio-rifle."
+FemaleSuicide="%o was slimed by her own goop."
+MaleSuicide="%o was slimed by his own goop."
+
+[DamTypeFlakChunk]
+DeathString="%o was shredded by %k's flak cannon."
+FemaleSuicide="%o perforated by her own flak."
+MaleSuicide="%o was perforated by his own flak."
+
+[DamTypeFlakShell]
+DeathString="%o was ripped to shreds by %k's shrapnel."
+FemaleSuicide="%o blew herself up with a flak shell."
+MaleSuicide="%o blew himself up with a flak shell."
+
+[DamTypeIonBlast]
+DeathString="%o was OBLITERATED"
+FemaleSuicide="%o was OBLITERATED"
+MaleSuicide="%o was OBLITERATED"
+
+[DamTypeLinkPlasma]
+DeathString="%o was served an extra helping of %k's plasma."
+FemaleSuicide="%o fried herself with her own plasma blast."
+MaleSuicide="%o fried himself with his own plasma blast."
+
+[DamTypeLinkShaft]
+DeathString="%o was carved up by %k's green shaft."
+FemaleSuicide="%o shafted herself."
+MaleSuicide="%o shafted himself."
+
+[DamTypeMinigunBullet]
+DeathString="%o was mowed down by %k's minigun."
+FemaleSuicide="%o turned the minigun on herself."
+MaleSuicide="%o turned the minigun on himself."
+
+[DamTypeRedeemer]
+DeathString="%o was PULVERIZED!"
+FemaleSuicide="%o was PULVERIZED!"
+MaleSuicide="%o was PULVERIZED!"
+
+[DamTypeRocket]
+DeathString="%o rode %k's rocket into oblivion."
+FemaleSuicide="%o fired her rocket prematurely."
+MaleSuicide="%o fired his rocket prematurely."
+
+[DamTypeShieldImpact]
+DeathString="%o was pulverized by %k's shield cannon."
+FemaleSuicide="%o threw her weight around once too often."
+MaleSuicide="%o threw his weight around once too often."
+
+[DamTypeShockBall]
+DeathString="%o was wasted by %k's shock core."
+FemaleSuicide="%o snuffed herself with the shock core."
+MaleSuicide="%o snuffed himself with the shock core."
+
+[DamTypeShockBeam]
+DeathString="%o was fatally enlightened by %k's shock beam."
+FemaleSuicide="%o somehow managed to shoot herself with the shock rifle."
+MaleSuicide="%o somehow managed to shoot himself with the shock rifle."
+
+[DamTypeShockCombo]
+DeathString="%o couldn't avoid the blast from %k's shock combo."
+FemaleSuicide="%o made a tactical error with her shock combo."
+MaleSuicide="%o made a tactical error with his shock combo."
+
+[DamTypeSniperHeadShot]
+DeathString="%o's cranium was made extra crispy by %k's lightning gun."
+FemaleSuicide="%o violated the laws of space-time and sniped herself."
+MaleSuicide="%o violated the laws of space-time and sniped himself."
+
+[DamTypeSniperShot]
+DeathString="%o rode %k's lightning."
+FemaleSuicide="%o had an electrifying experience."
+MaleSuicide="%o had an electrifying experience."
+
+[DamTypeTeleFrag]
+DeathString="%o had their atoms scattered by %k."
+FemaleSuicide="%o tried to go where no woman has gone before."
+MaleSuicide="%o tried to go where no man has gone before."
+
+[FlakAmmo]
+ItemName="Flak Shells"
+
+[FlakAmmoPickup]
+PickupMessage="You picked up 10 Flak Shells."
+
+[FlakCannon]
+ItemName="Flak Cannon"
+
+[FlakCannonPickup]
+PickupMessage="You got the Flak Cannon."
+
+[GrenadeAmmo]
+ItemName="Grenades"
+
+[LinkAmmo]
+ItemName="Link Ammo"
+
+[LinkAmmoPickup]
+PickupMessage="You picked up link charges."
+
+[LinkGun]
+ItemName="Link Gun"
+
+[LinkGunPickup]
+PickupMessage="You got the Link Gun."
+
+[Minigun]
+ItemName="Minigun"
+
+[MinigunAmmo]
+ItemName="Bullets"
+
+[MinigunAmmoPickup]
+PickupMessage="You picked up 50 bullets."
+
+[MinigunPickup]
+PickupMessage="You got the Minigun."
+
+[MutArena]
+FriendlyName="Arena"
+Description="Replace weapons and ammo in map."
+
+[MutNoSuperWeapon]
+FriendlyName="No SuperWeapons"
+Description="SuperWeapon pickups are removed from the map."
+
+[Painter]
+ItemName="Ion Painter"
+
+[PainterPickup]
+PickupMessage="You got the Ion Painter."
+
+[Redeemer]
+ItemName="Redeemer"
+
+[RedeemerAmmo]
+ItemName="Redeemer Ammo"
+
+[RedeemerPickup]
+PickupMessage="You got the Redeemer."
+
+[RocketAmmo]
+ItemName="Rockets"
+
+[RocketAmmoPickup]
+PickupMessage="You picked up a rocket pack."
+
+[RocketLauncher]
+ItemName="Rocket Launcher"
+
+[RocketLauncherPickup]
+PickupMessage="You got the Rocket Launcher."
+
+[ShieldAmmo]
+ItemName="Shield"
+
+[ShieldGun]
+ItemName="Shield Gun"
+
+[ShieldGunPickup]
+PickupMessage="You got the Shield Gun."
+
+[ShockAmmo]
+ItemName="Shock Core"
+
+[ShockAmmoPickup]
+PickupMessage="You picked up a Shock Core."
+
+[ShockRifle]
+ItemName="Shock Rifle"
+
+[ShockRiflePickup]
+PickupMessage="You got the Shock Rifle."
+
+[SniperAmmo]
+ItemName="Lightning Charges"
+
+[SniperAmmoPickup]
+PickupMessage="You picked up sniper ammo."
+
+[SniperRifle]
+ItemName="Lightning Gun"
+
+[SniperRiflePickup]
+PickupMessage="You got the Lightning Gun."
+
+[SuperShockRifle]
+ItemName="Super Shock Rifle"
+
+[SuperShockRiflePickup]
+PickupMessage="You got the Super Shock Rifle."
+
+[TransAmmo]
+ItemName="TransLauncher"
+
+[TransLauncher]
+ItemName="Translocator"
+

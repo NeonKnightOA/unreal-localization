@@ -1,0 +1,90 @@
+[DamTypeBelch]
+DeathString="%o was sauteed by a gasbag."
+FemaleSuicide="A Gasbag blew itself up."
+MaleSuicide="A Gasbag blew itself up."
+
+[DamTypeBruteRocket]
+DeathString="%o was blasted by a Brute Rocket."
+FemaleSuicide="A brute fired its rocket prematurely."
+MaleSuicide="A brute fired its rocket prematurely."
+
+[DamTypeKrallBolt]
+DeathString="%o was zapped by a krall."
+
+[DamTypeSkaarjProj]
+DeathString="%o was scorched by a skaarj."
+
+[DamTypeWarlordRocket]
+DeathString="%o was utterly destroyed by a Warlord."
+FemaleSuicide="A Warlord fired its rocket prematurely."
+MaleSuicide="A Warlord fired its rocket prematurely."
+
+[HUDInvasion]
+YouveLostTheMatch="The Invasion Continues"
+
+[Invasion]
+GameName="Invasion"
+
+[InvasionDeathMessage]
+SomeoneString="a monster"
+
+[InvasionMessage]
+OutMessage="is OUT!"
+
+[MeleeDamage]
+DeathString="%o was eviscerated."
+FemaleSuicide="%o was hacked."
+MaleSuicide="%o was hacked."
+
+[ScoreboardInvasion]
+TeamScoreString="Team Score"
+WaveString="Wave"
+
+[TAB_IAInvasion]
+IAInvasionWaveConfig.Caption="Configure Waves"
+IAInvasionInitialWave.Caption="Initial Wave"
+IAInvasionInitialWave.Hint="Choose the initial wave."
+
+[InvasionWaveConfig]
+WCFGClose.Caption="Close"
+WCFGReset.Caption="Reset"
+WCFGLabel1.Caption="Configure each wave..."
+WCFGLabel2.Caption="Difficulty"
+WCFGDifficulty.Hint="How hard should the monsters on this wave be."
+WCFGCreat01.Caption="Pupae"
+WCFGCreat01.Hint="The Skaarj Pupae."
+WCFGCreat02.Caption="Razor Fly"
+WCFGCreat02.Hint="The Razor Fly."
+WCFGCreat03.Caption="Manta"
+WCFGCreat03.Hint="The Manta."
+WCFGCreat04.Caption="Krall"
+WCFGCreat04.Hint="The Krall."
+WCFGCreat05.Caption="Elite Krall"
+WCFGCreat05.Hint="The Elite Krall."
+WCFGCreat06.Caption="Gasbag"
+WCFGCreat06.Hint="The Gasbag."
+WCFGCreat07.Caption="Brute"
+WCFGCreat07.Hint="The Brute."
+WCFGCreat08.Caption="Skaarj"
+WCFGCreat08.Hint="The Skaarj."
+WCFGCreat09.Caption="Behemoth"
+WCFGCreat09.Hint="The Behemoth."
+WCFGCreat10.Caption="Ice Skaarj"
+WCFGCreat10.Hint="Ice Skaarj."
+WCFGCreat11.Caption="Fire Skaarj"
+WCFGCreat11.Hint="The Fire Skaarj."
+WCFGCreat12.Caption="Warlord"
+WCFGCreat12.Hint="The Warlord."
+WCFGCreat13.Caption="Pupae"
+WCFGCreat13.Hint="The Skaarj Pupae."
+WCFGCreat14.Caption="Pupae"
+WCFGCreat14.Hint="The Skaarj Pupae."
+WCFGCreat15.Caption="Razor Fly"
+WCFGCreat15.Hint="The Razor Fly."
+WCFGCreat16.Caption="Razor Fly"
+WCFGCreat16.Hint="The Razor Fly."
+WCFGDuration.Caption="Duration"
+WCFGDuration.Hint="How long should each wave last."
+WCFGWaveNo.Caption="Wave No"
+WCFGWaveNo.Hint="Select which wave to adjust."
+

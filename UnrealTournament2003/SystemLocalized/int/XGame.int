@@ -1,0 +1,424 @@
+[AlienFemaleVoice]
+TauntString[21]="Blow me"
+TauntString[22]="Camper!"
+TauntString[23]="Douche bag!"
+TauntString[24]="Spammer!"
+TauntString[25]="Sucker"
+TauntString[26]="Talk to the hand"
+TauntString[27]="You dick!"
+
+[AlienMaleVoice]
+TauntString[21]="Blow me"
+TauntString[22]="Camper!"
+TauntString[23]="Douche bag!"
+TauntString[24]="Spammer!"
+TauntString[25]="Sucker"
+TauntString[26]="Talk to the hand"
+TauntString[27]="You dick!"
+
+[BossDM]
+GameName="Championship Match"
+
+[ChampRosterFinal]
+TeamName="Championship Match"
+
+[ChampRosterSemiFinal]
+TeamName="Championship Match"
+
+[ComboBerserk]
+ExecMessage="Berserk!"
+
+[ComboDefensive]
+ExecMessage="Booster!"
+
+[ComboInvis]
+ExecMessage="Invisible!"
+
+[ComboSpeed]
+ExecMessage="Speed!"
+
+[DMRosterBeatTeam]
+TeamName="Death Match"
+
+[DMRosterGael]
+TeamName="Death Match"
+
+[DMRosterLeviathan]
+TeamName="Death Match"
+
+[DMRosterOceanic]
+TeamName="Death Match"
+
+[DMRosterTrainingDay]
+TeamName="Death Match"
+
+[JuggFemaleVoice]
+TauntString[21]="Life Is Pain, Get Over It"
+TauntString[22]="Right Between The Eyes"
+TauntString[23]="Tag 'Em And Bag 'Em"
+TauntString[24]="That Was Nasty"
+TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[26]="You Suck"
+TauntString[27]="Lick me"
+OtherString[32]="I Can't Feel My Legs"
+OtherString[33]="Nice Shot"
+
+[JuggMaleVoice]
+TauntString[21]="Life Is Pain, Get Over It"
+TauntString[22]="Right Between The Eyes"
+TauntString[23]="Tag 'Em And Bag 'Em"
+TauntString[24]="That Was Nasty"
+TauntString[25]="You Bleed Better Than You Shoot"
+TauntString[26]="You Suck"
+OtherString[32]="I Can't Feel My Legs"
+OtherString[33]="Nice Shot"
+
+[LavaVolume]
+LocationName="in lava"
+
+[MercFemaleVoice]
+TauntString[21]="Duck Faster Next Time"
+TauntString[22]="Hold Still Dammit"
+TauntString[23]="Holy Shit"
+TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[25]="Kill Em All"
+TauntString[26]="Nailed Him"
+TauntString[27]="Not Even Close"
+TauntString[28]="Step Aside"
+TauntString[29]="Suck On This"
+TauntString[30]="Try Turning The Safety Off"
+TauntAbbrev[24]="Just Hold Still"
+OtherString[32]="Not Bad"
+
+[MercMaleVoice]
+TauntString[21]="Duck Faster Next Time"
+TauntString[22]="Hold Still Dammit"
+TauntString[23]="Holy Shit"
+TauntString[24]="Just Hold Still And I'll Make It Quick"
+TauntString[25]="Kill Em All"
+TauntString[26]="Nailed Him"
+TauntString[27]="Not Even Close"
+TauntString[28]="Step Aside"
+TauntString[29]="Suck On This"
+TauntString[30]="Try Turning The Safety Off"
+TauntString[31]="You Die Too Easily"
+TauntAbbrev[24]="Just Hold Still"
+OtherString[32]="Not Bad"
+
+[MultiKillMessage]
+KillString[0]="Double Kill!"
+KillString[1]="Multi Kill!"
+KillString[2]="Mega Kill!!"
+KillString[3]="ULTRA KILL!!"
+KillString[4]="M O N S T E R  K I L L !!!"
+KillString[5]="L U D I C R O U S !!!"
+KillString[6]="H O L Y  S H I T !"
+
+[MutHeliumCorpses]
+FriendlyName="Floaty Cadavers"
+Description="Your kills weigh lightly."
+
+[MutInstaGib]
+FriendlyName="InstaGib"
+Description="Instant-kill combat with modified Shock Rifles."
+
+[MutNoAdrenaline]
+FriendlyName="No Adrenaline"
+Description="Adrenaline pickups are removed from the map."
+
+[MutQuadJump]
+FriendlyName="QuadJump"
+Description="When double jump just isn't enough."
+
+[MutRegen]
+FriendlyName="Regeneration"
+Description="All players regenerate health."
+
+[MutSlomoDeath]
+FriendlyName="Slow Motion Corpses"
+Description="Death should not be rushed."
+
+[MutSpeciesStats]
+FriendlyName="Species Statistics"
+Description="Each race has unique combat statistics."
+
+[MutVampire]
+FriendlyName="Vampire"
+Description="Damaging your opponents will heal you."
+
+[MutZoomInstagib]
+FriendlyName="Zoom InstaGib"
+Description="Instant-kill combat with modified Shock Rifles with sniper zooms."
+
+[NightFemaleVoice]
+TauntString[21]="Fresh Meat"
+TauntString[22]="I Must Break You"
+TauntString[23]="I'll Swallow Your Soul"
+TauntString[24]="Lost Is Your Soul"
+TauntString[25]="Meet Your Executioner"
+TauntString[26]="My Name Is Death"
+TauntString[27]="No Tears Please.."
+TauntString[28]="Pain Will Purify You"
+
+[NightMaleVoice]
+TauntString[21]="Fresh Meat"
+TauntString[22]="I Must Break You"
+TauntString[23]="I'll Swallow Your Soul"
+TauntString[24]="Lost Is Your Soul"
+TauntString[25]="Meet Your Executioner"
+TauntString[26]="My Name Is Death"
+TauntString[27]="No Tears Please.."
+TauntString[28]="Pain Will Purify You"
+
+[RobotVoice]
+TauntString[21]="Die Human"
+TauntString[22]="Faster Stronger Better"
+TauntString[23]="Fear Me"
+TauntString[24]="Flesh Is A Design Flaw"
+TauntString[25]="My Victory Your Death"
+TauntString[26]="Not Unacceptable"
+TauntString[27]="Rogue Process Terminated"
+TauntString[28]="Witness My Perfection"
+TauntString[29]="You Die Too Easily"
+TauntString[30]="You Make Easy Prey"
+TauntString[31]="Your Programming Is Inferior"
+OtherString[32]="Rerouting Critical Systems"
+OtherString[33]="You Adapt Well"
+
+[SPECIES_Alien]
+SpeciesName="Alien"
+
+[SPECIES_Bot]
+SpeciesName="Robot"
+
+[SPECIES_Egypt]
+SpeciesName="Egyptian"
+
+[SPECIES_Jugg]
+SpeciesName="Juggernaut"
+
+[SPECIES_Merc]
+SpeciesName="Mercenary"
+
+[SPECIES_Night]
+SpeciesName="Night"
+
+[SpecialKillMessage]
+DecapitationString="Head Shot!!"
+
+[SpeciesType]
+SpeciesName="Human"
+
+[TeamApocalypse]
+TeamName="Apocalypse"
+
+[TeamBlackLegion]
+TeamName="BlackLegion"
+
+[TeamBloodFists]
+TeamName="BloodFists"
+
+[TeamBoneCrushers]
+TeamName="BoneCrushers"
+
+[TeamColdSteel]
+TeamName="ColdSteel"
+
+[TeamCrusaders]
+TeamName="Crusaders"
+
+[TeamDragonBreath]
+TeamName="DragonBreath"
+
+[TeamFirestorm]
+TeamName="Firestorm"
+
+[TeamIronGuard]
+TeamName="IronGuard"
+
+[TeamNightstalkers]
+TeamName="Nightstalkers"
+
+[TeamPainMachine]
+TeamName="PainMachine"
+
+[TeamSunBlades]
+TeamName="SunBlades"
+
+[TeamSupernova]
+TeamName="Supernova"
+
+[TeamVenom]
+TeamName="Venom"
+
+[TeamWarCry]
+TeamName="WarCry"
+
+[xBlueFlagBase]
+ObjectiveName="Blue Flag Base"
+
+[xBombDelivery]
+ObjectiveStringSuffix=" Goal"
+
+[xBombHUDMessage]
+YouHaveFlagString="You have the ball, deliver it to enemy base!"
+EnemyHasFlagString="The enemy has the ball, recover it!"
+
+[xBombMessage]
+ReturnBlue="returns the ball!"
+ReturnRed="returns the ball!"
+ReturnedBlue="The ball was returned!"
+ReturnedRed="The ball was returned!"
+CaptureBlue="scored the goal!"
+CaptureRed="scored the goal!"
+DroppedBlue="dropped the ball!"
+DroppedRed="dropped the ball!"
+HasBlue="has the ball!"
+HasRed="has the ball!"
+
+[xBombSpawn]
+ObjectiveName="Bomb Spawn"
+
+[xBombingRun]
+GameName="Bombing Run"
+
+[xDeathMessage]
+KilledString="was killed by"
+SomeoneString="someone"
+
+[xDomMessage]
+YouControlBothPointsString="Your team controls both points!"
+EnemyControlsBothPointsString="The enemy controls both points!"
+
+[xDomPointA]
+PointName="A"
+ObjectiveName="DOM Point A"
+
+[xDomPointB]
+PointName="B"
+ObjectiveName="DOM Point B"
+
+[xDoubleDom]
+DDomPropsDisplayText[0]="Time To Score"
+DDomPropsDisplayText[1]="Time Disabled"
+GameName="Double Domination"
+
+[xFallingVolume]
+LocationName="in air"
+
+[xKillerMessagePlus]
+YouKilled="You killed"
+
+[xPawn]
+TauntAnimNames[0]="Point"
+TauntAnimNames[1]="Beckon"
+TauntAnimNames[2]="Halt"
+TauntAnimNames[3]="Cheer"
+TauntAnimNames[4]="Pelvic Thrust"
+TauntAnimNames[5]="Ass Smack"
+TauntAnimNames[6]="Throat Cut"
+TauntAnimNames[7]="Unique"
+
+[xRedFlagBase]
+ObjectiveName="Red Flag Base"
+
+[xUtil]
+NoPreference="No Weapon Preference"
+FavoriteWeapon="Favorite Weapon:"
+AgilityString="Agility:"
+TacticsString="Team Tactics:"
+AccuracyString="Accuracy:"
+AggressivenessString="Aggression:"
+
+[xVictimMessage]
+YouWereKilledBy="You were killed by"
+KilledByTrailer="!"
+
+[xVoicePack]
+AckString[0]="Affirmative"
+AckString[1]="Got It"
+AckString[2]="I'm On It"
+AckString[3]="Roger"
+FFireString[0]="I'm On Your Team!"
+FFireString[1]="I'm On Your Team, Idiot!"
+FFireString[2]="Same Team!"
+FFireAbbrev[1]="Your Team, Idiot!"
+TauntString[0]="And Stay Down"
+TauntString[1]="Anyone Else Want Some?"
+TauntString[2]="Boom!"
+TauntString[3]="BURN Baby"
+TauntString[4]="Die Bitch"
+TauntString[5]="Eat THAT"
+TauntString[6]="You Fight Like Nali"
+TauntString[7]="Is That Your Best?"
+TauntString[8]="Kiss My Ass"
+TauntString[9]="Loser"
+TauntString[10]="MY House"
+TauntString[11]="Next!"
+TauntString[12]="Oh YEAH!"
+TauntString[13]="Ownage"
+TauntString[14]="Seeya"
+TauntString[15]="That HAD To Hurt"
+TauntString[16]="Useless"
+TauntString[17]="You Play Like A Girl"
+TauntString[18]="You Be Dead"
+TauntString[19]="You Like That?"
+TauntString[20]="You Whore"
+OrderString[0]="Defend the base"
+OrderString[1]="Hold this position"
+OrderString[2]="Assault the base"
+OrderString[3]="Cover me"
+OrderString[4]="Search and destroy"
+OrderString[10]="Take their flag"
+OrderString[11]="Defend the flag"
+OrderAbbrev[0]="Defend"
+OrderAbbrev[2]="Attack"
+OtherString[0]="Base is undefended!"
+OtherString[1]="Somebody get our flag back!"
+OtherString[2]="I've got the flag"
+OtherString[3]="I've got your back"
+OtherString[4]="I'm hit!"
+OtherString[5]="Man down!"
+OtherString[6]="I'm all alone here %l"
+OtherString[7]="Negative!"
+OtherString[8]="I've got our flag"
+OtherString[9]="I'm in position %l"
+OtherString[10]="I'm going in!"
+OtherString[11]="Area is secure"
+OtherString[12]="Enemy flag carrier is %l"
+OtherString[13]="I need some backup %l"
+OtherString[14]="Incoming!"
+OtherString[15]="Enemy ball carrier is %l"
+OtherString[16]="Alpha secure!"
+OtherString[17]="Bravo secure!"
+OtherString[18]="Attack Alpha"
+OtherString[19]="Attack Bravo"
+OtherString[20]="The base is under attack %l"
+OtherString[21]="We're being overrun %l!"
+OtherString[22]="Under heavy attack %l"
+OtherString[23]="Defend point Alpha"
+OtherString[24]="Defend point Bravo"
+OtherString[25]="Get The Ball"
+OtherString[26]="I'm on defense"
+OtherString[27]="I'm on offense"
+OtherString[28]="Take point Alpha"
+OtherString[29]="Take point Bravo"
+OtherString[30]="Medic"
+OtherString[31]="Nice"
+OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[2]="Got the flag"
+OtherAbbrev[3]="Got your back"
+OtherAbbrev[6]="All alone!"
+OtherAbbrev[8]="Got our flag"
+OtherAbbrev[9]="In position"
+OtherAbbrev[12]="Enemy carrier here"
+OtherAbbrev[15]="Enemy carrier here"
+OtherAbbrev[20]="Base under attack"
+OtherAbbrev[21]="Being overrun"
+OtherAbbrev[22]="Under heavy attack"
+
+[UT2003LadderInfo]
+CHAMP1.MenuName="Tournament Semi-Final"
+CHAMP2.MenuName="Tournament Final"
+DM0.MenuName="Deathmatch Tutorial"
+

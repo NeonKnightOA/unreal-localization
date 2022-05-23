@@ -1,0 +1,163 @@
+[UnrealScriptedSequence]
+DefensePointDefaultAction1.ActionString="Move to point"
+DefensePointDefaultAction2.ActionString="Wait for timer"
+
+[CTFGame]
+GameName="Capture the Flag"
+
+[CTFHUDMessage]
+YouHaveFlagString="You have the flag, return to base!"
+EnemyHasFlagString="The enemy has your flag, recover it!"
+
+[CTFMessage]
+ReturnBlue="returned the blue flag!"
+ReturnRed="returned the red flag!"
+ReturnedBlue="The blue flag was returned!"
+ReturnedRed="The red flag was returned!"
+CaptureBlue="captured the blue flag!"
+CaptureRed="captured the red flag!"
+DroppedBlue="dropped the blue flag!"
+DroppedRed="dropped the red flag!"
+HasBlue="took the blue flag!"
+HasRed="took the red flag!"
+
+[CinematicHud]
+FontArrayNames[0]="UT2003Fonts.jFontLarge1024x768"
+FontArrayNames[1]="UT2003Fonts.jFontLarge800x600"
+FontArrayNames[2]="UT2003Fonts.jFontLarge"
+FontArrayNames[3]="UT2003Fonts.jFontMedium1024x768"
+FontArrayNames[4]="UT2003Fonts.jFontMedium800x600"
+FontArrayNames[5]="UT2003Fonts.jFontMedium"
+FontArrayNames[6]="UT2003Fonts.jFontSmall"
+FontArrayNames[7]="UT2003Fonts.jFontSmallText800x600"
+FontArrayNames[8]="UT2003Fonts.FontSmallText"
+
+[DMMutator]
+DMMutPropsDisplayText[0]="Mega Speed"
+DMMutPropsDisplayText[1]="Air Control"
+DMMutPropsDisplayText[2]="Bright Skins"
+
+[DMStatsScreen]
+StatsString="PERSONAL STATS FOR"
+AwardsString="AWARDS"
+FirstBloodString="First Blood!"
+FlakMonkey="Flak Monkey!"
+ComboWhore="Combo Whore!"
+HeadHunter="Head Hunter!"
+FlagTouches="Flag Touches"
+FlagReturns="Flag Returns"
+GoalsScored="Goals Scored:"
+Hattrick="Hat Trick!"
+KillString[0]="Double Kill!"
+KillString[1]="MultiKill!"
+KillString[2]="MegaKill!"
+KillString[3]="UltraKill!"
+KillString[4]="MONSTER KILL!"
+KillString[5]="LUDICROUS KILL!"
+KillString[6]="HOLY SHIT!"
+AdrenalineCombos="ADRENALINE COMBOS"
+ComboNames[0]="Speed"
+ComboNames[1]="Berserk"
+ComboNames[2]="Defensive"
+ComboNames[3]="Invisible"
+ComboNames[4]="Other"
+KillsByWeapon="WEAPON STATS"
+CombatResults="COMBAT RESULTS"
+Kills="Kills"
+Deaths="Deaths"
+Suicides="Suicides"
+NextStatsString="Press F8 for next player"
+WeaponString="Weapon"
+DeathsBy="Killed By"
+deathsholding="Deaths w/"
+EfficiencyString="Efficiency"
+WaitingForStats="Waiting for stats from server.  Press F3 to return to normal HUD."
+
+[DeathMatch]
+DMPropsDisplayText[0]="Net Start Delay"
+DMPropsDisplayText[1]="Min. Net Players"
+DMPropsDisplayText[2]="Restart Delay"
+DMPropsDisplayText[3]="Tournament Game"
+DMPropsDisplayText[4]="Players Must Be Ready"
+DMPropsDisplayText[5]="Force Respawn"
+DMPropsDisplayText[6]="Adjust Bots Skill"
+DMPropsDisplayText[7]="Allow Taunts"
+DMPropsDisplayText[8]="Spawn Protection Time"
+DMPropsDisplayText[9]="Allow Translocator"
+GameName="DeathMatch"
+
+[FirstBloodMessage]
+FirstBloodString="drew first blood!"
+
+[GameObjective]
+DestructionMessage="Objective Disabled!"
+LocationPrefix="Near"
+ObjectiveStringSuffix=" Team Base"
+
+[KeyPickup]
+PickupMessage="You picked up a Key."
+
+[KillingSpreeMessage]
+EndSpreeNote="'s killing spree ended by"
+EndSelfSpree="was looking good till he killed himself!"
+EndFemaleSpree="was looking good till she killed herself!"
+SpreeNote[0]="is on a killing spree!"
+SpreeNote[1]="is on a rampage!"
+SpreeNote[2]="is dominating!"
+SpreeNote[3]="is unstoppable!"
+SpreeNote[4]="is Godlike!"
+SpreeNote[5]="is Wicked SICK!"
+SelfSpreeNote[0]="Killing Spree!"
+SelfSpreeNote[1]="Rampage!"
+SelfSpreeNote[2]="Dominating!"
+SelfSpreeNote[3]="Unstoppable!"
+SelfSpreeNote[4]="GODLIKE!"
+SelfSpreeNote[5]="WICKED SICK!"
+
+[MutBigHead]
+FriendlyName="BigHead"
+Description="Head size depends on how well you are doing."
+
+[MutDelayedSpawn]
+FriendlyName="Delayed Spawn"
+Description="Delays the initial spawning of superweapons and super powerups."
+
+[MutLowGrav]
+FriendlyName="LowGrav"
+Description="Low gravity."
+
+[SquadAI]
+SupportString="supporting"
+DefendString="defending"
+AttackString="attacking"
+HoldString="holding"
+FreelanceString="Sweeper"
+
+[StartupMessage]
+Stage[0]="Waiting for other players."
+Stage[1]="Waiting for ready signals. You are READY."
+Stage[2]="The match is about to begin...3"
+Stage[3]="The match is about to begin...2"
+Stage[4]="The match is about to begin...1"
+Stage[5]="The match has begun!"
+Stage[6]="The match has begun!"
+Stage[7]="OVER TIME!"
+NotReady="You are NOT READY. Press Fire!"
+SinglePlayer="Press FIRE to start!"
+
+[TeamGame]
+NearString="Near the"
+TGPropsDisplayText[0]="Bots Balance Teams"
+TGPropsDisplayText[1]="Players Balance Teams"
+TGPropsDisplayText[2]="Max Team Size"
+TGPropsDisplayText[3]="Friendly Fire Scale"
+GameName="Team Deathmatch"
+
+[TimerMessage]
+CountDownTrailer="..."
+
+[UnrealMPGameInfo]
+MPGIPropsDisplayText[0]="Min Players"
+MPGIPropsDisplayText[1]="Team Score Rounds"
+MPGIPropsDisplayText[2]="Delay at End of Game"
+

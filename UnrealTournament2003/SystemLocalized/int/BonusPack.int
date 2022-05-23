@@ -1,0 +1,67 @@
+[ComboCrate]
+ExecMessage="Camouflaged!"
+
+[ComboMiniMe]
+ExecMessage="Pint-sized!"
+
+[DamTypeMutant]
+DeathString="%o suffered a fatal mutation!"
+FemaleSuicide="%o suffered a fatal mutation!"
+MaleSuicide="%o suffered a fatal mutation!"
+
+[HudLMS]
+LivesRemainingString="Lives Remaining"
+PlayersRemainString="Players Remain -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+BottomFeederText="BOTTOM FEEDER"
+
+[LMSMessage]
+YouAreCamperMessage="You Are Camping!"
+SomeoneIsCamperMessage=" "
+SomeoneIsCamperMessageTrailer="Is Camping!"
+
+[MutCrateCombo]
+FriendlyName="Camouflage Combo"
+Description="Adds the Camouflage combo (RRRR)."
+
+[MutPintSizeCombo]
+FriendlyName="Pint-sized Combo"
+Description="Adds the Pint-sized combo (LLLL)."
+
+[MutantMessage]
+YouAreMutantMessage="You Have Mutated!"
+SomeoneIsMutantMessage=" "
+SomeoneIsMutantMessageTrailer="Has Mutated!"
+FFAMessage="First Blood Mutates!"
+BottomFeederMessage="You Are The Bottom Feeder!"
+NotBottomFeederMessage="No Longer Bottom Feeder!"
+
+[MutantNameMessage]
+BottomFeederMesg="(BOTTOM FEEDER)"
+
+[ScoreBoardLMS]
+LivesText="LIVES"
+
+[Tab_IAMutant]
+TargetScoreString="Score Limit"
+IARulesBottomFeeders.Caption="Bottom Feeder"
+IARulesBottomFeeders.Hint="When selected, bottom ranked player(s) can kill anyone."
+
+[xLastManStandingGame]
+GameName="Last Man Standing"
+
+[xMutantGame]
+GameName="Mutant"
+
+[Tab_IALastManStanding]
+IARulesExtraLives.Caption="Killing Gives Health"
+IARulesExtraLives.Hint="When selected, a portion of the player's health is restored with each kill."
+IARulesLMSAllowAdrenaline.Caption="Allow Adrenaline"
+IARulesLMSAllowAdrenaline.Hint="When selected, players can use Adrenaline."
+IARulesLMSAllowPickups.Caption="Allow Pickups"
+IARulesLMSAllowPickups.Hint="When selected, allow normal pickups."
+IARulesSuperWeaps.Caption="Allow Super Weapons"
+IARulesSuperWeaps.Hint="When selected, allow super weapon pickups."
+
