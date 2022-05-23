@@ -1,9 +1,194 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.UModUnpackCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen="Error opening file"
+NetWrite="Error writing to file"
+NetRefused="Server refused to send '%s'"
+NetClose="Error closing file"
+NetSize="File size mismatch"
+NetMove="Error moving file"
+NetInvalid="Received invalid file request"
+NoDownload="Package '%s' is not downloadable"
+DownloadFailed="Downloading package '%s' failed: %s"
+RequestDenied="Server requested file from pending level: Denied"
+ConnectionFailed="Connection failed"
+ChAllocate="Couldn't allocate channel"
+NetAlready="Already networking"
+NetListen="Listen failed: No linker context available"
+LoadEntry="Can't load Entry: %s"
+InvalidUrl="Invalid URL: %s"
+InvalidLink="Invalid Link: %s"
+FailedBrowse="Failed to enter %s: %s"
+Listen="Listen failed: %s"
+AbortToEntry="Failed; returning to Entry"
+ServerOpen="Servers can't open network URLs"
+ServerListen="Dedicated server can't listen: %s"
+Pending="Pending connect to '%s' failed; %s"
+LoadPlayerClass="Failed to load player class"
+ServerOutdated="Server's version is outdated"
+ClientOutdated="You need to apply the latest patches"
+InvalidCDKey="Your CD key appears to be invalid.  You will need to reinstall the game and enter your CD key to fix this problem."
+ConnectLost="Connection Lost"
+
+[UpgradeDrivers]
+OutdatedDrivers="You are running old graphics card drivers that might not work in conjunction with the game."
+OursOrWeb="Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage"
+InsertCD="Please insert your Unreal Tournament CD 3"
+NvidiaURL="http://www.nvidia.com/content/drivers/drivers.asp"
+AtiURL="http://www.ati.com/support/driver.html"
+CDButton="Upgrade from CD"
+WebButton="Upgrade from Web"
+cancelButton="Don't Upgrade"
+
+[KeyNames]
+Up="UP"
+Right="RIGHT"
+Left="LEFT"
+Down="DOWN"
+LeftMouse="LEFT MOUSE"
+RightMouse="RIGHT MOUSE"
+MiddleMouse="MIDDLE MOUSE"
+MouseX="MOUSE X"
+MouseY="MOUSE Y"
+MouseZ="MOUSE Z"
+MouseW="MOUSE W"
+JoyX="JOY X"
+JoyY="JOY Y"
+JoyZ="JOY Z"
+JoyU="JOY U"
+JoyV="JOY V"
+JoySlider1="JOYSLIDER 1"
+JoySlider2="JOYSLIDER 2"
+MouseWheelUp="MOUSEWHEEL UP"
+MouseWheelDown="MOUSEWHEEL DOWN"
+Joy1="JOY 1"
+Joy2="JOY 2"
+Joy3="JOY 3"
+Joy4="JOY 4"
+Joy5="JOY 5"
+Joy6="JOY 6"
+Joy7="JOY 7"
+Joy8="JOY 8"
+Joy9="JOY 9"
+Joy10="JOY 10"
+Joy11="JOY 11"
+Joy12="JOY 12"
+Joy13="JOY 13"
+Joy14="JOY 14"
+Joy15="JOY 15"
+Joy16="JOY 16"
+Space="SPACE"
+PageUp="PAGE UP"
+PageDown="PAGE DOWN"
+End="END"
+Home="HOME"
+Select="SELECT"
+Print="PRINT"
+Execute="EXECUTE"
+PrintScrn="PRINTSCRN"
+Insert="INSERT"
+Delete="DELETE"
+Help="HELP"
+NumPad0="NUM 0"
+NumPad1="NUM 1"
+NumPad2="NUM 2"
+NumPad3="NUM 3"
+NumPad4="NUM 4"
+NumPad5="NUM 5"
+NumPad6="NUM 6"
+NumPad7="NUM 7"
+NumPad8="NUM 8"
+NumPad9="NUM 9"
+GreyStar="GREY STAR"
+GreyPlus="GREY PLUS"
+Separator="SEPARATOR"
+GreyMinus="GREY MINUS"
+NumPadPeriod="NUM ."
+GreySlash="GREY SLASH"
+Pause="PAUSE"
+CapsLock="CAPSLOCK"
+Tab="TAB"
+Enter="ENTER"
+Shift="SHIFT"
+NumLock="NUMLOCK"
+Escape="ESCAPE"
+
+[Progress]
+CancelledConnect="Cancelled Connect Attempt"
+RunningNet="%s: %s (%i players)"
+NetReceiving="Receiving '%s': %i/%i"
+NetReceiveOk="Successfully received '%s'"
+NetSend="Sending '%s'"
+NetSending="Sending '%s': %i/%i"
+Connecting="Connecting (F10 to Abort)..."
+Listening="Listening for clients..."
+Loading="Loading"
+Saving="Saving"
+Paused="Paused by %s"
+ReceiveFile="Receiving '%s' (F10 Cancels)"
+ReceiveOptionalFile="Receiving optional file '%s' (Press F10 to Skip)"
+ReceiveSize="Size %iK, Complete %3.1f%%"
+ConnectingText=""
+ConnectingURL="unreal://%s/%s"
+CorruptConnect="Incompatible Game Files!"
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner="Network game server"
+HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=Log
+HelpDesc[0]="Specify the log file to generate"
+HelpParm[1]=AllAdmin
+HelpDesc[1]="Give all players admin privelages"
+
+[UModUnpackCommandlet]
+HelpCmd=umodunpack
+HelpOneLiner="Unpack UMOD files"
+HelpUsage=umodunpack [-option] <filename>
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-x
+HelpDesc[0]=Extract files from <filename>
+HelpParm[1]=-l
+HelpDesc[1]=List files in <filename> without extracting.
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5
+HelpOneLiner=Manipulate the Master MD5 database
+HelpUsage=mastermd5 [-option..] <params>
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=-c
+HelpDesc[0]=Creates a new MD5 database
+HelpParm[1]=-a 
+HelpDesc[1]=Adds new packages to the database
+HelpParm[2]=-s
+HelpDesc[2]=Show the current database.
+HelpParm[3]=-r
+HelpDesc[3]=Force the revision of all entries to <param>
+
+[General]
+Upgrade="To enter this server, you need the latest free update to Unreal available from Epic's Web site:"
+UpgradeURL="http://www.unreal.com/upgrade"
+UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+Version="Version %i"
+
 [AccessControl]
 IPBanned="Your IP address has been banned on this server."
 WrongPassword="The password you entered is incorrect."
 NeedPassword="You need to enter a password to join this game."
 SessionBanned="Your IP address has been banned from the current game session."
-KickedMsg="You have been forcably removed from the game."
+KickedMsg="You have been forcibly removed from the game."
 
 [Ammo]
 PickupMessage="You picked up some ammo."
@@ -49,10 +234,7 @@ GIPropsDisplayText[7]="Goal Score"
 GIPropsDisplayText[8]="Max Lives"
 GIPropsDisplayText[9]="Time Limit"
 GIPropsDisplayText[10]="World Stats Logging"
-GIPropsDisplayText[11]="Allow Weapon Throwing"
-GIPropsDisplayText[12]="Allow Behind View"
-GIPropsDisplayText[13]="Allow Admin Pausing"
-GIPropsExtras[0]="0;Novice;1;Average;2;Experienced;3;Skilled;4;Adept;5;Masterful;6;Inhuman;7;Godlike"
+GIPropsExtras[0]="0.000000;Novice;1.000000;Average;2.000000;Experienced;3.000000;Skilled;4.000000;Adept;5.000000;Masterful;6.000000;Inhuman;7.000000;Godlike"
 GIPropsExtras[1]="0;Full Gore;1;Reduced Gore"
 
 [GameMessage]
@@ -94,18 +276,6 @@ DeathString="%o exploded in a shower of body parts"
 FemaleSuicide="%o exploded in a shower of body parts"
 MaleSuicide="%o exploded in a shower of body parts"
 
-[HUD]
-ProgressFontName="UT2003Fonts.FontEurostile12"
-FontArrayNames[0]="Engine.DefaultFont"
-FontArrayNames[1]="Engine.DefaultFont"
-FontArrayNames[2]="Engine.DefaultFont"
-FontArrayNames[3]="Engine.DefaultFont"
-FontArrayNames[4]="Engine.DefaultFont"
-FontArrayNames[5]="Engine.DefaultFont"
-FontArrayNames[6]="Engine.DefaultFont"
-FontArrayNames[7]="Engine.DefaultFont"
-FontArrayNames[8]="Engine.DefaultFont"
-
 [LevelInfo]
 Title="Untitled"
 
@@ -126,7 +296,6 @@ ViewingFrom="Now viewing from"
 OwnCamera="Now viewing from own camera"
 
 [PlayerReplicationInfo]
-StringDead="Dead"
 StringSpectating="Spectating"
 StringUnknown="Unknown"
 

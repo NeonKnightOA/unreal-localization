@@ -1,0 +1,65 @@
+[Setup]
+LocalProduct="Unreal Tournament 2003"
+DefaultFolder="C:\UT2003"
+ReadMe=Help\ReadMe.int.txt
+SetupWindowTitle=Unreal Tournament 2003 Setup
+AutoplayWindowTitle="Unreal Tournament 2003 Options"
+ProductURL=http://www.unrealtournament2003.com/
+VersionURL=http://unreal.epicgames.com/versions.htm
+Developer="Epic Games"
+DeveloperURL=http://www.epicgames.com/
+Logo=Help\InstallerLogo.bmp
+License=License.int
+
+[General]
+PlayLevelCommand="&Play this UT2003 level"
+OpenLinkCommand="&Open this UT2003 link"
+InstallModuleCommand="&Install this UT2003 module"
+EditLevelCommand="&Edit this UT2003 level"
+SafeDiscAdminRights="You need to run this program as an administrator, not as a guest or limited user account."
+SafeDiscNoDisk="No disc in drive.  Please insert the disc labelled 'Unreal Tournament 2003 Play Disc' to continue."
+SafeDiscNoDrive="No CD-ROM or DVD-ROM drive detected."
+SafeDiscTitlebar="Unreal Tournament 2003"
+SafeDiscWrongDisc="Wrong disc in drive.  Please insert the disc labelled 'Unreal Tournament 2003 Play Disc' to continue."
+
+[UnrealGameContentGroup]
+Caption="Game Content"
+Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+
+[GameGroup]
+Caption="UT2003 Game"
+Description="Installation is required."
+
+[DirectXGroup]
+Caption="DirectX 8.1"
+Description="Optional Microsoft DirectX 8.1 drivers for enhanced graphics, sound, and joystick support."
+
+[OpenALGroup]
+Caption="OpenAL"
+Description="Required for hardware accelerated 3D sound effects."
+
+[Win2000XPGroup]
+Caption="Windows 2000/XP Direct3D"
+Description="Required for Windows 2000/XP [temporary-not for ship]."
+
+[EditorGroup]
+Caption="Unreal Editor"
+Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+
+[PlayShortcut]
+Caption="Play UT2003"
+
+[SafeModeShortcut]
+Caption="UT2003 Safe Mode"
+
+[EditorShortcut]
+Caption="UT2003 Editor"
+
+[DocumentationShortcut]
+Caption="Release Notes"
+
+[WebShortcut]
+Caption="UT2003 Web Page"
+
+[UninstallShortcut]
+Caption="Uninstall Unreal Tournament 2003"

@@ -1,3 +1,10 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Last Man Standing|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Adds the Camouflage combo (RRRR).")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Adds the Pint-sized combo (LLLL).")
+
 [ComboCrate]
 ExecMessage="Camouflaged!"
 
@@ -20,7 +27,7 @@ BottomFeederText="BOTTOM FEEDER"
 [LMSMessage]
 YouAreCamperMessage="You Are Camping!"
 SomeoneIsCamperMessage=" "
-SomeoneIsCamperMessageTrailer="Is Camping!"
+SomeoneIsCamperMessageTrailer=" Is Camping!"
 
 [MutCrateCombo]
 FriendlyName="Camouflage Combo"
@@ -33,7 +40,7 @@ Description="Adds the Pint-sized combo (LLLL)."
 [MutantMessage]
 YouAreMutantMessage="You Have Mutated!"
 SomeoneIsMutantMessage=" "
-SomeoneIsMutantMessageTrailer="Has Mutated!"
+SomeoneIsMutantMessageTrailer=" Has Mutated!"
 FFAMessage="First Blood Mutates!"
 BottomFeederMessage="You Are The Bottom Feeder!"
 NotBottomFeederMessage="No Longer Bottom Feeder!"
@@ -46,7 +53,7 @@ LivesText="LIVES"
 
 [Tab_IAMutant]
 TargetScoreString="Score Limit"
-IARulesBottomFeeders.Caption="Bottom Feeder"
+IARulesBottomFeeders.Caption="Bottom Feeders"
 IARulesBottomFeeders.Hint="When selected, bottom ranked player(s) can kill anyone."
 
 [xLastManStandingGame]

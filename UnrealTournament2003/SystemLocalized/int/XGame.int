@@ -1,3 +1,22 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xDeathMatch,Description="DM|DeathMatch|xinterface.Tab_IADeathMatch|xinterface.MapListDeathMatch|false")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xTeamGame,Description="DM|Team DeathMatch|xinterface.Tab_IATeamDeathMatch|xinterface.MapListTeamDeathMatch|true")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xDoubleDom,Description="DOM|Double Domination|xinterface.Tab_IADoubleDomination|xinterface.MapListDOubleDomination|true")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xCTFGame,Description="CTF|Capture the Flag|xinterface.Tab_IACaptureTheFlag|xinterface.MapListCaptureTheFlag|true")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xBombingRun,Description="BR|Bombing Run|xinterface.Tab_IABombingRun|xinterface.MapListBombingRun|true")
+ 
+Object=(Name=XGame.DumpGameListCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=XGame.DumpMapListCommandlet,Class=Class,MetaClass=Core.Commandlet)
+ 
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutInstaGib,Description="Instant-kill combat with modified Shock Rifles.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutZoomInstaGib,Description="Instant-kill combat with modified Shock Rifles with sniper zooms.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutRegen,Description="All players regenerate health.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutVampire,Description="Damaging your opponents will heal you.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutSlomoDeath,Description="Death should not be rushed.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutHeliumCorpses,Description="Your kills weigh lightly.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutNoAdrenaline,Description="Adrenaline pickups are removed from the map.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutQuadJump,Description="When double jump just isn't enough.")
+
 [AlienFemaleVoice]
 TauntString[21]="Blow me"
 TauntString[22]="Camper!"

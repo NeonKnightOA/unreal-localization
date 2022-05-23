@@ -1,0 +1,8 @@
+[Public]
+Object=(Name=PixoDrv.PixoRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Software Rendering",Parent="Rendering",Class=PixoDrv.PixoRenderDevice,Immediate=True)
+
+[PixoRenderDevice]
+ClassCaption="Software Rendering"
+AskInstalled="Do you want to use Software Rendering?"
