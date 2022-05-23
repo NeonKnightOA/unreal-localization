@@ -1,0 +1,68 @@
+[AdminIni]
+Msg_PlayerList="Spieler-Liste:"
+Msg_FinishGameEditFirst="Sie müssen die Spieleinstellungen abschließen, bevor Sie die Karte neu beginnen."
+Msg_FinishGameRestart="Sie müssen die Spieleinstellungen abschließen, bevor Sie die Karte ändern oder ein Spiel beginnen."
+Msg_GameNoSupportBots="Der gegenw. gewählte Spieltyp unterstützt die Verwendung von Bots nicht."
+Msg_StatsNoBots="Bots können nicht gesteuert werden, solange Weltw. Stat aktiviert ist."
+Msg_NextMapNotFound="Nächste Karte nicht gefunden, Neustart der gleichen Karte."
+Msg_ChangingMapTo="Wechseln der Karte zu %NextMap%"
+Msg_PlayerBanned="%Player% wurde von diesem Server ausgeschlossen."
+Msg_SessionBanned="%Player% wurde von diesem Match ausgeschlossen."
+Msg_PlayerKicked="%Player% wurde rausgeworfen."
+Msg_NoBotGameFull="Bot kann nicht hinzugefügt werden, Spiel ist voll."
+Msg_NoAddNamedBot="Nominierte Bots können erst zugefügt werden, wenn das Match begonnen hat."
+Msg_NoBotsPlaying="Gegenwärtig sind keine Bots im Spiel."
+Msg_SetBotNeedVal="Dieser Befehl benötigt eine Ziffer zwischen 0 und 32."
+Msg_MutNeedGameEdit="Sie müssen den 'Spieleinstellungen' Befehl vor dem 'Mutatoren' Befehl ausführen."
+Msg_NoMutatorInUse="Keine Mutatoren verwendet"
+Msg_NoUnusedMuts="Keine inaktiven Mutatoren gefunden"
+Msg_AddedMutator="Mutator '%Mutator%' wurde zur Benutzte Mutatoren-Liste hinzugefügt."
+Msg_ErrAddingMutator="Fehler beim Zufügen von '%Mutator%' zur Benutzte Mutatoren-Liste"
+Msg_RemovedMutator="'%Mutator%' wurde von Benutzte Mutatoren-Liste entfernt."
+Msg_ErrRemovingMutator="Fehler beim Entfernen von '%Mutator%' von der Benutzte Mutatoren-Liste"
+Msg_MapListNeedGameEdit="Sie müssen den 'Spieleinstellungen' Befehl vor dem 'Karten-Liste' Befehl ausführen."
+Msg_MapRotationList="Karten in Rotationsliste für %Game%"
+Msg_NoMapInRotation="Keine Karten in Rotations-Liste."
+Msg_NoMapsAdded="Keine Karten zur Liste hinzugefügt."
+Msg_AddedMapToList="'%Map%' zur Karten-Rotationsliste hinzugefügt."
+Msg_NoMapsRemoved="Keine Karten von der Liste entfernt."
+Msg_RemovedMapFromList="'%Map%' von der Karten Rotations-Liste entfernt."
+Msg_NoMapsFound="Keine Karten gefunden."
+Msg_MapIsInRotation="Karte '%Map%' ist in der Karten Rotations-Liste."
+Msg_MapNotInRotation="Karte '%Map%' ist nicht in der Karten Rotations-Liste."
+Msg_MustEndGameEdit="Sie müssen zuerst Ihre Spieleinstellungen abschließen."
+Msg_EditingClass="Editieren von %Class%"
+Msg_EditFailed="Fehler beim Editieren von"
+Msg_AlreadyEdited="Spiel wird bereits von jmd. editiert."
+Msg_NotEditing="Sie verändern die Spieleinstellungen nicht, benutzen Sie 'Spieleinstellungen' zuerst."
+Msg_EditingCompleted="Editieren abgeschlossen"
+Msg_EditingCancelled="Editing abgebrochen"
+Msg_UnknownParam="Unbekannter Parameter : %Value%"
+Msg_NoParamsFound="Keine Parameter gefunden!"
+Msg_ParamModified="Änderung erfolgreich"
+Msg_ParamNotModified="Parameter konnte nicht verändert werden."
+
+[xExtraPrivs]
+LoadMsg="Extra Privilegien Geladen"
+MainPrivs="X"
+SubPrivs="Xb|Xc|Xp"
+Tags=("Verschiedenes","IP Regelungen verwalten","Konsole verwenden","Liste Spieler")
+
+[xGamePrivs]
+LoadMsg="Karten & Spiel Privilegien Geladen"
+MainPrivs="M"
+SubPrivs="Mr|Mt|Mm|Ml|Ms|Mu|Mb"
+Tags=("Karten/Spieleinstellungen","Karte Neu Starten","Spieltyp Ändern","Karte Wechseln","Kartenrotation Verwalten","Spieleinstellungen","Mutatoren Wählen","Bots Entf./Hinzuf.")
+
+[xKickPrivs]
+LoadMsg="Rauswurf- und Ausschluss Privilegien Geladen"
+MainPrivs="K"
+SubPrivs="Kp|Kb|Ko"
+Tags=("Rauswerfen/Ausschließen","Spieler Rauswerfen","Spieler Ausschließen","Bots Rauswerfen")
+
+[xUserGroupPrivs]
+LoadMsg="Admin. & Gruppen Management Geladen"
+MainPrivs="A|G"
+SubPrivs="Al|Aa|Ae|Ag|Am|Gl|Ga|Ge"
+Tags=("User","Listen Admin.","Admin. Hinzuf./Entf.","Admin. Editieren","Gruppen Zuweisen","Manager Erstellen","Gruppen","Listen Gruppen","Gruppen Hinzuf./Entf.","Gruppen Editieren")
+

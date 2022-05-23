@@ -1,0 +1,75 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Last Man Standing|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Añade el combo de Camuflaje (RRRR).")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Añade el combo Mini-yo (LLLL).")
+
+[ComboCrate]
+ExecMessage="¡Camuflado!"
+
+[ComboMiniMe]
+ExecMessage="¡Mini-yo!"
+
+[DamTypeMutant]
+DeathString="La mutación de %l fue fatal."
+FemaleSuicide="La mutación de %l fue fatal."
+MaleSuicide="La mutación de %l fue fatal."
+
+[HudLMS]
+LivesRemainingString="Vidas restantes"
+PlayersRemainString="Jugadores restantes -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+BottomFeederText="ALIMENTADOR INFERIOR"
+
+[LMSMessage]
+YouAreCamperMessage="¡Estás de acampada!"
+SomeoneIsCamperMessage=" "
+SomeoneIsCamperMessageTrailer=" está de acampada!"
+
+[MutCrateCombo]
+FriendlyName="Combo de Camuflage"
+Description="Añade el combo de Camuflaje (RRRR)."
+
+[MutPintSizeCombo]
+FriendlyName="Combo Mini-yo"
+Description="Añade el combo Mini-yo (LLLL)."
+
+[MutantMessage]
+YouAreMutantMessage="¡Has mutado!"
+SomeoneIsMutantMessage=" "
+SomeoneIsMutantMessageTrailer=" ha mutado!"
+FFAMessage="¡El primer tocado muta!"
+BottomFeederMessage="¡Eres el alimentador inferior!"
+NotBottomFeederMessage="¡Ya no eres el alimentador inferior!"
+
+[MutantNameMessage]
+BottomFeederMesg="(ALIMENTADOR INFERIOR)"
+
+[ScoreBoardLMS]
+LivesText="VIDAS"
+
+[Tab_IAMutant]
+TargetScoreString="Límite de puntos"
+IARulesBottomFeeders.Caption="Alimentadores inferiores"
+IARulesBottomFeeders.Hint="Si lo activas, los últimos jugadores de la clasificación pueden matar a cualquiera."
+
+[xLastManStandingGame]
+GameName="Último en pie"
+
+[xMutantGame]
+GameName="Mutante"
+
+[Tab_IALastManStanding]
+IARulesExtraLives.Caption="Matar proporciona salud"
+IARulesExtraLives.Hint="Si lo activas, recuperas una porción de la salud del jugador con cada muerto."
+IARulesLMSAllowAdrenaline.Caption="Permitir adrenalina"
+IARulesLMSAllowAdrenaline.Hint="Si lo activas, los jugadores pueden usar Adrenalina."
+IARulesLMSAllowPickups.Caption="Permitir mejoras"
+IARulesLMSAllowPickups.Hint="Si lo activas, permite mejoras normales."
+IARulesSuperWeaps.Caption="Permitir súper armas"
+IARulesSuperWeaps.Hint="Si lo activas, permite coger súper armas."
+
+

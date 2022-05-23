@@ -1,0 +1,88 @@
+[Language]
+Language="Deutsch"
+LangId=7
+SubLangId=0
+Locked=True
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown="Unbekannter Fehler"
+Aborted="Abgebrochen"
+ExportOpen="Fehler beim Exportieren von %s: Datei '%s' konnte nicht geöffnet werden"
+ExportWrite="Fehler beim Exportieren von %s: Datei '%s' konnte nicht geschrieben werden"
+FileNotFound="Datei '%s' nicht gefunden"
+ObjectNotFound="Objekt '%s %s.%s' nicht gefunden"
+PackageNotFound="Datei für Paket '%s' nicht gefunden"
+PackageResolveFailed="Paketname kann nicht aufgelöst werden"
+FilenameToPackage="Dateiname '%s' kann nicht in Paketnamen umgewandelt werden"
+Sandbox="Auf Datenpaket '%s' kann in dieser Sandbox nicht zugegriffen werden"
+PackageVersion="Paket '%s' - Versionskonflikt"
+FailedLoad="Fehler beim Laden von '%s': %s"
+ConfigNotFound="'%s' in Konfigurationsdatei nicht gefunden"
+LoadClassMismatch="%s ist keine Unterklasse von %s.%s"
+NotDll="'%s' ist kein DLL-Paket; Export '%s' nicht gefunden"
+NotInDll="'%s' in '%s.dll' nicht gefunden"
+FailedLoadPackage="Fehler beim Laden des Pakets: %s"
+FailedLoadObject="Fehler beim Laden '%s %s.%s': %s"
+TransientImport="Temporäres Objekt importiert: %s"
+FailedSavePrivate="Kann %s nicht speichern: Diagramm ist mit externem privatem Objekt %s verknüpft"
+FailedImportPrivate="Privates Objekt %s %s kann nicht importiert werden"
+FailedCreate="%s %s zum Erstellen nicht gefunden"
+FailedImport="%s in Datei '%s' nicht gefunden"
+FailedSaveFile="Fehler beim Speichern der Datei '%s': %s"
+SaveWarning="Fehler beim Speichern von '%s'"
+NotPackaged="Objekt ist kein Paketobjekt: %s %s"
+NotWithin="Objekt %s %s erstellt in %s anstatt %s"
+Abstract="Objekt %s kann nicht erstellt werden: Klasse %s ist abstrakt"
+NoReplace="%s kann nicht durch %s ersetzt werden"
+NoFindImport="Datei '%s' zum Importieren nicht gefunden"
+ReadFileFailed="Fehler beim Lesen der Datei '%s' zum Importieren"
+SeekFailed="Fehler beim Suchen der Datei"
+OpenFailed="Fehler beim Öffnen der Datei"
+WriteFailed="Fehler beim Schreiben der Datei"
+ReadEof="Lesen hinter Dateiende"
+IniReadOnly="Datei %s ist schreibgeschützt; die Einstellungen können nicht gespeichert werden"
+UrlFailed="Fehler beim Starten der URL"
+Warning="Warnung"
+Question="Frage"
+OutOfMemory="Nicht genügend virtueller Speicher. Setzen Sie Speicherplatz auf der primären Festplatte frei, um das Problem zu beheben."
+History="Verlauf"
+Assert="Assertionsfehler: %s [Datei:%s] [Zeile: %i]"
+Debug="Debug assertion failed: %s [File:%s] [Line: %i]"
+LinkerExists="Verknüpfungskomponente für '%s' bereits vorhanden"
+BinaryFormat="Die Datei '%s' enthält nicht erkennbare Daten"
+SerialSize="%s: Konflikt serielle Größe: %i abgerufen, %i erwartet"
+ExportIndex="Fehlerhafter Exportindex %i/%i"
+ImportIndex="Fehlerhafter Importindex %i/%i"
+Password="Passwort nicht erkannt"
+Exec="Unbekannter Befehl"
+BadProperty="%s Fehlerhafte oder fehlende Eigenschaft '%s'"
+MisingIni="Fehlende .ini-Datei: %s"
+
+[Query]
+OldVersion="Die Datei %s wurde von einer früheren Version gespeichert, die mit dieser nicht rückwirkend kompatibel ist.  Ein Leseversuch scheitert wahrscheinlich und kann einen Systemabsturz verursachen. Möchten Sie es dennoch versuchen?"
+Name="Name:"
+Password="Passwort:"
+PassPrompt="Geben Sie Namen und Passwort ein:"
+PassDlg="Identitätsüberprüfung"
+Overwrite="Es ist eine aktuelle Version der Datei '%s' vorhanden. Möchten Sie die vorhandene Version überschreiben?"
+OverwriteReadOnly="'%s' ist schreibgeschützt. Möchten Sie das Überschreiben dennoch versuchen?"
+
+[Progress]
+Saving="Speichern aadddd Datei %s..."
+Loading="Datei %s wird geladen..."
+Closing="Schließen"
+
+[General]
+Product="Unreal"
+Engine="Unreal-Engine"
+Copyright="Copyright 2001 Epic Games, Inc."
+True="Wahr"
+False="Falsch"
+None="Keine"
+Yes="Ja"
+No="Nein"

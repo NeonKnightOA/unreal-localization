@@ -1,0 +1,501 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xDeathMatch,Description="DM|DeathMatch|xinterface.Tab_IADeathMatch|xinterface.MapListDeathMatch|false")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xTeamGame,Description="DM|DM por equipos|xinterface.Tab_IATeamDeathMatch|xinterface.MapListTeamDeathMatch|true")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xDoubleDom,Description="DOM|Dominación doble|xinterface.Tab_IADoubleDomination|xinterface.MapListDOubleDomination|true")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xCTFGame,Description="CTF|Capturar la bandera|xinterface.Tab_IACaptureTheFlag|xinterface.MapListCaptureTheFlag|true")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=XGame.xBombingRun,Description="BR|Carrera de bombardeo|xinterface.Tab_IABombingRun|xinterface.MapListBombingRun|true")
+
+Object=(Name=XGame.DumpGameListCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=XGame.DumpMapListCommandlet,Class=Class,MetaClass=Core.Commandlet)
+
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutInstaGib,Description="Combates de muerte instantánea con rifles de choque modificados.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutZoomInstaGib,Description="Combates de muerte instantánea con rifles de choque y mira telescópica.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutRegen,Description="Todos los jugadores regeneran salud.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutVampire,Description="Dañar a tus oponentes te dará energía.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutSlomoDeath,Description="No se debería tener prisa por morir.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutHeliumCorpses,Description="Tus víctimas flotan en el aire.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutNoAdrenaline,Description="Las cápsulas de adrenalina son eliminadas de los mapas.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XGame.MutQuadJump,Description="Cuando el salto doble no es suficiente.")
+
+[AlienFemaleVoice]
+TauntString[21]="¡Dame caña!"
+TauntString[22]="¡Francotirador!"
+TauntString[23]="¡Patán!"
+TauntString[24]="¡Toca-pelotas!"
+TauntString[25]="Palurdo..."
+TauntString[26]="Paso de ti..."
+TauntString[27]="¡Imbécil!"
+
+[AlienMaleVoice]
+TauntString[21]="¡Dame caña!"
+TauntString[22]="¡francotirador!"
+TauntString[23]="¡Patán!"
+TauntString[24]="¡Toca-pelotas!"
+TauntString[25]="¡Palurdo!"
+TauntString[26]="Paso de ti..."
+TauntString[27]="¡Imbécil!"
+
+[BossDM]
+GameName="Partido de campeonato"
+
+[ChampRosterFinal]
+TeamName="Partido de campeonato"
+
+[ChampRosterSemiFinal]
+TeamName="Partido de campeonato"
+
+[ComboBerserk]
+ExecMessage="¡Frenético!"
+
+[ComboInvis]
+ExecMessage="¡Invisible!"
+
+[ComboSpeed]
+ExecMessage="¡Velocidad!"
+
+[ComboSuperjump]
+ExecMessage="¡Súper salto!"
+
+[DMRosterBeatTeam]
+TeamName="Deathmatch"
+
+[DMRosterGael]
+TeamName="Deathmatch"
+
+[DMRosterLeviathan]
+TeamName="Deathmatch"
+
+[DMRosterOceanic]
+TeamName="Deathmatch"
+
+[DMRosterTrainingDay]
+TeamName="Deathmatch"
+
+[DecoText]
+Deathmatch="Sin aliados, sin reglas. Cada hombre, mujer y aberración alienígena mutante dependen de sí mismos. El jugador con más bajas gana.||"
+Survival="Deathmatch uno contra uno (estilo gladiador). La puntuación es el número de rondas consecutivas que ganes.||"
+TeamGame="Únete a tus compañeros de equipo en una lucha por la supremacía en el campo de batalla ante enemigos sedientos de sangre. El equipo que neutralice más jugadores enemigos ganará el partido. Al equipo que pierda se le echa fuera de los muros.||"
+CTFGame="Avanza sobre la fortaleza del enemigo y coge su bandera a la vez que defiendes la tuya. Si tu bandera es tomada, tu equipo no conseguirá una captura hasta que sea recobrada, así que defendedla con vuestras vidas.||"
+BombingRun="Haz lo que sea para que la pelota pase a través de la portería. Lucha contra enemigos, lanza pases, realiza intercepciones y defiende tu propia portería mientras tu equipo se afianza hacia la victoria.||"
+DoubleDom="Intenta asegurar y mantener ambos puntos de dominación para puntuar. Cuando comience la cuenta atrás lucha contra las frenéticas oleadas de oponentes resucitados que intentarán robarte la victoria de entre los dedos, y aplástalos bajo tu pie.||"
+
+[JuggFemaleVoice]
+TauntString[21]="La vida es dolor. Déjala pasar"
+TauntString[22]="¡Justo entre los ojos!"
+TauntString[23]="¡Coser y cantar!"
+TauntString[24]="¡Eso ha sido sucio!"
+TauntString[25]="Sangras mejor que disparas"
+TauntString[26]="¡Das pena!"
+TauntString[27]="Lick me"
+OtherString[32]="¡No siento las piernas!"
+OtherString[33]="¡Buen tiro!"
+
+[JuggMaleVoice]
+TauntString[21]="La vida es dolor. Déjala pasar"
+TauntString[22]="¡Justo entre los ojos!"
+TauntString[23]="¡Coser y cantar!"
+TauntString[24]="¡Eso ha sido sucio!"
+TauntString[25]="Sangras mejor que disparas"
+TauntString[26]="¡Das pena!"
+OtherString[32]="¡No siento las piernas!"
+OtherString[33]="¡Buen tiro!"
+
+[LavaVolume]
+LocationName="en lava"
+
+[MercFemaleVoice]
+TauntString[21]="Esquiva mejor la próxima vez"
+TauntString[22]="¡Quédate quieto, maldito!"
+TauntString[23]="¡La leche!"
+TauntString[24]="Quédate quieto y seré rápida"
+TauntString[25]="Matadlos a todos"
+TauntString[26]="¡Acertado!"
+TauntString[27]="Ni te has acercado"
+TauntString[28]="¡Apártate de mi camino!"
+TauntString[29]="¡Chúpate esto!"
+TauntString[30]="Prueba a quitar el seguro"
+TauntAbbrev[24]="Quédate quieto y seré rápida"
+OtherString[32]="No está mal"
+
+[MercMaleVoice]
+TauntString[21]="Esquiva mejor la próxima vez"
+TauntString[22]="¡Quédate quieto, maldito!"
+TauntString[23]="¡La leche!"
+TauntString[24]="Quédate quieto y seré rápido"
+TauntString[25]="Matadlos a todos"
+TauntString[26]="¡Acertado!"
+TauntString[27]="Ni te has acercado"
+TauntString[28]="¡Apártate de mi camino!"
+TauntString[29]="¡Chúpate esto!"
+TauntString[30]="Prueba a quitar el seguro"
+TauntString[31]="Mueres demasiado fácil"
+TauntAbbrev[24]="Quédate quieto y seré rápido"
+OtherString[32]="No está mal"
+
+[MultiKillMessage]
+DoubleKillString="¡Muerte doble!"
+MultiKillString="¡Muerte múltiple!"
+UltraKillString="¡ULTRA MUERTE!"
+MonsterKillString="¡MUERTE DE MONSTRUO!"
+KillString[0]="¡Muerte doble!"
+KillString[1]="¡Muerte múltiple!"
+KillString[2]="¡¡Super Muerte!!"
+KillString[3]="¡¡ULTRA MUERTE!!"
+KillString[4]="¡¡¡ M U E R T E  B E S T I A L !!!"
+KillString[5]="¡¡¡ R I D Í C U L O !!!"
+KillString[6]="¡ L A  L E C H E !"
+
+[MutHeliumCorpses]
+FriendlyName="Cadáveres flotantes"
+Description="Tus muertes son ligeras."
+
+[MutInstaGib]
+FriendlyName="InstaGib"
+Description="Combate de muerte instantánea y rifles de choque modificados."
+
+[MutNoAdrenaline]
+FriendlyName="Sin adrenalina"
+Description="Se elimina la adrenalina de todo el mapa."
+
+[MutQuadJump]
+FriendlyName="Salto cuádruple"
+Description="Cuando el doble salto no es suficiente."
+
+[MutRegen]
+FriendlyName="Regeneración"
+Description="Todos los jugadores regeneran salud."
+
+[MutSlomoDeath]
+FriendlyName="Cadáveres a cámara lenta"
+Description="La muerte no debería ser tan rápida."
+
+[MutSpeciesStats]
+FriendlyName="Estadísticas de las especies"
+Description="Cada raza tiene capacidades de combate únicas."
+
+[MutVampire]
+FriendlyName="Vampiro"
+Description="Al dañar a tus enemigos recuperarás salud."
+
+[MutZoomInstagib]
+FriendlyName="Zoom InstaGib"
+Description="Combate de muerte inst. con rifles de choque de mira tel."
+
+[NightFemaleVoice]
+TauntString[21]="¡Carne fresca!"
+TauntString[22]="Debo romperte"
+TauntString[23]="¡Me tragaré tu alma!"
+TauntString[24]="Tu alma está perdida"
+TauntString[25]="Encuentra a tu verdugo"
+TauntString[26]="Mi nombre es muerte"
+TauntString[27]="Sin lágrimas por favor, se desperdicia un buen sufrimiento"
+TauntString[28]="El dolor te purificará"
+
+[NightMaleVoice]
+TauntString[21]="¡Carne fresca!"
+TauntString[22]="Debo romperte"
+TauntString[23]="¡Me tragaré tu alma!"
+TauntString[24]="Tu alma está perdida"
+TauntString[25]="Encuentra a tu verdugo"
+TauntString[26]="Mi nombre es muerte"
+TauntString[27]="Sin lágrimas por favor, se desperdicia un buen sufrimiento"
+TauntString[28]="El dolor te purificará"
+
+[RobotVoice]
+TauntString[21]="¡Muere, humano!"
+TauntString[22]="Más rápido. Más fuerte. Mejor"
+TauntString[23]="Témeme"
+TauntString[24]="La carne es un fallo de diseño"
+TauntString[25]="Mi victoria, tu muerte"
+TauntString[26]="Nada mal"
+TauntString[27]="Proceso pícaro terminado"
+TauntString[28]="Reconoce mi perfección"
+TauntString[29]="Mueres demasiado fácil"
+TauntString[30]="Eres una presa fácil"
+TauntString[31]="Tu programación es inferior"
+OtherString[32]="Redireccionando sistemas críticos"
+OtherString[33]="Te adaptas bien"
+
+[SPECIES_Alien]
+SpeciesName="Alien"
+
+[SPECIES_Bot]
+SpeciesName="Robot"
+
+[SPECIES_Egypt]
+SpeciesName="Egipcio"
+
+[SPECIES_Jugg]
+SpeciesName="Engendro"
+
+[SPECIES_Merc]
+SpeciesName="Mercenario"
+
+[SPECIES_Night]
+SpeciesName="Nocturno"
+
+[SpeciesType]
+SpeciesName="Humano"
+
+[SpecialKillMessage]
+DecapitationString="¡¡Disparo en la cabeza!!"
+
+[TeamApocalypse]
+TeamName="Apocalipsis"
+
+[TeamBlackLegion]
+TeamName="Chusma"
+
+[TeamBloodFists]
+TeamName="Puños sangrientos"
+
+[TeamBoneCrushers]
+TeamName="Rompehuesos"
+
+[TeamColdSteel]
+TeamName="Frío Acero"
+
+[TeamCrusaders]
+TeamName="Cruzados"
+
+[TeamDragonBreath]
+TeamName="Engendros"
+
+[TeamFirestorm]
+TeamName="Tormenta"
+
+[TeamIronGuard]
+TeamName="Guardianes"
+
+[TeamNightstalkers]
+TeamName="Vigilantes"
+
+[TeamPainMachine]
+TeamName="Dolor"
+
+[TeamSunBlades]
+TeamName="Espada solar"
+
+[TeamSupernova]
+TeamName="Supernova"
+
+[TeamVenom]
+TeamName="Inquisición"
+
+[TeamWarCry]
+TeamName="Lamentos"
+
+[xBlueFlagBase]
+ObjectiveName="Base Bandera Azul"
+
+[xBombDelivery]
+ObjectiveStringSuffix=" Objetivo"
+
+[xBombHUDMessage]
+YouHaveFlagString="Tienes la pelota, ¡llévala hasta la base enemiga!"
+EnemyHasFlagString="El enemigo tiene la pelota, ¡recupérala!"
+
+[xBombMessage]
+ReturnBlue="¡devuelve la pelota!"
+ReturnRed="¡devuelve la pelota!"
+ReturnedBlue="¡La pelota se ha devuelto!"
+ReturnedRed="¡La pelota se ha devuelto!"
+CaptureBlue="¡¡Pelota llevada!!  ¡El equipo rojo marca un tanto!"
+CaptureRed="¡¡Pelota llevada!!  ¡El equipo azul marca un tanto!"
+DroppedBlue="ha perdido la pelota"
+DroppedRed="ha perdido la pelota"
+HasBlue="tiene la pelota"
+HasRed="tiene la pelota"
+
+[xBombSpawn]
+ObjectiveName="Lanzamiento de bomba"
+
+[xBombingRun]
+GameName="Carrera de bomb."
+
+[xBotPlayerList]
+mDefaultName="XJuego.xActor"
+
+[xDeathMessage]
+KilledString="ha sido asesinado/a por"
+SomeoneString="alguien"
+
+[xDomMessage]
+YouControlBothPointsString="¡Tu equipo controla los dos puntos!"
+EnemyControlsBothPointsString="¡El enemigo controla los dos puntos!"
+
+[xDomPointA]
+PointName="A"
+ObjectiveName="Punto DOM A"
+
+[xDomPointB]
+PointName="B"
+ObjectiveName="Punto DOM B"
+
+[xDoubleDom]
+GameName="Dominación doble"
+DDomPropsDisplayText[0]="Tiempo para puntuar"
+DDomPropsDisplayText[1]="Tiempo desactivado"
+
+[xFallingVolume]
+LocationName="en el aire"
+
+[xGenerateLeagueData]
+mFreeAgentsText="Mercenarios"
+
+[xKillerMessagePlus]
+YouKilled="Has matado a"
+
+[xPawn]
+TauntAnimNames[0]="Señalar"
+TauntAnimNames[1]="Atraer"
+TauntAnimNames[2]="Detener"
+TauntAnimNames[3]="Alegría"
+TauntAnimNames[4]="Movim. pélvico"
+TauntAnimNames[5]="Palmadita en el culo"
+TauntAnimNames[6]="Rajar garganta"
+TauntAnimNames[7]="Único"
+
+
+[xNameList]
+maNames=()
+mDefaultName="Sin Nombre"
+
+[xRedFlagBase]
+ObjectiveName="Base Bandera Roja"
+
+[xUtil]
+NoPreference="Sin prefer. de armas"
+FavoriteWeapon="Arma favorita:"
+AgilityString="Agilidad:"
+TacticsString="Táctica de equipo:"
+AccuracyString="Puntería:"
+AggressivenessString="Agresividad:"
+
+[xVictimMessage]
+YouWereKilledBy="¡Te ha matado"
+KilledByTrailer="!"
+
+[xRewards]
+DescriptionPrefix="Has ganado"
+MutatorRewardDesc="la mejora mutante"
+SalaryRewardDesc="un incremento salarial de $"
+FreeAgentRewardDesc="el mercenario"
+SkillRewardDesc="un incremento de la habilidad bot de "
+NoRewardDesc="Ninguno"
+
+[xSurvival]
+GameName="Supervivencia"
+
+[xSurvivalMessage]
+mGameName="Supervivencia"
+mCurrentMatch=" contra "
+mSignalStart="Presiona COMIENZO para empezar"
+mMatchStart="¡La ronda ha comenzado!"
+mWinner="¡gana esta ronda!"
+mDiedToo="murió de forma trágica."
+mWonMatch="¡Has ganado el partido!"
+mLostMatch="¡Has perdido el partido!"
+
+[xTeamList]
+maNames=("Metalidad de chusma","Supernova","Fuego cruzado","Invertidos","Asesinos","Contrabandistas","Puños ensangrentados","Apocalipsis","Tormenta de fuego","Área 51","Lamentos de la guerra","Vigilancia Nocturna","Máquina del dolor","Acero quirúrgico","Soldados de hojalata","Caminantes de las arenas","Espadas solares","Jihad","Aplastarrocas","Machacadores de almas","Rorcuales","Estremecedores","Pistoleros","Cruzados","Engendros infernales","Violadores","Inquisición")
+mDefaultName="Equipo"
+
+[xTimerMessage]
+CountDownTrailer="..."
+
+
+[ComboDefensive]
+ExecMessage="¡Defensa!"
+
+[xTutorialInfo]
+MoveKeyString[0]="Avanzar"
+MoveKeyString[1]="Retroceder"
+MoveKeyString[2]="Paso a la izquierda"
+MoveKeyString[3]="Paso a la derecha"
+MoveKeyString[4]="Saltar"
+
+[xVoicePack]
+AckString[0]="Afirmativo"
+AckString[1]="Lo tengo"
+AckString[2]="¡Estoy en ello!"
+AckString[3]="Recibido"
+FFireString[0]="¡Estoy en tu equipo!"
+FFireString[1]="Estoy en tu equipo, ¡imbécil!"
+FFireString[2]="¡Del mismo equipo!"
+FFireAbbrev[1]="Estoy en tu equipo, ¡imbécil!"
+TauntString[0]="¡Y quédate en el suelo!"
+TauntString[1]="¿Alguien más quiere?"
+TauntString[2]="¡Boom!"
+TauntString[3]="¡Arde, nene!"
+TauntString[4]="¡Muere, perra!"
+TauntString[5]="¡Trágate eso!"
+TauntString[6]="¡Peleas como mi abuela!"
+TauntString[7]="¿Es eso lo mejor que sabes hacer?"
+TauntString[8]="¡Bésame el culo!"
+TauntString[9]="Perdedor..."
+TauntString[10]="Como Pedro por su casa..."
+TauntString[11]="¡Siguiente!"
+TauntString[12]="Oh Sííí!"
+TauntString[13]="¡Soy el puto amo!"
+TauntString[14]="¡Nos vemos!"
+TauntString[15]="¡Eso ha tenido que doler!"
+TauntString[16]="Inútil..."
+TauntString[17]="Juegas como una niñita"
+TauntString[18]="Estás muerto"
+TauntString[19]="¿Te ha gustado?"
+TauntString[20]="¡Puta!"
+OrderString[0]="¡Defended la base!"
+OrderString[1]="Mantened la posición"
+OrderString[2]="Asaltad la base"
+OrderString[3]="¡Cubridme!"
+OrderString[4]="Buscad y destruid"
+OrderString[10]="¡Coged su bandera!"
+OrderString[11]="¡Defended la bandera!"
+OrderAbbrev[0]="¡Defended la base!"
+OrderAbbrev[2]="¡Atacad la base!"
+OtherString[0]="¡La base no está defendida!"
+OtherString[1]="¡recuperad nuestra bandera!"
+OtherString[2]="¡Tengo la bandera!"
+OtherString[3]="Te cubro"
+OtherString[4]="¡Me han dado!"
+OtherString[5]="¡Ha caído uno!"
+OtherString[6]="¡Estoy solo aquí %l!"
+OtherString[7]="Negativo"
+OtherString[8]="Tengo la bandera"
+OtherString[9]="En posición %l"
+OtherString[10]="¡Estoy entrando!"
+OtherString[11]="¡Zona asegurada!"
+OtherString[12]="¡El portador enemigo de bandera está aquí %l!"
+OtherString[13]="Necesito apoyo %l"
+OtherString[14]="¡Llegando!"
+OtherString[15]="¡El portador enemigo de la pelota está aquí %l!"
+OtherString[16]="¡Punto Alpha asegurado!"
+OtherString[17]="¡Punto Bravo asegurado!"
+OtherString[18]="¡Atacad Alpha!"
+OtherString[19]="¡Atacad Bravo!"
+OtherString[20]="¡Atacan la base %l"
+OtherString[21]="¡Nos están pasando por encima %l!"
+OtherString[22]="¡Estoy bajo fuego intenso %l"
+OtherString[23]="¡Defended el punto Alpha!"
+OtherString[24]="¡Defended el punto Bravo!"
+OtherString[25]="¡Tomad la pelota!"
+OtherString[26]="Estoy a la defensiva"
+OtherString[27]="Estoy a la ofensiva"
+OtherString[28]="¡Tomad el punto Alpha!"
+OtherString[29]="¡Tomad el punto Bravo!"
+OtherString[30]="¡Un médico!"
+OtherString[31]="¡Mola!"
+OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[2]="Got the flag"
+OtherAbbrev[3]="Te cubro"
+OtherAbbrev[6]="¡Estoy solo!"
+OtherAbbrev[8]="Got our flag"
+OtherAbbrev[9]="En posición"
+OtherAbbrev[12]="Enemy carrier here"
+OtherAbbrev[15]="Enemy carrier here"
+
+[UT2003LadderInfo]
+CHAMP1.MenuName="Semi-Final del Torneo"
+CHAMP2.MenuName="Final del Torneo"
+DM0.MenuName="Tutorial Deathmatch"

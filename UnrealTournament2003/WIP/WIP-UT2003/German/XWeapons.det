@@ -1,0 +1,261 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutArena,Description="Replace weapons and ammo in map.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutNoSuperWeapon,Description="No Redeemer or Ion Cannon in map.")
+
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.AssaultRifle,Description="Die billig und ohne großen Aufwand produzierbare AR770 verfügt über ein leichtes 5,56mm-Kaliber und eignet sich hervorragend für den Kampf gegen ungepanzerte Widersacher. Die Durchschlagskraft bei geringer oder moderater Panzerung machen dieses Gewehr zu einer idealen leichten Unterstützungswaffe. Kombiniert mit dem optionalen M355-Granatwerfer verfügt das Sturmgewehr sogar über den entsprechenden Punch, um selbst mit schwer gepanzerten Gegnern fertig zu werden.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.BallLauncher,Description="Der Ballwerfer ist eine neu eingeführte Variante innerhalb des Tournaments und nur im Modus Bombing Run verfügbar. Sobald Sie den Ball aufgenommen haben, wird der Ballwerfer automatisch aus Ihrem Arsenal ausgewählt. Solange Sie in Ballbesitz sind, können Sie keine weitere Waffe verwenden. Drücken Sie auf den Feuerknopf, um den Ball zu werfen, entweder als Pass zu einem Teamkameraden oder durch das Tor des gegnerischen Teams.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.BioRifle,Description="Das GES Biogewehr bleibt nach wie vor eine der umstrittensten Waffen des Tournaments. Von den einen geliebt, von den anderen gehasst steht es noch immer im Zentrum langer Debatten. Aufgrund der verzögerten Detonation des mutagenen Schlamms (und der Fähigkeit, weite Bereiche mit der hoch toxischen Substanz zu verseuchen) vergleichen manche Tournament-Puristen das Biogewehr mit einem Minenfeld, einem barbarischen und feigen Relikt längst vergangener menschlicher Konflikte. Die Befürworter hingegen heben die erweiterten taktischen Möglichkeiten für defensive Kombattanten hervor, die es Teilnehmern erlaube, strategisch wichtige Punkte wirksamer abzudecken. Doch trotz aller Diskussionen bleibt das Biogewehr historisch gesehen eine akkurate Waffe, deren Schnellfeuer im primären Feuermodus weite Bereiche abzudecken vermag, und die im Einzelfeuer des sekundären Modus über eine variable Sprengladung verfügt.") 
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.FlakCannon,Description="Die Nadelgeschoss-Kanone der 7-Serie von Trident Defensive Technologies hat mit der Produktion der MK3 "Negotiator" eine neue Entwicklungsstufe erreicht. Die ionisierten Nadelgeschosse hinterlassen auf organischem Gewebe Verbrennungen zweiten oder dritten Grades sowie schwere Verätzungen. Die gefährliche Ladung kann auf zwei verschiedenen Wegen an den Mann gebracht werden: Entweder direkt über das Geschützrohr, um weite Gebiete zu bestreichen, oder mit Hilfe von Splittergranaten, die beim Aufprall explodieren und ihre Fracht in alle Richtungen verbreiten.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.LinkGun,Description="Das verbesserte Plasmagewehr v23 (Link Gun) unterscheidet sich von seinem Vorgänger durch einen veränderten Sekundärmodus, der anstelle der Schneidbrenner-Funktion eine zuschaltbare Energiematrix mit Scannerfunktion besitzt. Diese Matrix versetzt die Waffe in die Lage, über den Kontakt mit einem grünen Strahl Freund und Feind zu unterscheiden, und ihre Eigenschaften entsprechend zu ändern. Trifft der Strahl einen Gegner, kann er in Sekundenschnelle tödliche Verletzungen verursachen. Bei Kontakt mit einem Teamkameraden verwandelt er sich in einen harmlosen Trägerstrahl, der seine Energie aus eingebauten Zellen entlädt, um die Ausgangsleistung eines ebenfalls mit einer Link Gun operierenden Teamkameraden zu steigern. Zwei Spieler können sich somit verbinden, um die Leistung der Waffe beträchtlich zu steigern. Sie sollten dabei aber nicht vergessen, dass Sie sich in dieser Zeit nicht vor feindlichen Angriffen schützen können.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Minigun,Description="Das T23-A 23mm von Schultz-Metzger mit rotierendem Mehrfachlauf kann sowohl hülsenlose Hochgeschwindigkeitsmunition als auch normale Patronen abfeuern. Bei einem Nettogewicht von nur 8 Kilogramm ist das T23 leicht zu transportieren bzw. zu manövrieren und kann mit Hilfe des optionalen Tragegurts problemlos auf den Rücken geschnallt werden. Das T23-A ist das ideale Geschütz für den umsichtigen Soldaten.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Painter,Description="Das Markierungsgewehr mag auf den ersten Blick völlig harmlos erscheinen, denn es er stößt im primären Feuermodus einen eher harmlosen Niedrigenergie-Laserstrahl aus. Doch nur wenige Sekunden später eröffnet ein mehrere Gigawatt starkes Ionen-Orbitalgeschütz das Feuer, das alles neutralisiert, was sich in unmittelbarer Nähe aufhält. Das Markierungsgewehr ist in Wahrheit eine Art Fernbedienung für das Ionengeschütz VAPOR. Mit Hilfe seines Zielfernrohrs, das sich problemlos über den sekundären Feuermodus aktivieren lässt, sorgt das Markierungsgewehr für verbesserte Zielgenauigkeit. Hat das Markierungsgewehr ein Ziel erst einmal erfasst, ist es ratsam, sich schleunigst aus seinem Wirkungsbereich zu entfernen und das Geschehen aus gebührender Distanz zu verfolgen.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Redeemer,Description="Wenn Sie diese Nuklearwaffe im Miniaturformat zum ersten Mal live erleben, werden Sie allen Recht geben, die dieses Gerät für die mächtigste Waffe im ganzen Tournament halten. Feuern Sie im primären Feuermodus eine langsam fliegende, aber alles vernichtende Rakete ab, aber halten Sie vor dem Aufprall gebührenden Abstand zum beeindruckend großen Detonationsradius. Im sekundären Modus können Sie mit einer speziellen Bordkamera die Rakete selbst ins Ziel führen. Während Sie das Geschoss des Redeemers steuern, bleiben Sie selbst aber stets verwundbar. Aufgrund der extremen Masse seiner Munition ist der Redeemer nach einem einzigen Schuss verbraucht.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.RocketLauncher,Description="Der dreiläufige Trident-Raketenwerfer ist bei all jenen beliebt, die mehr Bums fürs Geld verlangen. Aufgrund des Konstruktionsprinzips mit rotierenden Hinterladerläufen kann er sowohl mit Einzel- als auch mit Mehrfachsprengköpfen bestückt werden - bis zu drei Raketen lassen sich gleichzeitig montieren. Die Sprengköpfe entfalten bei der Explosion eine unvorstellbare Kraft über dem Ziel und der unmittelbaren Umgebung.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.ShieldGun,Description="Mit dem DD280 von Kemphler können Sie gegnerische Tumulte schon im Keim ersticken, denn es vermag anfliegenden Projektilen und Energiestrahlen zu widerstehen und diese zurückzuwerfen. Die Plasmawelle verursacht schwerste Schäden, lässt Gewebe zerplatzen, löst Organe in nichts auf und verursacht im Blutkreislauf des Gegners gefährliche Gasblasen. Die ursprünglich nur für den Nahkampf konzipierte Shieldgun ist bei richtiger Handhabung genauso gefährlich wie jede andere Waffe in Ihrem Arsenal.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.ShockRifle,Description="Die ASMD-Shock Rifle wurde seit ihrer Einführung in den Tournaments nur unwesentlich verändert. Die ASMD verfügt über zwei verschiedene Feuermodi, die in einer konzertierten Aktion mögliche Gegner mit einer zerstörerischen Schockwelle völlig neutralisieren können. Ein solcher Kombinationsangriff wird möglich, wenn der Operator den sekundären Feuermodus dazu verwendet, eine Plasmaladung auf sein Ziel abzufeuern. Sobald die träge Plasmamasse sich in Reichweite des Ziels befindet, feuert der Operator einen Photonenstrahl auf den Plasmakern ab und setzt so die explosive Energie der Anti-Photonen frei, die sich im Inneren des EM-Felds des Plasmas verbergen.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.SniperRifle,Description="Die Lightning Gun ist ein Hochleistungsenergiegeschütz,  das selbst schwerst gepanzerte Ziele in Flammen setzt. Das Anvisieren von Zielen aus großer Entfernung verlangt zwar eine ruhige Hand, aber der Anti-Zitter-Effekt des optischen Zielsystems verringert die Lernkurve erheblich. Ist das Ziel erfasst, drückt der Operator auf den Auslöser und malt ein Proton-'Muster' auf das Ziel. Nur Millisekunden später stößt das Geschütz einen Hochspannungsbogen elektrischer Energie aus, der sich in Staffeln entlädt und das Ziel auslöscht.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.TransLauncher,Description="Der Translokator wurde von der Entwicklungsabteilung der Liandri Corporation entworfen, um Minenarbeiter bei Tunneleinbrüchen zu evakuieren. Zahllose Leben wurden gerettet, doch nicht ohne Preis. Die schnelle Auflösung und Wiederherstellung des Organismus hatte zahlreiche Nebenwirkungen wie z.B. den Anstieg von Aggressionen und Paranoia, sowie Atem- oder Herzstillstand. Relikte der synaptischen Sprengung sammeln sich im Körper des Individuums an und führen zu Teleportation-induzierter Demenz (TID), einer unheilbaren Krankheit, der einige unserer größten Champions zum Opfer gefallen sind. Um die Krankheit einzudämmen, wurde die Verwendung des Translokators in den unteren Ligen eingeschränkt. Die jüngste Version verfügt über eine ferngesteuerte Kamera - extrem hilfreich beim Auskundschaften umstrittener Gebiete. Einziger Nachteil: Wer zu lange in die Röhre guckt, der hat keine Ahnung was in nächster Nähe passiert.")
+
+[AssaultAmmoPickup]
+PickupMessage="Sie haben eine Kiste mit Granaten."
+
+[AssaultRifle]
+ItemName="Sturmgewehr"
+
+[AssaultRiflePickup]
+PickupMessage="Sie haben das Sturmgewehr."
+
+[BallAmmo]
+ItemName="Ball Munition"
+
+[BallLauncher]
+ItemName="Ballwerfer"
+
+[BioAmmo]
+ItemName="Biogewehr Munition"
+
+[BioAmmoPickup]
+PickupMessage="Sie haben Biogewehr-Munition aufgesammelt."
+
+[BioRifle]
+ItemName="Biogewehr"
+
+[BioRiflePickup]
+PickupMessage="Sie haben das Biogewehr."
+
+[AssaultAmmoPickup]
+PickupMessage="Sie haben eine Schachtel mit Rifle-Runden."
+
+[DamTypeAssaultBullet]
+DeathString="%o wurde durch %ks Sturmgewehr weggeblasen."
+FemaleSuicide="%o hat sich selbst erledigt."
+MaleSuicide="%o hat sich selbst erledigt."
+
+[DamTypeAssaultGrenade]
+DeathString="%o wollte mit %ks Granate jonglieren."
+FemaleSuicide="%o ist auf ihre eigene Granate getreten."
+MaleSuicide="%o ist auf seine eigene Granate getreten."
+
+[DamTypeBioGlob]
+DeathString="%o wurde von %ks Biogewehr zu Brei gemacht."
+FemaleSuicide="%o hat sich selbst zu Brei gemacht."
+MaleSuicide="%o hat sich selbst zu Brei gemacht."
+
+[DamTypeFlakChunk]
+DeathString="%o wurde durch %ks Flak Cannon zerfetzt."
+FemaleSuicide="%o durch ihre eigene Flak durchlöchert."
+MaleSuicide="%o durch seine eigene Flak durchlöchert."
+
+[DamTypeFlakShell]
+DeathString="%o wurde durch %ks Schrapnell in Stücke gerissen."
+FemaleSuicide="%o hat sich selbst mit einer Flak-Ladung gesprengt."
+MaleSuicide="%o hat sich selbst mit einer Flak-Ladung gesprengt."
+
+[DamTypeIonBlast]
+DeathString="%o wurde AUSGELÖSCHT"
+FemaleSuicide="%o wurde AUSGELÖSCHT"
+MaleSuicide="%o wurde AUSGELÖSCHT"
+
+[DamTypeLinkPlasma]
+DeathString="%o bekam durch %ks Plasma eine Sonderhilfe."
+FemaleSuicide="%o durch eigene Plasmaexplosion verbrutzelt."
+MaleSuicide="%o durch eigene Plasmaexplosion verbrutzelt."
+
+[DamTypeLinkShaft]
+DeathString="%o durch %ks grünen Spieß aufgeschlitzt."
+FemaleSuicide="%o hat sich selbst aufgespießt."
+MaleSuicide="%o hat sich selbst aufgespießt."
+
+[DamTypeMinigunBullet]
+DeathString="%o durch Sperrfeuer aus %ks Minigun weggemäht."
+FemaleSuicide="%o hat sich selbst die Minigun angesetzt."
+MaleSuicide="%o hat sich selbst die Minigun angesetzt."
+
+[DamTypeRedeemer]
+DeathString="%k hat %o eine PACKUNG SCHMERZEN verpasst!"
+FemaleSuicide="%o wurde von ihrem eigenen Redeemer weggepustet."
+MaleSuicide="%o wurde von seinem eigenen Redeemer weggepustet."
+
+[DamTypeRocket]
+DeathString="%o durch %ks Rakete zunichte gemacht."
+FemaleSuicide="%o hat ihre Rakete zu früh abgefeuert."
+MaleSuicide="%o hat seine Rakete zu früh abgefeuert."
+
+[DamTypeShieldImpact]
+DeathString="%o durch %ks Shield Gun zerkleinert."
+FemaleSuicide="%o hat sich einmal zu oft ins Zeug geschmissen."
+MaleSuicide="%o hat sich einmal zu oft ins Zeug geschmissen."
+
+[DamTypeShockBall]
+DeathString="%o durch %ks Schockkern vernichtet."
+FemaleSuicide="%o hat sich mit eigenem Schockkern weggeputzt."
+MaleSuicide="%o hat sich mit eigenem Schockkern weggeputzt."
+
+[DamTypeShockBeam]
+DeathString="%o durch %ks Schockstrahl tödlich geblendet."
+FemaleSuicide="%o hat es geschafft, sich mit der Shock-Rifle selbst zu erschießen."
+MaleSuicide="%o hat es geschafft, sich mit der Shock-Rifle selbst zu erschießen."
+
+[DamTypeShockCombo]
+DeathString="%o konnte der Explosion durch %ks Shock-Kombifeuer nicht ausweichen."
+FemaleSuicide="%o beging mit ihrer Shock-Combo einen taktischen Fehler."
+MaleSuicide="%o beging mit seiner Shock-Combo einen taktischen Fehler."
+
+[DamTypeSniperHeadShot]
+DeathString="%os Schädel ist durch einen Kopfschuss aus %ks Lightning Gun besonders knusprig."
+FemaleSuicide="%o hat gegen die Raum-Zeit-Regeln verstoßen und sich selbst abgeknallt."
+MaleSuicide="%o hat gegen die Raum-Zeit-Regeln verstoßen und sich selbst abgeknallt."
+
+[DamTypeSniperShot]
+DeathString="%o hat %ks Lightning-Feuer zu spüren bekommen."
+FemaleSuicide="%o hatte ein spannungsgeladenes Erlebnis."
+MaleSuicide="%o hatte ein spannungsgeladenes Erlebnis."
+
+[DamTypeTeleFrag]
+DeathString="%o Atome durch %k gut verstreut."
+FemaleSuicide="%o wollte dahin, wo noch keine Frau zuvor war."
+MaleSuicide="%o wollte dahin, wo noch kein Mann zuvor war."
+
+[FlakAmmo]
+ItemName="Flak-Geschosse"
+
+[FlakAmmoPickup]
+PickupMessage="Sie haben 10 Flak-Geschosse aufgesammelt."
+
+[FlakCannon]
+ItemName="Flak Cannon"
+
+[FlakCannonPickup]
+PickupMessage="Sie haben die Flak Cannon."
+
+[GrenadeAmmo]
+ItemName="Granaten"
+
+[LinkAmmo]
+ItemName="Link-Ladungen"
+
+[LinkAmmoPickup]
+PickupMessage="Sie haben 30 Link-Ladungen aufgesammelt."
+
+[LinkGun]
+ItemName="Link Gun"
+
+[LinkGunPickup]
+PickupMessage="Sie haben die Link Gun."
+
+[Minigun]
+ItemName="Minigun"
+
+[MinigunAmmo]
+ItemName="Kugeln"
+
+[MinigunAmmoPickup]
+PickupMessage="Sie haben 50 Kugeln aufgesammelt."
+
+[MinigunPickup]
+PickupMessage="Sie haben die Minigun."
+
+[MutArena]
+FriendlyName="Arena"
+Description="Waffen und Munition in der Karte auswechseln."
+
+[MutNoSuperWeapon]
+FriendlyName="Keine Superwaffen"
+Description="Superwaffen-Pickups werden von der Karte entfernt."
+
+[Painter]
+ItemName="Markierungsgewehr"
+
+[PainterPickup]
+PickupMessage="Sie haben das Markierungsgewehr."
+
+[Redeemer]
+ItemName="Redeemer"
+
+[RedeemerAmmo]
+ItemName="Redeemer-Kerne"
+
+[RedeemerPickup]
+PickupMessage="Sie haben den Redeemer."
+
+[RocketAmmo]
+ItemName="Raketen"
+
+[RocketAmmoPickup]
+PickupMessage="Sie haben einen Raketensatz aufgesammelt."
+
+[RocketLauncher]
+ItemName="Raketenwerfer"
+
+[RocketLauncherPickup]
+PickupMessage="Sie haben den Raketenwerfer."
+
+[ShieldAmmo]
+ItemName="Shield"
+
+[ShieldGun]
+ItemName="Shield Gun"
+
+[ShieldGunPickup]
+PickupMessage="Sie haben die Shield Gun."
+
+[ShockAmmo]
+ItemName="Schockkern"
+
+[ShockAmmoPickup]
+PickupMessage="Sie haben einen Schockkern aufgesammelt."
+
+[ShockRifle]
+ItemName="Shock Rifle"
+
+[ShockRiflePickup]
+PickupMessage="Sie haben die Shock Rifle."
+
+[SniperAmmo]
+ItemName="Lightning-Ladungen"
+
+[SniperAmmoPickup]
+PickupMessage="Sie haben 10 Lightning-Ladungen aufgesammelt."
+
+[SniperRifle]
+ItemName="Lightning Gun"
+
+[SniperRiflePickup]
+PickupMessage="Sie haben die Lightning Gun."
+
+[SuperShockRifle]
+ItemName="Super Shock Rifle"
+
+[SuperShockRiflePickup]
+PickupMessage="Sie haben die Super Shock Rifle."
+
+[TransAmmo]
+ItemName="Trans-Projektile"
+
+[TransLauncher]
+ItemName="Translokator"
+
+[MutLinkHealer]
+FriendlyName="LinkGun-Med."
+Description="LinkGun-Strahl heilt Teamkollegen"
+

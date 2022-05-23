@@ -1,0 +1,68 @@
+[AdminIni]
+Msg_PlayerList="Lista gioc.:"
+Msg_FinishGameEditFirst="Devi finire di preparare la partita prima di ricominciare la mappa."
+Msg_FinishGameRestart="Devi finire di preparare la partita prima di cambiare o ricominciare la mappa."
+Msg_GameNoSupportBots="L'attuale tipo di partita non supporta i bot."
+Msg_StatsNoBots="Non si possono controllare i bot quando le statistiche mondiali sono attivate."
+Msg_NextMapNotFound="Mappa successiva non trovata, ricomincia la stessa mappa."
+Msg_ChangingMapTo="Cambia la mappa con %NextMap%."
+Msg_PlayerBanned="%Player% è stato bandito da questo server."
+Msg_SessionBanned="%Player% è stato bandito da questa partita."
+Msg_PlayerKicked="%Player% è stato cacciato."
+Msg_NoBotGameFull="Non si possono aggiungere bot, la partita è piena."
+Msg_NoAddNamedBot="Non si possono scegliere i bot una volta che la partita è cominciata."
+Msg_NoBotsPlaying="Nessun bot sta giocando"
+Msg_SetBotNeedVal="Questo comando vuole un valore numerico tra 0 e 32"
+Msg_MutNeedGameEdit="Devi usare il comando 'Personalizza partita' prima del comando 'Mutatori'"
+Msg_NoMutatorInUse="Nessun mutatore in uso"
+Msg_NoUnusedMuts="Nessun mutatore inutilizzato trovato"
+Msg_AddedMutator="Aggiungi '%Mutator%' alla lista di mutatori usati"
+Msg_ErrAddingMutator="Errore nell'aggiungere '%Mutator%' alla lista di mutatori usati"
+Msg_RemovedMutator="Rimuovi '%Mutator%' dalla lista di mutatori usati"
+Msg_ErrRemovingMutator="Errore nel rimuovere '%Mutator%' dalla lista di mutatori usati"
+Msg_MapListNeedGameEdit="Devi usare il comando 'Personalizza partita' prima del comando 'Lista mappe'"
+Msg_MapRotationList="Lista di rotazione mappe per %Game%"
+Msg_NoMapInRotation="Nessuna mappa nella lista di rotazione"
+Msg_NoMapsAdded="Nessuna mappa aggiunta alla lista"
+Msg_AddedMapToList="Aggiunta '%Map%' alla lista di rotazione mappe"
+Msg_NoMapsRemoved="Nessuna mappa rimossa dalla lista"
+Msg_RemovedMapFromList="Rimossa '%Map%' dalla lista di rotazione mappe"
+Msg_NoMapsFound="Nessuna mappa è stata trovata"
+Msg_MapIsInRotation="La mappa '%Map%' è nella lista di rotazione mappe"
+Msg_MapNotInRotation="La mappa '%Map%' non è nella lista di rotazione mappe"
+Msg_MustEndGameEdit="Devi prima finire di personalizzare la partita"
+Msg_EditingClass="Personalizzando %Class%"
+Msg_EditFailed="Fallito l'inizio della personalizzazione"
+Msg_AlreadyEdited="La partita è già stata personalizzata da qualcun'altro"
+Msg_NotEditing="Non stai personalizzando le impostazioni della partita, usa prima 'Personalizzazione della partita'"
+Msg_EditingCompleted="Personalizzazione completata"
+Msg_EditingCancelled="Personalizzazione cancellata"
+Msg_UnknownParam="Parametro sconosciuto : %Value%"
+Msg_NoParamsFound="Nessun parametro trovato!"
+Msg_ParamModified="Modificato con successo"
+Msg_ParamNotModified="Non puoi modificare i parametri"
+
+[xExtraPrivs]
+LoadMsg="Privilegi extra caricati"
+MainPrivs="X"
+SubPrivs="Xb|Xc|Xp"
+Tags=("Varie","Gestisci politiche IP","Usa console","Lista gioc.")
+
+[xGamePrivs]
+LoadMsg="Privilegi mappe & partita caricati"
+MainPrivs="M"
+SubPrivs="Mr|Mt|Mm|Ml|Ms|Mu|Mb"
+Tags=("Mappe/Impostazioni partita","Ricomincia mappa","Cambia tipo partita","Cambia mappa","Gestisci rotazione mappe","Impostazioni partita","Seleziona mutatori","Aggiungi/Rimuovi bot")
+
+[xKickPrivs]
+LoadMsg="Privilegi caccia e bandisci caricati"
+MainPrivs="K"
+SubPrivs="Kp|Kb|Ko"
+Tags=("Caccia/Bandisci","Caccia gioc.","Bandisci gioc.","Caccia bot")
+
+[xUserGroupPrivs]
+LoadMsg="Amm. & Gruppi dirigenti caricati"
+MainPrivs="A|G"
+SubPrivs="Al|Aa|Ae|Ag|Am|Gl|Ga|Ge"
+Tags=("User","Lista Amm.","Aggiungi/Rimuovi amm.","Personalizza amm.","Assegna gruppi","Crea dirigenti","Gruppi","Lista gruppi","Aggiungi/Rimuovi Gruppi","Personalizza gruppi")
+

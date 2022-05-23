@@ -1,0 +1,146 @@
+[Errors]
+MissingProductTitle="%s kann in diesem Ordner nicht %s werden"
+MissingProductInstalled="installiert"
+MissingProductPatched="aktualisiert"
+MissingProductThis="Diese Aktualisierung"
+MissingProduct="%s erfordert zunächst %s, um in diesem Ordner installiert zu werden. Bitte durchsuchen Sie den vorhandenen Ordner nach %s, oder beenden Sie, um die Installation jetzt durchzuführen.\n\nFür Produktinfos im Internet folgen Sie bitte dem Link unten."
+OldVersion="%s erfordert %s, ab Version %i. Die Version auf Ihrem Rechner ist jedoch älter (Sie haben die Version %i). Bitte installieren Sie %s, ab Version %i, und versuchen Sie es erneut. Nähere Informationen erhalten Sie im Internet - klicken Sie auf den Link unten.\n\nSetup wird jetzt beendet."
+FolderTitle="Ordner '%s'"
+FolderFormat="Der eingegebene Ordner - '%s' - ist ungültig. Bitte versuchen Sie es erneut."
+AlreadyRunningTitle="Wird derzeit verwendet, Installation nicht möglich"
+AlreadyRunning="Um den Installationsvorgang fortzusetzen, schließen Sie bitte alle aktiven Kopien und drücken Sie auf 'OK'. Zum Beenden auf 'Abbrechen' drücken."
+WrongCdTitle="Dateien auf CD-ROM nicht gefunden"
+WrongCd="Die erwartete Version der Datei %s wurde auf dem CD-ROM-Laufwerk nicht gefunden.\n\nBitte überprüfen Sie, dass die richtige CD eingelegt ist."
+MissingInstallerFile="Installer-Datei nicht gefunden"
+MissingReferenceFile="Referenzdatei nicht gefunden"
+MissingSourceFile="Quelldatei nicht gefunden"
+FailedOpenSource="Fehler beim Öffnen der Quelldatei"
+FailedOpenDest="Fehler beim Öffnen der Zieldatei"
+FailedReadingSource="Fehler beim Lesen der Quelldatei"
+FailedWritingDest="Fehler beim Schreiben der Zieldatei"
+FailedLoadingUpdate="Fehler beim Laden der Aktualisierungsdatei"
+FailedReadingReference="Fehler beim Lesen der Referenzdatei"
+FailedClosingSource="Fehler beim Schließen der Quelldatei"
+FailedClosingDest="Fehler beim Schließen der Zieldatei"
+FailedMakeDir="Fehler beim Erstellen des Verzeichnisses für die Zieldatei"
+AdviseBadMedia="Das Quellmedium ist wahrscheinlich fehlerhaft. Entfernen Sie ggf. Verunreinigungen von der CD, überprüfen Sie das CD-Laufwerk und versuchen Sie es erneut."
+AdviseBadDownload="Die heruntergeladenen Aktualisierungsdateien sind wahrscheinlich beschädigt."
+AdviseBadDest="Wahrscheinlich ist das Ziellaufwerk voll, oder es enthält schadhafte Sektoren."
+PatchCorrupt="Die Patch-Datei %s ist beschädigt.\n\n%s"
+CdFileMismatch="Die Datei %s von der CD-ROM ist nicht die erwartete Version. %s kann daher nicht gepatcht werden."
+CDKeyTitle="Ungültiger CD-Key"
+CDKeyFormat="Sie haben einen ungültigen CD-Key eingegeben. Bitte überprüfen Sie den CD-Key auf Ihrer CD-Hülle und versuchen Sie es erneut."
+
+[General]
+Space="%i Megabyte"
+Ready="Setup ist bereit, %s zu installieren.\nDer Zielordner lautet: %s\n\nKlicken Sie auf 'Installieren', um die Installation zu starten.\nKlicken Sie auf 'Abbrechen', um den Vorgang zu beenden, ohne %s zu installieren."
+InstallCancel="Installation abbrechen"
+CancelPrompt="Achtung! Durch den Abbruch der Installation kann %s nicht korrekt ausgeführt werden. Möchten Sie den Vorgang wirklich abbrechen?"
+DidCancel="Sie haben die Installation abgebrochen. Das Produkt wurde nicht erfolgreich installiert und kann nicht korrekt ausgeführt werden."
+CdDescription="Um die %s-Aktualisierung zu installieren, müssen einige Dateien von der Original-%s-CD-ROM kopiert werden.\n\nBitte legen Sie die %s-CD-ROM ein und klicken Sie auf 'Weiter'. Ist die CD-Laufwerk-Angabe unzutreffend, geben Sie bitte unten den richtigen Laufwerkbuchstaben ein."
+CdDrive="CD-ROM-Laufwerk"
+NotEnoughSpaceTitle="Installieren nicht möglich"
+NotEnoughSpace="Auf dem Laufwerk %s ist nicht genügend Speicherplatz frei, um %s zu installieren. Bitte wählen Sie ein Laufwerk mit mehr freiem Speicher, oder brechen Sie ab, machen Speicherplatz frei und versuchen es dann erneut."
+Finish="&Fertigstellen"
+RebootButton="&Neustart"
+ExitButton="&Beenden"
+Abbreviation="UT2003-Setup"
+CDPromptTitle="Warte auf CD"
+CDPromptMessage="Bitte legen Sie die Unreal Tournament 2003 CD Nummer %d\n\n(%s) ein."
+InstallQFE="Unreal Tournament 2003 Setup muss ein Update für DirectX 8.1 installieren.  Bitte folgen Sie den Anweisungen im nachfolgenden Dialogfenster."
+
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play="&Spielen"
+IDC_Reinstall="&Installieren"
+IDC_Uninstall="&Deinstallieren"
+IDC_ReleaseNotes="Versions&Hinweise"
+IDC_Web="Unreal Tournament 2003 &Webseite"
+IDC_Complete="Installation erfolgreich abgeschlossen!"
+IDC_CompleteReboot="Installation erfolgreich abgeschlossen!\nUm mit dem Spiel zu beginnen, müssen Sie den Computer neu starten."
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt="Bei diesem Vorgang wird %s auf Ihrem Computer installiert.\n\nKlicken Sie auf 'Weiter', um das Setup zu starten. Zum Beenden können Sie jederzeit auf 'Abbrechen' klicken.\n\nFür weitere Hinweise können Sie den Web-Links folgen, die im Info-Feld unten aufgeführt sind."
+IDC_WelcomePromptUpdate="Dieses Programm enthält die Aktualisierung für % (Version %).\n\nKlicken Sie auf 'Weiter', um das Setup zu starten. Zum Beenden können Sie jederzeit auf 'Abbrechen' klicken.\n\nFür weitere Hinweise können Sie den Web-Links folgen, die im Info-Feld unten aufgeführt sind."
+IDC_LanguagePrompt="&Sprache"
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText="Bitte lesen Sie die folgende Lizenzvereinbarung aufmerksam durch. Die Installation dieses Programms setzt Ihre Zustimmung zu den Lizenzbestimmungen voraus."
+IDC_LicenseQuestion="Stimmen Sie diesen Lizenzbestimmungen zu? Klicken Sie auf 'Ich stimme zu' bzw. auf 'Abbrechen'."
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText="Wählen Sie die Komponenten, die installiert werden sollen."
+IDC_ComponentsPrompt="&Komponenten:"
+IDC_DiskSpaceFrame="Speicherplatz"
+IDC_DescriptionFrame="Beschreibung"
+IDC_SpaceRequiredMessage="Erforderlich:"
+IDC_SpaceAvailableMessage="Verfügbar:"
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText="Wählen Sie die Komponenten, die deinstalliert werden sollen."
+IDC_ComponentsPrompt="&Komponenten:"
+IDC_DependenciesFrame="Abhängigkeiten"
+IDC_DependenciesText="Wenn Sie den Vorgang fortsetzen, werden folgende Komponenten deinstalliert: %s"
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription="Das Setup-Programm wird %s im folgenden Ordner installieren.\n\nKlicken Sie auf 'Weiter', um die Installation in diesem Ordner vorzunehmen.\n\nUm einen anderen Ordner auszuwählen, geben Sie den entsprechenden Pfad vollständig ein, einschließlich des Laufwerk-Buchstabens. Beispiel: C:\\NeuerOrdner"
+IDC_FolderDescriptionPatch="Das Setup-Programm wird die Aktualisierung für %s im folgenden Ordner installieren.\n\nKlicken Sie auf 'Weiter', um den Vorgang zu bestätigen.\n\nFalls Sie mehrere Versionen installiert haben, geben Sie den Pfad der zu aktualisierenden Programmkopie vollständig ein, einschließlich des Laufwerk-Buchstabens. Beispiel: C:\\EinOrdner"
+IDC_FolderDescriptionMissing="Das Setup-Programm wird eine vorhandene Installation von %s aktualisieren.\n\nGeben Sie den Pfad des vorhandenen Ordners vollständig ein, einschließlich des Laufwerk-Buchstabens. Beispiel: C:\\EinOrdner"
+IDC_FolderHolder="Zielordner"
+IDC_Browse="Durch&suchen"
+IDC_Default="&Zurücksetzen"
+IDC_SpaceAvailableMessage="Verfügbarer Speicherplatz auf Laufwerk:"
+IDC_FullSpaceRequiredMessage="Erforderlicher Speicherplatz für Standard-Installation:"
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText="Dateien werden installiert..."
+IDC_InstallingText="Installieren:"
+IDC_ProgressText="Dateistatus:"
+IDC_TotalText="Gesamt-Status:"
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText="Dateien werden deinstalliert..."
+IDC_InstallingText="Verarbeiten:"
+IDC_ProgressText="Dateistatus:"
+IDC_TotalText="Gesamt-Status:"
+
+[IDDIALOG_Restart]
+IDC_Restart="Installation abgeschlossen"
+IDC_RestartMessage="Sie müssen Windows neu starten, um die Installation abzuschließen."
+IDC_RestartText="Schließen Sie vor dem Neustart alle aktiven Anwendungen und MS-DOS-Sitzungen, und speichern Sie alle aktiven Dokumente. Entfernen Sie ggf. alle Disketten aus dem/den Laufwerk(en). Klicken Sie anschließend auf die Schaltfläche 'Windows neu starten'."
+IDC_Complete="Nach dem Windows-Neustart ist das Setup vollständig abgeschlossen."
+IDC_Restart="Windows neu &starten"
+IDC_Exit="Setup &beenden"
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog="Unreal Setup"
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement="Dieses Produkt kann hier nicht installiert werden"
+IDC_FailedMessage="Dieses Produkt erfordert zunächst die Installation des folgenden Produkts in diesem Ordner. Bitte durchsuchen Sie den vorhandenen Ordner, oder beenden Sie, um die Installation jetzt durchzuführen.\n\nFür weitere Hinweise im Internet folgen Sie bitte dem Link unten."
+IDC_ProductHolder="Erforderliches Produkt"
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder="Produkt"
+IDC_ProductText="Produkt:"
+IDC_VersionText="Version:"
+IDC_DeveloperText="Entwickler:"
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt="Durch diesen Vorgang werden folgende Komponenten deinstalliert:"
+IDC_UninstallQuestion="Sind Sie sich sicher, dass Sie diese Komponenten entfernen möchten?"
+
+[IDDIALOG_FilerPageCDKey]
+IDC_CDKeyDescription="Bitte geben Sie den zwanzigstelligen CD-Key ein, den Sie auf der Hülle der CD finden. Geben Sie den Key genau so ein, wie Sie ihn vorfinden, inklusive Bindestriche. \n\nDer CD-Key sollte in folgender Form eingegeben werden: XXXXX-XXXXX-XXXXX-XXXXX\n\nWenn Sie den CD-Key eingegeben haben, drücken Sie Weiter, um fortzufahren."
+IDC_CDKeyHolder="CD Key"
+
+[IDDIALOG_AutopatchPageGo]
+IDC_AutoUpdateText="Automatisches Updaten der Dateien..."
+IDC_UpdatingText="Versuche download..."
+IDC_ProgressText="Download Fortschritt"
+IDC_Manual="Hier anklicken, um zu manuellem Download auf der Web-Seite zu gelangen."
+ManualDownloadPage="http://unreal.epicgames.com/ut2003versions.htm"
+CancelText="Vor Abschluss des Auto-Update können Sie nur Einzelspieler und LAN-Partien spielen. Sind Sie sicher, dass Sie das Auto-Update abbrechen wollen?"
+ContactingText="Verbindung zur Seite: "
+DownloadingText="Download der Datei: "
+SuccessText="Download der Dateien erfolgreich. Auf 'Fertigstellen' klicken, um die Updates zu installieren."

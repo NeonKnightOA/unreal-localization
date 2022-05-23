@@ -1,0 +1,75 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutante|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|All'ultimo uomo|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Aggiunge la combo camuffamento (RRRR).")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Aggiunge la combo Pint-sized (LLLL).")
+
+[ComboCrate]
+ExecMessage="Camuffamento!"
+
+[ComboMiniMe]
+ExecMessage="Pint-sized!"
+
+[DamTypeMutant]
+DeathString="La mutazione di %o è stata letale!"
+FemaleSuicide="La mutazione di %o è stata letale!"
+MaleSuicide="La mutazione di %o è stata letale!"
+
+[HudLMS]
+LivesRemainingString="Vite rimaste"
+PlayersRemainString="Giocatori rimasti -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+BottomFeederText="PREDATORE DI CODA"
+
+[LMSMessage]
+YouAreCamperMessage="Ti stai accampando!"
+SomeoneIsCamperMessage=" "
+SomeoneIsCamperMessageTrailer=" si sta accampando!"
+
+[MutCrateCombo]
+FriendlyName="Combo camuffamento"
+Description="Aggiunge la combo camuffamento (RRRR)."
+
+[MutPintSizeCombo]
+FriendlyName="Combo Pint-sized"
+Description="Aggiunge la combo Pint-sized (LLLL)."
+
+[MutantMessage]
+YouAreMutantMessage="Hai subito la mutazione!"
+SomeoneIsMutantMessage=" "
+SomeoneIsMutantMessageTrailer=" ha subito la mutazione!"
+FFAMessage="Il primo sangue fa mutare!"
+BottomFeederMessage="Tu sei il Predatore di coda!"
+NotBottomFeederMessage="Non sei più Predatore di coda!"
+
+[MutantNameMessage]
+BottomFeederMesg="(PREDATORE DI CODA)"
+
+[ScoreBoardLMS]
+LivesText="VITE"
+
+[Tab_IAMutant]
+TargetScoreString="Limite di punti"
+IARulesBottomFeeders.Caption="Predatori di coda"
+IARulesBottomFeeders.Hint="Quando è attiva, chi si trova in coda alla classifica può uccidere chiunque."
+
+[xLastManStandingGame]
+GameName="All'ultimo uomo"
+
+[xMutantGame]
+GameName="Mutante"
+
+[Tab_IALastManStanding]
+IARulesExtraLives.Caption="Uccidere rigenera salute"
+IARulesExtraLives.Hint="Quando è attiva, a ogni uccisione il giocatore recupera una parte della sua salute."
+IARulesLMSAllowAdrenaline.Caption="Consenti Adrenalina"
+IARulesLMSAllowAdrenaline.Hint="Quando è attiva, i giocatori possono usare l'Adrenalina."
+IARulesLMSAllowPickups.Caption="Consenti oggetti"
+IARulesLMSAllowPickups.Hint="Quando è attiva, è possibile raccogliere gli oggetti normali."
+IARulesSuperWeaps.Caption="Consenti armi super"
+IARulesSuperWeaps.Hint="Quando è attiva, è possibile raccogliere le armi super."
+
+

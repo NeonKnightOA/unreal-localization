@@ -1,0 +1,139 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner="Crear archivos maestros de instalación"
+HelpUsage=master [-option...] [parm=value]...
+HelpParm[0]=MasterPath
+HelpDesc[0]="Directorio raíz del que copiar archivos fuente"
+HelpParm[1]=SrcPath
+HelpDesc[1]="Directorio raíz al que copiar archivos fuente (liberar)"
+HelpParm[2]=RefPath
+HelpDesc[2]="Ruta para referencia de ruta compresión delta"
+
+[MapConvertCommandlet]
+HelpCmd=mapconvert
+HelpOneLiner="Convierte Mapas del formato antiguo al nuevo (sin cambios de brocha)"
+HelpUsage=mapconvert SrcFilename DstFilename
+HelpParm[0]=SrcFilename
+HelpDesc[0]="Nombre de archivo del mapa del que leer"
+HelpParm[1]=DstFilename
+HelpDesc[1]="Nombre de archivo del mapa al que copiar"
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner="Generar archivos binarios conformados"
+HelpUsage=conform existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]="Archivo binario existente a cargar, conformar y guardar"
+HelpParm[1]=oldfile.ext
+HelpDesc[1]="Archivo antiguo con el que hacer archivo fuente compatible binariamente"
+
+[PkgCommandlet]
+HelpCmd=pkg
+HelpOneLiner="Datos de Importación/Exportación a/de paquetes usando estructuras de directorio."
+HelpUsage=pkg [import/export] [texture/sound] [packagename] [directory]
+HelpParm[0]=import/export
+HelpDesc[0]="Qué tratas de hacer con los datos"
+HelpParm[1]=texture/sound
+HelpDesc[1]="El tipo de paquete con el que trabajas"
+HelpParm[2]=packagename
+HelpDesc[2]="El paquete que estás creando/del que estás exportando"
+HelpParm[3]=directory
+HelpDesc[3]="El directorio del que leer/al que escribir"
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpOneLiner="Establecer marcadores en los archivos empaquetados"
+HelpUsage=packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]
+HelpParm[0]=src.ext
+HelpDesc[0]="Existe archivo empaquetado que se puede cargar"
+HelpParm[1]=dest.exe
+HelpDesc[1]="Nombre del nuevo archivo empaquetado con los nuevos parámetros de marcadores"
+HelpParm[2]=flag
+HelpDesc[2]="+ para establecer un marcador, o - para eliminar un marcador, seguido por :"
+HelpParm[3]=" "
+HelpDesc[3]="  PermitirDescarga"
+HelpParm[4]=" "
+HelpDesc[4]="  ClienteOpcional"
+HelpParm[5]=" "
+HelpDesc[5]="  SóloLadoServidor"
+HelpParm[6]=" "
+HelpDesc[6]="  EnlacesPerdidos"
+HelpParm[7]=" "
+HelpDesc[7]="  Inseguro"
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner="Rebuild UnrealScript packages"
+HelpUsage=make [-option...] [parm=value]...
+HelpParm[0]=Silent
+HelpDesc[0]="Sin preguntas; aceptar 'sí' como respuesta a todas las preguntas"
+HelpParm[1]=NoBind
+HelpDesc[1]="No forzar a las funciones nativas estén limitadas por DLLs"
+HelpParm[2]=All
+HelpDesc[2]="Reconstruir limpiando (en caso contrario la reconstrucción es incremental)"
+
+[DXTConvertCommandlet]
+HelpCmd=dxtconvert
+HelpOneLiner="Convertir las texturas DXT3/5 a DXT1/ RGBA"
+HelpUsage=dxtconvert srcpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]="Ruta de acceso a los archivos origen"
+HelpParm[1]=destpath
+HelpDesc[1]="Ruta de acceso a los archivos destino"
+
+
+[AnalyzeContentCommandlet]
+HelpCmd=analyzecontent
+HelpOneLiner="Analiza mapa"
+HelpUsage=analyzecontent mapname
+HelpParm[0]=mapname
+HelpDesc[0]="Ruta de acceso al archivo de mapa"
+
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner="Exportar objectos en masa"
+HelpUsage=batchexport package.ext classname export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]="Paquete cuyos objetos quieres exportar"
+HelpParm[1]=classname
+HelpDesc[1]="Clase del objeto a exportar"
+HelpParm[2]=export_ext
+HelpDesc[2]="Extensión de archivo a la que exportar"
+HelpParm[3]=path
+HelpDesc[3]="Ruta de acceso a la que exportar los archivos, como c:\MiRuta"
+
+[DataRipCommandlet]
+HelpCmd=datarip
+HelpOneLiner="Crear un paquete con las texturas, la música y el sonido eliminados."
+HelpUsage=datarip srcpackage.ext dstpackage.ext
+HelpParm[0]=srcpackage.ext
+HelpDesc[0]="Paquete de Origen"
+HelpParm[1]=dstpackage.ext
+HelpDesc[1]="Paquete de Destino"

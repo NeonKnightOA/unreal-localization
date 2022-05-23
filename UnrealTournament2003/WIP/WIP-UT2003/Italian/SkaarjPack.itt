@@ -1,0 +1,93 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=SkaarjPack.Invasion,Description="DM|Invasione|SkaarjPack.Tab_IAInvasion|BonusPack.MapListMutant|false")
+
+[DamTypeBelch]
+DeathString="Un Gasbag frigge %o."
+FemaleSuicide="Una Gasbag esplode."
+MaleSuicide="Un Gasbag esplode."
+
+[DamTypeBruteRocket]
+DeathString="Il razzo di un Brute devasta %o."
+FemaleSuicide="Una Brute ha lanciato troppo presto il suo razzo."
+MaleSuicide="Un Brute ha lanciato troppo presto il suo razzo."
+
+[DamTypeKrallBolt]
+DeathString="Un Krall folgora %o."
+
+[DamTypeSkaarjProj]
+DeathString="Uno Skaarj abbrustolisce %o."
+
+[DamTypeWarlordRocket]
+DeathString="Un Warlord distrugge %o fino all'ultimo pezzettino."
+FemaleSuicide="Una Warlord ha lanciato troppo presto il suo razzo."
+MaleSuicide="Un Warlord ha lanciato troppo presto il suo razzo."
+
+[HUDInvasion]
+YouveLostTheMatch="L'invasione continua"
+
+[Invasion]
+GameName="Invasione"
+
+[InvasionDeathMessage]
+SomeoneString="un mostro"
+
+[InvasionMessage]
+OutMessage="è FUORI!"
+
+[MeleeDamage]
+DeathString="%o si trova senza più viscere."
+FemaleSuicide="%o viene fatta a fettine."
+MaleSuicide="%o viene fatto a fettine."
+
+[ScoreboardInvasion]
+TeamScoreString="Punteggio squadra"
+WaveString="Ondata"
+
+[TAB_IAInvasion]
+IAInvasionWaveConfig.Caption="Configura le ondate"
+IAInvasionInitialWave.Caption="Ondata iniziale"
+IAInvasionInitialWave.Hint="Scegli l'ondata iniziale."
+
+[InvasionWaveConfig]
+WCFGClose.Caption="Chiudi"
+WCFGLabel1.Caption="Configura ogni onda..."
+WCFGLabel2.Caption="Difficoltà"
+WCFGDifficulty.Hint="Quanto dovrebbero essere impegnativi i mostri di questa ondata."
+WCFGCreat01.Caption="Pupae"
+WCFGCreat01.Hint="Le Skaarj Pupae."
+WCFGCreat02.Caption="Razor Fly"
+WCFGCreat02.Hint="I Razor Fly."
+WCFGCreat03.Caption="Manta"
+WCFGCreat03.Hint="I Manta."
+WCFGCreat04.Caption="Krall"
+WCFGCreat04.Hint="I Krall."
+WCFGCreat05.Caption="Elite Krall"
+WCFGCreat05.Hint="Gli Elite Krall."
+WCFGCreat06.Caption="Gasbag"
+WCFGCreat06.Hint="I Gasbag."
+WCFGCreat07.Caption="Brute"
+WCFGCreat07.Hint="I Brute."
+WCFGCreat08.Caption="Skaarj"
+WCFGCreat08.Hint="Gli Skaarj."
+WCFGCreat09.Caption="Behemoth"
+WCFGCreat09.Hint="I Behemoth."
+WCFGCreat10.Caption="Ice Skaarj"
+WCFGCreat10.Hint="Gli Ice Skaarj."
+WCFGCreat11.Caption="Fire Skaarj"
+WCFGCreat11.Hint="I Fire Skaarj."
+WCFGCreat12.Caption="Warlord"
+WCFGCreat12.Hint="I Warlord."
+WCFGCreat13.Caption="Pupae"
+WCFGCreat13.Hint="Le Skaarj Pupae."
+WCFGCreat14.Caption="Pupae"
+WCFGCreat14.Hint="Le Skaarj Pupae."
+WCFGCreat15.Caption="Razor Fly"
+WCFGCreat15.Hint="I Razor Fly."
+WCFGCreat16.Caption="Razor Fly"
+WCFGCreat16.Hint="I Razor Fly."
+WCFGDuration.Caption="Durata"
+WCFGDuration.Hint="Quanto dovrebbe durare ogni ondata."
+WCFGWaveNo.Caption="N. ondata"
+WCFGWaveNo.Hint="Scegli l'ondata da configurare."
+
+

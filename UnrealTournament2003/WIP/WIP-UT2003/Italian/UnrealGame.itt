@@ -1,0 +1,162 @@
+[Public]
+Object=(Name=UnrealGame.MutBigHead,Class=Class,MetaClass=Engine.Mutator,Description="Testone - Le dimensioni della testa dipendono da come stai giocando.")
+Object=(Name=UnrealGame.MutLowGrav,Class=Class,MetaClass=Engine.Mutator,Description="BasGrav - Bassa gravità.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=UnrealGame.MutDelayedSpawn,Description="Delayed spawn of super weapons and super powerups.")
+
+
+[UnrealScriptedSequence]
+DefensePointDefaultAction1.ActionString="Raggiungi il punto"
+DefensePointDefaultAction2.ActionString="Attendi cronometro"
+
+[CTFGame]
+GameName="Cattura la bandiera"
+
+[CTFHUDMessage]
+YouHaveFlagString="La bandiera è tua: torna alla base!"
+EnemyHasFlagString="Il nemico ha la tua bandiera: riprendila!"
+
+[CTFMessage]
+ReturnBlue="riporta indietro la bandiera blu!"
+ReturnRed="riporta indietro la bandiera rossa!"
+ReturnedBlue="La bandiera blu è stata restituita!"
+ReturnedRed="La bandiera rossa è stata restituita!"
+CaptureBlue="ha catturato la bandiera blu!"
+CaptureRed="ha catturato la bandiera rossa!"
+DroppedBlue="ha lasciato la bandiera blu!"
+DroppedRed="ha lasciato la bandiera rossa!"
+HasBlue="ha la bandiera blu!"
+HasRed="ha la bandiera rossa!"
+
+[DMMutator]
+DMMutPropsDisplayText[0]="Mega velocità"
+DMMutPropsDisplayText[1]="Controllo aereo"
+
+[DeathMatch]
+DMPropsDisplayText[0]="Partenza rete ritardata"
+DMPropsDisplayText[1]="Giocatori rete min."
+DMPropsDisplayText[2]="Nuova partenza ritardata"
+DMPropsDisplayText[3]="Partita di torneo"
+DMPropsDisplayText[4]="I giocatori devono essere pronti"
+DMPropsDisplayText[5]="Rientro forzato"
+DMPropsDisplayText[6]="Regola livello bot"
+DMPropsDisplayText[7]="Beffe consentite"
+DMPropsDisplayText[8]="Tempo di protezione per rigenerazione"
+GameName="Deathmatch"
+
+[FirstBloodMessage]
+FirstBloodString="ha versato il primo sangue!"
+
+[GameObjective]
+DestructionMessage="Obiettivo disattivato!"
+LocationPrefix="Vicino"
+ObjectiveStringSuffix=" Base squadra"
+
+[KeyPickup]
+PickupMessage="Hai preso una chiave."
+
+[KillingSpreeMessage]
+EndSpreeNote=" non farà più carneficine: ci ha pensato"
+EndSelfSpree="andava bene, poi si è ammazzato da solo!"
+EndFemaleSpree="andava bene, poi si è ammazzata da sola!"
+SpreeNote[0]="è una furia omicida!"
+SpreeNote[1]="sta facendo un macello!"
+SpreeNote[2]="sta dominando!"
+SpreeNote[3]="è inarrestabile!"
+SpreeNote[4]="sembra una divinità!"
+SpreeNote[5]="sta facendo uccisioni pazzesche!"
+SelfSpreeNote[0]="Furia omicida!"
+SelfSpreeNote[1]="Un macello!"
+SelfSpreeNote[2]="Dominazione!"
+SelfSpreeNote[3]="Inarrestabile!"
+SelfSpreeNote[4]="UNA DIVINITÀ!"
+SelfSpreeNote[5]="PAZZESCO!"
+
+[MutBigHead]
+FriendlyName="Testone"
+Description="Le dimensioni della testa dipendono da come stai giocando."
+
+[MutLowGrav]
+FriendlyName="Bassa Gravità"
+Description="Gravità pressoché assente."
+
+[SquadAI]
+SupportString="in appoggio"
+DefendString="in difesa"
+AttackString="in attacco"
+HoldString="in attesa"
+FreelanceString="Libero"
+
+[StartupMessage]
+Stage[0]="In attesa di altri giocatori."
+Stage[1]="In attesa del segnale di partenza. Sei PRONTO."
+Stage[2]="La partita sta per cominciare...3"
+Stage[3]="La partita sta per cominciare...2"
+Stage[4]="La partita sta per cominciare...1"
+Stage[5]="La partita è cominciata!"
+Stage[6]="La partita è cominciata!"
+Stage[7]="TEMPO SUPPLEMENTARE!"
+NotReady="Non sei pronto. Premi [Fuoco]!"
+SinglePlayer="Premi [Fuoco] per cominciare!"
+
+[TeamGame]
+NearString="Vicino a"
+TGPropsDisplayText[0]="Bot equilibrano squadre"
+TGPropsDisplayText[1]="Giocatori equilibrano squadre"
+TGPropsDisplayText[2]="Dimensioni max. squadra"
+TGPropsDisplayText[3]="Scala fuoco amico"
+GameName="DeathMatch a squadre"
+
+[tempvoice]
+OrderString[0]="Difendete la base."
+OrderString[1]="Tenete questa posizione."
+OrderString[2]="Attaccate la base."
+OrderString[3]="Copritemi."
+OrderString[4]="Attaccate secondo i parametri operativi."
+OrderString[10]="Prendete la bandiera nemica."
+OrderString[11]="Cercate e distruggete."
+OrderAbbrev[0]="In difesa"
+OrderAbbrev[2]="All'attacco"
+OrderAbbrev[4]="Azione libera."
+
+[TimerMessage]
+CountDownTrailer="..."
+
+[UnrealMPGameInfo]
+MPGIPropsDisplayText[0]="Giocatori min."
+MPGIPropsDisplayText[1]="Turni punteggio squadra"
+
+[DMStatsScreen]
+StatsString="STATISTICHE PERSONALI PER"
+AwardsString="PREMI"
+FirstBloodString="Primo sangue!"
+FlakMonkey="Asso del cannone flak!"
+ComboWhore="Artista del fuoco combinato!"
+HeadHunter="Cacciatore di teste!"
+FlagTouches="Bandiere toccate"
+FlagReturns="Bandiere riportate"
+GoalsScored="Mete segnate:"
+Hattrick="Tripla uccisione!"
+KillString[0]="Doppia uccisione!"
+KillString[1]="Uccisione multipla!"
+KillString[2]="Mega uccisione!"
+KillString[3]="Uccisione super!"
+KillString[4]="UCCISIONE DEVASTANTE!"
+KillString[5]="UCCISIONE FENOMENALE!"
+KillString[6]="SANTO CIELO!"
+AdrenalineCombos="COMBO ADRENALINA"
+ComboNames[0]="Velocità"
+ComboNames[1]="Distruzione"
+ComboNames[2]="Difensiva"
+ComboNames[3]="Invisibilità"
+ComboNames[4]="Altro"
+KillsByWeapon="STATISTICHE ARMA"
+CombatResults="RISULTATI COMBATTIMENTO"
+Kills="Uccisioni"
+Deaths="Morti"
+Suicides="Suicidi"
+NextStatsString="Premi F8 per passare al prossimo giocatore" 
+WeaponString="Arma" 
+DeathsBy="Ucciso/a da" 
+deathsholding="Morti con" 
+EfficiencyString="Efficienza"
+

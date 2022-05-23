@@ -1,0 +1,92 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=SkaarjPack.Invasion,Description="DM|Invasion|SkaarjPack.Tab_IAInvasion|BonusPack.MapListMutant|false")
+
+[DamTypeBelch]
+DeathString="%o wurde von einem Gasbag fritiert."
+FemaleSuicide="Ein Gasbag hat sich selbst in die Luft gejagt."
+MaleSuicide="Ein Gasbag hat sich selbst in die Luft gejagt."
+
+[DamTypeBruteRocket]
+DeathString="%o wurde von der Rakete eines Brute getroffen."
+FemaleSuicide="Ein Brute hat seine Rakete zu früh abgefeuert."
+MaleSuicide="Ein Brute hat seine Rakete zu früh abgefeuert."
+
+[DamTypeKrallBolt]
+DeathString="%o wurde von einem Krall abgeknallt."
+
+[DamTypeSkaarjProj]
+DeathString="%o wurde von einem Skaarj eingeäschert."
+
+[DamTypeWarlordRocket]
+DeathString="%o wurde von einem Warlord vernichtet."
+FemaleSuicide="Ein Warlord hat seine Rakete zu früh abgefeuert."
+MaleSuicide="Ein Warlord hat seine Rakete zu früh abgefeuert."
+
+[HUDInvasion]
+YouveLostTheMatch="Die Invasion geht weiter"
+
+[Invasion]
+GameName="Invasion"
+
+[InvasionDeathMessage]
+SomeoneString="ein Monster"
+
+[InvasionMessage]
+OutMessage="ist DRAUSSEN!"
+
+[MeleeDamage]
+DeathString="%o wurde ausgeweidet."
+FemaleSuicide="%o wurde zerhackt."
+MaleSuicide="%o wurde zerhackt."
+
+[ScoreboardInvasion]
+TeamScoreString="Team-Punkte"
+WaveString="Welle"
+
+[TAB_IAInvasion]
+IAInvasionWaveConfig.Caption="Wellen konfigurieren"
+IAInvasionInitialWave.Caption="Erste Welle"
+IAInvasionInitialWave.Hint="Wählen Sie die erste Welle."
+
+[InvasionWaveConfig]
+WCFGClose.Caption="Schließen"
+WCFGLabel1.Caption="Konfigurieren Sie die Wellen..."
+WCFGLabel2.Caption="Schwierigkeitsgrad"
+WCFGDifficulty.Hint="Legen Sie fest, wie schwer die Monster in dieser Welle zu besiegen sind."
+WCFGCreat01.Caption="Pupae"
+WCFGCreat01.Hint="Die Skaarj-Pupae."
+WCFGCreat02.Caption="Killerfliege"
+WCFGCreat02.Hint="Die Killerfliege."
+WCFGCreat03.Caption="Manta"
+WCFGCreat03.Hint="Der Manta."
+WCFGCreat04.Caption="Krall"
+WCFGCreat04.Hint="Der Krall."
+WCFGCreat05.Caption="Elite-Krall"
+WCFGCreat05.Hint="Der Elite-Krall."
+WCFGCreat06.Caption="Gasbag"
+WCFGCreat06.Hint="Der Gasbag."
+WCFGCreat07.Caption="Brute"
+WCFGCreat07.Hint="Der Brute."
+WCFGCreat08.Caption="Skaarj"
+WCFGCreat08.Hint="Der Skaarj."
+WCFGCreat09.Caption="Behemoth"
+WCFGCreat09.Hint="Der Behemoth."
+WCFGCreat10.Caption="Eis-Skaarj"
+WCFGCreat10.Hint="Eis-Skaarj."
+WCFGCreat11.Caption="Feuer-Skaarj"
+WCFGCreat11.Hint="Der Feuer-Skaarj."
+WCFGCreat12.Caption="Warlord"
+WCFGCreat12.Hint="Der Warlord."
+WCFGCreat13.Caption="Pupae"
+WCFGCreat13.Hint="Die Skaarj-Pupae."
+WCFGCreat14.Caption="Pupae"
+WCFGCreat14.Hint="Die Skaarj-Pupae."
+WCFGCreat15.Caption="Killerfliege"
+WCFGCreat15.Hint="Die Killerfliege."
+WCFGCreat16.Caption="Killerfliege"
+WCFGCreat16.Hint="Die Killerfliege."
+WCFGDuration.Caption="Dauer"
+WCFGDuration.Hint="Bestimmen Sie, wie lange die Wellen dauern sollen."
+WCFGWaveNo.Caption="Wellen-Nr."
+WCFGWaveNo.Hint="Wählen Sie die Welle aus, die Sie anpassen wollen."
+

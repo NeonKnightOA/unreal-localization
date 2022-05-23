@@ -1,0 +1,221 @@
+[ACTION_DestroyActor]
+ActionString="Destruir intérprete"
+
+[ACTION_FinishRotation]
+ActionString="Finalizar rotación"
+
+[ACTION_FireWeapon]
+ActionString="Disparar"
+
+[ACTION_Freeze]
+ActionString="Parar"
+
+[ACTION_Jump]
+ActionString="Saltar"
+
+[ACTION_LocalizedMessage]
+ActionString="Mensaje localizado"
+
+[ACTION_SetPhysics]
+ActionString="Cambiar modelo físico a "
+
+[ACTION_ShootTarget]
+ActionString="Disparar al objetivo"
+
+[ACTION_SpawnActor]
+ActionString="Generar intérprete"
+
+[ACTION_ThrowWeapon]
+ActionString="Lanzar arma"
+
+[ActionMessage_BR]
+Messages[0]="Carrera de bombardeo"
+Messages[1]="La pelota está en el centro"
+Messages[2]="Toca la pelota para recogerla"
+Messages[3]="El portador de la pelota no puede atacar"
+Messages[4]="El disparo lanza la pelota"
+Messages[5]="El disparo alternativo apunta a los compañeros"
+Messages[6]="Pasa la pelota a los compañeros"
+Messages[7]="Cada equipo tiene una portería redonda"
+Messages[8]="Lanzar la pelota = 3 puntos"
+Messages[9]="Llevar la pelota = 7 puntos"
+Messages[10]="¡Buena suerte!"
+
+[ActionMessage_CTF]
+Messages[0]="Capturar la bandera"
+Messages[1]="Dos bases : roja y azul"
+Messages[2]="Toca la bandera enemiga para tomarla"
+Messages[3]="Vuelve a la base"
+Messages[4]="Toca tu bandera para puntuar"
+Messages[5]="Con el desplazador soltarás la bandera"
+Messages[6]="El límite de capturas predeterminado es 3"
+Messages[7]="¡Buena suerte!"
+
+[ActionMessage_DM]
+Messages[0]="Deathmatch"
+Messages[1]="Pulsa disparo para empezar"
+Messages[2]="Las armas tienen dos modos de disparo"
+Messages[3]="Disparo regular y alternativo"
+Messages[4]="Rifle de asalto"
+Messages[5]="Dispara balas y granadas"
+Messages[6]="Cañón protector"
+Messages[7]="Ataque cuerpo a cuerpo"
+Messages[8]="Escudo protector"
+Messages[9]="Explora para encontrar otras armas"
+Messages[10]="Flak Cannon"
+Messages[11]="Bio-rifle"
+Messages[12]="Minigun"
+Messages[13]="Movimiento"
+Messages[14]="WASD = Teclas de movimiento predet."
+Messages[15]="Pulsa dos veces una tecla para esquivar"
+Messages[16]="Salto"
+Messages[17]="Doble salto"
+Messages[18]="Mejoras"
+Messages[19]="Frasquitos de salud"
+Messages[20]="Kit médico"
+Messages[21]="Kit médico extra"
+Messages[22]="Armadura"
+Messages[23]="Escudo"
+Messages[24]="Escudo con protección extra"
+Messages[25]="Adrenalina"
+Messages[26]="La adrenalina puede usarse para hacer movim. especiales"
+Messages[27]="Amplificador de daños"
+Messages[28]="¡Alcanza antes que nadie el límite de bajas!"
+Messages[29]="Los suicidios te restan puntos"
+Messages[30]="¡Buena suerte!"
+
+[ActionMessage_DOM]
+Messages[0]="Dominación doble"
+Messages[1]="Puntos de control : A y B"
+Messages[2]="Mantén el control de los puntos durante 10 segundos"
+Messages[3]="Toca el punto para controlarlo"
+Messages[4]="¡Buena suerte!"
+
+[Action_CHANGELEVEL]
+ActionString="Cambiar nivel"
+
+[Action_CHANGESCRIPT]
+ActionString="Cambiar script"
+
+[Action_CHANGETEAM]
+ActionString="Cambiar de equipo"
+
+[Action_CROUCH]
+ActionString="Agazaparse"
+
+[Action_ConsoleCommand]
+ActionString="Comando de la consola"
+
+[Action_DAMAGEINSTIGATOR]
+ActionString="Instigador de daño"
+
+[Action_DESTROYPAWN]
+ActionString="Destruir actor"
+
+[Action_DISPLAYMESSAGE]
+ActionString="Visualizar mensaje"
+
+[Action_ENDSECTION]
+ActionString="Finalizar sección"
+
+[Action_FADEVIEW]
+ActionString="Fundido"
+
+[Action_GOTOACTION]
+ActionString="Empezar la acción"
+
+[Action_IFCONDITION]
+ActionString="Si condición"
+
+[Action_KILLINSTIGATOR]
+ActionString="Instigador de daño"
+
+[Action_LEAVESEQUENCE]
+ActionString="Abandonar secuencia"
+
+[Action_MOVETOPLAYER]
+ActionString="Mover a jugador"
+
+[Action_MOVETOPOINT]
+ActionString="Mover a punto"
+
+[Action_PLAYAMBIENTSOUND]
+ActionString="Reproducir sonido de ambiente"
+
+[Action_PLAYANIM]
+ActionString="Reproducir animación"
+
+[Action_PLAYLOCALSOUND]
+ActionString="Reproducir sonido"
+
+[Action_PLAYMUSIC]
+ActionString="Reproducir canción"
+
+[Action_PLAYSOUND]
+ActionString="Reproducir sonido"
+
+[Action_RUN]
+ActionString="Correr"
+
+[Action_SETALERTNESS]
+ActionString="Definir alerta"
+
+[Action_SETVIEWTARGET]
+ActionString="Definir vista de objetivo"
+
+[Action_STOPANIMATION]
+ActionString="Parar animación"
+
+[Action_TRIGGEREVENT]
+ActionString="Activador de evento"
+
+[Action_TURNTOWARDPLAYER]
+ActionString="Girar hacia jugador"
+
+[Action_WAITFORANIMEND]
+ActionString="Esperar fin de la animación"
+
+[Action_WAITFOREVENT]
+ActionString="Esperar evento externo"
+
+[Action_WAITFORPLAYER]
+ActionString="Esperar a jugador"
+
+[Action_WAITFORTIMER]
+ActionString="Esperar temporizador"
+
+[Action_WALK]
+ActionString="Andar"
+
+[Burned]
+DeathString="A %o le han salteado."
+
+[Corroded]
+DeathString="%o ha sido disuelto/a por %k."
+FemaleSuicide="%o se ha disuelto en limo."
+MaleSuicide="%o se ha disuelto en limo."
+
+[Counter]
+CountMessage="Sólo %i más..."
+CompleteMessage="¡Completado!"
+
+[Depressurized]
+DeathString="%o se ha despresurizado por %k."
+FemaleSuicide="%o se ha despresurizado."
+MaleSuicide="%o se ha despresurizado."
+
+[Drowned]
+DeathString="%o se olvidó de salir a respirar."
+FemaleSuicide="%o se olvidó de salir a respirar."
+MaleSuicide="%o se olvidó de salir a respirar."
+
+[MessageTextureClient]
+HisMessage="su"
+HerMessage="su"
+
+[ScriptedAction]
+ActionString="acción sin especificar"
+
+[WaterVolume]
+LocationName="bajo agua"
+

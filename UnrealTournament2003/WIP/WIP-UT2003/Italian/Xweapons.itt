@@ -1,0 +1,254 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutArena,Description="Rimpiazza armi e munizioni sulla mappa.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutNoSuperWeapon,Description="Mappa senza Redentore o Cannone a ioni.")
+
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.AssaultRifle,Description="Economico e facilmente fabbricabile, l'AR770 rappresenta una soluzione da combattimento leggera da 5,56 mm, assai efficace contro i nemici privi di armatura. Con una capacità di penetrazione tra il basso ed il moderato, questo fucile è l'ideale come arma di supporto leggera. Il lancia granate M355 aggiunge la forza che rende quest'arma efficace anche contro i nemici dotati di armatura pesante.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.BallLauncher,Description="Nuova aggiunta al Torneo, il Lancia palla è disponibile solo nella modalità "Attacco con la bomba". Una volta raccolta la palla, il lanciatore viene selezionato automaticamente dal tuo arsenale. Mentre sei in possesso della palla, non puoi utilizzare alcuna altra arma. Premendo il pulsante Fuoco lanci la palla a un altro compagno di squadra, oppure nella rete della squadra avversaria.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.BioRifle,Description="Il Biofucile GES continua ad essere una delle più controverse armi del Torneo. Amato da alcuni, odiato da altri, il Biofucile è stato a lungo tema di dibattito circa la sua utilità. Alcuni puristi del Torneo argomentano che è l'equivalente di un campo minato, un'arma incivile e codarda. Altri ritengono che migliori le capacità tattiche di chi combatte in difesa. Nonostante il dibattito, l'arma copre velocemente vaste aree nella modalità di sparo principale e fornisce una modalità di sparo secondaria a carica esplosiva variabile e a fuoco singolo. In termini profani, ciò significa essere in grado di bersagliare un'area con piccoli ammassi di detriti biologici, oppure lanciare un grande ammasso sul bersaglio.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.FlakCannon,Description="L'evoluzione del cannone Flechette serie 7 della Trident Defensive Technologies è rappresentata dalla produzione del “Negoziatore” Mk3. I proiettili ionizzati sono in grado di provocare ustioni di secondo e terzo grado al tessuto organico, cauterizzando la ferita istantaneamente. La carica esplosiva viene liberata nei due modi seguenti: tramite proiettili ionizzati lanciati (in modo sparpagliato) direttamente dal cilindro, oppure tramite la frammentazione di bombe a mano che esplodono all'impatto, sprigionando proiettili in tutte le direzioni.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.LinkGun,Description="Riordan Dynamic Weapon Systems riunisce il meglio della progettazione di macchine belliche nel fucile al plasma avanzato v23, comunemente conosciuto come Fucile Link o semplicemente Link. Mentre la modalità di sparo principale del Link rimane invariata rispetto al suo predecessore, con condotta del fuoco al plasma, il bruciatore secondario è stato sostituito da una matrice energetica. Entrando in contatto con un compagno di squadra, il raggio si trasforma in un flusso trasportatore innocuo, che scarica energia dalle celle di bordo, andando ad incrementare la potenza di fuoco di un giocatore alleato dotato anch'egli di un Link. Bisogna notare come, mentre un giocatore è 'legato' ad un compagno di squadra, non può difendersi dagli attacchi nemici.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Minigun,Description="Il cannone rotante Schultz-Metzger T23-A 23 mm è in grado di sparare munizioni ad alta velocità sia blindate che non. Con un peso alleggerito di soli 8 chilogrammi, il T23 è portatile e maneggevole, facile da indossare a tracolla quando si utilizza la cinghia di trasporto opzionale. Il cannone rotante T23-A è la scelta del soldato giudizioso.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Painter,Description="Lo Ionizzatore a prima vista sembra abbastanza innocuo quando viene impiegata la modalità di sparo principale, poiché emette un raggio laser a bassa intensità. Diversi secondi dopo, un cannone a ioni orbitale multi gigawatt spara sul bersaglio neutralizzando qualsiasi combattente nelle vicinanze. Lo Ionizzatore è un dispositivo a bersaglio remoto utilizzato per orientare e sparare il Cannone a ioni VAPOR. Lo Ionizzatore offre una migliore precisione nel mirare il bersaglio grazie alla vista telescopica, facilmente attivata dalla seconda modalità di sparo dell'arma. Una volta designato un bersaglio con lo Ionizzatore, si consiglia vivamente di mantenere una debita distanza tra se stessi e l'area colpita.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Redeemer,Description="La prima volta che vedrai in azione questo dispositivo nucleare in minitura, concorderai nel ritenerlo l'ordigno più potente del Torneo. Lancia un lento ma assolutamente devastante missile con il fuoco primario; assicurati di essere al di fuori dell'impressionante raggio esplosivo del Redentore prima che l'impatto abbia luogo. Il fuoco secondario ti permette di guidare personalmente l'atomica grazie a un occhio di osservazione posto sul razzo. Tieni presente, tuttavia, che sei vulnerabile all'attacco quando sei alla guida del proiettile del Redentore.A causa delle grandi dimensioni delle munizioni, il Redentore è scarico dopo un solo colpo.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.RocketLauncher,Description="Il lanciarazzi a tre cilindri Trident è estremamente popolare tra i concorrenti che amano investire il proprio denaro in armi esplosive. Il design della canna di caricamento posteriore rotante consente sia lanci singoli che multipli delle testate esplosive, lasciandoti piazzare fino a tre razzi dumbfire sul bersaglio. Le testate esplosive sono progettate per colpire il bersaglio e l'area circostante con una forza tale da produrre scosse violente dopo l'esplosione.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.ShieldGun,Description="Il dispositivo di controllo delle sommosse Kemphler DD280 è in grado di resistere ai proiettili e di riflettere i raggi di energia in arrivo. L'onda al plasma infligge danni imponenti, provocando la rottura di tessuti, polverizzando gli organi e inondando il flusso di sangue con bolle di gas pericolosi. Quest'arma è progettata per combattimenti ravvicinati, ma quando viene maneggiata in modo appropriato è da considerarsi altrettanto pericolosa di qualsiasi altro armamento del tuo arsenale.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.ShockRifle,Description="Il fucile shock ASMD ha subito poche modifiche da quando è stato annesso nei tornei. L'ASMD dispone di due modalità di sparo in grado di agire in concerto per neutralizzare gli avversari con un'onda shock devastante. Questo attacco combinato viene effettuato quando l'operatore utilizza la modalità di sparo secondaria per lanciare sul bersaglio una carica di plasma. Quando tale carica di plasma dal lento andamento si trova nei pressi del bersaglio, l'operatore può sparare il raggio fotonico nel punto centrale del plasma, rilasciando in tal modo l'energia esplosiva degli antifotoni contenuti nel campo EM del plasma.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.SniperRifle,Description="Il Fulminatore è un fucile con una potente energia in grado di sollevare da terra anche la più pesante armatura di carapace. Centrare un bersaglio da lontano richiede una mano ferma, ma l'effetto anti-tremolio del sistema ottico riduce significativamente la curva di apprendimento dell'arma. Una volta inquadrato il bersaglio, l'operatore preme il grilletto ricoprendo di protoni l'obiettivo. Millisecondi dopo, il fucile emette un arco elettrico dal voltaggio elevato che va a cercare il differenziale della carica e annienta il bersaglio.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.TransLauncher,Description="Il Translocatore originariamente era stato progettato dal reparto Ricerca e sviluppo della Liandri Corporation per facilitare il rapido richiamo dei minatori durante il crollo dei tunnel o emergenze di altro tipo. Tuttavia, la rapida decomposizione e ricostruzione dell'organismo può causare diversi effetti indesiderati, tra cui un aumento dell'aggressività e la paranoia così come maggiori probabilità di arresto respiratorio e cardiaco. Per prolungare la carriera degli attuali concorrenti, sono stati posti dei limiti all'uso del Translocatore nelle leghe di livello inferiore. L'ultima versione del Translocatore presenta una telecamera comandata a distanza estremamente utile per l'esplorazione di aree contese. Tieni presente che quando la telecamera è in modalità di sorveglianza, l'utente non riesce effettivamente a vedere nelle immediate vicinanze.")
+
+[AssaultAmmoPickup]
+PickupMessage="Hai raccolto una cassa di granate."
+
+[AssaultRifle]
+ItemName="Fucile d'assalto"
+
+[AssaultRiflePickup]
+PickupMessage="Hai raccolto il fucile d'assalto."
+
+[BallAmmo]
+ItemName="BallAmmo"
+
+[BallLauncher]
+ItemName="Lancia palla"
+
+[BioAmmo]
+ItemName="Melma per biofucile"
+
+[BioAmmoPickup]
+PickupMessage="Hai raccolto delle munizioni per il biofucile."
+
+[BioRifle]
+ItemName="Biofucile"
+
+[BioRiflePickup]
+PickupMessage="Hai raccolto il biofucile."
+
+[DamTypeAssaultBullet]
+DeathString="%o cade sotto il fuoco del fucile d'assalto di %k."
+FemaleSuicide="%o si è assaltata da sola."
+MaleSuicide="%o si è assaltato da solo."
+
+[DamTypeAssaultGrenade]
+DeathString="%o ha cercato invano di schivare la granata di %k."
+FemaleSuicide="%o è finita addosso alla sua stessa granata."
+MaleSuicide="%o è finito addosso alla sua stessa granata."
+
+[DamTypeBioGlob]
+DeathString="%o ha assaggiato la melma del biofucile di %k."
+FemaleSuicide="%o è stata inghiottita dalla sua stessa melma."
+MaleSuicide="%o è stato inghiottito dalla sua stessa melma."
+
+[DamTypeFlakChunk]
+DeathString="%o finisce in polpette grazie al cannone Flak di %k."
+FemaleSuicide="%o è stata crivellata dal suo stesso fuoco."
+MaleSuicide="%o è stato crivellato dal suo stesso fuoco."
+
+[DamTypeFlakShell]
+DeathString="%o ha un incontro fatale con la carica Flak di %k."
+FemaleSuicide="%o si autodistrugge con la carica Flak."
+MaleSuicide="%o si autodistrugge con la carica Flak."
+
+[DamTypeIonBlast]
+DeathString="%o è stato ANNULLATO."
+FemaleSuicide="%o si è AUTOANNULLATA."
+MaleSuicide="%o si è AUTOANNULLATO."
+
+[DamTypeLinkPlasma]
+DeathString="%o ha ricevuto una dose extra di plasma da %k."
+FemaleSuicide="%o si frigge con il suo stesso plasma."
+MaleSuicide="%o si frigge con il suo stesso plasma."
+
+[DamTypeLinkShaft]
+DeathString="%o finisce male: il fascio verde di %k fa un'altra vittima."
+FemaleSuicide="%o è stata cremata dal suo fascio verde."
+MaleSuicide="%o è stato cremato dal suo fascio verde."
+
+[DamTypeMinigunBullet]
+DeathString="%o cade sotto i colpi del Minigun di %k."
+FemaleSuicide="%o si falcia con il suo Minigun."
+MaleSuicide="%o si falcia con il suo Minigun."
+
+[DamTypeRedeemer]
+DeathString="%o fa assaggiare a %k un'ONDATA DI DOLORE!"
+FemaleSuicide="%o è rimasta colpita dal suo stesso Redentore."
+MaleSuicide="%o è rimasto colpito dal suo stesso Redentore."
+
+[DamTypeRocket]
+DeathString="%o raggiunge a razzo la morte grazie a %k."
+FemaleSuicide="%o ha lanciato troppo presto il suo razzo."
+MaleSuicide="%o ha lanciato troppo presto il suo razzo."
+
+[DamTypeShieldImpact]
+DeathString="%o crolla sotto i colpi dello scudo pneumatico di %k."
+FemaleSuicide="%o si rovina stupidamente con il suo scudo pneumatico."
+MaleSuicide="%o si rovina stupidamente con il suo scudo pneumatico."
+
+[DamTypeShockBall]
+DeathString="%o appartiene ormai alla storia: la carica shock di %k era troppo esplosiva."
+FemaleSuicide="%o si manda all'inferno da sola con la carica shock."
+MaleSuicide="%o si manda all'inferno da solo con la carica shock."
+
+[DamTypeShockBeam]
+DeathString="%o riceve un'illuminazione fatale dal raggio shock di %k."
+FemaleSuicide="%o è riuscita ad uccidersi con il suo fucile shock."
+MaleSuicide="%o è riuscito ad uccidersi con il suo fucile shock."
+
+[DamTypeShockCombo]
+DeathString="%o non sfugge al fuoco della combinazione shock di %k."
+FemaleSuicide="%o commette un errore tattico con la sua combinazione shock."
+MaleSuicide="%o commette un errore tattico con la sua combinazione shock."
+
+[DamTypeSniperHeadShot]
+DeathString="%o ha i capelli un po' troppo dritti grazie al fulminatore di %k."
+FemaleSuicide="%o prova a farsi la permanente elettrica e ci riesce."
+MaleSuicide="%o prova a farsi la permanente elettrica e ci riesce."
+
+[DamTypeSniperShot]
+DeathString="%o assaggia l'alta tensione di %k e fa indigestione."
+FemaleSuicide="%o ha avuto un'esperienza elettrizzante."
+MaleSuicide="%o ha avuto un'esperienza elettrizzante."
+
+[DamTypeTeleFrag]
+DeathString="%o diventa pulviscolo atomico grazie a %k."
+FemaleSuicide="%o ha cercato di arrivare dove nessuna donna è mai giunta prima."
+MaleSuicide="%o ha cercato di arrivare dove nessun uomo è mai giunto prima."
+
+[FlakAmmo]
+ItemName="Cariche Flak"
+
+[FlakAmmoPickup]
+PickupMessage="Hai raccolto 10 cariche Flak."
+
+[FlakCannon]
+ItemName="Cannone Flak"
+
+[FlakCannonPickup]
+PickupMessage="Hai raccolto il cannone Flak."
+
+[GrenadeAmmo]
+ItemName="Granate"
+
+[LinkAmmo]
+ItemName="Cariche Link"
+
+[LinkAmmoPickup]
+PickupMessage="Hai raccolto 30 cariche Link."
+
+[LinkGun]
+ItemName="Fucile Link"
+
+[LinkGunPickup]
+PickupMessage="Hai raccolto il fucile Link."
+
+[Minigun]
+ItemName="Minigun"
+
+[MinigunAmmo]
+ItemName="Proiettili"
+
+[MinigunAmmoPickup]
+PickupMessage="Hai raccolto 50 proiettili."
+
+[MinigunPickup]
+PickupMessage="Hai raccolto il Minigun."
+
+[MutArena]
+FriendlyName="Arena"
+Description="Rimpiazza armi e munizioni sulla mappa."
+
+[MutNoSuperWeapon]
+FriendlyName="Niente super armi"
+Description="Le Super armi sono state rimosse da questa mappa."
+
+[Painter]
+ItemName="Ionizzatore"
+
+[PainterPickup]
+PickupMessage="Hai raccolto lo ionizzatore."
+
+[Redeemer]
+ItemName="Redentore"
+
+[RedeemerAmmo]
+ItemName="Munizioni per Redentore"
+
+[RedeemerPickup]
+PickupMessage="Hai raccolto il Redentore."
+
+[RocketAmmo]
+ItemName="Razzi"
+
+[RocketAmmoPickup]
+PickupMessage="Hai raccolto un carico di razzi."
+
+[RocketLauncher]
+ItemName="Lanciarazzi"
+
+[RocketLauncherPickup]
+PickupMessage="Hai raccolto il lanciarazzi."
+
+[ShieldAmmo]
+ItemName="Scudo"
+
+[ShieldGun]
+ItemName="Scudo pneumatico"
+
+[ShieldGunPickup]
+PickupMessage="Hai raccolto lo scudo pneumatico."
+
+[ShockAmmo]
+ItemName="Carica shock"
+
+[ShockAmmoPickup]
+PickupMessage="Hai raccolto una carica shock."
+
+[ShockRifle]
+ItemName="Fucile shock"
+
+[ShockRiflePickup]
+PickupMessage="Hai raccolto il fucile shock."
+
+[SniperAmmo]
+ItemName="Cariche fulminanti"
+
+[SniperAmmoPickup]
+PickupMessage="Hai raccolto 10 cariche fulminanti."
+
+[SniperRifle]
+ItemName="Fulminatore"
+
+[SniperRiflePickup]
+PickupMessage="Hai raccolto il fulminatore."
+
+[SuperShockRifle]
+ItemName="Super fucile shock"
+
+[SuperShockRiflePickup]
+PickupMessage="Hai raccolto il super fucile shock."
+
+[TransAmmo]
+ItemName="TransLauncher"
+
+[TransLauncher]
+ItemName="Translocatore"
+

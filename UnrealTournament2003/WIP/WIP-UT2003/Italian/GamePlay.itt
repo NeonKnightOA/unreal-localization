@@ -1,0 +1,267 @@
+[ACTION_DestroyActor]
+ActionString="Distruggi attore"
+
+[ACTION_FinishRotation]
+ActionString="Termina rotazione"
+
+[ACTION_FireWeapon]
+ActionString="sparare"
+
+[ACTION_Freeze]
+ActionString="Paralizzati"
+
+[ACTION_Jump]
+ActionString="Salta"
+
+[ACTION_LocalizedMessage]
+ActionString="Messaggio localizzato"
+
+[ACTION_SetPhysics]
+ActionString="cambia fisica in "
+
+[ACTION_ShootTarget]
+ActionString="spara al bersaglio"
+
+[ACTION_SpawnActor]
+ActionString="Fai apparire attore"
+
+[ACTION_ThrowWeapon]
+ActionString="lancia arma"
+
+[ActionMessage_BR]
+Messages[0]="Attacco con la bomba"
+Messages[1]="La palla è a centrocampo"
+Messages[2]="Tocca la palla per raccoglierla"
+Messages[3]="Chi porta la palla non può attaccare"
+Messages[4]="Il fuoco primario lancia la palla"
+Messages[5]="Il fuoco secondario mira i compagni"
+Messages[6]="Passa la palla ai compagni di squadra"
+Messages[7]="Ogni squadra ha una porta rotonda"
+Messages[8]="Lanciare la palla = 3 punti"
+Messages[9]="Trasportarla = 7 punti"
+Messages[10]="Buona fortuna!"
+
+[ActionMessage_CTF]
+Messages[0]="Cattura la bandiera"
+Messages[1]="Due basi : rossa e blu"
+Messages[2]="Tocca la bandiera nemica per raccoglierla"
+Messages[3]="Ritorna alla tua base"
+Messages[4]="Tocca la tua bandiera per segnare"
+Messages[5]="Usando il Translocatore perderai la bandiera"
+Messages[6]="Il limite di catture predefinito è 3"
+Messages[7]="Buona fortuna!"
+
+[ActionMessage_DM]
+Messages[0]="Deathmatch"
+Messages[1]="Premi [Fuoco] per generarti"
+Messages[2]="Le armi hanno due modalità di fuoco"
+Messages[3]="Fuoco normale e alternativo"
+Messages[4]="Fucile d'assalto"
+Messages[5]="Spara proiettili e granate"
+Messages[6]="Scudo pneumatico"
+Messages[7]="Attacco ad alta pressione"
+Messages[8]="Scudo protettivo"
+Messages[9]="Esplora per trovare altre armi"
+Messages[10]="Cannone Flak"
+Messages[11]="Biofucile"
+Messages[12]="Minigun"
+Messages[13]="Movimento"
+Messages[14]="WASD = tasti predefiniti per il movimento"
+Messages[15]="Premi due volte un tasto per fare un balzo"
+Messages[16]="Salto"
+Messages[17]="Doppio salto"
+Messages[18]="Potenziamenti"
+Messages[19]="Fiale curative"
+Messages[20]="Kit medico"
+Messages[21]="Barile d'energia"
+Messages[22]="Corazza"
+Messages[23]="Scudo"
+Messages[24]="Super scudo"
+Messages[25]="Adrenalina"
+Messages[26]="L'adrenalina può essere usata per le mosse speciali"
+Messages[27]="Amplificatore di danno"
+Messages[28]="Raggiungi il numero di frag per primo!"
+Messages[29]="I suicidi ti tolgono punti"
+Messages[30]="Buona fortuna!"
+
+[ActionMessage_DOM]
+Messages[0]="Doppio dominio"
+Messages[1]="Punti di controllo : A e B"
+Messages[2]="Controlla i due punti per 10 secondi"
+Messages[3]="Tocca il punto per prenderne il controllo"
+Messages[4]="Buona fortuna!"
+
+[ActionMessage_SubTitle]
+Messages[0]=" "
+Delays[0]=4
+Messages[1]=" "
+Delays[1]=4
+Messages[2]=" "
+Delays[2]=8
+Messages[3]=" "
+Delays[3]=8
+Messages[4]=" "
+Delays[4]=8
+Messages[5]=" "
+Delays[5]=8
+Messages[6]=" "
+Delays[6]=8
+Messages[7]=" "
+Delays[7]=8
+Messages[8]=" "
+Delays[8]=8
+Messages[9]=" "
+Delays[9]=8
+Messages[10]=" "
+Delays[10]=8
+Messages[11]=" "
+Delays[11]=8
+Messages[12]=" "
+Delays[12]=8
+Messages[13]=" "
+Delays[13]=8
+Messages[14]=" "
+Delays[14]=8
+Messages[15]=" "
+Delays[15]=8
+Messages[16]=" "
+Delays[16]=8
+Messages[17]=" "
+Delays[17]=8
+Messages[18]=" "
+Delays[18]=8
+Messages[19]=" "
+Delays[19]=8
+Messages[20]=" "
+Delays[20]=8
+Messages[21]=" "
+Delays[21]=8
+
+[Action_CHANGELEVEL]
+ActionString="Cambia livello"
+
+[Action_CHANGESCRIPT]
+ActionString="Cambia script"
+
+[Action_CHANGETEAM]
+ActionString="Cambia squadra"
+
+[Action_CROUCH]
+ActionString="abbassati"
+
+[Action_ConsoleCommand]
+ActionString="comando da console"
+
+[Action_DAMAGEINSTIGATOR]
+ActionString="Istigatore di danni"
+
+[Action_DESTROYPAWN]
+ActionString="distruggi pedina"
+
+[Action_DISPLAYMESSAGE]
+ActionString="mostra messaggio"
+
+[Action_ENDSECTION]
+ActionString="termina sezione"
+
+[Action_FADEVIEW]
+ActionString="dissolvenza visuale"
+
+[Action_GOTOACTION]
+ActionString="vai in azione"
+
+[Action_IFCONDITION]
+ActionString="Condizione Se"
+
+[Action_KILLINSTIGATOR]
+ActionString="Istigatore di danni"
+
+[Action_LEAVESEQUENCE]
+ActionString="sequenza di uscita"
+
+[Action_MOVETOPLAYER]
+ActionString="Raggiungi il giocatore"
+
+[Action_MOVETOPOINT]
+ActionString="Raggiungi il punto"
+
+[Action_PLAYAMBIENTSOUND]
+ActionString="Riproduci suono ambiente"
+
+[Action_PLAYANIM]
+ActionString="Riproduci animazione"
+
+[Action_PLAYLOCALSOUND]
+ActionString="Riproduci suono"
+
+[Action_PLAYMUSIC]
+ActionString="Riproduci brano"
+
+[Action_PLAYSOUND]
+ActionString="Riproduci suono"
+
+[Action_RUN]
+ActionString="Corri"
+
+[Action_SETALERTNESS]
+ActionString="imposta livello di allarme"
+
+[Action_SETVIEWTARGET]
+ActionString="imposta visuale bersaglio"
+
+[Action_STOPANIMATION]
+ActionString="ferma animazione"
+
+[Action_TRIGGEREVENT]
+ActionString="attiva evento"
+
+[Action_TURNTOWARDPLAYER]
+ActionString="Gira verso il giocatore"
+
+[Action_WAITFORANIMEND]
+ActionString="Attendi fine animazione"
+
+[Action_WAITFOREVENT]
+ActionString="Attendi evento esterno"
+
+[Action_WAITFORPLAYER]
+ActionString="Attendi giocatore"
+
+[Action_WAITFORTIMER]
+ActionString="Attendi contatempo"
+
+[Action_WALK]
+ActionString="cammina"
+
+[Burned]
+DeathString="%o finisce arrosto."
+
+[Corroded]
+DeathString="%o sparisce nella melma a causa di %k."
+FemaleSuicide="%o si è dissolta nella melma."
+MaleSuicide="%o si è dissolta nella melma."
+
+[Counter]
+CountMessage="Ne restano solo %i..."
+CompleteMessage="Completato!"
+
+[Depressurized]
+DeathString="%o finisce sotto vuoto per colpa di %k."
+FemaleSuicide="%o è stata depressurizzata."
+MaleSuicide="%o è stata depressurizzata."
+
+[Drowned]
+DeathString="%o ha dimenticato di emergere per respirare."
+FemaleSuicide="%o ha dimenticato di emergere per respirare."
+MaleSuicide="%o ha dimenticato di emergere per respirare."
+
+[MessageTextureClient]
+HisMessage="suo"
+HerMessage="sua"
+
+[ScriptedAction]
+ActionString="azione non specificata"
+
+[WaterVolume]
+LocationName="sott'acqua"
+

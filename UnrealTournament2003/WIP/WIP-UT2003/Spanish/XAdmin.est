@@ -1,0 +1,68 @@
+[AdminIni]
+Msg_PlayerList="Lista de jugadores:"
+Msg_FinishGameEditFirst="Debes terminar tu edición del juego antes de volver a jugar en el mapa"
+Msg_FinishGameRestart="debes terminar tu edición del juego antes de cambiar o volver a jugar en el mapa"
+Msg_GameNoSupportBots="El modo de juego actual no admite bots"
+Msg_StatsNoBots="No se pueden controlar a los bots cuando las estad. de mundos están activadas"
+Msg_NextMapNotFound="Siguiente mapa no encontrado, reiniciando en el mismo mapa"
+Msg_ChangingMapTo="Cambiando mapa a %NextMap%"
+Msg_PlayerBanned="%Player% ha sido excluido de este servidor"
+Msg_SessionBanned="%Player% ha sido expulsado de este partido"
+Msg_PlayerKicked="%Player% ha sido expulsado"
+Msg_NoBotGameFull="No se pueden añadir bots, el juego está completo"
+Msg_NoAddNamedBot="Sólo se pueden añadir los bots nombrados cuando el partido haya comenzado"
+Msg_NoBotsPlaying="No hay ningún bot jugando actualmente"
+Msg_SetBotNeedVal="Este comando requiere un valor numérico entre 0 y 32"
+Msg_MutNeedGameEdit="Debes utilizar el comando 'Editar juego' antes que el comando 'Mutágenos'"
+Msg_NoMutatorInUse="Sin mutágenos en uso"
+Msg_NoUnusedMuts="No se encontraron mutágenos sin utilizar"
+Msg_AddedMutator="Se añadió '%Mutator%' a la lista de mutágenos utilizados"
+Msg_ErrAddingMutator="Error al añadir '%Mutator%' a la lista de mutágenos utilizados"
+Msg_RemovedMutator="Se eliminó '%Mutator%' de la,lista de mutágenos utilizados"
+Msg_ErrRemovingMutator="Error al eliminar '%Mutator%' de la lista de mutágenos utilizados"
+Msg_MapListNeedGameEdit="Debes utilizar el comando de 'Editar juego' antes que el comando de 'Lista de mapas'"
+Msg_MapRotationList="Lista de rotación de mapas para %Game%"
+Msg_NoMapInRotation="No hay mapas en la lista de rotación"
+Msg_NoMapsAdded="No se añadieron mapas a la lista"
+Msg_AddedMapToList="Se añadió '%Map%' a la lista de rotación de mapas"
+Msg_NoMapsRemoved="No se eliminaron mapas de la lista"
+Msg_RemovedMapFromList="Se eliminó '%Map%' de la lista de rotación de mapas"
+Msg_NoMapsFound="No se encontraron mapas"
+Msg_MapIsInRotation="Mapa '%Map%' está en la lista de rotación de mapas"
+Msg_MapNotInRotation="Mapa '%Map%' no está en la lista de rotación de mapas"
+Msg_MustEndGameEdit="Debes terminar tu edición de juego primero"
+Msg_EditingClass="Editando %Class%"
+Msg_EditFailed="Error al iniciar la edición"
+Msg_AlreadyEdited="Este juego ya está siendo editado por otra persona"
+Msg_NotEditing="No estás editando la Config. del juego, utiliza 'Editar juego' primero"
+Msg_EditingCompleted="Edición completada"
+Msg_EditingCancelled="Edición cancelada"
+Msg_UnknownParam="Parámetro desconocido : %Value%"
+Msg_NoParamsFound="¡No se han encontrado parámetros!"
+Msg_ParamModified="Modificación con éxito"
+Msg_ParamNotModified="No se pudo modificar el parámetro"
+
+[xExtraPrivs]
+LoadMsg="Privilegios extra cargados"
+MainPrivs="X"
+SubPrivs="Xb|Xc|Xp"
+Tags=("Varios","Manage IP Policies","Usar consola","Lista de jugadores")
+
+[xGamePrivs]
+LoadMsg="Privilegios de juego y mapas cargados"
+MainPrivs="M"
+SubPrivs="Mr|Mt|Mm|Ml|Ms|Mu|Mb"
+Tags=("Mapas/Config. de juego","Reiniciar mapa","Cambiar modo de juego","Cambiar mapa","Controlar rotación del mapa","Config. del juego","Seleccionar mutágenos","Añadir/Eliminar bots")
+
+[xKickPrivs]
+LoadMsg="Expulsar y prohibir privilegios cargados"
+MainPrivs="K"
+SubPrivs="Kp|Kb|Ko"
+Tags=("Expulsar/prohibir","Expulsar jugadores","Prohibir jugadores","Expulsar bots")
+
+[xUserGroupPrivs]
+LoadMsg="Admins & Groups Management cargados"
+MainPrivs="A|G"
+SubPrivs="Al|Aa|Ae|Ag|Am|Gl|Ga|Ge"
+Tags=("Usuarios","Lista de Admins","Añadir/Eliminar Admins","Editar Admins","Asignar Grupos","Crear Managers","Grupos","Lista de Grupos","Añadir/Eliminar Grupos","Editar Grupos")
+

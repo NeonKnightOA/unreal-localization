@@ -1,0 +1,93 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=SkaarjPack.Invasion,Description="DM|Invasion|SkaarjPack.Tab_IAInvasion|BonusPack.MapListMutant|false")
+
+[DamTypeBelch]
+DeathString="%o fue freído por una bolsa de gas."
+FemaleSuicide="Una bolsa de gas se ha reventado."
+MaleSuicide="Una bolsa de gas se ha reventado."
+
+[DamTypeBruteRocket]
+DeathString="%o fue destruido por un cohete bruto."
+FemaleSuicide="Una bruta lanzó su cohete prematuramente."
+MaleSuicide="Un bruto lanzó su cohete prematuramente."
+
+[DamTypeKrallBolt]
+DeathString="%o fue electrocutado por un krall."
+
+[DamTypeSkaarjProj]
+DeathString="%o fue achicharrado por un skaarj."
+
+[DamTypeWarlordRocket]
+DeathString="%o fue completamente destruido por un Señor de la guerra."
+FemaleSuicide="Una Señora de la guerra lanzó su cohete prematuramente."
+MaleSuicide="Un Señor de la guerra lanzó su cohete prematuramente."
+
+[HUDInvasion]
+YouveLostTheMatch="La invasión continúa"
+
+[Invasion]
+GameName="Invasión"
+
+[InvasionDeathMessage]
+SomeoneString="un monstruo"
+
+[InvasionMessage]
+OutMessage="ha SALIDO!"
+
+[MeleeDamage]
+DeathString="%o fue destripado."
+FemaleSuicide="%o fue hecha pedacitos."
+MaleSuicide="%o fue hecho pedicitos."
+
+[ScoreboardInvasion]
+TeamScoreString="Puntuación del equipo"
+WaveString="Oleada"
+
+[TAB_IAInvasion]
+IAInvasionWaveConfig.Caption="Configurar oleadas"
+IAInvasionInitialWave.Caption="Oleada inicial"
+IAInvasionInitialWave.Hint="Elige la oleada inicial."
+
+[InvasionWaveConfig]
+WCFGClose.Caption="Cerrar"
+WCFGLabel1.Caption="Configurar cada oleada..."
+WCFGLabel2.Caption="Dificultad"
+WCFGDifficulty.Hint="Dificultad de los monstruos de esta oleada."
+WCFGCreat01.Caption="Crisálida"
+WCFGCreat01.Hint="La Crisálida Skaarj."
+WCFGCreat02.Caption="Mosca Cuchilla"
+WCFGCreat02.Hint="La Mosca Cuchilla."
+WCFGCreat03.Caption="Manta"
+WCFGCreat03.Hint="La Manta."
+WCFGCreat04.Caption="Krall"
+WCFGCreat04.Hint="El Krall."
+WCFGCreat05.Caption="Krall de elite"
+WCFGCreat05.Hint="El Krall de elite."
+WCFGCreat06.Caption="Bolsa de gas"
+WCFGCreat06.Hint="La Bolsa de gas."
+WCFGCreat07.Caption="Bruto"
+WCFGCreat07.Hint="El Bruto."
+WCFGCreat08.Caption="Skaarj"
+WCFGCreat08.Hint="El Skaarj."
+WCFGCreat09.Caption="Polilla"
+WCFGCreat09.Hint="La Polilla."
+WCFGCreat10.Caption="Skaarj de hielo"
+WCFGCreat10.Hint="El Skaarj de hielo."
+WCFGCreat11.Caption="Skaarj de fuego"
+WCFGCreat11.Hint="El Skaarj de fuego."
+WCFGCreat12.Caption="Señor de la guerra"
+WCFGCreat12.Hint="El Señor de la guerra."
+WCFGCreat13.Caption="Crisálida"
+WCFGCreat13.Hint="La Crisálida Skaarj."
+WCFGCreat14.Caption="Crisálida"
+WCFGCreat14.Hint="La Crisálida Skaarj."
+WCFGCreat15.Caption="Mosca Cuchilla"
+WCFGCreat15.Hint="La Mosca Cuchilla."
+WCFGCreat16.Caption="Mosca Cuchilla"
+WCFGCreat16.Hint="La Mosca Cuchilla."
+WCFGDuration.Caption="Duración"
+WCFGDuration.Hint="Duración de cada oleada."
+WCFGWaveNo.Caption="Nº de oleada"
+WCFGWaveNo.Hint="Selecciona la oleada a ajustar."
+
+

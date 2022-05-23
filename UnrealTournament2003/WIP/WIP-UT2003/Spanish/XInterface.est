@@ -1,0 +1,1462 @@
+[Browser_ServerListPageBuddy]
+TheBuddyList.ColumnHeadings[0]="Nom. colega"
+AddBuddyCaption="AÑADIR COLEGA"
+RemoveBuddyCaption="ELIMINAR COLEGA"
+
+[Tab_AdminPlayerList]
+AdminList.ColumnHeadings[0]="Nombre del jugador"
+AdminList.ColumnHeadings[1]="Identificación única"
+AdminList.ColumnHeadings[2]="IP"
+AdminPlayerBan.Caption="Prohibir"
+AdminPlayerBan.Hint="Prohibir a este jugador"
+AdminPlayerKick.Caption="Expulsar"
+AdminPlayerKick.Hint="Expulsar a este jugador"
+
+[AdminPlayerList]
+ColumnHeadings[0]="Nombre del jugador"
+ColumnHeadings[1]="Identificación única"
+ColumnHeadings[2]="IP"
+
+[ServerBrowser]
+MyMOTDPage.VersionString="Ver."
+MyMOTDPage.PageCaption="Noticias"
+MyMOTDPage.StartQueryString="Consultando al servidor maestro"
+MyMOTDPage.AuthFailString="Autentificación fallida"
+MyMOTDPage.ConnFailString="Conexión fallida - Reintentando"
+MyMOTDPage.ConnTimeoutString="Conexión detenida"
+MyMOTDPage.QueryCompleteString="¡Consulta completada!"
+MyMOTDPage.RefreshCompleteString="¡Actualización completada!"
+MyMOTDPage.ReadyString="Listo"
+MyPrefsPage.ViewStatsStrings[0]="Cualquier servidor"
+MyPrefsPage.ViewStatsStrings[1]="Sólo servidores de estad."
+MyPrefsPage.ViewStatsStrings[2]="Sin servidores de estad."
+MyPrefsPage.NoMutString="Sin mutágenos"
+MyPrefsPage.AnyMutString="Cualquier mutágeno"
+MyPrefsPage.PageCaption="Filtro"
+MyPrefsPage.StartQueryString="Consultando servidor maestro"
+MyPrefsPage.AuthFailString="Autentificación fallida"
+MyPrefsPage.ConnFailString="Conexión fallida - Reintentando"
+MyPrefsPage.ConnTimeoutString="Conexión detenida"
+MyPrefsPage.QueryCompleteString="¡Consulta completada!"
+MyPrefsPage.RefreshCompleteString="¡Actualización completada!"
+MyPrefsPage.ReadyString="Listo"
+MyBuddiesPage.AddBuddyCaption="AÑADIR COLEGA"
+MyBuddiesPage.RemoveBuddyCaption="ELIMINAR COLEGA"
+MyBuddiesPage.QueryFinHead="¡Consulta completa! Recibido: "
+MyBuddiesPage.QueryFinTail=" Servidores"
+MyBuddiesPage.PingRecvString="¡PING!"
+MyBuddiesPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyBuddiesPage.RefreshFinHead="Ping completado"
+MyBuddiesPage.RefreshFinMid=" Servidores, "
+MyBuddiesPage.RefreshFinTail=" Jugadores"
+MyBuddiesPage.RePingServersCaption="RE-PING LISTA"
+MyBuddiesPage.RefreshCaption="ACTUALIZAR LISTA"
+MyBuddiesPage.PageCaption="Colegas"
+MyBuddiesPage.StartQueryString="Consultando servidor maestro"
+MyBuddiesPage.AuthFailString="Autentificación fallida"
+MyBuddiesPage.ConnFailString="Conexión fallida - Reintentando"
+MyBuddiesPage.ConnTimeoutString="Conexión detenida"
+MyBuddiesPage.QueryCompleteString="¡Consulta completada!"
+MyBuddiesPage.RefreshCompleteString="¡Actualización completada!"
+MyBuddiesPage.ReadyString="Listo"
+MyFavoritesPage.RemoveFavoriteCaption="ELIMINAR FAV."
+MyFavoritesPage.AddIPCaption="AÑADIR NOM"
+MyFavoritesPage.RePingCaption="RE-PING LISTA"
+MyFavoritesPage.PageCaption="Favoritos"
+MyFavoritesPage.StartQueryString="Consultando al servidor maestro"
+MyFavoritesPage.AuthFailString="Autentificación fallida"
+MyFavoritesPage.ConnFailString="Conexión fallida - Reintentando
+MyFavoritesPage.ConnTimeoutString="Conexión detenida"
+MyFavoritesPage.QueryCompleteString="¡Consulta completada!"
+MyFavoritesPage.RefreshCompleteString="¡Actualización completada!"
+MyFavoritesPage.ReadyString="Listo"
+MyLANPage.PageCaption="LAN"
+MyLANPage.StartQueryString="Consultando al servidor maestro"
+MyLANPage.AuthFailString="Autentificación fallida"
+MyLANPage.ConnFailString="Conexión fallida - Reintentando"
+MyLANPage.ConnTimeoutString="Conexión detenida"
+MyLANPage.QueryCompleteString="¡Consulta completada!"
+MyLANPage.RefreshCompleteString="¡Actualización completada!"
+MyLANPage.ReadyString="Listo"
+MyBRServerListPage.QueryFinHead="¡Consulta completada! Recibido: "
+MyBRServerListPage.QueryFinTail=" Servidores"
+MyBRServerListPage.PingRecvString="¡PING!"
+MyBRServerListPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyBRServerListPage.RefreshFinHead="Ping completado"
+MyBRServerListPage.RefreshFinMid=" Servidores, "
+MyBRServerListPage.RefreshFinTail=" Jugadores"
+MyBRServerListPage.RePingServersCaption="RE-PING LISTA"
+MyBRServerListPage.RefreshCaption="ACTUALIZAR LISTA"
+MyBRServerListPage.PageCaption="Carrera de bombardeo"
+MyBRServerListPage.StartQueryString="Consultando al servidor maestro"
+MyBRServerListPage.AuthFailString="Autentificación fallida"
+MyBRServerListPage.ConnFailString="Conexión fallida - Reintentando"
+MyBRServerListPage.ConnTimeoutString="Conexión detenida"
+MyBRServerListPage.QueryCompleteString="¡Consulta completada!"
+MyBRServerListPage.RefreshCompleteString="¡Actualización completada!"
+MyBRServerListPage.ReadyString="Listo"
+MyCTFServerListPage.QueryFinHead="¡Consulta completada! Recibido: "
+MyCTFServerListPage.QueryFinTail=" Servidores"
+MyCTFServerListPage.PingRecvString="¡PING!"
+MyCTFServerListPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyCTFServerListPage.RefreshFinHead="Pinging completado: "
+MyCTFServerListPage.RefreshFinMid=" Servidores, "
+MyCTFServerListPage.RefreshFinTail=" Jugadores"
+MyCTFServerListPage.RePingServersCaption="RE-PING LISTA"
+MyCTFServerListPage.RefreshCaption="ACTUALIZAR LISTA"
+MyCTFServerListPage.PageCaption="CLB"
+MyCTFServerListPage.StartQueryString="Consultando al servidor maestro"
+MyCTFServerListPage.AuthFailString="Autentificación fallida"
+MyCTFServerListPage.ConnFailString="Conexión fallida - Reintentando"
+MyCTFServerListPage.ConnTimeoutString="Conexión detenida"
+MyCTFServerListPage.QueryCompleteString="¡Consulta completada!"
+MyCTFServerListPage.RefreshCompleteString="¡Actualización completada!"
+MyCTFServerListPage.ReadyString="Listo"
+MyDMServerListPage.QueryFinHead="¡Consulta completada! Recibido: "
+MyDMServerListPage.QueryFinTail=" Servidores"
+MyDMServerListPage.PingRecvString="¡PING!"
+MyDMServerListPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyDMServerListPage.RefreshFinHead="Pinging completado"
+MyDMServerListPage.RefreshFinMid=" Servidores, "
+MyDMServerListPage.RefreshFinTail=" Jugadores"
+MyDMServerListPage.RePingServersCaption="RE-PING LISTA"
+MyDMServerListPage.RefreshCaption="ACTUALIZAR LISTA"
+MyDMServerListPage.PageCaption="Deathmatch"
+MyDMServerListPage.StartQueryString="Consultando al servidor maestro"
+MyDMServerListPage.AuthFailString="Autentificación fallida"
+MyDMServerListPage.ConnFailString="Conexión fallida - Reintentando"
+MyDMServerListPage.ConnTimeoutString="Conexión detenida"
+MyDMServerListPage.QueryCompleteString="¡Consulta completada!"
+MyDMServerListPage.RefreshCompleteString="¡Actualización completada!"
+MyDMServerListPage.ReadyString="Listo"
+MyDomServerListPage.QueryFinHead="¡Consulta completada! Recibido: "
+MyDomServerListPage.QueryFinTail=" Servidores"
+MyDomServerListPage.PingRecvString="¡PING!"
+MyDomServerListPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyDomServerListPage.RefreshFinHead="Pinging completado"
+MyDomServerListPage.RefreshFinMid=" Servidores, "
+MyDomServerListPage.RefreshFinTail=" Jugadores"
+MyDomServerListPage.RePingServersCaption="RE-PING LISTA"
+MyDomServerListPage.RefreshCaption="ACTUALIZAR LISTA"
+MyDomServerListPage.PageCaption="Dominación doble"
+MyDomServerListPage.StartQueryString="Consultando al servidor maestro"
+MyDomServerListPage.AuthFailString="Autentificación fallida"
+MyDomServerListPage.ConnFailString="Conexión fallida - Reintentando"
+MyDomServerListPage.ConnTimeoutString="Conexión detenida"
+MyDomServerListPage.QueryCompleteString="¡Consulta completada!"
+MyDomServerListPage.RefreshCompleteString="¡Actualización completada!"
+MyDomServerListPage.ReadyString="Listo"
+MyTDMServerListPage.QueryFinHead="¡Consulta completada! Recibido: "
+MyTDMServerListPage.QueryFinTail=" Servidores"
+MyTDMServerListPage.PingRecvString="¡PING!"
+MyTDMServerListPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyTDMServerListPage.RefreshFinHead="¡Actualización completada! Encontrado: "
+MyTDMServerListPage.RefreshFinMid=" Servidores, "
+MyTDMServerListPage.RefreshFinTail=" Jugadores"
+MyTDMServerListPage.RePingServersCaption="RE-PING LISTA"
+MyTDMServerListPage.RefreshCaption="ACTUALIZAR LISTA"
+MyTDMServerListPage.PageCaption="DM Equipos"
+MyTDMServerListPage.StartQueryString="Consultando servidor maestro"
+MyTDMServerListPage.AuthFailString="Autentificación fallida"
+MyTDMServerListPage.ConnFailString="Conexión fallida - Reintentado"
+MyTDMServerListPage.ConnTimeoutString="Conexión detenida"
+MyTDMServerListPage.QueryCompleteString="¡Consulta completada!"
+MyTDMServerListPage.RefreshCompleteString="¡Actualización completada!"
+MyTDMServerListPage.ReadyString="Listo"
+MyCustomServerListPage.QueryFinHead="¡Consulta completada! Recibido: "
+MyCustomServerListPage.QueryFinTail=" Servidores"
+MyCustomServerListPage.PingRecvString="¡PING!"
+MyCustomServerListPage.MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+MyCustomServerListPage.RefreshFinHead="¡Actualización completada! Encontrado: "
+MyCustomServerListPage.RefreshFinMid=" Servidores, "
+MyCustomServerListPage.RefreshFinTail=" Jugadores"
+MyCustomServerListPage.RePingServersCaption="RE-PING LISTA"
+MyCustomServerListPage.RefreshCaption="ACTUALIZAR LISTA"
+MyCustomServerListPage.PageCaption="Personalizar"
+MyCustomServerListPage.StartQueryString="Consultando servidor maestro"
+MyCustomServerListPage.AuthFailString="Autentificación fallida"
+MyCustomServerListPage.ConnFailString="Conexión fallida - Reintentado"
+MyCustomServerListPage.ConnTimeoutString="Conexión detenida"
+MyCustomServerListPage.QueryCompleteString="¡Consulta completada!"
+MyCustomServerListPage.RefreshCompleteString="¡Actualización completada!"
+MyCustomServerListPage.ReadyString="Listo"
+ServerBrowserHeader.Caption="Navegador"
+MyIRCPage.SystemLabel="Sistema"
+MyIRCPage.LeaveChannelCaption="ABANDONAR"
+MyIRCPage.LeavePrivateCaptionHead="CERRAR "
+MyIRCPage.ChooseNewNickText="Elija un nuevo apodo"
+MyIRCPage.PageCaption="Charla"
+MyIRCPage.StartQueryString="Consultando servidor maestro"
+MyIRCPage.AuthFailString="Autentificación fallida"
+MyIRCPage.ConnFailString="Conexión fallida - Reintentado"
+MyIRCPage.ConnTimeoutString="Conexión detenida"
+MyIRCPage.QueryCompleteString="¡Consulta completada!"
+MyIRCPage.RefreshCompleteString="¡Actualización completada!"
+MyIRCPage.ReadyString="Listo"
+MyPrefsPage.MutatorModeStrings[0]="Cualquier mutágeno"
+MyPrefsPage.MutatorModeStrings[1]="Sin mutágenos"
+MyPrefsPage.MutatorModeStrings[2]="Este mutágeno"
+MyPrefsPage.MutatorModeStrings[3]="Sin este mutágeno"
+MyPrefsPage.WeaponStayStrings[0]="Cualquier servidor"
+MyPrefsPage.WeaponStayStrings[1]="Solo servidores con armas perm."
+MyPrefsPage.WeaponStayStrings[2]="Servidores sin armas perm."
+MyPrefsPage.TranslocatorStrings[0]="Cualquier servidor"
+MyPrefsPage.TranslocatorStrings[1]="Solo servidores Desplazador"
+MyPrefsPage.TranslocatorStrings[2]="Servidores sin Desplazador"
+
+[Browser_IRC]
+SystemLabel="Sistema"
+LeaveChannelCaption="ABANDONAR"
+LeavePrivateCaptionHead="CERRAR "
+ChooseNewNickText="Elija un nuevo apodo"
+MyBackButton.Caption="VOLVER"
+MyChangeNickButton.Caption="ELIJA APODO"
+
+[IRCLink]
+InvalidAddressText="Dirección incorrecta del servidor, cancelando."
+ErrorBindingText="Error de enlace de puerto local, cancelando."
+ResolveFailedText="Fallo al conectar con la dirección del servidor, cancelando."
+ConnectedText="Conectado."
+ConnectingToText="Conectando con"
+TimeOutError="Se ha excedido el tiempo para conectar con el servidor."
+InviteString="te invita a unirte"
+NickInUseText="Apodo ya en uso"
+NickInvalidText="El apodo es inválido"
+
+[IRC_Page]
+HasLeftText="se ha ido"
+HasJoinedText="se ha unido"
+WasKickedByText="ha sido expulsado por"
+NowKnownAsText="es conocido ahora como"
+QuitText="Salir"
+SetsModeText="ajusta el modo"
+NewTopicText="Tema"
+
+[IRC_System]
+NotInAChannelText="¡No estás en ningún canal!"
+KickedFromText="has sido expulsado de"
+ByText="por"
+IsAwayText="está fuera"
+ConnectText="CONECTAR"
+DisconnectText="DESCONECTAR"
+MyJoinChannelButton.Caption="UNIRSE CANAL"
+MyRemoveChannelButton.Caption="ELIMINAR CANAL"
+MyRemoveServerButton.Caption="ELIMINAR SERVIDOR"
+MyChannelLabel.Caption="Canal"
+MyServerLabel.Caption="Servidor de IRC"
+DefaultChannels=("#ut2003es","#ut2003chat","#ut2003play")
+
+[IRC_NewNick]
+OkButton.Caption="OK"
+NewNickEntry.Caption="Nuevo Apodo: "
+
+[Browser_ServerListPageBase]
+ThePlayersList.ColumnHeadings[0]="Jugador"
+ThePlayersList.ColumnHeadings[1]="Punt"
+ThePlayersList.ColumnHeadings[2]="Nomb."
+ThePlayersList.ColumnHeadings[3]="Ping"
+TheRulesList.TrueString="Activado"
+TheRulesList.FalseString="Desactivado"
+TheRulesList.ServerModeString="Modo de servidor"
+TheRulesList.DedicatedString="Dedicado"
+TheRulesList.NonDedicatedString="No dedicado"
+TheRulesList.AdminNameString="Admin del servidor"
+TheRulesList.AdminEmailString="Direc. admin"
+TheRulesList.PasswordString="Se necesita Contraseña"
+TheRulesList.GameStatsString="Estad. UT2003"
+TheRulesList.GameSpeedString="Velocidad de juego"
+TheRulesList.MutatorString="Mutágeno"
+TheRulesList.BalanceTeamsString="Bots equilibran equipos"
+TheRulesList.PlayersBalanceTeamsString="Equipos equilibrados"
+TheRulesList.FriendlyFireString="Fuego amigo"
+TheRulesList.GoalScoreString="Puntuación"
+TheRulesList.TimeLimitString="Límite de tiempo"
+TheRulesList.MinPlayersString="Mínimo jugadores (bots)"
+TheRulesList.TranslocatorString="Desplazador"
+TheRulesList.ColumnHeadings[0]="Config"
+TheRulesList.ColumnHeadings[1]="Valor"
+TheServersList.ColumnHeadings[0]=""
+TheServersList.ColumnHeadings[1]="Servidor"
+TheServersList.ColumnHeadings[2]="Mapa"
+TheServersList.ColumnHeadings[3]="Jugadores"
+TheServersList.ColumnHeadings[4]="Ping"
+AddFavoriteButton.Caption="AÑADIR FAV."
+BackButton.Caption="VOLVER"
+JoinButton.Caption="UNIRSE"
+RefreshButton.Caption="ACTUALIZAR"
+SpectateButton.Caption="OBSERVAR"
+TheRulesList.WeaponStayString="Armas perm."
+
+[Browser_BuddyList]
+ColumnHeadings[0]="Nom. colega"
+
+[Browser_MOTD]
+VersionString="Ver."
+BackButton.Caption="VOLVER"
+RefreshButton.Caption="ACTUALIZAR"
+UpgradeButton.Caption="RENOVAR SERV."
+MyBackButton.Caption="VOLVER"
+MyRefreshButton.Caption="ACTUALIZAR"
+MyUpgradeButton.Caption="RENOVAR SERV."
+
+[Browser_Page]
+StartQueryString="Consultando al servidor maestro"
+AuthFailString="Autentificación fallida"
+ConnFailString="Conexión fallida - Reintentando"
+ConnTimeoutString="Conexión detenida"
+QueryCompleteString="¡Consulta completada!"
+RefreshCompleteString="¡Actualización completada!"
+ReadyString="Listo"
+
+[Browser_PlayersList]
+ColumnHeadings[0]="Jugador"
+ColumnHeadings[1]="Punt"
+ColumnHeadings[2]="Nomb."
+ColumnHeadings[3]="Ping"
+
+[Browser_Prefs]
+ViewStatsStrings[0]="Cualquier servidor"
+ViewStatsStrings[1]="Sólo servidores de estad."
+ViewStatsStrings[2]="Sin servidores estad."
+NoMutString="Sin mutágenos"
+AnyMutString="Cualquier mutágeno"
+MyBackButton.Caption="VOLVER"
+FilterTitle.Caption="Opciones de filtro de servidores:"
+NoEmptyCheckBox.Caption="Sin servidores vacíos"
+NoFullCheckBox.Caption="Sin servidores llenos"
+NoPasswdCheckBox.Caption="Sólo serv. sin contraseñas"
+OnlyStandardCheckBox.Caption="Sólo servidores estándar"
+MutatorCombo.Caption="Mutágeno"
+OnlyPureCheckBox.Caption="Sólo servidores puros"
+StatsViewCombo.Caption="Servidores de estad."
+CustomQuery.Caption="Consulta actual"
+MaxGamespeed.Caption="Max"
+MinGamespeed.Caption="Velocidad juego min"
+MutatorModeStrings[0]="Cualquier mutágeno"
+MutatorModeStrings[1]="Sin mutágenos"
+MutatorModeStrings[2]="Este mutágeno"
+MutatorModeStrings[3]="Sin este mutágeno"
+WeaponStayStrings[0]="Cualquier servidor"
+WeaponStayStrings[1]="Solo servidores con armas perm."
+WeaponStayStrings[2]="Servidores sin armas perm."
+TranslocatorStrings[0]="Cualquier servidor"
+TranslocatorStrings[1]="Solo servidores desplazador"
+TranslocatorStrings[2]="Servidores sin desplazador"
+NoBotServersCheckBox.Caption="Servidores sin Bots"
+MutatorModeCombo.Caption="Mutágenos"
+TranslocatorCombo.Caption="Desplazador"
+WeaponStayCombo.Caption="ArmasPerm."
+
+[Browser_RulesList]
+TrueString="Activado"
+FalseString="Desactivado"
+ServerModeString="Modo de servidor"
+DedicatedString="Dedicado"
+NonDedicatedString="No dedicado"
+AdminNameString="Admin del servidor"
+AdminEmailString="Direc. admin"
+PasswordString="Se necesita contraseña"
+GameStatsString="Estad. UT2003"
+GameSpeedString="Velocidad de juego"
+MutatorString="Mutágeno"
+BalanceTeamsString="Bots equilibran equipos"
+PlayersBalanceTeamsString="Equipos equilibrados"
+FriendlyFireString="Fuego amigo"
+GoalScoreString="Puntuación"
+TimeLimitString="Límite de tiempo"
+MinPlayersString="Mínimo jugadores (bots)"
+TranslocatorString="Desplazador"
+ColumnHeadings[0]="Config"
+ColumnHeadings[1]="Valor"
+WeaponStayString="Armas perm."
+
+[Browser_ServerListPageFavorites]
+RemoveFavoriteCaption=ELIMINAR FAVORITOS
+AddIPCaption="AÑADIR IP"
+RePingCaption="RE-PING LISTA"
+
+[Browser_ServerListPageMS]
+QueryFinHead="¡Consulta completada! Recibido: "
+QueryFinTail=" Servidores"
+PingRecvString="¡PING!"
+MustUpgradeString="Actualización disponible. Actualiza la pág de noticias."
+RefreshFinHead="Pinging completado"
+RefreshFinMid=" Servidores, "
+RefreshFinTail=" Jugadores"
+RePingServersCaption="RE-PING LISTA"
+RefreshCaption="ACTUALIZAR LISTA"
+
+[Browser_ServersList]
+ColumnHeadings[0]=""
+ColumnHeadings[1]="Servidor"
+ColumnHeadings[2]="Mapa"
+ColumnHeadings[3]="Jugadores"
+ColumnHeadings[4]="Ping"
+
+[ExtendedConsole]
+AddedCurrentHead="Servidor añadido:"
+AddedCurrentTail="¡A favoritos!"
+SMStateName[0]="Menú de habla"
+SMStateName[1]="Reconocimiento"
+SMStateName[2]="Fuego amigo"
+SMStateName[3]="Orden"
+SMStateName[4]="Otros"
+SMStateName[5]="Burla"
+SMStateName[6]="Gesto de burla"
+SMStateName[7]="Selec. jugador"
+SMAllString="[TODOS]"
+SMMoreString="[MÁS]"
+
+[GUIQuestionPage]
+ButtonNames[0]="Aceptar"
+ButtonNames[1]="Cancelar"
+ButtonNames[2]="Reint."
+ButtonNames[3]="Continuar"
+ButtonNames[4]="Sí"
+ButtonNames[5]="No"
+ButtonNames[6]="Abortar"
+ButtonNames[7]="Ignorar"
+
+[HudBDeathMatch]
+LevelActionLoading="CARGANDO..."
+LevelActionPaused="PAUSA"
+WonMatchPostFix= ganó el partido.
+WaitingToSpawn="¡Pulsa [Disparo] para unirte al partido!"
+YouveWonTheMatch=¡Has ganado el partido!
+YouveLostTheMatch=Has perdido el partido.
+NowViewing="Ahora visto desde"
+ScoreText="Puntuación"
+InitialViewingString="Pulsa disparo para ver un jugador diferente"
+
+[HudBTeamDeathMatch]
+LinkEstablishedMessage="ENLACE ESTABLECIDO"
+NowViewing="Ahora visto desde"
+
+[ScoreBoardDeathMatch]
+RankText=CLASIFICACIÓN
+PlayerText=JUGADOR
+PointsText=PUNTOS
+TimeText=TIEMPO
+PingText=PING
+DeathsText=MUERTES
+AdminText=ADMIN
+NetText=RED
+FooterText=Tiempo:
+MatchIDText="ID Estad. UT2003"
+OutText=OUT
+ReadyText=LISTO
+NotReadyText=NO LISTO
+SkillLevel[0]="NOVATO"
+SkillLevel[1]="NORMAL"
+SkillLevel[2]="HÁBIL"
+SkillLevel[3]="PROFESIONAL"
+SkillLevel[4]="EXPERTO"
+SkillLevel[5]="MAESTRO"
+SkillLevel[6]="INHUMANO"
+SkillLevel[7]="DIOS"
+MaxLives=MÁX VIDAS:
+FragLimit=LÍMITE DE BAJAS:
+FPH=FPH
+GameType=JUEGO
+MapName= en 
+Restart=   Has muerto. ¡Pulsa [Disparo] para reentrar!
+Continue=¡Pulsa [Disparo] para continuar!
+Ended=El partido ha terminado.
+TimeLimit=TIEMPO REST: 
+MatchIDText="ID de estad. UT2003 del partido"
+Spacer=" "
+OutFireText="   Estás FUERA. Pulsa disparo para ver a otros."
+
+[ScoreBoardTeamDeathMatch]
+FragLimit="LÍMITE DE PUNTOS:"
+
+[Tab_AudioSettings]
+AudioModes[0]=Normal
+AudioModes[1]=5.1
+AudioModes[2]=5.1+EAX
+AudioModes[3]=Seguro
+VoiceModes[0]=Todas
+VoiceModes[1]=Sin burlas aut.
+VoiceModes[2]=Sin burlas
+VoiceModes[3]=Ninguna
+AnnounceModes[0]="Ninguno"
+AnnounceModes[1]="Mínimo"
+AnnounceModes[2]="Todos"
+AudioEffectsVolumeLabel.Caption="Volumen de efectos"
+AudioMusicVolumeLabel.Caption="Volumen de música"
+AudioVoiceVolumeLabel.Caption="Volumen de voz"
+AudioEffectsVolumeSlider.Hint=Cambia el volumen de todos los efectos de sonido.
+AudioMusicVolumeSlider.Hint=Cambia el volumen de la música de fondo.
+AudioVoiceVolumeSlider.Hint=Cambia el volumen de todos los mensajes de voz.
+AudioAutoTaunt.Caption="Burla autom."
+AudioAutoTaunt.Hint=Permite a tu jugador burlarse automát. de sus oponentes.
+AudioLowDetail.Caption="Bajar detalle del sonido"
+AudioLowDetail.Hint="Baja la calidad del sonido."
+AudioMatureTaunts.Caption="Burlas fuertes"
+AudioMatureTaunts.Hint=Permite comentarios de fuerte contenido.
+AudioMessageBeep.Caption="Sonido de mensaje"
+AudioMessageBeep.Hint=Activa un sonido de aviso al recibir un mensaje de otros jugad.
+AudioReverseStereo.Caption="Intercamb. estéreo"
+AudioReverseStereo.Hint=Intercambia los canales de audio izquierdo y derecho.
+AudioAnnounce.Caption="Comentarios"
+AudioAnnounce.Hint="Establece la cantidad de comentarios en el juego."
+AudioMode.Caption="Modo de audio"
+AudioMode.Hint=Cambia el sistema de audio (SE NECESITA REINICIAR EL JUEGO).
+AudioPlayVoices.Hint=Define los tipos de mensajes de voz para jugar.
+AudioPlayVoices.Caption="Mostrar voces"
+AudioAnnouncerPack.Caption="Voz del presentador" 
+AudioAnnouncerPack.Hint="Selecciona el presentador para el encuentro de esta noche."
+
+[Tab_ControlSettings]
+Bindings[0].KeyLabel="Movimiento"
+Bindings[1].KeyLabel="Adelante"
+Bindings[2].KeyLabel="Atrás"
+Bindings[3].KeyLabel="Izquierda"
+Bindings[4].KeyLabel="Derecha"
+Bindings[5].KeyLabel="Saltar"
+Bindings[6].KeyLabel="Caminar"
+Bindings[7].KeyLabel="Agacharse"
+Bindings[8].KeyLabel="Pasos"
+Bindings[9].KeyLabel="Mirar"
+Bindings[10].KeyLabel="Mirar izquierda"
+Bindings[11].KeyLabel="Mirar derecha"
+Bindings[12].KeyLabel="Mirar arriba"
+Bindings[13].KeyLabel="Mirar abajo"
+Bindings[14].KeyLabel="Centrar vista"
+Bindings[15].KeyLabel="Armas"
+Bindings[16].KeyLabel="Disparo"
+Bindings[17].KeyLabel="Disparo alt."
+Bindings[18].KeyLabel="Lanzar arma"
+Bindings[19].KeyLabel="Mejor arma"
+Bindings[20].KeyLabel="Arma siguiente"
+Bindings[21].KeyLabel="Arma anterior"
+Bindings[23].KeyLabel="Selección arma"
+Bindings[24].KeyLabel="Súper arma"
+Bindings[25].KeyLabel="Cañón protector"
+Bindings[26].KeyLabel="Rifle de asalto"
+Bindings[27].KeyLabel="Bio-rifle"
+Bindings[28].KeyLabel="Rifle de choque"
+Bindings[29].KeyLabel="Enlazadora"
+Bindings[30].KeyLabel="Minigun"
+Bindings[31].KeyLabel="Flak Cannon"
+Bindings[32].KeyLabel="Lanzacohetes"
+Bindings[33].KeyLabel="Arma eléctrica"
+Bindings[34].KeyLabel="Desplazador"
+Bindings[35].KeyLabel="Comunicación"
+Bindings[36].KeyLabel="Hablar"
+Bindings[37].KeyLabel="Hablar a equipo"
+Bindings[38].KeyLabel="Menú de habla"
+Bindings[39].KeyLabel="Burlas"
+Bindings[40].KeyLabel="Movim. pélvico"
+Bindings[41].KeyLabel="Palmadita en el culo"
+Bindings[42].KeyLabel="Rajar garganta"
+Bindings[43].KeyLabel="Hud"
+Bindings[44].KeyLabel="Aumentar Hud"
+Bindings[45].KeyLabel="Encoger Hud"
+Bindings[46].KeyLabel="Varios"
+Bindings[47].KeyLabel="Pausa"
+Bindings[48].KeyLabel="Capturar pant."
+Bindings[49].KeyLabel="Menú"
+Bindings[50].KeyLabel="Activar marcador"
+Bindings[51].KeyLabel="Chat en juego"
+Bindings[52].KeyLabel="Info de servidor"
+Labels[50]="Activar marcador"
+Labels[51]="Chat en juego"
+Labels[52]="Info de servidor"
+Labels[0]="Movimiento"
+Labels[1]="Adelante"
+Labels[2]="Atrás"
+Labels[3]="Izquierda"
+Labels[4]="Derecha"
+Labels[5]="Saltar"
+Labels[6]="Caminar"
+Labels[7]="Agacharse"
+Labels[8]="Pasos"
+Labels[9]="Mirar"
+Labels[10]="Mirar izquierda"
+Labels[11]="Mirar derecha"
+Labels[12]="Mirar arriba"
+Labels[13]="Mirar abajo"
+Labels[14]="Centrar vista"
+Labels[15]="Armas"
+Labels[16]="Disparo"
+Labels[17]="Disparo alt."
+Labels[18]="Lanzar arma"
+Labels[19]="Mejor arma"
+Labels[20]="Arma siguiente"
+Labels[21]="Arma anterior"
+Labels[23]="Selección arma"
+Labels[24]="Súper arma"
+Labels[25]="Cañón protector"
+Labels[26]="Rifle de asalto"
+Labels[27]="Bio-rifle"
+Labels[28]="Rifle de choque"
+Labels[29]="Enlazadora"
+Labels[30]="Minigun"
+Labels[31]="Flak Cannon"
+Labels[32]="Lanzacohetes"
+Labels[33]="Arma eléctrica"
+Labels[34]="Desplazador"
+Labels[35]="Comunicación"
+Labels[36]="Hablar"
+Labels[37]="Hablar a equipo"
+Labels[38]="Menú de habla"
+Labels[39]="Burlas"
+Labels[40]="Movim. pélvico"
+Labels[41]="Palmadito en el culo"
+Labels[42]="Rajar garganta"
+Labels[43]="Hud"
+Labels[44]="Aumentar Hud"
+Labels[45]="Encoger Hud"
+Labels[46]="Varios"
+Labels[47]="Pausa"
+Labels[48]="Capturar pant."
+Labels[49]="Menú"
+Header="Las siguientes teclas ["
+Footer="] desempeñan esta acción "
+KeyResetButton.Caption="PREDET."
+KeyResetButton.Hint="Restablecer teclas a los valores predeterminados"
+KeyConfigAliasLabel.Caption="Acción"
+KeyConfigAliasLabel2.Caption="Tecla 1"
+KeyConfigAliasLabel3.Caption="Tecla 2"
+KeyConfigKeyList.Hint="Selecciona Control para configurar"
+
+[Tab_DetailSettings]
+DetailLevels[0]=El más bajo
+DetailLevels[1]=Más bajo
+DetailLevels[2]=Bajo
+DetailLevels[3]=Normal
+DetailLevels[4]=Alto
+DetailLevels[5]=Más alto
+DetailLevels[6]=El más alto
+DetailCharacterShadows.Caption="Sombras del personaje"
+DetailCharacterShadows.Hint=Activa las sombras del personaje.
+DetailCoronas.Caption="Coronas"
+DetailCoronas.Hint=Activa las coronas.
+DetailDecals.Caption="Calcomanías"
+DetailDecals.Hint=Activa los efectos de las calcomanías.
+DetailDecoLayers.Caption="Vegetación"
+DetailDecoLayers.Hint="Muestra césped y otros detalles de vegetación."
+DetailDetailTextures.Caption="Texturas de detalle"
+DetailDetailTextures.Hint=Activa las texturas de detalle.
+DetailDynamicLighting.Caption="Luces dinámicas"
+DetailDynamicLighting.Hint=Activa las luces dinámicas.
+DetailProjectors.Caption="Proyectores"
+DetailProjectors.Hint="Permite el uso de proyectores."
+DetailTrilinear.Caption="Filtro Trilineal"
+DetailTrilinear.Hint="Activa el filtro trilineal, recomendado para PCs de alto rendimiento."
+DetailActorDetail.Caption="Detalle actores"
+DetailActorDetail.Hint=Cambia el nivel de detalle de actores.
+DetailCharacterDetail.Caption="Detalle pers."
+DetailCharacterDetail.Hint=Cambia el nivel de detalle del personaje.
+DetailDecalStay.Caption="Durac. cal."
+DetailDecalStay.Hint=Establece la duración de los efectos de las calcomanías.
+DetailPhysics.Caption="Detalles físicos"
+DetailPhysics.Hint=Cambia el nivel de detalle de simulación física.
+DetailWorldDetail.Caption="Detalle mundos"
+DetailWorldDetail.Hint=Cambia el nivel de detalle de mundos.
+DetailBlob.Caption="Usar sombras simples"
+DetailBlob.Hint="Se recomienda activar sombras simples en PC de bajo rendimiento."
+
+[Tab_GameSettings]
+CrosshairNames[0]=Oculto
+CrosshairNames[1]="Cruz (1)"
+CrosshairNames[2]="Cruz (2)"
+CrosshairNames[3]="Cruz (3)"
+CrosshairNames[4]="Cruz (4)"
+CrosshairNames[5]="Cruz (5)"
+CrosshairNames[6]="Punto"
+CrosshairNames[7]="Puntero"
+CrosshairNames[8]="Tríada (1)"
+CrosshairNames[9]="Tríada (2)"
+CrosshairNames[10]="Tríada (3)"
+CrosshairNames[11]="Paréntesis (1)"
+CrosshairNames[12]="Paréntesis (2)"
+CrosshairNames[13]="Círculo (1)"
+CrosshairNames[14]="Círculo (2)"
+GameAutoAim.Caption="Auto-apuntar"
+GameAutoAim.Hint=Deja que UT2003 te ayude a apuntar (no disponible en Multijugador).
+GameDeathMsgs.Caption="Sin mensajes de muerte"
+GameDeathMsgs.Hint="Desactiva los mensajes de muerte de la consola"
+GameDodging.Caption="Esquivar"
+GameDodging.Hint=Seleccionando esta opción conseguirás movimientos de esquive en el juego.
+GameHudVisible.Caption="Ocultar HUD"
+GameHudVisible.Hint=Esta opción ocultará la visión del HUD.
+GameReduceGore.Caption="Reducir Gore"
+GameReduceGore.Hint=Activa esta opción para reducir el nivel de sangre desplegado.
+GameScreenFlashes.Caption="Destellos en pantalla"
+GameScreenFlashes.Hint=Desactiva esta opción para evitar los destellos en pantalla al ser alcanzado.
+GameWeaponBob.Caption="Balanceo del arma"
+GameWeaponBob.Hint=Evita que tu arma se balancee mientras te mueves.
+GameCrossHair.Caption="Pto mira"
+GameCrossHair.Hint=¡Selecciona tu punto de mira!
+GameHudCrossHairALabel.Caption="Transparencia:"
+GameHudCrossHairBLabel.Caption="Azul:"
+GameHudCrossHairGLabel.Caption="Verde:"
+GameHudCrossHairRLabel.Caption="Rojo:"
+GameHudCrossHairA.Hint="Cambiar el color preferido del punto de mira."
+GameHudCrossHairB.Hint="Cambiar el color preferido del punto de mira."
+GameHudCrossHairG.Hint="Cambiar el color preferido del punto de mira."
+GameHudCrossHairR.Hint="Cambiar el color preferido del punto de mira."
+
+[Tab_HudSettings]
+CrosshairNames[0]=Oculto
+CrosshairNames[1]="Cruz (1)"
+CrosshairNames[2]="Cruz (2)"
+CrosshairNames[3]="Cruz (3)"
+CrosshairNames[4]="Cruz (4)"
+CrosshairNames[5]="Cruz (5)"
+CrosshairNames[6]="Punto"
+CrosshairNames[7]="Puntero"
+CrosshairNames[8]="Tríada (1)"
+CrosshairNames[9]="Tríada (2)"
+CrosshairNames[10]="Tríada (3)"
+CrosshairNames[11]="Paréntesis (1)"
+CrosshairNames[12]="Paréntesis (2)"
+CrosshairNames[13]="Círculo (1)"
+CrosshairNames[14]="Círculo (2)"
+GameHudOpacityLabel.Caption="Transparencia del HUD"
+GameHudScaleLabel.Caption="Tamaño del HUD"
+GameHudOpacity.Hint="Ajusta el nivel de transparencia del HUD."
+GameHudScale.Hint="Ajusta el tamaño de los elementos del HUD."
+GameHudShowPersonalInfo.Caption="Mostrar el estado del jugador"
+GameHudShowPortraits.Caption="Mostrar los retratos"
+GameHudShowScore.Caption="Mostrar bajas enemigas"
+GameHudShowWeaponBar.Caption="Mostrar la pantalla de armas"
+GameHudShowWeaponInfo.Caption="Mostrar la pantalla de armas en el HUD."
+GameHudVisible.Caption="HUD de la piel"
+GameHudVisible.Hint=""
+GameHudMessageCount.Caption="núm. máx. de mensajes charla"
+GameHudMessageOffset.Caption="tamaño del mensaje "
+GameHudMessageScale.Caption="tamaño del mensaje charla"
+GameHudShowEnemyNames.Caption="Mostrar nombres enemigos"
+
+[Tab_IABombingRun]
+GoalScoreText=Límite de punt.
+
+[Tab_IACaptureTheFlag]
+GoalScoreText=Límite de capt.
+
+[Tab_IADeathMatch]
+GoalScoreText=Límite de bajas
+IARulesAutoAdjustSkill.Caption="Ajustar aut. destreza"
+IARulesAutoAdjustSkill.Hint="Si lo activas, los bots ajustarán su nivel de destreza al tuyo."
+
+[Tab_IADoubleDomination]
+GoalScoreText=Límite de punt.
+
+[Tab_IATeamDeathMatch]
+GoalScoreText=Límite de bajas
+
+[Tab_InstantActionBaseRules]
+PercentText="por ciento"
+IARulesFriendlyFireLabel.Caption=Fuego amigo
+IARulesGameSpeedLabel.Caption=Velocidad del juego
+IARulesFriendlyFireSlider.Hint=Esta opción establece el daño que haces a tus compañeros de equipo.
+IARulesGameSpeedSlider.Hint=Esta opción establece qué velocidad tendrá el juego
+IARulesTranslocator.Caption=Incluir Desplazador
+IARulesTranslocator.Hint=Activa esta opción para incluir Desplazadores en el juego.
+IARulesWeaponStay.Caption=Mantener armas
+IARulesWeaponStay.Hint=Las armas estarán siempre disponibles para recogerlas.
+IARulesGoalScore.Caption=Límite de objetivos
+IARulesGoalScore.Hint=El juego acabará cuando se alcance esta cifra.
+IARulesMaxLives.Caption=Máx de vidas
+IARulesMaxLives.Hint=Sólo podrás reiniciar tantas veces como establezcas aquí (0= desact.).
+IARulesTimeLimit.Caption=Límite de tiempo
+IARulesTimeLimit.Hint=El juego acabará cuando se cumpla este tiempo.
+IARulesAllowWeaponThrow.Caption="Permitir arrojar armas" 
+IARulesAllowWeaponThrow.Hint="Cuando se selecciona, el jugador tendrá la habilidad de arrojar su arma actual."
+IARulesBrightSkins.Caption="Skins brillantes"
+IARulesBrightSkins.Hint=="Cuando esté seleccionado, el servidor hará que las skins sean más brillantes de lo habitual."
+
+[Tab_InstantActionMain]
+DifficultyLevels[0]=Novato
+DifficultyLevels[1]=Normal
+DifficultyLevels[2]=Hábil
+DifficultyLevels[3]=Profesional
+DifficultyLevels[4]=Experto
+DifficultyLevels[5]=Maestro
+DifficultyLevels[6]=Inhumano
+DifficultyLevels[7]=Dios
+MessageNoInfo="¡No hay información disponible!"
+IAMain_MapName.Caption="Prueba"
+IAMain_MapList.Hint=Selecciona el mapa para jugar
+IAMain_UseCustomBots.Caption="Utilizar bots actuales"
+IAMain_UseCustomBots.Hint="Podrás usar el menú de Config bot para escoger los bots."
+IAMain_UseMapBots.Caption="Ajuste de bots por mapa"
+IAMain_UseMapBots.Hint="El número de bots se ajustará automáticamente según el mapa."
+IAMain_BotSkill.Caption="Destreza de bot"
+IAMain_BotSkill.Hint=¿Con qué intensidad quieres que te machaquen?
+IAMain_GameType.Caption="Modo:"
+IAMain_GameType.Hint=Selecciona el modo de juego que quieres jugar.
+IAMain_BotCount.Caption="Número de bots"
+IAMain_BotCount.Hint="Escoge el número de bots con los que jugar."
+IAMain_MapAuthor.Caption="En pruebas"
+IAMain_MapPlayers.Caption="Recomendado para de 4 a 8 jugadores"
+
+[Tab_MultiplayerHostMain]
+MessageNoInfo="¡No hay información disponible!"
+MPHostListAdd.Caption=Añadir
+MPHostListAdd.Hint=Añade este mapa a tu lista de mapas
+MPHostListAll.Caption=Añad. todos
+MPHostListAll.Hint=Añade todos los mapas a tu lista de mapas
+MPHostListClear.Caption=Borr. todos
+MPHostListClear.Hint=Elimina todos los mapas de tu lista de mapas
+MPHostListDown.Caption=Abajo
+MPHostListDown.Hint=Mueve este mapa más abajo en tu lista de mapas
+MPHostListRemove.Caption=Eliminar
+MPHostListRemove.Hint=Elimina este mapa de tu lista de mapas
+MPHostListUp.Caption=Arriba
+MPHostListUp.Hint=Mueve este mapa más arriba en tu lista de mapas
+MPHostMapName.Caption=Testing
+MPHostListCurMapList.Hint=Selecciona el mapa para jugar
+MPHostListFullMapList.Hint=Selecciona el mapa para jugar
+MPHost_GameType.Caption="Modo:"
+MPHost_GameType.Hint=Selecciona el modo de juego que quieres jugar.
+
+[Tab_NetworkSettings]
+NetSpeedText[0]=Módem
+NetSpeedText[1]=ISDN
+NetSpeedText[2]=Cable/ADSL
+NetSpeedText[3]=LAN/T1
+StatsURL="http://ut2003stats.epicgames.com/"
+ViewOnlineStats.Caption="Ver Estad."
+ViewOnlineStats.Hint="Haz clic para mostrar el sitio web de estad. UT."
+InvalidWarning.Caption="Tu nombre o contraseña de estad. es inválido. Tu nombre debe constar al menos de 4 caracteres, y tu contraseña al menos de 6."
+OnlineStatDesc.Caption=ESTAD. DE JUEGO
+OnlineTrackStats.Caption="Registrar estad."
+OnlineTrackStats.Hint=Activa esta opción para unirte al sistema de ranking on-line.
+OnlineNetSpeed.Caption="Conexión"
+OnlineNetSpeed.Hint=¿Qué velocidad de conexión tienes?
+OnlineStatsName.Caption="Usuario"
+OnlineStatsName.Hint=Escribe un nombre para tus estad. de UT.
+OnlineStatsPW.Caption="Contraseña"
+OnlineStatsPW.Hint=Escribe una contraseña para proteger tus estad. de UT.
+EpicIDMsg="Tu identificación única es:"
+EpicID.Caption="Tu identificación única es:"
+
+[Tab_PlayerSettings]
+HandNames[0]="Derecha"
+HandNames[1]="Oculto"
+HandNames[2]="Izquierda"
+TeamNames[0]=Rojo
+TeamNames[1]=Azul
+ShowBioCaption="Biografía"
+Show3DViewCaption="Vista en 3D"
+Player3DView.Caption="Vista en 3D"
+Player3DView.Hint="Cambia de vista en 3D a la biografía del avatar."
+PlayerCharList.Hint=Cambia el personaje con el que juegas.
+PlayerHand.Caption="Arma"
+PlayerHand.Hint=Muestra (o no) tu arma.
+PlayerTeam.Caption="Equipo pref."
+PlayerTeam.Hint=Cambia el equipo donde jugarás por defecto.
+PlayerName.Caption="Nom."
+PlayerName.Hint=Cambia el alias con el que juegas.
+PlayerFOV.Caption="CV predeterminado"
+PlayerFOV.Hint="Si hay menos jugadores que el mínimo, se añadirán bots al juego."
+
+[Tab_ServerInfo]
+DefaultText="Recibiendo reglas del servidor...||Esta función requiere que el servidor esté ejecutándose con el último parche"
+ServerInfoLabel.Caption="Reglas"
+
+[UT2ServerInfo]
+ServerBackButton.Caption="Cerrar"
+ServerBackButton.Hint="Cerrar este menú"
+
+[Tab_SPProfileLoad]
+Difficulties[0]="Novato"
+Difficulties[1]="Normal"
+Difficulties[2]="Hábil"
+Difficulties[3]="Professional"
+Difficulties[4]="Experto"
+Difficulties[5]="Maestro"
+Difficulties[6]="Inhumano"
+Difficulties[7]="Dios"
+DeleteMessage="Estás a punto de borrar el perfil de '%prof%'||¿Estás seguro de querer borrar este perfil?"
+btnDelete.Caption=BORRAR PERFIL
+btnDelete.Hint=Elimina el perfil seleccionado
+btnLoad.Caption=CARGAR PERFIL
+btnLoad.Hint=Carga el perfil seleccionado
+btnNew.Caption=NUEVO PERFIL
+btnNew.Hint=Abre el menú de creación de perfil
+imagePlayerSkin.Hint=La apariencia de tu personaje
+imageTeamSymbol.Hint=El símbolo de tu equipo
+SPPLLblProfiles.Caption="LISTA DE PERFILES"
+SPPLLblStats.Caption="ESTAD. DE PERFIL"
+lboxProfile.Hint=Selecciona un perfil
+moebDeaths.Caption="Muertes: "
+moebDeaths.Hint=Número de veces que este personaje ha muerto
+moebDifficulty.Caption="Dificultad: "
+moebDifficulty.Hint=Grado de dificultad de este Torneo
+moebGoals.Caption="Puntos: "
+moebGoals.Hint=Número de puntos conseguidos por este personaje
+moebKills.Caption="Bajas: "
+moebKills.Hint=Número de bajas conseguidas por este personaje
+moebMatches.Caption="Partidos: "
+moebMatches.Hint="Número de partidos jugados por este personaje"
+moebPlayerName.Caption="Nombre: "
+moebPlayerName.Hint=El nombre de tu personaje
+moebTeamName.Caption="Equipo: "
+moebTeamName.Hint=El nombre de tu equipo
+moebWins.Caption="Victorias: "
+moebWins.Hint="Número de victorias conseguidas por este personaje"
+
+[Tab_SPProfileNew]
+DefaultName="Jugador"
+DefaultTeamName="Equipo"
+Err_ProfileExists=¡Ya existe un perfil con este nombre!
+Err_CantCreateProfile=Creación de perfil cancelada.
+btnBack.Caption=VOLVER
+btnBack.Hint=Volver al menú anterior
+btnDefaults.Caption=VOLVER A PREDET.
+btnDefaults.Hint=Reconfigurar este perfil con los valores por defecto
+btnSaveProfile.Caption=CREAR PERFIL
+btnSaveProfile.Hint=Crear un perfil con esta configuración
+clistPlayerSkins.Hint=La apariencia de tu personaje, utiliza las teclas de dirección para cambiar
+btnNextSkin.Hint=Selecciona una nueva apariencia para tu personaje
+btnNextSymbol.Hint=Selecciona un símbolo nuevo para tu equipo
+btnPrevSkin.Hint=Selecciona una nueva apariencia para tu personaje
+btnPrevSymbol.Hint=Selecciona un símbolo nuevo para tu equipo
+ilTeamSymbols.Hint=El símbolo de tu equipo; utiliza las teclas de dirección para cambiar
+lblCharacter.Caption=Personaje
+lblSelect01.Caption=Seleccionar
+lblSelect02.Caption=Seleccionar
+lblTeamSymbol.Caption=Símbolo del equipo
+lblTitle.Caption=CREAR PERFIL
+mocbDifficulty.Caption="Dificultad: "
+mocbDifficulty.Hint=Selecciona el nivel de dificultad
+moebPlayerName.Caption="Nombre: "
+moebPlayerName.Hint=El nombre de tu personaje
+moebTeamName.Caption="Equipo: "
+moebTeamName.Hint=El nombre de tu equipo
+
+[Tab_SPRoster]
+MessageNoInfo="No hay información disponible."
+PostStatsMessage="Estad."
+SPRosterCharList.Hint=Escoge compañero de equipo para jugar en el próximo partido
+cboMate1.Hint=Fija la posición activa de este miembro
+cboMate2.Hint=Fija la posición activa de este miembro
+cboMate3.Hint=Fija la posición activa de este miembro
+cboMate4.Hint=Fija la posición activa de este miembro
+btnMate1.Hint=Asigna el miembro de equipo seleccionado a este equipo
+btnMate2.Hint=Asigna el miembro de equipo seleccionado a este equipo
+btnMate3.Hint=Asigna el miembro de equipo seleccionado a este equipo
+btnMate4.Hint=Asigna el miembro de equipo seleccionado a este equipo
+SPMatchData.Caption=No hay perfil => No hay datos del partido
+lblMate1.Caption=Nombre
+lblMate2.Caption=Nombre
+lblMate3.Caption=Nombre
+lblMate4.Caption=Nombre
+lblNA1.Caption="BLOQUE NO DISPONIBLE"
+lblNA2.Caption="BLOQUE NO DISPONIBLE"
+lblNA3.Caption="BLOQUE NO DISPONIBLE"
+lblNA4.Caption="BLOQUE NO DISPONIBLE"
+SPCharData.Hint=Perfil de los miembros del equipo
+
+[Tab_SPTutorials]
+SelectMessage="Haz clic para jugar en modo tutorial"
+
+[Tab_VideoSettings]
+BitDepthText[0]=16-bit Color
+BitDepthText[1]=32-bit Color
+VideoApply.Caption=Aplicar cambios
+VideoApply.Hint=Aplicar todos los cambios a la config. del vídeo.
+BrightDesc1.Caption=Ajustar la gama para que
+BrightDesc2.Caption=el cuadrado esté completamente negro.
+BrightnessLabel.Caption=Brillo
+ContrastLabel.Caption=Contraste
+GammaLabel.Caption=Gama
+BrightnessSlider.Hint=Usa la barra para ajustar el brillo en tu monitor.
+ContrastSlider.Hint=Usa la barra para ajustar el contraste en tu monitor.
+GammaSlider.Hint=Usa la barra para ajustar la gama en tu monitor.
+VideoFullScreen.Caption=Pant. comp.
+VideoColorDepth.Caption=Prof. color
+VideoResolution.Caption=Resolución
+VideoFullScreen.Hint=Activa esta opción para lanzar el juego a pantalla completa.
+VideoColorDepth.Hint=Selecciona el número máximo de colores mostrados a la vez.
+VideoResolution.Hint=Selecciona la resolución de imagen a la que quieres jugar.
+
+[TestVignette]
+LoadingString=". . . C A R G A N D O . . ."
+
+[UT2BotInfoPage]
+NoInformation="No hay información disponible"
+OkButton.Caption="Ok"
+lblName.Caption="Desconocido"
+lblRace.Caption="Desconocido"
+myPB.Caption="Precisión"
+myPB2.Caption="Agilidad"
+myPB3.Caption="Estrategia"
+myPB4.Caption="Agresividad"
+myPB5.Caption="¡NO LO SÉ!"
+
+[UT2DraftTeam]
+ClearConfirmMessage="Esto vaciará tu ficha de equipo. ¿Estás seguro?"
+EnterConfirmMessage="¿Estás preparado para entrar en el Torneo?"
+StatsMessage="Estad."
+SPDTAuto.Caption="SELEC. AUTOM."
+SPDTAuto.Hint="Seleccionará automáticamente los componentes de tu equipo"
+SPDTClear.Caption=BORRAR 
+SPDTClear.Hint=Borra la ficha de tu equipo
+SPDTDraft.Caption=SELEC.
+SPDTDraft.Hint=Añade este personaje a tu equipo
+SPDTEnter.Caption=EMPEZAR 
+SPDTEnter.Hint=Empezar torneo con este equipo
+SPDTRelease.Caption=QUITAR
+SPDTRelease.Hint=Eliminar este personaje de tu equipo
+SPDTPortrait.Hint=Selecciona compañero de equipo
+SPDTRosterCharList.Hint=Escoge compañero de equipo para jugar en el próximo partido
+SPDTPicLeft.Hint="Selecciona un compañero de equipo"
+SPDTPicRight.Hint="Selecciona un compañero de equipo"
+SPDTLblChoose.Caption="Selec. Compañero"
+SPDTMatchData.Caption=No hay perfil => No hay datos del partido
+SPDTCharData.Hint=Perfil de miembros del equipo
+SPDTHeader.Caption="Un solo jugador | Configura tu equipo"
+SPDTTitle.Caption="CONFIGURA TU EQUIPO"
+
+[UT2InstantActionPage]
+MainTabLabel="Selec. Mapa"
+MainTabHint=Escoge el mapa y el modo de juego para jugar...
+RulesTabLabel="Reglas"
+RulesTabHint=Configura los modos de juego...
+MutatorTabLabel="Mutágenos"
+MutatorTabHint=Selecciona y configura los mutágenos del juego...
+MapListTabLabel="Lista Mapas"
+MapListTabHint=Configura la lista de mapas para jugar...
+BotConfigTabLabel="Config bot"
+BotConfigTabHint=Configura los bots que aparecerán en la sesión...
+PlayerTabLabel="Jugador"
+PlayerTabHint=Configura tu avatar UT2003...
+BackButton.Caption=Volver
+BackButton.Hint=Cancelar cambios y volver al menú anterior
+PlayButton.Caption=Jugar
+PlayButton.Hint=Empezar un partido con esta configuración
+SettingHeader.Caption=Modo rápido
+IAPageBackButton.Caption="Volver"
+IAPageBackButton.Hint="Volver al menú anterior"
+IAPagePlayButton.Caption="Jugar"
+IAPagePlayButton.Hint="Empezar un partido con esta configuración"
+IAPageHeader.Caption="Modo rápido"
+IAPageSpecButton.Caption="CONTEMPLAR"
+IAPageSpecButton.Hint="Contempla un partido con estos ajustes"
+
+[UT2MidGameMenu]
+LeaveMPButtonText=SALIR
+LeaveSPButtonText=ABANDONAR PARTIDO
+LeaveEntryButtonText=NAVEGADOR
+AddFavoriteButton.Caption="AÑADIR FAVORITO"
+ChangeTeamButton.Caption=CAMBIAR DE EQUIPO
+ContMatchButton.Caption=CONTINUAR
+QuitGameButton.Caption=SALIR DE UT2003
+SettingsButton.Caption=AJUSTES
+BrowserButton.Caption="SERVIDORS"
+
+[Tab_SpeechBinder]
+SpeechLabel="Frase"
+
+[UT2MultiplayerHostPage]
+MainTabLabel="Mapa y modo"
+MainTabHint="Escoge el primer mapa y el modo de juego..."
+RulesTabLabel="Reglas"
+RulesTabHint="Configura el modo de juego actual..."
+MutatorsTabLabel="Mutágenos"
+MutatorsTabHint="Selecciona y configura los mutágenos que vayas a utilizar..."
+ServerTabLabel="Servidor"
+ServerTabHint="Configura todos los ajustes específicos del servidor..."
+BotTabLabel="Config bot"
+BotTabHint="Configura los bots que aparecerán en la sesión..."
+HostBackButton.Caption=Volver
+HostBackButton.Hint=Cancelar cambios y volver al menú anterior
+HostPlayButton.Caption=Lanzar 
+HostPlayButton.Hint=Lanzar el servidor
+HostHeader.Caption=Dirigir juego multijugador
+
+[UT2SP_DraftEventPage]
+MessageDraft="Has demostrado tu valor en la ronda de clasificación,|y has ganado el derecho a formar tu propio equipo para el torneo.|Configura tu equipo a partir de los agentes libres disponibles,|e introdúcete en las tablas del torneo por equipos--|pero sólo después de haber demostrado que eres un líder."
+MessageDraftTitle="Bienvenido al Torneo"
+
+[UT2SP_LadderLoading]
+StatNames[0]="VS"
+StatNames[1]="Puntería"
+StatNames[2]="Agresividad"
+StatNames[3]="Agilidad"
+StatNames[4]="Estrategia"
+LoadingMessage="Cargando..."
+
+[UT2SP_PlayerTradePage]
+MessageTitle="Un solo jugador | Opción de cambio"
+MessageTradeConfirm="¿Estás seguro de querer cambiar a %old% por %new%?"
+MessageTradeInfo="¿Quieres considerar un cambio para conseguir a %player%?"
+MessageTradeCancel="¿Estás seguro de querer cancelar el cambio?"
+CaptionBack="VOLVER"
+MessageTradePicHint="Este jugador está disponible"
+SPPTSwap.Caption="INTERCAMB."
+SPPTSwap.Hint="Intercambiar este personaje con el actual compañero de equipo"
+
+[UT2SettingsPage]
+VideoTabLabel="Vídeo"
+VideoTabHint=Selecciona la resolución y cambia el brillo...
+DetailsTabLabel="Detalles"
+DetailsTabHint=Mejora los gráficos y ajusta el índice mínimo de cuadros/seg...
+AudioTabLabel="Audio"
+AudioTabHint=Ajusta el audio del juego...
+PlayerTabLabel="Jugador"
+PlayerTabHint=Configura tu avatar UT2003...
+NetworkTabLabel="Red"
+NetworkTabHint=Configura UT2003 para juegos on-line y Lan...
+ControlsTabLabel="Controles"
+ControlsTabHint=Configura los controles...
+IForceTabLabel="Entrada"
+IForceTabHint=Configura UT2003 para trabajar con tu ratón IForce...
+WeaponsTabLabel="Armas"
+WeaponsTabHint=Ajusta los controles y las prioridades de las armas...
+GameTabLabel="Juego"
+GameTabHint=Ajusta algunas opciones variadas del juego...
+BackButton.Caption=Volver
+BackButton.Hint=Volver al menú anterior
+SettingHeader.Caption=Ajustes
+HudTabLabel="Hud"
+HudTabHint=""
+SpeechBinderTabLabel="Asignador de diálogos"
+SpeechBinderTabHint="Utiliza esta ventana especial para asignar las órdenes y las provocaciones a determinadas teclas."
+
+
+[UT2SinglePlayerMain]
+MessageLadderAvailable=".Esta tabla está ahora disponible."
+MessageLadderComplete=".Tabla completada."
+MessageCreateProfileFirst="Debes crear o cargar un perfil para poder jugar."
+TabNameProfileNew="Crear perfil"
+TabNameProfileLoad="Cargar perfil"
+TabNameQualification="Clasificación"
+TabNameLadder="Tabla"
+TabNameRoster="Equipo"
+TabNameTutorials="Tutoriales"
+TabHintProfileNew="Crear datos para un nuevo jugador"
+TabHintProfileLoad="Cargar los datos del jugador seleccionado"
+TabHintQualification="Competición individual de clasificación para el Unreal Tournament"
+TabHintLadder="Competición por equipos en el Unreal Tournament"
+TabHintRoster="Configura tu alineación para el siguiente partido"
+TabHintTutorials="Ver el modo tutorial para cada uno de los modos de juego"
+SPBack.Caption=MENÚ
+SPBack.Hint=Volver al menú principal
+SPPlay.Caption=JUGAR
+SPPlay.Hint=Jugar el partido seleccionado
+SPPageHeader.Caption="Un solo jugador"
+SPevent.Caption="Test evento especial"
+
+[UT2VideoChangeOK]
+RestoreTextPre=(Configuración original se restablecerá en 
+RestoreTextPost= segundos)
+RestoreTextSingular=(Configuración original se restablecerá en  1 segundo)
+AcceptButton.Caption=Mantener ajustes
+BackButton.Caption=Restablecer ajustes
+VideoOKDesc.Caption=¿Aceptas esta configuración?
+VideoOkTimerDesc.Caption=(Configuración original se restablecerá en 15 segundos)
+
+[UT2Congratulations]
+BackButton.Caption=Continuar
+CongratsHeader.Caption=ENHORABUENA
+
+[UT2BadCDKeyMsg]
+BadCDOk.Caption="OK"
+BadCDLabel.Caption="Tu código de CD es inválido o está siendo utilizado por otro jugador"
+
+[UT2DemoQuitPage]
+BuyButton.Caption="Comprar"
+QuitButton.Caption="Salir"
+
+[Browser_OpenIP]
+CancelButton.Caption="CANCELAR"
+OkButton.Caption="ACEPTAR"
+OpenIPDesc.Caption="Introduce nueva dirección IP"
+IpEntryBox.Caption="Dirección IP: "
+
+[Browser_AddBuddy]
+CancelButton.Caption="CANCELAR"
+OkButton.Caption="ACEPTAR"
+AddBuddyDesc.Caption="Añadir colega"
+BuddyEntryBox.Caption="Nom. colega: "
+
+[UT2GetPassword]
+GetPassFail.Caption="Error"
+GetPassRetry.Caption="Reintentar"
+GetPassLabel.Caption="Se requiere una contraseña para jugar en este servidor."
+GetPassPW.Caption="Contraseña del servidor"
+
+[UT2MainMenu]
+HostButton.Caption=Dirigir juego multijugador
+HostButton.Hint=Lanzar un servidor e invitar a otros a que se unan a tu juego
+InstantActionButton.Caption=Modo rápido
+InstantActionButton.Hint=Juega un partido de práctica
+MultiplayerButton.Caption=Jugar On-Line/LAN
+MultiplayerButton.Hint=Juega contra humanos a través de Internet o LAN
+QuitButton.Caption=SALIR
+QuitButton.Hint=Salir de Unreal Tournament 2003
+SettingsButton.Caption=Ajustes
+SettingsButton.Hint=Cambia los controles y la configuración
+SinglePlayerButton.Caption=Un solo jugador
+SinglePlayerButton.Hint=Participa en el Torneo
+
+[Tab_InstantActionBotConfig]
+IABotConfigConfig.Caption=Editor de bot
+IABotConfigConfig.Hint=Encuentra más información sobre este bot
+IABotConfigCharList.Hint=Selecciona un bot y añádelo a tu equipo
+IABotConfigBlueAdd.Hint=Añade bot al equipo azul
+IABotConfigBlueRemove.Hint=Elimina bot del equipo azul
+IABotConfigRedAdd.Hint=Añade bot al equipo rojo
+IABotConfigRedRemove.Hint=Elimina bot del equipo rojo
+IABotConfigBlueName.Caption=Equipo azul
+IABotConfigDMName.Caption=Deathmatch
+IABotConfigRedName.Caption=Equipo rojo
+IABotConfigBlueList.Hint=La ficha del equipo azul.
+IABotConfigRedList.Hint=La ficha del equipo rojo.
+IABotConfigUseCustom.Caption="Utilizar equipos escogidos"
+IABotConfigUseCustom.Hint=Al seleccionarlo, UT2003 utilizará los equipos que has seleccionado aquí.
+
+[Tab_InstantActionMapList]
+IAMapListAdd.Caption=Añadir
+IAMapListAdd.Hint=Añade este mapa a tu lista de mapas
+IAMapListAll.Caption=Añadir todos
+IAMapListAll.Hint=Añade todos los mapas a tu lista de mapas
+IAMapListClear.Caption=Borrar todos
+IAMapListClear.Hint=Elimina todos los mapas de tu lista de mapas
+IAMapListDown.Caption=Abajo
+IAMapListDown.Hint=Mueve este mapa más abajo en tu lista de mapas
+IAMapListRemove.Caption=Eliminar
+IAMapListRemove.Hint=Elimina este mapa de tu lista de mapas
+IAMapListUp.Caption=Arriba
+IAMapListUp.Hint=Mueve este mapa más arriba en tu lista de mapas
+IAMapListAvilLabel.Caption=Mapas disponibles
+IAMapListSelectedLabel.Caption=Lista de mapas
+IAMapListCurMapList.Hint=Mapas seleccionados
+IAMapListFullMapList.Hint=Mapas disponibles
+IAMapListRandomMap.Caption="Mezclar"
+IAMapListRandomMap.Hint=Establece el orden de la lista de mapas al azar
+
+[Tab_InstantActionMutators]
+IAMutatorAdd.Caption=Añadir
+IAMutatorAdd.Hint=Añade el mutágeno selec. a la lista de mutágenos con los que jugar.
+IAMutatorAll.Caption=Añadir todos
+IAMutatorAll.Hint=Añade todos los mutágenos a la lista de mut. con los que jugar.
+IAMutatorClear.Caption=Borrar todos
+IAMutatorClear.Hint=Elimina todos los mutágenos de la lista de mut. con los que jugar.
+IAMutatorConfig.Caption=Configurar mutágenos
+IAMutatorConfig.Hint=Configura el mutágeno seleccionado.
+IAMutatorRemove.Caption=Eliminar
+IAMutatorRemove.Hint=Elimina el seleccionado de la lista de mut. con los que jugar.
+IAMutatorAvilLabel.Caption=Mutágenos disponibles
+IAMutatorSelectedLabel.Caption=Mutágenos seleccionados
+IAMutatorAvailList.Hint=Estos son los mutágenos disponibles.
+IAMutatorSelectedList.Hint=Estos son los mutágenos con los que jugarás.
+
+[UT2NetworkStatusMsg]
+NetStatOk.Caption="Aceptar"
+
+[UT2StatusMsg]
+NetStatOk.Caption="Aceptar"
+
+[UT2QuitPage]
+NoButton.Caption=No
+YesButton.Caption=Sí
+QuitDesc.Caption=¿Estás seguro de que quieres salir?
+
+[UT2StatsPrompt]
+NoButton.Caption="NO"
+YesButton.Caption="SÍ"
+PromptDesc.Caption="Sólo podrás unirte a este servidor activando 'Registrar estad.' y estableciendo un nombre y una contraseña de estad. únicos. De momento sólo podrás conectarte con servidores con estad. DESACTIVADAS.||¿Quieres establecer tu nombre y contraseña de estad. ahora?"
+PromptHeader.Caption="¡Este servidor tiene estad. UT2003 ACTIVADAS!"
+
+[UT2ArenaConfig]
+OkButton.Caption="Aceptar"
+DialogText.Caption="Armar arena"
+DialogText2.Caption="Escoge el arma con la que poblar la arena."
+WeaponSelect.Caption="Arma"
+
+[UT2DeferChangeRes]
+OkButton.Caption=OK
+DialogText.Caption=La resolución que has escogido es más baja que la resolución de menú mínima.
+DialogText2.Caption=Se aplicarán en la siguiente partida.
+
+[UT2PerformWarn]
+OkButton.Caption="ACEPTAR"
+DialogText.Caption="AVISO"
+DialogText2.Caption="Los cambios que estás haciendo pueden perjudicar el rendimiento."
+
+[UT2SP_LadderEventPage]
+SPLEPMap.Caption="VER TUTORIAL"
+SPLEPcaption.Caption="Has acabado la tabla."
+Resultado - 0 error(es), 0 aviso(s)
+SPLEPOK.Caption="CONTINUAR"
+SPLEPtitle.Caption="ENHORABUENA"
+
+[Tab_SPPlay]
+SPPLAYGo.Caption=JUGAR
+SPPLAYGo.Hint=Jugar este partido
+SPPLAYTitle.Caption=JUGAR PARTIDO
+
+[JoeTest]
+TestButton1.Caption=Cerrar ventana
+TitleText.Caption=Joe's Amazing Test GUI
+
+[JoeTestPanelA]
+TestButtonA.Caption=Wow
+TestButtonB.Caption=Damn
+
+[Tab_WeaponPref]
+WeaponDefaults.Caption="Predet."
+WeaponDefaults.Hint="Volver a la config. de prioridad de armas a la predeterminada"
+WeaponPrefApply.Caption="Aplicar"
+WeaponPrefApply.Hint="Guardar configuración de armas"
+WeaponPrefWeapDown.Caption=Abajo
+WeaponPrefWeapDown.Hint=NO ME GUSTA este arma
+WeaponPrefWeapUp.Caption=Arriba
+WeaponPrefWeapUp.Hint=ME GUSTA este arma
+WeaponPriorityLabel.Caption="Prioridad de armas"
+WeaponPrefWeapList.Hint=Seleccionar orden de armas
+WeaponAutoSwitch.Caption="Cambiar al recoger"
+WeaponAutoSwitch.Hint="Cambiar automáticamente el arma cuando recoges una mejor."
+
+[Tab_SPLadderTeam]
+BRLabel.Caption=CARR.DE BOMB.
+CTFLabel.Caption=CAPTURAR LA BANDERA
+DOMLabel.Caption=DOMINACIÓN
+MapInfoName.Caption=Nombre de mapa
+TDMLabel.Caption=DM POR EQUIPOS
+
+[Tab_SPLadderQualify]
+CheatMatch.Caption=PIRATEAR PARA GANAR UN PARTIDO
+CheatMatch.Hint=Una manera rápida de saltar partidos y ganar :)
+QualDraftTeam.Caption=SELECCIÓN DE JUGADORES
+QualDraftTeam.Hint=Una manera rápida de ir al menú de selección de jug.
+DMLabel0.Caption=Tutorial
+DMLabel1.Caption=Uno contra uno
+DMLabel2.Caption=Uno contra uno
+DMLabel3a.Caption=Cut-throat
+DMLabel3b.Caption=Deathmatch
+DMLabel4a.Caption=Five-way
+DMLabel4b.Caption=Deathmatch
+DMLabel5a.Caption=Configura tu equipo
+DMLabel5b.Caption=y luego vénceles
+MapInfoName.Caption=Nombre de mapa
+PageTitle.Caption=CLASIFICACIÓN
+QualWhy.Caption=Clasifícate para el Unreal Tournament
+
+[Tab_IForceSettings]
+InputIForceLabel.Caption="Dispositivo I-Force"
+InputSliderLabel1.Caption="Sensib. del ratón (Juego)"
+InputSliderLabel2.Caption="Sensib. del ratón (Menús)"
+InputMenuSensitivity.Hint="Ajusta la sensibilidad de tu ratón en los menús."
+InputMouseSensitivity.Hint="Qué sensibilidad tiene tu ratón."
+InputAutoAim.Caption="Auto-apuntar"
+InputAutoAim.Hint="Deja que UT2003 te ayude a apuntar (no disponible en Multijugador)."
+InputAutoSlope.Caption="Auto-pendiente"
+InputAutoSlope.Hint="Mirarás arriba o abajo automát. cuando subas/desciendas una pendiente."
+InputIFDamageEffects.Caption="Efectos de daño"
+InputIFDamageEffects.Hint="Activa esta opción para sentir el daño que recibes."
+InputIFGUIEffects.Caption="Efectos GUI"
+InputIFGUIEffects.Hint="Activa esta opción para sentir el GUI."
+InputIFPickupEffects.Caption="Efectos al recoger"
+InputIFPickupEffects.Hint="Si activas esta opción tu ratón IForce vibrará al recoger un objeto."
+InputIFWeaponEffects.Caption="Efectos de armas"
+InputIFWeaponEffects.Hint="Tu ratón IForce imitará los efectos de las armas durante el juego."
+InputInvertMouse.Caption="Invertir ratón"
+InputInvertMouse.Hint="Al activarlo, el eje Y de tu ratón se invertirá."
+InputMouseSmoothing.Caption="Suavidad del ratón"
+InputMouseSmoothing.Hint="Al activar esta opción tu ratón suavizará los movimientos."
+InputUseJoystick.Caption="Permitir joystick"
+InputUseJoystick.Hint="Activa esta opción para permitir el soporte de joystick."
+InputMouseLag.Caption="Reducir demora ratón"
+InputMouseLag.Hint="Al activar esta opción se reducirá la demora de tu ratón."
+InputDodgeTime.Caption="Tiempo de esquiva doble clic"
+InputDodgeTime.Hint="Determina cómo de rápido debes hacer doble clic para esquivar"
+InputMenuSensitivity.Caption="Sensibilidad del ratón (Menús)"
+InputMouseAccel.Caption="Umbral acel. del ratón"
+InputMouseAccel.Hint="Ajusta para determinar cuánto movimiento se necesita para que se aplique la aceleración"
+InputMouseSensitivity.Caption="Sensibilidad del ratón (en juego)"
+InputMouseSmoothStr.Caption="Fuerza del suavizado del ratón"
+InputMouseSmoothStr.Hint="Ajusta la cantidad de suavizado que se aplica a los movimientos del ratón"
+
+[UT2LoadingWeaponsArena]
+LoadWeapText.Caption="Cargando base de datos"
+Success - 0 error(s), 0 warning(s)
+
+[UT2LoadingWeapons]
+LoadWeapText.Caption="Cargando base de datos"
+
+[TestGFXButtonPage]
+lblClientBound.Caption=Client Bound ?
+lblImgAlign.Caption=Estado de menú
+lblImgSelect.Caption=Selecciona imagen
+lblImgStyle.Caption=Estilo de imágenes
+
+[TestImagePage]
+lblImgAlign.Caption=Alineamiento de imagen
+lblImgSelect.Caption=Selecciona imagen
+lblImgStyle.Caption=Estilo de imagen
+
+[Tab_MultiplayerHostServerSettings]
+MPServerAdvertise.Caption=Anunciar sevidor
+MPServerAdvertise.Hint=Si lo seleccionas tu servidor se anunciará en internet
+MPServerBalanceTeams.Caption=Equilibrar equipos
+MPServerBalanceTeams.Hint=Asigna equipos autom. para jugadores que se unan al servidor.
+MPServerCollectStats.Caption=Recoger estad. del jugador
+MPServerCollectStats.Hint=Publica las estad. de tu servidor en el sitio web de estad. de UT2003.
+MPServerDedicated.Caption=Servidor dedicado
+MPServerDedicated.Hint=Lanzarás un servidor dedicado.
+MPServerLanGame.Caption=Juego Lan
+MPServerLanGame.Hint=Optimiza la red para jugadores en red de área local.
+MPServerUseCustomBots.Caption="Usar bots actuales"
+MPServerUseCustomBots.Hint="Puedes utilizar la tabla de bots para escoger los bots con los que jugar."
+MPServerUseDefaults.Caption=Config. predet. de mapa
+MPServerUseDefaults.Hint=Utiliza los ajustes predet. de mínimo/máximo de jugadores del mapa.
+MPServerUseWebAdmin.Caption=Admin de Web
+MPServerUseWebAdmin.Hint=Permite administración vía web.
+MPServer_BotSkill.Caption=Destreza de bot
+MPServer_BotSkill.Hint=Escoge la destreza de los bots con los que jugarás.
+MPServerAdminEmail.Caption=Dirección elec.
+MPServerAdminEmail.Hint=La dirección  elec. del admin. se mostrará en la pantalla del navegador.
+MPServerAdminName.Caption=Admin.
+MPServerAdminName.Hint=El nombre del admin. se mostrará en la pantalla del navegador.
+MPServerAdminPW.Caption=Contraseña
+MPServerAdminPW.Hint=La contraseña del admin puede usarse para conectarse como admin.
+MPServerMOTD1.Caption=MOTD 1
+MPServerMOTD1.Hint=Los jugadores ven el mensaje del día cuando se unen al servidor.
+MPServerMOTD2.Caption=MOTD 2
+MPServerMOTD2.Hint=Los jugadores ven el mensaje del día cuando se unen al servidor.
+MPServerMOTD3.Caption=MOTD 3
+MPServerMOTD3.Hint=Los jugadores ven el mensaje del día cuando se unen al servidor.
+MPServerMOTD4.Caption=MOTD 4
+MPServerMOTD4.Hint=Los jugadores ven el mensaje del día cuando se unen al servidor.
+MPServerName.Caption=Servidor
+MPServerName.Hint=El nombre del servidor se mostrará en la pantalla del navegador.
+MPServerPW.Caption=Contraseña
+MPServerPW.Hint=Los jugadores deben introducir esta contraseña para unirse al juego.
+MPServerMaxPlayers.Caption=Máx de jugadores
+MPServerMaxPlayers.Hint=Limita el número máximo de jugadores permitidos en el servidor.
+MPServerMaxSpecs.Caption=Máx de espect.
+MPServerMaxSpecs.Hint=Limita el número máximo de espectadores permitidos en el servidor.
+MPServerMinPlayers.Caption=Mín de jugadores
+MPServerMinPlayers.Hint=Bots se unirán al juego si hay menos jugadores que el mín establecido.
+MPServerWebPort.Caption=Puerto del admin.
+MPServerWebPort.Hint=El puerto utilizado para conectarse con el sitio web del admin.
+MPServerUseCustomBots.Caption="Utilizar bots actuales"
+MPServerUseCustomBots.Hint="Puedes utilizar la lista de los bots para escoger los bots con los que jugar."
+MPServerPlayersMustBeReady.Caption="Los jugadores deben ser listos."
+MPServerPlayersMustBeReady.Hint=""
+MPServerAllowBehindView.Caption="Permitir vista trasera" 
+MPServerAllowBehindView.Hint="Cuando se selecciona, el servidor permitirá el uso del comando de consola 'behindview 1'"
+
+[Tab_ServerMOTD]
+ServerMOTDLabel.Caption="Mensaje del día"
+ServerAdminEmail.Caption="      Correo electrónico:"
+ServerAdminEmail.Hint="Cómo contactar con el propietario"
+ServerAdminName.Caption="Nombre Admin:"
+ServerAdminName.Hint="El propietario del servidor"
+
+[UT2AdminMenu]
+AdminBackButton.Caption="Cerrar"
+AdminBackButton.Hint="Cerrar este menú"
+AdminInfoHeader.Caption="Menú de juego del admin."
+
+[Browser_ServerListPageMSCustom]
+MyGameTypeLabel.Caption="Tipo de juego"

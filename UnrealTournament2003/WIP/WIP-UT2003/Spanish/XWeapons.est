@@ -1,0 +1,262 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutArena,Description="Redistribuye las armas y la munición en el mapa.")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutNoSuperWeapon,Description="Sin Redentor ni Cañón de iones en el mapa.")
+
+[Public]
+Object=(Name=XWeapons.MutLinkHealer,Class=Class,MetaClass=Engine.Mutator,Description="Enlazadora médica, la enlazadora emite un rayo que cura a los compañeros de equipo.")
+
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.AssaultRifle,Description="Barato y fácil de producir, el RA770 proporciona una solución de combate ligera de 5.56mm, y es más efectivo contra blancos sin armadura. Con una capacidad de penetración media-baja, este rifle es más adecuado para desempeñar funciones de arma ligera de apoyo. El lanzagranadas opcional M355 proporciona el poder necesario para que este arma sea efectiva contra enemigos fuertemente acorazados.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.BallLauncher,Description="Una nueva adición al Torneo, el lanzabolas sólo está disponible en la modalidad de juego Carrera de Bombardeo. Una vez que has cogido la pelota, el lanzabolas es seleccionado automáticamente de tu arsenal. Mientras estás en posesión de la pelota, no puedes usar ninguna otra arma. Al pulsar el botón de disparo arrojarás la pelota, ya sea para pasarla a otro compañero de equipo, o a través de la portería del equipo oponente.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.BioRifle,Description="El Bio-rifle GES sigue siendo una de las armas más controvertidas del Torneo. Amado por algunos, odiado por otros, el Bio-rifle ha sido objeto de largos debates acerca de su utilidad. Algunos puristas del Torneo argumentan que la detonación retardada del lodo mutagénico, unido a su habilidad para alfombrar rápidamente un área con la sustancia tóxica, han reducido el arma al equivalente de un mini campo de minas, un arma cobarde y barbárica. Los defensores del Bio-rifle argumentan que mejora las capacidades tácticas de los combatientes defensivos. Pese al debate, el arma sigue siendo históricamente precisa, y proporciona un disparo rápido con el que mantener cubierta una amplia área en el modo de fuego primario, y un disparo único de carga variable en el modo de fuego secundario. En términos ordinarios, esto equivale a rociar el suelo con pequeños goterones de biolodo, o lanzar un gran goterón directamente al objetivo. ")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.FlakCannon,Description="La serie 7 de cañones de proyectiles de Tecnologías Defensivas Trident ha dado el siguiente paso evolutivo con la producción del Mk3 “Negociador”. Los proyectiles ionizados son capaces de causar quemaduras de segundo y tercer grado en el tejido orgánico, cauterizando la herida de forma instantánea. La carga explosiva se libera mediante dos posibles métodos: proyectiles ionizados que se arrojan en un patrón expansivo desde el cañón; o mediante granadas de fragmentación que explotan al impactar con el blanco, irradiando fragmentos en todas las direcciones.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.LinkGun,Description="Los Sistemas de Armas Dinámicos Riordan combinan el mejor diseño armamentístico en el Rifle de Plasma Avanzado v23, comúnmente conocido como Arma enlazadora, o simplemente la Enlazadora. Aunque el modo de fuego primario de la Enlazadora es el mismo que el de su predecesor, que disparaba plasma, la antorcha cortadora secundaria ha sido sustituida con una matriz variable de exploración activa. Esta matriz permite al arma discernir a amigos de enemigos tan pronto como contactan con el remolino del haz verde, y cambiar así sus propiedades de forma correspondiente. Cuando el haz contacta con un oponente, puede causar serios daños y muerte en cuestión de segundos. Tan pronto como contacta con un compañero de equipo, el haz regresa a su estado de inofensivo chorro transportador, el cual descarga energía de las células portátiles, potenciando la producción de salida de cualquier jugador aliado que también esté utilizando la Enlazadora.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Minigun,Description="El cañón rotatorio Schultz-Metzger T23-A 23mm es capaz de disparar munición de alta velocidad con y sin casquillo. Con un peso descargado de sólo 8 kilogramos, el T23 es portátil y maniobrable, y se carga fácilmente a la espalda cuando se emplea la correa opcional. El T23-A es el cañón rotatorio que escogen los soldados juiciosos.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Painter,Description="El emisor de iones parece bastante inocuo a primera vista, ya que sólo emite un inofensivo haz láser de baja intensidad cuando se usa el modo de fuego primario. Varios segundos después, un cañón orbital de multi-gigavatios de iones dispara sobre el objetivo, neutralizando a cualquier combatiente de la zona. El emisor de iones es un dispositivo de apuntado remoto que se usa para orientar y disparar el cañón de iones VAPOR. El emisor de iones ofrece una precisión de apuntado aumentada gracias a su mirilla telescópica, la cual se activa fácilmente con el modo de fuego secundario del arma. Una vez que el emisor de iones se ha utilizado para designar un objetivo, es altamente recomendable que el usuario ponga una distancia considerable entre sí mismo y el área de efecto del arma.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.Redeemer,Description="Basta con ver una vez este dispositivo nuclear en miniatura en acción para reconocerlo inmediatamente como el arma más poderosa del Torneo. El disparo primario lanza un misil de desplazamiento lento, pero extremadamente devastador; hay que asegurarse de estar fuera de su impresionante radio explosivo antes de que impacte. El disparo secundario te permite guiar al misil nuclear tú mismo con una vista desde la cabeza del cohete. Ten en cuenta, no obstante, que eres vulnerable al ataque mientras diriges al proyectil. Debido al extremo tamaño y peso de su munición, el Redentor se agota después de un único disparo.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.RocketLauncher,Description="El lanzacohetes de cañón triple Tridente es extremadamente popular entre los competidores que prefieren obtener el máximo poder de estallido en cada disparo. El diseño del cañón rotatorio de carga trasera permite el lanzamiento de ojivas explosivas individuales o múltiples, permitiendo disparar hasta tres cohetes simultáneamente en la dirección general del blanco. Las ojivas están diseñadas para liberar la máxima fuerza explosiva en el objetivo y el área circundante en el momento de la detonación. ")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.ShieldGun,Description="El dispositivo de control anti-disturbios Kemphler DD280 tiene la habilidad de resistir y desviar la llegada de proyectiles y haces de energía. La onda de plasma inflige daños masivos, rompiendo los tejidos, pulverizando los órganos, e inundando el flujo sanguíneo con peligrosas burbujas de gas. Esta arma está diseñada para el combate a corta distancia, pero cuando se maneja adecuadamente, se puede considerar tan peligrosa como cualquier otra arma de tu arsenal.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.ShockRifle,Description="El rifle de choque ASMD ha cambiado poco desde su incorporación a los torneos. El ASMD dispone de dos modos de fuego capaces de actuar en concierto para neutralizar a los oponentes con una onda de choque devastadora. Este ataque combinado se consigue cuando el operador usa el modo de fuego secundario para liberar una carga sembrada de plasma hacia el objetivo. Una vez que el blanco está dentro del alcance de la carga de plasma, la cual se desplaza con relativa lentitud, el operador del arma puede disparar un haz de fotones dentro del núcleo del plasma, desencadenando la energía explosiva de anti-fotones contenida dentro del campo EM del plasma.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.SniperRifle,Description="El arma eléctrica es un rifle de alta energía capaz de penetrar incluso los caparazones de armadura más pesados. Apuntar al blanco desde largas distancias exige un pulso firme, pero el efecto anti-temblores del sistema óptico reduce la curva de aprendizaje del arma considerablemente. Una vez que se tiene al blanco en la mira, el operador suelta el gatillo, pintando un ‘parche’ de protones en el objetivo. Milisegundos después, el rifle emite un arco eléctrico de alto voltaje que busca el diferencial de carga y aniquila al blanco.")
+Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.TransLauncher,Description="El Desplazador fue originalmente diseñado por el sector de I&D de la Corporación Liandri para facilitar el rápido rescate de mineros durante colapsos de túneles y otras emergencias. Esta tecnología ha salvado incontables vidas, pero no sin un precio. La rápida desintegración y reconstitución del organismo objetivo puede tener varios efectos secundarios indeseables, incluyendo un aumento en agresión y paranoia, así como posibilidades incrementadas de paros respiratorios y cardíacos. La última versión del Desplazador incluye una cámara operada por control remoto, que es especialmente útil cuando se exploran áreas de contención. Obsérvese que mientras se está mirando por la cámara, el usuario queda efectivamente ciego a su entorno más inmediato.")
+
+[AssaultAmmoPickup]
+PickupMessage="Has cogido munición para el rifle."
+
+[AssaultRifle]
+ItemName="Rifle de asalto"
+
+[AssaultRiflePickup]
+PickupMessage="Has cogido el rifle de asalto."
+
+[BallAmmo]
+ItemName="Munición para el Lanzabolas"
+
+[BallLauncher]
+ItemName="Lanzabolas"
+
+[BioAmmo]
+ItemName="munición para el bio-rifle"
+
+[BioAmmoPickup]
+PickupMessage="Has recogido munición para el bio-rifle"
+
+[BioRifle]
+ItemName="Bio-rifle"
+
+[BioRiflePickup]
+PickupMessage="Tienes el bio-rifle"
+
+[DamTypeAssaultBullet]
+DeathString="%o ha sido ventilado/a por el rifle de asalto de %k."
+FemaleSuicide="%o se ha asaltado a sí misma."
+MaleSuicide="%o se ha asaltado a sí mismo."
+
+[DamTypeAssaultGrenade]
+DeathString="%o trató de comerse la granada de %k."
+FemaleSuicide="%o saltó sobre su propia granada."
+MaleSuicide="%o saltó sobre su propia granada."
+
+[DamTypeBioGlob]
+DeathString="%o fue despedazado/a por el bio-rifle de %k."
+FemaleSuicide="%o se despedazó a sí mismo."
+MaleSuicide="%o se despedazó a sí mismo."
+
+[DamTypeFlakChunk]
+DeathString="%o ha quedado hecho/a jirones por el Flak Cannon de %k."
+FemaleSuicide="%o se ha perforado con su propio cañón."
+MaleSuicide="%o se ha perforado con su propio cañón."
+
+[DamTypeFlakShell]
+DeathString="%o ha sido destripado/a por la metralla de %k."
+FemaleSuicide="%o se ha hecho volar en pedazos con su propio cartucho de Flak Cannon."
+MaleSuicide="%o se ha hecho volar en pedazos con su propio cartucho de Flak Cannon."
+
+[DamTypeIonBlast]
+DeathString="%o fue ANIQUILADO/A"
+FemaleSuicide="%o fue ANIQUILADA"
+MaleSuicide="%o fue ANIQUILADO"
+
+[DamTypeLinkPlasma]
+DeathString="A %o le han servido una ración extra de plasma cortesía de %k."
+FemaleSuicide="%o se ha frito en su propio jugo gracias a su habilidad con el plasma."
+MaleSuicide="%o se ha frito en su propio jugo gracias a su habilidad con el plasma."
+
+[DamTypeLinkShaft]
+DeathString="%o ha sido empalado/a por %k con una flecha verde."
+FemaleSuicide="%o ha logrado empalarse ella solita."
+MaleSuicide="%o ha logrado empalarse él solito."
+
+[DamTypeMinigunBullet]
+DeathString="%o ha sido barrido/a por una ráfaga de la Minigun de %k."
+FemaleSuicide="%o ha apuntado su Minigun donde no debía."
+MaleSuicide="%o ha apuntado su Minigun donde no debía."
+
+[DamTypeRedeemer]
+DeathString="¡%o alimentó con un SANDWICH DE DOLOR a %k!"
+FemaleSuicide="%o fue volada por su propio Redentor."
+MaleSuicide="%o fue volado por su propio Redentor."
+
+[DamTypeRocket]
+DeathString="%o ha llegado al olvido final encima del cohete de %k."
+FemaleSuicide="%o disparó su cohete demasiado pronto."
+MaleSuicide="%o disparó su cohete demasiado pronto."
+
+[DamTypeShieldImpact]
+DeathString="%o ha sido pulverizado/a por el cañón protector de %k."
+FemaleSuicide="%o se ha esparcido demasiado."
+MaleSuicide="%o se ha esparcido demasiado."
+
+[DamTypeShockBall]
+DeathString="%o ha sido aniquilado/a por un núcleo de choque de %k."
+FemaleSuicide="%o ha estirado la pata gracias a su propio núcleo de choque."
+MaleSuicide="%o ha estirado la pata gracias a su propio núcleo de choque."
+
+[DamTypeShockBeam]
+DeathString="%o ha alcanzado de manera trágica la iluminación gracias al haz de choque de %k."
+FemaleSuicide="%o ha conseguido, de alguna manera, dispararse con su propio rifle de choque."
+MaleSuicide="%o ha conseguido, de alguna manera, dispararse con su propio rifle de choque."
+
+[DamTypeShockCombo]
+DeathString="%o no pudo evitar el impacto del combo de choque de %k."
+FemaleSuicide="%o cometió un error táctico al usar su combo de choque."
+MaleSuicide="%o cometió un error táctico al usar su combo de choque."
+
+[DamTypeSniperHeadShot]
+DeathString="El cráneo de %o ha quedado churruscado por el disparo del arma eléctrica de %k."
+FemaleSuicide="%o ha violado las leyes del espacio tiempo apuntándose a sí misma."
+MaleSuicide="%o ha violado las leyes del espacio tiempo apuntándose a sí mismo."
+
+[DamTypeSniperShot]
+DeathString="%o cabalgó el relámpago de %k."
+FemaleSuicide="%o ha tenido una experiencia electrificante."
+MaleSuicide="%o ha tenido una experiencia electrificante."
+
+[DamTypeTeleFrag]
+DeathString="%o ha visto cómo se esparcían sus átomos por culpa de %k."
+FemaleSuicide="%o intentó llegar donde nadie había ido antes."
+MaleSuicide="%o intentó llegar donde nadie había ido antes."
+
+[FlakCannon]
+ItemName="Flak Cannon"
+
+[FlakAmmo]
+ItemName="Cartuchos de Flak"
+
+[FlakAmmoPickup]
+PickupMessage="Has recogido 10 cartuchos de Flak Cannon."
+
+[FlakCannonPickup]
+PickupMessage="Tienes el Flak Cannon."
+
+[GrenadeAmmo]
+ItemName="Granadas"
+
+[LinkAmmo]
+ItemName="Munición para la enlazadora"
+
+[LinkAmmoPickup]
+PickupMessage="Has recogido 30 cargas."
+
+[LinkGun]
+ItemName="Enlazadora"
+
+[LinkGunPickup]
+PickupMessage="Tienes la enlazadora."
+
+[Minigun]
+ItemName="Minigun"
+Resultado - 0 error(es), 0 aviso(s)
+
+[MinigunAmmo]
+ItemName="Balas"
+
+[MinigunAmmoPickup]
+PickupMessage="Has recogido 50 balas."
+
+[MinigunPickup]
+PickupMessage="Tienes la Minigun."
+
+[MutArena]
+FriendlyName="Arena"
+Description="Redistribuir las armas y la munición en el mapa."
+
+[MutNoSuperWeapon]
+FriendlyName="Sin Superarmas"
+Description="Las superarmas han sido eliminadas del mapa."
+
+[Painter]
+ItemName="Emisor de iones"
+
+[PainterPickup]
+PickupMessage="Tienes el emisor de iones."
+
+[Redeemer]
+ItemName="Redentor"
+
+[RedeemerAmmo]
+ItemName="Munición para Redentor"
+
+[RedeemerPickup]
+PickupMessage="Tienes a Redentor."
+
+[RocketAmmo]
+ItemName="Cohetes"
+
+[RocketAmmoPickup]
+PickupMessage="Has recogido un paquete de cohetes."
+
+[RocketLauncher]
+ItemName="Lanzacohetes"
+
+[RocketLauncherPickup]
+PickupMessage="Tienes el lanzacohetes."
+
+[ShieldAmmo]
+ItemName="Escudo"
+
+[ShieldGun]
+ItemName="Cañón protector"
+
+[ShieldGunPickup]
+PickupMessage="Tienes el cañón protector."
+
+[ShockAmmo]
+ItemName="Núcleos de choque"
+
+[ShockAmmoPickup]
+PickupMessage="Has recogido un núcleo de choque."
+
+[ShockRifle]
+ItemName="Rifle de choque"
+
+[ShockRiflePickup]
+PickupMessage="Tienes el rifle de choque."
+
+[SniperAmmo]
+ItemName="Cargas eléctricas"
+
+[SniperAmmoPickup]
+PickupMessage="Has recogido 10 cargas eléctricas."
+
+[SniperRifle]
+ItemName="Arma eléctrica"
+
+[SniperRiflePickup]
+PickupMessage="Tienes el arma eléctrica"
+
+[SuperShockRifle]
+ItemName="Súper-rifle de choque"
+
+[SuperShockRiflePickup]
+PickupMessage="Tienes el súper-rifle de choque."
+
+[TransAmmo]
+ItemName="Munición para el Desplazador"
+
+[TransLauncher]
+ItemName="Desplazador"
+
+[MutLinkHealer]
+FriendlyName="Enlazadora Médica"
+Description="La enlazadora emite un rayo que cura a los compañeros de equipo."
+

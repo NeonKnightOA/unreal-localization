@@ -1,0 +1,140 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PkgCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MapConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DXTConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeContentCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=PSX2Convert.PSX2MusicCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=GCNConvert.GCNConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.AnalyzeBuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner="Crea i file principali di installazione"
+HelpUsage=master [-option...] [parm=value]...
+HelpParm[0]=MasterPath
+HelpDesc[0]="Cartella base da cui vengono copiati i file"
+HelpParm[1]=SrcPath
+HelpDesc[1]="Cartella base in cui vengono copiati i file"
+HelpParm[2]=RefPath
+HelpDesc[2]="Percorso dei file di riferimento compressi"
+
+[MapConvertCommandlet]
+HelpCmd=mapconvert
+HelpOneLiner="Converte le mappe dal vecchio al nuovo formato (senza trasformare i motivi)"
+HelpUsage=mapconvert SrcFilename DstFilename
+HelpParm[0]=SrcFilename
+HelpDesc[0]="Nome del file della mappa da leggere"
+HelpParm[1]=DstFilename
+HelpDesc[1]="Nome del file della mappa su cui scrivere"
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner="Genera file binari conformi"
+HelpUsage=conform existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]="File binario esistente da caricare, conformare e salvare"
+HelpParm[1]=oldfile.ext
+HelpDesc[1]="Vecchio file con cui il file binario di origine deve essere reso compatibile"
+
+[PkgCommandlet]
+HelpCmd=pkg
+HelpOneLiner="Importa/esporta dati da/a pacchetti usando strutture a directory."
+HelpUsage=pkg [import/export] [texture/sound] [packagename] [directory]
+HelpParm[0]=import/export
+HelpDesc[0]="Ciò che stai cercando di fare con i dati"
+HelpParm[1]=texture/sound
+HelpDesc[1]="Il tipo di pacchetto con cui stai lavorando"
+HelpParm[2]=packagename
+HelpDesc[2]="Il pacchetto da cui stai creando/esportando"
+HelpParm[3]=directory
+HelpDesc[3]="La directory dove leggere/scrivere"
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpOneLiner="Imposta gli attributi dei pacchetti nei relativi file"
+HelpUsage=packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]
+HelpParm[0]=src.ext
+HelpDesc[0]="File del pacchetto esistente da caricare"
+HelpParm[1]=dest.exe
+HelpDesc[1]="Nome del nuovo file di pacchetto con le nuove impostazioni degli attributi"
+HelpParm[2]=flag
+HelpDesc[2]="+ per attivare un attributo, - per disattivarlo, seguiti da una di queste opzioni:"
+HelpParm[3]=" "
+HelpDesc[3]="  AllowDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClientOptional"
+HelpParm[5]=" "
+HelpDesc[5]="  ServerSideOnly"
+HelpParm[6]=" "
+HelpDesc[6]="  BrokenLinks"
+HelpParm[7]=" "
+HelpDesc[7]="  Unsecure"
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner="Ricostruisce i pacchetti UnrealScript"
+HelpUsage=make [-option...] [parm=value]...
+HelpParm[0]=Silent
+HelpDesc[0]="Nessuna richiesta; presuppone che la risposta sia sempre 'sì'"
+HelpParm[1]=NoBind
+HelpDesc[1]="Non costringe le funzioni native a essere legate alle DLL"
+HelpParm[2]=All
+HelpDesc[2]="Ricostruzione pulita (in caso contrario è incrementale)"
+
+[DXTConvertCommandlet]
+HelpCmd=dxtconvert
+HelpOneLiner="Converte le texture DXT3/5 in DXT1/RGBA"
+HelpUsage=dxtconvert srcpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]="Percorso dei file di origine"
+HelpParm[1]=destpath
+HelpDesc[1]="Percorso dei file di destinazione"
+
+
+[AnalyzeContentCommandlet]
+HelpCmd=analyzecontent
+HelpOneLiner="Analizza le mappe"
+HelpUsage=analyzecontent mapname
+HelpParm[0]=mapname
+HelpDesc[0]="Percorso del file di una mappa"
+
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner="Esporta oggetti in blocco"
+HelpUsage=batchexport package.ext classname export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]="Pacchetto contenente gli oggetti da esportare"
+HelpParm[1]=classname
+HelpDesc[1]="Classe dell'oggetto da esportare"
+HelpParm[2]=export_ext
+HelpDesc[2]="Estensione del file di esportazione"
+HelpParm[3]=path
+HelpDesc[3]="Percorso di esportazione, come c:\Percorso"
+
+[DataRipCommandlet]
+HelpCmd=datarip
+HelpOneLiner="Crea un pacchetto da cui sono stati estratti i dati delle texture, della musica e dell'audio."
+HelpUsage=datarip srcpackage.ext dstpackage.ext
+HelpParm[0]=srcpackage.ext
+HelpDesc[0]="Pacchetto di origine"
+HelpParm[1]=dstpackage.ext
+HelpDesc[1]="Pacchetto di destinazione"

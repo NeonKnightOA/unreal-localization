@@ -1,0 +1,73 @@
+[Errors]
+Critical="Kritischer Fehler"
+FailedConfigLoad="%s (konnte nicht geladen werden)"
+
+[General]
+BrowseButton="..."
+UseButton="Benutzen"
+ClearButton="Löschen"
+ColorButton="Farbe"
+PickButton="Aufnehmen"
+FindButton="Suchen"
+OkButton="Ok"
+AddButton="Hinzufügen"
+EmptyButton="Leer"
+InsertButton="Einfügen"
+DeleteButton="Entfernen"
+DefaultsButton="Standardeinstellungen zurücksetzen"
+BackButton="< &Zurück"
+NextButton="&Weiter >"
+FinishButton="&Fertigstellen"
+CancelButton="Abbrechen"
+InstallButton="&Installieren"
+YesButton="&Ja"
+NoButton="&Nein"
+AgreeButton="Ich &stimme zu"
+LanguagePrompt="Sprache:"
+LanguageWindow="Sprachauswahl"
+LogWindow="%s Log-Fenster"
+PropNone="Keine Auswahl getroffen"
+PropSingle="%s Eigenschaften"
+PropMulti="%s Eigenschaften (%i gewählt)"
+InsertCdText="Bitte legen Sie die Unreal CD-Rom in Ihr Laufwerk und drücken Sie OK, um fortzufahren, oder Abbrechen, um aufzuhören."
+InsertCdTitle="CD zum Start benötigt"
+AdvancedOptionsTitle="Advanced Options"
+Low="Niedrig"
+High="Hoch"
+New="Neu"
+
+[FirstRun]
+Caption="Start-Konfiguration"
+LowMemory="Unreal hat festgestellt, dass Sie %i Megabytes Speicherplatz haben. Um die Leistung zu verbessern, sind die Optionen 'Niedrige Texturdetails' und 'Niedrige Soundqualität' eingestellt worden. Sie können diese Einstellungen im Menü 'Leistungsmerkmale' ändern."
+NonMMX="Unreal hat festgestellt, dass Sie keinen MMX-PC benutzen. Daher ist die Soundwiedergabe auf die niedrige Stufe eingestellt worden, um wenig Prozessorleistung zu beanspruchen. Sie können diese Einstellungen im Menü 'Erweiterte Optionen / Audio' ändern."
+Starting="Unreal wird nun mit neuen Einstellungen gestartet. Falls Sie irgendwelche Probleme haben, lesen Sie aus dem Startmenü in der Datei Hinweise bitte die Sektion Fehlerhinweise."
+
+[IDDIALOG_Directory]
+IDC_Directory="Installationsordner"
+IDC_ChoosePrompt="Bitte wählen Sie einen Installationsordner."
+IDC_PathTitle="&Pfad:"
+IDC_DirectoryTitle="&Verzeichnisse:"
+IDC_DrivesTitle="&Laufwerke:"
+IDC_NetworkButton="&Netzwerk"
+
+[IDDIALOG_Password]
+IDC_Password="Passwortüberprüfung"
+IDC_Prompt="Bitte geben Sie Namen und Passwort ein."
+IDC_Name="&Name:"
+IDC_Password="&Passwort:"
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon="Menü"
+ID_NotifyShowLog="&UnrealServer Konsole"
+ID_NotifyAdvancedOptions="Er&weiterte Optionen"
+ID_NotifyExit="UnsrealServer &beenden"
+
+[IDMENU_Log]
+ID_LogFile="&Datei"
+ID_LogAdvancedOptions="Er&weiterte Optionen"
+ID_LogFileExit="&Beenden"
+
+[IDDIALOG_CrashBox]
+IDC_Copy="Kopieren"
+IDC_BugReport="Bug-Meldung einsenden"
+BugReportURL="http://mail1.epicgames.com/utbugreport.php3"

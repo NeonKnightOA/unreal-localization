@@ -1,0 +1,375 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen="Fehler beim Öffnen der Datei"
+NetWrite="Fehler beim Schreiben der Datei"
+NetRefused="'%s' konnte vom Server nicht übermittelt werden"
+NetClose="Fehler beim Schließen der Datei"
+NetSize="Dateigröße unzulässig"
+NetMove="Fehler beim Verschieben der Datei"
+NetInvalid="Ungültige Dateianfrage erhalten"
+NoDownload="Datenpaket '%s' kann nicht heruntergeladen werden"
+DownloadFailed="Herunterladen des Datenpakets '%s' gescheitert: %s"
+RequestDenied="Server forderte Datei von ausstehendem Level: Denied"
+ConnectionFailed="Fehler beim Verbinden"
+ChAllocate="Es konnte kein Kanal zugewiesen werden"
+NetAlready="Netzwerk bereits vorhanden"
+NetListen="Fehler beim Abfragen: Kein Verlinkungsumfeld verfügbar"
+LoadEntry="Eintrag kann nicht geladen werden: %s"
+InvalidUrl="Ungültiger URL: %s"
+InvalidLink="Ungültiger Link: %s"
+FailedBrowse="Fehler beim Eintragen %s: %s"
+Listen="Fehler beim Abfragen: %s"
+AbortToEntry="Gescheitert; zurück zur Eingabe"
+ServerOpen="Netzwerk-URLs können von Servern nicht geöffnet werden"
+ServerListen="Dedizierter Server reagierter nicht: %s"
+Pending="Ausgesetzte Verbindung zu '%s' gescheitert; %s"
+LoadPlayerClass="Fehler beim Laden der Spielerklasse"
+ServerOutdated="Zu alte Server-Version"
+ClientOutdated="Sie müssen die neuesten Patches installieren"
+InvalidCDKey="Ihr CD-Key scheint ungültig zu sein. Sie müssen das Spiel neu installieren und Ihren CD-Key eingeben, um dieses Problem zu beheben."
+ConnectLost="Verbindung Verloren"
+
+[UpgradeDrivers]
+OutdatedDrivers="Sie benutzen einen alten Grafikkarten-Treiber, der möglicherweise nicht mit dem Spiel funktioniert."
+OursOrWeb="Wählen Sie JA, um einen neuen Treiber von Ihrer CD zu installieren, oder wählen Sie NEIN, um die Homepage des Herstellers zu besuchen."
+InsertCD="Bitte legen Sie die CD 3 von Unreal Tournament ein."
+NvidiaURL="http://www.nvidia.com/content/drivers/drivers.asp"
+AtiURL="http://www.ati.com/support/driver.html"
+CDButton="Erneuern von CD"
+WebButton="Erneuern über Web"
+cancelButton="Nicht erneuern"
+
+[KeyNames]
+Up="OBEN"
+Right="RECHTS"
+Left="LINKS"
+Down="UNTEN"
+LeftMouse="L-MAUST."
+RightMouse="R-MAUST."
+MiddleMouse="M-MAUST."
+MouseX="MAUSACHSE X"
+MouseY="MAUSACHSE Y"
+MouseZ="MAUSACHSE Z"
+MouseW="MAUSACHSE W"
+JoyX="JOYST. ACHSE X"
+JoyY="JOYST. ACHSE Y"
+JoyZ="JOYST. ACHSE Z"
+JoyU="JOYST. ACHSE U"
+JoyV="JOYST. ACHSE V"
+JoySlider1="JOYST. SLIDER1"
+JoySlider2="JOYST. SLIDER2"
+MouseWheelUp="MAUSRAD OBEN"
+MouseWheelDown="MAUSRAD UNTEN"
+Joy1="JOY1"
+Joy2="JOY2"
+Joy3="JOY3"
+Joy4="JOY4"
+Joy5="JOY5"
+Joy6="JOY6"
+Joy7="JOY7"
+Joy8="JOY8"
+Joy9="JOY9"
+Joy10="JOY10"
+Joy11="JOY11"
+Joy12="JOY12"
+Joy13="JOY13"
+Joy14="JOY14"
+Joy15="JOY15"
+Joy16="JOY16"
+Space="Leertaste"
+PageUp="Bild OBEN"
+PageDown="Bild UNTEN"
+End="ENDE"
+Home="HOME"
+Select="AUSW."
+Print="DRUCK"
+Execute="AUSF."
+PrintScrn="BILDSCH. DRUCK"
+Insert="EINFÜGEN"
+Delete="LÖSCHEN"
+Help="HILFE"
+NumPad0="NUM 0"
+NumPad1="NUM 1"
+NumPad2="NUM 2"
+NumPad3="NUM 3"
+NumPad4="NUM 4"
+NumPad5="NUM 5"
+NumPad6="NUM 6"
+NumPad7="NUM 7"
+NumPad8="NUM 8"
+NumPad9="NUM 9"
+GreyStar="GRAU STERN"
+GreyPlus="GRAU PLUS"
+Separator="TRENNZEICHEN"
+GreyMinus="GRAU MINUS"
+NumPadPeriod="NUM ."
+GreySlash="GRAU SCHRÄGSTR."
+Pause="PAUSE"
+CapsLock="CAPSLOCK"
+Tab="TAB"
+Enter="EINGABE"
+Shift="UMSCHALT"
+NumLock="NUMLOCK"
+Escape="ESCAPE"
+
+[Progress]
+CancelledConnect="Verbindungsversuch abgebrochen"
+RunningNet="%s: %s (%i Spieler)"
+NetReceiving="Empfangen '%s': %i/%i"
+NetReceiveOk="'%s' erfolgreich empfangen"
+NetSend="'%s' wird gesendet"
+NetSending="'%s' wird gesendet: %i/%i"
+Connecting="Verbindung wird aufgebaut (Abbrechen mit F10)..."
+Listening="Abfrage nach Clients..."
+Loading="Laden"
+Saving="Speichern"
+Paused="Angehalten von %s"
+ReceiveFile="Empfang '%s' (Abbrechen mit F10)"
+ReceiveOptionalFile="Empfang optionale Datei '%s' (Überspringen mit F10)"
+ReceiveSize="Größe %iK, %3.1f%% abgeschlossen"
+ConnectingText=""
+ConnectingURL="Unreal://%s/%s"
+CorruptConnect="Inkompatible Spieldateien!"
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner="Netzwerkspiel-Server"
+HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=Log
+HelpDesc[0]="Geben Sie die zu erstellende Log-Datei an"
+HelpParm[1]=AllAdmin
+HelpDesc[1]="Allen Spielern Admin-Rechte erteilen"
+
+[MasterMD5Commandlet]
+HelpCmd=mastermd5 [*.ext {*.ext ...} ]
+HelpOneLiner="Master-MD5-Tabelle generieren"
+HelpUsage=mastermd5
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+
+[General]
+Upgrade="Für den Zugriff auf diesen Server benötigen Sie die letzte, kostenlose Unreal-Aktualisierung. Sie erhalten diese auf der Epic-Website:"
+UpgradeURL="http://www.unreal.com/upgrade"
+UpgradeQuestion="Möchten Sie jetzt Ihren Web-Browser starten und die Aktualisierungsseite öffnen?"
+Version="Version %i"
+
+[AccessControl]
+IPBanned="Ihre IP-Adresse wurde von diesem Server ausgeschlossen."
+WrongPassword="Das eingegebene Passwort ist falsch."
+NeedPassword="Zur Teilnahme an diesem Spiel müssen Sie ein Passwort eingeben."
+SessionBanned="Ihre IP-Adresse wurde von der aktuellen Spielsitzung ausgeschlossen."
+KickedMsg="Sie wurden von diesem Spiel ausgeschlossen."
+
+[Ammo]
+PickupMessage="Sie haben Munition aufgesammelt."
+
+[Crushed]
+DeathString="%o wurde von %k zerschmettert."
+FemaleSuicide="%o wurde zerschmettert."
+MaleSuicide="%o wurde zerschmettert."
+
+[DamTypeTelefragged]
+DeathString="%o wurde von %k ins Aus befördert."
+FemaleSuicide="%o wurde von %k ins Aus befördert."
+MaleSuicide="%o wurde von %k ins Aus befördert."
+
+[DamageType]
+DeathString="%o wurde von %k getötet."
+FemaleSuicide="%o hat sich selbst getötet."
+MaleSuicide="%o hat sich selbst getötet."
+
+
+[FailedConnect]
+FailMessage[0]="KONNTE SPIEL NICHT BEITRETEN.  PASSWORT BENÖTIGT."
+FailMessage[1]="kONNTE SPIEL NICHT BEITRETEN.  FALSCHES PASSORT."
+FailMessage[2]="KONNTE SPIEL NICHT BEITRETEN.  PASSWORT BENÖTIGT."
+FailMessage[3]="KONNTE SPIEL NICHT BEITRETEN.  PASSWORT BENÖTIGT."
+
+[FellLava]
+DeathString="%o nahm ein heißes Bad im Magma-Strom"
+FemaleSuicide="%o nahm ein heißes Bad im Magma-Strom"
+MaleSuicide="%o nahm ein heißes Bad im Magma-Strom"
+
+[GameInfo]
+bAlternateMode=True
+DefaultPlayerName="Spieler"
+GameName="Spiel"
+VoteTypeStrings[0]="Spiel neu starten"
+VoteTypeStrings[1]="Karte wechseln"
+VoteTypeStrings[2]="Spiel starten"
+VoteTypeStrings[3]="Spieler rauswerfen"
+VoteTypeStrings[4]="Spieler stummschalten"
+GIPropsDisplayText[0]="Bot-Können"
+GIPropsDisplayText[1]="Waffen bleiben"
+GIPropsDisplayText[2]="Karten-Rotation ein"
+GIPropsDisplayText[3]="Keine Bots im Spiel"
+GIPropsDisplayText[4]="Level der Gewaltdarstellung"
+GIPropsDisplayText[5]="Spielgeschwindigkeit"
+GIPropsDisplayText[6]="Max. Zuschauer"
+GIPropsDisplayText[7]="Max. Spieler"
+GIPropsDisplayText[8]="Zielpunkte"
+GIPropsDisplayText[9]="Max. Leben"
+GIPropsDisplayText[10]="Zeitlimit"
+GIPropsDisplayText[11]="Runden pro Karte"
+GIPropsDisplayText[12]="Stats-Log"
+GIPropsExtras[0]="0.000000;Anfänger;1.000000;Normal;2.000000;Talentiert;3.000000;Erfahren;4.000000;Kenner;5.000000;Meister;6.000000;Unmenschlich;7.000000;Göttergleich"
+GIPropsExtras[1]="0;Volle Gewaltdarstellung;1;Reduzierte Gewaltdarstellung"
+
+[GameMessage]
+SwitchLevelMessage="Levelwechsel"
+LeftMessage=" hat das Spiel verlassen."
+FailedTeamMessage="Kein Team für Spieler gefunden"
+FailedPlaceMessage="Startpunkt konnte nicht gefunden werden"
+FailedSpawnMessage="Spieler konnte nicht angelegt werden"
+EnteredMessage=" ist ins Spiel eingetreten."
+MaxedOutMessage="Server bei voller Kapazität."
+OvertimeMessage="Unentschieden nach der regulären Spielzeit. Sudden-Death-Verlängerung!!!"
+GlobalNameChange="änderte den Namen in"
+NewTeamMessage="ist jetzt in"
+NoNameChange="Name ist schon im Gebrauch."
+VoteStarted="hat eine Abstimmung gestartet."
+VotePassed="Stimme durchgekommen."
+NewPlayerMessage="Neuer Spieler ist der Partie beigetreten."
+MustHaveStats="Stat. muss aktiviert sein, um diesem Server beizutreten."
+
+[GameProfile]
+PositionName[0]="Automat. Zuw."
+PositionName[1]="Verteidigung"
+PositionName[2]="Angriff"
+PositionName[3]="Erkundung"
+PositionName[4]="Unterstützung"
+
+[GameReplicationInfo]
+GRIPropsDisplayText[0]="Server Name"
+GRIPropsDisplayText[1]="Short Server Name"
+GRIPropsDisplayText[2]="Admin. Name"
+GRIPropsDisplayText[3]="Admin. E-Mail"
+GRIPropsDisplayText[4]="Message"
+GRIPropsDisplayText[5]="of"
+GRIPropsDisplayText[6]="the"
+GRIPropsDisplayText[7]="day"
+
+[Gibbed]
+DeathString="%o explodierte in tausend Körperteile"
+FemaleSuicide="%o explodierte in tausend Körperteile"
+MaleSuicide="%o explodierte in tausend Körperteile"
+
+[LevelInfo]
+Title="Unbenannt"
+
+[MatSubAction]
+Desc="n.zutr."
+
+[Mutator]
+FriendlyName="Mutator"
+Description="Beschreibung"
+
+[Pawn]
+TauntAnimNames="()"
+
+[Pickup]
+PickupMessage="Einen Gegenstand erwischt."
+
+[PlayerController]
+QuickSaveString="Schnelles Speichern"
+NoPauseMessage="Spiel kann nicht angehalten werden"
+ViewingFrom="Keine Ansicht von"
+OwnCamera="Ansicht eigene Kamera"
+
+[PlayerReplicationInfo]
+StringSpectating="Zuschauer"
+StringUnknown="Unbekannt"
+
+[SubActionCameraEffect]
+Desc="Kameraeffekt"
+
+[SubActionCameraShake]
+Desc="Rütteln"
+
+[SubActionFOV]
+Desc="Kamera-Gesichtsfeld"
+
+[SubActionFade]
+Desc="Ausblenden"
+
+[SubActionGameSpeed]
+Desc="Spielgeschw."
+
+[SubActionOrientation]
+Desc="Ausrichtung"
+
+[SubActionSceneSpeed]
+Desc="Szenengeschw."
+
+[SubActionTrigger]
+Desc="Abzug"
+
+[Suicided]
+DeathString="%o hatte einen Hirnschlag."
+FemaleSuicide="%o hatte einen Hirnschlag."
+MaleSuicide="%o hatte einen Hirnschlag."
+
+[TeamInfo]
+TeamName="Team"
+ColorNames[0]="Rot"
+ColorNames[1]="Blau"
+ColorNames[2]="Grün"
+ColorNames[3]="Gold"
+
+[Volume]
+LocationName="k.A."
+
+[Weapon]
+MessageNoAmmo=" hat keine Munition"
+
+[WeaponPickup]
+PickupMessage="Sie haben eine Waffe"
+
+[XBoxPlayerInput]
+LookPresets[0].PresetName="Linear"
+LookPresets[1].PresetName="Exponential"
+LookPresets[2].PresetName="Hybrid"
+LookPresets[3].PresetName="Benutzerdefiniert"
+
+[fell]
+DeathString="% hinterließ einen kleinen Krater"
+FemaleSuicide="% hinterließ einen kleinen Krater"
+MaleSuicide="% hinterließ einen kleinen Krater"
+
+[xPrivilegeBase]
+Tags="()"
+
+
+
+
+
+
+
+
+
+
+[GameProfile]
+LeagueNames[0]="Deathmatch Liga"
+LeagueNames[1]="Capture The Flag-Liga"
+LeagueNames[2]="Double Domination-Liga"
+LeagueNames[3]="Bombing Run-Liga"
+DivisionNames[0]="Empire-Division"
+DivisionNames[1]="Galaktische Division"
+
+[PlayerProfile]
+StyleString[0]="Psycho"
+StyleString[1]="Aggressiv"
+StyleString[2]="Kaltblütig"
+StyleString[3]="Zögernd"
+StyleString[4]="Ausweichend"

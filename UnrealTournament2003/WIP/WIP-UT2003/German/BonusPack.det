@@ -1,0 +1,74 @@
+[Public]
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Bis zum letzten Mann|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Fügt die Tarnungs-Kombo hinzu (RRRR).")
+Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Fügt die Pint-Sized-Kombo hinzu (LLLL).")
+
+[ComboCrate]
+ExecMessage="Getarnt!"
+
+[ComboMiniMe]
+ExecMessage="Pint-Sized!"
+
+[DamTypeMutant]
+DeathString="%o ist die Mutation nicht gut bekommen!"
+FemaleSuicide="%o ist die Mutation nicht gut bekommen!"
+MaleSuicide="%o ist die Mutation nicht gut bekommen!"
+
+[HudLMS]
+LivesRemainingString="Verbleibende Leben"
+PlayersRemainString="Verbleibende Spieler -- "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+BottomFeederText="KLASSENLETZTER"
+
+[LMSMessage]
+YouAreCamperMessage="Sie campen!"
+SomeoneIsCamperMessage=" "
+SomeoneIsCamperMessageTrailer=" ist ein Camper!"
+
+[MutCrateCombo]
+FriendlyName="Tarnungs-Kombo"
+Description="Fügt die Tarnungs-Kombo hinzu (RRRR)."
+
+[MutPintSizeCombo]
+FriendlyName="Pint-Sized-Kombo"
+Description="Fügt die Pint-Sized-Kombo hinzu (LLLL)."
+
+[MutantMessage]
+YouAreMutantMessage="Sie sind mutiert!"
+SomeoneIsMutantMessage=" "
+SomeoneIsMutantMessageTrailer=" ist mutiert!"
+FFAMessage="Erster Frag führt zu Mutation!"
+BottomFeederMessage="Sie sind der Klassenletzte!"
+NotBottomFeederMessage="Nicht mehr Klassenletzter!"
+
+[MutantNameMessage]
+BottomFeederMesg="(KLASSENLETZTER)"
+
+[ScoreBoardLMS]
+LivesText="LEBEN"
+
+[Tab_IAMutant]
+TargetScoreString="Punktelimit"
+IARulesBottomFeeders.Caption="Klassenletzte"
+IARulesBottomFeeders.Hint="Der/die Spieler mit den wenigsten Punkten können jeden töten."
+
+[xLastManStandingGame]
+GameName="Bis zum letzten Mann"
+
+[xMutantGame]
+GameName="Mutant"
+
+[Tab_IALastManStanding]
+IARulesExtraLives.Caption="Kills machen gesünder"
+IARulesExtraLives.Hint="Ein Teil der Gesundheit des Spielers wird regeneriert, wenn er jemanden tötet."
+IARulesLMSAllowAdrenaline.Caption="Adrenalin erlauben"
+IARulesLMSAllowAdrenaline.Hint="Die Spieler dürfen Adrenalin verwenden."
+IARulesLMSAllowPickups.Caption="Bonusobjekte erlauben"
+IARulesLMSAllowPickups.Hint="Normale Bonusobjekte sind erlaubt."
+IARulesSuperWeaps.Caption="Superwaffen erlauben"
+IARulesSuperWeaps.Hint="Die Spieler können Superwaffen einsammeln!"
+
