@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
+Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
+Preferences=(Caption="3dfx-Glide- Unterstützung",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+
+[GlideRenderDevice]
+ClassCaption="3dfx Glide für Windows"
+AskInstalled=Haben Sie eine 3dfx-Karte installiert?
+AskUse=Soll Wheel of Time Ihre 3dfx-Karte verwenden?

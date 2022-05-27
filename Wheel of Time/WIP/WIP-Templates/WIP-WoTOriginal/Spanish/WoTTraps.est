@@ -1,0 +1,35 @@
+[AlarmInventory]
+Title=La alarma
+Description=La alarma es un simple gong que puede situarse en cualquier superficie plana, despejada y vertical. Siempre que un capitán esté cerca de la alarma y descubre a un intruso, en vez de atacarle, corre a la alarma más cercana para sonarla. Todos los guardias que la escuchen se reunirán saber dónde buscar al intruso.
+Quote=@¡Debemos darnos prisa! ¡Nos matarán si nos encuentran!@ Arriba, en alguna parte, los gons empezaban a hacer sonar una alarma que retumbaba con más estruendo a través de la Piedra.
+
+[WallInventory]
+Title=El muro
+Description=El muro es una barricada construida apresuradamente con cualquier material conveniente. Puede colocarse contra cualquier superficie vertical plana. El muro se extiende por el suelo para bloquear el posible paso a través de pasillos o habitaciones. Aunque el muro es más robusto que un rastrillo, también puede destruirse.
+Quote=Como una pesadilla, el muro superior se derrumbó hacia fuera en media docena de sitios, Aiel y piedras aplastando a aquellos que seguían escalando. Antes de que esos pedazos de mampostería alcanzaran las calles rebotando y deslizándose, los Trollocs aparecieron en las aberturas, dejando caer los golpeantes martillos de un árbol de ancho que habían usado...
+
+[PitInventory]
+Title=Trampa hoyo
+Description=Los hoyos pueden situarse sobre cualquier espacio horizontal suficientemente largo para soportarlos. No se pueden superponer. Una vez colocado, es muy difícil ver el hoyo. La cubierta cuadrada tiene un diseño casi imperceptible. Es un espejismo, un suelo falso que consigue que cualquiera que camine por encima caiga en el profundo hoyo. El golpe contra el fondo produce bastante daño, pero las parras que crecen en sus paredes facilitan la escalada hasta fuera.
+Quote=Se tambaleó un paso más y el suelo se abrió bajo él. Desesperado, alzó sus manos; con una sacudida, la mano derecha consiguió agarrarse a un borde desigual. Se quedó colgado en la oscuridad del hoyo. Por lo que él podía saber, la caída bajo sus botas debía tener sólo unos palmos hasta la base, o una milla.
+
+[StaircaseInventory]
+Title=Escaleras movedizas
+Description=Dentro de tu ciudadela, pueden bloquearse todas las escaleras marcadas con el icono de trampa. Una vez que se activa la escalera trampa, ésta espera a que alguien alcance el peldaño central, después de lo cual todos los peldaños se alisan y envían a la víctima a trompicones hasta el suelo. Esto evita que la gente suba las escaleras y, potencialmente, podría empujarlos hasta otra trampa en el fondo.
+Quote=Lan bajó a saltos los últimos peldaños, aterrizando con un golpe, espada en mano.
+
+[SpearInventory]
+Title=Trampa lanza
+Description=La trampa lanza puede colocarse en cualquier superficie horizontal o vertical suficientemente larga para soportarla. Parece un simple agujero. Cuando alguien se acerca a este agujero, sale disparada una gruesa lanza, cortando y empujando a la víctima hacia atrás. Después, retrocede por el hoyo gracias a una cadena enganchada.
+Quote=Se paró en seco. Esa lanza esperaba, lista para buscar sus costillas...
+
+[PortcullisInventory]
+Title=Rastrillo
+Description=Todas las arcadas con el icono del rastrillo pueden bloquearse. Una vez que se activa el rastrillo, espera a que alguien pase bajo el arco. Esto provoca la caída de una verja de metal desde el techo, dañando a cualquiera directamente debajo, aunque es más probable que atrape a la persona en el otro lado. Los rastrillos son mucho más frágiles que los muros y pueden destruirse con facilidad.
+Quote=Una puerta de barras de hierro se levantaba en su camino, con una cerradura tan grande como su cabeza. Canalizó la Tierra antes de llegar al rastrillo y cuando empujó las barras la cerradura se rompió por la mitad.
+
+[FireWallInventory]
+Title=Muro de fuego
+Description=El muro de fuego se compone de una fila de tablas ardiendo, palos, maleza y cualquier otro tipo de material inflamable. Puede situarse contra cualquier superficie vertical; se extiende por el suelo hasta el muro en el otro extremo. Si bien la gente puede cruzar esta fila, el fuego produce mucho daño durante el proceso. Los cruces repetidos apagan finalmente el fuego.
+Quote=Las llamas saltaban del suelo bajo sus pies, unas furiosas lenguas de fuego que prendían tapices y alfombrillas, las mesas y arcones reducidos a cenizas; él aplastó los fuegos a base de golpes.
+

@@ -1,0 +1,713 @@
+[General]
+Start=Wheel of Time (Starten)
+Exit=Wheel of Time (Beenden)
+Run=Wheel of Time (Spielen)
+Product=Wheel of Time
+
+[BattleInfo]
+EditingStr="Edit"
+PlayingStr="spielt"
+ReadyStr="Fertig"
+WaitingStr="Warte"
+
+[Windows]
+PlayCommand=&Diesen Wheel of Time-Level spielen 
+EditCommand=&Edit mit WOTEd
+
+[AngrealInventory]
+FailMessage=Fehlgeschlagen 
+PickupMessage=Ter'angreal gefunden
+
+[ArenaScoreBoard]
+ElapseText=Abgelaufene Zeit: 
+RemainText=Verbleibende Zeit: 
+Description[0]="Zeit"
+Description[1]=
+Description[2]="Name"
+Description[3]="Ping/PL"
+Description[4]="Treffer/Tote/Selbstmorde"
+Description[5]="Spielstand"
+
+[CitadelScoreBoard]
+NumSealsText="Anzahl der Siegel für Sieg"
+VictoryText="Der Sieger ist "
+
+[CitadelTeamOverview]
+BeginBattleStr="@Feuerknopf@ drücken, um Spiel zu starten"
+Description[0]="Team"
+Description[1]=""
+Description[2]="Spieler(Max)"
+Description[3]="Status"
+Description[4]=""
+Description[5]=""
+
+[WOTPlayer]
+SelectedStr=" "
+TerAngrealStr=" "
+InventoryInfoHitStr="Für Info über das gerade aufgenommene Artefakt F2 drücken"
+CantChangeTeamsStr="Teamwechsel ist während Edit nicht möglich"
+TeleportProhibitedEditingStr="Teleporten während Edit ist verboten."
+TeleportProhibitedJoinStr="Teleporten ist verboten bis du in ein Team eintrittst und die Partie beginnt."
+WaitingForSealsStr="Warte bis Gegner Ihre Siegel platzieren."
+WaitingForEditStr="Warte bis Gegner mit Edit fertig sind."
+CantEditLevelStr="Zitadel-Editing bei diesem Level nicht unterstützt."
+CantEditZoneStr="Edit in diesem Bereich nicht möglich."
+CantEditAreaStr="Dein Team kontrolliert diesen Bereich nicht."
+CantEditNowStr="Edit nach Beginn einer Partie nicht erlaubt."
+CantEditBudgetStr="Editing ist jetzt nicht möglich..."
+CantEditLimitStr="Dein Team-Editing-Limit wurde erreicht."
+CantPlaceResourceStr="ServerSpawn(): Einsatz nicht möglich "
+CantLeaveEditorStr="Du kannst Edit noch nicht verlassen."
+
+[giMPBattle]
+BattleBeginStr="Möge die Partie beginnen..."
+TeamIsYoursStr="Du bist schon in einem Team "
+TeamIsFilledStr="Du kannst nicht eintreten -- Team ist schon vollständig"
+PlayerJoinTeamStr=" spielt auf der Seite von  "
+PlayerLeaveTeamStr=" ist dem Spiel beigetreten."
+
+BattleHUD]
+SelectTeamStr="Team auswählen:"
+TimeLimitStr=" in "
+SecondsStr=" Sekunden"
+
+[menuLong]
+VeryLowText=Sehr niedrig
+LowText=Niedrig
+MediumText=Mittel
+HighText=Hoch
+OnText=Ein
+Offtext=Aus
+
+[giWOT]
+VoteStr001="Ungültige Anfrage."
+VoteStr002="(Endet in "
+VoteStr003=" Minuten)"
+VoteStr004="(Bitte mit neuer Anfrage warten, bis die Anderen beendet sind)"
+VoteStr005="ANFRAGE-LIMIT ÜBERSCHRITTEN"
+VoteStr006="ANFRAGE: "
+VoteStr007=" von "
+VoteStr008="ANFRAGE: "
+VoteStr009=" BEENDET"
+DeathConjunction=" wurde getötet von "
+SuicideConjunctionMale=" weaved himself from the pattern"
+SuicideConjunctionFemale=" weaved herself from the pattern"
+AccidentConjunctionMale=" has been removed from the pattern"
+AccidentConjunctionFemale=" has been removed from the pattern"
+
+[giCombatBase]
+GlobalNameChange=" umbenannt in "
+NoNameChange=" wird schon benutzt"
+
+[SealAltar]
+CaptureNotificationStr=" hat ein Siegel festgenommen"
+
+[Seal]
+Title=Cuendillar-Siegel
+Description=Obwohl dieses Artefakt nur ein handtellergroßes Steinsiegel zu sein scheint, ist es tatsächlich ein Cuendillar-Siegel aus dem Zeitalter der Legenden. Es symbolisiert die wirklichen Siegel, die das Gefängnis des Dunklen Königs in Shayol Ghul verschließen. Besitzt jemand der weiß, wie die Siegel manipuliert werden, alle vier Stücke auf einmal, kann er das Gefängnis des Dunklen Königs beeinflussen - entweder um den Dunklen König freizulassen, oder um ihn einzuschließen.
+Quote=Sie nahm etwas aus ihrer Tasche und legte es auf den Tisch vor ihr. Es war eine Scheibe, so groß wie ein Menschenhand, die aus zwei zusammenpassende Tränen bestand, eine pechschwarz und die andere schneeweiß.
+PickupMessage=Du hast das Siegel 
+PossesionChangeStr=Dein Siegel wurde genommen.
+
+[SealInventory]
+Title=Cuendillar-Siegel
+Description=Obwohl dieses Artefakt nur ein handtellergroßes Steinsiegel zu sein scheint, ist es tatsächlich ein Cuendillar-Siegel aus dem Zeitalter der Legenden. Es symbolisiert die wirklichen Siegel, die das Gefängnis des Dunklen Königs in Shayol Ghul verschließen. Besitzt jemand der weiß, wie die Siegel manipuliert werden, alle vier Stücke auf einmal, kann er das Gefängnis des Dunklen Königs beeinflussen - entweder um den Dunklen König freizulassen, oder um ihn einzuschließen.
+Quote=Sie nahm etwas aus ihrer Tasche und legte es auf den Tisch vor ihr. Es war eine Scheibe, so groß wie ein Menschenhand, die aus zwei zusammenpassende Tränen bestand, eine pechschwarz und die andere schneeweiß.
+
+[menuConfiguration]
+HelpMessage[1]=Gewünschte Helligkeit mit linker und rechter Pfeiltaste einstellen.
+HelpMessage[2]=Wheel of Time im Fenster darstellen. Hinweis: Im Softwaremodus können Details verschwinden, die bei Hardware-Beschleunigung sichtbar waren.
+HelpMessage[3]=Gewünschte Auflösung mit linker und rechter Pfeiltaste wählen und mit Eingabetaste Wahl bestätigen.
+HelpMessage[4]=Erweitertes Konfigurationsmenü öffnen
+HelpMessage[5]=VSync deaktivieren, um Framerate zu erhöhen - kann durch Bildwiederholfrequenz / Redraw-Störungen zu sichtbares Flackern führen. Diese Option wird nicht von allen Karten unterstützt.
+HelpMessage[6]=Voreingestellte Detailstufen mit linker und rechter Pfeiltaste auswählen. Einige Änderungen werden erst ab dem nächsten Level wirksam.
+HelpMessage[7]=Niedrige Detailfülle bei Texturen, um Performance zu steigern. Änderungen an dieser Einstellung werden ab dem nächsten Level wirksam.
+HelpMessage[8]=Detaillierte Texturen deaktivieren, um Performance zu steigern. Änderungen an dieser Einstellung werden sofort wirksam.
+HelpMessage[9]=Niedrige Detailfülle bei Geometrie wählen, um Performance zu steigern. Änderungen an dieser Einstellung werden sofort wirksam.
+HelpMessage[10]=Detailfülle in Umgebung senken, um Performance zu steigern. Änderungen an dieser Einstellung werden ab dem nächsten Level wirksam.
+HelpMessage[11]=Maximale Anzahl der Decals senken, um Performance zu steigern. Änderungen an dieser Einstellung werden sofort wirksam.
+HelpMessage[12]=Partikeldichte senken, um Performance zu steigern. Änderungen an dieser Einstellung werden sofort wirksam.
+HelpMessage[13]=Sichtweite reduzieren, um Performance zu steigern. Änderungen an dieser Einstellung werden sofort wirksam.
+HelpMessage[14]=Niedrige Soundqualität wählen, um Performance zu steigern. Änderungen an dieser Einstellung werden ab dem nächsten Level wirksam.
+HelpMessage[15]=Lautstärke der Geräuscheffekte mit linker und rechter Pfeiltaste einstellen.
+HelpMessage[16]=Lautstärke der Musik mit linker und rechter Pfeiltaste einstellen.
+HelpMessage[17]=Musik während Spiel aktivieren. Änderungen an dieser Einstellung werden ab dem nächsten Level wirksam.
+MenuList[1]=Helligkeit
+MenuList[2]=Vollbildmodus ein/aus
+MenuList[3]=Auflösung wählen
+MenuList[4]=Erweiterte Optionen
+MenuList[5]=VSync
+MenuList[6]=Detailstufen
+MenuList[7]=Detailfülle Texturen
+MenuList[8]=Detaillierte Texturen
+MenuList[9]=Detailfülle Geometrie
+MenuList[10]=Detailfülle Umgebung
+MenuList[11]=Max. Anzahl Decals
+MenuList[12]=Partikeldichte
+MenuList[13]=Nebel
+MenuList[14]=Soundqualität
+MenuList[15]=Gesamtlautstärke
+MenuList[16]=Lautstärke Musik
+MenuList[17]=Musik abspielen
+MenuTitle=HARDWARE
+NotApplicableStr=N.V.
+
+[menuServers]
+EditList[0]=Name für Server:
+EditList[1]=Adresse:
+HelpMessage[1]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[2]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[3]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[4]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[5]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[6]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[7]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[8]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[9]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[10]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[11]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+HelpMessage[12]=Diesen Server anwählen: Eingabetaste. Diese Eingabe bearbeiten: rechte Pfeiltaste.
+MenuTitle=FAVORITEN
+
+[ViewCam]
+PickupMessage=ViewCam installiert
+ItemName=ViewCam
+
+[menuOptions]
+HelpMessage[1]=Eingabetaste drücken, um Tastatur, Maus und Joystick anzupassen.
+HelpMessage[2]=Y-Achse der Maus invertieren. Wenn aktiviert geht der Blick bei Vorwärtsbewegung der Maus nach unten statt nach oben.
+HelpMessage[3]=Mausempfindlichkeit einstellen. Ein höherer Wert bedeutet, dass der Zeiger im Verhältnis zur Mausbewegung einen größeren Weg zurücklegt.
+HelpMessage[4]=Wenn aktiviert wird die Maus immer zum rauf- und runtersehen benutzt. Damit ist eine 'Mausblick'-Taste nicht mehr notwendig.
+HelpMessage[5]=Wenn aktiviert geht der Blick, wenn nicht gerade mit der Maus gesteuert, bei Neigungen oder Treppen automatisch rauf bzw. runter.
+HelpMessage[6]=Wenn aktiviert wird der Blick, wenn die Mausblick-Taste losgelassen wird, automatisch zentriert.
+HelpMessage[7]=Bestimmt das Fadenkreuz, das in der Bildmitte erscheinen soll.
+HelpMessage[8]=Bestimmt den Ausmaß der auf- und ab-Bewegung beim Gehen.
+HelpMessage[9]=Joystick verwenden ein/aus.
+HelpMessage[10]=Linke und rechte Pfeiltasten benutzen, um das Ausmaß der Bluteffekte einzustellen. Änderungen an dieser Einstellung werden ab dem nächsten Level wirksam.
+HelpMessage[11]=Wechsel Spieler ID
+MenuList[1]=Steuerung anpassen 
+MenuList[2]=Maus invertieren
+MenuList[3]=Mausempfindlichkeit
+MenuList[4]=Blickrichtung immer mit Maus
+MenuList[5]=Automatisch rauf/runterblicken
+MenuList[6]=Blick automatisch zentrieren 
+MenuList[7]=Fadenkreuz
+MenuList[8]=Wippen
+MenuList[9]=Joystick verwenden
+MenuList[10]=Blutdarstellung
+MenuList[11]=Spieler ID
+MenuTitle=STEUERUNG
+
+[menuPlayer]
+HelpMessage[1]=Drücke die Eingabetaste, um deinen Namen einzugeben. Daran denken, bevor du bei einer Multiplayer-Partie einsteigst.
+HelpMessage[2]=Benutze die Pfeiltasten, um deine Wahl des Charakters zu ändern.
+HelpMessage[3]=Benutze die Pfeiltasten, um die Farben der Kleider deines Charakters zu ändern.
+HelpMessage[4]=Netzwerkgeschw.
+MenuList[1]=Name:
+MenuList[2]=Charakter:
+MenuList[3]=Farbe:
+MenuList[4]=NetSpeed:
+CitadelSkinStr=Zitadel-Farbe:
+MenuTitle=SPIELER-KONFIGURATION
+InternetOption=" Internet (28.8 - 56K)"
+FastInternetOption=" Fast Internet (ISDN, cable modem)"
+LANOption=" LAN"
+
+[menuKeyboard]
+OrString=" oder "
+MenuList[1]=Feuer
+MenuList[2]=Springen/rauf
+MenuList[3]=Nach vorne
+MenuList[4]=Zurück
+MenuList[5]=Schritt nach links
+MenuList[6]=Schritt nach rechts
+MenuList[7]=Nach links wenden
+MenuList[8]=Nach rechts wenden
+MenuList[9]=Nächster Fächer
+MenuList[10]=Voriger Fächer
+MenuList[11]=Artefakt loslassen
+MenuList[12]="Maus-Blick"
+MenuList[13]=Blick rauf
+MenuList[14]=Blick runter
+MenuList[15]=Blick zentrieren
+MenuList[16]=Gehen
+MenuList[17]=Schritt
+MenuList[18]=RÜCKSETZEN AUF STANDARDEINSTELLUNGEN
+MenuTitle=STEUERUNG
+
+[menuStartBattleServer]
+HelpMessage[1]=Anzahl der Zitadellen wählen.
+HelpMessage[2]=Karte wählen.
+HelpMessage[3]=Zeitlimit für das Spiel einstellen.
+HelpMessage[4]=Festlegen, ob Zitadelle-Levels durchlaufen werden sollen.
+HelpMessage[5]=Anzahl der Treffer festlegen, die das Spiel beenden.
+HelpMessage[11]=Um einen Client- und einen dedizierten-Server gleichzeitig laufen zu lassen, muss dieser Wert höher sein als 0.
+HelpMessage[12]=Name deines Servers eingeben.
+HelpMessage[13]=Passwort festlegen für Remote-Admin Privilegien.
+HelpMessage[14]=Passwort festlegen für begrenzten Zugriff auf Server.
+HelpMessage[15]=Einen dedizierten Server auf diesem Rechner starten.
+MenuList[1]=Anzahl der Zitadellen
+MenuList[2]=Kartenauswahl
+MenuList[3]=Zeitlimit
+MenuList[4]=Zitadelle-Levels durchlaufen 
+MenuList[5]=Anzahl der Treffer für Sieg
+MenuList[6]=Anzahl der Siegel für Sieg
+MenuList[7]=Siegel pro Zitadelle
+MenuList[8]=Automatische Teamauswahl
+MenuList[9]=Max. Spieleranzahl
+MenuList[10]=Max. Teamgröße
+MenuList[11]=Max. Client-Framerate
+MenuList[12]=Servername
+MenuList[13]=Admin-Passwort
+MenuList[14]=Spiel-Password
+MenuList[15]=Dedizierten Server starten
+MenuTitle=ZITADELLE-SERVER
+
+[BagHolding]
+PickupMessage=Du hast eine Tasche gefunden.
+
+[menuLoad]
+RestartString=Neustart 
+MenuTitle=SPIEL LADEN
+
+[menuSlot]
+EmptySlotName=..Leer..
+SlotNames[0]=..Leer..
+SlotNames[1]=..Leer..
+SlotNames[2]=..Leer..
+SlotNames[3]=..Leer..
+SlotNames[4]=..Leer..
+SlotNames[5]=..Leer..
+SlotNames[6]=..Leer..
+SlotNames[7]=..Leer..
+SlotNames[8]=..Leer..
+MonthNames[0]=Januar
+MonthNames[1]=Februar
+MonthNames[2]=März
+MonthNames[3]=April
+MonthNames[4]=Mai
+MonthNames[5]=Juni
+MonthNames[6]=Juli
+MonthNames[7]=August
+MonthNames[8]=September
+MonthNames[9]=Oktober
+MonthNames[10]=November
+MonthNames[11]=Dezember
+
+[menuMain]
+MenuList[1]=Einzelspieler
+MenuList[2]=Multiplayer
+MenuList[3]=Steuerung
+MenuList[4]=Hardware
+MenuList[5]=Intro abspielen
+MenuList[6]=Credits
+MenuList[7]=Beenden
+
+[menuMultiPlayer]
+HelpMessage[1]=Einem Netzwerkspiel beitreten.
+HelpMessage[2]=Spieler konfigurieren.
+HelpMessage[3]=Arena-Netzwerkspiele einrichten und starten.
+HelpMessage[4]=Zitadelle-Netzwerkspiele einrichten und starten.
+Menulist[1]=Spiel beitreten
+Menulist[2]=Spieler-Konfig.
+Menulist[3]=Arena-Server
+Menulist[4]=Zitadelle-Server
+
+[Key]
+PickupMessage=Du hast einen Schlüssel gefunden.
+
+[menuSinglePlayer]
+HelpMessage[1]=Tutoriallevel 'Die Prüfung' spielen, um sich mit Wheel of Time vertraut zu machen.
+HelpMessage[2]=Ein neues Einzelspieler-Spiel starten.
+HelpMessage[3]=Eingabetaste drücken, um einen gespeicherten Spielstand zu laden.
+HelpMessage[4]=Eingabetaste drücken, um den aktuellen Spielstand zu speichern.
+MenuList[1]=Tutorial
+MenuList[2]=Neues Spiel
+MenuList[3]=Spiel laden
+MenuList[4]=Spiel speichern 
+
+[menuStartMission]
+HelpMessage[1]=Wit Congar
+HelpMessage[2]=al'Lan Mandragoran
+HelpMessage[3]=Lews Therin Telamon
+MenuList[1]=Leicht
+MenuList[2]=Mittel
+MenuList[3]=Schwer
+
+[menuSave]
+CantSave= SPEICHERN BEI TOD NICHT MÖGLICH
+MenuTitle=SPIEL SPEICHERN
+
+[menuStartArenaServer]
+HelpMessage[1]=Karte auswählen.
+HelpMessage[2]=Anzahl der Treffer festlegen, die das Spiel beenden.
+HelpMessage[3]=Zeitlimit für das Spiel einstellen.
+HelpMessage[4]=Festlegen, ob Arena-Levels durchlaufen werden sollen.
+HelpMessage[5]=Die maximale Spieleranzahl bei einem Spiel einstellen.
+HelpMessage[6]=Um einen Client- und einen dedizierten-Server gleichzeitig laufen zu lassen, muss dieser Wert höher sein als 0.
+HelpMessage[7]=Name deines Servers eingeben.
+HelpMessage[8]=Passwort festlegen für Remote-Admin Privilegien.
+HelpMessage[9]=Passwort festlegen für begrenzten Zugriff auf Server.
+HelpMessage[10]=Einen dedizierten Server auf diesem Rechner starten.
+MenuList[1]=Kartenauswahl
+MenuList[2]=Anzahl der Treffer für Sieg
+MenuList[3]=Zeitlimit
+MenuList[4]=Arena-Levels durchlaufen 
+MenuList[5]=Max. Spieleranzahl
+MenuList[6]=Max. Client-Framerate
+MenuList[7]=Servername
+MenuList[8]=Admin-Passwort
+MenuList[9]=Spiel-Passwort
+MenuList[10]=Dedizierter Server starten
+MenuTitle=ARENA-SERVER
+
+[WOTUtil]
+AesSedaiClassStr=AesSedai
+ForsakenClassStr=Verlorener
+HoundClassStr=Hund
+WhiteCloakClassStr=Weißmantel
+
+[WOTHelpInfo]
+Title=Hilfe
+Content[0]=%f=3
+Content[1]=%s=4
+Content[2]=%c=0
+Content[3]=Bei allen Tasten handelt es sich um die voreingestellten Belegungen. Ausführlichere Informationen und Hinweise zur Umbelegung wichtiger Tasten siehe Menü 'Steuerung'
+Content[4]=%f=2
+Content[5]=%s=4
+Content[6]=%c=1
+Content[7]=Grundbewegungen
+Content[8]=%f=3
+Content[9]=%c=0
+Content[10]=Um sich umzusehen, Maus benutzen
+Content[11]=Um sich zu bewegen, Pfeiltasten benutzen
+Content[12]=Leertaste: Springen
+Content[13]=Linke Maustaste: Feuern
+Content[14]=%f=2
+Content[15]=%s=4
+Content[16]=%c=1
+Content[17]=Fortgeschrittene Bewegungen (empfohlen)
+Content[18]=%f=3
+Content[19]=%c=0
+Content[20]=Um sich umzusehen, Maus benutzen
+Content[21]=W, S, A, D:  Nach vorne laufen, zurückgehen, Dauerfeuer nach links, Dauerfeuer nach rechts
+Content[22]=Rechte Maustaste: Springen
+Content[23]=Linke Maustaste: Feuern
+Content[24]=%f=2
+Content[25]=%s=4
+Content[26]=%c=1
+Content[27]=Sondertasten
+Content[28]=%f=3
+Content[29]=%c=0
+Content[30]=ESC: Hauptmenü aufrufen /Zum Spiel zurückkehren
+Content[31]=T + Message: Sprechen oder @Message@ sagen
+Content[32]=G, H, J, K, L, ';' :  Charakterspezifische Spötteleien
+Content[33]=1, 2, 3... 0: Im Fächer gezeigtes Artefakt auswählen /Nächstes Artefakt im Fächer auswählen
+Content[34]=[:  Voriges Artefakt auswählen
+Content[35]=]:  Nächstes Artefakt auswählen
+Content[36]=TAB:  Einzeiliger Konsolenbefehl / Zum verlassen Eingabetaste oder ESC
+Content[37]=~:  Konsole aufrufen/ Konsole ausblenden
+Content[38]=%y=325
+Content[39]=F1:
+Content[40]=%y=-1
+Content[41]=F2:
+Content[42]=F3:
+Content[43]=F4:
+Content[44]=F5:
+Content[45]=F6:
+Content[46]=%x=30
+Content[47]=%y=325
+Content[48]=Hilfe
+Content[49]=%y=-1
+Content[50]=Ausgewähltes Artefakt untersuchen
+Content[51]=Missions-Informationen
+Content[52]=Scoreboard (bei Arena- und Zitadelle-Spiel)
+Content[53]=Schnellspeichern
+Content[54]=Schnellladen
+Content[55]=%x=320
+Content[56]=%y=325
+Content[57]=F7:
+Content[58]=%y=-1
+Content[59]=F8:
+Content[60]=F9:
+Content[61]=F10:
+Content[62]=F11:
+Content[63]=F12:
+Content[64]=%x=350
+Content[65]=%y=325
+Content[66]=Speichern
+Content[67]=%y=-1
+Content[68]=Laden
+Content[69]=Screenshot
+Content[70]=Edit Zitadelle
+Content[71]=Helligkeit ändern
+Content[72]=Vollbildmodus ein/aus
+SubTitle=Weiter - F1 drücken
+
+[InventoryInfoWindow]
+RarityCommonStr=Vorkommen: Häufig
+RarityUncommonStr=Vorkommen: Ungewöhnlich
+RarityRareStr=Vorkommen: Selten
+ChargesStr=Ladungen: 
+EarthStr=ERDE
+AirStr=LUFT
+FireStr=FEUER
+WaterStr=WASSER
+SpiritStr=GEIST
+SubTitle=Weiter - F2 drücken
+
+[MissionObjectives]
+Title=Mission XX
+SubTitle=Weiter - F3 drücken
+
+[WOTTextWindowInfo]
+SubTitle=Weiter - Esc drücken
+
+[MissionObjectives01]
+Title=Am Ufer des Manetherendrelle
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Mit dem Gold von Tar Valon konnte ich einen Matrosen überreden, mich dem Fluss Manetherendrelle hinunterzufahren, aber als wir uns Shadar Logoth näherten wurde er zunehmend nervöser. Schließlich ließ er mich mit den Worten aussteigen, er sei der verfluchten Stadt noch nie so nahe gekommen.
+Content[4]=     @Der Mörder war bereits hier. Er und seine Trollocs haben eine Spur der Verwüstung hinterlassen; andere von der Burg werden sie bestimmt aufnehmen können. Neueste Opfer der Trollocs scheint ein Caravan von friedliebenden Kesselflickern zu sein. Ich kam zu spät, um ihnen zu helfen. Ich muss versuchen, den Mörder einzuholen bevor wir die Stadt erreichen. Vor dem, was da drin wartet, haben sogar die Schattenfreunde Angst.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Versuche, den Attentäter einzuholen, bevor er Shadar Logoth erreichen kann.
+Content[9]=%s=4
+Content[10]=%b Übe dabei den Umgang mit deinen Ter'angreal, indem du sie bei der Abwehr seiner Truppen, der Trollocs, einsetzt.
+Content[11]=%s=4
+Content[12]=%b Erforsche alles was du tragen kannst, indem du ein Artefakt in die Hand nimmst und dann F2 drückst.
+Content[13]=%s=4
+Content[14]=%b Sammele alle Ter'angreal, die du in den Wagenwracks der Kesselflicker findest; in manchen Caravans sollen solche uralten Artefakte zu finden sein.
+
+[MissionObjectives02]
+Title=Die Straßen von Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Dass ich in die Nische hineingeschlüpft bin, hat mir das Leben gerettet, aber dem Mörder gelang die Flucht. Dieser Tunnel führt vielleicht in die Stadt hinein, aber Shadar Logoth ist riesengroß. Ihn zu finden wird nicht leicht sein.
+Content[4]=     @Ich bin ohnehin nicht darauf erpicht, die Stadt zu betreten. Shadar Logoth wurde vor abertausend Jahren bei den Kriegen gegen den Dunklen König zerstört. Seitdem ist sie zu etwas Finsterem geworden, eine gemiedene Stadt. Der Mörder wird dort keine Verbündeten finden, aber das Grauen darin erwartet auch mich.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Verfolge den Attentäter durch die Stadt.
+Content[9]=%s=4
+Content[10]=%b Shadar Logoth ist eine Stadt der Antike. Eventuell findest du Artefakte, die dir helfen, dein Überleben zu sichern.
+
+[MissionObjectives03]
+Title=Die Katakomben von Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=  @Der Mörder hat sich mitten ins Netz begeben. Die Straßen der Stadt sind tödlich, die Katakomben noch schlimmer. Ich kann mir nicht vorstellen, was dort lauert, und hoffentlich werde ich es auch nie erfahren.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Je länger dir der Attentäter ausweicht, umso größer die Wahrscheinlichkeit, dass er stirbt, bevor du die Chance hast, die Ter'angreal, die er bei sich hat, zurückzubekommen. Finde ihn schnellstens.
+Content[8]=%s=4
+Content[9]=%b Bringe die Ter'angreal der Amylrin zurück.
+
+[MissionObjectives04]
+Title=Die Flucht aus Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @ Die verantwortliche Schwester hat mir die Befehlsgewalt übergeben. Wenn wir bis zur Dämmerung durchhalten können, werden sich die Kreaturen aus der Stadt zurückziehen und wir können uns darauf konzentrieren, einen Weg durch die Trümmer zu graben. Was aber wird aus denen, die versprengt wurden? Sollte ich versuchen, sie zu retten? Oder sind sie schon tot?@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Bleibe bis zum Morgengrauen am Leben; da ziehen sich die Kreaturen der Stadt zurück und du kannst entkommen.
+Content[8]=%s=4
+Content[9]=%b In dieser Zeit kannst du dich und deine Truppen verteidigen, versuchen, noch mehr Ter'angreal zu sammeln, oder nach den vermissten Schwestern und Wächter suchen.
+
+[MissionObjectives05]
+Title=Die Rettung der Weißen Burg
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Die Angreifer haben das Haupttor durchbrochen und die Weiße Burg in ein Schlachtfeld verwandelt. Unsere Stadtwache sucht noch immer die Gegend nach dem Mörder ab. Die verbleibenden Wächter und Schwestern haben tapfer versucht, die Burg zu verteidigen, aber sie sind zahlenmäßig unterlegen, und solange das Tor offen steht, strömen Trollocs und Myrddraal ungehindert hinein, und ersetzen die Toten.
+Content[4]=     @Auch wenn das äußere Tor durchbrochen wurde, so gibt es noch das innere Tor. Wenn ich es erreichen und schließen kann, haben wir vielleicht noch eine Chance, die Eindringlinge zu vernichten, die bereits drin sind.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Das Haupttor ist nicht sehr nahe; tatsächlich ist es am Fuße des Turms nebenan. Die Brücke zu diesem Turm verläuft von der Galerie aus.
+Content[9]=%s=4
+Content[10]=%b Bahne dir einen Weg durch die Bibliothek, gelange in die Galerie hinein und überquere die Brücke zum Turm nebenan.
+Content[11]=%s=4
+Content[12]=%b Gehe hinunter in die Innenhöfe und steuere auf das innere Tor zu.
+Content[13]=%s=4
+Content[14]=%b Aktiviere den Mechanismus in der Kammer über dem Tor. Das Tor wird geöffnet.
+
+[MissionObjectives07]
+Title=Das Kellergewölbe
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Es gibt zu viele Fragen und zu wenig Antworten, und die einzige, die das ändern könnte ist die Amyrlin. Die Nachricht, die sie mir im Geheimfach hinterlassen hat, war ein Trost; offenbar lebt sie und hat das verbleibende Siegel bei sich. Hoffentlich kann ich mit Hilfe ihrer Artefakte unversehrt zu ihr gelangen; Ich gebe meine in die Hände der Schwestern, denen ich die Bewachung meiner Kammer anvertraut habe. Ein wenig Sorge habe ich allerdings. Fallen, die dazu gedacht sind, Unbefugte aus einem Kellergewölbe der Weißen Burg fernzuhalten sind bestimmt raffiniert und tödlich.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Benutze 'Peiler', um den Eingang zum Kellergewölbe zu finden.
+Content[8]=%s=4
+Content[9]=%b Benutze 'Fallen-Detektor', Vorsicht und Geschick, um nicht unterwegs in die einfacheren Fallen zu tappen.
+Content[10]=%s=4
+Content[11]=%b Im Kellergewölbe werden viele vergessene Ter'angreal aufbewahrt. Das ist eine gute Gelegenheit, dein Arsenal für später aufzustocken.
+Content[12]=%s=4
+Content[13]=%b Hüte dich vor Fallen, die die Eine Macht verwenden. Uralte, in der Weißen Burg eingebaute Abwehrmechanismen können jede Form annehmen.
+Content[14]=%s=4
+Content[15]=%b Wenn du dich verirrst, benutze 'Peiler', um den richtigen Weg zu finden.
+Content[16]=%s=4
+Content[17]=%b Finde die Amyrlin und gib ihr die gestohlenen Ter'angreal zurück.
+
+[MissionObjectives08]
+Title=Die Kurzen Wege
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Früher war das Land durch Wegetore verbunden. Es gab viele Kurze Wege und sie können überall hinführen. Aber wie Shadar Logoth sind die Kurzen Wege zu etwas Bösem verkommen, unabhängig vom Dunklen König. Der Schwarze Wind stiehlt jedem die Seele, der sich hineinwagt. Es überrascht mich, dass der Mörder es wagt, die Kurzen Wege zu nehmen, aber es war eine geniale Methode, eine Armee nach Tar Valon zu bringen. Jetzt benutzt er wieder die Wege und ich muss ihm nach.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Es gibt ein Wegetor auf der Ausgrabungsstätte im Grenzgebiet, aber es ist weit weg. Der Schwarze Wind würde dich finden, längst bevor du es erreichen kannst.
+Content[8]=%s=4
+Content[9]=%b Benutze unterwegs die Wegetore als sichere Unterschlupfe. Verlasse durch sie die Kurzen Wege, warte solange du kannst auf der anderen Seite bis Machin Shin weiterzieht, dann tritt wieder ein und laufe bis zum nächsten Tor. Wenn du von Wegetor zu Wegetor huschst, kannst du Machin Shin vielleicht entkommen.
+Content[10]=%s=4
+Content[11]=%b Achte auf fliehende Schwarze Ajah Verräterrinnen und andere Schattenfreunde. Denke daran, Machin Shin bevorzugt niemanden.
+Content[12]=%s=4
+Content[13]=%b Wer weiß, was du unterwegs für Artefakte findest, die unglückliche Reisende hinterlassen haben?
+Content[14]=%s=4
+Content[15]=%b Reise zum Wegetor, das zu dem Grenzgebiet führt und bleibe am Leben.
+
+[MissionObjectives10]
+Title=Die Ausgrabungsstätte
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Die Expedition ist fort. Die Zelte sind noch da, aber die Menschen sind verschwunden. Die Blutspuren lassen mich das Schlimmste vermuten. Von den Überresten her ist klar, dass die Kinder des Lichts die Hand im Spiel hatten. Trotz ihrer Feindseligkeit den Aes Sedai gegenüber hätte ich nie gedacht, dass die Weißmäntel zu solcher Grausamkeit fähig wären. Offenbar habe ich mich geirrt.
+Content[4]=     @Ich muss die Überlebenden finden und retten. Und wehe jedem Weißmantel, der sich mir in den Weg stellt.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b In der Nähe ist eine Festung der Weißmäntel. Falls irgendwelche Aes Sedai lebend gefangen genommen wurden, sind sie wahrscheinlich dort.
+Content[9]=%s=4
+Content[10]=%b In der Ausgrabungsstätte sind vielleicht uralte Ter'angreal versteckt. Finde sie und benutze sie, um in die Festung der Weißmäntel zu gelangen.
+Content[11]=%s=4
+Content[12]=%b Versuche in den Kerkern der Festung herauszubekommen, was aus der Expedition geworden ist.
+
+[MissionObjectives12]
+Title=Die Kerker der Weißmäntel
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Bevor sie starb erzählte mir Cerist, dass die Überlebenden der Expedition versuchen wollten, den nahe gelegenen Portalstein zu erreichen. Ich glaube, ich habe diesen Stein vor der Festung gesehen. Wenn ich ihn erreichen kann, kann ich sie vielleicht einholen.
+Content[4]=     @Diese Weißmäntel haben durch ihr Tun der Weißen Burg den Krieg erklärt und dem Licht abgeschworen. Ich verlasse diesen Ort und kein 'Kind des Lichtes' wird mich aufhalten können!@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Die Weißmäntel haben seit einiger Zeit Ter'angreal von der Ausgrabungsstätte gesammelt. Nimm so viele wie möglich an dich, um dich verteidigen zu können.
+Content[9]=%s=4
+Content[10]=%b Finde das versteckte Lager der Ter'angreal, von dem Cerist sprach. Es ist in einer geheimen Kapelle neben dem Thronsaal.
+Content[11]=%s=4
+Content[12]=%b Mit diesen Artefakten, bahne dir einen Weg durch die Festung der Weißmäntel und mache dich auf den Weg zum Portalstein in der Hoffnung, dass du der Spur der überlebenden Mitglieder der verlorenen Expedition folgen kannst.
+
+[MissionObjectives15]
+Title=Die Festung des Verlorenen
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Meine Reise durch die Welt des Portalsteins war wie ein verschwommener Traum und ich habe keine Ahnung, wie viel Zeit verstrichen ist. Ich habe das einzige Symbol auf dem Stein benutzt, das freigeräumt worden war; wenn also die Expedition durchkam, muss sie hier sein.
+Content[4]=     @Von der Umgebung her würde ich sagen, dass dieser Stein in den Verschleierten Bergen ist. Das überrascht nicht, denn in diesen Bergen gibt es viele uralte Ruinen. Dem Mörder nach hat Ishamael jedoch seine Festung hier gebaut. Vermutlich haben die Schergen des Verlorenen meine Expedition gefangen genommen. Hoffentlich haben sie sie nur gefangen genommen.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Die Mitglieder der Expedition scheinen vom Pech verfolgt zu sein. Finde die Festung des Verlorenen - dort sind sie vermutlich - und suche dort einen Eingang.
+Content[9]=%s=4
+Content[10]=%b Hüte dich vor den Schergen des Verlorenen, darunter auch viele ehemalige Verbündete: die mächtigen Schwarze Ajah.
+Content[11]=%s=4
+Content[12]=%b Wenn du drinnen bist, suche nach den Kerkern. Befreie deine Freunde, wenn du kannst.
+
+[MissionObjectives16]
+Title=Die Kerker des Verlorenen
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Wir haben ein wenig Zeit, aber wir sind zahlenmäßig hoffnungslos unterlegen. Trollocs bringen immer die leichteste Beute zur Strecke; die Verwundeten in den Kerkern sind am meisten gefährdet. Ich muss sie beschützen und einen Weg finden, unsere zahlenmäßige Unterlegenheit auszugleichen.@.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Du hast nur wenig Zeit bevor die Wachen kommen. Benutze sie, um nach Artefakten zu suchen, die in den Zellen versteckt sein könnten, dann mache dich mit der Umgebung vertraut.
+Content[8]=%s=4
+Content[9]=%b Wachen mit Befehl, die verwundeten Gefangenen zu töten werden in immer größerer Zahl auftauchen und auf dem direktesten offenen Weg auf die Kerker zusteuern. Wenn du die Fallgitter in der Rotunde schließt, schränkst du ihre Wahlmöglichkeiten ein.
+Content[10]=%s=4
+Content[11]=%b Verlasse dich nicht ausschließlich auf deine Angriffs-Artefakte, um die Wachen zu besiegen. Du musst die Gegebenheit der Umgebung ausnutzen, um dir Vorteile zu verschaffen.
+Content[12]=%s=4
+Content[13]=%b Halte so viele Überlebende am Leben wie möglich. Wenn du fünf davon verlierst, oder wenn die Wächterin getötet wird, bist du gescheitert.
+
+[MissionObjectives17]
+Title=Das Allerheiligste
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Ich will mich an Sephraem rächen, mehr als ich zugeben möchte, aber ich muss mich auf das gestohlene Siegel konzentrieren. Ich weiß nicht genau, was Ishamael damit vorhat, aber die Möglichkeiten sind erschreckend. Ich werde das Siegel finden und falls mir dabei die Verräterin Sephraem begegnet, so sei es.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Finde das gestohlene Siegel und nimm es wieder an dich.
+Content[8]=%s=4
+Content[9]=%b Suche dabei nach Informationen über die Pläne des Verlorenen.
+Content[10]=%s=4
+Content[11]=%b Komme lebend wieder heraus. Das wird nicht leicht sein.
+
+[MissionObjectives18]
+Title=Die Vereinigung der Siegel
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Mein Kurs ist klar. Ich muss vier Siegel sammeln, bevor es meine Feinde tun. Ihre Pläne für die Siegel sind unvorstellbar. Wahrscheinlich werde ich die Siegel aus den gut gesicherten Festungen der anderen stehlen, aber ich schätze, der Hund hat mir einen Gefallen getan, indem er für Ausgleich unter den Konkurrenten gesorgt hat. Keiner von uns kann fokussieren; wir alle sind auf die Ter'angreal angewiesen, die wir finden können. Damit bin ich im Vorteil.
+Content[4]=     @So der Schöpfer will, werde ich siegen. Um der Welt willen muss es mir gelingen.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Gehe in deine Privaträume und nimm deine Sammlung Ter'angreal an dich.
+Content[9]=%s=4
+Content[10]=%b Tritt durch den Portalstein in die Welt dahinter.
+Content[11]=%s=4
+Content[12]=%b Sammele dort alle Ter'angreal ein, die du finden kannst.
+Content[13]=%s=4
+Content[14]=%b Benutze wenn nötig das heilenden Altar in der Welt hinter dem Portalstein.
+Content[15]=%s=4
+Content[16]=%b Tritt hintereinander durch alle Portalsteine und dringe in die Zitadellen auf der anderen Seite.
+Content[17]=%s=4
+Content[18]=%b Stehle die Siegel aus allen Zitadellen.
+Content[19]=%s=4
+Content[20]=%b Bringe die Siegel zurück und lege sie auf den Altar in Ihrem Thronsaal.
+Content[21]=%s=4
+Content[22]=%b Wiederhole diesen Vorgang so lange, bis vier Siegel auf deinem Altar liegen.
+Content[23]=%s=4
+Content[24]=%b Rette die Welt.
+
+[WOTTransitionMap]
+LoadMessage=Lade
+
+[WOTTransitionMapInfo00]
+NextText=Ufer des Manetherendrelle
+
+[WOTTransitionMapInfo04]
+NextText=Die Weiße Burg 
+
+[WOTTransitionMapInfo08a]
+NextText=Die Große Fäule
+
+[WOTTransitionMapInfo08c]
+NextText=Die Ausgrabungsstätte
+
+[WOTTransitionMapInfo12b]
+NextText=Die Verschleierten Berge
+
+[WOTTransitionMapInfo17]
+NextText=Die Weiße Burg
+
+[LockableMover]
+LockedMessage="Diese Tür ist verschlossen."
+UnLockMessage="Du benutzt den Schlüssel, um die Tür aufzuschließen."

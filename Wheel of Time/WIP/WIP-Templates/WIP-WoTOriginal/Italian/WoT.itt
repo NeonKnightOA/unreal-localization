@@ -1,0 +1,713 @@
+[General]
+Start=Wheel of Time (In partenza)
+Exit=Wheel of Time (In uscita)
+Run=Wheel of Time (In esecuzione)
+Product=Wheel of Time
+
+[BattleInfo]
+EditingStr="Editando"
+PlayingStr="Giocando"
+ReadyStr="Pronto"
+WaitingStr="In attesa"
+
+[Windows]
+PlayCommand=&Gioca questo livello di Wheel of Time
+EditCommand=&Edita con WOTEd
+
+[AngrealInventory]
+FailMessage=Sbagliato
+PickupMessage=Hai trovato un Ter'angreal
+
+[ArenaScoreBoard]
+ElapseText=Tempo Trascorso:
+RemainText=Tempo Rimasto: 
+Description[0]="Tempo"
+Description[1]=""
+Description[2]="Nome"
+Description[3]="Ping/PL"
+Description[4]="Uccisioni/Morti/Suicidi"
+Description[5]="Punteggio"
+
+[CitadelScoreBoard]
+NumSealsText="Numero di Sigilli per vincere"
+VictoryText="La vittoria va a"
+
+[CitadelTeamOverview]
+BeginBattleStr="Premi @Fuoco@ per iniziare a giocare"
+Description[0]="Team"
+Description[1]=""
+Description[2]="Giocatori(Max)"
+Description[3]="Stato"
+Description[4]=""
+Description[5]=""
+
+[WOTPlayer]
+SelectedStr=" "
+TerAngrealStr=" "
+InventoryInfoHitStr="Premi F2 per avere informazioni sull'oggetto che hai appena raccolto"
+CantChangeTeamsStr="Non puoi cambiare team mentre sei nell'editor."
+TeleportProhibitedEditingStr="Non puoi teletrasportarti mentre sei nell'editor."
+TeleportProhibitedJoinStr="Non si può usare il teletrasporto finché non sei entrato a far parte di una squadra e hai iniziato una battaglia."
+WaitingForSealsStr="In attesa della collocazione dei Sigilli da parte degli avversari."
+WaitingForEditStr="In attesa che gli avversari finiscano di usare l'editor."
+CantEditLevelStr="Questo livello non supporta l'Editor di Cittadelle."
+CantEditZoneStr="Non puoi usare l'editor in quest'area."
+CantEditAreaStr="La tua squadra non controlla quest'area."
+CantEditNowStr="Non si può usare l'editor dopo che la battaglia è cominciata..."
+CantEditBudgetStr="Non puoi editare adesso..."
+CantEditLimitStr="Il limite per la tua squadra è già stato raggiunto."
+CantPlaceResourceStr="ServerSpawn(): Impossibile generare l'oggetto."
+CantLeaveEditorStr="Non puoi ancora uscire dall'editor."
+
+[giMPBattle]
+BattleBeginStr="Che la battaglia abbia inizio..."
+TeamIsYoursStr="Sei già parte di una squadra "
+TeamIsFilledStr="Non puoi unirti -- questa squadra è già al completo "
+PlayerJoinTeamStr=" sta giocando nella squadra "
+PlayerLeaveTeamStr=" ha iniziato a giocare."
+
+[BattleHUD]
+SelectTeamStr="Scegli il tuo Team:"
+TimeLimitStr=" in "
+SecondsStr=" secondi"
+
+[menuLong]
+VeryLowText=Molto Basso
+LowText=Basso
+MediumText=Medio
+HighText=Alto
+OnText=Si
+OffText=No
+
+[giWOT]
+VoteStr001="Richiesta di voto non valida."
+VoteStr002="(scadrà in "
+VoteStr003=" minuti)"
+VoteStr004="(attendi che le altre richieste scadano prima di effettuarne un'altra)"
+VoteStr005="LIMITE DELLA RICHIESTA DI VOTO SUPERATO"
+VoteStr006="RICHIESTA DI VOTO: "
+VoteStr007=" da "
+VoteStr008="RICHIESTA DI VOTO: "
+VoteStr009=" SCADUTA"
+DeathConjunction=" è stato ucciso da "
+SuicideConjunctionMale=" si è estromesso dal Creato"
+SuicideConjunctionFemale=" si è estromessa dal Creato"
+AccidentConjunctionMale=" è stato rimosso dal Creato"
+AccidentConjunctionFemale=" è stato rimossa dal Creato"
+
+[giCombatBase]
+GlobalNameChange=" ha cambiato nome in  "
+NoNameChange=" è già in uso"
+
+[SealAltar]
+CaptureNotificationStr=" catturato un Sigillo."
+
+[Seal]
+Title=Il Sigillo di Cuendillar
+Description=Sebbene in apparenza non sia altro che un disco di pietra lungo circa una spanna, è in realtà un Ter'angreal che proviene direttamente dall'Età delle Leggende. Rappresenta un punto focale per i veri sigilli che tengono chiusa la prigione dell'Oscuro, a Shayol Ghul. Chiunque entri in possesso di quattro Sigilli e capisca come manipolarli, può aprire la prigione dell'Oscuro o rinchiuderla per sempre.
+Quote=Tirò qualcosa fuori dalla sua sacca e la mise sul tavolo davanti a lei. Era un disco della grandezza di una mano umana che sembrava fatto di due lacrime unite insieme, l'una nera come la pece, l'altra bianca come la neve.
+PickupMessage=Hai preso il Sigillo
+PossesionChangeStr=Il tuo Sigillo è stato catturato!
+
+[SealInventory]
+Title=Sigillo di Cuendillar
+Description=Benché all'aspetto non sembri nulla più di un semplice disco di pietra, grande più o meno quanto un palmo, questo è un artefatto di Cuendillar dell'Età delle Leggende. Rappresenta un punto focale in contatto con i Sigilli veri e propri che tengono chiusa la prigione dell'Oscuro, sotto le pendici di Shayol Ghul. Se qualcuno dovesse possedere quattro Sigilli contemporaneamente, e comprendesse come usarli, potrebbe intervenire direttamente sulla prigione dell'Oscuro--liberandolo, o rinchiudendolo per sempre.
+Quote=Prese qualcosa dalla sua sacca e la depose sul tavolo di fronte a lei. Era un disco grande quanto la mano di un uomo, apparentemente formato da due pezzi a forma di goccia uniti insieme, una nera come la pece, l'altra bianca come la neve.
+
+[menuConfiguration]
+HelpMessage[1]=Correggi la luminosità del monitor usando i tasti cursore sinistro e destro.
+HelpMessage[2]=Visualizza la Ruota del Tempo in una finestra. Nota che la modalità software può rimuovere dei dettagli che erano visibili con l'accelerazione hardware.
+HelpMessage[3]=Usa i tasti cursore destro e sinistro per selezionare la risoluzione, e premi Invio per confermare la tua scelta. 
+HelpMessage[4]=Apri il menu per la configurazione delle preferenze avanzate.
+HelpMessage[5]=Disabilita il VSync per massimizzare la velocità - questo può causare dei difetti nella visualizzazione. Non tutte le schede video supportano quest'opzione.
+HelpMessage[6]=Usa i tasti cursore sinistro e destro per scegliere uno dei settaggi standard. Questo cambiamento avrà effetto dopo il prossimo cambio di livello.
+HelpMessage[7]=Scegli un dettaglio medio delle texture per migliorare le prestazioni. Questo cambiamento avrà effetto dopo il prossimo cambio di livello.
+HelpMessage[8]=Disabilita il dettaglio delle texture per migliorare le prestazioni. Questo cambiamento avrà effetto dopo il prossimo cambio di livello.
+HelpMessage[9]=Scegli un basso dettaglio geometrico per migliorare le prestazioni. Questo cambiamento avrà effetto immediatamente.
+HelpMessage[10]=Riduci il livello di dettaglio delle decorazioni per migliorare le prestazioni. Questo cambiamento avrà effetto dopo il prossimo cambio di livello.
+HelpMessage[11]=Riduci il massimo numero di texture applicate (decals) per migliorare le prestazioni. Questo cambiamento avrà effetto immediatamente.
+HelpMessage[12]=Riduci la densità delle particelle per migliorare le prestazioni. Questo cambiamento avrà effetto immediatamente.
+HelpMessage[13]=Disabilita l'illuminazione volumetrica (nebbia) per migliorare le prestazioni. Questo cambiamento avrà effetto immediatamente.
+HelpMessage[14]=Scegli il sonoro di qualità meno elevata per migliorare le prestazioni. Questo cambiamento avrà effetto dopo il prossimo cambio di livello.
+HelpMessage[15]=Modifica il volume del sonoro usando i tasti cursore sinistro e destro.
+HelpMessage[16]=Modifica il volume della musica usando i tasti cursore sinistro e destro.
+HelpMessage[17]=Abilita la musica da CD all'inizio del livello.
+MenuList[1]=Luminosità
+MenuList[2]=Modalità Schermo Intero Si/No
+MenuList[3]=Seleziona Risoluzione
+MenuList[4]=Opzioni Avanzate
+MenuList[5]=VSync
+MenuList[6]=Controllo Generale del Dettaglio
+MenuList[7]=Dettaglio Texture
+MenuList[8]=Texture Dettagliate 
+MenuList[9]=Dettaglio Geometrico
+MenuList[10]=Dettaglio Decorazioni
+MenuList[11]=Massimo numero texture applicate (Decals)
+MenuList[12]=Densità Particelle
+MenuList[13]=Illuminazione Volumetrica
+MenuList[14]=Qualità Sonoro
+MenuList[15]=Volume Generale
+MenuList[16]=Volume Musica
+MenuList[17]=Abilita Musica
+MenuTitle=HARDWARE
+NotApplicableStr=N/A
+
+[menuServers]
+EditList[0]=Nome del Server:
+EditList[1]=Indirizzo IP:
+HelpMessage[1]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[2]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[3]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[4]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[5]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[6]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[7]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[8]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[9]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[10]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[11]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+HelpMessage[12]=Premi Invio per andare su questo server. Premi il tasto cursore destro per modificare questo slot.
+MenuTitle=PREFERITI
+
+[ViewCam]
+PickupMessage=ViewCam installata
+ItemName=ViewCam
+
+[menuOptions]
+HelpMessage[1]=Premi Invio per personalizzare la configurazione di tastiera, mouse e joystick.
+HelpMessage[2]=Inverti l'asse Y del mouse. Se è selezionata, il movimento in avanti del mouse ti fa guardare in basso invece che in alto.
+HelpMessage[3]=Correggi la sensibilità del mouse, cioè quanto ampio deve essere il movimento del mouse per produrre un dato movimento nel gioco.
+HelpMessage[4]=Se è selezionata, il mouse è usato sempre per guardare in alto e in basso, senza bisogno di ricorrere a un apposito tasto.
+HelpMessage[5]=Se è selezionata, quando non usi il mouse per guardare, la visuale verrà automaticamente variata per guardare su e giù dalle scale e dalle superfici inclinate.
+HelpMessage[6]=Se è selezionata, al rilascio del tasto per guardare col mouse, la tua visuale viene automaticamente centrata.
+HelpMessage[7]=Scegli il tipo di mirino che appare al centro dello schermo 
+HelpMessage[8]=Regola il movimento sobbalzante (Bobbing).
+HelpMessage[9]=Abilita/disabilita joystick
+HelpMessage[10]=Attiva/disattiva ID giocatore
+HelpMessage[11]=Usa i tasti cursore sinistro e destro per correggere il livello di violenza. Questo cambiamento avrà effetto dopo il prossimo cambio di livello.
+MenuList[1]=Personalizza i Controlli
+MenuList[2]=Inverti il Mouse
+MenuList[3]=Sensibilità del Mouse
+MenuList[4]=Guarda sempre col Mouse
+MenuList[5]=Visuale inclinata automatica(Auto Slope Look)
+MenuList[6]=Visuale autocentrata (LookSpring)
+MenuList[7]=Mirino
+MenuList[8]=Sobbalzamento (Bobbing)
+MenuList[9]=Joystick Abilitato
+MenuList[10]=ID giocatore
+MenuList[11]=Livello di Violenza
+MenuTitle=CONTROLLI
+
+[menuPlayer]
+HelpMessage[1]=Premi Invio per immettere il tuo nome. Fallo prima di collegarti per giocare in rete.
+HelpMessage[2]=Cambia il tuo personaggio con i tasti cursore sinistro e destro.
+HelpMessage[3]=Usa i tasti cursore per cambiare il colore dei tuoi vestiti.
+HelpMessage[4]=Imposta la velocità di rete.
+MenuList[1]=Nome:
+MenuList[2]=Personaggio:
+MenuList[3]=Pelle:
+MenuList[4]=Velocità di rete:
+MenuTitle=CONFIGURAZIONE GIOCATORE
+CitadelSkinStr=Pelle della Cittadella 
+InternetOption=" Internet (28.8 - 56K)"
+FastInternetOption=" Internet veloce (ISDN, cavo modem)"
+LANOption=" LAN"
+
+[menuKeyboard]
+OrString=" o "
+MenuList[1]=Fuoco
+MenuList[2]=Salta/Vai Su
+MenuList[3]=Muoviti Avanti 
+MenuList[4]=Muoviti Indietro
+MenuList[5]=Spostati a Sinistra
+MenuList[6]=Spostati a Destra
+MenuList[7]=Gira a Sinistra
+MenuList[8]=Gira a Destra
+MenuList[9]=Mano Successiva
+MenuList[10]=Mano Precedente 
+MenuList[11]=Lascia Oggetto 
+MenuList[12]="MouseLook -- Guarda col Mouse"
+MenuList[13]=Guarda Su
+MenuList[14]=Guarda Giù
+MenuList[15]=Centra la Visuale
+MenuList[16]=Cammina
+MenuList[17]=Spostati Lateralmente
+MenuList[18]=TORNA ALLA CONFIGURAZIONE ORIGINALE
+MenuTitle=CONTROLLI
+
+[menuStartBattleServer]
+HelpMessage[1]=Scegli il numero di cittadelle.
+HelpMessage[2]=Scegli la mappa.
+HelpMessage[3]=Specifica un limite di tempo per il gioco.
+HelpMessage[4]=Specifica se eseguire i livelli di Cittadella in ciclo.
+HelpMessage[5]=Specifica il numero di uccisioni che fa terminare il gioco.
+HelpMessage[11]=Per far girare un client e un server dedicato contemporaneamente, dovete impostare questo valore maggiore di zero.
+HelpMessage[12]=Dai un nome al tuo server.
+HelpMessage[13]=Imposta la password per l'amministrazione remota del server.
+HelpMessage[14]=Imposta la password per l'accesso ristretto al server.
+HelpMessage[15]=Fai partire un Server dedicato su questo computer.
+MenuList[1]=Numero di Cittadelle
+MenuList[2]=Scegli la Mappa
+MenuList[3]=Limite di Tempo
+MenuList[4]=Esegui i livelli di Cittadella in ciclo.
+MenuList[5]=Numero di Uccisioni per Vincere
+MenuList[6]=Numero di Sigilli da vincere
+MenuList[7]=Sigilli per Cittadella
+MenuList[8]=Selezione automatica della squadra
+MenuList[9]=Limite sul numero di giocatori
+MenuList[10]=Dimensione massima di una squadra
+MenuList[11]=Massimo Framerate del Client
+MenuList[12]=Nome del Server
+MenuList[13]=Password per Amministratori
+MenuList[14]=Password per giocare
+MenuList[15]=Fai partire un Server dedicato
+MenuTitle=SERVER CITTADELLA
+
+[BagHolding]
+PickupMessage=Hai trovato una borsa.
+
+[menuLoad]
+RestartString=Ricomincia
+MenuTitle=CARICA UN GIOCO SALVATO
+
+[menuSlot]
+EmptySlotName=..Vuoto..
+SlotNames[0]=..Vuoto..
+SlotNames[1]=..Vuoto..
+SlotNames[2]=..Vuoto..
+SlotNames[3]=..Vuoto..
+SlotNames[4]=..Vuoto..
+SlotNames[5]=..Vuoto..
+SlotNames[6]=..Vuoto..
+SlotNames[7]=..Vuoto..
+SlotNames[8]=..Vuoto..
+MonthNames[0]=Gennaio
+MonthNames[1]=Febbraio
+MonthNames[2]=Marzo
+MonthNames[3]=Aprile
+MonthNames[4]=Maggio
+MonthNames[5]=Giugno
+MonthNames[6]=Luglio
+MonthNames[7]=Agosto
+MonthNames[8]=Settembre
+MonthNames[9]=Ottobre
+MonthNames[10]=Novembre
+MonthNames[11]=Dicembre
+
+[menuMain]
+MenuList[1]=GIOCATORE SINGOLO
+MenuList[2]=MULTI-GIOCATORE
+MenuList[3]=CONTROLLI
+MenuList[4]=HARDWARE
+MenuList[5]=RIPETI L'INTRODUZIONE
+MenuList[6]=CREDITI
+MenuList[7]=ESCI
+
+[menuMultiPlayer]
+HelpMessage[1]=Unisciti a un gioco in rete.
+HelpMessage[2]=Configura il tuo personaggio.
+HelpMessage[3]=Configura e dai origine a un'Arena in rete.
+HelpMessage[4]=Configura e dai origine a una partita Cittadella in rete.
+MenuList[1]=GIOCA IN RETE
+MenuList[2]=CONFIGURA PERSONAGGIO
+MenuList[3]=SERVER ARENA 
+MenuList[4]=SERVER CITTADELLA
+
+[Key]
+PickupMessage=
+
+[menuSinglePlayer]
+HelpMessage[1]=Gioca 'La Prova', un livello tutorial che ti presenterà la Ruota del Tempo.
+HelpMessage[2]=Inizia una nuova campagna di gioco singolo.
+HelpMessage[3]=Premi Invio per caricare un gioco salvato.
+HelpMessage[4]=Premi Invio per salvare il gioco corrente.
+MenuList[1]=LA PROVA
+MenuList[2]=NUOVO GIOCO
+MenuList[3]=CARICA GIOCO
+MenuList[4]=SALVA GIOCO
+
+[menuStartMission]
+HelpMessage[1]=Wit Congar
+HelpMessage[2]=al'Lan Mandragoran
+HelpMessage[3]=Lews Therin Telamon
+MenuList[1]=FACILE
+MenuList[2]=MEDIO
+MenuList[3]=DIFFICILE
+
+[menuSave]
+CantSave=NON POSSO SALVARE SE SEI MORTO
+MenuTitle=SALVA UNA PARTITA
+
+[menuStartArenaServer]
+HelpMessage[1]=Scegli una mappa.
+HelpMessage[2]=Specifica il numero di uccisione che porrà fine al gioco.
+HelpMessage[3]=Specifica la durata massima della partita.
+HelpMessage[4]=Specifica se si devono eseguire i livelli di Arena in ciclo.
+HelpMessage[5]=Cambia il numero massimo di giocatori ammessi al gioco.
+HelpMessage[6]=Per far girare un client e un server dedicato contemporaneamente, dovete impostare questo valore maggiore di zero.
+HelpMessage[7]=Dai un nome al tuo server.
+HelpMessage[8]=Imposta password per l'amministrazione remota del server.
+HelpMessage[9]=Imposta password per l'accesso ristretto al server.
+HelpMessage[10]=Avvia un server dedicato su questa macchina.
+MenuList[1]=Scegli la mappa
+MenuList[2]=Numero di uccisioni per vincere
+MenuList[3]=Limite di tempo
+MenuList[4]=Esegui in ciclo i livelli di Arena
+MenuList[5]=Limite Giocatori
+MenuList[6]=Massimo Framerate sul Client
+MenuList[7]=Nome del Server
+MenuList[8]=Password Amministrazione
+MenuList[9]=Password Gioco
+MenuList[10]=Lancia un server dedicato
+MenuTitle=SERVER ARENA
+
+[WOTUtil]
+AesSedaiClassStr=AesSedai
+ForsakenClassStr=Abbandonato
+HoundClassStr=Segugio
+WhiteCloakClassStr=MantelloBianco
+
+[WOTHelpInfo]
+Title=Aiuto
+Content[0]=%f=3
+Content[1]=%s=4
+Content[2]=%c=0
+Content[3]=Tutti i tasti menzionati si riferiscono ai valori di default. Fate riferimento al menu Controlli per avere maggiori informazioni e riconfigurare i tasti.
+Content[4]=%f=2
+Content[5]=%s=4
+Content[6]=%c=1
+Content[7]=Movimento Base
+Content[8]=%f=3
+Content[9]=%c=0
+Content[10]=Usa il mouse per girarti
+Content[11]=Usa i tasti cursore per muoverti
+Content[12]=Spazio:  Salto
+Content[13]=Pulsante sinistro Mouse:  Fuoco
+Content[14]=%f=2
+Content[15]=%s=4
+Content[16]=%c=1
+Content[17]=Movimento Avanzato (raccomandato)
+Content[18]=%f=3
+Content[19]=%c=0
+Content[20]=Usa il mouse per girarti
+Content[21]=W, S, A, D:  Avanti, Indietro, Strafe Sinistra, Strafe Destra
+Content[22]=Pulsante destro Mouse:  Salto
+Content[23]=Pulsante sinsitro Mouse:  Fuoco
+Content[24]=%f=2
+Content[25]=%s=4
+Content[26]=%c=1
+Content[27]=Tasti Speciali
+Content[28]=%f=3
+Content[29]=%c=0
+Content[30]=ESC: Menu principale/ritorna al gioco dal menu
+Content[31]=T + Messaggio: Parla, oppure Say @Messaggio@
+Content[32]=G, H, J, K, L, ' ; ' :  Lazzi specifici per ogni personaggio
+Content[33]=1, 2, 3... 0 :  Seleziona l'artefatto visualizzato/seleziona l'artefatto successivo
+Content[34]=[:  Seleziona artefatto precedente
+Content[35]=]:  Seleziona artefatto successivo
+Content[36]=TAB:  Riga singola di comando--Enter o ESC per uscire
+Content[37]=~:  Richiama/Rimuovi la Console
+Content[38]=%y=325
+Content[39]=F1:
+Content[40]=%y=-1
+Content[41]=F2:
+Content[42]=F3:
+Content[43]=F4:
+Content[44]=F5:
+Content[45]=F6:
+Content[46]=%x=30
+Content[47]=%y=325
+Content[48]=Aiuto
+Content[49]=%y=-1
+Content[50]=Ricerca l'Artefatto selezionato
+Content[51]=Informazione sulla Missione
+Content[52]=Punteggio (Gioco Arena, Cittadella)
+Content[53]=Salvataggio Veloce
+Content[54]=Caricamento Veloce
+Content[55]=%x=320
+Content[56]=%y=325
+Content[57]=F7:
+Content[58]=%y=-1
+Content[59]=F8:
+Content[60]=F9:
+Content[61]=F10:
+Content[62]=F11:
+Content[63]=F12:
+Content[64]=%x=350
+Content[65]=%y=325
+Content[66]=Salva
+Content[67]=%y=-1
+Content[68]=Carica
+Content[69]=Fotografa lo schermo
+Content[70]=Editor Cittadella
+Content[71]=Aumenta Luminosità
+Content[72]=Vai a Schermo intero
+SubTitle=Premi F1 per continuare
+
+[InventoryInfoWindow]
+RarityCommonStr=Frequenza: Comune
+RarityUncommonStr=Frequenza: Non Comune
+RarityRareStr=Frequenza: Raro
+ChargesStr=Cariche:
+EarthStr=TERRA
+AirStr=ARIA
+FireStr=FUOCO
+WaterStr=ACQUA
+SpiritStr=SPIRITO
+SubTitle=Premi F2 per procedere
+
+[MissionObjectives]
+Title=Missione XX
+SubTitle=Premi F3 per procedere
+
+[WOTTextWindowInfo]
+SubTitle=Premi Esc per procedere
+
+[MissionObjectives01]
+Title=Sulle rive del Manetherendrelle
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @L'oro di Tar Valon ha convinto un marinaio a portarmi lungo il fiume Manetherendrelle ma, man mano che ci avvicinavamo a Shadar Logoth, diventava sempre più nervoso. Alla fine mi ha sbarcato, dicendo che non si sarebbe avvicinato oltre alla città maledetta.
+Content[4]=     @L'assassino è già stato qui: lui e i suoi Trolloc hanno lasciato una scia di devastazione sul loro cammino; anche gli altri provenienti dalla Torre l'avranno notato. Le ultime vittime dei Trolloc sembrano essere una carovana di pacifici Nomadi, ma è troppo tardi per aiutarli. Devo raggiungere l'assassino prima di avvicinarmi troppo alla città. Quello che vi è celato terrorizza persino i Figli delle Tenebre.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Prova a fermare l'assassino prima che raggiunga Shadar Logoth.
+Content[9]=%s=4
+Content[10]=%b Nel farlo, impara a usare il tuo Ter'angreal per difenderti dai suoi scagnozzi, i Trolloc. 
+Content[11]=%s=4
+Content[12]=%b Esamina il tuo inventario selezionando un artefatto e premendo F2.
+Content[13]=%s=4
+Content[14]=%b Raccogli ogni Ter'angreal che trovi tra ciò che resta dei carri dei Nomadi; si sospetta che le loro carovane trasportino questi antichi artefatti.
+
+[MissionObjectives02]
+Title=Le strade di Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Ripararmi in quella nicchia mi ha salvato la vita, ma l'assassino mi è sfuggito. Questo tunnel potrebbe portare dentro la città, ma Shadar Logoth è enorme. Non sarà facile trovarlo. 
+Content[4]=	@Io peraltro non ho una gran voglia di entrare nella città. Shadar Logoth cadde in rovina migliaia d'anni fa in una battaglia contro l'Oscuro, ma divenne qualcosa di sinistro; un'altra e diversa malvagità. L'assassino qui non troverà alleati, ma gli orrori all'interno attendono anche me.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Segui le tracce dell'assassino attraverso la città finché puoi.  
+Content[9]=%s=4
+Content[10]=%b Shadar Logoth è antica.  La città potrebbe contenere degli artefatti che potrebbero aiutarti a rimanere in vita. 
+
+[MissionObjectives03]
+Title=Le Viscere di Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@L'assassino si è messo proprio al centro della ragnatela. Le strade della città sono mortali, ma le sue viscere sono ancora peggio. Non ho idea di dove si nascondano, e non voglio saperlo.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b  Più a lungo l'assassino riesce a sfuggirti, maggiori sono le possibilità che muoia prima che tu riesca a recuperare il Ter'angreal che ha trafugato. Trovalo velocemente.
+Content[8]=%s=4
+Content[9]=%b Riprenditi il Ter'angreal dell'Amyrlin.
+
+[MissionObjectives04]
+Title=Fuga da Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@La Sorella in carica mi ha ceduto il comando. Se possiamo sopravvivere fino all'alba, le forze della città si ritireranno e potremo dedicare tutti i nostri sforzi a scavare una breccia nel muro crollato. Ma che ne sarà stato di quelle che si sono separate? Dovrei provare a salvarle, o saranno già morte?@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Resta in vita fino all'alba, quando le armate della città batteranno in ritirata. Allora potrai scappare.
+Content[8]=%s=4
+Content[9]=%b Nel frattempo, puoi difendere te stessa e le tue truppe, cercare di raccogliere altri Ter'angreal oppure cercare le Sorelle disperse e i loro Protettori.
+
+[MissionObjectives05]
+Title=La Difesa della Torre Bianca
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Gli invasori hanno sfondato il portone principale e hanno trasformato la Torre Bianca in un campo di battaglia. La nostra Guardia, sparsa per tutta la regione, continua a cercare l'assassino. Le Sorelle e i Protettori rimasti hanno difeso la Torre valorosamente, ma i nemici sono in sovrannumero e ora che il cancello giace aperto, i Trolloc e i Myrddraal possono precipitarsi all'interno a sostituire i loro caduti.
+Content[4]=	@Sebbene il portone esterno abbia ceduto, c'è un cancello interno: se potessi raggiungerlo e chiuderlo, dopo potremmo distruggere gli invasori intrappolati.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b La porta principale non è vicina; è situata alla base di una torre confinante e il ponte per questa torre parte dalla Galleria.
+Content[9]=%s=4
+Content[10]=%b Fatti strada attraverso la Libreria, guadagna l'ingresso della Galleria e attraversa il ponte verso la torre adiacente.
+Content[11]=%s=4
+Content[12]=%b Scendi nello spiazzo centrale e cerca la porta principale.
+Content[13]=%s=4
+Content[14]=%b Attiva il meccanismo nella stanza di sopra per chiudere la porta interna.
+
+[MissionObjectives07]
+Title=La Cripta
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Ci sono troppe domande e nessuna risposta--e l'unica che può cambiare la situazione è l'Amyrlin. Il biglietto che mi ha lasciato nel compartimento segreto è confortante; evidentemente è viva e continua a possedere il Sigillo rimanente. Spero che i suoi artefatti mi permettano di raggiungerla illesa; sto affidando gli altri alle Sorelle che difenderanno la mia camera. Sono un po' preoccupata, però; le trappole che proteggono le cripte della Torre Bianca sono sicuramente infide e mortali.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Utilizza il Cercatore per scoprire l'entrata della Cripta.
+Content[8]=%s=4
+Content[9]=%b Usa il Cerca Trappole, cautela e destrezza per evitare di cadere preda delle trappole lungo il cammino.
+Content[10]=%s=4
+Content[11]=%b I sotterranei conservano molti Ter'angreal dimenticati. È un buon momento per incrementare il tuo arsenale in vista delle battaglie future.
+Content[12]=%s=4
+Content[13]=%b Attenzione alle trappole magiche. Le antiche difese della Torre Bianca possono prendere qualsiasi forma.
+Content[14]=%s=4
+Content[15]=%b Se perdi l'orientamento, utilizza il Cercatore, che ti rivelerà il giusto cammino.
+Content[16]=%s=4
+Content[17]=%b Trova l'Amyrlin e ridalle il Ter'angreal trafugato.
+
+[MissionObjectives08]
+Title=Le Vie
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Una volta le Vie collegavano terre distanti. Ce ne sono molte, e possono portare ovunque. Comunque, come Shadar Logoth, anche le Vie sono corrotte, di una malvagità che non dipende dall'Oscuro. Il Vento Nero ruba l'anima di coloro che osano avventurarsi all'interno. Sono sorpreso che l'assassino abbia avuto il coraggio di battere quei sentieri, ma è stato un modo ingegnoso di portare un esercito fino a Tar Valon. Ora è ripartito passando per le Vie, e io lo devo seguire.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b C'è una Porta magica nel luogo degli scavi, nelle terre di confine, ma è distante. Il Vento Nero ti troverebbe molto prima che tu riesca a raggiungerla.
+Content[8]=%s=4
+Content[9]=%b Usa le Porte lungo il cammino come rifugi. Esci attraverso di esse, aspetta il più possibile dall'altra parte così che Machin Shin voli via, e poi rientra e raggiungi la Porta successiva. Passando dall'una all'altra dovresti evitare il mortifero tocco di Machin Shin.
+Content[10]=%s=4
+Content[11]=%b Tieni gli occhi aperti per le traditrici dell'Ajah Nera in fuga, o altri servi del Male. Ricorda che Machin Shin non ha preferenze.
+Content[12]=%s=4
+Content[13]=%b Chissà quanti artefatti lasciati da viaggiatori sfortunati puoi trovare.
+Content[13]=%s=4
+Content[15]=%b Viaggia fino alla Porta che conduce alle terre di confine e rimani viva.
+
+[MissionObjectives10]
+Title=Lo Scavo
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Non c'è traccia della spedizione. Le tende sono qui, ma le persone sono scomparse. Tracce di sangue mi fanno sospettare il peggio. Da ciò che resta, è chiaro che i Figli della Luce hanno avuto qualcosa a che fare con questo. Nonostante la loro animosità verso le Aes Sedai, non avrei creduto che sarebbero arrivati a tanta barbarie. Evidentemente mi sbagliavo.
+Content[4]=	@Devo trovare e porre in salvo i sopravvissuti, e mal ne incoglierà ai Mantelli Bianchi che si porranno sul mio cammino!@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b I Mantelli Bianchi hanno una fortezza vicino. Se c'è ancora qualche Sorella viva ma prigioniera, quello è il posto dove posso trovarla.
+Content[9]=%s=4
+Content[10]=%b Gli scavi potrebbero rivelare degli antichi Ter'angreal. Trovali e usali per penetrare nella fortezza dei Mantelli Bianchi.
+Content[11]=%s=4
+Content[12]=%b Localizza le segrete della fortezza per scoprire cosa ne è stato della spedizione.
+
+[MissionObjectives12]
+Title=Le Prigioni dei Mantelli Bianchi
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Prima di morire, Cerist mi ha detto che i sopravvissuti della spedizione si stavano dirigendo verso una  vicina pietra-portale per tentare la fuga. Credo di aver visto questa pietra davanti alla fortezza. Se potessi raggiungerla, potrei seguirli.
+Content[4]=	@Questi Mantelli Bianchi hanno dichiarato guerra alla Torre Bianca e rinnegato la Luce stessa con le loro azioni. Ora me ne vado da qui, e nessun 'Figlio della Luce' mi potrà fermare!@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b I Mantelli Bianchi hanno raccolto Ter'angreal per un bel po' di tempo. Prendine più che puoi per difenderti.
+Content[9]=%s=4
+Content[10]=%b Trova il deposito nascosto di Ter'angreal di cui ti ha parlato Cerist, nella cappella segreta vicino alla sala del trono.
+Content[11]=%s=4
+Content[12]=%b Con questi artefatti apriti il cammino fuori dalla fortezza dei Mantelli Bianchi e raggiungi la pietra-portale, sperando di poter seguire il cammino dei rimanenti membri della spedizione perduta.
+
+[MissionObjectives15]
+Title=La Fortezza dell'Abbandonato
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Il mio passaggio nel mondo della pietra-portale non è stato che un sogno nebbioso, e non ho idea di quanto tempo sia passato. Ho usato l'unico simbolo sulla pietra che fosse stato ripulito, per cui se la spedizione ce l'ha fatta, dovrebbe essere qui. 
+Content[4]=	@A giudicare dai dintorni direi che questa pietra è collocata nelle Montagne della Foschia. Non mi sorprende, dato che le Montagne sono piene di vecchie rovine. Comunque, secondo l'assassino, Ishamael ha costruito qui la sua fortezza. È probabile che le forze dell'Abbandonato abbiano catturato la spedizione. Spero solo che non abbiano fatto di peggio.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b La tua spedizione si trova ancora in grossi guai. Trova la Fortezza di Ishamael - il posto più probabile dove possono stare i tuoi - e trova un modo per entrarci.
+Content[9]=%s=4
+Content[10]=%b Stai attenta alle armate dell'Abbandonato, inclusi i suoi precedenti alleati: la potente Ajah Nera.
+Content[11]=%s=4
+Content[12]=%b Una volta dentro, cerca le segrete. Libera i tuoi alleati se puoi.
+
+[MissionObjectives16]
+Title=Le Segrete dell'Abbandonato
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Abbiamo un po' di tempo, ma saremo sovrastati numericamente. I Trolloc danno sempre la caccia alla preda più facile; i feriti nelle segrete sono perciò in grande pericolo. Devo proteggerli e trovare qualche modo per compensare la nostra inferiorità numerica.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Hai un po' di tempo prima che arrivino le guardie. Usalo per cercare gli artefatti che i sopravvissuti potrebbero aver nascosto nelle loro celle, quindi familiarizza con l'area.
+Content[8]=%s=4
+Content[9]=%b Le guardie con l'ordine di uccidere i prigionieri feriti arriveranno in ondate sempre più numerose e si dirigeranno verso le segrete prendendo la via più diretta. Chiudendo le grate nella rotonda, puoi limitare i loro movimenti. 
+Content[10]=%s=4
+Content[11]=%b Non affidarti unicamente ai Ter'angreal offensivi per sconfiggere le guardie. Devi usare le peculiarità del campo di battaglia per rendere più eque le forze in campo.
+Content[12]=%s=4
+Content[13]=%b Salva il maggior numero di prigionieri feriti. Se perdi cinque di loro, o la Custode del Consiglio muore, avrai fallito la missione.
+
+[MissionObjectives17]
+Title=Il Santuario
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@ Voglio vendicarmi di Sephraem ancor più di quanto voglia ammettere, ma è mio dovere concentrarmi sul Sigillo rubato. Non so che cosa voglia farne Ishamael, ma le possibilità sono terrificanti. Troverò il Sigillo e, se mi capiterà di incontrare la traditrice Sephraem nel frattempo, meglio così.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Trova e riporta indietro il Sigillo rubato.
+Content[8]=%s=4
+Content[9]=%b Nello stesso tempo, cerca informazioni circa i piani dell'Abbandonato.
+Content[10]=%s=4
+Content[11]=%b Fuggi senza farti uccidere. Non sarà facile.
+
+[MissionObjectives18]
+Title=I Sigilli Riuniti
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=	@Il mio dovere è chiaro, devo raccogliere quattro Sigilli di Cuendillar prima che i miei nemici facciano lo stesso. I loro piani sono imperscrutabili. Probabilmente dovrò rubare i Sigilli dalle loro cittadelle ben fortificate, ma suppongo che il Segugio mi abbia fatto un favore pareggiando le forze in campo. Nessuno di noi può usare il Potere e dipendiamo tutti dai Ter'angreal a nostra disposizione, il che mi dà un vantaggio. 
+Content[4]=	@Piaccia al Creatore che la vittoria sia mia. Per il bene del Mondo, dev'essere così.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Entra nella tua stanza privata e prendi tutti i Ter'angreal depositati.
+Content[9]=%s=4
+Content[10]=%b Viaggia attraverso la pietra-portale fino al mondo dell'aldilà.
+Content[11]=%s=4
+Content[12]=%b Colleziona quanti più Ter'angreal puoi.
+Content[13]=%s=4
+Content[14]=%b Usa l'altare guaritore nel mondo della pietra-portale se necessario.
+Content[15]=%s=4
+Content[16]=%b Viaggia attraverso ognuna delle pietre-portale e infiltrati nelle cittadelle dall'altra parte.
+Content[17]=%s=4
+Content[18]=%b Ruba il Sigillo custodito in ogni cittadella. 
+Content[19]=%s=4
+Content[20]=%b Porta il Sigillo indietro e mettilo sull'altare della tua stanza del trono.
+Content[21]=%s=4
+Content[22]=%b Ripeti il tutto finché non hai quattro Sigilli sul tuo altare.
+Content[23]=%s=4
+Content[24]=%b Salva il Mondo.
+
+[WOTTransitionMap]
+LoadMessage=Caricamento...
+
+[WOTTransitionMapInfo00]
+NextText=Sulle rive del Manetherendrelle
+
+[WOTTransitionMapInfo04]
+NextText=La Torre Bianca
+
+[WOTTransitionMapInfo08a]
+NextText=La Devastazione
+
+[WOTTransitionMapInfo08c]
+NextText=Lo Scavo
+
+[WOTTransitionMapInfo12b]
+NextText=Le Montagne della Foschia
+
+[WOTTransitionMapInfo17]
+NextText=La Torre Bianca
+
+[LockableMover]
+LockedMessage="La porta è chiusa a chiave."
+UnLockMessage="Usi la chiave per aprire la porta."

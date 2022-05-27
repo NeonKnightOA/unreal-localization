@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Rendering",Parent="Opzioni Avanzate")
+Preferences=(Caption="Supporto OpenGL",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+ClassCaption="Supporto OpenGL"
+AskInstalled=Hai installato una scheda acceleratrice compatile con i driver OpenGL?
+AskUse=Vuoi che Unreal usi la tua scheda acceleratrice compatibile con i driver OpenGL?
+
+[Errors]
+NoFindGL=Driver OpenGl non trovati %s
+MissingFunc=Funzione OpenGL mancante %s (%i)
+ResFailed=Errore nell'impostazione della risoluzione del video

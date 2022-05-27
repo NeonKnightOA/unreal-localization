@@ -1,0 +1,66 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Erweiterte Optionen")
+Preferences=(Caption="Erweitert",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Farben",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Gitter",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotationsgitter,Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner=Erzeugt die Master-Dateien
+HelpUsage=master [-Option...] [Parameter=Wert]...
+HelpParm[0]=Master-Verzeichnis
+HelpDesc[0]=Startverzeichnis, von dem die Quelldateien kopiert werden
+HelpParm[1]=Quellverzeichnis
+HelpDesc[1]=Startverzeichnis, in das die Master-Dateien kopiert werden
+HelpParm[2]=Referenz-Verzeichnis
+HelpDesc[2]=Verzeichnis für die delta-komprimierte Verzeichnisreferenz
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner=Generiert die angepassten Binärdateien
+HelpUsage=conform existierende_datei.ext alte_datei.ext
+HelpParm[0]=existierende_datei.ext
+HelpDesc[0]=Existierende Binärdatei, die geladen, angepasst und gespeichert werden soll
+HelpParm[1]=alte_datei.ext
+HelpDesc[1]=Die alte Datei, zu der die Quelldateien kompatibel sein sollen
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner=Erstellt die UnrealScript-Packages neu
+HelpUsage=make [-Option...] [Parameter=Wert]...
+HelpParm[0]=Still
+HelpDesc[0]=Keine Benutzerabfragen; beantwortet alle Fragen mit "ja"
+HelpParm[1]=KeineBindung
+HelpDesc[1]=Es werden keine nativen Funktionen zu den DDLs gebunden
+HelpParm[2]=Alles
+HelpDesc[2]=Komplette Kompilation (ansonsten wird eine inkrementelle Kompilation durchgeführt)
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner=DXT-Texturen werden mit den Standard-Texturen zusammengelegt
+HelpUsage=mergedxt Quellverzeichnis AltesVerzeichnis Zielverzeichnis
+HelpParm[0]=Quellverzeichnis
+HelpDesc[0]=Verzeichnis, das die Quelldateien enthält
+HelpParm[1]=AltesVerzeichnis
+HelpDesc[1]=Verzeichnis, das die alten Dateien enthält
+HelpParm[2]=Zielverzeichnis
+HelpDesc[2]=Verzeichnis, in dem die Dateien erzeugt werden
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner=Exportiert alle Objekte
+HelpUsage=batchexport Package.ext Klassenname Export_ext
+HelpParm[0]=Package.ext
+HelpDesc[0]=Package, dessen Objekte exportiert werden sollen
+HelpParm[1]=Klassenname
+HelpDesc[1]=Klasse von Objekten, die exportiert werden sollen
+HelpParm[2]=Export_ext
+HelpDesc[2]=Dateierweiterung, die die exportieren Dateien erhalten sollen
+HelpParm[3]=Verzeichnis
+HelpDesc[3]=Verzeichnis, in das die Dateien kopiert werden (z.B.: C:\MeinVerz)

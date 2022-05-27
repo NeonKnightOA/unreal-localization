@@ -1,0 +1,134 @@
+[Errors]
+MissingProductTitle=%s non può essere %s in questa cartella
+MissingProductInstalled=installato
+MissingProductPatched=aggiornato
+MissingProductThis=Quest'aggiornamento
+MissingProduct=%s richiede che %s sia stato precedentemente installato nella cartella. Per favore localizzate la cartella di installazione di  %s, oppure uscite e installatelo ora.\n\nPotete cliccare sul link Internet qui sotto per ottenere altre informazioni.
+OldVersion=%s richiede %s la versione %i o successiva, ma la versione installata sulla vostra macchina (%i) è obsoleta. Per favore installate %s versione %i o successiva e riprovate. Potete cliccare sul link Internet qui sotto per ottenere altre informazioni.\n\nIl programma di Setup ora terminerà.
+FolderTitle=Cartella "%s"
+FolderFormat=la cartella che avete indicato, "%s", non è valida. Per favore riprovate.
+AlreadyRunningTitle=Non posso installare se è in esecuzione
+AlreadyRunning=Per continuare l'installazione, chiudete tutte le versioni in esecuzione e premete OK.  Per uscire, premete Cancel.
+WrongCdTitle=File non trovati sul CD-ROM
+WrongCd=La versione attesa del %s file %s non è stata rinvenuta sul CD-ROM.\n\nPrego verificare che il CD corretto sia inserito nel lettore.
+MissingInstallerFile=File di installazione non trovato
+MissingReferenceFile=File di riferimento non trovato
+MissingSourceFile=File sorgente non trovato 
+FailedOpenSource=Non ho potuto aprire il file sorgente
+FailedOpenDest=Non ho potuto aprire il file destinazione
+FailedReadingSource=Non ho potuto leggere il file sorgente
+FailedWritingDest=Non ho potuto scrivere nel file destinazione
+FailedLoadingUpdate=Non ho potuto caricare il file di aggiornamento
+FailedReadingReference=Non ho potuto leggere il file di riferimento
+FailedClosingSource=Non ho potuto chiudere il file sorgente
+FailedClosingDest=Non ho potuto chiudere il file destinazione
+FailedMakeDir=Non ho potuto creare la directory per il file destinazione
+AdviseBadMedia=Il supporto fisico sorgente potrebbe essere danneggiato. Se stai installando dal CD, prova a pulirlo, oppure controlla il lettore CD-ROM.
+AdviseBadDownload=I file di aggiornamento scaricati dalla rete potrebbero essere corrotti.
+AdviseBadDest=Il volume destinazione potrebbe essere pieno, o avere settori danneggiati.
+PatchCorrupt=Il file patch %s è corrotto.\n\n%s
+CdFileMismatch=Il file %s sul CD-ROM non è della versione corretta. Quindi %s non può essere aggiornato.
+FailedChangeDiscTitle=Disco non trovato
+FailedChangeDisc=Il %s disco %s atteso non è stato trovato nel lettore CD-ROM.\n\nPer favore, verifica che il CD corretto sia inserito nel lettore.
+
+[General]
+Space=%i Megabytes
+Ready=Setup è pronto a installare %s.\nla cartella destinazione è: %s\n\nCliccate su "Install" per cominciare l'installazione.\nCliccate su "Cancel" per uscire senza installare %s.
+InstallCancel=Cancella l'installazione
+CancelPrompt=Attenzione!  Cancellare l' installazione impedirà a %s di funzionare correttamente. Siete sicuri di voler interrompere?
+DidCancel=Avete interrotto l'installazione. Il prodotto non è stato installato e non funzionerà correttamente.
+CdDescription=per installare l'aggiornamento %s, alcuni file devono essere copiati dal CD-ROM originale %s.\n\nPer favore inserite il CD %s nel lettore, quindi premete "Next". Se la lettera corrispondente al vostro lettore CD è errata, inseritela qui sotto.
+CdDrive=Lettore CD-ROM
+NotEnoughSpaceTitle=Non posso installare qui
+NotEnoughSpace=Non c'è abbastanza spazio libero sull'unità %s per installare %s.  Per favore, selezionate un'unità con più spazio libero, oppure uscite, liberate spazio e riprovate.
+Finish=&Fine
+RebootButton=&Reboot
+ExitButton=&Uscita
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play=&Gioca
+IDC_Reinstall=&Installa
+IDC_Uninstall=&Disinstalla
+IDC_ReleaseNotes=&Note sulla Versione
+IDC_Web=Wheel of Time &Web Site
+IDC_Complete=L'installazione è stata completata con successo!\nPer giocare, inserite il CD numero 2 nel lettore.
+IDC_CompleteReboot=L'installazione è stata completata con successo!\nPrima di giocare, dovete riavviare il vostro computer.\nPer giocare, inserite il CD numero 2 nel lettore.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=Stai per installare %s sul tuo computer.\n\nClicca "Next" per iniziare, oppure "Cancel" in qualsiasi momento per uscire. \n\nQui sotto potete vedere dei link a pagine Web che contengono ulteriori informazioni.
+IDC_WelcomePromptUpdate=Questo programma aggiornerà la vostra copia di %s alla versione %s.\n\nCliccate "Next" per iniziare, oppure "Cancel" in qualsiasi momento per uscire.\n\nQui sotto potete vedere dei link a pagine Web che contengono ulteriori informazioni.
+IDC_LanguagePrompt=&Language
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Per favore leggete il seguente testo relativo alla licenza del software. Per installare il programma dovete dichiararvi d'accordo coi termini della licenza.
+IDC_LicenseQuestion=Concordate con i termini riportati qui sopra?  Cliccate "I Agree" oppure "Cancel".
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Selezionate i componenti che desiderate installare.
+IDC_ComponentsPrompt=&Componenti:
+IDC_DiskSpaceFrame=Spazio su disco
+IDC_DescriptionFrame=Descrizione
+IDC_SpaceRequiredMessage=Spazio richiesto:
+IDC_SpaceAvailableMessage=Disponibile:
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText=Selezionate i componenti che desiderate disinstallare.
+IDC_ComponentsPrompt=&Componenti:
+IDC_DependenciesFrame=Dipendenze
+IDC_DependenciesText=Continuare disinstallerà i seguenti componenti: %s
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=Ora Setup installerà %s nella seguente cartella.\n\nPer procedere, cliccate Next.\n\nPer installare in un'altra cartella, scrivete il nome completo della directory includendo la lettera dell'unità, ad esempio: C:\\NuovaCartella
+IDC_FolderDescriptionPatch=Setup aggiornerà l'installazione corrente di %s nella seguente cartella.\n\nPer proseguire, cliccate Next.\n\nSe avete installata più di una copia, scrivete il nome completo della directory includendo la lettera dell'unità, ad esempio: C:\\UnaCartella
+IDC_FolderDescriptionMissing=Ora Setup aggiornerà l'installazione esistente di %s.\n\n Scrivete il nome completo della directory includendo la lettera dell'unità, ad esempio: C:\\UnaCartella
+IDC_FolderHolder=Cartella Destinazione
+IDC_Browse=&Esplora
+IDC_Default=&Reset
+IDC_SpaceAvailableMessage=Spazio disponibile sull'unità:
+IDC_FullSpaceRequiredMessage=Spazio richiesto per l'installazione di default:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Sto installando...
+IDC_InstallingText=Installo:
+IDC_ProgressText=Progressione file:
+IDC_TotalText=Progressione totale:
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Sto disinstallando...
+IDC_InstallingText=Processo:
+IDC_ProgressText=Progressione file:
+IDC_TotalText=Progressione totale:
+
+[IDDIALOG_Restart]
+IDC_Restart=Installazione Completa
+IDC_RestartMessage=Ora dovete far ripartire Windows per completare l'installazione.
+IDC_RestartText=Prima di riavviare, chiudete tutte le applicazioni aperte, incluse le sessioni MS-DOS, e salvate tutti i documenti aperti. Rimuovete i floppy inseriti nel lettore e infine cliccate sul pulsante Riavvia Windows.
+IDC_Complete=Dopo aver riavviato Windows, l'installazione sarà completa.
+IDC_Restart=&Riavvia Windows
+IDC_Exit=E&sci dal Setup
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Wheel of Time Setup
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=Questo prodotto non può essere installato qui
+IDC_FailedMessage=Questo prodotto richiede che il prodotto qui sotto sia già stato installato in precedenza nella stessa cartella. Per favore localizzate la cartella di installazione oppure uscite e installatelo ora.\n\nPotete cliccare sul link Internet qui sotto per ottenere altre informazioni.
+IDC_ProductHolder=Prodotto Richiesto
+
+[IDDIALOG_FailedChangeDisc]
+IDC_FailedChangeDisc=Questo prodotto non può essere installato qui
+IDC_FailedMessage=Questo prodotto richiede che il prodotto qui sotto sia già stato installato in precedenza nella stessa cartella. Individuate la cartella di installazione oppure uscite e installatelo ora.\n\nPotete cliccare sul link Internet qui sotto per ottenere altre informazioni.
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Prodotto
+IDC_ProductText=Prodotto:
+IDC_VersionText=Versione:
+IDC_DeveloperText=Sviluppatore:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=State per disinstallare i seguenti componenti:
+IDC_UninstallQuestion=Sei sicuro di voler rimuovere questi componenti?
+
+[IDDIALOG_FilerPageChangeDisc]
+IDC_ChangeDisc=Per favore inserite il %s disco %s
+IDC_FolderHolder=Cartella Origine

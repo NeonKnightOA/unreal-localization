@@ -1,0 +1,268 @@
+[AngrealInvLightGlobe]
+Title=Lichtkugel 
+Description=Wird dieses Ter'angreal aktiviert, erscheint eine einfache Lichtkugel.  Die Kugel begleitet dich, bis sie durch eine spätere Aktivierung verschwindet.
+Quote=Noch im Gehen fokussierte sie. Ein Gespinst aus Licht erschien neben ihr, eine gleißendweiße Kugel, die gespenstische Schatten im Raum warf.
+PickupMessage=Du hast das Lichtkugel-Ter'angreal 
+
+[SwapPlacesEffect]
+SourceFailMessage=fehlgeschlagen, weil Du nicht an den Standort des Zieles paßt.
+DestinationFailMessage=fehlgeschlagen, weil das Ziel nicht an deinen Standort paßt.
+ 
+[AngrealInvDart]
+Title=Energiepfeil 
+Description=Das Pfeil-Ter'angreal fokussiert die Eine Macht, um einen schwachen Energiestoß zu erzeugen.  Obwohl eine einzige Ladung nicht unbedingt viel Schaden anrichtet, so kann das Artefakt innerhalb kürzester Zeit mehrere Pfeile auf das Ziel abfeuern.
+Quote=Sein plötzliches Brüllen ließ Egwene zusammenschrecken. Mit einer Hand auf seiner linken  Hinterbacke, humpelte er mit schmerzverzerrtem Blick im Kreis.
+PickupMessage=Du hast das Pfeil-Ter'angreal
+
+[AngrealInvDisguise]
+Title=Verkleiden
+Description=Solange dieses Artefakt aktiviert ist, nimmst du das Aussehen der nächsten Kreatur oder Person an.
+Quote=Seine Haut kribbelte leicht, als sie fokussierte und eine Sekunde lang veränderte sich ihre Gestalt. Ihre Haut wurde kupferfarben, aber stumpf, ihr Haar und ihre Augen dunkel, aber matt.
+PickupMessage=Du hast das Verkleiden-Ter'angreal
+
+[AngrealInvBalefire]
+Title=Höllenfeuer
+Description=Höllenfeuer entfacht einen sehr intensiven Lichtstrahl, der sogar Mauern durchdringt.  Alles was der Lichtstrahl berührt wird aus der Zeitlinie gelöst.  Die meisten Objekte und Opfer verschwinden, als hätten sie nie existiert.  Auf Cuendillar-Siegel hat es allerdings keine Wirkung.  Bei Höllenfeuer wird die Energie erst gebündelt, um dann (per Feuerknopf) entfacht zu werden; je länger die Energie gebündelt wird, um so mächtiger die Wirkung, wenn sie entfacht wird.
+Quote=Etwas schoss aus seinen Händen; er war nicht sicher, was es war. Ein Balken aus weißem Licht, solide wie Stahl. Flüssiges Feuer.
+PickupMessage=Du hast das Höllenfeuer-Ter'angreal
+
+[AngrealInvAirBurst]
+Title=Luftstoß 
+Description=Bei Luftstoß wird die Luft direkt vor dir aus nächste Nähe zu einem kurzen Stoß konzentriert.  Trifft dieser Luftstoß auf ein Opfer, ist die Wirkung wie bei einem Hammerschlag.  Die Energie des Artefaktes wird immer wieder von der Einen Macht regeneriert, also werden seine Ladungen nie aufgebraucht.
+Quote=Als hätte ihn eine riesige Hand beiseitegefegt, flog er zehn Schritte durch die Luft und fiel zu Boden.
+PickupMessage=Du hast das Luftstoß-Ter'angreal
+
+[AngrealInvLightning]
+Title=Kettenblitz
+Description=Solange Kettenblitz aktiviert ist, wirst du von einer Aura aus Elektrizität umgeben.  Berührst du in diesem Zustand einen anderen, springt ein Funke von dir zu deinem Opfer über; werden mehrere Ziele berührt, springt der Funke zu allen über.  Die Blitze richten so lange Schaden an, bis entweder die Ladungen erschöpft sind, du aufhörst Blitze abzufeuern, du verletzt wirst, oder das Opfer weit genug wegläuft.  In all diesen Fällen wird der Kontakt unterbrochen.  Falls im Wasser aktiviert, wirkt sich Kettenblitz auf alle aus, die sich darin befinden, auch auf dich. 
+Quote=Noch mehr Blitze leuchteten auf, die Pflastersteine vor ihm zerbarsten, und die zertrümmerten Mauern des Kristallpalastes regneten vor ihm nieder.
+PickupMessage=Du hast das Kettenblitz-Ter'angreal
+
+[AngrealInvWhirlwind]
+FailMessage=erfordert ein Ziel 
+Title=Wirbelwind
+Description=So lange Wirbelwind aktiviert ist wird das Opfer in die Luft gehoben und an beliebiger Stelle herumgewirbelt.
+Quote=Totes Laub wirbelte durch die Luft und Äste peitschten sie, als folge ein Luftwirbel der Richtung ihres Stabs.
+PickupMessage=Du hast das Wirbelwind-Ter'angreal
+
+[AngrealInvTracer]
+Title=Peiler
+Description=Mit Peiler wird ein Zauber aktiviert, der die nächsten Siegel sucht und dabei eine leuchtende Spur hinterlässt.  Nach kurzer Zeit verblasst die Spur langsam.
+Quote=Als er sich auf den Rücken drehte, konnte er die glühendroten Spuren gerade noch sehen. Noch waren sie hell genug, um eine Verbindung aus Feuer und Luft auszumachen, die er nicht kannte. Hell genug, um die genaue Richtung auszumachen, aus denen sie gekommen waren.
+PickupMessage=Du hast das Peiler-Ter'angreal
+
+[AngrealInvDistantEye]
+Title=Fernauge
+Description=Bei der Aktivierung von Fernauge wird seine Position fixiert.  Wird das Ter'angreal fallengelassen, vergisst es seine ursprüngliche Position.  Nach der Platzierung kannst du bei einer späteren Aktivierung durch das Auge blicken -- und damit alles sehen, was es sieht  -- so lange du  ruhig stehst.  Wenn du das Auge beschwörst, während du hindurchsiehst,  feuert es einen Schwall Pfeile auf das ab, worauf es gerichtet ist. Das schwebende Auge selbst ist zerbrechlich und kann leicht zerstört werden.
+Quote=Als ob durch den Gedanken an das Phänomen ausgelöst, verdunkelte sich plötzlich eine Stelle des Himmels über den Bergen und wurde zu einem Fenster, hin zu einem anderen Ort.  
+PickupMessage=Du hast das Fernauge-Ter'angreal
+
+[AngrealInvWallOfAir]
+FailMessage=erfordert ein Ziel 
+Title=Luftmauer
+Description=Dieses Ter'angreal baut eine Luftmauer zwischen dir und deinem Ziel auf. Diese ist von kurzer Dauer, es sei denn, du aktivierst das Artefakt weiter. Diese Barriere neutralisiert alle Zaubersprüche, die darauf treffen.
+Quote=Mit erhobenem Schwert griff er an, sein Umhang hinter ihm her flatternd, als er auf langen Beinen vor ihr lief. Plötzlich schien er gegen eine unsichtbare Steinmauer zu laufen. Er prallte zurück, rappelte sich auf und versuchte, torkelnd weiter zu laufen.
+PickupMessage=Du hast das Luftmauer-Ter'angreal
+
+[AngrealInvFork]
+Title=Duplizieren
+Description=Für kurze Zeit wird durch Duplizieren ein Schild aufgebaut. Obwohl Artefakt-Zaubersprüche dieses Schild durchdringen und auf dich wirken, spürt der Angreifer die identische Wirkung.
+Quote=Mit geballter Faust schlug Egwene der Frau so hart sie nur konnte aufs Auge - dann torkelte sie selbst und fiel mit dröhnendem Kopf auf die Knie. Ihr war, als hätte ihr ein großer Mann ins Gesicht geschlagen.
+PickupMessage=Du hast das Verdoppelung-Ter'angreal
+
+[AngrealInvReflect]
+Title=Reflektieren 
+Description=Für kurze Zeit wird durch Reflektieren ein Schild aufgebaut, das bewirkt, daß jeder Zauberspruch auf den Angreifer zurückgelenkt wird. Der Angriff hat keine Wirkung auf dich.
+Quote=Als sie die Figur umklammerte spürte sie, wie die Eine Macht in ihr aufwallte, in die Figur hineinfuhr und dann wieder zu ihr zurück, in die Figur und zurück, immer wieder.
+PickupMessage=Du hast das Reflektieren-Ter'angreal
+
+[AndilayRoot]
+Title=Andilei Wurzel
+Description=None
+Quote=None
+PickupMessage=Du hast eine Andilei-Wurzel gefunden
+
+[AngrealInvHeal]
+Title=Heilen
+Description=Mit jeder Aktivierung des Heilen-Ter'angreals wird deine Gesundheit stückchenweise wiederhergestellt.
+Quote=Ihn durchfuhr ein Frösteln, nicht die strahlende Kälte einer vollen Heilung sondern eine Kühle, die jegliche Müdigkeit verbannte.
+PickupMessage=Du hast das Heilen-Ter'angreal
+
+[AngrealInvShift]
+Title=Versetzen
+Description=Mit Versetzen wirst du augenblicklich einige Schritte vor deine gegenwärtige Position befördert, auch durch Hindernisse hindurch sofern dein Ziel frei ist.  Alle Zaubersprüche, die dich erfasst haben verlieren ihre Peilung.
+Quote=Es war nicht nötig, zu wissen, wohin man reisen wollte, wenn man nur vorhatte, sich ein sehr kurzes Stück zu entfernen.
+PickupMessage=Du hast das Versetzen-Ter'angreal
+ 
+[AngrealInvLevitate]
+FailMessage=kann während Wirbelwind nicht benutzt werden
+Title=Levitieren
+Description=So lange Levitieren aktiv ist, schwebst du über dem Boden. Dieser Effekt ist jedoch nicht Fliegen; ein dünnes Luftpolster dämpft lediglich deinen Fall.
+Quote=Plötzlich hob sie in der Luft ab und Elayne auch; sie starrten einander mit großen Augen an, während sie eine Handbreit über dem Teppich schwebten.
+PickupMessage=Du hast das Levitieren-Ter'angreal
+
+[AngrealInvShield]
+Title=Persönliches Schutzschild
+Description=Persönliches Schutzschild umgibt dich mit einem Kraftfeld, das alle Angriffe, ob intern oder extern dämpft. Es ist ein permanenter Effekt, kann aber durch solche Angriffe dahinschwinden. Wiederholte Aktivierung regeneriert das Kraftfeld.
+Quote=Rand packte Saidin und fokussierte die Macht, als der Bolzen auf ihn zuflog; er traf auf Luft, eine silberblaue Masse die über der Strasse hing, mit einem  Klirren wie von Metall auf Metall.
+PickupMessage=Du hast das Persönliche-Schutzschild-Ter'angreal
+
+[AngrealInvIllusion]
+Title=Illusion
+Description=Mit Illusion wird ein Abbild, eine ätherische Kopie von dir erschaffen, um andere zu täuschen --besonders sehr Magie-empfindliche Gegner wie Mashadar oder Machin Shin.  Obwohl es nicht fest ist, kann dieses Abbild von anderen Zaubersprüchen anvisiert werden.   Nach einiger Zeit löst es sich von alleine auf.
+Quote=Ein Bild begann, sich zu  formen...  Er versuchte, sich vor seinem geistigen Auge vorzustellen, mühte sich ab, das Bild zu dem zu machen, was er jeden Tag beim Rasieren und beim Anziehen im Spiegel erblickte.
+PickupMessage=Du hast das Illusion-Ter'angreal
+
+[AngrealInvMinion]
+LimitWarning=Du hast bereits einen Lakai in deiner Gewalt.
+Title=Lakai
+Description=Das Lakai-Ter'angreal ruft einen Soldaten von der Art herbei, über die Du herrschst.
+Quote=Trollocs erschienen aus dem Nichts, riesige, scheußliche Bestien mit augenlosen Gesichtern, verzerrt durch Mordgier. Ihre Sense-ähnlichen Schwerter und Klingen aus tödlichem schwarzen Stahl gierten nach seinem Blut.
+PickupMessage=Du hast das Lakai-Ter'angreal
+
+[AngrealInvGuardian]
+LimitWarning=Du hast bereits einen Beschützer in deiner Gewalt.
+Title=Beschützer 
+Description=Das Beschützer-Ter'angreal ruft einen Beschützer von der Art herbei, über die Du herrschst.
+Quote=Um sie herum bebte der Staub, um sich dann zu verdichten, zu verbinden, sich zusammenzuziehen.  Plötzlich, in dem Becken eines ausgetrockneten Springbrunnens richtete sich vor ihren Augen die Form eines Mannes auf, dunkel und gesichtslos, und mit scharfen Krallen.
+PickupMessage=Du hast das Beschützer-Ter'angreal
+
+[AngrealInvChampion]
+LimitWarning=Du hast bereits einen Champion in deiner Gewalt.
+Title=Champion
+Description=Das Champion-Ter'angreal ruft die stärkste Kreatur unter deinem Befehl herbei--extrem mächtig, aber auch sehr eigensinnig.
+Quote=Es war Thom Merrilin, der ihr mit heiserer Stimme antwortete. 'In dem Krieg, der das Zeitalter der Legenden  beendete, wurde schlimmeres als Trollocs und Halbmenschen erschaffen'.
+PickupMessage=Du hast das Champion-Ter'angreal
+
+[AngrealInvAbsorb]
+Title=Absorbieren
+Description=Absorbieren umgibt dich für eine kurze Zeit mit einem Schutzschild.  Wenn du in dieser Zeit mit einem Spruch von einem anderen Ter'angreal angegriffen wirst, wird das Ter'angreal aus dem Griff des Besitzers entwendet und in dein Inventar aufgenommen.
+Quote='Wie hast du...? fragte Elayne staunend. 'Der Fluß ist einfach... verschwunden.'
+PickupMessage=Du hast das Absorbieren-Ter'angreal
+
+[AngrealInvDecay]
+FailMessage=erfordert ein Ziel
+Title=Auslaugen
+Description=Für eine kurze Zeit bewirkt 'Auslaugen', daß sowohl die Lebenskraft der Zielperson, als auch die Ladungen aller Artefakte, die sie besitzt ausgelaugt werden.
+Quote=Sie würden nicht sofort sterben; eventuell würden sie sogar lange genug leben, um sich bis jenseits der Stadtmauern zu schleppen.  Lange genug, um weit weg von hier zu sterben, um anrückenden Myrddraal Angst zu machen.
+PickupMessage=Du hast das Auslaugen-Ter'angreal
+
+[AngrealInvEarthShield]
+Title=Erdschild
+Description=Erdschild umgibt dich mit einer schützenden Barriere, die dich vor allen auf Erde basierenden Sprüchen, sowie Umweltgefahren schützt.
+Quote=Er schien das Aufwühlen des Bodens unter sich gar nicht zu bemerken.  Er verlor nie das Gleichgewicht, egal wie sehr er hin- und hergeworfen wurde.
+PickupMessage=Du hast das Erdschild-Ter'angreal
+
+[AngrealInvEarthTremor]
+Title=Erdstoß
+Description=Das Erdstoß-Ter'angreal löst gewaltige Erschütterungen aus. Jede Oberfläche, die es berührt wird durch heftige Beben erschüttert, äußerst gefährlich für jeden, der sich dort befindet.
+Quote=Nun kräuselte sich die Erde und bewegte sich auf die Trollocs zu wie kleine Wellen auf einem Teich, kleine Erdwellen, die immer größer wurden bis sie gewaltige Wogen wurden. Auf dem anderen Hang fielen Trollocs übereinander, immer wieder umgestoßen von der tobenden Erde.
+PickupMessage=Du hast das Erdstoß-Ter'angreal
+
+[AngrealInvExpWard]
+Title=Sprengstoffladung 
+Description=Vorausgesetzt, daß die Oberfläche, die du direkt ansiehst glatt ist, wird durch Aktivieren dieses Ter'angreals eine Sprengstoffladung darauf befestigt.  Geht jemand in die Nähe der Ladung oder wird sie durch ein Projektil getroffen, zündet sie.
+Quote=Mit einem Donner platzte der Boden vor ihm auf und eine Fontäne aus Erde und Steinen, höher als sein Kopf schoß heraus.
+PickupMessage=Du hast das Sprengstoffladung-Ter'angreal
+
+[AngrealInvFireball]
+Title=Feuerball
+Description=Das Feuerball-Ter'angreal löst einen konzentrierten Ball aus Feuer aus. Dieser explodiert beim Zusammenprall mit allem, mit Ausnahme von Wasser, bei dem es zischend verlöscht.
+Quote=Ein Feuerball, so groß wie ein Kopf schoss auf sie zu. Sie machte einen Satz zurück, gerade als er an der Ecke, an der sie gestanden hatte, explodierte.
+PickupMessage=Du hast das Feuerball-Ter'angreal
+
+[AngrealInvRemoveCurse]
+Title=Neutralisieren
+Description=Für eine kurze Zeit hebt Neutralisieren die Wirkung von allen Sprüchen auf, die gegenwärtig auf dich wirken bzw. von allen Sprüchen in einem kleinen Bereich um dich.  Alle Effekte, Zauberfallen- und Projektile in diesem Bereich lösen sich einfach auf. Während Neutralisieren aktiv ist kannst du natürlich keine anderen Artefakte aktivieren.
+Quote=Etwas durchtrennte seine Energieflüsse; sie schnellten mit solcher Wucht zurück, dass er ein Grunzen ausstieß.
+PickupMessage=Du hast das Neutralisieren-Ter'angreal
+
+[AngrealInvSeeker]
+FailMessage=erfordert ein Ziel
+Title=Suchprojektil
+Description=Suchprojektil feuert ein hochexplosives Projektil auf das Ziel ab, das immer schneller wird, bis es das Ziel erfasst hat.  Beim Aufprall explodiert das Suchprojektil.
+Quote=Er hatte eine Waffe erschaffen, die Schattenwesen suchen und mit Blitzstrahlen erschlagen konnte, egal wo sie sich versteckten.
+PickupMessage=Du hast das Suchprojektil-Ter'angreal
+
+[AngrealInvTaint]
+FailMessage=erfordert ein Ziel 
+Title=Verderben
+Description=Alle Ter'angreal im Besitz der Zielperson werden dauerhaft verdorben (es sei denn die Wirkung wird durch Neutralisieren oder der Aura von Neutralisieren aufgehoben).  Wenn verdorbene Artefakte benutzt werden, richten sie beim Anwender Schaden an; mächtigere Artefakte verursachen mehr Schäden.
+Quote='Es ist verdorben', antwortete sie kurz, 'Es fehlt der Puffer, der andere Sa'angreal ungefährlich in der Verwendung macht. Und offenbar verschärft es die Verseuchung, und führt zu Sinnesverwirrung.'
+PickupMessage=Du hast das Verderben-Ter'angreal
+
+[AngrealInvWaterShield]
+Title=Wasserschild
+Description=Wasserschild umgibt dich mit einer schützenden Barriere, die dich vor allen auf Wasser basierenden Sprüchen sowie Umweltgefahren schützt.
+Quote=Im brodelnden Wasser wurde er hin- und hergeworfen. Er bekam keine Luft mehr. Er versuchte, an Luft zu denken, stellte sich vor, das Wasser wäre Luft. Plötzlich war es Luft.
+PickupMessage=Du hast das Wasserschild-Ter'angreal
+
+[AngrealInvAirShield]
+Title=Luftschild
+Description=Luftschild umgibt dich mit einer schützenden Barriere, die dich vor allen auf Luft basierenden Sprüchen sowie Umweltgefahren schützt.
+Quote=Die Luft um ihn herum war auf einmal voll von würgendem Ruß, der seine  Nase verstopfte und ihm den Atem nahm, aber er ließ daraus wieder frische Luft werden, zu kühlendem Nebel.
+PickupMessage=Du hast das Luftschild-Ter'angreal
+
+[AngrealInvAMA]
+Title=Neutralisierende Aura
+Description=Unmittelbar nachdem das Ter'angreal gelegt wird, wird es von jedem der daran vorbei geht - und auch durch Projektile, die darauf treffen - ausgelöst.  Für eine kurze Zeit wird der Bereich um das Artefakt zur toten Zone: Artefakte können nicht aktiviert werden, gegenwärtig aktive Effekte werden neutralisiert, und Sprüche, die in diesem Bereich abgefeuert werden lösen sich auf.  Schilder sind wirkungslos dagegen.  Einzige Ausnahme ist Höllenfeuer.
+Quote=Er griff nach Saidin -- und fand nichts. Er war nicht abgeschirmt worden; das hätte er gemerkt, und er hätte gewusst, wie er die Abschirmung hätte umgehen oder aufheben können, wenn sie nicht zu stark war. Dies war, als wäre er abgetrennt gewesen. Er blieb vor Schreck auf der Stelle stehen
+PickupMessage=Du hast das Neutralisierende-Aura-Ter'angreal
+
+[AngrealInvFireShield]
+Title=Feuerschild
+Description=Feuerschild umgibt dich mit einer schützenden Barriere, die dich vor allen auf Luft basierenden Sprüchen sowie Umweltgefahren schützt.
+Quote=Sie füllte den Korridor um ihn von Wand zu Wand, von Boden bis zur Decke mit Feuer... Feuer so heiß, die Steine selbst qualmten.  Mitten in den Flammen schrie Rahvin und taumelte vor ihr zurück.  Nur ein Herzschlag lang, weniger noch, und er stand zwar in dem Flammenmeer, war aber von klarer Luft umgeben.  Jedes Quentchen Saidar, das sie mustern konnte fokussierte sie auf das Inferno, aber er  hielt es in Schach.
+PickupMessage=Du hast das Feuerschild-Ter'angreal
+
+[AngrealInvSoulBarb]
+FailMessage=erfordert ein Ziel 
+Title=Seelen-Stachel
+Description=Für eine kurze Zeit nimmt das Opfer von Seelen-Stachel Schaden, wenn es ein Artefakt aktiviert--mächtigere Artefakte verursachen mehr Schäden.
+Quote=Quälende Brustschmerzen, als würde sein Herz gleich explodieren, Kopfschmerzen als würden glühendheiße Nägel in sein Hirn getrieben, schmerzen so qualvoll, dass er selbst in das Nichts schreien wollte.
+PickupMessage=Du hast das Seelen-Stachel-Ter'angreal
+
+[AngrealInvSwapPlaces]
+FailMessage=erfordert ein Ziel
+Title=Plätze-tauschen
+Description=Mit diesem Ter'angreal tauschst du mit der Zielperson die Plätze.  Mit der List des Plätze-tauschens werden alle Sprüche, die dich gegenwärtig suchen dazu gebracht, deine Zielperson zu suchen... und umgekehrt.
+Quote=Das Gefühl des Vertauschens jagte ihr eine Gänsehaut über den Rücken.
+PickupMessage=Du hast das Plätze-tauschen-Ter'angreal
+
+[AngrealInvTarget]
+Title=Ziel erfassen
+Description=Für eine kurze Zeit erfassen alle zielsuchenden Sprüche automatisch die nächste Zielperson, auch wenn diese nicht sichtbar ist.
+Quote=Bei der Anwendung der Einen Macht mußte man jemanden sehen können, um auf ihn zu wirken, oder zumindest seinen genauen Standort wissen.  Vielleicht galt hier etwas anderes...
+PickupMessage=Du hast das Ziel-erfassen-Ter'angreal
+
+[AngrealInvIce]
+FailMessage=erfordert ein Ziel
+Title=Einfrieren
+Description=Dieses Ter'angreal umgibt das Ziel mit einer Hülle aus gefrorenem Wasser.  Dadurch wird jede Bewegung in der kurzen Zeit, bis das Eis geschmolzen ist unmöglich.
+Quote=Menschen und Myrddraal erstarrten an der Stelle.  Eine weiße, dampfende Reifschicht wuchs auf ihnen.  Der erhobene Arm des Myrddraal brach mit einem lauten Knall ab.  Als er auf den Bodenfliesen auftraf, zersprangen Arm und Schwert in tausend Teile.
+PickupMessage=Du hast das Einfrieren-Ter'angreal
+
+[AngrealInvSpiritShield]
+Title=Geisteskraft-Schild
+Description=Geisteskraft-Schild umgibt dich mit einer schützenden Barriere, die dich vor allen auf Geisteskraft basierenden Sprüchen sowie Umweltgefahren schützt.
+Quote=Nynaeve nahm ihre ganze Kraft zusammen, erschuf ein Geisteskraftschild und  schleuderte es zwischen die andere Frau und Saidar; versuchte, es dazwischenzuschleudern; ihr war, als würde sie mit einer Axt aus Papier auf einen Baum einschlagen.
+PickupMessage=Du hast das Geisteskraft-Schild-Ter'angreal
+
+[AngrealInvTrapDetect]
+Title=Fallendetektor
+Description=Für eine kurze Zeit lässt dieses Artefakt Fallen in der Nähe sehr  offenkundig werden, egal ob es sich um Fallen, die mit der Einen Macht erschaffen wurden handelt, oder um Konventionelle.  Wenn du dich einer Falle näherst, schlägt dein Herz schneller. Was aber noch wichtiger ist, ist dass bei jeder Falle, die sich in deinem direkten Blickfeld befindet, ein sichtbares Zeichen erscheint das dazu dient, sowohl Position als auch Funktion zu bestimmen.  Diese Anzeige zeigt nur die nächste Falle; es wird empfohlen, den Bereich abzusuchen, um alle zu entdecken.
+Quote=In die Barriere aus zertrümmerten Säulen war etwas hineingewebt. Er ließ das Schild um sich härter werden. Als er die Hand hob, um heraufzuklettern explodierten große Brocken aus rotem und weißen Stein um ihn herum.
+PickupMessage=Du hast das Fallendetektor-Ter'angreal
+
+[AngrealInvSpecial]
+Title=Unbekannt
+Description=Es ist weder bekannt, wie dieses Artefakt benutzt wird, noch was es bewirkt.  Eine erste Untersuchung ergibt nichts.
+Quote=Solche Dinge müssen erforscht werden.
+PickupMessage=Du hast ein unbekanntes Ter'angreal
+
+[AngrealInvFireworks]
+Title=Feuerwerk
+Description=Keine
+Quote=Keine
+PickupMessage=Du hast das Feuerwerk-Ter'angreal
+

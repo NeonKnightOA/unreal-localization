@@ -1,0 +1,43 @@
+[WOTBrowserServerPing]
+ArenaText=Arena
+CitadelText=Citadel
+RemainingTimeText=Remaining Time
+ElapsedTimeText=Elapsed Time
+PublicAccessText=Public Access
+SealBudgetText=Siegelbudget
+HoldNewPlayersText=Neue Spieler halten
+MaxTeamSizeText=Maximale Teamgröße
+RemainingEditTimeText=Verbleibende Edit-Zeit
+WinningTeamText=Sieger-Team
+NoWinningTeamText=Kein
+GameBegunText=Spiel gestartet
+GameBegunTrueText=Ja
+GameBegunFalseText=Nein
+
+[Public]
+
+[ServerListTitles]
+WOTBrowserWOT=WOT Servers
+WOTBrowserLAN=LAN Servers
+WOTBrowserPopulated=Populated Servers
+WOTBrowserArena=Arena
+WOTBrowserCitadel=Citadel
+WOTBrowserAll=All Servers
+
+[WOTBrowserFavoritesMenu]
+JoinPasswordName="Spiel mit &Passwort beitreten"
+
+[WOTBrowserRightClickMenu]
+JoinPasswordName="Spiel mit &Passwort beitreten"
+
+[WOTBrowserPasswordCW.uc]
+PasswordText="Passwort"
+
+[WOTBrowserPasswordWindow]
+WindowTitle="Passwort"
+
+[UWindowSmallOKButton]
+OKText="OK"
+
+[UWindowSmallCloseButton]
+CloseText="Schließen"

@@ -1,0 +1,60 @@
+[Setup]
+LocalProduct=Wheel of Time
+DefaultFolder=C:\WheelOfTime
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=Wheel of Time Setup
+ProductURL=http://www.wheeloftime.com/
+Developer=Legend Entertainment
+DeveloperURL=http://www.legendent.com/
+ReleaseNotesURL=http://www.legendent.com/wheeloftime/readme/english.htm
+Logo=System\SetupLogo.bmp
+
+[General]
+PlayLevelCommand=&Play this Wheel of Time level
+OpenLinkCommand=&Open this Wheel of Time link
+InstallModuleCommand=&Install this Wheel of Time module
+EditLevelCommand=&Edit this Wheel of Time level
+
+[ContentGroup]
+Caption=Game Content
+Description=Wheel of Time game content. Installation is required.  The second disc contains additional game content which may be installed for improved performance and load time.
+
+[GameGroup]
+Caption=Wheel of Time Game
+Description=Wheel of Time Game. Installation is required.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support.
+
+[QuickTimeGroup]
+Caption=QuickTime 4
+Description=QuickTime for movie playback. Select this if you do not already have QuickTime 4 installed.
+
+[EditorGroup]
+Caption=Wheel of Time Editor
+Description=Wheel of Time world editor, for creating your own 3D Wheel of Time environments. For advanced users. The editor is not documented and not supported. Installation of certain Microsoft products may be required. For more information, see the Release Notes.
+
+[PlayShortcut]
+Caption=Play Wheel of Time
+
+[SafeModeShortcut]
+Caption=Wheel of Time Safe Mode
+
+[ChangeVideoShortcut]
+Caption=Change Video Mode
+
+[EditorShortcut]
+Caption=Wheel of Time Editor
+
+[DocumentationShortcut]
+Caption=Documentation
+
+[ReleaseNotesShortcut]
+Caption=Release Notes
+
+[WebShortcut]
+Caption=Wheel of Time Web Page
+
+[UninstallShortcut]
+Caption=Uninstall Wheel of Time

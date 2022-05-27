@@ -1,0 +1,134 @@
+[Errors]
+MissingProductTitle=%s no puede estar %s en esta carpeta
+MissingProductInstalled=instalado
+MissingProductPatched=actualizado
+MissingProductThis=Esta actualización
+MissingProduct=%s necesita %s para su instalación en la carpeta. Debes localizar la carpeta existente para %s, o salir e instarla ahora .\n\nPuedes hacer clic en el vínculo de Internet situado en la parte inferior para obtener más información sobre el producto.
+OldVersion=%s necesita %s la versión %i o una posterior, pero la versión de tu ordenador es más antigua (tu versión es %i). Debes instalar %s la versión %i o una posterior e intentarlo de nuevo. Puedes hacer clic en el vínculo de Internet situado en la parte inferior para obtener más información sobre el producto.\n\nLa instalación va a finalizar ahora.
+FolderTitle=Carpeta "%s"
+FolderFormat=La carpeta que has señalado, "%s", no es válida.  Por favor, inténtalo de nuevo.
+AlreadyRunningTitle=No es posible realizar la instalación mientras se está utilizando
+AlreadyRunning=Para seguir con el proceso de instalación debes cerrar el resto de copias activas y presionar OK. Para salir, presiona Cancelar.
+WrongCdTitle=No se han encontrado los archivos en el CD-ROM
+WrongCd=No se ha encontrado la versión necesaria del %s archivo %s en el lector de CD-ROM.\n\nComprueba que has insertado el CD correcto en el lector de CD-ROM.
+MissingInstallerFile=No se ha encontrado el archivo de instalación
+MissingReferenceFile=No se ha encontrado el archivo de referencia
+MissingSourceFile=No se ha encontrado el archivo de origen
+FailedOpenSource=No ha sido posible abrir el archivo de origen
+FailedOpenDest=No ha sido posible abrir el archivo de destino
+FailedReadingSource=No ha sido posible leer el archivo de origen
+FailedWritingDest=No ha sido posible escribir en el archivo de destino
+FailedLoadingUpdate=No ha sido posible cargar el archivo de actualización
+FailedReadingReference=No ha sido posible leer el archivo de referencia
+FailedClosingSource=No ha sido posible cerrar el archivo de origen
+FailedClosingDest=No ha sido posible cerrar el archivo de destino
+FailedMakeDir=No ha sido posible crear un directorio para el archivo de destino
+AdviseBadMedia=Los medios de origen pueden estar dañados. Si realizas la instalación a partir de un CD, prueba a limpiarlo para eliminar la suciedad que pueda tener, comprueba tu lector de CD e inténtalo de nuevo.
+AdviseBadDownload=Los archivos de actualización que has descargado pueden estar corruptos.
+AdviseBadDest=Es posible que el directorio de destino esté compelto, o puede haber sectores dañados.
+PatchCorrupt=El archivo de ajuste %s está corrupto.\n\n%s
+CdFileMismatch=El archivo %s del CD-ROM no es la versión esperada. Por lo tanto, %s no se puede ajustar.
+FailedChangeDiscTitle=No ha sido posible encontrar el disco
+FailedChangeDisc=El disco %s esperado %s no se encuentra en el lector de CD-ROM.\n\nDebes comprobar que el CD que has introducido en el lector es el CD adecuado .
+
+[General]
+Space=%i Megabytes
+Ready=La configuración está lista para la instalación %s.\nEl archivo de destino es: %s\n\nHaz clic en "Instalar" para iniciar la instalación.\nHaz clic en "Cancelar" para salir sin realizar la instalación de %s.
+InstallCancel=Cancelar la instalación
+CancelPrompt=¡Atención! Si cancelas ahora la instalación %s no podrá funcionar correctamente. ¿Estás seguro de que deseas cancelarla?
+DidCancel=Has cancelado la instalación.  El producto no se ha podido instalar correctamente y no podrá funcionar.
+CdDescription=Para instalar la actualización %s, es necesario copiar algunos archivos del CD-ROM original %s.\n\nDebes introducir el CD-ROM %s en el lector de CD-ROM, y hacer clic en "Siguiente". Si no aparece correctamente la letra correspondiente a su lector de CD, por favor, introdúcela a continuación.
+CdDrive=Lector de CD-ROM
+NotEnoughSpaceTitle=No es posible la instalación en esa ubicación
+NotEnoughSpace=No hay espacio suficiente en el dispositivo %s para poder instalar %s. Debes seleccionar un dispositivo con más espacio disponible, o salir de la instalación, liberar más espacio y volver a intentarlo de nuevo.
+Finish=&Finalizar
+RebootButton=&Reiniciar
+ExitButton=&Salir
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play=&Play
+IDC_Reinstall=&Instalar
+IDC_Uninstall=&Desinstalar
+IDC_ReleaseNotes=Ofrecer &Notas
+IDC_Web=Rueda de página &web de tiempo
+IDC_Complete=¡La instalación se ha completado satisfactoriamente!\n\nCuando comiences a jugar, deberás insertar el CD 2 en el lector de CD-ROM.
+IDC_CompleteReboot=¡La instalación se ha completado satisfactoriamente!\nAntes de comenzar a jugar, deberás reiniciar tu ordenador.\nPara jugar, deberás insertar el CD 2 en el lector de CD-ROM.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=Vas a instalar %s en tu ordenador.\n\nHaz clic en "Siguiente" para iniciar la ejecución, o haz clic en "Cancelar" en cualquier momento para salir.\n\nLa información del cuadro inferior muestra vínculos de Internet que puede visitar haciendo clic para obtener más información sobre el producto.
+IDC_WelcomePromptUpdate=Este programa va a actualizar su copia de %s hasta la versión %s.\n\nHaz clic en "Siguiente" para iniciar la ejecución, o haga clic en "Cancelar" en cualquier momento.\n\nLa información del cuadro inferior muestra vínculos de Internet que puede visitar haciendo clic para obtener más información sobre el producto.
+IDC_LanguagePrompt=&Idioma
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Debes leer el siguiente contrato de licencia. La instalación de este programa necesita que estés de acuerdo con las condiciones de la licencia.
+IDC_LicenseQuestion=¿Estás de acuerdo con las condiciones de la licencia anterior? Haz clic en "Estoy de acuerdo" o en "Cancelar".
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Selecciona los componentes que deseas instalar.
+IDC_ComponentsPrompt=&Componentes:
+IDC_DiskSpaceFrame=Espacio en el disco
+IDC_DescriptionFrame=Descripción
+IDC_SpaceRequiredMessage=Necesario:
+IDC_SpaceAvailableMessage=Disponible:
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText=Selecciona los componentes que deseas desinstalar.
+IDC_ComponentsPrompt=&Componentes:
+IDC_DependenciesFrame=Dependencias
+IDC_DependenciesText=A continuación se van a desinstalar los siguientes componentes: %s
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=Se va a instalar %s en la siguiente carpeta.\n\nPara instalar en esta carpeta, haz clic en Siguiente.\n\nPara instalar en otra carpeta, escribe el nombre completo de la carpeta sin olvidar su letra de directorio, por ejemplo: C:\\Nuevacarpeta
+IDC_FolderDescriptionPatch=La instalación actualizará la instalación de %s en la siguiente carpeta.\n\nPara seguir con el proceso, haz clic en Siguiente.\n\nSi tienes más de una copia instalada, escribe el nombre completo de la carpeta existente sin olvidar su letra de directorio, por ejemplo: C:\\Nuevacarpeta
+IDC_FolderDescriptionMissing=La instalación actualizará una instalación existente de %s.\n\nEscribe el nombre completo del archivo existente sin olvidar su letra de directorio, por ejemplo: C:\\Unacarpeta
+IDC_FolderHolder=Carpeta de destino
+IDC_Browse=&Examinar
+IDC_Default=&Reajustar
+IDC_SpaceAvailableMessage=Espacio disponible en el dispositivo:
+IDC_FullSpaceRequiredMessage=Espacio necesario para la instalación tradicional:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Instalando archivos...
+IDC_InstallingText=Instalando:
+IDC_ProgressText=Progresión de archivo:
+IDC_TotalText=Progresión total:
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Desinstalando archivos...
+IDC_InstallingText=Procesando:
+IDC_ProgressText=Progresión de archivo:
+IDC_TotalText=Progresión total:
+
+[IDDIALOG_Restart]
+IDC_Restart=Instalación completa
+IDC_RestartMessage=Debes reiniciar Windows para completar la instalación.
+IDC_RestartText=Antes de reiniciar, cierra cualquier aplicación abierta, incluida cualquier sesesión de MS-DOS, y guarda todos los documentos actuales. Saca cualquier disquete de la disquetera. A continuación, haz clic en el botón de Reiniciar Windows.
+IDC_Complete=Una vez reinstalado Windows, la instalación habrá finalizado.
+IDC_Restart=&Reiniciar Windows
+IDC_Exit=&Salir de la instalación
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Rueda de tiempo de la instalación
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=No es posible instalar este producto en esta ubicación
+IDC_FailedMessage=Este producto necesita que esté instalado el siguiente producto para poder ser instalado. Debes localizar el archivo existente, o salir e instalarlo ahora.\n\nPuedes hacer clic en el vínculo de Internet inferior para obtener más información.
+IDC_ProductHolder=Producto neceseario
+
+[IDDIALOG_FailedChangeDisc]
+IDC_FailedChangeDisc=No es posible instalar este producto en esta ubicación
+IDC_FailedMessage=Este producto necesita que esté instalado el siguiente producto para poder ser instalado. Debes localizar el archivo existente, o salir e instalarlo ahora.\n\nPuedes hacer clic en el vínculo de Internet inferior para obtener más información.
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Producto
+IDC_ProductText=Producto:
+IDC_VersionText=Versión:
+IDC_DeveloperText=Desarrollado por:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=Se van a desinstalar los siguientes componentes:
+IDC_UninstallQuestion=¿Estás seguro de quere eliminar estos componentes?
+
+[IDDIALOG_FilerPageChangeDisc]
+IDC_ChangeDisc=Por favor, inserta el %s disco %s
+IDC_FolderHolder=Carpeta de origen

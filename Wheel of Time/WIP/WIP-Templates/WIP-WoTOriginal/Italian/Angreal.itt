@@ -1,0 +1,269 @@
+[AngrealInvLightGlobe]
+Title=Sfera di Luce
+Description=Attivando questo artefatto, si dà forma a una semplice sfera di luce. La Sfera ti accompagnerà fino a quando non sarà disgregata da una successiva attivazione.
+Quote=Attinse al Potere mentre si muoveva, generando una sfera di luce di una purezza abbagliante, che proiettava livide ombre sulle pareti della stanza.
+PickupMessage=Hai preso la Sfera di Luce
+
+[SwapPlacesEffect]
+SourceFailMessage=fallito perché non puoi stare nella posizione dell'obiettivo.
+DestinationFailMessage=fallito perché l'obiettivo non può stare nella tua posizione.
+
+[AngrealInvDart]
+Title=Dardo Esplosivo
+Description=Il Dardo Esplosivo concentra il Potere in una piccola esplosione di energia. Sebbene un singolo colpo non infligga necessariamente un danno consistente, l'artefatto può colpire la vittima con numerosi Dardi in un breve lasso di tempo.
+Quote=Il suo scoppio repentino fece sobbalzare Egwene. Percuotendosi il fianco destro con la mano, si mise a saltare in cerchio in preda al dolore.
+PickupMessage=Hai preso il Dardo Esplosivo
+
+[AngrealInvDisguise]
+Title=Travestimento Magico
+Description=Finché continui ad attivare l'artefatto, il Travestimento Magico ti fa confondere con la creatura o persona più vicina.
+Quote=La sua pelle vibrò lievemente nel momento in cui incanalò il Potere e per un istante il suo aspetto cambiò. La pelle divenne di un opaco color rame, gli occhi e i capelli neri e lisci.
+PickupMessage=Hai preso il Travestimento Magico
+
+[AngrealInvBalefire]
+Title=Fuoco Doloroso
+Description=Il Fuoco Doloroso genera un fascio di luce che passa attraverso ogni cosa, perfino attraverso le pareti. Qualsiasi cosa sia toccata dalla luce viene separata dalla linea del tempo. La maggior parte degli oggetti ed esseri colpiti dalla terribile luce scompare come se non fosse mai esistita, sebbene i Sigilli di Cuendillar siano immuni a tale effetto. Il Fuoco Doloroso accumula il suo potere, e lo sprigiona solo successivamente (rilasciando il pulsante di fuoco); più a lungo viene accumulato il potere, più devastante sarà l'effetto sugli esseri o sugli oggetti colpiti.
+Quote=Qualcosa gli zampillò dalle mani; neppure lui sapeva bene cosa fosse. Una striscia di luce abbagliante, solida come l'acciaio. Fuoco liquido.
+PickupMessage=Hai preso il Fuoco Doloroso
+
+[AngrealInvAirBurst]
+Title=Maglio d'Aria
+Description=Il Maglio d'Aria genera una piccola, veloce onda d'aria direttamente davanti a te.   La raffica si abbatte sui malcapitati investiti da essa con la violenza di un martello, infliggendo un danno notevole. L'artefatto si rigenera continuamente dalla Grande Sorgente, evitando di consumare il tuo potere.
+Quote=Quasi che la mano di un gigante l'avesse travolto, egli fu proiettato nell'aria per dieci passi, per poi cadere rovinosamente su alcune aguzze pietre. 
+PickupMessage=Hai preso il Maglio d'Aria
+
+[AngrealInvLightning]
+Title=Catena di Fulmini
+Description=Finché continui ad attivare la Catena di Fulmini, l'artefatto genera un'aura di elettricità intorno a te. Toccando qualcun altro mentre sei in questo stato, si crea una catena elettrica tra te e l'essere toccato; toccando più persone si creano più catene. L'elettricità danneggia tutte le vittime fino a che non esaurisci le cariche, o smetti di attivare l'artefatto, o vieni colpito, oppure finché gli esseri colpiti non riescono ad allontanarsi a sufficienza. Uno qualsiasi di questi avvenimenti è sufficiente a spezzare l'effetto della Catena. Se attivata in acqua, la Catena di Fulmini danneggia chiunque sia immerso in quel momento, compreso colui che ha attivato l'artefatto.
+Quote=I fulmini saettavano, sradicando e frantumando il selciato davanti a lui, squarciando le mura del palazzo di cristallo che, in mille schegge, gli piovevano davanti.
+PickupMessage=Hai preso la Catena di Fulmini
+
+[AngrealInvWhirlwind]
+FailMessage=richiede un obiettivo
+Title=Vortice d'Aria
+Description=Finché continui ad attivare il Vortice d'Aria, il tuo obiettivo viene fatto girare come una trottola e sollevato da terra, in qualsiasi direzione tu punti.
+Quote=Foglie morte si sollevavano vorticosamente e i rami degli alberi sferzavano violentemente l'aria, quasi che un diavoletto di polvere stesse correndo lungo la linea da lei indicata.
+PickupMessage=Hai preso il Vortice d'Aria
+
+[AngrealInvTracer]
+Title=Cercatore
+Description=Il Cercatore rintraccia il più vicino Sigillo, tracciando davanti a sé una linea luminosa. Dopo breve tempo la traccia scompare lentamente.
+Quote=Voltandosi poté vedere ciò che restava di quelle rosse tracce infuocate, abbastanza chiaramente da permettergli di distinguere flussi di Acqua e Fuoco intrecciati in un modo a lui sconosciuto. Abbastanza da rivelargli l'esatta direzione da cui provenivano.
+PickupMessage=Hai preso il Ter'angreal Cercatore
+
+[AngrealInvDistantEye]
+Title=Occhio Lontano
+Description=Una volta attivato, l'Occhio Lontano mantiene la sua posizione. L'abbandono del Ter'angreal provoca la perdita della memoria della sua posizione originale. Dopo averlo piazzato, una successiva attivazione ti permette di vedere attraverso l'Occhio--qualsiasi cosa stia vedendo--a patto però che tu rimanga immobile. Invocare l'Occhio mentre lo stai usando provoca il lancio di una serie di Dardi Infuocati contro qualsiasi cosa l'Occhio stia puntando in quel momento. Purtroppo il fragile Occhio può essere facilmente distrutto.
+Quote=Come se pensare alle stranezze avesse il potere di manifestarle, un pezzo di cielo dietro le montagne si oscurò, diventando una finestra su altri luoghi.
+PickupMessage=Hai preso il Ter'angreal Occhio Lontano
+
+[AngrealInvWallOfAir]
+FailMessage=richiede un obiettivo
+Title=Muro d'Aria
+Description=Questo artefatto innalza una barriera tra te e il tuo obiettivo. Resiste solo per breve tempo, a meno che non si continui ad attivarlo. Il Muro d'Aria disgrega qualsiasi incantesimo che lo colpisca.
+Quote= Mentre estraeva la spada, le lunghe gambe lo portarono davanti a lei, il mantello cangiante fluttuante dietro di lui mentre caricava. Improvvisamente sembrò sbattere contro un invisibile muro di pietra, rimbalzò indietro e provò, barcollando, a ritornare all'attacco.
+PickupMessage=Hai preso il Ter'angreal Muro d'Aria
+
+[AngrealInvFork]
+Title=Sdoppiatore
+Description=Per un breve tempo lo Sdoppiatore innalza uno scudo davanti a te. Sebbene gli artefatti i cui effetti riescono a penetrare attraverso lo scudo continuino a danneggiarti, un attacco identico a quello che ti ha colpito viene scagliato contro chi lo ha generato.
+Quote=Chiudendo il suo pugno con forza, Egwene colpì la donna più duramente che poté, dritto in mezzo agli occhi e... barcollò e le si piegarono le ginocchia, con la testa che le rintronava. Fu come se un uomo grande e grosso l'avesse colpita in faccia.
+PickupMessage=Hai preso lo Sdoppiatore
+
+[AngrealInvReflect]
+Title=Specchio Magico
+Description=Per un breve tempo lo Specchio Magico ti avvolge in uno scudo che non solo ti protegge in maniera totale da qualsiasi aggressione derivante dall'attivazione di un artefatto, ma colpisce con lo stesso attacco chi lo ha generato.
+Quote=Appena le sue mani lo afferrarono, il Potere si sollevò come un'onda dentro di lei, quindi nella statuetta e di nuovo dentro di lei, fuori e poi di nuovo dentro, fuori e dentro.
+PickupMessage=Hai preso lo Specchio Magico
+
+[AndilayRoot]
+Title=Radice di Andilay
+Description=None
+Quote=None
+PickupMessage=Hai trovato una radice di Andilay
+
+[AngrealInvHeal]
+Title=Cura Ferite
+Description=Ogni volta che attivi il Cura Ferite, la tua energia aumenta un po'.
+Quote=Un brivido gli corse lungo la schiena, non il gelido tocco della completa Guarigione, ma un freddo che scacciò la stanchezza dalle sue membra provate.
+PickupMessage=Hai preso il Ter'angreal Cura Ferite
+
+[AngrealInvShift]
+Title=Spostamento
+Description=Lo Spostamento ti fa traslare istantaneamente pochi passi davanti alla tua posizione attuale, attraverso qualsiasi ostacolo, sempre che il posto in cui vuoi arrivare sia libero. Qualsiasi artefatto che era stato attivato contro di te perde il bersaglio.
+Quote=Non avevi bisogno di conoscere un luogo per viaggiarvi, se intendevi compiere una distanza molto breve.
+PickupMessage=Hai preso il Ter'angreal di Spostamento
+
+[AngrealInvLevitate]
+FailMessage=Non può essere usato mentre sei nel Vortice d'Aria
+Title=Levitazione
+Description=Finché continui ad attivare la Levitazione, ondeggi lievemente sopra il terreno. L'effetto è ben diverso dal volo; un sottile velo d'aria ti separa dal terreno.
+Quote=Repentinamente ella si librò nell'aria, insieme a Elayne; le due donne si lanciarono sguardi attoniti mentre galleggiavano un passo sopra il tappeto.
+PickupMessage=Hai preso il Ter'angreal Levitazione
+
+[AngrealInvShield]
+Title=Scudo
+Description=Lo Scudo ti avvolge con un intreccio di Potere che diminuisce la potenza di qualsiasi attacco che infligge un danno, interno o esterno. Ha un effetto permanente, ma gli attacchi lo logorano. Un'attivazione successiva ne ripristina l'energia.
+Quote= Rand attinse al Potere e lo incanalò mentre il fulmine gli volava incontro; esso colpì Aria, una argentea massa sospesa sopra la strada, con un rumore di metallo contro metallo.
+PickupMessage=Hai preso il Ter'angreal Scudo
+
+[AngrealInvIllusion]
+Title=Illusione
+Description=L'Illusione crea una tua stessa immagine davanti a te, un'eterea copia di te stesso, e la lascia lí per ingannare i tuoi nemici-in particolar modo quelli maggiormente sensibili alla magia come Mashadar o Machin Shin. Sebbene non sia solida, quest'immagine può essere presa di mira da altri incantesimi. Dopo un certo tempo si disgrega.
+Quote=Un'immagine cominciò a prendere forma... Egli si concentrò per immaginare sé stesso, si sforzò di vedere l'immagine che ogni giorno osservava nello specchio quando si rasava e si vestiva.
+PickupMessage=Hai preso il Ter'angreal Illusione
+
+[AngrealInvMinion]
+LimitWarning=Hai già uno Scagnozzo sotto il tuo controllo.
+Title=Scagnozzo
+Description=Lo Scagnozzo evoca un Grunt, ovvero un soldato del tipo appropriato al tuo comando.
+Quote=I Trolloc balzarono fuori dall'aria, forme enormi e bestiali con le facce prive di occhi devastate dal furore di uccidere, spade simili a falci e mortali lame d'acciaio nero che cercavano il suo sangue.
+PickupMessage=Hai preso il Ter'angreal Scagnozzo
+
+[AngrealInvGuardian]
+LimitWarning=Hai già un Protettore sotto il tuo controllo.
+Title=Protettore
+Description=Il Protettore evoca un comandante del tipo appropriato al tuo comando.
+Quote=Improvvisamente tutt'intorno a loro la polvere ondeggiava e fremeva, raccogliendosi sempre più fitta. All'improvviso, proprio di fronte a loro, una figura prese forma nel bacino di una fontana asciutta, la forma di un uomo, nero e privo di lineamenti, con le dita simili ad acuminati artigli.
+PickupMessage=Hai preso un Ter'angreal Protettore
+
+[AngrealInvChampion]
+LimitWarning=Hai già un Campione sotto il tuo controllo.
+Title=Campione
+Description=Il Campione evoca la più potente creatura sotto il tuo comando - estremamente potente, ma anche molto cocciuto.
+Quote=Fu Thom Merrilin che le rispose con la sua voce roca: @Nella guerra che pose fine all'Età delle Leggende, furono creati esseri peggiori dei Trolloc e dei Myrddraal.@
+PickupMessage=Hai preso il Ter'angreal Campione
+
+[AngrealInvAbsorb]
+Title=Assorbimento
+Description=L'Assorbimento crea uno scudo intorno a te per un breve periodo di tempo. Se un incantesimo proveniente da un altro artefatto lo colpisce, il Ter'angreal che aveva generato quell'incantesimo viene strappato via dalle mani di chi lo possedeva e va a far parte del tuo inventario.
+Quote=@Ma come hai fatto...?@ disse Elayne non credendo ai suoi occhi. @Il flusso di Potere era semplicemente... svanito.@
+PickupMessage=Hai preso il Ter'angreal Assorbimento
+
+[AngrealInvDecay]
+FailMessage=richiede un obiettivo
+Title=Corrosione
+Description=Per un breve lasso di tempo la Corrosione fa diminuire lentamente l'energia del nemico colpito, più le cariche di tutti gli artefatti posseduti.
+Quote=Non sarebbero morti subito; avrebbero potuto anche sopravvivere abbastanza da uscire dalle mura della Città in modo tale da allontanarsi quel tanto che basta per non spaventare il Myrddraal successivo.
+PickupMessage=Hai preso la Corrosione
+
+[AngrealInvEarthShield]
+Title=Protezione dalla Terra
+Description=La Protezione dalla Terra forma una barriera protettiva che neutralizza tutti gli attacchi basati sul Potere della Terra o i pericoli derivanti dall'ambiente naturale.
+Quote= Sembrò non accorgersi dei movimenti del terreno che lo spostavano ora di qua, ora di là. Il suo equilibrio non venne mai meno, per quanto venisse scosso.
+PickupMessage=Hai preso lo Scudo di Terra
+
+[AngrealInvEarthTremor]
+Title=Terremoto
+Description=Il Ter'angreal Terremoto lancia un'onda concentrata di Potere di Terra. Qualsiasi superficie sfiorata viene scossa violentemente, in un tremore estremamente pericoloso per le vittime coinvolte.
+Quote=Ora il terreno si muoveva, dirigendosi contro i Trolloc come increspature in uno stagno, increspature che aumentavano durante la corsa, crescendo, diventando onde di terra, scagliate contro i Trolloc. Sulla scarpata i Trolloc cadevano a mucchi, rovesciati e trascinati dalla terra impazzita.
+PickupMessage=Hai preso il Ter'angreal Terremoto
+
+[AngrealInvExpWard]
+Title=Sigillo Esplosivo
+Description=Se sei rivolto verso una superficie piatta, l'attivazione del Ter'angreal vi fisserà sopra un Sigillo Esplosivo. Camminare vicino al Sigillo o colpirlo con un proiettile causa un'esplosione di Terra.
+Quote=Con un ruggito la terra di fronte a lui eruppe in una piccola fontana di fango e pietre più alta della sua testa.
+PickupMessage=Hai preso il Ter'angreal Sigillo Esplosivo
+
+[AngrealInvFireball]
+Title=Palla di Fuoco
+Description=Il Ter'angreal Palla di Fuoco lancia un flusso concentrato di fuoco che esplode all'impatto con qualsiasi cosa che non sia acqua, la quale lo spegne all'istante.
+Quote=Una palla di fuoco grande come la testa di un uomo balenò lungo la strada, diretta verso di lei. Riuscì a saltare indietro appena in tempo per evitarla prima che esplodesse proprio contro l'angolo dove stava la sua testa, proiettandole contro una pioggia di calcinacci.
+PickupMessage=Hai preso il Ter'angreal Palla di Fuoco
+
+[AngrealInvRemoveCurse]
+Title=Disgrega
+Description=Per un breve periodo di tempo il Ter'angreal Disgrega neutralizza qualsiasi incantesimo ti stia colpendo o sia attivato in un'area di terreno intorno a te. Tutti gli effetti magici, trappole o proiettili cessano semplicemente di esistere. Naturalmente, finché Disgrega è attivo non puoi usare altri artefatti.
+Quote=Qualcosa interruppe il Potere. I flussi ritornarono indietro con violenza tale che grugnì per lo sforzo.
+PickupMessage=Hai preso il Ter'angreal Disgrega
+
+[AngrealInvSeeker]
+FailMessage=richiede un obiettivo
+Title= Cacciatore
+Description=Il Ter'angreal Cacciatore lancia un proiettile esplosivo su un obiettivo, che prende velocità mentre si lancia all'inseguimento della vittima. A meno che non incontri ostacoli o venga neutralizzato, il Cacciatore esplode all'impatto.
+Quote=Era come osservare tutte le tempeste del mondo compresse a misura di una testa di Trolloc. Poteva sentire Trollocs e Myddraal morire, sentire i fulmini colpire e uccidere. Poteva ucciderli dappertutto, ovunque nel mondo. I fulmini si attenuarono, poi scomparvero assieme all'ultima Progenie delle Tenebre; la massa roteante implose in un forte schiocco di aria rientrante.
+PickupMessage=Hai preso il Ter'angreal Cacciatore
+
+[AngrealInvTaint]
+FailMessage=richiede un obiettivo
+Title=Corruzione
+Description=Tutti i Ter'angreal posseduti dalla vittima vengono permanentemente corrotti (a meno che non siano sotto l'effetto del Ter'angreal Disgrega o dell'Aura del Dipanatore). Chi usa gli artefatti corrotti viene danneggiato; artefatti più potenti infliggono maggior danno.
+Quote=@È difettoso,@ replicò cortesemente, @mancando delle protezioni che rendono sicuro l'uso degli altri Sa'angreal. Apparentemente è in grado di moltiplicare l'effetto della corruzione, inducendo alla pazzia.@
+PickupMessage=Hai preso il Ter'angreal Corruzione
+
+[AngrealInvWaterShield]
+Title=Protezione dall'Acqua
+Description=La Protezione dall'Acqua forma una barriera che neutralizza tutti gli attacchi magici basati sull'acqua o i pericoli terreni da essa derivanti.
+Quote=L'acqua lo travolse, sbattendolo di qua e di là violentemente. Non riusciva a respirare. Pensò all'aria, al fatto che l'acqua fosse aria. Improvvisamente, lo divenne.
+PickupMessage=Hai preso il Ter'angreal Protezione dall'Acqua
+
+[AngrealInvAirShield]
+Title=Protezione dall'Aria
+Description=La Protezione dall'Aria forma una barriera protettiva che neutralizza tutti gli attacchi d'aria o i pericoli terreni da essa derivanti.
+Quote=L'aria intorno a lui divenne improvvisamente fuliggine soffocante, riempiendogli le narici, impedendogli di respirare, ma lui la trasformò nuovamente in aria fresca, in una leggera nebbiolina.
+PickupMessage=Hai preso il Ter'angreal Protezione dall'Aria
+
+[AngrealInvAMA]
+Title=Aura del Dipanatore
+Description=Immediatamente dopo che il Ter'angreal è collocato, chiunque ci passi vicino - anche un proiettile che attraversi l'area circostante - lo attiverà. Per un breve periodo di tempo, l'area intorno all'artefatto si comporterà come una zona magica morta: i Ter'angreal non funzioneranno, quelli attivi verranno resi inoffensivi e gli incantesimi lanciati in quest'area saranno annullati. Le protezioni magiche non servono a nulla contro quest'Aura. L'unica eccezione è rappresentata dal Fuoco Doloroso.
+Quote=Cercò di toccare il Potere - e non trovò nulla. Non era una barriera; l'avrebbe sentita, e avrebbe saputo come aggirarla o, col tempo, se non era troppo potente, avrebbe potuto abbatterla. Questo invece era come essere separati per sempre dal Potere. Il terrore lo pietrificò sul posto.
+PickupMessage=Hai preso l'Aura del Dipanatore
+
+[AngrealInvFireShield]
+Title=Protezione dal Fuoco
+Description=La Protezione dal Fuoco crea una barriera protettiva che neutralizza tutti gli incantesimi di fuoco o i pericoli terreni da esso derivanti.
+Quote=Riempì il corridoio intorno a sé di fuoco da cima a fondo e dal pavimento al soffitto... una fiamma così calda che la stessa pietra fumava. Rahvin gridò nel mezzo del fuoco e barcollò lontano. Un battito di cuore dopo era ancora nel mezzo delle fiamme, ma circondato da aria pura. Ogni oncia di Potere a sua disposizione era stata incanalata in quelle fiamme, ma egli le poteva tenere ancora a bada.
+PickupMessage=Hai preso il Ter'angreal Protezione dal Fuoco
+
+[AngrealInvSoulBarb]
+FailMessage=richiede un obiettivo
+Title=Spina dell'Anima 
+Description= Per un breve lasso di tempo la vittima della Spina dell'Anima subisce danno quando attiva un artefatto - Ter'angreal più potenti infliggono un danno maggiore.
+Quote=Un'agonia nel suo petto, come se il cuore stesse per esplodergli; chiodi roventi infilati nel suo cranio, un dolore così forte che voleva gridare anche nel mezzo del Vuoto. 
+PickupMessage=Hai preso la Spina dell'Anima
+
+[AngrealInvSwapPlaces]
+FailMessage=richiede un obiettivo
+Title=Scambiaposto
+Description=Questo artefatto scambia la tua posizione con quella del tuo obiettivo. Lo Scambiaposto inganna tutti gli incantesimi che ti avevano preso di mira, facendo loro colpire chi prende il tuo posto e viceversa.
+Quote=Quel senso di spiazzamento e il pizzicore che sentiva sulla pelle non volevano andare via.
+PickupMessage=Hai preso il Ter'angreal Scambiaposto
+
+[AngrealInvTarget]
+Title=Trova Bersaglio
+Description=Per un breve tempo tutti gli incantesimi che richiedono un obiettivo prendono di mira automaticamente l'essere più vicino, non tenendo conto della direzione in cui si sta guardando.
+Quote=Per usare il Potere generalmente bisognava vedere il bersaglio, oppure sapere esattamente dov'era rispetto alla tua posizione. Forse qui le cose funzionavano diversamente...
+PickupMessage=Hai preso il Ter'angreal Trova Bersaglio
+
+[AngrealInvIce]
+FailMessage=richiede un obiettivo
+Title=Congelamento
+Description=Il Congelamento imprigiona la vittima in un flusso di Acqua ghiacciata, impedendogli di muoversi per breve tempo, fino a che il ghiaccio non si scioglie.
+Quote=Uomini e Myrddraal si irrigidirono nelle loro posizioni. Una brina bianca, da cui si sollevava un sottile vapore, li ricopriva. Il braccio sollevato del Myrddraal si ruppe con uno schiocco sonoro. Quando colpì il pavimento, il braccio e la spada andarono in mille pezzi.
+PickupMessage=Hai preso il Ter'angreal di Congelamento
+
+[AngrealInvSpiritShield]
+Title=Protezione dallo Spirito
+Description=La Protezione dallo Spirito crea una barriera che neutralizza tutti gli attacchi di Spirito o i pericoli da esso derivanti.
+Quote=Con tutta la sua forza Nynaeve creò uno scudo di Spirito e lo scagliò tra l'altra donna e il Potere. Almeno ci provò, era come cercare di abbattere un albero con un'ascia fatta di carta.
+PickupMessage=Hai preso il Ter'angreal Protezione dallo Spirito
+
+[AngrealInvTrapDetect]
+Title=Cerca Trappole
+Description=Per un breve periodo di tempo il Cerca Trappole rende le trappole vicine estremamente evidenti, quelle generate usando l'Unico Potere e anche quelle convenzionali. Appena ti avvicini a una trappola il tuo cuore comincia a battere più velocemente e, cosa più importante, qualsiasi trappola direttamente davanti a te si illumina con un segnale visivo che ne identifica la posizione e il funzionamento. Questo segnale indica solo la trappola più vicina; è consigliata un'attenta analisi dell'area per scoprirne ulteriori.
+Quote=Qualcosa di invisibile era intrecciato tra le colonne spezzate, formando una specie di barriera. Rinforzò mentalmente lo scudo che lo proteggeva. Grandi pezzi di pietra rossa e bianca esplosero appena provò a cominciare la scalata, un vortice di luce pura e roccia turbinante.
+PickupMessage=Hai preso il Cerca Trappole
+
+[AngrealInvSpecial]
+Title=Sconosciuto
+Description=Non è chiaro come si usi questo artefatto, né quale sia il suo effetto. Una veloce indagine non rivela nulla di utile.
+Quote=Cose simili necessitano di un lungo studio.
+PickupMessage=Hai preso un Ter'angreal Sconosciuto
+
+[AngrealInvFireworks]
+Title=Fuochi d'Artificio
+Description=Nessuna
+Quote=Nessuna
+PickupMessage=Hai preso il Ter'angreal Fuochi d'Artificio
+
+

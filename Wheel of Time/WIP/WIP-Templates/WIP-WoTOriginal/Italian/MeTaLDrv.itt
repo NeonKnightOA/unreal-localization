@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=S3_6.dll)
+Preferences=(Caption="Rendering",Parent="Opzioni Avanzate")
+Preferences=(Caption="Supporto per S3 MeTaL",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+
+[MeTaLRenderDevice]
+ClassCaption="S3 MeTaL per Windows"
+AskInstalled=Hai installato una scheda grafica Savage 3D?
+AskUse=Vuoi che Unreal usi la tua scheda grafica Savage 3D?

@@ -1,0 +1,66 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Opciones avanzadas")
+Preferences=(Caption="Avanzado",Parent="Editor",Class=Editor.EditorEngine,Immediate=true,Category=Advanced)
+Preferences=(Caption="Colores",Parent="Editor",Class=Editor.EditorEngine,Immediate=true,Category=Colors)
+Preferences=(Caption="Cuadrícula",Parent="Editor",Class=Editor.EditorEngine,Immediate=true,Category=grid)
+Preferences=(Caption="Cuadrícula de rotación",Parent="Editor",Clase=Editor.EditorEngine,Immediate=true,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner=Construye los archivos de instalación maestros
+HelpUsage=maestro [-option...] [parm=value]...
+HelpParm[0]=Rutamaestra
+HelpDesc[0]=Directorio raíz desde donde se copian los archivos fuente
+HelpParm[1]=Rutafuente
+HelpDesc[1]=Directorio raíz A donde se copian los archivos fuente
+HelpParm[2]=Rutaref
+HelpDesc[2]=Ruta para la referencia de ruta comprimida delta
+
+[ConformCommandlet]
+HelpCmd=aceptar
+HelpOneLiner=Generar archivos binarios de aceptación
+HelpUsage=aceptar existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]=Archivo binario existente para cargar, aceptar y guardar
+HelpParm[1]=oldfile.ext
+HelpDesc[1]=Archivo antiguo compatible con el archivo binario fuente
+
+[MakeCommandlet]
+HelpCmd=hacer
+HelpOneLiner=Reconstruir paquetes UnrealScript
+HelpUsage=hacer [-option...] [parm=value]...
+HelpParm[0]=Silencio
+HelpDesc[0]=No hay peticiones; se entiende "sí" para todas las preguntas
+HelpParm[1]=Noobligatorio
+HelpDesc[1]=No fuerce que las funciones nativas estén vinculadas a DLLs
+HelpParm[2]=Todo
+HelpDesc[2]=Limpiar reconstrucción (si no la reconstrucción es incremental)
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner=Une texturas DXT con texturas estándar
+HelpUsage=une la rutafuente antigua
+HelpParm[0]=rutafuente
+HelpDesc[0]=Ruta que contiene archivos fuente
+HelpParm[1]=rutaantigua
+HelpDesc[1]= Ruta que contiene archivos antiguos
+HelpParm[2]=Rutadestino
+HelpDesc[2]=Ruta para archivos de destino
+
+[BatchExportCommandlet]
+HelpCmd=exportargrupo
+HelpOneLiner=Exportar objetos sueltos
+HelpUsage=exportargrupo package.ext nombredeclase export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]=Paquete con los objetos que deseas exportar
+HelpParm[1]=nombredeclase
+HelpDesc[1]=Clase de objeto que hay que exportar
+HelpParm[2]=export_ext
+HelpDesc[2]=Extensión de archivo para exportar
+HelpParm[3]=ruta
+HelpDesc[3]=Ruta a la que exportar archivos, como c:\LaRuta

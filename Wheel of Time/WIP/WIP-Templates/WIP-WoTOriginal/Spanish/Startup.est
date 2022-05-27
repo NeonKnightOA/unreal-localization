@@ -1,0 +1,72 @@
+[General]
+Run=¡Inicio!
+FirstTime=Configurar por primera vez Wheel of Time
+SafeMode=Modo seguro de Wheel of Time
+Video=Configuración de video Wheel of Time
+RecoveryMode=Modo de recuperación Wheel of Time
+WebPage=http://unreal.epicgames.com/versions.htm
+Direct3DWebPage=http://unreal.epicgames.com/Direct3d.htm
+Detecting=Detectando dispositivos de video 3D. Por favor, espera...
+SoundLow=Baja calidad de sonido
+SoundHigh=Alta calidad de sonido
+SkinsLow=Texturas de piel del jugador a resolución media
+SkinsHigh=Piel de jugador a gran resolución
+WorldLow=Texturas del mundo a resolución media
+WorldHigh="Texturas a gran resolución"
+ResLow=Baja resolución de video
+ResHigh=Resolución de video estándar
+MasterDetailLow=Baja resolución de master
+MasterDetailMed=Resolución de master media
+MasterDetailHigh=Alta resolución de master
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=El reproductor a través de Software incorporado en Wheel of Time.  Compatible con todas las tarjetas de video.
+GlideDrv.GlideRenderDevice=Soporte 3dfx Glide, la mejor elección para los que poseen 3dfx.  Es necesaria la tarjeta 3dfx.
+D3DDrv.D3DRenderDevice=Utiliza reproducción a través de hardware de Direct3D. Compatible con las tarjetas de video más recientes como Riva TNT, ATI Rage 128, Matrox G400, y S3 Savage4.  No se recomienda utilizar con tarjetas de video anteriores--utiliza el Reproductor a través de Software si posees ATI Rage Pro, Riva 128, Intel i740, o Rendition V2200.
+OpenGLDrv.OpenGLRenderDevice=Soporte experimental OpenGL. Se utiliza para las pruebas y la experimentación, pero ha demotrado su compatibilidad con determinados dispositivos. Puedes utilizarlo por tu cuenta y riesgo.
+MetalDrv.MetalRenderDevice=Para usuarios con tarjetas de video S3 Savage4.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Basado en la velocidad, memoria y tarjeta de video de tu PC. Wheel of Time ha seleccionado las siguientes opciones de resolución para optimizar el rendimiento.
+IDC_DetailNote=Puedes cambiar estas opciones en la ventana "Preferencias" más tarde si lo deseas.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Wheel of Time comienza por primera vez.  Si tienes algún problema, lee las notas en la sección "Programas / Wheel of Time" del menú "Inicio" de Windows.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Tu ordenador cuenta con los siguientes dispositivos de video 3D.  Wheel of Time ha seleccionado los más óptimos. Si desea cambiar, destaque una opción entre las inferiores.
+IDC_RenderNote=
+IDC_Compatible=Mostra los dispositivos certificados y compatibles
+IDC_All=Mostrar todos los dispositivos
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=La última vez que se ejecutó Wheel of Time, no se cerró de forma adecuada. Si este cierre se produjo por un problema, puedes utilizar las opciones de abajo para recuperarlo.
+IDC_SafeModePrompt2=Opciones de modo seguro de Wheel of Time: Si tienes problemas, puedes utilizar las opciones inferiores para la recuperación.
+IDC_Run=Ejecutar Wheel of Time
+IDC_Video=Cambiar los dispositivos de video 3D
+IDC_SafeMode=Ejecutar Wheel of Time en modo seguro - para resolver problemas
+IDC_Web=Visite nuestra página Web para conocer algunos consejos útiles que le ayuden a resolver los problemas
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Opciones de modo seguro, para diagnosticar los problemas
+IDC_NoSound=Desactivar todo el sonido
+IDC_No3DSound=Desactivar el hardware de sonido 3D
+IDC_No3DVideo=Desactivar el hardware de video 3D
+IDC_Window=Ejecutar el juego en una ventana (y no a pantalla completa)
+IDC_Res=Ejecutar en resolución estándar 640x480
+IDC_ResetConfig=Recuperar todas las opciones de configuración predefidas
+IDC_NoProcessor=Desactivar las extensiones del procesador Pentium III/3D
+IDC_NoJoy=Desactivar el soporte de joystick
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Wheel of Time ha detectado las siguientes tarjetas de video Direct3D compatibles:
+IDC_DriverInfo=Al haber seleccionado Direct3D, Wheel of Time tratará de utilizar este dispositivo de tarjeta de video para el soporte Direct3D .\n\nSin embargo, algunos dispositivos de tarjetas 3D se deben actualizar para que funcionen de forma fiable con las características más impactantes en 3D de Wheel of Time.  Te recomendamos las siguientes páginas Web para saber más sobre la compatibilidad con las tarjetas de audio, y para obtener los últimos dispositivos de de Direct3D.\n\nSi sufres algún problema de gráficos como colores incorrectos, polígonos parpadeantes, bajo rendimiento o cortes de imagen no dudes en utilizar el vínculo del "Modo seguro de Wheel of Time" hacia la opción "Inicio / Programas" para cambiar tu dispositivo de video..
+IDC_Web=Para encontrar los últimos dispositivos, puedes visitar nuestra página web:
+IDC_WebButton=Información Direct3D  && Página de Dispositivos
+IDC_Card=

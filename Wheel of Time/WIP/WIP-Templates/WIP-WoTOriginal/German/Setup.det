@@ -1,0 +1,135 @@
+[Errors]
+MissingProductTitle=%s kann nicht in diesen Ordner %s werden 
+MissingProductInstalled=installiert
+MissingProductPatched=aktualisiert
+MissingProductThis=Dieses Update
+MissingProduct=Für %s ist es erforderlich, %s zuerst in den Ordner zu installieren. Bitte suchen Sie den bestehenden Ordner für %s, oder brechen Sie ab und installieren ihn jetzt.\n\nFür weitere Produktinformationen können Sie unten auf den Weblink klicken.
+OldVersion=%s benötigt %s Version %i oder höher, aber die Version auf Ihrem System ist älter (Sie haben Version %i). Bitte installieren Sie %s Version %i oder höher und versuchen es noch einmal. Für zusätzliche Informationen können Sie unten auf den Weblink klicken.\n\nSetup wird jetzt beendet.
+FolderTitle=Ordner "%s"
+FolderFormat=Der eingegebene Ordner, "%s", ist ungültig. Bitte versuchen Sie es noch einmal.
+AlreadyRunningTitle=Kann nicht installieren. Programm läuft schon. 
+AlreadyRunning=Um die Installation fortzusetzen, schließen Sie bitte alle gestarteten Versionen und klicken OK. Um abzubrechen klicken Sie Abbrechen.
+WrongCdTitle=Dateien nicht auf der CD-ROM gefunden.
+WrongCd=Die erwartete Version der %s-Datei %s wurde nicht im CD-ROM Laufwerk gefunden.\n\nBitte überprüfen Sie, daß die richtige CD im Laufwerk eingelegt ist.
+MissingInstallerFile=Installationsdatei nicht gefunden
+MissingReferenceFile=Referenzdatei nicht gefunden
+MissingSourceFile=Quelldatei nicht gefunden
+FailedOpenSource=Konnte Quelldatei nicht öffnen
+FailedOpenDest=Konnte Zieldatei nicht öffnen
+FailedReadingSource=Konnte Quelldatei nicht lesen
+FailedWritingDest=Konnte Zieldatei nicht schreiben
+FailedLoadingUpdate=Konnte Update-Datei nicht laden
+FailedReadingReference=Konnte Referenzdatei nicht lesen
+FailedClosingSource=Konnte Quelldatei nicht schließen
+FailedClosingDest=Konnte Zieldatei nicht schließen
+FailedMakeDir=Konnte Verzeichnis für Zieldatei nicht erstellen
+AdviseBadMedia=Das Medium könnten beschädigt sein. Wenn Sie von einer CD installieren, reinigen Sie diese, um Verschmutzungen zu entfernen. Überprüfen Sie Ihr CD-ROM-Laufwerk und versuchen es noch einmal.
+AdviseBadDownload=Die Update-Dateien, die Sie heruntergeladen haben, könnten beschädigt sein.
+AdviseBadDest=Das Ziellaufwerk könnte voll sein oder defekte Sektoren aufweisen.
+PatchCorrupt=Die Patch-Datei %s ist beschädigt.\n\n%s
+CdFileMismatch=Die Datei %s von der CD-ROM ist nicht die erwartete Version. Daher kann %s nicht gepatcht werden.
+FailedChangeDiscTitle=CD nicht gefunden
+FailedChangeDisc=Die erwartete %s CD %s wurde nicht im CD-Laufwerk gefunden.\n\nBestätigen Sie, daß die entsprechende CD im CD-Laufwerk ist.
+
+[General]
+Space=%i MB
+Ready=Setup ist bereit zur Installation von %s.\nDer Zielordner lautet: %s\n\nKlicken Sie auf "Installieren", um mit der Installation zu beginnen.\nKlicken Sie auf "Abbrechen", um %s nicht zu installieren.
+InstallCancel=Installation abbrechen 
+CancelPrompt=Warnung! Wenn Sie die Installation jetzt abbrechen, wird %s nicht richtig starten. Sind Sie sicher, daß Sie abbrechen wollen?
+DidCancel=Sie haben die Installation abgebrochen. Das Produkt ist nicht erfolgreich installiert worden und wird nicht korrekt laufen.
+CdDescription=Um das %s-Update zu installieren, müssen einige Dateien von der original %s-CD-ROM kopiert werden.\n\nBitte legen Sie die %s-CD-ROM in Ihr Laufwerk ein und klicken auf "Weiter". Wenn der Laufwerksbuchstabe des CD-ROM-Laufwerks falsch angegeben ist, geben Sie ihn bitte unterhalb ein.
+CdDrive=CD-ROM-Laufwerk
+NotEnoughSpaceTitle=Kann hierhin nicht installieren
+NotEnoughSpace=Auf dem Laufwerk %s ist nicht genügend Speicher vorhanden, um %s zu installieren. Bitte wählen Sie ein Laufwerk mit mehr freiem Speicher, oder brechen Sie ab, schaffen mehr Platz und versuchen es noch einmal.
+Finish=&Fertigstellen
+RebootButton=&Neustart
+ExitButton=&Ende
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play=&Spielen
+IDC_Reinstall=&Installieren
+IDC_Uninstall=&Deinstallieren
+IDC_ReleaseNotes=&Hinweise
+IDC_Web=Wheel of Time &Website
+IDC_Complete=Installation erfolgreich abgeschlossen!\nBitte legen sie CD 2 in das CD-ROM Laufwerk, wenn sie das Spiel starten.
+IDC_CompleteReboot=Installation erfolgreich abgeschlossen!\nStarten Sie den Computer vor dem Spielen neu.\nBitte legen sie CD 2 in das CD-ROM Laufwerk, wenn sie das Spiel starten.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=Sie sind im Begriff, %s auf Ihrem Rechner zu installieren.\n\nKlicken Sie auf "Weiter", um das Setup zu starten, oder klicken Sie auf "Abbrechen", um das Setup zu beenden.\n\nDie Informationen im Fenster unten enthalten Weblinks, die Sie anklicken können, um mehr Informationen zu erhalten.
+IDC_WelcomePromptUpdate=Dieses Programm wird Ihre Kopie von %s auf Version %s updaten.\n\nKlicken Sie auf "Weiter", um das Setup zu starten, oder klicken Sie auf "Abbruch", um das Setup zu beenden.\n\nDie Informationen in der Box unten enthalten Weblinks, die Sie anklicken können, um mehr Informationen zu erhalten.
+IDC_LanguagePrompt=&Sprache
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Bitte lesen Sie die folgende Lizenzbedingungen. Für die Installation dieses Programmes ist es erforderlich, daß Sie mit den Lizenzbedingungen einverstanden sind.
+IDC_LicenseQuestion=Sind Sie mit den oben genannten Lizenzbedingungen einverstanden? Klicken Sie "Annehmen" oder "Abbruch".
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Wählen Sie die Komponenten, die Sie installieren möchten. 
+IDC_ComponentsPrompt=&Komponenten:
+IDC_DiskSpaceFrame=Speicherplatz
+IDC_DescriptionFrame=Beschreibung
+IDC_SpaceRequiredMessage=Benötigt:
+IDC_SpaceAvailableMessage=Verfügbar:
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText=Wählen sie die Komponenten, die Sie deinstallieren möchten.
+IDC_ComponentsPrompt=&Komponenten:
+IDC_DependenciesFrame=Abhängigkeiten
+IDC_DependenciesText=Wenn Sie weitermachen, werden folgende Komponenten deinstalliert: %s
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=Setup wird %s in den folgenden Ordner installieren.\n\nUm in diesem Ordner zu installieren, klicken Sie auf Weiter.\n\nUm in einem anderen Ordner zu installieren, geben Sie den vollständigen Namen des neuen Ordners und den Laufwerksbuchstaben ein, zum Beispiel: C:\\Ordnername
+IDC_FolderDescriptionPatch=Setup wird die bestehende Installation von %s in den folgendem Ordner updaten.\n\nUm fortzusetzen, klicken Sie auf Weiter.\n\nWenn Sie mehr als eine Kopie installiert haben, geben Sie den vollständigen Namen des bestehenden Ordners und den Laufwerksbuchstaben ein, zum Beispiel: C:\\Ordnername
+IDC_FolderDescriptionMissing=Setup wird eine bestehende Installation von %s updaten.\n\nGeben Sie den vollständigen Namen des bestehenden Ordners und den Laufwerksbuchstaben ein, zum Beispiel: C:\\Ordnername
+IDC_FolderHolder=Zielordner
+IDC_Browse=&Durchsuchen
+IDC_Default=&Zurücksetzen
+IDC_SpaceAvailableMessage=Speicherplatz verfügbar auf Laufwerk:
+IDC_FullSpaceRequiredMessage=Speicherplatz erforderlich für Standardinstallation:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Installiere Dateien...
+IDC_InstallingText=Installiere:
+IDC_ProgressText=Datei-Fortschritt:
+IDC_TotalText=Fortschritt gesamt:
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Deinstalliere Dateien...
+IDC_InstallingText=Verarbeitung:
+IDC_ProgressText=Datei-Fortschritt:
+IDC_TotalText=Fortschritt gesamt:
+
+[IDDIALOG_Restart]
+IDC_Restart=Installation abgeschlossen
+IDC_RestartMessage=Sie müssen Windows neu starten, um die Installation abzuschließen.
+IDC_RestartText=Bevor Sie neu starten, schließen Sie alle geöffneten Anwendungen, MS-DOS-Anwendungen eingeschlossen, und speichern Sie alle offenen Dokumente. Entfernen Sie alle Disketten, die sich noch im Laufwerk befinden. Klicken Sie dann den Button Neustarten.
+IDC_Complete=Wenn Sie Windows neu gestartet haben, ist die Installation abgeschlossen.
+IDC_Restart=&Neustarten 
+IDC_Exit=Setup &beenden
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Wheel of Time Setup
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=Dieses Produkt kann nicht an dieser Stelle installiert werden.
+IDC_FailedMessage=Für dieses Produkt muß das folgende Produkt zuerst in den Ordner installiert werden. Bitte suchen Sie den bestehenden Ordner, oder brechen Sie ab und installieren das benötigte Produkt jetzt.\n\nFür zusätzliche Informationen können Sie unten auf den Weblink klicken. 
+IDC_ProductHolder=Produkt benötigt
+
+[IDDIALOG_FailedChangeDisc]
+IDC_FailedChangeDisc=Dieses Produkt kann nicht an dieser Stelle installiert werden.
+IDC_FailedMessage=Für dieses Produkt muß das folgende Produkt zuerst in den Ordner installiert werden. Bitte suchen Sie den bestehenden Ordner, oder brechen Sie ab und installieren das benötigte Produkt jetzt.\n\nFür zusätzliche Informationen können Sie unten auf den Weblink klicken. 
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Produkt
+IDC_ProductText=Produkt:
+IDC_VersionText=Version:
+IDC_DeveloperText=Entwickler:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=Hiermit deinstallieren Sie folgende Komponenten:
+IDC_UninstallQuestion=Sind Sie sicher, daß Sie diese Komponenten entfernen möchten?
+
+[IDDIALOG_FilerPageChangeDisc]
+IDC_ChangeDisc=Legen Sie bitte %s %s ein
+IDC_FolderHolder=Quellverzeichnis
+

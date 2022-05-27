@@ -1,0 +1,268 @@
+[AngrealInvLightGlobe]
+Title=Esfera de luz
+Description=La activación del ter'angreal teje una simple esfera de luz. La esfera te acompaña hasta que una activación posterior la libera.
+Quote=Ella canalizaba al moverse, tejiendo una red de luz que colgaba a un lado, una esfera de blanco puro que proyectaba sombras misteriosas en la habitación.
+PickupMessage=Conseguiste el ter'angreal Esfera de luz
+
+[SwapPlacesEffect]
+SourceFailMessage=Error porque no encajas en la posición del objetivo.
+DestinationFailMessage=Error porque el objetivo no encaja en tu posición.
+
+[AngrealInvDart]
+Title=Dardo
+Description=El ter'angreal Dardo concentra el Poder Único en una débil explosión de energía. Aunque una sola carga no causa demasiado daño, el artefacto puede lanzar múltiples dardos hacia la víctima en muy poco tiempo.
+Quote=Su repentino rugido hizo saltar a Egwene. Agarrándose con una mano la nalga izquierda, cojeó en círculos a causa del dolor.
+PickupMessage=Conseguiste el ter'angreal Dardo
+
+[AngrealInvDisguise]
+Title=Disfraz
+Description=Mientras continúas activando el artefacto, un disfraz te oculta bajo la imagen de la criatura o persona más cercana.
+Quote=Su piel se estremecía ligeramente cuando canalizaba y su imagen cambiaba por un instante. Su piel se volvía cobrizo aunque apagada, sus ojos oscuros pero sin brillo.
+PickupMessage=Conseguiste el ter'angreal Disfraz
+
+[AngrealInvBalefire]
+Title=Bala de fuego
+Description=La bala de fuego lanza un chorro de luz que puede viajar a través de todo, incluso las paredes. Cualquier cosa que toque la luz se soltará de la línea del tiempo. La mayoría de los objetos y víctimas desaparecen como si nunca hubieran existido, aunque los sellos cuendillar son inmunes a este efecto. La bala de fuego primero acumula su poder (sosteniendo el botón de disparo) y luego lo libera (soltando el botón de fuego); cuanto más efecto acumule, más potencia tendrá cuando se libere.
+Quote=Algo saltó de sus manos; no estaba seguro de lo que era. Una barra de luz blanca, sólida como el acero. Fuego líquido.
+PickupMessage=Conseguiste el ter'angreal Bala de fuego
+
+[AngrealInvAirBurst]
+Title=Golpe de aire
+Description=Este golpe empuja un pequeño y veloz tejido de aire con corto alcance delante de ti. Si el soplo choca contra alguien, el tejido golpea como un martillo causando un daño importante. El artefacto repone continuamente su poder de la Fuente Única, por lo que las cargas no se agotan.
+Quote=Como si la mano de un gigante le hubiera hecho a un lado de un golpe, voló diez pasos por el aire hasta estrellarse contra las piedras.
+PickupMessage=Conseguiste el ter'angreal Golpe de aire
+
+[AngrealInvLightning]
+Title=Cadena de rayos
+Description=Mientras mantienes activada la cadena de rayo, el ter'angreal teje un aura de electricidad a tu alrededor. Al tocar a alguien en este estado se crea una unión entre tú y tu objetivo; al tocar más objetivos consigues más uniones. El rayo daña a todas las víctimas hasta que se te acaban las cargas, dejas de usarlas, te hieren o las víctimas corren lo suficientemente lejos. Cualquiera de estos tres supuestos romperán el circuito. Si se activa en el agua, la cadena de rayo afectará a todos, incluido el que la usa.
+Quote=Brillaron más rayos que levantaron gotas de pavimento hecho añicos delante de él, convirtiendo los muros del palacio de cristal descubierto en una lluvia de ruinas frente a él.
+PickupMessage=Conseguiste el ter'angreal Cadena de rayo
+ 
+[AngrealInvWhirlwind]
+FailMessage=requiere un objetivo
+Title=Torbellino
+Description=Mientras mantienes activado el torbellino, éste hace girar a tu objetivo y lo eleva por los aires en cualquier dirección que señales.
+Quote=Las hojas muertas giraban en el aire y las ramas se movía a gran velocidad, como si un demonio de polvo corriera por la línea que ella señalaba.
+PickupMessage=Conseguiste el ter'angreal Torbellino
+
+[AngrealInvTracer]
+Title=Indicador
+Description=El indicador crea un tejido que busca el sello más cercano, dejando tras de sí una estela brillante. Después de poco tiempo, la estela desaparece lentamente.
+Quote=Rodando sobre su espalda, aún podía ver el resto de aquellos alambres al rojo vivo, lo suficiente para divisar el tejido de Fuego y Aire de una forma que el no conocía. Suficiente para divisar exactamente la dirección por la que habían venido.
+PickupMessage=Conseguiste el ter'angreal Indicador
+
+[AngrealInvDistantEye]
+Title=Ojo lejano
+Description=La activación del Ojo lejano fija su posición. Cuando se deja caer el ter'angreal, éste @olvida@ su posición inicial. Tras la colocación, la activación posterior te permite ver a través del Ojo, ver todo lo que él vea, mientras permaneces quieto. La invocación del Ojo mientras lo usas, dispara una lluvia de dardos en cualquier dirección a la que apuntas el ojo. El ojo flotante es frágil y puede ser destruido fácilmente.
+Quote=Como si pensar en las rarezas provocara a uno de ellos, un pedazo de cielo junto a las montañas se oscureció de pronto, convirtiéndose en una ventana a algún otro sitio.
+PickupMessage=Conseguiste el ter'angreal Ojo lejano
+
+[AngrealInvWallOfAir]
+FailMessage=requiere un objetivo
+Title=Severo
+Description=Este ter'angreal levanta una barrera entre tu objetivo y tú. Dura poco tiempo, a menos que sigas activando el artefacto. Esta barrera desenreda cualquier tejido que lo golpea.
+Quote=Con la espada en alto, sus largas piernas le llevaban por delante de ella y su capa cambiaba de color y flotaba tras él mientras cargaba. De pronto fue como si chocara contra un muro invisible de piedra, se recuperara y tratara de tambalearse hacia delante de nuevo.
+PickupMessage=Conseguiste el ter'angreal Siervo
+
+[AngrealInvFork]
+Title=Horquilla
+Description=La horquilla levanta un escudo que dura poco tiempo. Aunque los tejidos del artefacto que penetran este escudo continúan afectándote, se lanza un ataque doble de vuelta al originador.
+Quote=Cerrando su puño con fuerza, Egwene golpeó a la mujer tan fuerte como pudo, justo en su ojo, y ella se tambaleó y cayó de rodillas, con la cabeza zumbándole. Era como si un hombre enorme le hubiera pegado en la cara.
+PickupMessage=Conseguiste el ter'angreal Horquilla
+
+[AngrealInvReflect]
+Title=Reflejar
+Description=Durante poco tiempo, te rodea con un escudo que devuelve cualquier tejido que lo golpea a su autor. A ti no te afecta el ataque.
+Quote=Cuando lo agarró con la mano, el Poder se agitó dentro de ella, hacia el interior de la medio figura y luego de vuelta hacia ella, hacia la figura y de vuelta, hacia ella y de vuelta.
+PickupMessage=Conseguiste el ter'angreal. Reflejar
+
+[AndilayRoot]
+Title=Raiz Andilay
+Description=Ninguna
+Quote=Ninguna
+PickupMessage=Encontraste una raíz Andilay
+
+[AngrealInvHeal]
+Title=Curar
+Description=Este ter'angreal aumenta tu salud un poco con cada activación.
+Quote=Un frío le recorrió todo el cuerpo, no la ráfaga fría de Curación completa, sino un frío que producía cansancio cuando pasaba.
+PickupMessage=Conseguiste el ter'angreal Curar
+
+[AngrealInvShift]
+Title=Desplazamiento
+Description=El Desplazamiento te mueve de forma instantánea unos pocos pasos por delante de tu posición actual, a través de todos los obstáculos, siempre que el punto de destino está despejado. Todos los tejidos que en este momento te persigan pierden su objetivo.
+Quote=Para Viajar no necesitabas en absoluto conocer un sitio, si sólo tratabas de recorrer una distancia muy corta.
+PickupMessage=Conseguiste el ter'angreal Desplazamiento
+
+[AngrealInvLevitate]
+FailMessage=no se puede usar en el molino
+Title=Levitar
+Description=Mientras mantienes activado Levitar, flotas un poco por encima del suelo. Sin embargo, no se trata de volar; un delgado tejido de aire amortigua tu descenso.
+Quote=De pronto se elevó por el aire y también Elayne; se miraron fijamente, los ojos muy abiertos, mientras flotaban un par de cuartas por encima de la alfombra.
+PickupMessage=Conseguiste el ter'angreal Levitar
+
+[AngrealInvShield]
+Title=Escudo personal
+Description=El Escudo personal te rodea con un tejido que debilita todos los ataques dañinos, internos o externos. Su efecto es permanente, aunque puede desgastarse con los ataques mencionados. La activación posterior repone la fuerza del escudo.
+Quote=Rand recogió a saidin y canalizó mientras volaba hacia él; golpeó a Aire, una masa azul plateado colgando sobre la calle, con un sonido metálico cómo el de dos metales cuando chocan.
+PickupMessage=Conseguiste el ter'angreal de Escudo personal
+
+[AngrealInvIllusion]
+Title=Ilusión personal
+Description=La Ilusión personal teje tu imagen delante de ti, una copia etérea de ti, y la deja allí para engañar a los demás, en especial a los enemigos muy sensibles a la magia como Mashadar o Machin Shin. Aunque no sea sólida, esta imagen puede ser el objetivo de ataque de otros tejidos. Se disipa después de un tiempo.
+Quote=Una imagen comenzó a materializarse... Él luchó por imaginarse a sí mismo en su propia mente, por conseguir la imagen que veía cada mañana en el espejo cuando se afeitaba, la que veía en el espejo del vestidor.
+PickupMessage=Conseguiste el ter'angreal Ilusión personal
+
+[AngrealInvMinion]
+LimitWarning=Ya tienes un Secuaz bajo control.
+Title=Secuaz
+Description=El ter'angreal Secuaz llama a un @gruñido@ o soldado del tipo que tu ordenes.
+Quote=Los Trollocs saltaron del aire, enormes siluetas bestiales y rostros sin ojos distorsionados por la furia por matar, espadas como guadañas y hojas de mortal acero negro en busca de su sangre.
+PickupMessage=Conseguiste el ter'angreal Secuaz
+
+[AngrealInvGuardian]
+LimitWarning=Ya tienes un Guardián bajo control.
+Title=Guardian
+Description=Este ter'angreal llama a un capitán del tipo que ordenes.
+Quote=A su alrededor el polvo hacía ondas y temblaba más denso que nunca, juntándose y arremolinándose. De pronto, justo delante de ellos, se erigió una figura en la taza de una fuente seca, una sólida figura de hombre, oscura y sin rasgos distintivos, con dedos como garfios afilados.
+PickupMessage=Conseguiste el ter'angreal Guardián
+
+[AngrealInvChampion]
+LimitWarning=Ya tienes un Campeón bajo control.
+Title=Campeón
+Description=Este ter'angreal llama a la criatura más fuerte bajo tu mando, extremadamente poderosa, pero también muy impetuosa.
+Quote=Fue Thom Merrilin quien le contestó con voz ronca. @en la guerra que había puesto fin a la Edad de las Leyendas se crearon bestias peores que los Trollocs y los Mediohombres.@
+PickupMessage=Conseguiste el ter'angreal Campeón
+
+[AngrealInvAbsorb]
+Title=Absorber
+Description=Absorber teje un escudo a tu alrededor que dura poco tiempo. Si lo golpea un tejido de otro ter'angreal, arrebata el artefacto de manos de su dueño y lo añade a tu inventario.
+Quote=@¿Cómo hiciste...?@ Dijo Elayne maravillada. @Las corrientes tan sólo... desaparecieron.@
+PickupMessage=Conseguiste el ter'angreal Absorber
+
+[AngrealInvDecay]
+FailMessage=requiere un objetivo
+Title=Decadencia
+Description=Durante algún tiempo, la Decadencia vacía lentamente tanto la salud del objetivo como la carga de todos los artefactos que lleva.
+Quote=No morirían enseguida; incluso vivirían para conseguir pasar los muros de la ciudad. Lo suficiente para que la muerte estuviera lo suficientemente lejos de aquí como para no asustar al siguiente Myrddraal que llegara.
+PickupMessage=Conseguiste el ter'angreal Decadencia
+
+[AngrealInvEarthShield]
+Title=Escudo de Tierra
+Description=Este escudo forma una barrera protectora que te protege de todos los tejidos basados en la tierra o de peligros ambientales.
+Quote=No parecía sentir el ataque de la tierra desde todos los ángulos. Nunca perdía el equilibrio, por muchas sacudidas que recibiera.
+PickupMessage=Conseguiste el ter'angreal Escudo Tierra
+
+[AngrealInvEarthTremor]
+Title=Temblor de Tierra
+Description=Este ter'angreal lanza un tejido concentrado de potencia terrestre. Cualquier superficie que toque estalla con un temblor violento, extremadamente peligroso para cualquiera que quede atrapado dentro.
+Quote=Ahora el suelo vibraba, ondulando hacia los Trollocs como olas en una charca, ondas que crecieron cuando corrían, rodando hacia ellos. Los Trollocs cayeron a montones por la lejana ladera, dando tumbos por la violencia de la tierra.
+PickupMessage=Conseguiste el ter'angreal Temblor de Tierra
+
+[AngrealInvExpWard]
+Title= Carga explosiva
+Description=Mientras miras directamente hacia una superficie plana, la activación de este ter'angreal fija una carga explosiva sobre ella. Cuando se camina cerca de él o se le golpea con un proyectil, este despliega una explosión de tierra.
+Quote=La tierra delante de él hizo erupción con un rugido, formando una estrecha fuente de lodo y rocas más alta que su cabeza.
+PickupMessage=Conseguiste el ter'angreal Carga explosiva
+
+[AngrealInvFireball]
+Title=Bola de fuego
+Description=El ter'angreal Bola de fuego lanza un concentrado tejido de fuego. Hace explosión cuando es alcanzado por el impacto de cualquier cosa, excepto el agua, que la hace entrar en efervescencia.
+Quote=Una bola de fuego del tamaño de una cabeza relampagueó calle abajo tras hacia ella. Saltó hacia atrás justo antes de que explotara contra la esquina donde había estado su propia cara, lloviéndole trocitos de piedra.
+PickupMessage=Conseguiste el ter'angreal Bola de fuego
+
+[AngrealInvRemoveCurse]
+Title=Desenmarañar
+Description=Durante poco tiempo, destruye instantáneamente cualquier tejido que te afecte en ese momento o que se encuentre dentro de una área pequeña a tu alrededor. Todos los efectos, trampas tejidas o proyectiles dentro de este radio simplemente desaparecen. Naturalmente, mientras Desenmarañar esta funcionando no puedes activar más artefactos.
+Quote=Algo interrumpió sus tejidos; se rompieron con tanta fuerza que gritó.
+PickupMessage=Conseguiste el ter'angreal Desenmarañar
+
+[AngrealInvSeeker]
+FailMessage=requiere un objetivo
+Title=Buscador
+Description=El Buscador lanza un proyectil explosivo hacia un objetivo, ganando velocidad hasta dar con él. A menos que sea devuelto, el Buscador explotará con el impacto.
+Quote="Era como si los relámpagos de todas las tormentas del mundo se congregaran en la cabeza de un Trolloc.  Podía sentir que los Trollocs y los Mydrdraals se morían, sentir que los relámpagos los alcanzaban y los mataban.  Los podía matar en cualquier lugar, en cualquier lugar del mundo.  Los relámpagos desvanecieron y se apagaron con los últimos Engendrados de la Sombra; la masa explotó con un gran golpe de aire."
+PickupMessage=Conseguiste el ter'angreal Buscador
+
+[AngrealInvTaint]
+FailMessage=requiere un objetivo
+Title=Infección
+Description=Todos los ter'angreal en posesión del objetivo quedan infectados permanentemente (a menos que les afecte los artefactos de Desenmarañar o Desenmarañar de Auras). Los artefactos infectados causarán daño al que los use; los más potentes producen más daño.
+Quote=@Es defectuoso,@ replicó secamente, @carece del tope que hace el uso otros ter'angreal seguros. Y parece que aumenta la infección, induciendo a la locura de la mente.@
+PickupMessage=Conseguiste el ter'angreal Infección
+
+[AngrealInvWaterShield]
+Title=Escudo de agua
+Description=El escudo de agua forma una barrera protectora que impide que todos los tejidos basados en el agua o los peligros ambientales te afecten.
+Quote=El agua se sulfuró, tirándolo con violencia. No le quedaba aliento. Trató de pensar en aire, o en agua convirtiéndose en aire. De pronto ocurrió.
+PickupMessage=Conseguiste el ter'angreal Escudo de agua
+
+[AngrealInvAirShield]
+Title=Escudo de aire
+Description=Forma una barrera protectora que te protege de todos los tejidos basados en el aire o de los peligros ambientales.
+Quote=De repente, el aire a su alrededor se convirtió en hollín sofocante, obstruyendo su nariz, cortando su respiración, pero él lo convirtió de nuevo en aire fresco, en una fresca neblina.
+PickupMessage=Conseguiste el ter'angreal Escudo de aire
+
+[AngrealInvAMA]
+Title=Desenmarañar de Auras
+Description=Inmediatamente después de que se coloque el ter'angreal, cualquiera que pase cerca, así como los proyectiles que golpean la caja, lo hará funcionar. Durante algún tiempo, el aura alrededor del artefacto actúa como una zona muerta: los artefactos no se activan, los efectos activos en ese momento desaparecen y los tejidos que lanzados dentro de esta zona se disipan. Los escudos no sirven contra ella, a excepción de la Bola de fuego.
+Quote=Alargó la mano a saidin y no encontró nada. Él no estaba protegido; podría haberla sentido y, tras un tiempo, haber entendido la forma de trabajar a su alrededor o romperla, si no era demasiado fuerte. Fue como si le hubieran cortado. El shock lo dejó petrificado en el sitio.
+PickupMessage=Conseguiste el ter'angreal Desenmarañar de Auras
+
+[AngrealInvFireShield]
+Title=Escudo de fuego
+Description=Este escudo forma una barrera protectora que evita que todos los tejidos basados en el fuego o los peligros ambientales te afecten.
+Quote=Llenó el pasillo alrededor de él con fuego, de un muro a otro y desde al suelo hasta el techo... un fuego tan caliente que hasta la misma piedra humeaba. Un latido, menos y él estaba de pie dentro de la llama, pero rodeado de aire transparente. Cada fragmento de saidar que ella podía canalizar iba directo a ese infierno, pero él lo mantenía a raya.
+PickupMessage=Conseguiste el ter'angreal Escudo de fuego
+
+[AngrealInvSoulBarb]
+FailMessage=requiere un objetivo
+Title=Dardo del alma
+Description=Durante un breve espacio de tiempo, el blanco de este dardo sufre daños dondequiera que active un artefacto, los artefactos más potentes infligen más daño.
+Quote=La agonía dentro de su pecho, como si su corazón estuviera a punto de explotar, en su cabeza, clavos incandescentes penetrando en su cerebro, un dolor tan fuerte que incluso en el Vacío quería gritar.
+PickupMessage=Conseguiste el ter'angreal Dardo del alma
+
+[AngrealInvSwapPlaces]
+FailMessage=requiere un objetivo
+Title=Intercambiar posiciones
+Description=Este ter'angreal cambia tu posición por la de tu objetivo. También engaña a todos los tejidos que en ese momento te persiguen, para que sigan a tu objetivo y viceversa.
+Quote=La sensación de movimiento, de su piel tratando de arrastrarse, no se alejó.
+PickupMessage=Conseguiste el ter'angreal Intercambiar posiciones
+
+[AngrealInvTarget]
+Title=Encontrar objetivo
+Description=Por un breve período, todos los tejidos buscadores apuntan a la víctima más cercana, indiferentes a la línea visual.
+Quote=Con el Poder tuviste que ver algo que le afectara, o conocer exactamente su posición respecto a la tuya. Quizás fue diferente aquí...
+PickupMessage=Conseguiste el ter'angreal Encontrar objetivo
+
+[AngrealInvIce]
+FailMessage=requiere un objetivo
+Title=Helar
+Description=El ter'angreal envuelve su objetivo con un tejido de agua congelado, imposibilitando el movimiento durante el poco tiempo que el hielo se está derritiendo.
+Quote=Los hombres y Myrddraal se endurecieron en el sitio. La capa de escarcha blanca sobre ellos se hizo gruesa, una escarcha que humeaba. El brazo alzado del Myrddraal se separó con un gran crujido. Cuando golpeo las losetas del suelo, el brazo y la espada se hicieron añicos.
+PickupMessage=Conseguiste el ter'angreal Helar
+
+[AngrealInvSpiritShield]
+Title=Escudo de espíritu
+Description=Este escudo forma una barrera protectora que te protege de todos los tejidos basados en el espíritu o de los peligros ambientales.
+Quote=Con toda su fuerza, Nynaeve tejió un escudo de Espíritu y lo lanzó entre saidar y la otra mujer. Trataba de lanzarlo en medio; era como intentar talar un árbol con un hacha de papel.
+PickupMessage=Conseguiste el ter'angreal Escudo de espíritu
+
+[AngrealInvTrapDetect]
+Title=Detectar trampa
+Description=Este artefacto hace que las trampas alrededor sean muy evidentes durante algún tiempo, tanto si son trampas de tejidos del Poder Único como si son convencionales. Cuando te acercas a una trampa, tu corazón se acelera pero, más importante, cualquier trampa dentro de tu campo de visión brilla con una señal visual que sirve para identificar su posición y función. Esta señal muestra sólo la trampa más cercana; se recomienda rastrear la zona para descubrir más.
+Quote=Había algo cosido en la barrera de columnas destrozadas. Se ajustó el escudo alrededor. Cuando alcanzó a escalar, explotaron grandes trozos desplomados de piedra blanca y roja, un estallido de luz pura y piedras volando.
+PickupMessage=Conseguiste el ter'angreal Detectar trampas
+
+[AngrealInvSpecial]
+Title=Desconocido
+Description=No está claro como usar este artefacto, ni lo que hace. La investigación rápida no revela nada.
+Quote=Este tipo de cosas requieren estudio.
+PickupMessage=Conseguiste un ter'angreal desconocido
+
+[AngrealInvFireworks]
+Title=Fuegos artificiales
+Description=
+Quote=
+PickupMessage=Conseguiste el ter'angreal de Fuegos artificiales
+

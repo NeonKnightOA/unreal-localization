@@ -1,0 +1,693 @@
+[General]
+Start=Wheel of Time (Starting)
+Exit=Wheel of Time (Exiting)
+Run=Wheel of Time (Running)
+Product=Wheel of Time
+
+[BattleInfo]
+EditingStr="Editing"
+PlayingStr="Playing"
+ReadyStr="Ready"
+WaitingStr="Waiting"
+
+[Windows]
+PlayCommand=&Play this Wheel of Time level
+EditCommand=&Edit with WOTEd
+
+[AngrealInventory]
+FailMessage=failed
+PickupMessage=You found a ter'angreal
+
+[ArenaScoreBoard]
+ElapseText="Elapsed Time: "
+RemainText="Remaining Time: "
+Description[0]="Time"
+Description[1]=""
+Description[2]="Name"
+Description[3]="Ping/PL"
+Description[4]="Kills/Deaths/Suicides"
+Description[5]="Score"
+
+[CitadelScoreBoard]
+NumSealsText="Number of seals to win"
+VictoryText="Victory goes to"
+
+[CitadelTeamOverview]
+Description[0]="Team"
+Description[1]=""
+Description[2]="Players(Max)"
+Description[3]="Status"
+Description[4]=""
+Description[5]=""
+BeginBattleStr="Press @Fire@ to begin play"
+
+[WOTPlayer]
+SelectedStr="Selected the "
+TerAngrealStr=" ter'angreal "
+InventoryInfoHitStr="Press F2 for information on the item which you just picked up"
+CantChangeTeamsStr="Can't change teams while editing"
+TeleportProhibitedEditingStr="Teleporting is prohibited while editing."
+TeleportProhibitedJoinStr="Teleporting is prohibited until you join a team and begin the battle."
+WaitingForSealsStr="Waiting for opponents to place their seals."
+WaitingForEditStr="Waiting for opponents to finish editing."
+CantEditLevelStr="Citadel Editing is not supported in this level."
+CantEditZoneStr="You can't edit in this area."
+CantEditAreaStr="Your team doesn't control this area."
+CantEditNowStr="Editing is not allowed once the battle has begun..."
+CantEditBudgetStr="You can't edit now...."
+CantEditLimitStr="Your team editing limit has been reached."
+CantPlaceResourceStr="ServerSpawn(): Unable to Deploy "
+CantLeaveEditorStr="You may not leave the editor yet."
+
+[giMPBattle]
+BattleBeginStr="Let the battle begin..."
+TeamIsYoursStr="You're already on team "
+TeamIsFilledStr="You may not join -- players have already filled team "
+PlayerJoinTeamStr=" is playing on the side of the "
+PlayerLeaveTeamStr=" has entered the game."
+
+[BattleHUD]
+SelectTeamStr="Select Team:"
+TimeLimitStr=" in "
+SecondsStr=" seconds"
+
+[menuLong]
+VeryLowText=Very Low
+LowText=Low
+MediumText=Medium
+HighText=High
+OnText=On
+OffText=Off
+
+[giWOT]
+DeathConjunction=" was killed by "
+SuicideConjunctionMale=" weaved himself from the pattern"
+SuicideConjunctionFemale=" weaved herself from the pattern"
+AccidentConjunctionMale=" has been removed from the pattern"
+AccidentConjunctionFemale=" has been removed from the pattern"
+
+[giCombatBase]
+GlobalNameChange=" changed name to "
+NoNameChange=" is already in use"
+
+[SealAltar]
+CaptureNotificationStr=" captured a seal."
+
+[Seal]
+Title=Cuendillar Seal
+Description=Although this appears to be no more than a stone disc, perhaps a hand-span across, it is actually a cuendillar artifact from the Age of Legends.  It represents a focus point for the actual seals holding closed the Dark One's prison at Shayol Ghul.  If someone holds four of these at once and understands how to manipulate them, they can affect the prison of the Dark One--possibly releasing the Dark One, or shutting him away.
+Quote=She took something from her pouch and laid it on the table before her.  It was a disc the size of a man's hand, seemingly made of two teardrops fitted together, one black as pitch, the other white as snow.
+PickupMessage=You got the seal
+PossesionChangeStr=Your seal has been taken.
+
+[SealInventory]
+Title=Cuendillar Seal
+Description=Although this appears to be no more than a stone disc, perhaps a hand-span across, it is actually a cuendillar artifact from the Age of Legends.  It represents a focus point for the actual seals holding closed the Dark One's prison at Shayol Ghul.  If someone holds four of these at once and understands how to manipulate them, they can affect the prison of the Dark One--possibly releasing the Dark One, or shutting him away.
+Quote=She took something from her pouch and laid it on the table before her.  It was a disc the size of a man's hand, seemingly made of two teardrops fitted together, one black as pitch, the other white as snow.
+
+[menuConfiguration]
+HelpMessage[1]=Adjust display brightness using the left and right arrow keys.
+HelpMessage[2]=Display Wheel of Time in a window. Note that going to a software display mode may remove details that were visible with hardware acceleration.
+HelpMessage[3]=Use the left and right arrows to select a resolution.  Press enter to confirm this selection.
+HelpMessage[4]=Open advanced preferences configuration menu.
+HelpMessage[5]=Disable VSync to maximize frame rate.  This setting may cause visible tearing due to refresh/redraw interference and is not supported by all cards.
+HelpMessage[6]=Use the left and right arrows to select from predefined detail settings.  Some changes will take effect after entering a new level.
+HelpMessage[7]=Select medium detail textures to improve performance. Changes to this setting will take effect immediately.
+HelpMessage[8]=Disable detail textures to improve performance. Changes to this setting will take effect immediately.
+HelpMessage[9]=Select low detail geometry to improve performance. Changes to this setting will take effect immediately.
+HelpMessage[10]=Reduce decoration detail level to improve performance. Changes to this setting will take effect after entering a new level.
+HelpMessage[11]=Reduce the maximum number of decals to improve performance. Changes to this setting will take effect immediately.
+HelpMessage[12]=Reduce the particle density to improve performance. Changes to this setting will take effect immediately.
+HelpMessage[13]=Disable volumetric lighting (fog) to improve performance. Changes to this setting will take effect immediately.
+HelpMessage[14]=Select low sound quality to improve performance. Changes to this setting will take effect after entering a new level.
+HelpMessage[15]=Adjust the volume of sound effects and music in the game using the left and right arrow keys.
+HelpMessage[16]=Adjust the volume of the music using the left and right arrow keys.
+HelpMessage[17]=Enable in-game music. Changes to this setting will take effect after entering a new level.
+MenuList[1]=Brightness
+MenuList[2]=Toggle Fullscreen Mode
+MenuList[3]=Select Resolution
+MenuList[4]=Advanced Options
+MenuList[5]=VSync
+MenuList[6]=Master Detail Control
+MenuList[7]=Texture Detail
+MenuList[8]=Detail Textures
+MenuList[9]=Geometry Detail
+MenuList[10]=Decoration Detail
+MenuList[11]=Max Number of Decals
+MenuList[12]=Particle Density
+MenuList[13]=Volumetric Lighting
+MenuList[14]=Sound Quality
+MenuList[15]=Master Volume
+MenuList[16]=Music Volume
+MenuList[17]=Play Music
+MenuTitle=HARDWARE
+NotApplicableStr=N/A
+
+[menuServers]
+EditList[0]=Name for Server:
+EditList[1]=Address:
+HelpMessage[1]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[2]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[3]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[4]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[5]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[6]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[7]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[8]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[9]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[10]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[11]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+HelpMessage[12]=Hit enter to go to this server.  Hit the right arrow key to edit this entry.
+MenuTitle=FAVORITES
+
+[ViewCam]
+PickupMessage=ViewCam installed
+ItemName=ViewCam
+
+[menuOptions]
+HelpMessage[1]=Hit enter to customize keyboard, mouse, and joystick configuration.
+HelpMessage[2]=Invert the mouse Y axis.  When true, pushing the mouse forward causes you to look down rather than up.
+HelpMessage[3]=Adjust the mouse sensitivity.  Higher values indicate that smaller mouse movements produce greater effects in the game.
+HelpMessage[4]=If true, the mouse is always used to change orientation, with no need for a MouseLook key.
+HelpMessage[5]=If true, when not MouseLooking, your view will automatically be adjusted to look up and down slopes and stairs.
+HelpMessage[6]=If true, when you let go of the MouseLook key, the view will automatically center itself.
+HelpMessage[7]=Choose the crosshair located in the center of your screen.
+HelpMessage[8]=Adjust the amount that your view will bob when walking or running.
+HelpMessage[9]=Toggle enabling of joystick.
+HelpMessage[10]=Use the left and right arrows to adjust the level of gore. Changes to this setting will take effect after entering a new level.
+MenuList[1]=Customize Controls
+MenuList[2]=Invert Mouse
+MenuList[3]=Mouse Sensitivity
+MenuList[4]=Always MouseLook
+MenuList[5]=Auto Slope Look
+MenuList[6]=LookSpring
+MenuList[7]=Crosshair
+MenuList[8]=View Bob
+MenuList[9]=Joystick Enabled
+MenuList[10]=Gore Detail
+MenuTitle=CONTROLS
+
+[menuPlayer]
+HelpMessage[1]=Hit enter to type in your name. Be sure to do this before joining a multiplayer game.
+HelpMessage[2]=Change your character choice with the left and right arrow keys.
+HelpMessage[3]=Use the arrow keys to change the color of your character's clothes.
+MenuList[1]=Name:
+MenuList[2]=Character:
+MenuList[3]=Skin:
+CitadelSkinStr=Citadel Skin:
+MenuTitle=PLAYER CONFIG
+
+[menuKeyboard]
+OrString=" or "
+MenuList[1]=Fire
+MenuList[2]=Jump/Up
+MenuList[3]=Move Forward
+MenuList[4]=Move Backward
+MenuList[5]=Strafe Left
+MenuList[6]=Strafe Right
+MenuList[7]=Turn Left
+MenuList[8]=Turn Right
+MenuList[9]=Next Hand
+MenuList[10]=Previous Hand
+MenuList[11]=Drop Item
+MenuList[12]="Mouse Look"
+MenuList[13]=Look Up
+MenuList[14]=Look Down
+MenuList[15]=Center View
+MenuList[16]=Walk
+MenuList[17]=Strafe
+MenuList[18]=RESET TO DEFAULTS
+MenuTitle=CONTROLS
+
+[menuStartBattleServer]
+HelpMessage[1]=Choose number of citadels.
+HelpMessage[2]=Choose map.
+HelpMessage[3]=Set the time limit for the game.
+HelpMessage[4]=Specify whether to cycle between Citadel levels.
+HelpMessage[5]=Specify the number of kills that will end the game.
+HelpMessage[11]=To run a client and a dedicated server simultaneously, you must set this value greater than 0.
+HelpMessage[12]=Set the name of your server.
+HelpMessage[13]=Set password for remote admin privileges.
+HelpMessage[14]=Set password for restricted access to server.
+HelpMessage[15]=Start a dedicated server on this machine.
+MenuList[1]=Number of Citadels
+MenuList[2]=Select Map
+MenuList[3]=Time Limit
+MenuList[4]=Cycle Citadel Levels
+MenuList[5]=Number of Kills to Win
+MenuList[6]=Number of Seals to Win
+MenuList[7]=Seals per Citadel
+MenuList[8]=Automatic Team Selection
+MenuList[9]=Player Count Limit
+MenuList[10]=Maximum Team Size
+MenuList[11]=Max Client Framerate
+MenuList[12]=Server Name
+MenuList[13]=Admin Password
+MenuList[14]=Game Password
+MenuList[15]=Launch Dedicated Server
+MenuTitle=CITADEL SERVER
+
+[BagHolding]
+PickupMessage=You found a bag.
+
+[menuLoad]
+RestartString=Restart 
+MenuTitle=LOAD GAME
+
+[menuSlot]
+EmptySlotName=..Empty..
+SlotNames[0]=..Empty..
+SlotNames[1]=..Empty..
+SlotNames[2]=..Empty..
+SlotNames[3]=..Empty..
+SlotNames[4]=..Empty..
+SlotNames[5]=..Empty..
+SlotNames[6]=..Empty..
+SlotNames[7]=..Empty..
+SlotNames[8]=..Empty..
+MonthNames[0]=January
+MonthNames[1]=February
+MonthNames[2]=March
+MonthNames[3]=April
+MonthNames[4]=May
+MonthNames[5]=June
+MonthNames[6]=July
+MonthNames[7]=August
+MonthNames[8]=September
+MonthNames[9]=October
+MonthNames[10]=November
+MonthNames[11]=December
+
+[menuMain]
+MenuList[1]=Single Player
+MenuList[2]=Multiplayer
+MenuList[3]=Controls
+MenuList[4]=Hardware
+MenuList[5]=Replay Intro
+MenuList[6]=Credits
+MenuList[7]=Quit
+
+[menuMultiPlayer]
+HelpMessage[1]=Join a network game.
+HelpMessage[2]=Configure your player.
+HelpMessage[3]=Set up and start an Arena network game.
+HelpMessage[4]=Set up and start a Citadel network game.
+MenuList[1]=Join Game
+MenuList[2]=Player Config
+MenuList[3]=Arena Server
+MenuList[4]=Citadel Server
+
+[Key]
+PickupMessage=
+
+[menuSinglePlayer]
+HelpMessage[1]=Enter 'The Testing,' a tutorial level that will introduce you to The Wheel of Time.
+HelpMessage[2]=Start the single-player story.
+HelpMessage[3]=Press enter to load a saved game.
+HelpMessage[4]=Press enter to save the current game.
+MenuList[1]=Tutorial
+MenuList[2]=New Game
+MenuList[3]=Load Game
+MenuList[4]=Save Game
+
+[menuStartMission]
+HelpMessage[1]=Wit Congar
+HelpMessage[2]=al'Lan Mandragoran
+HelpMessage[3]=Lews Therin Telamon
+MenuList[1]=Easy
+MenuList[2]=Medium
+MenuList[3]=Hard
+
+[menuSave]
+CantSave=CAN'T SAVE WHEN DEAD
+MenuTitle=SAVE GAME
+
+[menuStartArenaServer]
+HelpMessage[1]=Choose the map.
+HelpMessage[2]=Specify the number of kills that will end the game.
+HelpMessage[3]=Set the time limit for the game.
+HelpMessage[4]=Specify whether to cycle between Arena levels.
+HelpMessage[5]=Change the maximum number of players allowed in the game.
+HelpMessage[6]=To run a client and a dedicated server simultaneously, you must set this value greater than 0.
+HelpMessage[7]=Set the name of your server.
+HelpMessage[8]=Set password for remote admin privileges.
+HelpMessage[9]=Set password for restricted access to server.
+HelpMessage[10]=Start a dedicated server on this machine.
+MenuList[1]=Select Map
+MenuList[2]=Number of Kills to Win
+MenuList[3]=Time Limit
+MenuList[4]=Cycle Arena Levels
+MenuList[5]=Player Count Limit
+MenuList[6]=Max Client Framerate
+MenuList[7]=Server Name
+MenuList[8]=Admin Password
+MenuList[9]=Game Password
+MenuList[10]=Launch Dedicated Server
+MenuTitle=ARENA SERVER
+
+[WOTUtil]
+AesSedaiClassStr=AesSedai
+ForsakenClassStr=Forsaken
+HoundClassStr=Hound
+WhiteCloakClassStr=WhiteCloak
+
+[WOTHelpInfo]
+Title=Help
+Content[0]=%f=3
+Content[1]=%s=4
+Content[2]=%c=0
+Content[3]=All keys mentioned are defaults.  Please refer to the Controls menu for more complete information and to remap important keys.
+Content[4]=%f=2
+Content[5]=%s=4
+Content[6]=%c=1
+Content[7]=Basic Movement
+Content[8]=%f=3
+Content[9]=%c=0
+Content[10]=Use the mouse to change orientation
+Content[11]=Use the cursor keys to move
+Content[12]=Space Bar:  Jump
+Content[13]=Left Mouse button:  Fire
+Content[14]=%f=2
+Content[15]=%s=4
+Content[16]=%c=1
+Content[17]=Advanced Movement (recommended)
+Content[18]=%f=3
+Content[19]=%c=0
+Content[20]=Use the mouse to change orientation
+Content[21]=W, S, A, D:  Move Forward, Move Backward, Strafe Left and Strafe Right
+Content[22]=Right Mouse button:  Jump
+Content[23]=Left Mouse button:  Fire
+Content[24]=%f=2
+Content[25]=%s=4
+Content[26]=%c=1
+Content[27]=Special Keys
+Content[28]=%f=3
+Content[29]=%c=0
+Content[30]=ESC: Summon main menu/return to game from menu
+Content[31]=T + Message: Talk, or Say @Message@
+Content[32]=G, H, J, K, L, ';' :  Character specific taunts
+Content[33]=1, 2, 3... 0: Select shown artifact in hand/select next artifact in hand
+Content[34]=[:  Select previous artifact
+Content[35]=]:  Select next artifact
+Content[36]=TAB:  One line console command--Enter or ESC to leave
+Content[37]=~:  Summon Console/Banish Console
+Content[38]=%y=325
+Content[39]=F1:
+Content[40]=%y=-1
+Content[41]=F2:
+Content[42]=F3:
+Content[43]=F4:
+Content[44]=F5:
+Content[45]=F6:
+Content[46]=%x=30
+Content[47]=%y=325
+Content[48]=Help
+Content[49]=%y=-1
+Content[50]=Research Selected Artifact
+Content[51]=Mission Information
+Content[52]=Scoreboard (Arena and Citadel Game)
+Content[53]=QuickSave
+Content[54]=QuickLoad
+Content[55]=%x=320
+Content[56]=%y=325
+Content[57]=F7:
+Content[58]=%y=-1
+Content[59]=F8:
+Content[60]=F9:
+Content[61]=F10:
+Content[62]=F11:
+Content[63]=F12:
+Content[64]=%x=350
+Content[65]=%y=325
+Content[66]=Save
+Content[67]=%y=-1
+Content[68]=Load
+Content[69]=Screenshot
+Content[70]=Edit Citadel (Citadel Game)
+Content[71]=Increase Brightness
+Content[72]=Toggle Full Screen
+SubTitle=Press F1 to proceed
+
+[InventoryInfoWindow]
+RarityCommonStr=Rarity: Common
+RarityUncommonStr=Rarity: Uncommon
+RarityRareStr=Rarity: Rare
+ChargesStr=Charges:
+EarthStr=EARTH
+AirStr=AIR
+FireStr=FIRE
+WaterStr=WATER
+SpiritStr=SPIRIT
+SubTitle=Press F2 to proceed
+
+[MissionObjectives]
+Title=Mission XX
+SubTitle=Press F3 to proceed
+
+[WOTTextWindowInfo]
+SubTitle=Press Esc to proceed
+
+[MissionObjectives01]
+Title=Bank of the Manetherendrelle
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Tar Valon gold convinced a sailor to take me down the Manetherendrelle, but drawing nearer to Shadar Logoth made him increasingly nervous.  He finally left me off, saying that this is the closest he'd come to the cursed city.
+Content[4]=     @The assassin has already been here.  He and his Trollocs left a swath of destruction in their wake; others from the Tower are bound to find it.  The Trollocs' latest victims appear to be a caravan of peace-sworn Tinkers, but I'm too late to help them.  I must try to overtake the assassin before we near the city.  What's inside scares even the shadowsworn.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Try to track down the assassin before he can reach Shadar Logoth.
+Content[9]=%s=4
+Content[10]=%b In doing so, learn to use your ter'angreal to defend yourself against his protectors, the Trollocs. 
+Content[11]=%s=4
+Content[12]=%b Research what you carry by selecting an artifact and then pressing the F2 key.
+Content[13]=%s=4
+Content[14]=%b Gather any ter'angreal you can find among the remains of the Tinkers' wagons; some caravans are suspected to carry such ancient artifacts.
+
+[MissionObjectives02]
+Title=The Streets of Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Ducking into the alcove managed to save my life, but the assassin has slipped through my grasp.  This tunnel might lead into the city, but Shadar Logoth is huge.  Finding him won't be easy.
+Content[4]=     @I'm not at all eager to enter the city anyway.  Shadar Logoth fell into ruin thousands of years ago in the battle against the Dark One, but it became something sinister: an evil apart from the shadow.  The assassin won't find any friends here, but the horrors inside await me as well.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Track the assassin through the city however you can.  
+Content[9]=%s=4
+Content[10]=%b Shadar Logoth is ancient.  The city may hold artifacts that could help to keep you alive. 
+
+[MissionObjectives03]
+Title=The Bowels of Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @The assassin has put himself in the heart of the web.  The streets of the city are deadly, the bowels are only worse.  I can't imagine what they hide, and I hope I don't find out.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b The longer the assassin evades you, the greater the chance that he will die before you regain the ter'angreal that he carries.  Find him quickly.
+Content[8]=%s=4
+Content[9]=%b Get the Amyrlin's ter'angreal back.
+
+[MissionObjectives04]
+Title=Escape from Shadar Logoth
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @The sister in charge has given command to me.  If we can survive until dawn, the city's forces will retreat and we'll be able to focus our efforts on digging through the rubble wall.  But what of those who were separated?  Should I try to rescue them, or are they dead already?@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Stay alive until dawn when the city's forces will retreat.  Then you can escape.
+Content[8]=%s=4
+Content[9]=%b In the process, you can defend yourself and your troops, attempt to gather more ter'angreal, or search for the missing sisters and warders.
+
+[MissionObjectives05]
+Title=Saving the White Tower
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @The invaders have broken through the front gate and turned the White Tower into a battlefield. Our Home Guard continues to search the countryside for the assassin.  The remaining Warders and Sisters have tried valiantly to defend the Tower, but they are outnumbered and while the gate lies open, Trollocs and Myrddraal stream inside to replace their dead.
+Content[4]=     @Although the outer gate may have been breached, there is an inner gate.  If I can reach and close it, we may have a chance to destroy the invaders already inside.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b The main gate is not near; in fact, it is located at the base of an adjoining tower.  The bridge to this tower extends from the Gallery.
+Content[9]=%s=4
+Content[10]=%b Fight your way through the Library, gain entrance to the Gallery, then cross to the adjoining tower.
+Content[11]=%s=4
+Content[12]=%b Descend to the Courtyards and make for the front gate.
+Content[13]=%s=4
+Content[14]=%b Activate the mechanism in a chamber above.  It will raise the inner gate.
+
+[MissionObjectives07]
+Title=The Vault
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @There are too many questions and no answers--and the only one who can change this is the Amyrlin.  The note she left for me in the secret compartment was comforting; evidently, she's alive and holds the remaining seal.  I hope her artifacts will lead me to her safely; I'm giving my others to sisters that I'm trusting to guard my chamber.  I am a little worried, though.  Traps designed to keep people out of a vault in the White Tower are bound to be devious, and deadly.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Invoke Tracer to discover the entrance to the Vault.
+Content[8]=%s=4
+Content[9]=%b Use Trap Detection, caution, and dexterity to keep from falling prey to the more mundane traps along the way.
+Content[10]=%s=4
+Content[11]=%b The basements store many forgotten ter'angreal.  This would be a good time to build up your arsenal for later.
+Content[12]=%s=4
+Content[13]=%b Watch for traps that use the One Power.  Ancient defenses woven into the White Tower could take any form.
+Content[14]=%s=4
+Content[15]=%b If you become lost, invoke Tracer to reveal the correct path.
+Content[16]=%s=4
+Content[17]=%b Find the Amyrlin and return the stolen ter'angreal to her.
+
+[MissionObjectives08]
+Title=The Ways
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Waygates used to connect the land.  There are many of them, and they can lead anywhere.  However, like Shadar Logoth, the Ways have corrupted into an evil independent of the Dark One.  The Black Wind will steal the soul of anyone who travels within.  I'm surprised that the assassin dares to walk its paths, but it was an ingenious way to bring an army to Tar Valon.  Now he travels the Ways again, and I must follow.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b There is a Waygate at the excavation site in the borderlands, but it is distant.  The Black Wind would find you long before you reached it.
+Content[8]=%s=4
+Content[9]=%b Use the Waygates along the path as safehouses.  Exit the Ways through them, wait as long as you can on the other side so that Machin Shin will drift away, then reenter and run to the next.  By skipping from Waygate to Waygate, you may avoid the touch of Machin Shin.
+Content[10]=%s=4
+Content[11]=%b Keep watch for fleeing Black Ajah traitors or any other shadowspawn.  Remember that Machin Shin doesn't discriminate.
+Content[12]=%s=4
+Content[13]=%b Who knows what artifacts you might find left behind by some unlucky travelers?
+Content[14]=%s=4
+Content[15]=%b Travel to the Waygate that leads to the borderlands and stay alive.
+
+[MissionObjectives10]
+Title=The Excavation
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @The expedition is gone.  The tents are here, but the people are missing.  Traces of blood lead me to suspect the worst.  From the remains, it's clear that the Children of the Light had a hand here.  Despite their animosity toward Aes Sedai, I had thought such barbarism beyond even the Whitecloaks.  Evidently, I was wrong.
+Content[4]=     @I must find and rescue the survivors, and woe to any Whitecloak in my way.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b The Whitecloaks have a fortress nearby.  If any Aes Sedai remain alive as prisoners, that is their likely location.
+Content[9]=%s=4
+Content[10]=%b The excavation site may hold some ancient ter'angreal.  Find and use them to enter the Whitecloaks' fortress.
+Content[11]=%s=4
+Content[12]=%b Search for the dungeons inside to discover what happened to the expedition.
+
+[MissionObjectives12]
+Title=The Dungeons of the Whitecloaks
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @Before she died, Cerist told me that the survivors of the expedition were heading for the nearby portal stone in their attempt to escape.  I believe I saw this stone in front of the fortress.  If I can reach it, I might be able to follow them.
+Content[4]=     @These Whitecloaks have declared war on the White Tower and forsworn the Light with their actions.  I'm leaving this place, and no 'Child of the Light' is going to stop me!@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b The Whitecloaks have been gathering ter'angreal from the excavation site for some time.  Obtain as many as you can to defend yourself.
+Content[9]=%s=4
+Content[10]=%b Find the hidden cache of ter'angreal that Cerist referred to, in a secret chapel off of the throne room.
+Content[11]=%s=4
+Content[12]=%b With these artifacts, fight your way free of the Whitecloak fortress and make your way to the portal stone, in the hope that you can follow the path of the lost expedition's surviving members.
+
+[MissionObjectives15]
+Title=The Fortress of the Forsaken
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @My passage through the portal stone world was but a blur, a hazy dream, and I have no idea how much time has passed.  I used the only symbol on the stone that had been cleared, so if the expedition came through it, they must have come here.
+Content[4]=     @From the surroundings, I'd say that this stone is located in the Mountains of Mist.  That's not surprising given that the Mountains are home to a number of ancient ruins.  However, according to the assassin, Ishamael built his fortress here.  Likely the forces of the Forsaken captured my expedition.  I just hope that's all they did.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Your expedition can't seem to stay out of trouble.  Find the Fortress of the Forsaken--their likely location--then look for a way in.
+Content[9]=%s=4
+Content[10]=%b Be wary of the Forsaken's forces, including many previous allies: the powerful Black Ajah sisters.
+Content[11]=%s=4
+Content[12]=%b Once inside, search for the dungeons.  Free your allies, if you can.
+
+[MissionObjectives16]
+Title=The Dungeons of the Forsaken
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @We have a little time, but we are going to be hopelessly outnumbered.  Trollocs always hunt down the easiest prey; those convalescing in the dungeons are in the most danger.  I have to protect them and figure out a way to compensate for our lack of numbers.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b You have a short time before the guards appear.  Use it to look for any artifacts that the survivors might have hidden in their cells, then familiarize yourself with the surrounding area.
+Content[8]=%s=4
+Content[9]=%b Guards with orders to kill the wounded prisoners will arrive in increasingly tougher waves and head for the dungeons using the most direct open path.  By closing the portcullises in the rotunda, you can limit their options.
+Content[10]=%s=4
+Content[11]=%b Don't rely solely on your offensive artifacts to defeat the guards.  You must use features of the environment to overcome the odds.  
+Content[12]=%s=4
+Content[13]=%b Keep as many of the survivors alive as possible.  If you lose five of them, or if the Sitter is killed, you will have failed.
+
+[MissionObjectives17]
+Title=The Inner Sanctum
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @I want revenge against Sephraem more than I'm willing to admit, but I must stay focused on the stolen seal.  I'm not sure what Ishamael plans to do with it, but the possibilities are terrifying.  I'll find the seal and, if I happen to run into the traitor Sephraem along the way, so be it.@
+Content[4]=%d=2
+Content[5]=%f=3
+Content[6]=%c=0
+Content[7]=%b Find and take back the stolen seal.
+Content[8]=%s=4
+Content[9]=%b In doing so, search for any information you can find about the Forsaken's plans.
+Content[10]=%s=4
+Content[11]=%b Escape with your life.  This is not going to be easy.
+
+[MissionObjectives18]
+Title=Gathering the Seals
+Content[0]=%f=2
+Content[1]=%s=8
+Content[2]=%c=0
+Content[3]=     @My course is clear:  I must gather four seals before any of my enemies does the same.  Their plans for the seals are unthinkable.  Most likely I'll have to steal the seals from the others' well-guarded citadels, but I suppose the Hound did me a favor in leveling the field.  No one can channel; we all depend on whatever ter'angreal we can find.  That gives me an edge.
+Content[4]=     @The Creator willing, I shall succeed.  For the sake of the world, I must.@
+Content[5]=%d=2
+Content[6]=%f=3
+Content[7]=%c=0
+Content[8]=%b Enter your private chambers and grab your store of ter'angreal.
+Content[9]=%s=4
+Content[10]=%b Travel through the portal stone into the world beyond.
+Content[11]=%s=4
+Content[12]=%b Gather as many ter'angreal as you can find.
+Content[13]=%s=4
+Content[14]=%b Use the healing altar in the portal stone world when necessary.
+Content[15]=%s=4
+Content[16]=%b Travel through each of the other portal stones in turn and infiltrate the citadels on the other side.
+Content[17]=%s=4
+Content[18]=%b Steal the seal contained in each.
+Content[19]=%s=4
+Content[20]=%b Bring the seals back and place them on the altar in your throne room.
+Content[21]=%s=4
+Content[22]=%b Continue until you have four seals on your altar.
+Content[23]=%s=4
+Content[24]=%b Save the world.
+
+[WOTTransitionMap]
+LoadMessage=Loading
+
+[WOTTransitionMapInfo00]
+NextText=Bank of the Manetherendrelle
+
+[WOTTransitionMapInfo04]
+NextText=The White Tower
+
+[WOTTransitionMapInfo08a]
+NextText=The Blight
+
+[WOTTransitionMapInfo08c]
+NextText=The Excavation
+
+[WOTTransitionMapInfo12b]
+NextText=The Mountains of Mist
+
+[WOTTransitionMapInfo17]
+NextText=The White Tower

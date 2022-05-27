@@ -1,0 +1,184 @@
+[Public]
+
+[ServerListTitles]
+UBrowserUT=WOT-Server
+UBrowserLAN=LAN-Server
+UBrowserPopulated=Beliebte Server
+UBrowserDeathmatch=Deathmatch
+UBrowserTeamGames=Team Deathmatch
+UBrowserCTF=Capture the Flag
+UBrowserDOM=Herrschaft
+UBrowserAS=Überfall
+UBrowserLMS=Last Man Standing
+UBrowserAll=Alle Server
+
+[UBrowserServerListWindow]
+InfoName=Info
+PlayerCountName=Spieler
+ServerCountName=Server
+QueryServerText=Stelle Anfrage an Master-Server
+QueryFailedText=Master-Server fehlerhaft: 
+PingingText=Pinge Server an
+CompleteText=Abgeschlossen
+
+[UBrowserIRCSystemPage]
+NotInAChannelText=Nicht in einem Kanal!
+KickedFromText=Sie wurden rausgeworfen von
+ByText=von
+IsAwayText=ist weg
+
+[UBrowserIRCPageBase]
+HasLeftText=ist gegangen
+HasJoinedText=hat sich angeschlossen
+WasKickedByText=wurde rausgeworfen von
+NowKnownAsText=ist nun bekannt als
+QuitText=Beenden
+SetsModeText=setzt Modus
+
+[UBrowserServerPing]
+AdminEmailText=Admin-E-Mail
+AdminNameText=Admin-Name
+ChangeLevelsText=Level wird gewechselt
+MultiplayerBotsText=Bots im Mehrspieler
+FragLimitText=Punktelimit
+TimeLimitText=Zeitlimit
+GameModeText=Spielmodus
+GameTypeText=Spieltyp
+GameVersionText=Spielversion
+WorldLogText=ngWorldStats
+MutatorsText=Mutators
+TrueString=Aktiviert
+FalseString=Deaktiviert
+ServerAddressText=Server-Adresse
+GoalTeamScoreText=Benötigte Mannschafts-Punktezahl
+MinPlayersText=Bots beteten das Spiel für Minimum von
+PlayersText=Spieler
+MaxTeamsText=Max. Teams
+BalanceTeamsText=Teams ausgleichen
+FriendlyFireText=Schaden durch Teammitglieder
+MinNetVersionText=Min. kompatible Version
+BotSkillText=Bot-Fähigkeit
+
+[UBrowserIRCLink]
+InvalidAddressText=Ungültige Serveradresse, wird abgebrochen.
+ErrorBindingText=Fehler beim Binden an lokalen Port, wird abgebrochen.
+ResolveFailedText=Fehler beim Auflösen der Serveradresse, wird abgebrochen.
+ConnectedText=Verbindung wurde aufgebaut.
+ConnectingToText=Verbindung wird aufgebaut zu
+TimeOutError=Zeitlimit des Verbindungsaufbaus wurde überschritten.
+InviteString=lädt Sie ein, mitzumachen
+
+[UBrowserMainWindow]
+WindowTitleString=Server-Browser
+
+[UBrowserServerGrid]
+ServerName=Server
+PingName=Ping
+MapNameName=Kartenname
+PlayersName=Spieler
+
+[UBrowserOpenCW]
+OpenText=Öffnen:
+OpenHelp=Geben Sie einen Standard-URL ein, oder wählen Sie eine aus Ihrem URL-Verlauf. Drücken Sie die Eingabetaste, um zu aktivieren.
+
+[UBrowserIRCSetupClient]
+ServerText=IRC-Server
+ChannelText=Standard-Kanal
+ServerHelp=Wählen Sie einen IRC-Server auf der Liste, oder geben Sie den Namen Ihres eigenen IRC-Servers oder eine IP-Adresse ein.
+ChannelHelp=Wählen Sie einen Standard-Kanal, um beizutreten, sobald der Server die Verbindung aufgebaut hat, oder geben Sie Ihren eigenen Kanal ein.
+ConnectText=Verbindung herstellen
+DisconnectText=Verbindung beenden
+ConnectHelp=Verbindung zum IRC-Chat-Server herstellen.
+DisconnectHelp=Verbindung zum IRC-Chat-Server beenden.
+WarningText=Die Chat-Einrichtung verbindet sie mit dem Internet-Relay-Chat-Netzwerk (IRC).\n\nLegend Entertainment übernimmt keine Verantwortung für den Inhalt der Kanäle in IRC. Sie betreten diese Kanäle auf eigene Gefaht.\n\nMöchten Sie diese Verbindung immer noch herstellen?
+WarningTitle=Warnung
+
+[UBrowserRightClickMenu]
+PlayName=Auf diesem Server &spielen
+RefreshName=Alle Server &aktualisieren
+InfoName=Server- und Spieler-&Info
+FavoritesName=Zu &Favoriten hinzufügen
+RefreshServerName=Diesen Server an&pingen
+PingAllName=Alle &Server anpingen
+OpenLocationName=Ziel &öffnen
+
+[UBrowserMainClientWindow]
+FavoritesName=Favoriten
+IRCName=Chat
+MOTDName=News
+
+[UBrowserInfoMenu]
+RefreshName=&Info aktualisieren
+CloseName=&Schließen
+
+[UBrowserUpdateServerWindow]
+QueryText=Stelle Anfrage bei Server ...
+FailureText=Der Server antwortet nicht.
+
+[UBrowserSubsetFact]
+NotFoundError=Fenster konnte nicht gefunden werden: 
+NotReadyError=Fenster ist nicht bereit: 
+
+[UBrowserEditFavoriteCW]
+DescriptionText=Beschreibung
+UpdateDescriptionText=Auto-Update-Beschreibung
+IPText=Server IP Adresse
+GamePortText=Server-Port-Nummer
+QueryPortText=Anfrage-Port-Nummer
+
+[UBrowserPlayerGrid]
+NameText=Name
+FragsText=Punkte
+PingText=Ping
+TeamText=Team
+MeshText=Mesh
+SkinText=Oberfläche
+FaceText=Gesicht
+IDText=ID
+
+[UBrowserGSpyLink]
+ResolveFailedError=Der Master-Server konnte nicht aufgelöst werden: 
+TimeOutError=Zeitüberschreitung bei Anfrag an Master-Server
+CouldNotConnectError=Zeitüberschreitung beim Verbindungsaufbau mit Master-Server: 
+
+[UBrowserHTTPLink]
+ResolveFailedError=Der Master-Server konnte nicht aufgelöst werden: 
+TimeOutError=Zeitüberschreitung bei Anfrag an Master-Server
+CouldNotConnectError=Zeitüberschreitung beim Verbindungsaufbau mit Master-Server: 
+
+[UBrowserEditFavoriteWindow]
+OKText=OK
+WindowTitle=Favoriten editieren
+
+[UBrowserIRCWindow]
+SystemName=System
+
+[UBrowserOpenWindow]
+OKText=OK
+WindowTitle=Ziel öffnen
+
+[UBrowserRulesGrid]
+RuleText=Regel
+ValueText=Wert
+
+[UBrowserIRCSystemMenu]
+ConnectText=Verbindung &herstellen
+DisconnectText=Verbindung &abbrechen
+JoinText=&Teilnehmen
+
+[UBrowserFavoritesMenu]
+EditFavoriteName=&Favoriten editieren
+NewFavoriteName=&Neuen Favoriten
+FavoritesName=Von Favoriten &entfernen
+
+[UBrowserIRCChannelMenu]
+PartText=&Verlassen
+JoinText=&Teilnehmen
+
+[UBrowserIRCPrivateMenu]
+CloseText=&Schließen
+JoinText=&Teilnehmen
+
+[UBrowserNewFavoriteWindow]
+OKText=Neu
+WindowTitle=Neuer Favorit

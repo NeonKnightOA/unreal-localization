@@ -1,0 +1,86 @@
+[Language]
+Language=español
+LangId=10
+SubLangId=0
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Avanzado",Parent="Opciones avanzadas")
+Preferences=(Caption="Sistema de archivos",Parent="Avanzado",Class=Core.System,Immediate=Verdadero)
+
+[Errors]
+Unknown=Error desconocido
+Aborted=Anulado
+ExportOpen=Error al exportar %s: no se pudo abrir el archivo '%s'
+ExportWrite=Error al exportar %s: no se pudo escribir el archivo '%s'
+FileNotFound=No se puede encontrar el archivo '%s'
+ObjectNotFound=No se puede encontrar el objeto '%s %s.%s'
+PackageNotFound=No se puede encontrar archivo para el paquete '%s'
+PackageResolveFailed=No se puede identificar el nombre del paquete
+FilenameToPackage=No se puede convertir el nombre del archivo '%s' en nombre del paquete
+Sandbox=No se puede acceder al paquete '%s' en este recinto de seguridad
+PackageVersion=La versión del paquete '%s' no coincide
+FailedLoad=Error al cargar '%s': %s
+ConfigNotFound=No se puede encontrar '%s' en el archivo de configuración
+LoadClassMismatch=%s no es una clase secundaria de %s.%s
+NotDll='%s' no es un paquete DLL; no se puede encontrar exportar '%s'
+NotInDll=No se puede encontrar '%s' en '%s.dll'
+FailedLoadPackage=Error al cargar el paquete: %s
+FailedLoadObject=Error al cargar '%s %s.%s': %s
+TransientImport=Importado objeto transitorio: %s
+FailedSavePrivate=No se puede guardar %s: el gráfico está unido al objeto privado externo %s
+FailedImportPrivate=No se puede importar el objeto privado %s %s
+FailedCreate=No se encuentra %s %s para creación
+FailedImport=No puede encontrarse %s en el archivo '%s'
+FailedSaveFile=Error al guardar el archivo '%s': %s
+SaveWarning=Error al guardar '%s'
+NotPackaged=El objeto no está empaquetado: %s %s
+NotWithin=Objeto %s %s creado en %s en vez de en %s
+Abstract=No se puede crear el objeto %s: la clase %s es abstracta
+NoReplace=No se puede sustituir %s por %s
+NoFindImport=No se puede encontrar el archivo '%s' para importar
+ReadFileFailed=Error al leer el archivo '%s' para importar
+SeekFailed=Error al buscar el archivo
+OpenFailed=Error al abrir el archivo
+WriteFailed=Error al escribir el archivo
+ReadEof=Leer hasta el final del archivo
+IniReadOnly=El archivo %s está protegido contra la escritura; no se pueden guardar los parámetros
+UrlFailed=Error al iniciar URL
+Warning=Advertencia
+Question=Pregunta
+OutOfMemory=Se acabó la memoria virtual. Para prevenir esta condición, debes liberar más espacio en tu disco duro primario.
+History=Historia
+Assert=Error de aserción: %s [File:%s] [Line: %i]
+Debug=Depurar el error de aserción: %s [File:%s] [Line: %i]
+LinkerExists=Ya existe el conector para '%s'
+BinaryFormat=El archivo '%s' contiene datos no reconocidos
+SerialSize=%s: El tamaño de serie no coincide: Conseguido %i, Esperado %i
+ExportIndex=Índice de exportación incorrecto %i/%i
+ImportIndex=Índice de importación incorrecto %i/%i
+Password=Contraseña no reconocida
+Exec=Comando no reconocido
+BadProperty='%s':La propiedad '%s' falta o es incorrecta
+MisingIni=Falta el archivo .ini: %s
+
+[Query]
+OldVersion=El archivo %s se guardó en una versión anterior que no es compatible hacia atrás con ésta. Es posible que la lectura falle y cause un bloqueo. ¿Quieres intentarlo de todos modos?
+Name=Nombre:
+Password=Contraseña:
+PassPrompt=Introduce tu nombre y contraseña:
+PassDlg=Comprobar identidad
+Overwrite=El archivo '%s' necesita actualizarse. ¿Quieres sobreescribir la versión actual?
+
+[Progress]
+Saving=Guardando archivo %s...
+Loading=Cargando archivo %s...
+Closing=Cerrando
+
+[General]
+Product=WoT
+Engine=Motor Unreal 
+Copyright=Copyright 1998 Epic Games, Inc.
+True=Verdadero
+False=Falso
+None=Ninguno
+Yes=Sí
+No=No

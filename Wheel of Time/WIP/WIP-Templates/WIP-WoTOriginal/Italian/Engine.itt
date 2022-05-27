@@ -1,0 +1,171 @@
+[Public]
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Avanzate",Parent="Opzioni Avanzate")
+Preferences=(Caption="Configura il Motore di Gioco",Parent="Avanzate",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Tasti Alias",Parent="Avanzate",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Configurazione diretta Tasti",Parent="Avanzate",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Driver",Parent="Opzioni Avanzate",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Informazioni Server Pubblici",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Configura Gioco",Parent="Opzioni Avanzate",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen=Errore nell'apertura del file
+NetWrite=Errore nella scrittura sulfile
+NetRefused=Il server si è rifiutato di inviare '%s'
+NetClose=Errore nella chiusura del file
+NetSize=La dimensione del file non collima
+NetMove=Errore nello spostamento del file
+NetInvalid=Richiesta di file invalida
+NoDownload=Il Package '%s' non si può scaricare
+DownloadFailed=E' fallito lo scaricamento del package '%s': %s
+RequestDenied=Il server ha richiesto un file: Negato
+ConnectionFailed=Connessione fallita 
+ChAllocate=Non ho potuto allocare il canale
+NetAlready=Il networking sta già funzionando
+NetListen=Listen fallito: Non c'è un contesto per il linker context 
+LoadEntry=Non ho potuto caricare: %s
+InvalidUrl=URL non valida: %s
+InvalidLink=Link non valido: %s
+FailedBrowse=Non sono potuto entrare %s: %s
+Listen=Listen fallito: %s
+AbortToEntry=Fallimento; ritorno all'Entry
+ServerOpen=I Server non possono aprire URL sulla rete
+ServerListen=Un server Dedicato non può fare l'azione listen: %s
+Pending=La connessione a '%s' è fallita; %s
+LoadPlayerClass=Non ho potuto caricare la classe del giocatore
+ServerOutdated=La versione del server è obsoleta
+
+[Progress]
+CancelledConnect=Tentativo di connessione cancellato
+RunningNet=%s: %s (%i players)
+NetReceiving=Ricevendo '%s': %i/%i
+NetReceiveOk=Ricevuto con successo '%s'
+NetSend=Invio '%s'
+NetSending=Invio '%s': %i/%i
+Connecting=Connessione...
+Listening=In ascolto per clienti...
+Loading=Caricamento
+Saving=Salvataggio
+Paused=Pausa per %s
+ReceiveFile=Ricezione di '%s' in corso
+ReceiveSize=Peso %iK, Completo %3.1f%%
+ConnectingText=Connessione in corso:
+ConnectingURL=unreal://%s/%s
+
+[PlayerPawn]
+QuickSaveString=Salvataggio veloce
+NoPauseMessage=Il gioco non può essere messo in pausa
+ViewingFrom=Visualizzato adesso da
+OwnCamera=La propria telecamera
+FailedView=Impossibile cambiare visuale.
+CantChangeNameMsg=Non puoi cambiare il tuo nome durante una partita.
+
+[Pawn]
+NameArticle=" a "
+
+[Console]
+ClassCaption=Standard Unreal Console
+LoadingMessage=IN CARICAMENTO...
+SavingMessage=SALVATAGGIO...
+ConnectingMessage=CONNESSIONE...
+PausedMessage=PAUSA
+PrecachingMessage=PRECACHE...
+ChatChannel=(CHAT) 
+TeamChannel=(TEAM) 
+
+[General]
+Upgrade=Per entrare in questo server, hai bisogno della nuova versione di Unreal disponibile all'indirizzo
+UpgradeURL=http://www.unreal.com/upgrade
+UpgradeQuestion=Vuoi lanciare il tuo browser e andare a visitare quella pagina web?
+Version=Version %i
+
+[Menu]
+HelpMessage=
+MenuList=
+HelpMessage[1]="Questo menu non è stato ancora implementato."
+LeftString="Sinistra"
+RightString=Destra
+CenterString=Centro
+EnabledString=Abilitato
+DisabledString=Disabilitato
+YesString=sì
+NoString=no
+
+[Inventory]
+PickupMessage=Hai preso un oggetto
+ItemArticle=un
+M_Activated=" attivato"
+M_Selected=" selezionato"
+M_Deactivated=" disattivato"
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage=Sto cambiando livello
+DefaultPlayerName=Il giocatore
+LeftMessage=" ha lasciato il gioco."
+FailedSpawnMessage=Impossibile generare il giocatore
+FailedPlaceMessage=Impossibile trovare il punto di partenza (il livello potrebbe avere bisogno di un 'PlayerStart')
+FailedTeamMessage=Impossibile trovare una squadra per il giocatore
+NameChangedMessage=Nome cambiato in 
+EnteredMessage=" è entrato in gioco."
+GameName="Gioco"
+MaxedOutMessage=Il server è già al massimo della capacità.
+WrongPassword=La password inserita è errata.
+NeedPassword=Devi inserire una password per entrare in gioco.
+
+[LevelInfo]
+Title=Senza titolo
+
+[Weapon]
+MessageNoAmmo=" non ha proiettili."
+DeathMessage=%o è stato ucciso dal %w di %k.
+PickupMessage=Hai raccolto un'arma
+ItemName=Arma
+DeathMessage[0]=%o è stato ucciso dal %w di %k.
+DeathMessage[1]=%o è stato ucciso dal %w di %k.
+DeathMessage[2]=%o è stato ucciso dal %w di %k.
+DeathMessage[3]=%o è stato ucciso dal %w di %k.
+
+[Ammo]
+PickupMessage=Hai raccolto delle munizioni.
+
+[Counter]
+CountMessage=Solo altri %i ...
+CompleteMessage=Completato!
+
+[PlayerPawn]
+QuickSaveString=Salvataggio Veloce
+NoPauseMessage=Non si può mettere in pausa ora!
+ViewingFrom=Visuale di 
+OwnCamera=telecamera personale
+FailedView=Non ho potuto cambiare la visuale.
+CantChangeNameMsg=Non puoi cambiare nome a metà di una partita registrata globalmente.
+
+[Pawn]
+NameArticle=" un "
+
+[Spectator]
+MenuName=Spettatore
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner=server di rete
+HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=Log
+HelpDesc[0]=Specifica il file di log da generare
+HelpParm[1]=AllAdmin
+HelpDesc[1]=dai a tutti i giocatori i privilegi di amministratore
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=ucciso
+AltName=ucciso

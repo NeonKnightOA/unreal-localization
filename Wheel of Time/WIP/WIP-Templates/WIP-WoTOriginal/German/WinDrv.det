@@ -1,0 +1,21 @@
+[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
+Preferences=(Caption="Anzeige",Parent="Erweiterte Optionen",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Joystick",Parent="Erweiterte Optionen",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+Failed3D=3d Hardwareinitialization fehlgeschlagen
+DDrawMode=DirectDraw konnte den gewünschten Grafikmodus nicht einstellen
+
+[General]
+ViewPersp=Perspektivische Karte
+ViewXY=Overheadkarte
+ViewXZ=XZ Karte
+ViewYZ=YZ Karte
+ViewOther=Viewport
+Color16=&16-Bit Farbtiefe
+Color32=&32-Bit Farbtiefe
+AdvancedOptions=Erweiterte Optionen
+
+[WindowsClient]
+ClassCaption="Standard Windows-Manager"

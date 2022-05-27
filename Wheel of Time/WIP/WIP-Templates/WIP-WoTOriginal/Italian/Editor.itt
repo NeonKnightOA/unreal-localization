@@ -1,0 +1,66 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Opzioni Avanzate")
+Preferences=(Caption="Avanzate",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colori",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Griglia",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Griglia di Rotazione",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner=Crea i file di installazione master
+HelpUsage=master [-option...] [parm=value]...
+HelpParm[0]=MasterPath
+HelpDesc[0]=directory principale da cui copiare i file
+HelpParm[1]=SrcPath
+HelpDesc[1]=directory principale ove copiare i file sorgente (release)
+HelpParm[2]=RefPath
+HelpDesc[2]=Path per i riferimenti sulla compressione delta
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner=Aggiorna i file binari 
+HelpUsage=conform existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]=File binario esistente da caricare, aggiornare, salvare
+HelpParm[1]=oldfile.ext
+HelpDesc[1]=Vecchio file con il quale si vuole la compatibilità 
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner=Ricostruisci tutti i package UnrealScript
+HelpUsage=make [-option...] [parm=value]...
+HelpParm[0]=Silent
+HelpDesc[0]=Nessun prompt; risponde sempre "si" alle domande
+HelpParm[1]=NoBind
+HelpDesc[1]=Non forzare il collegamento alle DLL delle funzioni native
+HelpParm[2]=All
+HelpDesc[2]=Ricompilazione totale (altrimenti è incrementale)
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner=Fondi le texture DXT con quelle standard
+HelpUsage=mergedxt srcpath oldpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]=Path che contiene i file sorgenti 
+HelpParm[1]=oldpath
+HelpDesc[1]=Path che contiene i vecchi file
+HelpParm[2]=destpath
+HelpDesc[2]=Path per i file destinazione
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner=Esporta in blocco tutti gli oggetti
+HelpUsage=batchexport package.ext classname export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]=Package di cui si vogliono esportare gli oggetti
+HelpParm[1]=classname
+HelpDesc[1]=Classe dell'oggetto da esportare
+HelpParm[2]=export_ext
+HelpDesc[2]=Estensione del file di esportazione
+HelpParm[3]=path
+HelpDesc[3]=Path dei file esportati, ad es. c:\MioPath

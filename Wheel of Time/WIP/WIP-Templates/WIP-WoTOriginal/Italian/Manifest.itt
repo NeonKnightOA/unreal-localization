@@ -1,0 +1,44 @@
+[Setup]
+LocalProduct=Wheel of Time
+DefaultFolder=C:\WheelOfTime
+ReadMe=Help\ReadMe333.htm
+SetupWindowTitle=Installazione di Wheel of Time
+ProductURL=http://www.wheeloftime.com/
+Developer=Legend Entertainment
+DeveloperURL=http://www.legendent.com/
+ReleaseNotesURL=http://www.legendent.com/wheeloftime/readme/italian333.htm
+Logo=System\SetupLogo.bmp
+
+[General]
+PlayLevelCommand=&Gioca a questo livello di Wheel of Time
+OpenLinkCommand=&Apri questo collegamento Wheel of Time
+InstallModuleCommand=&Installa questo modulo Wheel of Time
+EditLevelCommand=&Edita questo livello di Wheel of Time
+
+[PatchGroup]
+Caption=Patch di Wheel of Time
+Description=È necessario procedere con l'installazione.
+
+[PlayShortcut]
+Caption=Esegui Wheel of Time
+
+[SafeModeShortcut]
+Caption=Modalità provvisoria di Wheel of Time
+
+[ChangeVideoShortcut]
+Caption=Cambia la modalità video
+
+[EditorShortcut]
+Caption=Editor di Wheel of Time
+
+[DocumentationShortcut]
+Caption=Documentazione
+
+[ReleaseNotesShortcut]
+Caption=Note sulla versione
+
+[WebShortcut]
+Caption=Pagina Web di Wheel of Time
+
+[UninstallShortcut]
+Caption=Disinstallare Wheel of Time

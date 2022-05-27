@@ -1,0 +1,64 @@
+[Errors]
+Critical=Error grave
+FailedConfigLoad=%s (carga fallida)
+
+[General]
+BrowseButton=...
+UseButton=Usar
+ClearButton=Borrar
+OkButton=Aceptar
+AddButton=Añadir
+EmptyButton=Vaciar
+InsertButton=Insertar
+DeleteButton=Eliminar
+DefaultsButton=Restablecer los parámetros predeterminados
+BackButton=< &Atrás
+NextButton=&Siguiente >
+FinishButton=&Finalizar
+CancelButton=Cancelar
+InstallButton=&Instalar
+YesButton=&Sí
+NoButton=&No
+AgreeButton=&Acepto
+LanguagePrompt=Lenguaje:
+LanguageWindow=Selección del lenguaje
+LogWindow=%s Ventana de inicio
+PropNone=Nada seleccionado
+PropSingle=%s Propiedades
+PropMulti=%s Propiedades (%i seleccionado)
+InsertCdText=Inserta el CD-Rom Unreal en tu unidad y pulsa Aceptar para continuar o Cancelar para salir.
+InsertCdTitle=Cd requerido en el Inicio
+AdvancedOptionsTitle=Opciones avanzadas
+Low=Bajo
+High=Alto
+
+[FirstRun]
+Caption=Configuración inicial
+LowMemory=Unreal ha detectado que tienes %i megabytes de memoria disponibles. Para mejorar el rendimiento se han activado las opciones de "Texturas con poco detalle" y "Baja calidad de sonido". Puedes cambiar estos parámetros en el menú "Parámetros de rendimiento".
+NonMMX=Unreal ha detectado que no estás usando un PC MMX. Por esta razón, la velocidad de reproducción se ha ajustado para usar la mínima potencia de CPU. Puedes cambiar este parámetro en el menú "Opciones avanzadas / Audio".
+Starting=Unreal se está iniciando por primera vez. Si tienes algún problema, lee la sección de Solución de problemas de Mostrar notas en el menú "Inicio".
+
+[IDDIALOG_Directory]
+IDC_Directory=Carpeta de instalación
+IDC_ChoosePrompt=Elije la carpeta de instalación.
+IDC_PathTitle=&Ruta:
+IDC_DirectoryTitle=&Directorios:
+IDC_DrivesTitle=&Unidades:
+IDC_NetworkButton=&Red
+
+[IDDIALOG_Password]
+IDC_Password=Comprobar contraseña
+IDC_Prompt=Introduce tu nombre y contraseña.
+IDC_Name=&Nombre:
+IDC_Password=&Contraseña:
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon=Menú
+ID_NotifyShowLog=&Consola del servidor WOT
+ID_NotifyAdvancedOptions=&Opciones avanzadas
+ID_NotifyExit=S&alir del servidor WOT
+
+[IDMENU_Log]
+ID_LogFile=&Archivo
+ID_LogAdvancedOptions=&Opciones avanzadas
+ID_LogFileExit=&Salir

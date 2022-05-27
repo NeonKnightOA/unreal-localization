@@ -1,0 +1,268 @@
+[AngrealInvLightGlobe]
+Title=Light Sphere
+Description=Activating the ter'angreal weaves a simple sphere of light.  The sphere accompanies you, until unraveled by a subsequent activation.
+Quote=She channeled even as she moved, weaving a web of light that hung to one side, a sphere of pure white that cast lurid shadows about the room.
+PickupMessage=You got the Light Sphere ter'angreal
+
+[SwapPlacesEffect]
+SourceFailMessage=failed because you don't fit at the target's location.
+DestinationFailMessage=failed because the target doesn't fit at your location.
+
+[AngrealInvDart]
+Title=Dart
+Description=The Dart ter'angreal focuses the One Power into a weak burst of energy.  Although a single charge may not necessarily inflict much damage, the artifact can spray multiple Darts at a victim in a very short time.
+Quote=His sudden roar made Egwene jump. Clapping a hand to his left buttock, he hobbled in a pained circle.
+PickupMessage=You got the Dart ter'angreal
+
+[AngrealInvDisguise]
+Title=Disguise
+Description=As long as you continue to activate the artifact, Disguise cloaks you with the image of the nearest creature or person.
+Quote=His skin tingled slightly as she channeled, and for an instant her image changed. Her skin became coppery but dull, her hair and eyes dark but flat.
+PickupMessage=You got the Disguise ter'angreal
+
+[AngrealInvBalefire]
+Title=Balefire
+Description=Balefire launches a stream of light which travels through everything, even through walls.  Anything the light touches is loosened from the timeline.  Most objects and victims disappear as if they never existed, although cuendillar seals are impervious to this effect.  Balefire first gathers its power, and then releases it (by releasing the fire button); the longer that the effect gathers, the more powerful it is when loosed.
+Quote=Something leaped from his hands; he was not sure what it was. A bar of white light, solid as steel. Liquid fire.
+PickupMessage=You got the Balefire ter'angreal
+
+[AngrealInvAirBurst]
+Title=Air Pulse
+Description=Air Pulse pushes a small, quick weave of air directly in front of you at a very close range.  If the blast of air strikes someone, the weave hits like a hammer, inflicting significant damage.  The artifact continually replenishes its power from the One Source, so charges are not expended.
+Quote=As if a giant hand had smashed him aside, he flew ten paces through the air, crashing to the stones.
+PickupMessage=You got the Air Pulse ter'angreal
+
+[AngrealInvLightning]
+Title=Chain Lightning
+Description=For as long you continue to activate Chain Lightning, the ter'angreal weaves an aura of electricity around you.  Touching someone else in this state creates a link between you and your target; touching more targets creates more links.   The lightning damages all victims until you run out of charges, you stop expending charges, you are damaged, or the target runs far enough away.  Any of these will break the circuit.  If activated in water, Chain Lightning affects anyone within, including the user.
+Quote=More lightning flashed, raising gouts of shattered paving stone ahead of him, ripping open crystal palace walls to rain ruin before him.
+PickupMessage=You got the Chain Lightning ter'angreal
+
+[AngrealInvWhirlwind]
+FailMessage=requires a target
+Title=Whirlwind
+Description=As long as you continue to activate Whirlwind, your target is spun and lifted up into the air, in any direction you point.
+Quote=Dead leaves whirled into the air and branches whipped as if a dustdevil ran along the line she pointed to.
+PickupMessage=You got the Whirlwind ter'angreal
+
+[AngrealInvTracer]
+Title=Tracer
+Description=Tracer creates a weave that seeks out the nearest seal, leaving behind a glowing trail.  After a short time, the trail slowly fades away.
+Quote=Rolling onto his back, he could see the remnants of those burning red wires still, fresh enough to make out Fire and Air woven in a way he had not known. Enough to make out exactly the direction they had come from.
+PickupMessage=You got the Tracer ter'angreal
+
+[AngrealInvDistantEye]
+Title=Distant Eye
+Description=Activating Distant Eye fixes its location.  Dropping the ter'angreal causes it to @forget@ its initial location.  After placement, a subsequent activation allows you to look through the Eye--to see whatever it sees--as long as you remain still.  Invoking the Eye while using it fires a stream of Darts at whatever the eye is trained on.  The floating Eye itself is fragile, and can be easily destroyed.
+Quote=As though thinking of the oddities triggered one of them, a patch of sky against the mountains darkened suddenly, became a window to somewhere else.
+PickupMessage=You got the Distant Eye ter'angreal
+
+[AngrealInvWallOfAir]
+FailMessage=requires a target
+Title=Sever
+Description=This ter'angreal erects a barrier between you and your target. It lasts for a short time, unless you continue to activate the artifact. This barrier unravels any weaves that strike it.
+Quote=Sword coming out, long legs carried him ahead of her, color-shifting cloak waving behind as he charged. Suddenly he seemed to run into an invisible stone wall, bounce back, try to stagger forward again.
+PickupMessage=You got the Sever ter'angreal
+
+[AngrealInvFork]
+Title=Fork
+Description=For a short time, Fork erects a shield. Although artifact weaves that penetrate this shield still affect you, a duplicate attack is launched back at the originator.
+Quote=Balling her fist tightly, Egwene hit the woman as hard as she could, right in her eye-and staggered and fell to her knees herself, head ringing. It felt as if a large man had struck her in the face.
+PickupMessage=You got the Fork ter'angreal
+
+[AngrealInvReflect]
+Title=Reflect
+Description=For a short time, Reflect surrounds you with a shield that causes any weave that strikes it to bounce back at the originator. You are not affected by the attack.
+Quote=As her hand grasped it, the Power surged within her, into the half-figure then back into her, into the figure and back, in and back.
+PickupMessage=You got the Reflect ter'angreal
+
+[AndilayRoot]
+Title=Andilay Root
+Description=None
+Quote=None
+PickupMessage=You found an Andilay Root
+
+[AngrealInvHeal]
+Title=Heal
+Description=With each activation, the Heal ter'angreal raises your health slightly.
+Quote=A chill rippled through him, not the blasting cold of full Healing, but a chill that pushed weariness out as it passed.
+PickupMessage=You got the Heal ter'angreal
+
+[AngrealInvShift]
+Title=Shift
+Description=Shift instantly moves you a few paces ahead of your current location, through all obstacles, as long as the destination is clear.  Any weaves currently locked on to you lose their target.
+Quote=You did not need to know a place at all to Travel if you only intended to go a very short distance.
+PickupMessage=You got the Shift ter'angreal
+
+[AngrealInvLevitate]
+FailMessage=cannot be used while in Whirlwind
+Title=Levitate
+Description=While you continue to activate Levitate, you float slightly above the ground. This effect is not flight, however; a thin weave of air merely cushions your descent.
+Quote=Suddenly she lifted into the air, and Elayne, too; they stared at each other, wide-eyed, as they floated a pace above the carpet.
+PickupMessage=You got the Levitate ter'angreal
+
+[AngrealInvShield]
+Title=Personal Shield
+Description=Personal Shield surrounds you with a weave that blunts all damage-dealing attacks, internal or external. It is a permanent effect--although it can be worn away by said attacks. Subsequent activation replenishes the shield's strength.
+Quote=Rand seized saidin and channeled as the bolt flew toward him; it struck Air, a silvery blue mass hanging above the street, with a clang as of metal against metal.
+PickupMessage=You got the Personal Shield ter'angreal
+
+[AngrealInvIllusion]
+Title=Personal Illusion
+Description=Personal Illusion weaves your image before you, an ethereal copy of you, and leaves it there to fool others--especially very magic-sensitive enemies such as Mashadar or Machin Shin.  Although not solid, this image can be targeted by other weaves.   It dissipates after some time.
+Quote=An image began to coalesce...  He fought to picture himself in his own mind, struggled to make the image of what he saw in the mirror every day shaving, what he saw in a stand-mirror dressing.
+PickupMessage=You got the Personal Illusion ter'angreal
+
+[AngrealInvMinion]
+LimitWarning=You already have one Minion under your control.
+Title=Minion
+Description=The Minion ter'angreal summons a @grunt@ or soldier of the type that you command.
+Quote=Trollocs leaped out of thin air, huge bestial shapes and eyeless faces distorted with a rage to kill, scythe-like swords and blades of deadly black steel seeking his blood.
+PickupMessage=You got the Minion ter'angreal
+
+[AngrealInvGuardian]
+LimitWarning=You already have one Guardian under your control.
+Title=Guardian
+Description=The Guardian ter'angreal summons a captain of the type that you command.
+Quote=All around them dust rippled and shivered ever thicker, bunching and gathering.  Suddenly, right in front of them, a shape reared up in the basin of a dry fountain, a solid man shape, dark and featureless, with fingers like sharp claws.
+PickupMessage=You got the Guardian ter'angreal
+
+[AngrealInvChampion]
+LimitWarning=You already have one Champion under your control.
+Title=Champion
+Description=The Champion ter'angreal summons the strongest creature under your command--extremely powerful, but also very headstrong.
+Quote=It was Thom Merrilin who answered her hoarsely. @In the war that ended the Age of Legends, worse than Trollocs and Halfmen were created.@
+PickupMessage=You got the Champion ter'angreal
+
+[AngrealInvAbsorb]
+Title=Absorb
+Description=Absorb weaves a shield around you for a short time.  If a weave from another ter'angreal strikes it, the artifact that generated that weave is snatched from the owner's grasp and placed in your inventory.
+Quote=@How did you...?@ Elayne said wonderingly. @The flows just... vanished.@
+PickupMessage=You got the Absorb ter'angreal
+
+[AngrealInvDecay]
+FailMessage=requires a target
+Title=Decay
+Description=For a short while, Decay slowly drains away both the target's health and the charges of all held artifacts.
+Quote=They would not die right away; they might even live to make it beyond the city walls.  Long enough for the dead to be far off, not here to frighten the next Myrddraal that came.
+PickupMessage=You got the Decay ter'angreal
+
+[AngrealInvEarthShield]
+Title=Earth Shield
+Description=Earth Shield forms a protective barrier that prevents all earth-based weaves or environmental hazards from affecting you.
+Quote=He did not seem to feel the thrashing of the ground that had him now at one angle, now at another.  His balance never shifted, no matter how he was tossed.
+PickupMessage=You got the Earth Shield ter'angreal
+
+[AngrealInvEarthTremor]
+Title=Earth Tremor
+Description=The Earth Tremor ter'angreal launches a concentrated weave of earth power. Any surface it touches erupts in a violent tremor, extremely dangerous to anyone caught within.
+Quote=Now the ground rippled, lapping toward the Trollocs like ripples in a pond, ripples that grew as they ran, growing, becoming waves of earth, rolling toward the Trollocs.  On the far slope Trollocs fell in heaps, tumbled over and over by the raging earth.
+PickupMessage=You got the Earth Tremor ter'angreal
+
+[AngrealInvExpWard]
+Title=Explosive Ward
+Description=As long as you are looking directly at a flat surface, activating the ter'angreal affixes a Ward upon it.  Walking near to the Ward, or striking it with a projectile, causes it to unravel in an explosion of Earth.
+Quote=With a roar the ground in front of him erupted in a narrow fountain of dirt and rocks higher than his head.
+PickupMessage=You got the Explosive Ward ter'angreal
+
+[AngrealInvFireball]
+Title=Fireball
+Description=The Fireball ter'angreal launches a concentrated weave of fire. It explodes upon impact with anything except water, which causes it to fizzle.
+Quote=A head sized fireball flashed down the street toward her. She leaped back just before it exploded against the corner where her own head had been, showering her with stone chips.
+PickupMessage=You got the Fireball ter'angreal
+
+[AngrealInvRemoveCurse]
+Title=Unravel
+Description=For a short time, unravel instantly destroys any weave currently affecting you or located within a small area around you.  All effects, woven traps, or projectiles within this radius simply disappear.  Naturally, while Unravel is active, you cannot activate additional artifacts.
+Quote=Something severed his flows; they snapped back so hard that he grunted.
+PickupMessage=You got the Unravel ter'angreal
+
+[AngrealInvSeeker]
+FailMessage=requires a target
+Title=Seeker
+Description=Seeker launches an explosive projectile at a target, gathering speed as it hunts the target down.  Unless countered, Seeker explodes upon impact.
+Quote=It was like looking at all the thunderstorms in the world compressed to the size of a Trolloc's head.  He could feel Trollocs and Myrddraal dying, feel the lightnings strike and kill.  He could kill them everywhere, everywhere in the world. The lightnings faded and died with the last Shadowspawn; the spinning mass imploded with a loud clap of inrushing air.
+PickupMessage=You got the Seeker ter'angreal
+
+[AngrealInvTaint]
+FailMessage=requires a target
+Title=Taint
+Description=All ter'angreal held by the target are permanently tainted (unless affected by Unravel or Aura of Unraveling).  If the tainted artifacts are used, they cause damage to the user; more powerful artifacts inflict more damage.
+Quote=@It is flawed,@ she replied curtly, @lacking the buffer that makes other sa'angreal safe to use. And it apparently magnifies the taint, inducing wildness of the mind.@
+PickupMessage=You got the Taint ter'angreal
+
+[AngrealInvWaterShield]
+Title=Water Shield
+Description=Water Shield forms a protective barrier that prevents all water-based weaves or environmental hazards from affecting you.
+Quote=The water roiled, throwing him about violently. No breath left. He tried to think of air, or the water being air. Suddenly, it was.
+PickupMessage=You got the Water Shield ter'angreal
+
+[AngrealInvAirShield]
+Title=Air Shield
+Description=Air Shield forms a protective barrier that prevents all air-based weaves or environmental hazards from affecting you.
+Quote=The air around him suddenly became choking soot, clogging his nostrils, shutting off breath, but he made it fresh air again, a cool mist.
+PickupMessage=You got the Air Shield ter'angreal
+
+[AngrealInvAMA]
+Title=Aura of Unraveling
+Description=Immediately after the ter'angreal is laid, anyone walking nearby--as well as any projectiles that strike the box--will trigger it.  For a short time, the area surrounding the artifact acts as a dead-zone: artifacts do not activate, currently active effects disappear, and weaves launched into this area dissipate.  Shields are ineffective against it.  The only exception to this is Balefire.
+Quote=He reached for saidin -- and found nothing. He had not been shielded; he would have felt it, and known how to work around or break it, given time, if it was not too strong. This was as if he had been severed. Shock petrified him where he stood.
+PickupMessage=You got the Aura of Unraveling ter'angreal
+
+[AngrealInvFireShield]
+Title=Fire Shield
+Description=Fire Shield forms a protective barrier that prevents all fire-based weaves or environmental hazards from affecting you.
+Quote=She filled the corridor around him with fire from wall to wall, floor to ceiling, fire so hot the stone itself smoked.  Rahvin screamed in the middle of the flame and staggered away from her.  A heartbeat, less, and he stood, inside the flame but surrounded by clear air.  Every scrap of saidar she could channel was going into that inferno, but he held it at bay.
+PickupMessage=You got the Fire Shield ter'angreal
+
+[AngrealInvSoulBarb]
+FailMessage=requires a target
+Title=Soul Barb
+Description=For a short time, Soul Barb's target takes damage whenever he activates an artifact--more powerful artifacts inflict more damage.
+Quote=Agony in his chest, as if his heart was about to explode, in his head, white-hot nails driving into his brain, pain so strong that even in the Void he wanted to scream.
+PickupMessage=You got the Soul Barb ter'angreal
+
+[AngrealInvSwapPlaces]
+FailMessage=requires a target
+Title=Swap Places
+Description=This ter'angreal switches your position with that of your target.  Swap Places tricks any weaves that currently track you into now tracking your target, and vice-versa.
+Quote=The sense of shifting, of her skin trying to crawl, did not go away.
+PickupMessage=You got the Swap Places ter'angreal
+
+[AngrealInvTarget]
+Title=Find Target
+Description=For a short time, all seeking weaves automatically target the nearest victim, regardless of line of sight.
+Quote=With the Power you had to see something to affect it, or know exactly where it was in relation to you down to a hair.  Perhaps it was different here...
+PickupMessage=You got the Find Target ter'angreal
+
+[AngrealInvIce]
+FailMessage=requires a target
+Title=Freeze
+Description=The ter'angreal wraps its target with a frozen weave of water, making movement impossible during the short time that the ice is melting.
+Quote=Men and Myrddraal stiffened where they stood.  White frost grew thick on them, frost that smoked.  The Myrddraal's upraised arm broke off with a loud crack.  When it hit the floortiles, arm and sword shattered.
+PickupMessage=You got the Freeze ter'angreal
+
+[AngrealInvSpiritShield]
+Title=Spirit Shield
+Description=Spirit Shield forms a protective barrier that prevents all spirit-based weaves or environmental hazards from affecting you.
+Quote=With all her strength Nynaeve wove a shield of Spirit and hurled it between the other woman and saidar. Tried to hurl it between; it was like chopping at a tree with a paper hatchet.
+PickupMessage=You got the Spirit Shield ter'angreal
+
+[AngrealInvTrapDetect]
+Title=Trap Detect
+Description=For a short time, Trap Detect makes nearby traps extremely obvious, whether the traps are woven from the One Power or conventional.  As you approach a trap, your heart quickens but more importantly, any trap directly in your view alights with a visual cue that serves to identify both position and function.  This cue only shows the closest trap; sweeping the area is recommended to discover more.
+Quote=There was something woven into the barrier of shattered columns. He hardened the shield around himself. Great tumbled chunks of red and white stone exploded as he reached to climb, a burst of pure light and flying stone.
+PickupMessage=You got the Trap Detect ter'angreal
+
+[AngrealInvSpecial]
+Title=Unknown
+Description=It's not clear how to use this artifact, nor what it does.  Quick research reveals nothing.
+Quote=Such things need study.
+PickupMessage=You got an unknown ter'angreal
+
+[AngrealInvFireworks]
+Title=Fireworks
+Description=
+Quote=
+PickupMessage=You got the Fireworks ter'angreal
+
