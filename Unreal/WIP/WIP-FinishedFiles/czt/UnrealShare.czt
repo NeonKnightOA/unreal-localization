@@ -158,6 +158,8 @@ Object=(Name="Brightness",Class=Class,MetaClass=Engine.Input,Description="Hra,Zm
 Object=(Name="UShowMusicMenu",Class=Class,MetaClass=Engine.Input,Description="Hra,Hudební Menu")
 ; EN: Object=(Name="UShowAdminMenu",Class=Class,MetaClass=Engine.Input,Description="Game,Admin menu")
 Object=(Name="UShowAdminMenu",Class=Class,MetaClass=Engine.Input,Description="Hra,Administrační Menu")
+; EN: Object=(Name="EndFullscreen",Class=Class,MetaClass=Engine.Input,Description="Game,Windowed mode")
+Object=(Name="EndFullscreen",Class=Class,MetaClass=Engine.Input,Description="Hra,Režim Okna")
 ; EN: Object=(Name="Cancel",Class=Class,MetaClass=Engine.Input,Description="Network Connection,Cancel Connection")
 Object=(Name="Cancel",Class=Class,MetaClass=Engine.Input,Description="Síťové Připojení,Zrušit Připojení")
 ; EN: Object=(Name="Disconnect",Class=Class,MetaClass=Engine.Input,Description="Network Connection,Disconnect")
