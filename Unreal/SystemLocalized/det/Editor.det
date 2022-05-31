@@ -37,13 +37,13 @@ Preferences=(Caption="Colors",Parent="Editor",LangCaption="Farben",Class=Editor.
 Preferences=(Caption="Grid",Parent="Editor",LangCaption="Raster",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
 Preferences=(Caption="Rotation Grid",Parent="Editor",LangCaption="Rotationsraster",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 ; "Commandlets and Exporters" subtree
-Preferences=(Caption="Commandlets and Exporters",Parent="Editor",LangCaption="Befehls-Applets und Exporteure")
-Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",LangCaption="Befehls-App AudioPackage",Class=Editor.AudioPackageCommandlet,Immediate=True)
-Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",LangCaption="Befehls-App BatchMeshExport",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",LangCaption="Befehls-App FullBatchExport",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",LangCaption="Befehls-App MusicPackages",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",LangCaption="Befehls-App RebuildImports",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",LangCaption="Exporteur SkeletalAnim (PSA)",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
+Preferences=(Caption="Commandlets and Exporters",Parent="Editor",LangCaption="Commandlets und Exporter")
+Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",LangCaption="Commandlet AudioPackage",Class=Editor.AudioPackageCommandlet,Immediate=True)
+Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",LangCaption="Commandlet BatchMeshExport",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
+Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",LangCaption="Commandlet FullBatchExport",Class=Editor.FullBatchExportCommandlet,Immediate=True)
+Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",LangCaption="Commandlet MusicPackages",Class=Editor.MusicPackagesCommandlet,Immediate=True)
+Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",LangCaption="Commandlet RebuildImports",Class=Editor.RebuildImportsCommandlet,Immediate=True)
+Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",LangCaption="Exporter SkeletalAnim (PSA)",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
 
 [MasterCommandlet]
 HelpCmd=master
