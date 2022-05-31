@@ -25,7 +25,7 @@ Preferences=(Caption="Connection Notifications",Parent="Networking",LangCaption=
 Preferences=(Caption="Map Lists",Parent="Networking",LangCaption="Kartenlisten")
 ; Decals
 Preferences=(Caption="Blood",Parent="Decals",LangCaption="Blut")
-Preferences=(Caption="Pawn Shadow",Parent="Decals",LangCaption="Spielerschatten",Class=Engine.PawnShadow,Immediate=True)
+Preferences=(Caption="Pawn Shadow",Parent="Decals",LangCaption="Figurenschatten",Class=Engine.PawnShadow,Immediate=True)
 Preferences=(Caption="Decoration Shadow",Parent="Decals",LangCaption="Dekorationsschatten",Class=Engine.DecoShadow,Immediate=True)
 Preferences=(Caption="Projectile Shadow",Parent="Decals",LangCaption="Projektilschatten",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
