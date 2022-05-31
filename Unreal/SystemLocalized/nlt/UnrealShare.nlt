@@ -987,14 +987,6 @@ SomeoneName="Iemand"
 DemoPlaybackProg="Demo: %f %"
 ; EN: DemoRecInfo="[REC]"
 DemoRecInfo="[OPN]"
-; EN: GameTypeStr="Game Type: "
-GameTypeStr="Speltype: "
-; EN: MapTitleStr="Map Title: "
-MapTitleStr="Kaarttitel: "
-; EN: AuthorStr="Author: "
-AuthorStr="Auteur: "
-; EN: IdealPlayerCountStr="Ideal Player Load: "
-IdealPlayerCountStr="Ideaal Aantal Spelers: "
 
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
@@ -1553,9 +1545,17 @@ ItemName="Shellen"
 
 [UnrealScoreBoard]
 ; EN: DeadStr="You are dead. Hit [Fire] to respawn!"
-DeadStr="Je bent dood. Druk op [Fire] om te respawnen!"
+DeadStr="Je bent dood. Druk op [Vuur] om te respawnen!"
 ; EN: SpectatorStr="You are spectating.  Hit [Fire] to view from another player!"
 SpectatorStr="Je bent aan het toeschouwen. Druk op [Vuur] om te bekijken vanaf een andere speler!"
+; EN: GameType="Game Type: "
+GameType="Speltype: "
+; EN: MapTitle="Map Title: "
+MapTitle="Kaarttitel: "
+; EN: Author="Author: "
+Author="Auteur: "
+; EN: IdealPlayerCount="Ideal Player Load: "
+IdealPlayerCount="Ideaal Aantal Spelers: "
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
