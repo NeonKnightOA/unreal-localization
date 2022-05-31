@@ -36,8 +36,8 @@ Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,
 ; EN: Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
 Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
 Preferences=(Caption="Darkmatch",Parent="Game Types",LangCaption="Düster-Match",Class=UnrealI.DarkMatch,Immediate=True)
-Preferences=(Caption="King Of The Hill",Parent="Game Types",LangCaption="König des Hügels",Class=UnrealI.KingOfTheHill,Immediate=True)
-Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",LangCaption="Karten fur Düster-Match",Class=UnrealI.DkMapList,Immediate=True)
+Preferences=(Caption="King Of The Hill",Parent="Game Types",LangCaption="King of the Hill",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",LangCaption="Karten für Düster-Match",Class=UnrealI.DkMapList,Immediate=True)
 
 [IntroNullHud]
 ; EN: ESCMessage="Press ESC to begin"
@@ -349,11 +349,11 @@ Message7="Drücke Feuer zum Neustarten"
 
 [KingOfTheHill]
 ; EN: ClassCaption="King of the Hill"
-ClassCaption="König des Hügels"
+ClassCaption="King of the Hill"
 ; EN: KingMessage=" is the new king of the hill!"
 KingMessage=" ist der neue König des Hügels!"
 ; EN: GameName="King of the Hill"
-GameName="König des Hügels"
+GameName="King of the Hill"
 ; EN: NewKingMessage="%k is the new king of the hill!"
 NewKingMessage="%k ist der neue König des Hügels!"
 ; EN: NewQueenMessage="%k is the new queen of the hill!"
