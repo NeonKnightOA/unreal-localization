@@ -18,10 +18,10 @@ Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
-Preferences=(Caption="Cloak Match",Parent="Game Types",Class=UPak.CloakMatch,Immediate=True)
-Preferences=(Caption="Gravity Match",Parent="Game Types",Class=UPak.GravityMatch,Immediate=True)
-Preferences=(Caption="Marine Match",Parent="Game Types",Class=UPak.MarineMatch,Immediate=True)
-Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Class=UPak.TerranWeaponMatch,Immediate=True)
+Preferences=(Caption="Cloak Match",Parent="Game Types",LangCaption="Plášť Zápas",Class=UPak.CloakMatch,Immediate=True)
+Preferences=(Caption="Gravity Match",Parent="Game Types",LangCaption="Gravitační Zápas",Class=UPak.GravityMatch,Immediate=True)
+Preferences=(Caption="Marine Match",Parent="Game Types",LangCaption="Námořní Zápas",Class=UPak.MarineMatch,Immediate=True)
+Preferences=(Caption="Terran Weapon Match",Parent="Game Types",LangCaption="Zápas Terranských Zbraní",Class=UPak.TerranWeaponMatch,Immediate=True)
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
@@ -102,7 +102,7 @@ MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
-GameName="Plášť zápas"
+GameName="Plášť Zápas"
 
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
@@ -128,11 +128,11 @@ M_Deactivated=" vypnutý... doplňuje se."
 
 [MarineMatch]
 ; EN: GameName="Marine Match"
-GameName="Námořní zápas"
+GameName="Námořní Zápas"
 
 [GravityMatch]
 ; EN: GameName="Gravity Match"
-GameName="Gravitační zápas"
+GameName="Gravitační Zápas"
 
 [UPakDebugger]
 ; EN: ItemName="UPak Debugger"
@@ -178,7 +178,7 @@ MenuName="Muž 2"
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
-GameName="Zápas terranských zbraní"
+GameName="Zápas Terranských Zbraní"
 
 [CompTablet]
 ; EN: PickupMessage="You got the Computer Tablet"

@@ -1,10 +1,10 @@
 ﻿[Public]
 Object=(Name=OldOpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
-Preferences=(Caption="OldOpenGL Support",Parent="Rendering",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OldOpenGL Support",Parent="Rendering",LangCaption="Podpora OldOpenGL",Class=OldOpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
 [OpenGLRenderDevice]
 ; EN: ClassCaption="OldOpenGL Support"
-ClassCaption="Podpora vykreslování OldOpenGL"
+ClassCaption="Podpora OldOpenGL"
 ; EN: AskInstalled="Do you have a OldOpenGL compatible 3D accelerator installed?"
 AskInstalled="Máte nainstalovaný 3D akcelerátor kompatibilní s OldOpenGL?"
 ; EN: AskUse="Do you want Unreal to use your OldOpenGL accelerator?"
