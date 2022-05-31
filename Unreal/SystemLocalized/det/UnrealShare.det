@@ -181,9 +181,9 @@ Object=(Name="Type",Class=Class,MetaClass=Engine.Input,Description="Konsole,Schn
 Preferences=(Caption="Coop Play",Parent="Game Types",LangCaption="Co-op-Spiel",Class=UnrealShare.CoopGame,Immediate=True)
 Preferences=(Caption="Deathmatch",Parent="Game Types",LangCaption="Deathmatch",Class=UnrealShare.DeathmatchGame,Immediate=True)
 Preferences=(Caption="Team Play",Parent="Game Types",LangCaption="Teamspiel",Class=UnrealShare.TeamGame,Immediate=True)
-Preferences=(Caption="Config",Parent="Decals",LangCaption="Konfiguration",Class=UnrealShare.Scorch,Immediate=True,Category=Decal)
+Preferences=(Caption="Config",Parent="Decals",LangCaption="Einstellung",Class=UnrealShare.Scorch,Immediate=True,Category=Decal)
 Preferences=(Caption="Client",Parent="Blood",LangCaption="Client",Class=UnrealShare.UnrealBlood,Immediate=True,Category=BloodClient)
-Preferences=(Caption="Deathmatch Maps",Parent="Map Lists",LangCaption="Kartenlisten für Deathmatch",Class=UnrealShare.DmMapList,Immediate=True)
+Preferences=(Caption="Deathmatch Maps",Parent="Map Lists",LangCaption="Deathmatch-Karten",Class=UnrealShare.DmMapList,Immediate=True)
 
 [DeathMatchGame]
 ; EN: ClassCaption="Deathmatch"
