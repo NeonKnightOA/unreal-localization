@@ -20,7 +20,7 @@ Preferences=(Caption="Key Aliases",Parent="Advanced",LangCaption="Tastenkürzel"
 Preferences=(Caption="Raw Key Bindings",Parent="Advanced",LangCaption="Tastenbelegung",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
 Preferences=(Caption="Public Server Information",Parent="Networking",LangCaption="Öffentliche Server-Info",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Channel Download",Parent="Networking",LangCaption="Kanal Download",Class=Engine.ChannelDownload)
+Preferences=(Caption="Channel Download",Parent="Networking",LangCaption="Kanal-Download",Class=Engine.ChannelDownload)
 Preferences=(Caption="Connection Notifications",Parent="Networking",LangCaption="Verbindungsbenachrichtigungen",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
 Preferences=(Caption="Map Lists",Parent="Networking",LangCaption="Kartenlisten")
 ; Decals
