@@ -17,7 +17,7 @@ Preferences=(Caption="Decals",Parent="Advanced Options",LangCaption="Marken")
 ; Advanced
 Preferences=(Caption="Game Engine Settings",Parent="Advanced",LangCaption="Game-Engine-Einstellungen",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Key Aliases",Parent="Advanced",LangCaption="Tastenbefehle",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Raw Key Bindings",Parent="Advanced",LangCaption="Rohe Tastenbelege",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",LangCaption="Rohe Tastenbelegung",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
 Preferences=(Caption="Public Server Information",Parent="Networking",LangCaption="Öffentliche Server-Info",Class=Engine.GameReplicationInfo,Immediate=True)
 Preferences=(Caption="Channel Download",Parent="Networking",LangCaption="Kanal-Download",Class=Engine.ChannelDownload)
