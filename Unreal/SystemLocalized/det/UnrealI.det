@@ -37,7 +37,7 @@ Object=(Name=UnrealI.NaliPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,
 Object=(Name=UnrealI.NaliPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Nali")
 Preferences=(Caption="Darkmatch",Parent="Game Types",LangCaption="Düster-Match",Class=UnrealI.DarkMatch,Immediate=True)
 Preferences=(Caption="King Of The Hill",Parent="Game Types",LangCaption="King of the Hill",Class=UnrealI.KingOfTheHill,Immediate=True)
-Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",LangCaption="Karten für Düster-Match",Class=UnrealI.DkMapList,Immediate=True)
+Preferences=(Caption="Darkmatch Maps",Parent="Map Lists",LangCaption="Düster-Match-Karten",Class=UnrealI.DkMapList,Immediate=True)
 
 [IntroNullHud]
 ; EN: ESCMessage="Press ESC to begin"
