@@ -159,12 +159,12 @@ SkinText="Vzhled"
 IDText="ID"
 
 [UBrowserLibPageWindow]
-; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library %ls."
 DLLTitleStr="Nelze se připojit: Chybí knihovna dynamických odkazů „%ls“."
-; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched %ls."
 DLLVerTitleStr="Nelze se připojit: Verze knihovny dynamických odkazů neodpovídá „%ls“."
-; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
-InfoText[0]="Pro připojení tohoto serveru budete potřebovat další knihovnu C ++ "%ls"."
+; EN: InfoText[0]="To connect this server you will need additional C++ library %ls."
+InfoText[0]="Pro připojení tohoto serveru budete potřebovat další knihovnu C ++ %ls."
 ; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
 InfoText[1]="Pro více informací zobrazte externí informace zespodu (hostované %ls):"
 

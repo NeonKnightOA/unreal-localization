@@ -159,12 +159,12 @@ SkinText="Bőr"
 IDText="ID"
 
 [UBrowserLibPageWindow]
-; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library "%ls"."
-DLLTitleStr="Nem lehet kapcsolódni: Hiányzik a (z) "%ls" dinamikus linktár."
-; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched "%ls"."
-DLLVerTitleStr="Nem lehet csatlakozni: A Dynamic Link Library verziója nem egyezik a (z) "%ls" értékkel."
-; EN: InfoText[0]="To connect this server you will need additional C++ library "%ls"."
-InfoText[0]="A szerver csatlakoztatásához további "%ls" C ++ könyvtárra lesz szükség."
+; EN: DLLTitleStr="Can't connect: Missing Dynamic Link Library %ls."
+DLLTitleStr="Nem lehet kapcsolódni: Hiányzik a (z) %ls dinamikus linktár."
+; EN: DLLVerTitleStr="Can't connect: Dynamic Link Library version mismatched %ls."
+DLLVerTitleStr="Nem lehet csatlakozni: A Dynamic Link Library verziója nem egyezik a (z) %ls értékkel."
+; EN: InfoText[0]="To connect this server you will need additional C++ library %ls."
+InfoText[0]="A szerver csatlakoztatásához további %ls C ++ könyvtárra lesz szükség."
 ; EN: InfoText[1]="For more info view the external info from below (hosted by %ls):"
 InfoText[1]="További információért tekintse meg a külső információkat alulról ( %ls üzemelteti):"
 
