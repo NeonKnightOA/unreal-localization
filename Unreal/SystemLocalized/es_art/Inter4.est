@@ -1,0 +1,17 @@
+﻿[LevelInfo4]
+; EN: Title="Yousa follow me now, okiday?"
+Title="Eh, guacho, vos me vas a seguir, ¿está bien?"
+; EN: LevelEnterText="What the hell are you doing here..."
+LevelEnterText="¿Qué carajos estás haciendo aquí?"
+
+[LevelSummary]
+; EN: Title="Yousa follow me now, okiday?"
+Title="Eh, guacho, vos me vas a seguir, ¿está bien?"
+; EN: LevelEnterText="What the hell are you doing here..."
+LevelEnterText="¿Qué carajos estás haciendo aquí?"
+
+[TransitionGenderEvent4]
+; N_K: Make the texts and their length coincide with their equivalents in Sounds/es_art/Interm4.uax
+OutDelays[1]=23.500000
+MaleText[0]="¡Me estoy acercando! Vi las primeras señales del lugar de estrellamiento. Encontré varios fragmentos de una nave terrícola hecha pedazos mientras atravesaba un pueblo Nali infestado de Skaarj. Los restos se habían prendido fuego al volver a entrar en la atmósfera del planeta, y fueron desparramados por una zona bastante grande. Espero que la nave no haya explotado en el aire, ya que en ese caso, ¡no habría ningún núcleo que rescatar! El lugar de la colisión está muy cerca. Casi lo tengo."
+FemaleText[0]="¡Me estoy acercando! Vi las primeras señales del lugar de estrellamiento. Encontré varios fragmentos de una nave terrícola hecha pedazos mientras atravesaba un pueblo Nali infestado de Skaarj. Los restos se habían prendido fuego al volver a entrar en la atmósfera del planeta, y fueron desparramados por una zona bastante grande. Espero que la nave no haya explotado en el aire, ya que en ese caso, ¡no habría ningún núcleo que rescatar! El lugar de la colisión está muy cerca. Casi lo tengo."
