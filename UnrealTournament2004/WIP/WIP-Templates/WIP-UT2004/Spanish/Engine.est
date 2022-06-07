@@ -1,13 +1,13 @@
 [Errors]
 NetOpen=Error abriendo archivo
 NetWrite=Error escribiendo en archivo
-NetRefused=El servidor no envió '%s'
+NetRefused=El servidor no envió %s
 NetClose=Error cerrando archivo.
 NetSize=Tamaño archivo erróneo.
 NetMove=Error moviendo archivo.
 NetInvalid=Se recibió petición arch. no válida.
-NoDownload=Paquete '%s' no descargable
-DownloadFailed=Error al descargar paquete '%s': %s
+NoDownload=Paquete %s no descargable
+DownloadFailed=Error al descargar paquete %s: %s
 RequestDenied=Serv. solicitó arch. niv. pend.: solicitud deng.
 ConnectionFailed=Conexión errónea
 ChAllocate=No se pudo asignar canal
@@ -21,13 +21,13 @@ Listen=Comu. fallida: %s
 AbortToEntry=Error; regresando a entrada.
 ServerOpen=El servidor no puede abrir URL de red
 ServerListen=Servidor dedicado, no puede recibir: %s
-Pending=Conexión pendiente con '%s' errónea; %s
+Pending=Conexión pendiente con %s errónea; %s
 LoadPlayerClass=No se pudo cargar clase de jugador.
 ServerOutdated=Versión del servidor antigua
 ClientOutdated=Debes aplicar el parche más reciente
 InvalidCDKey=La clave del CD parece como no válida. Para solucionar el problema, tendrás que reinstalar el juego e introducir la clave.
 ConnectLost=Conexión interrumpida
-DemoFileMissing=No se encuentra el paquete '%s' para la reproducción de la demo
+DemoFileMissing=No se encuentra el paquete %s para la reproducción de la demo
 DownloadNotAllowed=No se permite descargar 's%'
 
 [General]
@@ -112,17 +112,17 @@ Escape=ESC
 [Progress]
 CancelledConnect=Canc. intento de conexión
 RunningNet=%s: %s (%i jug.)
-NetReceiving=Recibiendo '%s': %i/%i
-NetReceiveOk=Se ha recibido '%s'
-NetSend=Envian. '%s'
-NetSending=Envian. '%s': %i/%i
+NetReceiving=Recibiendo %s: %i/%i
+NetReceiveOk=Se ha recibido %s
+NetSend=Envian. %s
+NetSending=Envian. %s: %i/%i
 Connecting=Conectando (F10 para cancelar)
 Listening=Esperando clientes...
 Loading=Cargando
 Saving=Guardando
 Paused=Pausa por %s
-ReceiveFile=Recibiendo '%s' (F10 canc.)
-ReceiveOptionalFile=Recibiendo fich. opc. '%s' (F10 para saltar)
+ReceiveFile=Recibiendo %s (F10 canc.)
+ReceiveOptionalFile=Recibiendo fich. opc. %s (F10 para saltar)
 ReceiveSize=Tamaño %iK, Compl. %3.1f%%
 ConnectingText="Conectando (F10 para cancelar):"
 ConnectingURL=%s://%s/%s

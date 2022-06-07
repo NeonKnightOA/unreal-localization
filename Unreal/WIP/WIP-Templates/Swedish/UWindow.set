@@ -41,8 +41,8 @@ PlayerName="Spelarnamn"
 PlayerIP="IP-adress"
 ; EN: PlayerClientID="Client ID"
 PlayerClientID="Klient ID"
-; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
-MaxLengthExceeded="Maximal längd på spelarlistan översteg "%i""
+; EN: MaxLengthExceeded="Maximum player list length exceeded %i"
+MaxLengthExceeded="Maximal längd på spelarlistan översteg %i"
 ; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
 IDMismatchedStr="Svars-ID stämmer inte överens: %i/%j"
 ; EN: ClientReceivedStr="Received client %ls."
@@ -51,8 +51,8 @@ ClientReceivedStr="Mottagen klient %ls."
 GettingInfoStr="Att hämta spelarlista från servern, om inget händer kanske du inte är inloggad som admin."
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
-LengthExceeded="Maximal längd på spelarlistan översteg "%i""
+; EN: LengthExceeded="Maximum player list length exceeded %i"
+LengthExceeded="Maximal längd på spelarlistan översteg %i"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="Svars-ID stämmer inte överens: %i/%j"
 ; EN: ReceiveBanText="Received ban %ls."
@@ -219,8 +219,8 @@ LargeFont=UWindowFonts.Tahoma30
 LargeFontBold=UWindowFonts.TahomaB30
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
-LengthExceeded="Maximal längd på spelarlistan översteg "%i""
+; EN: LengthExceeded="Maximum player list length exceeded %i"
+LengthExceeded="Maximal längd på spelarlistan översteg %i"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="Svars-ID stämmer inte överens: %i/%j"
 ; EN: ReceiveBanText="Received ban %ls."

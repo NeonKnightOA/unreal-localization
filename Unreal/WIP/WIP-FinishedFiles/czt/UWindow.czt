@@ -43,7 +43,7 @@ PlayerName="Jméno hráče"
 PlayerIP="IP adresa"
 ; EN: PlayerClientID="Client ID"
 PlayerClientID="ID klienta"
-; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
+; EN: MaxLengthExceeded="Maximum player list length exceeded %i"
 MaxLengthExceeded="Byla překročena maximální délka seznamu hráčů „%i“"
 ; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
 IDMismatchedStr="ID odpovědi neodpovídá: %i/%j"
@@ -53,7 +53,7 @@ ClientReceivedStr="Přijatý klient %ls."
 GettingInfoStr="Získání seznamu hráčů ze serveru, pokud se nic nestane, možná nebudete přihlášeni jako správce."
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
+; EN: LengthExceeded="Maximum player list length exceeded %i"
 LengthExceeded="Byla překročena maximální délka seznamu hráčů „%i“"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="ID odpovědi neodpovídá: %i/%j"
@@ -221,7 +221,7 @@ LargeFont=UWindowFonts.Tahoma30
 LargeFontBold=UWindowFonts.TahomaB30
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
+; EN: LengthExceeded="Maximum player list length exceeded %i"
 LengthExceeded="Byla překročena maximální délka seznamu hráčů „%i“"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="ID odpovědi neodpovídá: %i/%j"

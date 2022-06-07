@@ -12,13 +12,13 @@ Preferences=(Caption="Spieleinstellungen",Parent="Erweiterte Optionen",Class=Eng
 [Errors]
 NetOpen=Datei kann nicht geöffnet werden
 NetWrite=Zieldatei schreiben fehlgeschlagen
-NetRefused=Server hat '%s' nicht gesendet
+NetRefused=Server hat %s nicht gesendet
 NetClose=Zieldatei schließen fehlgeschlagen
 NetSize=Dateigröße ungleich
 NetMove=Datei Bewegung fehlerhaft
 NetInvalid=Ungültige Datei-Nachfrage bekommen
-NoDownload='%s' ist nict zu runterladen
-DownloadFailed=Runterlade '%s' fehlgeschlagen: %s
+NoDownload=%s ist nict zu runterladen
+DownloadFailed=Runterlade %s fehlgeschlagen: %s
 RequestDenied=Server hat nach Datei gefragt: Verweigert
 ConnectionFailed=Verbindung fehlgeschlagen
 ChAllocate=Konnte nicht kanal zuweisen
@@ -32,23 +32,23 @@ Listen=Zuhören fehlgeschlagen: %s
 AbortToEntry=Fehlgeschlagen; zurück zum Eintrag
 ServerOpen=Server kann nicht Netzwerk URLs nicht öffen
 ServerListen=Dedizierter Server kann nicht zuhören: %s
-Pending=Bevorstehende Verbindung zu '%s' fehlgeschlagen; %s
+Pending=Bevorstehende Verbindung zu %s fehlgeschlagen; %s
 LoadPlayerClass=Laden der Spielerklasse fehlgeschlagen
 ServerOutdated=Vorherige Version beim Server entdeckt
 
 [Progress]
 CancelledConnect=Cancelled Connect Attempt
 RunningNet=%s: %s (%i Spieler)
-NetReceiving=Bekomme '%s': %i/%i
-NetReceiveOk='%s' erfolgreich bekommen
-NetSend='%s' wird gesendet
-NetSending='%s' wird gesendet: %i/%i
+NetReceiving=Bekomme %s: %i/%i
+NetReceiveOk=%s erfolgreich bekommen
+NetSend=%s wird gesendet
+NetSending=%s wird gesendet: %i/%i
 Connecting=Verbindete...
 Listening=Höre nach Clients zu...
 Loading=Lade
 Saving=Speichere
 Paused=Spielpause von %s
-ReceiveFile=Empfang von '%s'
+ReceiveFile=Empfang von %s
 ReceiveSize=Größe %iK, Abgeschlossen %3.1f%%
 ConnectingText=Verbinde:
 ConnectingURL=unreal://%s/%s

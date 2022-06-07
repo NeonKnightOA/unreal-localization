@@ -42,8 +42,8 @@ PlayerName="Játékos neve"
 PlayerIP="IP-cím"
 ; EN: PlayerClientID="Client ID"
 PlayerClientID="Ügyfélazonosító"
-; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
-MaxLengthExceeded="A játékoslista maximális hossza meghaladta a "%i" értéket"
+; EN: MaxLengthExceeded="Maximum player list length exceeded %i"
+MaxLengthExceeded="A játékoslista maximális hossza meghaladta a %i értéket"
 ; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
 IDMismatchedStr="A válaszazonosító nem egyezik: %i/%j"
 ; EN: ClientReceivedStr="Received client %ls."
@@ -52,8 +52,8 @@ ClientReceivedStr="%ls fogadott ügyfél."
 GettingInfoStr="Játékoslista lekérése a szerverről, ha nem történik semmi, akkor előfordulhat, hogy nem vagy adminisztrátorként bejelentkezve."
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
-LengthExceeded="A játékoslista maximális hossza meghaladta a "%i" értéket"
+; EN: LengthExceeded="Maximum player list length exceeded %i"
+LengthExceeded="A játékoslista maximális hossza meghaladta a %i értéket"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="A válaszazonosító nem egyezik: %i/%j"
 ; EN: ReceiveBanText="Received ban %ls."
@@ -220,8 +220,8 @@ LargeFont=UWindowFonts.Tahoma30
 LargeFontBold=UWindowFonts.TahomaB30
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
-LengthExceeded="A játékoslista maximális hossza meghaladta a "%i" értéket"
+; EN: LengthExceeded="Maximum player list length exceeded %i"
+LengthExceeded="A játékoslista maximális hossza meghaladta a %i értéket"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="A válaszazonosító nem egyezik: %i/%j"
 ; EN: ReceiveBanText="Received ban %ls."

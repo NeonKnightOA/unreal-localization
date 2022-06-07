@@ -134,7 +134,7 @@ BadProperty="%ls: Propriété erronée ou manquante %ls."
 ; EN: MissingIni="Missing .ini file: %ls."
 MissingIni="Fichier .ini manquant: %ls."
 ; EN: NoTXTFile="Can not exec non-text (.txt) file type %ls."
-NoTXTFile="Impossible d'exécuter le fichier '%ls'. Ce n'est pas un fichier texte (.txt)."
+NoTXTFile="Impossible d'exécuter le fichier %ls. Ce n'est pas un fichier texte (.txt)."
 
 [General]
 Product="Unreal"

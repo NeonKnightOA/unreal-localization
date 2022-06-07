@@ -12,13 +12,13 @@ Preferences=(Caption="Configura Gioco",Parent="Opzioni Avanzate",Class=Engine.Ga
 [Errors]
 NetOpen=Errore nell'apertura del file
 NetWrite=Errore nella scrittura sulfile
-NetRefused=Il server si è rifiutato di inviare '%s'
+NetRefused=Il server si è rifiutato di inviare %s
 NetClose=Errore nella chiusura del file
 NetSize=La dimensione del file non collima
 NetMove=Errore nello spostamento del file
 NetInvalid=Richiesta di file invalida
-NoDownload=Il Package '%s' non si può scaricare
-DownloadFailed=E' fallito lo scaricamento del package '%s': %s
+NoDownload=Il Package %s non si può scaricare
+DownloadFailed=E' fallito lo scaricamento del package %s: %s
 RequestDenied=Il server ha richiesto un file: Negato
 ConnectionFailed=Connessione fallita 
 ChAllocate=Non ho potuto allocare il canale
@@ -32,23 +32,23 @@ Listen=Listen fallito: %s
 AbortToEntry=Fallimento; ritorno all'Entry
 ServerOpen=I Server non possono aprire URL sulla rete
 ServerListen=Un server Dedicato non può fare l'azione listen: %s
-Pending=La connessione a '%s' è fallita; %s
+Pending=La connessione a %s è fallita; %s
 LoadPlayerClass=Non ho potuto caricare la classe del giocatore
 ServerOutdated=La versione del server è obsoleta
 
 [Progress]
 CancelledConnect=Tentativo di connessione cancellato
 RunningNet=%s: %s (%i players)
-NetReceiving=Ricevendo '%s': %i/%i
-NetReceiveOk=Ricevuto con successo '%s'
-NetSend=Invio '%s'
-NetSending=Invio '%s': %i/%i
+NetReceiving=Ricevendo %s: %i/%i
+NetReceiveOk=Ricevuto con successo %s
+NetSend=Invio %s
+NetSending=Invio %s: %i/%i
 Connecting=Connessione...
 Listening=In ascolto per clienti...
 Loading=Caricamento
 Saving=Salvataggio
 Paused=Pausa per %s
-ReceiveFile=Ricezione di '%s' in corso
+ReceiveFile=Ricezione di %s in corso
 ReceiveSize=Peso %iK, Completo %3.1f%%
 ConnectingText=Connessione in corso:
 ConnectingURL=unreal://%s/%s

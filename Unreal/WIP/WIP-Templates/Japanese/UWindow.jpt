@@ -43,7 +43,7 @@ PlayerName="プレーヤの名前"
 PlayerIP="IPアドレス"
 ; EN: PlayerClientID="Client ID"
 PlayerClientID="クライアントID"
-; EN: MaxLengthExceeded="Maximum player list length exceeded "%i""
+; EN: MaxLengthExceeded="Maximum player list length exceeded %i"
 MaxLengthExceeded="プレーヤーリストの最大長が「％i」を超えました"
 ; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
 IDMismatchedStr="応答IDが一致しません：％i /％j"
@@ -53,7 +53,7 @@ ClientReceivedStr="クライアント "％ls"を受信しました。"
 GettingInfoStr="サーバーからプレーヤーリストを取得しています。何も起こらない場合は、管理者としてログインしていない可能性があります。"
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
+; EN: LengthExceeded="Maximum player list length exceeded %i"
 LengthExceeded="プレーヤーリストの最大長が「％i」を超えました"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="応答IDが一致しません：％i /％j"
@@ -221,7 +221,7 @@ LargeFont=UWindowFonts.Tahoma30
 LargeFontBold=UWindowFonts.TahomaB30
 
 [AdminGUIBanLGrid]
-; EN: LengthExceeded="Maximum player list length exceeded "%i""
+; EN: LengthExceeded="Maximum player list length exceeded %i"
 LengthExceeded="プレーヤーリストの最大長が「％i」を超えました"
 ; EN: ResponseMismatch="Response ID mismatched: %i/%j"
 ResponseMismatch="応答IDが一致しません：％i /％j"
