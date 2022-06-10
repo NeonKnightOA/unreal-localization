@@ -49,6 +49,7 @@ Each language has a portal which comprises the general guidelines. All languages
 * **Nikola:** Czech, additional contributions.
 * **ElectricIce:** Swedish, additional contributions.
 * **bennytrt:** Dutch, additional contributions.
+* **Rubie:** Dutch, revision and additional contributions.
 * **Excalidar:** Norwegian, additional contributions.
 * **Vapor Mermaid:** Japanese, localization contributor.
 
