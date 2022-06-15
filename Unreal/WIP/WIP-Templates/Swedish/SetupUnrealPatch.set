@@ -82,3 +82,15 @@ Caption="Spela Unreal (64 bitar)"
 Caption="Återställ alla inställningar"
 ; EN: Description="Recommended! Reset all ini settings back to default. Keeping your old ini settings may cause problems with this version; this setting is optional."
 Description="Rekommenderas! Ställ in alla dina personliga Unreal-inställningar till deras standardvärden. Att behålla de gamla värdena kan orsaka problem med den här versionen; det här alternativet är valfritt."
+
+[ConsoleGroup]
+; EN: Caption="Classic Menu"
+Caption="Klassisk Meny"
+; EN: Description="Use the classic UBrowser menu instead of UMenu. For the classic experience, this original menu is keyboard based and the standard console before UMenu was introduced in Unreal Gold/Unreal Tournament."
+Description="Använd den klassiska UBrowser-menyn istället för UMenu för att få den klassiska upplevelsen. Den här menyn är tangentbordsbaserad och brukade vara standardmenyn fram till introduktionen av UMenu i Unreal Gold/Unreal Tournament."
+
+[RTNPGroup]
+; EN: Caption="Return to Na Pali Expansion Support"
+Caption="Stöd för Return to Na Pali Expansion"
+; EN: Description="This installs support for the Return to Na Pali expansion pack. This pack was sold separately and later included in Unreal Gold and Unreal Anthology versions. Do not install if you have the classic version only (226f)."
+Description="Det här alternativet installerar stöd för expansionspaketet Return to Na Pali. Denna expansion brukade säljas separat och inkluderas sedan i versionerna Unreal Gold och Unreal Anthology. Installera inte om du bara har basspelet installerat (226f)."
