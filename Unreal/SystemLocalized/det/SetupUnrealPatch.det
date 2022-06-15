@@ -1,11 +1,11 @@
-﻿[Setup]
+[Setup]
 LocalProduct="Unreal Gold"
-DefaultFolder="C:\Program Files\UnrealGold"
+DefaultFolder="C:\Program Files (x86)\UnrealGold"
 ReadMe="Help\227ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Gold Setup"
-SetupWindowTitle="Unreal Gold/Unreal Anthology Setup"
+SetupWindowTitle="Unreal Gold Setup"
 ; EN: AutoplayWindowTitle="Unreal Gold Options"
-AutoplayWindowTitle="Unreal Gold/Unreal Anthology Optionen"
+AutoplayWindowTitle="Unreal Gold Optionen"
 ProductURL="https://www.oldunreal.com/"
 VersionURL="https://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
@@ -14,8 +14,8 @@ DeveloperURL="https://www.oldunreal.com/"
 Logo="Help\Logo.bmp"
 
 [UnrealRequirement]
-LocalProduct="Unreal Gold/Unreal Anthology"
-ProductURL="https://www.unreal.com/"
+LocalProduct="Unreal Gold"
+ProductURL="https://www.epicgames.com/"
 VersionURL="https://www.epicgames.com/"
 ; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
 Developer="Epic Games, Inc. - 227 von Oldunreal"
@@ -35,21 +35,21 @@ Description="Kopiert die Mutator-Dateien für alte Waffen. Mit diesen Dateien k�
 
 [LinuxARMGroup]
 ; EN: Caption="Linux ARM (64-bit) version files"
-Caption="Linux ARM (64Bit) Version der Dateien"
+Caption="Linux ARM (64-bit) Version der Dateien"
 ; EN: Description="64-bit Linux ARM version of the game (Cortex-A72 CPU and compatible). The files will be installed in the Unreal/SystemARM folder."
-Description="64Bit Linux ARM version des Spiels (Cortex-A72 CPU und kompatibele). Die Dateien werden in den Unreal/SystemARM Ordner installiert."
+Description="64-bit Linux ARM version des Spiels (Cortex-A72 CPU und kompatibele). Die Dateien werden in den Unreal/SystemARM Ordner installiert."
 
 [Linux64Group]
 ; EN: Caption="Linux 64-bit version files"
-Caption="Linux 64Bit Version der Dateien"
-; EN: Description="64-bit Linux version of the game. The files will be installed in the Unreal/System64 folder. The 64bit version will not use any ini settings from the 32-bit version."
-Description="64Bit Linux Version des Spiels. Die Dateien werden in den Unreal/System64 Ordner installiert. Die 64Bit-Version verwendet keine INI-Einstellungen der 32Bit-Version."
+Caption="Linux 64-bit Version der Dateien"
+; EN: Description="64-bit Linux version of the game. The files will be installed in the Unreal/System64 folder. The 64-bit version will not use any ini settings from the 32-bit version."
+Description="64-bit Linux Version des Spiels. Die Dateien werden in den Unreal/System64 Ordner installiert. Die 64-Bit-Version verwendet keine INI-Einstellungen der 32-Bit-Version."
 
 [Windows64Group]
 ; EN: Caption="Windows 64-bit version files"
-Caption="Windows 64Bit Version der Dateien"
+Caption="Windows 64-bit Version der Dateien"
 ; EN: Description="64-bit Windows version of the game. The files will be installed in the Unreal/System64 folder. The 64-bit version will not use any ini settings from the 32-bit version."
-Description="64Bit Windows Version des Spiels. Die Dateien werden in den Unreal/System64 Ordner installiert. Die 64Bit-Version verwendet keine INI-Einstellungen der 32Bit-Version."
+Description="64-bit Windows Version des Spiels. Die Dateien werden in den Unreal/System64 Ordner installiert. Die 64-Bit-Version verwendet keine INI-Einstellungen der 32-Bit-Version."
 
 [GameGroup]
 ; EN: Caption="Unreal Game"
@@ -59,15 +59,15 @@ Description="Unreal-Spiel. Installation erforderlich."
 
 [EditorGroup]
 ; EN: Caption="Unreal Editor"
-Caption="Unreal Editor"
+Caption="Unreal-Editor"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description=Unreal Level Editor, zum Erstellen von eigenen Unreal 3D-Umgebungen. Für fortgeschrittene Benutzer ist die Installation optional."
+Description=Unreal-Level-Editor, um eigene Unreal-3D-Umgebungen erstellen zu können. Für fortgeschrittene Benutzer ist die Installation optional."
 
 [Editor64Group]
 ; EN: Caption="Unreal Editor (64-bit)"
-Caption="Unreal Editor (64Bit)"
+Caption="Unreal-Editor (64-Bit)"
 ; EN: Description="Unreal world editor (64-bit version), for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description="Unreal Level Editor (64Bit-Version), zum Erstellen von eigenen Unreal 3D-Umgebungen. Für fortgeschrittene Benutzer ist die Installation optional."
+Description="Unreal-Level-Editor (64-Bit-Version), um eigene Unreal-3D-Umgebungen erstellen zu können. Für fortgeschrittene Benutzer ist die Installation optional."
 
 [PlayShortcut]
 ; EN: Caption="Play Unreal"
@@ -75,13 +75,13 @@ Caption="Spiele Unreal"
 
 [Play64Shortcut]
 ; EN: Caption="Play Unreal (64-bit)"
-Caption="Spiele Unreal (64Bit)"
+Caption="Spiele Unreal (64-Bit)"
 
 [FactoryResetGroup]
 ; EN: Caption="Reset all settings"
 Caption="Alle Einstellungen zurücksetzen"
 ; EN: Description="Recommended! Reset all ini settings back to default. Keeping your old ini settings may cause problems with this version; this setting is optional."
-Description="Empfohlen! Setzen Sie alle persönlichen Einstellungen auf Standardwerte zurück. Das Beibehalten der alten Einstellungen kann zu Problemen mit dieser Version führen; diese Einstellung ist optional."
+Description="Empfohlen! Setzen Sie alle Ihre persönlichen Unreal-Einstellungen auf ihre Standardwerte. Das Beibehalten der alten Werte kann zu Problemen mit dieser Version führen; diese Option ist optional."
 
 [ConsoleGroup]
 ; EN: Caption="Classic Menu"
