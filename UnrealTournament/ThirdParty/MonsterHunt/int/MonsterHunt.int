@@ -1,21 +1,21 @@
 [Public]
-Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Arena v610,Replaces all weapons with the Chainsaw!")
-Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Mess v610,Monsters make a bloody mess!")
+Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Arena v612,Replaces all weapons with the Chainsaw!")
+Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Mess v612,Monsters make a bloody mess!")
 
 Object=(Name=MonsterHunt.MonsterHunt,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Monster Hunt v610",Parent="Game Types",Class=MonsterHunt.MonsterHunt,Immediate=True)
+Preferences=(Caption="Monster Hunt v612",Parent="Game Types",Class=MonsterHunt.MonsterHunt,Immediate=True)
 Object=(Name=MonsterHunt.MonsterHuntArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Monster Arena v610",Parent="Game Types",Class=MonsterHunt.MonsterHuntArena,Immediate=True)
+Preferences=(Caption="Monster Arena v612",Parent="Game Types",Class=MonsterHunt.MonsterHuntArena,Immediate=True)
 Object=(Name=MonsterHunt.MonsterHuntDefence,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Monster Defence v610",Parent="Game Types",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
+Preferences=(Caption="Monster Defence v612",Parent="Game Types",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
 
-Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Default Maps v610")
-Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Default Maps v610")
+Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Default Maps v612")
+Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Default Maps v612")
 
 Object=(Name=MonsterHunt.MonsterBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
 Object=(Name=MonsterHunt.MonsterArenaBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
 
-Object=(Name=MonsterHunt.MonsterMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Monster Hunt Credits v610,The people behind Monster Hunt.")
+Object=(Name=MonsterHunt.MonsterMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Monster Hunt Credits v612,The people behind Monster Hunt.")
 
 [MonsterHunt]
 TimeOutMessage="Time up, hunt failed!"
@@ -110,7 +110,7 @@ MusicSoundText="Special Thanks"
 BizText="Contact info"
 
 [MonsterCreditsWindow]
-WindowTitle="Monster Hunt Credits (v608)"
+WindowTitle="Monster Hunt Credits (v612)"
 
 [HuntMessage]
 NewTeamMessage="has joined the hunt!"

@@ -1,21 +1,21 @@
 [Public]
-Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Motosierras v610,Reemplaza todas las armas con la Motosierra!")
-Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Mess v610,Monsters make a bloody mess!")
+Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Motosierras v612,Reemplaza todas las armas con la Motosierra!")
+Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Mess v612,Monsters make a bloody mess!")
 
 Object=(Name=MonsterHunt.MonsterHunt,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Caceria de Monstruos v610",Parent="Tipos de Juego",Class=MonsterHunt.MonsterHunt,Immediate=True)
+Preferences=(Caption="Caceria de Monstruos v612",Parent="Tipos de Juego",Class=MonsterHunt.MonsterHunt,Immediate=True)
 Object=(Name=MonsterHunt.MonsterHuntArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Cacer�a de Monstruos (Estadio) v610",Parent="Tipos de Juego",Class=MonsterHunt.MonsterHuntArena,Immediate=True)
+Preferences=(Caption="Cacer�a de Monstruos (Estadio) v612",Parent="Tipos de Juego",Class=MonsterHunt.MonsterHuntArena,Immediate=True)
 Object=(Name=MonsterHunt.MonsterHuntDefence,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Cacer�a de Monstruos (Defensa) v610",Parent="Tipos de Juego",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
+Preferences=(Caption="Cacer�a de Monstruos (Defensa) v612",Parent="Tipos de Juego",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
 
-Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Mapas por defecto v610")
-Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Mapas por defecto v610")
+Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Mapas por defecto v612")
+Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Mapas por defecto v612")
 
 Object=(Name=MonsterHunt.MonsterBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
 Object=(Name=MonsterHunt.MonsterArenaBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
 
-Object=(Name=MonsterHunt.MonsterMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Creditos de Caceria de &Monstruos v610,La gente detras de Caceria de Monstruos.")
+Object=(Name=MonsterHunt.MonsterMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Creditos de Caceria de &Monstruos v612,La gente detras de Caceria de Monstruos.")
 
 [MonsterHunt]
 ; EN: TimeOutMessage="Time up, hunt failed!"
