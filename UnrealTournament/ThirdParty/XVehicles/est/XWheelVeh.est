@@ -1,12 +1,12 @@
 [JeepSDX]
-; EN: VehicleName="Jeep SDX"
 VehicleName="Jeep SDX"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Jeep SDX keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|1, 2 to switch seats|9 to toggle winter tires|0 to toggle light|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Jeep SDX keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|1, 2 to switch seats|9 to toggle winter tires|0 to toggle light|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr="Botones del Jeep SDX:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|1, 2 para cambiar de asiento|9 para cambiar a cubiertas de invierno|0 para alternar las luces|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar de cámara|%ThrowWeapon% para salir del vehículo"
 
 [JeepTDX]
-; EN: VehicleName="Jeep TDX"
 VehicleName="Jeep TDX"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Jeep TDX keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|1, 2 to switch seats|0 to toggle light|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Jeep TDX keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|1, 2 to switch seats|0 to toggle light|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr="Botones del Jeep TDX:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|1, 2 para cambiar de asiento|0 para alternar las luces|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar de cámara|%ThrowWeapon% para salir del vehículo"
 

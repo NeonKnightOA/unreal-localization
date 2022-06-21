@@ -1,23 +1,26 @@
 [TankML]
 ; EN: VehicleName="Tank ML-102"
 VehicleName="Tanque ML-102"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Tank ML-102 keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Teclas del Tanque ML-102:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para el disparo alternativo|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
+VehicleKeyInfoStr="Botones del Tanque ML-102:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar de cámara|%ThrowWeapon% para salir del vehículo"
 
 [Kraht]
-; EN: VehicleName="Kraht"
 VehicleName="Kraht"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Kraht keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Teclas del Kraht:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para el disparo alternativo|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
+VehicleKeyInfoStr="Botones del Kraht:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar de cámara|%ThrowWeapon% para salir del vehículo"
 
 [Shrali]
-; EN: VehicleName="Shrali"
 VehicleName="Shrali"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Shrali keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Teclas del Shrali:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para el disparo alternativo|Teclas numéricas para alternar asientos|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
+VehicleKeyInfoStr="Botones del Shrali:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|Números para alternar asientos|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar de cámara|%ThrowWeapon% para salir del vehículo"
 
 [TankGKOne]
 ; EN: VehicleName="Tank GK-1"
 VehicleName="Tanque GK-1"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Tank GK-1 keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Tank GK-1 keys:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para el disparo alternativo|Teclas numéricas para alternar asientos|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
+VehicleKeyInfoStr="Botones del Tanque GK-1:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|Números para alternar asientos|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar de cámara|%ThrowWeapon% para salir del vehículo"
+

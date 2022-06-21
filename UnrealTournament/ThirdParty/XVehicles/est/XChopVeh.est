@@ -1,8 +1,8 @@
 [CybotHelico]
-; EN: VehicleName="Cybot Helico"
-VehicleName="Cybotcóptero"
+VehicleName="Cybot Helico"
 ; EN: TranslatorDescription="This is a Cybot Helico, you can fire different firemodes using [Fire] and [AltFire] buttons. To move higher or lover use [Jump] and [Crouch] buttons and to move around use movement keys. To leave this vehicle press [ThrowWeapon] key."
-TranslatorDescription="Éste es un Cybotcóptero, puedes disparar distintos modos de fuego con los botones de Disparo y Disparo alternativo. Utiliza las teclas de Salto y Agacharse para desplazarte verticalmente y las teclas de movimiento para avanzar, retroceder, y desplazarte lateralmente. Para abandonar este vehículo, presiona la tecla de Soltar arma."
+TranslatorDescription="Este es un Cybot Helico, puedes ejecutar distintos tipos de disparo presionando los botones de [Disparo] y [Disparo Alternativo]. Para elevarte o descender, presiona los botones de [Saltar] y [Agacharse], y para moverte presiona las teclas de dirección. Para abandonar este vehículo, presiona [Lanzar Arma]."
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Cybot Helico keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr="Teclas de Cybotcóptero:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para desplazarte lateralmente|%Jump%, %Duck% para ganar/perder altitud|%Fire% para disparar, %AltFire% para el disp. alternativo|Teclas numéricas para alternar asientos|%ThrowWeapon% para salir del vehículo."
+VehicleKeyInfoStr="Botones de Cybot Helico:|%MoveForward%,%MoveBackward% para (des)acelerar|%StrafeLeft%, %StrafeRight% para despl. lateral|%Jump%, %Duck% para ascender/descender|%Fire% para disparar, %AltFire% para disp. alternativo|Números para alternar asientos|%ThrowWeapon% para salir del vehículo"
 
