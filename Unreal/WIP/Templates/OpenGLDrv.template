@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="OpenGL Support",Parent="Rendering",Langcaption="",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL=""
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc=""
+; EN: ResFailed="Failed to set resolution"
+ResFailed=""
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OpenGL Support"
+ClassCaption=""
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled=""
+; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
+AskUse=""

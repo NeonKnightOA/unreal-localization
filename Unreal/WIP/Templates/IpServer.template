@@ -1,0 +1,12 @@
+﻿[Public]
+Object=(Name=IpServer.UdpServerUplink,Class=Class,MetaClass=Engine.Actor)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Master Server Uplink",Parent="Networking",Langcaption="",Class=IpServer.UdpServerUplink,Immediate=True)
+
+[ServerUplink]
+; EN: ClassCaption="Master Server Uplink"
+ClassCaption=""
+
+[ServerQuery]
+; EN: ClassCaption="Game Server Query"
+ClassCaption=""

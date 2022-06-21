@@ -1,0 +1,8 @@
+﻿[Public]
+Object=(Name=Galaxy.GalaxyAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem,Compat="Win32")
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Galaxy 3D Audio Support",Parent="Audio",Langcaption="",Class=Galaxy.GalaxyAudioSubsystem,Immediate=True)
+
+[GalaxyAudioSubsystem]
+; EN: ClassCaption="Galaxy 3D Audio Support"
+ClassCaption=""

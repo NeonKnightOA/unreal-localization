@@ -1,0 +1,8 @@
+﻿[Public]
+Object=(Name=ALAudio.ALAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem,Autodetect=)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="OpenAL 3D Audio Support",LangCaption="",Parent="Audio",Class=ALAudio.ALAudioSubsystem,Immediate=True)
+
+[ALAudioSubsystem]
+; EN: ClassCaption="OpenAL 3D Audio Support"
+ClassCaption=""

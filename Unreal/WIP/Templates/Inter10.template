@@ -1,0 +1,11 @@
+﻿[LevelSummary]
+; EN: Title="Intermission 10"
+Title=""
+
+[TransitionGenderEvent4]
+; N_K: Make the texts and their length coincide with their equivalents in Sounds/<lang>/Interm10.uax
+OutDelays[1]=19.000000
+; Use CommonText[X] if your language has no gender differentiation (e.g. English). Use MaleText[X] and FemaleText[X] if it does (e.g. Spanish)
+; EN: CommonText[0]="A tarydium processing plant... operated by the Skaarj. They must have another colony around. There are Skaarj everywhere. But this time, I'm hunting them. They didn't seem to know I was coming. I figure I'm about halfway to the shuttle."
+MaleText[0]=""
+FemaleText[0]=""

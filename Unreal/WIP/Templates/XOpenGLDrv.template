@@ -1,0 +1,24 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="XOpenGL Support",Parent="Rendering",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Render Options",Parent="XOpenGL Support",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+
+[Errors]
+; EN: NoFindGL="Can't find XOpenGL driver %ls"
+NoFindGL=""
+; EN: MissingFunc="Missing XOpenGL function %ls (%i)"
+MissingFunc=""
+; EN: ResFailed="Failed to set resolution"
+ResFailed=""
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL Support"
+ClassCaption=""
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled=""
+; EN: AskUse="Do you want Unreal to use your XOpenGL accelerator?"
+AskUse=""

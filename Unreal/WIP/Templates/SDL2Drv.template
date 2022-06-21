@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=SDL2Drv.SDL2Client,SuperClass=Engine.Client,Compat="Lin32,Lin64,LinARM")
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="SDL2",Parent="Display",Langcaption="",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Display)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="SDL2",Parent="Joystick",Langcaption="",Class=SDL2Drv.SDL2Client,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D=""
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp=""
+; EN: ViewXY="Overhead map"
+ViewXY=""
+; EN: ViewXZ="XZ map"
+ViewXZ=""
+; EN: ViewYZ="YZ map"
+ViewYZ=""
+; EN: ViewOther="Viewport"
+ViewOther=""
+; EN: Color16="&16-bit color"
+Color16=""
+; EN: Color32="&32-bit color"
+Color32=""
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions=""
+
+[SDL2Client]
+; EN: ClassCaption="Standard SDL2 Linux Manager"
+ClassCaption=""

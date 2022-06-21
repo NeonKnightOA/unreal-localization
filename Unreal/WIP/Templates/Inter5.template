@@ -1,0 +1,19 @@
+﻿[LevelInfo2]
+; EN: Title="Intermission 5"
+Title=""
+; EN: LevelEnterText="Ich gruesse Mami, Pappi und Tante Hildtraut."
+LevelEnterText=""
+
+[LevelSummary]
+; EN: Title="Intermission 5"
+Title=""
+; EN: LevelEnterText="Ich gruesse Mami, Pappi und Tante Hildtraut."
+LevelEnterText=""
+
+[TransitionGenderEvent5]
+; N_K: Make the texts and their length coincide with their equivalents in Sounds/<lang>/Interm5.uax - the audio is FLog06c/Mlog06c for Female and Male respectively.
+OutDelays[1]=35.000000
+; Use CommonText[X] if your language has no gender differentiation (e.g. English). Use MaleText[X] and FemaleText[X] if it does (e.g. Spanish)
+; EN: CommonText[0]="I whacked the Marines, but I couldn't find their shuttle. It must have returned to the Bodega Bay. When I realized the shuttle was gone, I almost gave up... It all seemed so hopeless. But things were even worse the last time I was here, and somehow I made it. Eventually I decided to keep going. It's a good thing I did... Because there is hope after all. One of the Marines had a radio with a life frequency... there's another squad about ten clicks west of here holed up in some kind of fortress. I don't know how I'm going to get there, but they've got a shuttle and by God I'm going to get it!"
+MaleText[0]=""
+FemaleText[0]=""

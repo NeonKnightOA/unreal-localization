@@ -1,0 +1,15 @@
+﻿[Public]
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Unreal Integrity",Parent="Networking",Langcaption="")
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Integrity Server",Parent="Unreal Integrity",Langcaption="",Class=UnrealIntegrity.IntegrityServer,Immediate=True)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="Whitelist",Parent="Unreal Integrity",Langcaption="",Class=UnrealIntegrity.ExternalWhiteList,Immediate=True)
+
+[General]
+; EN: ScanningInfo="Unreal Integrity is scanning your client for possible cheats..."
+ScanningInfo=""
+; EN: MidGameScan="You have died, performing mid-game cheat scan."
+MidGameScan=""
+; EN: EndGameScan="Game has ended, performing end-game cheat scan."
+EndGameScan=""

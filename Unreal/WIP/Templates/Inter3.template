@@ -1,0 +1,11 @@
+﻿[LevelSummary]
+; EN: Title="Intermission 3"
+Title="Intermisión 3"
+
+[TransitionGenderEvent3]
+; N_K: Make the texts and their length coincide with their equivalents in Sounds/<lang>/Interm3.uax
+OutDelays[1]=21.000000
+; Use CommonText[X] if your language has no gender differentiation (e.g. English). Use MaleText[X] and FemaleText[X] if it does (e.g. Spanish)
+; EN: CommonText[0]="I'm glad I figured out how to bring back water into the underground well system. The Nali won't die of thirst. And it's a good thing the scuba gear worked so well... I wouldn't have made it without the new equipment. As much as I hate being back here, I have to say it was good to see the Nali again. I believe I'm getting closer to the Prometheus. I can feel it."
+MaleText[0]=""
+FemaleText[0]=""

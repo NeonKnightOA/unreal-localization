@@ -1,0 +1,11 @@
+﻿[LevelSummary]
+; EN: Title="Intermission 6"
+Title=""
+
+[TransitionGenderEvent0]
+; N_K: Make the texts and their length coincide with their equivalents in Sounds/<lang>/Interm6.uax
+OutDelays[1]=5.000000
+; Use CommonText[X] if your language has no gender differentiation (e.g. English). Use MaleText[X] and FemaleText[X] if it does (e.g. Spanish)
+; EN: CommonText[0]="Life was hard. Then it got harder. I hate Titans."
+MaleText[0]=""
+FemaleText[0]=""

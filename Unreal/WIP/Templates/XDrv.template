@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="XDrv",Parent="Display",Langcaption="",Class=XDrv.XClient,Immediate=True,Category=Display)
+; Remember to add localizaed content to LangCaption!
+Preferences=(Caption="XDrv",Parent="Joystick",Langcaption="",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D=""
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp=""
+; EN: ViewXY="Overhead map"
+ViewXY=""
+; EN: ViewXZ="XZ map"
+ViewXZ=""
+; EN: ViewYZ="YZ map"
+ViewYZ=""
+; EN: ViewOther="Viewport"
+ViewOther=""
+; EN: Color16="&16-bit color"
+Color16=""
+; EN: Color32="&32-bit color"
+Color32=""
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions=""
+
+[XClient]
+; EN: ClassCaption="Standard XDrv Linux Manager"
+ClassCaption=""
