@@ -1,0 +1,24 @@
+[TankML]
+VehicleName="Tank ML-102"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Tank ML-102 keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[Kraht]
+VehicleName="Kraht"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Kraht keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[Shrali]
+VehicleName="Shrali"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Shrali keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[TankGKOne]
+VehicleName="Tank GK-1"
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Tank GK-1 keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+

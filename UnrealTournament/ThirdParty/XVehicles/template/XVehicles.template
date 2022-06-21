@@ -1,0 +1,91 @@
+[Public]
+; Object=(Name=XVehicles.XVehiclesHUD,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesHUD,<Insert description here>")
+; Object=(Name=XVehicles.XVehiclesMH,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesMH,<Insert description here>")
+; Object=(Name=XVehicles.XVehiclesCTF,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesCTF,<Insert description here>")
+; Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesSummon,<Insert description here>")
+Object=(Name=XVehicles.DriverWeapon,Class=Class,MetaClass=Engine.Weapon)
+
+[Vehicle]
+; EN: VehicleName="Vehicle"
+VehicleName=""
+; EN: MsgVehicleDesc="Zoom out the HUD to read the help in the top right corner of the screen."
+MsgVehicleDesc=""
+
+[DriverWeapon]
+; EN: PickupMessage="You got a vehicle"
+PickupMessage=""
+; EN: ItemName="Vehicle"
+ItemName=""
+
+[TreadCraftPhys]
+; EN: VehicleName="Tread Craft"
+VehicleName=""
+; EN: TranslatorDescription="This is a Tread Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys to turn this vehicle and Move Forward/Backward keys to accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Tread craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[WheeledCarPhys]
+; EN: VehicleName="Wheeled Car"
+VehicleName=""
+; EN: TranslatorDescription="This is a wheeled vehicle, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys to turn this vehicle and Move Forward/Backward keys to accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Wheeled car keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[FlightCraftPhys]
+; EN: VehicleName="Flight Craft"
+VehicleName=""
+; EN: TranslatorDescription="This is a Flight Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate while on ground, if you accelerated fast enough you can take off and steer this plane through air. To leave this vehicle, press your [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Flight craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe (when not in air)|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[HoverCraftPhys]
+; EN: VehicleName="Hover Craft"
+VehicleName=""
+; EN: TranslatorDescription="This is a Hover Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Hover craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%,%StrafeRight% to strafe|%Jump% to jump with the vehicle|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[ChopperPhys]
+; EN: VehicleName="Helicopter"
+VehicleName=""
+; EN: TranslatorDescription="This is a chopper vehicle, you can fire different firemodes using [Fire] and [AltFire] buttons. To move higher or lover use [Jump] and [Crouch] buttons and to move around use movement keys. To leave this vehicle press [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Chopper craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[StationaryPhys]
+; EN: VehicleName="Stationary Turret"
+VehicleName=""
+; EN: TranslatorDescription="This is a stationary turret. You can fire using [Fire] and [AltFire] and zoom in and out using movement keys. To leave this vehicle press [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Turret keys:|%Fire% to fire, %AltFire% to alt fire|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[SubmarinePhys]
+; EN: VehicleName="Submarine"
+VehicleName=""
+; EN: TranslatorDescription="This is a Submarine, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Submarine keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+
+[AirShipPhys]
+; EN: VehicleName="Air Ship"
+VehicleName=""
+; EN: TranslatorDescription="This is a Air Ship, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Airship keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+

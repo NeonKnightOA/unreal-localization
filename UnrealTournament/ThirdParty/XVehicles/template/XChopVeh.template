@@ -1,0 +1,8 @@
+[CybotHelico]
+VehicleName="Cybot Helico"
+; EN: TranslatorDescription="This is a Cybot Helico, you can fire different firemodes using [Fire] and [AltFire] buttons. To move higher or lover use [Jump] and [Crouch] buttons and to move around use movement keys. To leave this vehicle press [ThrowWeapon] key."
+TranslatorDescription=""
+; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
+; EN: VehicleKeyInfoStr="Cybot Helico keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
+VehicleKeyInfoStr=""
+

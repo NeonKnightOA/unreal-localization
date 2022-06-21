@@ -1,0 +1,19 @@
+[Public]
+; Object=(Name=xZones.XZonesMut,Class=Class,MetaClass=Engine.Mutator,Description="XZonesMut,<Insert description here>")
+Object=(Name=xZones.xzSniperRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=xZones.xzMinigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=xZones.xzEnforcer,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=xZones.xzDoubleEnforcer,Class=Class,MetaClass=Engine.Weapon)
+
+[xWaterZone]
+; EN: ZoneName="Underwater"
+ZoneName=""
+
+[xSlimeZone]
+; EN: ZoneName="SLIME"
+ZoneName=""
+
+[xLavaZone]
+; EN: ZoneName="LAVA"
+ZoneName=""
+
