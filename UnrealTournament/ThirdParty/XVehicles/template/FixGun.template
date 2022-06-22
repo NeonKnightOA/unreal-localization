@@ -5,17 +5,17 @@ Object=(Name=FixGun.FixGun,Class=Class,MetaClass=Engine.Weapon)
 [FixGun]
 ; Line format: Classification: [Classification]\nPrimary fire: [PF description]\nSecondary fire: [SF description]\nTechniques: [Techniques] - Respect this format!
 ; EN: WeaponDescription="Classification: Fix Rifle\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\nSecondary Fire: A bolt of blue lightning is expelled for 100 meters, which will fix vehicles.\nTechniques: Firing and keeping the secondary fire's beam on a vehicle will fix them in seconds."
-WeaponDescription="Clasificación: Rifle de Reparación\nDisparo primario: Bolas de plasma de tamaño medio y velocidad de recorrido rápida disparadas a una cadencia rápida de fuego.\nDisparo secundario: Un haz de luz azul extendido a 100 metros que arregla vehículos.\nTpecnicas: Disparar el rayo secundario hacia un vehículo lo arreglará en segundos."
+WeaponDescription="[Clas]\n[PF]\n[SF]\n[Tech]"
 ; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" no tiene munición."
+MessageNoAmmo=""
 ; EN: PickupMessage="You got a Fixing Gun"
-PickupMessage="Has conseguido un Arma de Reparación"
+PickupMessage=""
 ; EN: ItemName="Fixing Gun"
-ItemName="Arma de Reparación"
+ItemName=""
 
 [FixAmmo]
 ; EN: PickupMessage="You picked up a FixGun Cell."
-PickupMessage="Has recogido una Célula de Reparación"
+PickupMessage=""
 ; EN: ItemName="FixGun Cell"
-ItemName="Célula de Reparación"
+ItemName=""
 
