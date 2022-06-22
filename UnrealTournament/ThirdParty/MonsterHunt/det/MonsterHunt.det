@@ -1,6 +1,6 @@
 [Public]
-Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Arena v612,Replaces all weapons with the Chainsaw!")
-Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Mess v612,Monsters make a bloody mess!")
+Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Description="Kettensägen Arena v612,Ersetzt alle Waffen mit der Kettensäge!")
+Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Sauerei v612,Monster veranstalten eine blutige Sauerei!")
 
 Object=(Name=MonsterHunt.MonsterHunt,Class=Class,MetaClass=Botpack.TournamentGameInfo)
 Preferences=(Caption="Monster Hunt v612",Parent="Game Types",Class=MonsterHunt.MonsterHunt,Immediate=True)
@@ -9,175 +9,175 @@ Preferences=(Caption="Monster Arena v612",Parent="Game Types",Class=MonsterHunt.
 Object=(Name=MonsterHunt.MonsterHuntDefence,Class=Class,MetaClass=Botpack.TournamentGameInfo)
 Preferences=(Caption="Monster Defence v612",Parent="Game Types",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
 
-Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Default Maps v612")
-Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Default Maps v612")
+Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Standardkarten v612")
+Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Standardkarten v612")
 
 Object=(Name=MonsterHunt.MonsterBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
 Object=(Name=MonsterHunt.MonsterArenaBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
 
-Object=(Name=MonsterHunt.MonsterMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Monster Hunt Credits v612,The people behind Monster Hunt.")
+Object=(Name=MonsterHunt.MonsterMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Monsterjagd Credits v612,Die Leute hinter Monsterjagd.")
 
 [MonsterHunt]
-TimeOutMessage="Time up, hunt failed!"
-NoHuntersMessage="Hunting party eliminated!"
-NoLivesLeftMessage=" has been lost!"
-StartUpTeamMessage="Welcome to the hunt!"
-StartUpMessage="Work with your teammates to hunt down the monsters!"
-StartMessage="The hunt has begun!"
-GameEndedMessage="Hunt Successful!"
-SingleWaitingMessage="Press Fire to begin the hunt."
-ExplodeMessage=" was blown up"
-BurnedMessage=" was incinerated"
-CorrodedMessage=" was slimed"
-HackedMessage=" was hacked"
-LeftMessage=" left the hunt."
-EnteredMessage=" has joined the hunt!"
-GameName="Monster Hunt"
+TimeOutMessage="Zeit abgelaufen, Jagd fehlgeschlagen!"
+NoHuntersMessage="Jagdgesellschaft eliminiert!"
+NoLivesLeftMessage=" ist verloren gegangen!"
+StartUpTeamMessage="Willkommen zur Jagd!"
+StartUpMessage="Arbeite mit deinen Teamkollegen zusammen, um die Monster zu jagen!"
+StartMessage="Die Jagd hat begonnen!"
+GameEndedMessage="Jagd erfolgreich!"
+SingleWaitingMessage="Drücke Feuertaste, um die Jagd zu beginnen."
+ExplodeMessage=" wurde gesprengt"
+BurnedMessage=" wurde verbrannt"
+CorrodedMessage=" wurde geschleimt"
+HackedMessage=" wurde gehackt"
+LeftMessage=" hat die Jagd verlassen."
+EnteredMessage=" hat sich der Jagd angeschlossen!"
+GameName="Monsterjagd"
 
 [MonsterBoard]
-MonsterDifficultyJoinString="Monsters /"
-ObjectivesString="Objectives"
-Restart="You have been killed.  Hit [Fire] to continue the hunt!"
-Continue="Hit [Fire] to begin the next hunt!"
-Ended="The hunt has ended."
-PlayerString="Hunter"
-FragsString="Score"
-DeathsString="Lives"
+MonsterDifficultyJoinString="Monster /"
+ObjectivesString="Ziele"
+Restart="Du wurdest getötet. Drücke [Feuer], um die Jagd fortzusetzen!"
+Continue="Drücke [Feuer], um die nächste Jagd zu beginnen!"
+Ended="Die Jagd ist beendet."
+PlayerString="Jäger"
+FragsString="Ergebnis"
+DeathsString="Leben"
 
 [MonsterHUD]
-TimeRemainingLabel="Time Remaining"
-LivesRemainLabel="Lives"
-EscapedMonstersLabel="Escaped Monsters"
-HuntersRemainLabel="Hunters"
-MonstersRemainLabel="Monsters"
+TimeRemainingLabel="Verbleibende Zeit"
+LivesRemainLabel="Leben"
+EscapedMonstersLabel="Entflohene Monster"
+HuntersRemainLabel="Jäger"
+MonstersRemainLabel="Monster"
 
 [MonsterHuntDefence]
-MonstersEscapedMessage="Too many monsters escaped!"
-EscapedMessage="escaped!"
-WarmupMessage="seconds until the monsters arrive!"
-StartUpMessage="Work with your teammates to defend your base against the monsters!"
-StartMessage="The defence has begun!"
-GameEndedMessage="Defence Successful!"
-SingleWaitingMessage="Press Fire to begin defending."
-GameName="Monster Defence"
+MonstersEscapedMessage="Zu viele Monster sind entkommen!"
+EscapedMessage="entkommen!"
+WarmupMessage="Sekunden bis die Monster kommen!"
+StartUpMessage="Arbeite mit deinen Teamkollegen zusammen, um deine Basis gegen die Monster zu verteidigen!"
+StartMessage="Die Verteidigung hat begonnen!"
+GameEndedMessage="Verteidigung erfolgreich!"
+SingleWaitingMessage="Drücke Feuer, um mit der Verteidigung zu beginnen."
+GameName="Monsterverteidigung"
 
 [MonsterHuntArena]
-StartUpTeamMessage="Welcome to the ultimate arena battle!"
-StartUpMessage="Work with your teammates to overcome the monsters!"
-StartMessage="The battle has begun!"
-GameEndedMessage="Arena Cleared!"
-SingleWaitingMessage="Press Fire to enter the arena."
-LeftMessage=" left the arena."
-EnteredMessage=" has entered the arena!"
-GameName="Monster Arena"
+StartUpTeamMessage="Willkommen zum ultimativen Arenakampf!"
+StartUpMessage="Arbeite mit deinen Teamkollegen zusammen, um die Monster zu besiegen!"
+StartMessage="Der Kampf hat begonnen!"
+GameEndedMessage="Arena geleert!"
+SingleWaitingMessage="Drücke Feuer, um die Arena zu betreten."
+LeftMessage=" hat die Arena verlassen."
+EnteredMessage=" hat die Arena betreten!"
+GameName="Monster-Arena"
 
 [MonsterHuntRules]
-TourneyText="Force team colours"
-TourneyHelp="If enabled, players will use red team skins and HUD, otherwise they will use their own skin and HUD settings."
-FragText="Lives"
-FragHelp="Set the number of lives each hunter starts with for each round. Set it to 0 for no limit."
-DifficultyText="Monster Difficulty:"
-DifficultyHelp="The difficulty skill level of Monsters."
-Skills[0]="Easy"
-Skills[1]="Medium"
-Skills[2]="Hard"
+TourneyText="Teamfarben erzwingen"
+TourneyHelp="Wenn aktiviert, verwenden die Spieler rote Team-Skins und HUDs, andernfalls verwenden sie ihre eigenen Skins und HUD-Einstellungen."
+FragText="Leben"
+FragHelp="Legen Sie die Anzahl der Leben fest, mit denen jeder Jäger in jeder Runde beginnt. Setze es auf 0 für unbegrenzt."
+DifficultyText="Monster-Schwierigkeitsgrad:"
+DifficultyHelp="Der Schwierigkeitsgrad von Monstern."
+Skills[0]="Einfach"
+Skills[1]="Mittel"
+Skills[2]="Schwer"
 Skills[3]="Unreal"
-SkillTaunts[0]="Tourist mode."
-SkillTaunts[1]="Ready for some action!"
-SkillTaunts[2]="Not for the faint of heart."
-SkillTaunts[3]="Death wish."
+SkillTaunts[0]="Touristenmodus."
+SkillTaunts[1]="Bereit für bisschen Action!"
+SkillTaunts[2]="Nichts für schwache Nerven."
+SkillTaunts[3]="Todeswunsch."
 
 [MonsterHuntDefenceRules]
-EscapeesText="Max Escapees"
-EscapeesHelp="The maximum number of Monsters which are allowed to escape, before the round is lost."
-WarmupText="Warmup Time"
-WarmupHelp="Number of seconds to wait before monsters start attacking, set to 0 for no warmup."
+EscapeesText="Maximale Ausbrecher"
+EscapeesHelp="Die maximale Anzahl an Monstern, die entkommen dürfen, bevor die Runde verloren ist."
+WarmupText="Aufwärmzeit"
+WarmupHelp="Anzahl Sekunden, die gewartet werden soll, bevor Monster angreifen, setze es auf 0 für kein Aufwärmen."
 
 [MonsterBotConfig]
-MinPlayersText="Min. Total Hunters"
-BaseText="AI Hunter Skill:"
-SkillTaunts[0]="They might know how to kill a Fly."
-SkillTaunts[2]="Look out monsters!"
-SkillTaunts[3]="Monsters are in for a good beating."
-SkillTaunts[4]="I wouldn't like to be in the monsters shoes..."
-SkillTaunts[5]="It's a pity the monsters can't respawn."
-SkillTaunts[6]="Those poor monsters are already dead."
-SkillTaunts[7]="Rest in peace, monsters..."
+MinPlayersText="Min. Jäger gesamt"
+BaseText="KI-Jägerfähigkeit:"
+SkillTaunts[0]="Sie wissen vielleicht, wie man eine Fliege tötet."
+SkillTaunts[2]="Achte auf Monster!"
+SkillTaunts[3]="Monster werden ordentlich verprügelt."
+SkillTaunts[4]="Ich möchte nicht in der Haut eines Monsters stecken..."
+SkillTaunts[5]="Schade, dass die Monster nicht respawnen können."
+SkillTaunts[6]="Diese armen Monster sind bereits tot."
+SkillTaunts[7]="Ruhe in Frieden, Monster..."
 
 [MonsterCreditsCW]
-ArtText="Testers"
-MusicSoundText="Special Thanks"
-BizText="Contact info"
+ArtText="Tester"
+MusicSoundText="Besonderer Dank"
+BizText="Kontaktinfo"
 
 [MonsterCreditsWindow]
-WindowTitle="Monster Hunt Credits (v612)"
+WindowTitle="Monsterjagd Credits (v612)"
 
 [HuntMessage]
-NewTeamMessage="has joined the hunt!"
+NewTeamMessage="hat sich der Jagd angeschlossen!"
 
 [MonsterMenuItem]
-MenuCaption="&Monster Hunt Credits"
-MenuHelp="All the people behind Monster Hunt!"
+MenuCaption="&Monsterjagd Credits"
+MenuHelp="Alle Leute hinter Monsterjagd!"
 
 [OLautomag]
-WeaponDescription="Classification: Automatic Magnum"
-DeathMessage="%o got gatted by %k's %w."
-PickupMessage="You got the AutoMag"
+WeaponDescription="Klassifizierung: Automatische Magnum"
+DeathMessage="%o wurde von %k's %w überfallen."
+PickupMessage="Du hast die AutoMag"
 ItemName="Automag"
 
 [OLDPistol]
-WeaponDescription="Classification: Energy Pistol"
-DeathMessage="%o was killed by %k's %w. What a loser!"
-PickupMessage="You got the Dispersion Pistol"
-ItemName="Dispersion Pistol"
+WeaponDescription="Klassifizierung: Energiepistole"
+DeathMessage="%o wurde von %k's %w getötet. Was für ein Verlierer!"
+PickupMessage="Du hast die Dispersionspistole"
+ItemName="Dispersionspistole"
 
 [MonsterHuntObjective]
-Message="Complete the objective"
+Message="Schließe das Ziel ab"
 
 [OLASMD]
-WeaponDescription="Classification: Energy Rifle"
-DeathMessage="%k inflicted mortal damage upon %o with the %w."
-PickupMessage="You got the ASMD"
+WeaponDescription="Klassifizierung: Energiegewehr"
+DeathMessage="%k hat %o mit dem %w tödlichen Schaden zugefügt."
+PickupMessage="Du hast die ASMD"
 ItemName="ASMD"
 
 [OLEightball]
-WeaponDescription="Classification: Heavy Ballistic"
-DeathMessage="%o was smacked down multiple times by %k's %w."
-PickupMessage="You got the Eightball gun"
-ItemName="Eightball"
+WeaponDescription="Klassifizierung: Schwere Ballistik"
+DeathMessage="%o wurde mehrmals niedergeschlagen von %k's %w."
+PickupMessage="Du hast den Raketenwerfer"
+ItemName="Raketenwerfer"
 
 [OLRifle]
-WeaponDescription="Classification: Long-Range Ballistic"
-DeathMessage="%k put a bullet through %o's head."
-PickupMessage="You got the Rifle"
-ItemName="Sniper Rifle"
+WeaponDescription="Klassifizierung: Langstreckenballistik"
+DeathMessage="%k hat %o eine Kugel durch den Kopf geschossen."
+PickupMessage="Du hast das Gewehr"
+ItemName="Scharfschützengewehr"
 
 [OLFlakCannon]
-WeaponDescription="Classification: Heavy Shrapnel"
-DeathMessage="%o was ripped to shreds by %k's %w."
-PickupMessage="You got the Flak Cannon"
-ItemName="Flak Cannon"
+WeaponDescription="Klassifizierung: Schwerer Schrapnell"
+DeathMessage="%o wurde von %k's %w in Stücke gerissen."
+PickupMessage="Du hast die Flak-Kanone"
+ItemName="Flak-Kanone"
 
 [OLRazorjack]
-WeaponDescription="Classification: Skaarj Blade Launcher"
-DeathMessage="%k took a bloody chunk out of %o with the %w."
-PickupMessage="You got the RazorJack"
-ItemName="Razorjack"
+WeaponDescription="Klassifizierung: Skaarj-Klingenwerfer"
+DeathMessage="%k nahm mit dem %w einen blutiges Stück aus %o heraus."
+PickupMessage="Du hast den Klingenwerfer"
+ItemName="Klingenwerfer"
 
 [OLMinigun]
-WeaponDescription="Classification: Gatling Gun"
-DeathMessage="%k's %w turned %o into a leaky piece of meat."
-PickupMessage="You got the Minigun"
-ItemName="Minigun"
+WeaponDescription="Klassifizierung: Gatling Geschütz"
+DeathMessage="%k's %w hat %o in ein undichtes Stück Fleisch verwandelt."
+PickupMessage="Du hast die Minikanone"
+ItemName="Minikanone"
 
 [OLGESBioRifle]
-WeaponDescription="Classification: Toxic Tarydium waste Rifle"
-DeathMessage="%o drank a glass of %k's dripping green load."
-PickupMessage="You got the GES BioRifle"
-ItemName="GES Bio Rifle"
+WeaponDescription="Klassifizierung: Giftiges Tarydium-Abfallgewehr"
+DeathMessage="%o hat ein Glas von %k's tropfender grüner Ladung getrunken."
+PickupMessage="Du hast das GES Bio-Gewehr"
+ItemName="GES Bio-Gewehr"
 
 [OLStinger]
-WeaponDescription="Classification: Tarydium Shard Launcher"
-DeathMessage="%o was perforated by %k's %w."
-PickupMessage="You picked up the Stinger"
-ItemName="Stinger"
+WeaponDescription="Klassifizierung: Tarydiumsplitterwerfer"
+DeathMessage="%o wurde von %k's %w perforiert."
+PickupMessage="Du hast den Splitterwerfer"
+ItemName="Splitterwerfer"
