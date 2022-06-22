@@ -3,11 +3,11 @@ Object=(Name=MonsterHunt.ChainsawArena,Class=Class,MetaClass=Engine.Mutator,Desc
 Object=(Name=MonsterHunt.MonsterMess,Class=Class,MetaClass=Engine.Mutator,Description="Monster Sauerei v612,Monster veranstalten eine blutige Sauerei!")
 
 Object=(Name=MonsterHunt.MonsterHunt,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Monster Hunt v612",Parent="Game Types",Class=MonsterHunt.MonsterHunt,Immediate=True)
+Preferences=(Caption="Monsterjagd v612",Parent="Game Types",Class=MonsterHunt.MonsterHunt,Immediate=True)
 Object=(Name=MonsterHunt.MonsterHuntArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
 Preferences=(Caption="Monster Arena v612",Parent="Game Types",Class=MonsterHunt.MonsterHuntArena,Immediate=True)
 Object=(Name=MonsterHunt.MonsterHuntDefence,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Monster Defence v612",Parent="Game Types",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
+Preferences=(Caption="Monster Verteidigung v612",Parent="Game Types",Class=MonsterHunt.MonsterHuntDefence,Immediate=True)
 
 Object=(Name=MonsterHunt.MonsterDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterMapList,Description="Standardkarten v612")
 Object=(Name=MonsterHunt.MonsterArenaDefaultMaps,Class=Class,MetaClass=MonsterHunt.MonsterArenaMapList,Description="Standardkarten v612")
