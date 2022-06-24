@@ -14,188 +14,198 @@ Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
-DeathMessage="A %o lo ha asesinado %k con su %w. ¡Pobre!"
-FemDeathMessage="A %o la ha asesinado %k con su %w. ¡Pobre!"
-FemKillMessage="A %o lo ha asesinado %k con su %w. ¡Pobre!"
+DeathMessage=""
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Has recogido la Pistola de Dispersión"
+PickupMessage=""
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistola de Dispersión"
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldASMD]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k ha infligido heridas mortales a %o con su %w."
-FemDeathMessage="%k ha infligido heridas mortales a %o con su %w."
-FemKillMessage="%k ha infligido heridas mortales a %o con su %w."
+DeathMessage=""
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Has recogido el ASMD"
+PickupMessage=""
 ; EN: ItemName="ASMD"
-ItemName="ASMD"
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldEightball]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o fue vapuleado varias veces por el %w de %k."
-FemDeathMessage="%o fue vapuleada varias veces por el %w de %k."
-FemKillMessage="%o fue vapuleado varias veces por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Has recogido el Lanzador Eightball"
+PickupMessage=""
 ; EN: ItemName="Eightball"
-ItemName="Lanzador Eightball"
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldRifle]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k ha atravesado la cabeza de %o con una bala."
+DeathMessage=""
 ; EN: PickupMessage="You got the Rifle"
-PickupMessage="Has recogido el Rifle"
+PickupMessage=""
 ; EN: ItemName="Sniper Rifle"
-ItemName="Rifle de Francotirador"
-FemDeathMessage="%k ha atravesado la cabeza de %o con una bala."
-FemKillMessage="%k ha atravesado la cabeza de %o con una bala."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldFlakCannon]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
-DeathMessage="%o ha sido despedazado por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Has recogido el Cañón de Metralla"
+PickupMessage=""
 ; EN: ItemName="Flak Cannon"
-ItemName="Cañón de Metralla"
-FemDeathMessage="%o ha sido despedazada por el %w de %k."
-FemKillMessage="%o ha sido despedazado por el %w de %k."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldAutoMag]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o ha sido acribillado por el %w de %k."
-FemDeathMessage="%o ha sido acribillada por el %w de %k."
-FemKillMessage="%o ha sido acribillado por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You got the Automag"
-PickupMessage="Has recogido la Autopistola"
+PickupMessage=""
 ; EN: ItemName="Automag"
-ItemName="Autopistola"
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldMinigun]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
-DeathMessage="La %w de %k ha convertido a %o en un trozo de carne sangrante."
+DeathMessage=""
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Has recogido la Metralleta"
+PickupMessage=""
 ; EN: ItemName="Minigun"
-ItemName="Metralleta"
-FemDeathMessage="La %w de %k ha convertido a %o en un trozo de carne sangrante."
-FemKillMessage="La %w de %k ha convertido a %o en un trozo de carne sangrante."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldGESBioRifle]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
-DeathMessage="%o bebió un vaso de la sustancia verde que le goteaba a %k."
+DeathMessage=""
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="Has recogido el Rifle Biológico GES"
+PickupMessage=""
 ; EN: ItemName="GES BioRifle"
-ItemName="Rifle Biológico GES"
-FemDeathMessage="%o bebió un vaso de la sustancia verde que le goteaba a %k."
-FemKillMessage="%o bebió un vaso de la sustancia verde que le goteaba a %k."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldAmplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
-ExpireMessage="El Amplificador Energético se ha agotado."
+ExpireMessage=""
 ; EN: PickupMessage="You got the Energy Amplifier"
-PickupMessage="Has recogido el Amplificador Energético"
+PickupMessage=""
 ; EN: ItemName="Energy Amplifier"
-ItemName="Amplificador Energético"
+ItemName=""
 
 [OldStinger]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o ha sido perforado por el %w de %k."
-FemDeathMessage="%o ha sido perforado por el %w de %k."
-FemKillMessage="%o ha sido perforado por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Has recogido el Cañón Perforador"
+PickupMessage=""
 ; EN: ItemName="Stinger"
-ItemName="Cañón Perforador"
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
-PickupMessage="Has recogido una caja de 50 Balas"
+PickupMessage=""
 ; EN: ItemName="Bullet Box"
-ItemName="Caja de Balas"
+ItemName=""
 
 [OldRifleAmmo]
 ; EN: PickupMessage="You got 8 Rifle Rounds"
-PickupMessage="Tienes 8 Cartuchos para el Rifle"
+PickupMessage=""
 ; EN: ItemName="Rifle Rounds"
-ItemName="Cartuchos de Rifle"
+ItemName=""
 
 [OldWeaponPowerUp]
 ; EN: PickupMessage="You got the Dispersion Pistol Powerup"
-PickupMessage="Has recogido un Mejorador para la Pistola de Dispersión"
+PickupMessage=""
 ; EN: ItemName="Dispersion Pistol Powerup"
-ItemName="Mejorador de Pistola de Dispersión"
+ItemName=""
 
 [OldFlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Tienes 10 Proyectiles de Metralla"
+PickupMessage=""
 ; EN: ItemName="Flak Shells"
-ItemName="Proyectiles de Metralla"
+ItemName=""
 
 [OldRazorjack]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
-DeathMessage="%k le pegó un buen tajo a %o con su %w."
+DeathMessage=""
 ; EN: PickupMessage="You got the RazorJack"
-PickupMessage="Has recogido el Lanzacuchillas"
+PickupMessage=""
 ; EN: ItemName="Razorjack"
-ItemName="Lanzacuchillas"
-FemDeathMessage="%k le pegó un buen tajo a %o con su %w."
-FemKillMessage="%k le pegó un buen tajo a %o con su %w."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [OldDefaultAmmo]
 ; EN: PickupMessage="You picked up some ammo"
-PickupMessage="Has recogido algo de munción"
+PickupMessage=""
 ; EN: ItemName="Ammo"
-ItemName="Munición"
+ItemName=""
 
 [OldASMDAmmo]
 ; EN: PickupMessage="You picked up an ASMD Core"
-PickupMessage="Has recogido un Núcleo ASMD"
+PickupMessage=""
 ; EN: ItemName="ASMD Core"
-ItemName="Núcleo ASMD"
+ItemName=""
 
 [OldStingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium shards"
-PickupMessage="Has recogido 40 Fragmentos de Taridio"
+PickupMessage=""
 ; EN: ItemName="Tarydium Shards"
-ItemName="Fragmentos de Taridio"
+ItemName=""
 
 [OldRazorAmmo]
 ; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Has recogido un paquete de Cuchillas Filosas"
+PickupMessage=""
 ; EN: ItemName="Razor Blades"
-ItemName="Cuchillas Filosas"
+ItemName=""
 
 [OldSludge]
 ; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Has recogido 25 Kilos de Biodesechos de Taridio"
+PickupMessage=""
 ; EN: ItemName="Tarydium Biosludge"
-ItemName="Biodesechos de Taridio"
+ItemName=""
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
-PickupMessage="Has recogido 12 Proyectiles Eightball"
+PickupMessage=""
 ; EN: ItemName="Eightballs"
-ItemName="Proyectiles Eightball"
+ItemName=""
 
 [OldClip]
 ; EN: PickupMessage="You picked up a clip"
-PickupMessage="Has recogido un Cartucho"
+PickupMessage=""
 ; EN: ItemName="Clip"
-ItemName="Cartucho"
+ItemName=""
 
 [OldRifleRound]
 ; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Tienes un Cartucho para el Rifle"
+PickupMessage=""
 ; EN: ItemName="Rifle Round"
-ItemName="Cartucho de Rifle"
+ItemName=""
 
 [OldFlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Tienes un Proyectil de Metralla"
+PickupMessage=""
 ; EN: ItemName="Flak Shell"
-ItemName="Proyectil de Metralla"
+ItemName=""
 

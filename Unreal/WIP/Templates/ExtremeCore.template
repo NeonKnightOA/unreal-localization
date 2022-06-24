@@ -1,61 +1,70 @@
 ﻿[LevelInfo0]
 ; EN: Title="MotherShip Core"
-Title="Núcleo de la Nave Nodriza"
+Title=""
 ; EN: LevelEnterText="Entering the MotherShip Core"
-LevelEnterText="Entrando al Núcleo de la Nave Nodriza"
+LevelEnterText=""
 
 [LevelSummary]
 ; EN: Title="MotherShip Core"
-Title="Núcleo de la Nave Nodriza"
+Title=""
 ; EN: LevelEnterText="Entering the MotherShip Core"
-LevelEnterText="Entrando al Núcleo de la Nave Nodriza"
+LevelEnterText=""
 
 [TranslatorEvent10]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: AltMessage="Access to the Security Post granted."
-AltMessage="Acceso al Puesto de Seguridad concedido."
+AltMessage=""
 ; EN: Hint="Go to the Security Post to gain access to the Primary Power Supply Core Generator."
-Hint="Ve al puesto de seguridad para acceder a la Fuente de Energía Primaria del Generador Central."
+Hint=""
 
 [TranslatorEvent4]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="WARNING: Armed intruder detected. Close all access to the Source and to the Primary Power Supply. Preventing intruders from accessing the Core Generator is critical."
-Message="ADVERTENCIA: Intruso armado detectado. Cerrar todos los accesos al Origen y a la Fuente de Energía Primaria. Es imperativo evitar que los intrusos accedan al Generador Central."
+Message=""
 ; EN: AltMessage="RED ALERT: Core Generator Security Compromised."
-AltMessage="ALERTA ROJA: Seguridad del generador central comprometida."
+AltMessage=""
 
 [TranslatorEvent5]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="SECURITY ALERT: All War Masters report to Core Generator positions to ensure its protection."
-Message="ALERTA DE SEGURIDAD: Todos los Maestros de Guerra presentarse a las posiciones de Generador Central para garantizar su protección."
+Message=""
 ; EN: AltMessage="Intruder detected near the Core Generator. Core Generator security must be maintained. Weakness shall be punished."
-AltMessage="Intruso detectado cerca del Generador Central. Se debe mantener la seguridad del Generador Central. La debilidad será castigada."
+AltMessage=""
 
 [TranslatorEvent8]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="Security Post, ACCESS DENIED."
-Message="Puesto de seguridad, ACCESO DENEGADO."
+Message=""
 
 [TranslatorEvent9]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="Primary Power Supply, ACCESS DENIED."
-Message="Fuente de Energía Primaria, ACCESO DENEGADO."
+Message=""
 ; EN: Hint="Door can be unlocked from the control panel in the Security Post."
-Hint="Las puertas pueden desbloquearse desde el panel de control en el puesto de seguridad."
+Hint=""
 
 [TranslatorEvent11]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="ACCESS DENIED: The Intruder must be eliminated. All War Masters are being routed to this area upon arrival from the Source."
-Message="ACCESO DENEGADO: El Intruso debe ser eliminado. Todos los Maestros de la Guerra serán enviados a esta área al llegar del Origen."
+Message=""
 ; EN: Hint="Kill all the Skaarj to proceed to this area."
-Hint="Mata a todos los Skaarj para acceder a esta zona."
+Hint=""
 
 [TranslatorEvent12]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: AltMessage="Cryo Pods status: Temperature constant, Power at nominal levels, security systems active."
-AltMessage="Estado de las Vainas Criogénicas: Temperatura constante, Potencia a niveles nominales, Sistemas de seguridad activos."
+AltMessage=""
 
 [TranslatorEvent6]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="Core Generator security must be maintained. Access doors locked until security breach is contained."
-Message="Deberá mantenerse la seguridad del Generador Central. Puertas de acceso bloqueadas hasta que se contenga la brecha de seguridad."
+Message=""
 ; EN: AltMessage="Core Access Door Open."
-AltMessage="Puerta de acceso al Núcleo abierta."
+AltMessage=""
 
 [TranslatorEvent13]
+; Translator messages. Make sure they aren't over 300 characters large.
 ; EN: Message="Emergency Power Supply, ACCESS DENIED: Primary Power Supply fully functional."
-Message="Fuente de energía de emergencia, ACCESO DENEGADO: Fuente de energía primaria completamente funcional."
+Message=""
 ; EN: Hint="Find the Core Generator and destroy it to gain access to this area."
-Hint="Encuentra el Generador Central y destrúyelo para tener acceso a esta zona."
+Hint=""

@@ -1,11 +1,10 @@
 ﻿[Public]
 Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+Preferences=(Caption="XOpenGL",Parent="Rendering",Langcaption="XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
 ; Remember to add localizaed content to LangCaption!
-Preferences=(Caption="XOpenGL Support",Parent="Rendering",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="Debug Options",Parent="XOpenGL",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
 ; Remember to add localizaed content to LangCaption!
-Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
-; Remember to add localizaed content to LangCaption!
-Preferences=(Caption="Render Options",Parent="XOpenGL Support",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Render Options",Parent="XOpenGL",Langcaption="",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
 
 [Errors]
 ; EN: NoFindGL="Can't find XOpenGL driver %ls"
@@ -16,8 +15,8 @@ MissingFunc=""
 ResFailed=""
 
 [XOpenGLRenderDevice]
-; EN: ClassCaption="XOpenGL Support"
-ClassCaption=""
+; EN: ClassCaption="XOpenGL"
+ClassCaption="XOpenGL"
 ; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
 AskInstalled=""
 ; EN: AskUse="Do you want Unreal to use your XOpenGL accelerator?"

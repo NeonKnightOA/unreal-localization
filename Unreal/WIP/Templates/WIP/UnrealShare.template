@@ -998,14 +998,15 @@ DemoPlaybackProg="Demo: %f %"
 DemoRecInfo="[GRAB]"
 
 [DispersionPistol]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
-DeathMessage="A %o lo ha asesinado %k con su %w. ¡Pobre!"
+DeathMessage=""
 ; EN: PickupMessage="You got the Dispersion Pistol"
-PickupMessage="Has recogido la Pistola de Dispersión"
+PickupMessage=""
 ; EN: ItemName="Dispersion Pistol"
-ItemName="Pistola de Dispersión"
-FemDeathMessage="A %o la ha asesinado %k con su %w. ¡Pobre!"
-FemKillMessage="A %o lo ha asesinado %k con su %w. ¡Pobre!"
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [UnrealVideoMenu]
 ; EN: MenuTitle="AUDIO/VIDEO"
@@ -1308,24 +1309,26 @@ MenuList[20]="Opciones Avanzadas"
 HelpMessage[20]="Abre el menú de opciones avanzadas."
 
 [ASMD]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
-DeathMessage="%k ha infligido heridas mortales a %o con su %w."
+DeathMessage=""
 ; EN: PickupMessage="You got the ASMD"
-PickupMessage="Has recogido el ASMD"
+PickupMessage=""
 ; EN: ItemName="ASMD"
-ItemName="ASMD"
-FemDeathMessage="%k ha infligido heridas mortales a %o con su %w."
-FemKillMessage="%k ha infligido heridas mortales a %o con su %w."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [Eightball]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
-DeathMessage="%o fue vapuleado varias veces por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You got the Eightball gun"
-PickupMessage="Has recogido el Lanzador Eightball"
+PickupMessage=""
 ; EN: ItemName="Eightball"
-ItemName="Lanzador Eightball"
-FemDeathMessage="%o fue vapuleada varias veces por el %w de %k."
-FemKillMessage="%o fue vapuleado varias veces por el %w de %k."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [UnrealKeyboardMenu]
 ; EN: MenuTitle="CONTROLS"
@@ -1421,14 +1424,15 @@ M_TransMessage="Mensaje del Traductor"
 M_HintMessage="Nueva Pista (Pulsa F3 para leer)."
 
 [AutoMag]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o got gatted by %k's %w."
-DeathMessage="%o ha sido acribillado por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You got the AutoMag"
-PickupMessage="Has recogido la Autopistola"
+PickupMessage=""
 ; EN: ItemName="Automag"
-ItemName="Autopistola"
-FemDeathMessage="%o ha sido acribillada por el %w de %k."
-FemKillMessage="%o ha sido acribillado por el %w de %k."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [UnrealChooseGameMenu]
 ; EN: MenuTitle="CHOOSE GAME"
@@ -1513,14 +1517,15 @@ ModeString[0]="Mejorado"
 ModeString[1]="Clásico"
 
 [Stinger]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was perforated by %k's %w."
-DeathMessage="%o ha sido perforado por el %w de %k."
+DeathMessage=""
 ; EN: PickupMessage="You picked up the Stinger"
-PickupMessage="Has recogido el Cañón Perforador"
+PickupMessage=""
 ; EN: ItemName="Stinger"
-ItemName="Cañón Perforador"
-FemDeathMessage="%o ha sido perforado por el %w de %k."
-FemKillMessage="%o ha sido perforado por el %w de %k."
+ItemName=""
+FemDeathMessage=""
+FemKillMessage=""
 
 [UnrealCoopGameOptions]
 ; EN: MenuList[3]="Difficulty"
@@ -1583,16 +1588,17 @@ NameArticle=" a "
 MenuName="Hawk"
 
 [UTranslocator]
+; Localize FemDeathMessage (the victim is female) and/or FemKillMessage (the killer is female) if your language has gendered distinctions. Otherwise leave those two empty. And remember: %k is the killer, %o the victom and %w the weapon.
 ; EN: DeathMessage="%o was telefragged by %k."
-DeathMessage="%o intentó invadir el espacio personal de %k."
-FemDeathMessage="%o intentó invadir el espacio personal de %k."
-FemKillMessage="%o intentó invadir el espacio personal de %k."
+DeathMessage=""
+FemDeathMessage=""
+FemKillMessage=""
 ; EN: PickupMessage="You got the Translocator Source Module"
-PickupMessage="Has recogido el Módulo Fuente del Translocalizador"
+PickupMessage=""
 ; EN: ItemName="Translocator"
-ItemName="Translocalizador"
+ItemName=""
 ; EN: ItemArticle=" the "
-ItemArticle=" el "
+ItemArticle=""
 
 [MiniGunSentry]
 ; EN: PickupMessage="You got an Automatic Sentry Gun"

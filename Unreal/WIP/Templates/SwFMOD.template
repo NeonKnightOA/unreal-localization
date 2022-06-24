@@ -1,8 +1,8 @@
 ﻿[Public]
 Object=(Name=SwFMOD.SwFMOD,Class=Class,MetaClass=Engine.AudioSubsystem,Autodetect=)
 ; Remember to add localizaed content to LangCaption!
-Preferences=(Caption="SwFModEx Audio Support",Parent="Audio",Langcaption="",Class=SwFMOD.SwFMOD,Immediate=True)
+Preferences=(Caption="SwFModEx",Parent="Audio",Langcaption="SwFModEx",Class=SwFMOD.SwFMOD,Immediate=True)
 
 [SwFMOD]
-; EN: ClassCaption="SwFModEx Audio Support"
-ClassCaption=""
+; EN: ClassCaption="SwFModEx"
+ClassCaption="SwFModEx"
