@@ -1,9 +1,9 @@
 [Public]
 Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=S3_6.dll)
 Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="S3 MeTaL Unterstützung",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+Preferences=(Caption="S3 MeTaL",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
 
 [MeTaLRenderDevice]
-ClassCaption="S3 MeTaL for Windows"
+ClassCaption="S3 MeTaL"
 AskInstalled=Haben Sie eine Savage-3D-Karte installiert?
 AskUse=Soll Wheel of Time Ihre Savage-3D-Karte verwenden?

@@ -1,10 +1,10 @@
 [Public]
 Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
 Preferences=(Caption="Rendu",Parent="Options avancées")
-Preferences=(Caption="Support OpenGL",Parent="Rendu",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OpenGL",Parent="Rendu",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
 [OpenGLRenderDevice]
-ClassCaption="Support OpenGL"
+ClassCaption="OpenGL"
 AskInstalled=Avez-vous un accélérateur 3D compatible OpenGL installé ?
 AskUse=Souhaitez-vous que Unreal utilise votre accélérateur OpenGL ?
 
