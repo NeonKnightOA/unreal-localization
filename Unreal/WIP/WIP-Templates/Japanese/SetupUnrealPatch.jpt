@@ -24,8 +24,8 @@ DeveloperURL="https://www.oldunreal.com/"
 [LinuxGroup]
 ; EN: Caption="Linux native files"
 Caption="Linuxネイティブファイル"
-; EN: Description="Copies all files required to run and play Unreal natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.tar.bz2 in the Help folder which should contain all the necessary files."
-Description="LinuxでUnrealをネイティブに実行および再生するために必要なすべてのファイルをコピーします。 [詳細オプション]メニューはまだありませんが、すべての設定が記録されており、SystemフォルダーのUnrealLinux.iniで編集できます。レベルエディタUnrealED2.1は、Linuxではまだ使用できません。ゲームの開始に問題がある場合は、ヘルプディレクトリのリリースノート内に詳細情報とFAQがあります。システムがすべてのライブラリを提供していない場合は、ヘルプフォルダにlin_convenience_libs.tar.bz2というパッケージがあり、必要なすべてのファイルが含まれている必要があります。"
+; EN: Description="Copies all files required to run and play Unreal natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealLinux.ini in the System folder. The level editor UnrealED 2.2 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.tar.bz2 in the Help folder which should contain all the necessary files."
+Description="LinuxでUnrealをネイティブに実行および再生するために必要なすべてのファイルをコピーします。 [詳細オプション]メニューはまだありませんが、すべての設定が記録されており、SystemフォルダーのUnrealLinux.iniで編集できます。レベルエディタUnrealED2.2は、Linuxではまだ使用できません。ゲームの開始に問題がある場合は、ヘルプディレクトリのリリースノート内に詳細情報とFAQがあります。システムがすべてのライブラリを提供していない場合は、ヘルプフォルダにlin_convenience_libs.tar.bz2というパッケージがあり、必要なすべてのファイルが含まれている必要があります。"
 
 [OldWeaponsGroup]
 ; EN: Caption="Old Weapons"
