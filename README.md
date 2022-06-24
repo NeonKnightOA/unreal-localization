@@ -39,6 +39,7 @@ Each language has a portal which comprises the general guidelines. All languages
 * **TaglesMalsto:** Italian, additional contributions.
 * **u.HighPriest:** Russian, localization author.
 * **Skaarj ZR:** Russian, additional contributions.
+* **Reborn:** Russian, additional contributions.
 * **Delacroix:** Polish, additional contributions.
 * **Nahand:** Portuguese, additional contributions.
 * **Naruto_9:** Portuguese, additional contributions.
