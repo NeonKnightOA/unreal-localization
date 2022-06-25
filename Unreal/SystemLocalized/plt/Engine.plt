@@ -1,5 +1,5 @@
 ﻿[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Domyślna")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -157,7 +157,7 @@ HelpDesc[1]="Nadaje wszystkim graczom uprawnienia administracyjne."
 
 [Console]
 ; EN: ClassCaption="Standard Unreal Console"
-ClassCaption="Konsola domyślna Unreal"
+ClassCaption="Konsola Domyślna Unreal"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="WCZYTYWANIE W TOKU"
 ; EN: SavingMessage="SAVING"
