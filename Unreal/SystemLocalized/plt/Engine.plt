@@ -193,9 +193,9 @@ YesString="tak"
 ; EN: NoString="No"
 NoString="nie"
 ; EN: OnString="On"
-OnString="Na"
+OnString="Wł."
 ; EN: OffString="Off"
-OffString="Poza"
+OffString="Wył."
 
 [GameInfo]
 ; EN: SwitchLevelMessage="Switching Levels"
@@ -304,9 +304,9 @@ AdminLogoutText="Administrator %ls wylogowany"
 CheatUsedStr="%ls używa polecenia administracyjnego lub „oszustwa”: %c"
 
 [Fonts]
-WhiteFont=UnrealShare.WhiteFont
-MedFont=Engine.MedFont
-LargeFont=Engine.LargeFont
+WhiteFont=UWindowFonts.Tahoma10
+MedFont=UWindowFonts.Tahoma10
+LargeFont=UWindowFonts.Tahoma30
 BigFont=Engine.BigFont
 SmallFont=Engine.SmallFont
 
