@@ -12,55 +12,55 @@ Preferences=(Caption="Cuadrícula de rotación",Parent="Editor",Clase=Editor.Edito
 
 [MasterCommandlet]
 HelpCmd=master
-HelpOneLiner=Construye los archivos de instalación maestros
-HelpUsage=maestro [-option...] [parm=value]...
-HelpParm[0]=Rutamaestra
-HelpDesc[0]=Directorio raíz desde donde se copian los archivos fuente
-HelpParm[1]=Rutafuente
-HelpDesc[1]=Directorio raíz A donde se copian los archivos fuente
-HelpParm[2]=Rutaref
-HelpDesc[2]=Ruta para la referencia de ruta comprimida delta
+HelpOneLiner=Build master installer files
+HelpUsage=master [-option...] [parm=value]...
+HelpParm[0]=MasterPath
+HelpDesc[0]=Root directory to copy source files from
+HelpParm[1]=SrcPath
+HelpDesc[1]=Root directory to copy source (release) files to
+HelpParm[2]=RefPath
+HelpDesc[2]=Path for delta-compressed path reference
 
 [ConformCommandlet]
-HelpCmd=aceptar
-HelpOneLiner=Generar archivos binarios de aceptación
-HelpUsage=aceptar existing_file.ext old_file.ext
+HelpCmd=conform
+HelpOneLiner=Generate conforming binary files
+HelpUsage=conform existing_file.ext old_file.ext
 HelpParm[0]=existingfile.ext
-HelpDesc[0]=Archivo binario existente para cargar, aceptar y guardar
+HelpDesc[0]=Existing binary file to load, conform, and save
 HelpParm[1]=oldfile.ext
-HelpDesc[1]=Archivo antiguo compatible con el archivo binario fuente
+HelpDesc[1]=Old file to make source file binary compatible with
 
 [MakeCommandlet]
-HelpCmd=hacer
-HelpOneLiner=Reconstruir paquetes UnrealScript
-HelpUsage=hacer [-option...] [parm=value]...
-HelpParm[0]=Silencio
-HelpDesc[0]=No hay peticiones; se entiende "sí" para todas las preguntas
-HelpParm[1]=Noobligatorio
-HelpDesc[1]=No fuerce que las funciones nativas estén vinculadas a DLLs
-HelpParm[2]=Todo
-HelpDesc[2]=Limpiar reconstrucción (si no la reconstrucción es incremental)
+HelpCmd=make
+HelpOneLiner=Rebuild UnrealScript packages
+HelpUsage=make [-option...] [parm=value]...
+HelpParm[0]=Silent
+HelpDesc[0]=No prompts; assume "yes" to all questions
+HelpParm[1]=NoBind
+HelpDesc[1]=Don't force native functions to be bound to DLLs
+HelpParm[2]=All
+HelpDesc[2]=Clean rebuild (otherwise rebuild is incremental)
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpOneLiner=Une texturas DXT con texturas estándar
-HelpUsage=une la rutafuente antigua
-HelpParm[0]=rutafuente
-HelpDesc[0]=Ruta que contiene archivos fuente
-HelpParm[1]=rutaantigua
-HelpDesc[1]= Ruta que contiene archivos antiguos
-HelpParm[2]=Rutadestino
-HelpDesc[2]=Ruta para archivos de destino
+HelpOneLiner=Merge DXT textures with standard textures
+HelpUsage=mergedxt srcpath oldpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]=Path containing source files
+HelpParm[1]=oldpath
+HelpDesc[1]=Path containing old files
+HelpParm[2]=destpath
+HelpDesc[2]=Path for destination files
 
 [BatchExportCommandlet]
-HelpCmd=exportargrupo
-HelpOneLiner=Exportar objetos sueltos
-HelpUsage=exportargrupo package.ext nombredeclase export_ext
+HelpCmd=batchexport
+HelpOneLiner=Export objects in bulk
+HelpUsage=batchexport package.ext classname export_ext
 HelpParm[0]=package.ext
-HelpDesc[0]=Paquete con los objetos que deseas exportar
-HelpParm[1]=nombredeclase
-HelpDesc[1]=Clase de objeto que hay que exportar
+HelpDesc[0]=Package whose objects you wish to export
+HelpParm[1]=classname
+HelpDesc[1]=Class of object to export
 HelpParm[2]=export_ext
-HelpDesc[2]=Extensión de archivo para exportar
-HelpParm[3]=ruta
-HelpDesc[3]=Ruta a la que exportar archivos, como c:\LaRuta
+HelpDesc[2]=File extension to export to
+HelpParm[3]=path
+HelpDesc[3]=Path to export files to, like c:\MyPath

@@ -18,6 +18,7 @@ Object=(Name=Editor.ConvertMaterialCommandlet,Class=Class,MetaClass=Core.Command
 Object=(Name=Editor.TextureLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.RebuildCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.SetNormalLODCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
@@ -26,56 +27,56 @@ Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,I
 
 [MasterCommandlet]
 HelpCmd=master
-HelpOneLiner="Construire les fichiers d'installation principale"
+HelpOneLiner="Build master installer files"
 HelpUsage=master [-option...] [parm=value]...
 HelpParm[0]=MasterPath
-HelpDesc[0]="Répertoire racine à partir duquel copier les fichiers source"
+HelpDesc[0]="Root directory to copy source files from"
 HelpParm[1]=SrcPath
-HelpDesc[1]="Répertoire racine vers lequel copier les fichiers source (distribution)"
+HelpDesc[1]="Root directory to copy source (release) files to"
 HelpParm[2]=RefPath
-HelpDesc[2]="Chemin pour référence de chemin delta-compressé"
+HelpDesc[2]="Path for delta-compressed path reference"
 
 [MapConvertCommandlet]
 HelpCmd=mapconvert
-HelpOneLiner="Convertit les maps de l'ancien format vers le nouveau (pas de transformation de pinceau)"
+HelpOneLiner="Converts Maps from old format to new (no brush transforms)"
 HelpUsage=mapconvert SrcFilename DstFilename
 HelpParm[0]=SrcFilename
-HelpDesc[0]="Nom de fichier de map à lire"
+HelpDesc[0]="The map filename to read from"
 HelpParm[1]=DstFilename
-HelpDesc[1]="Nom de fichier de map dans lequel écrire"
+HelpDesc[1]="The map filename to write to"
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpOneLiner="Générer les fichiers binaires de conformation"
+HelpOneLiner="Generate conforming binary files"
 HelpUsage=conform existing_file.ext old_file.ext
 HelpParm[0]=existingfile.ext
-HelpDesc[0]="Fichier binaire existant à charger, conformer et sauvegarder"
+HelpDesc[0]="Existing binary file to load, conform, and save"
 HelpParm[1]=oldfile.ext
-HelpDesc[1]="Ancien fichier avec lequel le fichier source doit être rendu compatible en binaire"
+HelpDesc[1]="Old file to make source file binary compatible with"
 
 [PkgCommandlet]
 HelpCmd=pkg
-HelpOneLiner="Importe/exporte les données de/vers les ensmbles en employant les structures de répertoire."
+HelpOneLiner="Imports/Exports data to/from packages using directory structures."
 HelpUsage=pkg [import/export] [texture/sound] [packagename] [directory]
 HelpParm[0]=import/export
-HelpDesc[0]="Ce que vous souhaitez faire des données"
+HelpDesc[0]="What you are attempting to do with the data"
 HelpParm[1]=texture/sound
-HelpDesc[1]="Le type d'ensemble avec lequel vous travaillez"
+HelpDesc[1]="The type of package you are working with"
 HelpParm[2]=packagename
-HelpDesc[2]="L'ensemble à partir duquel vous créez/exportez"
+HelpDesc[2]="The package you are creating/exporting from"
 HelpParm[3]=directory
-HelpDesc[3]="Le répertoire où lire/écrire"
+HelpDesc[3]="The directory to read from/write to"
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
-HelpOneLiner="Etablir les flags d'ensemble dans les fichiers d'ensemble"
+HelpOneLiner="Set package flags in package files"
 HelpUsage=packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]
 HelpParm[0]=src.ext
-HelpDesc[0]="Fichier d'ensemble existant à charger"
+HelpDesc[0]="Existing package file to load"
 HelpParm[1]=dest.exe
-HelpDesc[1]="Nom du nouveau fichier d'ensemble avec les nouveaux paramètres de flag"
+HelpDesc[1]="Name of new package file with the new flag settings"
 HelpParm[2]=flag
-HelpDesc[2]="+ pour établir un flag ou - pour supprimer un flag, suivi par un parmi :"
+HelpDesc[2]="+ to set a flag, or - to remove a flag, followed by one of:"
 HelpParm[3]=" "
 HelpDesc[3]="  AllowDownload"
 HelpParm[4]=" "
@@ -89,51 +90,51 @@ HelpDesc[7]="  Unsecure"
 
 [MakeCommandlet]
 HelpCmd=make
-HelpOneLiner="Reconstruire les ensembles UnrealScript"
+HelpOneLiner="Rebuild UnrealScript packages"
 HelpUsage=make [-option...] [parm=value]...
 HelpParm[0]=Silent
-HelpDesc[0]="Pas de demandes ; supposer 'oui' pour toutes les questions"
+HelpDesc[0]="No prompts; assume "yes" to all questions"
 HelpParm[1]=NoBind
-HelpDesc[1]="Ne pas forcer la liaison des fonctions natives à des DLL"
+HelpDesc[1]="Don't force native functions to be bound to DLLs"
 HelpParm[2]=All
-HelpDesc[2]="Reconstruction complète (sinon la reconstruction est incrémentale)"
+HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)"
 
 [DXTConvertCommandlet]
 HelpCmd=dxtconvert
-HelpOneLiner="Convertir les textures DXT3/5 en DXT1/ RGBA"
+HelpOneLiner="Convert DXT3/5 textures to DXT1/ RGBA"
 HelpUsage=dxtconvert srcpath destpath
 HelpParm[0]=srcpath
-HelpDesc[0]="Chemin contenant les fichiers source"
+HelpDesc[0]="Path containing source files"
 HelpParm[1]=destpath
-HelpDesc[1]="Chemin des fichiers destination"
+HelpDesc[1]="Path for destination files"
 
 
 [AnalyzeContentCommandlet]
 HelpCmd=analyzecontent
-HelpOneLiner="Analyse une map"
+HelpOneLiner="Analyzes map"
 HelpUsage=analyzecontent mapname
 HelpParm[0]=mapname
-HelpDesc[0]="Chemin vers un fichier map"
+HelpDesc[0]="Path to a map file"
 
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpOneLiner="Exporter les objets en masse"
+HelpOneLiner="Export objects in bulk"
 HelpUsage=batchexport package.ext classname export_ext
 HelpParm[0]=package.ext
-HelpDesc[0]="Ensemble dont vous voulez exporter les objets"
+HelpDesc[0]="Package whose objects you wish to export"
 HelpParm[1]=classname
-HelpDesc[1]="Classe d'objet à exporter"
+HelpDesc[1]="Class of object to export"
 HelpParm[2]=export_ext
-HelpDesc[2]="Extension de fichier vers laquelle exporter"
+HelpDesc[2]="File extension to export to"
 HelpParm[3]=path
-HelpDesc[3]="Chemin vers lequel exporter les fichier, ex. : c:\MonChemin"
+HelpDesc[3]="Path to export files to, like c:\MyPath"
 
 [DataRipCommandlet]
 HelpCmd=datarip
-HelpOneLiner="Créer un ensemble avec les données de textures, musique et son extraites."
+HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpUsage=datarip srcpackage.ext dstpackage.ext
 HelpParm[0]=srcpackage.ext
-HelpDesc[0]="Ensemble source"
+HelpDesc[0]="Source Package"
 HelpParm[1]=dstpackage.ext
-HelpDesc[1]="Ensemble destination"
+HelpDesc[1]="Destination Package"

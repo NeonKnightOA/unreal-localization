@@ -12,55 +12,55 @@ Preferences=(Caption="Griglia di Rotazione",Parent="Editor",Class=Editor.EditorE
 
 [MasterCommandlet]
 HelpCmd=master
-HelpOneLiner=Crea i file di installazione master
+HelpOneLiner=Build master installer files
 HelpUsage=master [-option...] [parm=value]...
 HelpParm[0]=MasterPath
-HelpDesc[0]=directory principale da cui copiare i file
+HelpDesc[0]=Root directory to copy source files from
 HelpParm[1]=SrcPath
-HelpDesc[1]=directory principale ove copiare i file sorgente (release)
+HelpDesc[1]=Root directory to copy source (release) files to
 HelpParm[2]=RefPath
-HelpDesc[2]=Path per i riferimenti sulla compressione delta
+HelpDesc[2]=Path for delta-compressed path reference
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpOneLiner=Aggiorna i file binari 
+HelpOneLiner=Generate conforming binary files
 HelpUsage=conform existing_file.ext old_file.ext
 HelpParm[0]=existingfile.ext
-HelpDesc[0]=File binario esistente da caricare, aggiornare, salvare
+HelpDesc[0]=Existing binary file to load, conform, and save
 HelpParm[1]=oldfile.ext
-HelpDesc[1]=Vecchio file con il quale si vuole la compatibilità 
+HelpDesc[1]=Old file to make source file binary compatible with
 
 [MakeCommandlet]
 HelpCmd=make
-HelpOneLiner=Ricostruisci tutti i package UnrealScript
+HelpOneLiner=Rebuild UnrealScript packages
 HelpUsage=make [-option...] [parm=value]...
 HelpParm[0]=Silent
-HelpDesc[0]=Nessun prompt; risponde sempre "si" alle domande
+HelpDesc[0]=No prompts; assume "yes" to all questions
 HelpParm[1]=NoBind
-HelpDesc[1]=Non forzare il collegamento alle DLL delle funzioni native
+HelpDesc[1]=Don't force native functions to be bound to DLLs
 HelpParm[2]=All
-HelpDesc[2]=Ricompilazione totale (altrimenti è incrementale)
+HelpDesc[2]=Clean rebuild (otherwise rebuild is incremental)
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpOneLiner=Fondi le texture DXT con quelle standard
+HelpOneLiner=Merge DXT textures with standard textures
 HelpUsage=mergedxt srcpath oldpath destpath
 HelpParm[0]=srcpath
-HelpDesc[0]=Path che contiene i file sorgenti 
+HelpDesc[0]=Path containing source files
 HelpParm[1]=oldpath
-HelpDesc[1]=Path che contiene i vecchi file
+HelpDesc[1]=Path containing old files
 HelpParm[2]=destpath
-HelpDesc[2]=Path per i file destinazione
+HelpDesc[2]=Path for destination files
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpOneLiner=Esporta in blocco tutti gli oggetti
+HelpOneLiner=Export objects in bulk
 HelpUsage=batchexport package.ext classname export_ext
 HelpParm[0]=package.ext
-HelpDesc[0]=Package di cui si vogliono esportare gli oggetti
+HelpDesc[0]=Package whose objects you wish to export
 HelpParm[1]=classname
-HelpDesc[1]=Classe dell'oggetto da esportare
+HelpDesc[1]=Class of object to export
 HelpParm[2]=export_ext
-HelpDesc[2]=Estensione del file di esportazione
+HelpDesc[2]=File extension to export to
 HelpParm[3]=path
-HelpDesc[3]=Path dei file esportati, ad es. c:\MioPath
+HelpDesc[3]=Path to export files to, like c:\MyPath

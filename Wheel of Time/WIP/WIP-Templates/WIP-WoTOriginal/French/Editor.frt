@@ -12,55 +12,55 @@ Preferences=(Caption="Grille de rotation",Parent="Editeur",Class=Editor.EditorEn
 
 [MasterCommandlet]
 HelpCmd=master
-HelpOneLiner=Compiler les fichiers du programme d'installation maître
-HelpUsage=master [-option...] [parm=valeur]...
+HelpOneLiner=Build master installer files
+HelpUsage=master [-option...] [parm=value]...
 HelpParm[0]=MasterPath
-HelpDesc[0]=Répertoire racine d'où vous copiez les fichiers source
+HelpDesc[0]=Root directory to copy source files from
 HelpParm[1]=SrcPath
-HelpDesc[1]=Répertoire racine dans lequel vous copiez les fichiers source
+HelpDesc[1]=Root directory to copy source (release) files to
 HelpParm[2]=RefPath
-HelpDesc[2]=Chemin pour référence de chemin compressé-delta
+HelpDesc[2]=Path for delta-compressed path reference
 
 [ConformCommandlet]
 HelpCmd=conform
-HelpOneLiner=Générer des fichiers binaires conformes
-HelpUsage=conform fichier_existant.ext fichier_ancien.ext
-HelpParm[0]=fichier_existant.ext
-HelpDesc[0]=Fichier binaire existant à charger, conformer et enregistrer
-HelpParm[1]=fichier_ancien.ext
-HelpDesc[1]=Ancien fichier par rapport auquel vous rendez binairement compatible le fichier source
+HelpOneLiner=Generate conforming binary files
+HelpUsage=conform existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]=Existing binary file to load, conform, and save
+HelpParm[1]=oldfile.ext
+HelpDesc[1]=Old file to make source file binary compatible with
 
 [MakeCommandlet]
 HelpCmd=make
-HelpOneLiner=Recompiler les packages UnrealScript
-HelpUsage=make [-option...] [parm=valeur]...
+HelpOneLiner=Rebuild UnrealScript packages
+HelpUsage=make [-option...] [parm=value]...
 HelpParm[0]=Silent
-HelpDesc[0]=Pas d'invites. La réponse "oui" est supposée pour toutes les questions
+HelpDesc[0]=No prompts; assume "yes" to all questions
 HelpParm[1]=NoBind
-HelpDesc[1]=Ne pas obliger les fonctions natives à être liées aux DLL
+HelpDesc[1]=Don't force native functions to be bound to DLLs
 HelpParm[2]=All
-HelpDesc[2]=Recompilation propre (sans quoi, la recompilation est incrémentielle)
+HelpDesc[2]=Clean rebuild (otherwise rebuild is incremental)
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
-HelpOneLiner=Fusionner les textures DXT aux textures standard
-HelpUsage=mergedxt srcpath ancienchemin chemindest
+HelpOneLiner=Merge DXT textures with standard textures
+HelpUsage=mergedxt srcpath oldpath destpath
 HelpParm[0]=srcpath
-HelpDesc[0]=Chemin contenant les fichiers source
-HelpParm[1]=ancienchemin
-HelpDesc[1]=Chemin contenant les anciens fichiers
-HelpParm[2]=chemindest
-HelpDesc[2]=Chemin des fichiers de destination
+HelpDesc[0]=Path containing source files
+HelpParm[1]=oldpath
+HelpDesc[1]=Path containing old files
+HelpParm[2]=destpath
+HelpDesc[2]=Path for destination files
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
-HelpOneLiner=Exporter les objets en gros
-HelpUsage=batchexport package.ext nomclasse export_ext
+HelpOneLiner=Export objects in bulk
+HelpUsage=batchexport package.ext classname export_ext
 HelpParm[0]=package.ext
-HelpDesc[0]=Package dont vous souhaitez exporter les objets
-HelpParm[1]=nomclasse
-HelpDesc[1]=Classe de l'objet à exporter
+HelpDesc[0]=Package whose objects you wish to export
+HelpParm[1]=classname
+HelpDesc[1]=Class of object to export
 HelpParm[2]=export_ext
-HelpDesc[2]=Extension du fichier vers lequel vous exportez
-HelpParm[3]=chemin
-HelpDesc[3]=Chemin dans lequel vous exportez les fichiers, comme c:\MonChemin
+HelpDesc[2]=File extension to export to
+HelpParm[3]=path
+HelpDesc[3]=Path to export files to, like c:\MyPath
