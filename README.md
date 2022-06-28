@@ -44,6 +44,7 @@ Each language has a portal which comprises the general guidelines. All languages
 * **yrex.:** Polish, additional contributions.
 * **Nahand:** Portuguese, additional contributions.
 * **Naruto_9:** Portuguese, additional contributions.
+* **BIr4:** Portuguese, reviewing and additional contributions.
 * **Relaks:** Hungarian, localization author.
 * **MakeMeUnreal:** Hungarian, additional contributions.
 * **Gabor Kovacs:** Hungarian, additional contributions.
