@@ -1,0 +1,25 @@
+[Public]
+Object=(Name=RYSPAK.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=RYSPAK.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=RYSPAK.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=RYSPAK.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Preferences=(Caption="Gravity Match (RYS)",Parent="Game Types",Class=RYSPAK.GravityMatch,Immediate=True)
+Preferences=(Caption="Cloak Match (RYS)",Parent="Game Types",Class=RYSPAK.CloakMatch,Immediate=True)
+Preferences=(Caption="Terran Weapon Match (RYS)",Parent="Game Types",Class=RYSPAK.TerranWeaponMatch,Immediate=True)
+Preferences=(Caption="Marine Match (RYS)",Parent="Game Types",Class=RYSPAK.MarineMatch,Immediate=True)
+
+[GravityMatch]
+Caption="Gravity Match"
+GameName="Gravity Match"
+
+[CloakMatch]
+Caption="Cloak Match"
+GameName="Cloak Match"
+
+[TerranWeaponMatch]
+Caption="Terran Weapon Match"
+GameName="Terran Weapon Match"
+
+[MarineMatch]
+Caption="Marine Match"
+GameName="Marine Match"
