@@ -1,6 +1,7 @@
 ﻿[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.GameInfo)
 ; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
@@ -149,8 +150,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Gi alle spillerne administratorrettigheter."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Tournament Console"
-ClassCaption="Standard Unreal Tournament Konsoll"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="LASTER INN"
 ; EN: SavingMessage="SAVING"

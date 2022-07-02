@@ -130,3 +130,7 @@ IDC_Web="A legfrissebb illesztőprogramok linkjeit keresse fel weboldalunkon:"
 IDC_WebButton="Direct3D információs és illesztőprogramok oldal"
 ; EN: IDC_Card="Unknown"
 IDC_Card="Ismeretlen"
+
+[IDDIALOG_ConfigPageMouseInput]
+; EN: IDC_MouseInputPrompt="Select the input method for your mouse. \n\nCursor - Low-Definition mouse input. This mode limits the mouse to 400DPI and applies Windows pointer acceleration to the input. \n\nDirectInput - [Deprecated] High-Definition mouse input. This mode allows the mouse to report movement at higher DPI and is not subject to Windows pointer acceleration. This mode does not work well on modern versions of Windows. \n\nRaw Input - High-Definition mouse input. This mode allows the mouse to report movement at higher DPI and is not subject to Windows pointer acceleration. This is the recommended mode for modern hardware and modern versions of Windows."
+IDC_MouseInputPrompt="Válassza ki az egér beviteli módját.\n\nKurzor – Alacsony felbontású egérbemenet. Ez a mód 400 DPI-re korlátozza az egeret, és Windows mutatógyorsítást alkalmaz a bemeneten.\n\nDirectInput – [Elavult] Nagy felbontású egérbemenet. Ez a mód lehetővé teszi, hogy az egér nagyobb DPI-vel jelezze a mozgást, és nincs kitéve a Windows mutatógyorsításának. Ez a mód nem működik jól a Windows modern verzióiban.\n\nNyers bemenet – Nagy felbontású egérbemenet. Ez a mód lehetővé teszi, hogy az egér nagyobb DPI-vel jelezze a mozgást, és nincs kitéve a Windows mutatógyorsításának. Ez az ajánlott mód a modern hardverekhez és a Windows modern verzióihoz."

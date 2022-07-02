@@ -1,6 +1,7 @@
 ﻿[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.GameInfo)
 ; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
@@ -149,8 +150,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Nadaje wszystkim graczom uprawnienia administracyjne."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Tournament Console"
-ClassCaption="Konsola domyślna Unreal Tournament"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="WCZYTYWANIE W TOKU"
 ; EN: SavingMessage="SAVING"

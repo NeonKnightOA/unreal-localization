@@ -448,3 +448,7 @@ DeathMessage="%o - %k rozrywa cię na części pierwsze czterolufowym obrzynem."
 PickupMessage="Podnosisz Czterolufowego Obrzyna"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Czterolufowego Obrzyn"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"
