@@ -34,14 +34,14 @@ Each language has a portal which comprises the general guidelines. All languages
 * **Sly.:** German, additional contributions.
 * **Hellkeeper:** French, fixes and maintenance.
 * **Rackover/Louvenarde:** French, fixes and maintenance.
-* **rarsonic:** Spanish, additional contributions.
+* **rarsonic:** Spanish and Catalan, additional contributions.
 * **UBerserker:** Italian, additional contributions.
-* **Alby1987:** Italian, reviewing and contributions.
 * **TaglesMalsto:** Italian, additional contributions.
+* **Alby1987:** Italian, reviewing and contributions.
 * **u.HighPriest:** Russian, localization author.
 * **Skaarj ZR:** Russian, additional contributions.
 * **Reborn:** Russian, additional contributions.
-* **Delacroix:** Polish, additional contributions.
+* **Delacroix:** Polish, Hungarian and Czech, additional contributions.
 * **yrex.:** Polish, additional contributions.
 * **Nahand:** Portuguese, additional contributions.
 * **Naruto_9:** Portuguese, additional contributions.
