@@ -12,19 +12,24 @@ Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 
 [OldDispersionPistol]
-; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
 DeathMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="あなたは分散ピストルを手に入れました"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="分散ピストル"
+FemDeathMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
+FemKillMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="％kは％wで％oに致命的なダメージを与えました。"
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="あなたはASMDを手に入れました"
+; EN: ItemName="ASMD"
 ItemName="ASMD"
+FemDeathMessage="％kは％wで％oに致命的なダメージを与えました。"
+FemKillMessage="％kは％wで％oに致命的なダメージを与えました。"
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
@@ -33,6 +38,8 @@ DeathMessage="％oは％kの％wによって何度も叩かれました。"
 PickupMessage="あなたはエイトボール銃を手に入れました"
 ; EN: ItemName="Eightball"
 ItemName="エイトボール"
+FemDeathMessage="％oは％kの％wによって何度も叩かれました。"
+FemKillMessage="％oは％kの％wによって何度も叩かれました。"
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
@@ -41,6 +48,8 @@ DeathMessage="％kは％oの頭に弾丸を入れました。"
 PickupMessage="あなたはライフルを手に入れました"
 ; EN: ItemName="Sniper Rifle"
 ItemName="スナイパーライフル"
+FemDeathMessage="％kは％oの頭に弾丸を入れました。"
+FemKillMessage="％kは％oの頭に弾丸を入れました。"
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
@@ -49,6 +58,8 @@ DeathMessage="％oは％kの％wによって細断処理されました。"
 PickupMessage="あなたは高射砲を手に入れました"
 ; EN: ItemName="Flak Cannon"
 ItemName="フラックキャノン"
+FemDeathMessage="％oは％kの％wによって細断処理されました。"
+FemKillMessage="％oは％kの％wによって細断処理されました。"
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
@@ -57,6 +68,8 @@ DeathMessage="％oは％kの％wによってガタガタになりました。"
 PickupMessage="Automagを手に入れました"
 ; EN: ItemName="Automag"
 ItemName="オートマグ"
+FemDeathMessage="％oは％kの％wによってガタガタになりました。"
+FemKillMessage="％oは％kの％wによってガタガタになりました。"
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
@@ -65,13 +78,18 @@ DeathMessage="％kの％wは％oを漏れのある肉片に変えました。"
 PickupMessage="あなたはミニガンを手に入れました"
 ; EN: ItemName="Minigun"
 ItemName="ミニガン"
+FemDeathMessage="％kの％wは％oを漏れのある肉片に変えました。"
+FemKillMessage="％kの％wは％oを漏れのある肉片に変えました。"
 
 [OldGESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="あなたはGESBioRifleを手に入れました"
-ItemName="GES BioRifle"
+; EN: ItemName="GES Bio Rifle"
+ItemName="GESバイオライフル"
+FemDeathMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+FemKillMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
 
 [OldAmplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
@@ -88,6 +106,8 @@ DeathMessage="％oは％kの％wによって穴が開けられました。"
 PickupMessage="あなたはスティンガーを拾いました"
 ; EN: ItemName="Stinger"
 ItemName="スティンガー"
+FemDeathMessage="％oは％kの％wによって穴が開けられました。"
+FemKillMessage="％oは％kの％wによって穴が開けられました。"
 
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets"
@@ -96,7 +116,7 @@ PickupMessage="あなたは50発の弾丸を拾いました"
 ItemName="弾丸ボックス"
 
 [OldRifleAmmo]
-; EN: PickupMessage="You got 8 Rifle rounds"
+; EN: PickupMessage="You got 8 Rifle Rounds"
 PickupMessage="あなたは8ライフル弾を手に入れました"
 ; EN: ItemName="Rifle Rounds"
 ItemName="ライフル弾"
@@ -127,8 +147,8 @@ PickupMessage="弾薬を手に入れました"
 ItemName="弾薬"
 
 [OldASMDAmmo]
-; EN: PickupMessage="You picked up an ASMD core"
-PickupMessage="ASMDコアを選択しました"
+; EN: PickupMessage="You picked up an ASMD Core"
+PickupMessage="ASMDコアを手に入れました"
 ; EN: ItemName="ASMD Core"
 ItemName="ASMDコア"
 
@@ -139,16 +159,16 @@ PickupMessage="あなたは40のタリジウムの破片を拾いました"
 ItemName="タリジウムの破片"
 
 [OldRazorAmmo]
-; EN: PickupMessage="You picked up some Razor Blades"
-PickupMessage="あなたはいくつかのかみそりの刃を手に入れました"
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="あなたはかみそりの刃を手に入れました"
 ; EN: ItemName="Razor Blades"
 ItemName="剃刀の刃"
 
 [OldSludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Sludge"
-PickupMessage="あなたは25キロのタリジウムスラッジを拾いました"
-; EN: ItemName="Tarydium Sludge"
-ItemName="タリジウムスラッジ"
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="あなたは25キロのタリジウムバイオスラッジを拾いました"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="タリジウムバイオスラッジ"
 
 [OldRocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"

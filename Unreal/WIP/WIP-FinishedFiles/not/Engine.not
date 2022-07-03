@@ -1,5 +1,4 @@
 ﻿[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Standard")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -74,14 +73,10 @@ DeathMessage="%o ble drept av %w fra %k."
 PickupMessage="Du har et våpen"
 ; EN: ItemName="Weapon"
 ItemName="Våpen"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="%o ble drept av %w fra %k."
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="%o ble drept av %w fra %k."
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="%o ble drept av %w fra %k."
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="%o ble drept av %w fra %k."
+; EN: FemDeathMessage="%o was killed by %k's %w."
+FemDeathMessage="%o ble drept av %w fra %k."
+; EN: FemKillMessage="%o was killed by %k's %w."
+FemKillMessage="%o ble drept av %w fra %k."
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -162,8 +157,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Gi alle spillerne administratorrettigheter."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
-ClassCaption="Standard Unreal Konsoll"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="LASTER INN"
 ; EN: SavingMessage="SAVING"
@@ -174,10 +167,6 @@ ConnectingMessage="KOBLER TIL"
 PausedMessage="PAUSE"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="FORHÅNDSLASTER"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="(CHAT) "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="(LAG) "
 
 [Menu]
 MenuList=" "
@@ -339,3 +328,7 @@ HelpUsage="shaupdate <Filnavn>"
 HelpParm[0]="<Filnavn>"
 ; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
 HelpDesc[0]="Filen for å beregne SHA256 sjekksummen for bakre lagring. "
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Automatisk Sparing"

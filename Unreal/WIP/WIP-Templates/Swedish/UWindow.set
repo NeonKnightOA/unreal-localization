@@ -31,6 +31,8 @@ OKText="OK"
 ShowColorsText="Visa konsolmeddelanden i färger"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="Logga bara chattmeddelanden"
+; EN: ShowWarningText="Log script errors"
+ShowWarningText="Loggskriptfel"
 
 [AdminGUIPlayersGrid]
 ; EN: PlayerID="ID#"
@@ -149,6 +151,18 @@ StopTrackHint="Stoppa spår"
 PriorTrackHint="Tidigare spår"
 ; EN: NextTrackHint="Next track"
 NextTrackHint="Nästa spår"
+; EN: AddAllText="Add All"
+AddAllText="Lägg till alla"
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint="Detta kommer att söka igenom hela musikkatalogen och lägga till alla ljudspår till spellistan."
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr="VARNING: Lägg till alla låtar?"
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText="Denna operation kommer att vara långsam och kommer att lägga till alla möjliga låtar till din spellista, fortsätt?"
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText="Blanda spellista"
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint="Nästa spår väljs alltid slumpmässigt."
 
 [UWindowNetErrorWindow]
 ; EN: WindowTitle="Player Network error status"
@@ -231,3 +245,7 @@ GettingBanListText="Att få banlist från servern, om inget händer kanske du in
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
 RestartText="Omstart"
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage="Något skapar skriptvarningar..."

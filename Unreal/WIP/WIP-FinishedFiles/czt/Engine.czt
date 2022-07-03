@@ -1,5 +1,4 @@
 ﻿[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Standardni")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -74,14 +73,10 @@ DeathMessage="%o byl zabit %kovym %wem."
 PickupMessage="Sebral jsi zbran"
 ; EN: ItemName="Weapon"
 ItemName="Zbran"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="%o byl zabit %kovym %wem."
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="%o byl zabit %kovym %wem."
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="%o byl zabit %kovym %wem."
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="%o byl zabit %kovym %wem."
+; EN: FemDeathMessage="%o was killed by %k's %w."
+FemDeathMessage="%o byl zabit %kovym %wem."
+; EN: FemKillMessage="%o was killed by %k's %w."
+FemKillMessage="%o byl zabit %kovym %wem."
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -162,8 +157,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Prideli vsem hracum prava administratora."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
-ClassCaption="Standardni Konzole Unrealu"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="NACITAM"
 ; EN: SavingMessage="SAVING"
@@ -174,10 +167,6 @@ ConnectingMessage="PRIPOJUJI"
 PausedMessage="POZASTAVENO"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="PREDBEZNE NACITANI"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="(POKEC) "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="(TYM) "
 
 [Menu]
 MenuList=" "
@@ -339,3 +328,7 @@ HelpUsage="shaupdate <NázevSouboru>"
 HelpParm[0]="<NázevSouboru>"
 ; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
 HelpDesc[0]="Soubor pro výpočet kontrolního součtu SHA256 pro zadní úložiště."
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Automatické Ukládání"

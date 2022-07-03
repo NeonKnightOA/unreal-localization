@@ -53,7 +53,7 @@ Object=(Name=Unreali.JMale6,Class=Class,MetaClass=Engine.Texture,Description="Ha
 Object=(Name=Unreali.JMale7,Class=Class,MetaClass=Engine.Texture,Description="Man1; M1 Man6")
 ; EN: Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Male7")
 Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Man1; M1 Man7")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;Unreal")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;UnrealShare.logo2;Unreal")
 ; EN: Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 ; EN: Object=(Name="MoveBackward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Backward")
@@ -331,6 +331,10 @@ TeamName[1]="Blue Team: "
 TeamName[2]="Gröna laget: "
 ; EN: TeamName[3]="Gold Team: "
 TeamName[3]="Guldlag: "
+; EN: DemoPlaybackProg="Demo: %f %"
+DemoPlaybackProg="Demo: %f %"
+; EN: DemoRecInfo="[REC]"
+DemoRecInfo="[REC]"
 
 [UnrealGameOptionsMenu]
 ; EN: AdvancedString="Advanced Options"
@@ -426,11 +430,12 @@ MenuTitle="Konfiguration av artificiell intelligens"
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o dödades av %k's %w. Vilken förlorare!"
-FemDeathMessage="%o dödades av %k's %w. Vilken förlorare!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Du har Dispersionspistolen"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Dispersionspistol"
+FemDeathMessage="%o dödades av %k's %w. Vilken förlorare!"
+FemKillMessage="%o dödades av %k's %w. Vilken förlorare!"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -515,7 +520,21 @@ MenuList[16]="Realistiska skuggor"
 MenuList[17]="PreCaching-innehåll"
 MenuList[18]="Trilinear Filtering"
 ; EN: MenuTitle="AUDIO/VIDEO"
-MenuTitle="LJUD VIDEO"
+MenuTitle="LJUD/VIDEO"
+; EN: MenuList[19]="Sky Fogging"
+MenuList[19]="Himmel imma"
+; EN: HelpMessage[19]="Changes how volumetric fog is being rendered on skybox."
+HelpMessage[19]="Ändrar hur volymetrisk dimma renderas på skybox."
+; EN: SkyFogDetail[0]="High Detail"
+SkyFogDetail[0]="Hög Detalj"
+; EN: SkyFogDetail[1]="Low Detail"
+SkyFogDetail[1]="Låg Detalj"
+; EN: SkyFogDetail[2]="Off"
+SkyFogDetail[2]="Av"
+; EN: MenuList[20]="HUD Scale"
+MenuList[20]="HUD-skala"
+; EN: HelpMessage[20]="Specifies the scaling level of the in-game HUD."
+HelpMessage[20]="Anger skalningsnivån för HUD i spelet."
 
 [UnrealFavoritesMenu]
 ; EN: EditList[0]="Name for Server:"
@@ -742,8 +761,8 @@ HelpMessage[16]="Använd vänster och höger piltangenter för att välja en Hea
 HelpMessage[17]="Justera mängden bobbning när du rör dig."
 ; EN: HelpMessage[18]="Set your optimal networking speed. This has an impact on internet gameplay."
 HelpMessage[18]="Ställ in din optimala nätverkshastighet. Detta har en inverkan på internetspel."
-; EN: HelpMessage[19]="Open advanced preferences configuration menu."
-HelpMessage[19]="Öppna konfigurationsmenyn för avancerade inställningar."
+; EN: HelpMessage[19]="This option determines the look of console and menus. Press Enter to restart the game and apply the changes."
+HelpMessage[19]="Det här alternativet bestämmer utseendet på konsolen och menyerna. Tryck på Enter för att starta om spelet och tillämpa ändringarna."
 ; EN: MenuList[1]="Auto Aim"
 MenuList[1]="Automatiskt sikte"
 ; EN: MenuList[2]="Joystick Enabled"
@@ -776,10 +795,14 @@ MenuList[16]="HUD-konfiguration"
 MenuList[17]="Se Bob"
 ; EN: MenuList[18]="Net Speed"
 MenuList[18]="Nettohastighet"
-; EN: MenuList[19]="Advanced Options"
-MenuList[19]="Avancerade alternativ"
+; EN: MenuList[19]="Console"
+MenuList[19]="Trösta"
 ; EN: MenuTitle="OPTIONS MENU"
 MenuTitle="ALTERNATIVMENY"
+; EN: MenuList[20]="Advanced Options"
+MenuList[20]="Avancerade alternativ"
+; EN: HelpMessage[20]="Open advanced preferences configuration menu."
+HelpMessage[20]="Öppna konfigurationsmenyn för avancerade inställningar."
 
 [TeamGame]
 ; EN: ClassCaption="Team Play"
@@ -800,11 +823,12 @@ GameName="Lagspel"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k orsakade dödlig skada på %o med %w."
-FemDeathMessage="%k orsakade dödlig skada på %o med %w."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Du har ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
+FemDeathMessage="%k orsakade dödlig skada på %o med %w."
+FemKillMessage="%k orsakade dödlig skada på %o med %w."
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"
@@ -840,11 +864,12 @@ MenuTitle="BOTS"
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o slogs ned flera gånger av %k %w."
-FemDeathMessage="%o slogs ned flera gånger av %k %w."
 ; EN: PickupMessage="You got the Eightball"
 PickupMessage="Du har Åtta Boll"
 ; EN: ItemName="Eightball"
 ItemName="Åtta Boll"
+FemDeathMessage="%o slogs ned flera gånger av %k %w."
+FemKillMessage="%o slogs ned flera gånger av %k %w."
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1089,11 +1114,12 @@ MenuTitle="VÄLJ SPEL"
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o fick gattad av %​​k's %w."
-FemDeathMessage="%o fick gattad av %​​k's %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Du har Automag"
 ; EN: ItemName="Automag"
 ItemName="Automag"
+FemDeathMessage="%o fick gattad av %​​k's %w."
+FemKillMessage="%o fick gattad av %​​k's %w."
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1223,14 +1249,21 @@ MenuList[1]="LÄTT"
 MenuList[2]="MEDIUM"
 ; EN: MenuList[3]="HARD"
 MenuList[3]="HÅRD"
-; EN: MenuList[4]="UNREAL"
-MenuList[4]="OVERKLIG"
+MenuList[4]="UNREAL"
 ; EN: MenuList[5]="EXTREME"
 MenuList[5]="EXTREM"
 ; EN: MenuList[6]="NIGHTMARE"
 MenuList[6]="MARDRÖM"
 ; EN: MenuList[7]="ULTRA-UNREAL"
-MenuList[7]="ULTRA-OREAL"
+MenuList[7]="ULTRA-UNREAL"
+; EN: MenuList[8]="Balance Mode: "
+MenuList[8]="Balansläge: "
+; EN: HelpMessage[8]="Should gameplay contain some minor bugfixes or remain classic?"
+HelpMessage[8]="Ska spelet innehålla några mindre buggfixar eller förbli klassiskt?"
+; EN: ModeString[0]="Enhanced"
+ModeString[0]="Förbättrad"
+; EN: ModeString[1]="Classic"
+ModeString[1]="Classic"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
@@ -1249,11 +1282,12 @@ MenuTitle="SPARA SPELET"
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
 DeathMessage="%o perforerades med %k %w."
-FemDeathMessage="%o perforerades med %k %w."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Du tog upp Stinger"
 ; EN: ItemName="Stinger"
 ItemName="Stinger"
+FemDeathMessage="%o perforerades med %k %w."
+FemKillMessage="%o perforerades med %k %w."
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
@@ -1423,3 +1457,107 @@ HelpMessage[0]="Återgå till föregående meny"
 MenuList[0]="Återvända"
 ; EN: MenuTitle="MUTATORS"
 MenuTitle="MUTATORER"
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="Hane 3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="Kvinna 1"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Bird"
+MenuName="Bird"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Brute"
+MenuName="Brute"
+
+[CaveManta]
+; EN: NameArticle=" the "
+NameArticle=" the "
+; EN: MenuName="Cave Manta"
+MenuName="Cave Manta"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Fly"
+MenuName="Fly"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Lesser Brute"
+MenuName="Lesser Brute"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Manta"
+MenuName="Manta"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Priest"
+MenuName="Nali Priest"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Rabbit"
+MenuName="Nali Rabbit"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarj Scout"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj Warrior"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Slith"
+MenuName="Slith"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Tentacle"
+MenuName="Tentacle"

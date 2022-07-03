@@ -33,6 +33,8 @@ OKText="わかった"
 ShowColorsText="コンソールメッセージを色で表示する"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="チャットメッセージのみをログに記録する"
+; EN: ShowWarningText="Log script errors"
+ShowWarningText="ログスクリプトエラー"
 
 [AdminGUIPlayersGrid]
 ; EN: PlayerID="ID#"
@@ -151,6 +153,18 @@ StopTrackHint="トラックを停止"
 PriorTrackHint="前のトラック"
 ; EN: NextTrackHint="Next track"
 NextTrackHint="次のトラック"
+; EN: AddAllText="Add All"
+AddAllText="すべて追加"
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint="これにより、音楽ディレクトリ全体が検索され、すべてのオーディオトラックがプレイリストに追加されます。"
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr="警告：すべての曲を追加しますか？"
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText="この操作は遅くなり、プレイリストにすべての可能な曲が追加されます、続行しますか？"
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText="シャッフルプレイリスト"
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint="次のトラックは常にランダムに選択されます。"
 
 [UWindowNetErrorWindow]
 ; EN: WindowTitle="Player Network error status"
@@ -233,3 +247,7 @@ GettingBanListText="サーバーから禁止リストを取得します。何も
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
 RestartText="再起動"
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage="何かがスクリプト警告を作成しています..."

@@ -32,6 +32,8 @@ OKText="rendben"
 ShowColorsText="Konzolüzenetek megjelenítése színnel"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="Csak a csevegési üzenetek naplózása"
+; EN: ShowWarningText="Log script errors"
+ShowWarningText="Szkripthibák naplózása"
 
 [AdminGUIPlayersGrid]
 ; EN: PlayerID="ID#"
@@ -149,6 +151,18 @@ StopTrackHint="Stop track"
 PriorTrackHint="Korábbi pálya"
 ; EN: NextTrackHint="Next track"
 NextTrackHint="Következő szám"
+; EN: AddAllText="Add All"
+AddAllText="Összes hozzáadása"
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint="Ez a teljes zenei könyvtárban keres, és az összes hangsávot hozzáadja a lejátszási listához."
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr="FIGYELEM: Hozzáadja az összes dalt?"
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText="Ez a művelet lassú lesz, és minden lehetséges dalt hozzáad a lejátszási listához, folytatod?"
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText="Lejátszási lista véletlenszerű lejátszása"
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint="A következő szám mindig véletlenszerűen kerül kiválasztásra."
 
 [UWindowNetErrorWindow]
 ; EN: WindowTitle="Player Network error status"
@@ -232,3 +246,7 @@ GettingBanListText="Ha tiltólistát kap a szerverről, ha semmi sem történik,
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
 RestartText="Újrakezd"
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage="Valami szkript figyelmeztetéseket hoz létre..."

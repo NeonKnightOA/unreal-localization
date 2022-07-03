@@ -53,7 +53,7 @@ Object=(Name=Unreali.JMale6,Class=Class,MetaClass=Engine.Texture,Description="�
 Object=(Name=Unreali.JMale7,Class=Class,MetaClass=Engine.Texture,Description="男性1; M1男性6")
 ; EN: Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Male7")
 Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="男性1; M1男性7")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;Unreal")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;UnrealShare.logo2;Unreal")
 ; EN: Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 ; EN: Object=(Name="MoveBackward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Backward")
@@ -336,6 +336,10 @@ TeamName[1]="ブルーチーム： "
 TeamName[2]="グリーンチーム： "
 ; EN: TeamName[3]="Gold Team: "
 TeamName[3]="ゴールドチーム： "
+; EN: DemoPlaybackProg="Demo: %f %"
+DemoPlaybackProg="デモ：％f％"
+; EN: DemoRecInfo="[REC]"
+DemoRecInfo="[録音]"
 
 [UnrealGameOptionsMenu]
 ; EN: AdvancedString="Advanced Options"
@@ -442,6 +446,8 @@ DeathMessage="％oは％kの％wによって殺されました。なんて敗者
 PickupMessage="あなたは分散ピストルを手に入れました"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="分散ピストル"
+FemDeathMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
+FemKillMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -532,6 +538,20 @@ MenuList[17]="プリキャッシングコンテンツ"
 MenuList[18]="トリリニアフィルタリング"
 ; EN: MenuTitle="AUDIO/VIDEO"
 MenuTitle="オーディオビデオ"
+; EN: MenuList[19]="Sky Fogging"
+MenuList[19]="スカイフォギング"
+; EN: HelpMessage[19]="Changes how volumetric fog is being rendered on skybox."
+HelpMessage[19]="スカイボックスでのボリュームフォグのレンダリング方法を変更します。"
+; EN: SkyFogDetail[0]="High Detail"
+SkyFogDetail[0]="ハイディテール"
+; EN: SkyFogDetail[1]="Low Detail"
+SkyFogDetail[1]="低詳細"
+; EN: SkyFogDetail[2]="Off"
+SkyFogDetail[2]="オフ"
+; EN: MenuList[20]="HUD Scale"
+MenuList[20]="HUDスケール"
+; EN: HelpMessage[20]="Specifies the scaling level of the in-game HUD."
+HelpMessage[20]="ゲーム内HUDのスケーリングレベルを指定します。"
 
 [UnrealFavoritesMenu]
 ; EN: EditList[0]="Name for Server:"
@@ -764,8 +784,8 @@ HelpMessage[16]="左右の矢印キーを使用して、ヘッドアップディ
 HelpMessage[17]="移動時のボブ量を調整します。"
 ; EN: HelpMessage[18]="Set your optimal networking speed. This has an impact on internet gameplay."
 HelpMessage[18]="最適なネットワーク速度を設定します。これはインターネットのゲームプレイに影響を与えます。"
-; EN: HelpMessage[19]="Open advanced preferences configuration menu."
-HelpMessage[19]="詳細設定設定メニューを開きます。"
+; EN: HelpMessage[19]="This option determines the look of console and menus. Press Enter to restart the game and apply the changes."
+HelpMessage[19]="このオプションは、コンソールとメニューの外観を決定します。 Enterキーを押してゲームを再開し、変更を適用します。"
 ; EN: MenuList[1]="Auto Aim"
 MenuList[1]="自動照準"
 ; EN: MenuList[2]="Joystick Enabled"
@@ -801,10 +821,14 @@ MenuList[16]="HUD構成"
 MenuList[17]="ボブを見る"
 ; EN: MenuList[18]="Net Speed"
 MenuList[18]="ネットスピード"
-; EN: MenuList[19]="Advanced Options"
-MenuList[19]="高度なオプション"
+; EN: MenuList[19]="Console"
+MenuList[19]="コンソール"
 ; EN: MenuTitle="OPTIONS MENU"
 MenuTitle="オプションメニュー"
+; EN: MenuList[20]="Advanced Options"
+MenuList[20]="高度なオプション"
+; EN: HelpMessage[20]="Open advanced preferences configuration menu."
+HelpMessage[20]="詳細設定設定メニューを開きます。"
 
 [TeamGame]
 ; EN: ClassCaption="Team Play"
@@ -827,7 +851,10 @@ GameName="チームゲーム"
 DeathMessage="％kは％wで％oに致命的なダメージを与えました。"
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="あなたはASMDを手に入れました"
+; EN: ItemName="ASMD"
 ItemName="ASMD"
+FemDeathMessage="％kは％wで％oに致命的なダメージを与えました。"
+FemKillMessage="％kは％wで％oに致命的なダメージを与えました。"
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"
@@ -868,6 +895,8 @@ DeathMessage="％oは％kの％wによって何度も叩かれました。"
 PickupMessage="あなたはエイトボール銃を手に入れました"
 ; EN: ItemName="Eightball"
 ItemName="エイトボール"
+FemDeathMessage="％oは％kの％wによって何度も叩かれました。"
+FemKillMessage="％oは％kの％wによって何度も叩かれました。"
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1124,6 +1153,8 @@ DeathMessage="％oは％kの％wによってガタガタになりました。"
 PickupMessage="Automagを手に入れました"
 ; EN: ItemName="Automag"
 ItemName="オートマグ"
+FemDeathMessage="％oは％kの％wによってガタガタになりました。"
+FemKillMessage="％oは％kの％wによってガタガタになりました。"
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1263,6 +1294,14 @@ MenuList[5]="過激"
 MenuList[6]="悪夢"
 ; EN: MenuList[7]="ULTRA-UNREAL"
 MenuList[7]="超非現実的"
+; EN: MenuList[8]="Balance Mode: "
+MenuList[8]="バランスモード："
+; EN: HelpMessage[8]="Should gameplay contain some minor bugfixes or remain classic?"
+HelpMessage[8]="ゲームプレイにいくつかのマイナーなバグ修正を含めるべきですか、それともクラシックのままにするべきですか？"
+; EN: ModeString[0]="Enhanced"
+ModeString[0]="拡張"
+; EN: ModeString[1]="Classic"
+ModeString[1]="Classic"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
@@ -1285,6 +1324,8 @@ DeathMessage="％oは％kの％wによって穴が開けられました。"
 PickupMessage="あなたはスティンガーを拾いました"
 ; EN: ItemName="Stinger"
 ItemName="スティンガー"
+FemDeathMessage="％oは％kの％wによって穴が開けられました。"
+FemKillMessage="％oは％kの％wによって穴が開けられました。"
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
@@ -1457,3 +1498,107 @@ HelpMessage[0]="前のメニューに戻る"
 MenuList[0]="戻る"
 ; EN: MenuTitle="MUTATORS"
 MenuTitle="ミューテイタ"
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="男性3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="女性1"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Bird"
+MenuName="Bird"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Brute"
+MenuName="Brute"
+
+[CaveManta]
+; EN: NameArticle=" the "
+NameArticle=" the "
+; EN: MenuName="Cave Manta"
+MenuName="Cave Manta"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Fly"
+MenuName="Fly"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Lesser Brute"
+MenuName="Lesser Brute"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Manta"
+MenuName="Manta"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Priest"
+MenuName="Nali Priest"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Rabbit"
+MenuName="Nali Rabbit"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarj Scout"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj Warrior"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Slith"
+MenuName="Slith"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Tentacle"
+MenuName="Tentacle"

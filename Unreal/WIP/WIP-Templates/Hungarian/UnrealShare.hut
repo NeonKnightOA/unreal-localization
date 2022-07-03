@@ -53,7 +53,7 @@ Object=(Name=Unreali.JMale6,Class=Class,MetaClass=Engine.Texture,Description="F�
 Object=(Name=Unreali.JMale7,Class=Class,MetaClass=Engine.Texture,Description="Férfi1; M1 Férfi6")
 ; EN: Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Male7")
 Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Férfi1; M1 Férfi7")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;Unreal")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;UnrealShare.logo2;Unreal")
 ; EN: Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 ; EN: Object=(Name="MoveBackward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Backward")
@@ -336,6 +336,10 @@ TeamName[1]="Kék csapat: "
 TeamName[2]="Zöld csapat: "
 ; EN: TeamName[3]="Gold Team: "
 TeamName[3]="Aranycsapat: "
+; EN: DemoPlaybackProg="Demo: %f %"
+DemoPlaybackProg="Demo: %f %"
+; EN: DemoRecInfo="[REC]"
+DemoRecInfo="[FEL]"
 
 [UnrealGameOptionsMenu]
 ; EN: AdvancedString="Advanced Options"
@@ -433,11 +437,12 @@ MenuTitle="Mesterséges intelligencia konfigurálása"
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
-FemDeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Felvetted a Szórópisztolyt"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Szórópisztoly"
+FemDeathMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
+FemKillMessage="%o-t megölte %k a %wával. Micsoda lúzer!"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -523,7 +528,21 @@ MenuList[17]="Tartalom előtárolása"
 ; EN: MenuList[18]="Trilinear Filtering"
 MenuList[18]="Trilináris szűrés"
 ; EN: MenuTitle="AUDIO/VIDEO"
-MenuTitle="AUDIO / VIDEO"
+MenuTitle="AUDIO/VIDEO"
+; EN: MenuList[19]="Sky Fogging"
+MenuList[19]=""Az Ég Ködösödése"
+; EN: HelpMessage[19]="Changes how volumetric fog is being rendered on skybox."
+HelpMessage[19]="Módosítja a térfogati köd megjelenítési módját a skyboxon."
+; EN: SkyFogDetail[0]="High Detail"
+SkyFogDetail[0]="Magas részlet"
+; EN: SkyFogDetail[1]="Low Detail"
+SkyFogDetail[1]="Kevés részlet"
+; EN: SkyFogDetail[2]="Off"
+SkyFogDetail[2]="Ki"
+; EN: MenuList[20]="HUD Scale"
+MenuList[20]="HUD skála"
+; EN: HelpMessage[20]="Specifies the scaling level of the in-game HUD."
+HelpMessage[20]="Meghatározza a játékon belüli HUD skálázási szintjét."
 
 [UnrealFavoritesMenu]
 ; EN: EditList[0]="Name for Server:"
@@ -752,8 +771,8 @@ HelpMessage[16]="A bal és jobb nyílgombokkal válassza ki a Heads Up Display k
 HelpMessage[17]="Mozgáskor állítsa be a lebegés mértékét."
 ; EN: HelpMessage[18]="Set your optimal networking speed. This has an impact on internet gameplay."
 HelpMessage[18]="Állítsa be az optimális hálózati sebességet. Ez kihat az internetes játékmenetre."
-; EN: HelpMessage[19]="Open advanced preferences configuration menu."
-HelpMessage[19]="Nyissa meg a speciális beállítások konfigurációs menüt."
+; EN: HelpMessage[19]="This option determines the look of console and menus. Press Enter to restart the game and apply the changes."
+HelpMessage[19]="Ez az opció határozza meg a konzol és a menük megjelenését. Nyomja meg az Enter billentyűt a játék újraindításához és a módosítások alkalmazásához."
 ; EN: MenuList[1]="Auto Aim"
 MenuList[1]="Auto Célzás"
 ; EN: MenuList[2]="Joystick Enabled"
@@ -787,10 +806,14 @@ MenuList[16]="HUD konfiguráció"
 MenuList[17]="Nézd meg Bobot"
 ; EN: MenuList[18]="Net Speed"
 MenuList[18]="Nettó sebesség"
-; EN: MenuList[19]="Advanced Options"
-MenuList[19]="Haladó beállítások"
+; EN: MenuList[19]="Console"
+MenuList[19]="Konzol"
 ; EN: MenuTitle="OPTIONS MENU"
 MenuTitle="OPCIÓK MENÜ"
+; EN: MenuList[20]="Advanced Options"
+MenuList[20]="Haladó beállítások"
+; EN: HelpMessage[20]="Open advanced preferences configuration menu."
+HelpMessage[20]="Nyissa meg a speciális beállítások konfigurációs menüt."
 
 [TeamGame]
 ; EN: ClassCaption="Team Play"
@@ -811,11 +834,12 @@ GameName="Csapatjáték"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k halálos sérülést mért %o-ra a %w-je."
-FemDeathMessage="%k halálos sérülést mért %o-ra a %w-je."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Felvetted az ASMD-t"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
+FemDeathMessage="%k halálos sérülést mért %o-ra a %w-je."
+FemKillMessage="%k halálos sérülést mért %o-ra a %w-je."
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"
@@ -852,11 +876,12 @@ MenuTitle="BOTOK"
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="="%o-t többször is lecsapta %k %wje."
-FemDeathMessage="="%o-t többször is lecsapta %k %wje."
 ; EN: PickupMessage="You got the Eightball gun"
 PickupMessage="Felvetted a Nyolcgömböt"
 ; EN: ItemName="Eightball"
 ItemName="Nyolcgömb"
+FemDeathMessage="="%o-t többször is lecsapta %k %wje."
+FemKillMessage="="%o-t többször is lecsapta %k %wje."
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1109,11 +1134,12 @@ MenuTitle="VÁLASSZ JÁTÉKOT"
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o-t kibelezte %k %wja."
-FemDeathMessage="%o-t kibelezte %k %wja."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Felvetted az Automag Pisztolyt"
 ; EN: ItemName="Automag"
 ItemName="Automag Pisztoly"
+FemDeathMessage="%o-t kibelezte %k %wja."
+FemKillMessage="%o-t kibelezte %k %wja."
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1250,6 +1276,14 @@ MenuList[5]="SZÉLSŐ"
 ; EN: MenuList[6]="NIGHTMARE"
 MenuList[6]="RÉMÁLOM"
 MenuList[7]="ULTRA-UNREAL"
+; EN: MenuList[8]="Balance Mode: "
+MenuList[8]="Egyensúly mód: "
+; EN: HelpMessage[8]="Should gameplay contain some minor bugfixes or remain classic?"
+HelpMessage[8]="A játéknak tartalmaznia kell néhány kisebb hibajavítást, vagy maradjon klasszikus?"
+; EN: ModeString[0]="Enhanced"
+ModeString[0]="Továbbfejlesztett"
+; EN: ModeString[1]="Classic"
+ModeString[1]="Klasszikus"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
@@ -1268,11 +1302,12 @@ MenuTitle="JÁTÉK MENTÉSE"
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
 DeathMessage="%o-t kilyuggatta %k %we."
-FemDeathMessage="%o-t kilyuggatta %k %we."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Felvetted a Stingert"
 ; EN: ItemName="Stinger"
 ItemName="Stinger"
+FemDeathMessage="%o-t kilyuggatta %k %we."
+FemKillMessage="%o-t kilyuggatta %k %we."
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
@@ -1443,3 +1478,107 @@ HelpMessage[0]="Vissza az előző menübe"
 MenuList[0]="Visszatérés"
 ; EN: MenuTitle="MUTATORS"
 MenuTitle="MUTATORS"
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="Férfi 3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="1. nő"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Bird"
+MenuName="Bird"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Brute"
+MenuName="Brute"
+
+[CaveManta]
+; EN: NameArticle=" the "
+NameArticle=" the "
+; EN: MenuName="Cave Manta"
+MenuName="Cave Manta"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Fly"
+MenuName="Fly"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Lesser Brute"
+MenuName="Lesser Brute"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Manta"
+MenuName="Manta"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Priest"
+MenuName="Nali Priest"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Rabbit"
+MenuName="Nali Rabbit"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarj Scout"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj Warrior"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Slith"
+MenuName="Slith"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Tentacle"
+MenuName="Tentacle"

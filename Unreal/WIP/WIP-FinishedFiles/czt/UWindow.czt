@@ -33,6 +33,8 @@ OKText="OK"
 ShowColorsText="Zobrazit zprávy konzoly v barvách"
 ; EN: ShowChatText="Log only chat messages"
 ShowChatText="Zaznamenávejte pouze zprávy chatu"
+; EN: ShowWarningText="Log script errors"
+ShowWarningText="Protokolovat chyby skriptu"
 
 [AdminGUIPlayersGrid]
 ; EN: PlayerID="ID#"
@@ -151,6 +153,18 @@ StopTrackHint="Zastavit stopu"
 PriorTrackHint="Předchozí skladba"
 ; EN: NextTrackHint="Next track"
 NextTrackHint="Další skladba"
+; EN: AddAllText="Add All"
+AddAllText="Přidat vše"
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint="Toto prohledá celý hudební adresář a přidá všechny zvukové stopy do seznamu skladeb."
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr="UPOZORNĚNÍ: Přidat všechny skladby?"
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText="Tato operace bude pomalá a do vašeho playlistu přidá všechny možné skladby, pokračovat?"
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText="Shuffle playlist"
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint="Další stopa je vždy vybrána náhodně."
 
 [UWindowNetErrorWindow]
 ; EN: WindowTitle="Player Network error status"
@@ -233,3 +247,7 @@ GettingBanListText="Získání banlistu ze serveru, pokud se nic nestane, možn�
 [UWindowSmallRestartButton]
 ; EN: RestartText="Restart"
 RestartText="Restartujte"
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage="Něco vytváří varování skriptu..."

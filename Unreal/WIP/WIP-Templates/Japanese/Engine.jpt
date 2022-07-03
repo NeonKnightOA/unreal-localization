@@ -1,5 +1,4 @@
 ﻿[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="標準の")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -74,14 +73,10 @@ DeathMessage="％oは％kの％wによって殺されました。"
 PickupMessage="あなたは武器を手に入れました"
 ; EN: ItemName="Weapon"
 ItemName="武器"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="％oは％kの％wによって殺されました。"
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="％oは％kの％wによって殺されました。"
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="％oは％kの％wによって殺されました。"
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="％oは％kの％wによって殺されました。"
+; EN: FemDeathMessage="%o was killed by %k's %w."
+FemDeathMessage="％oは％kの％wによって殺されました。"
+; EN: FemKillMessage="%o was killed by %k's %w."
+FemKillMessage="％oは％kの％wによって殺されました。"
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -175,12 +170,6 @@ ConnectingMessage="接続する"
 PausedMessage="一時停止"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="説教"
-; EN: ClassCaption="Standard Unreal Console"
-ClassCaption="標準のUnrealコンソール"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="（チャット） "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="（チーム） "
 
 [Menu]
 MenuList=" "
@@ -344,3 +333,7 @@ HelpUsage="shaupdate &lt;ファイル名&gt;"
 HelpParm[0]="&lt;ファイル名&gt;"
 ; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
 HelpDesc[0]="事後ストレージのSHA256チェックサムを計算するためのファイル。"
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="自動保存"

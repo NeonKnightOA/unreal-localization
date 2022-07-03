@@ -1,5 +1,4 @@
 ﻿[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Standard")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -73,14 +72,10 @@ DeathMessage="%o dödades av %w från %k."
 PickupMessage="Du har ett vapen"
 ; EN: ItemName="Weapon"
 ItemName="Vapen"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="%o dödades av %w från %k."
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="%o dödades av %w från %k."
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="%o dödades av %w från %k."
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="%o dödades av %w från %k."
+; EN: FemDeathMessage="%o was killed by %k's %w."
+FemDeathMessage="%o dödades av %w från %k."
+; EN: FemKillMessage="%o was killed by %k's %w."
+FemKillMessage="%o dödades av %w från %k."
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -161,8 +156,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Ge alla spelare administratörsbehörighet."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
-ClassCaption="Standardkonsol Unreal"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="LÄSER IN"
 ; EN: SavingMessage="SAVING"
@@ -173,10 +166,6 @@ ConnectingMessage="ANSLUTER"
 PausedMessage="PAUSAD"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="PRECACHING"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="(CHATT) "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="(TEAM) "
 
 [Menu]
 MenuList=" "
@@ -338,3 +327,7 @@ HelpUsage="shaupdate <Filnamn>"
 HelpParm[0]="<Filnamn>"
 ; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
 HelpDesc[0]="Filen för att beräkna kontrollsumman SHA256 för bakre lagring."
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Automatiskt Sparande"

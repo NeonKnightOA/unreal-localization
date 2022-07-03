@@ -1,5 +1,4 @@
 ﻿[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Szabványos")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -73,14 +72,10 @@ DeathMessage="%o megölte %k %w."
 PickupMessage="Kaptál egy fegyvert"
 ; EN: ItemName="Weapon"
 ItemName="Fegyver"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="%o megölte %k %w."
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="%o megölte %k %w."
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="%o megölte %k %w."
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="%o megölte %k %w."
+; EN: FemDeathMessage="%o was killed by %k's %w."
+FemDeathMessage="%o megölte %k %w."
+; EN: FemKillMessage="%o was killed by %k's %w."
+FemKillMessage="%o megölte %k %w."
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
@@ -161,8 +156,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Minden játékos kap adminisztrátori privilégiumokat."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Console"
-ClassCaption="Szabványos Unreal Konzol"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="BETO:LTE'S"
 ; EN: SavingMessage="SAVING"
@@ -173,10 +166,6 @@ ConnectingMessage="CSATLAKOZA'S"
 PausedMessage="SZU:NET"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="PRECACHE-LE'S"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="(DUMA) "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="(CSAPAT) "
 
 [Menu]
 MenuList=" "
@@ -338,3 +327,7 @@ HelpUsage="shaupdate <FájlNév>"
 HelpParm[0]="<FájlNév>"
 ; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
 HelpDesc[0]="A SHA256 ellenőrző összeg kiszámításához szükséges fájl a hátsó tároláshoz. "
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Auto Mentés"
