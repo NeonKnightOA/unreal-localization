@@ -2194,7 +2194,7 @@ PickupMessage="Masz niewidzialność."
 ItemName="Niewidzialność"
 
 [RatedTeamInfo4]
-; EN: TeamName="Raw Steel"
+TeamName="Raw Steel"
 ; EN: TeamBio="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
 TeamBio="Tylko mężczyźni mogą uczestniczyć w walce znanej jako „Raw Steel”. „Raw Steel”, będąca połączeniem ludzkich mięśni i metali spienionych, utrzymuje siłę i moc nad wszystkimi innymi zaletami."
 BotNames[0]="Slain"

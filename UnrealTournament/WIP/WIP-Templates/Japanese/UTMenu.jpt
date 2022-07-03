@@ -255,6 +255,16 @@ HUDColorValues[10]="カスタム"
 CrosshairTranslucentText="半透明の十字線"
 ; EN: CrosshairTranslucentHelp="Enable to apply translucency to your crosshair."
 CrosshairTranslucentHelp="有効にすると、十字線に半透明が適用されます。"
+HUDColorValues[0]="16,0,0"
+HUDColorValues[1]="16,0,16"
+HUDColorValues[2]="0,8,16"
+HUDColorValues[3]="0,16,16"
+HUDColorValues[4]="0,16,0"
+HUDColorValues[5]="16,8,0"
+HUDColorValues[6]="16,16,0"
+HUDColorValues[7]="16,0,8"
+HUDColorValues[8]="16,16,16"
+HUDColorValues[9]="0,0,16"
 
 [UTIndivBotSetupClient]
 ; EN: SkillText="Skill Adjust"
@@ -305,6 +315,10 @@ CombatStyleNames[4]="回避性"
 JumpyText="びくびくする行動："
 ; EN: JumpyHelp="This bot is inclined to jump excessively around the level, like some players do."
 JumpyHelp="このボットは、一部のプレイヤーのように、レベルを過度にジャンプする傾向があります。"
+CombatStyleValues[1]=0.500000
+CombatStyleValues[2]=1.000000
+CombatStyleValues[3]=-0.500000
+CombatStyleValues[4]=-1.000000
 
 [SpeechBinderCW]
 ; EN: LabelText="Bind to Key:"
@@ -715,6 +729,7 @@ NoText="番号"
 [UTLadderChal]
 ; EN: LadderName="Final Challenge"
 LadderName="最終チャレンジ"
+TrophyMap="EOL_Challenge.unr"
 
 [FreeSlotsClient]
 ; EN: QueryText="Free a save slot first!"
@@ -731,19 +746,23 @@ WindowTitle="サーバーパスワードを入力してください"
 [UTLadderDOM]
 ; EN: LadderName="Domination"
 LadderName="支配"
+TrophyMap="EOL_Domination.unr"
 
 [UTLadderDM]
 ; EN: LadderName="Deathmatch"
 LadderName="デスマッチ"
+TrophyMap="EOL_DeathMatch.unr"
 
 [UTLadderCTF]
 ShortTitle="CTF"
 ; EN: LadderName="Capture The Flag"
 LadderName="旗を取れ"
+TrophyMap="EOL_CTF.unr"
 
 [UTLadderAS]
 ; EN: LadderName="Assault"
 LadderName="暴行"
+TrophyMap="EOL_Assault.unr"
 
 [UTStartGameCW]
 ; EN: DedicatedText="Dedicated"
@@ -782,6 +801,7 @@ QuitHelp="選択して設定を保存し、Unrealを終了します。"
 QuitTitle="終了の確認"
 ; EN: QuitText="Are you sure you want to Quit?"
 QuitText="本当にやめる気？"
+DemoQuitText="Thank you for playing the Unreal Tournament Demo.  Visit our website for information on the full version of the game, which contains 7 unique game types and over 50 levels!\\n\\nWould you like to visit the Unreal Tournament website now?"
 
 [SpeechBinderWindow]
 ; EN: WindowTitle="Speech Binder"
@@ -802,3 +822,10 @@ WindowTitle="練習セッションを開始"
 [ngWorldSecretWindow]
 ; EN: WindowTitle="ngWorldStats Password"
 WindowTitle="ngWorldStatsパスワード"
+
+[DemoStoryWindow]
+Title="Congratulations!"
+Message[0]="Thank you for playing the demo version of Unreal Tournament.  So much more is in store for you in the full version of the game.  You'll get 50 levels of pure gaming excitement, all the weapons, new game modes and much, much more.  For complete information about pricing, availability and the latest news point your web browser to http://www.UnrealTournament.com."
+Message[2]="This demo is based on a pre-release version of Unreal Tournament and you might experience problems with it.  We would sincerely appreciate your help in tracking down bugs.  Feel free to report any problems you encountered by sending an email to utbugs@epicgames.com."
+Message[3]="Thanks again for playing the Unreal Tournament demo!"
+Message[4]="Press [ESC] to continue."
