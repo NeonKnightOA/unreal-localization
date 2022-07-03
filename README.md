@@ -36,6 +36,7 @@ Each language has a portal which comprises the general guidelines. All languages
 * **Rackover/Louvenarde:** French, fixes and maintenance.
 * **rarsonic:** Spanish, additional contributions.
 * **UBerserker:** Italian, additional contributions.
+* **Alby1987:** Italian, reviewing and contributions.
 * **TaglesMalsto:** Italian, additional contributions.
 * **u.HighPriest:** Russian, localization author.
 * **Skaarj ZR:** Russian, additional contributions.
