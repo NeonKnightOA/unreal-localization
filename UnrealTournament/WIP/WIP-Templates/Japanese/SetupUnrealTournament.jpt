@@ -3,9 +3,9 @@ LocalProduct="Unreal Tournament"
 DefaultFolder="C:\Program Files\Unreal Tournament"
 ReadMe="Help\469ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Tournament Setup"
-SetupWindowTitle="Unreal Tournamentのセットアップ"
+SetupWindowTitle="UnrealTournamentセットアップ"
 ; EN: AutoplayWindowTitle="Unreal Tournament Options"
-AutoplayWindowTitle="非現実的なトーナメントオプション"
+AutoplayWindowTitle="UnrealTournamentオプション"
 ProductURL="http://www.unrealtournament.com/"
 VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
@@ -13,15 +13,81 @@ Developer="Epic Games、Inc.-469 by Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
 Logo="Help\Logo.bmp"
 
-[UnrealRequirement]
-LocalProduct="Unreal Tournament"
-ProductURL="http://www.unrealtournament.com/"
-VersionURL="http://www.epicgames.com/"
-Developer="Epic Games, Inc."
-DeveloperURL="http://www.epicgames.com/"
+[General]
+; EN: PlayLevelCommand="&Play this Unreal Tournament level"
+PlayLevelCommand="このアンリアルレベルをプレイ(&P)"
+; EN: OpenLinkCommand="&Open this Unreal Tournament link"
+OpenLinkCommand="このアンリアルリンクを開く(&O)"
+; EN: InstallModuleCommand="&Install this Unreal Tournament module"
+InstallModuleCommand="このアンリアルモジュールをインストール(&I)"
+; EN: EditLevelCommand="&Edit this Unreal Tournament level"
+EditLevelCommand="このアンリアルレベルを終了(&E)"
 
-[LinuxGroup]
-; EN: Caption="Linux native files"
-Caption="Linuxネイティブファイル"
-; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
-Description="LinuxでUnrealTournamentをネイティブに実行および再生するために必要なすべてのファイルをコピーします。 [詳細オプション]メニューはまだありませんが、すべての設定が記録されており、SystemフォルダーのUnrealTournamentLinux.iniで編集できます。レベルエディタUnrealED2.1は、Linuxではまだ使用できません。ゲームの開始に問題がある場合は、ヘルプディレクトリのリリースノート内に詳細情報とFAQがあります。システムがすべてのライブラリを提供していない場合は、ヘルプフォルダにlin_convenience_libs.7zというパッケージがあり、必要なすべてのファイルが含まれている必要があります。"
+[UnrealTournamentContentGroup]
+; EN: Caption="Game Content"
+Caption="ゲームコンテンツ"
+; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="「アンリアルトーナメント」のゲームコンテンツです。最適なパフォーマンスのためにインストールをお勧めします。インストールをしない場合、ゲームファイルはCD-ROMから必要に応じて読み出されるため、パフォーマンスが低下するかもしれません。ただし、ハードディスクの使用容量は少なくてすみます。"
+
+[GameGroup]
+; EN: Caption="Unreal Tournament Game"
+Caption="アンリアルトーナメントゲーム"
+; EN: Description="Installation is required."
+Description="ゲームエンジン。インストールは必須です。"
+
+[NetGamesGroup]
+; EN: Caption="NetGames USA Stat Utils"
+Caption="NetGames USA Statユーティリティ"
+; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
+Description="このツールでは、プレイヤーの「アンリアルトーナメント」ゲームの戦績統計を算出することができます。また、オンラインのグローバルランキングを見ることもできます!"
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support."
+Description="最適なグラフィック、サウンド、ジョイスティックサポートのためにMicrosoft DirectX 6ドライバをインストールします。"
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="アンリアルエディタ"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="3Dマップをカスタマイズするためのアンリアルエディタ。上級ユーザー向け。インストールは任意です。（英語版です）"
+
+[PlayShortcut]
+; EN: Caption="Play Unreal Tournament"
+Caption="アンリアルトーナメントをプレイ"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Tournament Safe Mode"
+Caption="UTセーフモード"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="アンリアルエディタ"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="お読みください"
+
+[WebShortcut]
+; EN: Caption="OldUnreal Web Page"
+Caption="OldUnrealウェブサイト"
+
+[NetGamesShortcut]
+Caption="NetGames USA"
+
+[LocalStatsShortcut]
+; EN: Caption="View my local UT stats. [ngStats]"
+Caption="ローカル [ngStats]"
+
+[GlobalStatsShortcut]
+; EN: Caption="View my global UT stats. [ngWorldStats]"
+Caption="グローバル [ngWorldStats]"
+
+[MPlayerShortcut]
+Caption="-"
+
+[HeatShortcut]
+Caption="-"
+
+[UninstallShortcut]
+Caption="-"

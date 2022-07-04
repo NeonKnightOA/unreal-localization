@@ -20,8 +20,81 @@ VersionURL="http://www.epicgames.com/"
 Developer="Epic Games, Inc."
 DeveloperURL="http://www.epicgames.com/"
 
-[LinuxGroup]
-; EN: Caption="Linux native files"
-Caption="Arquivos Nativos do Linux"
-; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
-Description="Copia todos os ficheiros necessários para 'correr' e jogar Unreal Tournament de modo nativo em Linux. Ainda não existe menu de 'Opções Avançadas', mas todas as definições estão indicadas e podem ser editadas em UnrealLinux.ini. UnrealED2.1 não está disponível em Linux. Se tem dificuldades em iniciar o jogo, existe informação adicional e um FAQ em ReleaseNotes dentro da directoria 'Help'. Se o seu sistema não disponibiliza todas as bibliotecas, existe um pacote chamado 'lin_convenience_libs.7z' no directório 'Help' contendo todos os ficheiros necessários."
+[General]
+; EN: PlayLevelCommand="&Play this Unreal Tournament level"
+PlayLevelCommand="&Jogue este nível Unreal Tournament"
+; EN: OpenLinkCommand="&Open this Unreal Tournament link"
+OpenLinkCommand="&Abra este link Unreal Tournament"
+; EN: InstallModuleCommand="&Install this Unreal Tournament module"
+InstallModuleCommand="&Instale este módulo Unreal Tournament"
+; EN: EditLevelCommand="&Edit this Unreal Tournament level"
+EditLevelCommand="&Edite este nível Unreal Tournament"
+
+[UnrealTournamentContentGroup]
+; EN: Caption="Game Content"
+Caption="Conteúdo do Jogo"
+; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Instale para melhor desempenho. Se você desmarcar, o conteúdo do jogo será carregado do CD durante o jogo, degradando o desempenho, mas usando menos espaço no disco rígido."
+
+[GameGroup]
+; EN: Caption="Unreal Tournament Game"
+Caption="Jogo Unreal Tournament"
+; EN: Description="Installation is required."
+Description="A instalação é necessária."
+
+[NetGamesGroup]
+; EN: Caption="NetGames USA Stat Utils"
+Caption="Utilitários de Estatísticas da NetGames USA"
+; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
+Description="Estas ferramentas podem ser usadas para gerar estatísticas HTML sobre seus jogos Unreal Tournament. Você também pode ver sua classificação global online!"
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support."
+Description="Drivers Microsoft DirectX 7 opcionais para suporte a gráficos, som e joystick aprimorados."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Editor Unreal"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Editor de mundo Unreal, para criar seus próprios ambientes 3D Unreal. Para usuários avançados, a instalação é opcional."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal Tournament"
+Caption="Jogue Unreal Tournament"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Tournament Safe Mode"
+Caption="Modo de Segurança Unreal Tournament"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Editor Unreal"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Documentação"
+
+[WebShortcut]
+; EN: Caption="OldUnreal Web Page"
+Caption="Página da Web OldUnreal"
+
+[NetGamesShortcut]
+Caption="NetGames USA"
+
+[LocalStatsShortcut]
+; EN: Caption="View my local UT stats. [ngStats]"
+Caption="Ver minhas estatísticas locais de UT. [ngStats]"
+
+[GlobalStatsShortcut]
+; EN: Caption="View my global UT stats. [ngWorldStats]"
+Caption="Ver minhas estatísticas globais de UT. [ngWorldStats]"
+
+[MPlayerShortcut]
+Caption="-"
+
+[HeatShortcut]
+Caption="-"
+
+[UninstallShortcut]
+Caption="-"

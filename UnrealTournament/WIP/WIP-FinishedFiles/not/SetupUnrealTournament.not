@@ -3,13 +3,13 @@ LocalProduct="Unreal Tournament"
 DefaultFolder="C:\Program Files\Unreal Tournament"
 ReadMe="Help\469ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Tournament Setup"
-SetupWindowTitle="Настройка Unreal Tournament"
+SetupWindowTitle="Oppsett av Unreal Tournament"
 ; EN: AutoplayWindowTitle="Unreal Tournament Options"
-AutoplayWindowTitle="Варианты Unreal Tournament"
+AutoplayWindowTitle="Alternativer for Unreal Tournament"
 ProductURL="http://www.unrealtournament.com/"
 VersionURL="http://www.oldunreal.com"
 ; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
-Developer="Epic Games, Inc. - 469 от Oldunreal"
+Developer="Epic Games, Inc. - 469 av Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
 Logo="Help\Logo.bmp"
 
@@ -22,73 +22,73 @@ DeveloperURL="http://www.epicgames.com/"
 
 [General]
 ; EN: PlayLevelCommand="&Play this Unreal Tournament level"
-PlayLevelCommand="&Играть на этом уровне Unreal Tournament"
+PlayLevelCommand="&Spill dette Unreal Tournament-nivået"
 ; EN: OpenLinkCommand="&Open this Unreal Tournament link"
-OpenLinkCommand="&Открыть эту ссылку Unreal Tournament"
+OpenLinkCommand="Å&pne denne Unreal Tournament-lenken"
 ; EN: InstallModuleCommand="&Install this Unreal Tournament module"
-InstallModuleCommand="&Установите этот модуль Unreal Tournament"
+InstallModuleCommand="&Installer denne Unreal Tournament-modulen"
 ; EN: EditLevelCommand="&Edit this Unreal Tournament level"
-EditLevelCommand="&Редактировать этот уровень Unreal Tournament"
+EditLevelCommand="&Rediger dette Ureal Tournament-nivået"
 
 [UnrealTournamentContentGroup]
 ; EN: Caption="Game Content"
-Caption="Контент игры"
+Caption="Spillinnhold"
 ; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
-Description="Установите это для лучшей производительности. Если вы отмените выбор, содержимое игры будет загружаться с компакт-диска во время игры, что снижает производительность, но занимает меньше места на жестком диске."
+Description="Installer dette for best ytelse. Hvis du fjerner merket, vil spillinnholdet lastes fra CD under avspilling, noe som reduserer ytelsen, men bruker mindre plass på harddisken."
 
 [GameGroup]
 ; EN: Caption="Unreal Tournament Game"
-Caption="Игра Unreal Tournament"
+Caption="Unreal Tournament Game"
 ; EN: Description="Installation is required."
-Описание="Требуется установка."
+Description="Installasjon er nødvendig."
 
 [NetGamesGroup]
 ; EN: Caption="NetGames USA Stat Utils"
-Caption="Утилиты статистики NetGames USA"
+Caption="NetGames USA Stat Utils"
 ; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
-Description="Эти инструменты можно использовать для создания HTML-статистики о ваших играх Unreal Tournament. Вы также можете просматривать свой глобальный рейтинг онлайн!"
+Description="Disse verktøyene kan brukes til å generere HTML-statistikk om dine Unreal Tournament-spill. Du kan også se din globale rangering online!"
 
 [DirectXGroup]
 Caption="DirectX"
 ; EN: Description="Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support."
-Description="Дополнительные драйверы Microsoft DirectX 7 для улучшенной графики, звука и поддержки джойстика."
+Description="Valgfrie Microsoft DirectX 7-drivere for forbedret grafikk, lyd og styrespakstøtte."
 
 [EditorGroup]
 ; EN: Caption="Unreal Editor"
-Caption="Нереальный редактор"
+Caption="Unreal Editor"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description="Редактор мира Unreal для создания собственных трехмерных окружений Unreal. Для опытных пользователей; установка необязательна."
+Description="Unreal world editor, for å lage dine egne 3D Unreal miljøer. For avanserte brukere; installasjon er valgfritt."
 
 [PlayShortcut]
 ; EN: Caption="Play Unreal Tournament"
-Caption="Играть в Unreal Tournament"
+Caption="Spill Unreal Tournament"
 
 [SafeModeShortcut]
 ; EN: Caption="Unreal Tournament Safe Mode"
-Caption="Безопасный режим Unreal Tournament"
+Caption="Unreal Tournament Safe Mode"
 
 [EditorShortcut]
 ; EN: Caption="Unreal Editor"
-Caption="Нереальный редактор"
+Caption="Unreal Editor"
 
 [DocumentationShortcut]
 ; EN: Caption="Documentation"
-Caption="Документация"
+Caption="Dokumentasjon"
 
 [WebShortcut]
 ; EN: Caption="OldUnreal Web Page"
-Caption="Веб-страница OldUnreal"
+Caption="OldUnreal Web Page"
 
 [NetGamesShortcut]
 Caption="NetGames USA"
 
 [LocalStatsShortcut]
 ; EN: Caption="View my local UT stats. [ngStats]"
-Caption="Просмотреть мою локальную статистику UT. [ngStats]"
+Caption="Se min lokale UT-statistikk. [ngStats]"
 
 [GlobalStatsShortcut]
 ; EN: Caption="View my global UT stats. [ngWorldStats]"
-Caption="Просмотреть мою глобальную статистику UT. [ngWorldStats]"
+Caption="Se min globale UT-statistikk. [ngWorldStats]"
 
 [MPlayerShortcut]
 Caption="-"
