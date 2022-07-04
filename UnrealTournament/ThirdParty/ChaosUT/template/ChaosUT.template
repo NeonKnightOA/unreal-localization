@@ -1,0 +1,414 @@
+[Public]
+; EN: Object=(Name=ChaosUT.ChaosUTMutators,Class=Class,MetaClass=Engine.Mutator,Description="ChaosUT V1.1 Mutator, Use this mutator for Chaotic UT fun :)")
+Object=(Name=ChaosUT.ChaosUTMutators,Class=Class,MetaClass=Engine.Mutator,Description=",")
+; EN: Object=(Name=ChaosUT.ChaosUTModMenuItem,Class=Class, MetaClass=UMenu.UMenuModMenuItem, Description="ChaosUT Config,Configure ChaosUT")
+Object=(Name=ChaosUT.ChaosUTModMenuItem,Class=Class, MetaClass=UMenu.UMenuModMenuItem, Description=",")
+; EN: Object=(Name=ChaosUT.Sword,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Bastard Sword") 
+Object=(Name=ChaosUT.Sword,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.Crossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Crossbow") 
+Object=(Name=ChaosUT.Crossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.ExplosiveCrossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Explosive Crossbow") 
+Object=(Name=ChaosUT.ExplosiveCrossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.PoisonCrossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Poison Crossbow") 
+Object=(Name=ChaosUT.PoisonCrossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.CUTSG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="CAS12") 
+Object=(Name=ChaosUT.CUTSG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.CUTESG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="CAS12 (Explosive)") 
+Object=(Name=ChaosUT.CUTESG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.CUTAPSG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="CAS12 (Armor Piercing)") 
+Object=(Name=ChaosUT.CUTAPSG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.CUTAG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Utility Gun (Air Only)") 
+Object=(Name=ChaosUT.CUTAG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.CUTUG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Utility Gun (Fire)") 
+Object=(Name=ChaosUT.CUTUG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.CUTIG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Utility Gun (Ice)") 
+Object=(Name=ChaosUT.CUTIG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.Flak2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Claw (flak mode)") 
+Object=(Name=ChaosUT.Flak2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.Flak2Proxy,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Claw (proxy mode)") 
+Object=(Name=ChaosUT.Flak2Proxy,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.Flak2Melee,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Claw (melee mode)") 
+Object=(Name=ChaosUT.Flak2Melee,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.ProxyArm,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Proxy Mines") 
+Object=(Name=ChaosUT.ProxyArm,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.Sniper2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Chaos Sniper Rifle") 
+Object=(Name=ChaosUT.Sniper2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.Sniper_RPB,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Chaos RPB Sniper Rifle") 
+Object=(Name=ChaosUT.Sniper_RPB,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.VortexArm,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Gravity Vortex") 
+Object=(Name=ChaosUT.VortexArm,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="") 
+; EN: Object=(Name=ChaosUT.TurretLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Turret Destination Module")
+Object=(Name=ChaosUT.TurretLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="")
+; EN: Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.Info,Description="Chaos UT,Chaos UT") 
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.Info,Description=",") 
+
+[Sniper2]
+; EN: WeaponDescription="Classification: Long Range Ballistic"
+WeaponDescription=""
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage=""
+; EN: PickupMessage="You got a Chaos Sniper Rifle!!!"
+PickupMessage=""
+; EN: ItemName="Chaos Sniper Rifle"
+ItemName=""
+
+[crossbow]
+; EN: DeathMessage="%o was punctured by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got a crossbow!"
+PickupMessage=""
+; EN: ItemName="Crossbow"
+ItemName=""
+
+[cutag]
+; EN: WeaponDescription="Classification: Utility Gun - Air Only"
+WeaponDescription=""
+; EN: MessageNoAmmo=""
+MessageNoAmmo=""
+; EN: DeathMessage="%o was just blown away by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got a Utility Gun"
+PickupMessage=""
+; EN: ItemName="CUT Utility Gun"
+ItemName=""
+
+[CUTUG]
+; EN: WeaponDescription="Classification: Utility Gun - Fire Cell"
+WeaponDescription=""
+; EN: MessageNoAmmo=" is out of Fire Fuel."
+MessageNoAmmo=" se ha quedado sin Combustible."
+; EN: DeathMessage="%o was burned to a crisp by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got a Utility Gun"
+PickupMessage=""
+; EN: ItemName="CUT Utility Gun"
+ItemName=""
+
+[CUTSG]
+; EN: WeaponDescription="Classification: Automatic Shotgun - Standard Shells"
+WeaponDescription=""
+; EN: MessageNoAmmo=" out of standard SG shells"
+MessageNoAmmo=" se ha quedado sin cartuchos estándar"
+; EN: DeathMessage="%o was filled full of lead by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You picked up a CAS12"
+PickupMessage=""
+; EN: ItemName="CAS12"
+ItemName=""
+
+[TurretLauncher]
+; EN: WeaponDescription="Classification: Turret Summoning Device"
+WeaponDescription=""
+; EN: DeathMessage="%k telefragged %o!"
+DeathMessage=""
+; EN: PickupMessage="You got the Turret Source Module."
+PickupMessage=""
+; EN: ItemName="Turret Launcher"
+ItemName=""
+
+[sword]
+; EN: WeaponDescription="Classification: Sword"
+WeaponDescription=""
+; EN: DeathMessage="%o was sliced and diced by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Bastard Sword."
+PickupMessage=""
+; EN: ItemName="Sword"
+ItemName=""
+
+[ChaosUTGameSettingsCW]
+; EN: CrossbowString="Standard Crossbows"
+CrossbowString=""
+; EN: flakproxystring="Flak2 and Proxies"
+flakproxystring=""
+; EN: ecrossbowString="Explosive Crossbows"
+ecrossbowString=""
+; EN: pCrossbowString="Poison Crossbows"
+pCrossbowString=""
+; EN: cbmaString="All Crossbow Types"
+cbmaString=""
+; EN: ugString="Utility Gun"
+ugString=""
+; EN: swordString="Sword"
+swordString=""
+; EN: flakString="Flak2"
+flakString=""
+; EN: cas12String="CAS12"
+cas12String=""
+; EN: proxyString="Proxies"
+proxyString=""
+; EN: sniperString="Sniper Rifles"
+sniperString=""
+
+[cutapsg]
+; EN: WeaponDescription="Classification: Automatic Shotgun - Armor Piercing Slugs"
+WeaponDescription=""
+; EN: MessageNoAmmo=" out of Armor Piercing slugs"
+MessageNoAmmo=""
+; EN: DeathMessage="%o was pierced by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You picked up an Armor Piercing CAS12"
+PickupMessage=""
+; EN: ItemName="AP CAS12"
+ItemName=""
+
+[explosivecrossbow]
+; EN: DeathMessage="%o was pulped by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got an explosive crossbow!"
+PickupMessage=""
+; EN: ItemName="Explosive Crossbow"
+ItemName=""
+
+[poisoncrossbow]
+; EN: DeathMessage="%o was poisoned by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got an poison crossbow!"
+PickupMessage=""
+; EN: ItemName="Poison Crossbow"
+ItemName=""
+
+[cutesg]
+; EN: WeaponDescription="Classification: Automatic Shotgun - Explosive rounds"
+WeaponDescription=""
+; EN: MessageNoAmmo=" out of explosive bullets"
+MessageNoAmmo=" se ha quedado sin Munición Explosiva."
+; EN: DeathMessage="%k just peppered %o with the %w."
+DeathMessage=""
+; EN: PickupMessage="You picked up an Explosive CAS12"
+PickupMessage=""
+; EN: ItemName="Explosive CAS12"
+ItemName=""
+
+[frozeneffect]
+; EN: PickupMessage=""
+PickupMessage=[ENG]""
+; EN: M_Activated=""
+M_Activated=[ENG]""
+; EN: M_Deactivated=""
+M_Deactivated=[ENG]""
+
+[Flak2proxy]
+; EN: WeaponDescription="Classification: Heavy Shrapnel"
+WeaponDescription=""
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Claw."
+PickupMessage=""
+; EN: ItemName="Claw"
+ItemName=""
+
+[Flak2]
+; EN: WeaponDescription="Classification: Heavy Shrapnel"
+WeaponDescription=""
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Claw."
+PickupMessage=""
+; EN: ItemName="Claw"
+ItemName=""
+
+[ch_WarheadLauncher]
+; EN: WeaponDescription="Classification: Thermonuclear Device"
+WeaponDescription=""
+; EN: DeathMessage="%o was vaporized by %k's %w!!"
+DeathMessage=""
+; EN: PickupMessage="You got the Redeemer."
+PickupMessage=""
+; EN: ItemName="Redeemer"
+ItemName=""
+
+[cutig]
+; EN: WeaponDescription="Classification: Utility Gun - Ice Cell"
+WeaponDescription=""
+; EN: MessageNoAmmo=" is out of Ice Fuel."
+MessageNoAmmo=""
+; EN: DeathMessage="%o was just iced by %k's %w."
+DeathMessage=""
+; EN: ItemName="CUT Utility Gun"
+ItemName=""
+
+[Flak2Melee]
+; EN: WeaponDescription="Classification: Melee Piston"
+WeaponDescription=""
+; EN: DeathMessage="%o got his guts removed by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Claw."
+PickupMessage=""
+; EN: ItemName="Claw"
+ItemName=""
+
+[Kamikaze]
+; EN: MessageNoAmmo=""
+MessageNoAmmo=[ENG]""
+
+[PoisonEffect]
+; EN: PickupMessage=""
+PickupMessage=[ENG]""
+; EN: M_Activated=""
+M_Activated=[ENG]""
+; EN: M_Deactivated=""
+M_Deactivated=[ENG]""
+
+[sniper_rpb]
+; EN: DeathMessage="%k punched a rocket-powered slug through %o."
+DeathMessage=""
+; EN: PickupMessage="You got a Chaos RPB Sniper Rifle!!!"
+PickupMessage=""
+; EN: ItemName="Chaos RPB Sniper Rifle"
+ItemName=""
+
+[vortex]
+; EN: DirectHitString="%o was sucked in by %k's gravity vortex."
+DirectHitString=""
+; EN: SuicideString="%k was too slow running away from his gravity vortex."
+SuicideString=""
+; EN: SuicideFString="%k was too slow running away from her gravity vortex."
+SuicideFString=""
+
+[FireEffect]
+; EN: PickupMessage=""
+PickupMessage=[ENG]""
+; EN: M_Activated=""
+M_Activated=[ENG]""
+; EN: M_Deactivated=""
+M_Deactivated=[ENG]""
+
+[PROXYBOX]
+; EN: PickupMessage="You got some Proxy Mines!!"
+PickupMessage=""
+; EN: ItemName="Proxy Mines"
+ItemName=""
+
+[sgammo]
+; EN: PickupMessage="You picked up 48 SG Shells."
+PickupMessage=""
+; EN: ItemName="SG Shells"
+ItemName=""
+
+[ChaosUTCustomizeClientWindow]
+; EN: LabelList[0]="Hook On/Swing/Off"
+LabelList[0]=""
+; EN: LabelList[1]="Hook Up"
+LabelList[1]=""
+; EN: LabelList[2]="Kamikaze"
+LabelList[2]=""
+; EN: LabelList[3]="Kick"
+LabelList[3]=""
+; EN: LabelList[4]="Turret Chg Weap"
+LabelList[4]=""
+; EN: LabelList[5]="Belt On/Off"
+LabelList[5]=""
+; EN: LabelList[6]=""
+LabelList[6]=""
+
+[ProxyArm]
+; EN: WeaponDescription="Classification: Proxy Mine 6-Pack"
+WeaponDescription=""
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got some Proxy Mines!!"
+PickupMessage=""
+; EN: ItemName="Proxy Mines"
+ItemName=""
+
+[VortexArm]
+; EN: WeaponDescription="Classification: Gravity Vortex"
+WeaponDescription=""
+; EN: DeathMessage="%o was sucked into another universe by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Gravity Vortex!"
+PickupMessage=""
+; EN: ItemName="Vortex"
+ItemName=""
+
+[ArrowPack]
+; EN: PickupMessage="You picked up a quiver of arrows"
+PickupMessage=""
+; EN: ItemName="Arrows"
+ItemName=""
+
+[kamieffect2]
+; EN: FemaleSuicideString="%k blew herself into itty bitty bits."
+FemaleSuicideString=""
+; EN: MaleSuicideString="%k blew himself into itty bitty bits."
+MaleSuicideString=""
+
+[GravBelt]
+; EN: PickupMessage="You got the New Gravity Belt!"
+PickupMessage=""
+; EN: ItemName="Gravity Belt"
+ItemName=""
+
+[PoisonArrowPack]
+; EN: PickupMessage="You picked up some poison arrows"
+PickupMessage=""
+; EN: ItemName="Poison Arrows"
+ItemName=""
+
+[freezeammo]
+; EN: PickupMessage="You picked up Freezer Fuel."
+PickupMessage=""
+; EN: ItemName="Freezer Fuel"
+ItemName=""
+
+[fireballammo]
+; EN: PickupMessage="You picked up Fireball Fuel."
+PickupMessage=""
+; EN: ItemName="Fire Fuel"
+ItemName=""
+
+[esgammo]
+; EN: PickupMessage="You picked up 48 Explosive CAS12 Shells."
+PickupMessage=""
+; EN: ItemName="Explosive SG Shells"
+ItemName=""
+
+[ExpArrowPack]
+; EN: PickupMessage="You picked up some explosive arrows"
+PickupMessage=""
+; EN: ItemName="Explosive Arrows"
+ItemName=""
+
+[apsgammo]
+; EN: PickupMessage="You picked up 56 Armor Piercing CAS12 Slugs."
+PickupMessage=""
+; EN: ItemName="Ammor Percing Slugs"
+ItemName=""
+
+[RPBBulletBox]
+; EN: PickupMessage="You got a box of RPB rounds."
+PickupMessage=""
+; EN: ItemName="Box of RPB Rounds"
+ItemName=""
+
+[VortexAmmo]
+; EN: PickupMessage="You picked up a Gravity Vortex!"
+PickupMessage=""
+; EN: ItemName="Gravity Vortex"
+ItemName=""
+
+[TurretAmmo]
+; EN: PickupMessage="You picked up a Turret Ammo"
+PickupMessage=""
+; EN: ItemName="Turret Ammo"
+ItemName=""
+
+[ChaosUTModMenuItem]
+; EN: MenuCaption="Chaos:UT Config"
+MenuCaption=""
+
+[ChaosUTConfigWindow]
+; EN: WindowTitle="Chaos:UT Setup"
+WindowTitle=""
+
+[Flak2Grenade]
+; EN: WeaponDescription="Classification: Heavy Shrapnel"
+WeaponDescription=""
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Claw."
+PickupMessage=""
+; EN: ItemName="Claw"
+ItemName=""
+

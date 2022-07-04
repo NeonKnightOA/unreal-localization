@@ -1,0 +1,195 @@
+﻿[Public]
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldFlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldMinigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRazorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldGESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldStinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
+
+[OldDispersionPistol]
+; EN: DeathMessage="%o was killed by %k's %w.  What a loser!"
+DeathMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
+; EN: PickupMessage="You got the Dispersion Pistol"
+PickupMessage="あなたは分散ピストルを手に入れました"
+; EN: ItemName="Dispersion Pistol"
+ItemName="分散ピストル"
+FemDeathMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
+FemKillMessage="％oは％kの％wによって殺されました。なんて敗者だ！"
+
+[OldASMD]
+; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
+DeathMessage="％kは％wで％oに致命的なダメージを与えました。"
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="あなたはASMDを手に入れました"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
+FemDeathMessage="％kは％wで％oに致命的なダメージを与えました。"
+FemKillMessage="％kは％wで％oに致命的なダメージを与えました。"
+
+[OldEightball]
+; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
+DeathMessage="％oは％kの％wによって何度も叩かれました。"
+; EN: PickupMessage="You got the Eightball gun"
+PickupMessage="あなたはエイトボール銃を手に入れました"
+; EN: ItemName="Eightball"
+ItemName="エイトボール"
+FemDeathMessage="％oは％kの％wによって何度も叩かれました。"
+FemKillMessage="％oは％kの％wによって何度も叩かれました。"
+
+[OldRifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="％kは％oの頭に弾丸を入れました。"
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="あなたはライフルを手に入れました"
+; EN: ItemName="Sniper Rifle"
+ItemName="スナイパーライフル"
+FemDeathMessage="％kは％oの頭に弾丸を入れました。"
+FemKillMessage="％kは％oの頭に弾丸を入れました。"
+
+[OldFlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="％oは％kの％wによって細断処理されました。"
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="あなたは高射砲を手に入れました"
+; EN: ItemName="Flak Cannon"
+ItemName="フラックキャノン"
+FemDeathMessage="％oは％kの％wによって細断処理されました。"
+FemKillMessage="％oは％kの％wによって細断処理されました。"
+
+[OldAutoMag]
+; EN: DeathMessage="%o got gatted by %k's %w."
+DeathMessage="％oは％kの％wによってガタガタになりました。"
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Automagを手に入れました"
+; EN: ItemName="Automag"
+ItemName="オートマグ"
+FemDeathMessage="％oは％kの％wによってガタガタになりました。"
+FemKillMessage="％oは％kの％wによってガタガタになりました。"
+
+[OldMinigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="％kの％wは％oを漏れのある肉片に変えました。"
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="あなたはミニガンを手に入れました"
+; EN: ItemName="Minigun"
+ItemName="ミニガン"
+FemDeathMessage="％kの％wは％oを漏れのある肉片に変えました。"
+FemKillMessage="％kの％wは％oを漏れのある肉片に変えました。"
+
+[OldGESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="あなたはGESBioRifleを手に入れました"
+; EN: ItemName="GES Bio Rifle"
+ItemName="GESバイオライフル"
+FemDeathMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+FemKillMessage="％oは％kの滴るグリーンロードをグラスで飲みました。"
+
+[OldAmplifier]
+; EN: ExpireMessage="Energy Amplifier is out of power."
+ExpireMessage="エネルギー増幅器の電源が切れています。"
+; EN: PickupMessage="You got the Energy Amplifier"
+PickupMessage="あなたはエネルギー増幅器を手に入れました"
+; EN: ItemName="Energy Amplifier"
+ItemName="エネルギー増幅器"
+
+[OldStinger]
+; EN: DeathMessage="%o was perforated by %k's %w."
+DeathMessage="％oは％kの％wによって穴が開けられました。"
+; EN: PickupMessage="You picked up the Stinger"
+PickupMessage="あなたはスティンガーを拾いました"
+; EN: ItemName="Stinger"
+ItemName="スティンガー"
+FemDeathMessage="％oは％kの％wによって穴が開けられました。"
+FemKillMessage="％oは％kの％wによって穴が開けられました。"
+
+[OldShellBox]
+; EN: PickupMessage="You picked up 50 bullets"
+PickupMessage="あなたは50発の弾丸を拾いました"
+; EN: ItemName="Bullet Box"
+ItemName="弾丸ボックス"
+
+[OldRifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="あなたは8ライフル弾を手に入れました"
+; EN: ItemName="Rifle Rounds"
+ItemName="ライフル弾"
+
+[OldWeaponPowerUp]
+; EN: PickupMessage="You got the Dispersion Pistol Powerup"
+PickupMessage="あなたは分散ピストルパワーアップを手に入れました"
+; EN: ItemName="Dispersion Pistol Powerup"
+ItemName="分散ピストルパワーアップ"
+
+[OldFlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="あなたは10個の高射砲弾を手に入れました"
+; EN: ItemName="Flak Shells"
+ItemName="対空砲弾"
+
+[OldRazorjack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="％kは％wで％oから血まみれのチャンクを取り出しました。"
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="あなたはRazorJackを手に入れました"
+ItemName="RazorJack"
+
+[OldDefaultAmmo]
+; EN: PickupMessage="You picked up some Ammo"
+PickupMessage="弾薬を手に入れました"
+; EN: ItemName="Ammo"
+ItemName="弾薬"
+
+[OldASMDAmmo]
+; EN: PickupMessage="You picked up an ASMD Core"
+PickupMessage="ASMDコアを手に入れました"
+; EN: ItemName="ASMD Core"
+ItemName="ASMDコア"
+
+[OldStingerAmmo]
+; EN: PickupMessage="You picked up 40 Tarydium Shards"
+PickupMessage="あなたは40のタリジウムの破片を拾いました"
+; EN: ItemName="Tarydium Shards"
+ItemName="タリジウムの破片"
+
+[OldRazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="あなたはかみそりの刃を手に入れました"
+; EN: ItemName="Razor Blades"
+ItemName="剃刀の刃"
+
+[OldSludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="あなたは25キロのタリジウムバイオスラッジを拾いました"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="タリジウムバイオスラッジ"
+
+[OldRocketCan]
+; EN: PickupMessage="You picked up 12 Eightballs"
+PickupMessage="あなたは12個のエイトボールを拾いました"
+; EN: ItemName="Eightballs"
+ItemName="エイトボール"
+
+[OldClip]
+; EN: PickupMessage="You picked up a Clip"
+PickupMessage="あなたはクリップを手に入れました"
+; EN: ItemName="Clip"
+ItemName="クリップ"
+
+[OldRifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="あなたはライフル弾を手に入れました"
+; EN: ItemName="Rifle Round"
+ItemName="ライフル弾"
+
+[OldFlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="あなたは高射砲弾を手に入れました"
+; EN: ItemName="Flak Shell"
+ItemName="フラックシェル"

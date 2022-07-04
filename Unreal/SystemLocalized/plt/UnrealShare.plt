@@ -59,7 +59,7 @@ Object=(Name=Unreali.JMale6,Class=Class,MetaClass=Engine.Texture,Description="Ma
 Object=(Name=Unreali.JMale7,Class=Class,MetaClass=Engine.Texture,Description="Male1;Mężczyzna M1-6")
 ; EN: Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Male7")
 Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;Mężczyzna M1-7")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;Unreal")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;UnrealShare.logo2;Unreal")
 ; EN: Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Ruch,Idź do Przodu")
 ; EN: Object=(Name="MoveBackward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Backward")
@@ -1124,10 +1124,10 @@ HelpMessage[17]="Użyj tej opcji, aby wstępnie przygotować zawartość mapy, t
 MenuList[18]="Filtrowanie Trójliniowe"
 ; EN: HelpMessage[18]="Use this option to active/deactivate trilinear filtering."
 HelpMessage[18]="Użyj tej opcji, aby włączyć / wyłączyć filtrowanie trójliniowe."
-; EN: MenuList[19]="Skybox Fogging"
-MenuList[19]="Mgła na niebie"
-; EN: HelpMessage[19]="Level of detail for fogging applied onto sky."
-HelpMessage[19]="Poziom szczegółowości zamglenia zastosowanego na niebie."
+; EN: MenuList[19]="Sky Fogging"
+MenuList[19]="Zamglenie Nieba"
+; EN: HelpMessage[19]="Changes how volumetric fog is being rendered on skybox."
+HelpMessage[19]="Zmienia sposób renderowania wolumetrycznej mgły na skyboxie."
 ; EN: SkyFogDetail[0]="High Detail"
 SkyFogDetail[0]="Dużo szczegółów"
 ; EN: SkyFogDetail[1]="Low Detail"
@@ -1136,8 +1136,8 @@ SkyFogDetail[1]="Mało szczegółów"
 SkyFogDetail[2]="Wyłączone"
 ; EN: MenuList[20]="HUD Scale"
 MenuList[20]="Skala HUD"
-; EN: HelpMessage[20]="The scaling of user HUD."
-HelpMessage[20]="Skalowanie HUD użytkownika."
+; EN: HelpMessage[20]="Specifies the scaling level of the in-game HUD."
+HelpMessage[20]="Określa poziom skalowania interfejsu w grze."
 
 [Translator]
 ; EN: NewMessage="Universal Translator"

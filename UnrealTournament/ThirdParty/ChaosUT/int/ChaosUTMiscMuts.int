@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=ChaosUTMiscMuts.SwordMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Sword Melee,Everyone's melee weapon is a Chaos:UT Bastard Sword.")
+Object=(Name=ChaosUTMiscMuts.grappleonly,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Grapple Only,All players will have the Chaos:UT Grappling Hook in their inventory.")
+Object=(Name=ChaosUTMiscMuts.NoHealth,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - No Health,All health items (Vials, Big Kegs, Packs) are removed.")
+Object=(Name=ChaosUTMiscMuts.ChaosUTMutatorArena,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Arena,All weapons and ammo are replaced with the ones that are selected in the Chaos:UT Config Setup under Arena Mutator Selection.")

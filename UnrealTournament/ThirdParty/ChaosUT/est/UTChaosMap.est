@@ -1,0 +1,26 @@
+[c_Flashlight]
+; EN: ExpireMessage="Light batteries are DEAD."
+ExpireMessage="Las baterías de la Linterna están AGOTADAS."
+; EN: PickupMessage="You picked up a Light"
+PickupMessage="Has recogido una Linterna"
+
+[c_jumpboots]
+; EN: ExpireMessage="The SUPER Jump Boots have drained."
+ExpireMessage="Las SUPER Botas de Salto se han agotado."
+; EN: PickupMessage="You got the SUPER Jump boots."
+PickupMessage="Has recogido las SUPER Botas de Salto."
+; EN: ItemName="SUPER Jump Boots"
+ItemName="SUPER Botas de Salto"
+
+[c_armorshard]
+; EN: PickupMessage="You got the Armor Shard."
+PickupMessage="Has conseguido un Trozo de Armadura."
+; EN: ItemName="Armor Shard"
+ItemName="Trozo de Armadura"
+
+[c_megahealth]
+; EN: PickupMessage="You picked up the Mega Health +"
+PickupMessage="Has recogido el Megabotiquín de Salud +"
+; EN: ItemName="Chaos Health Pack"
+ItemName="Megabotiquín de Salud de Chaos"
+

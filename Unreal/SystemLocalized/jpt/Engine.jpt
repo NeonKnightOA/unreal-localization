@@ -1,0 +1,339 @@
+﻿[Public]
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Decals",Parent="Advanced Options")
+; Advanced
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Networking
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+Preferences=(Caption="Map Lists",Parent="Networking")
+; Decals
+Preferences=(Caption="Blood",Parent="Decals")
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
+; Blood
+Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
+
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="クイックセービング"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="ゲームは一時停止できません"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="今から見ています "
+; EN: OwnCamera="own camera"
+OwnCamera="自分のカメラ"
+; EN: FailedView="Failed to change view."
+FailedView="ビューの変更に失敗しました。"
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="グローバルログゲーム中に名前を変更することはできません。"
+
+[Pawn]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+
+[Inventory]
+; EN: PickupMessage="Snagged an item"
+PickupMessage="アイテムを引っ掛けた"
+; EN: ItemArticle="a"
+ItemArticle="NS"
+; EN: M_Activated=" activated."
+M_Activated=" 起動しました。"
+; EN: M_Selected=" selected."
+M_Selected=" 選択されました。"
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" 非アクティブ化。"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="無題"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" 弾薬はありません。"
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="％oは％kの％wによって殺されました。"
+; EN: PickupMessage="You got a weapon"
+PickupMessage="あなたは武器を手に入れました"
+; EN: ItemName="Weapon"
+ItemName="武器"
+; EN: FemDeathMessage="%o was killed by %k's %w."
+FemDeathMessage="％oは％kの％wによって殺されました。"
+; EN: FemKillMessage="%o was killed by %k's %w."
+FemKillMessage="％oは％kの％wによって殺されました。"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="弾薬を手に入れました"
+; EN: ItemName="Ammo"
+ItemName="弾薬"
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="あと％iだけ..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="完了しました！"
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName="観客"
+
+[DamageType]
+; EN: Name="killed"
+Name="殺された"
+; EN: AltName="killed"
+AltName="殺された"
+
+[Progress]
+; EN: CancelledConnect="Cancelled Connect Attempt"
+CancelledConnect="接続の試行をキャンセルしました"
+; EN: RunningNet="%ls: %ls (%i players)"
+RunningNet="％ls：％ls（％iプレーヤー）"
+; EN: NetReceiving="Receiving %ls: %i/%i"
+NetReceiving="「％ls」の受信：％i /％i"
+; EN: NetReceiveOk="Successfully received %ls"
+NetReceiveOk="「％ls」を正常に受信しました"
+; EN: NetSend="Sending %ls"
+NetSend="「％ls」を送信する"
+; EN: NetSending="Sending %ls: %i/%i"
+NetSending=""％ls"の送信：％i /％i"
+; EN: Connecting="Connecting..."
+Connecting="接続中..."
+; EN: Listening="Listening for clients..."
+Listening="クライアントの話を聞いています..."
+; EN: Loading="Loading"
+Loading="読み込み中"
+; EN: Saving="Saving"
+Saving="保存"
+; EN: Paused="Paused by %ls"
+Paused="％lsによって一時停止"
+; EN: ReceiveFile="Receiving %ls (F10 Cancels)"
+ReceiveFile="「％ls」を受信して​​います（F10キャンセル）"
+; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
+ReceiveOptionalFile="オプションファイル "％ls"を受信して​​います（F10キーを押してスキップします）"
+; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
+ReceiveSize="サイズ％iK、完了％3.1f %% =％iK、％i残りのパッケージ"
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="接続（F10キャンセル）："
+; EN: ConnectingURL="unreal://%ls/%ls"
+ConnectingURL="unreal：//％ls /％ls"
+
+[WarpZoneInfo]
+OtherSideURL=""
+
+[Pickup]
+ExpireMessage=""
+
+[SpecialEvent]
+DamageString=""
+
+[ServerCommandlet]
+; EN: HelpCmd=server
+HelpCmd=サーバ
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Network game server."
+HelpOneLiner="ネットワークゲームサーバー。"
+; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpUsage="サーバーmap.unr [？game = gametype] [-option ...] [parm = value] .. .."
+; EN: HelpParm[0]="Log"
+HelpParm[0]="ログ"
+; EN: HelpDesc[0]="Specify the log file to generate."
+HelpDesc[0]="生成するログファイルを指定します。"
+HelpParm[1]="AllAdmin"
+; EN: HelpDesc[1]="Give all players admin privileges."
+HelpDesc[1]="すべてのプレーヤーに管理者権限を付与します。"
+
+[Console]
+; EN: LoadingMessage="LOADING"
+LoadingMessage="読み込み中"
+; EN: SavingMessage="SAVING"
+SavingMessage="節約"
+; EN: ConnectingMessage="CONNECTING"
+ConnectingMessage="接続する"
+; EN: PausedMessage="PAUSED"
+PausedMessage="一時停止"
+; EN: PrecachingMessage="PRECACHING"
+PrecachingMessage="説教"
+
+[Menu]
+MenuList=" "
+HelpMessage=" "
+; EN: HelpMessage[1]="This menu has not yet been implemented."
+HelpMessage[1]="このメニューはまだ実装されていません。"
+; EN: LeftString="Left"
+LeftString="左"
+; EN: RightString="Right"
+RightString="右"
+; EN: CenterString="Center"
+CenterString="中心"
+; EN: EnabledString="Enabled"
+EnabledString="有効"
+; EN: DisabledString="Disabled"
+DisabledString="無効"
+; EN: YesString="Yes"
+YesString="はい"
+; EN: NoString="No"
+NoString="番号"
+; EN: OnString="On"
+OnString="オン"
+; EN: OffString="Off"
+OffString="オフ"
+
+[GameInfo]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="レベルの切り替え"
+; EN: DefaultPlayerName="Player"
+DefaultPlayerName="プレーヤー"
+; EN: LeftMessage=" left the game."
+LeftMessage=" ゲームをやめました。"
+; EN: FailedSpawnMessage="Failed to spawn player actor"
+FailedSpawnMessage="プレイヤーアクターのスポーンに失敗しました"
+; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
+FailedPlaceMessage="開始点が見つかりませんでした（レベルには「PlayerStart」アクターが必要な場合があります）"
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="プレーヤーのチームが見つかりませんでした"
+; EN: NameChangedMessage="Name changed to "
+NameChangedMessage="名前がに変更されました "
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" ゲームに入った。"
+; EN: GameName="Game"
+GameName="ゲーム"
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="サーバーはすでに容量に達しています。"
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="あなたの入力したパスワードに誤りがあります。"
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="このゲームに参加するには、パスワードを入力する必要があります。"
+; EN: MaleGender="his"
+MaleGender="彼の"
+; EN: FemaleGender="her"
+FemaleGender="彼女"
+; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
+MaxedOutSpectatorsMsg="最大観客数を超えました"
+
+[Errors]
+; EN: NetOpen="Error opening file"
+NetOpen="ファイルを開くときにエラーが発生しました"
+; EN: NetWrite="Error writing to file"
+NetWrite="ファイルへの書き込み中にエラーが発生しました"
+; EN: NetRefused="Server refused to send %ls"
+NetRefused="サーバーが「％ls」の送信を拒否しました"
+; EN: NetClose="Error closing file"
+NetClose="ファイルを閉じるときにエラーが発生しました"
+; EN: NetSize="File size mismatch"
+NetSize="ファイルサイズの不一致"
+; EN: NetMove="Error moving file"
+NetMove="ファイルの移動中にエラーが発生しました"
+; EN: NetInvalid="Received invalid file request"
+NetInvalid="無効なファイルリクエストを受信しました"
+; EN: NoDownload="Package %ls is not downloadable"
+NoDownload="パッケージ「％ls」はダウンロードできません"
+; EN: DownloadFailed="Downloading package %ls failed: %ls"
+DownloadFailed="パッケージ "％ls"のダウンロードに失敗しました：％ls"
+; EN: RequestDenied="Server requested file from pending level: Denied"
+RequestDenied="サーバーが保留中のレベルからファイルを要求しました：拒否されました"
+; EN: ConnectionFailed="Connection failed"
+ConnectionFailed="接続に失敗しました"
+; EN: ChAllocate="Couldn't allocate channel"
+ChAllocate="チャネルを割り当てることができませんでした"
+; EN: NetAlready="Already networking"
+NetAlready="すでにネットワーキング"
+; EN: NetListen="Listen failed: No linker context available"
+NetListen="リッスンに失敗しました：利用可能なリンカーコンテキストがありません"
+; EN: LoadEntry="Can't load Entry: %ls"
+LoadEntry="エントリを読み込めません：％ls"
+; EN: InvalidUrl="Invalid URL: %ls"
+InvalidUrl="無効なURL：％ls"
+; EN: InvalidLink="Invalid Link: %ls"
+InvalidLink="無効なリンク：％ls"
+; EN: FailedBrowse="Failed to enter %ls: %ls"
+FailedBrowse="％lsの入力に失敗しました：％ls"
+; EN: Listen="Listen failed: %ls"
+Listen="リッスンに失敗しました：％ls"
+; EN: AbortToEntry="Failed; returning to Entry"
+AbortToEntry="失敗した;エントリーに戻る"
+; EN: ServerOpen="Servers can't open network URLs"
+ServerOpen="サーバーはネットワークURLを開くことができません"
+; EN: ServerListen="Dedicated server can't listen: %ls"
+ServerListen="専用サーバーはリッスンできません：％ls"
+; EN: Pending="Pending connect to %ls failed; %ls"
+Pending="「％ls」への保留中の接続に失敗しました。 ％ls"
+; EN: LoadPlayerClass="Failed to load player class"
+LoadPlayerClass="プレーヤークラスの読み込みに失敗しました"
+; EN: ServerOutdated="Server's version is outdated"
+ServerOutdated="サーバーのバージョンが古くなっています"
+; EN: Banned="You have been banned"
+Banned="あなたは禁止されました"
+; EN: TempBanned="You have been temporarily banned"
+TempBanned="あなたは一時的に禁止されています"
+; EN: Kicked="You have been kicked"
+Kicked="あなたは蹴られました"
+
+[AdminAccessManager]
+; EN: AdminLoginText="Administrator %ls logged in"
+AdminLoginText="管理者％lsがログインしました"
+; EN: AdminLogoutText="Administrator %ls logged out"
+AdminLogoutText="管理者％lsがログアウトしました"
+; EN: CheatUsedStr="%ls used admin/cheat command: %c"
+CheatUsedStr="％lsはadmin / cheatコマンドを使用しました：％c"
+
+[Fonts]
+WhiteFont=UnrealShare.WhiteFont
+MedFont=Engine.MedFont
+LargeFont=Engine.LargeFont
+BigFont=Engine.BigFont
+SmallFont=Engine.SmallFont
+
+[General]
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
+Upgrade="このサーバーに入るには、OldUnrealsのWebサイトから入手できるUnrealの最新の無料アップデートが必要です。"
+UpgradeURL="https://www.oldunreal.com/oldunrealpatches.html"
+; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+UpgradeQuestion="Webブラウザーを起動して、今すぐアップグレードページに移動しますか？"
+; EN: Version="Version %i"
+Version="バージョン％i"
+
+[LinkerUpdateCommandlet]
+; EN: HelpCmd=linkerupdate
+HelpCmd=リンカーアップデート
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpOneLiner="ディレクトリ内のファイルのすべてのチェックサムをファイルSHALinkerCache.iniに自動的に追加します。 UnrealIntegrityanticheatによって使用されます。"
+; EN: HelpUsage="linkerupdate <filename>"
+HelpUsage="リンカーアップデート&lt;ファイル名&gt;"
+; EN: HelpParm[0]="<filename>"
+HelpParm[0]="&lt;ファイル名&gt;"
+; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
+HelpDesc[0]="事後保管のチェックサムを計算するためのファイル。"
+
+[SHAUpdateCommandlet]
+HelpCmd=shaupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpOneLiner="ディレクトリ内のファイルのすべてのSHA256チェックサムをファイルSHALinkerCache.iniに自動的に追加します。 UnrealIntegrityanticheatによって使用されます。"
+; EN: HelpUsage="shaupdate <filename>"
+HelpUsage="shaupdate &lt;ファイル名&gt;"
+; EN: HelpParm[0]="<filename>"
+HelpParm[0]="&lt;ファイル名&gt;"
+; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
+HelpDesc[0]="事後ストレージのSHA256チェックサムを計算するためのファイル。"
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="自動保存"

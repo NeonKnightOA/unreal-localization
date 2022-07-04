@@ -53,7 +53,7 @@ Object=(Name=Unreali.JMale6,Class=Class,MetaClass=Engine.Texture,Description="Ma
 Object=(Name=Unreali.JMale7,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Chlapek6")
 ; EN: Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Male7")
 Object=(Name=Unreali.JMale8,Class=Class,MetaClass=Engine.Texture,Description="Male1;M1 Chlapek7")
-Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;Unreal")
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Vortex2;UnrealShare.logo2;Unreal")
 ; EN: Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Forward")
 Object=(Name="MoveForward",Class=Class,MetaClass=Engine.Input,Description="Hnutí,Dopredu")
 ; EN: Object=(Name="MoveBackward",Class=Class,MetaClass=Engine.Input,Description="Movement,Move Backward")
@@ -306,6 +306,7 @@ FemDeathMessage[29]="rozdrcenej"
 DeathMessage[30]="rozmlacenej"
 FemDeathMessage[30]="rozmlacenej"
 ; EN: DeathMessage[31]="trounced"
+DeathMessage[31]="porazeny"
 FemDeathMessage[31]="porazeny"
 ; EN: DeathModifier[0]="thoroughly "
 DeathModifier[0]="skrz naskrz "
@@ -381,6 +382,10 @@ TeamName[1]="Modry tym: "
 TeamName[2]="Zeleny tym: "
 ; EN: TeamName[3]="Gold Team: "
 TeamName[3]="Zlaty tym: "
+; EN: DemoPlaybackProg="Demo: %f %"
+DemoPlaybackProg="Demo: %f %"
+; EN: DemoRecInfo="[REC]"
+DemoRecInfo="[REC]"
 
 [UnrealGameOptionsMenu]
 ; EN: AdvancedString="Advanced Options"
@@ -472,11 +477,12 @@ MenuTitle="Nastaveni umele inteligence"
 [DispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
-FemDeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Sebral jsi Energetickou Pistoli"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Energeticka Pistole"
+FemDeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
+FemKillMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
 
 [UnrealVideoMenu]
 ; EN: LowText="Low"
@@ -567,6 +573,20 @@ MenuList[17]="Předběžný obsah"
 MenuList[18]="Trilineární filtrování"
 ; EN: MenuTitle="AUDIO/VIDEO"
 MenuTitle="AUDIO/VIDEO"
+; EN: MenuList[19]="Sky Fogging"
+MenuList[19]="Zamlžení Oblohy"
+; EN: HelpMessage[19]="Changes how volumetric fog is being rendered on skybox."
+HelpMessage[19]="Změní způsob vykreslování objemové mlhy na skyboxu."
+; EN: SkyFogDetail[0]="High Detail"
+SkyFogDetail[0]="Vysoký detail"
+; EN: SkyFogDetail[1]="Low Detail"
+SkyFogDetail[1]="Nízký detail"
+; EN: SkyFogDetail[2]="Off"
+SkyFogDetail[2]="Vypnuto"
+; EN: MenuList[20]="HUD Scale"
+MenuList[20]="škála HUD"
+; EN: HelpMessage[20]="Specifies the scaling level of the in-game HUD."
+HelpMessage[20]="Určuje úroveň škálování HUD ve hře."
 
 [UnrealFavoritesMenu]
 ; EN: EditList[0]="Name for Server:"
@@ -799,8 +819,8 @@ HelpMessage[16]="Pouzij levou /pravou sipku pro zmenu nastaveni panelu HUD (info
 HelpMessage[17]="Nastaveni zda se ma obraz pri pohybu pohupovat."
 ; EN: HelpMessage[18]="Set your optimal networking speed. This has an impact on internet gameplay."
 HelpMessage[18]="Nastavte optimální rychlost sítě. To má dopad na internetové hraní."
-; EN: HelpMessage[19]="Open advanced preferences configuration menu."
-HelpMessage[19]="Otevre nabidku pro dalsi upresnujici nastaveni."
+; EN: HelpMessage[19]="This option determines the look of console and menus. Press Enter to restart the game and apply the changes."
+HelpMessage[19]="Tato možnost určuje vzhled konzoly a nabídek. Stisknutím klávesy Enter restartujte hru a použijte změny."
 ; EN: MenuList[1]="Auto Aim"
 MenuList[1]="Automaticky zamerovat"
 ; EN: MenuList[2]="Joystick Enabled"
@@ -837,10 +857,14 @@ MenuList[16]="Nastaveni HUD"
 MenuList[17]="Houpani pri chuzi"
 ; EN: MenuList[18]="Net Speed"
 MenuList[18]="Čistá rychlost"
-; EN: MenuList[19]="Advanced Options"
-MenuList[19]="Pokrocila Nastaveni"
+; EN: MenuList[19]="Console"
+MenuList[19]="Konzola"
 ; EN: MenuTitle="OPTIONS MENU"
 MenuTitle="NABIDKA NASTAVENI"
+; EN: MenuList[20]="Advanced Options"
+MenuList[20]="Pokročilé možnosti"
+; EN: HelpMessage[20]="Open advanced preferences configuration menu."
+HelpMessage[20]="Otevřít nabídku konfigurace rozšířených předvoleb."
 
 [TeamGame]
 ; EN: ClassCaption="Team Play"
@@ -861,11 +885,12 @@ GameName="Tymova hra"
 [ASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
-FemDeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Sebral jsi ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
+FemDeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
+FemKillMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
 
 [UnrealWeaponMenu]
 ; EN: MenuTitle="PRIORITIES"
@@ -902,11 +927,12 @@ MenuTitle="BOTI"
 [Eightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o byl roztrhan na kusy %kovym %wem."
-FemDeathMessage="%o byl roztrhan na kusy %kovym %wem."
 ; EN: PickupMessage="You got the Eightball"
 PickupMessage="Sebral jsi Sestihlavnovy Raketomet"
 ; EN: ItemName="Eightball"
 ItemName="Sestihlavnovy Raketomet"
+FemDeathMessage="%o byl roztrhan na kusy %kovym %wem."
+FemKillMessage="%o byl roztrhan na kusy %kovym %wem."
 
 [UnrealKeyboardMenu]
 ; EN: OrString=" or "
@@ -1161,11 +1187,12 @@ MenuTitle="VYBER HRU"
 [AutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o to koupil z %kovy %w."
-FemDeathMessage="%o to koupil z %kovy %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Sebral jsi Poloautomatickou Pistoli"
 ; EN: ItemName="Automag"
 ItemName="Poloautomaticka Pistole"
+FemDeathMessage="%o to koupil z %kovy %w."
+FemKillMessage="%o to koupil z %kovy %w."
 
 [UnrealHelpMenu]
 ; EN: HelpMessage[1]="Open the troubleshooting document."
@@ -1306,6 +1333,14 @@ MenuList[5]="EXTRÉMNÍ"
 MenuList[6]="NOČNÍ MŮRA"
 ; EN: MenuList[7]="ULTRA-UNREAL"
 MenuList[7]="ULTRA-UNREAL"
+; EN: MenuList[8]="Balance Mode: "
+MenuList[8]="Režim rovnováhy: "
+; EN: HelpMessage[8]="Should gameplay contain some minor bugfixes or remain classic?"
+HelpMessage[8]="Měla by hra obsahovat nějaké drobné opravy chyb nebo by měla zůstat klasická?"
+; EN: ModeString[0]="Enhanced"
+ModeString[0]="Vylepšeno"
+; EN: ModeString[1]="Classic"
+ModeString[1]="Klasický"
 
 [TazerProj]
 ; EN: ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
@@ -1323,11 +1358,12 @@ MenuTitle="ULOZIT HRU"
 [Stinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
 DeathMessage="%o byl proderaven %kovym %wem."
-FemDeathMessage="%o byl proderaven %kovym %wem."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Sebral jsi Stinger"
 ; EN: ItemName="Stinger"
 ItemName="Stinger"
+FemDeathMessage="%o byl proderaven %kovym %wem."
+FemKillMessage="%o byl proderaven %kovym %wem."
 
 [RocketCan]
 ; EN: PickupMessage="You picked up 12 Eightballs"
@@ -1502,3 +1538,106 @@ MenuList[0]="Návrat"
 ; EN: MenuTitle="MUTATORS"
 MenuTitle="MUTATORS"
 
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="Chlapek 3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="Zenska 1"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Bird"
+MenuName="Bird"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Biterfish"
+MenuName="Biterfish"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Brute"
+MenuName="Brute"
+
+[CaveManta]
+; EN: NameArticle=" the "
+NameArticle=" the "
+; EN: MenuName="Cave Manta"
+MenuName="Cave Manta"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Fly"
+MenuName="Fly"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Lesser Brute"
+MenuName="Lesser Brute"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Manta"
+MenuName="Manta"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Priest"
+MenuName="Nali Priest"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Nali Rabbit"
+MenuName="Nali Rabbit"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarj Scout"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj Warrior"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Slith"
+MenuName="Slith"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Tentacle"
+MenuName="Tentacle"

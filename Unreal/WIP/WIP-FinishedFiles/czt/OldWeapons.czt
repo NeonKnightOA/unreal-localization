@@ -15,74 +15,82 @@ Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
 [OldDispersionPistol]
 ; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
 DeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
-FemDeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
 ; EN: PickupMessage="You got the Dispersion Pistol"
 PickupMessage="Sebral jsi Energetickou Pistoli"
 ; EN: ItemName="Dispersion Pistol"
 ItemName="Energeticka Pistole"
+FemDeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
+FemKillMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
 
 [OldASMD]
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
-FemDeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
 ; EN: PickupMessage="You got the ASMD"
 PickupMessage="Sebral jsi ASMD"
 ; EN: ItemName="ASMD"
 ItemName="ASMD"
+FemDeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
+FemKillMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
 
 [OldEightball]
 ; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
 DeathMessage="%o byl roztrhan na kusy %kovym %wem."
-FemDeathMessage="%o byl roztrhan na kusy %kovym %wem."
 ; EN: PickupMessage="You got the Eightball"
 PickupMessage="Sebral jsi Sestihlavnovy Raketomet"
 ; EN: ItemName="Eightball"
 ItemName="Sestihlavnovy Raketomet"
+FemDeathMessage="%o byl roztrhan na kusy %kovym %wem."
+FemKillMessage="%o byl roztrhan na kusy %kovym %wem."
 
 [OldRifle]
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k prohnal %oovi hlavou kulku."
-FemDeathMessage="%k prohnal %oovi hlavou kulku."
 ; EN: PickupMessage="You got the Rifle"
 PickupMessage="Sebral jsi Ostrelovacku"
 ; EN: ItemName="Sniper Rifle"
 ItemName="Ostrelovacka"
+FemDeathMessage="%k prohnal %oovi hlavou kulku."
+FemKillMessage="%k prohnal %oovi hlavou kulku."
 
 [OldFlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o byl roztrhan na kousky od %kova %wu."
-FemDeathMessage="%o byl roztrhan na kousky od %kova %wu."
 ; EN: PickupMessage="You got the Flak Cannon"
 PickupMessage="Sebral jsi Flak Kanon"
 ; EN: ItemName="Flak Cannon"
 ItemName="Flak Kanon"
+FemDeathMessage="%o byl roztrhan na kousky od %kova %wu."
+FemKillMessage="%o byl roztrhan na kousky od %kova %wu."
 
 [OldAutoMag]
 ; EN: DeathMessage="%o got gatted by %k's %w."
 DeathMessage="%o to koupil z %kovy %w."
-FemDeathMessage="%o to koupil z %kovy %w."
 ; EN: PickupMessage="You got the Automag"
 PickupMessage="Sebral jsi Poloautomatickou Pistoli"
 ; EN: ItemName="Automag"
 ItemName="Poloautomaticka Pistole"
+FemDeathMessage="%o to koupil z %kovy %w."
+FemKillMessage="%o to koupil z %kovy %w."
 
 [OldMinigun]
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
-FemDeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
 ; EN: PickupMessage="You got the Minigun"
 PickupMessage="Sebral jsi Rotacak"
 ; EN: ItemName="Minigun"
 ItemName="Rotacak"
+FemDeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
+FemKillMessage="%kuv %w rozstrilel %oa na maly kousky masa."
 
 [OldGESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o byl rozleptan %kovym slizem."
-FemDeathMessage="%o byl rozleptan %kovym slizem."
 ; EN: PickupMessage="You got the GES BioRifle"
 PickupMessage="Sebral jsi GES Slizomet"
 ; EN: ItemName="GES BioRifle"
 ItemName="GES Slizomet"
+FemDeathMessage="%o byl rozleptan %kovym slizem."
+FemKillMessage="%o byl rozleptan %kovym slizem."
 
 [OldAmplifier]
 ; EN: ExpireMessage="Energy Amplifier is out of power."
@@ -95,11 +103,12 @@ ItemName="Energeticky Nasobic"
 [OldStinger]
 ; EN: DeathMessage="%o was perforated by %k's %w."
 DeathMessage="%o byl proderaven %kovym %wem."
-FemDeathMessage="%o byl proderaven %kovym %wem."
 ; EN: PickupMessage="You picked up the Stinger"
 PickupMessage="Sebral jsi Stinger"
 ; EN: ItemName="Stinger"
 ItemName="Stinger"
+FemDeathMessage="%o byl proderaven %kovym %wem."
+FemKillMessage="%o byl proderaven %kovym %wem."
 
 [OldShellBox]
 ; EN: PickupMessage="You picked up 50 bullets."
@@ -128,11 +137,12 @@ ItemName="Tristivych Granatu"
 [OldRazorjack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
 DeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
-FemDeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Sebral jsi Rozparovac"
 ; EN: ItemName="RazorJack"
 ItemName="Rozparovac"
+FemDeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
+FemKillMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
 
 [OldDefaultAmmo]
 ; EN: PickupMessage="You picked up some ammo"

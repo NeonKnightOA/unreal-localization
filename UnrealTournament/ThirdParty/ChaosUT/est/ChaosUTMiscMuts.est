@@ -1,0 +1,9 @@
+[Public]
+; EN: Object=(Name=ChaosUTMiscMuts.SwordMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Sword Melee,Everyone's melee weapon is a Chaos:UT Bastard Sword.")
+Object=(Name=ChaosUTMiscMuts.SwordMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Arma Cuerpo-a-Cuerpo: Espada,Todos tienen como arma cuerpo-a-cuerpo una Espada Bastarda de Chaos.");
+; EN: Object=(Name=ChaosUTMiscMuts.grappleonly,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Grapple Only,All players will have the Chaos:UT Grappling Hook in their inventory.")
+Object=(Name=ChaosUTMiscMuts.grappleonly,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Solo Lanzaganchos, Todos los jugadores tendrán un Lanzaganchos de Chaos:UT en su inventorio.");
+; EN: Object=(Name=ChaosUTMiscMuts.NoHealth,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - No Health,All health items (Vials, Big Kegs, Packs) are removed.")
+Object=(Name=ChaosUTMiscMuts.NoHealth,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Sin Salud,Elimina todos los items de salud (Frasquitos, Mochilas, Paquetes) de la partida.");
+; EN: Object=(Name=ChaosUTMiscMuts.ChaosUTMutatorArena,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Arena,All weapons and ammo are replaced with the ones that are selected in the ChaosUT Config Setup under Arena Mutator Selection.")
+Object=(Name=ChaosUTMiscMuts.ChaosUTMutatorArena,Class=Class,MetaClass=Engine.Mutator,Description="Chaos:UT - Arena,Todas las armas y sus paquetes de municiones serán reemplazados con los seleccionadls en la configuración de Chaos:UT, bajo la sección de Mutador Arena.");

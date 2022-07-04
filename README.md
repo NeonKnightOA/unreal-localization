@@ -1,9 +1,9 @@
 # OldUnreal Localization Project Repository
 
 ## About
-This repository holds text localizations for _Unreal_ (for the OldUnreal patch for ver. 227), _Unreal Tournament_ (for the OldUnreal patch ver. 469) and _Unreal Tournament 2004_ (for the 3369 patch with both Bonus Packs as well as the XP Bonus Maps). Currently the localization project manages 15 languages: English (.int), German (.det), French (.frt), Spanish (.est), Italian (.itt), Russian (.rut), Polish (.plt), Portuguese (.ptt), Hungarian (.hut), Czech (.czt), Swedish (.set), Catalan (.ctt), Dutch (.nlt), Norwegian (.not) and Japanese (.jpt).
+This repository holds text localizations for _Unreal_ (for the OldUnreal patch for ver. 227), _Unreal Tournament_ (for the OldUnreal patch ver. 469), _Unreal Tournament 2003_ (for the v2225 patch as well as the Epic and DE Bonus Packs), _Unreal Tournament 2004_ (for the 3369 patch with the ECE and Mega Bonus Packs as well as the XP Bonus Maps). Currently the localization project manages 15 languages: English (.int), German (.det), French (.frt), Spanish (.est), Italian (.itt), Russian (.rut), Polish (.plt), Portuguese (.ptt), Hungarian (.hut), Czech (.czt), Swedish (.set), Catalan (.ctt), Dutch (.nlt), Norwegian (.not) and Japanese (.jpt). Additionally, UT2004 handles Korean (.kot), Simplified Chinese (.smt) and Traditional Chinese (.tmt) as well.
 
-**NOT ALL LANGUAGES ARE COMPLETE**, currently that honor befells to English (obviously), German, French, Spanish, Italian, Russian, Polish (Unreal only), Portuguese (Unreal only), Catalan and Dutch. The rest of the languages, on the other hand, vary, from requiring a lot of work or be created from scratch, to just requiring the new strings and UT strings to be translated. This is a long-time project, so expect incompletions. Help is welcome in any regard.
+**NOT ALL LANGUAGES ARE COMPLETE**, currently that honor befells to English (obviously), German, French, Spanish, Italian, Russian, Polish (Unreal only), Portuguese (Unreal only), Catalan and Dutch. The rest of the languages, on the other hand, vary, from requiring a lot of work or be created from scratch, to just requiring the new strings and UT strings to be translated. This is a long-time project, so expect incomplete stuff. Help is welcome in any regard.
 
 ## Cool! So, how do I help?
 
@@ -18,43 +18,43 @@ New translators need to read [this](https://www.oldunreal.com/wiki/index.php?tit
 
 That's the cleanest way to create your series of changes (it's NOT a good idea to edit directly in Master). It's recommended that every branch contains a few changes, otherwise it would be a pain to merge with the current changes.
 
-## But what if I don't want to work in Github?
+## But what if I don't want to work in GitHub?
 
-We've got you covered as well. Open an account in [the OldUnreal Wiki](https://www.oldunreal.com/wiki/). The project's main page is [here](https://www.oldunreal.com/wiki/index.php?title=Oldunreal_Localization_Project). If your account in the Wiki requires approval, tag me/write me a PM so I can approve it. If you cannot edit in the Wiki, check if your e-mail is validated in the Preferences menu once you've logged in.
+Sorry. After all the work we did, we're using GitHub exclusively. We used to work in the Wiki, but the bulk of the activity took place here, and, honestly, keeping the localization files in the repo is easier said and done here than in the Wiki, where we don't have a text exporting feature.
 
-Each language has a portal which comprises the general guidelines. All languages support both games and can easily support other games as well as other translations. [Here's the Spanish language portal](https://www.oldunreal.com/wiki/index.php?title=Spanish_.est), for example. We also have [a general guidelines page](https://www.oldunreal.com/wiki/index.php?title=Language_Guidelines), with tips on keeping consistency across the whole translation. Each of the languages also has a Guidelines page, a set of translated strings kept as a guide for consistency. These usually comprise stuff like the Public sections, common strings between both games, locales, weapon ammo and item names, difficulty levels, etc. The guidelines are NOT set in stone, and can be modified at anytime, provided a consensus is reached. [Here's the Spanish language example](https://www.oldunreal.com/wiki/index.php?title=Spanish_.est/Language_Guidelines) And finally, we have the individual pages/files themselves. The idea of the whole format is that we just copy and paste into a blank file, and we have the translation ready to go. Some pages have multiple sections because they are used in multiple games, they're separated into their Public headers, the general translation for all games, and then the separate lines per game.
+## Supported third-party content
 
-## Credits
+This list will be updated as more mods are added.
+
+* _**Unreal:**_
+** _Redeem Your Space_ (English only)
+* _**Unreal Tournament:**_
+** _Chaos: UT_ (English, Spanish, **Template**)
+** _Monster Hunt_ (English, German, Spanish, **Template**)
+** _XVehicles_ (English, Spanish, **Template**)
+
+## _Unreal_ and _Unreal Tournament_ credits
+
+### General
 * **Epic Games/Digital Extremes/Legend Entertainment:** Original English/German/French/Spanish/Italian localizations
-* **Neon_Knight:** Project coordination, Spanish maintenance.
+* **Neon_Knight:** Project coordination.
 * **Buggie:** Localization templates for all 15 languages.
-* **Smirftsch:** German, additional contributions.
-* **eGo:** German, additional contributions.
-* **Ividyon:** German, additional contributions.
-* **Sly.:** German, additional contributions.
-* **Hellkeeper:** French, fixes and maintenance.
-* **Rackover/Louvenarde:** French, fixes and maintenance.
-* **rarsonic:** Spanish, additional contributions.
-* **UBerserker:** Italian, additional contributions.
-* **TaglesMalsto:** Italian, additional contributions.
-* **u.HighPriest:** Russian, localization author.
-* **Skaarj ZR:** Russian, additional contributions.
-* **Reborn:** Russian, additional contributions.
-* **Delacroix:** Polish, additional contributions.
-* **yrex.:** Polish, additional contributions.
-* **Nahand:** Portuguese, additional contributions.
-* **Naruto_9:** Portuguese, additional contributions.
-* **BIr4:** Portuguese, reviewing and additional contributions.
-* **Relaks:** Hungarian, localization author.
-* **MakeMeUnreal:** Hungarian, additional contributions.
-* **Gabor Kovacs:** Hungarian, additional contributions.
-* **tomcat:** Czech, localization author.
-* **Nikola:** Czech, additional contributions.
-* **ElectricIce:** Swedish, additional contributions.
-* **bennytrt:** Dutch, additional contributions.
-* **Rubie:** Dutch, revision and additional contributions.
-* **Excalidar:** Norwegian, additional contributions.
-* **Vapor Mermaid:** Japanese, localization contributor.
+
+### Language-specific
+* **_German:_** **Smirftsch, Jan "eGo" Urbansky, ividyon** and **Sly.** (review and contributions)
+* **_French:_** **Hellkeeper** (review and contributions), **Rackover/Louvenarde** (additional contributions)
+* **_Spanish:_** **Neon_Knight** (review and maintenance), **rarsonic** (additional contributions)
+* **_Italian:_** **Alby1987** (review and contributions), **UBerserker** and **TaglesMalsto** (additional contributions)
+* **_Russian:_** **u.HighPriest** (localization author), **Skaarj ZR** and **Reborn** (additional contributions)
+* **_Polish:_** **Victor Delacroix** (review and contributions), **yrex.** (additional contributions)
+* **_Portuguese:_** **Nahand** (localization author), **BIr4** (review), **Naruto_9** (additional contributions)
+* **_Hungarian:_** **Relaks** (localization author) **Victor Delacroix, MakeMeUnreal** and **Gabor Kovacs** (additional contributions)
+* **_Czech:_** **tomcat** (localization author), **Victor Delacroix and Nicola** (additional contributions)
+* **_Swedish:_** **ElectricIce** (additional contributions)
+* **_Catalan:_** **rarsonic** (additional contributions)
+* **_Dutch:_** **Rubie** (review and contributions), **bennytrt** (additional contributions)
+* **_Norwegian:_** **Excalidar** (additional contributions)
+* **_Japanese:_** **Vapor Mermaid** (localization retriever)
 
 ### UT2004 Localization credits
 * **Epic Games/Digital Extremes/Scion Studios/Streamline Studios:** Original English/German/French/Spanish/Italian/Korean localizations
