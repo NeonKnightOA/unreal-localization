@@ -1,0 +1,125 @@
+[Public]
+Object=(Name=Chaosgames.ChaosKOTH,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamKOTH,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosDeathMatchPlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamGamePlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosCTFGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosAssault,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosDomination,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosLastManStanding,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosSwordArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamSwordArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.CUTBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
+
+[ChaosTeamKOTH]
+; EN: StartUpTeamMessage="You are on"
+StartUpTeamMessage="Estás en el equipo"
+; EN: TeamChangeMessage="Use Options->Player Setup to change teams."
+TeamChangeMessage="Cambia de equipo desde Opciones->Configuración del Jugador."
+; EN: TeamColor[0]="Red"
+TeamColor[0]="Rojo"
+; EN: TeamColor[1]="Blue"
+TeamColor[1]="Azul"
+; EN: TeamColor[2]="Green"
+TeamColor[2]="Verde"
+; EN: TeamColor[3]="Gold"
+TeamColor[3]="Dorado"
+; EN: StartupTeamTralier="."
+StartupTeamTralier="."
+; EN: StartUpMessage="Work with your teammates to control the hill and protect it against the other teams."
+StartUpMessage="Trabaja junto a tus compañeros para controlar la cima y protegerla de los demás equipos."
+; EN: GameName="CUT:Team King Of The Hill"
+GameName="CUT: Rey de la Montaña por Equipos"
+
+[ChaosKOTH]
+; EN: SingleWaitingMessage="Press Fire to start"
+SingleWaitingMessage="Presiona Disparo para comenzar"
+; EN: gamegoal="points wins the match."
+gamegoal="puntos para ganar la partida."
+; EN: GameName="CUT:King Of The Hill"
+GameName="CUT: Rey de la Montaña"
+
+[ChaosDeathMatchPlus]
+; EN: GameName="CUT: DeathMatch"
+GameName="CUT: Partida a Muerte"
+
+[ChaosKOTHScoreBoard]
+; EN: FragsString="Time On Hill"
+FragsString="Tiempo en la Cima"
+; EN: FPHString="HTPH"
+FPHString="TCPH"
+
+[ChaosLastManStanding]
+; EN: gamegoal="Lives only!"
+gamegoal="Vidas para cada uno!"
+; EN: GameName="CUT:Last Man Standing"
+GameName="CUT: Último Hombre en Pie"
+
+[ChaosTeamKOTHRulesCWindow]
+; EN: TeamScoreText="Team Hill Time"
+TeamScoreText="T. de Equipo en Cima"
+; EN: TeamScoreHelp="This is the amout of Hill Time a team needs to get in order to win."
+TeamScoreHelp="Cantidad de Tiempo en la Cima que un equipo necesita para ganar la partida."
+; EN: MaxTeamsText="Max Teams"
+MaxTeamsText="Máx. Equipos"
+; EN: MaxTeamsHelp="The maximum number of different teams players are allowed to join, for this game."
+MaxTeamsHelp="Número máximo de diferentes equipos a los cuales los jugadores tendrán permitido unirse para esta partida."
+; EN: BalancePlayersText="Force Team Balance"
+BalancePlayersText="Balancear Equipos"
+; EN: BalancePlayersHelp="If checked, this option forces players joining the game to be placed on the team which best keeps teams balanced."
+BalancePlayersHelp="Si se activa, fuerza a los jugadores que se unan a la partida a unirse a los equipos con menos miembros para mantener los equipos balanceados."
+; EN: FFText="Friendly Fire:"
+FFText="Fuego Amigo:"
+; EN: FFHelp="Slide to adjust the amount of damage friendly fire imparts to other teammates."
+FFHelp="Ajusta la cantidad de daño que el fuego amigo inflige a los demás compañeros de equipo."
+
+[C_AssaultHUD]
+; EN: IdentifyAssault=" !! Assault Target !! "
+IdentifyAssault=" !! Objetivo de Asalto !! "
+
+[ChaosTeamGamePlus]
+; EN: GameName="CUT:Tournament Team Game"
+GameName="CUT: Partida por Equipos del Torneo"
+
+[ChaosKOTHRulesCWindow]
+; EN: TourneyText="Tournament"
+TourneyText="Torneo"
+; EN: TourneyHelp="If checked, each player must indicate they are ready by clicking their fire button before the match begins."
+TourneyHelp="Si se activa, cada jugador deberá indicar que está listo presionando sus botones de Disparo antes del comienzo de la partida."
+; EN: ForceRespawnText="Force Respawn"
+ForceRespawnText="Forzar Reaparición"
+; EN: ForceRespawnHelp="If checked, players will be automatically respawned when they die, without waiting for the user to press Fire."
+ForceRespawnHelp="Si se activa, los jugadores reaparecerán automáticamente tras morir, sin esperar a que el jugador presione Disparo."
+
+[ChaosTeamSwordArena]
+; EN: GameName="CUT:Team Sword Arena"
+GameName="CUT: Estadio de Espada por Equipos"
+
+[ChaosSwordArena]
+; EN: GameName="CUT:Sword Arena"
+GameName="CUT: Estadio de Espadas"
+
+[slowmomessage]
+; EN: OnHillString="Game Over - Slowmo Cam"
+OnHillString="Tiempo Cumplido - Cámara ML"
+
+[ChaosDomination]
+; EN: GameName="CUT:Domination"
+GameName="CUT: Dominación"
+
+[ChaosAssault]
+; EN: GameName="CUT:Assault"
+GameName="CUT: Asalto"
+
+[ChaosCTFGame]
+; EN: GameName="CUT:Capture The Flag"
+GameName="CUT: Capturar la Bandera"
+
+[OnHillMessage]
+; EN: OnHillString="You are on the Hill!"
+OnHillString="¡Estás en la Cima!"
+
+[OnHillMessage2]
+; EN: OnHillString="You are in Control of the Hill!"
+OnHillString="¡Estás Controlando la Cima!"
+

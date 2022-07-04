@@ -1,0 +1,86 @@
+[Public]
+Object=(Name=Chaosgames.ChaosKOTH,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamKOTH,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosDeathMatchPlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamGamePlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosCTFGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosAssault,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosDomination,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosLastManStanding,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosSwordArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamSwordArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.CUTBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
+
+[ChaosTeamKOTH]
+StartUpTeamMessage="You are on"
+TeamChangeMessage="Use Options->Player Setup to change teams."
+TeamColor[0]="Red"
+TeamColor[1]="Blue"
+TeamColor[2]="Green"
+TeamColor[3]="Gold"
+StartupTeamTralier="."
+StartUpMessage="Work with your teammates to control the hill and protect it against the other teams."
+GameName="CUT:Team King Of The Hill"
+
+[ChaosKOTH]
+SingleWaitingMessage="Press Fire to start"
+gamegoal="points wins the match."
+GameName="CUT:King Of The Hill"
+
+[ChaosDeathMatchPlus]
+GameName="CUT:DeathMatch"
+
+[ChaosKOTHScoreBoard]
+FragsString="Time On Hill"
+FPHString="HTPH"
+
+[ChaosLastManStanding]
+gamegoal="Lives only!"
+GameName="CUT:Last Man Standing"
+
+[ChaosTeamKOTHRulesCWindow]
+TeamScoreText="Team Hill Time"
+TeamScoreHelp="This is the amout of Hill Time a team needs to get in order to win."
+MaxTeamsText="Max Teams"
+MaxTeamsHelp="The maximum number of different teams players are allowed to join, for this game."
+BalancePlayersText="Force Team Balance"
+BalancePlayersHelp="If checked, this option forces players joining the game to be placed on the team which best keeps teams balanced."
+FFText="Friendly Fire:"
+FFHelp="Slide to adjust the amount of damage friendly fire imparts to other teammates."
+
+[C_AssaultHUD]
+IdentifyAssault=" !! Assault Target !! "
+
+[ChaosTeamGamePlus]
+GameName="CUT:Tournament Team Game"
+
+[ChaosKOTHRulesCWindow]
+TourneyText="Tournament"
+TourneyHelp="If checked, each player must indicate they are ready by clicking their fire button before the match begins."
+ForceRespawnText="Force Respawn"
+ForceRespawnHelp="If checked, players will be automatically respawned when they die, without waiting for the user to press Fire."
+
+[ChaosTeamSwordArena]
+GameName="CUT:Team Sword Arena"
+
+[ChaosSwordArena]
+GameName="CUT:Sword Arena"
+
+[slowmomessage]
+OnHillString="Game Over - Slowmo Cam"
+
+[ChaosDomination]
+GameName="CUT:Domination"
+
+[ChaosAssault]
+GameName="CUT:Assault"
+
+[ChaosCTFGame]
+GameName="CUT:Capture The Flag"
+
+[OnHillMessage]
+OnHillString="You are on the Hill!"
+
+[OnHillMessage2]
+OnHillString="You are in Control of the Hill!"
+
