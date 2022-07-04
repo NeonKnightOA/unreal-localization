@@ -26,12 +26,8 @@ Sorry. After all the work we did, we're using GitHub exclusively. We used to wor
 
 This list will be updated as more mods are added.
 
-* _**Unreal:**_
-** _Redeem Your Space_ (English only)
-* _**Unreal Tournament:**_
-** _Chaos: UT_ (English, Spanish, **Template**)
-** _Monster Hunt_ (English, German, Spanish, **Template**)
-** _XVehicles_ (English, Spanish, **Template**)
+* _**Unreal:**_ _Redeem Your Space_ (English only)
+* _**Unreal Tournament:**_ _Chaos: UT_ (English, Spanish, **Template**), _Monster Hunt_ (English, German, Spanish, **Template**) and _XVehicles_ (English, Spanish, **Template**)
 
 ## _Unreal_ and _Unreal Tournament_ credits
 
