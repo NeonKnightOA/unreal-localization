@@ -4,12 +4,12 @@ Preferences=(Caption="Mesa 3D",Parent="Rendering",Langcaption="Mesa 3D",Class=XM
 
 [Errors]
 ; EN: ResFailed="Failed to set resolution"
-ResFailed="No se pudo establecer la resolución"
+ResFailed=""
 
 [XMesaGLRenderDevice]
 ; EN: ClassCaption="Mesa 3D"
-ClassCaption="Mesa 3D"
+ClassCaption=""
 ; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
-AskInstalled="¿Tienes una tarjeta 3D compatible con OpenGL instalada?"
+AskInstalled=""
 ; EN: AskUse="Do you want Unreal to use your OpenGL accelerator?"
-AskUse="¿Quieres que Unreal utilice tu acelerador OpenGL?"
+AskUse=""
