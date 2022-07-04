@@ -22,6 +22,17 @@ That's the cleanest way to create your series of changes (it's NOT a good idea t
 
 Sorry. After all the work we did, we're using GitHub exclusively. We used to work in the Wiki, but the bulk of the activity took place here, and, honestly, keeping the localization files in the repo is easier said and done here than in the Wiki, where we don't have a text exporting feature.
 
+## Supported third-party content
+
+This list will be updated as more mods are added.
+
+* _**Unreal:**_
+** _Redeem Your Space_ (English only)
+* _**Unreal Tournament:**_
+** _Chaos: UT_ (English, Spanish, **Template**)
+** _Monster Hunt_ (English, German, Spanish, **Template**)
+** _XVehicles_ (English, Spanish, **Template**)
+
 ## _Unreal_ and _Unreal Tournament_ credits
 
 ### General
