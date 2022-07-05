@@ -1,5 +1,6 @@
 ﻿[Public]
-Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
+; EN: Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="Classic Menu")
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="Klasické Menu")
 Preferences=(Caption="UBrowser",Parent="Networking",LangCaption="UBrowser",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
@@ -169,8 +170,8 @@ InfoText[0]="Pro připojení tohoto serveru budete potřebovat další knihovnu 
 InfoText[1]="Pro více informací zobrazte externí informace zespodu (hostované %ls):"
 
 [UBrowserConsole]
-; EN: ClassCaption="Unreal Browser Console"
-ClassCaption="Konzolový Prohlížeč Unreal"
+; EN: ClassCaption="Classic Menu"
+ClassCaption="Klasické Menu"
 
 [UBrowserOpenBar]
 ; EN: OpenText="Open:"

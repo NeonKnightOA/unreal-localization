@@ -1,5 +1,6 @@
 ﻿[Public]
-Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
+; EN: Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="Classic Menu")
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="")
 Preferences=(Caption="UBrowser",Parent="Networking",Langcaption="UBrowser",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
@@ -169,7 +170,7 @@ InfoText[0]=""
 InfoText[1]=""
 
 [UBrowserConsole]
-; EN: ClassCaption="Unreal Browser Console"
+; EN: ClassCaption="Classic Menu"
 ClassCaption=""
 
 [UBrowserOpenBar]

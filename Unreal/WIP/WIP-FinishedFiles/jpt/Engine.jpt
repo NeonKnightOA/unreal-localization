@@ -1,4 +1,6 @@
 ﻿[Public]
+; EN: Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Standard (Deprecated)")
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="標準 (廃止されました)")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -160,6 +162,8 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="すべてのプレーヤーに管理者権限を付与します。"
 
 [Console]
+; EN: ClassCaption="Standard (Deprecated)"
+ClassCaption="標準 (廃止されました)"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="読み込み中"
 ; EN: SavingMessage="SAVING"

@@ -1,6 +1,7 @@
 ﻿[Public]
-Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
-Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+; EN: Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="Classic Menu")
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="Klasszikus Menü")
+Preferences=(Caption="UBrowser",Parent="Networking",LangCaption="UBrowser",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
@@ -169,8 +170,8 @@ InfoText[0]="A szerver csatlakoztatásához további %ls C ++ könyvtárra lesz 
 InfoText[1]="További információért tekintse meg a külső információkat alulról ( %ls üzemelteti):"
 
 [UBrowserConsole]
-; EN: ClassCaption="Unreal Browser Console"
-ClassCaption="Unreal böngésző konzol"
+; EN: ClassCaption="Classic Menu"
+ClassCaption="Klasszikus Menü"
 
 [UBrowserOpenBar]
 ; EN: OpenText="Open:"

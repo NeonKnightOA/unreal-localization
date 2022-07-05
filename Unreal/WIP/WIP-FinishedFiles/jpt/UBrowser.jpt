@@ -1,6 +1,7 @@
 ﻿[Public]
-Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="UBrowser")
-Preferences=(Caption="UBrowser",Parent="Networking",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
+; EN: Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="Classic Menu")
+Object=(Name=UBrowser.UBrowserConsole,Class=Class,MetaClass=Engine.Console,Description="クラシックメニュー")
+Preferences=(Caption="UBrowser",Parent="Networking",LangCaption="UBrowser",Class=UBrowser.UBrowserMainClientWindow,Immediate=True)
 
 [UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
@@ -168,8 +169,8 @@ InfoText[0]="このサーバーに接続するには、追加のC ++ライブラ
 InfoText[1]="詳細については、以下から外部情報を表示してください（％lsによってホストされています）。"
 
 [UBrowserConsole]
-; EN: ClassCaption="Unreal Browser Console"
-ClassCaption="Unrealブラウザコンソール"
+; EN: ClassCaption="Classic Menu"
+ClassCaption="クラシックメニュー"
 
 [UBrowserOpenBar]
 ; EN: OpenText="Open:"

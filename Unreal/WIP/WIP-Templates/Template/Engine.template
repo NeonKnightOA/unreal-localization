@@ -1,4 +1,6 @@
 ﻿[Public]
+; EN: Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="Standard (Deprecated)")
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console,Description="")
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -147,6 +149,8 @@ FailedView=""
 CantChangeNameMsg=""
 
 [Console]
+; EN: ClassCaption="Standard (Deprecated)"
+ClassCaption=""
 ; EN: LoadingMessage="LOADING"
 LoadingMessage=""
 ; EN: SavingMessage="SAVING"

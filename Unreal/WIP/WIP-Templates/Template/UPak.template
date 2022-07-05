@@ -1,5 +1,7 @@
 ﻿[Public]
 Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;UPak.Return;Return to Na Pali")
+; EN: Object=(Name=UPak.UPakConsole,Class=Class,MetaClass=Engine.Console,Description="UGold (Deprecated)")
+Object=(Name=UPak.UPakConsole,Class=Class,MetaClass=Engine.Console,Description="")
 Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
@@ -303,6 +305,10 @@ NameArticle=""
 MenuName=""
 ; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
 MenuNameDative=""
+
+[UPakConsole]
+; EN: ClassCaption="Unreal Gold (Deprecated)"
+ClassCaption=""
 
 [MarineInterestPoint]
 PickupMessage=""
