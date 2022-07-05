@@ -1,0 +1,340 @@
+﻿[Public]
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; Localized string here goes in LangCaption, e.g. Langcaption="Avanzado" (spanish)
+Preferences=(Caption="Advanced",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Reproducción" (spanish)
+Preferences=(Caption="Rendering",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sonido" (spanish)
+Preferences=(Caption="Audio",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Juego en Red" (spanish)
+Preferences=(Caption="Networking",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Tipos de Juego" (spanish)
+Preferences=(Caption="Game Types",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Imagen" (spanish)
+Preferences=(Caption="Display",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Mando" (spanish)
+Preferences=(Caption="Joystick",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Controladores" (spanish)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Langcaption="",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; Localized string here goes in LangCaption, e.g. Langcaption="Opciones de Juego" (spanish)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Langcaption="",Class=Engine.GameInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Marcas" (spanish)
+Preferences=(Caption="Decals",Parent="Advanced Options",Langcaption="")
+; Advanced
+; Localized string here goes in LangCaption, e.g. Langcaption="Configuración de Motor de Juego" (spanish)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Langcaption="",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Macros para Asignaciones" (spanish)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Langcaption="",Class=Engine.Input,Immediate=True,Category=Aliases)
+; Localized string here goes in LangCaption, e.g. Langcaption="Asignaciones de Botones" (spanish)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Langcaption="",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Networking
+; Localized string here goes in LangCaption, e.g. Langcaption="Info. Pública de Servidor" (spanish)
+Preferences=(Caption="Public Server Information",Parent="Networking",Langcaption="",Class=Engine.GameReplicationInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Canal de Descargas" (spanish)
+Preferences=(Caption="Channel Download",Parent="Networking",Langcaption="",Class=Engine.ChannelDownload)
+; Localized string here goes in LangCaption, e.g. Langcaption="Notificaciones de Conexión" (spanish)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Langcaption="",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Listas de Mapas" (spanish)
+Preferences=(Caption="Map Lists",Parent="Networking",Langcaption="")
+; Decals
+; Localized string here goes in LangCaption, e.g. Langcaption="Sangre" (spanish)
+Preferences=(Caption="Blood",Parent="Decals",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Personaje" (spanish)
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Langcaption="",Class=Engine.PawnShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Decoración" (spanish)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Langcaption="",Class=Engine.DecoShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Proyectil" (spanish)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Langcaption="",Class=Engine.ProjectileShadow,Immediate=True)
+; Blood
+; Localized string here goes in LangCaption, e.g. Langcaption="Servidor" (spanish)
+Preferences=(Caption="Server",Parent="Blood",Langcaption="",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
+
+[Pawn]
+; EN: NameArticle=" a "
+NameArticle=""
+
+[Inventory]
+; EN: PickupMessage="Snagged an item"
+PickupMessage=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; EN: M_Activated=" activated."
+M_Activated=""
+; EN: M_Selected=" selected."
+M_Selected=""
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=""
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage=""
+; EN: ItemName="Ammo"
+ItemName=""
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title=""
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName=""
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage=""
+; EN: CompleteMessage="Completed!"
+CompleteMessage=""
+
+[Progress]
+; EN: CancelledConnect="Cancelled Connect Attempt"
+CancelledConnect=""
+; EN: RunningNet="%ls: %ls (%i players)"
+RunningNet=""
+; EN: NetReceiving="Receiving %ls: %i/%i"
+NetReceiving=""
+; EN: NetReceiveOk="Successfully received %ls"
+NetReceiveOk=""
+; EN: NetSend="Sending %ls"
+NetSend=""
+; EN: NetSending="Sending %ls: %i/%i"
+NetSending=""
+; EN: Connecting="Connecting..."
+Connecting=""
+; EN: Listening="Listening for clients..."
+Listening=""
+; EN: Loading="Loading"
+Loading=""
+; EN: Saving="Saving"
+Saving=""
+; EN: Paused="Paused by %ls"
+Paused=""
+; EN: ReceiveFile="Receiving %ls (F10 Cancels)"
+ReceiveFile=""
+; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
+ReceiveOptionalFile=""
+; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
+ReceiveSize=""
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText=""
+ConnectingURL="unreal://%ls/%ls"
+
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
+[ServerCommandlet]
+HelpCmd=server
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Network game server."
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpParm[0]="Log"
+HelpDesc[0]="Specify the log file to generate."
+HelpParm[1]="AllAdmin"
+HelpDesc[1]="Give all players admin privileges."
+
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString=""
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage=""
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom=""
+; EN: OwnCamera="own camera"
+OwnCamera=""
+; EN: FailedView="Failed to change view."
+FailedView=""
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg=""
+
+[Console]
+; EN: LoadingMessage="LOADING"
+LoadingMessage=""
+; EN: SavingMessage="SAVING"
+SavingMessage=""
+; EN: ConnectingMessage="CONNECTING"
+ConnectingMessage=""
+; EN: PausedMessage="PAUSED"
+PausedMessage=""
+; EN: PrecachingMessage="PRECACHING"
+PrecachingMessage=""
+
+[Menu]
+; EN: HelpMessage[1]="This menu has not yet been implemented."
+HelpMessage[1]=""
+; EN: LeftString="Left"
+LeftString=""
+; EN: RightString="Right"
+RightString=""
+; EN: CenterString="Center"
+CenterString=""
+; EN: EnabledString="Enabled"
+EnabledString=""
+; EN: DisabledString="Disabled"
+DisabledString=""
+; EN: YesString="Yes"
+YesString=""
+; EN: NoString="No"
+NoString=""
+; EN: OnString="On"
+OnString=""
+; EN: OffString="Off"
+OffString=""
+
+[GameInfo]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage=""
+DefaultPlayerName="Player"
+; EN: LeftMessage=" left the game."
+LeftMessage=""
+; EN: FailedSpawnMessage="Failed to spawn player actor"
+FailedSpawnMessage=""
+; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
+FailedPlaceMessage=""
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage=""
+; EN: NameChangedMessage="Name changed to "
+NameChangedMessage=""
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=""
+; EN: GameName="Game"
+GameName=""
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage=""
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword=""
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword=""
+; EN: MaleGender="his"
+MaleGender=""
+; EN: FemaleGender="her"
+FemaleGender=""
+; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
+MaxedOutSpectatorsMsg=""
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=""
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got a weapon"
+PickupMessage=""
+; EN: ItemName="Weapon"
+ItemName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage=""
+FemKillMessage=""
+
+[DamageType]
+; EN: Name="killed"
+Name=""
+; EN: AltName="killed"
+AltName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemName=""
+AltFemName=""
+
+[Errors]
+; EN: NetOpen="Error opening file"
+NetOpen=""
+; EN: NetWrite="Error writing to file"
+NetWrite=""
+; EN: NetRefused="Server refused to send %ls"
+NetRefused=""
+; EN: NetClose="Error closing file"
+NetClose=""
+; EN: NetSize="File size mismatch"
+NetSize=""
+; EN: NetMove="Error moving file"
+NetMove=""
+; EN: NetInvalid="Received invalid file request"
+NetInvalid=""
+; EN: NoDownload="Package %ls is not downloadable"
+NoDownload=""
+; EN: DownloadFailed="Downloading package %ls failed: %ls"
+DownloadFailed=""
+; EN: RequestDenied="Server requested file from pending level: Denied"
+RequestDenied=""
+; EN: ConnectionFailed="Connection failed"
+ConnectionFailed=""
+; EN: ChAllocate="Couldn't allocate channel"
+ChAllocate=""
+; EN: NetAlready="Already networking"
+NetAlready=""
+; EN: NetListen="Listen failed: No linker context available"
+NetListen=""
+; EN: LoadEntry="Can't load Entry: %ls"
+LoadEntry=""
+; EN: InvalidUrl="Invalid URL: %ls"
+InvalidUrl=""
+; EN: InvalidLink="Invalid Link: %ls"
+InvalidLink=""
+; EN: FailedBrowse="Failed to enter %ls: %ls"
+FailedBrowse=""
+; EN: Listen="Listen failed: %ls"
+Listen=""
+; EN: AbortToEntry="Failed; returning to Entry"
+AbortToEntry=""
+; EN: ServerOpen="Servers can't open network URLs"
+ServerOpen=""
+; EN: ServerListen="Dedicated server can't listen: %ls"
+ServerListen=""
+; EN: Pending="Pending connect to %ls failed; %ls"
+Pending=""
+; EN: LoadPlayerClass="Failed to load player class"
+LoadPlayerClass=""
+; EN: ServerOutdated="Server's version is outdated"
+ServerOutdated=""
+; EN: Banned="You have been banned"
+Banned=""
+; EN: TempBanned="You have been temporarily banned"
+TempBanned=""
+; EN: Kicked="You have been kicked"
+Kicked=""
+
+[General]
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreal's Web site:"
+Upgrade=""
+UpgradeURL="https://www.oldunreal.com/oldunrealpatches.html"
+; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+UpgradeQuestion=""
+; EN: Version="Version %i"
+Version=""
+
+[AdminAccessManager]
+; EN: AdminLoginText="Administrator %ls logged in"
+AdminLoginText=""
+; EN: AdminLogoutText="Administrator %ls logged out"
+AdminLogoutText=""
+; EN: CheatUsedStr="%ls used admin/cheat command: %c"
+CheatUsedStr=""
+
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString=""
+
+; BEWARE WHEN MODIFYING THIS SECTION. This only accepts "package.texture" keys. Make sure you enter the right ones.
+; At any doubt, ask in the forums or Discord.
+[Fonts]
+WhiteFont=UnrealShare.WhiteFont
+MedFont=Engine.MedFont
+LargeFont=Engine.LargeFont
+BigFont=Engine.BigFont
+SmallFont=Engine.SmallFont
+
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
+[LinkerUpdateCommandlet]
+HelpCmd=linkerupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="linkerupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the checksum for posterior storage."
+
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
+[SHAUpdateCommandlet]
+HelpCmd=shaupdate
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="shaupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."

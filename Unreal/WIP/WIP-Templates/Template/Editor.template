@@ -31,20 +31,33 @@ Object=(Name=Editor.RipAndTearCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.TextureMergerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.FontExporter,Class=Class,MetaClass=Core.Exporter)
 ; "Editor" tree
-Preferences=(Caption="Editor",Parent="Advanced Options",Langcaption="Editor")
-Preferences=(Caption="Advanced (Editor)",Parent="Editor",Langcaption="Avanzadas (Editor)",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Colors",Parent="Editor",Langcaption="Colores",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Grid",Parent="Editor",Langcaption="Cuadrilla",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Rotation Grid",Parent="Editor",Langcaption="Cuadrilla de Rotación",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+; Localized string here goes in LangCaption, e.g. Langcaption="Editor" (spanish)
+Preferences=(Caption="Editor",Parent="Advanced Options",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Avanzadas (Editor)" (spanish)
+Preferences=(Caption="Advanced (Editor)",Parent="Editor",Langcaption="",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+; Localized string here goes in LangCaption, e.g. Langcaption="Colores" (spanish)
+Preferences=(Caption="Colors",Parent="Editor",Langcaption="",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+; Localized string here goes in LangCaption, e.g. Langcaption="Cuadrilla" (spanish)
+Preferences=(Caption="Grid",Parent="Editor",Langcaption="",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+; Localized string here goes in LangCaption, e.g. Langcaption="Cuadrilla de Rotación" (spanish)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Langcaption="",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 ; "Commandlets and Exporters" subtree
-Preferences=(Caption="Commandlets and Exporters",Parent="Editor",Langcaption="Aplicomandos y Exportadores")
-Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Langcaption="Aplicomando AudioPackage",Class=Editor.AudioPackageCommandlet,Immediate=True)
-Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Langcaption="Aplicomando BatchMeshExport",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
-Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Langcaption="Aplicomando FullBatchExport",Class=Editor.FullBatchExportCommandlet,Immediate=True)
-Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Langcaption="Aplicomando MusicPackages",Class=Editor.MusicPackagesCommandlet,Immediate=True)
-Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Langcaption="Aplicomando RebuildImports",Class=Editor.RebuildImportsCommandlet,Immediate=True)
-Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Langcaption="Exportador SkeletalAnim (PSA)",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Aplicomandos y Exportadores" (spanish)
+Preferences=(Caption="Commandlets and Exporters",Parent="Editor",Langcaption="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Aplicomando AudioPackage" (spanish)
+Preferences=(Caption="AudioPackage Commandlet",Parent="Commandlets and Exporters",Langcaption="",Class=Editor.AudioPackageCommandlet,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Aplicomando BatchMeshExport" (spanish)
+Preferences=(Caption="BatchMeshExport Commandlet",Parent="Commandlets and Exporters",Langcaption="",Class=Editor.BatchMeshExportCommandlet,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Aplicomando FullBatchExport" (spanish)
+Preferences=(Caption="FullBatchExport Commandlet",Parent="Commandlets and Exporters",Langcaption="",Class=Editor.FullBatchExportCommandlet,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Aplicomando MusicPackages" (spanish)
+Preferences=(Caption="MusicPackages Commandlet",Parent="Commandlets and Exporters",Langcaption="",Class=Editor.MusicPackagesCommandlet,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Aplicomando RebuildImports" (spanish)
+Preferences=(Caption="RebuildImports Commandlet",Parent="Commandlets and Exporters",Langcaption="",Class=Editor.RebuildImportsCommandlet,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Exportador SkeletalAnim (PSA)" (spanish)
+Preferences=(Caption="SkeletalAnim (PSA) Exporter",Parent="Commandlets and Exporters",Langcaption="",Class=Editor.SkeletalAnimExpPSA,Immediate=True)
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MasterCommandlet]
 HelpCmd=master
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -57,6 +70,7 @@ HelpDesc[1]="Root directory to copy source (release) files to."
 HelpParm[2]="RefPath"
 HelpDesc[2]="Path for delta-compressed path reference."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MakeCommandlet]
 HelpCmd=make
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -69,6 +83,7 @@ HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpParm[2]="All"
 HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ConformCommandlet]
 HelpCmd=conform
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -79,6 +94,7 @@ HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpParm[1]="old_file.ext"
 HelpDesc[1]="Old file to make source file binary compatible with."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [BatchExportCommandlet]
 HelpCmd=batchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -111,6 +127,7 @@ HelpDesc[11]="   textbuffer: txt"
 HelpParm[12]="path"
 HelpDesc[12]="Path to export files to, like C:\MyPath."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [PackageFlagCommandlet]
 HelpCmd=packageflag
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -131,6 +148,7 @@ HelpDesc[5]="   The package can be loaded with missing links."
 HelpParm[6]="   Unsecure"
 HelpDesc[6]="   Unused."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DataRipCommandlet]
 HelpCmd=datarip
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -141,6 +159,7 @@ HelpDesc[0]="Source Package."
 HelpParm[1]="dstpackage.ext"
 HelpDesc[1]="Destination Package."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [UpdateUModCommandlet]
 HelpCmd=updateumod
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -163,6 +182,7 @@ HelpDesc[6]="   File listing"
 HelpParm[7]="Filename"
 HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ChecksumPackageCommandlet]
 HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -171,6 +191,7 @@ HelpUsage="checksumpackage packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to checksum."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [StripSourceCommandlet]
 HelpCmd=StripSource
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -179,6 +200,7 @@ HelpUsage="stripsource packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to strip sources."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DumpIntCommandlet]
 HelpCmd=DumpInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -187,6 +209,7 @@ HelpUsage="dumpint packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to dump language text of."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -195,6 +218,7 @@ HelpUsage="exportpackage packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to export UC files of."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [CompareIntCommandlet]
 HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -205,6 +229,7 @@ HelpDesc[0]="Main language file."
 HelpParm[1]="miscint"
 HelpDesc[1]="Secondary language file (to edit)."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ListObjectsCommandlet]
 HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -229,12 +254,14 @@ HelpDesc[7]="Package file."
 HelpParm[8]="baseclass"
 HelpDesc[8]="Optional base class of listed objects."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Dumps information about meshes."
 HelpUsage="dumpmeshinfo <pkg>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [CheckUnicodeCommandlet]
 HelpCmd=checkunicode
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -243,30 +270,35 @@ HelpOneLiner="checkunicode <filewildcard>"
 HelpDesc[0]="<filewildcard>"
 HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [AudioPackageCommandlet]
 HelpCmd=audiopackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Create an audio package out of a directory."
 HelpUsage="audiopackage <input directory>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DumpTextureInfoCommandlet]
 HelpCmd=dumptextureinfo
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Dumps information about textures."
 HelpUsage="dumptextureinfo <pkg>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MusicPackagesCommandlet]
 HelpCmd=musicpackages
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Creates music packages out of a directory."
 HelpUsage="musicpackages <input directory>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ReduceTexturesCommandlet]
 HelpCmd=reducetextures
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Purges unneeded uncompressed mipmaps."
 HelpUsage="reducetextures <inpkg> <outpkg>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [SaveEmbeddedCommandlet]
 HelpCmd=saveembedded
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -277,12 +309,14 @@ HelpDesc[0]="   "
 HelpParm[1]="   "
 HelpDesc[1]="   "
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [BatchMeshExportCommandlet]
 HelpCmd=batchmeshexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Batch exports meshes."
 HelpUsage="batchmeshexport <pkg> <format> <outpath>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [RebuildImportsCommandlet]
 HelpCmd=rebuildimports
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -291,12 +325,14 @@ HelpUsage="rebuildimports <pkg> [-upkg]"
 HelpParm[0]="-upkg"
 HelpDesc[0]="Switches output to upkg format. Default is uc."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ProdigiosumInParvoCommandlet]
 HelpCmd=prodigiosuminparvo
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Batch exports all mip map levels."
 HelpUsage="prodigiosuminparvo <pkg> <format> <outpath>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [FullBatchExportCommandlet]
 HelpCmd=fullbatchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -308,12 +344,14 @@ HelpParm[1]="   -DefaultMusicExtension"
 HelpParm[2]="   -DefaultSoundExtension"
 HelpParm[3]="   -DefaultTextureExtension"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [FontPageDiffCommandlet]
 HelpCmd=fontpagediff
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Compares font pages."
 HelpUsage="fontpagediff <left font> <right font>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [RipAndTearCommandlet]
 HelpCmd=ripandtear
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -326,6 +364,7 @@ HelpParm[1]="The map to output the non-MyLevel'd map to."
 HelpDesc[2]="<outputresources>"
 HelpParm[2]="The class of output resources to take from the input map."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [TextureMergerCommandlet]
 HelpCmd=texturemerger
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -336,6 +375,7 @@ HelpParm[0]="An optional parameter, it's the package where the textures will be 
 HelpDesc[1]=" "
 HelpParm[1]="If no PackageName is specified, the TextureMerge directory is used in order to locate the names of all subfolders in searching for corresponding packages."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [FontExporter]
 HelpCmd=FontExporter
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
