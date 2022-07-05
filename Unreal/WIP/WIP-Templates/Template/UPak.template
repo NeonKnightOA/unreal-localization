@@ -1,6 +1,5 @@
 ﻿[Public]
 Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;UPak.Return;Return to Na Pali")
-Object=(Name=UPak.UPakConsole,Class=Class,MetaClass=Engine.Console,Description="Unreal Gold")
 Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
@@ -16,97 +15,103 @@ Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.UPakIntro,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
 ; EN: Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon,Description="UMS Grenade Launcher")
-Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon,Description="Lanzagranadas UMS")
+Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon,Description="")
 ; EN: Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon,Description="UMS Rocket Launcher")
-Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon,Description="Lanzacohetes UMS")
+Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon,Description="")
 ; EN: Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon,Description="Combat Assault Rifle")
-Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon,Description="Rifle de Asalto de Combate")
-Preferences=(Caption="Cloak Match",Parent="Game Types",Langcaption="Partida de Camuflaje",Class=UPak.CloakMatch,Immediate=True)
-Preferences=(Caption="Gravity Match",Parent="Game Types",Langcaption="Partida de Gravedad",Class=UPak.GravityMatch,Immediate=True)
-Preferences=(Caption="Marine Match",Parent="Game Types",Langcaption="Partida de Marines",Class=UPak.MarineMatch,Immediate=True)
-Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Langcaption="Partida de Armas Terrestres",Class=UPak.TerranWeaponMatch,Immediate=True)
+Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon,Description="")
+; Localized string here goes in LangCaption, e.g. Langcaption="Partida de Camuflaje" (spanish)
+Preferences=(Caption="Cloak Match",Parent="Game Types",Langcaption="",Class=UPak.CloakMatch,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Partida de Gravedad" (spanish)
+Preferences=(Caption="Gravity Match",Parent="Game Types",Langcaption="",Class=UPak.GravityMatch,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Partida de Marines" (spanish)
+Preferences=(Caption="Marine Match",Parent="Game Types",Langcaption="",Class=UPak.MarineMatch,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Partida de Armas Terrestres" (spanish)
+Preferences=(Caption="Terran Weapon Match",Parent="Game Types",Langcaption="",Class=UPak.TerranWeaponMatch,Immediate=True)
 
 [TransitionNullHUD]
 ; EN: Statheader="Kill Statistics: "
-Statheader="Estadísticas de Muertes: "
+Statheader=""
 ; EN: CARStat="Combat Assault Rifle"
-CARStat="Rifle de Asalto de Combate"
+CARStat=""
 ; EN: RLStat="UMS Rocket Launcher"
-RLStat="Lanzacohetes UMS"
+RLStat=""
 ; EN: GLStat="UMS Grenade Launcher"
-GLStat="Lanzagranadas UMS"
+GLStat=""
 ; EN: ASMDStat="ASMD"
-ASMDStat="ASMD"
+ASMDStat=""
 ; EN: AutomagStat="Automag"
-AutomagStat="Autopistola"
+AutomagStat=""
 ; EN: DispersionStat="Dispersion Pistol"
-DispersionStat="Pistola de Dispersión"
+DispersionStat=""
 ; EN: EightballStat="Eightball"
-EightballStat="Lanzacohetes Eightball"
+EightballStat=""
 ; EN: FlakCannonStat="Flak Cannon"
-FlakCannonStat="Cañón de Metralla"
+FlakCannonStat=""
 ; EN: GESBioRifleStat="GES BioRifle"
-GESBioRifleStat="Rifle Biológico GES"
+GESBioRifleStat=""
 ; EN: MinigunStat="Minigun"
-MinigunStat="Ametralladora"
+MinigunStat=""
 ; EN: RazorjackStat="Razorjack"
-RazorjackStat="Lanzacuchillas"
+RazorjackStat=""
 ; EN: RifleStat="Sniper Rifle"
-RifleStat="Rifle de Francotirador"
+RifleStat=""
 ; EN: StingerStat="Stinger"
-StingerStat="Cañón Perforador"
+StingerStat=""
 ; EN: TotalStat="Total Kills"
-TotalStat="Muertes en Total"
+TotalStat=""
 ; EN: LogEntryMsg="LOG ENTRY:"
-LogEntryMsg="ENTRADA REG.:"
+LogEntryMsg=""
 
 [GrenadeLauncher]
 ; EN: DeathMessage="%k's grenade made %o blew up."
-DeathMessage="La granada de %k ha hecho explotar a %o."
+DeathMessage=""
+; EN: PickupMessage="You got the UMS Grenade Launcher"
+PickupMessage=""
+; EN: ItemName="UMS Grenade Launcher"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
 FemDeathMessage="La granada de %k ha hecho explotar a %o."
 FemKillMessage="La granada de %k ha hecho explotar a %o."
-; EN: PickupMessage="You got the UMS Grenade Launcher"
-PickupMessage="Has recogido el Lanzagranadas UMS"
-; EN: ItemName="UMS Grenade Launcher"
-ItemName="Lanzagranadas UMS"
-; EN: ItemArticle="a"
-ItemArticle="un"
 
 [Cloak]
 ; EN: ExpireMessage="disengaged."
-ExpireMessage="desactivado."
+ExpireMessage=""
 ; EN: PickupMessage="You got the Cloaking Device"
-PickupMessage="Has recogido el Dispositivo de Camuflaje"
+PickupMessage=""
 ; EN: ItemName="Cloaking Device"
-ItemName="Dispositivo de Camuflaje"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
 ; EN: M_Activated=" activated."
-M_Activated=" activado."
+M_Activated=""
 ; EN: M_Selected=" selected."
-M_Selected=" seleccionado."
+M_Selected=""
 ; EN: M_Deactivated=" deactivated."
-M_Deactivated=" desactivado."
+M_Deactivated=""
 
 [UPakHUD]
 ; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
-MultWeapSlotMsg="Pulsa el botón de selección de arma para cambiar armas."
+MultWeapSlotMsg=""
 
 [UPakSinglePlayer]
 ; EN: GameName="Unreal Mission Pack"
-GameName="Paquete de Misiones para Unreal"
+GameName=""
 
 [RocketLauncher]
 ; EN: DeathMessage="%k's rocket turned %o's body into chunks."
-DeathMessage="El cohete de %k ha hecho añicos el cuerpo de %o."
-FemDeathMessage="El cohete de %k ha hecho añicos el cuerpo de %o."
-FemKillMessage="El cohete de %k ha hecho añicos el cuerpo de %o."
+DeathMessage=""
 ; EN: PickupMessage="You got the UMS Rocket Launcher"
-PickupMessage="Has recogido el Lanzacohetes UMS"
+PickupMessage=""
 ; EN: ItemName="UMS Rocket Launcher"
-ItemName="Lanzacohetes UMS"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage=""
+FemKillMessage=""
 
 [UPakChooseGameMenu]
 MenuList[0]="Return to Na Pali"
@@ -114,163 +119,190 @@ MenuList[1]="Unreal"
 
 [CloakMatch]
 ; EN: GameName="Cloak Match"
-GameName="Partida de Camuflaje"
+GameName=""
 
 [CARifle]
 ; EN: DeathMessage="%k's %w turned %o into swiss cheese."
-DeathMessage="%k convirtió a %o en queso gruyére con su %w."
-FemDeathMessage="%k convirtió a %o en queso gruyére con su %w."
-FemKillMessage="%k convirtió a %o en queso gruyére con su %w."
+DeathMessage=""
 ; EN: PickupMessage="You got the Combat Assault Rifle"
-PickupMessage="Has recogido el Rifle de Asalto de Combate"
+PickupMessage=""
 ; EN: ItemName="Combat Assault Rifle"
-ItemName="Rifle de Asalto de Combate"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage=""
+FemKillMessage=""
 
 [UPakScubaGear]
 ; EN: RechargedMessage="Marine SCUBA Gear fully recharged."
-RechargedMessage="Equipo de Buceo de Marines totalmente recargado."
+RechargedMessage=""
 ; EN: LowOxygenMessage="Oxygen supply critically low"
-LowOxygenMessage="Bajo nivel de reserva de oxígeno"
+LowOxygenMessage=""
 ; EN: PickupMessage="You picked up the Marine SCUBA Gear"
-PickupMessage="Has recogido el Equipo de Buceo para Marines"
+PickupMessage=""
 ; EN: ItemName="Marine SCUBA Gear"
-ItemName="Equipo de Buceo para Marines"
+ItemName=""
 ; EN: M_Deactivated="deactivated... Recharging."
-M_Deactivated="desactivado... Recargando."
+M_Deactivated=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
 
 [MarineMatch]
 ; EN: GameName="Marine Match"
-GameName="Partida de Marines"
+GameName=""
 
 [GravityMatch]
 ; EN: GameName="Gravity Match"
-GameName="Partida de Gravedad"
+GameName=""
 
 [UPakDebugger]
 ; EN: ItemName="UPak Debugger"
-ItemName="Depurador UPak"
+ItemName=""
 
 [UPakMaleOne]
 ; EN: MenuName="Male 1"
-MenuName="Varón 1"
+MenuName=""
 
 [UPakFemaleOne]
 ; EN: MenuName="Female 1"
-MenuName="Mujer 1"
+MenuName=""
 
 [GLAmmo]
 ; EN: PickupMessage="You picked up 10 UMS Grenades"
-PickupMessage="Has recogido 10 granadas UMS"
+PickupMessage=""
 ; EN: ItemName="UMS Grenades"
-ItemName="Granadas UMS"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
 
 [RLAmmo]
 ; EN: PickupMessage="You got 10 UMS Rockets"
-PickupMessage="Has recogido 10 cohetes UMS"
+PickupMessage=""
 ; EN: ItemName="UMS Rockets"
-ItemName="Cohetes UMS"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
 
 [CARifleClip]
 ; EN: PickupMessage="You got a 50 bullet CAR clip"
-PickupMessage="Has recogido un Cargador de 50 Balas de Asalto"
+PickupMessage=""
 ; EN: ItemName="CAR Clip"
-ItemName="Cargador RAC"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="un"
+ItemArticle=""
 
 [UPakFemaleTwo]
 ; EN: MenuName="Female 2"
-MenuName="Mujer 2"
+MenuName=""
 
 [UPakMaleThree]
 ; EN: MenuName="Male 3"
-MenuName="Varón 3"
+MenuName=""
 
 [UPakMaleTwo]
 ; EN: MenuName="Male 2"
-MenuName="Varón 2"
+MenuName=""
 
 [TerranWeaponMatch]
 ; EN: GameName="Terran Weapon Match"
-GameName="Partida de Armas Terrícolas"
+GameName=""
 
 [CompTablet]
 ; EN: PickupMessage="You got the Computer Tablet"
-PickupMessage="Has recogido la Tableta Computarizada"
+PickupMessage=""
 ; EN: ItemName="Computer Tablet"
-ItemName="Tableta Computarizada"
+ItemName=""
 ; EN: ItemArticle="a"
-ItemArticle="una"
+ItemArticle=""
 
 [MarineArctic]
+; EN: NameArticle=" an "
+NameArticle=""
 ; EN: MenuName="UMS Arctic Marine"
-MenuName="Marine Ártico UMS"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [MarineDesert]
+; EN: NameArticle=" an "
+NameArticle=""
 ; EN: MenuName="UMS Desert Marine"
-MenuName="Marine Desértico UMS"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [MarineJungle]
+; EN: NameArticle=" an "
+NameArticle=""
 ; EN: MenuName="UMS Jungle Marine"
-MenuName="Marine de Jungla UMS"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [SpaceMarine]
+; EN: NameArticle=" an "
+NameArticle=""
 ; EN: MenuName="UMS Space Marine"
-MenuName="Marine Espacial UMS"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [TransitionBrute]
 ; EN: NameArticle=" a "
-NameArticle=" un "
+NameArticle=""
 ; EN: MenuName="Brute"
-MenuName="Bruto"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [TransitionCow]
 ; EN: NameArticle=" a "
-NameArticle=" una "
+NameArticle=""
 ; EN: MenuName="Nali Cow"
-MenuName="Vaca Nali"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [NaliCopter]
 ; EN: NameArticle=" a "
-NameArticle=" un "
+NameArticle=""
 ; EN: MenuName="NaliCopter"
-MenuName="Nalicóptero"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [Predator]
 ; EN: NameArticle=" a "
-NameArticle=" un "
+NameArticle=""
 ; EN: MenuName="Predator"
-MenuName="Depredador"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [TransitionPredator]
 ; EN: NameArticle=" a "
-NameArticle=" un "
+NameArticle=""
 ; EN: MenuName="Predator"
-MenuName="Depredador"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [PackHunter]
 ; EN: NameArticle=" a "
-NameArticle=" un "
+NameArticle=""
 ; EN: MenuName="Pack Hunter"
-MenuName="Cazador en Grupo"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [Spinner]
 ; EN: NameArticle=" a "
-NameArticle=" una "
+NameArticle=""
 ; EN: MenuName="Spinner"
-MenuName="Araña"
-
-[UPakConsole]
-; EN: ClassCaption="Unreal Gold Console"
-ClassCaption="Consola de Unreal Gold"
+MenuName=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to MenuName.
+MenuNameDative=""
 
 [MarineInterestPoint]
 PickupMessage=""

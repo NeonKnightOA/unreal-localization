@@ -1,0 +1,259 @@
+﻿; GENERAL NOTE ABOUT THIS FILE: Whenever a section here that isn't [Public] is updated in either UnrealI.<lng> or UnrealShare.<lng> or viceversa, those same updates should also be reflected here and in the previously mentioned files, if only to keep consistency between files.
+
+[Public]
+; EN: Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description=",")
+Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldFlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldMinigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRazorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldGESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldStinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
+
+[OldDispersionPistol]
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage=""
+; EN: PickupMessage="You got the Dispersion Pistol"
+PickupMessage=""
+; EN: ItemName="Dispersion Pistol"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldASMD]
+; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
+DeathMessage=""
+; EN: PickupMessage="You got the ASMD"
+PickupMessage=""
+; EN: ItemName="ASMD"
+ItemName=""
+; EN: ItemArticle="an"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldEightball]
+; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Eightball gun"
+PickupMessage=""
+; EN: ItemName="Eightball"
+ItemName=""
+; EN: ItemArticle="an"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldRifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage=""
+; EN: PickupMessage="You got the Rifle"
+PickupMessage=""
+; EN: ItemName="Sniper Rifle"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldFlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage=""
+; EN: ItemName="Flak Cannon"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldAutoMag]
+; EN: DeathMessage="%o got gatted by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You got the Automag"
+PickupMessage=""
+; EN: ItemName="Automag"
+ItemName=""
+; EN: ItemArticle="an"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldMinigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage=""
+; EN: PickupMessage="You got the Minigun"
+PickupMessage=""
+; EN: ItemName="Minigun"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldGESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage=""
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage=""
+; EN: ItemName="GES BioRifle"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldAmplifier]
+; EN: ExpireMessage="Energy Amplifier is out of power."
+ExpireMessage=""
+; EN: PickupMessage="You got the Energy Amplifier"
+PickupMessage=""
+; EN: ItemName="Energy Amplifier"
+ItemName=""
+; EN: ItemArticle="an"
+ItemArticle=""
+
+[OldStinger]
+; EN: DeathMessage="%o was perforated by %k's %w."
+DeathMessage=""
+; EN: PickupMessage="You picked up the Stinger"
+PickupMessage=""
+; EN: ItemName="Stinger"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldShellBox]
+; EN: PickupMessage="You picked up 50 bullets"
+PickupMessage=""
+; EN: ItemName="Bullet Box"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+
+[OldRifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage=""
+; EN: ItemName="Rifle Rounds"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldWeaponPowerUp]
+; EN: PickupMessage="You got the Dispersion Pistol Powerup"
+PickupMessage=""
+; EN: ItemName="Dispersion Pistol Powerup"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+
+[OldFlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage=""
+; EN: ItemName="Flak Shells"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldRazorjack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage=""
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage=""
+; EN: ItemName="Razorjack"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]. Tied to DeathMessage.
+FemDeathMessage=""
+FemKillMessage=""
+
+[OldDefaultAmmo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage=""
+; EN: ItemName="Ammo"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldASMDAmmo]
+; EN: PickupMessage="You picked up an ASMD Core"
+PickupMessage=""
+; EN: ItemName="ASMD Core"
+ItemName=""
+; EN: ItemArticle="an"
+ItemArticle=""
+
+[OldStingerAmmo]
+; EN: PickupMessage="You picked up 40 Tarydium shards"
+PickupMessage=""
+; EN: ItemName="Tarydium Shards"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldRazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage=""
+; EN: ItemName="Razor Blades"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldSludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage=""
+; EN: ItemName="Tarydium Biosludge"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldRocketCan]
+; EN: PickupMessage="You picked up 12 Eightballs"
+PickupMessage=""
+; EN: ItemName="Eightballs"
+ItemName=""
+; EN: ItemArticle="a bunch of"
+ItemArticle=""
+
+[OldClip]
+; EN: PickupMessage="You picked up a clip"
+PickupMessage=""
+; EN: ItemName="Clip"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+
+[OldRifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage=""
+; EN: ItemName="Rifle Round"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
+
+[OldFlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage=""
+; EN: ItemName="Flak Shell"
+ItemName=""
+; EN: ItemArticle="a"
+ItemArticle=""
