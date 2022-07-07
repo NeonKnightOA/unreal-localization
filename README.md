@@ -51,7 +51,10 @@ This list will be updated as more mods are added.
 
 ### General
 * **Epic Games/Digital Extremes/Legend Entertainment:** Original English/German/French/Spanish/Italian localizations
-* **Neon_Knight:** Project coordination.
+* **Smirftsch:** Initial project coordination.
+* **Victor Delacroix:** Early project coordination.
+* **Hellkeeper:** Early project coordination.
+* **Neon_Knight:** Current project coordination.
 * **Buggie:** Localization templates for all 15 languages.
 
 ### Language-specific
