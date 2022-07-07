@@ -1,41 +1,43 @@
 ﻿[LevelInfo2]
-Title="UMS Prometheus"
+; EN: Title="UMS Prometheus"
+Title="EKR Prométeusz"
 ; EN: LevelEnterText="Entering the UMS Prometheus"
-LevelEnterText="Belépés az UMS Prometheusba"
+LevelEnterText="Belépés az EKR Prométeusz"
 
 [LevelSummary]
-Title="UMS Prometheus"
+; EN: Title="UMS Prometheus"
+Title="EKR Prométeusz"
 ; EN: LevelEnterText="Entering the UMS Prometheus"
-LevelEnterText="Belépés az UMS Prometheusba"
+LevelEnterText="Belépés az EKR Prométeusz"
 
 [TranslatorEvent4]
 ; EN: Message="UMS Prometheus - Power Circuits: Warning: Circuit overload detected in Network 2"
-Message="UMS Prometheus - Áramkörök: Figyelem: Áramkör túlterhelést észleltek a 2. hálózatban"
+Message="EKR Prométeusz - Energia áramkörök: Figyelmeztetés: Túltöltés észlelve a második hálózaton"
 
 [TranslatorEvent11]
 ; EN: Message="Log Oliver F. Russel, Scientific Assistant: I know that we got something in the water tanks again. Peter saw some kind of slimeball through the pipe controls again. Looks like another long night of water analysis. God, I hate space vermin..."
-Message="Log Oliver F. Russel, tudományos asszisztens: Tudom, hogy megint van valami a víztartályokban. Peter megint valamiféle karcsú labdát látott a csővezérlőn keresztül. Úgy néz ki, mint egy újabb hosszú éjszakai vízelemzés. Istenem, utálom az űrkártevőket ..."
+Message="Oliver F. Russel feljegyzése, Tudományos Asszisztens: Biztos vagyok benne hogy megint van valami a víz tartályokban. Peter valami takonygolyót látott az irányítóállomásnál. Úgynézki hogy megint egy hosszú este elé nézünk. Istenem, hogy én mennyire utálom az élősködőket..."
 
 [TranslatorEvent10]
 ; EN: Message="Log Andrew G. Jackson, Medical Officer: This has been a smooth ride, no major incidents for almost 2 weeks. And I'm still getting full payment. I think work doesn't get much better than this."
-Message="Napló Andrew G. Jackson, tisztiorvos: Ez zökkenőmentes volt, csaknem 2 hétig nem történt nagyobb esemény. És még mindig teljes fizetést kapok. Azt hiszem, a munka ennél nem sokkal jobb."
+Message="Andrew G. Jackson feljegyzése, Orvosi tiszt: Már két hete nem volt semmi gond, könnyű út elé nézünk. És még mindig teljes a fizetésem. Ennél jobb munka nem is létezik."
 
 [TranslatorEvent8]
 ; EN: Message="UMS Prometheus - Information Terminal: --- Information Network offline ---"
-Message="UMS Prometheus - Információs terminál: --- Információs hálózat offline ---"
+Message="EKR Prométeusz - Információs Terminál: --- Információs Hálózat Inaktív ---"
 
 [TranslatorEvent3]
 ; EN: Message="UMS Prometheus - Power Circuits: Warning: Circuit overload detected in Network 1"
-Message="UMS Prometheus - Áramkörök: Figyelem: Áramkör túlterhelést észleltek az 1. hálózatban"
+Message="EKR Prométeusz - Energia áramkörök: Figyelmeztetés: Túltöltés észlelve az első hálózaton"
 
 [TranslatorEvent5]
 ; EN: Message="UMS Prometheus - Power Circuits: Status: Network 3 normal"
-Message="UMS Prometheus - Áramkörök: Állapot: Hálózat 3 normális"
+Message="EKR Prométeusz - Energia áramkörök: Állapot: Hálózat3 normál"
 
 [TranslatorEvent2]
 ; EN: Message="UMS Prometheus - Engine 1 Status: Warning: Power level approaching limit | Critical: Pressure level exceeded limit! "
-Message="UMS Prometheus - 1. motor állapota: Figyelmeztetés: A teljesítményszint megközelíti a határt | Kritikus: A nyomásszint túllépte a határértéket! "
+Message="EKR Prométeusz - Motor1 állapot: Figyelmeztetés: Erőszint küszöb elérve | Kritikus: Nyomásszint túllépve! "
 
 [TranslatorEvent6]
 ; EN: Message="UMS Prometheus - Engine 1 Status: Warning: Power level approaching limit | Warning: Pressure level approaching limit"
-Message="UMS Prometheus - 1. motor állapota: Figyelmeztetés: A teljesítményszint megközelíti a határt | Figyelem: A nyomásszint megközelíti a határt"
+Message="EKR Prométeusz - Motor1 állapot: Figyelmeztetés: Erőszint küszöb elött | Figyelmeztetés: Nyomásszint küszöb elött"

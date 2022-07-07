@@ -1,41 +1,43 @@
 ﻿[LevelInfo2]
-Title="UMS Prometheus"
+; EN: Title="UMS Prometheus"
+Title="Lod UMS Prometeus"
 ; EN: LevelEnterText="Entering the UMS Prometheus"
 LevelEnterText="Vstup do UMS Prometheus"
 
 [LevelSummary]
-Title="UMS Prometheus"
+; EN: Title="UMS Prometheus"
+Title="Lod UMS Prometeus"
 ; EN: LevelEnterText="Entering the UMS Prometheus"
 LevelEnterText="Vstup do UMS Prometheus"
 
 [TranslatorEvent4]
 ; EN: Message="UMS Prometheus - Power Circuits: Warning: Circuit overload detected in Network 2"
-Message="UMS Prometheus - Napájecí obvody: Varování: V síti 2 bylo zjištěno přetížení obvodu"
+Message="UMS Prometeus - Energeticke okruhy: Varovani: v siti 2 bylo zjisteno velke pretizeni"
 
 [TranslatorEvent11]
 ; EN: Message="Log Oliver F. Russel, Scientific Assistant: I know that we got something in the water tanks again. Peter saw some kind of slimeball through the pipe controls again. Looks like another long night of water analysis. God, I hate space vermin..."
-Message="Log Oliver F. Russel, vědecký asistent: Vím, že jsme znovu dostali něco do vodních nádrží. Peter znovu viděl nějaký druh slizu přes ovládací prvky potrubí. Vypadá to na další dlouhou noc analýzy vody. Bože, nesnáším vesmírnou havěť ..."
+Message="Log: Oliver F. Russel, Vedecky laborant: Uz je zas neco v nasich vodnich nadrzich. Petr uz zase videl ve vodovodnim potrubi nejaky slizovity koule. Takze to vypada, ze nas ceka dalsi dlouha noc stravena rozborem vody. Nesnasim tuhle vesmirnou havet..."
 
 [TranslatorEvent10]
 ; EN: Message="Log Andrew G. Jackson, Medical Officer: This has been a smooth ride, no major incidents for almost 2 weeks. And I'm still getting full payment. I think work doesn't get much better than this."
-Message="Log Andrew G. Jackson, lékař: Byla to plynulá jízda, téměř 2 týdny žádné závažné incidenty. A stále dostávám plnou platbu. Myslím, že práce není o moc lepší než tohle."
+Message="Log: Andrew G. Jackson, Hlavni lekar: Tohle je velmi bezproblemovy let, zadne vetsi urazy uz temer 2 tydny. A stale dostavam plny plat. Myslim si, ze to snad uz ani nemuze byt lepsi."
 
 [TranslatorEvent8]
 ; EN: Message="UMS Prometheus - Information Terminal: --- Information Network offline ---"
-Message="UMS Prometheus - Informační terminál: --- Informační síť offline ---"
+Message="UMS Prometeus - Informacni Terminal: --- Informacni sit je nefunkcni ---"
 
 [TranslatorEvent3]
 ; EN: Message="UMS Prometheus - Power Circuits: Warning: Circuit overload detected in Network 1"
-Message="UMS Prometheus - Napájecí obvody: Varování: V síti 1 bylo zjištěno přetížení obvodu"
+Message="UMS Prometeus - Energeticke okruhy: Varovani: v siti 1 bylo zjisteno velke pretizeni"
 
 [TranslatorEvent5]
 ; EN: Message="UMS Prometheus - Power Circuits: Status: Network 3 normal"
-Message="UMS Prometheus - Napájecí obvody: Stav: Síť 3 normální"
+Message="UMS Prometeus - Energeticke okruhy: Stav: sit 3 je v normalu"
 
 [TranslatorEvent2]
 ; EN: Message="UMS Prometheus - Engine 1 Status: Warning: Power level approaching limit | Critical: Pressure level exceeded limit! "
-Message="UMS Prometheus - Stav motoru 1: Varování: Úroveň výkonu se blíží limitu | Kritické: Úroveň tlaku byla překročena! "
+Message="UMS Prometeus - Stav Motoru c.1: Varovani: Uroven vykonu se blizi limitu | Krize: uroven tlaku uz prekracuje limit! "
 
 [TranslatorEvent6]
 ; EN: Message="UMS Prometheus - Engine 1 Status: Warning: Power level approaching limit | Warning: Pressure level approaching limit"
-Message="UMS Prometheus - Stav motoru 1: Varování: Úroveň výkonu se blíží limitu | Varování: Hladina tlaku se blíží hranici"
+Message="UMS Prometeus - Stav Motoru c.1: Varovani: Uroven vykonu se blizi limitu | Varovani: Uroven tlaku se blizi k limitu"

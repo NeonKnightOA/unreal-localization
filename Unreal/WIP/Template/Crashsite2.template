@@ -39,7 +39,8 @@ Message=""
 Message=""
 
 [TransitionGenderEvent0]
-; N_K: Make sure the text strings and their lengths coincide with the content of Sounds/<lang>/Interm5.uax, sounds FLog06b and MLog06b.
+; N_K: Make sure the text strings and their lengths coincide with the content of Sounds/<lng>/Interm5.uax, sounds FLog06b and MLog06b.
+; Also make sure to use MaleText[X] and FemaleText[X] rather than CommonText[X] whenever gender is considered.
 OutDelays[1]=12.000000
 OutDelays[2]=3.000000
 OutDelays[3]=5.000000
