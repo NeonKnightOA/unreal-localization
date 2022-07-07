@@ -26,17 +26,13 @@ Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; "Editor" tree
-; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Editor",Parent="Opcions Avançades")
-; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Avançades (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Graella",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Graella de Rotació",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Editor",Parent="Advanced Options",LangCaption="Editor")
+Preferences=(Caption="Advanced (Editor)",Parent="Editor",LangCaption="Avançades (Editor)",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",LangCaption="Colors",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",LangCaption="Graella",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",LangCaption="Graella de Rotació",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MasterCommandlet]
 HelpCmd=master
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -49,6 +45,7 @@ HelpDesc[1]="Root directory to copy source (release) files to."
 HelpParm[2]="RefPath"
 HelpDesc[2]="Path for delta-compressed path reference."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MakeCommandlet]
 HelpCmd=make
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -61,6 +58,7 @@ HelpDesc[1]="Don't force native functions to be bound to DLLs."
 HelpParm[2]="All"
 HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ConformCommandlet]
 HelpCmd=conform
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -71,6 +69,7 @@ HelpDesc[0]="Existing binary file to load, conform, and save."
 HelpParm[1]="old_file.ext"
 HelpDesc[1]="Old file to make source file binary compatible with."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [BatchExportCommandlet]
 HelpCmd=batchexport
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -103,6 +102,7 @@ HelpDesc[11]="   textbuffer: txt"
 HelpParm[12]="path"
 HelpDesc[12]="Path to export files to, like C:\MyPath."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [PackageFlagCommandlet]
 HelpCmd=packageflag
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -123,6 +123,7 @@ HelpDesc[5]="   The package can be loaded with missing links."
 HelpParm[6]="   Unsecure"
 HelpDesc[6]="   Unused."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DataRipCommandlet]
 HelpCmd=datarip
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -133,6 +134,7 @@ HelpDesc[0]="Source Package."
 HelpParm[1]="dstpackage.ext"
 HelpDesc[1]="Destination Package."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [UpdateUModCommandlet]
 HelpCmd=updateumod
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -155,6 +157,7 @@ HelpDesc[6]="   File listing"
 HelpParm[7]="Filename"
 HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ChecksumPackageCommandlet]
 HelpCmd=checksumpackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -163,6 +166,7 @@ HelpUsage="checksumpackage packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to checksum."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [StripSourceCommandlet]
 HelpCmd=StripSource
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -171,6 +175,7 @@ HelpUsage="stripsource packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to strip sources."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DumpIntCommandlet]
 HelpCmd=DumpInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -179,6 +184,7 @@ HelpUsage="dumpint packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to dump language text of."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -187,6 +193,7 @@ HelpUsage="exportpackage packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to export UC files of."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [CompareIntCommandlet]
 HelpCmd=CompareInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -197,6 +204,7 @@ HelpDesc[0]="Main language file."
 HelpParm[1]="miscint"
 HelpDesc[1]="Secondary language file (to edit)."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ListObjectsCommandlet]
 HelpCmd=listobjects
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -221,12 +229,14 @@ HelpDesc[7]="Package file."
 HelpParm[8]="baseclass"
 HelpDesc[8]="Optional base class of listed objects."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DumpMeshInfoCommandlet]
 HelpCmd=dumpmeshinfo
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Dumps information about meshes."
 HelpUsage="dumpmeshinfo <pkg>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [CheckUnicodeCommandlet]
 HelpCmd=checkunicode
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -235,6 +245,7 @@ HelpOneLiner="checkunicode <filewildcard>"
 HelpDesc[0]="<filewildcard>"
 HelpParm[0]="The files to check for Unicode characters. Can accept wildcards such as "*" and "?"."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -247,6 +258,7 @@ HelpDesc[1]="Path containing old files."
 HelpParm[2]="destpath"
 HelpDesc[2]="Path for destination files."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [MD5Commandlet]
 HelpCmd=md5
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -261,24 +273,28 @@ HelpDesc[2]="Merges the contents of two Packages.md5 files. Filename should poin
 HelpParm[3]="-p Wildcard"
 HelpDesc[3]="Removes the checksum for the all files matching the wildcard from the Packages.md5 list."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [PackageDumpCommandlet]
 HelpCmd=packagedump
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpUsage="packagedump [Filename]"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [DumpFontInfoCommandlet]
 HelpCmd=dumpfontinfo
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Dumps information about fonts."
 HelpUsage="dumpfontinfo <pkg>"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ExecCommandlet]
 HelpCmd=exec
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpUsage="exec filename"
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ScriptRaysCommandlet]
 HelpCmd=scriptrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -293,6 +309,7 @@ HelpDesc[2]="Output disassembly instead of code."
 HelpParm[3]="-mugshot"
 HelpDesc[3]="Output declarations instead of code."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [CheckSumCommandlet]
 HelpCmd=checksum
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -301,6 +318,7 @@ HelpUsage="Calculates package checksum for stat logging."
 HelpDesc[0]="packagename.u"
 HelpParm[0]="Filename to calculate the checksum from."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ResRaysCommandlet]
 HelpCmd=resrays
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
