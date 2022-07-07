@@ -59,7 +59,7 @@ This list will be updated as more mods are added.
 * **_French:_** **Hellkeeper** (Unreal and UT reviews), **Rackover/Louvenarde** (additional contributions)
 * **_Spanish:_** **Neon_Knight** (Unreal and UT reviews), **rarsonic** (additional contributions)
 * **_Italian:_** **Alby1987** (UT review), **UBerserker, BBG-(DOG)-, Lowenz** and **TaglesMalsto** (additional contributions)
-* **_Russian:_** **u.HighPriest** (localization author), **Skaarj ZR, FLAK** and **Reborn** (additional contributions)
+* **_Russian:_** **u.HighPriest** (Unreal localization), **Skaarj ZR, FLAK, ArchGrey** and **Reborn** (additional contributions)
 * **_Polish:_** **Victor Delacroix** (Unreal review), **yrex.** (additional contributions)
 * **_Portuguese:_** **Nahand** (Unreal localization), **BIr4** (Unreal review), **Naruto_9** (additional contributions)
 * **_Hungarian:_** **Relaks** (Unreal localization) **Victor Delacroix, MakeMeUnreal** and **Gabor Kovacs** (additional contributions)

@@ -1,0 +1,93 @@
+﻿[Setup]
+LocalProduct=Unreal Tournament
+DefaultFolder=C:\Program Files\Unreal Tournament
+ReadMe=Help\469ReleaseNotes.pdf
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle=""
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle=""
+ProductURL=https://www.unrealtournament.com/
+VersionURL=https://www.oldunreal.com
+; EN: Developer="Epic Games, Inc. && OldUnreal"
+Developer="Epic Games, Inc. && OldUnreal"
+DeveloperURL=https://www.oldunreal.com
+Logo=Help\Logo.bmp
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal Tournament level"
+PlayLevelCommand=""
+; EN: OpenLinkCommand="&Open this Unreal Tournament link"
+OpenLinkCommand=""
+; EN: InstallModuleCommand="&Install this Unreal Tournament module"
+InstallModuleCommand=""
+; EN: EditLevelCommand="&Edit this Unreal Tournament level"
+EditLevelCommand=""
+
+[UnrealTournamentContentGroup]
+; EN: Caption="Game Content"
+Caption=""
+; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description=""
+
+[GameGroup]
+; EN: Caption="Unreal Tournament Game"
+Caption=""
+; EN: Description="Installation is required."
+Description=""
+
+[NetGamesGroup]
+; EN: Caption="NetGames USA Stat Utils"
+Caption=""
+; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
+Description=""
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support."
+Description=""
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption=""
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description=""
+
+[PlayShortcut]
+; EN: Caption="Play Unreal Tournament"
+Caption=""
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Tournament Safe Mode"
+Caption=""
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption=""
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption=""
+
+[WebShortcut]
+; EN: Caption="OldUnreal Web Page"
+Caption=""
+
+[NetGamesShortcut]
+Caption="NetGames USA"
+
+[LocalStatsShortcut]
+; EN: Caption="View my local UT stats. [ngStats]"
+Caption=""
+
+[GlobalStatsShortcut]
+; EN: Caption="View my global UT stats. [ngWorldStats]"
+Caption=""
+
+[MPlayerShortcut]
+Caption="-"
+
+[HeatShortcut]
+Caption="-"
+
+[UninstallShortcut]
+Caption="-"

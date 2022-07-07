@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client,Compat="Win32,Win64")
+Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D=""
+; EN: DDrawMode="DirectDraw was unable to set the requested video mode."
+DDrawMode=""
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp=""
+; EN: ViewXY="Overhead map"
+ViewXY=""
+; EN: ViewXZ="XZ map"
+ViewXZ=""
+; EN: ViewYZ="YZ map"
+ViewYZ=""
+; EN: ViewOther="Viewport"
+ViewOther=""
+; EN: Color16="&16-bit color"
+Color16=""
+; EN: Color32="&32-bit color"
+Color32=""
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions=""
+
+[WindowsClient]
+; EN: ClassCaption="Standard Windows Manager"
+ClassCaption=""

@@ -1,0 +1,101 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title=""
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText=""
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName=""
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName=""
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName=""
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName=""
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName=""
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString=""
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName=""
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage=""
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName=""
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage=""
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName=""
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage=""
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString=""
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName=""
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage=""
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message=""
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName=""
+
+[locationid6]
+; EN: LocationName="Tank Flatbed"
+LocationName=""
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName=""
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName=""
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]=""
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]=""
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title=""
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText=""
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message=""
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName=""
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage=""
