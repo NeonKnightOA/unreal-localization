@@ -1,35 +1,35 @@
 ﻿[LevelInfo2]
 ; EN: Title="Demon Crater"
-Title="Démon kráter"
+Title="Démonkráter"
 ; EN: LevelEnterText="Entering the Demon Crater"
 LevelEnterText="Belépés a Démon-kráterbe"
 
 [LevelSummary]
 ; EN: Title="Demon Crater"
-Title="Démon kráter"
+Title="Démonkráter"
 ; EN: LevelEnterText="Entering the Demon Crater"
 LevelEnterText="Belépés a Démon-kráterbe"
 
 [TranslatorEvent1]
 ; EN: Message="Generator Control Panel. Generator is operational. Power output nominal."
-Message="Generátor vezérlőpult. A generátor működik. Teljesítmény névleges."
+Message="Generátor vezérlőpanel. A generátor aktív, teljesítmény a névleges szinten."
 
 [TranslatorEvent0]
 ; EN: Message="Portal Gate: Warning: not enough power to establish portal link. Activate the Generator."
-Message="Portál kapu: Figyelem: nincs elegendő energia a portál link létrehozásához. Aktiválja a Generátort."
+Message="Portál: Figyelem; nincs elég energia a portál-kapcsolat létrehozásához. Aktiválja a generátort."
 ; EN: AltMessage="Portal Gate: Link Established. Enter transport field."
-AltMessage="Portál kapu: A kapcsolat létrejött. Adja meg a szállítási mezőt."
+AltMessage="Portál: Kapcsolat létrehozva. Lépjen be az erőtérbe."
 ; EN: Hint="Activate the Generator that powers the portal to the ship."
-Hint="Aktiválja azt a generátort, amely a portált a hajóhoz irányítja."
+Hint="Aktiváld az űrhajóhoz vezető portált működtető generátort."
 
 [TranslatorEvent3]
 ; EN: Message="Generator and Loading Room."
-Message="Generátor és raktár."
+Message="Generátor és rakodótér."
 ; EN: Hint="Activate the Generator that powers the portal to the ship."
-Hint="Aktiválja azt a generátort, amely a portált a hajóhoz irányítja."
+Hint="Aktiváld az űrhajóhoz vezető portált működtető generátort."
 
 [TranslatorEvent4]
 ; EN: Message="Intruder Alert. Secure all access points, all personnel on full alert. Protect the Mother, failure results in DEATH."
-Message="Betolakodó riasztás. Biztosítsa az összes hozzáférési pontot, a teljes riasztás alatt álló személyzetet. Védje az Anyát, a kudarc halálhoz vezet."
+Message="Figyelem! Behatoló! Minden hozzáférési pontot biztosítani! Teljes riadókészültség! A Királynő védelme elsődleges, a mulasztásokért HALÁLBÜNTETÉS jár!"
 ; EN: Hint="Activate the Generator that powers the portal to the ship."
-Hint="Aktiválja azt a generátort, amely a portált a hajóhoz irányítja."
+Hint="Aktiváld az űrhajóhoz vezető portált működtető generátort."
