@@ -1,21 +1,23 @@
 ﻿[LevelInfo5]
-Title="Gala's Peak"
+; EN: Title="Gala's Peak"
+Title="Vrcholky pohoří Gala"
 ; EN: LevelEnterText="Entering Gala's Peak"
-LevelEnterText="Vstup do Gala's Peak"
+LevelEnterText="Vstup na vrchol Gala"
 
 [LevelSummary]
-Title="Gala's Peak"
+; EN: Title="Gala's Peak"
+Title="Vrcholky pohoří Gala"
 ; EN: LevelEnterText="Entering Gala's Peak"
-LevelEnterText="Vstup do Gala's Peak"
+LevelEnterText="Vstup na vrchol Gala"
 
 [TranslatorEvent2]
 ; EN: Message="LOG: R. Wisnewski: Damn, it's cold. The walkway outside is impassable. I almost fell off twice, and it's a long way down. I'll try again later. I have a feeling it's going to be worth the effort to reach that structure up ahead."
-Message="LOG: R. Wisnewski: Sakra, je zima. Chodník venku je neprůchodný. Málem jsem dvakrát spadl a je to dlouhá cesta dolů. Zkusím to znovu později. Mám pocit, že to bude stát za tu námahu dosáhnout této struktury dopředu."
+Message="LOG: R. Wisnewski: Sakra, to je ale zima. Ten ochoz venku je neschůdný. Dvakrát jsem málem spadl. Je to celkem výška. Zkusím to později znovu. Cítím, že mě to bude stát hodně usilí, abych se dostal až k té stavbě tam vepředu."
 
 [TranslatorEvent1]
 ; EN: Message="System: Teleporter Online."
-Message="Systém: Teleportér online."
+Message="System: Teleport je zapnutý."
 
 [TranslatorEvent0]
 ; EN: Message="System: Teleporter Offline. Activation required via underground control unit."
-Message="Systém: Teleportér offline. Je nutná aktivace prostřednictvím podzemní řídicí jednotky."
+Message="System: Teleport je vypnutý. Zapnutí je třeba provést v podzemním řídícím centru."
