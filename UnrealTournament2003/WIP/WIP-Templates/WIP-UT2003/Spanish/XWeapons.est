@@ -20,13 +20,13 @@ Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.SniperRifle,Descriptio
 Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.TransLauncher,Description="El Desplazador fue originalmente diseñado por el sector de I&D de la Corporación Liandri para facilitar el rápido rescate de mineros durante colapsos de túneles y otras emergencias. Esta tecnología ha salvado incontables vidas, pero no sin un precio. La rápida desintegración y reconstitución del organismo objetivo puede tener varios efectos secundarios indeseables, incluyendo un aumento en agresión y paranoia, así como posibilidades incrementadas de paros respiratorios y cardíacos. La última versión del Desplazador incluye una cámara operada por control remoto, que es especialmente útil cuando se exploran áreas de contención. Obsérvese que mientras se está mirando por la cámara, el usuario queda efectivamente ciego a su entorno más inmediato.")
 
 [AssaultAmmoPickup]
-PickupMessage="Has cogido munición para el rifle."
+PickupMessage="Has recogido munición para el rifle."
 
 [AssaultRifle]
 ItemName="Rifle de asalto"
 
 [AssaultRiflePickup]
-PickupMessage="Has cogido el rifle de asalto."
+PickupMessage="Has recogido el rifle de asalto."
 
 [BallAmmo]
 ItemName="Munición para el Lanzabolas"
@@ -44,7 +44,7 @@ PickupMessage="Has recogido munición para el bio-rifle"
 ItemName="Bio-rifle"
 
 [BioRiflePickup]
-PickupMessage="Tienes el bio-rifle"
+PickupMessage="Has recogido el bio-rifle"
 
 [DamTypeAssaultBullet]
 DeathString="%o ha sido ventilado/a por el rifle de asalto de %k."
@@ -146,7 +146,7 @@ ItemName="Cartuchos de Flak"
 PickupMessage="Has recogido 10 cartuchos de Flak Cannon."
 
 [FlakCannonPickup]
-PickupMessage="Tienes el Flak Cannon."
+PickupMessage="Has recogido el Flak Cannon."
 
 [GrenadeAmmo]
 ItemName="Granadas"
@@ -161,7 +161,7 @@ PickupMessage="Has recogido 30 cargas."
 ItemName="Enlazadora"
 
 [LinkGunPickup]
-PickupMessage="Tienes la enlazadora."
+PickupMessage="Has recogido la enlazadora."
 
 [Minigun]
 ItemName="Minigun"
@@ -174,7 +174,7 @@ ItemName="Balas"
 PickupMessage="Has recogido 50 balas."
 
 [MinigunPickup]
-PickupMessage="Tienes la Minigun."
+PickupMessage="Has recogido la Minigun."
 
 [MutArena]
 FriendlyName="Arena"
@@ -188,7 +188,7 @@ Description="Las superarmas han sido eliminadas del mapa."
 ItemName="Emisor de iones"
 
 [PainterPickup]
-PickupMessage="Tienes el emisor de iones."
+PickupMessage="Has recogido el emisor de iones."
 
 [Redeemer]
 ItemName="Redentor"
@@ -197,7 +197,7 @@ ItemName="Redentor"
 ItemName="Munición para Redentor"
 
 [RedeemerPickup]
-PickupMessage="Tienes a Redentor."
+PickupMessage="Has recogido el Redentor."
 
 [RocketAmmo]
 ItemName="Cohetes"
@@ -209,7 +209,7 @@ PickupMessage="Has recogido un paquete de cohetes."
 ItemName="Lanzacohetes"
 
 [RocketLauncherPickup]
-PickupMessage="Tienes el lanzacohetes."
+PickupMessage="Has recogido el lanzacohetes."
 
 [ShieldAmmo]
 ItemName="Escudo"
@@ -218,7 +218,7 @@ ItemName="Escudo"
 ItemName="Cañón protector"
 
 [ShieldGunPickup]
-PickupMessage="Tienes el cañón protector."
+PickupMessage="Has recogido el cañón protector."
 
 [ShockAmmo]
 ItemName="Núcleos de choque"
@@ -230,7 +230,7 @@ PickupMessage="Has recogido un núcleo de choque."
 ItemName="Rifle de choque"
 
 [ShockRiflePickup]
-PickupMessage="Tienes el rifle de choque."
+PickupMessage="Has recogido el rifle de choque."
 
 [SniperAmmo]
 ItemName="Cargas eléctricas"
@@ -242,13 +242,13 @@ PickupMessage="Has recogido 10 cargas eléctricas."
 ItemName="Arma eléctrica"
 
 [SniperRiflePickup]
-PickupMessage="Tienes el arma eléctrica"
+PickupMessage="Has recogido el arma eléctrica"
 
 [SuperShockRifle]
 ItemName="Súper-rifle de choque"
 
 [SuperShockRiflePickup]
-PickupMessage="Tienes el súper-rifle de choque."
+PickupMessage="Has recogido el súper-rifle de choque."
 
 [TransAmmo]
 ItemName="Munición para el Desplazador"

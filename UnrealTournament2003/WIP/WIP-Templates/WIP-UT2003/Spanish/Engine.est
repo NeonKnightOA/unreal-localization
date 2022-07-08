@@ -284,7 +284,7 @@ Description="Descripción"
 TauntAnimNames=()
 
 [Pickup]
-PickupMessage="Recogido un objeto."
+PickupMessage="Has recogido un objeto."
 
 [PlayerController]
 QuickSaveString="Guardado rápido"
@@ -346,7 +346,7 @@ LocationName="sin especificar"
 MessageNoAmmo=" no tiene munición"
 
 [WeaponPickup]
-PickupMessage="Has conseguido un arma"
+PickupMessage="Has recogido un arma"
 
 [XBoxPlayerInput]
 LookPresets[0].PresetName="Lineal"

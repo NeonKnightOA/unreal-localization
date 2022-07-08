@@ -436,7 +436,7 @@ Msg_EditingMapList="Ahora editando lista de mapas"
 
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo."
-PickupMessage="Recogiste munición."
+PickupMessage="Has recogido munición."
 
 [BroadcastHandler]
 ; EN: BHDisplayText[0]="Mute Spectators"
@@ -743,7 +743,7 @@ Desc="N / A"
 
 [Pickup]
 ; EN: PickupMessage="Snagged an item."
-PickupMessage="Cogió un artículo."
+PickupMessage="Has recogido un artículo."
 
 [PlayerController]
 ; EN: QuickSaveString="Quick Saving"
@@ -867,7 +867,7 @@ MessageNoAmmo=" no tiene munición"
 
 [WeaponPickup]
 ; EN: PickupMessage="You got a weapon"
-PickupMessage="Tienes un arma"
+PickupMessage="Has recogido un arma"
 
 [XBoxPlayerInput]
 ; EN: LookPresets[0].PresetName="Linear"

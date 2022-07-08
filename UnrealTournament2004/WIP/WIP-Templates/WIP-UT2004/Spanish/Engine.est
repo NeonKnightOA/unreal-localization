@@ -255,7 +255,7 @@ Msg_MapListRemoved="Lista de mapas %listname% eliminada satisfactoriamente de ti
 Msg_EditingMapList="Editando lista de mapas"
 
 [Ammo]
-PickupMessage="Ha recogido munición."
+PickupMessage="Has recogido munición."
 
 [BroadcastHandler]
 BHDisplayText[0]="Espectadores mudos"
@@ -437,7 +437,7 @@ DefaultListExists="¡El tipo de juego ya tiene una lista por defecto!"
 Desc="N/A"
 
 [Pickup]
-PickupMessage="Recogido un objeto"
+PickupMessage="Has recogido un objeto"
 
 [PlayerController]
 QuickSaveString="Guardar rápido"
@@ -519,7 +519,7 @@ LocationName="sin especificar"
 MessageNoAmmo=" sin munición"
 
 [WeaponPickup]
-PickupMessage="Conseguiste arma"
+PickupMessage="Has recogido un arma"
 
 [XBoxPlayerInput]
 LookPresets[0].PresetName="Lineal"
