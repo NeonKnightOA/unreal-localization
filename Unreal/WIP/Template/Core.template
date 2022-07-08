@@ -4,7 +4,7 @@ Preferences=(Caption="File System",Parent="Advanced",Langcaption="",Class=Core.S
 
 [Language]
 ; HOW DOES IT WORK: Language: translated name of your language (i.e. "Español" for "Spanish") - LangId and SubLangId are pulled off from this document:
-; https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-getuserdefaultlangid
+; https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c
 ; Make sure you pick the right pair of values for your intended language.
 ; More info here: https://www.oldunreal.com/wiki/index.php?title=Oldunreal_Localization_Project#Adding_new_languages
 Language=""
