@@ -2,7 +2,8 @@
 ; Object=(Name=XVehicles.XVehiclesHUD,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesHUD,<Insert description here>")
 ; Object=(Name=XVehicles.XVehiclesMH,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesMH,<Insert description here>")
 ; Object=(Name=XVehicles.XVehiclesCTF,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesCTF,<Insert description here>")
-; Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesSummon,<Insert description here>")
+; EN: Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehicles Debug Summon,Adds mutator commands for manual vehicle spawn in the map.")
+Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="Invocador de Desarrollo XVehicles,Agrega comandos manuales de mutación que permiten hacer aparecer vehículos en el mapa.")
 Object=(Name=XVehicles.DriverWeapon,Class=Class,MetaClass=Engine.Weapon)
 
 [Vehicle]
@@ -19,73 +20,73 @@ ItemName="Vehículo"
 
 [TreadCraftPhys]
 ; EN: VehicleName="Tread Craft"
-VehicleName=""
+VehicleName="Vehículo de Desplazamiento"
 ; EN: TranslatorDescription="This is a Tread Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys to turn this vehicle and Move Forward/Backward keys to accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Este es un Vehículo de Desplazamiento, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Utiliza tus teclas de Despl. Lateral para girar este vehículo y las teclas de Movimiento Adelante/Atrás para acelerar/desacelerar. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Tread craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas del Vehículo de Desplazamiento:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
 
 [WheeledCarPhys]
 ; EN: VehicleName="Wheeled Car"
-VehicleName=""
+VehicleName="Vehículo con Ruedas"
 ; EN: TranslatorDescription="This is a wheeled vehicle, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys to turn this vehicle and Move Forward/Backward keys to accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Este es un Vehículo con Ruedas, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Utiliza tus teclas de Despl. Lateral para girar este vehículo y las teclas de Movimiento Adelante/Atrás para acelerar/desacelerar. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Wheeled car keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to turn|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% to change camera|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas del Vehículo con Ruedas:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
 
 [FlightCraftPhys]
 ; EN: VehicleName="Flight Craft"
-VehicleName=""
+VehicleName="Vehículo Aéreo"
 ; EN: TranslatorDescription="This is a Flight Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate while on ground, if you accelerated fast enough you can take off and steer this plane through air. To leave this vehicle, press your [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Este es un Vehículo Aéreo, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Utiliza tus teclas de Despl. Lateral y Movimiento Adelante/Atrás para mov. lateral/acelerar/desacelerar cuando estés en tierra, si aceleras lo suficiente podrás despegar y girar este plano por el aire. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Flight craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe (when not in air)|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas del Vehículo Aéreo:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para girar (en tierra)|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%ThrowWeapon% para salir del vehículo"
 
 [HoverCraftPhys]
 ; EN: VehicleName="Hover Craft"
-VehicleName=""
+VehicleName="Vehículo Aerodeslizador"
 ; EN: TranslatorDescription="This is a Hover Craft, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Este es un Vehículo Aerodeslizador, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Utiliza tus teclas de Despl. Lateral y Movimiento Adelante/Atrás para mov. lateral/acelerar/desacelerar. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Hover craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%,%StrafeRight% to strafe|%Jump% to jump with the vehicle|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas del Vehículo Aerodeslizador:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para mov. lateral|%Jump% para hacer que el vehículo salte|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%PrevWeapon%, %NextWeapon%, %SwitchToBestWeapon% para cambiar la cámara|%ThrowWeapon% para salir del vehículo"
 
 [ChopperPhys]
 ; EN: VehicleName="Helicopter"
-VehicleName=""
+VehicleName="Helicóptero"
 ; EN: TranslatorDescription="This is a chopper vehicle, you can fire different firemodes using [Fire] and [AltFire] buttons. To move higher or lover use [Jump] and [Crouch] buttons and to move around use movement keys. To leave this vehicle press [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Este es un Helicóptero, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Para aumentar o disminuir la altitud, utiliza las teclas de [Saltar] y [Agacharse], y para moverte utiliza las teclas de movimiento. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Chopper craft keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas del Helicóptero:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para mov. lateral|%Jump%, %Duck% para ascender/descender|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%ThrowWeapon% para salir del vehículo"
 
 [StationaryPhys]
 ; EN: VehicleName="Stationary Turret"
-VehicleName=""
+VehicleName="Torreta Estacionaria"
 ; EN: TranslatorDescription="This is a stationary turret. You can fire using [Fire] and [AltFire] and zoom in and out using movement keys. To leave this vehicle press [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Esta es una Torreta Estacionaria, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego y las teclas de movimiento para aumentar/disminuir el zoom. Para abandonarla, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Turret keys:|%Fire% to fire, %AltFire% to alt fire|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas de la Torreta:|%Fire% para disparar, %AltFire% para disp. alternativo|%ThrowWeapon% para salir del vehículo"
 
 [SubmarinePhys]
 ; EN: VehicleName="Submarine"
-VehicleName=""
+VehicleName="Submarino"
 ; EN: TranslatorDescription="This is a Submarine, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Este es un Submarino, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Utiliza tus teclas de Despl. Lateral y Movimiento Adelante/Atrás para mov. lateral/acelerar/desacelerar. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Submarine keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas del Submarino:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para mov. lateral|%Jump%, %Duck% para ascender/descender|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%ThrowWeapon% para salir del vehículo"
 
 [AirShipPhys]
 ; EN: VehicleName="Air Ship"
-VehicleName=""
+VehicleName="Nave Aérea"
 ; EN: TranslatorDescription="This is a Air Ship, press [Fire] or [AltFire] to fire the different firemodes. Use your Strafe keys and Move Forward/Backward keys to strafe/accelerate/deaccelerate. To leave this vehicle, press your [ThrowWeapon] key."
-TranslatorDescription=""
+TranslatorDescription="Esta es una Nave Aérea, presiona [Disparo] o [Disparo Alternativo] para los diferentes modos de fuego. Utiliza tus teclas de Despl. Lateral y Movimiento Adelante/Atrás para mov. lateral/acelerar/desacelerar. Para abandonar este vehículo, presiona la tecla de [Arrojar Arma]."
 ; IMPORTANT: %MoveForward%, %MoveBackward%, %StrafeLeft%, %StrafeRight%, %Jump%, %Duck%, %Fire%, %AltFire% and %ThrowWeapon% are key variables that MUST NOT be translated, otherwise the line will be screwed up in-game. Also to be respected are the | separating the sections.
 ; EN: VehicleKeyInfoStr="Airship keys:|%MoveForward%,%MoveBackward% to accelerate/deaccelerate|%StrafeLeft%, %StrafeRight% to strafe|%Jump%, %Duck% to move up/down|%Fire% to fire, %AltFire% to alt fire|Number keys to switch seats|%ThrowWeapon% to exit the vehicle"
-VehicleKeyInfoStr=""
+VehicleKeyInfoStr="Teclas de la Nave Aérea:|%MoveForward%,%MoveBackward% para acelerar/desacelerar|%StrafeLeft%, %StrafeRight% para mov. lateral|%Jump%, %Duck% para ascender/descender|%Fire% para disparar, %AltFire% para disp. alternativo|Teclas numéricas para cambiar de asiento|%ThrowWeapon% para salir del vehículo"
 

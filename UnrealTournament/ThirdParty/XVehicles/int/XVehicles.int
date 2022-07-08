@@ -1,8 +1,8 @@
 [Public]
-Object=(Name=XVehicles.XVehiclesHUD,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesHUD,<Insert description here>")
-Object=(Name=XVehicles.XVehiclesMH,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesMH,<Insert description here>")
-Object=(Name=XVehicles.XVehiclesCTF,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesCTF,<Insert description here>")
-Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesSummon,<Insert description here>")
+; Object=(Name=XVehicles.XVehiclesHUD,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesHUD,<Insert description here>")
+; Object=(Name=XVehicles.XVehiclesMH,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesMH,<Insert description here>")
+; Object=(Name=XVehicles.XVehiclesCTF,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesCTF,<Insert description here>")
+Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehicles Debug Summon,Adds mutator commands for manual vehicle spawn in the map.")
 Object=(Name=XVehicles.DriverWeapon,Class=Class,MetaClass=Engine.Weapon)
 
 [Vehicle]

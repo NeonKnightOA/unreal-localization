@@ -1,5 +1,6 @@
 [Public]
-; Object=(Name=FixGun.FixGunMutator,Class=Class,MetaClass=Engine.Mutator,Description="FixGunMutator,<Insert description here>")
+; EN: Object=(Name=FixGun.FixGunMutator,Class=Class,MetaClass=Engine.Mutator,Description="Fix Gun,Adds a fixgun in levels where there are none.")
+Object=(Name=FixGun.FixGunMutator,Class=Class,MetaClass=Engine.Mutator,Description="Arma de Reparación,Agrega un arma de reparación en los niveles en donde no aparece.")
 Object=(Name=FixGun.FixGun,Class=Class,MetaClass=Engine.Weapon)
 
 [FixGun]
