@@ -5,7 +5,7 @@ This repository holds text localizations for Unreal Engine based games. Currentl
 
 **NOT ALL LANGUAGES ARE COMPLETE**,. A language is considered complete when it can work without most problems under the game it's meant to be on. Completed languages are located in the `SystemLocalized` folder. Currently that honor befells to English (obviously), German, French, Spanish, Italian, Russian, Polish (Unreal only), Portuguese (Unreal only), Swedish (Unreal only), Catalan, Dutch and Norwegian (Unreal only). The rest of the languages, on the other hand, vary, from requiring a lot of work or be created from scratch, to just requiring the new strings to be translated. This is a long-time project, so expect incomplete stuff. Help is welcome in any regard.
 
-Also note that **the list isn't restricted to the named games and mods**. Expect more mods and games to be added as the project grows. Bear in mind, however, that we priorize **Unreal and Unreal Tournament** due to them having actual Community Patches being worked on (more specifically, [Unreal v227](https://www.oldunreal.com/phpBB3/viewforum.php?f=51) and [UT v469](https://github.com/OldUnreal/UnrealTournamentPatches)). Furthermore, localization of these games is being done specifically on these versions, so **don't expect them to work on v226* and v436/451 without tweaks**.
+Also note that **the list isn't restricted to the named games and mods**. Expect more mods and games to be added as the project grows. Bear in mind, however, that we prioritize **Unreal and Unreal Tournament** due to them having actual Community Patches being worked on (more specifically, [Unreal v227](https://www.oldunreal.com/phpBB3/viewforum.php?f=51) and [UT v469](https://github.com/OldUnreal/UnrealTournamentPatches)). Furthermore, localization of these games is being done specifically on these versions, so **don't expect them to work on v226\* and v436/451 without tweaks**.
 
 ## Cool! So, how do I help?
 
@@ -47,38 +47,9 @@ This list will be updated as more mods are added.
 * _**Unreal**_: The game itself.
 * _**Unreal Tournament**_: _Chaos: UT_, _Monster Hunt_, _XVehicles_.
 
-## _Unreal_ and _Unreal Tournament_ credits
+## Credits
 
-### General
-* **Epic Games/Digital Extremes/Legend Entertainment:** Original English/German/French/Spanish/Italian localizations
-* **Smirftsch:** Initial project coordination.
-* **Victor Delacroix:** Early project coordination.
-* **Hellkeeper:** Early project coordination.
-* **Neon_Knight:** Current project coordination.
-* **Buggie:** Localization templates for all 15 languages.
-
-### Language-specific
-* **_German:_** **Smirftsch, Jan "eGo" Urbansky, ividyon** and **Sly.** (review and contributions)
-* **_French:_** **Hellkeeper** (Unreal and UT reviews), **Rackover/Louvenarde** (additional contributions)
-* **_Spanish:_** **Neon_Knight** (Unreal and UT reviews), **rarsonic** (additional contributions)
-* **_Italian:_** **Alby1987** (UT review), **UBerserker, BBG-(DOG)-, Lowenz** and **TaglesMalsto** (additional contributions)
-* **_Russian:_** **u.HighPriest** (Unreal localization), **Skaarj ZR, FLAK, ArchGrey** and **Reborn** (additional contributions)
-* **_Polish:_** **Victor Delacroix** (Unreal review), **yrex.** (additional contributions)
-* **_Portuguese:_** **Nahand** (Unreal localization), **BIr4** (Unreal review), **Naruto_9** (additional contributions)
-* **_Hungarian:_** **Relaks** (Unreal localization) **Victor Delacroix, MakeMeUnreal** and **Gabor Kovacs** (additional contributions)
-* **_Czech:_** **tomcat** (Unreal localization), **Victor Delacroix and Nicola** (additional contributions)
-* **_Swedish:_** **ElectricIce** (additional contributions)
-* **_Catalan:_** **rarsonic** (additional contributions)
-* **_Dutch:_** **Rubie** (Unreal review), **bennytrt and Hyper** (additional contributions)
-* **_Norwegian:_** **Excalidar** (additional contributions)
-* **_Japanese:_** **Vapor Mermaid** (localization retriever)
-
-### UT2004 Localization credits
-* **Epic Games/Digital Extremes/Scion Studios/Streamline Studios:** Original English/German/French/Spanish/Italian/Korean localizations
-* **Neon_Knight:** Project coordination.
-* **Buggie:** Localization templates for all 15 languages.
-* **Rasiel:** Original Russian localization
-* **Cobalt:** Russian, additional contributions
+See CREDITS.md for them.
 
 ## Links of interest
 * [OldUnreal](https://www.oldunreal.com/) - [Forums](https://www.oldunreal.com/phpBB3/) - [Wiki](https://www.oldunreal.com/wiki/) - [Discord](https://discord.gg/thURucxzs6)
