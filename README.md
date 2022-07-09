@@ -24,6 +24,8 @@ That's the cleanest way to create your series of changes (it's NOT a good idea t
 
 Sorry. After all the work we did, we're using GitHub exclusively. We used to work in the Wiki, but the bulk of the activity took place here, and, honestly, keeping the localization files in the repo is easier said and done here than in the Wiki, where we don't have a text exporting feature.
 
+You can, however, suggest new lines, fixes, corrections, etc. either [on the Forums](https://www.oldunreal.com/phpBB3/) (provided you have an account there) or in the #localization area of [OldUnreal's Discord channel](https://discord.gg/thURucxzs6).
+
 ## Supported games
 
 This list will be updated as more games are added.
