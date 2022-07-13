@@ -449,6 +449,10 @@ VSyncStates[2]="アダプティブ"
 VSyncStates[3]="ドライバー制御"
 ; EN: VSyncStates[4]="Not Supported"
 VSyncStates[4]="サポートされていません"
+; EN: ConfirmSettingsRestartTitle="Video Settings Changed"
+ConfirmSettingsRestartTitle="ビデオ設定が変更されました"
+; EN: ConfirmSettingsRestartText="Your updated video settings will take effect after restarting the game."
+ConfirmSettingsRestartText="更新されたビデオ設定は、ゲームを再起動した後に有効になります。"
 
 [UMenuPlayerSetupClient]
 ; EN: NameText="Name:"
@@ -1235,6 +1239,10 @@ OutputDeviceText="出力機器"
 OutputDeviceHelp="これは現在のオーディオ出力デバイスです。"
 ; EN: OutputDeviceDefault="System Default"
 OutputDeviceDefault="システムのデフォルト"
+; EN: ConfirmSettingsRestartTitle="Audio Settings Changed"
+ConfirmSettingsRestartTitle="オーディオ設定が変更されました"
+; EN: ConfirmSettingsRestartText="Your updated audio settings will take effect after restarting the game."
+ConfirmSettingsRestartText="更新されたオーディオ設定は、ゲームを再起動した後に有効になります。"
 
 [UMenuNewGameClientWindow]
 ; EN: SkillText="Skill Level:"
@@ -1288,6 +1296,8 @@ VideoTab="ビデオ"
 ; EN: NetworkTab="Network"
 NetworkTab="通信網"
 HUDTab="HUD"
+; EN: AdvancedTab="Advanced"
+AdvancedTab="詳細"
 
 [UMenuHUDConfigCW]
 ; EN: HUDConfigText="HUD Layout"
@@ -1412,3 +1422,13 @@ DisabledHelp="このメニューは、Unreal Tournamentv469では無効になっ
 [UTCreditsWindow]
 ; EN: WindowTitle="Unreal Tournament Credits"
 WindowTitle="UnrealTournamentクレジット"
+
+[UMenuAdvancedClientWindow]
+; EN: HelpText[0]="The advanced preferences window is not available on your platform."
+HelpText[0]="お使いのプラットフォームでは詳細設定ウィンドウを使用できません。"
+; EN: HelpText[1]=" "
+HelpText[1]=" "
+; EN: HelpText[2]="If you want to modify advanced game settings, then please close the game and edit the following ini files:"
+HelpText[2]="ゲームの詳細設定を変更する場合は、ゲームを閉じて、次のiniファイルを編集してください。"
+; EN: HelpText[3]=" "
+HelpText[3]=" "

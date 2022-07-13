@@ -99,6 +99,12 @@ NameArticle=" NS "
 ; EN: MenuName="Elite Krall"
 MenuName="エリートクラル"
 
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" NS "
+; EN: MenuName="Legless Krall"
+MenuName="脚のないクラル"
+
 [Mercenary]
 ; EN: NameArticle=" a "
 NameArticle=" NS "
@@ -375,6 +381,10 @@ Message4="しかし、あなたは誰かがあなたの小さな船にやって�
 Message5="それまで、あなたは漂流して希望します。"
 ; EN: Message6="To Be Continued..."
 Message6="つづく..."
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="Blobによって腐食されました"
 
 [KingOfTheHill]
 ; EN: ClassCaption="King of the Hill"
