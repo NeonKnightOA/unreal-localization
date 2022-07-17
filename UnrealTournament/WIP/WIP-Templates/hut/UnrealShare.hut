@@ -1140,24 +1140,15 @@ MenuList[10]="Barátságos tűzmérleg"
 [UnrealCoopGameOptions]
 ; EN: HelpMessage[3]="Skill level setting."
 HelpMessage[3]="Képességi szint beállítása."
-; EN: HelpMessage[4]="If enabled, no friendly fire is allowed."
-HelpMessage[4]="Ha engedélyezve van, barátságos tűz nem megengedett."
-; EN: HelpMessage[5]="If enabled, weapons respawn instantly, but can only be picked up once by a given player."
-HelpMessage[5]="Ha engedélyezve van, akkor a fegyverek azonnal újjáélednek, de az adott játékos csak egyszer veheti fel őket."
-; EN: HelpMessage[6]="If enabled, weapons will be respawned instantly."
-HelpMessage[6]="Ha engedélyezve van, akkor a fegyvereket azonnal újrakészítik."
-; EN: HelpMessage[7]="If enabled, items will be respawned instantly."
-HelpMessage[7]="Ha engedélyezve van, akkor az elemeket azonnal újracsiszoljuk."
 ; EN: MenuList[3]="Difficulty"
 MenuList[3]="Nehézség"
-; EN: MenuList[4]="No Friendly Fire"
-MenuList[4]="Nincs barátságos tűz"
-; EN: MenuList[5]="Weapons Stay"
-MenuList[5]="Fegyverek maradjanak"
-; EN: MenuList[6]="Instant Weapon Respawn"
-MenuList[6]="Azonnali fegyver újjáélesztése"
-; EN: MenuList[7]="Instant Item Respawn"
-MenuList[7]="Azonnali elem újjáélesztése"
+; EN: Difficulties[0]="Easy"
+Difficulties[0]="Könnyű"
+; EN: Difficulties[1]="Medium"
+Difficulties[1]="Közepes"
+; EN: Difficulties[2]="Hard"
+Difficulties[2]="Nehéz"
+Difficulties[3]="Unreal"
 
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
@@ -1206,3 +1197,129 @@ ItemName="Támadás mellény"
 [Hawk]
 ; EN: MenuName="Hawk"
 MenuName="Sólyom"
+
+[Cow]
+; EN: MenuName="Nali Cow"
+MenuName="Nali Tehén"
+; EN: NameArticle=" a "
+NameArticle=" egy "
+
+[DevilFish]
+; EN: MenuName="DevilFish"
+MenuName="Cápa"
+; EN: NameArticle=" a "
+NameArticle=" egy "
+
+[BabyCow]
+; EN: MenuName="Baby Cow"
+MenuName="Bébi Tehén"
+; EN: NameArticle=" a "
+NameArticle=" egy "
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="Férfi 3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="1. nő"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Bird"
+MenuName="Madár"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Biterfish"
+MenuName="Harapós Hal"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Biterfish"
+MenuName="Harapós Hal"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Brute"
+MenuName="Vadállat"
+
+[CaveManta]
+; EN: NameArticle=" a "
+NameArticle=" a "
+; EN: MenuName="Cave Manta"
+MenuName="Barlangtakarót"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Fly"
+MenuName="Légy"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Lesser Brute"
+MenuName="Kisebb Állat"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Manta"
+MenuName="Takaró"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Nali Priest"
+MenuName="Nali Pap"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Nali Rabbit"
+MenuName="Nali Nyúl"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarj Cserkész"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj Harcos"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Slith"
+MenuName="Szalamandra"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" egy "
+; EN: MenuName="Tentacle"
+MenuName="Csáp"
+
+[WaterZone]
+; EN: ZoneName="Underwater"
+ZoneName="Viz Alatti"

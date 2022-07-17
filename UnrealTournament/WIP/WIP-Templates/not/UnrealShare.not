@@ -1120,22 +1120,15 @@ MenuList[10]="Vennlig brannskala"
 [UnrealCoopGameOptions]
 ; EN: HelpMessage[3]="Skill level setting."
 HelpMessage[3]="Innstilling av ferdighetsnivå."
-; EN: HelpMessage[4]="If enabled, no friendly fire is allowed."
-HelpMessage[4]="Hvis aktivert, er ingen vennlig brann tillatt."
-; EN: HelpMessage[5]="If enabled, weapons respawn instantly, but can only be picked up once by a given player."
-HelpMessage[5]="Hvis aktivert, reagerer våpen umiddelbart, men kan bare hentes en gang av en gitt spiller."
-; EN: HelpMessage[6]="If enabled, weapons will be respawned instantly."
-HelpMessage[6]="Hvis aktivert, vil våpnene gjenopprettes umiddelbart."
-; EN: HelpMessage[7]="If enabled, items will be respawned instantly."
-HelpMessage[7]="Hvis det er aktivert, gjenopprettes elementene umiddelbart."
 ; EN: MenuList[3]="Difficulty"
 MenuList[3]="Vanskelighet"
-; EN: MenuList[4]="No Friendly Fire"
-MenuList[4]="Ingen vennlig brann"
-; EN: MenuList[5]="Weapons Stay"
-MenuList[5]="Våpen blir"
-MenuList[6]="Instant Weapon Respawn"
-MenuList[7]="Instant Item Respawn"
+; EN: Difficulties[0]="Easy"
+Difficulties[0]="Enkelt"
+; EN: Difficulties[1]="Medium"
+Difficulties[1]="Middels"
+; EN: Difficulties[2]="Hard"
+Difficulties[2]="Hard"
+Difficulties[3]="Unreal"
 
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
@@ -1183,3 +1176,129 @@ ItemName="Assault Vest"
 [Hawk]
 ; EN: MenuName="Hawk"
 MenuName="Hauk"
+
+[Cow]
+; EN: MenuName="Nali Cow"
+MenuName="Nali Ku"
+; EN: NameArticle=" a "
+NameArticle=" en "
+
+[DevilFish]
+; EN: MenuName="DevilFish"
+MenuName="Hai"
+; EN: NameArticle=" a "
+NameArticle=" en "
+
+[BabyCow]
+; EN: MenuName="Baby Cow"
+MenuName="Babyku"
+; EN: NameArticle=" a "
+NameArticle=" en "
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="Mann 3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="Kvinne 1"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Bird"
+MenuName="Fugl"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Biterfish"
+MenuName="Bitende Fisk"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Biterfish"
+MenuName="Bitende Fisk"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Brute"
+MenuName="Brute"
+
+[CaveManta]
+; EN: NameArticle=" the"
+NameArticle=" "
+; EN: MenuName="Cave Manta"
+MenuName="Huleteppet"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Fly"
+MenuName="Flue"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Lesser Brute"
+MenuName="Mindre Brute"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Manta"
+MenuName="Teppe"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Nali Priest"
+MenuName="Nali-Prest"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Nali Rabbit"
+MenuName="Nali Kanin"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarj-Speider"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj Kriger"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Slith"
+MenuName="Salamander"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" en "
+; EN: MenuName="Tentacle"
+MenuName="Tentakel"
+
+[WaterZone]
+; EN: ZoneName="Underwater"
+ZoneName="Under Vann"

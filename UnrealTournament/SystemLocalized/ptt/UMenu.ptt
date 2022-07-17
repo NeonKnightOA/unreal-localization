@@ -428,6 +428,24 @@ InGameFontScalingHelp="Se marcado, você pode controlar a escala de suas fontes 
 InGameFontScalingSliderText="Fator de escala da fonte"
 ; EN: InGameFontScalingSliderHelp="Adjust the scale of the in-game fonts."
 InGameFontScalingSliderHelp="Ajuste a escala das fontes do jogo."
+; EN: VSyncText="VSync"
+VSyncText="Sincronização vertical"
+; EN: VSyncHelp="VSync synchronizes the frame rate of the game with the refresh rate of your monitor. This can reduce screen tearing."
+VSyncHelp="Sincroniza a taxa de quadros do jogo com a taxa de atualização do seu monitor. Isso pode reduzir o rasgo da tela."
+; EN: ConfirmSettingsRestartTitle="Video Settings Changed"
+ConfirmSettingsRestartTitle="Configurações de vídeo alteradas"
+; EN: ConfirmSettingsRestartText="Your updated video settings will take effect after restarting the game."
+ConfirmSettingsRestartText="Suas configurações de vídeo atualizadas terão efeito após reiniciar o jogo."
+; EN: VSyncStates[0]="Disabled"
+VSyncStates[0]="Desativado"
+; EN: VSyncStates[1]="Enabled"
+VSyncStates[1]="Ativado"
+; EN: VSyncStates[2]="Adaptive"
+VSyncStates[2]="Adaptável"
+; EN: VSyncStates[3]="Driver-Controlled"
+VSyncStates[3]="Controlado por Driver"
+; EN: VSyncStates[4]="Not Supported"
+VSyncStates[4]="Não suportado"
 
 [UMenuPlayerSetupClient]
 ; EN: NameText="Name:"
@@ -1132,6 +1150,16 @@ VoiceMessagesHelp="Se marcada, você ouvirá mensagens de voz e comandos de outr
 MessageBeepText="Bip de mensagem"
 ; EN: MessageBeepHelp="If checked, you will hear a beep sound when chat message received."
 MessageBeepHelp="Se marcada, você ouvirá um som de bipe quando a mensagem de bate-papo for recebida."
+; EN: OutputDeviceText="Output Device"
+OutputDeviceText="Dispositivo de Saída"
+; EN: OutputDeviceHelp="This is your current audio output device."
+OutputDeviceHelp="Este é o seu dispositivo de saída de áudio atual."
+; EN: OutputDeviceDefault="System Default"
+OutputDeviceDefault="Padrão do Sistema"
+; EN: ConfirmSettingsRestartTitle="Audio Settings Changed"
+ConfirmSettingsRestartTitle="Configurações de áudio alteradas"
+; EN: ConfirmSettingsRestartText="Your updated audio settings will take effect after restarting the game."
+ConfirmSettingsRestartText="Suas configurações de áudio atualizadas terão efeito após reiniciar o jogo."
 
 [UMenuNewGameClientWindow]
 ; EN: SkillText="Skill Level:"
@@ -1185,6 +1213,8 @@ VideoTab="Vídeo"
 ; EN: NetworkTab="Network"
 NetworkTab="Rede"
 HUDTab="HUD"
+; EN: AdvancedTab=Advanced
+AdvancedTab="Avançado"
 
 [UMenuHUDConfigCW]
 ; EN: HUDConfigText="HUD Layout"
@@ -1308,3 +1338,13 @@ DisabledHelp="Este menu foi desativado no Unreal Tournament v469."
 
 [UTCreditsWindow]
 WindowTitle="Unreal Tournament Credits"
+
+[UMenuAdvancedClientWindow]
+; EN: HelpText[0]="The advanced preferences window is not available on your platform."
+HelpText[0]="A janela de preferências avançadas não está disponível em sua plataforma."
+; EN: HelpText[1]=" "
+HelpText[1]=" "
+; EN: HelpText[2]=If you want to modify advanced game settings, then please close the game and edit the following ini files:
+HelpText[2]="Se você deseja modificar as configurações avançadas do jogo, feche o jogo e edite os seguintes arquivos ini:"
+; EN: HelpText[3]=" "
+HelpText[3]=" "

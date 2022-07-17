@@ -1160,24 +1160,15 @@ MenuList[10]="フレンドリーな火のスケール"
 [UnrealCoopGameOptions]
 ; EN: HelpMessage[3]="Skill level setting."
 HelpMessage[3]="スキルレベルの設定。"
-; EN: HelpMessage[4]="If enabled, no friendly fire is allowed."
-HelpMessage[4]="有効にすると、フレンドリーファイアは許可されません。"
-; EN: HelpMessage[5]="If enabled, weapons respawn instantly, but can only be picked up once by a given player."
-HelpMessage[5]="有効にすると、武器は即座にリスポーンしますが、特定のプレイヤーが一度だけ拾うことができます。"
-; EN: HelpMessage[6]="If enabled, weapons will be respawned instantly."
-HelpMessage[6]="有効にすると、武器は即座に再出現します。"
-; EN: HelpMessage[7]="If enabled, items will be respawned instantly."
-HelpMessage[7]="有効にすると、アイテムは即座に再生成されます。"
 ; EN: MenuList[3]="Difficulty"
 MenuList[3]="困難"
-; EN: MenuList[4]="No Friendly Fire"
-MenuList[4]="フレンドリーファイアなし"
-; EN: MenuList[5]="Weapons Stay"
-MenuList[5]="武器滞在"
-; EN: MenuList[6]="Instant Weapon Respawn"
-MenuList[6]="インスタントウェポンリスポーン"
-; EN: MenuList[7]="Instant Item Respawn"
-MenuList[7]="インスタントアイテムリスポーン"
+; EN: Difficulties[0]="Easy"
+Difficulties[0]="簡単"
+; EN: Difficulties[1]="Medium"
+Difficulties[1]="中"
+; EN: Difficulties[2]="Hard"
+Difficulties[2]="ハード"
+Difficulties[3]="Unreal"
 
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
@@ -1228,3 +1219,129 @@ ItemName="アサルトベスト"
 [Hawk]
 ; EN: MenuName="Hawk"
 MenuName="鷹"
+
+[Cow]
+; EN: MenuName="Nali Cow"
+MenuName="ナリ牛"
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[DevilFish]
+; EN: MenuName="DevilFish"
+MenuName="鮫"
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[BabyCow]
+; EN: MenuName="Baby Cow"
+MenuName="乳牛"
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="男性3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="女性1"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Bird"
+MenuName="鳥"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Biterfish"
+MenuName="噛む魚"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Biterfish"
+MenuName="噛む魚"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Brute"
+MenuName="野蛮人"
+
+[CaveManta]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Cave Manta"
+MenuName="洞窟の毛布"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Fly"
+MenuName="ハエ"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Lesser Brute"
+MenuName="マイナーな獣"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Manta"
+MenuName="毛布"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali"
+MenuName="ナリ"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Priest"
+MenuName="ナリの司祭"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Rabbit"
+MenuName="ナリうさぎ"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaarjスカウト"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarj戦士"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Slith"
+MenuName="サンショウウオ"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Tentacle"
+MenuName="触手"
+
+[WaterZone]
+; EN: ZoneName="Underwater"
+ZoneName="水中"

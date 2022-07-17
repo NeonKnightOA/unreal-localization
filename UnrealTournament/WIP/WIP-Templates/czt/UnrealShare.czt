@@ -1137,24 +1137,15 @@ MenuList[10]="Přátelská stupnice ohně"
 [UnrealCoopGameOptions]
 ; EN: HelpMessage[3]="Skill level setting."
 HelpMessage[3]="Nastavení úrovně dovedností."
-; EN: HelpMessage[4]="If enabled, no friendly fire is allowed."
-HelpMessage[4]="Pokud je povoleno, není povolen žádný přátelský oheň."
-; EN: HelpMessage[5]="If enabled, weapons respawn instantly, but can only be picked up once by a given player."
-HelpMessage[5]="Pokud je povoleno, zbraně se obnoví okamžitě, ale daný hráč si je může vyzvednout pouze jednou."
-; EN: HelpMessage[6]="If enabled, weapons will be respawned instantly."
-HelpMessage[6]="Pokud je povoleno, zbraně budou okamžitě obnoveny."
-; EN: HelpMessage[7]="If enabled, items will be respawned instantly."
-HelpMessage[7]="Pokud je povoleno, položky se okamžitě obnoví."
 ; EN: MenuList[3]="Difficulty"
 MenuList[3]="Obtížnost"
-; EN: MenuList[4]="No Friendly Fire"
-MenuList[4]="Žádný přátelský oheň"
-; EN: MenuList[5]="Weapons Stay"
-MenuList[5]="Zbraně zůstávají"
-; EN: MenuList[6]="Instant Weapon Respawn"
-MenuList[6]="Okamžité obnovení zbraně"
-; EN: MenuList[7]="Instant Item Respawn"
-MenuList[7]="Okamžitá položka znovu vystavena"
+; EN: Difficulties[0]="Easy"
+Difficulties[0]="Snadné"
+; EN: Difficulties[1]="Medium"
+Difficulties[1]="Střední"
+; EN: Difficulties[2]="Hard"
+Difficulties[2]="Hard"
+Difficulties[3]="Unreal"
 
 [SuperHealth]
 ; EN: PickupMessage="You picked up the Super Health Pack"
@@ -1205,3 +1196,129 @@ ItemName="Útočná vesta"
 [Hawk]
 ; EN: MenuName="Hawk"
 MenuName="Jestřáb"
+
+[Cow]
+; EN: MenuName="Nali Cow"
+MenuName="Nali kráva"
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[DevilFish]
+; EN: MenuName="DevilFish"
+MenuName="Žralok"
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[BabyCow]
+; EN: MenuName="Baby Cow"
+MenuName="Mládě Krávy"
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[MaleThreeBot]
+; EN: MenuName="Male 3"
+MenuName="Muž 3"
+
+[FemaleOneBot]
+; EN: MenuName="Female 1"
+MenuName="Žena 1"
+
+[Bird]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Bird"
+MenuName="Pták"
+
+[Biterfish]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Biterfish"
+MenuName="Kousavá Ryba"
+
+[BiterfishSchool]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Biterfish"
+MenuName="Kousavá Ryba"
+
+[Brute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Brute"
+MenuName="Surovec"
+
+[CaveManta]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Cave Manta"
+MenuName="Jeskynní Přikrývka"
+
+[Fly]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Fly"
+MenuName="Moucha"
+
+[LesserBrute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Lesser Brute"
+MenuName="Menší Surovec"
+
+[Manta]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Manta"
+MenuName="Deka"
+
+[Nali]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[NaliPriest]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Priest"
+MenuName="Kněz Nali"
+
+[NaliRabbit]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Rabbit"
+MenuName="Králík nali"
+
+[Skaarj]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Skaarj"
+MenuName="Skaarj"
+
+[SkaarjScout]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Skaarj Scout"
+MenuName="Skaut Skaarj"
+
+[SkaarjWarrior]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Skaarj Warrior"
+MenuName="Skaarjský Válečník"
+
+[Slith]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Slith"
+MenuName="Mlok"
+
+[Tentacle]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Tentacle"
+MenuName="Chapadlo"
+
+[WaterZone]
+; EN: ZoneName="Underwater"
+ZoneName="Pod Vodou"
