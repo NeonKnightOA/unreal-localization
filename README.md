@@ -22,32 +22,55 @@ That's the cleanest way to create your series of changes (it's NOT a good idea t
 
 ## But what if I don't want to work in GitHub?
 
-Sorry. After all the work we did, we're using GitHub exclusively. We used to work in the Wiki, but the bulk of the activity took place here, and, honestly, keeping the localization files in the repo is easier said and done here than in the Wiki, where we don't have a text exporting feature.
-
-You can, however, suggest new lines, fixes, corrections, etc. either [on the Forums](https://www.oldunreal.com/phpBB3/) (provided you have an account there) or in the #localization area of [OldUnreal's Discord channel](https://discord.gg/thURucxzs6).
+You can suggest or send new lines, fixes, corrections, etc. either [on the Forums](https://www.oldunreal.com/phpBB3/) (provided you have an account there) or in the #localization area of [OldUnreal's Discord channel](https://discord.gg/thURucxzs6). We used to work on the [OldU Wiki](https://www.oldunreal.com/wiki/) too, but as the project grew, it made more sense to keep all the files here, plus the Wiki didn't had an instant file generation tool.
 
 ## Supported games
 
 This list will be updated as more games are added.
 
-* _**Unreal**_ (includes _Return to Na Pali_ expansion, v227-specific maps, _Fusion Mappack_ and _Division Mappack_ -itself integrated by Beta Maps + _Unreal Special Edition_ exclusive maps + _GW Press Addon_ maps -)
-* _**Unreal Tournament**_ (includes Bonus Packs 1-4)
-* _**Unreal Tournament 2003**_ (WIP) (includes _Epic Bonus Pack_ and _DE Bonus Pack_)
-* _**Unreal Tournament 2004**_ (WIP) (includes _ECE Bonus Pack_ and _Mega Pack_)
+* _**Unreal**_
+    * _Return to Na Pali_ expansion
+    * v227-specific maps
+    * _Fusion Mappack_
+    * _Division Mappack_ (itself integrated by Beta Maps + _Unreal Special Edition_ exclusive maps + _GW Press Addon_ maps)
+* _**Unreal Tournament**_
+    * _Epic Bonus Pack_
+    * _DE Bonus Pack_
+    * _Inoxx Pack_
+    * _Bonus Pack 4_ (a.k.a. "Christmas 2000")
+* _**Unreal Tournament 2003**_ (WIP)
+    * _Epic Bonus Pack_
+    * _DE Bonus Pack_
+* _**Unreal Tournament 2004**_ (WIP)
+    * _ECE Bonus Pack_
+    * _Mega Pack_ (a.k.a. "Bonus Pack 2")
 * _**Wheel of Time**_ (_heavy_ WIP)
 
 ## Supported third-party content
 
-This list will be updated as more mods are added.
+This list will be updated as more mods and maps are added.
 
-* _**Unreal:**_ _Redeem Your Space_ (English only)
-* _**Unreal Tournament:**_ _[Chaos: UT](https://chaoticdreams.org/)_ (English and Spanish; v1.1, Beta 4 Mappack and GOTY Mappack), _[Monster Hunt](https://github.com/shrimpza/monsterhunt)_ (English, German and Spanish; v612) and _[XVehicles](https://github.com/SeriousBuggie/XVehicles)_ (English and Spanish; updated to v38)
-* _**Unreal Tournament 2003:**_ _Community Bonus Pack_ and the [CliffyB's 0wnage](https://unreal.fandom.com/wiki/CliffyB%27s_Ownage/Unreal_Tournament_2003) maps.
+* _**Unreal:**_
+    * _Redeem Your Space_
+* _**Unreal Tournament:**_
+    * _[Chaos: UT](https://chaoticdreams.org/)_ (English and Spanish; v1.1, Beta 4 Mappack and GOTY Mappack)
+    * _[Monster Hunt](https://github.com/shrimpza/monsterhunt)_ (English, German and Spanish; v613)
+    * _[XVehicles](https://github.com/SeriousBuggie/XVehicles)_ (English and Spanish; updated to v40)
+* _**Unreal Tournament 2003:**_
+    * _Community Bonus Pack_
+    * _[CliffyB's 0wnage](https://unreal.fandom.com/wiki/CliffyB%27s_Ownage/Unreal_Tournament_2003)_ maps
 
-## Games and mods with templates
+## Games, maps and mods with templates
 
-* _**Unreal**_: The game itself.
-* _**Unreal Tournament**_: _Chaos: UT_, _Monster Hunt_, _XVehicles_.
+* _**Unreal**_:
+    * Base game + post-launch content
+    * _Return to Na Pali_
+    * _Redeem Your Space_
+* _**Unreal Tournament**_:
+    * Base game + post-launch content
+    * _Chaos: UT_
+    * _Monster Hunt_
+    * _XVehicles_
 
 ## Credits
 
