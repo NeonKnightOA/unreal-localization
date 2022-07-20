@@ -26,7 +26,8 @@ ZoneName="Waffenhöhle"
 ZoneName="Strand"
 
 [ZoneInfo1]
-ZoneName="Foxholes"
+; EN: ZoneName="Foxholes"
+ZoneName="Schützenlöcher"
 
 [ZoneInfo0]
 ; EN: ZoneName="Entrance Ramp"
@@ -44,7 +45,7 @@ ZoneName="Wasser"
 ; EN: FortName="The Beachhead"
 FortName="Der Brückenkopf"
 ; EN: DestroyedMessage="has been breached by the attackers!"
-DestroyedMessage="wurde von den Angreifern verletzt!"
+DestroyedMessage="wurde von den Angreifern durchbrochen!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
