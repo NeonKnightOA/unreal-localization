@@ -5,48 +5,57 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="Audio",Parent="Advanced Options")
-Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="Display",Parent="Advanced Options")
-Preferences=(Caption="Joystick",Parent="Advanced Options")
-Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Decals",Parent="Advanced Options")
+; Localized string here goes in LangCaption, e.g. Langcaption="Avanzado" (spanish)
+Preferences=(Caption="Advanced",Parent="Advanced Options",Langcaption="Avancerad")
+; Localized string here goes in LangCaption, e.g. Langcaption="Reproducción" (spanish)
+Preferences=(Caption="Rendering",Parent="Advanced Options",Langcaption="Rendering")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sonido" (spanish)
+Preferences=(Caption="Audio",Parent="Advanced Options",Langcaption="Audio")
+; Localized string here goes in LangCaption, e.g. Langcaption="Juego en Red" (spanish)
+Preferences=(Caption="Networking",Parent="Advanced Options",Langcaption="Nätverk")
+; Localized string here goes in LangCaption, e.g. Langcaption="Tipos de Juego" (spanish)
+Preferences=(Caption="Game Types",Parent="Advanced Options",Langcaption="Speltyper")
+; Localized string here goes in LangCaption, e.g. Langcaption="Imagen" (spanish)
+Preferences=(Caption="Display",Parent="Advanced Options",Langcaption="Skärm")
+; Localized string here goes in LangCaption, e.g. Langcaption="Mando" (spanish)
+Preferences=(Caption="Joystick",Parent="Advanced Options",Langcaption="Joystick")
+; Localized string here goes in LangCaption, e.g. Langcaption="Controladores" (spanish)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Langcaption="Förare",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; Localized string here goes in LangCaption, e.g. Langcaption="Opciones de Juego" (spanish)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Langcaption="Spelinställningar",Class=Engine.GameInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Marcas" (spanish)
+Preferences=(Caption="Decals",Parent="Advanced Options",Langcaption="Dekaler")
 ; Advanced
-Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Localized string here goes in LangCaption, e.g. Langcaption="Configuración de Motor de Juego" (spanish)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Langcaption="Spelmotorinställningar",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Macros para Asignaciones" (spanish)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Langcaption="Nyckelalias",Class=Engine.Input,Immediate=True,Category=Aliases)
+; Localized string here goes in LangCaption, e.g. Langcaption="Asignaciones de Botones" (spanish)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Langcaption="Rå Nyckelbindningar",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
-Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
-Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="Map Lists",Parent="Networking")
+; Localized string here goes in LangCaption, e.g. Langcaption="Info. Pública de Servidor" (spanish)
+Preferences=(Caption="Public Server Information",Parent="Networking",Langcaption="Offentlig Serverinformation",Class=Engine.GameReplicationInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Canal de Descargas" (spanish)
+Preferences=(Caption="Channel Download",Parent="Networking",Langcaption="Nedladdning av Kanal",Class=Engine.ChannelDownload)
+; Localized string here goes in LangCaption, e.g. Langcaption="Notificaciones de Conexión" (spanish)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Langcaption="Aviseringar om Anslutning",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Listas de Mapas" (spanish)
+Preferences=(Caption="Map Lists",Parent="Networking",Langcaption="Karta Listor")
 ; Decals
-Preferences=(Caption="Blood",Parent="Decals")
-Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sangre" (spanish)
+Preferences=(Caption="Blood",Parent="Decals",Langcaption="Blod")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Personaje" (spanish)
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Langcaption="Karaktärsskugga",Class=Engine.PawnShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Decoración" (spanish)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Langcaption="Dekorationsskuggor",Class=Engine.DecoShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Proyectil" (spanish)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Langcaption="Projektilskuggor",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
-Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
-
-[PlayerPawn]
-; EN: QuickSaveString="Quick Saving"
-QuickSaveString="Snabbsparar"
-; EN: NoPauseMessage="Game is not pauseable"
-NoPauseMessage="Spelet är inte pausbart"
-; EN: ViewingFrom="Now viewing from "
-ViewingFrom="Visar nu från "
-; EN: OwnCamera="own camera"
-OwnCamera="egen kamera"
-; EN: FailedView="Failed to change view."
-FailedView="Det gick inte att ändra vyn."
-; EN: CantChangeNameMsg="You can't change your name during a global logged game."
-CantChangeNameMsg="Du kan inte ändra ditt namn under ett globalt loggat spel."
+; Localized string here goes in LangCaption, e.g. Langcaption="Servidor" (spanish)
+Preferences=(Caption="Server",Parent="Blood",Langcaption="Server",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
 
 [Pawn]
+; EN: NameArticle=" a "
 NameArticle=" a "
 
 [Inventory]
@@ -61,45 +70,25 @@ M_Selected=" vald."
 ; EN: M_Deactivated=" deactivated."
 M_Deactivated=" inaktiverad."
 
-[LevelInfo]
-; EN: Title="Untitled"
-Title="Ofrälse"
-
-[Weapon]
-; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" har ingen ammunition."
-; EN: DeathMessage="%o was killed by %k's %w."
-DeathMessage="%o dödades av %w från %k."
-; EN: PickupMessage="You got a weapon"
-PickupMessage="Du har ett vapen"
-; EN: ItemName="Weapon"
-ItemName="Vapen"
-; EN: FemDeathMessage="%o was killed by %k's %w."
-FemDeathMessage="%o dödades av %w från %k."
-; EN: FemKillMessage="%o was killed by %k's %w."
-FemKillMessage="%o dödades av %w från %k."
-
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
 PickupMessage="Du tog upp lite ammunition"
 ; EN: ItemName="Ammo"
 ItemName="Ammunition"
 
-[Counter]
-; EN: CountMessage="Only %i more to go..."
-CountMessage="Endast %i mer att gå ..."
-; EN: CompleteMessage="Completed!"
-CompleteMessage="Avslutad!"
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Ofrälse"
 
 [Spectator]
 ; EN: MenuName="Spectator"
 MenuName="Åskådare"
 
-[DamageType]
-; EN: Name="killed"
-Name="dödad"
-; EN: AltName="killed"
-AltName="dödad"
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Endast %i mer att gå ..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Avslutad!"
 
 [Progress]
 ; EN: CancelledConnect="Cancelled Connect Attempt"
@@ -134,28 +123,30 @@ ReceiveSize="Storlek %iK, Komplett %3.1f%% = %iK, %i Paket kvar"
 ConnectingText="Ansluter (F10 avbryts):"
 ConnectingURL="unreal://%ls/%ls"
 
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
-
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ServerCommandlet]
 HelpCmd=server
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Network game server."
-HelpOneLiner="Nätverksspelserver."
-; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
-HelpUsage="server map.unr[?game=Speltype] [-alternativ...] [parm=värde]..."
+HelpOneLiner="Network game server."
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
 HelpParm[0]="Log"
-; EN: HelpDesc[0]="Specify the log file to generate."
-HelpDesc[0]="Ange loggfilen som ska genereras."
+HelpDesc[0]="Specify the log file to generate."
 HelpParm[1]="AllAdmin"
-; EN: HelpDesc[1]="Give all players admin privileges."
-HelpDesc[1]="Ge alla spelare administratörsbehörighet."
+HelpDesc[1]="Give all players admin privileges."
+
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Snabbsparar"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Spelet är inte pausbart"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Visar nu från "
+; EN: OwnCamera="own camera"
+OwnCamera="egen kamera"
+; EN: FailedView="Failed to change view."
+FailedView="Det gick inte att ändra vyn."
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="Du kan inte ändra ditt namn under ett globalt loggat spel."
 
 [Console]
 ; EN: ClassCaption="Standard (Deprecated)"
@@ -172,8 +163,6 @@ PausedMessage="PAUSAD"
 PrecachingMessage="PRECACHING"
 
 [Menu]
-MenuList=" "
-HelpMessage=" "
 ; EN: HelpMessage[1]="This menu has not yet been implemented."
 HelpMessage[1]="Denna meny har ännu inte implementerats."
 ; EN: LeftString="Left"
@@ -204,7 +193,7 @@ LeftMessage=" lämnade spelet."
 ; EN: FailedSpawnMessage="Failed to spawn player actor"
 FailedSpawnMessage="Det gick inte att leka skådespelaren"
 ; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
-FailedPlaceMessage="Det gick inte att hitta startplatsen (nivå kan behöva en "PlayerStart" -aktör)"
+FailedPlaceMessage="Det gick inte att hitta startplatsen (nivå kan behöva en PlayerStart-aktör)"
 ; EN: FailedTeamMessage="Could not find team for player"
 FailedTeamMessage="Det gick inte att hitta team för spelare"
 ; EN: NameChangedMessage="Name changed to "
@@ -225,6 +214,28 @@ MaleGender="hans"
 FemaleGender="henne"
 ; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
 MaxedOutSpectatorsMsg="Max åskådare överskrids"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" har ingen ammunition."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o dödades av %w från %k."
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Du har ett vapen"
+; EN: ItemName="Weapon"
+ItemName="Vapen"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage="%o dödades av %w från %k."
+FemKillMessage="%o dödades av %w från %k."
+
+[DamageType]
+; EN: Name="killed"
+Name="dödad"
+; EN: AltName="killed"
+AltName="dödad"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemName="dödad"
+AltFemName="dödad"
 
 [Errors]
 ; EN: NetOpen="Error opening file"
@@ -285,8 +296,8 @@ TempBanned="Du har tillfälligt förbjudits"
 Kicked="Du har sparkats"
 
 [General]
-; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
-Upgrade="För att komma in på denna server behöver du den senaste kostnadsfria uppdateringen av Unreal tillgänglig från OldUnreals webbplats:"
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreal's Web site:"
+Upgrade="För att komma in på denna server behöver du den senaste kostnadsfria uppdateringen av Unreal tillgänglig från OldUnreal webbplats:"
 UpgradeURL="https://www.oldunreal.com/oldunrealpatches.html"
 ; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
 UpgradeQuestion="Vill du starta din webbläsare och gå till uppgraderingssidan nu?"
@@ -299,8 +310,14 @@ AdminLoginText="Administratör %ls inloggad"
 ; EN: AdminLogoutText="Administrator %ls logged out"
 AdminLogoutText="Administratören %ls loggade ut"
 ; EN: CheatUsedStr="%ls used admin/cheat command: %c"
-CheatUsedStr="%ls använt admin / cheat-kommandot: %c"
+CheatUsedStr="%ls använt admin/cheat-kommandot: %c"
 
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Automatiskt Sparande"
+
+; BEWARE WHEN MODIFYING THIS SECTION. This only accepts "package.texture" keys. Make sure you enter the right ones.
+; At any doubt, ask in the forums or Discord.
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
 MedFont=Engine.MedFont
@@ -308,30 +325,20 @@ LargeFont=Engine.LargeFont
 BigFont=Engine.BigFont
 SmallFont=Engine.SmallFont
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [LinkerUpdateCommandlet]
 HelpCmd=linkerupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="Lägger till alla kontrollsummor för filerna i katalogen automatiskt till filen SHALinkerCache.ini. Används av anticheat UnrealIntegrity."
-; EN: HelpUsage="linkerupdate <filename>"
-HelpUsage="linkerupdate <Filnamn>"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="<Filnamn>"
-; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
-HelpDesc[0]="Filen för att beräkna kontrollsumman för bakre lagring."
+HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="linkerupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the checksum for posterior storage."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [SHAUpdateCommandlet]
 HelpCmd=shaupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="Lägger till alla SHA256 kontrollsummor för filerna i katalogen automatiskt till filen SHALinkerCache.ini. Används av anticheat UnrealIntegrity."
-; EN: HelpUsage="shaupdate <filename>"
-HelpUsage="shaupdate <Filnamn>"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="<Filnamn>"
-; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
-HelpDesc[0]="Filen för att beräkna kontrollsumman SHA256 för bakre lagring."
-
-[AutosaveTrigger]
-; EN: AutoSaveString="Auto Saving"
-AutoSaveString="Automatiskt Sparande"
+HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="shaupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."

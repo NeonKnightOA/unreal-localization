@@ -5,46 +5,54 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-Preferences=(Caption="Advanced",Parent="Advanced Options",LangCaption="Rozšířené")
-Preferences=(Caption="Rendering",Parent="Advanced Options",LangCaption="Vykreslování")
-Preferences=(Caption="Audio",Parent="Advanced Options",LangCaption="Zvuk")
-Preferences=(Caption="Networking",Parent="Advanced Options",LangCaption="Síťování")
-Preferences=(Caption="Game Types",Parent="Advanced Options",LangCaption="Typy her")
-Preferences=(Caption="Display",Parent="Advanced Options",LangCaption="Obrazovka")
-Preferences=(Caption="Joystick",Parent="Advanced Options",LangCaption="Příkaz")
-Preferences=(Caption="Drivers",Parent="Advanced Options",LangCaption="Řidiči",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Game Settings",Parent="Advanced Options",LangCaption="Nastavení Hry",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Decals",Parent="Advanced Options",LangCaption="Obtisky")
+; Localized string here goes in LangCaption, e.g. Langcaption="Avanzado" (spanish)
+Preferences=(Caption="Advanced",Parent="Advanced Options",Langcaption="Rozšířené")
+; Localized string here goes in LangCaption, e.g. Langcaption="Reproducción" (spanish)
+Preferences=(Caption="Rendering",Parent="Advanced Options",Langcaption="Vykreslování")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sonido" (spanish)
+Preferences=(Caption="Audio",Parent="Advanced Options",Langcaption="Zvuk")
+; Localized string here goes in LangCaption, e.g. Langcaption="Juego en Red" (spanish)
+Preferences=(Caption="Networking",Parent="Advanced Options",Langcaption="Síťování")
+; Localized string here goes in LangCaption, e.g. Langcaption="Tipos de Juego" (spanish)
+Preferences=(Caption="Game Types",Parent="Advanced Options",Langcaption="Typy her")
+; Localized string here goes in LangCaption, e.g. Langcaption="Imagen" (spanish)
+Preferences=(Caption="Display",Parent="Advanced Options",Langcaption="Obrazovka")
+; Localized string here goes in LangCaption, e.g. Langcaption="Mando" (spanish)
+Preferences=(Caption="Joystick",Parent="Advanced Options",Langcaption="Příkaz")
+; Localized string here goes in LangCaption, e.g. Langcaption="Controladores" (spanish)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Langcaption="Řidiči",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; Localized string here goes in LangCaption, e.g. Langcaption="Opciones de Juego" (spanish)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Langcaption="Nastavení Hry",Class=Engine.GameInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Marcas" (spanish)
+Preferences=(Caption="Decals",Parent="Advanced Options",Langcaption="Obtisky")
 ; Advanced
-Preferences=(Caption="Game Engine Settings",Parent="Advanced",LangCaption="Nastavení Herního Enginu",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Key Aliases",Parent="Advanced",LangCaption="Klíčové Aliasy",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Raw Key Bindings",Parent="Advanced",LangCaption="Vázání Surových Klíčů",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Localized string here goes in LangCaption, e.g. Langcaption="Configuración de Motor de Juego" (spanish)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Langcaption="Nastavení Herního Enginu",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Macros para Asignaciones" (spanish)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Langcaption="Klíčové Aliasy",Class=Engine.Input,Immediate=True,Category=Aliases)
+; Localized string here goes in LangCaption, e.g. Langcaption="Asignaciones de Botones" (spanish)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Langcaption="Vázání Surových Klíčů",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
-Preferences=(Caption="Public Server Information",Parent="Networking",LangCaption="Informace o Veřejném Serveru",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Channel Download",Parent="Networking",LangCaption="Stažení Kanálu",Class=Engine.ChannelDownload)
-Preferences=(Caption="Connection Notifications",Parent="Networking",LangCaption="Oznámení o Připojení",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="Map Lists",Parent="Networking",LangCaption="Seznamy Map")
+; Localized string here goes in LangCaption, e.g. Langcaption="Info. Pública de Servidor" (spanish)
+Preferences=(Caption="Public Server Information",Parent="Networking",Langcaption="Informace o Veřejném Serveru",Class=Engine.GameReplicationInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Canal de Descargas" (spanish)
+Preferences=(Caption="Channel Download",Parent="Networking",Langcaption="Stažení Kanálu",Class=Engine.ChannelDownload)
+; Localized string here goes in LangCaption, e.g. Langcaption="Notificaciones de Conexión" (spanish)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Langcaption="Oznámení o Připojení",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Listas de Mapas" (spanish)
+Preferences=(Caption="Map Lists",Parent="Networking",Langcaption="Seznamy Map")
 ; Decals
-Preferences=(Caption="Blood",Parent="Decals",LangCaption="Krev")
-Preferences=(Caption="Pawn Shadow",Parent="Decals",LangCaption="Stín Zástavní",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="Decoration Shadow",Parent="Decals",LangCaption="Stín Dekorace",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="Projectile Shadow",Parent="Decals",LangCaption="Stín Střely",Class=Engine.ProjectileShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sangre" (spanish)
+Preferences=(Caption="Blood",Parent="Decals",Langcaption="Krev")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Personaje" (spanish)
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Langcaption="Stín Zástavní",Class=Engine.PawnShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Decoración" (spanish)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Langcaption="Stín Dekorace",Class=Engine.DecoShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Proyectil" (spanish)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Langcaption="Stín Střely",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
-Preferences=(Caption="Server",Parent="Blood",LangCaption="Server",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
-
-[PlayerPawn]
-; EN: QuickSaveString="Quick Saving"
-QuickSaveString="Rychle ulozeni"
-; EN: NoPauseMessage="Game is not pauseable"
-NoPauseMessage="Hra se neda pozastavit"
-; EN: ViewingFrom="Now viewing from "
-ViewingFrom="Nyni je zapnuty pohled z "
-; EN: OwnCamera="own camera"
-OwnCamera="vlastni kamery"
-; EN: FailedView="Failed to change view."
-FailedView="Zmena pohledu selhala."
-; EN: CantChangeNameMsg="You can't change your name during a global logged game."
-CantChangeNameMsg="Nemuzes zmenit sve jmeno kdyz uz jsi ve hre."
+; Localized string here goes in LangCaption, e.g. Langcaption="Servidor" (spanish)
+Preferences=(Caption="Server",Parent="Blood",Langcaption="Server",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
 
 [Pawn]
 ; EN: NameArticle=" a "
@@ -62,29 +70,19 @@ M_Selected=" vybran."
 ; EN: M_Deactivated=" deactivated."
 M_Deactivated=" je vypnuty."
 
-[LevelInfo]
-; EN: Title="Untitled"
-Title="Bez popisu"
-
-[Weapon]
-; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" uz nema naboje."
-; EN: DeathMessage="%o was killed by %k's %w."
-DeathMessage="%o byl zabit %kovym %wem."
-; EN: PickupMessage="You got a weapon"."
-PickupMessage="Sebral jsi zbran"
-; EN: ItemName="Weapon"
-ItemName="Zbran"
-; EN: FemDeathMessage="%o was killed by %k's %w."
-FemDeathMessage="%o byl zabit %kovym %wem."
-; EN: FemKillMessage="%o was killed by %k's %w."
-FemKillMessage="%o byl zabit %kovym %wem."
-
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
 PickupMessage="Sebral jsi par naboju"
 ; EN: ItemName="Ammo"
 ItemName="Munice"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Bez popisu"
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName="Pozorovatel"
 
 [Counter]
 ; EN: CountMessage="Only %i more to go..."
@@ -92,29 +90,19 @@ CountMessage="Uz jich zbyva jen %i..."
 ; EN: CompleteMessage="Completed!"
 CompleteMessage="Hotovo!"
 
-[Spectator]
-; EN: MenuName="Spectator"
-MenuName="Pozorovatel"
-
-[DamageType]
-; EN: Name="killed"
-Name="zabit"
-; EN: AltName="killed"
-AltName="zabit"
-
 [Progress]
 ; EN: CancelledConnect="Cancelled Connect Attempt"
 CancelledConnect="Pokus o preruseni spojeni"
 ; EN: RunningNet="%ls: %ls (%i players)"
 RunningNet="%ls: %ls (%i hracu)"
 ; EN: NetReceiving="Receiving %ls: %i/%i"
-NetReceiving="Prijimam „%ls”: %i/%i"
+NetReceiving="Prijimam %ls: %i/%i"
 ; EN: NetReceiveOk="Successfully received %ls"
-NetReceiveOk="Uspesne prijato „%ls”"
+NetReceiveOk="Uspesne prijato %ls"
 ; EN: NetSend="Sending %ls"
-NetSend="Posilam „%ls”"
+NetSend="Posilam %ls"
 ; EN: NetSending="Sending %ls: %i/%i"
-NetSending="Posilam „%ls”: %i/%i"
+NetSending="Posilam %ls: %i/%i"
 ; EN: Connecting="Connecting..."
 Connecting="Pripojuji..."
 ; EN: Listening="Listening for clients..."
@@ -126,7 +114,7 @@ Saving="Ukladam"
 ; EN: Paused="Paused by %ls"
 Paused="Pozastaveno od %ls"
 ; EN: ReceiveFile="Receiving %ls (F10 Cancels)"
-ReceiveFile="Prijimam „%ls” (F10 pro zruseni)"
+ReceiveFile="Prijimam %ls (F10 pro zruseni)"
 ; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
 ReceiveOptionalFile="Příjem volitelného souboru %ls (stisknutím klávesy F10 přeskočíte)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
@@ -135,28 +123,30 @@ ReceiveSize="Velikost %iK, kompletní %3,1f%% = %iK, zbývající balíčky %i"
 ConnectingText="Pripojuji (F10 pro zruseni):"
 ConnectingURL="unreal://%ls/%ls"
 
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
-
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ServerCommandlet]
 HelpCmd=server
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Network game server."
-HelpOneLiner="Sitovy hraci server."
-; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
-HelpUsage="server map.unr[?game=TypyHer] [-option ...] [parm=value]..."
+HelpOneLiner="Network game server."
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
 HelpParm[0]="Log"
-; EN: HelpDesc[0]="Specify the log file to generate."
-HelpDesc[0]="Umoznuje zadat jmeno vytvareneho log souboru."
+HelpDesc[0]="Specify the log file to generate."
 HelpParm[1]="AllAdmin"
-; EN: HelpDesc[1]="Give all players admin privileges."
-HelpDesc[1]="Prideli vsem hracum prava administratora."
+HelpDesc[1]="Give all players admin privileges."
+
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Rychle ulozeni"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Hra se neda pozastavit"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Nyni je zapnuty pohled z "
+; EN: OwnCamera="own camera"
+OwnCamera="vlastni kamery"
+; EN: FailedView="Failed to change view."
+FailedView="Zmena pohledu selhala."
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="Nemuzes zmenit sve jmeno kdyz uz jsi ve hre."
 
 [Console]
 ; EN: ClassCaption="Standard (Deprecated)"
@@ -173,8 +163,6 @@ PausedMessage="POZASTAVENO"
 PrecachingMessage="PREDBEZNE NACITANI"
 
 [Menu]
-MenuList=" "
-HelpMessage=" "
 ; EN: HelpMessage[1]="This menu has not yet been implemented."
 HelpMessage[1]="Tahle nabidka jeste nefunguje."
 ; EN: LeftString="Left"
@@ -205,7 +193,7 @@ LeftMessage=" opustil hru."
 ; EN: FailedSpawnMessage="Failed to spawn player actor"
 FailedSpawnMessage="Selhalo pridani hrace do hry"
 ; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
-FailedPlaceMessage="Nemohu najit startovaci misto (level mozna potrebuje pridat object „PlayerStart“)"
+FailedPlaceMessage="Nemohu najit startovaci misto (level mozna potrebuje pridat object PlayerStart)"
 ; EN: FailedTeamMessage="Could not find team for player"
 FailedTeamMessage="Nemohu najit tym pro hrace"
 ; EN: NameChangedMessage="Name changed to "
@@ -227,13 +215,35 @@ FemaleGender="její"
 ; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
 MaxedOutSpectatorsMsg="Maximální počet diváků překročen"
 
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" uz nema naboje."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o byl zabit %kovym %wem."
+; EN: PickupMessage="You got a weapon"."
+PickupMessage="Sebral jsi zbran"
+; EN: ItemName="Weapon"
+ItemName="Zbran"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage="%o byl zabit %kovym %wem."
+FemKillMessage="%o byl zabit %kovym %wem."
+
+[DamageType]
+; EN: Name="killed"
+Name="zabit"
+; EN: AltName="killed"
+AltName="zabit"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemName="zabit"
+AltFemName="zabit"
+
 [Errors]
 ; EN: NetOpen="Error opening file"
 NetOpen="Chyba pri otevirani souboru"
 ; EN: NetWrite="Error writing to file"
 NetWrite="Chyba pri zapisu do souboru"
 ; EN: NetRefused="Server refused to send %ls"
-NetRefused="Server odmitl poslat „%ls”"
+NetRefused="Server odmitl poslat %ls"
 ; EN: NetClose="Error closing file"
 NetClose="Chyba pri uzavirani souboru"
 ; EN: NetSize="File size mismatch"
@@ -243,9 +253,9 @@ NetMove="Chyba pri presunu souboru"
 ; EN: NetInvalid="Received invalid file request"
 NetInvalid="Prijat chybny pozadavek na soubor"
 ; EN: NoDownload="Package %ls is not downloadable"
-NoDownload="Balik „%ls” se neda stahnout"
+NoDownload="Balik %ls se neda stahnout"
 ; EN: DownloadFailed="Downloading package %ls failed: %ls"
-DownloadFailed="Stahovani baliku „%ls” selhalo: %ls"
+DownloadFailed="Stahovani baliku %ls selhalo: %ls"
 ; EN: RequestDenied="Server requested file from pending level: Denied"
 RequestDenied="Serverem pozadovany soubor: Odepreno"
 ; EN: ConnectionFailed="Connection failed"
@@ -273,7 +283,7 @@ ServerOpen="Servery nemohou otevrit sitova URL"
 ; EN: ServerListen="Dedicated server can't listen: %ls"
 ServerListen="Vyhrazeny server nemuze hledat: %ls"
 ; EN: Pending="Pending connect to %ls failed; %ls"
-Pending="Nevyrizene pripojeni k „%ls” selhalo; %ls"
+Pending="Nevyrizene pripojeni k %ls selhalo; %ls"
 ; EN: LoadPlayerClass="Failed to load player class"
 LoadPlayerClass="Selhalo nacteni tridy hrace"
 ; EN: ServerOutdated="Server's version is outdated"
@@ -286,7 +296,7 @@ TempBanned="Byl vám dočasně zakázán přístup"
 Kicked="Byl jsi vyhozen"
 
 [General]
-; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreal's Web site:"
 Upgrade="Pro pripojeni k tomuto serveru potrebujes nejnovejsi update Unrealu - je dostupny na webu OldUnrealu:"
 UpgradeURL="https://www.oldunreal.com/oldunrealpatches.html"
 ; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
@@ -302,6 +312,12 @@ AdminLogoutText="Správce %ls odhlášen"
 ; EN: CheatUsedStr="%ls used admin/cheat command: %c"
 CheatUsedStr="%ls použitý příkaz admin / cheat: %c"
 
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Automatické Ukládání"
+
+; BEWARE WHEN MODIFYING THIS SECTION. This only accepts "package.texture" keys. Make sure you enter the right ones.
+; At any doubt, ask in the forums or Discord.
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
 MedFont=Engine.MedFont
@@ -309,30 +325,20 @@ LargeFont=Engine.LargeFont
 BigFont=Engine.BigFont
 SmallFont=Engine.SmallFont
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [LinkerUpdateCommandlet]
 HelpCmd=linkerupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="Přidá všechny kontrolní součty souborů v adresáři automaticky do souboru SHALinkerCache.ini. Používá anticheat UnrealIntegrity."
-; EN: HelpUsage="linkerupdate <filename>"
-HelpUsage="linkerupdate <NázevSouboru>"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="<NázevSouboru>"
-; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
-HelpDesc[0]="Soubor pro výpočet kontrolního součtu pro zadní úložiště."
+HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="linkerupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the checksum for posterior storage."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [SHAUpdateCommandlet]
 HelpCmd=shaupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="Přidá všechny kontrolní součty SHA256 souborů v adresáři automaticky do souboru SHALinkerCache.ini. Používá anticheat UnrealIntegrity."
-; EN: HelpUsage="shaupdate <filename>"
-HelpUsage="shaupdate <NázevSouboru>"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="<NázevSouboru>"
-; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
-HelpDesc[0]="Soubor pro výpočet kontrolního součtu SHA256 pro zadní úložiště."
-
-[AutosaveTrigger]
-; EN: AutoSaveString="Auto Saving"
-AutoSaveString="Automatické Ukládání"
+HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="shaupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."

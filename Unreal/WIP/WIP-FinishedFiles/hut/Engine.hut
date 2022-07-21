@@ -5,48 +5,57 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="Audio",Parent="Advanced Options")
-Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="Display",Parent="Advanced Options")
-Preferences=(Caption="Joystick",Parent="Advanced Options")
-Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Decals",Parent="Advanced Options")
+; Localized string here goes in LangCaption, e.g. Langcaption="Avanzado" (spanish)
+Preferences=(Caption="Advanced",Parent="Advanced Options",Langcaption="Haladó")
+; Localized string here goes in LangCaption, e.g. Langcaption="Reproducción" (spanish)
+Preferences=(Caption="Rendering",Parent="Advanced Options",Langcaption="Rendering")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sonido" (spanish)
+Preferences=(Caption="Audio",Parent="Advanced Options",Langcaption="Hang")
+; Localized string here goes in LangCaption, e.g. Langcaption="Juego en Red" (spanish)
+Preferences=(Caption="Networking",Parent="Advanced Options",Langcaption="Hálózat")
+; Localized string here goes in LangCaption, e.g. Langcaption="Tipos de Juego" (spanish)
+Preferences=(Caption="Game Types",Parent="Advanced Options",Langcaption="Játék Típusok")
+; Localized string here goes in LangCaption, e.g. Langcaption="Imagen" (spanish)
+Preferences=(Caption="Display",Parent="Advanced Options",Langcaption="Kijelző")
+; Localized string here goes in LangCaption, e.g. Langcaption="Mando" (spanish)
+Preferences=(Caption="Joystick",Parent="Advanced Options",Langcaption="Joystick")
+; Localized string here goes in LangCaption, e.g. Langcaption="Controladores" (spanish)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Langcaption="Meghajtók",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; Localized string here goes in LangCaption, e.g. Langcaption="Opciones de Juego" (spanish)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Langcaption="Játék Beállítások",Class=Engine.GameInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Marcas" (spanish)
+Preferences=(Caption="Decals",Parent="Advanced Options",Langcaption="Matricák")
 ; Advanced
-Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Localized string here goes in LangCaption, e.g. Langcaption="Configuración de Motor de Juego" (spanish)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Langcaption="Játék Motor Beállítások",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Macros para Asignaciones" (spanish)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Langcaption="Billentyűnevek",Class=Engine.Input,Immediate=True,Category=Aliases)
+; Localized string here goes in LangCaption, e.g. Langcaption="Asignaciones de Botones" (spanish)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Langcaption="Nyers Billentyűkötés",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
-Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
-Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="Map Lists",Parent="Networking")
+; Localized string here goes in LangCaption, e.g. Langcaption="Info. Pública de Servidor" (spanish)
+Preferences=(Caption="Public Server Information",Parent="Networking",Langcaption="Publikus Szerver Információk",Class=Engine.GameReplicationInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Canal de Descargas" (spanish)
+Preferences=(Caption="Channel Download",Parent="Networking",Langcaption="Csatorna Letöltése",Class=Engine.ChannelDownload)
+; Localized string here goes in LangCaption, e.g. Langcaption="Notificaciones de Conexión" (spanish)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Langcaption="Csatlakozási Értesítések",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Listas de Mapas" (spanish)
+Preferences=(Caption="Map Lists",Parent="Networking",Langcaption="Térképlisták")
 ; Decals
-Preferences=(Caption="Blood",Parent="Decals")
-Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sangre" (spanish)
+Preferences=(Caption="Blood",Parent="Decals",Langcaption="Vér")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Personaje" (spanish)
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Langcaption="Gyalog Árnyék",Class=Engine.PawnShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Decoración" (spanish)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Langcaption="Dekoráció Árnyéka",Class=Engine.DecoShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Proyectil" (spanish)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Langcaption="Lövedék Árnyéka",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
-Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
-
-[PlayerPawn]
-; EN: QuickSaveString="Quick Saving"
-QuickSaveString="Gyors Mentés"
-; EN: NoPauseMessage="Game is not pauseable"
-NoPauseMessage="A játék nem szüneteltethető"
-; EN: ViewingFrom="Now viewing from "
-ViewingFrom="Jelenlegi nézet: "
-; EN: OwnCamera="own camera"
-OwnCamera="saját kamera"
-; EN: FailedView="Failed to change view."
-FailedView="Meghiúsult nézetváltás."
-; EN: CantChangeNameMsg="You can't change your name during a global logged game."
-CantChangeNameMsg="Nem változtathatod a nevedet egy globálisan beléptetett játék közben."
+; Localized string here goes in LangCaption, e.g. Langcaption="Servidor" (spanish)
+Preferences=(Caption="Server",Parent="Blood",Langcaption="Szerver",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
 
 [Pawn]
+; EN: NameArticle=" a "
 NameArticle=" egy "
 
 [Inventory]
@@ -61,45 +70,25 @@ M_Selected=" kiválasztva."
 ; EN: M_Deactivated=" deactivated."
 M_Deactivated=" kikapcsolva."
 
-[LevelInfo]
-; EN: Title="Untitled"
-Title="Névtelen"
-
-[Weapon]
-; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" nincs benne lőszer."
-; EN: DeathMessage="%o was killed by %k's %w."
-DeathMessage="%o megölte %k %w."
-; EN: PickupMessage="You got a weapon"
-PickupMessage="Kaptál egy fegyvert"
-; EN: ItemName="Weapon"
-ItemName="Fegyver"
-; EN: FemDeathMessage="%o was killed by %k's %w."
-FemDeathMessage="%o megölte %k %w."
-; EN: FemKillMessage="%o was killed by %k's %w."
-FemKillMessage="%o megölte %k %w."
-
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
 PickupMessage="Felvettél némi lőszert"
 ; EN: ItemName="Ammo"
 ItemName="Lőszer"
 
-[Counter]
-; EN: CountMessage="Only %i more to go..."
-CountMessage="Még %i van hátra..."
-; EN: CompleteMessage="Completed!"
-CompleteMessage="Kész!"
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Névtelen"
 
 [Spectator]
 ; EN: MenuName="Spectator"
 MenuName="Nézelődő"
 
-[DamageType]
-; EN: Name="killed"
-Name="megölve"
-; EN: AltName="killed"
-AltName="megölve"
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Még %i van hátra..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Kész!"
 
 [Progress]
 ; EN: CancelledConnect="Cancelled Connect Attempt"
@@ -134,28 +123,30 @@ ReceiveSize="Méret %iK, Teljesítve %3.1f%% = %iK, %i hátralévő csomagok"
 ConnectingText="Csatlakozás (F10 Mégsem):"
 ConnectingURL="unreal://%ls/%ls"
 
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
-
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [ServerCommandlet]
 HelpCmd=server
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Network game server."
-HelpOneLiner="Hálózati játék szerver."
-; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
-HelpUsage="server térkép.unr[?game=JátékTípusok] [-option...] [parm=value] ..."
+HelpOneLiner="Network game server."
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
 HelpParm[0]="Log"
-; EN: HelpDesc[0]="Specify the log file to generate."
-HelpDesc[0]="Generálandó naplófájl meghatározása."
+HelpDesc[0]="Specify the log file to generate."
 HelpParm[1]="AllAdmin"
-; EN: HelpDesc[1]="Give all players admin privileges."
-HelpDesc[1]="Minden játékos kap adminisztrátori privilégiumokat."
+HelpDesc[1]="Give all players admin privileges."
+
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Gyors Mentés"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="A játék nem szüneteltethető"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Jelenlegi nézet: "
+; EN: OwnCamera="own camera"
+OwnCamera="saját kamera"
+; EN: FailedView="Failed to change view."
+FailedView="Meghiúsult nézetváltás."
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="Nem változtathatod a nevedet egy globálisan beléptetett játék közben."
 
 [Console]
 ; EN: ClassCaption="Standard (Deprecated)"
@@ -172,8 +163,6 @@ PausedMessage="SZU:NET"
 PrecachingMessage="PRECACHE-LE'S"
 
 [Menu]
-MenuList=" "
-HelpMessage=" "
 ; EN: HelpMessage[1]="This menu has not yet been implemented."
 HelpMessage[1]="Ez a menü még nincs beillesztve."
 ; EN: LeftString="Left"
@@ -204,7 +193,7 @@ LeftMessage=" elhagyta a játékot."
 ; EN: FailedSpawnMessage="Failed to spawn player actor"
 FailedSpawnMessage="Meghiúsult a játékos objektum létrehozása"
 ; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
-FailedPlaceMessage="Nem találok induló helyet (a pályának szüksége van egy "PlayerStart" objektumra)"
+FailedPlaceMessage="Nem találok induló helyet (a pályának szüksége van egy PlayerStart objektumra)"
 ; EN: FailedTeamMessage="Could not find team for player"
 FailedTeamMessage="Nem találok csapatot a játékos számára"
 ; EN: NameChangedMessage="Name changed to "
@@ -225,6 +214,28 @@ MaleGender="övé"
 FemaleGender="neki"
 ; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
 MaxedOutSpectatorsMsg="Maximális nézőszám túllépve"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" nincs benne lőszer."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o megölte %k %w."
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Kaptál egy fegyvert"
+; EN: ItemName="Weapon"
+ItemName="Fegyver"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage="%o megölte %k %w."
+FemKillMessage="%o megölte %k %w."
+
+[DamageType]
+; EN: Name="killed"
+Name="megölve"
+; EN: AltName="killed"
+AltName="megölve"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemName="megölve"
+AltFemName="megölve"
 
 [Errors]
 ; EN: NetOpen="Error opening file"
@@ -299,8 +310,14 @@ AdminLoginText="%ls rendszergazda bejelentkezett"
 ; EN: AdminLogoutText="Administrator %ls logged out"
 AdminLogoutText="%ls rendszergazda kijelentkezett"
 ; EN: CheatUsedStr="%ls used admin/cheat command: %c"
-CheatUsedStr="%ls használt admin / cheat parancsot: %c"
+CheatUsedStr="%ls használt admin/cheat parancsot: %c"
 
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="Auto Mentés"
+
+; BEWARE WHEN MODIFYING THIS SECTION. This only accepts "package.texture" keys. Make sure you enter the right ones.
+; At any doubt, ask in the forums or Discord.
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
 MedFont=Engine.MedFont
@@ -308,30 +325,20 @@ LargeFont=Engine.LargeFont
 BigFont=Engine.BigFont
 SmallFont=Engine.SmallFont
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [LinkerUpdateCommandlet]
 HelpCmd=linkerupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="A könyvtárban található fájlok összes ellenőrző összegét automatikusan hozzáadja a SHALinkerCache.ini fájlhoz. Az UnrealIntegrity anticheat használja."
-; EN: HelpUsage="linkerupdate <filename>"
-HelpUsage="linkerupdate <FájlNév>"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="<FájlNév>"
-; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
-HelpDesc[0]="A hátsó tárolás ellenőrző összegének kiszámításához szükséges fájl."
+HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="linkerupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the checksum for posterior storage."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [SHAUpdateCommandlet]
 HelpCmd=shaupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="A könyvtárban található fájlok összes SHA256 ellenőrző összegét automatikusan hozzáadja a SHALinkerCache.ini fájlhoz. Az UnrealIntegrity anticheat használja."
-; EN: HelpUsage="shaupdate <filename>"
-HelpUsage="shaupdate <FájlNév>"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="<FájlNév>"
-; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
-HelpDesc[0]="A SHA256 ellenőrző összeg kiszámításához szükséges fájl a hátsó tároláshoz. "
-
-[AutosaveTrigger]
-; EN: AutoSaveString="Auto Saving"
-AutoSaveString="Auto Mentés"
+HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="shaupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."

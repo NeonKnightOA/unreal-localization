@@ -5,32 +5,134 @@ Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.LinkerUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.SHAUpdateCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
-Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="Audio",Parent="Advanced Options")
-Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="Display",Parent="Advanced Options")
-Preferences=(Caption="Joystick",Parent="Advanced Options")
-Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Decals",Parent="Advanced Options")
+; Localized string here goes in LangCaption, e.g. Langcaption="Avanzado" (spanish)
+Preferences=(Caption="Advanced",Parent="Advanced Options",Langcaption="高度な")
+; Localized string here goes in LangCaption, e.g. Langcaption="Reproducción" (spanish)
+Preferences=(Caption="Rendering",Parent="Advanced Options",Langcaption="レンダリング")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sonido" (spanish)
+Preferences=(Caption="Audio",Parent="Advanced Options",Langcaption="オーディオ")
+; Localized string here goes in LangCaption, e.g. Langcaption="Juego en Red" (spanish)
+Preferences=(Caption="Networking",Parent="Advanced Options",Langcaption="ネットワーキング")
+; Localized string here goes in LangCaption, e.g. Langcaption="Tipos de Juego" (spanish)
+Preferences=(Caption="Game Types",Parent="Advanced Options",Langcaption="ゲームの種類")
+; Localized string here goes in LangCaption, e.g. Langcaption="Imagen" (spanish)
+Preferences=(Caption="Display",Parent="Advanced Options",Langcaption="表示")
+; Localized string here goes in LangCaption, e.g. Langcaption="Mando" (spanish)
+Preferences=(Caption="Joystick",Parent="Advanced Options",Langcaption="ジョイスティック")
+; Localized string here goes in LangCaption, e.g. Langcaption="Controladores" (spanish)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Langcaption="運転手",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; Localized string here goes in LangCaption, e.g. Langcaption="Opciones de Juego" (spanish)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Langcaption="ゲームの設定",Class=Engine.GameInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Marcas" (spanish)
+Preferences=(Caption="Decals",Parent="Advanced Options",Langcaption="デカール")
 ; Advanced
-Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Localized string here goes in LangCaption, e.g. Langcaption="Configuración de Motor de Juego" (spanish)
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Langcaption="ゲームエンジンの設定",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Macros para Asignaciones" (spanish)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Langcaption="キーエイリアス",Class=Engine.Input,Immediate=True,Category=Aliases)
+; Localized string here goes in LangCaption, e.g. Langcaption="Asignaciones de Botones" (spanish)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Langcaption="生のキーバインディング",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
-Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Channel Download",Parent="Networking",Class=Engine.ChannelDownload)
-Preferences=(Caption="Connection Notifications",Parent="Networking",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
-Preferences=(Caption="Map Lists",Parent="Networking")
+; Localized string here goes in LangCaption, e.g. Langcaption="Info. Pública de Servidor" (spanish)
+Preferences=(Caption="Public Server Information",Parent="Networking",Langcaption="パブリックサーバー情報",Class=Engine.GameReplicationInfo,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Canal de Descargas" (spanish)
+Preferences=(Caption="Channel Download",Parent="Networking",Langcaption="チャンネルダウンロード",Class=Engine.ChannelDownload)
+; Localized string here goes in LangCaption, e.g. Langcaption="Notificaciones de Conexión" (spanish)
+Preferences=(Caption="Connection Notifications",Parent="Networking",Langcaption="接続通知",Class=Engine.Gameinfo,Category=Networking,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Listas de Mapas" (spanish)
+Preferences=(Caption="Map Lists",Parent="Networking",Langcaption="マップリスト")
 ; Decals
-Preferences=(Caption="Blood",Parent="Decals")
-Preferences=(Caption="Pawn Shadow",Parent="Decals",Class=Engine.PawnShadow,Immediate=True)
-Preferences=(Caption="Decoration Shadow",Parent="Decals",Class=Engine.DecoShadow,Immediate=True)
-Preferences=(Caption="Projectile Shadow",Parent="Decals",Class=Engine.ProjectileShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sangre" (spanish)
+Preferences=(Caption="Blood",Parent="Decals",Langcaption="血")
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Personaje" (spanish)
+Preferences=(Caption="Pawn Shadow",Parent="Decals",Langcaption="ポーンシャドウ",Class=Engine.PawnShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Decoración" (spanish)
+Preferences=(Caption="Decoration Shadow",Parent="Decals",Langcaption="デコレーションシャドウ",Class=Engine.DecoShadow,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Sombra de Proyectil" (spanish)
+Preferences=(Caption="Projectile Shadow",Parent="Decals",Langcaption="発射体シャドウ",Class=Engine.ProjectileShadow,Immediate=True)
 ; Blood
-Preferences=(Caption="Server",Parent="Blood",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
+; Localized string here goes in LangCaption, e.g. Langcaption="Servidor" (spanish)
+Preferences=(Caption="Server",Parent="Blood",Langcaption="サーバ",Class=Engine.GameInfo,Category=BloodServer,Immediate=True)
+
+[Pawn]
+; EN: NameArticle=" a "
+NameArticle=" "
+
+[Inventory]
+; EN: PickupMessage="Snagged an item"
+PickupMessage="アイテムを引っ掛けた"
+; EN: ItemArticle="a"
+ItemArticle="NS"
+; EN: M_Activated=" activated."
+M_Activated=" 起動しました。"
+; EN: M_Selected=" selected."
+M_Selected=" 選択されました。"
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" 非アクティブ化。"
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="弾薬を手に入れました"
+; EN: ItemName="Ammo"
+ItemName="弾薬"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="無題"
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName="観客"
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="あと％iだけ..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="完了しました！"
+
+[Progress]
+; EN: CancelledConnect="Cancelled Connect Attempt"
+CancelledConnect="接続の試行をキャンセルしました"
+; EN: RunningNet="%ls: %ls (%i players)"
+RunningNet="％ls：％ls（％iプレーヤー）"
+; EN: NetReceiving="Receiving %ls: %i/%i"
+NetReceiving="％lsの受信：％i /％i"
+; EN: NetReceiveOk="Successfully received %ls"
+NetReceiveOk="％lsを正常に受信しました"
+; EN: NetSend="Sending %ls"
+NetSend="％lsを送信する"
+; EN: NetSending="Sending %ls: %i/%i"
+NetSending="％lsの送信：％i /％i"
+; EN: Connecting="Connecting..."
+Connecting="接続中..."
+; EN: Listening="Listening for clients..."
+Listening="クライアントの話を聞いています..."
+; EN: Loading="Loading"
+Loading="読み込み中"
+; EN: Saving="Saving"
+Saving="保存"
+; EN: Paused="Paused by %ls"
+Paused="％lsによって一時停止"
+; EN: ReceiveFile="Receiving %ls (F10 Cancels)"
+ReceiveFile="％lsを受信して​​います（F10キャンセル）"
+; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
+ReceiveOptionalFile="オプションファイル％lsを受信して​​います（F10キーを押してスキップします）"
+; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
+ReceiveSize="サイズ％iK、完了％3.1f %% =％iK、％i残りのパッケージ"
+; EN: ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="接続（F10キャンセル）："
+ConnectingURL="unreal://%ls/%ls"
+
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
+[ServerCommandlet]
+HelpCmd=server
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+HelpOneLiner="Network game server."
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpParm[0]="Log"
+HelpDesc[0]="Specify the log file to generate."
+HelpParm[1]="AllAdmin"
+HelpDesc[1]="Give all players admin privileges."
 
 [PlayerPawn]
 ; EN: QuickSaveString="Quick Saving"
@@ -45,121 +147,6 @@ OwnCamera="自分のカメラ"
 FailedView="ビューの変更に失敗しました。"
 ; EN: CantChangeNameMsg="You can't change your name during a global logged game."
 CantChangeNameMsg="グローバルログゲーム中に名前を変更することはできません。"
-
-[Pawn]
-; EN: NameArticle=" a "
-NameArticle=" NS "
-
-[Inventory]
-; EN: PickupMessage="Snagged an item"
-PickupMessage="アイテムを引っ掛けた"
-; EN: ItemArticle="a"
-ItemArticle="NS"
-; EN: M_Activated=" activated."
-M_Activated=" 起動しました。"
-; EN: M_Selected=" selected."
-M_Selected=" 選択されました。"
-; EN: M_Deactivated=" deactivated."
-M_Deactivated=" 非アクティブ化。"
-
-[LevelInfo]
-; EN: Title="Untitled"
-Title="無題"
-
-[Weapon]
-; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" 弾薬はありません。"
-; EN: DeathMessage="%o was killed by %k's %w."
-DeathMessage="％oは％kの％wによって殺されました。"
-; EN: PickupMessage="You got a weapon"
-PickupMessage="あなたは武器を手に入れました"
-; EN: ItemName="Weapon"
-ItemName="武器"
-; EN: FemDeathMessage="%o was killed by %k's %w."
-FemDeathMessage="％oは％kの％wによって殺されました。"
-; EN: FemKillMessage="%o was killed by %k's %w."
-FemKillMessage="％oは％kの％wによって殺されました。"
-
-[Ammo]
-; EN: PickupMessage="You picked up some ammo"
-PickupMessage="弾薬を手に入れました"
-; EN: ItemName="Ammo"
-ItemName="弾薬"
-
-[Counter]
-; EN: CountMessage="Only %i more to go..."
-CountMessage="あと％iだけ..."
-; EN: CompleteMessage="Completed!"
-CompleteMessage="完了しました！"
-
-[Spectator]
-; EN: MenuName="Spectator"
-MenuName="観客"
-
-[DamageType]
-; EN: Name="killed"
-Name="殺された"
-; EN: AltName="killed"
-AltName="殺された"
-
-[Progress]
-; EN: CancelledConnect="Cancelled Connect Attempt"
-CancelledConnect="接続の試行をキャンセルしました"
-; EN: RunningNet="%ls: %ls (%i players)"
-RunningNet="％ls：％ls（％iプレーヤー）"
-; EN: NetReceiving="Receiving %ls: %i/%i"
-NetReceiving="「％ls」の受信：％i /％i"
-; EN: NetReceiveOk="Successfully received %ls"
-NetReceiveOk="「％ls」を正常に受信しました"
-; EN: NetSend="Sending %ls"
-NetSend="「％ls」を送信する"
-; EN: NetSending="Sending %ls: %i/%i"
-NetSending=""％ls"の送信：％i /％i"
-; EN: Connecting="Connecting..."
-Connecting="接続中..."
-; EN: Listening="Listening for clients..."
-Listening="クライアントの話を聞いています..."
-; EN: Loading="Loading"
-Loading="読み込み中"
-; EN: Saving="Saving"
-Saving="保存"
-; EN: Paused="Paused by %ls"
-Paused="％lsによって一時停止"
-; EN: ReceiveFile="Receiving %ls (F10 Cancels)"
-ReceiveFile="「％ls」を受信して​​います（F10キャンセル）"
-; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
-ReceiveOptionalFile="オプションファイル "％ls"を受信して​​います（F10キーを押してスキップします）"
-; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
-ReceiveSize="サイズ％iK、完了％3.1f %% =％iK、％i残りのパッケージ"
-; EN: ConnectingText="Connecting (F10 Cancels):"
-ConnectingText="接続（F10キャンセル）："
-; EN: ConnectingURL="unreal://%ls/%ls"
-ConnectingURL="unreal：//％ls /％ls"
-
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
-
-[ServerCommandlet]
-; EN: HelpCmd=server
-HelpCmd=サーバ
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Network game server."
-HelpOneLiner="ネットワークゲームサーバー。"
-; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
-HelpUsage="サーバーmap.unr [？game = gametype] [-option ...] [parm = value] .. .."
-; EN: HelpParm[0]="Log"
-HelpParm[0]="ログ"
-; EN: HelpDesc[0]="Specify the log file to generate."
-HelpDesc[0]="生成するログファイルを指定します。"
-HelpParm[1]="AllAdmin"
-; EN: HelpDesc[1]="Give all players admin privileges."
-HelpDesc[1]="すべてのプレーヤーに管理者権限を付与します。"
 
 [Console]
 ; EN: ClassCaption="Standard (Deprecated)"
@@ -176,8 +163,6 @@ PausedMessage="一時停止"
 PrecachingMessage="説教"
 
 [Menu]
-MenuList=" "
-HelpMessage=" "
 ; EN: HelpMessage[1]="This menu has not yet been implemented."
 HelpMessage[1]="このメニューはまだ実装されていません。"
 ; EN: LeftString="Left"
@@ -209,7 +194,7 @@ LeftMessage=" ゲームをやめました。"
 ; EN: FailedSpawnMessage="Failed to spawn player actor"
 FailedSpawnMessage="プレイヤーアクターのスポーンに失敗しました"
 ; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
-FailedPlaceMessage="開始点が見つかりませんでした（レベルには「PlayerStart」アクターが必要な場合があります）"
+FailedPlaceMessage="開始点が見つかりませんでした（レベルにはPlayerStartアクターが必要な場合があります）"
 ; EN: FailedTeamMessage="Could not find team for player"
 FailedTeamMessage="プレーヤーのチームが見つかりませんでした"
 ; EN: NameChangedMessage="Name changed to "
@@ -230,6 +215,28 @@ MaleGender="彼の"
 FemaleGender="彼女"
 ; EN: MaxedOutSpectatorsMsg="Max spectators exceeded"
 MaxedOutSpectatorsMsg="最大観客数を超えました"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" 弾薬はありません。"
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="％oは％kの％wによって殺されました。"
+; EN: PickupMessage="You got a weapon"
+PickupMessage="あなたは武器を手に入れました"
+; EN: ItemName="Weapon"
+ItemName="武器"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemDeathMessage="％oは％kの％wによって殺されました。"
+FemKillMessage="％oは％kの％wによって殺されました。"
+
+[DamageType]
+; EN: Name="killed"
+Name="殺された"
+; EN: AltName="killed"
+AltName="殺された"
+; If bGenderMessages=True in UnrealShare, section [UnrealGameInfo]
+FemName="殺された"
+AltFemName="殺された"
 
 [Errors]
 ; EN: NetOpen="Error opening file"
@@ -289,14 +296,29 @@ TempBanned="あなたは一時的に禁止されています"
 ; EN: Kicked="You have been kicked"
 Kicked="あなたは蹴られました"
 
+[General]
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreal's Web site:"
+Upgrade="このサーバーに入るには、OldUnrealのWebサイトから入手できるUnrealの最新の無料アップデートが必要です。"
+UpgradeURL="https://www.oldunreal.com/oldunrealpatches.html"
+; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+UpgradeQuestion="Webブラウザーを起動して、今すぐアップグレードページに移動しますか？"
+; EN: Version="Version %i"
+Version="バージョン％i"
+
 [AdminAccessManager]
 ; EN: AdminLoginText="Administrator %ls logged in"
 AdminLoginText="管理者％lsがログインしました"
 ; EN: AdminLogoutText="Administrator %ls logged out"
 AdminLogoutText="管理者％lsがログアウトしました"
 ; EN: CheatUsedStr="%ls used admin/cheat command: %c"
-CheatUsedStr="％lsはadmin / cheatコマンドを使用しました：％c"
+CheatUsedStr="％lsはadmin/cheatコマンドを使用しました：％c"
 
+[AutosaveTrigger]
+; EN: AutoSaveString="Auto Saving"
+AutoSaveString="自動保存"
+
+; BEWARE WHEN MODIFYING THIS SECTION. This only accepts "package.texture" keys. Make sure you enter the right ones.
+; At any doubt, ask in the forums or Discord.
 [Fonts]
 WhiteFont=UnrealShare.WhiteFont
 MedFont=Engine.MedFont
@@ -304,40 +326,20 @@ LargeFont=Engine.LargeFont
 BigFont=Engine.BigFont
 SmallFont=Engine.SmallFont
 
-[General]
-; EN: Upgrade="To enter this server, you need the latest free update to Unreal available from OldUnreals's Web site:"
-Upgrade="このサーバーに入るには、OldUnrealsのWebサイトから入手できるUnrealの最新の無料アップデートが必要です。"
-UpgradeURL="https://www.oldunreal.com/oldunrealpatches.html"
-; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
-UpgradeQuestion="Webブラウザーを起動して、今すぐアップグレードページに移動しますか？"
-; EN: Version="Version %i"
-Version="バージョン％i"
-
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [LinkerUpdateCommandlet]
-; EN: HelpCmd=linkerupdate
-HelpCmd=リンカーアップデート
+HelpCmd=linkerupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="ディレクトリ内のファイルのすべてのチェックサムをファイルSHALinkerCache.iniに自動的に追加します。 UnrealIntegrityanticheatによって使用されます。"
-; EN: HelpUsage="linkerupdate <filename>"
-HelpUsage="リンカーアップデート&lt;ファイル名&gt;"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="&lt;ファイル名&gt;"
-; EN: HelpDesc[0]="The file to calculate the checksum for posterior storage."
-HelpDesc[0]="事後保管のチェックサムを計算するためのファイル。"
+HelpOneLiner="Adds all checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="linkerupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the checksum for posterior storage."
 
+; LEAVE THIS SECTION UNTRANSLATED - it was decided by consensus.
 [SHAUpdateCommandlet]
 HelpCmd=shaupdate
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-; EN: HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
-HelpOneLiner="ディレクトリ内のファイルのすべてのSHA256チェックサムをファイルSHALinkerCache.iniに自動的に追加します。 UnrealIntegrityanticheatによって使用されます。"
-; EN: HelpUsage="shaupdate <filename>"
-HelpUsage="shaupdate &lt;ファイル名&gt;"
-; EN: HelpParm[0]="<filename>"
-HelpParm[0]="&lt;ファイル名&gt;"
-; EN: HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
-HelpDesc[0]="事後ストレージのSHA256チェックサムを計算するためのファイル。"
-
-[AutosaveTrigger]
-; EN: AutoSaveString="Auto Saving"
-AutoSaveString="自動保存"
+HelpOneLiner="Adds all SHA256 checksums of the files within the directory automatically to the file SHALinkerCache.ini. Used by the UnrealIntegrity anticheat."
+HelpUsage="shaupdate <filename>"
+HelpParm[0]="<filename>"
+HelpDesc[0]="The file to calculate the SHA256 checksum for posterior storage."
