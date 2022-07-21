@@ -9,7 +9,7 @@
 * **Buggie:** Localization templates for all 15 languages.
 
 ### Language-specific
-* **_German:_** **Smirftsch, Jan "eGo" Urbansky, ividyon** and **Sly.** (review and contributions)
+* **_German:_** **Smirftsch, Jan "eGo" Urbansky, ividyon** and **Sly.** (review and contributions), **hosterholz** (additional contributions)
 * **_French:_** **Hellkeeper** (Unreal and UT reviews), **Rackover/Louvenarde** (additional contributions)
 * **_Spanish:_** **Neon_Knight** (Unreal and UT reviews), **rarsonic** (additional contributions)
 * **_Italian:_** **Alby1987** (UT review), **UBerserker, BBG-(DOG)-, Lowenz** and **TaglesMalsto** (additional contributions)
