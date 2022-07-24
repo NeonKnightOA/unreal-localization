@@ -64,7 +64,7 @@ Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Des
 ; EN: Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak Cannon")
 Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Осколочная пушка")
 ; EN: Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rocket Launcher")
-Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ракетомет")
+Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ракетомёт")
 ; EN: Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Sniper Rifle")
 Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Снайперская винтовка")
 ; EN: Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redeemer")
@@ -79,7 +79,7 @@ Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description
 ; EN: Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
 Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="Без усилителей,Защитные  пояса, усилитель урона, бочка здоровья и невидимость убраны с карты.")
 ; EN: Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
-Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Одна ракета,Ракетомет стреляет одиночными выстрелами.")
+Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Одна ракета,Ракетомёт стреляет одиночными выстрелами.")
 ; EN: Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
 Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Низкая гравитация,Все арены имеют низкую гравитацию.")
 ; EN: Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
@@ -97,7 +97,7 @@ Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Descriptio
 ; EN: Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
 Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Шоковая арена,Всё оружие и боеприпасы заменены на снайперские винтовки и их заряды.")
 ; EN: Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
-Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Ракетная арена,Всё оружие и боеприпасы заменены на ракетометы и их заряды.")
+Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Ракетная арена,Всё оружие и боеприпасы заменены на ракетомёты и их заряды.")
 ; EN: Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
 Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Импульстная арена,Всё оружие и боеприпасы заменены на плазимоганы и их заряды.")
 ; EN: Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
@@ -827,9 +827,9 @@ WeaponDescription="Классификация: тяжелое баллистич
 ; EN: DeathMessage="%o was smacked down by %k's %w."
 DeathMessage="%k разорвал %o из %wа."
 ; EN: PickupMessage="You got the Rocket Launcher."
-PickupMessage="Вы взяли ракетомет."
+PickupMessage="Вы взяли ракетомёт."
 ; EN: ItemName="Rocket Launcher"
-ItemName="Ракетомет"
+ItemName="Ракетомёт"
 
 [RatedTeamInfoS]
 ; EN: TeamName="Thunder Crash"
