@@ -60,7 +60,7 @@ Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Des
 ; EN: Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ripper")
 Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Потрошитель")
 ; EN: Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Minigun")
-Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Пулемет")
+Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Миниган")
 ; EN: Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak Cannon")
 Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Осколочная пушка")
 ; EN: Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rocket Launcher")
@@ -101,7 +101,7 @@ Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Descriptio
 ; EN: Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
 Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Импульстная арена,Всё оружие и боеприпасы заменены на плазимоганы и их заряды.")
 ; EN: Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
-Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Пулеметная арена,Всё оружие и боеприпасы заменены на пулеметы и их патроны.")
+Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Миниган-арена,Всё оружие и боеприпасы заменены на миниганы и их патроны.")
 ; Map Lists
 ; EN: Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Default Maps")
 Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Карты по умолчанию")
@@ -974,7 +974,7 @@ DamageString="%o раздавлен. Убийца - %k."
 
 [PulseGun]
 ; EN: WeaponDescription="Classification: Plasma Rifle\n\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\n\nSecondary Fire: A bolt of green lightning is expelled for 100 meters, which will shock all opponents.\n\nTechniques: Firing and keeping the secondary fire's lightning on an opponent will melt them in seconds."
-WeaponDescription="Классификация: Плазменный пулемет\n\nОсновной огонь: Быстрые сгустки плазмы среднего размера.\n\nВторичный огонь: 100-метровый луч плазмы поражает врагов.\n\nСовет: удерживайте луч плазмы на враге - это сожжет его за пару секунд."
+WeaponDescription="Классификация: Плазменная винтовка\n\nОсновной огонь: Быстрые сгустки плазмы среднего размера.\n\nВторичный огонь: 100-метровый луч плазмы поражает врагов.\n\nСовет: удерживайте луч плазмы на враге - это сожжет его за пару секунд."
 ; EN: MessageNoAmmo=" has no Plasma."
 MessageNoAmmo=" без плазмы."
 ; EN: DeathMessage="%o ate %k's burning plasma death."
@@ -1091,9 +1091,9 @@ WeaponDescription="Классификация: Пушка Гатлинга\n\nО
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%k превратил %o в дырявый кусок мяса из %wа."
 ; EN: PickupMessage="You got the Minigun."
-PickupMessage="Вы взяли пулемет."
+PickupMessage="Вы взяли миниган."
 ; EN: ItemName="Minigun"
-ItemName="Пулемет"
+ItemName="Миниган"
 
 [ChainSaw]
 ; EN: WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
