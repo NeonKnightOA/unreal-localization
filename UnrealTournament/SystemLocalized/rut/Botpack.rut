@@ -60,11 +60,11 @@ Object=(Name=Botpack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Des
 ; EN: Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ripper")
 Object=(Name=Botpack.ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Потрошитель")
 ; EN: Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Minigun")
-Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Пулемет")
+Object=(Name=Botpack.minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Миниган")
 ; EN: Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Flak Cannon")
 Object=(Name=Botpack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Осколочная пушка")
 ; EN: Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Rocket Launcher")
-Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ракетомет")
+Object=(Name=Botpack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ракетомёт")
 ; EN: Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Sniper Rifle")
 Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Снайперская винтовка")
 ; EN: Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redeemer")
@@ -79,7 +79,7 @@ Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description
 ; EN: Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
 Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="Без усилителей,Защитные  пояса, усилитель урона, бочка здоровья и невидимость убраны с карты.")
 ; EN: Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
-Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Одна ракета,Ракетомет стреляет одиночными выстрелами.")
+Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Одна ракета,Ракетомёт стреляет одиночными выстрелами.")
 ; EN: Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
 Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Низкая гравитация,Все арены имеют низкую гравитацию.")
 ; EN: Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
@@ -97,11 +97,11 @@ Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Descriptio
 ; EN: Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
 Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Шоковая арена,Всё оружие и боеприпасы заменены на снайперские винтовки и их заряды.")
 ; EN: Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
-Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Ракетная арена,Всё оружие и боеприпасы заменены на ракетометы и их заряды.")
+Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Ракетная арена,Всё оружие и боеприпасы заменены на ракетомёты и их заряды.")
 ; EN: Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
 Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Импульстная арена,Всё оружие и боеприпасы заменены на плазимоганы и их заряды.")
 ; EN: Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
-Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Пулеметная арена,Всё оружие и боеприпасы заменены на пулеметы и их патроны.")
+Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Миниган-арена,Всё оружие и боеприпасы заменены на миниганы и их патроны.")
 ; Map Lists
 ; EN: Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Default Maps")
 Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Карты по умолчанию")
@@ -332,13 +332,13 @@ FreelanceString="развлекается"
 [CTFGame]
 StartUpMessage=""
 ; EN: gamegoal="captures wins the match!"
-gamegoal="флагов нужно принести для победы!"
+gamegoal="флага нужно принести для победы!"
 ; EN: GameName="Capture the Flag"
 GameName="Захват флага"
 
 [TeamGamePlus]
 ; EN: StartUpTeamMessage="You are on"
-StartUpTeamMessage="Вы находитесь на"
+StartUpTeamMessage="Ваша команда -"
 ; EN: TeamChangeMessage="Use Options->Player Setup to change teams."
 TeamChangeMessage="Используйте Параметры-> Настройка игрока, чтобы сменить команду."
 ; EN: TeamColor[0]="Red"
@@ -514,7 +514,7 @@ GameName="Боевая подготовка: DM"
 ; EN: DoubleName="Double Enforcers"
 DoubleName="Двойные энфорсеры"
 ; EN: WeaponDescription="Classification: Light Pistol\n\nPrimary Fire: Accurate but slow firing instant hit.\n\nSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice as fast and half as accurate as the primary fire.\n\nTechniques: Collect two for twice the damage."
-WeaponDescription="Классификация: легкий пистолет.\n\nОсновной огонь: точный, но медленный выстрел, мгновенный удар.\n\nВторичный огонь: вбок, или режим стрельбы «гангста», стреляет вдвое быстрее и вдвое менее точно, чем основной огонь.\n\n Берите два, чтобы вдвое увеличить урон."
+WeaponDescription="Классификация: легкий пистолет.\n\nОсновной огонь: точный, но медленный выстрел, мгновенный удар.\n\nВторичный огонь: вбок, или режим стрельбы «гангста», стреляет вдвое быстрее и вдвое менее точно, чем основной огонь.\n\nБерите два, чтобы вдвое увеличить урон."
 ; EN: DeathMessage="%k riddled %o full of holes with the %w."
 DeathMessage="%k изрешетил %o из %wа."
 ; EN: PickupMessage="You picked up another Enforcer!"
@@ -823,13 +823,13 @@ MenuName="Босс"
 
 [UT_Eightball]
 ; EN: WeaponDescription="Classification: Heavy Ballistic\n\nPrimary Fire: Slow moving but deadly rockets are fired at opponents. Trigger can be held down to load up to six rockets at a time, which can be fired at once.\n\nSecondary Fire: Grenades are lobbed from the barrel. Secondary trigger can be held as well to load up to six grenades.\n\nTechniques: Keeping this weapon pointed at an opponent will cause it to lock on, and while the gun is locked the next rocket fired will be a homing rocket.  Because the Rocket Launcher can load up multiple rockets, it fires when you release the fire button.  If you prefer, it can be configured to fire a rocket as soon as you press fire button down, at the expense of the multiple rocket load-up feature.  This is set in the Input Options menu."
-WeaponDescription="Классификация: тяжелое баллистическое оружие\nОсновной режим ведения огня: Медленные, но мощные ракеты. Удерживайте кнопку огня для накопления и выстреливания одновременно до шести ракет.\nАльтернативный режим ведения огня: Бросает гранаты. Также можно выстрелить одновременно до шести снарядов.\nСовет: Удержите прицел нацеленным на врага в течение нескольких секунд, пущенная после этого ракета будет самонаводящейся.\n Может стрелять несколькими ракетами сразу. Зажмите кнопку огня для зарядки, отпустите для выстрела. Если хотите стрелять только одиночными ракетами - включите этот пункт в настройках игры."
+WeaponDescription="Классификация: тяжелое баллистическое оружие\nОсновной режим ведения огня: Медленные, но мощные ракеты. Удерживайте кнопку огня для накопления и выстреливания одновременно до шести ракет.\nАльтернативный режим ведения огня: Бросает гранаты. Также можно выстрелить одновременно до шести снарядов.\nСовет: Удержите прицел нацеленным на врага в течение нескольких секунд, пущенная после этого ракета будет самонаводящейся.\nМожет стрелять несколькими ракетами сразу. Зажмите кнопку огня для зарядки, отпустите для выстрела. Если хотите стрелять только одиночными ракетами - включите этот пункт в настройках игры."
 ; EN: DeathMessage="%o was smacked down by %k's %w."
 DeathMessage="%k разорвал %o из %wа."
 ; EN: PickupMessage="You got the Rocket Launcher."
-PickupMessage="Вы взяли ракетомет."
+PickupMessage="Вы взяли ракетомёт."
 ; EN: ItemName="Rocket Launcher"
-ItemName="ракетомет"
+ItemName="Ракетомёт"
 
 [RatedTeamInfoS]
 ; EN: TeamName="Thunder Crash"
@@ -974,7 +974,7 @@ DamageString="%o раздавлен. Убийца - %k."
 
 [PulseGun]
 ; EN: WeaponDescription="Classification: Plasma Rifle\n\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\n\nSecondary Fire: A bolt of green lightning is expelled for 100 meters, which will shock all opponents.\n\nTechniques: Firing and keeping the secondary fire's lightning on an opponent will melt them in seconds."
-WeaponDescription="Классификация: Плазменный пулемет\n\nОсновной огонь: Быстрые сгустки плазмы среднего размера.\n\nВторичный огонь: 100-метровый луч плазмы поражает врагов.\n\nСовет: удерживайте луч плазмы на враге - это сожжет его за пару секунд."
+WeaponDescription="Классификация: Плазменная винтовка\n\nОсновной огонь: Быстрые сгустки плазмы среднего размера.\n\nВторичный огонь: 100-метровый луч плазмы поражает врагов.\n\nСовет: удерживайте луч плазмы на враге - это сожжет его за пару секунд."
 ; EN: MessageNoAmmo=" has no Plasma."
 MessageNoAmmo=" без плазмы."
 ; EN: DeathMessage="%o ate %k's burning plasma death."
@@ -1031,7 +1031,7 @@ ItemName="Редимер"
 
 [SniperRifle]
 ; EN: WeaponDescription="Classification: Long Range Ballistic\n\nRegular Fire: Fires a high powered bullet. Can kill instantly when applied to the cranium of opposing forces. \n\nSecondary Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme precision from hundreds of yards away.\n\nTechniques: Great for long distance headshots!"
-WeaponDescription="Классификация: дальнобойная баллистическая винтовка\n\n Обычный огонь: высокоэнергетическая пуля. Может мгновенно убить пулей в лоб.\n\nВторичный огонь: восьмикратный оптический прицел. Обеспечивает исключительную точность с расстояния в сотни ярдов.\n\nТехники: отлично подходят для выстрелов в голову с большого расстояния!"
+WeaponDescription="Классификация: дальнобойная баллистическая винтовка\n\nОбычный огонь: высокоэнергетическая пуля. Может мгновенно убить пулей в лоб.\n\nВторичный огонь: восьмикратный оптический прицел. Обеспечивает исключительную точность с расстояния в сотни ярдов.\n\nСовет: отлично подходят для выстрелов в голову с большого расстояния!"
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k пробил пулей голову %o."
 ; EN: PickupMessage="You got a Sniper Rifle."
@@ -1047,7 +1047,7 @@ ItemName="Усилитель урона"
 
 [UT_FlakCannon]
 ; EN: WeaponDescription="Classification: Heavy Shrapnel\n\nPrimary Fire: White hot chunks of scrap metal are sprayed forth, shotgun style.\n\nSecondary Fire: A grenade full of shrapnel is lobbed at the enemy. The grenade can hurt you if you're in its splash range.\n\nTechniques: The Flak Cannon is far more useful in close range combat situations."
-WeaponDescription="Классификация: Тяжелый дробовик.\n\nОсновной огонь: стреляет шрапнелью..\n\nВторичный огонь: Граната со шрапнелью. Взрывается при попадании. Может убить и вас, если находитесь в зоне её поражения.\n\nСовет: полезнее всего в ближнем бою."
+WeaponDescription="Классификация: Тяжелый дробовик.\n\nОсновной огонь: стреляет шрапнелью.\n\nВторичный огонь: Граната со шрапнелью. Взрывается при попадании. Может убить и вас, если находитесь в зоне её поражения.\n\nСовет: полезнее всего в ближнем бою."
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%k разорвал %o в клочья из %wа."
 ; EN: PickupMessage="You got the Flak Cannon."
@@ -1087,13 +1087,13 @@ ItemName="Биоружьё GES"
 
 [minigun2]
 ; EN: WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
-WeaponDescription="Классификация: Пушка Гатлинга\n\nОсновной огонь: стреляет со средней скоростью и достаточно точно.\n\nВторичный огонь: стреляет в два раза быстрее и вдвое менее точно.\n\nТехники: Вторичный огонь полезнее в ближнем бою, но пожирает тонны боеприпасов."
+WeaponDescription="Классификация: Пушка Гатлинга\n\nОсновной огонь: стреляет со средней скоростью и достаточно точно.\n\nВторичный огонь: стреляет в два раза быстрее и вдвое менее точно.\n\nСовет: Вторичный огонь полезнее в ближнем бою, но пожирает тонны боеприпасов."
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%k превратил %o в дырявый кусок мяса из %wа."
 ; EN: PickupMessage="You got the Minigun."
-PickupMessage="Вы взяли пулемет."
+PickupMessage="Вы взяли миниган."
 ; EN: ItemName="Minigun"
-ItemName="Пулемет"
+ItemName="Миниган"
 
 [ChainSaw]
 ; EN: WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
