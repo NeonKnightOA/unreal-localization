@@ -20,7 +20,7 @@
 * **_Czech:_** **tomcat** (Unreal localization), **Victor Delacroix and Nicola** (additional contributions)
 * **_Swedish:_** **ElectricIce** (additional contributions)
 * **_Catalan:_** **rarsonic** (additional contributions)
-* **_Dutch:_** **Rubie** (Unreal review), **bennytrt and Hyper** (additional contributions)
+* **_Dutch:_** **Rubie** (Unreal and UT review), **bennytrt and Hyper** (additional contributions)
 * **_Norwegian:_** **Excalidar** (additional contributions)
 * **_Japanese:_** **Vapor Mermaid** (localization retriever)
 
