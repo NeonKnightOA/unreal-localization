@@ -293,9 +293,9 @@ NetDecompressFail="Błąd podczas dekompresji pliku „%ls”"
 MD5ChecksumFailed="Pakiet %ls nie przeszedł kontroli MD5."
 
 [General]
-; EN: Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreals's Web site:"
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreal's Web site:"
 Upgrade="Aby dołączyć do rozgrywki na wybranym serwerze, należy zaktualizować Unreal Tournament przy pomocy darmowej aktualizacji dostępnej na stronie WWW OldUnreal:"
-UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+UpgradeURL="https://www.oldunreal.com/downloads/unrealtournament/oldunreal-patches-for-unrealtournament-version-469/"
 ; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
 UpgradeQuestion="Czy chcesz uruchomić przeglądarkę internetową i udać się na witrynę z aktualizacją?"
 ; EN: Version="Version %i"

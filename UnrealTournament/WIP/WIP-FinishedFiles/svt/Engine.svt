@@ -292,9 +292,9 @@ NetDecompressFail="Fel vid dekomprimering av filen %ls"
 MD5ChecksumFailed="Paket %ls misslyckades med en MD5-kontroll."
 
 [General]
-; EN: Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreals's Web site:"
-Upgrade="För att komma in på denna server behöver du den senaste kostnadsfria uppdateringen av Unreal Tournament tillgänglig från OldUnreals webbplats:"
-UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreal's Web site:"
+Upgrade="För att komma in på denna server behöver du den senaste kostnadsfria uppdateringen av Unreal Tournament tillgänglig från OldUnreal webbplats:"
+UpgradeURL="https://www.oldunreal.com/downloads/unrealtournament/oldunreal-patches-for-unrealtournament-version-469/"
 ; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
 UpgradeQuestion="Vill du starta din webbläsare och gå till uppgraderingssidan nu?"
 ; EN: Version="Version %i"
