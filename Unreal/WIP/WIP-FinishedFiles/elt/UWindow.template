@@ -1,0 +1,246 @@
+﻿[public]
+Object=(Name=UWindow.UWindowWin95LookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Win 95")
+
+[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText=""
+; EN: NoText="No"
+NoText=""
+; EN: OKText="OK"
+OKText=""
+; EN: CancelText="Cancel"
+CancelText=""
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle=""
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText=""
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText=""
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText=""
+
+[UWindowConsoleClientWindow]
+; EN: ShowColorsText="Show console messages in colours"
+ShowColorsText=""
+; EN: ShowChatText="Log only chat messages"
+ShowChatText=""
+; EN: ShowWarningText="Log script errors"
+ShowWarningText=""
+
+[AdminGUIPlayersGrid]
+; EN: PlayerID="ID#"
+PlayerID=""
+; EN: PlayerName="Player Name"
+PlayerName=""
+; EN: PlayerIP="IP Address"
+PlayerIP=""
+; EN: PlayerClientID="Client ID"
+PlayerClientID=""
+; EN: MaxLengthExceeded="Maximum player list length exceeded %i"
+MaxLengthExceeded=""
+; EN: IDMismatchedStr="Response ID mismatched: %i/%j"
+IDMismatchedStr=""
+; EN: ClientReceivedStr="Received client %ls."
+ClientReceivedStr=""
+; EN: GettingInfoStr="Getting player list from server, if nothing happens you may not be logged in as admin."
+GettingInfoStr=""
+
+[AdminGUIBanLGrid]
+; EN: LengthExceeded="Maximum player list length exceeded %i"
+LengthExceeded=""
+; EN: ResponseMismatch="Response ID mismatched: %i/%j"
+ResponseMismatch=""
+; EN: ReceiveBanText="Received ban %ls."
+ReceiveBanText=""
+; EN: GettingBanListText="Getting banlist from server, if nothing happens you may not be logged in as admin (or there are no bans on server)."
+GettingBanListText=""
+
+[MMMusicListGrid]
+; EN: MusicNameStr="Music name"
+MusicNameStr=""
+; EN: MusicPackStr="Music package"
+MusicPackStr=""
+; EN: FailedToPlayStr="Failed to play: Music %ls was not found or failed to load."
+FailedToPlayStr=""
+; EN: StartedPlayStr="Started playing music %ls with section %i."
+StartedPlayStr=""
+; EN: NullErrorStr="Failed to add: NULL is not a valid song."
+NullErrorStr=""
+; EN: FailedLoadStr="Failed to add: Music %ls file could not be found or loaded."
+FailedLoadStr=""
+; EN: ConfirmInsertDuplicateTitle="Adding an already listed track"
+ConfirmInsertDuplicateTitle=""
+; EN: ConfirmInsertDuplicateText="Such a track is already included in the playlist. Insert it anyway?"
+ConfirmInsertDuplicateText=""
+; EN: AddedStr="Added music %ls (%i)."
+AddedStr=""
+; EN: RemoveSongStr="Removed song #%i."
+RemoveSongStr=""
+; EN: ClearListStr="Removed all tracks from the list."
+ClearListStr=""
+; EN: AddAllStr="Added all musics to the list."
+AddAllStr=""
+; EN: ConfirmClearListTitle="Confirm clearing the playlist"
+ConfirmClearListTitle=""
+; EN: ConfirmClearListText="Do you want to clear the playlist?"
+ConfirmClearListText=""
+; EN: BadIndexStr="Failed to remove: Bad remove index."
+BadIndexStr=""
+
+[AdminGUIClientWindow]
+; EN: PlayersListTxt="Clients List"
+PlayersListTxt=""
+; EN: BanListTxt="Banned Clients"
+BanListTxt=""
+; EN: TempBanListTxt="Session Banned Clients"
+TempBanListTxt=""
+
+[AdminGUIManBanClientW]
+; EN: PlayerNameTxt="Client name (for banlisting purposes only):"
+PlayerNameTxt=""
+; EN: PlayerIpTxt="Client IP address (or IP range if desired):"
+PlayerIpTxt=""
+; EN: InsertBanTxt="Insert ban"
+InsertBanTxt=""
+
+[MMMainWindow]
+; EN: WindowTitle="Music Menu"
+WindowTitle=""
+
+[UWindowNetErrorClientWindow]
+; EN: ReconnectText="Reconnect to server"
+ReconnectText=""
+; EN: KickNetworkText="KICKED!|You have been kicked from this server by an administrator for remainder of the game.\\"
+KickNetworkText=""
+; EN: BanNetworkText="BANNED!|You have been banned from this server by an administrator for bad behaviour.\\\\If you feel like you don't deserve this ban, contact the administrator at: "
+BanNetworkText=""
+; EN: TempBanNetworkText="SESSION BANNED!|You have been temporarily banned from this server for remainder of the map.\\"
+TempBanNetworkText=""
+
+[MMControlsClient]
+; EN: MusicVolumeText="Music Volume"
+MusicVolumeText=""
+; EN: BrowseText="Browse"
+BrowseText=""
+; EN: BrowseHint="Browse music files"
+BrowseHint=""
+; EN: AddAllText="Add All"
+AddAllText=""
+; EN: AddAllHint="This will search through entire music directory and add all audio tracks to playlist."
+AddAllHint=""
+; EN: AddAllWinHdr="WARNING: Add all songs?"
+AddAllWinHdr=""
+; EN: AddAllWarningText="This operation will be slow and will add every possible song to your playlist, proceed?"
+AddAllWarningText=""
+; EN: AddMusicText="Add Music"
+AddMusicText=""
+; EN: AddMusicHint="Add music with the specified name"
+AddMusicHint=""
+; EN: TimeLimitText="Time Limit"
+TimeLimitText=""
+; EN: TimeLimitHint="Select music playtime in minutes (0 = no time limit)"
+TimeLimitHint=""
+; EN: SectionText="Song Section"
+SectionText=""
+; EN: SectionHint="Set initial music section (0 - 254)"
+SectionHint=""
+; EN: MusicStoppedText="Music player was stopped."
+MusicStoppedText=""
+; EN: PlayTrackHint="Play track"
+PlayTrackHint=""
+; EN: StopTrackHint="Stop track"
+StopTrackHint=""
+; EN: PriorTrackHint="Prior track"
+PriorTrackHint=""
+; EN: NextTrackHint="Next track"
+NextTrackHint=""
+; EN: ShuffleText="Shuffle playlist"
+ShuffleText=""
+; EN: ShuffleHint="Next track is always selected at random."
+ShuffleHint=""
+
+[UWindowNetErrorWindow]
+; EN: WindowTitle="Player Network error status"
+WindowTitle=""
+
+[AdminGUIMainWindow]
+; EN: WindowTitle="Admin Menu"
+WindowTitle=""
+
+[AdminGUIBanLPullDown]
+; EN: RemoveBanTxt="&Remove ban"
+RemoveBanTxt=""
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt=""
+; EN: RefreshTxt="&Refresh banlist"
+RefreshTxt=""
+; EN: ManualBanTxt="&Manually insert ban entry"
+ManualBanTxt=""
+
+[MMMusListWindow]
+; EN: WindowTitle="Multiple music tracks found:"
+WindowTitle=""
+
+[MMListPullDown]
+; EN: PlaySongStr="&Play"
+PlaySongStr=""
+; EN: RemoveSongStr="&Remove from playlist"
+RemoveSongStr=""
+; EN: InsertCurrentSongStr="&Insert currently playing track"
+InsertCurrentSongStr=""
+; EN: ClearPlaylistStr="&Clear playlist"
+ClearPlaylistStr=""
+
+[MMMusicFilesGrid]
+; EN: ErrorLoadPackage="Error: Failed to load music package."
+ErrorLoadPackage=""
+; EN: ErrorNoMusics="Error: Failed to find any musics in this package."
+ErrorNoMusics=""
+
+[AdminGUIPLPullDown]
+; EN: GetAliasesTxt="&Get player aliases"
+GetAliasesTxt=""
+; EN: KickPlayerTxt="&Kick player"
+KickPlayerTxt=""
+; EN: KickBanTempTxt="&Temporarily kick-ban player"
+KickBanTempTxt=""
+; EN: KickBanTxt="Kick-&ban player"
+KickBanTxt=""
+; EN: CloseMenuTxt="&Close this menu"
+CloseMenuTxt=""
+; EN: RefreshTxt="&Refresh players list"
+RefreshTxt=""
+
+[AdminGUIManualBanWnd]
+; EN: WindowTitle="Insert manual ban"
+WindowTitle=""
+
+[AdminGUITBanLGrid]
+; EN: GettingBanListText="Getting temp-banlist from server, if nothing happens you may not be logged in as admin (or there are no temp-bans on server)."
+GettingBanListText=""
+
+; BEWARE WHEN MODIFYING THIS SECTION. This only accepts "package.texture" keys. Make sure you enter the right ones.
+; At any doubt, ask in the forums or Discord.
+[FontStyle]
+SmallFont=UWindowFonts.Tahoma10
+SmallFontBold=UWindowFonts.TahomaB10
+MedFont=UWindowFonts.Tahoma20
+MedFontBold=UWindowFonts.TahomaB20
+LargeFont=UWindowFonts.Tahoma30
+LargeFontBold=UWindowFonts.TahomaB30
+
+[UWindowSmallRestartButton]
+; EN: RestartText="Restart"
+RestartText=""
+
+[WindowConsole]
+; EN: WarningMessage="Something is creating script warnings..."
+WarningMessage=""
