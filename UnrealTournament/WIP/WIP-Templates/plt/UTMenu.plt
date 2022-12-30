@@ -238,7 +238,7 @@ CrosshairSmoothHelp="Włącz wygładzanie do twojego celownika."
 CrosshairAlwaysCenterText="Zawsze wyśrodkuj celownik"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Włącz, aby zawsze wyśrodkować celownik, nawet jeśli trzymasz broń lewą lub prawą ręką."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Przezroczysty celownik"

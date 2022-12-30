@@ -249,8 +249,8 @@ CrosshairSmoothHelp="有効にすると、十字線にスムージングを適�
 CrosshairAlwaysCenterText="常に十字線を中央に配置"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="有効にすると、武器を左手または右手に持っていても、十字線は常に中央に配置されます。"
-; EN: HUDColorValues[10]="cust"
-HUDColorValues[10]="カスタム"
+; Do NOT translate HUDColorValues[10]
+HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="半透明の十字線"
 ; EN: CrosshairTranslucentHelp="Enable to apply translucency to your crosshair."

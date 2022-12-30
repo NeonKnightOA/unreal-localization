@@ -237,8 +237,8 @@ CrosshairSmoothHelp="Ha engedélyezve van, simítást alkalmaz a szálkeresztre.
 CrosshairAlwaysCenterText="Mindig Középre Állítva a Szálkereszt"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Ha engedélyezve van, a szálkereszt mindig középen lesz, még akkor is, ha a fegyverét a bal vagy a jobb kezében tartja."
-; EN: HUDColorValues[10]="cust"
-HUDColorValues[10]="személyre"
+; Do NOT translate HUDColorValues[10]
+HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Átlátszó Szálkereszt"
 ; EN: CrosshairTranslucentHelp="Enable to apply translucency to your crosshair."

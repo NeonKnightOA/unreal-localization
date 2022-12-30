@@ -231,8 +231,8 @@ CrosshairSmoothHelp="Om det är aktiverat, tillämpar utjämning på ditt hårko
 CrosshairAlwaysCenterText="Centrera Alltid Hårkorset"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Om det är aktiverat kommer hårkorset alltid att vara centrerat, även om du håller ditt vapen i vänster eller höger hand."
-; EN: HUDColorValues[10]="cust"
-HUDColorValues[10]="anpassade"
+; Do NOT translate HUDColorValues[10]
+HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Genomskinligt Hårkors"
 ; EN: CrosshairTranslucentHelp="Enable to apply translucency to your crosshair."
