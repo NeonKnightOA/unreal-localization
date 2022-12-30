@@ -281,7 +281,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipular la base de datos Master MD5
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-opción ..] &lt;params&gt;
+HelpUsage=mastermd5 [-opción ..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-c
 HelpParm[0]=-C
@@ -295,22 +295,22 @@ HelpParm[2]=-s
 HelpDesc[2]=Muestra la base de datos actual.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Forzar la revisión de todas las entradas a &lt;param&gt;
+HelpDesc[3]=Forzar la revisión de todas las entradas a <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Desempaquetar archivos UMOD
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;nombre de archivo&gt;
+HelpUsage=umodunpack [-option] <nombre de archivo>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-x
 HelpParm[0]=-X
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Extraiga archivos de &lt;nombre de archivo&gt;
+HelpDesc[0]=Extraiga archivos de <nombre de archivo>
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Lista de archivos en &lt;nombre de archivo&gt; sin extraer.
+HelpDesc[1]=Lista de archivos en <nombre de archivo> sin extraer.
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -333,7 +333,7 @@ HelpCmd=exportcache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Genera entradas de registro de caché para los paquetes especificados.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;paquete.ext&gt; [paquete.ext ...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <paquete.ext> [paquete.ext ...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 HelpParm[0]=-a
 HelpParm[1]=-y

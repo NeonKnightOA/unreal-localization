@@ -42,7 +42,7 @@ MenuName="Skaarj Hybrid"
 
 [multimeshmenu]
 ; EN: MenuCaption="&Force Default Models"
-MenuCaption="&amp; Wymuś domyślne modele"
+MenuCaption="&Wymuś domyślne modele"
 ; EN: MenuHelp="Use the default (Male Soldier) model instead of any custom models"
 MenuHelp="Użyj domyślnego modelu (Male Soldier) zamiast dowolnych niestandardowych modeli"
 

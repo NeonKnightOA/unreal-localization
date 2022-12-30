@@ -6,7 +6,7 @@ Title="Ironique"
 ; EN: Title="Ironic"
 Title="Ironique"
 ; EN: Description="In the solitude of the abandoned coastal platforms of New Argentina, the quiet hum of bird and animal life yields to the roar of rocket fire, and the blast of shock rifles. Looks like R&R has been put on hold for today, so grab some ammo and get out there. It's time for a little old fashioned deathmatch."
-Description="Dans la solitude des plates-formes côtières abandonnées de la Nouvelle Argentine, le bourdonnement silencieux de la vie des oiseaux et des animaux cède la place au rugissement des tirs de roquettes et au souffle des fusils à choc. On dirait que R&amp;R a été mis en attente pour aujourd'hui, alors prenez des munitions et sortez. C'est l'heure d'un petit match à mort à l'ancienne."
+Description="Dans la solitude des plates-formes côtières abandonnées de la Nouvelle Argentine, le bourdonnement silencieux de la vie des oiseaux et des animaux cède la place au rugissement des tirs de roquettes et au souffle des fusils à choc. On dirait que R&R a été mis en attente pour aujourd'hui, alors prenez des munitions et sortez. C'est l'heure d'un petit match à mort à l'ancienne."
 
 [ZoneInfo0]
 ; EN: LocationName="Shock Rifle"

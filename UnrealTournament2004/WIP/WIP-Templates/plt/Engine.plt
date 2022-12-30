@@ -279,7 +279,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipuluj bazą danych Master MD5
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-opcja..] &lt;parametry&gt;
+HelpUsage=mastermd5 [-opcja..] <parametry>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-c
 HelpParm[0]=-C
@@ -293,22 +293,22 @@ HelpParm[2]=-s
 HelpDesc[2]=Pokaż aktualną bazę danych.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Wymuś rewizję wszystkich wpisów do &lt;param&gt;
+HelpDesc[3]=Wymuś rewizję wszystkich wpisów do <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Rozpakuj pliki UMOD
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-opcja] &lt;nazwa pliku&gt;
+HelpUsage=umodunpack [-opcja] <nazwa pliku>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-x
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Wyodrębnij pliki z &lt;nazwa pliku&gt;
+HelpDesc[0]=Wyodrębnij pliki z <nazwa pliku>
 ; EN: HelpParm[1]=-l
 HelpParm[1]=-I
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Lista plików w &lt;nazwa pliku&gt; bez rozpakowywania.
+HelpDesc[1]=Lista plików w <nazwa pliku> bez rozpakowywania.
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -333,7 +333,7 @@ HelpCmd=wyeksportuj pamięć podręczną
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Generuje wpisy rekordów pamięci podręcznej dla określonych pakietów.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;pakiet.roz&gt; [pakiet.roz...] [docelowa nazwapliku.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <pakiet.roz> [pakiet.roz...] [docelowa nazwapliku.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 HelpParm[0]=-a
 HelpParm[1]=-y

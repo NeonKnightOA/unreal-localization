@@ -278,7 +278,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipulieren der Master-MD5-Datenbank
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-option..] &lt;params&gt;
+HelpUsage=mastermd5 [-option..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-c
 HelpParm[0]=-C
@@ -295,21 +295,21 @@ HelpDesc[2]=Zeigt die aktuelle Datenbank an.
 ; EN: HelpParm[3]=-r
 HelpParm[3]=-R
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Erzwinge die Überarbeitung aller Einträge auf &lt;param&gt;
+HelpDesc[3]=Erzwinge die Überarbeitung aller Einträge auf <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=UMOD-Dateien entpacken
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;Dateiname&gt;
+HelpUsage=umodunpack [-option] <Dateiname>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-x
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Dateien aus &lt;Dateiname&gt; extrahieren
+HelpDesc[0]=Dateien aus <Dateiname> extrahieren
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Listen Sie Dateien in &lt;Dateiname&gt; auf, ohne sie zu extrahieren.
+HelpDesc[1]=Listen Sie Dateien in <Dateiname> auf, ohne sie zu extrahieren.
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -332,7 +332,7 @@ HelpCmd=Exportcache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Generiert Cache-Datensatzeinträge für die angegebenen Pakete.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 ; EN: HelpParm[0]=-a
 HelpParm[0]=-ein

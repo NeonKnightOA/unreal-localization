@@ -277,7 +277,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipulera Master MD5-databasen
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-alternativ..] &lt;params&gt;
+HelpUsage=mastermd5 [-alternativ..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-c
 ; EN: HelpDesc[0]=Creates a new MD5 database
@@ -290,21 +290,21 @@ HelpParm[2]=-s
 HelpDesc[2]=Visa den aktuella databasen.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Tvinga revidering av alla poster till &lt;param&gt;
+HelpDesc[3]=Tvinga revidering av alla poster till <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Packa upp UMOD-filer
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;filnamn&gt;
+HelpUsage=umodunpack [-option] <filnamn>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-x
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Extrahera filer från &lt;filnamn&gt;
+HelpDesc[0]=Extrahera filer från <filnamn>
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Lista filer i &lt;filnamn&gt; utan att extrahera.
+HelpDesc[1]=Lista filer i <filnamn> utan att extrahera.
 
 [ServerCommandlet]
 HelpCmd=server
@@ -326,7 +326,7 @@ HelpCmd=exportcache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Genererar cacheposter för de angivna paketen.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 HelpParm[0]=-a
 HelpParm[1]=-y

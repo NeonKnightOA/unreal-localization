@@ -275,7 +275,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipular la base de dades Master MD5
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-opció..] &lt;params&gt;
+HelpUsage=mastermd5 [-opció..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-c
 ; EN: HelpDesc[0]=Creates a new MD5 database
@@ -288,21 +288,21 @@ HelpParm[2]=-s
 HelpDesc[2]=Mostra la base de dades actual.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Força la revisió de totes les entrades a &lt;param&gt;
+HelpDesc[3]=Força la revisió de totes les entrades a <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Descomprimir fitxers UMOD
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-opció] &lt;nom del fitxer&gt;
+HelpUsage=umodunpack [-opció] <nom del fitxer>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-x
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Extreu fitxers de &lt;filename&gt;
+HelpDesc[0]=Extreu fitxers de <filename>
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Llista els fitxers a &lt;filename&gt; sense extreure'ls.
+HelpDesc[1]=Llista els fitxers a <filename> sense extreure'ls.
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -326,7 +326,7 @@ HelpCmd=exportcache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Genera entrades de registre de memòria cau per als paquets especificats.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 HelpParm[0]=-a
 ; EN: HelpParm[1]=-y

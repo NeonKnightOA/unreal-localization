@@ -286,7 +286,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipuler la base de données Master MD5
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-option..] &lt;params&gt;
+HelpUsage=mastermd5 [-option..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-c
 ; EN: HelpDesc[0]=Creates a new MD5 database
@@ -300,22 +300,22 @@ HelpParm[2]=-s
 HelpDesc[2]=Afficher la base de données actuelle.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Forcer la révision de toutes les entrées à &lt;param&gt;
+HelpDesc[3]=Forcer la révision de toutes les entrées à <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Décompressez les fichiers UMOD
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;nom de fichier&gt;
+HelpUsage=umodunpack [-option] <nom de fichier>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-x
 HelpParm[0]=-X
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Extraire les fichiers de &lt;filename&gt;
+HelpDesc[0]=Extraire les fichiers de <filename>
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Lister les fichiers dans &lt;filename&gt; sans extraire.
+HelpDesc[1]=Lister les fichiers dans <filename> sans extraire.
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -339,7 +339,7 @@ HelpCmd=cache d'exportation
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Génère des entrées d'enregistrement de cache pour les packages spécifiés.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 ; EN: HelpParm[0]=-a
 HelpParm[0]=-une

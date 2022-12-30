@@ -19,7 +19,7 @@ Empty="(Pusty)"
 
 [UDmoditem]
 ; EN: MenuCaption="&Demo Manager"
-MenuCaption="&amp; Demo Manager"
+MenuCaption="&Demo Manager"
 ; EN: MenuHelp="Play and Record demos!"
 MenuHelp="Graj i nagrywaj dema!"
 

@@ -279,7 +279,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=マスターMD5データベースを操作する
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-option ..] &lt;params&gt;
+HelpUsage=mastermd5 [-option ..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-c
 HelpParm[0]=-NS
@@ -296,22 +296,22 @@ HelpDesc[2]=現在のデータベースを表示します。
 ; EN: HelpParm[3]=-r
 HelpParm[3]=-NS
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=すべてのエントリの改訂を&lt;param&gt;に強制します
+HelpDesc[3]=すべてのエントリの改訂を<param>に強制します
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=UMODファイルを解凍します
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;ファイル名&gt;
+HelpUsage=umodunpack [-option] <ファイル名>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-x
 HelpParm[0]=-NS
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=&lt;ファイル名&gt;からファイルを抽出します
+HelpDesc[0]=<ファイル名>からファイルを抽出します
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=抽出せずに&lt;filename&gt;内のファイルを一覧表示します。
+HelpDesc[1]=抽出せずに<filename>内のファイルを一覧表示します。
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -334,7 +334,7 @@ HelpCmd=exportcache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=指定されたパッケージのキャッシュレコードエントリを生成します。
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext ...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext ...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 ; EN: HelpParm[0]=-a
 HelpParm[0]=-NS

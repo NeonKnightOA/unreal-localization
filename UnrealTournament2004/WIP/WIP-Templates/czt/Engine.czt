@@ -275,7 +275,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipulujte s hlavní databází MD5
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-option..] &lt;params&gt;
+HelpUsage=mastermd5 [-option..] <params>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-c
 HelpParm[0]=-C
@@ -290,22 +290,22 @@ HelpParm[2]=-s
 HelpDesc[2]=Zobrazit aktuální databázi.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Vynutit revizi všech položek na &lt;param&gt;
+HelpDesc[3]=Vynutit revizi všech položek na <param>
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Rozbalte soubory UMOD
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;název souboru&gt;
+HelpUsage=umodunpack [-option] <název souboru>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 ; EN: HelpParm[0]=-x
 HelpParm[0]=-X
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Extrahujte soubory z &lt;název_souboru&gt;
+HelpDesc[0]=Extrahujte soubory z <název_souboru>
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Seznam souborů v &lt;název_souboru&gt; bez rozbalování.
+HelpDesc[1]=Seznam souborů v <název_souboru> bez rozbalování.
 
 [ServerCommandlet]
 HelpCmd=server
@@ -327,7 +327,7 @@ HelpCmd=exportní cache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Generuje záznamy mezipaměti pro zadané balíčky.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 ; EN: HelpParm[0]=-a
 HelpParm[0]=-A

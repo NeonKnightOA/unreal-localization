@@ -278,7 +278,7 @@ HelpCmd=mastermd5
 ; EN: HelpOneLiner=Manipulate the Master MD5 database
 HelpOneLiner=Manipulálja a Master MD5 adatbázist
 ; EN: HelpUsage=mastermd5 [-option..] <params>
-HelpUsage=mastermd5 [-opció..] &lt;paraméterek&gt;
+HelpUsage=mastermd5 [-opció..] <paraméterek>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-c
 ; EN: HelpDesc[0]=Creates a new MD5 database
@@ -291,21 +291,21 @@ HelpParm[2]=-s
 HelpDesc[2]=Az aktuális adatbázis megjelenítése.
 HelpParm[3]=-r
 ; EN: HelpDesc[3]=Force the revision of all entries to <param>
-HelpDesc[3]=Az összes bejegyzés revíziójának kényszerítése a &lt;param&gt; értékre
+HelpDesc[3]=Az összes bejegyzés revíziójának kényszerítése a <param> értékre
 
 [UModUnpackCommandlet]
 HelpCmd=umodunpack
 ; EN: HelpOneLiner=Unpack UMOD files
 HelpOneLiner=Csomagolja ki az UMOD fájlokat
 ; EN: HelpUsage=umodunpack [-option] <filename>
-HelpUsage=umodunpack [-option] &lt;fájlnév&gt;
+HelpUsage=umodunpack [-option] <fájlnév>
 HelpWebLink=http://unreal.epicgames.com/servertips.htm
 HelpParm[0]=-x
 ; EN: HelpDesc[0]=Extract files from <filename>
-HelpDesc[0]=Fájlok kibontása a &lt;fájlnév&gt; állományból
+HelpDesc[0]=Fájlok kibontása a <fájlnév> állományból
 HelpParm[1]=-l
 ; EN: HelpDesc[1]=List files in <filename> without extracting.
-HelpDesc[1]=Fájlok listázása a &lt;fájlnév&gt; mappában kibontás nélkül.
+HelpDesc[1]=Fájlok listázása a <fájlnév> mappában kibontás nélkül.
 
 [ServerCommandlet]
 ; EN: HelpCmd=server
@@ -328,7 +328,7 @@ HelpCmd=exportcache
 ; EN: HelpOneLIner=Generates cache record entries for the specified packages.
 HelpOneLIner=Gyorsítótár-rekord bejegyzéseket hoz létre a megadott csomagokhoz.
 ; EN: HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
-HelpUsage=exportcache [-a] [-y] [-v] &lt;package.ext&gt; [package.ext...] [destfilename.ucl]
+HelpUsage=exportcache [-a] [-y] [-v] <package.ext> [package.ext...] [destfilename.ucl]
 HelpWebLink=http://unreal.epicgames.com/unrealcaching.htm
 HelpParm[0]=-a
 HelpParm[1]=-y
