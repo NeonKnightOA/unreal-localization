@@ -1,0 +1,153 @@
+[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM|Mutant|BonusPack.Tab_IAMutant|BonusPack.MapListMutant|false")
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xMutantGame,Description="DM | Mutante | BonusPack.Tab_IAMutant | BonusPack.MapListMutant | falso")
+; EN: ;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM|Last Man Standing|BonusPack.Tab_IALastManStanding|BonusPack.MapListLastManStanding|false")
+;Object=(Class=Class,MetaClass=Engine.GameInfo,Name=BonusPack.xLastManStandingGame,Description="DM | El último hombre en pie | BonusPack.Tab_IALastManStanding | BonusPack.MapListLastManStanding | false")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Adds the Camouflage combo (RRRR).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutCrateCombo,Description="Agrega el combo de camuflaje (RRRR).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Adds the Pint-sized combo (LLLL).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=Bonuspack.MutPintSizeCombo,Description="Agrega el combo del tamaño de una pinta (LLLL).")
+
+[ComboCrate]
+; EN: ExecMessage="Camouflaged!"
+ExecMessage="¡Camuflado!"
+
+[ComboMiniMe]
+; EN: ExecMessage="Pint-sized!"
+ExecMessage="¡Miniatura!"
+
+[DamTypeMutant]
+; EN: DeathString="%o suffered a fatal mutation!"
+DeathString="¡%o ha sufrido una mutación fatal!"
+; EN: FemaleSuicide="%o suffered a fatal mutation!"
+FemaleSuicide="¡%o ha sufrido una mutación fatal!"
+; EN: MaleSuicide="%o suffered a fatal mutation!"
+MaleSuicide="¡%o ha sufrido una mutación fatal!"
+
+[HudLMS]
+; EN: LivesRemainingString="Lives Remaining"
+LivesRemainingString="Vidas restantes"
+; EN: PlayersRemainString="Players Remain -- "
+PlayersRemainString="Jugadores Restantes: "
+
+[HudMutant]
+MutantRangeFontName="UT2003Fonts.FontMono"
+; EN: BottomFeederText="BOTTOM FEEDER"
+BottomFeederText="PRESA FÁCIL"
+
+[LMSMessage]
+; EN: YouAreCamperMessage="You Are Camping!"
+YouAreCamperMessage="¡Estás Acampando!"
+SomeoneIsCamperMessage="¡"
+; EN: SomeoneIsCamperMessageTrailer="Is Camping!"
+SomeoneIsCamperMessageTrailer="Está Acampando!"
+
+[MutCrateCombo]
+; EN: CamoDisplayText="Camouflage Combo"
+CamoDisplayText="Combo de Camuflaje"
+; EN: MiniDisplayText="Pint-sized Combo"
+MiniDisplayText="Combo de Miniatura"
+; EN: CamoDescText="When enabled, this adrenaline combo covers you with a holographic projection of a rock or a part of a building"
+CamoDescText="Si se activa, este combo de adrenalina te recubre con una proyección holográfica de una roca o parte de un edificio "
+; EN: MiniDescText="When enabled, this adrenaline combo makes you smaller"
+MiniDescText="Si se activa, este combo de adrenalina te hace parecer más pequeño"
+; EN: FriendlyName="Bonus Combos"
+FriendlyName="Combos de Bonificación"
+; EN: Description="Adds the Pint-sized combo (LLLL) and the Camouflage Combo (RRRR)."
+Description="Añade el Combo de Miniatura (IIII) y el Combo de Camuflaje (DDDD)."
+
+[MutantMessage]
+; EN: YouAreMutantMessage="You Have Mutated!"
+YouAreMutantMessage="¡Has mutado!"
+SomeoneIsMutantMessage="¡"
+; EN: SomeoneIsMutantMessageTrailer="Has Mutated!"
+SomeoneIsMutantMessageTrailer="Ha mutado!"
+; EN: FFAMessage="First Blood Mutates!"
+FFAMessage="¡El primero en verter sangre muta!"
+; EN: BottomFeederMessage="You Are The Bottom Feeder!"
+BottomFeederMessage="¡Eres la Presa Fácil!"
+; EN: NotBottomFeederMessage="No Longer Bottom Feeder!"
+NotBottomFeederMessage="¡Ya no eres más la Presa Fácil!"
+
+[MutantNameMessage]
+; EN: BottomFeederMesg="(BOTTOM FEEDER)"
+BottomFeederMesg="(PRESA FÁCIL)"
+
+[ScoreBoardLMS]
+; EN: LivesText="LIVES"
+LivesText="VIDAS"
+
+[Tab_IALastManStanding]
+; EN: IARulesExtraLives.Caption="Killing Gives Health"
+IARulesExtraLives.Caption="Matar Restaura Salud"
+; EN: IARulesExtraLives.Hint="When selected, a portion of the player's health is restored with each kill."
+IARulesExtraLives.Hint="Si se activa, un jugador ganará salud después de matar a otro jugador."
+; EN: IARulesLMSAllowAdrenaline.Caption="Allow Adrenaline"
+IARulesLMSAllowAdrenaline.Caption="Permitir Adrenalina"
+; EN: IARulesLMSAllowAdrenaline.Hint="When selected, players can use Adrenaline."
+IARulesLMSAllowAdrenaline.Hint="Si se activa, los jugadores podrán utilizar combos de Adrenalina."
+; EN: IARulesLMSAllowPickups.Caption="Allow Pickups"
+IARulesLMSAllowPickups.Caption="Permitir Recogidas"
+; EN: IARulesLMSAllowPickups.Hint="When selected, allow normal pickups."
+IARulesLMSAllowPickups.Hint="Si se activa, se permiten las recogidas normales."
+; EN: IARulesSuperWeaps.Caption="Allow Super Weapons"
+IARulesSuperWeaps.Caption="Permitir Superarmas"
+; EN: IARulesSuperWeaps.Hint="When selected, allow super weapon pickups."
+IARulesSuperWeaps.Hint="Si se activa, se permite recoger superarmas."
+
+[Tab_IAMutant]
+; EN: TargetScoreString="Score Limit"
+TargetScoreString="Límite de Puntuación"
+; EN: IARulesBottomFeeders.Caption="Bottom Feeder"
+IARulesBottomFeeders.Caption="Presa Fácil"
+; EN: IARulesBottomFeeders.Hint="When selected, bottom ranked player(s) can kill anyone."
+IARulesBottomFeeders.Hint="Si se activa, permite que los jugadores de menor rango puedan matar a cualquiera."
+
+[xLastManStandingGame]
+; EN: LMSPropsDisplayText[0]="Camping Threshold"
+LMSPropsDisplayText[0]="Límite de Acampe"
+; EN: LMSPropsDisplayText[1]="Camper Warning Interval"
+LMSPropsDisplayText[1]="Intervalo de Aviso de Acampe"
+; EN: LMSPropsDisplayText[2]="Gain Health For Kills"
+LMSPropsDisplayText[2]="Matar Restaura Salud"
+; EN: LMSPropsDisplayText[3]="Allow SuperWeapons"
+LMSPropsDisplayText[3]="Permitir Superarmas"
+; EN: LMSPropsDisplayText[4]="Camper Alarm"
+LMSPropsDisplayText[4]="Alarma de Acampe"
+; EN: LMSPropsDisplayText[5]="Allow Pickups"
+LMSPropsDisplayText[5]="Permitir Recogidas"
+; EN: LMSPropsDisplayText[6]="Allow Adrenaline"
+LMSPropsDisplayText[6]="Permitir Adrenalina"
+; EN: LMSPropsDisplayText[7]="Full Ammo"
+LMSPropsDisplayText[7]="Munición a Tope"
+; EN: LMSPropDescText[0]="Determines how long a player can stand in one spot before triggering a camper warning."
+LMSPropDescText[0]="Determina el tiempo que un jugador puede estar en un sitio antes de activar el aviso de acampe."
+; EN: LMSPropDescText[1]="Specifies how often the camper warning is played"
+LMSPropDescText[1]="Especifica la frecuencia con la que se reproduce la advertencia de acampe."
+; EN: LMSPropDescText[2]="If this option is enabled, a player gains health after killing another player."
+LMSPropDescText[2]="Si se activa, un jugador ganará salud después de matar a otro jugador."
+; EN: LMSPropDescText[3]="If checked, super weapons are included in the player load out."
+LMSPropDescText[3]="Si se activa, incorpora superarmas al inventario del jugador."
+; EN: LMSPropDescText[4]="Enable this option to cause an alarm to be played if a player stands in one spot too long."
+LMSPropDescText[4]="Si se activa, una alarma sonará si un jugador permanece en un lugar por mucho tiempo."
+; EN: LMSPropDescText[5]="If checked, pickups will be available in the map."
+LMSPropDescText[5]="Si se activa, se permiten las recogidas normales."
+; EN: LMSPropDescText[6]="If checked, adrenaline combos will be enabled."
+LMSPropDescText[6]="Si se activa, los jugadores podrán utilizar combos de Adrenalina."
+; EN: LMSPropDescText[7]="If checked, players start with max ammo for all weapons."
+LMSPropDescText[7]="Si se activa, los jugadores comenzarán con la munición al máximo para todas las armas."
+; EN: GameName="Last Man Standing"
+GameName="Último Hombre en Pie"
+; EN: Description="Each player starts with a limited number of lives.  The goal is to be the last player left when the smoke clears."
+Description="Cada jugador empezará con un número limitado de vidas. El objetivo es ser el último que quede en pie cuando se disipe el humo."
+
+[xMutantGame]
+; EN: MutPropText="Enable BottomFeeder"
+MutPropText="Activar Presa Fácil"
+; EN: MutDescText="If enabled, the player with the lowest score is the BottomFeeder, and can kill other players."
+MutDescText="Si se activa, el jugador con el marcador más bajo es la Presa fácil y puede matar a otros jugadores."
+; EN: GameName="Mutant"
+GameName="Mutante"
+; EN: Description="The first player to score a frag becomes the Mutant. Everyone else hunts the Mutant, as by killing the mutant, a player becomes the mutant, with superhuman powers. The player with the lowest score is the Bottom Feeder. He can also kill other players."
+Description="El primer jugador que consigue una muerte se convierte en el Mutante. Cualquiera podrá cazar al Mutante y, al matarlo, se convertirá en el mutante, con poderes sobrehumanos. El jugador con el marcador más bajo será la Presa Fácil, y también podrá matar a los demás jugadores."
+

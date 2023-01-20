@@ -1,0 +1,332 @@
+[DestroyableObjective1]
+; EN: ObjectiveName="Secondary Dam Controls"
+ObjectiveName="Controles de Represa Secundaria"
+; EN: DestructionMessage="Secondary Dam Shutdown"
+DestructionMessage="Represa Secundaria Apagada"
+; EN: ObjectiveDescription="Destroy the dam controls"
+ObjectiveDescription="Destruye los controles de la Represa"
+; EN: Objective_Info_Attacker="Shutdown Secondary Dam"
+Objective_Info_Attacker="Apaga la Represa Secundaria"
+; EN: Objective_Info_Defender="Defend Secondary Dam"
+Objective_Info_Defender="Defiende la Represa Secundaria"
+
+[DestroyableObjective5]
+; EN: ObjectiveName="Primary Dam Controls"
+ObjectiveName="Controles de Represa Primaria"
+; EN: DestructionMessage="Primary Dam Shutdown"
+DestructionMessage="Represa Primaria Apagada"
+; EN: ObjectiveDescription="Destroy the dam controls"
+ObjectiveDescription="Destruye los controles de la Represa"
+; EN: Objective_Info_Attacker="Shutdown Primary Dam"
+Objective_Info_Attacker="Apaga la Represa Primaria"
+; EN: Objective_Info_Defender="Defend Primary Dam"
+Objective_Info_Defender="Defiende la Represa Primaria"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Depot Door"
+ObjectiveName="Puerta del Depósito"
+; EN: DestructionMessage="Depot Door Destroyed"
+DestructionMessage="Puerta del Depósito Destruida"
+; EN: ObjectiveDescription="Destroy the depot doors blocking your path"
+ObjectiveDescription="Destruye las Puertas del Depósito que interrumpen tu camino"
+; EN: Objective_Info_Attacker="Destroy the Depot Door"
+Objective_Info_Attacker="Destruye la Puerta del Depósito"
+; EN: Objective_Info_Defender="Defend the Depot Door"
+Objective_Info_Defender="Defiende la Puerta del Depósito"
+
+[DestroyableObjective_SM2]
+; EN: ObjectiveName="Blast Door"
+ObjectiveName="Puerta Acorazada"
+; EN: DestructionMessage="Blast Door Breached!"
+DestructionMessage="¡Puerta Acorazada Atravesada!"
+; EN: ObjectiveDescription="Destroy blast door blocking the base exit"
+ObjectiveDescription="Destruye la puerta acorazada que cierra la salida de la base"
+; EN: Objective_Info_Attacker="Destroy the Blast Door"
+Objective_Info_Attacker="Destruye la Puerta Acorazada"
+; EN: Objective_Info_Defender="Defend the Blast Door"
+Objective_Info_Defender="Defiende la Puerta Acorazada"
+
+[DestroyableObjective_SM3]
+; EN: ObjectiveName="Access Tunnel Doors"
+ObjectiveName="Puertas del Túnel de Acceso"
+; EN: DestructionMessage="Access Tunnel Doors Destroyed"
+DestructionMessage="Puertas del Túnel de Acceso Destruidas"
+; EN: ObjectiveDescription="Use the ion tank to destroy the power station access doors"
+ObjectiveDescription="Utiliza el tanque de iones para destruir las puertas de acceso a la estación de energía"
+; EN: Objective_Info_Attacker="Destroy Access Doors"
+Objective_Info_Attacker="Destruye las puertas de acceso"
+; EN: Objective_Info_Defender="Protect Access Doors"
+Objective_Info_Defender="Protege las puertas de acceso"
+
+[HoldObjective0]
+; EN: ObjectiveName="Ion Core Switch"
+ObjectiveName="Conmutador de Núcleo Iónico"
+; EN: DestructionMessage="Ion Core Switch Activated"
+DestructionMessage="Conmutador de Núcleo Iónico Activado"
+; EN: ObjectiveDescription="Pull the core levers to activate the ion core"
+ObjectiveDescription="Mueve las palancas del núcleo para activar el núcleo iónico"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="Activa el Núcleo Iónico"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="Defiende el Núcleo Iónico"
+
+[HoldObjective2]
+; EN: ObjectiveName="Security Gate Controls"
+ObjectiveName="Controles de Portal de Seguridad"
+; EN: DestructionMessage="Security Gate Open"
+DestructionMessage="Portal de Seguridad Abierto"
+; EN: ObjectiveDescription="Pull the power lever to open the security gate"
+ObjectiveDescription="Tira de la palanca para abrir el portal de seguridad"
+; EN: Objective_Info_Attacker="Open Security Gate"
+Objective_Info_Attacker="Abre el Portal de Seguridad"
+; EN: Objective_Info_Defender="Defend Power Station"
+Objective_Info_Defender="Defiende la Estación de Energía"
+
+[HoldObjective4]
+; EN: ObjectiveName="Bridge Controls"
+ObjectiveName="Controles del Puente"
+; EN: DestructionMessage="Bridge Raised"
+DestructionMessage="Puente Elevado"
+; EN: ObjectiveDescription="Use the control box to raise the bridge"
+ObjectiveDescription="Usa la caja de control para elevar el puente"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="Activa el Núcleo Iónico"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="Defiende el Núcleo Iónico"
+
+[HoldObjective5]
+; EN: ObjectiveName="Ion Core Switch"
+ObjectiveName="Conmutador de Núcleo Iónico"
+; EN: DestructionMessage="Ion Core Switch Activated"
+DestructionMessage="Conmutador de Núcleo Iónico Activado"
+; EN: ObjectiveDescription="Pull the core levers to activate the ion core"
+ObjectiveDescription="Mueve las palancas del núcleo para activar el núcleo iónico"
+; EN: Objective_Info_Attacker="Activate the Ion Core"
+Objective_Info_Attacker="Activa el Núcleo Iónico"
+; EN: Objective_Info_Defender="Defend the Ion Core"
+Objective_Info_Defender="Defiende el Núcleo Iónico"
+
+[LevelInfo0]
+; EN: Title="Glacier"
+Title="Glaciar"
+
+[LevelSummary]
+; EN: Title="Glacier"
+Title="Glaciar"
+; EN: Description="In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.  This scenario recreates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.  You must infiltrate the facility, steal the plasma ion tank, and destroy the entire facility."
+Description="En una de las más atrevidas acciones de las usualmente secretas Guerras Corporativas, la instalación de investigación de la corporación Izanagi en Lamdon 3 fue asaltada y destruida por una fuerza de asalto de la corporación Axon Research, a pesar de la protección que ofrecía la fuerza de élite Thunder Crash del N.G.T. Este escenario recrea esa misión. Axon no solo pudo destruir la instalación, sino que también se hizo con el tanque avanzado iónico de plasma que se estaba desarrollando allí. Tienes que infiltrarte en la instalación, robar el tanque y destruir todo el complejo."
+
+[ProximityObjective0]
+; EN: ObjectiveName="Infiltrate Base"
+ObjectiveName="Infíltrate en la Base"
+; EN: DestructionMessage="Base Infiltrated"
+DestructionMessage="Base Penetrada"
+; EN: ObjectiveDescription="Pass through the base doors to infiltrate the base "
+ObjectiveDescription="Supera las puertas para infiltrarte en la base"
+; EN: Objective_Info_Attacker="Infiltrate the Base"
+Objective_Info_Attacker="Infíltrate en la Base"
+; EN: Objective_Info_Defender="Defend the Base"
+Objective_Info_Defender="Defiende la Base"
+
+[ProximityObjective1]
+; EN: ObjectiveName="Infiltrate Base"
+ObjectiveName="Infíltrate en la Base"
+; EN: DestructionMessage="Base Infiltrated"
+DestructionMessage="Base Penetrada"
+; EN: ObjectiveDescription="Pass through the base doors to infiltrate the base "
+ObjectiveDescription="Supera las puertas para infiltrarte en la base"
+; EN: Objective_Info_Attacker="Infiltrate the Base"
+Objective_Info_Attacker="Infíltrate en la Base"
+; EN: Objective_Info_Defender="Defend the Base"
+Objective_Info_Defender="Defiende la Base"
+
+[ProximityObjective9]
+; EN: ObjectiveName="Base Exit"
+ObjectiveName="Salida de la Base"
+; EN: DestructionMessage="The Tank has Escaped"
+DestructionMessage="El Tanque ha Escapado"
+; EN: ObjectiveDescription="Drive the tank out of the base"
+ObjectiveDescription="Lleva el tanque fuera de la base"
+; EN: Objective_Info_Attacker="Escape the Base"
+Objective_Info_Attacker="Escapa de la Base"
+; EN: Objective_Info_Defender="Stop the Tank From Escaping"
+Objective_Info_Defender="Evita que el Tanque Escape"
+
+[SceneSubtitles0]
+; EN: SubTitles=("In one of the most daring acts of the mostly covert Corporation Wars, Izanagi Corporation's research facility on Lamdon 3 was raided and destroyed","by a strike force from the Axon Research Corporation, despite the protection offered by the elite NEG ThunderCrash force.","This scenario re-creates that mission.  Axon was able to not only destroy the facility, but also retrieve the advanced plasma ion tank under development there.","You must infiltrate the facility, steal the Ion Plasma Tank, and destroy the entire facility.","To infiltrate the base you must first cross the frozen lake. Note that the controls to the base access bridge are located within close proximity to the base entrance.","Raising the bridge will considerably shorten the distance for your teammates to enter the base.","Once inside the base you set the ion core to overload, by operating these two switches. ","This will trigger the base's first emergency protocols, opening all exits and allowing you to steal the Ion Tank.","Once you have obtained the tank, continue up the access tunnel toward the power station. The power station feeds power directly from the two hydroelectric dams to the ion core.","To gain access to the dams the security gate must be opened. The controls for the security gate are located within the power station.","The flood valves in the two hydroelectric dams must be opened.","This will cause a power surge big enough to generate a chain reaction within the ion core.","Once the floodgates are open the second emergency protocol will initialize opening all base exits.","With the floodgates open, one objective remains. The only way to escape the base is through the outer wall.","The outer wall has blast doors which are hardened to repel any attack. However they are not entirely invulnerable.","Because of unprecedented power of the ion tank's cannon, several direct shots should be enough to destroy them. When the doors are destroyed drive the tank out to freedom.")
+SubTitles=("En una de las más atrevidas acciones de las usualmente secretas Guerras Corporativas, la instalación de investigación de la corporación Izanagi en Lamdon 3 fue asaltada y destruida","por una fuerza de asalto de la corporación Axon Research, a pesar de la protección que ofrecía la fuerza de élite Thunder Crash del N.G.T.","Este escenario recrea esa misión. Axon no solo pudo destruir la instalación, sino que también se hizo con el tanque avanzado iónico de plasma que se estaba desarrollando allí.","Debes infiltrate en la instalación, robar el tanque de Plasma de Iones, y destruir lo restante de la estructura del centro.","Para infiltrarte en la base debes primero cruzar el lago helado. Ten en cuenta que los controles hacia la base para acceder el puente están localizados cerca de la entrada de la base.","Elevar el puente reducirá considerablemente la distancia para tus compañeros de equipo para que así entren en la base.","Una vez dentro de la base debes programar el núcleo de Iones para que se sobrecargue, operando estos dos interruptores.","Esto empezará el primer protocolo de emergencia de la base, abriendo todas las puertas y permitiendote entrar y robar el tanque de Iones.","Una vez hayas obtenido el tanque, continua hacia arriba por el acceso del tunel hacia la planta eléctrica. La planta eléctrica se alimenta directamente de las dos presas hidroeléctricas al núcleo de Iones.","Para acceder las presas la puerta de seguridad debe estar abierta. Los controles de la puerta de seguridad están situados dentro de la planta de electricidad.","Las válvulas de las dos presas hidroélectricas deben estar abiertas.","Esto causará una sobrecarga suficiente como para generar una reacción en cadena dentro del núcleo de Iones.","Una vez que las puertas de evacución están abiertas el segundo protocolo de emergencia se activará abriendo todas las salidas de la base.","Con las puertas de evacuación abiertas, solo queda un objetivo. El unico modo de escapar de la base es por el muro exterior.","El muro exterior tiene puertas de acero endurecidas para evitar cualquier intento de entrada o salida enemiga. Aun así no son invulnerables.","Con el increible poder del cañón de Iones, varias descargas directas serán más que suficientes para destruirlos. Cuando estas puertas estén destruidas, solo resta conducir el tanque hacia la libertad.")
+
+[TriggeredObjective2]
+; EN: ObjectiveName="Ion Tank"
+ObjectiveName="Tanque de Iones"
+; EN: DestructionMessage="Tank Captured"
+DestructionMessage="Tanque Capturado"
+; EN: Objective_Info_Attacker="Capture the Tank"
+Objective_Info_Attacker="Captura el Tanque"
+; EN: Objective_Info_Defender="Defend the Tank"
+Objective_Info_Defender="Defiende el Tanque"
+
+[Volume0]
+; EN: LocationName="tank hanger exit"
+LocationName="Salida del Hangar del Tanque"
+
+[Volume1]
+; EN: LocationName="left base area"
+LocationName="Zona Izquierda de la Base"
+
+[Volume10]
+; EN: LocationName="right base area"
+LocationName="Zona Derecha de la Base"
+
+[Volume11]
+; EN: LocationName="ion core"
+LocationName="Núcleo Iónico"
+
+[Volume12]
+; EN: LocationName="power station interior"
+LocationName="Interior de Estación de Energía"
+
+[Volume13]
+; EN: LocationName="secondary dam interior"
+LocationName="Interior de Represa Secundaria"
+
+[Volume14]
+; EN: LocationName="secondary dam interior"
+LocationName="Interior de Represa Secundaria"
+
+[Volume15]
+; EN: LocationName="primary dam interior"
+LocationName="Interior de Represa Primaria"
+
+[Volume16]
+; EN: LocationName="primary dam interior"
+LocationName="Interior de Represa Primaria"
+
+[Volume2]
+; EN: LocationName="secondary dam wall"
+LocationName="Muro de Represa Secundaria"
+
+[Volume3]
+; EN: LocationName="left base area"
+LocationName="Zona Izquierda de la Base"
+
+[Volume4]
+; EN: LocationName="rightbase area"
+LocationName="Zona Derecha de la Base"
+
+[Volume6]
+; EN: LocationName="primary dam wall"
+LocationName="Muro de Represa Primaria"
+
+[Volume7]
+; EN: LocationName="base exit"
+LocationName="Salida de la Base"
+
+[Volume8]
+; EN: LocationName="base entrance"
+LocationName="Entrada a la Base"
+
+[Volume9]
+; EN: LocationName="bridge"
+LocationName="Puente"
+
+[ZoneInfo0]
+; EN: LocationName="outside"
+LocationName="Exterior"
+
+[ZoneInfo1]
+; EN: LocationName="storage area"
+LocationName="Zona de Almacenamiento"
+
+[ZoneInfo10]
+; EN: LocationName="left tower entrance"
+LocationName="Entrada a Torre Izquierda"
+
+[ZoneInfo11]
+; EN: LocationName="left tower corridor"
+LocationName="Pasillo de Torre Izquierda"
+
+[ZoneInfo12]
+; EN: LocationName="Tank Hangar"
+LocationName="Hangar del Tanque"
+
+[ZoneInfo13]
+; EN: LocationName="base entrance tunnel"
+LocationName="Túnel de Entrada a la Base"
+
+[ZoneInfo14]
+; EN: LocationName="Tank Hanger"
+LocationName="Hangar del Tanque"
+
+[ZoneInfo15]
+; EN: LocationName="ion core"
+LocationName="Núcleo Iónico"
+
+[ZoneInfo16]
+; EN: LocationName="access tunnel"
+LocationName="Túnel de Acceso"
+
+[ZoneInfo17]
+; EN: LocationName="power station control room"
+LocationName="Sala de Control de Estación de Energía"
+
+[ZoneInfo18]
+; EN: LocationName="base exit control room"
+LocationName="Sala de Control de Salida de Base"
+
+[ZoneInfo19]
+; EN: LocationName="power station corridor "
+LocationName="Pasillo de Estación de Energía"
+
+[ZoneInfo2]
+; EN: LocationName="right tower entrance"
+LocationName="Entrada a la Torre Derecha"
+
+[ZoneInfo20]
+; EN: LocationName="lower power station "
+LocationName="Estación de Energía Inferior"
+
+[ZoneInfo21]
+; EN: LocationName="depot"
+LocationName="Depósito"
+
+[ZoneInfo22]
+; EN: LocationName="secondary dam control room"
+LocationName="Sala de Control de Represa Secundaria"
+
+[ZoneInfo23]
+; EN: LocationName="primary dam control room"
+LocationName="Sala de Control de Represa Primaria"
+
+[ZoneInfo24]
+; EN: LocationName="primary dam observation room"
+LocationName="Sala de Observación de Represa Primaria"
+
+[ZoneInfo25]
+; EN: LocationName="ion core"
+LocationName="Núcleo Iónico"
+
+[ZoneInfo26]
+; EN: LocationName="secondary dam observation room"
+LocationName="Sala de Observación de Represa Secundaria"
+
+[ZoneInfo27]
+; EN: LocationName="base exit control room"
+LocationName="Sala de Control de Salida de Base"
+
+[ZoneInfo3]
+; EN: LocationName="ion core"
+LocationName="Núcleo Iónico"
+
+[ZoneInfo4]
+; EN: LocationName="left tower corridor"
+LocationName="Pasillo de Torre Izquierda"
+
+[ZoneInfo5]
+; EN: LocationName="upper power station"
+LocationName="Estación de Energía Superior"
+
+[ZoneInfo8]
+; EN: LocationName="right tower corridor"
+LocationName="Pasillo de Torre Derecha"
+

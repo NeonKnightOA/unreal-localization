@@ -1,0 +1,122 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Guidance Rocket Switch"
+LocationName="Interruptor de Cohete de Orientación"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Pressure Tanks"
+LocationName="Tanques de Presión"
+
+[Action_DISPLAYMESSAGE0]
+Message="5..."
+
+[Action_DISPLAYMESSAGE1]
+Message="4..."
+
+[Action_DISPLAYMESSAGE2]
+Message="3..."
+
+[Action_DISPLAYMESSAGE3]
+Message="2..."
+
+[Action_DISPLAYMESSAGE5]
+Message="1..."
+
+[Action_DISPLAYMESSAGE6]
+; EN: Message="Pressure tanks destroyed!"
+Message="¡Tanques de Presión Destruidos!"
+
+[DestroyableObjective_SM0]
+; EN: ObjectiveName="SAM Launcher 1"
+ObjectiveName="Lanzador SAM 1"
+; EN: DestructionMessage="SAM Launcher 1 Destroyed!"
+DestructionMessage="¡Lanzador SAM 1 destruido!"
+; EN: ObjectiveDescription="Destroy the SAM launcher to allow the dropship to land."
+ObjectiveDescription="Destruye el Lanzador SAM para permitir que la nave aterrice."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 1"
+Objective_Info_Attacker="Destruye el Lanzador SAM 1"
+; EN: Objective_Info_Defender="Protect SAM Launcher 1"
+Objective_Info_Defender="Protege el Lanzador SAM 1"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="SAM Launcher 2"
+ObjectiveName="Lanzador SAM 2"
+; EN: DestructionMessage="SAM Launcher 2 Destroyed!"
+DestructionMessage="¡Lanzador SAM 2 destruido!"
+; EN: ObjectiveDescription="Destroy the SAM launcher to allow the dropship to land."
+ObjectiveDescription="Destruye el Lanzador SAM para permitir que la nave aterrice."
+; EN: Objective_Info_Attacker="Destroy SAM Launcher 2"
+Objective_Info_Attacker="Destruye el Lanzador SAM 2"
+; EN: Objective_Info_Defender="Protect SAM Launcher 2"
+Objective_Info_Defender="Protege el Lanzador SAM 2"
+
+[HoldObjective0]
+; EN: ObjectiveName="Main Rocket Launch Switch"
+ObjectiveName="Interruptor Principal de Lanzamiento de Cohetes"
+; EN: DestructionMessage="Rocket Launched!"
+DestructionMessage="¡El Cohete ha sido Lanzado!"
+; EN: ObjectiveDescription="Launch the Main Rocket"
+ObjectiveDescription="Lanza el Cohete Principal"
+; EN: Objective_Info_Attacker="Launch the Main Rocket"
+Objective_Info_Attacker="Lanza el Cohete Principal"
+; EN: Objective_Info_Defender="Defend the Main Rocket Switch"
+Objective_Info_Defender="Defiende el Interruptor Principal del Cohete"
+
+[HoldObjective1]
+; EN: ObjectiveName="Guidance Rocket"
+ObjectiveName="Cohete de Orientación"
+; EN: DestructionMessage="Guidance Rocket Launched!"
+DestructionMessage="¡Cohete de Orientación Lanzado!"
+; EN: ObjectiveDescription="Launch the Guidance Rocket, it is required for a successful launch of the main rocket."
+ObjectiveDescription="Lanza el Cohete de Orientación, es necesario para que el cohete principal sea lanzado exitosamente."
+; EN: Objective_Info_Attacker="Launch the Guidance Rocket"
+Objective_Info_Attacker="Lanza el Cohete de Orientación"
+; EN: Objective_Info_Defender="Defend the Guidance Rocket"
+Objective_Info_Defender="Defiende el Cohete de Orientación"
+
+[HoldObjective5]
+ObjectiveName="DockObjective"
+; EN: DestructionMessage="The explosives are in place!"
+DestructionMessage="¡Los explosivos están en su lugar!"
+; EN: ObjectiveDescription="Place explosives on the pressure tanks to reduce hydraulic pressure and open the security door."
+ObjectiveDescription="Coloque explosivos en los tanques de presión para reducir la presión hidráulica y abra la puerta de seguridad."
+; EN: Objective_Info_Attacker="Place explosives on the pressure tanks"
+Objective_Info_Attacker="Coloca explosivos en los tanques de presión"
+; EN: Objective_Info_Defender="Defend the pressure tanks"
+Objective_Info_Defender="Defiende los tanques de presión"
+
+[LevelInfo0]
+; EN: Title="Thrust"
+Title="Lanzamiento"
+; EN: LocationName="Outside"
+LocationName="Afueras"
+
+[LevelSummary]
+; EN: Title="Thrust"
+Title="Lanzamiento"
+; EN: Description="A recreation of the infamous destruction of the Saturn IX PCNR rocket where a crack team of anti-NEG rebels stormed the launch facility and scuttled the rocket by launching it unguided and half-fueled."
+Description="Una recreación de la infame destrucción del cohete Saturn IX PCNR donde un equipo de rebeldes anti-N.G.T. irrumpió en la instalación de lanzamiento y hundió el cohete lanzándolo sin guía y con la mitad de combustible."
+
+[SceneSubtitles0]
+; EN: SubTitles=("This scenario recreates the premature launching of the half-fueled Saturn IX rocket by anti-NEG rebels.","First, your team must toggle the switch on the roof of this small building to launch the Guidance Rocket, which serves as a necessary navigational beacon for the Main Rocket.","If you wish, you may choose to secure the auxiliary landing pad by destroying two these SAM launchers. If the SAM site is destroyed, your team then may spawn at the landing pad, and an airstrike will drastically weaken the enemy defenses at your next objective.","Place and detonate explosives on the hydraulic pressure tanks. This will open all base doors, and allow access to the facility's main control room.","Finally, you will need to activate the launch switch inside Mission Control before final fueling is complete.  This will scuttle the Main Rocket into an improper launch orbit.")
+SubTitles=("Este escenario recrea el lanzamiento prematuro del cohete Saturn IX, con su tanque a medio llenar, por parte de fuerzas rebeldes anti-N.G.T.","Primero, deberán activar el interruptor en el techo de este pequeño edificio para lanzar el Cohete de Orientación, el cual oficia de guía necesaria para el Cohete Principal.","Opcionalmente, quizás quieran activar la bahía de aterrizaje alternativa destruyendo estos dos lanzadores SAM. Si el sitio SAM es destruido, su equipo entonces podrá reaparecer en la bahía de aterrizaje, y un ataque aéreo debilitará drásticamente las defensas enemigas en su siguiente objetivo.","Deberán colocar y detonar los explosivos en los tanques de presión hidráulicos. Esto abrirá todas las puertas de la base, y permitirá el acceso a la sala principal de controles del edificio.","Finalmente, deberán activar el interruptor de lanzamiento dentro del Control de Misiones antes de que se complete el llenado del tanque. Esto lanzará el Cohete Principal hacia una órbita de lanzamiento no apta.")
+
+[Volume0]
+; EN: LocationName="SAM Platform"
+LocationName="Plataforma SAM"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Afueras"
+
+[ZoneInfo1]
+; EN: LocationName="Guidance Rocket Building"
+LocationName="Edificio de Cohetes de Orientación"
+
+[ZoneInfo2]
+; EN: LocationName="Defender Spawn in Rocket Building"
+LocationName="Aparición de Defensores en el Edificio del Cohete"
+
+[ZoneInfo3]
+; EN: LocationName="Rocket Control Room"
+LocationName="Sala de Control de Cohetes"
+

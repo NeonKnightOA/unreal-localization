@@ -1,0 +1,190 @@
+[ASCriticalObjectiveVolume0]
+; EN: LocationName="Central Office"
+LocationName="Oficina Central"
+
+[ASCriticalObjectiveVolume1]
+; EN: LocationName="Right Lock"
+LocationName="Cierre Derecho"
+
+[ASCriticalObjectiveVolume2]
+; EN: LocationName="Left Lock"
+LocationName="Cierre Izquierdo"
+
+[ASCriticalObjectiveVolume3]
+; EN: LocationName="Left Lock"
+LocationName="Cierre Izquierdo"
+
+[ASCriticalObjectiveVolume4]
+; EN: LocationName="Right Lock"
+LocationName="Cierre Derecho"
+
+[ASCriticalObjectiveVolume5]
+; EN: LocationName="Inside Vault"
+LocationName="Dentro de la Bóveda"
+
+[ASCriticalObjectiveVolume6]
+; EN: LocationName="Radio Terminal"
+LocationName="Terminal de Radio"
+
+[ASOBJ_EnergyCore_Delivery0]
+; EN: Objective_Info_Attacker="Upload Data Stick At The Computer Terminal"
+Objective_Info_Attacker="Carga la Unidad de Datos en la Terminal de Cómputo"
+; EN: Objective_Info_Defender="Protect The Computer Terminal"
+Objective_Info_Defender="Protege la Terminal de Cómputo"
+
+[ASOBJ_EnergyCore_Delivery1]
+; EN: DestructionMessage="Antenna Realigned!"
+DestructionMessage="¡Antena Realineada!"
+; EN: Objective_Info_Attacker="Realign The Antenna"
+Objective_Info_Attacker="Vuelve a Alinear la Antena"
+; EN: Objective_Info_Defender="Protect The Antenna"
+Objective_Info_Defender="Protege la Antena"
+
+[ASOBJ_EnergyCore_Spawn0]
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" ha soltado la Unidad de Datos!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="¡Unidad de Datos caída!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="¡Unidad de Datos recogida!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" ha recogido la Unidad de Datos!"
+; EN: PlayerCoreReset="Data Stick reset!"
+PlayerCoreReset="¡La Unidad de Datos ha vuelto a su lugar de origen!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="La Demostración"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="¡La Unidad de Datos ha sido robada!"
+; EN: ObjectiveDescription="Data Stick"
+ObjectiveDescription="Unidad de Datos"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="¡Obtén la Unidad de Datos!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="¡Protege la Unidad de Datos!"
+
+[ASOBJ_EnergyCore_Spawn1]
+; EN: PlayerDroppedMessage=" dropped the Data Stick!"
+PlayerDroppedMessage=" ha soltado la Unidad de Datos!"
+; EN: DroppedMessage="Data Stick dropped!"
+DroppedMessage="¡Unidad de Datos caída!"
+; EN: EnergyCorePickedUp="Data Stick picked up!"
+EnergyCorePickedUp="¡Unidad de Datos recogida!"
+; EN: PlayerPickedUpEnergyCore=" picked up the Data Stick!"
+PlayerPickedUpEnergyCore=" ha recogido la Unidad de Datos!"
+; EN: ObjectiveName="Teh Demo"
+ObjectiveName="La Demostración"
+; EN: DestructionMessage="The data stick has been stolen!"
+DestructionMessage="¡La Unidad de Datos ha sido robada!"
+; EN: ObjectiveDescription="Data Stick"
+ObjectiveDescription="Unidad de Datos"
+; EN: Objective_Info_Attacker="Get the Data Stick!"
+Objective_Info_Attacker="¡Obtén la Unidad de Datos!"
+; EN: Objective_Info_Defender="Protect the Data Stick!"
+Objective_Info_Defender="¡Protege la Unidad de Datos!"
+
+[DestroyableObjective_SM0]
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="¡Cerradura de Puerta Destruida!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls"
+Objective_Info_Attacker="Destruye los Controles de la Puerta Principal"
+; EN: Objective_Info_Defender="Protect The Front Door Controls"
+Objective_Info_Defender="Protege los Controles de la Puerta Principal"
+
+[DestroyableObjective_SM1]
+; EN: ObjectiveName="Data Shield"
+ObjectiveName="Escudo de Datos"
+; EN: DestructionMessage="Data Shield Destroyed!"
+DestructionMessage="¡Escudo de Datos Destruido!"
+; EN: ObjectiveDescription="Destroy the data shield."
+ObjectiveDescription="Destruye el Escudo de Datos."
+; EN: Objective_Info_Attacker="Destroy the data shield"
+Objective_Info_Attacker="Destruye el Escudo de Datos"
+; EN: Objective_Info_Defender="Defend the data shield"
+Objective_Info_Defender="Defiende el Escudo de Datos"
+
+[DestroyableObjective_SM2]
+; EN: DestructionMessage="Door Lock Destroyed!"
+DestructionMessage="¡Cerradura de Puerta Destruida!"
+; EN: Objective_Info_Attacker="Destroy The Front Door Controls"
+Objective_Info_Attacker="Destruye los Controles de la Puerta Principal"
+; EN: Objective_Info_Defender="Protect The Front Door Controls"
+Objective_Info_Defender="Protege los Controles de la Puerta Principal"
+
+[DestroyableObjective_SM4]
+; EN: DestructionMessage="Front Gate Destroyed!"
+DestructionMessage="¡Puerta Principal Destruida!"
+; EN: Objective_Info_Attacker="Destroy The Main Gate"
+Objective_Info_Attacker="Destruye la Puerta Principal"
+; EN: Objective_Info_Defender="Protect The Main Gate"
+Objective_Info_Defender="Protege la Puerta Principal"
+
+[HoldObjective1]
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="¡Cerradura de la Bóveda Abierta!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault"
+Objective_Info_Attacker="Usa las Llaves para Abrir la Bóveda"
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault"
+Objective_Info_Defender="Protege la Entrada a la Bóveda"
+
+[HoldObjective2]
+; EN: DestructionMessage="Vault Lock Opened!"
+DestructionMessage="¡Cerradura de la Bóveda Abierta!"
+; EN: Objective_Info_Attacker="Use The Keys To Open The Vault"
+Objective_Info_Attacker="Usa las Llaves para Abrir la Bóveda"
+; EN: Objective_Info_Defender="Protect The Entrance To The Vault"
+Objective_Info_Defender="Protege la Entrada a la Bóveda"
+
+[HoldObjective3]
+; EN: DestructionMessage="The Keys Have Been Stolen!"
+DestructionMessage="¡Las Llaves han sido Robadas!"
+; EN: Objective_Info_Attacker="Get the keys from the Central Office"
+Objective_Info_Attacker="Obtén las llaves de la Oficina Central"
+; EN: Objective_Info_Defender="Protect the Central Office"
+Objective_Info_Defender="Protege la Oficina Central"
+
+[LevelInfo0]
+; EN: Title="Sub Rosa"
+Title="Sub Rosa"
+
+[LevelSummary]
+; EN: Title="Sub Rosa"
+Title="Sub Rosa"
+; EN: Description="Every rose has thorns, and even the most pristine worlds can hide sinister intentions."
+Description="Cada rosa tiene espinas, e incluso los mundos más prístinos pueden ocultar intenciones siniestras."
+
+[SceneSubtitles0]
+; EN: SubTitles=("This scenario recreates the invasion of the Central Liandri Information compound by NEG forces.","The New Earth Government discovered that the Liandri were transferring experimental weapons data through the facility, and sent an elite squad in to retrieve the research.","The attackers must first make their way to the compound and destroy the main gate to get into the courtyard.",,"Then you must destroy the front door controls to gain access to the main building.",,"Once inside, you must make your way to the central office to get the keys to the vault.",,"Next, use the keys to open the vault doors.",,"Once inside the vault, you must destroy the protective shield around the data stick.","Then, you must deliver the data stick to the access station in order to realign the antenna.",,"Finally, you must move the updated data from the antenna to the terminal, and transmit the weapon data to the NEG.",)
+SubTitles=("Este escenario recrea la invasión por parte de las fuerzas del N.G.T. al complejo de Información Central de Liandri.","El Nuevo Gobierno de la Tierra había descubierto que Liandri estaba transfiriendo datos sobre experimentación con fines bélicos por todo su complejo, y envió a sus mejores hombres a recolectar tales investigaciones.","Primero, los atacantes deberán ingresar al complejo y destruir la puerta principal que lleva al jardín.",,"Luego, deberán destruir los controles frontales para ingresar a la instalación principal.",,"Una vez dentro, deberán llegar a las oficinas centrales para obtener las llaves hacia la bóveda.",,"Luego, utilicen las llaves para abrir las puertas de la bóveda.",,"Una vez dentro de la bóveda, deberán destruir el escudo protector alrededor de la Unidad de Datos.","Luego, deberán llevar la Unidad de Datos a la estación de acceso para poder realinear la antena.",,"Finalmente, deberán cargar los datos actualizados de la antena a la terminal, y transmitir los datos de armas al N.G.T..",)
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Afueras"
+
+[ZoneInfo1]
+; EN: LocationName="Main Hall"
+LocationName="Sala Principal"
+
+[ZoneInfo2]
+; EN: LocationName="Office"
+LocationName="Oficina"
+
+[ZoneInfo3]
+; EN: LocationName="Vault Locks"
+LocationName="Cerraduras de Bóveda"
+
+[ZoneInfo4]
+; EN: LocationName="Vault Locks"
+LocationName="Cerraduras de Bóveda"
+
+[ZoneInfo5]
+; EN: LocationName="Vault Locks"
+LocationName="Cerraduras de Bóveda"
+
+[ZoneInfo6]
+; EN: LocationName="Inside Vault"
+LocationName="Dentro de la Bóveda"
+
+[ZoneInfo7]
+; EN: LocationName="Radio Terminal"
+LocationName="Terminal de Radio"
+
