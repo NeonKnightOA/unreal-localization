@@ -13,7 +13,7 @@
 * **_French:_** **Hellkeeper** (Unreal and UT reviews), **Rackover/Louvenarde** (additional contributions)
 * **_Spanish:_** **Neon_Knight** (Unreal and UT reviews), **rarsonic** (additional contributions)
 * **_Italian:_** **Alby1987** (UT review), **UBerserker, BBG-(DOG)-, Lowenz** and **TaglesMalsto** (additional contributions)
-* **_Russian:_** **u.HighPriest** (Unreal localization), **Reborn** (Unreal and UT reviews) **Skaarj ZR, FLAK, ArchGrey** and **Sergei** (additional contributions)
+* **_Russian:_** **u.HighPriest** (Unreal localization), **Reborn** (Unreal and UT reviews) **Skaarj ZR, FLAK, ArchGrey, Sergei** and **arctic0cat** (additional contributions)
 * **_Polish:_** **Victor Delacroix** (Unreal review), **yrex.** (additional contributions)
 * **_Portuguese:_** **Nahand** (Unreal localization), **BIr4** (Unreal review), **Naruto_9** (additional contributions)
 * **_Hungarian:_** **Relaks** (Unreal localization) **Victor Delacroix, MakeMeUnreal** and **Gabor Kovacs** (additional contributions)
