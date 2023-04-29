@@ -1,0 +1,17 @@
+﻿[LevelInfo2]
+; EN: Title="Intermission 5"
+Title="Intermisión 5"
+; EN: LevelEnterText="Ich gruesse Mami, Pappi und Tante Hildtraut."
+LevelEnterText="Mami, Papi y el Tío Montoto son mis amores."
+
+[LevelSummary]
+; EN: Title="Intermission 5"
+Title="Intermisión 5"
+; EN: LevelEnterText="Ich gruesse Mami, Pappi und Tante Hildtraut."
+LevelEnterText="Mami, Papi y el Tío Montoto son mis amores."
+
+[TransitionGenderEvent5]
+; N_K: Make the texts and their length coincide with their equivalents in Sounds/es_art/Interm5.uax - the audio is FLog06c/Mlog06c for Female and Male respectively.
+OutDelays[1]=35.000000
+MaleText[0]="Reventé a los Marines, pero no se de donde vinieron. Su nave debió volver al Bodega Bay. Cuando me di cuenta de que había desaparecido, casi me rendí. Me sentí totalmente decepcionado. Pero la última vez que estuve aquí casi ni la cuento, y así y todo logré escapar. Así que decidí seguir intentándolo. Y menos mal que lo hice, porque aún hay esperanzas. Uno de los marines llevaba una radio con una frecuencia abierta. Hay otra escuadra a unos diez kilómetros al Oeste, refugiados en una especie de castillo. No se cómo voy a llegar ahí, pero tienen una nave de fuga, ¡y cueste lo que cueste me la voy a llevar!"
+FemaleText[0]="Reventé a los Marines, pero no se de donde vinieron. Su nave debió volver al Bodega Bay. Cuando me di cuenta de que había desaparecido, casi me rendí. Me sentí totalmente decepcionada. Pero la última vez que estuve aquí casi ni la cuento, y así y todo logré escapar. Así que decidí seguir intentándolo. Y menos mal que lo hice, porque aún hay esperanzas. Uno de los marines llevaba una radio con una frecuencia abierta. Hay otra escuadra a unos diez kilómetros al Oeste, refugiados en una especie de castillo. No se cómo voy a llegar ahí, pero tienen una nave de fuga, ¡y cueste lo que cueste me la voy a llevar!"
